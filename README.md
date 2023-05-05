@@ -15,12 +15,12 @@ StarRailRes
   ├─ guide                  # Guide images
   ├─ icon                   # Icons for drawing
   ├─ image                  # Previews and portraits, etc.
-  ├─ character.json         # Character resouces index
-  ├─ consumable.json        # Consumable resouces index
-  ├─ light_cone.json        # Light cone resouces index
-  ├─ mapping_cn.json        # 中英文名称对照文件
-  ├─ mapping_jp.json        # 日本語/英語名対照ファイル
-  └─ mapping_kr.json        # 한글/영어 이름 매핑 파일
+  ├─ character_cn.json      # 角色资源索引
+  ├─ character_en.json      # Character resouces index
+  ├─ consumable_cn.json     # 消耗品资源索引
+  ├─ consumable_en.json     # Consumable resouces index
+  ├─ light_cone_cn.json     # 光锥资源索引
+  └─ light_cone_cn.json     # Light cone resouces index
 ```
 
-使用中文名称搜索时，通过 `mapping_cn.json` 找到对应的资源索引名称，之后通过索引名称在 `character.json` 等文件中查找对应角色等的资源信息，所有相对路径均相对本工程的根目录。别名映射正在完善中，目前只能通过完整的原始名称匹配。
+使用中文名称搜索时，通过 `character_cn.json` 等查找对应角色等的资源信息，所有相对路径均相对本工程的根目录。别名映射正在完善中，目前只能通过完整的原始名称（去除全部特殊符号）匹配。
