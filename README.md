@@ -20,7 +20,10 @@ StarRailRes
   ├─ consumable_cn.json     # 消耗品资源索引
   ├─ consumable_en.json     # Consumable resouces index
   ├─ light_cone_cn.json     # 光锥资源索引
-  └─ light_cone_cn.json     # Light cone resouces index
+  ├─ light_cone_cn.json     # Light cone resouces index
+  └─ nickname_cn.json       # 别名映射列表
 ```
 
-使用中文名称搜索时，通过 `character_cn.json` 等查找对应角色等的资源信息，所有相对路径均相对本工程的根目录。别名映射正在完善中，目前只能通过完整的原始名称（去除全部特殊符号）匹配。
+使用中文名称搜索时，通过 `character_cn.json` 等查找对应角色等的资源信息，所有相对路径均相对本工程的根目录。如需使用别名映射，可以在 `nickname_cn.json` 的 `character` 等中获取别名列表并构造反向词典查询。所有名称不包含特殊符号。
+
+When searching by English name, use `character_en.json` to find the resources of the corresponding character, etc. All relative paths are relative to the root directory of this project. All names contain only letters and numbers, excluding spaces, brackets and punctuation, etc.
