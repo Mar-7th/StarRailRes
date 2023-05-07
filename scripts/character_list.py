@@ -1,22 +1,21 @@
 import json
 from pathlib import Path
 
-character_index_list = [
-    Path("./character_cn.json"),
-    Path("./character_en.json")
-]
+character_index_list = [Path("./character_cn.json"), Path("./character_en.json")]
 
 icon_path = Path("./icon/character")
 preview_path = Path("./image/character_preview")
 portrait_path = Path("./image/character_portrait")
 character_overview_path_list = [
     Path("./guide/Nwflower/character_overview"),
-    Path("./guide/OriginMirror/character_overview")
+    Path("./guide/OriginMirror/character_overview"),
 ]
 character_material_path = Path("./guide/Nwflower/character_material")
 
+
 def path_to_str(path):
     return str(path).replace("\\", "/")
+
 
 def search_info(path, name):
     file_name = name.replace(" ", "").replace(":", "").replace("_", "").strip()
@@ -27,19 +26,16 @@ def search_info(path, name):
         return path_to_str(path / (file_name + ".png"))
     #
     if file_name in [
-            "TrailblazerBoyPhysical", 
-            "TrailblazerGirlPhysical", 
-            "TrailblazerBoyFire", 
-            "TrailblazerGirlFire"
-        ]:
+        "TrailblazerBoyPhysical",
+        "TrailblazerGirlPhysical",
+        "TrailblazerBoyFire",
+        "TrailblazerGirlFire",
+    ]:
         file_name = file_name.replace("Boy", "").replace("Girl", "")
     if file_name in files_name:
         return path_to_str(path / (file_name + ".png"))
     #
-    if file_name in [
-            "TrailblazerPhysical", 
-            "TrailblazerFire"
-        ]:
+    if file_name in ["TrailblazerPhysical", "TrailblazerFire"]:
         file_name = file_name.replace("Physical", "").replace("Fire", "")
     if file_name in files_name:
         return path_to_str(path / (file_name + ".png"))
@@ -49,22 +45,20 @@ def search_info(path, name):
     if file_name in files_name:
         return path_to_str(path / (file_name + ".png"))
     #
-    if file_name in [
-        "TrailblazerPhysical", 
-        "TrailblazerFire"
-    ]:
+    if file_name in ["TrailblazerPhysical", "TrailblazerFire"]:
         file_name = file_name.replace("Trailblazer", "TrailblazerGirl")
     if file_name in files_name:
         return path_to_str(path / (file_name + ".png"))
     #
     return None
 
+
 def main():
     for character_index in character_index_list:
         character_index_new = dict()
         with open(character_index, "r", encoding="utf-8") as f:
             index = json.load(f)
-        for k,v in index.items():
+        for k, v in index.items():
             item_dict = dict()
             item_dict["name"] = v["name"]
             item_dict["rarity"] = v["rarity"]
@@ -79,10 +73,16 @@ def main():
                 if overview_item:
                     overview.append(overview_item)
             item_dict["character_overview"] = overview
-            item_dict["character_material"] = search_info(character_material_path, item_dict["name"]) or ""
+            item_dict["character_material"] = (
+                search_info(character_material_path, item_dict["name"]) or ""
+            )
             character_index_new[k] = item_dict
+        character_index_new = dict(
+            sorted(character_index_new.items(), key=lambda x: x[1]["name"])
+        )
         with open(character_index, "w", encoding="utf-8") as f:
-            f.write(json.dumps(character_index_new, indent=4,ensure_ascii=False))
+            f.write(json.dumps(character_index_new, indent=4, ensure_ascii=False))
+
 
 if __name__ == "__main__":
     main()
