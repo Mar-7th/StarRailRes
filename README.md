@@ -12,23 +12,26 @@ The file structure of this project is as follows:
 
 ```text
 StarRailRes
-  ├─ guide                  # Guide images
-  ├─ icon                   # Icons for drawing
-  ├─ image                  # Previews and portraits, etc.
-  ├─ scripts                # Auto update index scripts
-  ├─ character_cn.json      # 角色资源索引
-  ├─ character_en.json      # Character resouces index
-  ├─ light_cone_cn.json     # 光锥资源索引
-  ├─ light_cone_cn.json     # Light cone resouces index
-  ├─ relic_cn.json          # 遗器资源索引
-  ├─ relic_en.json          # Relic resouces index
-  ├─ consumable_cn.json     # 消耗品资源索引
-  ├─ consumable_en.json     # Consumable resouces index
-  ├─ nickname_cn.json       # 别名映射列表
-  ├─ element.json           # Element resouces index
-  └─ path.json              # Path resouces index
+  ├─ guide                     # Guide images
+  ├─ icon                      # Icons for drawing
+  ├─ image                     # Previews and portraits, etc.
+  ├─ scripts                   # Auto update index scripts
+  |   ├─ character_list.py     # Character index update script 
+  |   └─ light_cone_list.py    # Light cone index update script
+  └─ index                     # Index files
+      ├─ cn                    # 中文索引
+      |  ├─ characters.json    # 角色数据与资源索引
+      |  ├─ light_cones.json   # 光锥数据与资源索引
+      |  ├─ nickname.json      # 角色与光锥名称词典
+      |  ├─ elements.json      # 元素数据与资源索引
+      |  └─ paths.json         # 命途数据与资源索引
+      └─ en                    # English index
+         ├─ characters.json    # Character data & resource index
+         ├─ light_cones.json   # Light cone data & resource index
+         ├─ elements.json      # Element data & resource index
+         └─ paths.json         # Path data & resource index
 ```
 
-使用中文名称搜索时，通过 `character_cn.json` 等查找对应角色等的资源信息，所有相对路径均相对本工程的根目录。如需使用别名映射，可以在 `nickname_cn.json` 的 `character` 等中获取别名列表并构造反向词典查询。所有名称不包含特殊符号。
+使用 `id` 搜索时，可直接通过 `character.json` 等查找对应角色等的资源信息，所有相对路径均相对本工程的根目录。如需使用别名映射，可以在 `nickname.json` 的 `characters` 等中获取别名列表并构造反向词典查询。`nickname` 中所有名称不包含特殊符号。
 
-When searching by English name, use `character_en.json` to find the resources of the corresponding character, etc. All relative paths are relative to the root directory of this project. All names contain only letters and numbers, excluding spaces, brackets and punctuation, etc.
+When searching by id, use `character.json` to find the resources of the corresponding character, etc. All relative paths are relative to the root directory of this project.
