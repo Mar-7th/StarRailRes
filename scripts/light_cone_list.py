@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-light_cone_index_list = [Path("./light_cone_cn.json"), Path("./light_cone_en.json")]
+light_cone_index_list = [Path("./index/cn/light_cones.json"), Path("./index/en/light_cones.json")]
 
 icon_path = Path("./icon/light_cone")
 preview_path = Path("./image/light_cone_preview")
@@ -16,8 +16,7 @@ def path_to_str(path):
     return str(path).replace("\\", "/")
 
 
-def search_info(path, name):
-    file_name = name.replace(" ", "").replace(":", "").replace("_", "").strip()
+def search_info(path, file_name:str):
     files = path.glob("*.png")
     files_name = [x.stem for x in files]
     if file_name in files_name:
@@ -31,21 +30,15 @@ def main():
         with open(light_cone_index, "r", encoding="utf-8") as f:
             index = json.load(f)
         for k, v in index.items():
-            item_dict = dict()
-            item_dict["name"] = v["name"]
-            item_dict["rarity"] = v["rarity"]
-            item_dict["path"] = v["path"]
-            item_dict["icon"] = search_info(icon_path, item_dict["name"]) or ""
+            item_dict = v
+            item_dict["icon"] = search_info(icon_path, k) or ""
             overview = []
             for light_cone_overview_path in light_cone_overview_path_list:
-                overview_item = search_info(light_cone_overview_path, item_dict["name"])
+                overview_item = search_info(light_cone_overview_path, k)
                 if overview_item:
                     overview.append(overview_item)
             item_dict["light_cone_overview"] = overview
             light_cone_index_new[k] = item_dict
-        light_cone_index_new = dict(
-            sorted(light_cone_index_new.items(), key=lambda x: x[1]["name"])
-        )
         with open(light_cone_index, "w", encoding="utf-8") as f:
             f.write(json.dumps(light_cone_index_new, indent=4, ensure_ascii=False))
 
