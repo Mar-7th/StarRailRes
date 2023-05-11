@@ -12,18 +12,18 @@ The file structure of this project is as follows:
 
 ```text
 StarRailRes
-├─ guide                     # Guide images
-├─ icon                      # Icons for drawing
-├─ image                     # Previews and portraits, etc.
-|─ index                     # Index files
-|  ├─ cn                    # 中文
+├─ guide                    # Guide images
+├─ icon                     # Icons for drawing
+├─ image                    # Previews and portraits, etc.
+|─ index                    # Index files
+|  ├─ cn                    # 中文索引
 |  |  ├─ characters.json    # 角色数据与资源索引
 |  |  ├─ light_cones.json   # 光锥数据与资源索引
 |  |  ├─ relics.json        # 遗器数据与资源索引
 |  |  ├─ elements.json      # 元素数据与资源索引
 |  |  ├─ paths.json         # 命途数据与资源索引
 |  |  └─ nickname.json      # 角色与光锥名称词典
-|  └─ en                    # English
+|  └─ en                    # English index
 |     ├─ characters.json    # Characters data & resource index
 |     ├─ light_cones.json   # Light cones data & resource index
 |     ├─ relics.json        # Relics data & resource index
