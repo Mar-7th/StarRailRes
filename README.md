@@ -6,6 +6,27 @@ Honkai: Star Rail game resources, can be used as a bot resource library.
 
 ## Overview
 
+New index files structure:
+
+```text
+StarRailRes
+└─ index
+   └─ [language]
+      ├─ paths.json                     # path / 命途
+      ├─ elements.json                  # element / 元素
+      ├─ characters.json                # character basic info / 角色基本信息
+      ├─ character_ranks.json           # character rank / 角色星魂
+      ├─ character_skills.json          # character skill / 角色技能
+      ├─ character_skill_trees.json     # character skill tree / 角色行迹
+      ├─ light_cones.json               # light cone / 光锥基本信息
+      ├─ light_cone_ranks.json          # light cone rank / 光锥叠影
+      ├─ light_cone_promotions.json     # light cone promotion / 光锥晋阶与等级
+      ├─ relics.json                    # relic basic info / 遗器基本信息
+      ├─ relic_sets.json                # relic set / 遗器套装信息
+      ├─ relic_main_affixs.json         # relic main affix / 遗器主词条组
+      └─ relic_sub_affixs.json          # relic sub affix / 遗器副词条组
+```
+
 The file structure of this project is as follows:
 
 这个项目的文件结构如下：
