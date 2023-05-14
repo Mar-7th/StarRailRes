@@ -2,319 +2,425 @@
     "MaxHP": {
         "type": "MaxHP",
         "name": "HP",
-        "Order": 1,
+        "field": "",
+        "ratio": false,
+        "order": 1,
         "icon": "icon/property/IconMaxHP.png"
     },
     "Attack": {
         "type": "Attack",
         "name": "Сила атаки",
-        "Order": 2,
+        "field": "",
+        "ratio": false,
+        "order": 2,
         "icon": "icon/property/IconAttack.png"
     },
     "Defence": {
         "type": "Defence",
         "name": "Защита",
-        "Order": 3,
+        "field": "",
+        "ratio": false,
+        "order": 3,
         "icon": "icon/property/IconDefence.png"
     },
     "Speed": {
         "type": "Speed",
         "name": "Скорость",
-        "Order": 4,
+        "field": "",
+        "ratio": false,
+        "order": 4,
         "icon": "icon/property/IconSpeed.png"
     },
     "CriticalChance": {
         "type": "CriticalChance",
         "name": "Крит. шанс",
-        "Order": 5,
+        "field": "",
+        "ratio": false,
+        "order": 5,
         "icon": "icon/property/IconCriticalChance.png"
     },
     "CriticalDamage": {
         "type": "CriticalDamage",
         "name": "Крит. урон",
-        "Order": 6,
+        "field": "",
+        "ratio": false,
+        "order": 6,
         "icon": "icon/property/IconCriticalDamage.png"
     },
     "BreakDamageAddedRatio": {
         "type": "BreakDamageAddedRatio",
         "name": "Эффект пробития",
-        "Order": 7,
+        "field": "",
+        "ratio": false,
+        "order": 7,
         "icon": "icon/property/IconBreakUp.png"
     },
     "BreakDamageAddedRatioBase": {
         "type": "BreakDamageAddedRatioBase",
         "name": "Эффект пробития",
-        "Order": 8,
+        "field": "effect_hit",
+        "ratio": false,
+        "order": 8,
         "icon": "icon/property/IconBreakUp.png"
     },
     "HealRatio": {
         "type": "HealRatio",
         "name": "Бонус исцеления",
-        "Order": 9,
+        "field": "heal_rate",
+        "ratio": false,
+        "order": 9,
         "icon": "icon/property/IconHealRatio.png"
     },
     "MaxSP": {
         "type": "MaxSP",
         "name": "Максимальная энергия",
-        "Order": 10,
+        "field": "",
+        "ratio": false,
+        "order": 10,
         "icon": "icon/property/IconEnergyLimit.png"
     },
     "SPRatio": {
         "type": "SPRatio",
         "name": "Скорость восстановления энергии",
-        "Order": 11,
+        "field": "sp_rate",
+        "ratio": true,
+        "order": 11,
         "icon": "icon/property/IconEnergyRecovery.png"
     },
     "StatusProbability": {
         "type": "StatusProbability",
         "name": "Шанс попадания эффектов",
-        "Order": 12,
+        "field": "",
+        "ratio": false,
+        "order": 12,
         "icon": "icon/property/IconStatusProbability.png"
     },
     "StatusResistance": {
         "type": "StatusResistance",
         "name": "Сопротивление эффектам",
-        "Order": 13,
+        "field": "",
+        "ratio": false,
+        "order": 13,
         "icon": "icon/property/IconStatusResistance.png"
     },
     "CriticalChanceBase": {
         "type": "CriticalChanceBase",
         "name": "Крит. шанс",
-        "Order": 14,
+        "field": "crit_rate",
+        "ratio": false,
+        "order": 14,
         "icon": "icon/property/IconCriticalChance.png"
     },
     "CriticalDamageBase": {
         "type": "CriticalDamageBase",
         "name": "Крит. урон",
-        "Order": 15,
+        "field": "crit_dmg",
+        "ratio": false,
+        "order": 15,
         "icon": "icon/property/IconCriticalDamage.png"
     },
     "HealRatioBase": {
         "type": "HealRatioBase",
         "name": "Бонус исцеления",
-        "Order": 16,
+        "field": "",
+        "ratio": false,
+        "order": 16,
         "icon": "icon/property/IconHealRatio.png"
     },
     "StanceBreakAddedRatio": {
         "type": "StanceBreakAddedRatio",
         "name": "",
-        "Order": 17,
+        "field": "",
+        "ratio": false,
+        "order": 17,
         "icon": ""
     },
     "SPRatioBase": {
         "type": "SPRatioBase",
         "name": "Скорость восстановления энергии",
-        "Order": 18,
+        "field": "",
+        "ratio": false,
+        "order": 18,
         "icon": "icon/property/IconEnergyRecovery.png"
     },
     "StatusProbabilityBase": {
         "type": "StatusProbabilityBase",
         "name": "Шанс попадания эффектов",
-        "Order": 19,
+        "field": "",
+        "ratio": false,
+        "order": 19,
         "icon": "icon/property/IconStatusProbability.png"
     },
     "StatusResistanceBase": {
         "type": "StatusResistanceBase",
         "name": "Сопротивление эффектам",
-        "Order": 20,
+        "field": "effect_res",
+        "ratio": false,
+        "order": 20,
         "icon": "icon/property/IconStatusResistance.png"
     },
     "PhysicalAddedRatio": {
         "type": "PhysicalAddedRatio",
         "name": "Бонус физ. урона",
-        "Order": 21,
+        "field": "physical_dmg",
+        "ratio": false,
+        "order": 21,
         "icon": "icon/property/IconPhysicalAddedRatio.png"
     },
     "PhysicalResistance": {
         "type": "PhysicalResistance",
         "name": "Бонус физ. сопр.",
-        "Order": 22,
+        "field": "physical_res",
+        "ratio": false,
+        "order": 22,
         "icon": "icon/property/IconPhysicalResistanceDelta.png"
     },
     "FireAddedRatio": {
         "type": "FireAddedRatio",
         "name": "Бонус огн. урона",
-        "Order": 23,
+        "field": "fire_dmg",
+        "ratio": false,
+        "order": 23,
         "icon": "icon/property/IconFireAddedRatio.png"
     },
     "FireResistance": {
         "type": "FireResistance",
         "name": "Бонус огн. сопр.",
-        "Order": 24,
+        "field": "fire_res",
+        "ratio": false,
+        "order": 24,
         "icon": "icon/property/IconFireResistanceDelta.png"
     },
     "IceAddedRatio": {
         "type": "IceAddedRatio",
         "name": "Бонус лед. урона",
-        "Order": 25,
+        "field": "ice_dmg",
+        "ratio": false,
+        "order": 25,
         "icon": "icon/property/IconIceAddedRatio.png"
     },
     "IceResistance": {
         "type": "IceResistance",
         "name": "Бонус лед. сопр.",
-        "Order": 26,
+        "field": "ice_res",
+        "ratio": false,
+        "order": 26,
         "icon": "icon/property/IconIceResistanceDelta.png"
     },
     "ThunderAddedRatio": {
         "type": "ThunderAddedRatio",
         "name": "Бонус элек. урона",
-        "Order": 27,
+        "field": "lightning_dmg",
+        "ratio": false,
+        "order": 27,
         "icon": "icon/property/IconThunderAddedRatio.png"
     },
     "ThunderResistance": {
         "type": "ThunderResistance",
         "name": "Бонус элек. сопр.",
-        "Order": 28,
+        "field": "lightning_res",
+        "ratio": false,
+        "order": 28,
         "icon": "icon/property/IconThunderResistanceDelta.png"
     },
     "WindAddedRatio": {
         "type": "WindAddedRatio",
         "name": "Бонус ветр. урона",
-        "Order": 29,
+        "field": "wind_dmg",
+        "ratio": false,
+        "order": 29,
         "icon": "icon/property/IconWindAddedRatio.png"
     },
     "WindResistance": {
         "type": "WindResistance",
         "name": "Бонус ветр. сопр.",
-        "Order": 30,
+        "field": "wind_res",
+        "ratio": false,
+        "order": 30,
         "icon": "icon/property/IconWindResistanceDelta.png"
     },
     "QuantumAddedRatio": {
         "type": "QuantumAddedRatio",
         "name": "Бонус квант. урона",
-        "Order": 31,
+        "field": "quantum_res",
+        "ratio": false,
+        "order": 31,
         "icon": "icon/property/IconQuantumAddedRatio.png"
     },
     "QuantumResistance": {
         "type": "QuantumResistance",
         "name": "Бонус квант. сопр.",
-        "Order": 32,
+        "field": "",
+        "ratio": false,
+        "order": 32,
         "icon": "icon/property/IconQuantumResistanceDelta.png"
     },
     "ImaginaryAddedRatio": {
         "type": "ImaginaryAddedRatio",
         "name": "Бонус мним. урона",
-        "Order": 33,
+        "field": "imaginary_dmg",
+        "ratio": false,
+        "order": 33,
         "icon": "icon/property/IconImaginaryAddedRatio.png"
     },
     "ImaginaryResistance": {
         "type": "ImaginaryResistance",
         "name": "Бонус мним. сопр.",
-        "Order": 34,
+        "field": "imaginary_res",
+        "ratio": false,
+        "order": 34,
         "icon": "icon/property/IconImaginaryResistanceDelta.png"
     },
     "BaseHP": {
         "type": "BaseHP",
         "name": "Базовое HP",
-        "Order": 35,
+        "field": "",
+        "ratio": false,
+        "order": 35,
         "icon": "icon/property/IconMaxHP.png"
     },
     "HPDelta": {
         "type": "HPDelta",
         "name": "HP",
-        "Order": 36,
+        "field": "hp",
+        "ratio": false,
+        "order": 36,
         "icon": "icon/property/IconMaxHP.png"
     },
     "HPAddedRatio": {
         "type": "HPAddedRatio",
         "name": "HP",
-        "Order": 37,
+        "field": "hp",
+        "ratio": true,
+        "order": 37,
         "icon": "icon/property/IconMaxHP.png"
     },
     "BaseAttack": {
         "type": "BaseAttack",
         "name": "Базовая сила атаки",
-        "Order": 38,
+        "field": "",
+        "ratio": false,
+        "order": 38,
         "icon": "icon/property/IconAttack.png"
     },
     "AttackDelta": {
         "type": "AttackDelta",
         "name": "Сила атаки",
-        "Order": 39,
+        "field": "atk",
+        "ratio": false,
+        "order": 39,
         "icon": "icon/property/IconAttack.png"
     },
     "AttackAddedRatio": {
         "type": "AttackAddedRatio",
         "name": "Сила атаки",
-        "Order": 40,
+        "field": "atk",
+        "ratio": true,
+        "order": 40,
         "icon": "icon/property/IconAttack.png"
     },
     "BaseDefence": {
         "type": "BaseDefence",
         "name": "Базовая защита",
-        "Order": 41,
+        "field": "",
+        "ratio": false,
+        "order": 41,
         "icon": "icon/property/IconDefence.png"
     },
     "DefenceDelta": {
         "type": "DefenceDelta",
         "name": "Защита",
-        "Order": 42,
+        "field": "def",
+        "ratio": false,
+        "order": 42,
         "icon": "icon/property/IconDefence.png"
     },
     "DefenceAddedRatio": {
         "type": "DefenceAddedRatio",
         "name": "Защита",
-        "Order": 43,
+        "field": "def",
+        "ratio": true,
+        "order": 43,
         "icon": "icon/property/IconDefence.png"
     },
     "BaseSpeed": {
         "type": "BaseSpeed",
         "name": "Скорость",
-        "Order": 44,
+        "field": "",
+        "ratio": false,
+        "order": 44,
         "icon": "icon/property/IconSpeed.png"
     },
     "HealTakenRatio": {
         "type": "HealTakenRatio",
         "name": "Получаемое исцеление повышается на .",
-        "Order": 45,
+        "field": "",
+        "ratio": false,
+        "order": 45,
         "icon": "icon/property/IconHealRatio.png"
     },
     "PhysicalResistanceDelta": {
         "type": "PhysicalResistanceDelta",
         "name": "Бонус физ. сопр.",
-        "Order": 46,
+        "field": "",
+        "ratio": false,
+        "order": 46,
         "icon": "icon/property/IconPhysicalResistanceDelta.png"
     },
     "FireResistanceDelta": {
         "type": "FireResistanceDelta",
         "name": "Бонус огн. сопр.",
-        "Order": 47,
+        "field": "",
+        "ratio": false,
+        "order": 47,
         "icon": "icon/property/IconFireResistanceDelta.png"
     },
     "IceResistanceDelta": {
         "type": "IceResistanceDelta",
         "name": "Бонус лед. сопр.",
-        "Order": 48,
+        "field": "",
+        "ratio": false,
+        "order": 48,
         "icon": "icon/property/IconIceResistanceDelta.png"
     },
     "ThunderResistanceDelta": {
         "type": "ThunderResistanceDelta",
         "name": "Бонус элек. сопр.",
-        "Order": 49,
+        "field": "",
+        "ratio": false,
+        "order": 49,
         "icon": "icon/property/IconThunderResistanceDelta.png"
     },
     "WindResistanceDelta": {
         "type": "WindResistanceDelta",
         "name": "Бонус ветр. сопр.",
-        "Order": 50,
+        "field": "",
+        "ratio": false,
+        "order": 50,
         "icon": "icon/property/IconWindResistanceDelta.png"
     },
     "QuantumResistanceDelta": {
         "type": "QuantumResistanceDelta",
         "name": "Бонус квант. сопр.",
-        "Order": 51,
+        "field": "",
+        "ratio": false,
+        "order": 51,
         "icon": "icon/property/IconQuantumResistanceDelta.png"
     },
     "ImaginaryResistanceDelta": {
         "type": "ImaginaryResistanceDelta",
         "name": "Бонус мним. сопр.",
-        "Order": 52,
+        "field": "",
+        "ratio": false,
+        "order": 52,
         "icon": "icon/property/IconImaginaryResistanceDelta.png"
     },
     "SpeedDelta": {
         "type": "SpeedDelta",
         "name": "Скорость",
-        "Order": 54,
+        "field": "spd",
+        "ratio": false,
+        "order": 54,
         "icon": "icon/property/IconSpeed.png"
     }
 }
