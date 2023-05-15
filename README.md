@@ -44,3 +44,12 @@ StarRailRes
 ├─ index_new    # index files folder / 索引目录
 └─ index_min    # compressed index files folder / 压缩索引目录
 ```
+
+## Links
+
+Guide images source:
+
+| Folder               | Author       | Link                                                                                             | Licence  |
+| -------------------- | ------------ | ------------------------------------------------------------------------------------------------ | -------- |
+| `guide/Nwflower`     | Nwflower     | [`Nwflower/star-rail-atlas`](https://github.com/Nwflower/star-rail-atlas)                        | AGPL-3.0 |
+| `guide/OriginMirror` | OriginMirror | [`初始镜像OriginMirror@米游社`](https://www.miyoushe.com/sr/accountCenter/postList?id=159117584) | Unknown  |
