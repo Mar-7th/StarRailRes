@@ -51,7 +51,7 @@
         "effect": "Defence",
         "effect_text": "Defense",
         "simple_desc": "Provides a single ally with a Shield.",
-        "desc": "Provides a single ally with a Shield that can absorb DMG equal to #1[i]% of March 7th's DEF plus #4[i] for #2[i] turn(s).\\nIf the ally's current HP percentage is #3[i]% or higher, greatly increases the chance of enemies attacking that ally.",
+        "desc": "Provides a single ally with a Shield that can absorb DMG equal to #1[i]% of March 7th's DEF plus #4[i] for #2[i] turn(s).\nIf the ally's current HP percentage is #3[i]% or higher, greatly increases the chance of enemies attacking that ally.",
         "params": [
             [
                 0.38,
@@ -171,7 +171,7 @@
         "effect": "AoEAttack",
         "effect_text": "AoE",
         "simple_desc": "Deals Ice DMG to all enemies, with a chance of Freezing them.",
-        "desc": "Deals Ice DMG equal to #1[i]% of March 7th's ATK to all enemies. Hit enemies have a #2[i]% base chance to be Frozen for #3[i] turn(s).\\nWhile Frozen, enemies cannot take action and will receive Additional Ice DMG equal to #4[i]% of March 7th's ATK at the beginning of each turn.",
+        "desc": "Deals Ice DMG equal to #1[i]% of March 7th's ATK to all enemies. Hit enemies have a #2[i]% base chance to be Frozen for #3[i] turn(s).\nWhile Frozen, enemies cannot take action and will receive Additional Ice DMG equal to #4[i]% of March 7th's ATK at the beginning of each turn.",
         "params": [
             [
                 0.9,
@@ -271,7 +271,7 @@
         "name": "Girl Power",
         "max_level": 15,
         "element": "Ice",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talent",
         "effect": "SingleAttack",
         "effect_text": "Single Target",
@@ -365,7 +365,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Immediately attacks the enemy. After entering battle, there is a #1[i]% base chance to Freeze a random enemy for #2[i] turn(s).\\nWhile Frozen, the enemy cannot take action and will take Additional Ice DMG equal to #3[i]% of March 7th's ATK at the beginning of each turn.",
+        "desc": "Immediately attacks the enemy. After entering battle, there is a #1[i]% base chance to Freeze a random enemy for #2[i] turn(s).\nWhile Frozen, the enemy cannot take action and will take Additional Ice DMG equal to #3[i]% of March 7th's ATK at the beginning of each turn.",
         "params": [
             [
                 1.0,
@@ -427,7 +427,7 @@
         "effect": "SingleAttack",
         "effect_text": "Single Target",
         "simple_desc": "Deals Wind DMG to a single enemy. Upon a CRIT Hit, there is a high chance of Slowing the enemy.",
-        "desc": "Deals Wind DMG equal to #1[i]% of Dan Heng's ATK to a single enemy.\\nOn a CRIT Hit, there is a #4[i]% base chance to reduce the target's SPD by #2[i]% for #3[i] turn(s).",
+        "desc": "Deals Wind DMG equal to #1[i]% of Dan Heng's ATK to a single enemy.\nOn a CRIT Hit, there is a #4[i]% base chance to reduce the target's SPD by #2[i]% for #3[i] turn(s).",
         "params": [
             [
                 1.3,
@@ -602,7 +602,7 @@
         "name": "Superiority of Reach",
         "max_level": 15,
         "element": "",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
@@ -902,12 +902,12 @@
         "name": "Victory Rush",
         "max_level": 15,
         "element": "Fire",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talent",
         "effect": "AoEAttack",
         "effect_text": "AoE",
         "simple_desc": "",
-        "desc": "When an enemy is inflicted with Weakness Break, Himeko gains 1 point of Charge (max #2[i] points).\\nIf Himeko is fully Charged when an ally performs an attack, Himeko immediately performs 1 follow-up attack and deals Fire DMG equal to #1[i]% of her ATK to all enemies, consuming all Charge points.\\nAt the start of the battle, Himeko gains 1 point of Charge.",
+        "desc": "When an enemy is inflicted with Weakness Break, Himeko gains 1 point of Charge (max #2[i] points).\nIf Himeko is fully Charged when an ally performs an attack, Himeko immediately performs 1 follow-up attack and deals Fire DMG equal to #1[i]% of her ATK to all enemies, consuming all Charge points.\nAt the start of the battle, Himeko gains 1 point of Charge.",
         "params": [
             [
                 0.7,
@@ -1164,7 +1164,7 @@
         "effect": "AoEAttack",
         "effect_text": "AoE",
         "simple_desc": "Deals Imaginary DMG to all enemies, with a high chance of Imprisoning them.",
-        "desc": "Deals Imaginary DMG equal to #1[i]% of Welt's ATK to all enemies, with a #3[i]% base chance for enemies hit by this ability to be Imprisoned for 1 turn.\\nImprisoned enemies have their actions delayed by #2[i]% and SPD reduced by #4[i]%.",
+        "desc": "Deals Imaginary DMG equal to #1[i]% of Welt's ATK to all enemies, with a #3[i]% base chance for enemies hit by this ability to be Imprisoned for 1 turn.\nImprisoned enemies have their actions delayed by #2[i]% and SPD reduced by #4[i]%.",
         "params": [
             [
                 0.9,
@@ -1264,7 +1264,7 @@
         "name": "Time Distortion",
         "max_level": 15,
         "element": "",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
@@ -1343,7 +1343,7 @@
         "effect": "Impair",
         "effect_text": "Impair",
         "simple_desc": "",
-        "desc": "After using Welt's Technique, create a dimension that lasts for #4[i] second(s). Enemies in this dimension have their Movement SPD reduced by #5[i]%. After entering battle with enemies in the dimension, there is a #1[i]% base chance to Imprison the enemies for 1 turn.\\nImprisoned enemies have their actions delayed by #2[i]% and SPD reduced by #3[i]%. Only 1 dimension created by allies can exist at the same time.",
+        "desc": "After using Welt's Technique, create a dimension that lasts for #4[i] second(s). Enemies in this dimension have their Movement SPD reduced by #5[i]%. After entering battle with enemies in the dimension, there is a #1[i]% base chance to Imprison the enemies for 1 turn.\nImprisoned enemies have their actions delayed by #2[i]% and SPD reduced by #3[i]%. Only 1 dimension created by allies can exist at the same time.",
         "params": [
             [
                 1.0,
@@ -1407,7 +1407,7 @@
         "effect": "Blast",
         "effect_text": "Blast",
         "simple_desc": "Deals Lightning DMG to an enemy, and causes the target enemy to receive extra DoT. In addition, deals minor Lightning DMG to enemies adjacent to it.",
-        "desc": "Deals Lightning DMG equal to #1[i]% of Kafka's ATK to a target enemy and Lightning DMG equal to #3[i]% of Kafka's ATK to enemies adjacent to it.\\nIf the target enemy is currently receiving DoT, all DoTs currently placed on that enemy immediately produce DMG equal to #2[i]% of their original DMG.",
+        "desc": "Deals Lightning DMG equal to #1[i]% of Kafka's ATK to a target enemy and Lightning DMG equal to #3[i]% of Kafka's ATK to enemies adjacent to it.\nIf the target enemy is currently receiving DoT, all DoTs currently placed on that enemy immediately produce DMG equal to #2[i]% of their original DMG.",
         "params": [
             [
                 0.8,
@@ -1497,7 +1497,7 @@
         "effect": "AoEAttack",
         "effect_text": "AoE",
         "simple_desc": "Deals minor Lightning DMG to all enemies with a high chance of Shocking them, causing enemies to take Additional DMG.",
-        "desc": "Deals Lightning DMG equal to #1[i]% of Kafka's ATK to all enemies, with a #2[i]% base chance for enemies hit to become Shocked and immediately take DMG equal to #5[i]% of the DoT. Shock lasts for #3[i] turn(s).\\nWhile Shocked, enemies receive Lightning DoT equal to #4[i]% of Kafka's ATK at the beginning of each turn.",
+        "desc": "Deals Lightning DMG equal to #1[i]% of Kafka's ATK to all enemies, with a #2[i]% base chance for enemies hit to become Shocked and immediately take DMG equal to #5[i]% of the DoT. Shock lasts for #3[i] turn(s).\nWhile Shocked, enemies receive Lightning DoT equal to #4[i]% of Kafka's ATK at the beginning of each turn.",
         "params": [
             [
                 0.48,
@@ -1612,7 +1612,7 @@
         "name": "Gentle but Cruel",
         "max_level": 15,
         "element": "Thunder",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talent",
         "effect": "SingleAttack",
         "effect_text": "Single Target",
@@ -1736,7 +1736,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Immediately attacks the enemy. After entering battle, deals Lightning DMG equal to #4[i]% of Kafka's ATK to a random enemy. In addition, all enemies have a #1[i]% base chance to become Shocked for #3[i] turn(s).\\nWhile Shocked, enemies receive Lightning DoT equal to #2[i]% of Kafka's ATK at the beginning of each turn.",
+        "desc": "Immediately attacks the enemy. After entering battle, deals Lightning DMG equal to #4[i]% of Kafka's ATK to a random enemy. In addition, all enemies have a #1[i]% base chance to become Shocked for #3[i] turn(s).\nWhile Shocked, enemies receive Lightning DoT equal to #2[i]% of Kafka's ATK at the beginning of each turn.",
         "params": [
             [
                 1.0,
@@ -1799,7 +1799,7 @@
         "effect": "Impair",
         "effect_text": "Impair",
         "simple_desc": "Deals Quantum DMG to a single enemy and has a chance to inflict extra Weakness.",
-        "desc": "Deals Quantum DMG equal to #1[i]% of Silver Wolf's ATK to a single target enemy, with a #2[i]% base chance to inflict the target with 1 Weakness of the same Type as a random ally's ATK Type for #3[i] turn(s), and reduces the enemy's DMG RES to that ATK Type by #4[i]%.\\nIn addition, there is a #5[i]% base chance to reduce the DMG RES of the enemy by #6[f1]% for #7[i] turn(s).",
+        "desc": "Deals Quantum DMG equal to #1[i]% of Silver Wolf's ATK to a single target enemy, with a #2[i]% base chance to inflict the target with 1 Weakness of the same Type as a random ally's ATK Type for #3[i] turn(s), and reduces the enemy's DMG RES to that ATK Type by #4[i]%.\nIn addition, there is a #5[i]% base chance to reduce the DMG RES of the enemy by #6[f1]% for #7[i] turn(s).",
         "params": [
             [
                 0.7,
@@ -2049,12 +2049,12 @@
         "name": "Awaiting System Response...",
         "max_level": 15,
         "element": "",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talent",
         "effect": "Impair",
         "effect_text": "Impair",
         "simple_desc": "",
-        "desc": "Silver Wolf can create three types of Bugs: Reduce ATK by #1[f1]%, reduce DEF by #2[f1]%, and reduce SPD by #3[f1]%.\\nEvery time Silver Wolf attacks, she has a #4[i]% base chance to implant a random Bug that lasts for #5[i] turn(s) in the enemy target.",
+        "desc": "Silver Wolf can create three types of Bugs: Reduce ATK by #1[f1]%, reduce DEF by #2[f1]%, and reduce SPD by #3[f1]%.\nEvery time Silver Wolf attacks, she has a #4[i]% base chance to implant a random Bug that lasts for #5[i] turn(s) in the enemy target.",
         "params": [
             [
                 0.075,
@@ -2389,7 +2389,7 @@
         "name": "Pain and Anger",
         "max_level": 15,
         "element": "",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
@@ -2658,12 +2658,12 @@
         "name": "Astrometry",
         "max_level": 15,
         "element": "",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talent",
         "effect": "Support",
         "effect_text": "Support",
         "simple_desc": "",
-        "desc": "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness.\\nFor every stack of Charging Asta has, all allies' ATK increases by #1[f1]%, up to #2[i] time(s).\\nStarting from her second turn, Asta's Charging stack count is reduced by #3[i] at the beginning of every turn.",
+        "desc": "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness.\nFor every stack of Charging Asta has, all allies' ATK increases by #1[f1]%, up to #2[i] time(s).\nStarting from her second turn, Asta's Charging stack count is reduced by #3[i] at the beginning of every turn.",
         "params": [
             [
                 0.07,
@@ -2972,7 +2972,7 @@
         "name": "Fine, I'll Do It Myself",
         "max_level": 15,
         "element": "Ice",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talent",
         "effect": "AoEAttack",
         "effect_text": "AoE",
@@ -3127,7 +3127,7 @@
         "effect": "Support",
         "effect_text": "Support",
         "simple_desc": "Removes 1 debuff from a single ally, increases their DMG, and allows them to immediately take action.",
-        "desc": "Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by #1[i]% for #3[i] turn(s).\\nWhen this Skill is used on Bronya herself, she cannot immediately take action again.",
+        "desc": "Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by #1[i]% for #3[i] turn(s).\nWhen this Skill is used on Bronya herself, she cannot immediately take action again.",
         "params": [
             [
                 0.33,
@@ -3332,7 +3332,7 @@
         "name": "Leading the Way",
         "max_level": 15,
         "element": "Wind",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
@@ -3617,12 +3617,12 @@
         "name": "Resurgence",
         "max_level": 15,
         "element": "",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
         "simple_desc": "",
-        "desc": "Enters the buffed state upon defeating an enemy with Basic ATK, Skill, or Ultimate, and receives an extra turn. While in the buffed state, the DMG of Seele's attacks increases by #1[i]% for #2[i] turn(s).\\nEnemies defeated in the extra turn provided by \"Resurgence\" will not trigger another \"Resurgence.\"",
+        "desc": "Enters the buffed state upon defeating an enemy with Basic ATK, Skill, or Ultimate, and receives an extra turn. While in the buffed state, the DMG of Seele's attacks increases by #1[i]% for #2[i] turn(s).\nEnemies defeated in the extra turn provided by \"Resurgence\" will not trigger another \"Resurgence.\"",
         "params": [
             [
                 0.4,
@@ -3771,7 +3771,7 @@
         "effect": "Blast",
         "effect_text": "Blast",
         "simple_desc": "Deals minor Lightning DMG to a single enemy and enemies adjacent to it, with a high chance of Shocking enemies hit.",
-        "desc": "Deals Lightning DMG equal to #1[i]% of Serval's ATK to a single enemy and Lightning DMG equal to #2[i]% of Serval's ATK to enemies adjacent to it, with a #3[i]% base chance for enemies hit to become Shocked for #4[i] turn(s).\\nWhile Shocked, enemies take Lightning DoT equal to #5[i]% of Serval's ATK at the beginning of each turn.",
+        "desc": "Deals Lightning DMG equal to #1[i]% of Serval's ATK to a single enemy and Lightning DMG equal to #2[i]% of Serval's ATK to enemies adjacent to it, with a #3[i]% base chance for enemies hit to become Shocked for #4[i] turn(s).\nWhile Shocked, enemies take Lightning DoT equal to #5[i]% of Serval's ATK at the beginning of each turn.",
         "params": [
             [
                 0.7,
@@ -3961,7 +3961,7 @@
         "name": "Galvanic Chords",
         "max_level": 15,
         "element": "Thunder",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
@@ -4040,7 +4040,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Immediately attacks the enemy. After entering battle, deals Lightning DMG equal to #4[i]% of Serval's ATK to a random enemy, with a #1[i]% base chance for all enemies to become Shocked for #3[i] turn(s).\\nWhile Shocked, enemies will take Lightning DoT equal to #2[i]% of Serval's ATK at the beginning of each turn.",
+        "desc": "Immediately attacks the enemy. After entering battle, deals Lightning DMG equal to #4[i]% of Serval's ATK to a random enemy, with a #1[i]% base chance for all enemies to become Shocked for #3[i] turn(s).\nWhile Shocked, enemies will take Lightning DoT equal to #2[i]% of Serval's ATK at the beginning of each turn.",
         "params": [
             [
                 1.0,
@@ -4103,7 +4103,7 @@
         "effect": "Impair",
         "effect_text": "Impair",
         "simple_desc": "Deals Ice DMG to a single enemy, with a chance of Freezing them.",
-        "desc": "Deals Ice DMG equal to #1[i]% of Gepard's ATK to a single enemy, with a #2[i]% base chance to Freeze the enemy for #3[i] turn(s).\\nWhile Frozen, the enemy cannot take action and will take Additional Ice DMG equal to #4[i]% of Gepard's ATK at the beginning of each turn.",
+        "desc": "Deals Ice DMG equal to #1[i]% of Gepard's ATK to a single enemy, with a #2[i]% base chance to Freeze the enemy for #3[i] turn(s).\nWhile Frozen, the enemy cannot take action and will take Additional Ice DMG equal to #4[i]% of Gepard's ATK at the beginning of each turn.",
         "params": [
             [
                 1.0,
@@ -4293,7 +4293,7 @@
         "name": "Unyielding Will",
         "max_level": 15,
         "element": "",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talent",
         "effect": "Restore",
         "effect_text": "Restore",
@@ -4624,7 +4624,7 @@
         "name": "Innervation",
         "max_level": 15,
         "element": "",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
@@ -4718,7 +4718,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Immediately attacks the enemy. After entering battle, deals Physical DMG equal to #4[i]% of Natasha's ATK to a random enemy, with a #1[i]% base chance to Weaken all enemies.\\nWhile Weakened, enemies deal #2[i]% less DMG to allies for #3[i] turn(s).",
+        "desc": "Immediately attacks the enemy. After entering battle, deals Physical DMG equal to #4[i]% of Natasha's ATK to a random enemy, with a #1[i]% base chance to Weaken all enemies.\nWhile Weakened, enemies deal #2[i]% less DMG to allies for #3[i] turn(s).",
         "params": [
             [
                 1.0,
@@ -4856,7 +4856,7 @@
         "effect": "Impair",
         "effect_text": "Impair",
         "simple_desc": "Has a high chance of lowering enemies' DEF and deals minor Ice DMG to all enemies.",
-        "desc": "Deals Ice DMG equal to #4[i]% of Pela's ATK to all enemies, with a #1[i]% base chance to inflict Exposed on all enemies.\\nWhen Exposed, enemies' DEF is reduced by #2[i]% for #3[i] turn(s).",
+        "desc": "Deals Ice DMG equal to #4[i]% of Pela's ATK to all enemies, with a #1[i]% base chance to inflict Exposed on all enemies.\nWhen Exposed, enemies' DEF is reduced by #2[i]% for #3[i] turn(s).",
         "params": [
             [
                 1.0,
@@ -4956,7 +4956,7 @@
         "name": "Data Collecting",
         "max_level": 15,
         "element": "",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talent",
         "effect": "Support",
         "effect_text": "Support",
@@ -5098,7 +5098,7 @@
         "effect": "AoEAttack",
         "effect_text": "AoE",
         "simple_desc": "Deals minor Physical DMG to all enemies. Deals minor extra Physical DMG to targets carrying Mark of Counter.",
-        "desc": "Deals Physical DMG equal to #1[i]% of Clara's ATK to all enemies, and additionally deals Physical DMG equal to #2[i]% of Clara's ATK to enemies marked by Svarog with a Mark of Counter.\\nAll Marks of Counter will be removed after this Skill is used.",
+        "desc": "Deals Physical DMG equal to #1[i]% of Clara's ATK to all enemies, and additionally deals Physical DMG equal to #2[i]% of Clara's ATK to enemies marked by Svarog with a Mark of Counter.\nAll Marks of Counter will be removed after this Skill is used.",
         "params": [
             [
                 0.6,
@@ -5173,7 +5173,7 @@
         "effect": "Enhance",
         "effect_text": "Enhance",
         "simple_desc": "Increases DMG RES and chance to be attacked by enemies, and enhances the Counter effect.",
-        "desc": "After Clara uses Ultimate, DMG dealt to her is reduced by an extra #4[i]%, and she has greatly increased chances of being attacked by enemies for #3[i] turn(s).\\nIn addition, Svarog's Counter is enhanced. When an ally is attacked, Svarog immediately launches a Counter, and its DMG multiplier against the enemy increases by #2[i]%. Enemies adjacent to it take 50% of the DMG dealt to the target enemy. Enhanced Counter(s) can take effect #5[i] time(s).",
+        "desc": "After Clara uses Ultimate, DMG dealt to her is reduced by an extra #4[i]%, and she has greatly increased chances of being attacked by enemies for #3[i] turn(s).\nIn addition, Svarog's Counter is enhanced. When an ally is attacked, Svarog immediately launches a Counter, and its DMG multiplier against the enemy increases by #2[i]%. Enemies adjacent to it take 50% of the DMG dealt to the target enemy. Enhanced Counter(s) can take effect #5[i] time(s).",
         "params": [
             [
                 5.0,
@@ -5288,7 +5288,7 @@
         "name": "Because We're Family",
         "max_level": 15,
         "element": "Physical",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talent",
         "effect": "SingleAttack",
         "effect_text": "Single Target",
@@ -5633,12 +5633,12 @@
         "name": "Windtorn Dagger",
         "max_level": 15,
         "element": "",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
         "simple_desc": "",
-        "desc": "Sampo's attacks have a #1[i]% base chance to inflict Wind Shear for #3[i] turn(s).\\nEnemies inflicted with Wind Shear will take Wind DoT equal to #2[i]% of Sampo's ATK at the beginning of each turn. Wind Shear can stack up to #4[i] time(s).",
+        "desc": "Sampo's attacks have a #1[i]% base chance to inflict Wind Shear for #3[i] turn(s).\nEnemies inflicted with Wind Shear will take Wind DoT equal to #2[i]% of Sampo's ATK at the beginning of each turn. Wind Shear can stack up to #4[i] time(s).",
         "params": [
             [
                 0.65,
@@ -5757,7 +5757,7 @@
         "effect": "Impair",
         "effect_text": "Impair",
         "simple_desc": "",
-        "desc": "After Sampo uses Technique, enemies in a set area are inflicted with Blind for #1[i] second(s). Blinded enemies cannot detect your team.\\nWhen initiating combat against a Blinded enemy, there is a #2[i]% fixed chance to delay all enemies' action by #3[i]%.",
+        "desc": "After Sampo uses Technique, enemies in a set area are inflicted with Blind for #1[i] second(s). Blinded enemies cannot detect your team.\nWhen initiating combat against a Blinded enemy, there is a #2[i]% fixed chance to delay all enemies' action by #3[i]%.",
         "params": [
             [
                 10.0,
@@ -5819,7 +5819,7 @@
         "effect": "SingleAttack",
         "effect_text": "Single Target",
         "simple_desc": "Deals Fire DMG to a single enemy, with a high chance to inflict Burn on the enemy.",
-        "desc": "Deals Fire DMG equal to #1[i]% of Hook's ATK to a single enemy. In addition, there is a #2[i]% base chance to inflict Burn for #3[i] turn(s).\\nWhen afflicted with Burn, enemies will take Fire DoT equal to #4[i]% of Hook's ATK at the beginning of each turn.",
+        "desc": "Deals Fire DMG equal to #1[i]% of Hook's ATK to a single enemy. In addition, there is a #2[i]% base chance to inflict Burn for #3[i] turn(s).\nWhen afflicted with Burn, enemies will take Fire DoT equal to #4[i]% of Hook's ATK at the beginning of each turn.",
         "params": [
             [
                 1.2,
@@ -5924,7 +5924,7 @@
         "effect": "SingleAttack",
         "effect_text": "Single Target",
         "simple_desc": "Deals massive Fire DMG to a single enemy and Enhances Hook's next Skill.",
-        "desc": "Deals Fire DMG equal to #1[i]% of Hook's ATK to a single enemy.\\nAfter using Ultimate, the next Skill to be used is Enhanced, which deals DMG to a single enemy and enemies adjacent to it.",
+        "desc": "Deals Fire DMG equal to #1[i]% of Hook's ATK to a single enemy.\nAfter using Ultimate, the next Skill to be used is Enhanced, which deals DMG to a single enemy and enemies adjacent to it.",
         "params": [
             [
                 2.4
@@ -5979,7 +5979,7 @@
         "name": "Ha! Oil to the Flames!",
         "max_level": 15,
         "element": "Fire",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
@@ -6073,7 +6073,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Immediately attacks the enemy. Upon entering battle, Hook deals Fire DMG equal to #4[i]% of her ATK to a random enemy. In addition, there is a #1[i]% base chance to inflict Burn on every enemy for #3[i] turn(s).\\nWhen afflicted with Burn, enemies will take Fire DoT equal to #2[i]% of Hook's ATK at the beginning of each turn.",
+        "desc": "Immediately attacks the enemy. Upon entering battle, Hook deals Fire DMG equal to #4[i]% of her ATK to a random enemy. In addition, there is a #1[i]% base chance to inflict Burn on every enemy for #3[i] turn(s).\nWhen afflicted with Burn, enemies will take Fire DoT equal to #2[i]% of Hook's ATK at the beginning of each turn.",
         "params": [
             [
                 1.0,
@@ -6094,7 +6094,7 @@
         "effect": "Blast",
         "effect_text": "Blast",
         "simple_desc": "Deals Fire DMG to a single enemy with a high chance of inflicting Burn, also deals minor Fire DMG to enemies adjacent to it.",
-        "desc": "Deals Fire DMG equal to #1[i]% of Hook's ATK to a single enemy, with a #2[i]% base chance to Burn them for #3[i] turn(s). Additionally, deals Fire DMG equal to #5[i]% of Hook's ATK to enemies adjacent to it.\\nWhen afflicted with Burn, enemies will take Fire DoT equal to #4[i]% of Hook's ATK at the beginning of each turn.",
+        "desc": "Deals Fire DMG equal to #1[i]% of Hook's ATK to a single enemy, with a #2[i]% base chance to Burn them for #3[i] turn(s). Additionally, deals Fire DMG equal to #5[i]% of Hook's ATK to enemies adjacent to it.\nWhen afflicted with Burn, enemies will take Fire DoT equal to #4[i]% of Hook's ATK at the beginning of each turn.",
         "params": [
             [
                 1.4,
@@ -6202,7 +6202,7 @@
                 1.0
             ]
         ],
-        "icon": ""
+        "icon": "icon/skill/1109_skill.png"
     },
     "120101": {
         "id": "120101",
@@ -6401,12 +6401,12 @@
         "name": "Celestial Jade",
         "max_level": 15,
         "element": "",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
         "simple_desc": "",
-        "desc": "When an ally's turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time.\\nIf Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the \"Hidden Hand\" state.\\nWhile in this state, Qingque cannot use her Skill again. At the same time, Qingque's ATK increases by #1[i]%, and her Basic ATK \"Flower Pick\" is enhanced, becoming \"Cherry on Top!\" The \"Hidden Hand\" state ends after using \"Cherry on Top!\".",
+        "desc": "When an ally's turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time.\nIf Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the \"Hidden Hand\" state.\nWhile in this state, Qingque cannot use her Skill again. At the same time, Qingque's ATK increases by #1[i]%, and her Basic ATK \"Flower Pick\" is enhanced, becoming \"Cherry on Top!\" The \"Hidden Hand\" state ends after using \"Cherry on Top!\".",
         "params": [
             [
                 0.36
@@ -6498,7 +6498,7 @@
         "effect": "Blast",
         "effect_text": "Blast",
         "simple_desc": "Deals Quantum DMG to a single enemy and minor Quantum DMG to enemies adjacent to it.",
-        "desc": "Deals Quantum DMG equal to #1[i]% of Qingque's ATK to a single enemy, and deals Quantum DMG equal to #2[i]% of Qingque's ATK to enemies adjacent to it.\\n\"Cherry on Top!\" cannot recover Skill Points.",
+        "desc": "Deals Quantum DMG equal to #1[i]% of Qingque's ATK to a single enemy, and deals Quantum DMG equal to #2[i]% of Qingque's ATK to enemies adjacent to it.\n\"Cherry on Top!\" cannot recover Skill Points.",
         "params": [
             [
                 1.2,
@@ -6537,7 +6537,7 @@
                 1.3
             ]
         ],
-        "icon": ""
+        "icon": "icon/skill/1201_basic_atk.png"
     },
     "120201": {
         "id": "120201",
@@ -6591,7 +6591,7 @@
         "effect": "Support",
         "effect_text": "Support",
         "simple_desc": "Increases the ATK of a single ally and grants them Benediction.",
-        "desc": "Grants a single ally with Benediction to increase their ATK by #2[i]%, up to #4[i]% of Tingyun's current ATK.\\nWhen the ally with Benediction attacks, they will deal Additional Lightning DMG equal to #1[i]% of that ally's ATK for 1 time.\\nBenediction lasts for #3[i] turn(s) and is only effective on the most recent receiver of Tingyun's Skill.",
+        "desc": "Grants a single ally with Benediction to increase their ATK by #2[i]%, up to #4[i]% of Tingyun's current ATK.\nWhen the ally with Benediction attacks, they will deal Additional Lightning DMG equal to #1[i]% of that ally's ATK for 1 time.\nBenediction lasts for #3[i] turn(s) and is only effective on the most recent receiver of Tingyun's Skill.",
         "params": [
             [
                 0.2,
@@ -6781,7 +6781,7 @@
         "name": "Violet Sparknado",
         "max_level": 15,
         "element": "",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
@@ -6920,7 +6920,7 @@
         "effect": "Restore",
         "effect_text": "Restore",
         "simple_desc": "Restores a single ally's HP and gains 1 stack of Abyss Flower.",
-        "desc": "After using his Skill, immediately restore a single ally's HP equal to #1[i]% of Luocha's ATK plus #2[i]. Meanwhile, Luocha gains 1 stack of Abyss Flower.\\nWhen any ally's HP percentage drops to #3[i]% or lower, Luocha will immediately use his Skill one time on this ally (without consuming Skill Points). After Luocha takes action for #4[i] more time(s), this effect can be triggered again when the conditions are met.",
+        "desc": "After using his Skill, immediately restore a single ally's HP equal to #1[i]% of Luocha's ATK plus #2[i]. Meanwhile, Luocha gains 1 stack of Abyss Flower.\nWhen any ally's HP percentage drops to #3[i]% or lower, Luocha will immediately use his Skill one time on this ally (without consuming Skill Points). After Luocha takes action for #4[i] more time(s), this effect can be triggered again when the conditions are met.",
         "params": [
             [
                 0.4,
@@ -7095,12 +7095,12 @@
         "name": "Cycle of Life",
         "max_level": 15,
         "element": "",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talent",
         "effect": "Restore",
         "effect_text": "Restore",
         "simple_desc": "",
-        "desc": "When Abyss Flower is at #1[i] stacks, Luocha consumes all stacks to deploy a Field against the enemy.\\nWhen any enemy in the Field is attacked by an ally, the attacking ally immediately restores HP equal to #2[f1]% of Luocha's ATK plus #4[i].\\nThe Field's effect lasts #3[i] turn(s).",
+        "desc": "When Abyss Flower is at #1[i] stacks, Luocha consumes all stacks to deploy a Field against the enemy.\nWhen any enemy in the Field is attacked by an ally, the attacking ally immediately restores HP equal to #2[f1]% of Luocha's ATK plus #4[i].\nThe Field's effect lasts #3[i] turn(s).",
         "params": [
             [
                 2.0,
@@ -7420,12 +7420,12 @@
         "name": "Prana Extirpated",
         "max_level": 15,
         "element": "Thunder",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talent",
         "effect": "Bounce",
         "effect_text": "Bounce",
         "simple_desc": "",
-        "desc": "Summons Lightning-Lord at the start of the battle. Lightning-Lord has #1[i] base SPD and #4[i] base Hits Per Action. When the Lightning-Lord takes action, its hits are considered as follow-up attacks, with each hit dealing Lightning DMG equal to #2[i]% of Jing Yuan's ATK to a single enemy, and enemies adjacent to it also receive Lightning DMG equal to #5[i]% of the DMG dealt to the target enemy.\\nThe Lightning-Lord's Hits Per Action can reach a max of #6[i]. Every time Lightning-Lord's Hits Per Action increases by 1, its SPD increases by #3[i]. After the Lightning-Lord's action ends, its SPD and Hits Per Action return to their base values.\\nWhen Jing Yuan is knocked down, the Lightning-Lord will disappear.\\nWhen Jing Yuan is affected by Crowd Control debuff, the Lightning-Lord is unable to take action.",
+        "desc": "Summons Lightning-Lord at the start of the battle. Lightning-Lord has #1[i] base SPD and #4[i] base Hits Per Action. When the Lightning-Lord takes action, its hits are considered as follow-up attacks, with each hit dealing Lightning DMG equal to #2[i]% of Jing Yuan's ATK to a single enemy, and enemies adjacent to it also receive Lightning DMG equal to #5[i]% of the DMG dealt to the target enemy.\nThe Lightning-Lord's Hits Per Action can reach a max of #6[i]. Every time Lightning-Lord's Hits Per Action increases by 1, its SPD increases by #3[i]. After the Lightning-Lord's action ends, its SPD and Hits Per Action return to their base values.\nWhen Jing Yuan is knocked down, the Lightning-Lord will disappear.\nWhen Jing Yuan is affected by Crowd Control debuff, the Lightning-Lord is unable to take action.",
         "params": [
             [
                 60.0,
@@ -7634,7 +7634,7 @@
         "effect": "SingleAttack",
         "effect_text": "Single Target",
         "simple_desc": "Deals Physical DMG to a single enemy with a small chance of triggering Sword Stance. If the enemy has Weakness Break, Sword Stance is guaranteed to trigger.",
-        "desc": "Deals Physical DMG equal to #1[i]% of Sushang's ATK to a single enemy. In addition, there is a #3[i]% chance to trigger Sword Stance on the final hit, dealing Additional Physical DMG equal to #2[i]% of Sushang's ATK to the enemy.\\nIf the enemy is inflicted with Weakness Break, Sword Stance is guaranteed to trigger.",
+        "desc": "Deals Physical DMG equal to #1[i]% of Sushang's ATK to a single enemy. In addition, there is a #3[i]% chance to trigger Sword Stance on the final hit, dealing Additional Physical DMG equal to #2[i]% of Sushang's ATK to the enemy.\nIf the enemy is inflicted with Weakness Break, Sword Stance is guaranteed to trigger.",
         "params": [
             [
                 1.05,
@@ -7724,7 +7724,7 @@
         "effect": "SingleAttack",
         "effect_text": "Single Target",
         "simple_desc": "Deals massive Physical DMG to a single enemy, enhances Sword Stance's effect, and takes action immediately.",
-        "desc": "Deals Physical DMG equal to #1[i]% of Sushang's ATK to a single enemy and immediately Advances her action forward by 100%. In addition, Sushang's ATK increases by #4[i]% and using her Skill has 2 extra chances to trigger Sword Stance for #2[i] turn(s).\\nSword Stance triggered from the extra chances deals #3[i]% of the original DMG.",
+        "desc": "Deals Physical DMG equal to #1[i]% of Sushang's ATK to a single enemy and immediately Advances her action forward by 100%. In addition, Sushang's ATK increases by #4[i]% and using her Skill has 2 extra chances to trigger Sword Stance for #2[i] turn(s).\nSword Stance triggered from the extra chances deals #3[i]% of the original DMG.",
         "params": [
             [
                 1.92,
@@ -7824,7 +7824,7 @@
         "name": "Dancing Blade",
         "max_level": 15,
         "element": "Physical",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
@@ -8123,12 +8123,12 @@
         "name": "One With the Sword",
         "max_level": 15,
         "element": "Ice",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talent",
         "effect": "SingleAttack",
         "effect_text": "Single Target",
         "simple_desc": "",
-        "desc": "When Soulsteel Sync is active, Yanqing is less likely to be attacked by enemies. Yanqing's CRIT Rate increases by #1[f1]% and his CRIT DMG increases by #2[i]%. After Yanqing attacks an enemy, there is a #3[i]% fixed chance to perform a follow-up attack, dealing Ice DMG equal to #4[i]% of Yanqing's ATK to the enemy, which has a #6[i]% base chance to Freeze the enemy for 1 turn.\\nThe Frozen target cannot take action and receives Additional Ice DMG equal to #5[i]% of Yanqing's ATK at the beginning of each turn.\\nWhen Yanqing receives DMG, the Soulsteel Sync effect will disappear.",
+        "desc": "When Soulsteel Sync is active, Yanqing is less likely to be attacked by enemies. Yanqing's CRIT Rate increases by #1[f1]% and his CRIT DMG increases by #2[i]%. After Yanqing attacks an enemy, there is a #3[i]% fixed chance to perform a follow-up attack, dealing Ice DMG equal to #4[i]% of Yanqing's ATK to the enemy, which has a #6[i]% base chance to Freeze the enemy for 1 turn.\nThe Frozen target cannot take action and receives Additional Ice DMG equal to #5[i]% of Yanqing's ATK at the beginning of each turn.\nWhen Yanqing receives DMG, the Soulsteel Sync effect will disappear.",
         "params": [
             [
                 0.15,
@@ -8444,7 +8444,7 @@
         "effect": "Restore",
         "effect_text": "Restore",
         "simple_desc": "Restores HP for all allies, and grants them Invigoration, or prolongs the duration of their Invigoration.",
-        "desc": "Heals all allies for #1[f1]% of Bailu's Max HP plus #2[i].\\nBailu applies Invigoration to allies that are not already Invigorated. For those already Invigorated, Bailu extends the duration of their Invigoration by 1 turn.\\nThe effect of Invigoration can last for #3[i] turn(s). This effect cannot stack.",
+        "desc": "Heals all allies for #1[f1]% of Bailu's Max HP plus #2[i].\nBailu applies Invigoration to allies that are not already Invigorated. For those already Invigorated, Bailu extends the duration of their Invigoration by 1 turn.\nThe effect of Invigoration can last for #3[i] turn(s). This effect cannot stack.",
         "params": [
             [
                 0.09,
@@ -8529,12 +8529,12 @@
         "name": "Gourdful of Elixir",
         "max_level": 15,
         "element": "",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talent",
         "effect": "Restore",
         "effect_text": "Restore",
         "simple_desc": "",
-        "desc": "After an ally with Invigoration is hit, restores the ally's HP for #1[f1]% of Bailu's Max HP plus #2[i]. This effect can trigger #5[i] time(s).\\nWhen an ally receives a killing blow, they will not be knocked down. Bailu immediately heals the ally for #3[i]% of Bailu's Max HP plus #4[i] HP. This effect can be triggered 1 time per battle.",
+        "desc": "After an ally with Invigoration is hit, restores the ally's HP for #1[f1]% of Bailu's Max HP plus #2[i]. This effect can trigger #5[i] time(s).\nWhen an ally receives a killing blow, they will not be knocked down. Bailu immediately heals the ally for #3[i]% of Bailu's Max HP plus #4[i] HP. This effect can be triggered 1 time per battle.",
         "params": [
             [
                 0.036,
@@ -8788,7 +8788,7 @@
         "effect": "Enhance",
         "effect_text": "Enhance",
         "simple_desc": "Uses Single Target ATK or Blast to strike with full force.",
-        "desc": "Choose between two attack modes to deliver a full strike.\\nBlowout: Farewell Hit deals Physical DMG equal to #1[i]% of the Trailblazer's ATK to a single enemy.\\nBlowout: RIP Home Run deals Physical DMG equal to #2[i]% of the Trailblazer's ATK to a single enemy, and Physical DMG equal to #3[i]% of the Trailblazer's ATK to enemies adjacent to it.",
+        "desc": "Choose between two attack modes to deliver a full strike.\nBlowout: Farewell Hit deals Physical DMG equal to #1[i]% of the Trailblazer's ATK to a single enemy.\nBlowout: RIP Home Run deals Physical DMG equal to #2[i]% of the Trailblazer's ATK to a single enemy, and Physical DMG equal to #3[i]% of the Trailblazer's ATK to enemies adjacent to it.",
         "params": [
             [
                 3.0,
@@ -8873,7 +8873,7 @@
         "name": "Perfect Pickoff",
         "max_level": 15,
         "element": "",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
@@ -9033,7 +9033,7 @@
                 5.25
             ]
         ],
-        "icon": ""
+        "icon": "icon/skill/8001_ultimate.png"
     },
     "800109": {
         "id": "800109",
@@ -9108,7 +9108,7 @@
                 1.89
             ]
         ],
-        "icon": ""
+        "icon": "icon/skill/8001_ultimate.png"
     },
     "800201": {
         "id": "800201",
@@ -9222,7 +9222,7 @@
         "effect": "Enhance",
         "effect_text": "Enhance",
         "simple_desc": "Uses Single Target ATK or Blast to strike with full force.",
-        "desc": "Choose between two attack modes to deliver a full strike.\\nBlowout: Farewell Hit deals Physical DMG equal to #1[i]% of the Trailblazer's ATK to a single enemy.\\nBlowout: RIP Home Run deals Physical DMG equal to #2[i]% of the Trailblazer's ATK to a single enemy, and Physical DMG equal to #3[i]% of the Trailblazer's ATK to enemies adjacent to it.",
+        "desc": "Choose between two attack modes to deliver a full strike.\nBlowout: Farewell Hit deals Physical DMG equal to #1[i]% of the Trailblazer's ATK to a single enemy.\nBlowout: RIP Home Run deals Physical DMG equal to #2[i]% of the Trailblazer's ATK to a single enemy, and Physical DMG equal to #3[i]% of the Trailblazer's ATK to enemies adjacent to it.",
         "params": [
             [
                 3.0,
@@ -9307,7 +9307,7 @@
         "name": "Perfect Pickoff",
         "max_level": 15,
         "element": "",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
@@ -9467,7 +9467,7 @@
                 5.25
             ]
         ],
-        "icon": ""
+        "icon": "icon/skill/8002_ultimate.png"
     },
     "800209": {
         "id": "800209",
@@ -9542,7 +9542,7 @@
                 1.89
             ]
         ],
-        "icon": ""
+        "icon": "icon/skill/8002_ultimate.png"
     },
     "800301": {
         "id": "800301",
@@ -9756,12 +9756,12 @@
         "name": "Treasure of the Architects",
         "max_level": 15,
         "element": "",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
         "simple_desc": "",
-        "desc": "Each time the Trailblazer is hit, they gain 1 stack of Magma Will for a max of #3[i] stack(s).\\nWhen Magma Will has no fewer than 4 stacks, the Trailblazer's Basic ATK becomes enhanced, dealing DMG to a single enemy and enemies adjacent to it.\\nWhen the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all allies that absorbs DMG equal to #1[f1]% of the Trailblazer's DEF plus #4[i]. The Shield lasts for #2[i] turn(s).",
+        "desc": "Each time the Trailblazer is hit, they gain 1 stack of Magma Will for a max of #3[i] stack(s).\nWhen Magma Will has no fewer than 4 stacks, the Trailblazer's Basic ATK becomes enhanced, dealing DMG to a single enemy and enemies adjacent to it.\nWhen the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all allies that absorbs DMG equal to #1[f1]% of the Trailblazer's DEF plus #4[i]. The Shield lasts for #2[i] turn(s).",
         "params": [
             [
                 0.04,
@@ -9939,7 +9939,7 @@
                 0.675
             ]
         ],
-        "icon": ""
+        "icon": "icon/skill/8003_basic_atk.png"
     },
     "800401": {
         "id": "800401",
@@ -10153,12 +10153,12 @@
         "name": "Treasure of the Architects",
         "max_level": 15,
         "element": "",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
         "simple_desc": "",
-        "desc": "Each time the Trailblazer is hit, they gain 1 stack of Magma Will for a max of #3[i] stack(s).\\nWhen Magma Will has no fewer than 4 stacks, the Trailblazer's Basic ATK becomes enhanced, dealing DMG to a single enemy and enemies adjacent to it.\\nWhen the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all allies that absorbs DMG equal to #1[f1]% of the Trailblazer's DEF plus #4[i]. The Shield lasts for #2[i] turn(s).",
+        "desc": "Each time the Trailblazer is hit, they gain 1 stack of Magma Will for a max of #3[i] stack(s).\nWhen Magma Will has no fewer than 4 stacks, the Trailblazer's Basic ATK becomes enhanced, dealing DMG to a single enemy and enemies adjacent to it.\nWhen the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all allies that absorbs DMG equal to #1[f1]% of the Trailblazer's DEF plus #4[i]. The Shield lasts for #2[i] turn(s).",
         "params": [
             [
                 0.04,
@@ -10336,7 +10336,7 @@
                 0.675
             ]
         ],
-        "icon": ""
+        "icon": "icon/skill/8004_basic_atk.png"
     },
     "909807": {
         "id": "909807",

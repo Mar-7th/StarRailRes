@@ -51,7 +51,7 @@
         "effect": "Defence",
         "effect_text": "Defensa",
         "simple_desc": "Otorga un escudo a un aliado.",
-        "desc": "Otorga a un aliado un escudo que absorbe un daño equivalente al #1[i]% de la DEF de Siete de Marzo + #4[i] durante #2[i] turnos.\\nSi el porcentaje de PV de ese aliado es igual o superior al #3[i]%, la probabilidad de que reciba un ataque enemigo será mucho mayor.",
+        "desc": "Otorga a un aliado un escudo que absorbe un daño equivalente al #1[i]% de la DEF de Siete de Marzo + #4[i] durante #2[i] turnos.\nSi el porcentaje de PV de ese aliado es igual o superior al #3[i]%, la probabilidad de que reciba un ataque enemigo será mucho mayor.",
         "params": [
             [
                 0.38,
@@ -171,7 +171,7 @@
         "effect": "AoEAttack",
         "effect_text": "ATQ AdE",
         "simple_desc": "Inflige Daño de Hielo a todos los enemigos y hay una probabilidad de congelarlos.",
-        "desc": "Inflige un #1[i]% del ATQ de Siete de Marzo como Daño de Hielo a todos los enemigos. Cada enemigo atacado tiene un #2[i]% de probabilidad base de congelarse durante #3[i] turno.\\nLos enemigos congelados no pueden actuar, y al principio de cada turno reciben un #4[i]% del ATQ de Siete de Marzo como Daño de Hielo adicional.",
+        "desc": "Inflige un #1[i]% del ATQ de Siete de Marzo como Daño de Hielo a todos los enemigos. Cada enemigo atacado tiene un #2[i]% de probabilidad base de congelarse durante #3[i] turno.\nLos enemigos congelados no pueden actuar, y al principio de cada turno reciben un #4[i]% del ATQ de Siete de Marzo como Daño de Hielo adicional.",
         "params": [
             [
                 0.9,
@@ -271,7 +271,7 @@
         "name": "Poder femenino",
         "max_level": 15,
         "element": "Ice",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talento",
         "effect": "SingleAttack",
         "effect_text": "ATQ individual",
@@ -365,7 +365,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Ataca inmediatamente al enemigo y entra en combate. #1[i]% de probabilidad base de congelar a un enemigo al azar durante #2[i] turno.\\nLos enemigos congelados no pueden actuar, y al principio de cada turno reciben un #3[i]% del ATQ de Siete de Marzo como Daño de Hielo adicional.",
+        "desc": "Ataca inmediatamente al enemigo y entra en combate. #1[i]% de probabilidad base de congelar a un enemigo al azar durante #2[i] turno.\nLos enemigos congelados no pueden actuar, y al principio de cada turno reciben un #3[i]% del ATQ de Siete de Marzo como Daño de Hielo adicional.",
         "params": [
             [
                 1.0,
@@ -427,7 +427,7 @@
         "effect": "SingleAttack",
         "effect_text": "ATQ individual",
         "simple_desc": "Inflige Daño de Viento a un enemigo. Cuando asesta un golpe CRIT, tiene una gran probabilidad de causar Ralentización.",
-        "desc": "Inflige un #1[i]% del ATQ de Dan Heng como Daño de Viento a un enemigo.\\nCuando el daño infligido por la habilidad básica causa un golpe CRIT, hay una probabilidad base del #4[i]% de reducir la VEL del objetivo en un #2[i]% durante #3[i] turnos.",
+        "desc": "Inflige un #1[i]% del ATQ de Dan Heng como Daño de Viento a un enemigo.\nCuando el daño infligido por la habilidad básica causa un golpe CRIT, hay una probabilidad base del #4[i]% de reducir la VEL del objetivo en un #2[i]% durante #3[i] turnos.",
         "params": [
             [
                 1.3,
@@ -602,7 +602,7 @@
         "name": "Alcance superior",
         "max_level": 15,
         "element": "",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talento",
         "effect": "Enhance",
         "effect_text": "Potenciación",
@@ -902,12 +902,12 @@
         "name": "Carrera de la victoria",
         "max_level": 15,
         "element": "Fire",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talento",
         "effect": "AoEAttack",
         "effect_text": "ATQ AdE",
         "simple_desc": "",
-        "desc": "Cuando se rompe la Debilidad de un enemigo, Himeko consigue una carga (hasta un máximo de #2[i]).\\nDespués de que un aliado ataque, si Himeko ha acumulado el máximo de cargas, lanza inmediatamente un ataque adicional que inflige a todos los enemigos un Daño de Fuego equivalente al #1[i]% del ATQ de Himeko y consume todas sus cargas.\\nAl comenzar la batalla obtiene 1 carga.",
+        "desc": "Cuando se rompe la Debilidad de un enemigo, Himeko consigue una carga (hasta un máximo de #2[i]).\nDespués de que un aliado ataque, si Himeko ha acumulado el máximo de cargas, lanza inmediatamente un ataque adicional que inflige a todos los enemigos un Daño de Fuego equivalente al #1[i]% del ATQ de Himeko y consume todas sus cargas.\nAl comenzar la batalla obtiene 1 carga.",
         "params": [
             [
                 0.7,
@@ -1164,7 +1164,7 @@
         "effect": "AoEAttack",
         "effect_text": "ATQ AdE",
         "simple_desc": "Inflige Daño Imaginario a todos los enemigos y tiene una gran probabilidad de aprisionarlos.",
-        "desc": "Inflige un #1[i]% del ATQ de Welt como Daño Imaginario a todos los enemigos y tiene una probabilidad base del #3[i]% de aprisionar a los enemigos atacados durante 1 turno.\\nLas acciones de los enemigos aprisionados se retrasan un #2[i]% y su VEL se reduce en un #4[i]%.",
+        "desc": "Inflige un #1[i]% del ATQ de Welt como Daño Imaginario a todos los enemigos y tiene una probabilidad base del #3[i]% de aprisionar a los enemigos atacados durante 1 turno.\nLas acciones de los enemigos aprisionados se retrasan un #2[i]% y su VEL se reduce en un #4[i]%.",
         "params": [
             [
                 0.9,
@@ -1264,7 +1264,7 @@
         "name": "Distorsión temporal",
         "max_level": 15,
         "element": "",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talento",
         "effect": "Enhance",
         "effect_text": "Potenciación",
@@ -1343,7 +1343,7 @@
         "effect": "Impair",
         "effect_text": "Alteración",
         "simple_desc": "",
-        "desc": "Tras usar la técnica, crea una zona especial que dura #4[i] s. La VEL de movimiento de los enemigos que estén en la zona especial se reduce en un #5[i]%. Tras entrar en combate con enemigos en la zona especial, hay una probabilidad base del #1[i]% de aprisionarlos durante 1 turno.\\nLas acciones de los enemigos aprisionados se retrasan un #2[i]% y su VEL se reduce en un #3[i]%. Solo puede haber 1 zona especial creada por los aliados a la vez.",
+        "desc": "Tras usar la técnica, crea una zona especial que dura #4[i] s. La VEL de movimiento de los enemigos que estén en la zona especial se reduce en un #5[i]%. Tras entrar en combate con enemigos en la zona especial, hay una probabilidad base del #1[i]% de aprisionarlos durante 1 turno.\nLas acciones de los enemigos aprisionados se retrasan un #2[i]% y su VEL se reduce en un #3[i]%. Solo puede haber 1 zona especial creada por los aliados a la vez.",
         "params": [
             [
                 1.0,
@@ -1407,7 +1407,7 @@
         "effect": "Blast",
         "effect_text": "Ráfaga",
         "simple_desc": "Inflige Daño de Rayo a un enemigo y hace que sus estados negativos le inflijan más Daño con el tiempo. También inflige una pequeña cantidad de Daño de Rayo a los objetivos adyacentes.",
-        "desc": "Kafka inflige un #1[i]% de su ATQ como Daño de Rayo a un enemigo y un #3[i]% de su ATQ como Daño de Rayo a los enemigos adyacentes.\\nSi el objetivo principal está afectado por estados de Daño con el tiempo, todos los efectos de Daño con el tiempo que tenga producen inmediatamente un daño equivalente al #2[i]% de su daño original.",
+        "desc": "Kafka inflige un #1[i]% de su ATQ como Daño de Rayo a un enemigo y un #3[i]% de su ATQ como Daño de Rayo a los enemigos adyacentes.\nSi el objetivo principal está afectado por estados de Daño con el tiempo, todos los efectos de Daño con el tiempo que tenga producen inmediatamente un daño equivalente al #2[i]% de su daño original.",
         "params": [
             [
                 0.8,
@@ -1497,7 +1497,7 @@
         "effect": "AoEAttack",
         "effect_text": "ATQ AdE",
         "simple_desc": "Inflige una pequeña cantidad de Daño de Rayo a todos los enemigos y tiene una gran probabilidad de afectarlos con Electrocución y hacer que reciban más daño de ese estado.",
-        "desc": "Inflige un #1[i]% del ATQ de Kafka como Daño de Rayo a todos los enemigos y tiene una probabilidad base del #2[i]% de electrocutar a los enemigos atacados durante #3[i] turnos y hacer que reciban inmediatamente un #5[i]% del daño original de Electrocución recibido.\\nLos enemigos afectados por Electrocución reciben un Daño de Rayo con el tiempo equivalente al #4[i]% del ATQ de Kafka al comienzo de cada turno.",
+        "desc": "Inflige un #1[i]% del ATQ de Kafka como Daño de Rayo a todos los enemigos y tiene una probabilidad base del #2[i]% de electrocutar a los enemigos atacados durante #3[i] turnos y hacer que reciban inmediatamente un #5[i]% del daño original de Electrocución recibido.\nLos enemigos afectados por Electrocución reciben un Daño de Rayo con el tiempo equivalente al #4[i]% del ATQ de Kafka al comienzo de cada turno.",
         "params": [
             [
                 0.48,
@@ -1612,7 +1612,7 @@
         "name": "Dulce pero cruel",
         "max_level": 15,
         "element": "Thunder",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talento",
         "effect": "SingleAttack",
         "effect_text": "ATQ individual",
@@ -1736,7 +1736,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Ataca inmediatamente al enemigo y entra en combate. Inflige un #4[i]% del ATQ de Kafka como Daño de Rayo a un enemigo al azar. Además, cada enemigo tiene una probabilidad base del #1[i]% de ser afectado por Electrocución durante #3[i] turnos.\\nLos enemigos electrocutados reciben un Daño de Rayo con el tiempo equivalente al #2[i]% del ATQ de Kafka al comienzo de cada turno.",
+        "desc": "Ataca inmediatamente al enemigo y entra en combate. Inflige un #4[i]% del ATQ de Kafka como Daño de Rayo a un enemigo al azar. Además, cada enemigo tiene una probabilidad base del #1[i]% de ser afectado por Electrocución durante #3[i] turnos.\nLos enemigos electrocutados reciben un Daño de Rayo con el tiempo equivalente al #2[i]% del ATQ de Kafka al comienzo de cada turno.",
         "params": [
             [
                 1.0,
@@ -1799,7 +1799,7 @@
         "effect": "Impair",
         "effect_text": "Alteración",
         "simple_desc": "Inflige Daño Cuántico a un enemigo y tiene una probabilidad de aplicarle una Debilidad adicional.",
-        "desc": "Inflige un #1[i]% del ATQ de Silver Wolf como Daño Cuántico a un enemigo y tiene una probabilidad base del #2[i]% de aplicar al objetivo una Debilidad de uno de los tipos de daño que posea un aliado en el campo de batalla durante #3[i] turnos. Además, la RES al tipo de daño de esa Debilidad se reduce en un #4[i]%.\\nHay un #5[i]% de probabilidad base de que la RES a daño del objetivo se reduzca en un #6[f1]% adicional durante #7[i] turnos.",
+        "desc": "Inflige un #1[i]% del ATQ de Silver Wolf como Daño Cuántico a un enemigo y tiene una probabilidad base del #2[i]% de aplicar al objetivo una Debilidad de uno de los tipos de daño que posea un aliado en el campo de batalla durante #3[i] turnos. Además, la RES al tipo de daño de esa Debilidad se reduce en un #4[i]%.\nHay un #5[i]% de probabilidad base de que la RES a daño del objetivo se reduzca en un #6[f1]% adicional durante #7[i] turnos.",
         "params": [
             [
                 0.7,
@@ -2049,12 +2049,12 @@
         "name": "Esperando a que el programa responda...",
         "max_level": 15,
         "element": "",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talento",
         "effect": "Impair",
         "effect_text": "Alteración",
         "simple_desc": "",
-        "desc": "Silver Wolf puede crear 3 tipos de errores: hacer que el ATQ se reduzca en un #1[f1]%; hacer que la DEF se reduzca en un #2[f1]%; hacer que la VEL se reduzca en un #3[f1]%.\\nCada vez que Silver Wolf lanza un ataque, tiene una probabilidad base del #4[i]% de implantar 1 error al azar al objetivo durante #5[i] turnos.",
+        "desc": "Silver Wolf puede crear 3 tipos de errores: hacer que el ATQ se reduzca en un #1[f1]%; hacer que la DEF se reduzca en un #2[f1]%; hacer que la VEL se reduzca en un #3[f1]%.\nCada vez que Silver Wolf lanza un ataque, tiene una probabilidad base del #4[i]% de implantar 1 error al azar al objetivo durante #5[i] turnos.",
         "params": [
             [
                 0.075,
@@ -2389,7 +2389,7 @@
         "name": "Ira y dolor",
         "max_level": 15,
         "element": "",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talento",
         "effect": "Enhance",
         "effect_text": "Potenciación",
@@ -2658,12 +2658,12 @@
         "name": "Astrometría",
         "max_level": 15,
         "element": "",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talento",
         "effect": "Support",
         "effect_text": "Apoyo",
         "simple_desc": "",
-        "desc": "Obtiene una acumulación de Recarga por cada objetivo distinto golpeado. Si el objetivo tiene Debilidad de Fuego, obtiene una acumulación adicional.\\nPor cada acumulación de Recarga que tenga Asta, el ATQ de todos los aliados aumenta en un #1[f1]%. Se puede acumular hasta #2[i] veces.\\nA partir de su segundo turno, Asta pierde #3[i] acumulaciones de Recarga al principio de cada turno.",
+        "desc": "Obtiene una acumulación de Recarga por cada objetivo distinto golpeado. Si el objetivo tiene Debilidad de Fuego, obtiene una acumulación adicional.\nPor cada acumulación de Recarga que tenga Asta, el ATQ de todos los aliados aumenta en un #1[f1]%. Se puede acumular hasta #2[i] veces.\nA partir de su segundo turno, Asta pierde #3[i] acumulaciones de Recarga al principio de cada turno.",
         "params": [
             [
                 0.07,
@@ -2972,7 +2972,7 @@
         "name": "Mejor lo hago yo",
         "max_level": 15,
         "element": "Ice",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talento",
         "effect": "AoEAttack",
         "effect_text": "ATQ AdE",
@@ -3127,7 +3127,7 @@
         "effect": "Support",
         "effect_text": "Apoyo",
         "simple_desc": "Elimina 1 estado negativo de un aliado, aumenta el daño que inflige y hace que mueva inmediatamente.",
-        "desc": "Elimina un estado negativo de un aliado, hace que realice una acción inmediatamente y aumenta el daño que inflige en un #1[i]% durante #3[i] turno.\\nSi utiliza esta habilidad consigo misma, no se activará la acción inmediata.",
+        "desc": "Elimina un estado negativo de un aliado, hace que realice una acción inmediatamente y aumenta el daño que inflige en un #1[i]% durante #3[i] turno.\nSi utiliza esta habilidad consigo misma, no se activará la acción inmediata.",
         "params": [
             [
                 0.33,
@@ -3332,7 +3332,7 @@
         "name": "Liderazgo",
         "max_level": 15,
         "element": "Wind",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talento",
         "effect": "Enhance",
         "effect_text": "Potenciación",
@@ -3617,12 +3617,12 @@
         "name": "Reaparición",
         "max_level": 15,
         "element": "",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talento",
         "effect": "Enhance",
         "effect_text": "Potenciación",
         "simple_desc": "",
-        "desc": "Al eliminar a un objetivo enemigo usando su ATQ básico, habilidad básica o habilidad definitiva, obtiene inmediatamente un turno adicional y entra en un estado potenciado. Este estado hace que el daño de los ataques de Seele aumente en un #1[i]% durante #2[i] turno.\\nLos enemigos eliminados durante el turno adicional obtenido con su talento Reaparición no activarán el talento otra vez.",
+        "desc": "Al eliminar a un objetivo enemigo usando su ATQ básico, habilidad básica o habilidad definitiva, obtiene inmediatamente un turno adicional y entra en un estado potenciado. Este estado hace que el daño de los ataques de Seele aumente en un #1[i]% durante #2[i] turno.\nLos enemigos eliminados durante el turno adicional obtenido con su talento Reaparición no activarán el talento otra vez.",
         "params": [
             [
                 0.4,
@@ -3771,7 +3771,7 @@
         "effect": "Blast",
         "effect_text": "Ráfaga",
         "simple_desc": "Inflige una pequeña cantidad de Daño de Rayo a un objetivo y a los enemigos adyacentes. Gran probabilidad de afectar con Electrocución a los enemigos golpeados.",
-        "desc": "Serval inflige un #1[i]% de su ATQ como Daño de Rayo a un enemigo y un #2[i]% de su ATQ como Daño de Rayo a los enemigos adyacentes. Además, tiene un #3[i]% de probabilidad base de electrocutar a los enemigos atacados durante #4[i] turnos.\\nLos enemigos afectados por Electrocución reciben un Daño de Rayo con el tiempo equivalente al #5[i]% del ATQ de Serval al comienzo de cada turno.",
+        "desc": "Serval inflige un #1[i]% de su ATQ como Daño de Rayo a un enemigo y un #2[i]% de su ATQ como Daño de Rayo a los enemigos adyacentes. Además, tiene un #3[i]% de probabilidad base de electrocutar a los enemigos atacados durante #4[i] turnos.\nLos enemigos afectados por Electrocución reciben un Daño de Rayo con el tiempo equivalente al #5[i]% del ATQ de Serval al comienzo de cada turno.",
         "params": [
             [
                 0.7,
@@ -3961,7 +3961,7 @@
         "name": "Cuerdas ardientes",
         "max_level": 15,
         "element": "Thunder",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talento",
         "effect": "Enhance",
         "effect_text": "Potenciación",
@@ -4040,7 +4040,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Ataca inmediatamente al enemigo y entra en combate. Inflige un #4[i]% del ATQ de Serval como Daño de Rayo a un enemigo al azar. Además, cada enemigo tiene una probabilidad base del #1[i]% de ser afectado por Electrocución durante #3[i] turnos.\\nLos enemigos electrocutados reciben un Daño de Rayo con el tiempo equivalente al #2[i]% del ATQ de Serval al comienzo de cada turno.",
+        "desc": "Ataca inmediatamente al enemigo y entra en combate. Inflige un #4[i]% del ATQ de Serval como Daño de Rayo a un enemigo al azar. Además, cada enemigo tiene una probabilidad base del #1[i]% de ser afectado por Electrocución durante #3[i] turnos.\nLos enemigos electrocutados reciben un Daño de Rayo con el tiempo equivalente al #2[i]% del ATQ de Serval al comienzo de cada turno.",
         "params": [
             [
                 1.0,
@@ -4103,7 +4103,7 @@
         "effect": "Impair",
         "effect_text": "Alteración",
         "simple_desc": "Inflige Daño de Hielo a un enemigo y tiene una probabilidad de congelarlo.",
-        "desc": "Inflige un #1[i]% del ATQ de Gepard como Daño de Hielo a un enemigo. #2[i]% de probabilidad base de congelar al enemigo atacado durante #3[i] turno.\\nEl enemigo congelado no puede actuar, y al comienzo de cada turno recibe un #4[i]% del ATQ de Gepard como Daño de Hielo adicional.",
+        "desc": "Inflige un #1[i]% del ATQ de Gepard como Daño de Hielo a un enemigo. #2[i]% de probabilidad base de congelar al enemigo atacado durante #3[i] turno.\nEl enemigo congelado no puede actuar, y al comienzo de cada turno recibe un #4[i]% del ATQ de Gepard como Daño de Hielo adicional.",
         "params": [
             [
                 1.0,
@@ -4293,7 +4293,7 @@
         "name": "Voluntad de hierro",
         "max_level": 15,
         "element": "",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talento",
         "effect": "Restore",
         "effect_text": "Regeneración",
@@ -4624,7 +4624,7 @@
         "name": "Inervación",
         "max_level": 15,
         "element": "",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talento",
         "effect": "Enhance",
         "effect_text": "Potenciación",
@@ -4718,7 +4718,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Ataca inmediatamente al enemigo y entra en combate. Inflige un #4[i]% del ATQ de Natasha como Daño Físico a un enemigo al azar. Además, cada enemigo tiene una probabilidad base del #1[i]% de ser afectado por Debilitación.\\nEl daño que infligen los enemigos debilitados se reduce en un #2[i]% durante #3[i] turno.",
+        "desc": "Ataca inmediatamente al enemigo y entra en combate. Inflige un #4[i]% del ATQ de Natasha como Daño Físico a un enemigo al azar. Además, cada enemigo tiene una probabilidad base del #1[i]% de ser afectado por Debilitación.\nEl daño que infligen los enemigos debilitados se reduce en un #2[i]% durante #3[i] turno.",
         "params": [
             [
                 1.0,
@@ -4856,7 +4856,7 @@
         "effect": "Impair",
         "effect_text": "Alteración",
         "simple_desc": "Gran probabilidad de reducir la DEF del enemigo. Inflige una pequeña cantidad de Daño de Hielo a todos los enemigos.",
-        "desc": "Cada enemigo tiene una probabilidad base del #1[i]% de ser afectado por Desprotección. Además, inflige un #4[i]% del ATQ de Pela como Daño de Hielo a todos los enemigos.\\nLa DEF de los enemigos afectados por Desprotección se reduce en un #2[i]% durante #3[i] turnos.",
+        "desc": "Cada enemigo tiene una probabilidad base del #1[i]% de ser afectado por Desprotección. Además, inflige un #4[i]% del ATQ de Pela como Daño de Hielo a todos los enemigos.\nLa DEF de los enemigos afectados por Desprotección se reduce en un #2[i]% durante #3[i] turnos.",
         "params": [
             [
                 1.0,
@@ -4956,7 +4956,7 @@
         "name": "Recopilación de datos",
         "max_level": 15,
         "element": "",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talento",
         "effect": "Support",
         "effect_text": "Apoyo",
@@ -5098,7 +5098,7 @@
         "effect": "AoEAttack",
         "effect_text": "ATQ AdE",
         "simple_desc": "Inflige una pequeña cantidad de Daño Físico a todos los enemigos y además inflige una pequeña cantidad de Daño Físico extra a los que tengan Marca de represalia.",
-        "desc": "Clara inflige un #1[i]% de su ATQ como Daño Físico a todos los enemigos, y además inflige un #2[i]% de su ATQ como Daño Físico extra a los objetivos que tengan la Marca de represalia de Svarog.\\nTras usar la habilidad básica, se eliminan todas las Marcas de represalia.",
+        "desc": "Clara inflige un #1[i]% de su ATQ como Daño Físico a todos los enemigos, y además inflige un #2[i]% de su ATQ como Daño Físico extra a los objetivos que tengan la Marca de represalia de Svarog.\nTras usar la habilidad básica, se eliminan todas las Marcas de represalia.",
         "params": [
             [
                 0.6,
@@ -5173,7 +5173,7 @@
         "effect": "Enhance",
         "effect_text": "Potenciación",
         "simple_desc": "Aumenta su RES a daño y la probabilidad de ser atacada, y potencia el efecto de contraataque.",
-        "desc": "Tras usar su habilidad definitiva, el daño que recibe Clara se reduce en un #4[i]% adicional y la probabilidad de ser atacada aumenta enormemente durante #3[i] turnos.\\nAdemás, el efecto de contraataque de Svarog se potencia. Cuando un aliado recibe un ataque, Svarog lanza un contraataque inmediatamente, su multiplicador de daño aumenta en un #2[i]% e inflige un 50% del daño que reciba el objetivo principal a los enemigos adyacentes. El efecto de potenciación se puede activar #5[i] veces.",
+        "desc": "Tras usar su habilidad definitiva, el daño que recibe Clara se reduce en un #4[i]% adicional y la probabilidad de ser atacada aumenta enormemente durante #3[i] turnos.\nAdemás, el efecto de contraataque de Svarog se potencia. Cuando un aliado recibe un ataque, Svarog lanza un contraataque inmediatamente, su multiplicador de daño aumenta en un #2[i]% e inflige un 50% del daño que reciba el objetivo principal a los enemigos adyacentes. El efecto de potenciación se puede activar #5[i] veces.",
         "params": [
             [
                 5.0,
@@ -5288,7 +5288,7 @@
         "name": "Porque somos familia",
         "max_level": 15,
         "element": "Physical",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talento",
         "effect": "SingleAttack",
         "effect_text": "ATQ individual",
@@ -5633,12 +5633,12 @@
         "name": "Viento cortante",
         "max_level": 15,
         "element": "",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talento",
         "effect": "Enhance",
         "effect_text": "Potenciación",
         "simple_desc": "",
-        "desc": "Cuando Sampo golpea a un enemigo, tiene una probabilidad base del #1[i]% de afectar al objetivo golpeado con Intemperie durante #3[i] turnos.\\nEn el estado de Intemperie, los objetivos enemigos reciben un Daño de Viento con el tiempo equivalente al #2[i]% del ATQ de Sampo al comienzo de cada turno. Intemperie se puede acumular #4[i] veces como máximo.",
+        "desc": "Cuando Sampo golpea a un enemigo, tiene una probabilidad base del #1[i]% de afectar al objetivo golpeado con Intemperie durante #3[i] turnos.\nEn el estado de Intemperie, los objetivos enemigos reciben un Daño de Viento con el tiempo equivalente al #2[i]% del ATQ de Sampo al comienzo de cada turno. Intemperie se puede acumular #4[i] veces como máximo.",
         "params": [
             [
                 0.65,
@@ -5757,7 +5757,7 @@
         "effect": "Impair",
         "effect_text": "Alteración",
         "simple_desc": "",
-        "desc": "Tras usar la técnica, los enemigos de un área determinada quedan afectados por Ceguera durante #1[i] s, lo que les impide detectar a los aliados.\\nAl iniciar combate contra enemigos afectados por Ceguera, cada enemigo tiene una probabilidad fija del #2[i]% de que su acción se retrase en un #3[i]%.",
+        "desc": "Tras usar la técnica, los enemigos de un área determinada quedan afectados por Ceguera durante #1[i] s, lo que les impide detectar a los aliados.\nAl iniciar combate contra enemigos afectados por Ceguera, cada enemigo tiene una probabilidad fija del #2[i]% de que su acción se retrase en un #3[i]%.",
         "params": [
             [
                 10.0,
@@ -5819,7 +5819,7 @@
         "effect": "SingleAttack",
         "effect_text": "ATQ individual",
         "simple_desc": "Inflige Daño de Fuego a un enemigo y tiene una gran probabilidad de causarle Quemadura.",
-        "desc": "Inflige un #1[i]% del ATQ de Hook como Daño de Fuego a un enemigo. Además, tiene un #2[i]% de probabilidad base de quemar al enemigo golpeado durante #3[i] turnos.\\nLos enemigos afectados por Quemadura reciben al principio de cada turno un #4[i]% del ATQ de Hook como Daño de Fuego con el tiempo.",
+        "desc": "Inflige un #1[i]% del ATQ de Hook como Daño de Fuego a un enemigo. Además, tiene un #2[i]% de probabilidad base de quemar al enemigo golpeado durante #3[i] turnos.\nLos enemigos afectados por Quemadura reciben al principio de cada turno un #4[i]% del ATQ de Hook como Daño de Fuego con el tiempo.",
         "params": [
             [
                 1.2,
@@ -5924,7 +5924,7 @@
         "effect": "SingleAttack",
         "effect_text": "ATQ individual",
         "simple_desc": "Inflige una gran cantidad de Daño de Fuego a un enemigo y potencia el siguiente uso de la habilidad básica.",
-        "desc": "Inflige un #1[i]% del ATQ de Hook como Daño de Fuego a un enemigo.\\nTras usar la habilidad definitiva, potencia la habilidad básica la siguiente vez que se use. La habilidad básica potenciada inflige daño a un enemigo y a los enemigos adyacentes.",
+        "desc": "Inflige un #1[i]% del ATQ de Hook como Daño de Fuego a un enemigo.\nTras usar la habilidad definitiva, potencia la habilidad básica la siguiente vez que se use. La habilidad básica potenciada inflige daño a un enemigo y a los enemigos adyacentes.",
         "params": [
             [
                 2.4
@@ -5979,7 +5979,7 @@
         "name": "¡Ja! ¡Leña al fuego!",
         "max_level": 15,
         "element": "Fire",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talento",
         "effect": "Enhance",
         "effect_text": "Potenciación",
@@ -6073,7 +6073,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Ataca inmediatamente al enemigo y entra en combate. Inflige un #4[i]% del ATQ de Hook como Daño de Fuego a un enemigo al azar. Además, cada enemigo tiene un #1[i]% de probabilidad base de ser afectado por Quemadura durante #3[i] turnos.\\nLos enemigos quemados reciben un Daño de Fuego con el tiempo equivalente al #2[i]% del ATQ de Hook al comienzo de cada turno.",
+        "desc": "Ataca inmediatamente al enemigo y entra en combate. Inflige un #4[i]% del ATQ de Hook como Daño de Fuego a un enemigo al azar. Además, cada enemigo tiene un #1[i]% de probabilidad base de ser afectado por Quemadura durante #3[i] turnos.\nLos enemigos quemados reciben un Daño de Fuego con el tiempo equivalente al #2[i]% del ATQ de Hook al comienzo de cada turno.",
         "params": [
             [
                 1.0,
@@ -6094,7 +6094,7 @@
         "effect": "Blast",
         "effect_text": "Ráfaga",
         "simple_desc": "Inflige Daño de Fuego a un enemigo y tiene una gran probabilidad de causarle Quemadura. También inflige una pequeña cantidad de Daño de Fuego a los enemigos adyacentes.",
-        "desc": "Inflige un #1[i]% del ATQ de Hook como Daño de Fuego a un enemigo y tiene un #2[i]% de probabilidad base de quemar al enemigo golpeado durante #3[i] turnos. Además, inflige un Daño de Fuego equivalente al #5[i]% del ATQ de Hook a los enemigos adyacentes al objetivo.\\nLos enemigos afectados por Quemadura reciben al principio de cada turno un #4[i]% del ATQ de Hook como Daño de Fuego con el tiempo.",
+        "desc": "Inflige un #1[i]% del ATQ de Hook como Daño de Fuego a un enemigo y tiene un #2[i]% de probabilidad base de quemar al enemigo golpeado durante #3[i] turnos. Además, inflige un Daño de Fuego equivalente al #5[i]% del ATQ de Hook a los enemigos adyacentes al objetivo.\nLos enemigos afectados por Quemadura reciben al principio de cada turno un #4[i]% del ATQ de Hook como Daño de Fuego con el tiempo.",
         "params": [
             [
                 1.4,
@@ -6202,7 +6202,7 @@
                 1.0
             ]
         ],
-        "icon": ""
+        "icon": "icon/skill/1109_skill.png"
     },
     "120101": {
         "id": "120101",
@@ -6401,12 +6401,12 @@
         "name": "Jade celestial",
         "max_level": 15,
         "element": "",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talento",
         "effect": "Enhance",
         "effect_text": "Potenciación",
         "simple_desc": "",
-        "desc": "Cuando un aliado comienza su turno, Qingque roba 1 ficha de jade al azar de entre 3 fichas de palos distintos. Puede tener 4 fichas de jade como máximo.\\nSi Qingque tiene 4 fichas de jade del mismo palo al comenzar su turno, consume todas las fichas y entra en el estado de Cuarteto oculto.\\nEn este estado, Qingque no puede volver a utilizar la habilidad básica y su ATQ aumenta en un #1[i]%, su ATQ básico \"Combinación oculta\" se potencia y se convierte en \"¡Fuera la ficha del muro muerto!\". Cuarteto oculto termina cuando se usa \"¡Fuera la ficha del muro muerto!\".",
+        "desc": "Cuando un aliado comienza su turno, Qingque roba 1 ficha de jade al azar de entre 3 fichas de palos distintos. Puede tener 4 fichas de jade como máximo.\nSi Qingque tiene 4 fichas de jade del mismo palo al comenzar su turno, consume todas las fichas y entra en el estado de Cuarteto oculto.\nEn este estado, Qingque no puede volver a utilizar la habilidad básica y su ATQ aumenta en un #1[i]%, su ATQ básico \"Combinación oculta\" se potencia y se convierte en \"¡Fuera la ficha del muro muerto!\". Cuarteto oculto termina cuando se usa \"¡Fuera la ficha del muro muerto!\".",
         "params": [
             [
                 0.36
@@ -6498,7 +6498,7 @@
         "effect": "Blast",
         "effect_text": "Ráfaga",
         "simple_desc": "Inflige Daño Cuántico a un enemigo y una pequeña cantidad de Daño Cuántico a los enemigos adyacentes.",
-        "desc": "Qingque inflige un #1[i]% de su ATQ como Daño Cuántico a un enemigo y un #2[i]% de su ATQ como Daño Cuántico a los enemigos adyacentes.\\n\"¡Fuera la ficha del muro muerto!\" no recupera pts. de habilidad básica.",
+        "desc": "Qingque inflige un #1[i]% de su ATQ como Daño Cuántico a un enemigo y un #2[i]% de su ATQ como Daño Cuántico a los enemigos adyacentes.\n\"¡Fuera la ficha del muro muerto!\" no recupera pts. de habilidad básica.",
         "params": [
             [
                 1.2,
@@ -6537,7 +6537,7 @@
                 1.3
             ]
         ],
-        "icon": ""
+        "icon": "icon/skill/1201_basic_atk.png"
     },
     "120201": {
         "id": "120201",
@@ -6591,7 +6591,7 @@
         "effect": "Support",
         "effect_text": "Apoyo",
         "simple_desc": "Aumenta el ATQ de un aliado y le otorga una Gracia.",
-        "desc": "Otorga una Gracia a un aliado y aumenta el ATQ de ese aliado en un #2[i]% (sin superar el #4[i]% del ATQ actual de Tingyun).\\nCuando el aliado que ha recibido la Gracia lanza un ataque, inflige un Daño de Rayo adicional equivalente al #1[i]% de su ATQ.\\nLa Gracia dura #3[i] turnos y solo tiene efecto en el último aliado que haya sido objetivo de la habilidad básica de Tingyun.",
+        "desc": "Otorga una Gracia a un aliado y aumenta el ATQ de ese aliado en un #2[i]% (sin superar el #4[i]% del ATQ actual de Tingyun).\nCuando el aliado que ha recibido la Gracia lanza un ataque, inflige un Daño de Rayo adicional equivalente al #1[i]% de su ATQ.\nLa Gracia dura #3[i] turnos y solo tiene efecto en el último aliado que haya sido objetivo de la habilidad básica de Tingyun.",
         "params": [
             [
                 0.2,
@@ -6781,7 +6781,7 @@
         "name": "Ciclón de chispas violetas",
         "max_level": 15,
         "element": "",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talento",
         "effect": "Enhance",
         "effect_text": "Potenciación",
@@ -6920,7 +6920,7 @@
         "effect": "Restore",
         "effect_text": "Regeneración",
         "simple_desc": "Regenera los PV de un aliado y obtiene una acumulación de Flor abisal.",
-        "desc": "Tras usar la habilidad básica, regenera inmediatamente a un aliado una cantidad de PV equivalente al #1[i]% del ATQ de Luocha + #2[i] y Luocha obtiene una acumulación de Flor abisal.\\nCuando cualquiera de los aliados tiene un porcentaje de PV igual o inferior al #3[i]%, Luocha usa inmediatamente su habilidad básica una vez y no consume puntos. Este efecto se puede volver a activar cuando se cumplan los requisitos una vez que Luocha haya realizado acciones #4[i] veces.",
+        "desc": "Tras usar la habilidad básica, regenera inmediatamente a un aliado una cantidad de PV equivalente al #1[i]% del ATQ de Luocha + #2[i] y Luocha obtiene una acumulación de Flor abisal.\nCuando cualquiera de los aliados tiene un porcentaje de PV igual o inferior al #3[i]%, Luocha usa inmediatamente su habilidad básica una vez y no consume puntos. Este efecto se puede volver a activar cuando se cumplan los requisitos una vez que Luocha haya realizado acciones #4[i] veces.",
         "params": [
             [
                 0.4,
@@ -7095,12 +7095,12 @@
         "name": "Ciclo vital",
         "max_level": 15,
         "element": "",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talento",
         "effect": "Restore",
         "effect_text": "Regeneración",
         "simple_desc": "",
-        "desc": "Cuando se alcanzan #1[i] acumulaciones de Flor abisal, Luocha las consume todas y genera un campo contra los enemigos.\\nCuando un objetivo enemigo que está dentro del campo recibe un ataque, el aliado atacante regenera una cantidad de PV equivalente al #2[f1]% del ATQ de Luocha + #4[i].\\nEl campo dura #3[i] turnos.",
+        "desc": "Cuando se alcanzan #1[i] acumulaciones de Flor abisal, Luocha las consume todas y genera un campo contra los enemigos.\nCuando un objetivo enemigo que está dentro del campo recibe un ataque, el aliado atacante regenera una cantidad de PV equivalente al #2[f1]% del ATQ de Luocha + #4[i].\nEl campo dura #3[i] turnos.",
         "params": [
             [
                 2.0,
@@ -7420,12 +7420,12 @@
         "name": "Extirpación del prana",
         "max_level": 15,
         "element": "Thunder",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talento",
         "effect": "Bounce",
         "effect_text": "Rebote",
         "simple_desc": "",
-        "desc": "Invoca al caballero divino al comenzar la batalla. El caballero divino tiene inicialmente #1[i] pts. de VEL y #4[i] golpes por acción. Los golpes que inflige durante su acción se consideran ataques adicionales. Cada golpe inflige un #2[i]% del ATQ de Jing Yuan como Daño de Rayo a un enemigo aleatorio, y los enemigos adyacentes reciben un Daño de Rayo equivalente al #5[i]% del que recibe el objetivo principal.\\nEl caballero divino puede acumular #6[i] golpes por acción como máximo. Cada vez que sus golpes por acción se incrementan en 1, su VEL aumenta en #3[i] pts. Cuando finaliza su acción, su VEL y sus golpes por acción regresan al valor original.\\nCuando Jing Yuan es derrotado, el caballero divino desaparece.\\nCuando Jing Yuan está afectado por estados negativos de Control, el caballero divino tampoco puede realizar ninguna acción.",
+        "desc": "Invoca al caballero divino al comenzar la batalla. El caballero divino tiene inicialmente #1[i] pts. de VEL y #4[i] golpes por acción. Los golpes que inflige durante su acción se consideran ataques adicionales. Cada golpe inflige un #2[i]% del ATQ de Jing Yuan como Daño de Rayo a un enemigo aleatorio, y los enemigos adyacentes reciben un Daño de Rayo equivalente al #5[i]% del que recibe el objetivo principal.\nEl caballero divino puede acumular #6[i] golpes por acción como máximo. Cada vez que sus golpes por acción se incrementan en 1, su VEL aumenta en #3[i] pts. Cuando finaliza su acción, su VEL y sus golpes por acción regresan al valor original.\nCuando Jing Yuan es derrotado, el caballero divino desaparece.\nCuando Jing Yuan está afectado por estados negativos de Control, el caballero divino tampoco puede realizar ninguna acción.",
         "params": [
             [
                 60.0,
@@ -7634,7 +7634,7 @@
         "effect": "SingleAttack",
         "effect_text": "ATQ individual",
         "simple_desc": "Inflige Daño Físico a un enemigo y tiene una pequeña probabilidad de activar Postura espadachina (que será del 100% si el objetivo está en Ruptura de Debilidad).",
-        "desc": "Inflige un #1[i]% del ATQ de Sushang como Daño Físico a un enemigo. Además, hay una probabilidad del #3[i]% de activar Postura espadachina tras el último golpe e infligir al objetivo un Daño Físico adicional equivalente al #2[i]% del ATQ de Sushang.\\nSi el objetivo está afectado por Ruptura de Debilidad, la activación de Postura espadachina estará garantizada.",
+        "desc": "Inflige un #1[i]% del ATQ de Sushang como Daño Físico a un enemigo. Además, hay una probabilidad del #3[i]% de activar Postura espadachina tras el último golpe e infligir al objetivo un Daño Físico adicional equivalente al #2[i]% del ATQ de Sushang.\nSi el objetivo está afectado por Ruptura de Debilidad, la activación de Postura espadachina estará garantizada.",
         "params": [
             [
                 1.05,
@@ -7724,7 +7724,7 @@
         "effect": "SingleAttack",
         "effect_text": "ATQ individual",
         "simple_desc": "Inflige una gran cantidad de Daño Físico a un enemigo, potencia el efecto de Postura espadachina y realiza otra acción inmediatamente.",
-        "desc": "Sushang inflige un #1[i]% de su ATQ como Daño Físico a un enemigo y adelanta inmediatamente su siguiente acción en un 100%. Además, su ATQ aumenta en un #4[i]% y al usar la habilidad básica tiene 2 oportunidades extra de activar Postura espadachina durante #2[i] turnos.\\nSi Postura espadachina se activa con las oportunidades extra, el daño que inflige es del #3[i]% del daño original.",
+        "desc": "Sushang inflige un #1[i]% de su ATQ como Daño Físico a un enemigo y adelanta inmediatamente su siguiente acción en un 100%. Además, su ATQ aumenta en un #4[i]% y al usar la habilidad básica tiene 2 oportunidades extra de activar Postura espadachina durante #2[i] turnos.\nSi Postura espadachina se activa con las oportunidades extra, el daño que inflige es del #3[i]% del daño original.",
         "params": [
             [
                 1.92,
@@ -7824,7 +7824,7 @@
         "name": "Filo fluido",
         "max_level": 15,
         "element": "Physical",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talento",
         "effect": "Enhance",
         "effect_text": "Potenciación",
@@ -8123,12 +8123,12 @@
         "name": "Compañera afilada",
         "max_level": 15,
         "element": "Ice",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talento",
         "effect": "SingleAttack",
         "effect_text": "ATQ individual",
         "simple_desc": "",
-        "desc": "Cuando Estocada empática está activa, Yanqing tiene menos probabilidades de recibir un ataque. Además, su Prob. CRIT aumenta en un #1[f1]% y su Daño CRIT en un #2[i]%. Tras atacar a un enemigo, hay un #3[i]% de probabilidad fija de activar un ataque adicional que inflige un #4[i]% del ATQ de Yanqing como Daño de Hielo y tiene una probabilidad base del #6[i]% de congelar al objetivo durante 1 turno.\\nLos enemigos congelados no pueden actuar, y al principio de cada turno reciben un #5[i]% del ATQ de Yanqing como Daño de Hielo adicional.\\nEstocada empática se elimina cuando Yanqing recibe daño.",
+        "desc": "Cuando Estocada empática está activa, Yanqing tiene menos probabilidades de recibir un ataque. Además, su Prob. CRIT aumenta en un #1[f1]% y su Daño CRIT en un #2[i]%. Tras atacar a un enemigo, hay un #3[i]% de probabilidad fija de activar un ataque adicional que inflige un #4[i]% del ATQ de Yanqing como Daño de Hielo y tiene una probabilidad base del #6[i]% de congelar al objetivo durante 1 turno.\nLos enemigos congelados no pueden actuar, y al principio de cada turno reciben un #5[i]% del ATQ de Yanqing como Daño de Hielo adicional.\nEstocada empática se elimina cuando Yanqing recibe daño.",
         "params": [
             [
                 0.15,
@@ -8444,7 +8444,7 @@
         "effect": "Restore",
         "effect_text": "Regeneración",
         "simple_desc": "Regenera PV a todos los aliados y les aplica Vigor o extiende su duración.",
-        "desc": "Cura a todos los aliados con una cantidad de PV equivalente al #1[f1]% de los PV máx. de Bailu + #2[i].\\nAplica Vigor a los aliados que no lo tienen y alarga el efecto en 1 turno a los que lo tienen.\\nVigor dura #3[i] turnos y no se puede acumular.",
+        "desc": "Cura a todos los aliados con una cantidad de PV equivalente al #1[f1]% de los PV máx. de Bailu + #2[i].\nAplica Vigor a los aliados que no lo tienen y alarga el efecto en 1 turno a los que lo tienen.\nVigor dura #3[i] turnos y no se puede acumular.",
         "params": [
             [
                 0.09,
@@ -8529,12 +8529,12 @@
         "name": "Calabaza de elixir",
         "max_level": 15,
         "element": "",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talento",
         "effect": "Restore",
         "effect_text": "Regeneración",
         "simple_desc": "",
-        "desc": "Cuando un aliado con Vigor recibe un ataque, regenera una cantidad de PV equivalente al #1[f1]% de los PV máx. de Bailu + #2[i]. Este efecto se puede activar #5[i] veces.\\nCuando un aliado de Bailu recibe un golpe letal, no será derrotado, sino que Bailu lo curará inmediatamente con una cantidad de PV equivalente al #3[i]% de los PV máx. de Bailu + #4[i]. Este efecto se puede activar una vez en cada batalla.",
+        "desc": "Cuando un aliado con Vigor recibe un ataque, regenera una cantidad de PV equivalente al #1[f1]% de los PV máx. de Bailu + #2[i]. Este efecto se puede activar #5[i] veces.\nCuando un aliado de Bailu recibe un golpe letal, no será derrotado, sino que Bailu lo curará inmediatamente con una cantidad de PV equivalente al #3[i]% de los PV máx. de Bailu + #4[i]. Este efecto se puede activar una vez en cada batalla.",
         "params": [
             [
                 0.036,
@@ -8788,7 +8788,7 @@
         "effect": "Enhance",
         "effect_text": "Potenciación",
         "simple_desc": "Elige entre ATQ individual o Ráfaga para dar un fuerte golpe.",
-        "desc": "Elige entre dos formas de dar un fuerte golpe.\\nVictoria total: Golpe de despedida inflige un #1[i]% del ATQ {F#de la}{M#del} Trazacaminos como Daño Físico a un enemigo.\\nVictoria total: Carrera final inflige un #2[i]% del ATQ {F#de la}{M#del} Trazacaminos como Daño Físico a un objetivo y un #3[i]% del ATQ {F#de la}{M#del} Trazacaminos como Daño Físico a los enemigos adyacentes.",
+        "desc": "Elige entre dos formas de dar un fuerte golpe.\nVictoria total: Golpe de despedida inflige un #1[i]% del ATQ {F#de la}{M#del} Trazacaminos como Daño Físico a un enemigo.\nVictoria total: Carrera final inflige un #2[i]% del ATQ {F#de la}{M#del} Trazacaminos como Daño Físico a un objetivo y un #3[i]% del ATQ {F#de la}{M#del} Trazacaminos como Daño Físico a los enemigos adyacentes.",
         "params": [
             [
                 3.0,
@@ -8873,7 +8873,7 @@
         "name": "Recogida perfecta",
         "max_level": 15,
         "element": "",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talento",
         "effect": "Enhance",
         "effect_text": "Potenciación",
@@ -9033,7 +9033,7 @@
                 5.25
             ]
         ],
-        "icon": ""
+        "icon": "icon/skill/8001_ultimate.png"
     },
     "800109": {
         "id": "800109",
@@ -9108,7 +9108,7 @@
                 1.89
             ]
         ],
-        "icon": ""
+        "icon": "icon/skill/8001_ultimate.png"
     },
     "800201": {
         "id": "800201",
@@ -9222,7 +9222,7 @@
         "effect": "Enhance",
         "effect_text": "Potenciación",
         "simple_desc": "Elige entre ATQ individual o Ráfaga para dar un fuerte golpe.",
-        "desc": "Elige entre dos formas de dar un fuerte golpe.\\nVictoria total: Golpe de despedida inflige un #1[i]% del ATQ {F#de la}{M#del} Trazacaminos como Daño Físico a un enemigo.\\nVictoria total: Carrera final inflige un #2[i]% del ATQ {F#de la}{M#del} Trazacaminos como Daño Físico a un objetivo y un #3[i]% del ATQ {F#de la}{M#del} Trazacaminos como Daño Físico a los enemigos adyacentes.",
+        "desc": "Elige entre dos formas de dar un fuerte golpe.\nVictoria total: Golpe de despedida inflige un #1[i]% del ATQ {F#de la}{M#del} Trazacaminos como Daño Físico a un enemigo.\nVictoria total: Carrera final inflige un #2[i]% del ATQ {F#de la}{M#del} Trazacaminos como Daño Físico a un objetivo y un #3[i]% del ATQ {F#de la}{M#del} Trazacaminos como Daño Físico a los enemigos adyacentes.",
         "params": [
             [
                 3.0,
@@ -9307,7 +9307,7 @@
         "name": "Recogida perfecta",
         "max_level": 15,
         "element": "",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talento",
         "effect": "Enhance",
         "effect_text": "Potenciación",
@@ -9467,7 +9467,7 @@
                 5.25
             ]
         ],
-        "icon": ""
+        "icon": "icon/skill/8002_ultimate.png"
     },
     "800209": {
         "id": "800209",
@@ -9542,7 +9542,7 @@
                 1.89
             ]
         ],
-        "icon": ""
+        "icon": "icon/skill/8002_ultimate.png"
     },
     "800301": {
         "id": "800301",
@@ -9756,12 +9756,12 @@
         "name": "Tesoro de los Arquitectos",
         "max_level": 15,
         "element": "",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talento",
         "effect": "Enhance",
         "effect_text": "Potenciación",
         "simple_desc": "",
-        "desc": "Por cada ataque recibido, obtiene 1 acumulación de Voluntad magmática (puede tener hasta #3[i] acumulaciones).\\nCuando tiene 4 o más, el ATQ básico se potencia e inflige daño tanto al objetivo como a los enemigos adyacentes.\\nDespués de que {F#la}{M#el} Trazacaminos use el ATQ básico, la habilidad básica o la habilidad definitiva, todos los aliados obtienen un escudo que absorbe un daño equivalente al #1[f1]% de la DEF {F#de la}{M#del} Trazacaminos + #4[i] durante #2[i] turnos.",
+        "desc": "Por cada ataque recibido, obtiene 1 acumulación de Voluntad magmática (puede tener hasta #3[i] acumulaciones).\nCuando tiene 4 o más, el ATQ básico se potencia e inflige daño tanto al objetivo como a los enemigos adyacentes.\nDespués de que {F#la}{M#el} Trazacaminos use el ATQ básico, la habilidad básica o la habilidad definitiva, todos los aliados obtienen un escudo que absorbe un daño equivalente al #1[f1]% de la DEF {F#de la}{M#del} Trazacaminos + #4[i] durante #2[i] turnos.",
         "params": [
             [
                 0.04,
@@ -9939,7 +9939,7 @@
                 0.675
             ]
         ],
-        "icon": ""
+        "icon": "icon/skill/8003_basic_atk.png"
     },
     "800401": {
         "id": "800401",
@@ -10153,12 +10153,12 @@
         "name": "Tesoro de los Arquitectos",
         "max_level": 15,
         "element": "",
-        "type": "",
+        "type": "Talent",
         "type_text": "Talento",
         "effect": "Enhance",
         "effect_text": "Potenciación",
         "simple_desc": "",
-        "desc": "Por cada ataque recibido, obtiene 1 acumulación de Voluntad magmática (puede tener hasta #3[i] acumulaciones).\\nCuando tiene 4 o más, el ATQ básico se potencia e inflige daño tanto al objetivo como a los enemigos adyacentes.\\nDespués de que {F#la}{M#el} Trazacaminos use el ATQ básico, la habilidad básica o la habilidad definitiva, todos los aliados obtienen un escudo que absorbe un daño equivalente al #1[f1]% de la DEF {F#de la}{M#del} Trazacaminos + #4[i] durante #2[i] turnos.",
+        "desc": "Por cada ataque recibido, obtiene 1 acumulación de Voluntad magmática (puede tener hasta #3[i] acumulaciones).\nCuando tiene 4 o más, el ATQ básico se potencia e inflige daño tanto al objetivo como a los enemigos adyacentes.\nDespués de que {F#la}{M#el} Trazacaminos use el ATQ básico, la habilidad básica o la habilidad definitiva, todos los aliados obtienen un escudo que absorbe un daño equivalente al #1[f1]% de la DEF {F#de la}{M#del} Trazacaminos + #4[i] durante #2[i] turnos.",
         "params": [
             [
                 0.04,
@@ -10336,7 +10336,7 @@
                 0.675
             ]
         ],
-        "icon": ""
+        "icon": "icon/skill/8004_basic_atk.png"
     },
     "909807": {
         "id": "909807",
