@@ -72,7 +72,7 @@
     "BreakDamageAddedRatioBase": {
         "type": "BreakDamageAddedRatioBase",
         "name": "เอฟเฟกต์ทำลายล้าง",
-        "field": "effect_hit",
+        "field": "break_dmg",
         "affix": true,
         "ratio": false,
         "percent": true,
@@ -82,8 +82,8 @@
     "HealRatio": {
         "type": "HealRatio",
         "name": "เพิ่มปริมาณการรักษา",
-        "field": "heal_rate",
-        "affix": true,
+        "field": "",
+        "affix": false,
         "ratio": false,
         "percent": true,
         "order": 9,
@@ -152,8 +152,8 @@
     "HealRatioBase": {
         "type": "HealRatioBase",
         "name": "เพิ่มปริมาณการรักษา",
-        "field": "",
-        "affix": false,
+        "field": "heal_rate",
+        "affix": true,
         "ratio": false,
         "percent": true,
         "order": 16,
@@ -182,8 +182,8 @@
     "StatusProbabilityBase": {
         "type": "StatusProbabilityBase",
         "name": "อัตราสร้างสถานะ",
-        "field": "",
-        "affix": false,
+        "field": "effect_hit",
+        "affix": true,
         "ratio": false,
         "percent": true,
         "order": 19,
@@ -302,7 +302,7 @@
     "QuantumAddedRatio": {
         "type": "QuantumAddedRatio",
         "name": "เพิ่มดาเมจควอนตัม",
-        "field": "quantum_res",
+        "field": "quantum_dmg",
         "affix": true,
         "ratio": false,
         "percent": true,
@@ -312,8 +312,8 @@
     "QuantumResistance": {
         "type": "QuantumResistance",
         "name": "เพิ่มความต้านทานควอนตัม",
-        "field": "",
-        "affix": false,
+        "field": "quantum_res",
+        "affix": true,
         "ratio": false,
         "percent": true,
         "order": 32,

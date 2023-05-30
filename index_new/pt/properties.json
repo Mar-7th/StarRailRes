@@ -72,7 +72,7 @@
     "BreakDamageAddedRatioBase": {
         "type": "BreakDamageAddedRatioBase",
         "name": "Efeito de Quebra",
-        "field": "effect_hit",
+        "field": "break_dmg",
         "affix": true,
         "ratio": false,
         "percent": true,
@@ -82,8 +82,8 @@
     "HealRatio": {
         "type": "HealRatio",
         "name": "Bônus de Cura Realizada",
-        "field": "heal_rate",
-        "affix": true,
+        "field": "",
+        "affix": false,
         "ratio": false,
         "percent": true,
         "order": 9,
@@ -152,8 +152,8 @@
     "HealRatioBase": {
         "type": "HealRatioBase",
         "name": "Bônus de Cura Realizada",
-        "field": "",
-        "affix": false,
+        "field": "heal_rate",
+        "affix": true,
         "ratio": false,
         "percent": true,
         "order": 16,
@@ -182,8 +182,8 @@
     "StatusProbabilityBase": {
         "type": "StatusProbabilityBase",
         "name": "Taxa de Acerto de Efeito",
-        "field": "",
-        "affix": false,
+        "field": "effect_hit",
+        "affix": true,
         "ratio": false,
         "percent": true,
         "order": 19,
@@ -302,7 +302,7 @@
     "QuantumAddedRatio": {
         "type": "QuantumAddedRatio",
         "name": "Bônus de Dano Quântico",
-        "field": "quantum_res",
+        "field": "quantum_dmg",
         "affix": true,
         "ratio": false,
         "percent": true,
@@ -312,8 +312,8 @@
     "QuantumResistance": {
         "type": "QuantumResistance",
         "name": "Bônus de RES a Quântico",
-        "field": "",
-        "affix": false,
+        "field": "quantum_res",
+        "affix": true,
         "ratio": false,
         "percent": true,
         "order": 32,

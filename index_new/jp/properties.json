@@ -72,7 +72,7 @@
     "BreakDamageAddedRatioBase": {
         "type": "BreakDamageAddedRatioBase",
         "name": "撃破特効",
-        "field": "effect_hit",
+        "field": "break_dmg",
         "affix": true,
         "ratio": false,
         "percent": true,
@@ -82,8 +82,8 @@
     "HealRatio": {
         "type": "HealRatio",
         "name": "治癒量",
-        "field": "heal_rate",
-        "affix": true,
+        "field": "",
+        "affix": false,
         "ratio": false,
         "percent": true,
         "order": 9,
@@ -152,8 +152,8 @@
     "HealRatioBase": {
         "type": "HealRatioBase",
         "name": "治癒量",
-        "field": "",
-        "affix": false,
+        "field": "heal_rate",
+        "affix": true,
         "ratio": false,
         "percent": true,
         "order": 16,
@@ -182,8 +182,8 @@
     "StatusProbabilityBase": {
         "type": "StatusProbabilityBase",
         "name": "効果命中",
-        "field": "",
-        "affix": false,
+        "field": "effect_hit",
+        "affix": true,
         "ratio": false,
         "percent": true,
         "order": 19,
@@ -302,7 +302,7 @@
     "QuantumAddedRatio": {
         "type": "QuantumAddedRatio",
         "name": "量子属性与ダメージ",
-        "field": "quantum_res",
+        "field": "quantum_dmg",
         "affix": true,
         "ratio": false,
         "percent": true,
@@ -312,8 +312,8 @@
     "QuantumResistance": {
         "type": "QuantumResistance",
         "name": "量子属性耐性",
-        "field": "",
-        "affix": false,
+        "field": "quantum_res",
+        "affix": true,
         "ratio": false,
         "percent": true,
         "order": 32,
