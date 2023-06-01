@@ -53,3 +53,5 @@ Guide images source:
 | -------------------- | ------------ | ------------------------------------------------------------------------------------------------ | -------- |
 | `guide/Nwflower`     | Nwflower     | [`Nwflower/star-rail-atlas`](https://github.com/Nwflower/star-rail-atlas)                        | AGPL-3.0 |
 | `guide/OriginMirror` | OriginMirror | [`初始镜像OriginMirror@米游社`](https://www.miyoushe.com/sr/accountCenter/postList?id=159117584) | Unknown  |
+
+Game data source: [Dimbreath/StarRailData](https://github.com/Dimbreath/StarRailData)
