@@ -365,7 +365,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Attaque immédiatement un ennemi. Il y a #1[i]% de chances de base de geler un ennemi aléatoire pendant #2[i] tour après être entré en combat.\nUn ennemi gelé ne peut pas agir et subit des DGT de glace additionnels équivalents à #3[i]% de l'ATQ de March 7th au début de chaque tour.",
+        "desc": "Attaque immédiatement les ennemis. Il y a #1[i]% de chances de base de geler un ennemi aléatoire pendant #2[i] tour après être entré en combat.\nUn ennemi gelé ne peut pas agir et subit des DGT de glace additionnels équivalents à #3[i]% de l'ATQ de March 7th au début de chaque tour.",
         "params": [
             [
                 1,
@@ -606,7 +606,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Renforcement",
-        "simple_desc": "",
+        "simple_desc": "Lorsqu'il est la cible de la capacité d'un allié, la PÉN de RÉS de vent de sa prochaine attaque augmente. Cet effet peut être déclenché à nouveau après 2 tours.",
         "desc": "Lorsque Dan Heng est la cible de la capacité d'un allié, la PÉN de RÉS de vent de sa prochaine attaque augmente de #1[i]%. Cet effet peut être déclenché à nouveau après #2[i] tours.",
         "params": [
             [
@@ -695,7 +695,7 @@
         "type_text": "Technique",
         "effect": "Enhance",
         "effect_text": "Renforcement",
-        "simple_desc": "",
+        "simple_desc": "Après utilisation de la technique, son ATQ augmente au début du combat suivant.",
         "desc": "Après utilisation de la technique de Dan Heng, son ATQ augmente de #1[i]% pendant #2[i] tours au début du combat suivant.",
         "params": [
             [
@@ -1411,77 +1411,77 @@
         "params": [
             [
                 0.8,
-                0.8,
+                0.6,
                 0.3
             ],
             [
                 0.88,
-                0.82,
+                0.615,
                 0.33
             ],
             [
                 0.96,
-                0.84,
+                0.63,
                 0.36
             ],
             [
                 1.04,
-                0.86,
+                0.645,
                 0.39
             ],
             [
                 1.12,
-                0.88,
+                0.66,
                 0.42
             ],
             [
                 1.2,
-                0.9,
+                0.675,
                 0.45
             ],
             [
                 1.3,
-                0.925,
+                0.6938,
                 0.4875
             ],
             [
                 1.4,
-                0.95,
+                0.7125,
                 0.525
             ],
             [
                 1.5,
-                0.975,
+                0.7313,
                 0.5625
             ],
             [
                 1.6,
-                1,
+                0.75,
                 0.6
             ],
             [
                 1.68,
-                1.02,
+                0.765,
                 0.63
             ],
             [
                 1.76,
-                1.04,
+                0.78,
                 0.66
             ],
             [
                 1.84,
-                1.06,
+                0.795,
                 0.69
             ],
             [
                 1.92,
-                1.08,
+                0.81,
                 0.72
             ],
             [
                 2,
-                1.1,
+                0.825,
                 0.75
             ]
         ],
@@ -1503,106 +1503,106 @@
                 0.48,
                 1,
                 2,
-                0.75,
-                0.8
+                0.95,
+                0.72
             ],
             [
                 0.512,
                 1,
                 2,
-                0.8256,
-                0.82
+                1.045,
+                0.738
             ],
             [
                 0.544,
                 1,
                 2,
-                0.9013,
-                0.84
+                1.14,
+                0.756
             ],
             [
                 0.576,
                 1,
                 2,
-                0.9769,
-                0.86
+                1.235,
+                0.774
             ],
             [
                 0.608,
                 1,
                 2,
-                1.0525,
-                0.88
+                1.33,
+                0.792
             ],
             [
                 0.64,
                 1,
                 2,
-                1.1659,
-                0.9
+                1.4725,
+                0.81
             ],
             [
                 0.68,
                 1,
                 2,
-                1.3172,
-                0.925
+                1.6625,
+                0.8325
             ],
             [
                 0.72,
                 1,
                 2,
-                1.5063,
-                0.95
+                1.9,
+                0.855
             ],
             [
                 0.76,
                 1,
                 2,
-                1.7331,
-                0.975
+                2.185,
+                0.8775
             ],
             [
                 0.8,
                 1,
                 2,
-                1.96,
-                1
+                2.47,
+                0.9
             ],
             [
                 0.832,
                 1,
                 2,
-                2.0583,
-                1.02
+                2.5935,
+                0.918
             ],
             [
                 0.864,
                 1,
                 2,
-                2.1566,
-                1.04
+                2.717,
+                0.936
             ],
             [
                 0.896,
                 1,
                 2,
-                2.2549,
-                1.06
+                2.8405,
+                0.954
             ],
             [
                 0.928,
                 1,
                 2,
-                2.3533,
-                1.08
+                2.964,
+                0.972
             ],
             [
                 0.96,
                 1,
                 2,
-                2.4516,
-                1.1
+                3.0875,
+                0.99
             ]
         ],
         "icon": "icon/skill/1005_ultimate.png"
@@ -1617,7 +1617,7 @@
         "effect": "SingleAttack",
         "effect_text": "Cible unique",
         "simple_desc": "",
-        "desc": "Lorsqu'un allié de Kafka utilise une ATQ normale sur un ennemi, Kafka lance immédiatement 1 attaque de suivi et inflige des DGT de foudre équivalents à #1[i]% de sa propre ATQ à cet ennemi, avec #4[i]% de chances de base d'augmenter les dégâts sur la durée subis par cet ennemi de #2[i]% pendant #3[i] tours. Cet effet ne peut être déclenché qu'1 fois par tour.",
+        "desc": "Lorsqu'un allié de Kafka utilise une ATQ normale sur un ennemi, Kafka lance immédiatement 1 attaque de suivi et inflige des DGT de foudre équivalents à #1[i]% de sa propre ATQ à cet ennemi, avec #4[i]% de chances de base d'augmenter les DGT subis par cet ennemi de #2[i]% pendant #3[i] tours. Cet effet ne peut être déclenché qu'1 fois par tour.",
         "params": [
             [
                 0.6,
@@ -1736,7 +1736,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Attaque immédiatement un ennemi. Inflige des DGT de foudre équivalents à #4[i]% de l'ATQ de Kafka à un ennemi aléatoire après être entré en combat. D'autre part, tous les ennemis ont #1[i]% de chances de base d'être stupéfiés pendant #3[i] tours.\nLes ennemis stupéfiés subissent des dégâts de foudre sur la durée équivalents à #2[i]% de l'ATQ de Kafka au début de chaque tour.",
+        "desc": "Attaque immédiatement. Inflige des DGT de foudre équivalents à #4[i]% de l'ATQ de Kafka à tous les ennemis après être entré en combat. D'autre part, chaque ennemi a #1[i]% de chances de base d'être stupéfié pendant #3[i] tours.\nLes ennemis stupéfiés subissent des dégâts de foudre sur la durée équivalents à #2[i]% de l'ATQ de Kafka au début de chaque tour.",
         "params": [
             [
                 1,
@@ -1798,143 +1798,143 @@
         "type_text": "Compétence",
         "effect": "Impair",
         "effect_text": "Incapacitation",
-        "simple_desc": "Inflige des DGT quantiques à un ennemi unique et a une chance de lui infliger une Faiblesse de type supplémentaire.",
-        "desc": "Inflige des DGT quantiques équivalents à #1[i]% de l'ATQ de Louve d'argent à un ennemi unique, avec #2[i]% de chances de base d'infliger à la cible 1 Faiblesse du même type que l'ATQ d'un allié aléatoire pendant #3[i] tours, et réduit la RÉS de l'ennemi aux DGT de ce type d'ATQ de #4[i]%.\nD'autre part, il y a #5[i]% de chances de base de réduire la RÉS aux DGT de l'ennemi de #6[f1]% pendant #7[i] tours.",
+        "simple_desc": "Fortes chances d'appliquer une Faiblesse de type supplémentaire et inflige des DGT quantiques à la cible ennemie.",
+        "desc": "Il y a #2[i]% de chances de base d'appliquer 1 Faiblesse du type d'un allié présent sur le champ de bataille à une cible ennemie. Réduit également la RÉS aux DGT de ce type de faiblesse de l'ennemi de #4[i]% pendant #3[i] tours. Si l'ennemi a déjà ce type de faiblesse, l'effet de réduction de RÉS aux DGT ne sera pas déclenché.\nChaque ennemi ne peut avoir qu'une seule Faiblesse appliquée par Louve d'argent à la fois. Si Louve d'argent applique une nouvelle Faiblesse, elle remplace la précédente.\nD'autre part, il y a #5[i]% de chances de base de réduire toutes les RÉS de type de l'ennemi de #6[f1]% pendant #7[i] tours.\nInflige des DGT quantiques équivalents à #1[i]% de l'ATQ de Louve d'argent à cet ennemi.",
         "params": [
             [
-                0.7,
-                0.75,
-                3,
-                0.2,
-                1,
-                0.12,
-                3
-            ],
-            [
-                0.77,
-                0.76,
-                3,
-                0.2,
-                1,
-                0.124,
-                3
-            ],
-            [
-                0.84,
-                0.77,
-                3,
-                0.2,
-                1,
-                0.128,
-                3
-            ],
-            [
-                0.91,
-                0.78,
-                3,
-                0.2,
-                1,
-                0.132,
-                3
-            ],
-            [
                 0.98,
+                0.75,
+                2,
+                0.2,
+                1,
+                0.075,
+                2
+            ],
+            [
+                1.078,
+                0.76,
+                2,
+                0.2,
+                1,
+                0.0775,
+                2
+            ],
+            [
+                1.176,
+                0.77,
+                2,
+                0.2,
+                1,
+                0.08,
+                2
+            ],
+            [
+                1.274,
+                0.78,
+                2,
+                0.2,
+                1,
+                0.0825,
+                2
+            ],
+            [
+                1.372,
                 0.79,
-                3,
+                2,
                 0.2,
                 1,
-                0.136,
-                3
-            ],
-            [
-                1.05,
-                0.8,
-                3,
-                0.2,
-                1,
-                0.14,
-                3
-            ],
-            [
-                1.1375,
-                0.8125,
-                3,
-                0.2,
-                1,
-                0.145,
-                3
-            ],
-            [
-                1.225,
-                0.825,
-                3,
-                0.2,
-                1,
-                0.15,
-                3
-            ],
-            [
-                1.3125,
-                0.8375,
-                3,
-                0.2,
-                1,
-                0.155,
-                3
-            ],
-            [
-                1.4,
-                0.85,
-                3,
-                0.2,
-                1,
-                0.16,
-                3
+                0.085,
+                2
             ],
             [
                 1.47,
+                0.8,
+                2,
+                0.2,
+                1,
+                0.0875,
+                2
+            ],
+            [
+                1.5925,
+                0.8125,
+                2,
+                0.2,
+                1,
+                0.0906,
+                2
+            ],
+            [
+                1.715,
+                0.825,
+                2,
+                0.2,
+                1,
+                0.0938,
+                2
+            ],
+            [
+                1.8375,
+                0.8375,
+                2,
+                0.2,
+                1,
+                0.0969,
+                2
+            ],
+            [
+                1.96,
+                0.85,
+                2,
+                0.2,
+                1,
+                0.1,
+                2
+            ],
+            [
+                2.058,
                 0.86,
-                3,
+                2,
                 0.2,
                 1,
-                0.164,
-                3
+                0.1025,
+                2
             ],
             [
-                1.54,
+                2.156,
                 0.87,
-                3,
+                2,
                 0.2,
                 1,
-                0.168,
-                3
+                0.105,
+                2
             ],
             [
-                1.61,
+                2.254,
                 0.88,
-                3,
+                2,
                 0.2,
                 1,
-                0.172,
-                3
+                0.1075,
+                2
             ],
             [
-                1.68,
+                2.352,
                 0.89,
-                3,
+                2,
                 0.2,
                 1,
-                0.176,
-                3
+                0.11,
+                2
             ],
             [
-                1.75,
+                2.45,
                 0.9,
-                3,
+                2,
                 0.2,
                 1,
-                0.18,
-                3
+                0.1125,
+                2
             ]
         ],
         "icon": "icon/skill/1006_skill.png"
@@ -1948,97 +1948,97 @@
         "type_text": "Ultime",
         "effect": "Impair",
         "effect_text": "Incapacitation",
-        "simple_desc": "Inflige des DGT quantiques massifs à un ennemi unique, avec de fortes chances de réduire sa DÉF.",
-        "desc": "Il y a #2[i]% de chances de base de réduire la DÉF de la cible ennemie de #3[i]% pendant #4[i] tours. D'autre part, inflige #1[i]% de l'ATQ de Louve d'argent sous forme de DGT quantiques à la cible ennemie.",
+        "simple_desc": "Fortes chances de réduire la DÉF d'un ennemi unique et inflige des DGT quantiques massifs à la cible ennemie.",
+        "desc": "Il y a #2[i]% de chances de base de réduire la DÉF d'une cible ennemie de #3[f1]% pendant #4[i] tours. D'autre part, inflige à la cible ennemie des DGT quantiques équivalent à #1[i]% de l'ATQ de Louve d'argent.",
         "params": [
             [
-                2.1,
+                2.28,
                 0.85,
-                0.4,
+                0.36,
                 3
             ],
             [
-                2.24,
+                2.432,
                 0.865,
-                0.41,
+                0.369,
                 3
             ],
             [
-                2.38,
+                2.584,
                 0.88,
-                0.42,
+                0.378,
                 3
             ],
             [
-                2.52,
+                2.736,
                 0.895,
-                0.43,
+                0.387,
                 3
             ],
             [
-                2.66,
+                2.888,
                 0.91,
-                0.44,
+                0.396,
                 3
             ],
             [
-                2.8,
+                3.04,
                 0.925,
+                0.405,
+                3
+            ],
+            [
+                3.23,
+                0.9438,
+                0.4163,
+                3
+            ],
+            [
+                3.42,
+                0.9625,
+                0.4275,
+                3
+            ],
+            [
+                3.61,
+                0.9813,
+                0.4388,
+                3
+            ],
+            [
+                3.8,
+                1,
                 0.45,
                 3
             ],
             [
-                2.975,
-                0.9438,
-                0.4625,
-                3
-            ],
-            [
-                3.15,
-                0.9625,
-                0.475,
-                3
-            ],
-            [
-                3.325,
-                0.9813,
-                0.4875,
-                3
-            ],
-            [
-                3.5,
-                1,
-                0.5,
-                3
-            ],
-            [
-                3.64,
+                3.952,
                 1.015,
-                0.51,
+                0.459,
                 3
             ],
             [
-                3.78,
+                4.104,
                 1.03,
-                0.52,
+                0.468,
                 3
             ],
             [
-                3.92,
+                4.256,
                 1.045,
-                0.53,
+                0.477,
                 3
             ],
             [
-                4.06,
+                4.408,
                 1.06,
-                0.54,
+                0.486,
                 3
             ],
             [
-                4.2,
+                4.56,
                 1.075,
-                0.55,
+                0.495,
                 3
             ]
         ],
@@ -2053,113 +2053,113 @@
         "type_text": "Talent",
         "effect": "Impair",
         "effect_text": "Incapacitation",
-        "simple_desc": "",
-        "desc": "Louve d'argent peut créer trois types de Bugs : une réduction d'ATQ de #1[f1]%, une réduction de DÉF de #2[f1]% ou une réduction de VIT de #3[f1]%.\nChaque fois que Louve d'argent attaque, elle a #4[i]% de chances de base d'implanter un Bug aléatoire qui dure #5[i] tours à la cible ennemie.",
+        "simple_desc": "Après une attaque, il y a une chance d'implanter 1 Bug aléatoire à l'ennemi attaqué.",
+        "desc": "Louve d'argent peut créer trois types de Bugs : une réduction d'ATQ de #1[f1]%, une réduction de DÉF de #2[f1]% ou une réduction de VIT de #3[f1]%.\nChaque fois que Louve d'argent attaque, elle a #4[i]% de chances de base d'implanter un Bug aléatoire qui dure #5[i] tours aux cibles attaquées.",
         "params": [
             [
-                0.075,
-                0.075,
                 0.05,
+                0.04,
+                0.03,
                 0.6,
-                2
+                3
             ],
             [
-                0.0825,
-                0.0825,
                 0.055,
+                0.044,
+                0.033,
                 0.612,
-                2
+                3
             ],
             [
-                0.09,
-                0.09,
                 0.06,
+                0.048,
+                0.036,
                 0.624,
-                2
+                3
             ],
             [
-                0.0975,
-                0.0975,
                 0.065,
+                0.052,
+                0.039,
                 0.636,
-                2
+                3
             ],
             [
-                0.105,
-                0.105,
                 0.07,
+                0.056,
+                0.042,
                 0.648,
-                2
+                3
             ],
             [
-                0.1125,
-                0.1125,
                 0.075,
+                0.06,
+                0.045,
                 0.66,
-                2
+                3
             ],
             [
-                0.1219,
-                0.1219,
                 0.0813,
+                0.065,
+                0.0488,
                 0.675,
-                2
+                3
             ],
             [
-                0.1313,
-                0.1313,
                 0.0875,
+                0.07,
+                0.0525,
                 0.69,
-                2
+                3
             ],
             [
-                0.1406,
-                0.1406,
                 0.0938,
+                0.075,
+                0.0563,
                 0.705,
-                2
+                3
             ],
             [
-                0.15,
-                0.15,
                 0.1,
+                0.08,
+                0.06,
                 0.72,
-                2
+                3
             ],
             [
-                0.1575,
-                0.1575,
                 0.105,
+                0.084,
+                0.063,
                 0.732,
-                2
+                3
             ],
             [
-                0.165,
-                0.165,
                 0.11,
+                0.088,
+                0.066,
                 0.744,
-                2
+                3
             ],
             [
-                0.1725,
-                0.1725,
                 0.115,
+                0.092,
+                0.069,
                 0.756,
-                2
+                3
             ],
             [
-                0.18,
-                0.18,
                 0.12,
+                0.096,
+                0.072,
                 0.768,
-                2
+                3
             ],
             [
-                0.1875,
-                0.1875,
                 0.125,
+                0.1,
+                0.075,
                 0.78,
-                2
+                3
             ]
         ],
         "icon": "icon/skill/1006_talent.png"
@@ -2187,9 +2187,13 @@
         "type_text": "Technique",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "",
-        "desc": "Attaque immédiatement un ennemi. Ignore les types de faiblesse et réduit la robustesse de tous les ennemis après être entré en combat. Les ennemis qui subissent une Rupture de faiblesse de cette manière déclenchent l'effet de Rupture de faiblesse quantique.",
-        "params": [],
+        "simple_desc": "Attaque les ennemis. Après être entré en combat, inflige des DGT mineurs à tous les ennemis et réduit la robustesse de tous les ennemis, quels que soient leurs types de faiblesses.",
+        "desc": "Attaque immédiatement. Inflige des DGT quantiques équivalents à #1[i]% de l'ATQ de Louve d'argent à tous les ennemis, ignore les types de faiblesse et réduit la robustesse de tous les ennemis après être entré en combat. Les ennemis qui subissent une Rupture de faiblesse de cette manière déclenchent l'effet de Rupture de faiblesse quantique.",
+        "params": [
+            [
+                0.8
+            ]
+        ],
         "icon": "icon/skill/1006_technique.png"
     },
     "100801": {
@@ -2468,7 +2472,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Attaque immédiatement un ennemi. Inflige des DGT de foudre équivalents à #1[i]% de l'ATQ d'Arlan à tous les ennemis après être entré en combat.",
+        "desc": "Attaque immédiatement les ennemis. Inflige des DGT de foudre équivalents à #1[i]% de l'ATQ d'Arlan à tous les ennemis après être entré en combat.",
         "params": [
             [
                 0.8
@@ -2662,7 +2666,7 @@
         "type_text": "Talent",
         "effect": "Support",
         "effect_text": "Soutien",
-        "simple_desc": "",
+        "simple_desc": "Le personnage obtient 1 cumul de Chargement pour chaque ennemi différent qu'il touche, pour un maximum de 5 cumuls. Chaque cumul de Chargement augmente l'ATQ de tous les alliés. Perd des cumuls de Chargement au début de son propre tour.",
         "desc": "Obtient 1 cumul de Chargement pour chaque ennemi différent touché par Asta, et 1 cumul supplémentaire si l'ennemi touché a une Faiblesse au feu.\nPour chaque cumul de Chargement d'Asta, l'ATQ de tous les alliés augmente de #1[f1]%, effet cumulable jusqu'à #2[i] fois.\nDès son deuxième tour, le compte de cumuls de Chargement d'Asta diminue de #3[i] au début de chaque tour.",
         "params": [
             [
@@ -2766,8 +2770,8 @@
         "type_text": "Technique",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "",
-        "desc": "Attaque immédiatement un ennemi. Inflige des DGT de feu équivalents à #1[i]% de l'ATQ d'Asta à tous les ennemis après être entré en combat.",
+        "simple_desc": "Attaque les ennemis. Après être entré en combat, inflige des DGT mineurs à tous les ennemis.",
+        "desc": "Attaque immédiatement. Inflige des DGT de feu équivalents à #1[i]% de l'ATQ d'Asta à tous les ennemis après être entré en combat.",
         "params": [
             [
                 0.5
@@ -3965,7 +3969,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Renforcement",
-        "simple_desc": "",
+        "simple_desc": "Après avoir utilisé une attaque, inflige des DGT additionnels mineurs à toutes les cibles ennemies stupéfiées.",
         "desc": "Après avoir attaqué, Serval inflige des DGT de foudre additionnels équivalents à #1[i]% de son ATQ à tous les ennemis stupéfiés.",
         "params": [
             [
@@ -4039,8 +4043,8 @@
         "type_text": "Technique",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "",
-        "desc": "Attaque immédiatement un ennemi. Inflige des DGT de foudre équivalents à #4[i]% de l'ATQ de Serval à un ennemi aléatoire après être entré en combat, avec #1[i]% de chances de base que tous les ennemis soient stupéfiés pendant #3[i] tours.\nLes ennemis stupéfiés subissent des dégâts de foudre sur la durée équivalents à #2[i]% de l'ATQ de Serval au début de chaque tour.",
+        "simple_desc": "Attaque les ennemis. Après être entré en combat, inflige des DGT mineurs à un ennemi unique aléatoire, avec de fortes chances d'appliquer Stupéfaction à toutes les cibles ennemies.",
+        "desc": "Attaque immédiatement les ennemis. Inflige des DGT de foudre équivalents à #4[i]% de l'ATQ de Serval à un ennemi aléatoire après être entré en combat, avec #1[i]% de chances de base que tous les ennemis soient stupéfiés pendant #3[i] tours.\nLes ennemis stupéfiés subissent des dégâts de foudre sur la durée équivalents à #2[i]% de l'ATQ de Serval au début de chaque tour.",
         "params": [
             [
                 1,
@@ -4718,7 +4722,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Attaque immédiatement un ennemi. Inflige des DGT physiques équivalents à #4[i]% de l'ATQ de Natasha à un ennemi aléatoire avec #1[i]% de chances de base d'affaiblir tous les ennemis après être entré en combat.\nLes ennemis affaiblis infligent #2[i]% de DGT en moins aux alliés pendant #3[i] tour.",
+        "desc": "Attaque immédiatement les ennemis. Inflige des DGT physiques équivalents à #4[i]% de l'ATQ de Natasha à un ennemi aléatoire avec #1[i]% de chances de base d'affaiblir tous les ennemis après être entré en combat.\nLes ennemis affaiblis infligent #2[i]% de DGT en moins aux alliés pendant #3[i] tour.",
         "params": [
             [
                 1,
@@ -4739,7 +4743,7 @@
         "effect": "SingleAttack",
         "effect_text": "Cible unique",
         "simple_desc": "Inflige des DGT de glace mineurs à un ennemi unique.",
-        "desc": "Inflige des DGT de glace équivalents à #1[i]% de l'ATQ de Pela à un ennemi unique.",
+        "desc": "Inflige des DGT de glace équivalents à #1[i]% de l'ATQ de Pela à une cible ennemie unique.",
         "params": [
             [
                 0.5
@@ -4781,7 +4785,7 @@
         "effect": "Impair",
         "effect_text": "Incapacitation",
         "simple_desc": "Supprime 1 bonus et inflige des DGT de glace à un ennemi unique.",
-        "desc": "Supprime #2[i] bonus et inflige des DGT de glace équivalents à #1[i]% de l'ATQ de Pela à un ennemi unique.",
+        "desc": "Supprime #2[i] bonus et inflige des DGT de glace équivalents à #1[i]% de l'ATQ de Pela à une cible ennemie unique.",
         "params": [
             [
                 1.05,
@@ -4960,7 +4964,7 @@
         "type_text": "Talent",
         "effect": "Support",
         "effect_text": "Soutien",
-        "simple_desc": "",
+        "simple_desc": "Si la cible ennemie subit un malus après l'attaque de Pela, cette dernière régénère de l'énergie.",
         "desc": "Si l'ennemi subit un malus après l'attaque de Pela, cette dernière régénère #1[f1] points d'énergie supplémentaires. Cet effet ne peut être déclenché qu'1 fois par attaque.",
         "params": [
             [
@@ -5034,8 +5038,8 @@
         "type_text": "Technique",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "",
-        "desc": "Attaque immédiatement un ennemi. Pela inflige des DGT de glace équivalents à #4[i]% de son ATQ à un ennemi aléatoire en entrant en combat, avec #1[i]% de chances de base de diminuer la DÉF de tous les ennemis de #2[i]% pendant #3[i] tours.",
+        "simple_desc": "Attaque les ennemis. Après être entré en combat, inflige des DGT mineurs à un ennemi unique aléatoire, avec de fortes chances de réduire la DÉF de toutes les cibles ennemies.",
+        "desc": "Attaque immédiatement les ennemis. Pela inflige des DGT de glace équivalents à #4[i]% de son ATQ à un ennemi aléatoire en entrant en combat, avec #1[i]% de chances de base de diminuer la DÉF de tous les ennemis de #2[i]% pendant #3[i] tours.",
         "params": [
             [
                 1,
@@ -5172,7 +5176,7 @@
         "type_text": "Ultime",
         "effect": "Enhance",
         "effect_text": "Renforcement",
-        "simple_desc": "Augmente la RÉS aux DGT et les chances d'être attaqué par des ennemis, et renforce l'effet de contre.",
+        "simple_desc": "Réduit les DGT subis, augmente les chances d'être attaqué par les ennemis et améliore l'effet du contre.",
         "desc": "Après utilisation de l'ultime de Clara, les DGT qu'elle subit sont réduits de #4[i]% supplémentaires et ses chances d'être attaquée par des ennemis sont fortement augmentées pendant #3[i] tours.\nD'autre part, le contre de Svarog est renforcé. Lorsqu'un allié est attaqué, Svarog lance immédiatement un contre et son multiplicateur de DGT contre l'ennemi augmente de #2[i]%. Les ennemis adjacents subissent 50 % des DGT infligés à la cible ennemie. Le contre renforcé peut prendre effet #5[i] fois.",
         "params": [
             [
@@ -5397,7 +5401,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Attaque immédiatement un ennemi. Les chances pour Clara de se faire attaquer par des ennemis augmentent pendant #1[i] tours en entrant en combat.",
+        "desc": "Attaque immédiatement les ennemis. Les chances pour Clara de se faire attaquer par des ennemis augmentent pendant #1[i] tours en entrant en combat.",
         "params": [
             [
                 2,
@@ -6073,7 +6077,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Attaque immédiatement un ennemi. Hook inflige des DGT de feu équivalents à #4[i]% de son ATQ à un ennemi aléatoire en entrant en combat. D'autre part, il y a #1[i]% de chances de base d'infliger Brûlure à tous les ennemis pendant #3[i] tours.\nLes ennemis affectés par l'état Brûlure subissent des dégâts de feu sur la durée équivalents à #2[i]% de l'ATQ de Hook au début de chaque tour.",
+        "desc": "Attaque immédiatement les ennemis. Hook inflige des DGT de feu équivalents à #4[i]% de son ATQ à un ennemi aléatoire en entrant en combat. D'autre part, il y a #1[i]% de chances de base d'infliger Brûlure à tous les ennemis pendant #3[i] tours.\nLes ennemis affectés par l'état Brûlure subissent des dégâts de feu sur la durée équivalents à #2[i]% de l'ATQ de Hook au début de chaque tour.",
         "params": [
             [
                 1,
@@ -6405,8 +6409,8 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Renforcement",
-        "simple_desc": "",
-        "desc": "Au début du tour de chaque allié, Qingque pioche 1 tuile au hasard parmi 3 séries différentes et peut posséder jusqu'à 4 tuiles à la fois.\nSi Qingque commence son tour avec 4 tuiles de la même série, elle les utilise toutes et entre dans l'état « Kong caché ».\nDans cet état, Qingque ne peut plus utiliser sa compétence. D'autre part, son ATQ augmente de #1[i]% et son ATQ normale « Bonne pioche » est renforcée pour devenir « C'est la tuile ! ». L'état « Kong caché » prend fin après utilisation de « C'est la tuile ! ».",
+        "simple_desc": "Pioche une tuile au début du tour de chaque allié. Si au début de son tour, le personnage détient 4 tuiles de la même série, il se défausse de toutes ses tuiles et renforce son ATQ normale tout en augmentant son ATQ.",
+        "desc": "Qingque pioche 1 tuile au hasard au début du tour de chaque allié, parmi 3 séries différentes et peut posséder jusqu'à 4 tuiles à la fois.\nSi Qingque commence son tour avec 4 tuiles de la même série, elle les utilise toutes et entre dans l'état « Kong caché ».\nDans cet état, Qingque ne peut plus utiliser sa compétence. D'autre part, son ATQ augmente de #1[i]% et son ATQ normale « Bonne pioche » est renforcée pour devenir « C'est la tuile ! ». L'état « Kong caché » prend fin après utilisation de « C'est la tuile ! ».",
         "params": [
             [
                 0.36
@@ -6479,7 +6483,7 @@
         "type_text": "Technique",
         "effect": "Enhance",
         "effect_text": "Renforcement",
-        "simple_desc": "",
+        "simple_desc": "Après utilisation de la technique, pioche une tuile au début du combat suivant.",
         "desc": "Après utilisation de la technique, Qingque pioche #1[i] tuiles de jade en début de combat.",
         "params": [
             [
@@ -6690,7 +6694,7 @@
         "id": "120203",
         "name": "Bienveillance des nuages",
         "max_level": 15,
-        "element": "Thunder",
+        "element": "",
         "type": "Ultra",
         "type_text": "Ultime",
         "effect": "Support",
@@ -6920,7 +6924,7 @@
         "effect": "Restore",
         "effect_text": "Restauration",
         "simple_desc": "Restaure les PV d'un allié unique et gagne 1 cumul de Fleur de l'abîme.",
-        "desc": "Après utilisation de la compétence, restaure immédiatement les PV d'un allié unique à hauteur de #1[i]% de l'ATQ de Luocha + #2[i]. D'autre part, Luocha gagne 1 cumul de Fleur de l'abîme.\nLorsque le pourcentage de PV d'un allié est inférieur ou égal à #3[i]%, Luocha utilise immédiatement sa compétence une fois sur cet allié (sans consommer de points de compétence). Après que Luocha a effectué #4[i] autres actions, cet effet peut être déclenché à nouveau quand les conditions sont réunies.",
+        "desc": "Après utilisation de la compétence, restaure immédiatement des PV à une cible alliée à hauteur de #1[i]% de l'ATQ de Luocha + #2[i]. D'autre part, Luocha obtient 1 cumul de Fleur de l'abîme.\nLorsque le pourcentage de PV d'un allié devient inférieur ou égal à #3[i]%, un effet équivalent à celui de la compétence de Luocha est immédiatement déclenché et appliqué une fois à cet allié (sans consommer de points de compétence). Cet effet peut être déclenché à nouveau après #4[i] tours.",
         "params": [
             [
                 0.4,
@@ -7024,43 +7028,27 @@
         "type_text": "Ultime",
         "effect": "AoEAttack",
         "effect_text": "ZdE",
-        "simple_desc": "Supprime 1 bonus de la cible, inflige des DGT imaginaires à tous les ennemis, et accorde 1 cumul de Fleur de l'abîme.",
-        "desc": "Supprime #2[i] bonus ennemi et inflige des DGT imaginaires équivalents à #1[i]% de l'ATQ de Luocha à tous les ennemis. Luocha gagne 1 cumul de Fleur de l'abîme.",
+        "simple_desc": "Supprime 1 bonus chez tous les ennemis, inflige des DGT imaginaires à tous les ennemis, et accorde 1 cumul de Fleur de l'abîme.",
+        "desc": "Supprime #2[i] bonus chez tous les ennemis et inflige des DGT imaginaires équivalents à #1[i]% de l'ATQ de Luocha à tous les ennemis. Luocha gagne 1 cumul de Fleur de l'abîme.",
         "params": [
-            [
-                0.8,
-                1
-            ],
-            [
-                0.88,
-                1
-            ],
-            [
-                0.96,
-                1
-            ],
-            [
-                1.04,
-                1
-            ],
-            [
-                1.12,
-                1
-            ],
             [
                 1.2,
                 1
             ],
             [
-                1.3,
+                1.28,
                 1
             ],
             [
-                1.4,
+                1.36,
                 1
             ],
             [
-                1.5,
+                1.44,
+                1
+            ],
+            [
+                1.52,
                 1
             ],
             [
@@ -7068,23 +7056,39 @@
                 1
             ],
             [
-                1.68,
+                1.7,
                 1
             ],
             [
-                1.76,
+                1.8,
                 1
             ],
             [
-                1.84,
-                1
-            ],
-            [
-                1.92,
+                1.9,
                 1
             ],
             [
                 2,
+                1
+            ],
+            [
+                2.08,
+                1
+            ],
+            [
+                2.16,
+                1
+            ],
+            [
+                2.24,
+                1
+            ],
+            [
+                2.32,
+                1
+            ],
+            [
+                2.4,
                 1
             ]
         ],
@@ -7099,98 +7103,98 @@
         "type_text": "Talent",
         "effect": "Restore",
         "effect_text": "Restauration",
-        "simple_desc": "",
-        "desc": "Lorsque le nombre de cumuls de Fleur de l'abîme atteint #1[i], Luocha consomme tous les cumuls pour déployer un Champ hostile aux ennemis.\nLorsqu'un ennemi situé dans le Champ est attaqué par un allié, ce dernier restaure immédiatement un montant de PV équivalent à #2[f1]% de l'ATQ de Luocha + #4[i].\nL'effet du Champ dure #3[i] tours.",
+        "simple_desc": "Déploie un Champ lorsque Fleur de l'abîme atteint 2 cumuls. Tant que le Champ est actif, les alliés récupèrent des PV après avoir utilisé une attaque.",
+        "desc": "Lorsque le nombre de cumuls de Fleur de l'abîme atteint #1[i], Luocha consomme tous les cumuls de Fleur de l'abîme pour déployer un Champ hostile aux ennemis.\nLorsqu'un ennemi situé dans le Champ est attaqué par un allié, ce dernier restaure immédiatement un montant de PV équivalent à #2[f1]% de l'ATQ de Luocha + #4[i].\nL'effet du Champ dure #3[i] tours. Le Champ se dissipe lorsque Luocha est à terre.",
         "params": [
             [
                 2,
-                0.14,
+                0.12,
                 2,
-                70
+                60
             ],
             [
                 2,
-                0.1488,
+                0.1275,
                 2,
-                112
+                96
             ],
             [
                 2,
-                0.1575,
+                0.135,
                 2,
-                143.5
+                123
             ],
             [
                 2,
-                0.1663,
+                0.1425,
                 2,
-                175
+                150
             ],
             [
                 2,
-                0.175,
+                0.15,
                 2,
-                196
+                168
             ],
             [
                 2,
-                0.182,
+                0.156,
                 2,
-                217
+                186
             ],
             [
                 2,
-                0.189,
+                0.162,
                 2,
-                232.75
+                199.5
             ],
             [
                 2,
-                0.196,
+                0.168,
                 2,
-                248.5
+                213
             ],
             [
                 2,
-                0.203,
+                0.174,
                 2,
-                264.25
+                226.5
+            ],
+            [
+                2,
+                0.18,
+                2,
+                240
+            ],
+            [
+                2,
+                0.186,
+                2,
+                253.5
+            ],
+            [
+                2,
+                0.192,
+                2,
+                267
+            ],
+            [
+                2,
+                0.198,
+                2,
+                280.5
+            ],
+            [
+                2,
+                0.204,
+                2,
+                294
             ],
             [
                 2,
                 0.21,
                 2,
-                280
-            ],
-            [
-                2,
-                0.217,
-                2,
-                295.75
-            ],
-            [
-                2,
-                0.224,
-                2,
-                311.5
-            ],
-            [
-                2,
-                0.231,
-                2,
-                327.25
-            ],
-            [
-                2,
-                0.238,
-                2,
-                343
-            ],
-            [
-                2,
-                0.245,
-                2,
-                358.75
+                307.5
             ]
         ],
         "icon": "icon/skill/1203_talent.png"
@@ -7218,7 +7222,7 @@
         "type_text": "Technique",
         "effect": "Restore",
         "effect_text": "Restauration",
-        "simple_desc": "",
+        "simple_desc": "Après utilisation de la technique, déclenche immédiatement l'effet du talent au début du combat suivant.",
         "desc": "Après utilisation de la technique, le talent se déclenche immédiatement au début du combat suivant.",
         "params": [],
         "icon": "icon/skill/1203_technique.png"
@@ -7425,7 +7429,7 @@
         "effect": "Bounce",
         "effect_text": "Rebond",
         "simple_desc": "",
-        "desc": "Invoque le Seigneur de la foudre en début de combat. Le Seigneur de la foudre dispose d'une VIT de base de #1[i] et d'un nombre de frappes par action de base de #4[i]. Lorsque le Seigneur de la foudre agit, ses frappes sont considérées comme des attaques de suivi, chacune infligeant des DGT de foudre équivalents à #2[i]% de l'ATQ de Jing Yuan à un ennemi unique, et les ennemis adjacents subissent également des DGT de foudre équivalents à #5[i]% des DGT infligés à l'ennemi principal.\nLe nombre de frappes par action du Seigneur de la foudre peut atteindre un maximum de #6[i]. Chaque fois que le nombre de frappes par action du Seigneur de la foudre augmente de 1, sa VIT augmente de #3[i]. Une fois l'action du Seigneur de la foudre terminée, sa VIT et son nombre de frappes par action retrouvent leurs valeurs de base.\nLorsque Jing Yuan est à terre, le Seigneur de la foudre disparaît.\nLorsque Jing Yuan est affecté par un malus de contrôle, le Seigneur de la foudre ne peut plus agir.",
+        "desc": "Invoque le Seigneur de la foudre en début de combat. Le Seigneur de la foudre dispose d'une VIT de base de #1[i] et d'un nombre de frappes par action de base de #4[i]. Lorsque le Seigneur de la foudre agit, ses frappes sont considérées comme des attaques de suivi, chacune infligeant des DGT de foudre équivalents à #2[i]% de l'ATQ de Jing Yuan à un ennemi unique aléatoire, et les ennemis adjacents subissent également des DGT de foudre équivalents à #5[i]% des DGT infligés à l'ennemi principal.\nLe nombre de frappes par action du Seigneur de la foudre peut atteindre un maximum de #6[i]. Chaque fois que le nombre de frappes par action du Seigneur de la foudre augmente de 1, sa VIT augmente de #3[i]. Une fois l'action du Seigneur de la foudre terminée, sa VIT et son nombre de frappes par action retrouvent leurs valeurs de base.\nLorsque Jing Yuan est à terre, le Seigneur de la foudre disparaît.\nLorsque Jing Yuan est affecté par un malus de contrôle, le Seigneur de la foudre ne peut plus agir.",
         "params": [
             [
                 60,
@@ -7574,7 +7578,7 @@
         "effect": "Enhance",
         "effect_text": "Renforcement",
         "simple_desc": "",
-        "desc": "Après utilisation de la technique, le nombre de frappes par action du Seigneur de la foudre augmente de #1[i] au premier tour du combat suivant.",
+        "desc": "Après utilisation de la technique, le nombre de frappes par action du Seigneur de la foudre augmente de #1[i] au début du combat suivant.",
         "params": [
             [
                 3
@@ -7724,7 +7728,7 @@
         "effect": "SingleAttack",
         "effect_text": "Cible unique",
         "simple_desc": "Inflige des DGT physiques massifs à un ennemi unique, renforce l'effet de Posture de l'épée et agit immédiatement.",
-        "desc": "Inflige des DGT physiques équivalents à #1[i]% de l'ATQ de Sushang à un ennemi unique et avance immédiatement l'action de Sushang de 100 %. De plus, l'ATQ de Sushang augmente de #4[i]% et l'utilisation de sa compétence a 2 chances supplémentaires de déclencher Posture de l'épée pendant #2[i] tours.\nLorsque Posture de l'épée est déclenchée par les chances supplémentaires, elle inflige #3[i]% des DGT initiaux.",
+        "desc": "Inflige des DGT physiques équivalents à #1[i]% de l'ATQ de Sushang à un ennemi unique et Sushang agit immédiatement à nouveau. De plus, l'ATQ de Sushang augmente de #4[i]% et l'utilisation de sa compétence a 2 chances supplémentaires de déclencher Posture de l'épée pendant #2[i] tours.\nLorsque Posture de l'épée est déclenchée par les chances supplémentaires, elle inflige #3[i]% des DGT initiaux.",
         "params": [
             [
                 1.92,
@@ -7918,13 +7922,344 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Attaque immédiatement un ennemi. Sushang inflige des DGT physiques équivalents à #1[i]% de son ATQ à tous les ennemis en entrant en combat.",
+        "desc": "Attaque immédiatement les ennemis. Sushang inflige des DGT physiques équivalents à #1[i]% de son ATQ à tous les ennemis en entrant en combat.",
         "params": [
             [
                 0.8
             ]
         ],
         "icon": "icon/skill/1206_technique.png"
+    },
+    "120701": {
+        "id": "120701",
+        "name": "Tir de flèche",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "ATQ normale",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "Inflige des DGT imaginaires mineurs à un ennemi.",
+        "desc": "Inflige des DGT imaginaires équivalents à #1[i]% de l'ATQ de Yukong à une cible ennemie.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": ""
+    },
+    "120702": {
+        "id": "120702",
+        "name": "Salve de courage",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Compétence",
+        "effect": "Support",
+        "effect_text": "Soutien",
+        "simple_desc": "Gagne 2 cumuls de « Rugissement des cordes ». L'ATQ de tous les alliés augmente lorsque « Rugissement des cordes » est actif.",
+        "desc": "Obtient #1[i] cumuls de Rugissement des cordes (maximum de 2 cumuls). Lorsque « Rugissement des cordes » est actif, l'ATQ de tous les alliés augmente de #2[i]%, et Yukong perd 1 cumul de « Rugissement des cordes » à la fin de chaque tour allié.\nAu cours du tour où Yukong obtient « Rugissement des cordes » en utilisant sa compétence, elle ne perd pas de cumul de « Rugissement des cordes ».",
+        "params": [
+            [
+                2,
+                0.4
+            ],
+            [
+                2,
+                0.44
+            ],
+            [
+                2,
+                0.48
+            ],
+            [
+                2,
+                0.52
+            ],
+            [
+                2,
+                0.56
+            ],
+            [
+                2,
+                0.6
+            ],
+            [
+                2,
+                0.65
+            ],
+            [
+                2,
+                0.7
+            ],
+            [
+                2,
+                0.75
+            ],
+            [
+                2,
+                0.8
+            ],
+            [
+                2,
+                0.84
+            ],
+            [
+                2,
+                0.88
+            ],
+            [
+                2,
+                0.92
+            ],
+            [
+                2,
+                0.96
+            ],
+            [
+                2,
+                1
+            ]
+        ],
+        "icon": ""
+    },
+    "120703": {
+        "id": "120703",
+        "name": "Crécerelle en piqué",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Ultra",
+        "type_text": "Ultime",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "Augmente les chances de coup critique et les DGT critiques de tous les alliés quand « Rugissement des cordes » est actif et inflige des DGT imaginaires massifs à un ennemi unique.",
+        "desc": "Si Yukong bénéficie de « Rugissement des cordes » lorsqu'elle utilise son ultime, les chances de coup critique de tous les alliés augmentent de #2[i]% et leurs DGT critiques de #3[i]%. D'autre part, inflige des DGT imaginaires équivalents à #1[i]% de l'ATQ de Yukong à un ennemi unique.",
+        "params": [
+            [
+                2.28,
+                0.21,
+                0.39
+            ],
+            [
+                2.432,
+                0.217,
+                0.416
+            ],
+            [
+                2.584,
+                0.224,
+                0.442
+            ],
+            [
+                2.736,
+                0.231,
+                0.468
+            ],
+            [
+                2.888,
+                0.238,
+                0.494
+            ],
+            [
+                3.04,
+                0.245,
+                0.52
+            ],
+            [
+                3.23,
+                0.2538,
+                0.5525
+            ],
+            [
+                3.42,
+                0.2625,
+                0.585
+            ],
+            [
+                3.61,
+                0.2713,
+                0.6175
+            ],
+            [
+                3.8,
+                0.28,
+                0.65
+            ],
+            [
+                3.952,
+                0.287,
+                0.676
+            ],
+            [
+                4.104,
+                0.294,
+                0.702
+            ],
+            [
+                4.256,
+                0.301,
+                0.728
+            ],
+            [
+                4.408,
+                0.308,
+                0.754
+            ],
+            [
+                4.56,
+                0.315,
+                0.78
+            ]
+        ],
+        "icon": ""
+    },
+    "120704": {
+        "id": "120704",
+        "name": "Sept épaisseurs, une flèche",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Enhance",
+        "effect_text": "Renforcement",
+        "simple_desc": "L'ATQ normale inflige des DGT supplémentaires mineurs, et les DGT à la robustesse de l'ATQ normale augmentent. Cet effet peut être déclenché à nouveau après 1 tour.",
+        "desc": "Les ATQ normales infligent des DGT imaginaires supplémentaires équivalents à #1[i]% de l'ATQ de Yukong et les DGT à la robustesse de ces attaques augmentent de #2[i]%. Cet effet peut être déclenché une fois tous les #3[i] tours.",
+        "params": [
+            [
+                0.4,
+                1,
+                1
+            ],
+            [
+                0.44,
+                1,
+                1
+            ],
+            [
+                0.48,
+                1,
+                1
+            ],
+            [
+                0.52,
+                1,
+                1
+            ],
+            [
+                0.56,
+                1,
+                1
+            ],
+            [
+                0.6,
+                1,
+                1
+            ],
+            [
+                0.65,
+                1,
+                1
+            ],
+            [
+                0.7,
+                1,
+                1
+            ],
+            [
+                0.75,
+                1,
+                1
+            ],
+            [
+                0.8,
+                1,
+                1
+            ],
+            [
+                0.84,
+                1,
+                1
+            ],
+            [
+                0.88,
+                1,
+                1
+            ],
+            [
+                0.92,
+                1,
+                1
+            ],
+            [
+                0.96,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                1
+            ]
+        ],
+        "icon": ""
+    },
+    "120706": {
+        "id": "120706",
+        "name": "Attaque",
+        "max_level": 1,
+        "element": "Imaginary",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Après avoir attaqué un ennemi et rejoint le combat, la résistance de l'ennemi au type correspondant est affaiblie.",
+        "params": [],
+        "icon": ""
+    },
+    "120707": {
+        "id": "120707",
+        "name": "À la poursuite du vent",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Enhance",
+        "effect_text": "Renforcement",
+        "simple_desc": "Augmente sa propre vitesse de déplacement. Reçoit 2 cumuls de Rugissement des cordes après être entré en combat en attaquant un ennemi.",
+        "desc": "Après utilisation de la technique, entre en mode Sprint pendant #1[i] secondes. En mode Sprint, la vitesse de déplacement augmente de #2[i]% et Yukong obtient #3[i] cumuls de « Rugissement des cordes » lorsqu'elle entre en combat en attaquant des ennemis.",
+        "params": [
+            [
+                20,
+                0.35,
+                2
+            ]
+        ],
+        "icon": ""
     },
     "120901": {
         "id": "120901",
@@ -8665,8 +9000,8 @@
         "element": "",
         "type": "Maze",
         "type_text": "Technique",
-        "effect": "Support",
-        "effect_text": "Soutien",
+        "effect": "Restore",
+        "effect_text": "Restauration",
         "simple_desc": "",
         "desc": "Après utilisation de la technique, tous les alliés sont revigorés pendant #1[i] tours au début du combat suivant.",
         "params": [

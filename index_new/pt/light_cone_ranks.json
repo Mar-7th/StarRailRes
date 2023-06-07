@@ -618,7 +618,7 @@
     "20019": {
         "id": "20019",
         "skill": "Família",
-        "desc": "Ao entrar na batalha, todos os aliados recebem #1[i] de VEL aumentada por #2[i] rodada(s).",
+        "desc": "Ao entrar em combate, aumenta a VEL de todos aliados em #1[i] pontos por #2[i] rodada(s).",
         "params": [
             [
                 12,
@@ -779,7 +779,7 @@
     "21002": {
         "id": "21002",
         "skill": "Neste Exato Momento",
-        "desc": "Aumenta a DEF do usuário em #1[i]%. Após entrar na batalha, aumenta a RES a Dano de todos os aliados em #2[i]%. Efeitos do mesmo tipo não se acumulam.",
+        "desc": "Aumenta a DEF do usuário em #1[i]%. Após entrar na batalha, aumenta a RES a todos os Tipos de todos os aliados em #2[i]%. Efeitos do mesmo tipo não se acumulam.",
         "params": [
             [
                 0.16,
@@ -1142,7 +1142,7 @@
     "21009": {
         "id": "21009",
         "skill": "O Tempo Voa",
-        "desc": "O usuário tem mais chances de sofrer ataques, mas o Dano recebido é reduzido em #2[i]%.",
+        "desc": "O usuário tem mais chances de sofrer ataques e o Dano recebido é reduzido em #2[i]%.",
         "params": [
             [
                 2,
@@ -1210,7 +1210,7 @@
     "21011": {
         "id": "21011",
         "skill": "Partida",
-        "desc": "Ao entrar na batalha, se um aliado causa o mesmo Tipo de Dano que o usuário, o Dano causado aumenta em #1[i]%.",
+        "desc": "Após entrar na batalha, se qualquer aliado causar o mesmo tipo de Dano que o usuário, aumenta o Dano causado em #1[i]%.",
         "params": [
             [
                 0.12
@@ -1239,7 +1239,7 @@
     "21012": {
         "id": "21012",
         "skill": "Não Poupe Esforços",
-        "desc": "Aumenta em #1[i]% o Dano causado pelo usuário. O usuário causa também #2[i]% de Dano adicional a inimigos com uma porcentagem de PV superior à do usuário.",
+        "desc": "Aumenta em #1[i]% o Dano causado pelo usuário. O usuário também causa #2[i]% de Dano extra a inimigos com uma porcentagem de PV maior ou igual à porcentagem de PV do usuário.",
         "params": [
             [
                 0.2,
@@ -1861,7 +1861,7 @@
     "21025": {
         "id": "21025",
         "skill": "Pipas do Passado",
-        "desc": "Quando o usuário usa a Perícia, então o próximo aliado em ação (exceto o próprio usuário) causa #1[i]% a mais de Dano por #2[i] rodada(s).",
+        "desc": "Quando o usuário usa a sua Perícia, o próximo aliado a agir (exceto o próprio usuário) causa #1[i]% a mais de Dano por #2[i] rodada(s).",
         "params": [
             [
                 0.16,
@@ -2106,7 +2106,7 @@
     "21030": {
         "id": "21030",
         "skill": "Capítulo Novo",
-        "desc": "Aumenta em #1[i]% a DEF do usuário. Aumenta o Dano do usuário em #2[i]% da DEF ao desferir a sua Perícia Suprema. Este efeito pode ser aplicado apenas 1 vez por inimigo-alvo.",
+        "desc": "Aumenta em #1[i]% a DEF do usuário. Aumenta o Dano causado pelo usuário ao desferir a sua Perícia Suprema em #2[i]% da DEF do usuário. Este efeito se aplica apenas 1 vez por inimigo-alvo a cada uso da Perícia Suprema do usuário.",
         "params": [
             [
                 0.16,
@@ -2351,6 +2351,65 @@
             [],
             [],
             []
+        ]
+    },
+    "22000": {
+        "id": "22000",
+        "skill": "Rápido no Gatilho",
+        "desc": "Aumenta a Taxa de Acerto de Efeito do usuário em #1[i]%. Quando o usuário ataca inimigos com DEF reduzida, regenera #2[i] de Energia.",
+        "params": [
+            [
+                0.2,
+                4
+            ],
+            [
+                0.25,
+                5
+            ],
+            [
+                0.3,
+                6
+            ],
+            [
+                0.35,
+                7
+            ],
+            [
+                0.4,
+                8
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.2
+                }
+            ],
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.25
+                }
+            ],
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.3
+                }
+            ],
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.35
+                }
+            ],
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.4
+                }
+            ]
         ]
     },
     "23000": {
@@ -2717,6 +2776,149 @@
             ]
         ]
     },
+    "23007": {
+        "id": "23007",
+        "skill": "Miragem da Realidade",
+        "desc": "Aumenta a Taxa de Acerto de Efeito do usuário em #1[i]%. Quando o usuário causa Dano a um inimigo com #4[i] ou mais penalidades no momento, aumenta a Chance de CRIT do usuário em #5[i]%. Depois que o usuário usar o seu ATQ Básico, Perícia, ou Perícia Suprema, existe uma chance-base de #2[i]% de implantar Código do Éter em um alvo aleatório que ainda não esteja com Código do Éter e que tenha sido atingido pela habilidade. Alvos com Código do Éter recebem #3[i]% a mais de Dano por 1 rodada.",
+        "params": [
+            [
+                0.24,
+                1,
+                0.12,
+                3,
+                0.12
+            ],
+            [
+                0.28,
+                1,
+                0.14,
+                3,
+                0.14
+            ],
+            [
+                0.32,
+                1,
+                0.16,
+                3,
+                0.16
+            ],
+            [
+                0.36,
+                1,
+                0.18,
+                3,
+                0.18
+            ],
+            [
+                0.4,
+                1,
+                0.2,
+                3,
+                0.2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.24
+                }
+            ],
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.28
+                }
+            ],
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.32
+                }
+            ],
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.36
+                }
+            ],
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.4
+                }
+            ]
+        ]
+    },
+    "23008": {
+        "id": "23008",
+        "skill": "Espinhos",
+        "desc": "Aumenta em #1[i]% o ATQ do usuário. Após o usuário usar um ataque, para cada inimigo diferente que o usuário atingir, regenera #3[f1] de Energia. Cada ataque pode regenerar Energia até #4[i] vez(es) dessa maneira. Depois que o usuário usa sua Perícia Suprema, todos os aliados ganham #2[i] de VEL por 1 rodada.",
+        "params": [
+            [
+                0.24,
+                12,
+                3,
+                3
+            ],
+            [
+                0.28,
+                14,
+                3.5,
+                3
+            ],
+            [
+                0.32,
+                16,
+                4,
+                3
+            ],
+            [
+                0.36,
+                18,
+                4.5,
+                3
+            ],
+            [
+                0.4,
+                20,
+                5,
+                3
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.24
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.28
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.32
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.36
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.4
+                }
+            ]
+        ]
+    },
     "23010": {
         "id": "23010",
         "skill": "Longa Noite",
@@ -2981,7 +3183,7 @@
     "24001": {
         "id": "24001",
         "skill": "Perseguição",
-        "desc": "Aumenta em #1[i]% a Chance de CRIT do usuário e aumenta a Chance de CRIT contra inimigos com PV iguais ou inferiores a #2[i]% em#3[i]% extra. Quando o usuário derrotar um inimigo, o seu ATQ é aumentado em #4[i]% por #5[i] rodada(s).",
+        "desc": "Aumenta em #1[i]% a Chance de CRIT do usuário e aumenta a Chance de CRIT contra inimigos com PV iguais ou inferiores a #2[i]% em #3[i]% extra. Quando o usuário derrota um inimigo, o seu ATQ é aumentado em #4[i]% por #5[i] rodada(s).",
         "params": [
             [
                 0.08,
@@ -3124,25 +3326,6 @@
                     "value": 0.16
                 }
             ]
-        ]
-    },
-    "29000": {
-        "id": "29000",
-        "skill": "",
-        "desc": "",
-        "params": [
-            [],
-            [],
-            [],
-            [],
-            []
-        ],
-        "properties": [
-            [],
-            [],
-            [],
-            [],
-            []
         ]
     }
 }

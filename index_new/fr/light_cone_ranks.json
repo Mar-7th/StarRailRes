@@ -618,7 +618,7 @@
     "20019": {
         "id": "20019",
         "skill": "Famille",
-        "desc": "Tous les alliés bénéficient d'une augmentation de VIT de #1[i] pendant #2[i] tour lorsqu'ils entrent en combat.",
+        "desc": "Augmente la VIT de tous les alliés de #1[i] points pendant #2[i] tour en entrant en combat.",
         "params": [
             [
                 12,
@@ -779,7 +779,7 @@
     "21002": {
         "id": "21002",
         "skill": "À cet instant précis",
-        "desc": "Augmente la DÉF du porteur de #1[i]%. La RÉS aux DGT de tous les alliés augmente de #2[i]% après être entré en combat. Les effets du même type ne sont pas cumulables.",
+        "desc": "Augmente la DÉF du porteur de #1[i]%. Toutes les RÉS de type de tous les alliés augmentent de #2[i]% après être entré en combat. Les effets du même type ne sont pas cumulables.",
         "params": [
             [
                 0.16,
@@ -1239,7 +1239,7 @@
     "21012": {
         "id": "21012",
         "skill": "Faire de son mieux",
-        "desc": "Les DGT infligés par le porteur augmentent de #1[i]% et sont majorés de #2[i]% supplémentaires contre les ennemis dont le pourcentage de PV est supérieur à celui du porteur.",
+        "desc": "Les DGT infligés par le porteur augmentent de #1[i]% et sont majorés de #2[i]% supplémentaires contre les ennemis dont le pourcentage de PV actuel est supérieur ou égal à celui du porteur.",
         "params": [
             [
                 0.2,
@@ -2106,7 +2106,7 @@
     "21030": {
         "id": "21030",
         "skill": "Nouveau chapitre",
-        "desc": "Augmente la DÉF du porteur de #1[i]%. Augmente les DGT du porteur à hauteur de #2[i]% de sa DÉF lorsqu'il utilise son ultime. Cet effet ne peut s'appliquer qu'1 fois par cible ennemie.",
+        "desc": "Augmente la DÉF du porteur de #1[i]%. Augmente les DGT du porteur à hauteur de #2[i]% de sa DÉF lorsqu'il utilise son ultime. Cet effet ne peut s'appliquer qu'1 fois par cible ennemie pour chaque utilisation de l'ultime du porteur.",
         "params": [
             [
                 0.16,
@@ -2351,6 +2351,65 @@
             [],
             [],
             []
+        ]
+    },
+    "22000": {
+        "id": "22000",
+        "skill": "Pioche éclair",
+        "desc": "Augmente les chances d'appliquer des effets du porteur de #1[i]%. Lorsque le porteur attaque des ennemis dont la DÉF est réduite, il régénère #2[i] points d'énergie.",
+        "params": [
+            [
+                0.2,
+                4
+            ],
+            [
+                0.25,
+                5
+            ],
+            [
+                0.3,
+                6
+            ],
+            [
+                0.35,
+                7
+            ],
+            [
+                0.4,
+                8
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.2
+                }
+            ],
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.25
+                }
+            ],
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.3
+                }
+            ],
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.35
+                }
+            ],
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.4
+                }
+            ]
         ]
     },
     "23000": {
@@ -2712,6 +2771,149 @@
                 },
                 {
                     "type": "StatusProbabilityBase",
+                    "value": 0.4
+                }
+            ]
+        ]
+    },
+    "23007": {
+        "id": "23007",
+        "skill": "Mirage de la réalité",
+        "desc": "Augmente les chances d'appliquer des effets du porteur de #1[i]%. Lorsque le porteur inflige des DGT à un ennemi qui a #4[i] malus ou plus, les chances de coup critique du porteur augmentent de #5[i]%. Lorsque le porteur utilise son ATQ normale, sa compétence ou son ultime, il a #2[i]% de chances de base d'implanter Code éthéré à une cible aléatoire touchée par la capacité qui ne subit pas déjà cet effet. Les cibles sous l'effet de Code éthéré subissent #3[i]% de DGT supplémentaires pendant 1 tour.",
+        "params": [
+            [
+                0.24,
+                1,
+                0.12,
+                3,
+                0.12
+            ],
+            [
+                0.28,
+                1,
+                0.14,
+                3,
+                0.14
+            ],
+            [
+                0.32,
+                1,
+                0.16,
+                3,
+                0.16
+            ],
+            [
+                0.36,
+                1,
+                0.18,
+                3,
+                0.18
+            ],
+            [
+                0.4,
+                1,
+                0.2,
+                3,
+                0.2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.24
+                }
+            ],
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.28
+                }
+            ],
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.32
+                }
+            ],
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.36
+                }
+            ],
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.4
+                }
+            ]
+        ]
+    },
+    "23008": {
+        "id": "23008",
+        "skill": "Épines",
+        "desc": "Augmente l'ATQ du porteur de #1[i]%. Lorsque le porteur utilise une attaque, régénère #3[f1] points d'énergie pour chaque cible touchée. Chaque attaque peut régénérer de l'énergie jusqu'à #4[i] fois de cette façon. Lorsque le porteur utilise son ultime, tous les alliés obtiennent #2[i] de VIT pendant 1 tour.",
+        "params": [
+            [
+                0.24,
+                12,
+                3,
+                3
+            ],
+            [
+                0.28,
+                14,
+                3.5,
+                3
+            ],
+            [
+                0.32,
+                16,
+                4,
+                3
+            ],
+            [
+                0.36,
+                18,
+                4.5,
+                3
+            ],
+            [
+                0.4,
+                20,
+                5,
+                3
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.24
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.28
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.32
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.36
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
                     "value": 0.4
                 }
             ]
@@ -3124,25 +3326,6 @@
                     "value": 0.16
                 }
             ]
-        ]
-    },
-    "29000": {
-        "id": "29000",
-        "skill": "",
-        "desc": "",
-        "params": [
-            [],
-            [],
-            [],
-            [],
-            []
-        ],
-        "properties": [
-            [],
-            [],
-            [],
-            [],
-            []
         ]
     }
 }

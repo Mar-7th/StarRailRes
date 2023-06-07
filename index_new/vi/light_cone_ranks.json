@@ -618,7 +618,7 @@
     "20019": {
         "id": "20019",
         "skill": "Gia Tộc",
-        "desc": "Khi vào chiến đấu, Tốc Độ của toàn phe ta tăng #1[i], duy trì #2[i] hiệp.",
+        "desc": "Khi vào chiến đấu, Tốc Độ của toàn bộ phe ta tăng #1[i] điểm, duy trì #2[i] hiệp.",
         "params": [
             [
                 12,
@@ -779,7 +779,7 @@
     "21002": {
         "id": "21002",
         "skill": "Tạm Dừng Thời Khắc Này",
-        "desc": "Phòng Thủ của người trang bị tăng #1[i]%. Sau khi vào chiến đấu, Kháng Sát Thương của toàn phe ta tăng #2[i]%. Kỹ năng cùng loại sẽ không có hiệu lực trùng lặp.",
+        "desc": "Phòng Thủ của người trang bị tăng #1[i]%. Sau khi vào chiến đấu, Kháng Toàn Thuộc Tính của toàn bộ phe ta tăng #2[i]%. Hiệu ứng cùng loại sẽ không thể cộng dồn.",
         "params": [
             [
                 0.16,
@@ -1239,7 +1239,7 @@
     "21012": {
         "id": "21012",
         "skill": "Cố Gắng Hết Sức",
-        "desc": "Tăng #1[i]% sát thương người trang bị gây ra, đồng thời tăng thêm #2[i]% sát thương gây ra cho kẻ địch có phần trăm HP hiện tại cao hơn phần trăm HP hiện tại của người trang bị.",
+        "desc": "Tăng #1[i]% sát thương của người trang bị gây ra, đồng thời tăng thêm #2[i]% sát thương gây ra cho kẻ địch có phần trăm HP hiện tại cao hơn hoặc bằng phần trăm HP hiện tại của người trang bị.",
         "params": [
             [
                 0.2,
@@ -2106,7 +2106,7 @@
     "21030": {
         "id": "21030",
         "skill": "Chương Mới",
-        "desc": "Khiến Phòng Thủ của người trang bị tăng #1[i]%. Tăng sát thương gây ra khi người trang bị thi triển Tuyệt Kỹ, trị số tăng tương đương #2[i]% Phòng Thủ của người trang bị, hiệu ứng này chỉ có hiệu lực 1 lần lên mỗi kẻ địch.",
+        "desc": "Khiến Phòng Thủ của người trang bị tăng #1[i]%. Tăng sát thương gây ra khi người trang bị thi triển Tuyệt Kỹ, mức tăng tương đương #2[i]% Phòng Thủ của người trang bị. Mỗi lần dùng Tuyệt Kỹ, hiệu ứng này chỉ có hiệu lực 1 lần cho mỗi kẻ địch.",
         "params": [
             [
                 0.16,
@@ -2351,6 +2351,65 @@
             [],
             [],
             []
+        ]
+    },
+    "22000": {
+        "id": "22000",
+        "skill": "Nhanh Như Tia Chớp",
+        "desc": "Khiến Chính Xác Hiệu Ứng của người trang bị tăng #1[i]%. Sau khi người trang bị tấn công kẻ địch bị giảm Phòng Thủ, sẽ hồi #2[i] điểm Năng Lượng.",
+        "params": [
+            [
+                0.2,
+                4
+            ],
+            [
+                0.25,
+                5
+            ],
+            [
+                0.3,
+                6
+            ],
+            [
+                0.35,
+                7
+            ],
+            [
+                0.4,
+                8
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.2
+                }
+            ],
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.25
+                }
+            ],
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.3
+                }
+            ],
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.35
+                }
+            ],
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.4
+                }
+            ]
         ]
     },
     "23000": {
@@ -2712,6 +2771,149 @@
                 },
                 {
                     "type": "StatusProbabilityBase",
+                    "value": 0.4
+                }
+            ]
+        ]
+    },
+    "23007": {
+        "id": "23007",
+        "skill": "Ảo Ảnh Hiện Thực",
+        "desc": "Tăng #1[i]% Chính Xác Hiệu Ứng của người trang bị. Khi người trang bị gây sát thương cho kẻ địch đang có #4[i] Hiệu Ứng Xấu hoặc hơn, thì Tỷ Lệ Bạo Kích sẽ tăng #5[i]%. Sau khi người trang bị thi triển tấn công thường, Chiến Kỹ, Tuyệt Kỹ sẽ có #2[i]% xác suất cơ bản thi triển Mã Aether lên mục tiêu bị tấn công ngẫu nhiên chưa có Mã Aether. Sát thương phải chịu của mục tiêu có Mã Aether tăng #3[i]%, duy trì 1 hiệp.",
+        "params": [
+            [
+                0.24,
+                1,
+                0.12,
+                3,
+                0.12
+            ],
+            [
+                0.28,
+                1,
+                0.14,
+                3,
+                0.14
+            ],
+            [
+                0.32,
+                1,
+                0.16,
+                3,
+                0.16
+            ],
+            [
+                0.36,
+                1,
+                0.18,
+                3,
+                0.18
+            ],
+            [
+                0.4,
+                1,
+                0.2,
+                3,
+                0.2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.24
+                }
+            ],
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.28
+                }
+            ],
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.32
+                }
+            ],
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.36
+                }
+            ],
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.4
+                }
+            ]
+        ]
+    },
+    "23008": {
+        "id": "23008",
+        "skill": "Gai Góc",
+        "desc": "Tăng #1[i]% tấn công của người trang bị. Sau khi người trang bị tấn công, mỗi khi đánh trúng một kẻ địch khác nhau, sẽ hồi #3[f1] Năng Lượng, tối đa hồi năng lượng #4[i] lần bằng cách này. Sau khi người trang bị thi triển Tuyệt Kỹ, sẽ khiến toàn bộ phe ta tăng #2[i] tốc độ, duy trì 1 hiệp.",
+        "params": [
+            [
+                0.24,
+                12,
+                3,
+                3
+            ],
+            [
+                0.28,
+                14,
+                3.5,
+                3
+            ],
+            [
+                0.32,
+                16,
+                4,
+                3
+            ],
+            [
+                0.36,
+                18,
+                4.5,
+                3
+            ],
+            [
+                0.4,
+                20,
+                5,
+                3
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.24
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.28
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.32
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.36
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
                     "value": 0.4
                 }
             ]
@@ -3124,25 +3326,6 @@
                     "value": 0.16
                 }
             ]
-        ]
-    },
-    "29000": {
-        "id": "29000",
-        "skill": "",
-        "desc": "",
-        "params": [
-            [],
-            [],
-            [],
-            [],
-            []
-        ],
-        "properties": [
-            [],
-            [],
-            [],
-            [],
-            []
         ]
     }
 }

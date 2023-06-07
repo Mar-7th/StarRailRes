@@ -405,7 +405,7 @@
     "20012": {
         "id": "20012",
         "skill": "Schneller Sieg",
-        "desc": "Nachdem der Träger Angriffe einsetzt oder getroffen wurde, wird zusätzlich #1[i] Pkt. Energie wiederhergestellt. Dieser Effekt kann nur 1-mal pro Runde ausgelöst werden.",
+        "desc": "Nachdem der Träger Angriffe einsetzt oder getroffen wurde, werden zusätzlich #1[i] Pkt. Energie wiederhergestellt. Dieser Effekt kann nur 1-mal pro Runde ausgelöst werden.",
         "params": [
             [
                 4
@@ -434,7 +434,7 @@
     "20013": {
         "id": "20013",
         "skill": "Erleuchtung",
-        "desc": "Stellt nach dem Einsatz der Fertigkeit zusätzlich #1[i] Pkt. Energie wider her. Dieser Effekt kann nur 1-mal pro Runde ausgelöst werden.",
+        "desc": "Stellt nach dem Einsatz der Fertigkeit zusätzlich #1[i] Pkt. Energie wieder her. Dieser Effekt kann nur 1-mal pro Runde ausgelöst werden.",
         "params": [
             [
                 8
@@ -618,7 +618,7 @@
     "20019": {
         "id": "20019",
         "skill": "Familie",
-        "desc": "Erhöht beim Kampfeintritt die GES aller Verbündeten für #2[i] Rd. um #1[i].",
+        "desc": "Erhöht beim Kampfeintritt die GES aller Verbündeten für #2[i] Rd. um #1[i] Pkt.",
         "params": [
             [
                 12,
@@ -779,7 +779,7 @@
     "21002": {
         "id": "21002",
         "skill": "Genau in diesem Moment",
-        "desc": "Erhöht die VTD des Trägers um #1[i]%. Erhöht nach Kampfeintritt den SCH-WDS aller Verbündeten um #2[i]%. Effekte desselben Typs sind nicht stapelbar.",
+        "desc": "Erhöht die VTD des Trägers um #1[i]%. Erhöht nach Kampfeintritt den WDS aller Typen von allen Verbündeten um #2[i]%. Effekte desselben Typs sind nicht stapelbar.",
         "params": [
             [
                 0.16,
@@ -897,7 +897,7 @@
     "21004": {
         "id": "21004",
         "skill": "Altes Foto",
-        "desc": "Erhöht den Brucheffekt des Trägers um #1[i]%. Nach dem Angriff wird zusätzlich #2[i] Pkt. Energie wiederhergestellt. Dieser Effekt kann nur 1-mal pro Runde ausgelöst werden.",
+        "desc": "Erhöht den Brucheffekt des Trägers um #1[i]%. Nach dem Angriff werden zusätzlich #2[i] Pkt. Energie wiederhergestellt. Dieser Effekt kann nur 1-mal pro Runde ausgelöst werden.",
         "params": [
             [
                 0.28,
@@ -1239,7 +1239,7 @@
     "21012": {
         "id": "21012",
         "skill": "Keine Mühen scheuen",
-        "desc": "Erhöht den verursachten SCH des Trägers um #1[i]%. Gegner, die höheren LP-Prozentsatz als der Träger besitzen, erleiden #2[i]% mehr zusätzlichen SCH.",
+        "desc": "Erhöht den vom Träger verursachten SCH um #1[i]%. Der Träger fügt außerdem Gegnern, deren aktueller LP-Prozentsatz gleich oder höher als der aktuelle LP-Prozentsatz des Trägers ist, zusätzlich #2[i]% SCH zu.",
         "params": [
             [
                 0.2,
@@ -1861,7 +1861,7 @@
     "21025": {
         "id": "21025",
         "skill": "Drachen aus der Vergangenheit",
-        "desc": "Erhöht den durch den nächsten Verbündeten, der Aktion ausführt, verursachten SCH für #2[i] Rd. um #1[i]%, nachdem der Träger seine Fertigkeit eingesetzt hat.",
+        "desc": "Erhöht den verursachten SCH des nächsten aktiven Verbündeten (außer dem Träger) für #2[i] Rd. um #1[i]%, nachdem der Träger seine Fertigkeit eingesetzt hat.",
         "params": [
             [
                 0.16,
@@ -2106,7 +2106,7 @@
     "21030": {
         "id": "21030",
         "skill": "Neues Kapitel",
-        "desc": "Erhöht die VTD des Trägers um #1[i]%. Erhöht den durch Ultimate verursachten SCH um #2[i]% seiner VTD. Dieser Effekt kann nur 1-mal pro Gegner ausgelöst werden.",
+        "desc": "Erhöht die VTD des Trägers um #1[i]%. Erhöht den durch Ultimate verursachten SCH um #2[i]% seiner VTD. Dieser Effekt wird bei jedem Einsatz des Ultimates nur 1-mal pro gegnerischem Ziel wirksam.",
         "params": [
             [
                 0.16,
@@ -2351,6 +2351,65 @@
             [],
             [],
             []
+        ]
+    },
+    "22000": {
+        "id": "22000",
+        "skill": "Flinke Hände",
+        "desc": "Erhöht die Effekt-Trefferrate des Trägers um #1[i]%. Wenn der Träger Gegner mit reduzierter VTD angreift, wird #2[i] Pkt. Energie wiederhergestellt.",
+        "params": [
+            [
+                0.2,
+                4
+            ],
+            [
+                0.25,
+                5
+            ],
+            [
+                0.3,
+                6
+            ],
+            [
+                0.35,
+                7
+            ],
+            [
+                0.4,
+                8
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.2
+                }
+            ],
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.25
+                }
+            ],
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.3
+                }
+            ],
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.35
+                }
+            ],
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.4
+                }
+            ]
         ]
     },
     "23000": {
@@ -2712,6 +2771,149 @@
                 },
                 {
                     "type": "StatusProbabilityBase",
+                    "value": 0.4
+                }
+            ]
+        ]
+    },
+    "23007": {
+        "id": "23007",
+        "skill": "Trugbild der Realität",
+        "desc": "Erhöht die Effekt-Trefferrate des Trägers um #1[i]%. Wenn der Träger einem Gegner mit #4[i] oder mehr Debuffs SCH zufügt, wird die KRIT-Rate des Trägers um #5[i]% erhöht. Nachdem der Träger seinen Standardangriff, seine Fertigkeit oder seinen Ultimate eingesetzt hat, besteht eine Grundchance von #2[i]%, einem zufälligen Gegner „Äther-Code“ zuzufügen, der keinen „Äther-Code“ besitzt. Gegner mit „Äther-Code“ erleiden für 1 Rd. #3[i]% mehr SCH.",
+        "params": [
+            [
+                0.24,
+                1,
+                0.12,
+                3,
+                0.12
+            ],
+            [
+                0.28,
+                1,
+                0.14,
+                3,
+                0.14
+            ],
+            [
+                0.32,
+                1,
+                0.16,
+                3,
+                0.16
+            ],
+            [
+                0.36,
+                1,
+                0.18,
+                3,
+                0.18
+            ],
+            [
+                0.4,
+                1,
+                0.2,
+                3,
+                0.2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.24
+                }
+            ],
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.28
+                }
+            ],
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.32
+                }
+            ],
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.36
+                }
+            ],
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.4
+                }
+            ]
+        ]
+    },
+    "23008": {
+        "id": "23008",
+        "skill": "Dornen",
+        "desc": "Erhöht den ANG des Trägers um #1[i]%. Wenn der Träger angreift, stellt er für jeden verschiedenen getroffenen Gegner #3[f1] Pkt. Energie wieder her. Jeder Angriff kann auf diese Weise bis zu #4[i]-mal Energie wiederherstellen. Nach dem Einsatz des Ultimates wird die GES aller Verbündeten für 1 Rd. um #2[i] Pkt. erhöht.",
+        "params": [
+            [
+                0.24,
+                12,
+                3,
+                3
+            ],
+            [
+                0.28,
+                14,
+                3.5,
+                3
+            ],
+            [
+                0.32,
+                16,
+                4,
+                3
+            ],
+            [
+                0.36,
+                18,
+                4.5,
+                3
+            ],
+            [
+                0.4,
+                20,
+                5,
+                3
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.24
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.28
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.32
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.36
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
                     "value": 0.4
                 }
             ]
@@ -3124,25 +3326,6 @@
                     "value": 0.16
                 }
             ]
-        ]
-    },
-    "29000": {
-        "id": "29000",
-        "skill": "",
-        "desc": "",
-        "params": [
-            [],
-            [],
-            [],
-            [],
-            []
-        ],
-        "properties": [
-            [],
-            [],
-            [],
-            [],
-            []
         ]
     }
 }

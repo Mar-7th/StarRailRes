@@ -606,7 +606,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "",
+        "simple_desc": "When they are the target of an ally's Ability, their next attack's Wind RES PEN increases. This effect can be triggered again after 2 turns.",
         "desc": "When Dan Heng is the target of an ally's Ability, his next attack's Wind RES PEN increases by #1[i]%. This effect can be triggered again after #2[i] turn(s).",
         "params": [
             [
@@ -695,7 +695,7 @@
         "type_text": "Technique",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "",
+        "simple_desc": "After they use their Technique, their ATK is increased at the start of the next battle.",
         "desc": "After Dan Heng uses his Technique, his ATK increases by #1[i]% at the start of the next battle for #2[i] turn(s).",
         "params": [
             [
@@ -1411,77 +1411,77 @@
         "params": [
             [
                 0.8,
-                0.8,
+                0.6,
                 0.3
             ],
             [
                 0.88,
-                0.82,
+                0.615,
                 0.33
             ],
             [
                 0.96,
-                0.84,
+                0.63,
                 0.36
             ],
             [
                 1.04,
-                0.86,
+                0.645,
                 0.39
             ],
             [
                 1.12,
-                0.88,
+                0.66,
                 0.42
             ],
             [
                 1.2,
-                0.9,
+                0.675,
                 0.45
             ],
             [
                 1.3,
-                0.925,
+                0.6938,
                 0.4875
             ],
             [
                 1.4,
-                0.95,
+                0.7125,
                 0.525
             ],
             [
                 1.5,
-                0.975,
+                0.7313,
                 0.5625
             ],
             [
                 1.6,
-                1,
+                0.75,
                 0.6
             ],
             [
                 1.68,
-                1.02,
+                0.765,
                 0.63
             ],
             [
                 1.76,
-                1.04,
+                0.78,
                 0.66
             ],
             [
                 1.84,
-                1.06,
+                0.795,
                 0.69
             ],
             [
                 1.92,
-                1.08,
+                0.81,
                 0.72
             ],
             [
                 2,
-                1.1,
+                0.825,
                 0.75
             ]
         ],
@@ -1503,106 +1503,106 @@
                 0.48,
                 1,
                 2,
-                0.75,
-                0.8
+                0.95,
+                0.72
             ],
             [
                 0.512,
                 1,
                 2,
-                0.8256,
-                0.82
+                1.045,
+                0.738
             ],
             [
                 0.544,
                 1,
                 2,
-                0.9013,
-                0.84
+                1.14,
+                0.756
             ],
             [
                 0.576,
                 1,
                 2,
-                0.9769,
-                0.86
+                1.235,
+                0.774
             ],
             [
                 0.608,
                 1,
                 2,
-                1.0525,
-                0.88
+                1.33,
+                0.792
             ],
             [
                 0.64,
                 1,
                 2,
-                1.1659,
-                0.9
+                1.4725,
+                0.81
             ],
             [
                 0.68,
                 1,
                 2,
-                1.3172,
-                0.925
+                1.6625,
+                0.8325
             ],
             [
                 0.72,
                 1,
                 2,
-                1.5063,
-                0.95
+                1.9,
+                0.855
             ],
             [
                 0.76,
                 1,
                 2,
-                1.7331,
-                0.975
+                2.185,
+                0.8775
             ],
             [
                 0.8,
                 1,
                 2,
-                1.96,
-                1
+                2.47,
+                0.9
             ],
             [
                 0.832,
                 1,
                 2,
-                2.0583,
-                1.02
+                2.5935,
+                0.918
             ],
             [
                 0.864,
                 1,
                 2,
-                2.1566,
-                1.04
+                2.717,
+                0.936
             ],
             [
                 0.896,
                 1,
                 2,
-                2.2549,
-                1.06
+                2.8405,
+                0.954
             ],
             [
                 0.928,
                 1,
                 2,
-                2.3533,
-                1.08
+                2.964,
+                0.972
             ],
             [
                 0.96,
                 1,
                 2,
-                2.4516,
-                1.1
+                3.0875,
+                0.99
             ]
         ],
         "icon": "icon/skill/1005_ultimate.png"
@@ -1617,7 +1617,7 @@
         "effect": "SingleAttack",
         "effect_text": "Single Target",
         "simple_desc": "",
-        "desc": "After an ally of Kafka's uses Basic ATK on an enemy, Kafka immediately launches 1 follow-up attack and deals Lightning DMG equal to #1[i]% of her ATK to that enemy, with a base chance of #4[i]% of increasing the DoT inflicted by #2[i]% for #3[i] turns. This effect can only be triggered 1 time per turn.",
+        "desc": "After an ally of Kafka's uses Basic ATK on an enemy, Kafka immediately launches 1 follow-up attack and deals Lightning DMG equal to #1[i]% of her ATK to that enemy, with a #4[i]% base chance of increasing the DoT DMG received by the enemy by #2[i]% for #3[i] turns. This effect can only be triggered 1 time per turn.",
         "params": [
             [
                 0.6,
@@ -1736,7 +1736,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Immediately attacks the enemy. After entering battle, deals Lightning DMG equal to #4[i]% of Kafka's ATK to a random enemy. In addition, all enemies have a #1[i]% base chance to become Shocked for #3[i] turn(s).\nWhile Shocked, enemies receive Lightning DoT equal to #2[i]% of Kafka's ATK at the beginning of each turn.",
+        "desc": "Immediately attacks the enemy. After entering battle, deal Lightning DMG equal to #4[i]% of Kafka's ATK to all enemies. In addition, each enemy has a #1[i]% base chance to become Shocked for #3[i] turn(s).\nWhile Shocked, enemies receive Lightning DoT equal to #2[i]% of Kafka's ATK at the beginning of each turn.",
         "params": [
             [
                 1,
@@ -1798,143 +1798,143 @@
         "type_text": "Skill",
         "effect": "Impair",
         "effect_text": "Impair",
-        "simple_desc": "Deals Quantum DMG to a single enemy and has a chance to inflict extra Weakness.",
-        "desc": "Deals Quantum DMG equal to #1[i]% of Silver Wolf's ATK to a single target enemy, with a #2[i]% base chance to inflict the target with 1 Weakness of the same Type as a random ally's ATK Type for #3[i] turn(s), and reduces the enemy's DMG RES to that ATK Type by #4[i]%.\nIn addition, there is a #5[i]% base chance to reduce the DMG RES of the enemy by #6[f1]% for #7[i] turn(s).",
+        "simple_desc": "There is a high chance to apply additional Type Weaknesses to a single enemy and deals Quantum DMG to this target enemy.",
+        "desc": "There is a #2[i]% base chance to add 1 Weakness of an on-field ally's Type to the target enemy. This also reduces the enemy's DMG RES to that Weakness Type by #4[i]% for #3[i] turn(s). If the enemy already has that Type Weakness, the effect of DMG RES reduction to that Weakness Type will not be triggered.\nEach enemy can only have 1 Weakness implanted by Silver Wolf. When Silver Wolf implants another Weakness to the target, only the most recent implanted Weakness will be kept.\nIn addition, there is a #5[i]% base chance to reduce the All-Type RES of the enemy further by #6[f1]% for #7[i] turn(s).\nDeals Quantum DMG equal to #1[i]% of Silver Wolf's ATK to this enemy.",
         "params": [
             [
-                0.7,
-                0.75,
-                3,
-                0.2,
-                1,
-                0.12,
-                3
-            ],
-            [
-                0.77,
-                0.76,
-                3,
-                0.2,
-                1,
-                0.124,
-                3
-            ],
-            [
-                0.84,
-                0.77,
-                3,
-                0.2,
-                1,
-                0.128,
-                3
-            ],
-            [
-                0.91,
-                0.78,
-                3,
-                0.2,
-                1,
-                0.132,
-                3
-            ],
-            [
                 0.98,
+                0.75,
+                2,
+                0.2,
+                1,
+                0.075,
+                2
+            ],
+            [
+                1.078,
+                0.76,
+                2,
+                0.2,
+                1,
+                0.0775,
+                2
+            ],
+            [
+                1.176,
+                0.77,
+                2,
+                0.2,
+                1,
+                0.08,
+                2
+            ],
+            [
+                1.274,
+                0.78,
+                2,
+                0.2,
+                1,
+                0.0825,
+                2
+            ],
+            [
+                1.372,
                 0.79,
-                3,
+                2,
                 0.2,
                 1,
-                0.136,
-                3
-            ],
-            [
-                1.05,
-                0.8,
-                3,
-                0.2,
-                1,
-                0.14,
-                3
-            ],
-            [
-                1.1375,
-                0.8125,
-                3,
-                0.2,
-                1,
-                0.145,
-                3
-            ],
-            [
-                1.225,
-                0.825,
-                3,
-                0.2,
-                1,
-                0.15,
-                3
-            ],
-            [
-                1.3125,
-                0.8375,
-                3,
-                0.2,
-                1,
-                0.155,
-                3
-            ],
-            [
-                1.4,
-                0.85,
-                3,
-                0.2,
-                1,
-                0.16,
-                3
+                0.085,
+                2
             ],
             [
                 1.47,
+                0.8,
+                2,
+                0.2,
+                1,
+                0.0875,
+                2
+            ],
+            [
+                1.5925,
+                0.8125,
+                2,
+                0.2,
+                1,
+                0.0906,
+                2
+            ],
+            [
+                1.715,
+                0.825,
+                2,
+                0.2,
+                1,
+                0.0938,
+                2
+            ],
+            [
+                1.8375,
+                0.8375,
+                2,
+                0.2,
+                1,
+                0.0969,
+                2
+            ],
+            [
+                1.96,
+                0.85,
+                2,
+                0.2,
+                1,
+                0.1,
+                2
+            ],
+            [
+                2.058,
                 0.86,
-                3,
+                2,
                 0.2,
                 1,
-                0.164,
-                3
+                0.1025,
+                2
             ],
             [
-                1.54,
+                2.156,
                 0.87,
-                3,
+                2,
                 0.2,
                 1,
-                0.168,
-                3
+                0.105,
+                2
             ],
             [
-                1.61,
+                2.254,
                 0.88,
-                3,
+                2,
                 0.2,
                 1,
-                0.172,
-                3
+                0.1075,
+                2
             ],
             [
-                1.68,
+                2.352,
                 0.89,
-                3,
+                2,
                 0.2,
                 1,
-                0.176,
-                3
+                0.11,
+                2
             ],
             [
-                1.75,
+                2.45,
                 0.9,
-                3,
+                2,
                 0.2,
                 1,
-                0.18,
-                3
+                0.1125,
+                2
             ]
         ],
         "icon": "icon/skill/1006_skill.png"
@@ -1948,97 +1948,97 @@
         "type_text": "Ultimate",
         "effect": "Impair",
         "effect_text": "Impair",
-        "simple_desc": "Deals massive Quantum DMG to a single enemy, with a high chance of decreasing their DEF.",
-        "desc": "There's a #2[i]% base chance to decrease the enemy target's DEF by #3[i]% for #4[i] turn(s). And at the same time, deals #1[i]% of Silver Wolf's ATK as Quantum DMG to the target enemy.",
+        "simple_desc": "Has a high chance of lowering a single enemy's DEF and deals massive Quantum DMG to this target enemy.",
+        "desc": "There's a #2[i]% base chance to decrease the target enemy's DEF by #3[f1]% for #4[i] turn(s). And at the same time, deals Quantum DMG equal to #1[i]% of Silver Wolf's ATK to the target enemy.",
         "params": [
             [
-                2.1,
+                2.28,
                 0.85,
-                0.4,
+                0.36,
                 3
             ],
             [
-                2.24,
+                2.432,
                 0.865,
-                0.41,
+                0.369,
                 3
             ],
             [
-                2.38,
+                2.584,
                 0.88,
-                0.42,
+                0.378,
                 3
             ],
             [
-                2.52,
+                2.736,
                 0.895,
-                0.43,
+                0.387,
                 3
             ],
             [
-                2.66,
+                2.888,
                 0.91,
-                0.44,
+                0.396,
                 3
             ],
             [
-                2.8,
+                3.04,
                 0.925,
+                0.405,
+                3
+            ],
+            [
+                3.23,
+                0.9438,
+                0.4163,
+                3
+            ],
+            [
+                3.42,
+                0.9625,
+                0.4275,
+                3
+            ],
+            [
+                3.61,
+                0.9813,
+                0.4388,
+                3
+            ],
+            [
+                3.8,
+                1,
                 0.45,
                 3
             ],
             [
-                2.975,
-                0.9438,
-                0.4625,
-                3
-            ],
-            [
-                3.15,
-                0.9625,
-                0.475,
-                3
-            ],
-            [
-                3.325,
-                0.9813,
-                0.4875,
-                3
-            ],
-            [
-                3.5,
-                1,
-                0.5,
-                3
-            ],
-            [
-                3.64,
+                3.952,
                 1.015,
-                0.51,
+                0.459,
                 3
             ],
             [
-                3.78,
+                4.104,
                 1.03,
-                0.52,
+                0.468,
                 3
             ],
             [
-                3.92,
+                4.256,
                 1.045,
-                0.53,
+                0.477,
                 3
             ],
             [
-                4.06,
+                4.408,
                 1.06,
-                0.54,
+                0.486,
                 3
             ],
             [
-                4.2,
+                4.56,
                 1.075,
-                0.55,
+                0.495,
                 3
             ]
         ],
@@ -2053,113 +2053,113 @@
         "type_text": "Talent",
         "effect": "Impair",
         "effect_text": "Impair",
-        "simple_desc": "",
-        "desc": "Silver Wolf can create three types of Bugs: Reduce ATK by #1[f1]%, reduce DEF by #2[f1]%, and reduce SPD by #3[f1]%.\nEvery time Silver Wolf attacks, she has a #4[i]% base chance to implant a random Bug that lasts for #5[i] turn(s) in the enemy target.",
+        "simple_desc": "After each attack, there is a chance of inflicting the attacked enemy with 1 random Bug.",
+        "desc": "Silver Wolf can create three types of Bugs: reduce ATK by #1[f1]%, reduce DEF by #2[f1]%, and reduce SPD by #3[f1]%.\nEvery time Silver Wolf attacks, she has a #4[i]% base chance to implant a random Bug that lasts for #5[i] turn(s) in the enemy target.",
         "params": [
             [
-                0.075,
-                0.075,
                 0.05,
+                0.04,
+                0.03,
                 0.6,
-                2
+                3
             ],
             [
-                0.0825,
-                0.0825,
                 0.055,
+                0.044,
+                0.033,
                 0.612,
-                2
+                3
             ],
             [
-                0.09,
-                0.09,
                 0.06,
+                0.048,
+                0.036,
                 0.624,
-                2
+                3
             ],
             [
-                0.0975,
-                0.0975,
                 0.065,
+                0.052,
+                0.039,
                 0.636,
-                2
+                3
             ],
             [
-                0.105,
-                0.105,
                 0.07,
+                0.056,
+                0.042,
                 0.648,
-                2
+                3
             ],
             [
-                0.1125,
-                0.1125,
                 0.075,
+                0.06,
+                0.045,
                 0.66,
-                2
+                3
             ],
             [
-                0.1219,
-                0.1219,
                 0.0813,
+                0.065,
+                0.0488,
                 0.675,
-                2
+                3
             ],
             [
-                0.1313,
-                0.1313,
                 0.0875,
+                0.07,
+                0.0525,
                 0.69,
-                2
+                3
             ],
             [
-                0.1406,
-                0.1406,
                 0.0938,
+                0.075,
+                0.0563,
                 0.705,
-                2
+                3
             ],
             [
-                0.15,
-                0.15,
                 0.1,
+                0.08,
+                0.06,
                 0.72,
-                2
+                3
             ],
             [
-                0.1575,
-                0.1575,
                 0.105,
+                0.084,
+                0.063,
                 0.732,
-                2
+                3
             ],
             [
-                0.165,
-                0.165,
                 0.11,
+                0.088,
+                0.066,
                 0.744,
-                2
+                3
             ],
             [
-                0.1725,
-                0.1725,
                 0.115,
+                0.092,
+                0.069,
                 0.756,
-                2
+                3
             ],
             [
-                0.18,
-                0.18,
                 0.12,
+                0.096,
+                0.072,
                 0.768,
-                2
+                3
             ],
             [
-                0.1875,
-                0.1875,
                 0.125,
+                0.1,
+                0.075,
                 0.78,
-                2
+                3
             ]
         ],
         "icon": "icon/skill/1006_talent.png"
@@ -2174,7 +2174,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Attack an enemy, and when the battle starts, reduce their Toughness of the corresponding Type.",
+        "desc": "Attacks an enemy, and when the battle starts, reduces their Toughness of the corresponding Type.",
         "params": [],
         "icon": "icon/skill/1006_basic_atk.png"
     },
@@ -2187,9 +2187,13 @@
         "type_text": "Technique",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "",
-        "desc": "Immediately attacks the enemy. After entering battle, ignores Weakness Types and reduces Toughness from all enemies. Enemies with their Weakness Broken in this way will trigger the Quantum Weakness Break effect.",
-        "params": [],
+        "simple_desc": "Attacks the enemy. After entering battle, deals minor amounts of DMG to all enemies and reduces Toughness of all enemies irrespective of Weakness Types.",
+        "desc": "Immediately attacks the enemy. After entering battle, deals Quantum DMG equal to #1[i]% of Silver Wolf's ATK to all enemies, and ignores Weakness Types and reduces Toughness from all enemies. Enemies with their Weakness Broken in this way will trigger the Quantum Weakness Break effect.",
+        "params": [
+            [
+                0.8
+            ]
+        ],
         "icon": "icon/skill/1006_technique.png"
     },
     "100801": {
@@ -2662,7 +2666,7 @@
         "type_text": "Talent",
         "effect": "Support",
         "effect_text": "Support",
-        "simple_desc": "",
+        "simple_desc": "The character will receive 1 stack of Charging for every different enemy they hit, for a maximum of 5 stacks. Every stack of Charging increases ATK for all allies. At the beginning of their turn, reduce Charging stacks.",
         "desc": "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness.\nFor every stack of Charging Asta has, all allies' ATK increases by #1[f1]%, up to #2[i] time(s).\nStarting from her second turn, Asta's Charging stack count is reduced by #3[i] at the beginning of every turn.",
         "params": [
             [
@@ -2766,7 +2770,7 @@
         "type_text": "Technique",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "",
+        "simple_desc": "Attacks the enemy. After entering battle, deals minor amounts of DMG to all enemies.",
         "desc": "Immediately attacks the enemy. After entering battle, deals Fire DMG equal to #1[i]% of Asta's ATK to all enemies.",
         "params": [
             [
@@ -3965,7 +3969,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "",
+        "simple_desc": "After using an attack, deals minor Additional DMG to all Shocked enemy targets.",
         "desc": "After Serval attacks, deals Additional Lightning DMG equal to #1[i]% of Serval's ATK to all Shocked enemies.",
         "params": [
             [
@@ -4039,7 +4043,7 @@
         "type_text": "Technique",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "",
+        "simple_desc": "Attacks the enemy. After entering battle, deals minor DMG to a random single enemy, with a high chance of applying Shock to all enemy targets.",
         "desc": "Immediately attacks the enemy. After entering battle, deals Lightning DMG equal to #4[i]% of Serval's ATK to a random enemy, with a #1[i]% base chance for all enemies to become Shocked for #3[i] turn(s).\nWhile Shocked, enemies will take Lightning DoT equal to #2[i]% of Serval's ATK at the beginning of each turn.",
         "params": [
             [
@@ -4960,8 +4964,8 @@
         "type_text": "Talent",
         "effect": "Support",
         "effect_text": "Support",
-        "simple_desc": "",
-        "desc": "If the enemy is debuffed after Pela's attack, Pela will restore #1[f1] extra Energy. This effect can only be triggered 1 time per attack.",
+        "simple_desc": "After using an attack, if the enemy target is currently inflicted with debuff(s), Pela regenerates Energy.",
+        "desc": "If the enemy is debuffed after Pela's attack, Pela will restore #1[f1] additional Energy. This effect can only be triggered 1 time per attack.",
         "params": [
             [
                 5
@@ -5034,7 +5038,7 @@
         "type_text": "Technique",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "",
+        "simple_desc": "Attacks the enemy. After entering battle, deals minor DMG to a random single enemy, with a high chance of lowering the DEF of all enemy targets.",
         "desc": "Immediately attacks the enemy. Upon entering battle, Pela deals Ice DMG equal to #4[i]% of her ATK to a random enemy, with a #1[i]% base chance of lowering the DEF of all enemies by #2[i]% for #3[i] turn(s).",
         "params": [
             [
@@ -5172,7 +5176,7 @@
         "type_text": "Ultimate",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "Increases DMG RES and chance to be attacked by enemies, and enhances the Counter effect.",
+        "simple_desc": "Reduces DMG received, increases chance to be attacked by enemies, and enhances the Counter effect.",
         "desc": "After Clara uses Ultimate, DMG dealt to her is reduced by an extra #4[i]%, and she has greatly increased chances of being attacked by enemies for #3[i] turn(s).\nIn addition, Svarog's Counter is enhanced. When an ally is attacked, Svarog immediately launches a Counter, and its DMG multiplier against the enemy increases by #2[i]%. Enemies adjacent to it take 50% of the DMG dealt to the target enemy. Enhanced Counter(s) can take effect #5[i] time(s).",
         "params": [
             [
@@ -6346,7 +6350,7 @@
         "effect": "AoEAttack",
         "effect_text": "AoE",
         "simple_desc": "Deals Quantum DMG to all enemies, then obtains 4 tiles of the same suit.",
-        "desc": "Deals Quantum DMG equal to #1[i]% of Qingque's ATK to all enemies, and obtain 4 jade tiles of the same suit.",
+        "desc": "Deals Quantum DMG equal to #1[i]% of Qingque's ATK to all enemies, and obtains 4 jade tiles of the same suit.",
         "params": [
             [
                 1.2
@@ -6405,7 +6409,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "",
+        "simple_desc": "At the start of any ally's turn, draws a tile. At the start of their own turn, if they hold 4 tiles from the same suit, remove all tiles in possession and Enhance this Basic Attack while increasing their own ATK.",
         "desc": "When an ally's turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time.\nIf Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the \"Hidden Hand\" state.\nWhile in this state, Qingque cannot use her Skill again. At the same time, Qingque's ATK increases by #1[i]%, and her Basic ATK \"Flower Pick\" is enhanced, becoming \"Cherry on Top!\" The \"Hidden Hand\" state ends after using \"Cherry on Top!\".",
         "params": [
             [
@@ -6479,7 +6483,7 @@
         "type_text": "Technique",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "",
+        "simple_desc": "After they use their Technique, draw a tile at the start of the next battle.",
         "desc": "After using Technique, Qingque draws #1[i] jade tile(s) when the battle starts.",
         "params": [
             [
@@ -6690,7 +6694,7 @@
         "id": "120203",
         "name": "Amidst the Rejoicing Clouds",
         "max_level": 15,
-        "element": "Thunder",
+        "element": "",
         "type": "Ultra",
         "type_text": "Ultimate",
         "effect": "Support",
@@ -6920,7 +6924,7 @@
         "effect": "Restore",
         "effect_text": "Restore",
         "simple_desc": "Restores a single ally's HP and gains 1 stack of Abyss Flower.",
-        "desc": "After using his Skill, immediately restore a single ally's HP equal to #1[i]% of Luocha's ATK plus #2[i]. Meanwhile, Luocha gains 1 stack of Abyss Flower.\nWhen any ally's HP percentage drops to #3[i]% or lower, Luocha will immediately use his Skill one time on this ally (without consuming Skill Points). After Luocha takes action for #4[i] more time(s), this effect can be triggered again when the conditions are met.",
+        "desc": "After using his Skill, Luocha immediately restores the target ally's HP equal to #1[i]% of Luocha's ATK plus #2[i]. Meanwhile, Luocha gains 1 stack of Abyss Flower.\nWhen any ally's HP percentage drops to #3[i]% or lower, an effect equivalent to Luocha's Skill will immediately be triggered and applied to this ally for one time (without consuming Skill Points). This effect can be triggered again after #4[i] turn(s).",
         "params": [
             [
                 0.4,
@@ -7024,43 +7028,27 @@
         "type_text": "Ultimate",
         "effect": "AoEAttack",
         "effect_text": "AoE",
-        "simple_desc": "Removes 1 buff from the target, deals Imaginary DMG to all enemies, and gains 1 stack of Abyss Flower.",
-        "desc": "Removes #2[i] enemy buff(s) and deals Imaginary DMG equal to #1[i]% of Luocha's ATK to all enemies. Luocha gains 1 stack of Abyss Flower.",
+        "simple_desc": "Removes 1 buff from all enemies, deals Imaginary DMG to all enemies, and gains 1 stack of Abyss Flower.",
+        "desc": "Removes #2[i] buff(s) from all enemies and deals Imaginary DMG equal to #1[i]% of Luocha's ATK to all enemies. Luocha gains 1 stack of Abyss Flower.",
         "params": [
-            [
-                0.8,
-                1
-            ],
-            [
-                0.88,
-                1
-            ],
-            [
-                0.96,
-                1
-            ],
-            [
-                1.04,
-                1
-            ],
-            [
-                1.12,
-                1
-            ],
             [
                 1.2,
                 1
             ],
             [
-                1.3,
+                1.28,
                 1
             ],
             [
-                1.4,
+                1.36,
                 1
             ],
             [
-                1.5,
+                1.44,
+                1
+            ],
+            [
+                1.52,
                 1
             ],
             [
@@ -7068,23 +7056,39 @@
                 1
             ],
             [
-                1.68,
+                1.7,
                 1
             ],
             [
-                1.76,
+                1.8,
                 1
             ],
             [
-                1.84,
-                1
-            ],
-            [
-                1.92,
+                1.9,
                 1
             ],
             [
                 2,
+                1
+            ],
+            [
+                2.08,
+                1
+            ],
+            [
+                2.16,
+                1
+            ],
+            [
+                2.24,
+                1
+            ],
+            [
+                2.32,
+                1
+            ],
+            [
+                2.4,
                 1
             ]
         ],
@@ -7099,98 +7103,98 @@
         "type_text": "Talent",
         "effect": "Restore",
         "effect_text": "Restore",
-        "simple_desc": "",
-        "desc": "When Abyss Flower is at #1[i] stacks, Luocha consumes all stacks to deploy a Field against the enemy.\nWhen any enemy in the Field is attacked by an ally, the attacking ally immediately restores HP equal to #2[f1]% of Luocha's ATK plus #4[i].\nThe Field's effect lasts #3[i] turn(s).",
+        "simple_desc": "Deploys a Field when Abyss Flower reaches 2 stacks. While the Field is active, allies will restore HP after they attack.",
+        "desc": "When Abyss Flower reaches #1[i] stacks, Luocha consumes all stacks of Abyss Flower to deploy a Field against the enemy.\nWhen any enemy in the Field is attacked by an ally, the attacking ally's HP is immediately restored by an amount equal to #2[f1]% of Luocha's ATK plus #4[i].\nThe Field's effect lasts for #3[i] turns. When Luocha is knocked down, the Field will be dispelled.",
         "params": [
             [
                 2,
-                0.14,
+                0.12,
                 2,
-                70
+                60
             ],
             [
                 2,
-                0.1488,
+                0.1275,
                 2,
-                112
+                96
             ],
             [
                 2,
-                0.1575,
+                0.135,
                 2,
-                143.5
+                123
             ],
             [
                 2,
-                0.1663,
+                0.1425,
                 2,
-                175
+                150
             ],
             [
                 2,
-                0.175,
+                0.15,
                 2,
-                196
+                168
             ],
             [
                 2,
-                0.182,
+                0.156,
                 2,
-                217
+                186
             ],
             [
                 2,
-                0.189,
+                0.162,
                 2,
-                232.75
+                199.5
             ],
             [
                 2,
-                0.196,
+                0.168,
                 2,
-                248.5
+                213
             ],
             [
                 2,
-                0.203,
+                0.174,
                 2,
-                264.25
+                226.5
+            ],
+            [
+                2,
+                0.18,
+                2,
+                240
+            ],
+            [
+                2,
+                0.186,
+                2,
+                253.5
+            ],
+            [
+                2,
+                0.192,
+                2,
+                267
+            ],
+            [
+                2,
+                0.198,
+                2,
+                280.5
+            ],
+            [
+                2,
+                0.204,
+                2,
+                294
             ],
             [
                 2,
                 0.21,
                 2,
-                280
-            ],
-            [
-                2,
-                0.217,
-                2,
-                295.75
-            ],
-            [
-                2,
-                0.224,
-                2,
-                311.5
-            ],
-            [
-                2,
-                0.231,
-                2,
-                327.25
-            ],
-            [
-                2,
-                0.238,
-                2,
-                343
-            ],
-            [
-                2,
-                0.245,
-                2,
-                358.75
+                307.5
             ]
         ],
         "icon": "icon/skill/1203_talent.png"
@@ -7218,8 +7222,8 @@
         "type_text": "Technique",
         "effect": "Restore",
         "effect_text": "Restore",
-        "simple_desc": "",
-        "desc": "After using Technique, at the start of the next battle, Talent will be immediately triggered.",
+        "simple_desc": "After the Technique is used, immediately trigger the effect of the Talent at the start of the next battle.",
+        "desc": "After the Technique is used, the Talent will be immediately triggered at the start of the next battle.",
         "params": [],
         "icon": "icon/skill/1203_technique.png"
     },
@@ -7560,7 +7564,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Attack an enemy, and when the battle starts, reduce their Toughness of the corresponding Type.",
+        "desc": "Attacks an enemy, and when the battle starts, reduces their Toughness of the corresponding Type.",
         "params": [],
         "icon": "icon/skill/1204_basic_atk.png"
     },
@@ -7724,7 +7728,7 @@
         "effect": "SingleAttack",
         "effect_text": "Single Target",
         "simple_desc": "Deals massive Physical DMG to a single enemy, enhances Sword Stance's effect, and takes action immediately.",
-        "desc": "Deals Physical DMG equal to #1[i]% of Sushang's ATK to a single enemy and immediately Advances her action forward by 100%. In addition, Sushang's ATK increases by #4[i]% and using her Skill has 2 extra chances to trigger Sword Stance for #2[i] turn(s).\nSword Stance triggered from the extra chances deals #3[i]% of the original DMG.",
+        "desc": "Deals Physical DMG equal to #1[i]% of Sushang's ATK to a single enemy target, and she immediately takes action again. In addition, Sushang's ATK increases by #4[i]% and using her Skill has 2 extra chances to trigger Sword Stance for #2[i] turn(s).\nSword Stance triggered from the extra chances deals #3[i]% of the original DMG.",
         "params": [
             [
                 1.92,
@@ -7925,6 +7929,337 @@
             ]
         ],
         "icon": "icon/skill/1206_technique.png"
+    },
+    "120701": {
+        "id": "120701",
+        "name": "Arrowslinger",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Deals minor Imaginary DMG to an enemy.",
+        "desc": "Deals #1[i]% of Yukong's ATK as Imaginary DMG to a target enemy.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": ""
+    },
+    "120702": {
+        "id": "120702",
+        "name": "Emboldening Salvo",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Skill",
+        "effect": "Support",
+        "effect_text": "Support",
+        "simple_desc": "Obtains 2 stacks of \"Roaring Bowstrings\". ATK of all allies increases when \"Roaring Bowstrings\" is active.",
+        "desc": "Obtains #1[i] stack(s) of \"Roaring Bowstrings\" (to a maximum of 2 stacks). When \"Roaring Bowstrings\" is active, the ATK of all allies increases by #2[i]%, and every time an ally's turn ends, Yukong loses 1 stack of \"Roaring Bowstrings.\"\nWhen it's the turn where Yukong gains \"Roaring Bowstrings\" by using Skill, \"Roaring Bowstrings\" will not be removed.",
+        "params": [
+            [
+                2,
+                0.4
+            ],
+            [
+                2,
+                0.44
+            ],
+            [
+                2,
+                0.48
+            ],
+            [
+                2,
+                0.52
+            ],
+            [
+                2,
+                0.56
+            ],
+            [
+                2,
+                0.6
+            ],
+            [
+                2,
+                0.65
+            ],
+            [
+                2,
+                0.7
+            ],
+            [
+                2,
+                0.75
+            ],
+            [
+                2,
+                0.8
+            ],
+            [
+                2,
+                0.84
+            ],
+            [
+                2,
+                0.88
+            ],
+            [
+                2,
+                0.92
+            ],
+            [
+                2,
+                0.96
+            ],
+            [
+                2,
+                1
+            ]
+        ],
+        "icon": ""
+    },
+    "120703": {
+        "id": "120703",
+        "name": "Diving Kestrel",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "When \"Roaring Bowstrings\" is active on self, increases the CRIT Rate and CRIT DMG of all allies and deals massive Imaginary DMG to a single enemy.",
+        "desc": "If \"Roaring Bowstrings\" is active on Yukong when her Ultimate is used, additionally increases all allies' CRIT Rate by #2[i]% and CRIT DMG by #3[i]%. At the same time, deals Imaginary DMG equal to #1[i]% of Yukong's ATK to a single enemy.",
+        "params": [
+            [
+                2.28,
+                0.21,
+                0.39
+            ],
+            [
+                2.432,
+                0.217,
+                0.416
+            ],
+            [
+                2.584,
+                0.224,
+                0.442
+            ],
+            [
+                2.736,
+                0.231,
+                0.468
+            ],
+            [
+                2.888,
+                0.238,
+                0.494
+            ],
+            [
+                3.04,
+                0.245,
+                0.52
+            ],
+            [
+                3.23,
+                0.2538,
+                0.5525
+            ],
+            [
+                3.42,
+                0.2625,
+                0.585
+            ],
+            [
+                3.61,
+                0.2713,
+                0.6175
+            ],
+            [
+                3.8,
+                0.28,
+                0.65
+            ],
+            [
+                3.952,
+                0.287,
+                0.676
+            ],
+            [
+                4.104,
+                0.294,
+                0.702
+            ],
+            [
+                4.256,
+                0.301,
+                0.728
+            ],
+            [
+                4.408,
+                0.308,
+                0.754
+            ],
+            [
+                4.56,
+                0.315,
+                0.78
+            ]
+        ],
+        "icon": ""
+    },
+    "120704": {
+        "id": "120704",
+        "name": "Seven Layers, One Arrow",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Enhance",
+        "effect_text": "Enhance",
+        "simple_desc": "Basic Attack additionally deals minor DMG, and the Toughness-Reducing DMG of this Basic Attack is increased. This effect can be triggered again after 1 turn.",
+        "desc": "Basic ATK additionally deals Imaginary DMG equal to #1[i]% of Yukong's ATK, and increases the Toughness-Reducing DMG of this attack by #2[i]%. This effect can be triggered again in #3[i] turn(s).",
+        "params": [
+            [
+                0.4,
+                1,
+                1
+            ],
+            [
+                0.44,
+                1,
+                1
+            ],
+            [
+                0.48,
+                1,
+                1
+            ],
+            [
+                0.52,
+                1,
+                1
+            ],
+            [
+                0.56,
+                1,
+                1
+            ],
+            [
+                0.6,
+                1,
+                1
+            ],
+            [
+                0.65,
+                1,
+                1
+            ],
+            [
+                0.7,
+                1,
+                1
+            ],
+            [
+                0.75,
+                1,
+                1
+            ],
+            [
+                0.8,
+                1,
+                1
+            ],
+            [
+                0.84,
+                1,
+                1
+            ],
+            [
+                0.88,
+                1,
+                1
+            ],
+            [
+                0.92,
+                1,
+                1
+            ],
+            [
+                0.96,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                1
+            ]
+        ],
+        "icon": ""
+    },
+    "120706": {
+        "id": "120706",
+        "name": "Attack",
+        "max_level": 1,
+        "element": "Imaginary",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "After attacking an enemy and entering battle, the enemy's corresponding Type Toughness will be Weakened.",
+        "params": [],
+        "icon": ""
+    },
+    "120707": {
+        "id": "120707",
+        "name": "Chasing the Wind",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Enhance",
+        "effect_text": "Enhance",
+        "simple_desc": "Increases Movement Speed. After attacking an enemy and entering battle, receive 2 stacks of Roaring Bowstrings.",
+        "desc": "After using her Technique, Yukong enters Sprint mode for #1[i] seconds. In Sprint mode, her Movement SPD increases by #2[i]%, and Yukong gains #3[i] stack(s) of \"Roaring Bowstrings\" when she enters battle by attacking enemies.",
+        "params": [
+            [
+                20,
+                0.35,
+                2
+            ]
+        ],
+        "icon": ""
     },
     "120901": {
         "id": "120901",
@@ -8665,10 +9000,10 @@
         "element": "",
         "type": "Maze",
         "type_text": "Technique",
-        "effect": "Support",
-        "effect_text": "Support",
+        "effect": "Restore",
+        "effect_text": "Restore",
         "simple_desc": "",
-        "desc": "After using Technique, at the start of the next battle, all allies are granted Invigoration for #1[i] turn(s).",
+        "desc": "After Technique is used, at the start of the next battle, all allies are granted Invigoration for #1[i] turn(s).",
         "params": [
             [
                 2

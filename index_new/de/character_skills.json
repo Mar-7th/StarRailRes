@@ -532,7 +532,7 @@
         "effect": "SingleAttack",
         "effect_text": "Einzelangriff",
         "simple_desc": "Fügt einem Gegner massiven Wind-SCH zu. Wenn der Gegner verlangsamt wird, steigt der verursachte SCH.",
-        "desc": "Fügt einem anvisierten Gegner Wind-SCH in Höhe von #1[i]% von Dan Hengs ANG zu. Erhöht den durch Ultimate verursachten SCH-Multiplikator um #2[i]%, wenn der Gegner verlangsamt wird.",
+        "desc": "Fügt einem anvisierten Gegner Wind-SCH in Höhe von #1[i]% von Dan Hengs ANG zu. Erhöht den durch Ultimate verursachten SCH-Multiplikator um #2[i]%, wenn der Gegner verlangsamt ist.",
         "params": [
             [
                 2.4,
@@ -606,7 +606,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Verstärkung",
-        "simple_desc": "",
+        "simple_desc": "Ist Dan Heng Ziel einer Fähigkeit eines Verbündeten, so steigt die Wind-WDS-DUR seines nächsten Angriffs. Dieser Effekt kann nach 2 Rd. erneut ausgelöst werden.",
         "desc": "Ist Dan Heng Ziel einer Fähigkeit eines Verbündeten, so steigt die Wind-WDS-DUR seines nächsten Angriffs um #1[i]%. Dieser Effekt kann nach #2[i] Rd. erneut ausgelöst werden.",
         "params": [
             [
@@ -695,7 +695,7 @@
         "type_text": "Technik",
         "effect": "Enhance",
         "effect_text": "Verstärkung",
-        "simple_desc": "",
+        "simple_desc": "Nach dem Einsatz der Technik wird der ANG zu Beginn des nächsten Kampfs erhöht.",
         "desc": "Erhöht nach dem Einsatz der Technik Dan Hengs ANG im nächsten Kampf um #1[i]% für #2[i] Rd.",
         "params": [
             [
@@ -1411,77 +1411,77 @@
         "params": [
             [
                 0.8,
-                0.8,
+                0.6,
                 0.3
             ],
             [
                 0.88,
-                0.82,
+                0.615,
                 0.33
             ],
             [
                 0.96,
-                0.84,
+                0.63,
                 0.36
             ],
             [
                 1.04,
-                0.86,
+                0.645,
                 0.39
             ],
             [
                 1.12,
-                0.88,
+                0.66,
                 0.42
             ],
             [
                 1.2,
-                0.9,
+                0.675,
                 0.45
             ],
             [
                 1.3,
-                0.925,
+                0.6938,
                 0.4875
             ],
             [
                 1.4,
-                0.95,
+                0.7125,
                 0.525
             ],
             [
                 1.5,
-                0.975,
+                0.7313,
                 0.5625
             ],
             [
                 1.6,
-                1,
+                0.75,
                 0.6
             ],
             [
                 1.68,
-                1.02,
+                0.765,
                 0.63
             ],
             [
                 1.76,
-                1.04,
+                0.78,
                 0.66
             ],
             [
                 1.84,
-                1.06,
+                0.795,
                 0.69
             ],
             [
                 1.92,
-                1.08,
+                0.81,
                 0.72
             ],
             [
                 2,
-                1.1,
+                0.825,
                 0.75
             ]
         ],
@@ -1503,106 +1503,106 @@
                 0.48,
                 1,
                 2,
-                0.75,
-                0.8
+                0.95,
+                0.72
             ],
             [
                 0.512,
                 1,
                 2,
-                0.8256,
-                0.82
+                1.045,
+                0.738
             ],
             [
                 0.544,
                 1,
                 2,
-                0.9013,
-                0.84
+                1.14,
+                0.756
             ],
             [
                 0.576,
                 1,
                 2,
-                0.9769,
-                0.86
+                1.235,
+                0.774
             ],
             [
                 0.608,
                 1,
                 2,
-                1.0525,
-                0.88
+                1.33,
+                0.792
             ],
             [
                 0.64,
                 1,
                 2,
-                1.1659,
-                0.9
+                1.4725,
+                0.81
             ],
             [
                 0.68,
                 1,
                 2,
-                1.3172,
-                0.925
+                1.6625,
+                0.8325
             ],
             [
                 0.72,
                 1,
                 2,
-                1.5063,
-                0.95
+                1.9,
+                0.855
             ],
             [
                 0.76,
                 1,
                 2,
-                1.7331,
-                0.975
+                2.185,
+                0.8775
             ],
             [
                 0.8,
                 1,
                 2,
-                1.96,
-                1
+                2.47,
+                0.9
             ],
             [
                 0.832,
                 1,
                 2,
-                2.0583,
-                1.02
+                2.5935,
+                0.918
             ],
             [
                 0.864,
                 1,
                 2,
-                2.1566,
-                1.04
+                2.717,
+                0.936
             ],
             [
                 0.896,
                 1,
                 2,
-                2.2549,
-                1.06
+                2.8405,
+                0.954
             ],
             [
                 0.928,
                 1,
                 2,
-                2.3533,
-                1.08
+                2.964,
+                0.972
             ],
             [
                 0.96,
                 1,
                 2,
-                2.4516,
-                1.1
+                3.0875,
+                0.99
             ]
         ],
         "icon": "icon/skill/1005_ultimate.png"
@@ -1736,7 +1736,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Greift den Gegner unmittelbar an und fügt nach Kampfeintritt einem zufälligen Gegner Blitz-SCH in Höhe von #4[i]% von Kafkas ANG zu. Es besteht eine Grundchance von #1[i]%, bei jedem Gegner Schock für #3[i] Rd. zu verursachen.\nGeschockte Gegner erleiden zu Beginn jeder Runde Blitz-DoT in Höhe von #2[i]% von Kafkas ANG.",
+        "desc": "Greift den Gegner unmittelbar an und fügt nach Kampfeintritt allen Gegnern Blitz-SCH in Höhe von #4[i]% von Kafkas ANG zu. Es besteht eine Grundchance von #1[i]%, jedem Gegner für #3[i] Rd. Schock zuzufügen.\nGeschockte Gegner erleiden zu Beginn jeder Runde Blitz-DoT in Höhe von #2[i]% von Kafkas ANG.",
         "params": [
             [
                 1,
@@ -1798,143 +1798,143 @@
         "type_text": "Fertigkeit",
         "effect": "Impair",
         "effect_text": "Beeinträchtigung",
-        "simple_desc": "Fügt einem Gegner Quantum-SCH zu und fügt mit einer Chance zusätzliche Schwächen hinzu.",
-        "desc": "Fügt einem anvisierten Gegner Quantum-SCH in Höhe von #1[i]% von Silberwolfs ANG zu und hat eine Grundchance von #2[i]%, dem Ziel für #3[i] Rd. 1 Schwäche desselben Typs von einem zufälligen Verbündeten hinzuzufügen und den WDS des entsprechenden Typs um #4[i]% zu reduzieren.\nEs besteht eine Grundchance von #5[i]%, den SCH-WDS des Ziels für #7[i] Rd. um #6[f1]% zu reduzieren.",
+        "simple_desc": "Es besteht eine hohe Chance, einem Gegner zusätzliche Typen von Schwächen und Quantum-SCH zuzufügen.",
+        "desc": "Es besteht eine Grundchance von #2[i]%, einem anvisierten Gegner 1 Schwäche des Typs eines Verbündeten hinzuzufügen. Damit wird auch der SCH-WDS des Gegners gegenüber diesem Schwächetyp für #3[i] Rd. um #4[i]% reduziert. Wenn der Gegner bereits eine Schwäche dieses Typs hat, wird der Effekt der SCH-WDS-Reduzierung für diesen Schwächetyp nicht ausgelöst.\nJedem Gegner kann nur 1 Schwäche von Silberwolf hinzugefügt werden. Wenn Silberwolf dem Ziel eine weitere Schwäche hinzufügt, wird nur die letzte Schwäche beibehalten.\nAußerdem gibt es eine Grundchance von #5[i]%, den WDS aller Typen des Ziels zusätzlich um #6[f1]% für #7[i] Rd. zu reduzieren.\nFügt diesem Gegner Quantum-SCH in Höhe von #1[i]% von Silberwolfs ANG zu.",
         "params": [
             [
-                0.7,
-                0.75,
-                3,
-                0.2,
-                1,
-                0.12,
-                3
-            ],
-            [
-                0.77,
-                0.76,
-                3,
-                0.2,
-                1,
-                0.124,
-                3
-            ],
-            [
-                0.84,
-                0.77,
-                3,
-                0.2,
-                1,
-                0.128,
-                3
-            ],
-            [
-                0.91,
-                0.78,
-                3,
-                0.2,
-                1,
-                0.132,
-                3
-            ],
-            [
                 0.98,
+                0.75,
+                2,
+                0.2,
+                1,
+                0.075,
+                2
+            ],
+            [
+                1.078,
+                0.76,
+                2,
+                0.2,
+                1,
+                0.0775,
+                2
+            ],
+            [
+                1.176,
+                0.77,
+                2,
+                0.2,
+                1,
+                0.08,
+                2
+            ],
+            [
+                1.274,
+                0.78,
+                2,
+                0.2,
+                1,
+                0.0825,
+                2
+            ],
+            [
+                1.372,
                 0.79,
-                3,
+                2,
                 0.2,
                 1,
-                0.136,
-                3
-            ],
-            [
-                1.05,
-                0.8,
-                3,
-                0.2,
-                1,
-                0.14,
-                3
-            ],
-            [
-                1.1375,
-                0.8125,
-                3,
-                0.2,
-                1,
-                0.145,
-                3
-            ],
-            [
-                1.225,
-                0.825,
-                3,
-                0.2,
-                1,
-                0.15,
-                3
-            ],
-            [
-                1.3125,
-                0.8375,
-                3,
-                0.2,
-                1,
-                0.155,
-                3
-            ],
-            [
-                1.4,
-                0.85,
-                3,
-                0.2,
-                1,
-                0.16,
-                3
+                0.085,
+                2
             ],
             [
                 1.47,
+                0.8,
+                2,
+                0.2,
+                1,
+                0.0875,
+                2
+            ],
+            [
+                1.5925,
+                0.8125,
+                2,
+                0.2,
+                1,
+                0.0906,
+                2
+            ],
+            [
+                1.715,
+                0.825,
+                2,
+                0.2,
+                1,
+                0.0938,
+                2
+            ],
+            [
+                1.8375,
+                0.8375,
+                2,
+                0.2,
+                1,
+                0.0969,
+                2
+            ],
+            [
+                1.96,
+                0.85,
+                2,
+                0.2,
+                1,
+                0.1,
+                2
+            ],
+            [
+                2.058,
                 0.86,
-                3,
+                2,
                 0.2,
                 1,
-                0.164,
-                3
+                0.1025,
+                2
             ],
             [
-                1.54,
+                2.156,
                 0.87,
-                3,
+                2,
                 0.2,
                 1,
-                0.168,
-                3
+                0.105,
+                2
             ],
             [
-                1.61,
+                2.254,
                 0.88,
-                3,
+                2,
                 0.2,
                 1,
-                0.172,
-                3
+                0.1075,
+                2
             ],
             [
-                1.68,
+                2.352,
                 0.89,
-                3,
+                2,
                 0.2,
                 1,
-                0.176,
-                3
+                0.11,
+                2
             ],
             [
-                1.75,
+                2.45,
                 0.9,
-                3,
+                2,
                 0.2,
                 1,
-                0.18,
-                3
+                0.1125,
+                2
             ]
         ],
         "icon": "icon/skill/1006_skill.png"
@@ -1948,97 +1948,97 @@
         "type_text": "Ultimate",
         "effect": "Impair",
         "effect_text": "Beeinträchtigung",
-        "simple_desc": "Fügt einem Gegner massiven Quantum-SCH zu und verringert mit hoher Chance dessen VTD.",
-        "desc": "Es besteht eine Grundchance von #2[i]%, die VTD des angegriffen Gegners für #4[i] Rd. um #3[i]% zu reduzieren und dem anvisierten Gegner Quantum-SCH in Höhe von #1[i]% von Silberwolfs ANG zuzufügen.",
+        "simple_desc": "Es besteht eine hohe Chance, die VTD eines Gegners zu reduzieren und ihm massiven Quantum-SCH zuzufügen.",
+        "desc": "Es besteht eine Grundchance von #2[i]%, die VTD eines anvisierten Gegners für #4[i] Rd. um #3[f1]% zu reduzieren und dem Ziel Quantum-SCH in Höhe von #1[i]% von Silberwolfs ANG zuzufügen.",
         "params": [
             [
-                2.1,
+                2.28,
                 0.85,
-                0.4,
+                0.36,
                 3
             ],
             [
-                2.24,
+                2.432,
                 0.865,
-                0.41,
+                0.369,
                 3
             ],
             [
-                2.38,
+                2.584,
                 0.88,
-                0.42,
+                0.378,
                 3
             ],
             [
-                2.52,
+                2.736,
                 0.895,
-                0.43,
+                0.387,
                 3
             ],
             [
-                2.66,
+                2.888,
                 0.91,
-                0.44,
+                0.396,
                 3
             ],
             [
-                2.8,
+                3.04,
                 0.925,
+                0.405,
+                3
+            ],
+            [
+                3.23,
+                0.9438,
+                0.4163,
+                3
+            ],
+            [
+                3.42,
+                0.9625,
+                0.4275,
+                3
+            ],
+            [
+                3.61,
+                0.9813,
+                0.4388,
+                3
+            ],
+            [
+                3.8,
+                1,
                 0.45,
                 3
             ],
             [
-                2.975,
-                0.9438,
-                0.4625,
-                3
-            ],
-            [
-                3.15,
-                0.9625,
-                0.475,
-                3
-            ],
-            [
-                3.325,
-                0.9813,
-                0.4875,
-                3
-            ],
-            [
-                3.5,
-                1,
-                0.5,
-                3
-            ],
-            [
-                3.64,
+                3.952,
                 1.015,
-                0.51,
+                0.459,
                 3
             ],
             [
-                3.78,
+                4.104,
                 1.03,
-                0.52,
+                0.468,
                 3
             ],
             [
-                3.92,
+                4.256,
                 1.045,
-                0.53,
+                0.477,
                 3
             ],
             [
-                4.06,
+                4.408,
                 1.06,
-                0.54,
+                0.486,
                 3
             ],
             [
-                4.2,
+                4.56,
                 1.075,
-                0.55,
+                0.495,
                 3
             ]
         ],
@@ -2053,113 +2053,113 @@
         "type_text": "Talent",
         "effect": "Impair",
         "effect_text": "Beeinträchtigung",
-        "simple_desc": "",
-        "desc": "Silberwolf kann drei Arten von „Fehlern“ zufügen: ANG um #1[f1]% reduzieren, VTD um #2[f1]% reduzieren und GES um #3[f1]% reduzieren.\nJeder Angriff von Silberwolf hat eine Grundchance von #4[i]%, dem betroffenen Gegner für #5[i] Rd. einen zufälligen „Fehler“ zu implantieren.",
+        "simple_desc": "Nach einem Angriff besteht eine Chance, dem Ziel 1 zufälligen „Fehler“ zu implantieren.",
+        "desc": "Silberwolf kann drei Arten von „Fehlern“ erzeugen: ANG um #1[f1]% reduzieren, VTD um #2[f1]% reduzieren und GES um #3[f1]% reduzieren.\nJeder Angriff von Silberwolf hat eine Grundchance von #4[i]%, dem getroffenen Gegner für #5[i] Rd. einen zufälligen „Fehler“ zu implantieren.",
         "params": [
             [
-                0.075,
-                0.075,
                 0.05,
+                0.04,
+                0.03,
                 0.6,
-                2
+                3
             ],
             [
-                0.0825,
-                0.0825,
                 0.055,
+                0.044,
+                0.033,
                 0.612,
-                2
+                3
             ],
             [
-                0.09,
-                0.09,
                 0.06,
+                0.048,
+                0.036,
                 0.624,
-                2
+                3
             ],
             [
-                0.0975,
-                0.0975,
                 0.065,
+                0.052,
+                0.039,
                 0.636,
-                2
+                3
             ],
             [
-                0.105,
-                0.105,
                 0.07,
+                0.056,
+                0.042,
                 0.648,
-                2
+                3
             ],
             [
-                0.1125,
-                0.1125,
                 0.075,
+                0.06,
+                0.045,
                 0.66,
-                2
+                3
             ],
             [
-                0.1219,
-                0.1219,
                 0.0813,
+                0.065,
+                0.0488,
                 0.675,
-                2
+                3
             ],
             [
-                0.1313,
-                0.1313,
                 0.0875,
+                0.07,
+                0.0525,
                 0.69,
-                2
+                3
             ],
             [
-                0.1406,
-                0.1406,
                 0.0938,
+                0.075,
+                0.0563,
                 0.705,
-                2
+                3
             ],
             [
-                0.15,
-                0.15,
                 0.1,
+                0.08,
+                0.06,
                 0.72,
-                2
+                3
             ],
             [
-                0.1575,
-                0.1575,
                 0.105,
+                0.084,
+                0.063,
                 0.732,
-                2
+                3
             ],
             [
-                0.165,
-                0.165,
                 0.11,
+                0.088,
+                0.066,
                 0.744,
-                2
+                3
             ],
             [
-                0.1725,
-                0.1725,
                 0.115,
+                0.092,
+                0.069,
                 0.756,
-                2
+                3
             ],
             [
-                0.18,
-                0.18,
                 0.12,
+                0.096,
+                0.072,
                 0.768,
-                2
+                3
             ],
             [
-                0.1875,
-                0.1875,
                 0.125,
+                0.1,
+                0.075,
                 0.78,
-                2
+                3
             ]
         ],
         "icon": "icon/skill/1006_talent.png"
@@ -2187,9 +2187,13 @@
         "type_text": "Technik",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "",
-        "desc": "Greift den Gegner unmittelbar an. Nach Kampfeintritt wird der Schwächetyp ignoriert und der WDS aller Gegner wird reduziert. Bei Schwächebruch auf diese Weise wird der Effekt des Quantum-Schwächebruchs ausgelöst.",
-        "params": [],
+        "simple_desc": "Greift Gegner an. Nach Kampfeintritt wird allen Gegner geringer SCH zugefügt und ungeachtet des Schwächetyps Widerstand reduziert.",
+        "desc": "Greift Gegner unmittelbar an. Nach Kampfeintritt wird allen Gegnern Quantum-SCH in Höhe von #1[i]% von Silberwolfs ANG zugefügt und ungeachtet des Schwächetyps wird WDS aller Gegner reduziert. Bei Gegnern, deren Schwäche auf diese Weise gebrochen wird, wird der Effekt von Quantum-Schwächebruch ausgelöst.",
+        "params": [
+            [
+                0.8
+            ]
+        ],
         "icon": "icon/skill/1006_technique.png"
     },
     "100801": {
@@ -2662,7 +2666,7 @@
         "type_text": "Talent",
         "effect": "Support",
         "effect_text": "Unterstützung",
-        "simple_desc": "",
+        "simple_desc": "Erhält 1 Aufladestapelung für jeden verschiedenen angegriffenen Gegner, bis max. 5 Stapelungen. Für jede Aufladestapelung wird der ANG aller Verbündeten erhöht. Zu Beginn ihrer Runde wird die Aufladestapelung reduziert.",
         "desc": "Erhält 1 Aufladestapelung für jeden von Asta angegriffenen Gegner plus 1 zusätzliche Aufladestapelung für jeden dabei getroffenen Gegner mit Feuer-Schwäche.\nFür jede Aufladestapelung von Asta wird der ANG aller Verbündeten um #1[f1]% erhöht. Dieser Effekt ist bis zu #2[i]-mal stapelbar.\nAb Astas zweiter Runde wird die Anzahl dieser Aufladestapelungen zu Beginn jeder Runde um #3[i] reduziert.",
         "params": [
             [
@@ -2766,7 +2770,7 @@
         "type_text": "Technik",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "",
+        "simple_desc": "Greift Gegner an. Fügt nach Kampfeintritt allen Gegnern geringen SCH zu.",
         "desc": "Greift den Gegner unmittelbar an. Fügt nach Kampfeintritt allen Gegnern Feuer-SCH in Höhe von #1[i]% von Astas ANG zu.",
         "params": [
             [
@@ -3965,7 +3969,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Verstärkung",
-        "simple_desc": "",
+        "simple_desc": "Fügt nach dem Angriff allen geschockten Gegnern geringen zusätzlichen SCH zu.",
         "desc": "Fügt nach dem Angriff allen geschockten Gegnern zusätzlichen Blitz-SCH in Höhe von #1[i]% von Servals ANG zu.",
         "params": [
             [
@@ -4039,7 +4043,7 @@
         "type_text": "Technik",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "",
+        "simple_desc": "Greift Gegner an. Fügt nach Kampfeintritt einem zufälligen Gegner geringen Blitz-SCH zu. Verursacht bei allen Gegner mit einer hohen Chance Schock.",
         "desc": "Greift den Gegner unmittelbar an. Fügt nach Kampfeintritt einem zufälligen Gegner Blitz-SCH in Höhe von #4[i]% von Servals ANG zu. Verursacht gleichzeitig bei allen Gegner mit einer Grundchance von #1[i]% für #3[i] Rd. Schock.\nGeschockte Gegner erleiden zu Beginn jeder Runde Blitz-DoT in Höhe von #2[i]% von Servals ANG.",
         "params": [
             [
@@ -4960,8 +4964,8 @@
         "type_text": "Talent",
         "effect": "Support",
         "effect_text": "Unterstützung",
-        "simple_desc": "",
-        "desc": "Wenn der Gegner nach Pelas Angriff einen Debuff hat, erhält Pela zusätzlich #1[f1] Pkt. Energie zurück. Dieser Effekt kann nur 1-mal pro Angriff ausgelöst werden.",
+        "simple_desc": "Wenn der Gegner nach Pelas Angriff einen Debuff hat, stellt Pela Energie wieder her.",
+        "desc": "Wenn der Gegner nach Pelas Angriff einen Debuff hat, stellt Pela zusätzlich #1[f1] Pkt. Energie wieder her. Dieser Effekt kann nur 1-mal pro Angriff ausgelöst werden.",
         "params": [
             [
                 5
@@ -5034,7 +5038,7 @@
         "type_text": "Technik",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "",
+        "simple_desc": "Greift Gegner an. Fügt nach Kampfeintritt einem zufälligen Gegner geringen Eis-SCH zu und hat eine hohe Chance, die VTD aller Gegner zu reduzieren.",
         "desc": "Greift den Gegner unmittelbar an. Fügt nach Kampfeintritt einem zufälligen Gegner Eis-SCH in Höhe von #4[i]% von Pelas ANG zu und hat eine Grundchance von #1[i]%, die VTD aller Gegner für #3[i] Rd. um #2[i]% zu reduzieren.",
         "params": [
             [
@@ -5172,7 +5176,7 @@
         "type_text": "Ultimate",
         "effect": "Enhance",
         "effect_text": "Verstärkung",
-        "simple_desc": "Erhöht SCH-WDS sowie die Chance, angegriffen zu werden und verstärkt den Effekt von Konter.",
+        "simple_desc": "Reduziert den selbst erlittenen SCH und erhöht die Chance, angegriffen zu werden. Der Effekt von Konter wird verstärkt.",
         "desc": "Reduziert nach dem Einsatz des Ultimates den von Clara erlittenen SCH zusätzlich um #4[i]% und erhöht stark für #3[i] Rd. die Chance, von Gegnern angegriffen zu werden.\nAußerdem wird Svarogs Konter verstärkt. Wird ein Verbündeter angegriffen, führt Svarog sofort einen Konter aus. Dieser Konter erhöht den SCH-Multiplikator gegen den Gegner um #2[i]% und fügt angrenzenden Zielen 50 % des vom anvisierten Gegner erlittenen SCH zu. Der verstärkte Konter kann #5[i]-mal ausgelöst werden.",
         "params": [
             [
@@ -6405,7 +6409,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Verstärkung",
-        "simple_desc": "",
+        "simple_desc": "Zu Beginn der Runde eines Verbündeten zieht Qingque Steine. Wenn sie zu Beginn ihrer Runde 4 Steine derselben Farbe hat, werden alle Steine verbraucht und ihr Standardangriff wird verstärkt. Gleichzeitig wird ihr ANG erhöht.",
         "desc": "Zu Beginn der Runde eines Verbündeten zieht Qingque zufällig 1 von 3 Steinen unterschiedlicher Farbe. Bis zu 4 Steine können auf einmal gehalten werden.\nWenn Qingque zu Beginn ihrer Runde 4 Steine derselben Farbe hat, wird sie alle Steine verwenden und in den Status „Verdeckter Kong“ übergehen.\nSolange sich Qingque im Status „Verdeckter Kong“ befindet, kann sie die Fertigkeit nicht erneut einsetzen. Gleichzeitig erhöht sich der ANG von Qingque um #1[i]% und ihr Standardangriff „Selbstgezogener Sieg“ wird zu „Sieg mit dem Kong!“ verstärkt. Der Status „Verdeckter Kong“ ist beendet, wenn ein verstärkter Standardangriff erfolgt ist.",
         "params": [
             [
@@ -6479,7 +6483,7 @@
         "type_text": "Technik",
         "effect": "Enhance",
         "effect_text": "Verstärkung",
-        "simple_desc": "",
+        "simple_desc": "Nach dem Einsatz der Technik wird zu Beginn des nächsten Kampfs ein Stein gezogen.",
         "desc": "Qingque zieht nach dem Einsatz der Technik beim Kampfeintritt #1[i] Jadesteine.",
         "params": [
             [
@@ -6690,7 +6694,7 @@
         "id": "120203",
         "name": "Ritual der Glückswolke",
         "max_level": 15,
-        "element": "Thunder",
+        "element": "",
         "type": "Ultra",
         "type_text": "Ultimate",
         "effect": "Support",
@@ -6919,8 +6923,8 @@
         "type_text": "Fertigkeit",
         "effect": "Restore",
         "effect_text": "Wiederherstellung",
-        "simple_desc": "Stellt LP eines Verbündeten wieder her und erhält 1-mal „Abgrundblume“.",
-        "desc": "Stellt nach dem Einsatz der Fertigkeit LP eines anvisierten Verbündeten sofort um #1[i]% von Luochas ANG plus #2[i] wieder her. Luocha erhält 1-mal „Abgrundblume“.\nLiegt der LP-Prozentsatz eines beliebigen Verbündeten bei #3[i]% oder niedriger, setzt Luocha die Fertigkeit sofort 1-mal bei diesem Verbündeten ein, ohne Fertigkeitspunkte zu verbrauchen. Dieser Effekt kann nach #4[i] Aktionen von Luocha erneut ausgelöst werden, wenn die Bedingung erfüllt ist.",
+        "simple_desc": "Stellt LP eines Verbündeten wieder her und erhält 1-fach „Abgrundblume“.",
+        "desc": "Nach dem Einsatz der Fertigkeit stellt er sofort die LP eines anvisierten Verbündeten um #1[i]% von Luochas ANG plus #2[i] wieder her. In der Zwischenzeit erhält Luocha 1 Stapelung „Abgrundblume“.\nWenn der LP-Prozentsatz eines beliebigen Verbündeten bei #3[i]% oder niedriger liegt, wird ein Effekt, der Luochas Fertigkeit entspricht, sofort ausgelöst (ohne dabei Fertigkeitspunkte zu verbrauchen). Dieser Effekt kann nach #4[i] Rd. erneut ausgelöst werden.",
         "params": [
             [
                 0.4,
@@ -7024,43 +7028,27 @@
         "type_text": "Ultimate",
         "effect": "AoEAttack",
         "effect_text": "Flächenangriff",
-        "simple_desc": "Entfernt 1 Buff vom Ziel, fügt allen Gegner imaginären SCH zu und erhält 1-fach „Abgrundblume“.",
-        "desc": "Entfernt #2[i] Buff von Gegnern  und fügt allen Gegnern imaginären SCH in Höhe von #1[i]% von Luochas ANG zu. Luocha erhält 1-fach „Abgrundblume“.",
+        "simple_desc": "Entfernt 1 Buff von allen Gegnern, fügt ihnen imaginären SCH zu und erhält 1 Stapelung „Abgrundblume“.",
+        "desc": "Entfernt #2[i] Buff von allen Gegnern und fügt ihnen imaginären SCH in Höhe von #1[i]% von Luochas ANG zu. In der Zwischenzeit erhält Luocha 1 Stapelung „Abgrundblume“.",
         "params": [
-            [
-                0.8,
-                1
-            ],
-            [
-                0.88,
-                1
-            ],
-            [
-                0.96,
-                1
-            ],
-            [
-                1.04,
-                1
-            ],
-            [
-                1.12,
-                1
-            ],
             [
                 1.2,
                 1
             ],
             [
-                1.3,
+                1.28,
                 1
             ],
             [
-                1.4,
+                1.36,
                 1
             ],
             [
-                1.5,
+                1.44,
+                1
+            ],
+            [
+                1.52,
                 1
             ],
             [
@@ -7068,23 +7056,39 @@
                 1
             ],
             [
-                1.68,
+                1.7,
                 1
             ],
             [
-                1.76,
+                1.8,
                 1
             ],
             [
-                1.84,
-                1
-            ],
-            [
-                1.92,
+                1.9,
                 1
             ],
             [
                 2,
+                1
+            ],
+            [
+                2.08,
+                1
+            ],
+            [
+                2.16,
+                1
+            ],
+            [
+                2.24,
+                1
+            ],
+            [
+                2.32,
+                1
+            ],
+            [
+                2.4,
                 1
             ]
         ],
@@ -7099,98 +7103,98 @@
         "type_text": "Talent",
         "effect": "Restore",
         "effect_text": "Wiederherstellung",
-        "simple_desc": "",
-        "desc": "Wird „Abgrundblume“ #1[i]-fach gestapelt, verbraucht Luocha alle „Abgrundblumen“, um ein Feld zu erzeugen.\nWird ein Gegner innerhalb des Felds von einem Verbündeten angegriffen, erhält der Verbündete unmittelbar LP in Höhe von #2[f1]% von Luochas ANG plus #4[i] zurück.\nDas Feld hält #3[i] Rd. an.",
+        "simple_desc": "Wenn „Abgrundblume“ 2-fach gestapelt wird, wird ein Feld erzeugt. Solange das Feld aktiv ist, werden die LP der Verbündeten wiederhergestellt, nachdem sie einen Angriff ausgeführt haben.",
+        "desc": "Wird „Abgrundblume“ #1[i]-fach gestapelt, verbraucht Luocha alle Abgrundblumen, um ein Feld zu erzeugen.\nWird ein Gegner innerhalb des Felds von einem Verbündeten angegriffen, werden die LP des Verbündeten unmittelbar um #2[f1]% von Luochas ANG plus #4[i] wiederhergestellt.\nDas Feld hält für #3[i] Rd. an. Ist Luocha handlungsunfähig, verschwindet das Feld.",
         "params": [
             [
                 2,
-                0.14,
+                0.12,
                 2,
-                70
+                60
             ],
             [
                 2,
-                0.1488,
+                0.1275,
                 2,
-                112
+                96
             ],
             [
                 2,
-                0.1575,
+                0.135,
                 2,
-                143.5
+                123
             ],
             [
                 2,
-                0.1663,
+                0.1425,
                 2,
-                175
+                150
             ],
             [
                 2,
-                0.175,
+                0.15,
                 2,
-                196
+                168
             ],
             [
                 2,
-                0.182,
+                0.156,
                 2,
-                217
+                186
             ],
             [
                 2,
-                0.189,
+                0.162,
                 2,
-                232.75
+                199.5
             ],
             [
                 2,
-                0.196,
+                0.168,
                 2,
-                248.5
+                213
             ],
             [
                 2,
-                0.203,
+                0.174,
                 2,
-                264.25
+                226.5
+            ],
+            [
+                2,
+                0.18,
+                2,
+                240
+            ],
+            [
+                2,
+                0.186,
+                2,
+                253.5
+            ],
+            [
+                2,
+                0.192,
+                2,
+                267
+            ],
+            [
+                2,
+                0.198,
+                2,
+                280.5
+            ],
+            [
+                2,
+                0.204,
+                2,
+                294
             ],
             [
                 2,
                 0.21,
                 2,
-                280
-            ],
-            [
-                2,
-                0.217,
-                2,
-                295.75
-            ],
-            [
-                2,
-                0.224,
-                2,
-                311.5
-            ],
-            [
-                2,
-                0.231,
-                2,
-                327.25
-            ],
-            [
-                2,
-                0.238,
-                2,
-                343
-            ],
-            [
-                2,
-                0.245,
-                2,
-                358.75
+                307.5
             ]
         ],
         "icon": "icon/skill/1203_talent.png"
@@ -7218,8 +7222,8 @@
         "type_text": "Technik",
         "effect": "Restore",
         "effect_text": "Wiederherstellung",
-        "simple_desc": "",
-        "desc": "Nach dem Einsatz der Technik wird zu Beginn des nächsten Kampfs das Talent sofort ausgelöst.",
+        "simple_desc": "Nach dem Einsatz der Technik wird zu Beginn des nächsten Kampfs der Effekt des Talents sofort ausgelöst.",
+        "desc": "Nach dem Einsatz der Technik wird das Talent zu Beginn des nächsten Kampfs sofort ausgelöst.",
         "params": [],
         "icon": "icon/skill/1203_technique.png"
     },
@@ -7233,7 +7237,7 @@
         "effect": "SingleAttack",
         "effect_text": "Einzelangriff",
         "simple_desc": "Fügt einem Gegner geringen Blitz-SCH zu.",
-        "desc": "Fügt einem anvisierten Gegner Blitz-SCH in Höhe von #1[i]% von Jing Yuans ANG zu.",
+        "desc": "Jing Yuan fügt einem einzelnen Gegner Blitz-SCHD in Höhe von #1[i]% seines ANG zu.",
         "params": [
             [
                 0.5
@@ -7560,7 +7564,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Greift den Gegner an und schwächt nach Kampfeintritt den Widerstand des Ziels gegen den entsprechenden Typ.",
+        "desc": "Greift den Gegner an und schwächt nach Kampfeintritt seinen Widerstand gegen den entsprechenden Typ.",
         "params": [],
         "icon": "icon/skill/1204_basic_atk.png"
     },
@@ -7724,7 +7728,7 @@
         "effect": "SingleAttack",
         "effect_text": "Einzelangriff",
         "simple_desc": "Fügt einem Gegner massiven physischen SCH zu, verstärkt den Effekt der „Schwerthaltung“ und gewährt Sushang eine sofortige Aktion.",
-        "desc": "Fügt einem anvisierten Gegner physischen SCH in Höhe von #1[i]% von Sushangs ANG zu und zieht ihre nächste Aktion unmittelbar um 100 % vor. Erhöht außerdem ihren ANG um #4[i]% und beim Einsatz der Fertigkeit 2 zusätzliche Chancen für #2[i] Rd., „Schwerthaltung“ auszulösen.\nWird die „Schwerthaltung“ durch eine zusätzliche Chance ausgelöst, wird #3[i]% des ursprünglichen SCH verursacht.",
+        "desc": "Fügt einem anvisierten Gegner physischen SCH in Höhe von #1[i]% von Sushangs ANG zu und sie tritt sofort in Aktion. Erhöht außerdem ihren ANG um #4[i]% und beim Einsatz der Fertigkeit 2 zusätzliche Chancen für #2[i] Rd., „Schwerthaltung“ auszulösen.\nWird die „Schwerthaltung“ durch eine zusätzliche Chance ausgelöst, wird #3[i]% des ursprünglichen SCH verursacht.",
         "params": [
             [
                 1.92,
@@ -7925,6 +7929,337 @@
             ]
         ],
         "icon": "icon/skill/1206_technique.png"
+    },
+    "120701": {
+        "id": "120701",
+        "name": "Heldin mit Pfeil und Bogen",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "Standardangriff",
+        "effect": "SingleAttack",
+        "effect_text": "Einzelangriff",
+        "simple_desc": "Fügt einem Gegner geringen imaginären SCH zu.",
+        "desc": "Fügt einem anvisierten Gegner imaginären SCH in Höhe von #1[i]% von Yukongs ANG zu.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": ""
+    },
+    "120702": {
+        "id": "120702",
+        "name": "Ermutigende Salve",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Fertigkeit",
+        "effect": "Support",
+        "effect_text": "Unterstützung",
+        "simple_desc": "Erhält 2-fach „Surrende Bogensehnen“. Wenn „Surrende Bogensehnen“ aktiv ist, wird der ANG aller Verbündeten erhöht.",
+        "desc": "Erhält #1[i]-fach „Surrende Bogensehnen“, bis zu 2-fach stapelbar. Wenn „Surrende Bogensehnen“ aktiv ist, wird der ANG aller Verbündeten um #2[i]% erhöht. Jedes Mal, wenn die Runde eines Verbündeten endet, wird 1-fach „Surrende Bogensehnen“ von Yukong entfernt.\nWenn Yukong in ihrer Runde „Surrende Bogensehnen“ durch den Einsatz der Fertigkeit erhält, wird „Surrende Bogensehnen“ nicht entfernt.",
+        "params": [
+            [
+                2,
+                0.4
+            ],
+            [
+                2,
+                0.44
+            ],
+            [
+                2,
+                0.48
+            ],
+            [
+                2,
+                0.52
+            ],
+            [
+                2,
+                0.56
+            ],
+            [
+                2,
+                0.6
+            ],
+            [
+                2,
+                0.65
+            ],
+            [
+                2,
+                0.7
+            ],
+            [
+                2,
+                0.75
+            ],
+            [
+                2,
+                0.8
+            ],
+            [
+                2,
+                0.84
+            ],
+            [
+                2,
+                0.88
+            ],
+            [
+                2,
+                0.92
+            ],
+            [
+                2,
+                0.96
+            ],
+            [
+                2,
+                1
+            ]
+        ],
+        "icon": ""
+    },
+    "120703": {
+        "id": "120703",
+        "name": "Turmfalke im Sturzflug",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "SingleAttack",
+        "effect_text": "Einzelangriff",
+        "simple_desc": "Wenn „Surrende Bogensehnen“ aktiv ist, werden die KRIT-Rate und der KRIT-SCH aller Verbündeten erhöht. Fügt gleichzeitig einem Gegner massiven imaginären SCH zu.",
+        "desc": "Wenn Yukong ihren Ultimate einsetzt und „Surrende Bogensehnen“ aktiv ist, werden die KRIT-Rate aller Verbündeten zusätzlich um #2[i]% und der KRIT-SCH aller Verbündeten um #3[i]% erhöht. Fügt gleichzeitig einem anvisierten Gegner imaginären SCH in Höhe von #1[i]% von Yukongs ANG zu.",
+        "params": [
+            [
+                2.28,
+                0.21,
+                0.39
+            ],
+            [
+                2.432,
+                0.217,
+                0.416
+            ],
+            [
+                2.584,
+                0.224,
+                0.442
+            ],
+            [
+                2.736,
+                0.231,
+                0.468
+            ],
+            [
+                2.888,
+                0.238,
+                0.494
+            ],
+            [
+                3.04,
+                0.245,
+                0.52
+            ],
+            [
+                3.23,
+                0.2538,
+                0.5525
+            ],
+            [
+                3.42,
+                0.2625,
+                0.585
+            ],
+            [
+                3.61,
+                0.2713,
+                0.6175
+            ],
+            [
+                3.8,
+                0.28,
+                0.65
+            ],
+            [
+                3.952,
+                0.287,
+                0.676
+            ],
+            [
+                4.104,
+                0.294,
+                0.702
+            ],
+            [
+                4.256,
+                0.301,
+                0.728
+            ],
+            [
+                4.408,
+                0.308,
+                0.754
+            ],
+            [
+                4.56,
+                0.315,
+                0.78
+            ]
+        ],
+        "icon": ""
+    },
+    "120704": {
+        "id": "120704",
+        "name": "Sieben Schichten, ein Pfeil",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Enhance",
+        "effect_text": "Verstärkung",
+        "simple_desc": "Der Standardangriff fügt geringen zusätzlichen imaginären SCH zu und erhöht SCH der Widerstand-Reduzierung dieses Angriffs. Dieser Effekt kann nach 1 Rd. erneut ausgelöst werden.",
+        "desc": "Der Standardangriff fügt zusätzlichen imaginären SCH in Höhe von #1[i]% von Yukongs ANG zu und erhöht außerdem SCH der WDS-Reduzierung dieses Angriffs um #2[i]%. Dieser Effekt kann nach #3[i] Rd. erneut ausgelöst werden.",
+        "params": [
+            [
+                0.4,
+                1,
+                1
+            ],
+            [
+                0.44,
+                1,
+                1
+            ],
+            [
+                0.48,
+                1,
+                1
+            ],
+            [
+                0.52,
+                1,
+                1
+            ],
+            [
+                0.56,
+                1,
+                1
+            ],
+            [
+                0.6,
+                1,
+                1
+            ],
+            [
+                0.65,
+                1,
+                1
+            ],
+            [
+                0.7,
+                1,
+                1
+            ],
+            [
+                0.75,
+                1,
+                1
+            ],
+            [
+                0.8,
+                1,
+                1
+            ],
+            [
+                0.84,
+                1,
+                1
+            ],
+            [
+                0.88,
+                1,
+                1
+            ],
+            [
+                0.92,
+                1,
+                1
+            ],
+            [
+                0.96,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                1
+            ]
+        ],
+        "icon": ""
+    },
+    "120706": {
+        "id": "120706",
+        "name": "Angriff",
+        "max_level": 1,
+        "element": "Imaginary",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Greift den Gegner an und schwächt nach Kampfeintritt den Widerstand des Ziels gegen den entsprechenden Typ.",
+        "params": [],
+        "icon": ""
+    },
+    "120707": {
+        "id": "120707",
+        "name": "Jagd nach dem Wind",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technik",
+        "effect": "Enhance",
+        "effect_text": "Verstärkung",
+        "simple_desc": "Erhöht ihre Bewegungs-GES. Gewährt 2-fach „Surrende Bogensehnen“, wenn sie durch Angriff auf den Gegner einen Kampf einleitet.",
+        "desc": "Aktiviert nach dem Einsatz der Technik für #1[i] Sek. Sprint-Modus. Der Sprint-Modus erhöht die Bewegungs-GES um #2[i]% und gewährt Yukong #3[i]-fach „Surrende Bogensehnen“, wenn sie durch Angriff auf den Gegner einen Kampf einleitet.",
+        "params": [
+            [
+                20,
+                0.35,
+                2
+            ]
+        ],
+        "icon": ""
     },
     "120901": {
         "id": "120901",
@@ -8665,8 +9000,8 @@
         "element": "",
         "type": "Maze",
         "type_text": "Technik",
-        "effect": "Support",
-        "effect_text": "Unterstützung",
+        "effect": "Restore",
+        "effect_text": "Wiederherstellung",
         "simple_desc": "",
         "desc": "Gewährt nach dem Einsatz der Technik allen Verbündeten zu Beginn des nächsten Kampfes für #1[i] Rd. „Belebung“.",
         "params": [
