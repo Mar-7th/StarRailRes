@@ -136,8 +136,8 @@
         "id": "108",
         "name": "Genie der strahlenden Sterne",
         "desc": [
-            "Erhöht Quantum-SCH um 10%.",
-            "Wenn der Träger einem Gegner SCH zufügt, ignoriert er 10% der VTD des Gegners. Wenn das Ziel Quantum-Schwäche hat, ignoriert der Träger zusätzlich 10% der VTD des Gegners."
+            "Erhöht Quanten-SCH um 10%.",
+            "Wenn der Träger einem Gegner SCH zufügt, ignoriert er 10% der VTD des Gegners. Wenn das Ziel Quanten-Schwäche hat, ignoriert der Träger zusätzlich 10% der VTD des Gegners."
         ],
         "properties": [
             [
@@ -230,6 +230,44 @@
             []
         ],
         "icon": "icon/relic/112.png",
+        "guide_overview": []
+    },
+    "113": {
+        "id": "113",
+        "name": "Langlebige Jüngerin",
+        "desc": [
+            "Erhöht die max. LP um 12%.",
+            "Wenn der Träger getroffen wird oder seine LP von einem Verbündeten verbraucht werden, wird seine KRIT-Rate 2 Rd. lang um 8% erhöht. 2-fach stapelbar."
+        ],
+        "properties": [
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.12
+                }
+            ],
+            []
+        ],
+        "icon": "",
+        "guide_overview": []
+    },
+    "114": {
+        "id": "114",
+        "name": "Bote im Hackerspace",
+        "desc": [
+            "Erhöht GES um 6%.",
+            "Wenn der Träger ein Ultimate auf einen Verbündeten anwendet, erhöht sich die GES aller Verbündeten für 1 Rd. um 12%. Dieser Effekt ist nicht stapelbar."
+        ],
+        "properties": [
+            [
+                {
+                    "type": "SpeedAddedRatio",
+                    "value": 0.06
+                }
+            ],
+            []
+        ],
+        "icon": "",
         "guide_overview": []
     },
     "301": {
@@ -374,6 +412,42 @@
             ]
         ],
         "icon": "icon/relic/308.png",
+        "guide_overview": []
+    },
+    "309": {
+        "id": "309",
+        "name": "Sternenarena",
+        "desc": [
+            "Erhöht die KRIT-Rate des Trägers um 8%. Wenn die aktuelle KRIT-Rate des Trägers einen Wert von 70% oder höher erreicht, wird der SCH durch Standardangriff und Fertigkeit um 20% erhöht.",
+            ""
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.08
+                }
+            ]
+        ],
+        "icon": "",
+        "guide_overview": []
+    },
+    "310": {
+        "id": "310",
+        "name": "Gebrochener Kiel",
+        "desc": [
+            "Der Effekt-WDS des Trägers wird um 10% erhöht. Wenn der Effekt-WDS des Trägers 30% oder mehr beträgt, wird der KRIT-SCH aller Verbündeten um 10% erhöht.",
+            ""
+        ],
+        "properties": [
+            [
+                {
+                    "type": "StatusResistanceBase",
+                    "value": 0.1
+                }
+            ]
+        ],
+        "icon": "",
         "guide_overview": []
     }
 }

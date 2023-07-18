@@ -171,7 +171,7 @@
         "effect": "AoEAttack",
         "effect_text": "ATQ AdE",
         "simple_desc": "Inflige Daño de Hielo a todos los enemigos y hay una probabilidad de congelarlos.",
-        "desc": "Inflige un #1[i]% del ATQ de Siete de Marzo como Daño de Hielo a todos los enemigos. Cada enemigo atacado tiene un #2[i]% de probabilidad base de congelarse durante #3[i] turno.\nLos enemigos congelados no pueden actuar, y al principio de cada turno reciben un #4[i]% del ATQ de Siete de Marzo como Daño de Hielo adicional.",
+        "desc": "Inflige un #1[i]% del ATQ de Siete de Marzo como Daño de Hielo a todos los enemigos. Cada enemigo atacado tiene un #2[i]% de probabilidad base de ser afectado por Congelación durante #3[i] turno.\nLos enemigos congelados no pueden actuar, y al principio de cada turno reciben un #4[i]% del ATQ de Siete de Marzo como Daño de Hielo adicional.",
         "params": [
             [
                 0.9,
@@ -365,7 +365,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Ataca inmediatamente al enemigo y entra en combate. #1[i]% de probabilidad base de congelar a un enemigo al azar durante #2[i] turno.\nLos enemigos congelados no pueden actuar, y al principio de cada turno reciben un #3[i]% del ATQ de Siete de Marzo como Daño de Hielo adicional.",
+        "desc": "Ataca inmediatamente al enemigo y entra en combate. Tiene un #1[i]% de probabilidad base de afectar con Congelación a un enemigo al azar durante #2[i] turno.\nLos enemigos congelados no pueden actuar, y al principio de cada turno reciben un #3[i]% del ATQ de Siete de Marzo como Daño de Hielo adicional.",
         "params": [
             [
                 1,
@@ -696,7 +696,7 @@
         "effect": "Enhance",
         "effect_text": "Potenciación",
         "simple_desc": "Tras usar la técnica, el ATQ aumenta en la siguiente batalla.",
-        "desc": "Tras usar la técnica, el ATQ de Dan Heng aumenta en un #1[i]% durante #2[i] turnos en la siguiente batalla.",
+        "desc": "Tras usar la técnica, al comenzar la siguiente batalla, el ATQ de Dan Heng aumenta en un #1[i]% durante #2[i] turnos.",
         "params": [
             [
                 0.4,
@@ -906,7 +906,7 @@
         "type_text": "Talento",
         "effect": "AoEAttack",
         "effect_text": "ATQ AdE",
-        "simple_desc": "",
+        "simple_desc": "Cuando se rompe la Debilidad del enemigo, consigue una carga.\nDespués de que un aliado ataque, si ha acumulado el máximo de cargas, lanza inmediatamente un ataque adicional que inflige Daño de Fuego a todos los enemigos y consume todas sus cargas.\nAl comenzar la batalla obtiene 1 carga.",
         "desc": "Cuando se rompe la Debilidad de un enemigo, Himeko consigue una carga (hasta un máximo de #2[i]).\nDespués de que un aliado ataque, si Himeko ha acumulado el máximo de cargas, lanza inmediatamente un ataque adicional que inflige a todos los enemigos un Daño de Fuego equivalente al #1[i]% del ATQ de Himeko y consume todas sus cargas.\nAl comenzar la batalla obtiene 1 carga.",
         "params": [
             [
@@ -995,8 +995,8 @@
         "type_text": "Técnica",
         "effect": "Impair",
         "effect_text": "Alteración",
-        "simple_desc": "",
-        "desc": "Tras usar la técnica, crea una zona especial que dura #4[i] s. Al entrar en combate con enemigos dentro de la zona especial, hay una probabilidad base del #1[i]% de que los objetivos enemigos reciban un #2[i]% más de Daño de Fuego durante #3[i] turnos. Solo puede haber 1 zona especial creada por los aliados a la vez.",
+        "simple_desc": "Crea una zona especial. Al entrar en combate con enemigos en la zona especial, hay una gran probabilidad de que el Daño de Fuego que reciben los enemigos aumente.",
+        "desc": "Tras usar la técnica, crea una zona especial que dura #4[i] s. Al entrar en combate con enemigos dentro de la zona especial, tiene una probabilidad base del #1[i]% de que los objetivos enemigos reciban un #2[i]% más de Daño de Fuego durante #3[i] turnos. Solo puede haber 1 zona especial creada por los aliados a la vez.",
         "params": [
             [
                 1,
@@ -1058,7 +1058,7 @@
         "type_text": "Habilidad básica",
         "effect": "Bounce",
         "effect_text": "Rebote",
-        "simple_desc": "Inflige una pequeña cantidad de Daño Imaginario a un enemigo. Se dispara 3 veces y tiene una probabilidad de ralentizar al objetivo.",
+        "simple_desc": "Inflige una pequeña cantidad de Daño Imaginario a un enemigo. Se dispara 3 veces y tiene una probabilidad de causar Ralentización al objetivo.",
         "desc": "Inflige un #1[i]% del ATQ de Welt como Daño Imaginario a un enemigo e inflige daño 2 veces más. Cada golpe inflige un #1[i]% del ATQ de Welt como Daño Imaginario a un enemigo al azar. Al acertar a un enemigo, hay una probabilidad base del #2[i]% de reducir la VEL del objetivo atacado en un #3[i]% durante #4[i] turnos.",
         "params": [
             [
@@ -1164,7 +1164,7 @@
         "effect": "AoEAttack",
         "effect_text": "ATQ AdE",
         "simple_desc": "Inflige Daño Imaginario a todos los enemigos y tiene una gran probabilidad de aprisionarlos.",
-        "desc": "Inflige un #1[i]% del ATQ de Welt como Daño Imaginario a todos los enemigos y tiene una probabilidad base del #3[i]% de aprisionar a los enemigos atacados durante 1 turno.\nLas acciones de los enemigos aprisionados se retrasan un #2[i]% y su VEL se reduce en un #4[i]%.",
+        "desc": "Inflige un #1[i]% del ATQ de Welt como Daño Imaginario a todos los enemigos y tiene una probabilidad base del #3[i]% de afectar con Prisión a los enemigos atacados durante 1 turno.\nLas acciones de los enemigos aprisionados se retrasan un #2[i]% y su VEL se reduce en un #4[i]%.",
         "params": [
             [
                 0.9,
@@ -1268,7 +1268,7 @@
         "type_text": "Talento",
         "effect": "Enhance",
         "effect_text": "Potenciación",
-        "simple_desc": "",
+        "simple_desc": "Al golpear a un objetivo afectado por Ralentización, inflige una pequeña cantidad de Daño Imaginario adicional.",
         "desc": "Al golpear a un objetivo ya afectado por Ralentización, inflige un #1[i]% del ATQ de Welt como Daño Imaginario adicional.",
         "params": [
             [
@@ -1342,8 +1342,8 @@
         "type_text": "Técnica",
         "effect": "Impair",
         "effect_text": "Alteración",
-        "simple_desc": "",
-        "desc": "Tras usar la técnica, crea una zona especial que dura #4[i] s. La VEL de movimiento de los enemigos que estén en la zona especial se reduce en un #5[i]%. Tras entrar en combate con enemigos en la zona especial, hay una probabilidad base del #1[i]% de aprisionarlos durante 1 turno.\nLas acciones de los enemigos aprisionados se retrasan un #2[i]% y su VEL se reduce en un #3[i]%. Solo puede haber 1 zona especial creada por los aliados a la vez.",
+        "simple_desc": "Crea una zona especial. La VEL de movimiento de los enemigos que estén en la zona se reduce. Al entrar en combate contra los enemigos en la zona, tiene una gran probabilidad de afectarlos con Prisión.",
+        "desc": "Tras usar la técnica, crea una zona especial que dura #4[i] s. La VEL de movimiento de los enemigos que estén en la zona especial se reduce en un #5[i]%. Tras entrar en combate con enemigos en la zona especial, tiene una probabilidad base del #1[i]% de afectarlos con Prisión durante 1 turno.\nLas acciones de los enemigos aprisionados se retrasan un #2[i]% y su VEL se reduce en un #3[i]%. Solo puede haber 1 zona especial creada por los aliados a la vez.",
         "params": [
             [
                 1,
@@ -1406,7 +1406,7 @@
         "type_text": "Habilidad básica",
         "effect": "Blast",
         "effect_text": "Ráfaga",
-        "simple_desc": "Inflige Daño de Rayo a un enemigo y hace que sus estados negativos le inflijan más Daño con el tiempo. También inflige una pequeña cantidad de Daño de Rayo a los objetivos adyacentes.",
+        "simple_desc": "Inflige Daño de Rayo a un enemigo y una pequeña cantidad de Daño de Rayo a los enemigos adyacentes.\nSi el objetivo principal está afectado por estados negativos de Daño con el tiempo, estos infligen daño 1 vez adicional.",
         "desc": "Kafka inflige un #1[i]% de su ATQ como Daño de Rayo a un enemigo y un #3[i]% de su ATQ como Daño de Rayo a los enemigos adyacentes.\nSi el objetivo principal está afectado por estados de Daño con el tiempo, todos los efectos de Daño con el tiempo que tenga producen inmediatamente un daño equivalente al #2[i]% de su daño original.",
         "params": [
             [
@@ -1496,113 +1496,113 @@
         "type_text": "Habilidad definitiva",
         "effect": "AoEAttack",
         "effect_text": "ATQ AdE",
-        "simple_desc": "Inflige una pequeña cantidad de Daño de Rayo a todos los enemigos y tiene una gran probabilidad de afectarlos con Electrocución y hacer que reciban más daño de ese estado.",
-        "desc": "Inflige un #1[i]% del ATQ de Kafka como Daño de Rayo a todos los enemigos y tiene una probabilidad base del #2[i]% de electrocutar a los enemigos atacados durante #3[i] turnos y hacer que reciban inmediatamente un #5[i]% del daño original de Electrocución recibido.\nLos enemigos afectados por Electrocución reciben un Daño de Rayo con el tiempo equivalente al #4[i]% del ATQ de Kafka al comienzo de cada turno.",
+        "simple_desc": "Inflige una pequeña cantidad de Daño de Rayo a todos los enemigos y tiene una gran probabilidad de afectarlos con Electrocución.\nSi los objetivos están ya electrocutados, este estado inflige daño 1 vez adicional.",
+        "desc": "Inflige un #1[i]% del ATQ de Kafka como Daño de Rayo a todos los enemigos y tiene una probabilidad base del #2[i]% de afectar con Electrocución a los enemigos atacados durante #3[i] turnos y hacer que reciban inmediatamente un #5[i]% del daño original de Electrocución recibido.\nLos enemigos electrocutados reciben un Daño de Rayo con el tiempo equivalente al #4[i]% del ATQ de Kafka al comienzo de cada turno.",
         "params": [
             [
                 0.48,
                 1,
                 2,
-                0.95,
-                0.72
+                1.16,
+                0.8
             ],
             [
                 0.512,
                 1,
                 2,
-                1.045,
-                0.738
+                1.2688,
+                0.82
             ],
             [
                 0.544,
                 1,
                 2,
-                1.14,
-                0.756
+                1.3775,
+                0.84
             ],
             [
                 0.576,
                 1,
                 2,
-                1.235,
-                0.774
+                1.4863,
+                0.86
             ],
             [
                 0.608,
                 1,
                 2,
-                1.33,
-                0.792
+                1.595,
+                0.88
             ],
             [
                 0.64,
                 1,
                 2,
-                1.4725,
-                0.81
+                1.7581,
+                0.9
             ],
             [
                 0.68,
                 1,
                 2,
-                1.6625,
-                0.8325
+                1.9756,
+                0.925
             ],
             [
                 0.72,
                 1,
                 2,
-                1.9,
-                0.855
+                2.2475,
+                0.95
             ],
             [
                 0.76,
                 1,
                 2,
-                2.185,
-                0.8775
+                2.5738,
+                0.975
             ],
             [
                 0.8,
                 1,
                 2,
-                2.47,
-                0.9
+                2.9,
+                1
             ],
             [
                 0.832,
                 1,
                 2,
-                2.5935,
-                0.918
+                3.0414,
+                1.02
             ],
             [
                 0.864,
                 1,
                 2,
-                2.717,
-                0.936
+                3.1828,
+                1.04
             ],
             [
                 0.896,
                 1,
                 2,
-                2.8405,
-                0.954
+                3.3241,
+                1.06
             ],
             [
                 0.928,
                 1,
                 2,
-                2.964,
-                0.972
+                3.4655,
+                1.08
             ],
             [
                 0.96,
                 1,
                 2,
-                3.0875,
-                0.99
+                3.6069,
+                1.1
             ]
         ],
         "icon": "icon/skill/1005_ultimate.png"
@@ -1616,98 +1616,83 @@
         "type_text": "Talento",
         "effect": "SingleAttack",
         "effect_text": "ATQ individual",
-        "simple_desc": "",
-        "desc": "Cuando un aliado de Kafka lanza su ATQ básico contra un enemigo, Kafka lanza inmediatamente un ataque adicional que inflige un #1[i]% de su ATQ como Daño de Rayo a ese objetivo y tiene un #4[i]% de probabilidad base de que el Daño con el tiempo que recibe el objetivo aumente en un #2[i]% durante #3[i] turnos. Este efecto solo puede activarse 1 vez por turno.",
+        "simple_desc": "Cuando un aliado usa el ATQ básico contra un enemigo, Kafka lanza un ataque adicional a ese objetivo y le inflige una pequeña cantidad de Daño de Rayo. Además, tiene una gran probabilidad de afectarlo con Electrocución. Este efecto solo puede activarse 1 vez por turno.",
+        "desc": "Cuando un aliado de Kafka usa su ATQ básico contra un enemigo, Kafka lanza inmediatamente un ataque adicional que inflige un #1[i]% de su ATQ como Daño de Rayo a ese objetivo y tiene un #2[i]% de probabilidad base de afectarlo con una Electrocución equivalente a la de la habilidad definitiva durante #3[i] turnos. Este efecto solo puede activarse 1 vez por turno.",
         "params": [
             [
-                0.6,
-                0.15,
-                2,
-                1
+                0.42,
+                1,
+                2
             ],
             [
-                0.66,
-                0.155,
-                2,
-                1
+                0.518,
+                1,
+                2
             ],
             [
-                0.72,
-                0.16,
-                2,
-                1
+                0.616,
+                1,
+                2
             ],
             [
-                0.78,
-                0.165,
-                2,
-                1
+                0.714,
+                1,
+                2
             ],
             [
-                0.84,
-                0.17,
-                2,
-                1
+                0.812,
+                1,
+                2
             ],
             [
-                0.9,
-                0.175,
-                2,
-                1
+                0.91,
+                1,
+                2
             ],
             [
-                0.975,
-                0.1813,
-                2,
-                1
+                1.0325,
+                1,
+                2
             ],
             [
-                1.05,
-                0.1875,
-                2,
-                1
+                1.155,
+                1,
+                2
             ],
             [
-                1.125,
-                0.1938,
-                2,
-                1
+                1.2775,
+                1,
+                2
             ],
             [
-                1.2,
-                0.2,
-                2,
-                1
+                1.4,
+                1,
+                2
             ],
             [
-                1.26,
-                0.205,
-                2,
-                1
+                1.498,
+                1,
+                2
             ],
             [
-                1.32,
-                0.21,
-                2,
-                1
+                1.596,
+                1,
+                2
             ],
             [
-                1.38,
-                0.215,
-                2,
-                1
+                1.694,
+                1,
+                2
             ],
             [
-                1.44,
-                0.22,
-                2,
-                1
+                1.792,
+                1,
+                2
             ],
             [
-                1.5,
-                0.225,
-                2,
-                1
+                1.89,
+                1,
+                2
             ]
         ],
         "icon": "icon/skill/1005_talent.png"
@@ -1735,13 +1720,12 @@
         "type_text": "Técnica",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "",
-        "desc": "Ataca inmediatamente al enemigo y entra en combate. Inflige un #4[i]% del ATQ de Kafka como Daño de Rayo a todos los enemigos. Además, cada enemigo tiene una probabilidad base del #1[i]% de ser afectado por Electrocución durante #3[i] turnos.\nLos enemigos electrocutados reciben un Daño de Rayo con el tiempo equivalente al #2[i]% del ATQ de Kafka al comienzo de cada turno.",
+        "simple_desc": "Ataca a todos los enemigos de un área determinada e inflige una pequeña cantidad de Daño de Rayo a todos ellos tras entrar en combate. Gran probabilidad de afectarlos con Electrocución.",
+        "desc": "Ataca inmediatamente a todos los enemigos de un área determinada y entra en combate. Inflige un #3[i]% del ATQ de Kafka como Daño de Rayo a todos los enemigos. Además, cada enemigo tiene una probabilidad base del #1[i]% de ser afectado por una Electrocución equivalente a la de la habilidad definitiva durante #2[i] turnos.",
         "params": [
             [
                 1,
-                0.5,
-                3,
+                2,
                 0.5
             ]
         ],
@@ -2397,7 +2381,7 @@
         "type_text": "Talento",
         "effect": "Enhance",
         "effect_text": "Potenciación",
-        "simple_desc": "",
+        "simple_desc": "Aumenta el daño según el porcentaje de PV que haya perdido hasta el momento.",
         "desc": "Arlan obtiene una bonificación de daño según el porcentaje de PV que haya perdido hasta el momento. Como máximo puede infligir un #1[i]% más de daño.",
         "params": [
             [
@@ -2471,7 +2455,7 @@
         "type_text": "Técnica",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "",
+        "simple_desc": "Ataca al enemigo y entra en combate. Inflige una pequeña cantidad de Daño de Rayo a todos los enemigos.",
         "desc": "Ataca inmediatamente al enemigo y entra en combate. Inflige un #1[i]% del ATQ de Arlan como Daño de Rayo a todos los enemigos.",
         "params": [
             [
@@ -2667,7 +2651,7 @@
         "effect": "Support",
         "effect_text": "Apoyo",
         "simple_desc": "Obtiene una acumulación de Recarga por cada objetivo distinto golpeado, hasta un máximo de 5 acumulaciones. Cada acumulación aumenta el ATQ de todos los aliados. Las acumulaciones de Recarga se reducen al comenzar su turno.",
-        "desc": "Obtiene una acumulación de Recarga por cada objetivo distinto golpeado. Si el objetivo tiene Debilidad de Fuego, obtiene una acumulación adicional.\nPor cada acumulación de Recarga que tenga Asta, el ATQ de todos los aliados aumenta en un #1[f1]%. Se puede acumular hasta #2[i] veces.\nA partir de su segundo turno, Asta pierde #3[i] acumulaciones de Recarga al principio de cada turno.",
+        "desc": "Obtiene una acumulación de Recarga por cada objetivo distinto golpeado. Si el objetivo tiene Debilidad de Fuego, obtiene una acumulación adicional.\nPor cada acumulación de Recarga que tenga Asta, el ATQ de todos los aliados aumenta en un #1[f1]%. Este efecto se puede acumular hasta #2[i] veces.\nA partir de su segundo turno, Asta pierde #3[i] acumulaciones de Recarga al principio de cada turno.",
         "params": [
             [
                 0.07,
@@ -3070,7 +3054,7 @@
         "effect": "Enhance",
         "effect_text": "Potenciación",
         "simple_desc": "",
-        "desc": "Tras usar la técnica, en la siguiente batalla el ATQ de Herta aumenta en un #1[i]% durante #2[i] turnos.",
+        "desc": "Tras usar la técnica, al comenzar la siguiente batalla, el ATQ de Herta aumenta en un #1[i]% durante #2[i] turnos.",
         "params": [
             [
                 0.4,
@@ -3130,7 +3114,7 @@
         "type_text": "Habilidad básica",
         "effect": "Support",
         "effect_text": "Apoyo",
-        "simple_desc": "Elimina 1 estado negativo de un aliado, aumenta el daño que inflige y hace que mueva inmediatamente.",
+        "simple_desc": "Elimina 1 estado negativo de un aliado, aumenta el daño que inflige y hace que se mueva inmediatamente.",
         "desc": "Elimina un estado negativo de un aliado, hace que realice una acción inmediatamente y aumenta el daño que inflige en un #1[i]% durante #3[i] turno.\nSi utiliza esta habilidad consigo misma, no se activará la acción inmediata.",
         "params": [
             [
@@ -3340,7 +3324,7 @@
         "type_text": "Talento",
         "effect": "Enhance",
         "effect_text": "Potenciación",
-        "simple_desc": "",
+        "simple_desc": "Tras usar el ATQ básico, su siguiente acción se adelanta.",
         "desc": "Tras usar el ATQ básico, la siguiente acción de Bronya se adelanta un #1[i]%.",
         "params": [
             [
@@ -3414,8 +3398,8 @@
         "type_text": "Técnica",
         "effect": "Support",
         "effect_text": "Apoyo",
-        "simple_desc": "",
-        "desc": "Tras usar la técnica, en la siguiente batalla el ATQ de todos los aliados aumenta en un #1[i]% durante #2[i] turnos.",
+        "simple_desc": "Tras usar la técnica, el ATQ de todos los aliados aumenta en la siguiente batalla.",
+        "desc": "Tras usar la técnica, al comenzar la siguiente batalla, el ATQ de todos los aliados aumenta en un #1[i]% durante #2[i] turnos.",
         "params": [
             [
                 0.15,
@@ -3775,7 +3759,7 @@
         "effect": "Blast",
         "effect_text": "Ráfaga",
         "simple_desc": "Inflige una pequeña cantidad de Daño de Rayo a un objetivo y a los enemigos adyacentes. Gran probabilidad de afectar con Electrocución a los enemigos golpeados.",
-        "desc": "Serval inflige un #1[i]% de su ATQ como Daño de Rayo a un enemigo y un #2[i]% de su ATQ como Daño de Rayo a los enemigos adyacentes. Además, tiene un #3[i]% de probabilidad base de electrocutar a los enemigos atacados durante #4[i] turnos.\nLos enemigos afectados por Electrocución reciben un Daño de Rayo con el tiempo equivalente al #5[i]% del ATQ de Serval al comienzo de cada turno.",
+        "desc": "Serval inflige un #1[i]% de su ATQ como Daño de Rayo a un enemigo y un #2[i]% de su ATQ como Daño de Rayo a los enemigos adyacentes. Además, tiene una probabilidad base del #3[i]% de afectar con Electrocución a los enemigos atacados durante #4[i] turnos.\nLos enemigos electrocutados reciben un Daño de Rayo con el tiempo equivalente al #5[i]% del ATQ de Serval al comienzo de cada turno.",
         "params": [
             [
                 0.7,
@@ -4106,8 +4090,8 @@
         "type_text": "Habilidad básica",
         "effect": "Impair",
         "effect_text": "Alteración",
-        "simple_desc": "Inflige Daño de Hielo a un enemigo y tiene una probabilidad de congelarlo.",
-        "desc": "Inflige un #1[i]% del ATQ de Gepard como Daño de Hielo a un enemigo. #2[i]% de probabilidad base de congelar al enemigo atacado durante #3[i] turno.\nEl enemigo congelado no puede actuar, y al comienzo de cada turno recibe un #4[i]% del ATQ de Gepard como Daño de Hielo adicional.",
+        "simple_desc": "Inflige Daño de Hielo a un enemigo y tiene una probabilidad de causarle Congelación.",
+        "desc": "Inflige un #1[i]% del ATQ de Gepard como Daño de Hielo a un enemigo. Tiene un #2[i]% de probabilidad base de afectar con Congelación al enemigo atacado durante #3[i] turno.\nEl enemigo congelado no puede actuar, y al comienzo de cada turno recibe un #4[i]% del ATQ de Gepard como Daño de Hielo adicional.",
         "params": [
             [
                 1,
@@ -4301,8 +4285,8 @@
         "type_text": "Talento",
         "effect": "Restore",
         "effect_text": "Regeneración",
-        "simple_desc": "",
-        "desc": "Al recibir un golpe letal, en vez de caer derrotado, Gepard recupera un #1[i]% de sus PV máx. Este efecto solo se puede activar una vez en cada batalla.",
+        "simple_desc": "Al recibir un golpe letal, en vez de caer derrotado, regenera inmediatamente PV. Solo se puede activar 1 vez por batalla.",
+        "desc": "Al recibir un golpe letal, en vez de caer derrotado, Gepard regenera un #1[i]% de sus PV máx. Este efecto solo se puede activar una vez en cada batalla.",
         "params": [
             [
                 0.25
@@ -4375,7 +4359,7 @@
         "type_text": "Técnica",
         "effect": "Defence",
         "effect_text": "Defensa",
-        "simple_desc": "",
+        "simple_desc": "Tras usar la técnica, todos los aliados obtienen un escudo al comenzar la siguiente batalla.",
         "desc": "Tras usar la técnica, al comenzar la siguiente batalla otorga un escudo a todos los aliados que absorbe un daño equivalente al #1[i]% de la DEF de Gepard + #3[i] durante #2[i] turnos.",
         "params": [
             [
@@ -4632,7 +4616,7 @@
         "type_text": "Talento",
         "effect": "Enhance",
         "effect_text": "Potenciación",
-        "simple_desc": "",
+        "simple_desc": "La curación realizada aumenta para los objetivos aliados que tengan un porcentaje de PV bajo. También aplica a la curación continua.",
         "desc": "La curación realizada por Natasha aumenta en un #2[i]% para los objetivos aliados que tengan un porcentaje de PV igual o inferior al #1[i]%. También aplica a la curación continua.",
         "params": [
             [
@@ -4721,7 +4705,7 @@
         "type_text": "Técnica",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "",
+        "simple_desc": "Ataca al enemigo y entra en combate. Inflige una pequeña cantidad de Daño Físico a un enemigo al azar. Además, cada enemigo tiene una gran probabilidad de ser afectado por Debilitación.",
         "desc": "Ataca inmediatamente al enemigo y entra en combate. Inflige un #4[i]% del ATQ de Natasha como Daño Físico a un enemigo al azar. Además, cada enemigo tiene una probabilidad base del #1[i]% de ser afectado por Debilitación.\nEl daño que infligen los enemigos debilitados se reduce en un #2[i]% durante #3[i] turno.",
         "params": [
             [
@@ -5176,7 +5160,7 @@
         "type_text": "Habilidad definitiva",
         "effect": "Enhance",
         "effect_text": "Potenciación",
-        "simple_desc": "Reduce el daño recibido y aumenta la probabilidad ser atacada, y potencia el efecto de contraataque.",
+        "simple_desc": "Reduce el daño recibido, aumenta la probabilidad ser atacada y potencia el efecto de contraataque.",
         "desc": "Tras usar su habilidad definitiva, el daño que recibe Clara se reduce en un #4[i]% adicional y la probabilidad de ser atacada aumenta enormemente durante #3[i] turnos.\nAdemás, el efecto de contraataque de Svarog se potencia. Cuando un aliado recibe un ataque, Svarog lanza un contraataque inmediatamente, su multiplicador de daño aumenta en un #2[i]% e inflige un 50% del daño que reciba el objetivo principal a los enemigos adyacentes. El efecto de potenciación se puede activar #5[i] veces.",
         "params": [
             [
@@ -5296,7 +5280,7 @@
         "type_text": "Talento",
         "effect": "SingleAttack",
         "effect_text": "ATQ individual",
-        "simple_desc": "",
+        "simple_desc": "Reduce el daño que recibe de los ataques enemigos. Los enemigos que atacan quedan marcados con la Marca de represalia y reciben un contraataque de Svarog que inflige Daño Físico.",
         "desc": "Clara está bajo la protección de Svarog y el daño que recibe de los ataques enemigos se reduce en un #3[i]%. Svarog marca a los enemigos que ataquen a Clara con su Marca de represalia y se venga con un contraataque que inflige un #2[i]% del ATQ de Clara como Daño Físico.",
         "params": [
             [
@@ -5400,7 +5384,7 @@
         "type_text": "Técnica",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "",
+        "simple_desc": "Ataca al enemigo y entra en combate. Aumenta la probabilidad de recibir ataques enemigos.",
         "desc": "Ataca inmediatamente al enemigo y entra en combate. La probabilidad de que Clara reciba un ataque enemigo aumenta durante #1[i] turnos.",
         "params": [
             [
@@ -5641,7 +5625,7 @@
         "type_text": "Talento",
         "effect": "Enhance",
         "effect_text": "Potenciación",
-        "simple_desc": "",
+        "simple_desc": "Cuando golpea a un enemigo, tiene una probabilidad de afectarlo con Intemperie.",
         "desc": "Cuando Sampo golpea a un enemigo, tiene una probabilidad base del #1[i]% de afectar al objetivo golpeado con Intemperie durante #3[i] turnos.\nEn el estado de Intemperie, los objetivos enemigos reciben un Daño de Viento con el tiempo equivalente al #2[i]% del ATQ de Sampo al comienzo de cada turno. Intemperie se puede acumular #4[i] veces como máximo.",
         "params": [
             [
@@ -5760,8 +5744,8 @@
         "type_text": "Técnica",
         "effect": "Impair",
         "effect_text": "Alteración",
-        "simple_desc": "",
-        "desc": "Tras usar la técnica, los enemigos de un área determinada quedan afectados por Ceguera durante #1[i] s, lo que les impide detectar a los aliados.\nAl iniciar combate contra enemigos afectados por Ceguera, cada enemigo tiene una probabilidad fija del #2[i]% de que su acción se retrase en un #3[i]%.",
+        "simple_desc": "Hace que los enemigos de un área determinada sean afectados por Ceguera. Al entrar en combate contra enemigos cegados, cada enemigo tiene una gran probabilidad de que su acción se retrase.",
+        "desc": "Tras usar la técnica, los enemigos de un área determinada quedan afectados por Ceguera durante #1[i] s, lo que les impide detectar a los aliados.\nAl iniciar combate contra enemigos cegados, cada enemigo tiene una probabilidad fija del #2[i]% de que su acción se retrase en un #3[i]%.",
         "params": [
             [
                 10,
@@ -5823,7 +5807,7 @@
         "effect": "SingleAttack",
         "effect_text": "ATQ individual",
         "simple_desc": "Inflige Daño de Fuego a un enemigo y tiene una gran probabilidad de causarle Quemadura.",
-        "desc": "Inflige un #1[i]% del ATQ de Hook como Daño de Fuego a un enemigo. Además, tiene un #2[i]% de probabilidad base de quemar al enemigo golpeado durante #3[i] turnos.\nLos enemigos afectados por Quemadura reciben al principio de cada turno un #4[i]% del ATQ de Hook como Daño de Fuego con el tiempo.",
+        "desc": "Inflige un #1[i]% del ATQ de Hook como Daño de Fuego a un enemigo. Además, tiene un #2[i]% de probabilidad base de afectar con Quemadura al enemigo atacado durante #3[i] turnos.\nLos enemigos quemados reciben al principio de cada turno un #4[i]% del ATQ de Hook como Daño de Fuego con el tiempo.",
         "params": [
             [
                 1.2,
@@ -6098,7 +6082,7 @@
         "effect": "Blast",
         "effect_text": "Ráfaga",
         "simple_desc": "Inflige Daño de Fuego a un enemigo y tiene una gran probabilidad de causarle Quemadura. También inflige una pequeña cantidad de Daño de Fuego a los enemigos adyacentes.",
-        "desc": "Inflige un #1[i]% del ATQ de Hook como Daño de Fuego a un enemigo y tiene un #2[i]% de probabilidad base de quemar al enemigo golpeado durante #3[i] turnos. Además, inflige un Daño de Fuego equivalente al #5[i]% del ATQ de Hook a los enemigos adyacentes al objetivo.\nLos enemigos afectados por Quemadura reciben al principio de cada turno un #4[i]% del ATQ de Hook como Daño de Fuego con el tiempo.",
+        "desc": "Inflige un #1[i]% del ATQ de Hook como Daño de Fuego a un enemigo y tiene un #2[i]% de probabilidad base de afectarlo con Quemadura durante #3[i] turnos. Además, inflige un Daño de Fuego equivalente al #5[i]% del ATQ de Hook a los enemigos adyacentes al objetivo.\nLos enemigos quemados reciben al principio de cada turno un #4[i]% del ATQ de Hook como Daño de Fuego con el tiempo.",
         "params": [
             [
                 1.4,
@@ -6207,6 +6191,447 @@
             ]
         ],
         "icon": "icon/skill/1109_skill.png"
+    },
+    "111101": {
+        "id": "111101",
+        "name": "Puño certero",
+        "max_level": 9,
+        "element": "Physical",
+        "type": "Normal",
+        "type_text": "ATQ básico",
+        "effect": "SingleAttack",
+        "effect_text": "ATQ individual",
+        "simple_desc": "Inflige una pequeña cantidad de Daño Físico a un enemigo.",
+        "desc": "Inflige un #1[i]% del ATQ de Luka como Daño Físico a un enemigo.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": ""
+    },
+    "111102": {
+        "id": "111102",
+        "name": "¡Puño, fuera!",
+        "max_level": 15,
+        "element": "Physical",
+        "type": "BPSkill",
+        "type_text": "Habilidad básica",
+        "effect": "SingleAttack",
+        "effect_text": "ATQ individual",
+        "simple_desc": "Inflige Daño Físico a un enemigo y tiene una gran probabilidad de aplicarle Sangrado.",
+        "desc": "Inflige un #1[i]% del ATQ de Luka como Daño Físico a un enemigo y después tiene un #2[i]% de probabilidad base de afectar con Sangrado al objetivo durante #5[i] turnos.\nEl enemigo afectado por Sangrado recibe un Daño Físico con el tiempo equivalente al #3[f1]% de sus PV máx. al comienzo de cada turno, hasta un máximo del #4[i]% del ATQ de Luka.",
+        "params": [
+            [
+                0.6,
+                1,
+                0.24,
+                1.3,
+                3
+            ],
+            [
+                0.66,
+                1,
+                0.24,
+                1.43,
+                3
+            ],
+            [
+                0.72,
+                1,
+                0.24,
+                1.56,
+                3
+            ],
+            [
+                0.78,
+                1,
+                0.24,
+                1.69,
+                3
+            ],
+            [
+                0.84,
+                1,
+                0.24,
+                1.82,
+                3
+            ],
+            [
+                0.9,
+                1,
+                0.24,
+                2.015,
+                3
+            ],
+            [
+                0.975,
+                1,
+                0.24,
+                2.275,
+                3
+            ],
+            [
+                1.05,
+                1,
+                0.24,
+                2.6,
+                3
+            ],
+            [
+                1.125,
+                1,
+                0.24,
+                2.99,
+                3
+            ],
+            [
+                1.2,
+                1,
+                0.24,
+                3.38,
+                3
+            ],
+            [
+                1.26,
+                1,
+                0.24,
+                3.549,
+                3
+            ],
+            [
+                1.32,
+                1,
+                0.24,
+                3.718,
+                3
+            ],
+            [
+                1.38,
+                1,
+                0.24,
+                3.887,
+                3
+            ],
+            [
+                1.44,
+                1,
+                0.24,
+                4.056,
+                3
+            ],
+            [
+                1.5,
+                1,
+                0.24,
+                4.225,
+                3
+            ]
+        ],
+        "icon": ""
+    },
+    "111103": {
+        "id": "111103",
+        "name": "Golpe de gracia",
+        "max_level": 15,
+        "element": "Physical",
+        "type": "Ultra",
+        "type_text": "Habilidad definitiva",
+        "effect": "SingleAttack",
+        "effect_text": "ATQ individual",
+        "simple_desc": "Obtiene #5[i] acumulaciones de Voluntad luchadora, tiene una gran probabilidad de aumentar el daño que recibe el enemigo y le inflige una gran cantidad de Daño Físico.",
+        "desc": "Obtiene #5[i] acumulaciones de Voluntad luchadora y tiene una probabilidad base del #2[i]% de aumentar en un #3[f1]% el daño que recibe un enemigo durante #4[i] turnos. Después inflige un #1[i]% del ATQ de Luka como Daño Físico a ese objetivo.",
+        "params": [
+            [
+                1.98,
+                1,
+                0.12,
+                3,
+                2
+            ],
+            [
+                2.112,
+                1,
+                0.128,
+                3,
+                2
+            ],
+            [
+                2.244,
+                1,
+                0.136,
+                3,
+                2
+            ],
+            [
+                2.376,
+                1,
+                0.144,
+                3,
+                2
+            ],
+            [
+                2.508,
+                1,
+                0.152,
+                3,
+                2
+            ],
+            [
+                2.64,
+                1,
+                0.16,
+                3,
+                2
+            ],
+            [
+                2.805,
+                1,
+                0.17,
+                3,
+                2
+            ],
+            [
+                2.97,
+                1,
+                0.18,
+                3,
+                2
+            ],
+            [
+                3.135,
+                1,
+                0.19,
+                3,
+                2
+            ],
+            [
+                3.3,
+                1,
+                0.2,
+                3,
+                2
+            ],
+            [
+                3.432,
+                1,
+                0.208,
+                3,
+                2
+            ],
+            [
+                3.564,
+                1,
+                0.216,
+                3,
+                2
+            ],
+            [
+                3.696,
+                1,
+                0.224,
+                3,
+                2
+            ],
+            [
+                3.828,
+                1,
+                0.232,
+                3,
+                2
+            ],
+            [
+                3.96,
+                1,
+                0.24,
+                3,
+                2
+            ]
+        ],
+        "icon": ""
+    },
+    "111104": {
+        "id": "111104",
+        "name": "Chispas por todas partes",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talento",
+        "effect": "Enhance",
+        "effect_text": "Potenciación",
+        "simple_desc": "Tras usar el ATQ básico \"Puño certero\" o la habilidad básica \"¡Puño, fuera!\", obtiene #1[i] acumulación de Voluntad luchadora. Si tiene 2 o más acumulaciones, su ATQ básico se potencia.\nCuando el objetivo está afectado por Sangrado, el ATQ básico potenciado hace que el estado de Sangrado inflija daño 1 vez adicional.",
+        "desc": "Luka obtiene #1[i] acumulación de Voluntad luchadora después de usar el ATQ básico \"Puño certero\" o la habilidad básica \"¡Puño, fuera!\", hasta un máximo de 4 acumulaciones. Si tiene 2 o más acumulaciones de Voluntad luchadora, el ATQ básico Puño certero se potencia y se convierte en Puño rompecielos certero. Tras golpear con el Puño rompecielos de su ATQ básico potenciado a un enemigo afectado por Sangrado, el estado de Sangrado inflige inmediatamente 1 vez un daño equivalente al #2[i]% del daño de Sangrado original. Al comenzar la batalla, Luka obtiene 1 acumulación de Voluntad luchadora.",
+        "params": [
+            [
+                1,
+                0.68
+            ],
+            [
+                1,
+                0.697
+            ],
+            [
+                1,
+                0.714
+            ],
+            [
+                1,
+                0.731
+            ],
+            [
+                1,
+                0.748
+            ],
+            [
+                1,
+                0.765
+            ],
+            [
+                1,
+                0.7863
+            ],
+            [
+                1,
+                0.8075
+            ],
+            [
+                1,
+                0.8288
+            ],
+            [
+                1,
+                0.85
+            ],
+            [
+                1,
+                0.867
+            ],
+            [
+                1,
+                0.884
+            ],
+            [
+                1,
+                0.901
+            ],
+            [
+                1,
+                0.918
+            ],
+            [
+                1,
+                0.935
+            ]
+        ],
+        "icon": ""
+    },
+    "111106": {
+        "id": "111106",
+        "name": "Ataque",
+        "max_level": 1,
+        "element": "Physical",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Ataca a un enemigo y, tras entrar en combate, consume la Firmeza del tipo correspondiente del enemigo.",
+        "params": [],
+        "icon": ""
+    },
+    "111107": {
+        "id": "111107",
+        "name": "Anticipación",
+        "max_level": 1,
+        "element": "Physical",
+        "type": "Maze",
+        "type_text": "Técnica",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "Ataca al enemigo y entra en combate. Inflige una pequeña cantidad de Daño Físico a un enemigo al azar y tiene una gran probabilidad de afectarlo con Sangrado. Después obtiene 1 acumulación adicional de Voluntad luchadora.",
+        "desc": "Ataca inmediatamente al enemigo y entra en combate. Inflige un #1[i]% del ATQ de Luka como Daño Físico a un enemigo al azar y tiene un #2[i]% de probabilidad base de afectarlo con un estado de Sangrado equivalente al de la habilidad básica. Después, Luka obtiene 1 acumulación adicional de Voluntad luchadora.",
+        "params": [
+            [
+                0.5,
+                1
+            ]
+        ],
+        "icon": ""
+    },
+    "111108": {
+        "id": "111108",
+        "name": "Puño rompecielos certero",
+        "max_level": 9,
+        "element": "Physical",
+        "type": "Normal",
+        "type_text": "ATQ básico",
+        "effect": "SingleAttack",
+        "effect_text": "ATQ individual",
+        "simple_desc": "Consume 2 acumulaciones de Voluntad luchadora e inflige Daño Físico a un enemigo.",
+        "desc": "Consume 2 acumulaciones de Voluntad luchadora y usa primero Puño certero para lanzar un ataque de 3 golpes. Cada golpe inflige a un enemigo un #1[i]% del ATQ de Luka como Daño Físico.\nDespués, usa Puño rompecielos para golpear 1 vez más e inflige a un enemigo un #2[i]% del ATQ de Luka como Daño Físico.",
+        "params": [
+            [
+                0.1,
+                0.4
+            ],
+            [
+                0.12,
+                0.48
+            ],
+            [
+                0.14,
+                0.56
+            ],
+            [
+                0.16,
+                0.64
+            ],
+            [
+                0.18,
+                0.72
+            ],
+            [
+                0.2,
+                0.8
+            ],
+            [
+                0.22,
+                0.88
+            ],
+            [
+                0.24,
+                0.96
+            ],
+            [
+                0.26,
+                1.04
+            ]
+        ],
+        "icon": ""
     },
     "120101": {
         "id": "120101",
@@ -7586,6 +8011,519 @@
         ],
         "icon": "icon/skill/1204_technique.png"
     },
+    "120501": {
+        "id": "120501",
+        "name": "Espada fragmentada",
+        "max_level": 9,
+        "element": "Wind",
+        "type": "Normal",
+        "type_text": "ATQ básico",
+        "effect": "SingleAttack",
+        "effect_text": "ATQ individual",
+        "simple_desc": "Inflige una pequeña cantidad de Daño de Viento a un enemigo.",
+        "desc": "Inflige un #1[i]% del ATQ de Blade como Daño de Viento a un enemigo.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": ""
+    },
+    "120502": {
+        "id": "120502",
+        "name": "Panorama infernal",
+        "max_level": 15,
+        "element": "Wind",
+        "type": "BPSkill",
+        "type_text": "Habilidad básica",
+        "effect": "Enhance",
+        "effect_text": "Potenciación",
+        "simple_desc": "Consume sus PV, potencia su ATQ básico y el turno no termina.",
+        "desc": "Consume un #1[i]% de los PV máx. de Blade y entra en el estado Panorama infernal.\nEn el estado Panorama infernal no se puede usar la habilidad básica y el daño que inflige Blade aumenta en un #4[i]%. El ATQ básico Espada fragmentada se potencia y se transforma en Bosque de espadas durante #2[i] turnos.\nSi Blade no tiene suficientes PV, al usar la habilidad básica sus PV se reducen a 1.\nEsta habilidad básica no recupera energía. Tras usar esta habilidad básica, el turno no termina.",
+        "params": [
+            [
+                0.3,
+                3,
+                1,
+                0.12
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.148
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.176
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.204
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.232
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.26
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.295
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.33
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.365
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.4
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.428
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.456
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.484
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.512
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.54
+            ]
+        ],
+        "icon": ""
+    },
+    "120503": {
+        "id": "120503",
+        "name": "Sentencia de muerte",
+        "max_level": 15,
+        "element": "Wind",
+        "type": "Ultra",
+        "type_text": "Habilidad definitiva",
+        "effect": "Blast",
+        "effect_text": "Ráfaga",
+        "simple_desc": "Los PV actuales se establecen en el 50% de sus PV máx., inflige una gran cantidad de Daño de Viento a un enemigo y Daño de Viento a los enemigos adyacentes.",
+        "desc": "Los PV actuales de Blade se establecen en el 50% de sus PV máx. e inflige a un enemigo un Daño de Viento equivalente al #1[i]% del ATQ de Blade + #2[i]% de sus PV máx. + #5[i]% del recuento de PV que ha perdido en esta batalla. También inflige a los enemigos adyacentes un Daño de Viento equivalente al #3[f1]% del ATQ de Blade + #4[i]% de sus PV máx. + #6[i]% del recuento de PV que ha perdido en esta batalla.\nEl recuento de PV perdidos en esta batalla no puede superar el #7[i]% de los PV máx. de Blade. Al usar su habilidad definitiva, este recuento se reinicia.",
+        "params": [
+            [
+                0.24,
+                0.6,
+                0.096,
+                0.24,
+                0.6,
+                0.24,
+                0.9
+            ],
+            [
+                0.256,
+                0.64,
+                0.1024,
+                0.256,
+                0.64,
+                0.256,
+                0.9
+            ],
+            [
+                0.272,
+                0.68,
+                0.1088,
+                0.272,
+                0.68,
+                0.272,
+                0.9
+            ],
+            [
+                0.288,
+                0.72,
+                0.1152,
+                0.288,
+                0.72,
+                0.288,
+                0.9
+            ],
+            [
+                0.304,
+                0.76,
+                0.1216,
+                0.304,
+                0.76,
+                0.304,
+                0.9
+            ],
+            [
+                0.32,
+                0.8,
+                0.128,
+                0.32,
+                0.8,
+                0.32,
+                0.9
+            ],
+            [
+                0.34,
+                0.85,
+                0.136,
+                0.34,
+                0.85,
+                0.34,
+                0.9
+            ],
+            [
+                0.36,
+                0.9,
+                0.144,
+                0.36,
+                0.9,
+                0.36,
+                0.9
+            ],
+            [
+                0.38,
+                0.95,
+                0.152,
+                0.38,
+                0.95,
+                0.38,
+                0.9
+            ],
+            [
+                0.4,
+                1,
+                0.16,
+                0.4,
+                1,
+                0.4,
+                0.9
+            ],
+            [
+                0.416,
+                1.04,
+                0.1664,
+                0.416,
+                1.04,
+                0.416,
+                0.9
+            ],
+            [
+                0.432,
+                1.08,
+                0.1728,
+                0.432,
+                1.08,
+                0.432,
+                0.9
+            ],
+            [
+                0.448,
+                1.12,
+                0.1792,
+                0.448,
+                1.12,
+                0.448,
+                0.9
+            ],
+            [
+                0.464,
+                1.16,
+                0.1856,
+                0.464,
+                1.16,
+                0.464,
+                0.9
+            ],
+            [
+                0.48,
+                1.2,
+                0.192,
+                0.48,
+                1.2,
+                0.48,
+                0.9
+            ]
+        ],
+        "icon": ""
+    },
+    "120504": {
+        "id": "120504",
+        "name": "Regalo de Shuhu",
+        "max_level": 15,
+        "element": "Wind",
+        "type": "Talent",
+        "type_text": "Talento",
+        "effect": "AoEAttack",
+        "effect_text": "ATQ AdE",
+        "simple_desc": "Cuando Blade pierde PV, obtiene 1 acumulación de carga. Cuando las acumulaciones llegan al máximo, inflige inmediatamente Daño de Viento a todos los enemigos y recupera PV, lo que consume todas las acumulaciones.",
+        "desc": "Cuando Blade recibe daño o consume PV, obtiene 1 acumulación de carga, hasta un máximo de 5 acumulaciones. Cada vez que recibe un ataque obtiene 1 acumulación como máximo gracias a este efecto.\nCuando las acumulaciones llegan al máximo, lanza un ataque adicional a todos los enemigos que inflige un Daño de Viento equivalente al #2[i]% del ATQ de Blade + #4[i]% de sus PV máx. Además, Blade regenera el #3[i]% de sus PV máx. Tras lanzar el ataque adicional se consumen todas las acumulaciones de carga.",
+        "params": [
+            [
+                3,
+                0.22,
+                0.25,
+                0.55
+            ],
+            [
+                3,
+                0.242,
+                0.25,
+                0.605
+            ],
+            [
+                3,
+                0.264,
+                0.25,
+                0.66
+            ],
+            [
+                3,
+                0.286,
+                0.25,
+                0.715
+            ],
+            [
+                3,
+                0.308,
+                0.25,
+                0.77
+            ],
+            [
+                3,
+                0.33,
+                0.25,
+                0.825
+            ],
+            [
+                3,
+                0.3575,
+                0.25,
+                0.8938
+            ],
+            [
+                3,
+                0.385,
+                0.25,
+                0.9625
+            ],
+            [
+                3,
+                0.4125,
+                0.25,
+                1.0313
+            ],
+            [
+                3,
+                0.44,
+                0.25,
+                1.1
+            ],
+            [
+                3,
+                0.462,
+                0.25,
+                1.155
+            ],
+            [
+                3,
+                0.484,
+                0.25,
+                1.21
+            ],
+            [
+                3,
+                0.506,
+                0.25,
+                1.265
+            ],
+            [
+                3,
+                0.528,
+                0.25,
+                1.32
+            ],
+            [
+                3,
+                0.55,
+                0.25,
+                1.375
+            ]
+        ],
+        "icon": ""
+    },
+    "120506": {
+        "id": "120506",
+        "name": "Ataque",
+        "max_level": 1,
+        "element": "Wind",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Ataca a un enemigo y, tras entrar en combate, consume la Firmeza del tipo correspondiente del enemigo.",
+        "params": [],
+        "icon": ""
+    },
+    "120507": {
+        "id": "120507",
+        "name": "Viento kármico",
+        "max_level": 1,
+        "element": "Wind",
+        "type": "Maze",
+        "type_text": "Técnica",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "Ataca al enemigo y entra en combate. Consume sus PV e inflige Daño de Viento a todos los enemigos.",
+        "desc": "Ataca inmediatamente al enemigo y entra en combate. Blade consume una cantidad de PV equivalente al #2[i]% de sus PV máx. e inflige un #1[i]% de sus PV máx. como Daño de Viento a todos los enemigos.\nSi no tiene suficientes PV, al usar la técnica los PV de Blade se reducen a 1.",
+        "params": [
+            [
+                0.4,
+                0.2
+            ]
+        ],
+        "icon": ""
+    },
+    "120508": {
+        "id": "120508",
+        "name": "Bosque de espadas",
+        "max_level": 9,
+        "element": "Wind",
+        "type": "Normal",
+        "type_text": "ATQ básico",
+        "effect": "Blast",
+        "effect_text": "Ráfaga",
+        "simple_desc": "Consume PV e inflige Daño de Viento a un enemigo y una pequeña cantidad de Daño de Viento a los enemigos adyacentes.",
+        "desc": "Consume el #1[i]% de los PV máx. de Blade e inflige un Daño de Viento equivalente al #2[i]% del ATQ de Blade + #4[i]% de sus PV máx. a un enemigo. También inflige un Daño de Viento equivalente al #3[i]% del ATQ de Blade + #5[i]% de sus PV máx. a los enemigos adyacentes.\nSi Blade no tiene suficientes PV, tras usar Bosque de espadas sus PV se reducen a 1.\nBosque de espadas no puede recuperar pts. de habilidad básica.",
+        "params": [
+            [
+                0.1,
+                0.2,
+                0.08,
+                0.5,
+                0.2
+            ],
+            [
+                0.1,
+                0.24,
+                0.096,
+                0.6,
+                0.24
+            ],
+            [
+                0.1,
+                0.28,
+                0.112,
+                0.7,
+                0.28
+            ],
+            [
+                0.1,
+                0.32,
+                0.128,
+                0.8,
+                0.32
+            ],
+            [
+                0.1,
+                0.36,
+                0.144,
+                0.9,
+                0.36
+            ],
+            [
+                0.1,
+                0.4,
+                0.16,
+                1,
+                0.4
+            ],
+            [
+                0.1,
+                0.44,
+                0.176,
+                1.1,
+                0.44
+            ],
+            [
+                0.1,
+                0.48,
+                0.192,
+                1.2,
+                0.48
+            ],
+            [
+                0.1,
+                0.52,
+                0.208,
+                1.3,
+                0.52
+            ]
+        ],
+        "icon": ""
+    },
     "120601": {
         "id": "120601",
         "name": "Técnica de espada de la Nimbocaballera: Halo estelar",
@@ -7832,7 +8770,7 @@
         "type_text": "Talento",
         "effect": "Enhance",
         "effect_text": "Potenciación",
-        "simple_desc": "",
+        "simple_desc": "Su VEL aumenta cuando se rompe la Debilidad de un enemigo en el campo de batalla.",
         "desc": "Cuando se rompe la Debilidad de un enemigo en la batalla, la VEL de Sushang aumenta en un #1[f2]% durante #2[i] turnos.",
         "params": [
             [
@@ -7921,7 +8859,7 @@
         "type_text": "Técnica",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "",
+        "simple_desc": "Ataca al enemigo y entra en combate. Inflige una pequeña cantidad de Daño Físico a todos los enemigos.",
         "desc": "Ataca inmediatamente al enemigo y entra en combate. Inflige un #1[i]% del ATQ de Sushang como Daño Físico a todos los enemigos.",
         "params": [
             [
@@ -8237,7 +9175,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Ataca a un enemigo y, tras entrar al combate, consume la Firmeza del tipo correspondiente del enemigo.",
+        "desc": "Ataca a un enemigo y, tras entrar en combate, consume la Firmeza del tipo correspondiente del enemigo.",
         "params": [],
         "icon": "icon/skill/1207_basic_atk.png"
     },
@@ -8250,7 +9188,7 @@
         "type_text": "Técnica",
         "effect": "Enhance",
         "effect_text": "Potenciación",
-        "simple_desc": "Aumenta su VEL de movimiento. Ataca inmediatamente al enemigo y obtiene 2 acumulaciones de Sonido de Cuerda tras entrar en combate.",
+        "simple_desc": "Aumenta su VEL de movimiento. Tras atacar al enemigo y entrar en combate, obtiene 2 acumulaciones de Sonido de Cuerda.",
         "desc": "Tras usar la técnica, entra en modo de esprintar durante #1[i] s. En este estado, su VEL de movimiento aumenta en un #2[i]%. Además, al entrar en combate tras atacar a un enemigo, Yukong obtiene #3[i] acumulaciones de Sonido de cuerda.",
         "params": [
             [
@@ -8462,8 +9400,8 @@
         "type_text": "Talento",
         "effect": "SingleAttack",
         "effect_text": "ATQ individual",
-        "simple_desc": "",
-        "desc": "Cuando Estocada empática está activa, Yanqing tiene menos probabilidades de recibir un ataque. Además, su Prob. CRIT aumenta en un #1[f1]% y su Daño CRIT en un #2[i]%. Tras atacar a un enemigo, hay un #3[i]% de probabilidad fija de activar un ataque adicional que inflige un #4[i]% del ATQ de Yanqing como Daño de Hielo y tiene una probabilidad base del #6[i]% de congelar al objetivo durante 1 turno.\nLos enemigos congelados no pueden actuar, y al principio de cada turno reciben un #5[i]% del ATQ de Yanqing como Daño de Hielo adicional.\nEstocada empática se elimina cuando Yanqing recibe daño.",
+        "simple_desc": "Cuando Estocada empática está activa, tiene menos probabilidades de recibir un ataque y su Prob. CRIT y Daño CRIT aumentan. Tras atacar a un enemigo, tiene cierta probabilidad de activar un ataque adicional que inflige Daño de Hielo. Además, tiene cierta probabilidad de afectar con Congelación al enemigo. Estocada empática desaparece al recibir daño.",
+        "desc": "Cuando Estocada empática está activa, Yanqing tiene menos probabilidades de recibir un ataque. Además, su Prob. CRIT aumenta en un #1[f1]% y su Daño CRIT en un #2[i]%. Tras atacar a un enemigo, tiene un #3[i]% de probabilidad fija de activar un ataque adicional que inflige un #4[i]% del ATQ de Yanqing como Daño de Hielo y tiene una probabilidad base del #6[i]% de afectar con Congelación al objetivo durante 1 turno.\nLos enemigos congelados no pueden actuar, y al principio de cada turno reciben un #5[i]% del ATQ de Yanqing como Daño de Hielo adicional.\nEstocada empática se elimina cuando Yanqing recibe daño.",
         "params": [
             [
                 0.15,
@@ -8611,7 +9549,7 @@
         "type_text": "Técnica",
         "effect": "Enhance",
         "effect_text": "Potenciación",
-        "simple_desc": "",
+        "simple_desc": "Tras usar la técnica, al comenzar la siguiente batalla, aumenta el daño que inflige a los enemigos que tengan un porcentaje de PV igual o superior al 50%.",
         "desc": "Tras usar la técnica, al comenzar la siguiente batalla, Yanqing inflige un #2[i]% más de daño durante #3[i] turnos a los enemigos que tengan un porcentaje de PV igual o superior al #1[i]%.",
         "params": [
             [
@@ -8868,8 +9806,8 @@
         "type_text": "Talento",
         "effect": "Restore",
         "effect_text": "Regeneración",
-        "simple_desc": "",
-        "desc": "Cuando un aliado con Vigor recibe un ataque, regenera una cantidad de PV equivalente al #1[f1]% de los PV máx. de Bailu + #2[i]. Este efecto se puede activar #5[i] veces.\nCuando un aliado de Bailu recibe un golpe letal, no será derrotado, sino que Bailu lo curará inmediatamente con una cantidad de PV equivalente al #3[i]% de los PV máx. de Bailu + #4[i]. Este efecto se puede activar una vez en cada batalla.",
+        "simple_desc": "Los aliados con Vigor regeneran PV tras recibir un ataque.\nCuando un aliado recibe un golpe letal, Bailu regenera sus PV inmediatamente. Este efecto se puede activar 1 vez durante la batalla.",
+        "desc": "Cuando un aliado con Vigor recibe un ataque, regenera una cantidad de PV equivalente al #1[f1]% de los PV máx. de Bailu + #2[i]. Este efecto se puede activar #5[i] veces.\nCuando un aliado de Bailu recibe un golpe letal, no es derrotado, sino que Bailu lo cura inmediatamente con una cantidad de PV equivalente al #3[i]% de los PV máx. de Bailu + #4[i]. Este efecto se puede activar una vez en cada batalla.",
         "params": [
             [
                 0.036,
@@ -9002,7 +9940,7 @@
         "type_text": "Técnica",
         "effect": "Restore",
         "effect_text": "Regeneración",
-        "simple_desc": "",
+        "simple_desc": "Tras usar la técnica, al comenzar la siguiente batalla, todos los aliados obtienen Vigor.",
         "desc": "Tras usar la técnica, al comenzar la siguiente batalla, todos los aliados obtienen Vigor durante #1[i] turnos.",
         "params": [
             [
@@ -9010,6 +9948,755 @@
             ]
         ],
         "icon": "icon/skill/1211_technique.png"
+    },
+    "121301": {
+        "id": "121301",
+        "name": "",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "ATQ básico",
+        "effect": "SingleAttack",
+        "effect_text": "ATQ individual",
+        "simple_desc": "",
+        "desc": "",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": ""
+    },
+    "121302": {
+        "id": "121302",
+        "name": "",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Habilidad básica",
+        "effect": "Enhance",
+        "effect_text": "Potenciación",
+        "simple_desc": "",
+        "desc": "",
+        "params": [
+            [
+                1.3,
+                0.6,
+                0.3,
+                0.06,
+                4,
+                0.6,
+                0.6
+            ],
+            [
+                1.43,
+                0.66,
+                0.33,
+                0.066,
+                4,
+                0.66,
+                0.66
+            ],
+            [
+                1.56,
+                0.72,
+                0.36,
+                0.072,
+                4,
+                0.72,
+                0.72
+            ],
+            [
+                1.69,
+                0.78,
+                0.39,
+                0.078,
+                4,
+                0.78,
+                0.78
+            ],
+            [
+                1.82,
+                0.84,
+                0.42,
+                0.084,
+                4,
+                0.84,
+                0.84
+            ],
+            [
+                1.95,
+                0.9,
+                0.45,
+                0.09,
+                4,
+                0.9,
+                0.9
+            ],
+            [
+                2.1125,
+                0.975,
+                0.4875,
+                0.0975,
+                4,
+                0.975,
+                0.975
+            ],
+            [
+                2.275,
+                1.05,
+                0.525,
+                0.105,
+                4,
+                1.05,
+                1.05
+            ],
+            [
+                2.4375,
+                1.125,
+                0.5625,
+                0.1125,
+                4,
+                1.125,
+                1.125
+            ],
+            [
+                2.6,
+                1.2,
+                0.6,
+                0.12,
+                4,
+                1.2,
+                1.2
+            ],
+            [
+                2.73,
+                1.26,
+                0.63,
+                0.126,
+                4,
+                1.26,
+                1.26
+            ],
+            [
+                2.86,
+                1.32,
+                0.66,
+                0.132,
+                4,
+                1.32,
+                1.32
+            ],
+            [
+                2.99,
+                1.38,
+                0.69,
+                0.138,
+                4,
+                1.38,
+                1.38
+            ],
+            [
+                3.12,
+                1.44,
+                0.72,
+                0.144,
+                4,
+                1.44,
+                1.44
+            ],
+            [
+                3.25,
+                1.5,
+                0.75,
+                0.15,
+                4,
+                1.5,
+                1.5
+            ]
+        ],
+        "icon": ""
+    },
+    "121303": {
+        "id": "121303",
+        "name": "",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Ultra",
+        "type_text": "Habilidad definitiva",
+        "effect": "Blast",
+        "effect_text": "Ráfaga",
+        "simple_desc": "",
+        "desc": "",
+        "params": [
+            [
+                1.8,
+                0.84,
+                2,
+                3
+            ],
+            [
+                1.92,
+                0.896,
+                2,
+                3
+            ],
+            [
+                2.04,
+                0.952,
+                2,
+                3
+            ],
+            [
+                2.16,
+                1.008,
+                2,
+                3
+            ],
+            [
+                2.28,
+                1.064,
+                2,
+                3
+            ],
+            [
+                2.4,
+                1.12,
+                2,
+                3
+            ],
+            [
+                2.55,
+                1.19,
+                2,
+                3
+            ],
+            [
+                2.7,
+                1.26,
+                2,
+                3
+            ],
+            [
+                2.85,
+                1.33,
+                2,
+                3
+            ],
+            [
+                3,
+                1.4,
+                2,
+                3
+            ],
+            [
+                3.12,
+                1.456,
+                2,
+                3
+            ],
+            [
+                3.24,
+                1.512,
+                2,
+                3
+            ],
+            [
+                3.36,
+                1.568,
+                2,
+                3
+            ],
+            [
+                3.48,
+                1.624,
+                2,
+                3
+            ],
+            [
+                3.6,
+                1.68,
+                2,
+                3
+            ]
+        ],
+        "icon": ""
+    },
+    "121304": {
+        "id": "121304",
+        "name": "",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talento",
+        "effect": "Enhance",
+        "effect_text": "Potenciación",
+        "simple_desc": "",
+        "desc": "",
+        "params": [
+            [
+                0.09,
+                5
+            ],
+            [
+                0.095,
+                5
+            ],
+            [
+                0.1,
+                5
+            ],
+            [
+                0.105,
+                5
+            ],
+            [
+                0.11,
+                5
+            ],
+            [
+                0.115,
+                5
+            ],
+            [
+                0.1213,
+                5
+            ],
+            [
+                0.1275,
+                5
+            ],
+            [
+                0.1338,
+                5
+            ],
+            [
+                0.14,
+                5
+            ],
+            [
+                0.145,
+                5
+            ],
+            [
+                0.15,
+                5
+            ],
+            [
+                0.155,
+                5
+            ],
+            [
+                0.16,
+                5
+            ],
+            [
+                0.165,
+                5
+            ]
+        ],
+        "icon": ""
+    },
+    "121306": {
+        "id": "121306",
+        "name": "Ataque",
+        "max_level": 1,
+        "element": "Imaginary",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Ataca a un enemigo y, tras entrar en combate, consume la Firmeza del tipo correspondiente del enemigo.",
+        "params": [],
+        "icon": ""
+    },
+    "121307": {
+        "id": "121307",
+        "name": "",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Técnica",
+        "effect": "Enhance",
+        "effect_text": "Potenciación",
+        "simple_desc": "",
+        "desc": "",
+        "params": [
+            [
+                1,
+                20
+            ]
+        ],
+        "icon": ""
+    },
+    "121308": {
+        "id": "121308",
+        "name": "",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "ATQ básico",
+        "effect": "SingleAttack",
+        "effect_text": "ATQ individual",
+        "simple_desc": "",
+        "desc": "",
+        "params": [
+            [
+                1.3
+            ],
+            [
+                1.43
+            ],
+            [
+                1.56
+            ],
+            [
+                1.69
+            ],
+            [
+                1.82
+            ],
+            [
+                1.95
+            ],
+            [
+                2.1125
+            ],
+            [
+                2.275
+            ],
+            [
+                2.4375
+            ],
+            [
+                2.6
+            ],
+            [
+                2.73
+            ],
+            [
+                2.86
+            ],
+            [
+                2.99
+            ],
+            [
+                3.12
+            ],
+            [
+                3.25
+            ]
+        ],
+        "icon": ""
+    },
+    "121309": {
+        "id": "121309",
+        "name": "",
+        "max_level": 1,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Habilidad básica",
+        "effect": "Support",
+        "effect_text": "Apoyo",
+        "simple_desc": "",
+        "desc": "",
+        "params": [],
+        "icon": ""
+    },
+    "121310": {
+        "id": "121310",
+        "name": "",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "ATQ básico",
+        "effect": "Blast",
+        "effect_text": "Ráfaga",
+        "simple_desc": "",
+        "desc": "",
+        "params": [
+            [
+                1.3,
+                0.6,
+                0.3,
+                0.06,
+                4
+            ],
+            [
+                1.43,
+                0.66,
+                0.33,
+                0.066,
+                4
+            ],
+            [
+                1.56,
+                0.72,
+                0.36,
+                0.072,
+                4
+            ],
+            [
+                1.69,
+                0.78,
+                0.39,
+                0.078,
+                4
+            ],
+            [
+                1.82,
+                0.84,
+                0.42,
+                0.084,
+                4
+            ],
+            [
+                1.95,
+                0.9,
+                0.45,
+                0.09,
+                4
+            ],
+            [
+                2.1125,
+                0.975,
+                0.4875,
+                0.0975,
+                4
+            ],
+            [
+                2.275,
+                1.05,
+                0.525,
+                0.105,
+                4
+            ],
+            [
+                2.4375,
+                1.125,
+                0.5625,
+                0.1125,
+                4
+            ],
+            [
+                2.6,
+                1.2,
+                0.6,
+                0.12,
+                4
+            ],
+            [
+                2.73,
+                1.26,
+                0.63,
+                0.126,
+                4
+            ],
+            [
+                2.86,
+                1.32,
+                0.66,
+                0.132,
+                4
+            ],
+            [
+                2.99,
+                1.38,
+                0.69,
+                0.138,
+                4
+            ],
+            [
+                3.12,
+                1.44,
+                0.72,
+                0.144,
+                4
+            ],
+            [
+                3.25,
+                1.5,
+                0.75,
+                0.15,
+                4
+            ]
+        ],
+        "icon": ""
+    },
+    "121312": {
+        "id": "121312",
+        "name": "",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "ATQ básico",
+        "effect": "Blast",
+        "effect_text": "Ráfaga",
+        "simple_desc": "",
+        "desc": "",
+        "params": [
+            [
+                1.3,
+                0.6,
+                0.3,
+                0.06,
+                4,
+                0.6,
+                0.6
+            ],
+            [
+                1.43,
+                0.66,
+                0.33,
+                0.066,
+                4,
+                0.66,
+                0.66
+            ],
+            [
+                1.56,
+                0.72,
+                0.36,
+                0.072,
+                4,
+                0.72,
+                0.72
+            ],
+            [
+                1.69,
+                0.78,
+                0.39,
+                0.078,
+                4,
+                0.78,
+                0.78
+            ],
+            [
+                1.82,
+                0.84,
+                0.42,
+                0.084,
+                4,
+                0.84,
+                0.84
+            ],
+            [
+                1.95,
+                0.9,
+                0.45,
+                0.09,
+                4,
+                0.9,
+                0.9
+            ],
+            [
+                2.1125,
+                0.975,
+                0.4875,
+                0.0975,
+                4,
+                0.975,
+                0.975
+            ],
+            [
+                2.275,
+                1.05,
+                0.525,
+                0.105,
+                4,
+                1.05,
+                1.05
+            ],
+            [
+                2.4375,
+                1.125,
+                0.5625,
+                0.1125,
+                4,
+                1.125,
+                1.125
+            ],
+            [
+                2.6,
+                1.2,
+                0.6,
+                0.12,
+                4,
+                1.2,
+                1.2
+            ],
+            [
+                2.73,
+                1.26,
+                0.63,
+                0.126,
+                4,
+                1.26,
+                1.26
+            ],
+            [
+                2.86,
+                1.32,
+                0.66,
+                0.132,
+                4,
+                1.32,
+                1.32
+            ],
+            [
+                2.99,
+                1.38,
+                0.69,
+                0.138,
+                4,
+                1.38,
+                1.38
+            ],
+            [
+                3.12,
+                1.44,
+                0.72,
+                0.144,
+                4,
+                1.44,
+                1.44
+            ],
+            [
+                3.25,
+                1.5,
+                0.75,
+                0.15,
+                4,
+                1.5,
+                1.5
+            ]
+        ],
+        "icon": ""
     },
     "800101": {
         "id": "800101",

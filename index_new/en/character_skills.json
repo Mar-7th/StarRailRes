@@ -906,7 +906,7 @@
         "type_text": "Talent",
         "effect": "AoEAttack",
         "effect_text": "AoE",
-        "simple_desc": "",
+        "simple_desc": "Gains Charge stack when an enemy's Weakness is Broken.\nAfter an ally performs an attack, if fully Charged, immediately performs a follow-up attack and deal Fire DMG to all enemies, consuming all Charge stacks.\nGains 1 Charge stack at the start of each battle.",
         "desc": "When an enemy is inflicted with Weakness Break, Himeko gains 1 point of Charge (max #2[i] points).\nIf Himeko is fully Charged when an ally performs an attack, Himeko immediately performs 1 follow-up attack and deals Fire DMG equal to #1[i]% of her ATK to all enemies, consuming all Charge points.\nAt the start of the battle, Himeko gains 1 point of Charge.",
         "params": [
             [
@@ -995,7 +995,7 @@
         "type_text": "Technique",
         "effect": "Impair",
         "effect_text": "Impair",
-        "simple_desc": "",
+        "simple_desc": "Creates a dimension. After entering combat with enemies in the dimension, there is a high chance to increase Fire DMG taken by enemies.",
         "desc": "After using Technique, creates a dimension that lasts for #4[i] second(s). After entering battle with enemies in the dimension, there is a #1[i]% base chance to increase Fire DMG taken by enemies by #2[i]% for #3[i] turn(s). Only 1 dimension created by allies can exist at the same time.",
         "params": [
             [
@@ -1268,7 +1268,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "",
+        "simple_desc": "When hitting a Slowed enemy, additionally deals minor Imaginary Additional DMG.",
         "desc": "When hitting an enemy that is already Slowed, Welt deals Additional Imaginary DMG equal to #1[i]% of his ATK to the enemy.",
         "params": [
             [
@@ -1342,7 +1342,7 @@
         "type_text": "Technique",
         "effect": "Impair",
         "effect_text": "Impair",
-        "simple_desc": "",
+        "simple_desc": "Creates a dimension. Enemies in this dimension have their Movement SPD reduced. After entering combat with enemies in the dimension, there is a high chance for the enemies to become Imprisoned.",
         "desc": "After using Welt's Technique, create a dimension that lasts for #4[i] second(s). Enemies in this dimension have their Movement SPD reduced by #5[i]%. After entering battle with enemies in the dimension, there is a #1[i]% base chance to Imprison the enemies for 1 turn.\nImprisoned enemies have their actions delayed by #2[i]% and SPD reduced by #3[i]%. Only 1 dimension created by allies can exist at the same time.",
         "params": [
             [
@@ -1406,7 +1406,7 @@
         "type_text": "Skill",
         "effect": "Blast",
         "effect_text": "Blast",
-        "simple_desc": "Deals Lightning DMG to an enemy, and causes the target enemy to receive extra DoT. In addition, deals minor Lightning DMG to enemies adjacent to it.",
+        "simple_desc": "Deals Lightning DMG to a single enemy and minor Lightning DMG to adjacent targets.\nIf the main target currently has a DoT effect inflicted on it, the DoT deals DMG 1 extra time.",
         "desc": "Deals Lightning DMG equal to #1[i]% of Kafka's ATK to a target enemy and Lightning DMG equal to #3[i]% of Kafka's ATK to enemies adjacent to it.\nIf the target enemy is currently receiving DoT, all DoTs currently placed on that enemy immediately produce DMG equal to #2[i]% of their original DMG.",
         "params": [
             [
@@ -1496,113 +1496,113 @@
         "type_text": "Ultimate",
         "effect": "AoEAttack",
         "effect_text": "AoE",
-        "simple_desc": "Deals minor Lightning DMG to all enemies with a high chance of Shocking them, causing enemies to take Additional DMG.",
+        "simple_desc": "Deals minor Lightning DMG to all enemies, with a high chance of Shocking them.\nIf the enemies are currently Shocked, the Shock status deals DMG 1 extra time.",
         "desc": "Deals Lightning DMG equal to #1[i]% of Kafka's ATK to all enemies, with a #2[i]% base chance for enemies hit to become Shocked and immediately take DMG equal to #5[i]% of the DoT. Shock lasts for #3[i] turn(s).\nWhile Shocked, enemies receive Lightning DoT equal to #4[i]% of Kafka's ATK at the beginning of each turn.",
         "params": [
             [
                 0.48,
                 1,
                 2,
-                0.95,
-                0.72
+                1.16,
+                0.8
             ],
             [
                 0.512,
                 1,
                 2,
-                1.045,
-                0.738
+                1.2688,
+                0.82
             ],
             [
                 0.544,
                 1,
                 2,
-                1.14,
-                0.756
+                1.3775,
+                0.84
             ],
             [
                 0.576,
                 1,
                 2,
-                1.235,
-                0.774
+                1.4863,
+                0.86
             ],
             [
                 0.608,
                 1,
                 2,
-                1.33,
-                0.792
+                1.595,
+                0.88
             ],
             [
                 0.64,
                 1,
                 2,
-                1.4725,
-                0.81
+                1.7581,
+                0.9
             ],
             [
                 0.68,
                 1,
                 2,
-                1.6625,
-                0.8325
+                1.9756,
+                0.925
             ],
             [
                 0.72,
                 1,
                 2,
-                1.9,
-                0.855
+                2.2475,
+                0.95
             ],
             [
                 0.76,
                 1,
                 2,
-                2.185,
-                0.8775
+                2.5738,
+                0.975
             ],
             [
                 0.8,
                 1,
                 2,
-                2.47,
-                0.9
+                2.9,
+                1
             ],
             [
                 0.832,
                 1,
                 2,
-                2.5935,
-                0.918
+                3.0414,
+                1.02
             ],
             [
                 0.864,
                 1,
                 2,
-                2.717,
-                0.936
+                3.1828,
+                1.04
             ],
             [
                 0.896,
                 1,
                 2,
-                2.8405,
-                0.954
+                3.3241,
+                1.06
             ],
             [
                 0.928,
                 1,
                 2,
-                2.964,
-                0.972
+                3.4655,
+                1.08
             ],
             [
                 0.96,
                 1,
                 2,
-                3.0875,
-                0.99
+                3.6069,
+                1.1
             ]
         ],
         "icon": "icon/skill/1005_ultimate.png"
@@ -1616,98 +1616,83 @@
         "type_text": "Talent",
         "effect": "SingleAttack",
         "effect_text": "Single Target",
-        "simple_desc": "",
-        "desc": "After an ally of Kafka's uses Basic ATK on an enemy, Kafka immediately launches 1 follow-up attack and deals Lightning DMG equal to #1[i]% of her ATK to that enemy, with a #4[i]% base chance of increasing the DoT DMG received by the enemy by #2[i]% for #3[i] turns. This effect can only be triggered 1 time per turn.",
+        "simple_desc": "After an ally uses Basic ATK on an enemy, Kafka immediately launches a follow-up attack and deals minor Lightning DMG with a high chance of inflicting Shock to that target. This effect can only be triggered 1 time per turn.",
+        "desc": "After an ally of Kafka's uses Basic ATK on an enemy target, Kafka immediately launches 1 follow-up attack and deals Lightning DMG equal to #1[i]% of her ATK to that target, with a #2[i]% base chance to inflict Shock equivalent to that applied by her Ultimate to the attacked enemy target for #3[i] turns. This effect can only be triggered 1 time per turn.",
         "params": [
             [
-                0.6,
-                0.15,
-                2,
-                1
+                0.42,
+                1,
+                2
             ],
             [
-                0.66,
-                0.155,
-                2,
-                1
+                0.518,
+                1,
+                2
             ],
             [
-                0.72,
-                0.16,
-                2,
-                1
+                0.616,
+                1,
+                2
             ],
             [
-                0.78,
-                0.165,
-                2,
-                1
+                0.714,
+                1,
+                2
             ],
             [
-                0.84,
-                0.17,
-                2,
-                1
+                0.812,
+                1,
+                2
             ],
             [
-                0.9,
-                0.175,
-                2,
-                1
+                0.91,
+                1,
+                2
             ],
             [
-                0.975,
-                0.1813,
-                2,
-                1
+                1.0325,
+                1,
+                2
             ],
             [
-                1.05,
-                0.1875,
-                2,
-                1
+                1.155,
+                1,
+                2
             ],
             [
-                1.125,
-                0.1938,
-                2,
-                1
+                1.2775,
+                1,
+                2
             ],
             [
-                1.2,
-                0.2,
-                2,
-                1
+                1.4,
+                1,
+                2
             ],
             [
-                1.26,
-                0.205,
-                2,
-                1
+                1.498,
+                1,
+                2
             ],
             [
-                1.32,
-                0.21,
-                2,
-                1
+                1.596,
+                1,
+                2
             ],
             [
-                1.38,
-                0.215,
-                2,
-                1
+                1.694,
+                1,
+                2
             ],
             [
-                1.44,
-                0.22,
-                2,
-                1
+                1.792,
+                1,
+                2
             ],
             [
-                1.5,
-                0.225,
-                2,
-                1
+                1.89,
+                1,
+                2
             ]
         ],
         "icon": "icon/skill/1005_talent.png"
@@ -1735,13 +1720,12 @@
         "type_text": "Technique",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "",
-        "desc": "Immediately attacks the enemy. After entering battle, deal Lightning DMG equal to #4[i]% of Kafka's ATK to all enemies. In addition, each enemy has a #1[i]% base chance to become Shocked for #3[i] turn(s).\nWhile Shocked, enemies receive Lightning DoT equal to #2[i]% of Kafka's ATK at the beginning of each turn.",
+        "simple_desc": "Attacks all enemies within range. After entering battle, deals minor Lightning DMG to all enemies with a high chance of Shocking them.",
+        "desc": "Immediately attacks all enemies within a set range. After entering battle, deals Lightning DMG equal to #3[i]% of Kafka's ATK to all enemies, with a #1[i]% base chance to inflict Shock equivalent to that applied by her Ultimate on every enemy target for #2[i] turn(s).",
         "params": [
             [
                 1,
-                0.5,
-                3,
+                2,
                 0.5
             ]
         ],
@@ -1799,7 +1783,7 @@
         "effect": "Impair",
         "effect_text": "Impair",
         "simple_desc": "There is a high chance to apply additional Type Weaknesses to a single enemy and deals Quantum DMG to this target enemy.",
-        "desc": "There is a #2[i]% base chance to add 1 Weakness of an on-field ally's Type to the target enemy. This also reduces the enemy's DMG RES to that Weakness Type by #4[i]% for #3[i] turn(s). If the enemy already has that Type Weakness, the effect of DMG RES reduction to that Weakness Type will not be triggered.\nEach enemy can only have 1 Weakness implanted by Silver Wolf. When Silver Wolf implants another Weakness to the target, only the most recent implanted Weakness will be kept.\nIn addition, there is a #5[i]% base chance to reduce the All-Type RES of the enemy further by #6[f1]% for #7[i] turn(s).\nDeals Quantum DMG equal to #1[i]% of Silver Wolf's ATK to this enemy.",
+        "desc": "There is a #2[i]% base chance to add 1 Weakness of an on-field character's Type to the target enemy. This also reduces the enemy's DMG RES to that Weakness Type by #4[i]% for #3[i] turn(s). If the enemy already has that Type Weakness, the effect of DMG RES reduction to that Weakness Type will not be triggered.\nEach enemy can only have 1 Weakness implanted by Silver Wolf. When Silver Wolf implants another Weakness to the target, only the most recent implanted Weakness will be kept.\nIn addition, there is a #5[i]% base chance to further reduce the All-Type RES of the enemy by #6[f1]% for #7[i] turn(s).\nDeals Quantum DMG equal to #1[i]% of Silver Wolf's ATK to this enemy.",
         "params": [
             [
                 0.98,
@@ -2054,7 +2038,7 @@
         "effect": "Impair",
         "effect_text": "Impair",
         "simple_desc": "After each attack, there is a chance of inflicting the attacked enemy with 1 random Bug.",
-        "desc": "Silver Wolf can create three types of Bugs: reduce ATK by #1[f1]%, reduce DEF by #2[f1]%, and reduce SPD by #3[f1]%.\nEvery time Silver Wolf attacks, she has a #4[i]% base chance to implant a random Bug that lasts for #5[i] turn(s) in the enemy target.",
+        "desc": "Silver Wolf can create three types of Bugs: reduce ATK by #1[f1]%, reduce DEF by #2[f1]%, and reduce SPD by #3[f1]%.\nEvery time Silver Wolf attacks, she has a #4[i]% base chance to implant a random Bug that lasts for #5[i] turn(s) in an enemy target.",
         "params": [
             [
                 0.05,
@@ -2174,7 +2158,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Attacks an enemy, and when the battle starts, reduces their Toughness of the corresponding Type.",
+        "desc": "Attack an enemy, and when the battle starts, reduce their Toughness of the corresponding Type.",
         "params": [],
         "icon": "icon/skill/1006_basic_atk.png"
     },
@@ -2397,7 +2381,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "",
+        "simple_desc": "Increases DMG based on the current percentage of own HP lost.",
         "desc": "Increases Arlan's DMG for every percent of HP below his Max HP, up to a max of #1[i]% more DMG.",
         "params": [
             [
@@ -2471,7 +2455,7 @@
         "type_text": "Technique",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "",
+        "simple_desc": "Attacks the enemy. After entering battle, deals minor Lightning DMG to all enemies.",
         "desc": "Immediately attacks the enemy. After entering battle, deals Lightning DMG equal to #1[i]% of Arlan's ATK to all enemies.",
         "params": [
             [
@@ -3340,7 +3324,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "",
+        "simple_desc": "After this character uses Basic ATK, their next action will be Advanced Forward.",
         "desc": "After using her Basic ATK, Bronya's next action will be Advanced Forward by #1[i]%.",
         "params": [
             [
@@ -3414,7 +3398,7 @@
         "type_text": "Technique",
         "effect": "Support",
         "effect_text": "Support",
-        "simple_desc": "",
+        "simple_desc": "After this character uses Technique, increases all allies' ATK at the start of the next battle.",
         "desc": "After using Bronya's Technique, at the start of the next battle, all allies' ATK increases by #1[i]% for #2[i] turn(s).",
         "params": [
             [
@@ -4301,7 +4285,7 @@
         "type_text": "Talent",
         "effect": "Restore",
         "effect_text": "Restore",
-        "simple_desc": "",
+        "simple_desc": "When struck by a killing blow, instead of being knocked down, immediately restores HP. This effect can only trigger 1 time per battle.",
         "desc": "When struck with a killing blow, instead of becoming knocked down, Gepard's HP immediately restores to #1[i]% of his Max HP. This effect can only trigger once per battle.",
         "params": [
             [
@@ -4375,7 +4359,7 @@
         "type_text": "Technique",
         "effect": "Defence",
         "effect_text": "Defense",
-        "simple_desc": "",
+        "simple_desc": "After this character uses Technique, all allies gain a Shield at the start of the next battle.",
         "desc": "After Gepard uses his Technique, when the next battle begins, a Shield will be applied to all allies, absorbing DMG equal to #1[i]% of Gepard's DEF plus #3[i] for #2[i] turn(s).",
         "params": [
             [
@@ -4632,7 +4616,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "",
+        "simple_desc": "When healing allies with low HP, increases Outgoing Healing. This effect also works on continuous healing.",
         "desc": "When healing allies with HP percentage at #1[i]% or lower, increases Natasha's Outgoing Healing by #2[i]%. This effect also works on continuous healing.",
         "params": [
             [
@@ -4721,7 +4705,7 @@
         "type_text": "Technique",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "",
+        "simple_desc": "Attacks the enemy. After entering battle, deals minor Physical DMG to a random single enemy, with a high chance to inflict Weaken to all enemy targets.",
         "desc": "Immediately attacks the enemy. After entering battle, deals Physical DMG equal to #4[i]% of Natasha's ATK to a random enemy, with a #1[i]% base chance to Weaken all enemies.\nWhile Weakened, enemies deal #2[i]% less DMG to allies for #3[i] turn(s).",
         "params": [
             [
@@ -5296,7 +5280,7 @@
         "type_text": "Talent",
         "effect": "SingleAttack",
         "effect_text": "Single Target",
-        "simple_desc": "",
+        "simple_desc": "DMG received from enemy attacks is reduced. Enemies who attack Clara will be marked with Mark of Counter, and be met with Svarog's Counter, dealing Physical DMG.",
         "desc": "Under the protection of Svarog, DMG taken by Clara when hit by enemy attacks is reduced by #3[i]%. Svarog will mark enemies who attack Clara with his Mark of Counter and retaliate with a Counter, dealing Physical DMG equal to #2[i]% of Clara's ATK.",
         "params": [
             [
@@ -5400,7 +5384,7 @@
         "type_text": "Technique",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "",
+        "simple_desc": "Attacks the enemy. After entering battle, this character's chance of being attacked by enemies increases.",
         "desc": "Immediately attacks the enemy. Upon entering battle, the chance Clara will be attacked by enemies increases for #1[i] turn(s).",
         "params": [
             [
@@ -5641,7 +5625,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "",
+        "simple_desc": "After this character hits an enemy, there is a chance of inflicting Wind Shear on the target.",
         "desc": "Sampo's attacks have a #1[i]% base chance to inflict Wind Shear for #3[i] turn(s).\nEnemies inflicted with Wind Shear will take Wind DoT equal to #2[i]% of Sampo's ATK at the beginning of each turn. Wind Shear can stack up to #4[i] time(s).",
         "params": [
             [
@@ -5760,7 +5744,7 @@
         "type_text": "Technique",
         "effect": "Impair",
         "effect_text": "Impair",
-        "simple_desc": "",
+        "simple_desc": "Enemies in a set area are Blinded. When initiating battle against a Blinded enemy, there is a high chance to delay all enemies' actions.",
         "desc": "After Sampo uses his Technique, enemies in a set area are inflicted with Blind for #1[i] second(s). Blinded enemies cannot detect your team.\nWhen initiating combat against a Blinded enemy, there is a #2[i]% fixed chance to delay all enemies' action by #3[i]%.",
         "params": [
             [
@@ -6207,6 +6191,447 @@
             ]
         ],
         "icon": "icon/skill/1109_skill.png"
+    },
+    "111101": {
+        "id": "111101",
+        "name": "Direct Punch",
+        "max_level": 9,
+        "element": "Physical",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Deals minor Physical DMG to a single enemy.",
+        "desc": "Deals Physical DMG equal to #1[i]% of Luka's ATK to a single enemy.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": ""
+    },
+    "111102": {
+        "id": "111102",
+        "name": "Lacerating Fist",
+        "max_level": 15,
+        "element": "Physical",
+        "type": "BPSkill",
+        "type_text": "Skill",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Deals Physical DMG to a single enemy, with a high chance of causing the enemy to Bleed.",
+        "desc": "Deals Physical DMG equal to #1[i]% of Luka's ATK to a single enemy target. In addition, there is a #2[i]% base chance to inflict Bleed on them, lasting for #5[i] turn(s).\nWhile Bleeding, the enemy will take #3[f1]% of their Max HP as Physical DoT at the start of each turn. This DMG will not exceed more than #4[i]% of Luka's ATK.",
+        "params": [
+            [
+                0.6,
+                1,
+                0.24,
+                1.3,
+                3
+            ],
+            [
+                0.66,
+                1,
+                0.24,
+                1.43,
+                3
+            ],
+            [
+                0.72,
+                1,
+                0.24,
+                1.56,
+                3
+            ],
+            [
+                0.78,
+                1,
+                0.24,
+                1.69,
+                3
+            ],
+            [
+                0.84,
+                1,
+                0.24,
+                1.82,
+                3
+            ],
+            [
+                0.9,
+                1,
+                0.24,
+                2.015,
+                3
+            ],
+            [
+                0.975,
+                1,
+                0.24,
+                2.275,
+                3
+            ],
+            [
+                1.05,
+                1,
+                0.24,
+                2.6,
+                3
+            ],
+            [
+                1.125,
+                1,
+                0.24,
+                2.99,
+                3
+            ],
+            [
+                1.2,
+                1,
+                0.24,
+                3.38,
+                3
+            ],
+            [
+                1.26,
+                1,
+                0.24,
+                3.549,
+                3
+            ],
+            [
+                1.32,
+                1,
+                0.24,
+                3.718,
+                3
+            ],
+            [
+                1.38,
+                1,
+                0.24,
+                3.887,
+                3
+            ],
+            [
+                1.44,
+                1,
+                0.24,
+                4.056,
+                3
+            ],
+            [
+                1.5,
+                1,
+                0.24,
+                4.225,
+                3
+            ]
+        ],
+        "icon": ""
+    },
+    "111103": {
+        "id": "111103",
+        "name": "Coup de Grâce",
+        "max_level": 15,
+        "element": "Physical",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Receives #5[i] stack(s) of Fighting Will, with a high chance of increasing the target's DMG received, and deals massive Physical DMG to the target.",
+        "desc": "Receives #5[i] stack(s) of Fighting Will, with a #2[i]% base chance to increase a single enemy target's DMG received by #3[f1]% for #4[i] turn(s). Then, deals Physical DMG equal to #1[i]% of Luka's ATK to the target.",
+        "params": [
+            [
+                1.98,
+                1,
+                0.12,
+                3,
+                2
+            ],
+            [
+                2.112,
+                1,
+                0.128,
+                3,
+                2
+            ],
+            [
+                2.244,
+                1,
+                0.136,
+                3,
+                2
+            ],
+            [
+                2.376,
+                1,
+                0.144,
+                3,
+                2
+            ],
+            [
+                2.508,
+                1,
+                0.152,
+                3,
+                2
+            ],
+            [
+                2.64,
+                1,
+                0.16,
+                3,
+                2
+            ],
+            [
+                2.805,
+                1,
+                0.17,
+                3,
+                2
+            ],
+            [
+                2.97,
+                1,
+                0.18,
+                3,
+                2
+            ],
+            [
+                3.135,
+                1,
+                0.19,
+                3,
+                2
+            ],
+            [
+                3.3,
+                1,
+                0.2,
+                3,
+                2
+            ],
+            [
+                3.432,
+                1,
+                0.208,
+                3,
+                2
+            ],
+            [
+                3.564,
+                1,
+                0.216,
+                3,
+                2
+            ],
+            [
+                3.696,
+                1,
+                0.224,
+                3,
+                2
+            ],
+            [
+                3.828,
+                1,
+                0.232,
+                3,
+                2
+            ],
+            [
+                3.96,
+                1,
+                0.24,
+                3,
+                2
+            ]
+        ],
+        "icon": ""
+    },
+    "111104": {
+        "id": "111104",
+        "name": "Flying Sparks",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Enhance",
+        "effect_text": "Enhance",
+        "simple_desc": "After using Basic ATK \"Direct Punch\" or Skill \"Lacerating Fist,\" receives 1 stack of Fighting Will. When 2 or more stacks of Fighting Will are present, Basic Attack becomes Enhanced.\nIf the enemy is Bleeding, the Enhanced Basic ATK will cause Bleed to deal extra DMG for 1 time.",
+        "desc": "After Luka uses his Basic ATK \"Direct Punch\" or Skill \"Lacerating Fist,\" he receives #1[i] stack(s) of Fighting Will, up to 4 stacks. When he has 2 or more stacks of Fighting Will, his Basic ATK \"Direct Punch\" is enhanced to \"Sky-Shatter Fist.\" After his Enhanced Basic ATK's \"Rising Uppercut\" hits a Bleeding enemy target, the Bleed status will immediately deal DMG for 1 time equal to #2[i]% of the original DMG to the target. At the start of battle, Luka will possess 1 stack of Fighting Will.",
+        "params": [
+            [
+                1,
+                0.68
+            ],
+            [
+                1,
+                0.697
+            ],
+            [
+                1,
+                0.714
+            ],
+            [
+                1,
+                0.731
+            ],
+            [
+                1,
+                0.748
+            ],
+            [
+                1,
+                0.765
+            ],
+            [
+                1,
+                0.7863
+            ],
+            [
+                1,
+                0.8075
+            ],
+            [
+                1,
+                0.8288
+            ],
+            [
+                1,
+                0.85
+            ],
+            [
+                1,
+                0.867
+            ],
+            [
+                1,
+                0.884
+            ],
+            [
+                1,
+                0.901
+            ],
+            [
+                1,
+                0.918
+            ],
+            [
+                1,
+                0.935
+            ]
+        ],
+        "icon": ""
+    },
+    "111106": {
+        "id": "111106",
+        "name": "Attack",
+        "max_level": 1,
+        "element": "Physical",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Attack an enemy, and when the battle starts, reduce their Toughness of the corresponding Type.",
+        "params": [],
+        "icon": ""
+    },
+    "111107": {
+        "id": "111107",
+        "name": "Anticipator",
+        "max_level": 1,
+        "element": "Physical",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "Attacks the enemy. After entering battle, deals minor Physical DMG to a random single enemy, with a high chance to inflict Bleed to the target. Luka then gains 1 stack of Fighting Will.",
+        "desc": "Immediately attacks the enemy. Upon entering battle, Luka deals Physical DMG equal to #1[i]% of his ATK to a random single enemy with a #2[i]% base chance to inflict his Skill's Bleed effect on the target. Then, Luka gains 1 additional stack of Fighting Will.",
+        "params": [
+            [
+                0.5,
+                1
+            ]
+        ],
+        "icon": ""
+    },
+    "111108": {
+        "id": "111108",
+        "name": "Sky-Shatter Fist",
+        "max_level": 9,
+        "element": "Physical",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Consumes 2 stacks of Fighting Will to deal Physical DMG to a single enemy.",
+        "desc": "Consumes 2 stacks of Fighting Will. First, uses Direct Punch to deal 3 hits, with each hit dealing Physical DMG equal to #1[i]% of Luka's ATK to a single enemy target.\nThen, uses Rising Uppercut to deal 1 hit, dealing Physical DMG equal to #2[i]% of Luka's ATK to the single enemy target.",
+        "params": [
+            [
+                0.1,
+                0.4
+            ],
+            [
+                0.12,
+                0.48
+            ],
+            [
+                0.14,
+                0.56
+            ],
+            [
+                0.16,
+                0.64
+            ],
+            [
+                0.18,
+                0.72
+            ],
+            [
+                0.2,
+                0.8
+            ],
+            [
+                0.22,
+                0.88
+            ],
+            [
+                0.24,
+                0.96
+            ],
+            [
+                0.26,
+                1.04
+            ]
+        ],
+        "icon": ""
     },
     "120101": {
         "id": "120101",
@@ -7029,7 +7454,7 @@
         "effect": "AoEAttack",
         "effect_text": "AoE",
         "simple_desc": "Removes 1 buff from all enemies, deals Imaginary DMG to all enemies, and gains 1 stack of Abyss Flower.",
-        "desc": "Removes #2[i] buff(s) from all enemies and deals Imaginary DMG equal to #1[i]% of Luocha's ATK to all enemies. Luocha gains 1 stack of Abyss Flower.",
+        "desc": "Removes #2[i] buff(s) from all enemies and deals all enemies Imaginary DMG equal to #1[i]% of Luocha's ATK. At the same time, Luocha gains 1 stack of Abyss Flower.",
         "params": [
             [
                 1.2,
@@ -7564,7 +7989,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Attacks an enemy, and when the battle starts, reduces their Toughness of the corresponding Type.",
+        "desc": "Attack an enemy, and when the battle starts, reduce their Toughness of the corresponding Type.",
         "params": [],
         "icon": "icon/skill/1204_basic_atk.png"
     },
@@ -7585,6 +8010,519 @@
             ]
         ],
         "icon": "icon/skill/1204_technique.png"
+    },
+    "120501": {
+        "id": "120501",
+        "name": "Shard Sword",
+        "max_level": 9,
+        "element": "Wind",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Deals minor Wind DMG to an enemy.",
+        "desc": "Deals #1[i]% of Blade's ATK as Wind DMG to a target enemy.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": ""
+    },
+    "120502": {
+        "id": "120502",
+        "name": "Hellscape",
+        "max_level": 15,
+        "element": "Wind",
+        "type": "BPSkill",
+        "type_text": "Skill",
+        "effect": "Enhance",
+        "effect_text": "Enhance",
+        "simple_desc": "Consumes HP to Enhance Basic ATK, and this turn does not end after this Skill is used.",
+        "desc": "Consumes HP equal to #1[i]% of Blade's Max HP to enter the Hellscape state.\nWhen Hellscape is active, his Skill cannot be used, his DMG dealt increases by #4[i]%, and his Basic ATK Shard Sword is enhanced to Forest of Swords for #2[i] turn(s).\nIf Blade's current HP is insufficient, his HP will be reduced to 1 when he uses his Skill.\nThis Skill does not regenerate Energy. Using this Skill does not end the current turn.",
+        "params": [
+            [
+                0.3,
+                3,
+                1,
+                0.12
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.148
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.176
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.204
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.232
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.26
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.295
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.33
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.365
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.4
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.428
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.456
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.484
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.512
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.54
+            ]
+        ],
+        "icon": ""
+    },
+    "120503": {
+        "id": "120503",
+        "name": "Death Sentence",
+        "max_level": 15,
+        "element": "Wind",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "Blast",
+        "effect_text": "Blast",
+        "simple_desc": "Sets current HP to 50% of Max HP, and deals massive Wind DMG to a single enemy and Wind DMG to adjacent targets.",
+        "desc": "Sets Blade's current HP to 50% of his Max HP and deals to a single enemy Wind DMG equal to the sum of #1[i]% of his ATK, #2[i]% of his Max HP, and #5[i]% of the total HP he has lost in the current battle. At the same time, deals Wind DMG to adjacent targets equal to the sum of #3[f1]% of his ATK, #4[i]% of his Max HP, and #6[i]% of the total HP he has lost in the current battle.\nThe total HP Blade has lost in the current battle is capped at #7[i]% of his Max HP. This value will be reset and re-accumulated after his Ultimate has been used.",
+        "params": [
+            [
+                0.24,
+                0.6,
+                0.096,
+                0.24,
+                0.6,
+                0.24,
+                0.9
+            ],
+            [
+                0.256,
+                0.64,
+                0.1024,
+                0.256,
+                0.64,
+                0.256,
+                0.9
+            ],
+            [
+                0.272,
+                0.68,
+                0.1088,
+                0.272,
+                0.68,
+                0.272,
+                0.9
+            ],
+            [
+                0.288,
+                0.72,
+                0.1152,
+                0.288,
+                0.72,
+                0.288,
+                0.9
+            ],
+            [
+                0.304,
+                0.76,
+                0.1216,
+                0.304,
+                0.76,
+                0.304,
+                0.9
+            ],
+            [
+                0.32,
+                0.8,
+                0.128,
+                0.32,
+                0.8,
+                0.32,
+                0.9
+            ],
+            [
+                0.34,
+                0.85,
+                0.136,
+                0.34,
+                0.85,
+                0.34,
+                0.9
+            ],
+            [
+                0.36,
+                0.9,
+                0.144,
+                0.36,
+                0.9,
+                0.36,
+                0.9
+            ],
+            [
+                0.38,
+                0.95,
+                0.152,
+                0.38,
+                0.95,
+                0.38,
+                0.9
+            ],
+            [
+                0.4,
+                1,
+                0.16,
+                0.4,
+                1,
+                0.4,
+                0.9
+            ],
+            [
+                0.416,
+                1.04,
+                0.1664,
+                0.416,
+                1.04,
+                0.416,
+                0.9
+            ],
+            [
+                0.432,
+                1.08,
+                0.1728,
+                0.432,
+                1.08,
+                0.432,
+                0.9
+            ],
+            [
+                0.448,
+                1.12,
+                0.1792,
+                0.448,
+                1.12,
+                0.448,
+                0.9
+            ],
+            [
+                0.464,
+                1.16,
+                0.1856,
+                0.464,
+                1.16,
+                0.464,
+                0.9
+            ],
+            [
+                0.48,
+                1.2,
+                0.192,
+                0.48,
+                1.2,
+                0.48,
+                0.9
+            ]
+        ],
+        "icon": ""
+    },
+    "120504": {
+        "id": "120504",
+        "name": "Shuhu's Gift",
+        "max_level": 15,
+        "element": "Wind",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "AoEAttack",
+        "effect_text": "AoE",
+        "simple_desc": "When Blade's HP is lowered, he gains 1 stack of Charge. When maximum Charge stack is reached, Blade immediately deals Wind DMG to all enemies and restores HP. Then, all Charges are consumed.",
+        "desc": "When Blade sustains DMG or consumes his HP, he gains 1 stack of Charge, stacking up to 5 times. A max of 1 Charge stack can be gained every time he is attacked.\nWhen Charge stack reaches maximum, immediately launches a follow-up attack on all enemies, dealing Wind DMG equal to #2[i]% of Blade's ATK plus #4[i]% of his Max HP. At the same time, restores Blade's HP by #3[i]% of his Max HP. After the follow-up attack, all Charges are consumed.",
+        "params": [
+            [
+                3,
+                0.22,
+                0.25,
+                0.55
+            ],
+            [
+                3,
+                0.242,
+                0.25,
+                0.605
+            ],
+            [
+                3,
+                0.264,
+                0.25,
+                0.66
+            ],
+            [
+                3,
+                0.286,
+                0.25,
+                0.715
+            ],
+            [
+                3,
+                0.308,
+                0.25,
+                0.77
+            ],
+            [
+                3,
+                0.33,
+                0.25,
+                0.825
+            ],
+            [
+                3,
+                0.3575,
+                0.25,
+                0.8938
+            ],
+            [
+                3,
+                0.385,
+                0.25,
+                0.9625
+            ],
+            [
+                3,
+                0.4125,
+                0.25,
+                1.0313
+            ],
+            [
+                3,
+                0.44,
+                0.25,
+                1.1
+            ],
+            [
+                3,
+                0.462,
+                0.25,
+                1.155
+            ],
+            [
+                3,
+                0.484,
+                0.25,
+                1.21
+            ],
+            [
+                3,
+                0.506,
+                0.25,
+                1.265
+            ],
+            [
+                3,
+                0.528,
+                0.25,
+                1.32
+            ],
+            [
+                3,
+                0.55,
+                0.25,
+                1.375
+            ]
+        ],
+        "icon": ""
+    },
+    "120506": {
+        "id": "120506",
+        "name": "Attack",
+        "max_level": 1,
+        "element": "Wind",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Attack an enemy, and when the battle starts, reduce their Toughness of the corresponding Type.",
+        "params": [],
+        "icon": ""
+    },
+    "120507": {
+        "id": "120507",
+        "name": "Karma Wind",
+        "max_level": 1,
+        "element": "Wind",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "Attacks the enemy. After entering combat, consumes own HP and deals Wind DMG to all enemies.",
+        "desc": "Immediately attacks the enemy. After entering combat, consumes #2[i]% of Blade's Max HP while dealing Wind DMG equal to #1[i]% of his Max HP to all enemies.\nIf Blade's current HP is insufficient, his HP will be reduced to 1 when this Technique is used.",
+        "params": [
+            [
+                0.4,
+                0.2
+            ]
+        ],
+        "icon": ""
+    },
+    "120508": {
+        "id": "120508",
+        "name": "Forest of Swords",
+        "max_level": 9,
+        "element": "Wind",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "Blast",
+        "effect_text": "Blast",
+        "simple_desc": "Consumes HP and deals Wind DMG to an enemy, as well as minor Wind DMG to adjacent targets.",
+        "desc": "Consumes HP equal to #1[i]% of Blade's Max HP and deals Wind DMG equal to the sum of #2[i]% of his ATK and #4[i]% of his Max HP to a single enemy. In addition, deals Wind DMG equal to the sum of #3[i]% of Blade's ATK and #5[i]% of his Max HP to adjacent targets.\nIf Blade's current HP is insufficient, his HP will be reduced to 1 when using Forest of Swords.\nForest of Swords cannot regenerate Skill Points.",
+        "params": [
+            [
+                0.1,
+                0.2,
+                0.08,
+                0.5,
+                0.2
+            ],
+            [
+                0.1,
+                0.24,
+                0.096,
+                0.6,
+                0.24
+            ],
+            [
+                0.1,
+                0.28,
+                0.112,
+                0.7,
+                0.28
+            ],
+            [
+                0.1,
+                0.32,
+                0.128,
+                0.8,
+                0.32
+            ],
+            [
+                0.1,
+                0.36,
+                0.144,
+                0.9,
+                0.36
+            ],
+            [
+                0.1,
+                0.4,
+                0.16,
+                1,
+                0.4
+            ],
+            [
+                0.1,
+                0.44,
+                0.176,
+                1.1,
+                0.44
+            ],
+            [
+                0.1,
+                0.48,
+                0.192,
+                1.2,
+                0.48
+            ],
+            [
+                0.1,
+                0.52,
+                0.208,
+                1.3,
+                0.52
+            ]
+        ],
+        "icon": ""
     },
     "120601": {
         "id": "120601",
@@ -7832,7 +8770,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "",
+        "simple_desc": "When an enemy on the field has its Weakness Broken, this character's SPD increases.",
         "desc": "When an enemy has their Weakness Broken on the field, Sushang's SPD increases by #1[f2]% for #2[i] turn(s).",
         "params": [
             [
@@ -7921,7 +8859,7 @@
         "type_text": "Technique",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "",
+        "simple_desc": "Attacks the enemy. After entering battle, deals minor Physical DMG to all enemies.",
         "desc": "Immediately attacks the enemy. Upon entering battle, Sushang deals Physical DMG equal to #1[i]% of her ATK to all enemies.",
         "params": [
             [
@@ -7982,7 +8920,7 @@
         "effect": "Support",
         "effect_text": "Support",
         "simple_desc": "Obtains 2 stacks of \"Roaring Bowstrings\". ATK of all allies increases when \"Roaring Bowstrings\" is active.",
-        "desc": "Obtains #1[i] stack(s) of \"Roaring Bowstrings\" (to a maximum of 2 stacks). When \"Roaring Bowstrings\" is active, the ATK of all allies increases by #2[i]%, and every time an ally's turn ends, Yukong loses 1 stack of \"Roaring Bowstrings.\"\nWhen it's the turn where Yukong gains \"Roaring Bowstrings\" by using Skill, \"Roaring Bowstrings\" will not be removed.",
+        "desc": "Obtains #1[i] stack(s) of \"Roaring Bowstrings\" (to a maximum of 2 stacks). When \"Roaring Bowstrings\" is active, the ATK of all allies increases by #2[i]%, and every time an ally's turn (including Yukong's) ends, Yukong loses 1 stack of \"Roaring Bowstrings.\"\nWhen it's the turn where Yukong gains \"Roaring Bowstrings\" by using Skill, \"Roaring Bowstrings\" will not be removed.",
         "params": [
             [
                 2,
@@ -8237,7 +9175,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "After attacking an enemy and entering battle, the enemy's corresponding Type Toughness will be Weakened.",
+        "desc": "Attack an enemy, and when the battle starts, reduce their Toughness of the corresponding Type.",
         "params": [],
         "icon": "icon/skill/1207_basic_atk.png"
     },
@@ -8462,7 +9400,7 @@
         "type_text": "Talent",
         "effect": "SingleAttack",
         "effect_text": "Single Target",
-        "simple_desc": "",
+        "simple_desc": "During Soulsteel Sync, reduces the chance of this character being attacked and increases their own CRIT Rate and CRIT DMG. After attacking an enemy, there is a chance of launching a follow-up attack, dealing Ice DMG with a chance to Freeze the target.\nSoulsteel Sync will be removed after this character receives DMG.",
         "desc": "When Soulsteel Sync is active, Yanqing is less likely to be attacked by enemies. Yanqing's CRIT Rate increases by #1[f1]% and his CRIT DMG increases by #2[i]%. After Yanqing attacks an enemy, there is a #3[i]% fixed chance to perform a follow-up attack, dealing Ice DMG equal to #4[i]% of Yanqing's ATK to the enemy, which has a #6[i]% base chance to Freeze the enemy for 1 turn.\nThe Frozen target cannot take action and receives Additional Ice DMG equal to #5[i]% of Yanqing's ATK at the beginning of each turn.\nWhen Yanqing receives DMG, the Soulsteel Sync effect will disappear.",
         "params": [
             [
@@ -8611,7 +9549,7 @@
         "type_text": "Technique",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "",
+        "simple_desc": "After this character uses Technique, at the start of the next battle, increases the DMG dealt by this character to enemy targets whose HP is 50% or higher.",
         "desc": "After using his Technique, at the start of the next battle, Yanqing deals #2[i]% more DMG for #3[i] turn(s) to enemies whose current HP is #1[i]% or higher.",
         "params": [
             [
@@ -8868,7 +9806,7 @@
         "type_text": "Talent",
         "effect": "Restore",
         "effect_text": "Restore",
-        "simple_desc": "",
+        "simple_desc": "Allies with Invigoration restore HP after they are attacked.\nWhen an ally suffers a killing blow, Bailu immediately restores their HP. This effect can only trigger 1 time per battle.",
         "desc": "After an ally with Invigoration is hit, restores the ally's HP for #1[f1]% of Bailu's Max HP plus #2[i]. This effect can trigger #5[i] time(s).\nWhen an ally receives a killing blow, they will not be knocked down. Bailu immediately heals the ally for #3[i]% of Bailu's Max HP plus #4[i] HP. This effect can be triggered 1 time per battle.",
         "params": [
             [
@@ -9002,7 +9940,7 @@
         "type_text": "Technique",
         "effect": "Restore",
         "effect_text": "Restore",
-        "simple_desc": "",
+        "simple_desc": "After this character uses Technique, at the start of the next battle, all allies are granted Invigoration.",
         "desc": "After Technique is used, at the start of the next battle, all allies are granted Invigoration for #1[i] turn(s).",
         "params": [
             [
@@ -9010,6 +9948,755 @@
             ]
         ],
         "icon": "icon/skill/1211_technique.png"
+    },
+    "121301": {
+        "id": "121301",
+        "name": "",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "",
+        "desc": "",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": ""
+    },
+    "121302": {
+        "id": "121302",
+        "name": "",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Skill",
+        "effect": "Enhance",
+        "effect_text": "Enhance",
+        "simple_desc": "",
+        "desc": "",
+        "params": [
+            [
+                1.3,
+                0.6,
+                0.3,
+                0.06,
+                4,
+                0.6,
+                0.6
+            ],
+            [
+                1.43,
+                0.66,
+                0.33,
+                0.066,
+                4,
+                0.66,
+                0.66
+            ],
+            [
+                1.56,
+                0.72,
+                0.36,
+                0.072,
+                4,
+                0.72,
+                0.72
+            ],
+            [
+                1.69,
+                0.78,
+                0.39,
+                0.078,
+                4,
+                0.78,
+                0.78
+            ],
+            [
+                1.82,
+                0.84,
+                0.42,
+                0.084,
+                4,
+                0.84,
+                0.84
+            ],
+            [
+                1.95,
+                0.9,
+                0.45,
+                0.09,
+                4,
+                0.9,
+                0.9
+            ],
+            [
+                2.1125,
+                0.975,
+                0.4875,
+                0.0975,
+                4,
+                0.975,
+                0.975
+            ],
+            [
+                2.275,
+                1.05,
+                0.525,
+                0.105,
+                4,
+                1.05,
+                1.05
+            ],
+            [
+                2.4375,
+                1.125,
+                0.5625,
+                0.1125,
+                4,
+                1.125,
+                1.125
+            ],
+            [
+                2.6,
+                1.2,
+                0.6,
+                0.12,
+                4,
+                1.2,
+                1.2
+            ],
+            [
+                2.73,
+                1.26,
+                0.63,
+                0.126,
+                4,
+                1.26,
+                1.26
+            ],
+            [
+                2.86,
+                1.32,
+                0.66,
+                0.132,
+                4,
+                1.32,
+                1.32
+            ],
+            [
+                2.99,
+                1.38,
+                0.69,
+                0.138,
+                4,
+                1.38,
+                1.38
+            ],
+            [
+                3.12,
+                1.44,
+                0.72,
+                0.144,
+                4,
+                1.44,
+                1.44
+            ],
+            [
+                3.25,
+                1.5,
+                0.75,
+                0.15,
+                4,
+                1.5,
+                1.5
+            ]
+        ],
+        "icon": ""
+    },
+    "121303": {
+        "id": "121303",
+        "name": "",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "Blast",
+        "effect_text": "Blast",
+        "simple_desc": "",
+        "desc": "",
+        "params": [
+            [
+                1.8,
+                0.84,
+                2,
+                3
+            ],
+            [
+                1.92,
+                0.896,
+                2,
+                3
+            ],
+            [
+                2.04,
+                0.952,
+                2,
+                3
+            ],
+            [
+                2.16,
+                1.008,
+                2,
+                3
+            ],
+            [
+                2.28,
+                1.064,
+                2,
+                3
+            ],
+            [
+                2.4,
+                1.12,
+                2,
+                3
+            ],
+            [
+                2.55,
+                1.19,
+                2,
+                3
+            ],
+            [
+                2.7,
+                1.26,
+                2,
+                3
+            ],
+            [
+                2.85,
+                1.33,
+                2,
+                3
+            ],
+            [
+                3,
+                1.4,
+                2,
+                3
+            ],
+            [
+                3.12,
+                1.456,
+                2,
+                3
+            ],
+            [
+                3.24,
+                1.512,
+                2,
+                3
+            ],
+            [
+                3.36,
+                1.568,
+                2,
+                3
+            ],
+            [
+                3.48,
+                1.624,
+                2,
+                3
+            ],
+            [
+                3.6,
+                1.68,
+                2,
+                3
+            ]
+        ],
+        "icon": ""
+    },
+    "121304": {
+        "id": "121304",
+        "name": "",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Enhance",
+        "effect_text": "Enhance",
+        "simple_desc": "",
+        "desc": "",
+        "params": [
+            [
+                0.09,
+                5
+            ],
+            [
+                0.095,
+                5
+            ],
+            [
+                0.1,
+                5
+            ],
+            [
+                0.105,
+                5
+            ],
+            [
+                0.11,
+                5
+            ],
+            [
+                0.115,
+                5
+            ],
+            [
+                0.1213,
+                5
+            ],
+            [
+                0.1275,
+                5
+            ],
+            [
+                0.1338,
+                5
+            ],
+            [
+                0.14,
+                5
+            ],
+            [
+                0.145,
+                5
+            ],
+            [
+                0.15,
+                5
+            ],
+            [
+                0.155,
+                5
+            ],
+            [
+                0.16,
+                5
+            ],
+            [
+                0.165,
+                5
+            ]
+        ],
+        "icon": ""
+    },
+    "121306": {
+        "id": "121306",
+        "name": "Attack",
+        "max_level": 1,
+        "element": "Imaginary",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Attack an enemy, and when the battle starts, reduce their Toughness of the corresponding Type.",
+        "params": [],
+        "icon": ""
+    },
+    "121307": {
+        "id": "121307",
+        "name": "",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Enhance",
+        "effect_text": "Enhance",
+        "simple_desc": "",
+        "desc": "",
+        "params": [
+            [
+                1,
+                20
+            ]
+        ],
+        "icon": ""
+    },
+    "121308": {
+        "id": "121308",
+        "name": "",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "",
+        "desc": "",
+        "params": [
+            [
+                1.3
+            ],
+            [
+                1.43
+            ],
+            [
+                1.56
+            ],
+            [
+                1.69
+            ],
+            [
+                1.82
+            ],
+            [
+                1.95
+            ],
+            [
+                2.1125
+            ],
+            [
+                2.275
+            ],
+            [
+                2.4375
+            ],
+            [
+                2.6
+            ],
+            [
+                2.73
+            ],
+            [
+                2.86
+            ],
+            [
+                2.99
+            ],
+            [
+                3.12
+            ],
+            [
+                3.25
+            ]
+        ],
+        "icon": ""
+    },
+    "121309": {
+        "id": "121309",
+        "name": "",
+        "max_level": 1,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Skill",
+        "effect": "Support",
+        "effect_text": "Support",
+        "simple_desc": "",
+        "desc": "",
+        "params": [],
+        "icon": ""
+    },
+    "121310": {
+        "id": "121310",
+        "name": "",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "Blast",
+        "effect_text": "Blast",
+        "simple_desc": "",
+        "desc": "",
+        "params": [
+            [
+                1.3,
+                0.6,
+                0.3,
+                0.06,
+                4
+            ],
+            [
+                1.43,
+                0.66,
+                0.33,
+                0.066,
+                4
+            ],
+            [
+                1.56,
+                0.72,
+                0.36,
+                0.072,
+                4
+            ],
+            [
+                1.69,
+                0.78,
+                0.39,
+                0.078,
+                4
+            ],
+            [
+                1.82,
+                0.84,
+                0.42,
+                0.084,
+                4
+            ],
+            [
+                1.95,
+                0.9,
+                0.45,
+                0.09,
+                4
+            ],
+            [
+                2.1125,
+                0.975,
+                0.4875,
+                0.0975,
+                4
+            ],
+            [
+                2.275,
+                1.05,
+                0.525,
+                0.105,
+                4
+            ],
+            [
+                2.4375,
+                1.125,
+                0.5625,
+                0.1125,
+                4
+            ],
+            [
+                2.6,
+                1.2,
+                0.6,
+                0.12,
+                4
+            ],
+            [
+                2.73,
+                1.26,
+                0.63,
+                0.126,
+                4
+            ],
+            [
+                2.86,
+                1.32,
+                0.66,
+                0.132,
+                4
+            ],
+            [
+                2.99,
+                1.38,
+                0.69,
+                0.138,
+                4
+            ],
+            [
+                3.12,
+                1.44,
+                0.72,
+                0.144,
+                4
+            ],
+            [
+                3.25,
+                1.5,
+                0.75,
+                0.15,
+                4
+            ]
+        ],
+        "icon": ""
+    },
+    "121312": {
+        "id": "121312",
+        "name": "",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "Blast",
+        "effect_text": "Blast",
+        "simple_desc": "",
+        "desc": "",
+        "params": [
+            [
+                1.3,
+                0.6,
+                0.3,
+                0.06,
+                4,
+                0.6,
+                0.6
+            ],
+            [
+                1.43,
+                0.66,
+                0.33,
+                0.066,
+                4,
+                0.66,
+                0.66
+            ],
+            [
+                1.56,
+                0.72,
+                0.36,
+                0.072,
+                4,
+                0.72,
+                0.72
+            ],
+            [
+                1.69,
+                0.78,
+                0.39,
+                0.078,
+                4,
+                0.78,
+                0.78
+            ],
+            [
+                1.82,
+                0.84,
+                0.42,
+                0.084,
+                4,
+                0.84,
+                0.84
+            ],
+            [
+                1.95,
+                0.9,
+                0.45,
+                0.09,
+                4,
+                0.9,
+                0.9
+            ],
+            [
+                2.1125,
+                0.975,
+                0.4875,
+                0.0975,
+                4,
+                0.975,
+                0.975
+            ],
+            [
+                2.275,
+                1.05,
+                0.525,
+                0.105,
+                4,
+                1.05,
+                1.05
+            ],
+            [
+                2.4375,
+                1.125,
+                0.5625,
+                0.1125,
+                4,
+                1.125,
+                1.125
+            ],
+            [
+                2.6,
+                1.2,
+                0.6,
+                0.12,
+                4,
+                1.2,
+                1.2
+            ],
+            [
+                2.73,
+                1.26,
+                0.63,
+                0.126,
+                4,
+                1.26,
+                1.26
+            ],
+            [
+                2.86,
+                1.32,
+                0.66,
+                0.132,
+                4,
+                1.32,
+                1.32
+            ],
+            [
+                2.99,
+                1.38,
+                0.69,
+                0.138,
+                4,
+                1.38,
+                1.38
+            ],
+            [
+                3.12,
+                1.44,
+                0.72,
+                0.144,
+                4,
+                1.44,
+                1.44
+            ],
+            [
+                3.25,
+                1.5,
+                0.75,
+                0.15,
+                4,
+                1.5,
+                1.5
+            ]
+        ],
+        "icon": ""
     },
     "800101": {
         "id": "800101",

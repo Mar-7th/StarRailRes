@@ -906,7 +906,7 @@
         "type_text": "Talent",
         "effect": "AoEAttack",
         "effect_text": "ZdE",
-        "simple_desc": "",
+        "simple_desc": "Obtient un cumul de Charge lorsqu'un ennemi subit une Rupture de faiblesse.\nLorsque la Charge est complète, après une attaque alliée, Himeko lance immédiatement une attaque de suivi qui inflige des DGT de feu en consommant tous les cumuls de Charge.\nGagne 1 cumul de Charge au début de chaque combat.",
         "desc": "Lorsqu'un ennemi subit une Rupture de faiblesse, Himeko obtient 1 point de Charge (#2[i] points max).\nSi la Charge de Himeko est au maximum lorsqu'un allié attaque, Himeko effectue immédiatement 1 attaque de suivi et inflige des DGT de feu équivalents à #1[i]% de son ATQ à tous les ennemis, consommant tous les points de Charge.\nHimeko obtient 1 point de Charge en début de combat.",
         "params": [
             [
@@ -995,7 +995,7 @@
         "type_text": "Technique",
         "effect": "Impair",
         "effect_text": "Incapacitation",
-        "simple_desc": "",
+        "simple_desc": "Génère une dimension. En engageant le combat avec des ennemis à l'intérieur de la dimension, il y a de fortes chances d'augmenter les DGT de feu subis par les ennemis.",
         "desc": "Crée une dimension qui dure #4[i] secondes après utilisation de la technique. Après être entré en combat avec des ennemis dans la dimension, il y a #1[i]% de chances de base d'augmenter les DGT de feu subis par les ennemis de #2[i]% pendant #3[i] tours. Il ne peut exister qu'1 dimension créée par les alliés à la fois.",
         "params": [
             [
@@ -1268,7 +1268,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Renforcement",
-        "simple_desc": "",
+        "simple_desc": "Après avoir attaqué des ennemis ralentis, inflige des DGT additionnels imaginaires mineurs.",
         "desc": "Lorsqu'il touche un ennemi qui est ralenti, Welt lui inflige des DGT imaginaires additionnels équivalents à #1[i]% de son ATQ.",
         "params": [
             [
@@ -1342,7 +1342,7 @@
         "type_text": "Technique",
         "effect": "Impair",
         "effect_text": "Incapacitation",
-        "simple_desc": "",
+        "simple_desc": "Genère une dimension. La vitesse de déplacement des ennemis à l'intérieur de la dimension est réduite. En engageant le combat avec des ennemis à l'intérieur de la dimension, il y a de fortes chances d'infliger Emprisonné aux ennemis.",
         "desc": "Crée une dimension qui dure #4[i] secondes après utilisation de la technique. Les ennemis dans cette dimension voient leur vitesse de déplacement réduite de #5[i]%. Après être entré en combat avec des ennemis dans la dimension, il y a #1[i]% de chances de base d'emprisonner les ennemis pour 1 tour.\nLes ennemis emprisonnés voient leurs actions retardées de #2[i]% et leur VIT réduite de #3[i]%. Il ne peut exister qu'1 dimension créée par les alliés à la fois.",
         "params": [
             [
@@ -1406,7 +1406,7 @@
         "type_text": "Compétence",
         "effect": "Blast",
         "effect_text": "Propagation",
-        "simple_desc": "Inflige des DGT de foudre à un ennemi ainsi que des dégâts sur la durée supplémentaires. Inflige également des DGT de foudre mineurs aux ennemis adjacents.",
+        "simple_desc": "Inflige des DGT de foudre à un ennemi unique et des DGT de foudre mineurs aux cibles adjacentes.\nSi la cible ennemie subit actuellement un effet de dégâts sur la durée, ces dégâts s'activent 1 fois supplémentaire.",
         "desc": "Inflige des DGT de foudre équivalents à #1[i]% de l'ATQ de Kafka à une cible ennemie et des DGT de foudre équivalents à #3[i]% de l'ATQ de Kafka aux ennemis adjacents.\nSi la cible ennemie est soumise à des dégâts sur la durée, tous les dégâts sur la durée qu'elle subit actuellement produisent immédiatement des DGT équivalents à #2[i]% des DGT initiaux.",
         "params": [
             [
@@ -1496,113 +1496,113 @@
         "type_text": "Ultime",
         "effect": "AoEAttack",
         "effect_text": "ZdE",
-        "simple_desc": "Inflige des DGT de foudre mineurs à tous les ennemis, avec de fortes chances de les stupéfier, ce qui leur inflige des DGT supplémentaires.",
+        "simple_desc": "Inflige des DGT de foudre mineurs à tous les ennemis, avec de fortes chances de les stupéfier.\nSi les ennemis sont déjà stupéfiés, l'état Stupéfaction inflige des dégâts 1 fois de plus.",
         "desc": "Inflige des DGT de foudre équivalents à #1[i]% de l'ATQ de Kafka à tous les ennemis. Les ennemis touchés ont #2[i]% de chances de base d'être stupéfiés et de subir immédiatement des DGT équivalents à #5[i]% des dégâts sur la durée. Stupéfaction dure #3[i] tours.\nLes ennemis stupéfiés subissent des dégâts de foudre sur la durée équivalents à #4[i]% de l'ATQ de Kafka au début de chaque tour.",
         "params": [
             [
                 0.48,
                 1,
                 2,
-                0.95,
-                0.72
+                1.16,
+                0.8
             ],
             [
                 0.512,
                 1,
                 2,
-                1.045,
-                0.738
+                1.2688,
+                0.82
             ],
             [
                 0.544,
                 1,
                 2,
-                1.14,
-                0.756
+                1.3775,
+                0.84
             ],
             [
                 0.576,
                 1,
                 2,
-                1.235,
-                0.774
+                1.4863,
+                0.86
             ],
             [
                 0.608,
                 1,
                 2,
-                1.33,
-                0.792
+                1.595,
+                0.88
             ],
             [
                 0.64,
                 1,
                 2,
-                1.4725,
-                0.81
+                1.7581,
+                0.9
             ],
             [
                 0.68,
                 1,
                 2,
-                1.6625,
-                0.8325
+                1.9756,
+                0.925
             ],
             [
                 0.72,
                 1,
                 2,
-                1.9,
-                0.855
+                2.2475,
+                0.95
             ],
             [
                 0.76,
                 1,
                 2,
-                2.185,
-                0.8775
+                2.5738,
+                0.975
             ],
             [
                 0.8,
                 1,
                 2,
-                2.47,
-                0.9
+                2.9,
+                1
             ],
             [
                 0.832,
                 1,
                 2,
-                2.5935,
-                0.918
+                3.0414,
+                1.02
             ],
             [
                 0.864,
                 1,
                 2,
-                2.717,
-                0.936
+                3.1828,
+                1.04
             ],
             [
                 0.896,
                 1,
                 2,
-                2.8405,
-                0.954
+                3.3241,
+                1.06
             ],
             [
                 0.928,
                 1,
                 2,
-                2.964,
-                0.972
+                3.4655,
+                1.08
             ],
             [
                 0.96,
                 1,
                 2,
-                3.0875,
-                0.99
+                3.6069,
+                1.1
             ]
         ],
         "icon": "icon/skill/1005_ultimate.png"
@@ -1616,98 +1616,83 @@
         "type_text": "Talent",
         "effect": "SingleAttack",
         "effect_text": "Cible unique",
-        "simple_desc": "",
-        "desc": "Lorsqu'un allié de Kafka utilise une ATQ normale sur un ennemi, Kafka lance immédiatement 1 attaque de suivi et inflige des DGT de foudre équivalents à #1[i]% de sa propre ATQ à cet ennemi, avec #4[i]% de chances de base d'augmenter les DGT subis par cet ennemi de #2[i]% pendant #3[i] tours. Cet effet ne peut être déclenché qu'1 fois par tour.",
+        "simple_desc": "Lorsqu'un allié lance son ATQ normale sur un ennemi, Kafka lance immédiatement une attaque de suivi et inflige des DGT de foudre mineurs, avec de fortes chances d'infliger Stupéfaction à cette cible. Cet effet ne peut être déclenché qu'1 fois par tour.",
+        "desc": "Lorsqu'un allié de Kafka utilise une ATQ normale sur une cible ennemie, Kafka lance immédiatement 1 attaque de suivi et inflige des DGT de foudre équivalents à #1[i]% de son ATQ à cette cible, avec #2[i]% de chances de base de lui infliger l'effet Stupéfaction de son ultime pendant #3[i] tours. Cet effet ne peut être déclenché que 1 fois par tour.",
         "params": [
             [
-                0.6,
-                0.15,
-                2,
-                1
+                0.42,
+                1,
+                2
             ],
             [
-                0.66,
-                0.155,
-                2,
-                1
+                0.518,
+                1,
+                2
             ],
             [
-                0.72,
-                0.16,
-                2,
-                1
+                0.616,
+                1,
+                2
             ],
             [
-                0.78,
-                0.165,
-                2,
-                1
+                0.714,
+                1,
+                2
             ],
             [
-                0.84,
-                0.17,
-                2,
-                1
+                0.812,
+                1,
+                2
             ],
             [
-                0.9,
-                0.175,
-                2,
-                1
+                0.91,
+                1,
+                2
             ],
             [
-                0.975,
-                0.1813,
-                2,
-                1
+                1.0325,
+                1,
+                2
             ],
             [
-                1.05,
-                0.1875,
-                2,
-                1
+                1.155,
+                1,
+                2
             ],
             [
-                1.125,
-                0.1938,
-                2,
-                1
+                1.2775,
+                1,
+                2
             ],
             [
-                1.2,
-                0.2,
-                2,
-                1
+                1.4,
+                1,
+                2
             ],
             [
-                1.26,
-                0.205,
-                2,
-                1
+                1.498,
+                1,
+                2
             ],
             [
-                1.32,
-                0.21,
-                2,
-                1
+                1.596,
+                1,
+                2
             ],
             [
-                1.38,
-                0.215,
-                2,
-                1
+                1.694,
+                1,
+                2
             ],
             [
-                1.44,
-                0.22,
-                2,
-                1
+                1.792,
+                1,
+                2
             ],
             [
-                1.5,
-                0.225,
-                2,
-                1
+                1.89,
+                1,
+                2
             ]
         ],
         "icon": "icon/skill/1005_talent.png"
@@ -1735,13 +1720,12 @@
         "type_text": "Technique",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "",
-        "desc": "Attaque immédiatement. Inflige des DGT de foudre équivalents à #4[i]% de l'ATQ de Kafka à tous les ennemis après être entré en combat. D'autre part, chaque ennemi a #1[i]% de chances de base d'être stupéfié pendant #3[i] tours.\nLes ennemis stupéfiés subissent des dégâts de foudre sur la durée équivalents à #2[i]% de l'ATQ de Kafka au début de chaque tour.",
+        "simple_desc": "Attaque les ennemis à portée. Inflige des DGT de foudre mineurs à tous les ennemis avec de fortes chances de les stupéfier après être entré en combat.",
+        "desc": "Attaque immédiatement tous les ennemis dans un rayon déterminé. Inflige des DGT de foudre équivalents à #3[i]% de l'ATQ de Kafka à tous les ennemis après être entré en combat, avec #1[i]% de chances de base d'infliger l'effet Stupéfaction de l'ultime à chaque ennemi pendant #2[i] tours.",
         "params": [
             [
                 1,
-                0.5,
-                3,
+                2,
                 0.5
             ]
         ],
@@ -1798,8 +1782,8 @@
         "type_text": "Compétence",
         "effect": "Impair",
         "effect_text": "Incapacitation",
-        "simple_desc": "Fortes chances d'appliquer une Faiblesse de type supplémentaire et inflige des DGT quantiques à la cible ennemie.",
-        "desc": "Il y a #2[i]% de chances de base d'appliquer 1 Faiblesse du type d'un allié présent sur le champ de bataille à une cible ennemie. Réduit également la RÉS aux DGT de ce type de faiblesse de l'ennemi de #4[i]% pendant #3[i] tours. Si l'ennemi a déjà ce type de faiblesse, l'effet de réduction de RÉS aux DGT ne sera pas déclenché.\nChaque ennemi ne peut avoir qu'une seule Faiblesse appliquée par Louve d'argent à la fois. Si Louve d'argent applique une nouvelle Faiblesse, elle remplace la précédente.\nD'autre part, il y a #5[i]% de chances de base de réduire toutes les RÉS de type de l'ennemi de #6[f1]% pendant #7[i] tours.\nInflige des DGT quantiques équivalents à #1[i]% de l'ATQ de Louve d'argent à cet ennemi.",
+        "simple_desc": "Fortes chances d'appliquer une Faiblesse de type supplémentaire à un ennemi unique et de lui infliger des DGT quantiques.",
+        "desc": "Il y a #2[i]% de chances de base d'appliquer 1 Faiblesse du type d'un personnage présent sur le champ de bataille à une cible ennemie. Réduit également la RÉS aux DGT de ce type de faiblesse de l'ennemi de #4[i]% pendant #3[i] tours. Si l'ennemi a déjà ce type de faiblesse, l'effet de réduction de RÉS aux DGT ne sera pas déclenché.\nChaque ennemi ne peut avoir qu'une seule Faiblesse appliquée par Louve d'argent à la fois. Si Louve d'argent applique une nouvelle Faiblesse, elle remplace la précédente.\nD'autre part, il y a #5[i]% de chances de base de réduire toutes les RÉS de type de l'ennemi de #6[f1]% pendant #7[i] tours.\nInflige des DGT quantiques équivalents à #1[i]% de l'ATQ de Louve d'argent à cet ennemi.",
         "params": [
             [
                 0.98,
@@ -1948,7 +1932,7 @@
         "type_text": "Ultime",
         "effect": "Impair",
         "effect_text": "Incapacitation",
-        "simple_desc": "Fortes chances de réduire la DÉF d'un ennemi unique et inflige des DGT quantiques massifs à la cible ennemie.",
+        "simple_desc": "Fortes chances de réduire la DÉF d'un ennemi unique et inflige des DGT quantiques massifs à cette cible ennemie.",
         "desc": "Il y a #2[i]% de chances de base de réduire la DÉF d'une cible ennemie de #3[f1]% pendant #4[i] tours. D'autre part, inflige à la cible ennemie des DGT quantiques équivalent à #1[i]% de l'ATQ de Louve d'argent.",
         "params": [
             [
@@ -2053,7 +2037,7 @@
         "type_text": "Talent",
         "effect": "Impair",
         "effect_text": "Incapacitation",
-        "simple_desc": "Après une attaque, il y a une chance d'implanter 1 Bug aléatoire à l'ennemi attaqué.",
+        "simple_desc": "Après chaque attaque, il y a une chance d'implanter 1 Bug aléatoire à l'ennemi attaqué.",
         "desc": "Louve d'argent peut créer trois types de Bugs : une réduction d'ATQ de #1[f1]%, une réduction de DÉF de #2[f1]% ou une réduction de VIT de #3[f1]%.\nChaque fois que Louve d'argent attaque, elle a #4[i]% de chances de base d'implanter un Bug aléatoire qui dure #5[i] tours aux cibles attaquées.",
         "params": [
             [
@@ -2397,7 +2381,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Renforcement",
-        "simple_desc": "",
+        "simple_desc": "Augmente les DGT sur la base du pourcentage actuel de PV perdus.",
         "desc": "Augmente les DGT d'Arlan pour chaque pourcentage de PV en dessous de ses PV max, jusqu'à un maximum de #1[i]% de DGT supplémentaires.",
         "params": [
             [
@@ -2471,7 +2455,7 @@
         "type_text": "Technique",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "",
+        "simple_desc": "Attaque les ennemis. Inflige des DGT de foudre mineurs à tous les ennemis après être entré en combat.",
         "desc": "Attaque immédiatement les ennemis. Inflige des DGT de foudre équivalents à #1[i]% de l'ATQ d'Arlan à tous les ennemis après être entré en combat.",
         "params": [
             [
@@ -2973,7 +2957,7 @@
     },
     "101304": {
         "id": "101304",
-        "name": "On n'est pas mieux servi que par soi-même",
+        "name": "La chance a tourné !",
         "max_level": 15,
         "element": "Ice",
         "type": "Talent",
@@ -3340,7 +3324,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Renforcement",
-        "simple_desc": "",
+        "simple_desc": "Après avoir lancée l'ATQ normale, la prochaine action est avancée.",
         "desc": "Après utilisation de son ATQ normale, l'action suivante de Bronya est avancée de #1[i]%.",
         "params": [
             [
@@ -3414,7 +3398,7 @@
         "type_text": "Technique",
         "effect": "Support",
         "effect_text": "Soutien",
-        "simple_desc": "",
+        "simple_desc": "Après l'utilisation de la technique, l'ATQ de tous les alliés augmente au début du prochain combat.",
         "desc": "Après utilisation de la technique de Bronya, l'ATQ de tous les alliés augmente de #1[i]% pendant #2[i] tours au début du combat suivant.",
         "params": [
             [
@@ -4301,7 +4285,7 @@
         "type_text": "Talent",
         "effect": "Restore",
         "effect_text": "Restauration",
-        "simple_desc": "",
+        "simple_desc": "Au lieu de tomber à terre lorsqu'il subit un coup fatal, restaure immédiatement des PV. Cet effet ne peut se déclencher qu'une fois par combat.",
         "desc": "Au lieu de tomber à terre lorsqu'il subit un coup fatal, Gepard restaure immédiatement #1[i]% de ses PV max. Cet effet ne peut se déclencher qu'une fois par combat.",
         "params": [
             [
@@ -4375,7 +4359,7 @@
         "type_text": "Technique",
         "effect": "Defence",
         "effect_text": "Défense",
-        "simple_desc": "",
+        "simple_desc": "Après l'utilisation de la technique, tous les alliés obtiennent un bouclier au début du prochain combat.",
         "desc": "Après utilisation de la technique de Gepard, tous les alliés gagnent un bouclier qui absorbe des DGT équivalents à #1[i]% de la DÉF de Gepard + #3[i] pendant #2[i] tours au début du combat suivant.",
         "params": [
             [
@@ -4632,7 +4616,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Renforcement",
-        "simple_desc": "",
+        "simple_desc": "Augmente les soins prodigués aux alliés dont les PV sont bas. Cet effet affecte également les soins continus.",
         "desc": "Lorsque Natasha soigne des alliés dont le pourcentage de PV est inférieur ou égal à #1[i]%, les soins qu'elle prodigue augmentent de #2[i]%. Cet effet fonctionne également sur les soins continus.",
         "params": [
             [
@@ -4721,7 +4705,7 @@
         "type_text": "Technique",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "",
+        "simple_desc": "Attaque les ennemis. Inflige des DGT physiques mineurs à un ennemi unique aléatoire, avec de fortes chances d'infliger Affaiblissement à toutes les cibles ennemies après être entré en combat.",
         "desc": "Attaque immédiatement les ennemis. Inflige des DGT physiques équivalents à #4[i]% de l'ATQ de Natasha à un ennemi aléatoire avec #1[i]% de chances de base d'affaiblir tous les ennemis après être entré en combat.\nLes ennemis affaiblis infligent #2[i]% de DGT en moins aux alliés pendant #3[i] tour.",
         "params": [
             [
@@ -5296,7 +5280,7 @@
         "type_text": "Talent",
         "effect": "SingleAttack",
         "effect_text": "Cible unique",
-        "simple_desc": "",
+        "simple_desc": "Réduit les DGT infligés par toutes les attaques ennemies. Les ennemis qui attaquent Clara obtiennent une Marque de contre, et subissent le Contre de Svarog qui inflige des DGT physiques.",
         "desc": "Sous la protection de Svarog, les DGT subis par Clara lorsqu'elle est touchée par des attaques ennemies sont réduits de #3[i]%. Svarog marque les ennemis qui attaquent Clara de sa Marque de contre et riposte avec un contre, infligeant des DGT physiques équivalents à #2[i]% de l'ATQ de Clara.",
         "params": [
             [
@@ -5400,7 +5384,7 @@
         "type_text": "Technique",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "",
+        "simple_desc": "Attaque les ennemis. Les chances de ce personnage d'être attaqué par les ennemis augmentent après être entré en combat.",
         "desc": "Attaque immédiatement les ennemis. Les chances pour Clara de se faire attaquer par des ennemis augmentent pendant #1[i] tours en entrant en combat.",
         "params": [
             [
@@ -5641,7 +5625,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Renforcement",
-        "simple_desc": "",
+        "simple_desc": "Lorsque ce personnage attaque un ennemi, il y a une chance d'infliger Faille du vent à cette cible.",
         "desc": "Les attaques de Sampo ont #1[i]% de chances de base d'infliger Faille du vent pendant #3[i] tours.\nLes ennemis affectés par Faille du vent subissent des dégâts de vent sur la durée équivalents à #2[i]% de l'ATQ de Sampo au début de chaque tour. Faille du vent peut être cumulé jusqu'à #4[i] fois.",
         "params": [
             [
@@ -5760,7 +5744,7 @@
         "type_text": "Technique",
         "effect": "Impair",
         "effect_text": "Incapacitation",
-        "simple_desc": "",
+        "simple_desc": "Les ennemis dans une zone définie sont Aveuglés. En engageant le combat contre des ennemis Aveuglés, il y a de fortes chances de retarder leurs actions.",
         "desc": "Après utilisation de la technique de Sampo, les ennemis situés dans une zone définie subissent Aveuglement pendant #1[i] secondes. Les ennemis aveuglés ne peuvent pas détecter votre équipe.\nLorsqu'un combat est lancé contre un ennemi aveuglé, il y a #2[i]% de chances fixes de retarder l'action de tous les ennemis de #3[i]%.",
         "params": [
             [
@@ -6207,6 +6191,447 @@
             ]
         ],
         "icon": "icon/skill/1109_skill.png"
+    },
+    "111101": {
+        "id": "111101",
+        "name": "Direct du droit",
+        "max_level": 9,
+        "element": "Physical",
+        "type": "Normal",
+        "type_text": "ATQ normale",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "Inflige des DGT physiques mineurs à un ennemi unique.",
+        "desc": "Inflige des DGT physiques équivalents à #1[i]% de l'ATQ de Luka à un ennemi unique.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": ""
+    },
+    "111102": {
+        "id": "111102",
+        "name": "Poing lacérateur",
+        "max_level": 15,
+        "element": "Physical",
+        "type": "BPSkill",
+        "type_text": "Compétence",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "Inflige des DGT physiques à une cible unique, avec de fortes chances de lui infliger Saignement.",
+        "desc": "Inflige des DGT physiques équivalents à #1[i]% de l'ATQ de Luka à une cible ennemie unique, avec #2[i]% de chances de base de lui infliger Saignement pendant #5[i] tours.\nQuand un ennemi souffre de Saignement, il subit des dégâts sur la durée physiques équivalents à #3[f1]% de ses PV max au début de chaque tour. Ces DGT ne peuvent pas excéder #4[i]% de l'ATQ de Luka.",
+        "params": [
+            [
+                0.6,
+                1,
+                0.24,
+                1.3,
+                3
+            ],
+            [
+                0.66,
+                1,
+                0.24,
+                1.43,
+                3
+            ],
+            [
+                0.72,
+                1,
+                0.24,
+                1.56,
+                3
+            ],
+            [
+                0.78,
+                1,
+                0.24,
+                1.69,
+                3
+            ],
+            [
+                0.84,
+                1,
+                0.24,
+                1.82,
+                3
+            ],
+            [
+                0.9,
+                1,
+                0.24,
+                2.015,
+                3
+            ],
+            [
+                0.975,
+                1,
+                0.24,
+                2.275,
+                3
+            ],
+            [
+                1.05,
+                1,
+                0.24,
+                2.6,
+                3
+            ],
+            [
+                1.125,
+                1,
+                0.24,
+                2.99,
+                3
+            ],
+            [
+                1.2,
+                1,
+                0.24,
+                3.38,
+                3
+            ],
+            [
+                1.26,
+                1,
+                0.24,
+                3.549,
+                3
+            ],
+            [
+                1.32,
+                1,
+                0.24,
+                3.718,
+                3
+            ],
+            [
+                1.38,
+                1,
+                0.24,
+                3.887,
+                3
+            ],
+            [
+                1.44,
+                1,
+                0.24,
+                4.056,
+                3
+            ],
+            [
+                1.5,
+                1,
+                0.24,
+                4.225,
+                3
+            ]
+        ],
+        "icon": ""
+    },
+    "111103": {
+        "id": "111103",
+        "name": "Coup de grâce",
+        "max_level": 15,
+        "element": "Physical",
+        "type": "Ultra",
+        "type_text": "Ultime",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "Accorde #5[i] cumuls de Soif de combat, avec de fortes chances d'augmenter les DGT subis par la cible ennemie et lui inflige des DGT physiques massifs.",
+        "desc": "Accorde #5[i] cumuls de Soif de combat, avec #2[i]% de chances de base d'augmenter les DGT subis par une cible ennemie unique de #3[f1]% pendant #4[i] tours. Puis inflige des DGT physiques équivalents à #1[i]% de l'ATQ de Luka à la cible.",
+        "params": [
+            [
+                1.98,
+                1,
+                0.12,
+                3,
+                2
+            ],
+            [
+                2.112,
+                1,
+                0.128,
+                3,
+                2
+            ],
+            [
+                2.244,
+                1,
+                0.136,
+                3,
+                2
+            ],
+            [
+                2.376,
+                1,
+                0.144,
+                3,
+                2
+            ],
+            [
+                2.508,
+                1,
+                0.152,
+                3,
+                2
+            ],
+            [
+                2.64,
+                1,
+                0.16,
+                3,
+                2
+            ],
+            [
+                2.805,
+                1,
+                0.17,
+                3,
+                2
+            ],
+            [
+                2.97,
+                1,
+                0.18,
+                3,
+                2
+            ],
+            [
+                3.135,
+                1,
+                0.19,
+                3,
+                2
+            ],
+            [
+                3.3,
+                1,
+                0.2,
+                3,
+                2
+            ],
+            [
+                3.432,
+                1,
+                0.208,
+                3,
+                2
+            ],
+            [
+                3.564,
+                1,
+                0.216,
+                3,
+                2
+            ],
+            [
+                3.696,
+                1,
+                0.224,
+                3,
+                2
+            ],
+            [
+                3.828,
+                1,
+                0.232,
+                3,
+                2
+            ],
+            [
+                3.96,
+                1,
+                0.24,
+                3,
+                2
+            ]
+        ],
+        "icon": ""
+    },
+    "111104": {
+        "id": "111104",
+        "name": "Étincelles volantes",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Enhance",
+        "effect_text": "Renforcement",
+        "simple_desc": "Reçoit 1 cumul de Soif de combat après avoir utilisé l'ATQ normale, « Direct du droit », ou la compétence, « Poing lacérateur ». À 2 cumuls ou plus de Soif de combat, l'ATQ normale devient renforcée.\nSi l'ennemi est victime de Saignement, l'ATQ normale renforcée augmente les DGT de Saignement 1 fois.",
+        "desc": "Luka reçoit #1[i] cumul de Soif de combat après utilisation de son ATQ normale, « Direct du droit », ou de sa compétence, « Poing lacérateur », jusqu'à un maximum de 4 cumuls. À 2 cumuls de Soif de combat, son ATQ normale, Direct du droit, se trouve renforcée en « Poing destructeur d'étoiles ». Lorsque l'« Uppercut du droit » de son ATQ normale renforcée touche une cible ennemie victime de Saignement, l'effet Saignement inflige immédiatement des DGT équivalents à #2[i]% des DGT de Saignement d'origine 1 fois. Luka dispose d'1 cumul de Soif de combat en début de combat.",
+        "params": [
+            [
+                1,
+                0.68
+            ],
+            [
+                1,
+                0.697
+            ],
+            [
+                1,
+                0.714
+            ],
+            [
+                1,
+                0.731
+            ],
+            [
+                1,
+                0.748
+            ],
+            [
+                1,
+                0.765
+            ],
+            [
+                1,
+                0.7863
+            ],
+            [
+                1,
+                0.8075
+            ],
+            [
+                1,
+                0.8288
+            ],
+            [
+                1,
+                0.85
+            ],
+            [
+                1,
+                0.867
+            ],
+            [
+                1,
+                0.884
+            ],
+            [
+                1,
+                0.901
+            ],
+            [
+                1,
+                0.918
+            ],
+            [
+                1,
+                0.935
+            ]
+        ],
+        "icon": ""
+    },
+    "111106": {
+        "id": "111106",
+        "name": "Attaque",
+        "max_level": 1,
+        "element": "Physical",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
+        "params": [],
+        "icon": ""
+    },
+    "111107": {
+        "id": "111107",
+        "name": "Anticipation",
+        "max_level": 1,
+        "element": "Physical",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "Attaque les ennemis. Inflige des DGT physiques mineurs à un ennemi unique aléatoire après être entré en combat, avec de fortes chances d'infliger Saignement à la cible ennemie. Puis, gagne 1 cumul de Soif de combat.",
+        "desc": "Attaque immédiatement les ennemis. Luka inflige des DGT physiques équivalents à #1[i]% de son ATQ à un ennemi aléatoire en entrant en combat, avec #2[i]% de chances de base de lui infliger l'effet Saignement de sa compétence, à la suite de quoi Luka obtient un cumul supplémentaire de Soif de combat.",
+        "params": [
+            [
+                0.5,
+                1
+            ]
+        ],
+        "icon": ""
+    },
+    "111108": {
+        "id": "111108",
+        "name": "Poing destructeur d'étoiles",
+        "max_level": 9,
+        "element": "Physical",
+        "type": "Normal",
+        "type_text": "ATQ normale",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "Consomme 2 cumuls de Soif de combat pour infliger des DGT physiques à une cible unique.",
+        "desc": "Consomme 2 cumuls de Soif de combat. Utilise d'abord Direct du droit pour lancer 3 coups, chacun infligeant des DGT physiques équivalents à #1[i]% de l'ATQ de Luka à la cible ennemie.\nPuis, utilise Uppercut du droit pour lancer 1 coup, infligeant des DGT physiques équivalents à #2[i]% de l'ATQ de Luka à la cible ennemie.",
+        "params": [
+            [
+                0.1,
+                0.4
+            ],
+            [
+                0.12,
+                0.48
+            ],
+            [
+                0.14,
+                0.56
+            ],
+            [
+                0.16,
+                0.64
+            ],
+            [
+                0.18,
+                0.72
+            ],
+            [
+                0.2,
+                0.8
+            ],
+            [
+                0.22,
+                0.88
+            ],
+            [
+                0.24,
+                0.96
+            ],
+            [
+                0.26,
+                1.04
+            ]
+        ],
+        "icon": ""
     },
     "120101": {
         "id": "120101",
@@ -6924,7 +7349,7 @@
         "effect": "Restore",
         "effect_text": "Restauration",
         "simple_desc": "Restaure les PV d'un allié unique et gagne 1 cumul de Fleur de l'abîme.",
-        "desc": "Après utilisation de la compétence, restaure immédiatement des PV à une cible alliée à hauteur de #1[i]% de l'ATQ de Luocha + #2[i]. D'autre part, Luocha obtient 1 cumul de Fleur de l'abîme.\nLorsque le pourcentage de PV d'un allié devient inférieur ou égal à #3[i]%, un effet équivalent à celui de la compétence de Luocha est immédiatement déclenché et appliqué une fois à cet allié (sans consommer de points de compétence). Cet effet peut être déclenché à nouveau après #4[i] tours.",
+        "desc": "Après utilisation de la compétence, restaure immédiatement des PV à une cible alliée à hauteur de #1[i]% de l'ATQ de Luocha + #2[i]. D'autre part, Luocha obtient 1 cumul de Fleur de l'abîme.\nLorsque le pourcentage de PV d'un allié devient inférieur ou égal à #3[i]%, un effet équivalent à celui de la compétence est immédiatement déclenché et appliqué une fois à cet allié (sans consommer de points de compétence). Cet effet peut être déclenché à nouveau après #4[i] tours.",
         "params": [
             [
                 0.4,
@@ -7103,8 +7528,8 @@
         "type_text": "Talent",
         "effect": "Restore",
         "effect_text": "Restauration",
-        "simple_desc": "Déploie un Champ lorsque Fleur de l'abîme atteint 2 cumuls. Tant que le Champ est actif, les alliés récupèrent des PV après avoir utilisé une attaque.",
-        "desc": "Lorsque le nombre de cumuls de Fleur de l'abîme atteint #1[i], Luocha consomme tous les cumuls de Fleur de l'abîme pour déployer un Champ hostile aux ennemis.\nLorsqu'un ennemi situé dans le Champ est attaqué par un allié, ce dernier restaure immédiatement un montant de PV équivalent à #2[f1]% de l'ATQ de Luocha + #4[i].\nL'effet du Champ dure #3[i] tours. Le Champ se dissipe lorsque Luocha est à terre.",
+        "simple_desc": "Déploie un Champ lorsque Fleur de l'abîme atteint 2 cumuls. Tant que le Champ est actif, les alliés récupèrent des PV après avoir attaqué.",
+        "desc": "Lorsque le nombre de cumuls de Fleur de l'abîme atteint #1[i], Luocha consomme tous les cumuls de Fleur de l'abîme pour déployer un Champ hostile aux ennemis.\nLorsqu'un ennemi situé dans le Champ est attaqué par un allié, les PV de ce dernier sont immédiatement restaurés à hauteur de #2[f1]% de l'ATQ de Luocha + #4[i].\nL'effet du Champ dure #3[i] tours. Le Champ se dissipe lorsque Luocha est à terre.",
         "params": [
             [
                 2,
@@ -7223,7 +7648,7 @@
         "effect": "Restore",
         "effect_text": "Restauration",
         "simple_desc": "Après utilisation de la technique, déclenche immédiatement l'effet du talent au début du combat suivant.",
-        "desc": "Après utilisation de la technique, le talent se déclenche immédiatement au début du combat suivant.",
+        "desc": "Après utilisation de la technique, déclenche immédiatement l'effet du talent au début du combat suivant.",
         "params": [],
         "icon": "icon/skill/1203_technique.png"
     },
@@ -7586,6 +8011,519 @@
         ],
         "icon": "icon/skill/1204_technique.png"
     },
+    "120501": {
+        "id": "120501",
+        "name": "Lame d'éclat",
+        "max_level": 9,
+        "element": "Wind",
+        "type": "Normal",
+        "type_text": "ATQ normale",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "Inflige des DGT de vent mineurs à un ennemi.",
+        "desc": "Inflige des DGT de vent équivalents à #1[i]% de l'ATQ de Blade à une cible ennemie.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": ""
+    },
+    "120502": {
+        "id": "120502",
+        "name": "Vue de l'enfer",
+        "max_level": 15,
+        "element": "Wind",
+        "type": "BPSkill",
+        "type_text": "Compétence",
+        "effect": "Enhance",
+        "effect_text": "Renforcement",
+        "simple_desc": "Consomme des PV pour renforcer l'ATQ normale, sans mettre fin au tour.",
+        "desc": "Consomme #1[i]% des PV max de Blade pour entrer dans l'état Vue de l'enfer.\nLorsque l'état Vue de l'enfer est actif, Blade ne peut plus utiliser sa compétence, mais les DGT qu'il inflige augmentent de #4[i]%, et son ATQ normale Lame d'éclat se renforce en Forêt de lames pendant #2[i] tours.\nSi les PV de Blade sont insuffisants pour utiliser la compétence, ils tombent à 1 après utilisation de la compétence.\nCette compétence ne régénère pas l'énergie. Utiliser cette compétence ne met pas fin au tour.",
+        "params": [
+            [
+                0.3,
+                3,
+                1,
+                0.12
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.148
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.176
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.204
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.232
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.26
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.295
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.33
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.365
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.4
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.428
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.456
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.484
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.512
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.54
+            ]
+        ],
+        "icon": ""
+    },
+    "120503": {
+        "id": "120503",
+        "name": "Condamnation à mort",
+        "max_level": 15,
+        "element": "Wind",
+        "type": "Ultra",
+        "type_text": "Ultime",
+        "effect": "Blast",
+        "effect_text": "Propagation",
+        "simple_desc": "Les PV du personnage passent à 50 % de ses PV max, et il inflige des DGT de vent massifs à une cible unique ainsi que des DGT de vent aux cibles adjacentes.",
+        "desc": "Les PV de Blade passent à 50 % de ses PV max, et il inflige des DGT de vent équivalents à la somme de #1[i]% de son ATQ, #2[i]% de ses PV max, et #5[i]% du total des PV qu'il a perdus au cours du combat à une cible unique, tout en infligeant des DGT de vent équivalents à la somme de #3[f1]% de son ATQ, #4[i]% de ses PV max, et #6[i]% du total des PV qu'il a perdus au cours du combat aux cibles adjacentes. Le montant des PV qu'il a perdus au cours du combat est plafonné à #7[i]% de ses PV max. Ce montant est remis à zéro et recommence à s'accumuler après l'utilisation de l'ultime.",
+        "params": [
+            [
+                0.24,
+                0.6,
+                0.096,
+                0.24,
+                0.6,
+                0.24,
+                0.9
+            ],
+            [
+                0.256,
+                0.64,
+                0.1024,
+                0.256,
+                0.64,
+                0.256,
+                0.9
+            ],
+            [
+                0.272,
+                0.68,
+                0.1088,
+                0.272,
+                0.68,
+                0.272,
+                0.9
+            ],
+            [
+                0.288,
+                0.72,
+                0.1152,
+                0.288,
+                0.72,
+                0.288,
+                0.9
+            ],
+            [
+                0.304,
+                0.76,
+                0.1216,
+                0.304,
+                0.76,
+                0.304,
+                0.9
+            ],
+            [
+                0.32,
+                0.8,
+                0.128,
+                0.32,
+                0.8,
+                0.32,
+                0.9
+            ],
+            [
+                0.34,
+                0.85,
+                0.136,
+                0.34,
+                0.85,
+                0.34,
+                0.9
+            ],
+            [
+                0.36,
+                0.9,
+                0.144,
+                0.36,
+                0.9,
+                0.36,
+                0.9
+            ],
+            [
+                0.38,
+                0.95,
+                0.152,
+                0.38,
+                0.95,
+                0.38,
+                0.9
+            ],
+            [
+                0.4,
+                1,
+                0.16,
+                0.4,
+                1,
+                0.4,
+                0.9
+            ],
+            [
+                0.416,
+                1.04,
+                0.1664,
+                0.416,
+                1.04,
+                0.416,
+                0.9
+            ],
+            [
+                0.432,
+                1.08,
+                0.1728,
+                0.432,
+                1.08,
+                0.432,
+                0.9
+            ],
+            [
+                0.448,
+                1.12,
+                0.1792,
+                0.448,
+                1.12,
+                0.448,
+                0.9
+            ],
+            [
+                0.464,
+                1.16,
+                0.1856,
+                0.464,
+                1.16,
+                0.464,
+                0.9
+            ],
+            [
+                0.48,
+                1.2,
+                0.192,
+                0.48,
+                1.2,
+                0.48,
+                0.9
+            ]
+        ],
+        "icon": ""
+    },
+    "120504": {
+        "id": "120504",
+        "name": "Don de Shuhu",
+        "max_level": 15,
+        "element": "Wind",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "AoEAttack",
+        "effect_text": "ZdE",
+        "simple_desc": "Chaque fois que Blade perd des PV, il gagne 1 cumul de Charge. Lorsque le nombre de cumuls de Charge est au maximum, Blade inflige immédiatement des DGT de vent à tous les ennemis et restaure des PV, consommant tous les cumuls de Charge.",
+        "desc": "Chaque fois que Blade subit des DGT ou consomme ses PV, il gagne 1 cumul de Charge, jusqu'à un maximum de 5 cumuls. Blade ne peut gagner qu'1 cumul de Charge au maximum pour chaque attaque qu'il subit.\nLorsque le nombre de cumuls de Charge atteint son maximum, il lance immédiatement une attaque de suivi sur tous les ennemis, infligeant des DGT de vent équivalents à #2[i]% de son ATQ + #4[i]% de ses PV max. Blade restaure également #3[i]% de ses PV max. Toutes les Charges sont consommées après avoir déclenché l'attaque de suivi.",
+        "params": [
+            [
+                3,
+                0.22,
+                0.25,
+                0.55
+            ],
+            [
+                3,
+                0.242,
+                0.25,
+                0.605
+            ],
+            [
+                3,
+                0.264,
+                0.25,
+                0.66
+            ],
+            [
+                3,
+                0.286,
+                0.25,
+                0.715
+            ],
+            [
+                3,
+                0.308,
+                0.25,
+                0.77
+            ],
+            [
+                3,
+                0.33,
+                0.25,
+                0.825
+            ],
+            [
+                3,
+                0.3575,
+                0.25,
+                0.8938
+            ],
+            [
+                3,
+                0.385,
+                0.25,
+                0.9625
+            ],
+            [
+                3,
+                0.4125,
+                0.25,
+                1.0313
+            ],
+            [
+                3,
+                0.44,
+                0.25,
+                1.1
+            ],
+            [
+                3,
+                0.462,
+                0.25,
+                1.155
+            ],
+            [
+                3,
+                0.484,
+                0.25,
+                1.21
+            ],
+            [
+                3,
+                0.506,
+                0.25,
+                1.265
+            ],
+            [
+                3,
+                0.528,
+                0.25,
+                1.32
+            ],
+            [
+                3,
+                0.55,
+                0.25,
+                1.375
+            ]
+        ],
+        "icon": ""
+    },
+    "120506": {
+        "id": "120506",
+        "name": "Attaque",
+        "max_level": 1,
+        "element": "Wind",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
+        "params": [],
+        "icon": ""
+    },
+    "120507": {
+        "id": "120507",
+        "name": "Vent de karma",
+        "max_level": 1,
+        "element": "Wind",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "Attaque les ennemis. Consomme ses propres PV après être entré en combat pour infliger des DGT de vent à tous les ennemis.",
+        "desc": "Attaque immédiatement les ennemis. Consomme #2[i]% des PV max de Blade après être entré en combat pour infliger des DGT de vent équivalents à #1[i]% de ses PV max à tous les ennemis.\nSi les PV de Blade sont insuffisants, ils tombent à 1 après utilisation de cette technique.",
+        "params": [
+            [
+                0.4,
+                0.2
+            ]
+        ],
+        "icon": ""
+    },
+    "120508": {
+        "id": "120508",
+        "name": "Forêt de lames",
+        "max_level": 9,
+        "element": "Wind",
+        "type": "Normal",
+        "type_text": "ATQ normale",
+        "effect": "Blast",
+        "effect_text": "Propagation",
+        "simple_desc": "Consomme des PV et inflige des DGT de vent à un ennemi ainsi que des DGT de vent mineurs aux cibles adjacentes.",
+        "desc": "Consomme #1[i]% des PV max de Blade pour infliger des DGT de vent équivalents à #2[i]% de son ATQ + #4[i]% de ses PV max à une cible unique. Inflige également des DGT de vent équivalents à #3[i]% de l'ATQ de Blade + #5[i]% de ses PV max aux cibles adjacentes. Si les PV de Blade sont insuffisants, ils tombent à 1 après utilisation de Forêt de lames.\nForêt de lames ne permet pas de régénérer de points de compétence.",
+        "params": [
+            [
+                0.1,
+                0.2,
+                0.08,
+                0.5,
+                0.2
+            ],
+            [
+                0.1,
+                0.24,
+                0.096,
+                0.6,
+                0.24
+            ],
+            [
+                0.1,
+                0.28,
+                0.112,
+                0.7,
+                0.28
+            ],
+            [
+                0.1,
+                0.32,
+                0.128,
+                0.8,
+                0.32
+            ],
+            [
+                0.1,
+                0.36,
+                0.144,
+                0.9,
+                0.36
+            ],
+            [
+                0.1,
+                0.4,
+                0.16,
+                1,
+                0.4
+            ],
+            [
+                0.1,
+                0.44,
+                0.176,
+                1.1,
+                0.44
+            ],
+            [
+                0.1,
+                0.48,
+                0.192,
+                1.2,
+                0.48
+            ],
+            [
+                0.1,
+                0.52,
+                0.208,
+                1.3,
+                0.52
+            ]
+        ],
+        "icon": ""
+    },
     "120601": {
         "id": "120601",
         "name": "Escrime perce-nuages : Étoile brillante",
@@ -7637,8 +8575,8 @@
         "type_text": "Compétence",
         "effect": "SingleAttack",
         "effect_text": "Cible unique",
-        "simple_desc": "Inflige des DGT physiques à un ennemi unique et a une faible chance de déclencher Posture de l'épée. Si l'ennemi est affecté par Rupture de faiblesse, le déclenchement de Posture de l'épée est garanti.",
-        "desc": "Inflige des DGT physiques équivalents à #1[i]% de l'ATQ de Sushang à un ennemi unique. De plus, il y a #3[i]% de chances de déclencher Posture de l'épée lors du coup final, ce qui inflige à l'ennemi des DGT physiques additionnels équivalents à #2[i]% de l'ATQ de Sushang.\nSi l'ennemi est affecté par Rupture de faiblesse, le déclenchement de Posture de l'épée est garanti.",
+        "simple_desc": "Inflige des DGT physiques à un ennemi unique et a une faible chance de déclencher Posture de l'épée. Si l'ennemi est affecté par une Rupture de faiblesse, le déclenchement de Posture de l'épée est garanti.",
+        "desc": "Inflige des DGT physiques équivalents à #1[i]% de l'ATQ de Sushang à un ennemi unique. De plus, il y a #3[i]% de chances de déclencher Posture de l'épée lors du coup final, ce qui inflige à l'ennemi des DGT physiques additionnels équivalents à #2[i]% de l'ATQ de Sushang.\nSi l'ennemi est affecté par une Rupture de faiblesse, le déclenchement de Posture de l'épée est garanti.",
         "params": [
             [
                 1.05,
@@ -7832,7 +8770,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Renforcement",
-        "simple_desc": "",
+        "simple_desc": "Lorsqu'un ennemi subit une Rupture de faiblesse, la VIT du personnage augmente.",
         "desc": "Lorsqu'un ennemi subit une Rupture de faiblesse sur le champ de bataille, la VIT de Sushang augmente de #1[f2]% pendant #2[i] tours.",
         "params": [
             [
@@ -7921,7 +8859,7 @@
         "type_text": "Technique",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "",
+        "simple_desc": "Attaque les ennemis. Inflige des DGT physiques mineurs à tous les ennemis après être entré en combat.",
         "desc": "Attaque immédiatement les ennemis. Sushang inflige des DGT physiques équivalents à #1[i]% de son ATQ à tous les ennemis en entrant en combat.",
         "params": [
             [
@@ -7982,7 +8920,7 @@
         "effect": "Support",
         "effect_text": "Soutien",
         "simple_desc": "Gagne 2 cumuls de « Rugissement des cordes ». L'ATQ de tous les alliés augmente lorsque « Rugissement des cordes » est actif.",
-        "desc": "Obtient #1[i] cumuls de Rugissement des cordes (maximum de 2 cumuls). Lorsque « Rugissement des cordes » est actif, l'ATQ de tous les alliés augmente de #2[i]%, et Yukong perd 1 cumul de « Rugissement des cordes » à la fin de chaque tour allié.\nAu cours du tour où Yukong obtient « Rugissement des cordes » en utilisant sa compétence, elle ne perd pas de cumul de « Rugissement des cordes ».",
+        "desc": "Obtient #1[i] cumuls de « Rugissement des cordes » (maximum de 2 cumuls). Lorsque « Rugissement des cordes » est actif, l'ATQ de tous les alliés augmente de #2[i]%, et Yukong perd 1 cumul de « Rugissement des cordes » à la fin de chaque tour allié (y compris celui de Yukong).\nAu cours du tour où Yukong obtient « Rugissement des cordes » en utilisant sa compétence, elle ne perd pas de cumul de « Rugissement des cordes ».",
         "params": [
             [
                 2,
@@ -8147,7 +9085,7 @@
         "effect": "Enhance",
         "effect_text": "Renforcement",
         "simple_desc": "L'ATQ normale inflige des DGT supplémentaires mineurs, et les DGT à la robustesse de l'ATQ normale augmentent. Cet effet peut être déclenché à nouveau après 1 tour.",
-        "desc": "Les ATQ normales infligent des DGT imaginaires supplémentaires équivalents à #1[i]% de l'ATQ de Yukong et les DGT à la robustesse de ces attaques augmentent de #2[i]%. Cet effet peut être déclenché une fois tous les #3[i] tours.",
+        "desc": "Les ATQ normales infligent des DGT imaginaires supplémentaires équivalents à #1[i]% de l'ATQ de Yukong et les DGT à la robustesse de ces attaques augmentent de #2[i]%. Cet effet peut être déclenché à nouveau après #3[i] tour.",
         "params": [
             [
                 0.4,
@@ -8237,7 +9175,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Après avoir attaqué un ennemi et rejoint le combat, la résistance de l'ennemi au type correspondant est affaiblie.",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
         "params": [],
         "icon": "icon/skill/1207_basic_atk.png"
     },
@@ -8250,8 +9188,8 @@
         "type_text": "Technique",
         "effect": "Enhance",
         "effect_text": "Renforcement",
-        "simple_desc": "Augmente sa propre vitesse de déplacement. Reçoit 2 cumuls de Rugissement des cordes après être entré en combat en attaquant un ennemi.",
-        "desc": "Après utilisation de la technique, entre en mode Sprint pendant #1[i] secondes. En mode Sprint, la vitesse de déplacement augmente de #2[i]% et Yukong obtient #3[i] cumuls de « Rugissement des cordes » lorsqu'elle entre en combat en attaquant des ennemis.",
+        "simple_desc": "Augmente sa vitesse de déplacement. Reçoit 2 cumuls de « Rugissement des cordes » après être entré en combat en attaquant un ennemi.",
+        "desc": "Après utilisation de la technique, Yukong entre en mode Sprint pendant #1[i] secondes. En mode Sprint, la vitesse de déplacement augmente de #2[i]% et Yukong obtient #3[i] cumuls de « Rugissement des cordes » lorsqu'elle entre en combat en attaquant des ennemis.",
         "params": [
             [
                 20,
@@ -8462,7 +9400,7 @@
         "type_text": "Talent",
         "effect": "SingleAttack",
         "effect_text": "Cible unique",
-        "simple_desc": "",
+        "simple_desc": "Lorsque ce personnage est dans l'état Osmose avec l'acier, ses chances d'être attaqué sont réduites et ses chances de coup critique et ses DGT critiques augmentent. Après avoir attaqué un ennemi, il y a une chance de lancer une attaque de suivi, infligeant des DGT de glace avec une chance de geler la cible.\nOsmose avec l'acier se dissipe lorsque le personnage subit des DGT.",
         "desc": "Lorsque Osmose avec l'acier est active, Yanqing est moins susceptible d'être attaqué par des ennemis. Ses chances de coup critique augmentent de #1[f1]% et ses DGT critiques de #2[i]%. Lorsque Yanqing attaque un ennemi, il a #3[i]% de chances fixes de lancer une attaque de suivi, infligeant des DGT de glace équivalents à #4[i]% de son ATQ à l'ennemi, avec #6[i]% de chances de base de le geler pendant 1 tour.\nLa cible gelée ne peut pas agir et subit des DGT de glace additionnels équivalents à #5[i]% de l'ATQ de Yanqing au début de chaque tour.\nLorsque Yanqing subit des DGT, l'effet Osmose avec l'acier disparaît.",
         "params": [
             [
@@ -8611,7 +9549,7 @@
         "type_text": "Technique",
         "effect": "Enhance",
         "effect_text": "Renforcement",
-        "simple_desc": "",
+        "simple_desc": "Après l'utilisation de la technique, les DGT infligés aux ennemis dont les PV sont supérieurs ou égaux à 50 % augmentent au début du prochain combat.",
         "desc": "Après utilisation de sa technique, les DGT de Yanqing augmentent de #2[i]% pendant #3[i] tours contre les ennemis dont les PV sont supérieurs ou égaux à #1[i]% au début du combat suivant.",
         "params": [
             [
@@ -8868,7 +9806,7 @@
         "type_text": "Talent",
         "effect": "Restore",
         "effect_text": "Restauration",
-        "simple_desc": "",
+        "simple_desc": "Les alliés qui bénéficient de Revigoration regagnent des PV après avoir été attaqués.\nLorsqu'un allié subit un coup fatal, Bailu lui restaure immédiatement des PV. Cet effet ne peut être déclenché qu'une seule fois par combat.",
         "desc": "Lorsqu'un allié qui bénéficie de Revigoration est touché, restaure ses PV à hauteur de #1[f1]% des PV max de Bailu + #2[i]. Cet effet peut se déclencher #5[i] fois.\nQuand un allié subit un coup fatal, il ne tombe pas à terre, mais Bailu le soigne immédiatement à hauteur de #3[i]% de ses propres PV max + #4[i]. Cet effet peut être déclenché 1 fois par combat.",
         "params": [
             [
@@ -9002,7 +9940,7 @@
         "type_text": "Technique",
         "effect": "Restore",
         "effect_text": "Restauration",
-        "simple_desc": "",
+        "simple_desc": "Après l'utilisation de la technique, octroie Revigoration à tous les alliés au début du prochain combat.",
         "desc": "Après utilisation de la technique, tous les alliés sont revigorés pendant #1[i] tours au début du combat suivant.",
         "params": [
             [
@@ -9010,6 +9948,755 @@
             ]
         ],
         "icon": "icon/skill/1211_technique.png"
+    },
+    "121301": {
+        "id": "121301",
+        "name": "",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "ATQ normale",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "",
+        "desc": "",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": ""
+    },
+    "121302": {
+        "id": "121302",
+        "name": "",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Compétence",
+        "effect": "Enhance",
+        "effect_text": "Renforcement",
+        "simple_desc": "",
+        "desc": "",
+        "params": [
+            [
+                1.3,
+                0.6,
+                0.3,
+                0.06,
+                4,
+                0.6,
+                0.6
+            ],
+            [
+                1.43,
+                0.66,
+                0.33,
+                0.066,
+                4,
+                0.66,
+                0.66
+            ],
+            [
+                1.56,
+                0.72,
+                0.36,
+                0.072,
+                4,
+                0.72,
+                0.72
+            ],
+            [
+                1.69,
+                0.78,
+                0.39,
+                0.078,
+                4,
+                0.78,
+                0.78
+            ],
+            [
+                1.82,
+                0.84,
+                0.42,
+                0.084,
+                4,
+                0.84,
+                0.84
+            ],
+            [
+                1.95,
+                0.9,
+                0.45,
+                0.09,
+                4,
+                0.9,
+                0.9
+            ],
+            [
+                2.1125,
+                0.975,
+                0.4875,
+                0.0975,
+                4,
+                0.975,
+                0.975
+            ],
+            [
+                2.275,
+                1.05,
+                0.525,
+                0.105,
+                4,
+                1.05,
+                1.05
+            ],
+            [
+                2.4375,
+                1.125,
+                0.5625,
+                0.1125,
+                4,
+                1.125,
+                1.125
+            ],
+            [
+                2.6,
+                1.2,
+                0.6,
+                0.12,
+                4,
+                1.2,
+                1.2
+            ],
+            [
+                2.73,
+                1.26,
+                0.63,
+                0.126,
+                4,
+                1.26,
+                1.26
+            ],
+            [
+                2.86,
+                1.32,
+                0.66,
+                0.132,
+                4,
+                1.32,
+                1.32
+            ],
+            [
+                2.99,
+                1.38,
+                0.69,
+                0.138,
+                4,
+                1.38,
+                1.38
+            ],
+            [
+                3.12,
+                1.44,
+                0.72,
+                0.144,
+                4,
+                1.44,
+                1.44
+            ],
+            [
+                3.25,
+                1.5,
+                0.75,
+                0.15,
+                4,
+                1.5,
+                1.5
+            ]
+        ],
+        "icon": ""
+    },
+    "121303": {
+        "id": "121303",
+        "name": "",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Ultra",
+        "type_text": "Ultime",
+        "effect": "Blast",
+        "effect_text": "Propagation",
+        "simple_desc": "",
+        "desc": "",
+        "params": [
+            [
+                1.8,
+                0.84,
+                2,
+                3
+            ],
+            [
+                1.92,
+                0.896,
+                2,
+                3
+            ],
+            [
+                2.04,
+                0.952,
+                2,
+                3
+            ],
+            [
+                2.16,
+                1.008,
+                2,
+                3
+            ],
+            [
+                2.28,
+                1.064,
+                2,
+                3
+            ],
+            [
+                2.4,
+                1.12,
+                2,
+                3
+            ],
+            [
+                2.55,
+                1.19,
+                2,
+                3
+            ],
+            [
+                2.7,
+                1.26,
+                2,
+                3
+            ],
+            [
+                2.85,
+                1.33,
+                2,
+                3
+            ],
+            [
+                3,
+                1.4,
+                2,
+                3
+            ],
+            [
+                3.12,
+                1.456,
+                2,
+                3
+            ],
+            [
+                3.24,
+                1.512,
+                2,
+                3
+            ],
+            [
+                3.36,
+                1.568,
+                2,
+                3
+            ],
+            [
+                3.48,
+                1.624,
+                2,
+                3
+            ],
+            [
+                3.6,
+                1.68,
+                2,
+                3
+            ]
+        ],
+        "icon": ""
+    },
+    "121304": {
+        "id": "121304",
+        "name": "",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Enhance",
+        "effect_text": "Renforcement",
+        "simple_desc": "",
+        "desc": "",
+        "params": [
+            [
+                0.09,
+                5
+            ],
+            [
+                0.095,
+                5
+            ],
+            [
+                0.1,
+                5
+            ],
+            [
+                0.105,
+                5
+            ],
+            [
+                0.11,
+                5
+            ],
+            [
+                0.115,
+                5
+            ],
+            [
+                0.1213,
+                5
+            ],
+            [
+                0.1275,
+                5
+            ],
+            [
+                0.1338,
+                5
+            ],
+            [
+                0.14,
+                5
+            ],
+            [
+                0.145,
+                5
+            ],
+            [
+                0.15,
+                5
+            ],
+            [
+                0.155,
+                5
+            ],
+            [
+                0.16,
+                5
+            ],
+            [
+                0.165,
+                5
+            ]
+        ],
+        "icon": ""
+    },
+    "121306": {
+        "id": "121306",
+        "name": "Attaque",
+        "max_level": 1,
+        "element": "Imaginary",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
+        "params": [],
+        "icon": ""
+    },
+    "121307": {
+        "id": "121307",
+        "name": "",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Enhance",
+        "effect_text": "Renforcement",
+        "simple_desc": "",
+        "desc": "",
+        "params": [
+            [
+                1,
+                20
+            ]
+        ],
+        "icon": ""
+    },
+    "121308": {
+        "id": "121308",
+        "name": "",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "ATQ normale",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "",
+        "desc": "",
+        "params": [
+            [
+                1.3
+            ],
+            [
+                1.43
+            ],
+            [
+                1.56
+            ],
+            [
+                1.69
+            ],
+            [
+                1.82
+            ],
+            [
+                1.95
+            ],
+            [
+                2.1125
+            ],
+            [
+                2.275
+            ],
+            [
+                2.4375
+            ],
+            [
+                2.6
+            ],
+            [
+                2.73
+            ],
+            [
+                2.86
+            ],
+            [
+                2.99
+            ],
+            [
+                3.12
+            ],
+            [
+                3.25
+            ]
+        ],
+        "icon": ""
+    },
+    "121309": {
+        "id": "121309",
+        "name": "",
+        "max_level": 1,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Compétence",
+        "effect": "Support",
+        "effect_text": "Soutien",
+        "simple_desc": "",
+        "desc": "",
+        "params": [],
+        "icon": ""
+    },
+    "121310": {
+        "id": "121310",
+        "name": "",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "ATQ normale",
+        "effect": "Blast",
+        "effect_text": "Propagation",
+        "simple_desc": "",
+        "desc": "",
+        "params": [
+            [
+                1.3,
+                0.6,
+                0.3,
+                0.06,
+                4
+            ],
+            [
+                1.43,
+                0.66,
+                0.33,
+                0.066,
+                4
+            ],
+            [
+                1.56,
+                0.72,
+                0.36,
+                0.072,
+                4
+            ],
+            [
+                1.69,
+                0.78,
+                0.39,
+                0.078,
+                4
+            ],
+            [
+                1.82,
+                0.84,
+                0.42,
+                0.084,
+                4
+            ],
+            [
+                1.95,
+                0.9,
+                0.45,
+                0.09,
+                4
+            ],
+            [
+                2.1125,
+                0.975,
+                0.4875,
+                0.0975,
+                4
+            ],
+            [
+                2.275,
+                1.05,
+                0.525,
+                0.105,
+                4
+            ],
+            [
+                2.4375,
+                1.125,
+                0.5625,
+                0.1125,
+                4
+            ],
+            [
+                2.6,
+                1.2,
+                0.6,
+                0.12,
+                4
+            ],
+            [
+                2.73,
+                1.26,
+                0.63,
+                0.126,
+                4
+            ],
+            [
+                2.86,
+                1.32,
+                0.66,
+                0.132,
+                4
+            ],
+            [
+                2.99,
+                1.38,
+                0.69,
+                0.138,
+                4
+            ],
+            [
+                3.12,
+                1.44,
+                0.72,
+                0.144,
+                4
+            ],
+            [
+                3.25,
+                1.5,
+                0.75,
+                0.15,
+                4
+            ]
+        ],
+        "icon": ""
+    },
+    "121312": {
+        "id": "121312",
+        "name": "",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "ATQ normale",
+        "effect": "Blast",
+        "effect_text": "Propagation",
+        "simple_desc": "",
+        "desc": "",
+        "params": [
+            [
+                1.3,
+                0.6,
+                0.3,
+                0.06,
+                4,
+                0.6,
+                0.6
+            ],
+            [
+                1.43,
+                0.66,
+                0.33,
+                0.066,
+                4,
+                0.66,
+                0.66
+            ],
+            [
+                1.56,
+                0.72,
+                0.36,
+                0.072,
+                4,
+                0.72,
+                0.72
+            ],
+            [
+                1.69,
+                0.78,
+                0.39,
+                0.078,
+                4,
+                0.78,
+                0.78
+            ],
+            [
+                1.82,
+                0.84,
+                0.42,
+                0.084,
+                4,
+                0.84,
+                0.84
+            ],
+            [
+                1.95,
+                0.9,
+                0.45,
+                0.09,
+                4,
+                0.9,
+                0.9
+            ],
+            [
+                2.1125,
+                0.975,
+                0.4875,
+                0.0975,
+                4,
+                0.975,
+                0.975
+            ],
+            [
+                2.275,
+                1.05,
+                0.525,
+                0.105,
+                4,
+                1.05,
+                1.05
+            ],
+            [
+                2.4375,
+                1.125,
+                0.5625,
+                0.1125,
+                4,
+                1.125,
+                1.125
+            ],
+            [
+                2.6,
+                1.2,
+                0.6,
+                0.12,
+                4,
+                1.2,
+                1.2
+            ],
+            [
+                2.73,
+                1.26,
+                0.63,
+                0.126,
+                4,
+                1.26,
+                1.26
+            ],
+            [
+                2.86,
+                1.32,
+                0.66,
+                0.132,
+                4,
+                1.32,
+                1.32
+            ],
+            [
+                2.99,
+                1.38,
+                0.69,
+                0.138,
+                4,
+                1.38,
+                1.38
+            ],
+            [
+                3.12,
+                1.44,
+                0.72,
+                0.144,
+                4,
+                1.44,
+                1.44
+            ],
+            [
+                3.25,
+                1.5,
+                0.75,
+                0.15,
+                4,
+                1.5,
+                1.5
+            ]
+        ],
+        "icon": ""
     },
     "800101": {
         "id": "800101",

@@ -1435,7 +1435,7 @@
     "21016": {
         "id": "21016",
         "skill": "Nueva partida",
-        "desc": "La DEF del portador aumenta en un #1[i]%. Cuando recibe un ataque, hay un #2[i]% de probabilidad base de quemar al enemigo e infligir un Daño con el tiempo equivalente al #3[i]% de la DEF del portador en cada turno durante #4[i] turnos.",
+        "desc": "La DEF del portador aumenta en un #1[i]%. Cuando recibe un ataque, tiene una probabilidad base del #2[i]% de afectar con Quemadura al enemigo e infligir un Daño con el tiempo equivalente al #3[i]% de la DEF del portador en cada turno durante #4[i] turnos.",
         "params": [
             [
                 0.16,
@@ -2776,10 +2776,84 @@
             ]
         ]
     },
+    "23006": {
+        "id": "23006",
+        "skill": "Telaraña",
+        "desc": "El daño que inflige el portador aumenta en un #2[i]%. Después de cada ataque del portador, su VEL aumenta en un #3[f1]%. Este efecto se puede acumular hasta #4[i] veces.\\nCuando el portador golpea a un objetivo, si este no está afectado por Erosión, hay un 100% de probabilidad base de afectarlo con Erosión. Cuando el objetivo está afectado por Erosión, se considera que también está afectado por Electrocución. En el estado de Erosión, al comienzo de cada turno el objetivo recibe un Daño de Rayo con el tiempo equivalente al #1[i]% del ATQ del portador durante #5[i] turno.",
+        "params": [
+            [
+                0.6,
+                0.24,
+                0.048,
+                3,
+                1
+            ],
+            [
+                0.7,
+                0.28,
+                0.056,
+                3,
+                1
+            ],
+            [
+                0.8,
+                0.32,
+                0.064,
+                3,
+                1
+            ],
+            [
+                0.9,
+                0.36,
+                0.072,
+                3,
+                1
+            ],
+            [
+                1,
+                0.4,
+                0.08,
+                3,
+                1
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "AllDamageTypeAddedRatio",
+                    "value": 0.24
+                }
+            ],
+            [
+                {
+                    "type": "AllDamageTypeAddedRatio",
+                    "value": 0.28
+                }
+            ],
+            [
+                {
+                    "type": "AllDamageTypeAddedRatio",
+                    "value": 0.32
+                }
+            ],
+            [
+                {
+                    "type": "AllDamageTypeAddedRatio",
+                    "value": 0.36
+                }
+            ],
+            [
+                {
+                    "type": "AllDamageTypeAddedRatio",
+                    "value": 0.4
+                }
+            ]
+        ]
+    },
     "23007": {
         "id": "23007",
         "skill": "Espejismo de la realidad",
-        "desc": "El acierto de efecto del portador aumenta en un #1[i]%. Cuando el portador inflige daño a un enemigo que tenga #4[i] o más estados negativos, su Prob. CRIT aumenta en un #5[i]%. Después de usar el ATQ básico, la habilidad básica o la habilidad definitiva, el portador tiene un #2[i]% de probabilidad base de implantar Código de éter a 1 objetivo al azar de los golpeados que no lo tenga ya implantado. El daño que reciben los enemigos con Código de éter aumenta en un #3[i]% durante 1 turno.",
+        "desc": "El acierto de efecto del portador aumenta en un #1[i]%. Cuando el portador inflige daño a un enemigo que tenga #4[i] o más estados negativos, su Prob. CRIT aumenta en un #5[i]%. Después de usar el ATQ básico, la habilidad básica o la habilidad definitiva, el portador tiene un #2[i]% de probabilidad base de aplicar Código de éter a 1 objetivo al azar de los golpeados que no lo tenga ya aplicado. El daño que reciben los enemigos con Código de éter aumenta en un #3[i]% durante 1 turno.",
         "params": [
             [
                 0.24,
@@ -2915,6 +2989,90 @@
                 {
                     "type": "AttackAddedRatio",
                     "value": 0.4
+                }
+            ]
+        ]
+    },
+    "23009": {
+        "id": "23009",
+        "skill": "Anhelo insatisfecho",
+        "desc": "La Prob. CRIT del portador aumenta en un #1[i]% y sus PV máx. aumentan en un #2[i]%. Cuando el portador recibe un ataque o consume sus propios PV, el daño que inflige aumenta en un #3[i]%. Este último efecto se elimina después de que el portador lance un ataque.",
+        "params": [
+            [
+                0.18,
+                0.18,
+                0.24
+            ],
+            [
+                0.21,
+                0.21,
+                0.28
+            ],
+            [
+                0.24,
+                0.24,
+                0.32
+            ],
+            [
+                0.27,
+                0.27,
+                0.36
+            ],
+            [
+                0.3,
+                0.3,
+                0.4
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.18
+                },
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.18
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.21
+                },
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.21
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.24
+                },
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.24
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.27
+                },
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.27
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.3
+                },
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.3
                 }
             ]
         ]

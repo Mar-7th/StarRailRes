@@ -17,7 +17,7 @@
         "id": "100102",
         "name": "Memória de Ser",
         "rank": 2,
-        "desc": "Ao entrar na batalha, concede um Escudo igual a 24% da DEF de 7 de Março mais 320 ao aliado com menos PV por 3 rodada(s).",
+        "desc": "Ao entrar na batalha, concede um Escudo igual a 24% da DEF de 7 de Março + 320 ao aliado com menos PV por 3 rodada(s).",
         "materials": [
             {
                 "id": "11001",
@@ -411,7 +411,7 @@
         "id": "100501",
         "name": "Da Capo",
         "rank": 1,
-        "desc": "Ao usar sua Perícia Suprema, os inimigos receberão Dano imediato de todas as fontes de Dano Contínuo em vez de receberem Dano imediato do estado de Choque.",
+        "desc": "Quando o Talento ativa um Ataque Extra, há 100% de chance-base de aumentar o Dano Contínuo recebido pelo alvo em 30% por 2 rodada(s).",
         "materials": [
             {
                 "id": "11005",
@@ -425,7 +425,7 @@
         "id": "100502",
         "name": "Fortississimo",
         "rank": 2,
-        "desc": "Eficiência da Quebra de Fraqueza aumentada em 50%.",
+        "desc": "Enquanto Kafka está no campo, o Dano Contínuo causado por todos os aliados aumenta em 25%.",
         "materials": [
             {
                 "id": "11005",
@@ -462,7 +462,7 @@
         "id": "100504",
         "name": "Recitativo",
         "rank": 4,
-        "desc": "A duração do aumento de Dano Contínuo causado pelo Talento é estendida por 1 rodada(s). Este efeito pode acumular até 2 vez(es)",
+        "desc": "Quando um alvo inimigo recebe Dano do status de Choque infligido por Kafka, Kafka regenera adicionalmente 2 de Energia.",
         "materials": [
             {
                 "id": "11005",
@@ -499,7 +499,7 @@
         "id": "100506",
         "name": "Leggiero",
         "rank": 6,
-        "desc": "A Perícia Suprema aumenta o multiplicador de Dano do Dano de choque causado aos inimigos em 130% e estende a duração do Choque por 1 rodada(s).",
+        "desc": "O multiplicador de Dano do Dano de Choque causado pela Perícia Suprema, pela Técnica, ou pelo Ataque Extra acionado pelo Talento aumenta em 156%, e estende a duração do Choque no alvo-inimigo por 1 rodada(s).",
         "materials": [
             {
                 "id": "11005",
@@ -601,7 +601,7 @@
         "id": "100606",
         "name": "Rede Sobreposta",
         "rank": 6,
-        "desc": "Para cada penalidade do inimigo-alvo, o Dano causado por Loba Prateada aumenta em 20%, até um limite de 100%.",
+        "desc": "Para cada penalidade do inimigo-alvo, o Dano causado pela Loba Prateada aumenta em 20%, até um limite de 100%.",
         "materials": [
             {
                 "id": "11006",
@@ -1482,7 +1482,7 @@
         "id": "110604",
         "name": "Análise Completa",
         "rank": 4,
-        "desc": "Quando a Perícia é utilizada, há 100% de chance-base de reduzir a RES a Gelo do inimigo-alvo em 12% por 2 rodada(s).",
+        "desc": "Ao usar a Perícia, há 100% de chance-base de reduzir a RES a Gelo do inimigo-alvo em 12% por 2 rodada(s).",
         "materials": [
             {
                 "id": "11106",
@@ -1839,6 +1839,112 @@
         "level_up_skills": [],
         "icon": "icon/skill/1109_rank6.png"
     },
+    "111101": {
+        "id": "111101",
+        "name": "Lutando Infinitamente",
+        "rank": 1,
+        "desc": "Quando Luka age, se o inimigo-alvo estiver com Sangramento, aumenta o Dano causado por Luka em 15% por 2 rodada(s).",
+        "materials": [
+            {
+                "id": "11111",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": ""
+    },
+    "111102": {
+        "id": "111102",
+        "name": "O Inimigo é Fraco, Eu Sou Forte",
+        "rank": 2,
+        "desc": "Se a Perícia atingir um inimigo-alvo com Fraqueza a Físico, ganha 1 acúmulo(s) de Desejo de Lutar.",
+        "materials": [
+            {
+                "id": "11111",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": ""
+    },
+    "111103": {
+        "id": "111103",
+        "name": "Nascido Para o Ringue",
+        "rank": 3,
+        "desc": "Nv. da Perícia +2, até no máximo Nv. 15.\\nNv. do Talento +2, até no máximo Nv. 15.",
+        "materials": [
+            {
+                "id": "11111",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "111102",
+                "num": 2
+            },
+            {
+                "id": "111104",
+                "num": 2
+            }
+        ],
+        "icon": ""
+    },
+    "111104": {
+        "id": "111104",
+        "name": "Nunca Recuar",
+        "rank": 4,
+        "desc": "Para cada acúmulo de Desejo de Lutar obtido, aumenta o ATQ em 5%, acumulando até 4 vez(es).",
+        "materials": [
+            {
+                "id": "11111",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": ""
+    },
+    "111105": {
+        "id": "111105",
+        "name": "O Espírito da Fogo Vivo",
+        "rank": 5,
+        "desc": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
+        "materials": [
+            {
+                "id": "11111",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "111103",
+                "num": 2
+            },
+            {
+                "id": "111101",
+                "num": 1
+            },
+            {
+                "id": "111108",
+                "num": 1
+            }
+        ],
+        "icon": ""
+    },
+    "111106": {
+        "id": "111106",
+        "name": "Aplausos de um Campeão",
+        "rank": 6,
+        "desc": "Depois que o \"Gancho Ascendente\" do ATQ Básico Aprimorado atinge um inimigo-alvo com Sangramento, o status de Sangramento imediatamente causará Dano 1 vez. O Dano causado é igual a 8% do Dano original para cada golpe de Punho Certeiro já usado pelo ATQ Básico Aprimorado atual.",
+        "materials": [
+            {
+                "id": "11111",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": ""
+    },
     "120101": {
         "id": "120101",
         "name": "Surgir Pelas Peças",
@@ -2065,7 +2171,7 @@
         "id": "120302",
         "name": "Concessão da Pureza",
         "rank": 2,
-        "desc": "Quando sua Perícia é ativada, se os PV do aliado-alvo forem inferiores a 50%, a Cura Realizada por Luocha aumenta em 30%. Se o aliado-alvo tiver 50% ou mais de PV, o aliado recebe um Escudo que pode absorver Dano igual a 18% do ATQ de Luocha mais 240, e que dura por 2 rodadas.",
+        "desc": "Quando sua Perícia é ativada, se os PV do aliado-alvo forem inferiores a 50%, a Cura Realizada por Luocha aumenta em 30%. Se o aliado-alvo tiver 50% ou mais de PV, o aliado recebe um Escudo que pode absorver Dano igual a 18% do ATQ de Luocha + 240, que dura por 2 rodadas.",
         "materials": [
             {
                 "id": "11203",
@@ -2077,7 +2183,7 @@
     },
     "120303": {
         "id": "120303",
-        "name": "Questionamento dos Tolos",
+        "name": "Questionamento pelos Tolos",
         "rank": 3,
         "desc": "Nv. da Perícia +2, até no máximo Nv. 15.\\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
         "materials": [
@@ -2139,7 +2245,7 @@
         "id": "120306",
         "name": "De Volta ao Pó",
         "rank": 6,
-        "desc": "Quando a Perícia Suprema é utilizada, há uma chance fixa de 100% de reduzir a RES a Todos os Tipos de todos os inimigos em 20% por 2 rodada(s).",
+        "desc": "Ao usar a Perícia Suprema, há uma chance fixa de 100% de reduzir a RES a Todos os Tipos de todos os inimigos em 20% por 2 rodada(s).",
         "materials": [
             {
                 "id": "11203",
@@ -2251,6 +2357,112 @@
         "level_up_skills": [],
         "icon": "icon/skill/1204_rank6.png"
     },
+    "120501": {
+        "id": "120501",
+        "name": "A Lâmina Corta Mais Fundo no Inferno",
+        "rank": 1,
+        "desc": "A Perícia Suprema de Blade causa Dano aumentado adicional a um único alvo inimigo, com um aumento igual a 150% dos PV totais que Blade perdeu na batalha atual. O total de PV que Blade perdeu na batalha atual tem um limite de 90% de seus PV máximos. Este valor será redefinido e reacumulado após usar sua Perícia Suprema.",
+        "materials": [
+            {
+                "id": "11205",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": ""
+    },
+    "120502": {
+        "id": "120502",
+        "name": "Dez Mil Mágoas de Um Sonho Destruído",
+        "rank": 2,
+        "desc": "Quando Blade está no estado de Paisagem Infernal, sua Chance de CRIT aumenta em 15%.",
+        "materials": [
+            {
+                "id": "11205",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": ""
+    },
+    "120503": {
+        "id": "120503",
+        "name": "A Lâmina Temperada Sangra da Tonalidade Mais Gelada",
+        "rank": 3,
+        "desc": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\\nNv. do Talento +2, até no máximo Nv. 15.",
+        "materials": [
+            {
+                "id": "11205",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "120503",
+                "num": 2
+            },
+            {
+                "id": "120504",
+                "num": 2
+            }
+        ],
+        "icon": ""
+    },
+    "120504": {
+        "id": "120504",
+        "name": "Rejeitado pela Morte, Infectado com Vida",
+        "rank": 4,
+        "desc": "Quando os PV atuais de Blade chegam a 50% ou menos de seus PV máximos, aumenta os PV máximos dele em 20%. Acumula até 2 vez(es).",
+        "materials": [
+            {
+                "id": "11205",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": ""
+    },
+    "120505": {
+        "id": "120505",
+        "name": "Morte Pelo Olhar dos Dez Senhores",
+        "rank": 5,
+        "desc": "Nv. da Perícia +2, até no máximo Nv. 15.\\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
+        "materials": [
+            {
+                "id": "11205",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "120502",
+                "num": 2
+            },
+            {
+                "id": "120501",
+                "num": 1
+            },
+            {
+                "id": "120508",
+                "num": 1
+            }
+        ],
+        "icon": ""
+    },
+    "120506": {
+        "id": "120506",
+        "name": "Renascido em uma Casca Vazia",
+        "rank": 6,
+        "desc": "O número máximo de acúmulos de Carga é reduzido para 4. O Dano de um Ataque Extra acionado pelo Talento de Blade é aumentado adicionalmente em 50% de seus PV máximos.",
+        "materials": [
+            {
+                "id": "11205",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": ""
+    },
     "120601": {
         "id": "120601",
         "name": "Cortar Facilmente",
@@ -2269,7 +2481,7 @@
         "id": "120602",
         "name": "Refino pela Labuta",
         "rank": 2,
-        "desc": "Após ativar a Postura da Espada, o Dano recebido por Sushang é reduzido em 20% por 1 rodada.",
+        "desc": "Depois que a Postura da Espada é ativada, o Dano recebido por Sushang é reduzido em 20% por 1 rodada.",
         "materials": [
             {
                 "id": "11206",
@@ -2371,7 +2583,7 @@
         "id": "120702",
         "name": "Comando Celeste",
         "rank": 2,
-        "desc": "Quando a energia atual de um aliado é igual ao seu limite de energia, Yukong regenera 5 a mais de energia. Este efeito só pode ser ativado uma vez por aliado. A contagem de ativação é reiniciada após Yukong conjurar sua Perícia Suprema.",
+        "desc": "Quando a energia atual de um aliado é igual ao seu limite de energia, Yukong regenera 5 de energia adicional. Este efeito só pode ser ativado uma vez para cada aliado. A contagem de ativação é reiniciada após Yukong utilizar sua Perícia Suprema.",
         "materials": [
             {
                 "id": "11207",
@@ -2385,7 +2597,7 @@
         "id": "120703",
         "name": "Saraivada Torrencial",
         "rank": 3,
-        "desc": "Nv. de Perícia +2, até no máximo Nv. 15.\\nNv. de ATQ Básico +1, até no máximo Nv. 10.",
+        "desc": "Nv. da Perícia +2, até no máximo Nv. 15.\\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
         "materials": [
             {
                 "id": "11207",
@@ -2422,7 +2634,7 @@
         "id": "120705",
         "name": "Tiro Mortal Majestoso",
         "rank": 5,
-        "desc": "Nv. de Perícia Suprema +2, até no máximo Nv. 15.\\nNv. de Talento +2, até no máximo Nv. 15.",
+        "desc": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\\nNv. do Talento +2, até no máximo Nv. 15.",
         "materials": [
             {
                 "id": "11207",
@@ -2658,6 +2870,120 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1211_rank6.png"
+    },
+    "121301": {
+        "id": "121301",
+        "name": "",
+        "rank": 1,
+        "desc": "",
+        "materials": [
+            {
+                "id": "11213",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": ""
+    },
+    "121302": {
+        "id": "121302",
+        "name": "",
+        "rank": 2,
+        "desc": "",
+        "materials": [
+            {
+                "id": "11213",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": ""
+    },
+    "121303": {
+        "id": "121303",
+        "name": "",
+        "rank": 3,
+        "desc": "Nv. de Perícia Suprema +2, até no máximo Nv. 15.\\nNv. de Talento +2, até no máximo Nv. 15.",
+        "materials": [
+            {
+                "id": "11213",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "121303",
+                "num": 2
+            },
+            {
+                "id": "121304",
+                "num": 2
+            }
+        ],
+        "icon": ""
+    },
+    "121304": {
+        "id": "121304",
+        "name": "",
+        "rank": 4,
+        "desc": "",
+        "materials": [
+            {
+                "id": "11213",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": ""
+    },
+    "121305": {
+        "id": "121305",
+        "name": "",
+        "rank": 5,
+        "desc": "Nv. de Perícia +2, até no máximo Nv. 15.\\nNv. de ATQ Básico +1, até no máximo Nv. 10.",
+        "materials": [
+            {
+                "id": "11213",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "121302",
+                "num": 2
+            },
+            {
+                "id": "121301",
+                "num": 1
+            },
+            {
+                "id": "121308",
+                "num": 2
+            },
+            {
+                "id": "121310",
+                "num": 2
+            },
+            {
+                "id": "121312",
+                "num": 2
+            }
+        ],
+        "icon": ""
+    },
+    "121306": {
+        "id": "121306",
+        "name": "",
+        "rank": 6,
+        "desc": "",
+        "materials": [
+            {
+                "id": "11213",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": ""
     },
     "800101": {
         "id": "800101",

@@ -409,9 +409,9 @@
     },
     "100501": {
         "id": "100501",
-        "name": "Moto perpetuo",
+        "name": "Da capo",
         "rank": 1,
-        "desc": "Al usar la habilidad definitiva, los enemigos pasan de recibir el daño provocado por el estado de Electrocución a recibir daño de todos los estados negativos de Daño con el tiempo que tengan en ese momento.",
+        "desc": "Cuando el talento activa un ataque adicional, hay un 100% de probabilidad base de que el Daño con el tiempo que recibe el objetivo aumente en un 30% durante 2 turnos.",
         "materials": [
             {
                 "id": "11005",
@@ -423,9 +423,9 @@
     },
     "100502": {
         "id": "100502",
-        "name": "Fortissimo",
+        "name": "Fortississimo",
         "rank": 2,
-        "desc": "La eficiencia de la Ruptura de Debilidad aumenta en un 50%.",
+        "desc": "Cuando Kafka está en la batalla, el Daño con el tiempo que infligen todos los aliados aumenta en un 25%.",
         "materials": [
             {
                 "id": "11005",
@@ -462,7 +462,7 @@
         "id": "100504",
         "name": "Recitativo",
         "rank": 4,
-        "desc": "El talento hace que el Daño con el tiempo aumentado que reciben los objetivos dure 1 turno más y que este efecto se pueda acumular hasta 2 veces.",
+        "desc": "Cuando el objetivo recibe daño del estado de Electrocución provocado por Kafka, Kafka recupera 2 pts. de energía adicionales.",
         "materials": [
             {
                 "id": "11005",
@@ -499,7 +499,7 @@
         "id": "100506",
         "name": "Leggiero",
         "rank": 6,
-        "desc": "La habilidad definitiva hace que el multiplicador de daño de la Electrocución infligida a los enemigos aumente en un 130% y extiende la duración de Electrocución en 1 turno.",
+        "desc": "El ataque adicional de la habilidad definitiva, la técnica o el talento hace que el multiplicador de daño de la Electrocución infligida a los enemigos aumente en un 156% y extiende la duración de Electrocución en 1 turno.",
         "materials": [
             {
                 "id": "11005",
@@ -833,7 +833,7 @@
         "id": "101302",
         "name": "Que no pare la fiesta",
         "rank": 2,
-        "desc": "Cada vez que se activa el talento, su Prob. CRIT aumenta en un 3%. Se puede acumular hasta 5 veces.",
+        "desc": "Cada vez que se activa el talento, su Prob. CRIT aumenta en un 3%. Este efecto se puede acumular hasta 5 veces.",
         "materials": [
             {
                 "id": "11013",
@@ -1176,7 +1176,7 @@
         "id": "110304",
         "name": "¡Hagamos algo de ruido!",
         "rank": 4,
-        "desc": "Al usar la habilidad definitiva, hay una probabilidad base del 100% de afectar con Electrocución a los enemigos que no estén ya electrocutados. Esta Electrocución es igual que la que inflige la habilidad básica.",
+        "desc": "Al usar la habilidad definitiva, tiene una probabilidad base del 100% de afectar a los enemigos que no estén ya electrocutados con un estado de Electrocución equivalente al de la habilidad básica.",
         "materials": [
             {
                 "id": "11103",
@@ -1792,7 +1792,7 @@
         "id": "110904",
         "name": "No pasa nada si no lo sabes",
         "rank": 4,
-        "desc": "Al activar el talento, hay una probabilidad base del 100% de afectar a los enemigos adyacentes al objetivo con una Quemadura equivalente a la de la habilidad básica.",
+        "desc": "Al activar el talento, tiene una probabilidad base del 100% de afectar a los enemigos adyacentes al objetivo con una Quemadura equivalente a la de la habilidad básica.",
         "materials": [
             {
                 "id": "11109",
@@ -1838,6 +1838,112 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1109_rank6.png"
+    },
+    "111101": {
+        "id": "111101",
+        "name": "Lucha interminable",
+        "rank": 1,
+        "desc": "Cuando Luka realiza una acción, si el objetivo está afectado por Sangrado, el daño que inflige Luka aumenta en un 15% durante 2 turnos.",
+        "materials": [
+            {
+                "id": "11111",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": ""
+    },
+    "111102": {
+        "id": "111102",
+        "name": "El enemigo es débil, yo soy fuerte",
+        "rank": 2,
+        "desc": "Cuando la habilidad básica golpea a un enemigo con Debilidad Física, Luka obtiene 1 acumulación de Voluntad luchadora.",
+        "materials": [
+            {
+                "id": "11111",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": ""
+    },
+    "111103": {
+        "id": "111103",
+        "name": "Nacido para el ring",
+        "rank": 3,
+        "desc": "Niv. de habilidad básica +2 (máximo: nivel 15). Niv. de talento +2 (máximo: nivel 15).",
+        "materials": [
+            {
+                "id": "11111",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "111102",
+                "num": 2
+            },
+            {
+                "id": "111104",
+                "num": 2
+            }
+        ],
+        "icon": ""
+    },
+    "111104": {
+        "id": "111104",
+        "name": "Persistencia implacable",
+        "rank": 4,
+        "desc": "Por cada acumulación de Voluntad luchadora, el ATQ aumenta en un 5%. Este efecto se puede acumular hasta 4 veces.",
+        "materials": [
+            {
+                "id": "11111",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": ""
+    },
+    "111105": {
+        "id": "111105",
+        "name": "El espíritu de Llamarada",
+        "rank": 5,
+        "desc": "Niv. de habilidad definitiva +2 (máximo: nivel 15). Niv. de ATQ básico +1 (máximo: nivel 10).",
+        "materials": [
+            {
+                "id": "11111",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "111103",
+                "num": 2
+            },
+            {
+                "id": "111101",
+                "num": 1
+            },
+            {
+                "id": "111108",
+                "num": 1
+            }
+        ],
+        "icon": ""
+    },
+    "111106": {
+        "id": "111106",
+        "name": "El aplauso del campeón",
+        "rank": 6,
+        "desc": "Tras golpear con el Puño rompecielos de su ATQ básico potenciado a un enemigo afectado por Sangrado, el estado de Sangrado inflige al instante 1 vez adicional un daño equivalente al 8% del daño de Sangrado original por cada golpe de Puño certero de ese ATQ básico potenciado.",
+        "materials": [
+            {
+                "id": "11111",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": ""
     },
     "120101": {
         "id": "120101",
@@ -2251,6 +2357,112 @@
         "level_up_skills": [],
         "icon": "icon/skill/1204_rank6.png"
     },
+    "120501": {
+        "id": "120501",
+        "name": "La espada que atraviesa el infierno",
+        "rank": 1,
+        "desc": "El daño que inflige la habilidad definitiva de Blade a un enemigo determinado aumenta en una cantidad adicional equivalente al 150% del recuento de PV que ha perdido en esta batalla.\\nEl recuento de PV perdidos en esta batalla no puede superar el 90% de los PV máx. de Blade. Al usar su habilidad definitiva, este recuento se reinicia.",
+        "materials": [
+            {
+                "id": "11205",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": ""
+    },
+    "120502": {
+        "id": "120502",
+        "name": "Mil pesares por un sueño roto",
+        "rank": 2,
+        "desc": "Cuando Blade está en el estado Panorama infernal, su Prob. CRIT aumenta en un 15%.",
+        "materials": [
+            {
+                "id": "11205",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": ""
+    },
+    "120503": {
+        "id": "120503",
+        "name": "Acero templado para sangrar sombras",
+        "rank": 3,
+        "desc": "Niv. de habilidad definitiva +2 (máximo: nivel 15). Niv. de talento +2 (máximo: nivel 15).",
+        "materials": [
+            {
+                "id": "11205",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "120503",
+                "num": 2
+            },
+            {
+                "id": "120504",
+                "num": 2
+            }
+        ],
+        "icon": ""
+    },
+    "120504": {
+        "id": "120504",
+        "name": "Rechazado por la muerte, infectado por la vida",
+        "rank": 4,
+        "desc": "Cuando el porcentaje de PV pasa de ser superior al 50% a igual o inferior al 50%, los PV máx. aumentan en un 20%. Este efecto se puede acumular hasta 2 veces.",
+        "materials": [
+            {
+                "id": "11205",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": ""
+    },
+    "120505": {
+        "id": "120505",
+        "name": "Muerte a ojos de los Diez Líderes",
+        "rank": 5,
+        "desc": "Niv. de habilidad básica +2 (máximo: nivel 15). Niv. de ATQ básico +1 (máximo: nivel 10).",
+        "materials": [
+            {
+                "id": "11205",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "120502",
+                "num": 2
+            },
+            {
+                "id": "120501",
+                "num": 1
+            },
+            {
+                "id": "120508",
+                "num": 1
+            }
+        ],
+        "icon": ""
+    },
+    "120506": {
+        "id": "120506",
+        "name": "Renacimiento en un cuerpo vacío",
+        "rank": 6,
+        "desc": "El límite de acumulaciones de carga se reduce a 4. El daño infligido por el ataque adicional del talento aumenta en una cantidad equivalente al 50% de los PV máx. de Blade.",
+        "materials": [
+            {
+                "id": "11205",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": ""
+    },
     "120601": {
         "id": "120601",
         "name": "Corte fácil",
@@ -2658,6 +2870,120 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1211_rank6.png"
+    },
+    "121301": {
+        "id": "121301",
+        "name": "",
+        "rank": 1,
+        "desc": "",
+        "materials": [
+            {
+                "id": "11213",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": ""
+    },
+    "121302": {
+        "id": "121302",
+        "name": "",
+        "rank": 2,
+        "desc": "",
+        "materials": [
+            {
+                "id": "11213",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": ""
+    },
+    "121303": {
+        "id": "121303",
+        "name": "",
+        "rank": 3,
+        "desc": "Niv. de habilidad definitiva +2 (máximo: nivel 15). Niv. de talento +2 (máximo: nivel 15).",
+        "materials": [
+            {
+                "id": "11213",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "121303",
+                "num": 2
+            },
+            {
+                "id": "121304",
+                "num": 2
+            }
+        ],
+        "icon": ""
+    },
+    "121304": {
+        "id": "121304",
+        "name": "",
+        "rank": 4,
+        "desc": "",
+        "materials": [
+            {
+                "id": "11213",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": ""
+    },
+    "121305": {
+        "id": "121305",
+        "name": "",
+        "rank": 5,
+        "desc": "Niv. de habilidad básica +2 (máximo: nivel 15). Niv. de ATQ básico +1 (máximo: nivel 10).",
+        "materials": [
+            {
+                "id": "11213",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "121302",
+                "num": 2
+            },
+            {
+                "id": "121301",
+                "num": 1
+            },
+            {
+                "id": "121308",
+                "num": 2
+            },
+            {
+                "id": "121310",
+                "num": 2
+            },
+            {
+                "id": "121312",
+                "num": 2
+            }
+        ],
+        "icon": ""
+    },
+    "121306": {
+        "id": "121306",
+        "name": "",
+        "rank": 6,
+        "desc": "",
+        "materials": [
+            {
+                "id": "11213",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": ""
     },
     "800101": {
         "id": "800101",

@@ -757,7 +757,7 @@
         "effect": "Blast",
         "effect_text": "Ausdehnung",
         "simple_desc": "Fügt einem Gegner Feuer-SCH zu und fügt den angrenzenden Zielen geringen Feuer-SCH zu.",
-        "desc": "Fügt einem anvisierten Gegner Feuer-SCH in Höhe von #1[i]% des Himekos ANG zu und fügt den angrenzenden Zielen Feuer-SCH in Höhe von #2[i]% von Himekos ANG zu.",
+        "desc": "Fügt einem anvisierten Gegner Feuer-SCH in Höhe von #1[i]% von Himekos ANG zu und fügt den angrenzenden Zielen Feuer-SCH in Höhe von #2[i]% von Himekos ANG zu.",
         "params": [
             [
                 1,
@@ -906,7 +906,7 @@
         "type_text": "Talent",
         "effect": "AoEAttack",
         "effect_text": "Flächenangriff",
-        "simple_desc": "",
+        "simple_desc": "Erhält 1 Aufladung, wenn die Schwäche eines Gegners gebrochen wird.\nNach einem voll aufgeladenen Angriff eines Verbündeten führt dieser sofort einen Folgeangriff aus und fügt allen Gegnern Feuer-SCH zu, wobei alle Aufladungen verbraucht werden.\nErhält zu Beginn jedes Kampfes 1 Aufladung.",
         "desc": "Wenn die Schwäche eines Gegners gebrochen wird, erhält Himeko 1 Pkt. Aufladung, maximal #2[i] Pkt.\nWenn ein Verbündeter einen Angriff ausführt und Himeko voll aufgeladen ist, führt sie sofort 1 Folgeangriff aus, der allen Gegnern Feuer-SCH in Höhe von #1[i]% von Himekos ANG zufügt und alle Aufladungen verbraucht.\nErhält beim Kampfeintritt 1 Pkt. Aufladung.",
         "params": [
             [
@@ -995,7 +995,7 @@
         "type_text": "Technik",
         "effect": "Impair",
         "effect_text": "Beeinträchtigung",
-        "simple_desc": "",
+        "simple_desc": "Erschafft eine Dimension. Beim Kämpfen mit Gegnern in der Dimension besteht eine hohe Chance, dass der ihnen zugefügte Feuer-SCH erhöht wird.",
         "desc": "Erzeugt nach dem Einsatz der Technik für #4[i] s eine spezielle Dimension. Nach Kampfeintritt mit Gegnern in dieser Dimension besteht eine Grundchance von #1[i]%, den von den Gegnern erlittenen Feuer-SCH für #3[i] Rd. um #2[i]% zu erhöhen. Es kann nur eine von Verbündeten erschaffene Dimension zur gleichen Zeit existieren.",
         "params": [
             [
@@ -1268,7 +1268,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Verstärkung",
-        "simple_desc": "",
+        "simple_desc": "Fügt einem verlangsamten Gegner zusätzlich geringen imaginären SCH zu.",
         "desc": "Fügt dem getroffenen Gegner 1-mal zusätzlichen imaginären SCH in Höhe von #1[i]% von Welts ANG zu, wenn der Gegner verlangsamt wird.",
         "params": [
             [
@@ -1342,7 +1342,7 @@
         "type_text": "Technik",
         "effect": "Impair",
         "effect_text": "Beeinträchtigung",
-        "simple_desc": "",
+        "simple_desc": "Erschafft eine Dimension. Gegner in dieser Dimension haben reduzierte Bewegungs-GES. Beim Kämpfen mit Gegnern in der Dimension besteht eine hohe Chance, dass sie in Gefangenschaft geraten.",
         "desc": "Nach dem Einsatz von Welts Technik wird für #4[i] s eine spezielle Dimension erzeugt. Die Bewegungs-GES der Gegner in dieser Dimension wird um #5[i]% reduziert. Nach Kampfeintritt mit Gegnern in der Dimension besteht eine Grundchance von #1[i]%, bei Gegnern für 1 Rd. den Status Gefangenschaft zu verursachen.\nDie Aktionen von gefangenen Gegnern werden um #2[i]% verzögert und ihre GES um #3[i]% verringert. Es kann nur eine von Verbündeten erschaffene Dimension zur gleichen Zeit existieren.",
         "params": [
             [
@@ -1406,8 +1406,8 @@
         "type_text": "Fertigkeit",
         "effect": "Blast",
         "effect_text": "Ausdehnung",
-        "simple_desc": "Fügt einem Gegner Blitz-SCH sowie zusätzlichen DoT-SCH zu. Fügt angrenzenden Zielen geringen Blitz-SCH zu.",
-        "desc": "Fügt einem anvisierten Gegner Blitz-SCH in Höhe von #1[i]% von Kafkas ANG zu und fügt angrenzenden Zielen Blitz-SCH in Höhe von #3[i]% von Kafkas ANG zu.\nWenn der anvisierte Gegner einen DoT erleidet, erzeugt der gesamte erlittene DoT sofort SCH in Höhe von #2[i]% des ursprünglichen SCH.",
+        "simple_desc": "Verursacht Blitz-SCH bei einem Gegner und geringen Blitz-SCH bei angrenzenden Einheiten.\nBefindet das Hauptziel sich momentan unter Einfluss von DoT, so erleidet es sofort 1-mal zusätzlichen SCH.",
+        "desc": "Fügt einem anvisierten Gegner Blitz-SCH in Höhe von #1[i]% von Kafkas ANG zu und fügt angrenzenden Zielen Blitz-SCH in Höhe von #3[i]% von Kafkas ANG zu.\nBefindet der anvisierte Gegner sich momentan unter Einfluss von DoT, so erleidet er sofort zusätzlich SCH in Höhe von #2[i]% des aktuell insgesamt erlittenen DoT.",
         "params": [
             [
                 0.8,
@@ -1496,113 +1496,113 @@
         "type_text": "Ultimate",
         "effect": "AoEAttack",
         "effect_text": "Flächenangriff",
-        "simple_desc": "Fügt allen Gegnern geringen Blitz-SCH zu. Hat einer hohen Chance, bei den Zielen Schock zu verursachen und ihnen zusätzlichen SCH durch Schock zuzufügen.",
+        "simple_desc": "Fügt allen Gegnern geringen Blitz-SCH zu. Hat eine hohe Chance, die Ziele zu schocken.\nBereits geschockte Gegner nehmen einmal zusätzlichen SCH durch Schock.",
         "desc": "Fügt allen Gegnern Blitz-SCH in Höhe von #1[i]% von Kafkas ANG zu und hat eine Grundchance von #2[i]%, bei betroffenen Gegnern Schock zu verursachen und ihnen unmittelbar SCH in Höhe von #5[i]% des ursprünglichen SCH durch den Status Schock zuzufügen. Der Schock hält #3[i] Rd. an.\nGeschockte Gegner erleiden zu Beginn jeder Runde Blitz-DoT in Höhe von #4[i]% von Kafkas ANG.",
         "params": [
             [
                 0.48,
                 1,
                 2,
-                0.95,
-                0.72
+                1.16,
+                0.8
             ],
             [
                 0.512,
                 1,
                 2,
-                1.045,
-                0.738
+                1.2688,
+                0.82
             ],
             [
                 0.544,
                 1,
                 2,
-                1.14,
-                0.756
+                1.3775,
+                0.84
             ],
             [
                 0.576,
                 1,
                 2,
-                1.235,
-                0.774
+                1.4863,
+                0.86
             ],
             [
                 0.608,
                 1,
                 2,
-                1.33,
-                0.792
+                1.595,
+                0.88
             ],
             [
                 0.64,
                 1,
                 2,
-                1.4725,
-                0.81
+                1.7581,
+                0.9
             ],
             [
                 0.68,
                 1,
                 2,
-                1.6625,
-                0.8325
+                1.9756,
+                0.925
             ],
             [
                 0.72,
                 1,
                 2,
-                1.9,
-                0.855
+                2.2475,
+                0.95
             ],
             [
                 0.76,
                 1,
                 2,
-                2.185,
-                0.8775
+                2.5738,
+                0.975
             ],
             [
                 0.8,
                 1,
                 2,
-                2.47,
-                0.9
+                2.9,
+                1
             ],
             [
                 0.832,
                 1,
                 2,
-                2.5935,
-                0.918
+                3.0414,
+                1.02
             ],
             [
                 0.864,
                 1,
                 2,
-                2.717,
-                0.936
+                3.1828,
+                1.04
             ],
             [
                 0.896,
                 1,
                 2,
-                2.8405,
-                0.954
+                3.3241,
+                1.06
             ],
             [
                 0.928,
                 1,
                 2,
-                2.964,
-                0.972
+                3.4655,
+                1.08
             ],
             [
                 0.96,
                 1,
                 2,
-                3.0875,
-                0.99
+                3.6069,
+                1.1
             ]
         ],
         "icon": "icon/skill/1005_ultimate.png"
@@ -1616,98 +1616,83 @@
         "type_text": "Talent",
         "effect": "SingleAttack",
         "effect_text": "Einzelangriff",
-        "simple_desc": "",
-        "desc": "Nach dem Einsatz des Standardangriffs von einem Verbündeten führt Kafka sofort einen Folgeangriff aus und fügt dem Ziel Blitz-SCH in Höhe von #1[i]% von Kafkas ANG zu. Es besteht eine Grundchance von #4[i]%, den verursachten DoT für #3[i] Rd. um #2[i]% zu erhöhen. Dieser Effekt kann nur 1-mal pro Runde ausgelöst werden.",
+        "simple_desc": "Nach dem Einsatz des Standardangriffs von einem Verbündeten führt Kafka sofort einen Folgeangriff aus und fügt diesem Ziel geringen Blitz-SCH zu. Es besteht eine hohe Chance, den Status Schock zuzufügen. Dieser Effekt kann nur 1-mal pro Runde ausgelöst werden.",
+        "desc": "Nach dem Einsatz des Standardangriffs von einem Verbündeten führt Kafka sofort einen Folgeangriff aus und fügt dem Ziel Blitz-SCH in Höhe von #1[i]% von Kafkas ANG zu. Es besteht eine Grundchance von #2[i]%, dem angegriffenen Gegner für #3[i] Rd. Schock zuzufügen, der dem Status Schock des Ultimates entspricht. Dieser Effekt kann nur 1-mal pro Runde ausgelöst werden.",
         "params": [
             [
-                0.6,
-                0.15,
-                2,
-                1
+                0.42,
+                1,
+                2
             ],
             [
-                0.66,
-                0.155,
-                2,
-                1
+                0.518,
+                1,
+                2
             ],
             [
-                0.72,
-                0.16,
-                2,
-                1
+                0.616,
+                1,
+                2
             ],
             [
-                0.78,
-                0.165,
-                2,
-                1
+                0.714,
+                1,
+                2
             ],
             [
-                0.84,
-                0.17,
-                2,
-                1
+                0.812,
+                1,
+                2
             ],
             [
-                0.9,
-                0.175,
-                2,
-                1
+                0.91,
+                1,
+                2
             ],
             [
-                0.975,
-                0.1813,
-                2,
-                1
+                1.0325,
+                1,
+                2
             ],
             [
-                1.05,
-                0.1875,
-                2,
-                1
+                1.155,
+                1,
+                2
             ],
             [
-                1.125,
-                0.1938,
-                2,
-                1
+                1.2775,
+                1,
+                2
             ],
             [
-                1.2,
-                0.2,
-                2,
-                1
+                1.4,
+                1,
+                2
             ],
             [
-                1.26,
-                0.205,
-                2,
-                1
+                1.498,
+                1,
+                2
             ],
             [
-                1.32,
-                0.21,
-                2,
-                1
+                1.596,
+                1,
+                2
             ],
             [
-                1.38,
-                0.215,
-                2,
-                1
+                1.694,
+                1,
+                2
             ],
             [
-                1.44,
-                0.22,
-                2,
-                1
+                1.792,
+                1,
+                2
             ],
             [
-                1.5,
-                0.225,
-                2,
-                1
+                1.89,
+                1,
+                2
             ]
         ],
         "icon": "icon/skill/1005_talent.png"
@@ -1735,13 +1720,12 @@
         "type_text": "Technik",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "",
-        "desc": "Greift den Gegner unmittelbar an und fügt nach Kampfeintritt allen Gegnern Blitz-SCH in Höhe von #4[i]% von Kafkas ANG zu. Es besteht eine Grundchance von #1[i]%, jedem Gegner für #3[i] Rd. Schock zuzufügen.\nGeschockte Gegner erleiden zu Beginn jeder Runde Blitz-DoT in Höhe von #2[i]% von Kafkas ANG.",
+        "simple_desc": "Greift alle Gegner in Reichweite an und fügt nach Kampfeintritt allen Gegnern geringen Blitz-SCH zu. Es besteht eine hohe Chance, die Ziele zu schocken.",
+        "desc": "Greift alle Gegner innerhalb einer gewissen Reichweite unmittelbar an und fügt nach Kampfeintritt allen Gegnern Blitz-SCH in Höhe von #3[i]% von Kafkas ANG zu. Es besteht eine Grundchance von #1[i]%, jedem einzelnen Gegner für #2[i] Rd. den Status Schock zuzufügen, der dem Status Schock des Ultimates entspricht.",
         "params": [
             [
                 1,
-                0.5,
-                3,
+                2,
                 0.5
             ]
         ],
@@ -1756,8 +1740,8 @@
         "type_text": "Standardangriff",
         "effect": "SingleAttack",
         "effect_text": "Einzelangriff",
-        "simple_desc": "Fügt einem Gegner geringen Quantum-SCH zu.",
-        "desc": "Fügt einem anvisierten Gegner Quantum-SCH in Höhe von #1[i]% von Silberwolfs ANG zu.",
+        "simple_desc": "Fügt einem Gegner geringen Quanten-SCH zu.",
+        "desc": "Fügt einem anvisierten Gegner Quanten-SCH in Höhe von #1[i]% von Silberwolfs ANG zu.",
         "params": [
             [
                 0.5
@@ -1798,8 +1782,8 @@
         "type_text": "Fertigkeit",
         "effect": "Impair",
         "effect_text": "Beeinträchtigung",
-        "simple_desc": "Es besteht eine hohe Chance, einem Gegner zusätzliche Typen von Schwächen und Quantum-SCH zuzufügen.",
-        "desc": "Es besteht eine Grundchance von #2[i]%, einem anvisierten Gegner 1 Schwäche des Typs eines Verbündeten hinzuzufügen. Damit wird auch der SCH-WDS des Gegners gegenüber diesem Schwächetyp für #3[i] Rd. um #4[i]% reduziert. Wenn der Gegner bereits eine Schwäche dieses Typs hat, wird der Effekt der SCH-WDS-Reduzierung für diesen Schwächetyp nicht ausgelöst.\nJedem Gegner kann nur 1 Schwäche von Silberwolf hinzugefügt werden. Wenn Silberwolf dem Ziel eine weitere Schwäche hinzufügt, wird nur die letzte Schwäche beibehalten.\nAußerdem gibt es eine Grundchance von #5[i]%, den WDS aller Typen des Ziels zusätzlich um #6[f1]% für #7[i] Rd. zu reduzieren.\nFügt diesem Gegner Quantum-SCH in Höhe von #1[i]% von Silberwolfs ANG zu.",
+        "simple_desc": "Es besteht eine hohe Chance, einem Gegner zusätzliche Typen von Schwächen und Quanten-SCH zuzufügen.",
+        "desc": "Es besteht eine Grundchance von #2[i]%, einem anvisierten Gegner 1 Schwäche des Typs eines Verbündeten hinzuzufügen. Damit wird auch der SCH-WDS des Gegners gegenüber diesem Schwächetyp für #3[i] Rd. um #4[i]% reduziert. Wenn der Gegner bereits eine Schwäche dieses Typs hat, wird der Effekt der SCH-WDS-Reduzierung für diesen Schwächetyp nicht ausgelöst.\nJedem Gegner kann nur 1 Schwäche von Silberwolf hinzugefügt werden. Wenn Silberwolf dem Ziel eine weitere Schwäche hinzufügt, wird nur die letzte Schwäche beibehalten.\nAußerdem gibt es eine Grundchance von #5[i]%, den WDS aller Typen des Ziels zusätzlich um #6[f1]% für #7[i] Rd. zu reduzieren.\nFügt diesem Gegner Quanten-SCH in Höhe von #1[i]% von Silberwolfs ANG zu.",
         "params": [
             [
                 0.98,
@@ -1948,8 +1932,8 @@
         "type_text": "Ultimate",
         "effect": "Impair",
         "effect_text": "Beeinträchtigung",
-        "simple_desc": "Es besteht eine hohe Chance, die VTD eines Gegners zu reduzieren und ihm massiven Quantum-SCH zuzufügen.",
-        "desc": "Es besteht eine Grundchance von #2[i]%, die VTD eines anvisierten Gegners für #4[i] Rd. um #3[f1]% zu reduzieren und dem Ziel Quantum-SCH in Höhe von #1[i]% von Silberwolfs ANG zuzufügen.",
+        "simple_desc": "Es besteht eine hohe Chance, die VTD eines Gegners zu reduzieren und ihm massiven Quanten-SCH zuzufügen.",
+        "desc": "Es besteht eine Grundchance von #2[i]%, die VTD eines anvisierten Gegners für #4[i] Rd. um #3[f1]% zu reduzieren und dem Ziel Quanten-SCH in Höhe von #1[i]% von Silberwolfs ANG zuzufügen.",
         "params": [
             [
                 2.28,
@@ -2188,7 +2172,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "Greift Gegner an. Nach Kampfeintritt wird allen Gegner geringer SCH zugefügt und ungeachtet des Schwächetyps Widerstand reduziert.",
-        "desc": "Greift Gegner unmittelbar an. Nach Kampfeintritt wird allen Gegnern Quantum-SCH in Höhe von #1[i]% von Silberwolfs ANG zugefügt und ungeachtet des Schwächetyps wird WDS aller Gegner reduziert. Bei Gegnern, deren Schwäche auf diese Weise gebrochen wird, wird der Effekt von Quantum-Schwächebruch ausgelöst.",
+        "desc": "Greift Gegner unmittelbar an. Nach Kampfeintritt wird allen Gegnern Quanten-SCH in Höhe von #1[i]% von Silberwolfs ANG zugefügt und ungeachtet des Schwächetyps wird WDS aller Gegner reduziert. Bei Gegnern, deren Schwäche auf diese Weise gebrochen wird, wird der Effekt von Quanten-Schwächebruch ausgelöst.",
         "params": [
             [
                 0.8
@@ -2397,7 +2381,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Verstärkung",
-        "simple_desc": "",
+        "simple_desc": "Erhöht SCH basierend auf dem aktuellen Prozentsatz der eigenen verlorenen LP.",
         "desc": "Erhöht Arlans SCH basierend auf seinem verlorenen LP-Prozentsatz, bis zu einer maximalen Erhöhung um #1[i]%.",
         "params": [
             [
@@ -2471,7 +2455,7 @@
         "type_text": "Technik",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "",
+        "simple_desc": "Greift den Gegner an. Fügt nach Kampfeintritt allen Gegnern geringen Blitz-SCH zu.",
         "desc": "Greift den Gegner unmittelbar an. Fügt nach Kampfeintritt allen Gegnern Blitz-SCH in Höhe von #1[i]% von Arlans ANG zu.",
         "params": [
             [
@@ -3340,7 +3324,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Verstärkung",
-        "simple_desc": "",
+        "simple_desc": "Nach dem Einsatz des Standardangriffs wird die nächste eigene Aktion vorgezogen.",
         "desc": "Nach dem Einsatz des Standardangriffs wird Bronyas nächste Aktion um #1[i]% vorgezogen.",
         "params": [
             [
@@ -3414,7 +3398,7 @@
         "type_text": "Technik",
         "effect": "Support",
         "effect_text": "Unterstützung",
-        "simple_desc": "",
+        "simple_desc": "Nach dem Einsatz der Technik wird der ANG aller Verbündeten zu Beginn des nächsten Kampfes erhöht.",
         "desc": "Erhöht nach dem Einsatz der Technik den ANG aller Verbündeten zu Beginn des nächsten Kampfs für #2[i] Rd. um #1[i]%.",
         "params": [
             [
@@ -3433,8 +3417,8 @@
         "type_text": "Standardangriff",
         "effect": "SingleAttack",
         "effect_text": "Einzelangriff",
-        "simple_desc": "Fügt einem Gegner geringen Quantum-SCH zu.",
-        "desc": "Fügt einem anvisierten Gegner Quantum-SCH in Höhe von #1[i]% von Seeles ANG zu.",
+        "simple_desc": "Fügt einem Gegner geringen Quanten-SCH zu.",
+        "desc": "Fügt einem anvisierten Gegner Quanten-SCH in Höhe von #1[i]% von Seeles ANG zu.",
         "params": [
             [
                 0.5
@@ -3475,8 +3459,8 @@
         "type_text": "Fertigkeit",
         "effect": "SingleAttack",
         "effect_text": "Einzelangriff",
-        "simple_desc": "Fügt einem Gegner Quantum-SCH zu und erhöht die GES.",
-        "desc": "Erhöht Seeles GES für #3[i] Rd. um #2[i]% und fügt einem anvisierten Gegner Quantum-SCH in Höhe von #1[i]% ihres ANG zu.",
+        "simple_desc": "Fügt einem Gegner Quanten-SCH zu und erhöht die GES.",
+        "desc": "Erhöht Seeles GES für #3[i] Rd. um #2[i]% und fügt einem anvisierten Gegner Quanten-SCH in Höhe von #1[i]% ihres ANG zu.",
         "params": [
             [
                 1.1,
@@ -3565,8 +3549,8 @@
         "type_text": "Ultimate",
         "effect": "SingleAttack",
         "effect_text": "Einzelangriff",
-        "simple_desc": "Tritt in den verstärkten Zustand ein und fügt einem Gegner massiven Quantum-SCH zu.",
-        "desc": "Tritt in den verstärkten Zustand ein und fügt einem anvisierten Gegner Quantum-SCH in Höhe von #1[i]% von Seeles ANG zu.",
+        "simple_desc": "Tritt in den verstärkten Zustand ein und fügt einem Gegner massiven Quanten-SCH zu.",
+        "desc": "Tritt in den verstärkten Zustand ein und fügt einem anvisierten Gegner Quanten-SCH in Höhe von #1[i]% von Seeles ANG zu.",
         "params": [
             [
                 2.55
@@ -4301,7 +4285,7 @@
         "type_text": "Talent",
         "effect": "Restore",
         "effect_text": "Wiederherstellung",
-        "simple_desc": "",
+        "simple_desc": "Wenn von einem Todesstoß getroffen, werden die eigenen LP sofort wiederhergestellt, anstatt handlungsunfähig zu werden. Dieser Effekt kann nur 1-mal pro Kampf ausgelöst werden.",
         "desc": "Gepard wird durch einen Todesstoß nicht handlungsunfähig, sondern stellt unmittelbar #1[i]% seiner max. LP wieder her. Dieser Effekt kann nur einmal pro Kampf ausgelöst werden.",
         "params": [
             [
@@ -4375,7 +4359,7 @@
         "type_text": "Technik",
         "effect": "Defence",
         "effect_text": "Verteidigung",
-        "simple_desc": "",
+        "simple_desc": "Nach dem Einsatz der Technik erhalten alle Verbündeten zu Beginn des nächsten Kampfes einen Schild.",
         "desc": "Die Technik gewährt allen Verbündeten zu Beginn des nächsten Kampfs einen Schild, der SCH in Höhe von #1[i]% von Gepards VTD plus #3[i] für #2[i] Rd. absorbiert.",
         "params": [
             [
@@ -4632,7 +4616,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Verstärkung",
-        "simple_desc": "",
+        "simple_desc": "Wenn Verbündete mit wenig LP geheilt werden, wird die bewirkte Heilung erhöht. Dieser Effekt gilt auch für kontinuierliche Heilung.",
         "desc": "Heilt Natasha Verbündete mit LP-Prozentsatz von #1[i]% oder niedriger, wird die bewirkte Heilung um #2[i]% erhöht. Dieser Effekt wirkt auch bei der kontinuierlichen Heilung.",
         "params": [
             [
@@ -4721,7 +4705,7 @@
         "type_text": "Technik",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "",
+        "simple_desc": "Greift den Gegner an. Fügt nach Kampfeintritt einem zufälligen Gegner geringen physischen SCH zu, mit einer hohen Chance, allen gegnerischen Zielen Schwächung zuzufügen.",
         "desc": "Greift den Gegner unmittelbar an. Fügt nach Kampfeintritt einem zufälligen Gegner physischen SCH in Höhe von #4[i]% von Natashas ANG zu und verursacht bei allen Gegnern mit einer Grundchance von #1[i]% Schwächung.\nGeschwächte Gegner fügen Verbündeten für #3[i] Rd. #2[i]% weniger SCH zu.",
         "params": [
             [
@@ -5296,7 +5280,7 @@
         "type_text": "Talent",
         "effect": "SingleAttack",
         "effect_text": "Einzelangriff",
-        "simple_desc": "",
+        "simple_desc": "Der von gegnerischen Angriffen erhaltene SCH wird reduziert. Gegner, die Clara angreifen, werden mit einer „Kontermarkierung“ markiert und von Svarogs Konter getroffen, der physischen SCH zufügt.",
         "desc": "Unter Svarogs Schutz erleidet Clara #3[i]% weniger SCH. Svarog markiert Gegner, die Clara angreifen, mit „Kontermarkierung“ und führt einen Konter aus, der physischen SCH in Höhe von #2[i]% von Claras ANG verursacht.",
         "params": [
             [
@@ -5400,7 +5384,7 @@
         "type_text": "Technik",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "",
+        "simple_desc": "Greift den Gegner an. Nach Kampfeintritt wird die Chance erhöht, von Gegnern angegriffen zu werden.",
         "desc": "Greift den Gegner unmittelbar an. Nach Kampfeintritt wird Clara für #1[i] Rd. mit höherer Chance angegriffen.",
         "params": [
             [
@@ -5641,7 +5625,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Verstärkung",
-        "simple_desc": "",
+        "simple_desc": "Nach dem Treffen eines Gegners besteht die Chance, dass beim Gegner Windscherung verursacht wird.",
         "desc": "Sampos Angriffe verursachen mit einer Grundchance von #1[i]% für #3[i] Rd. Windscherung. \nDavon betroffene Gegner erleiden zu Beginn jeder Runde Wind-DoT in Höhe von #2[i]% von Sampos ANG. Windscherung ist bis zu #4[i]-fach stapelbar.",
         "params": [
             [
@@ -5760,7 +5744,7 @@
         "type_text": "Technik",
         "effect": "Impair",
         "effect_text": "Beeinträchtigung",
-        "simple_desc": "",
+        "simple_desc": "Gegner in einem bestimmten Gebiet werden geblendet. Beim Kämpfen gegen einen geblendeten Gegner besteht eine hohe Chance, nach Kampfeintritt die Aktionen aller Gegner zu verzögern.",
         "desc": "Nach dem Einsatz der Technik werden Gegner in einem bestimmten Bereich #1[i] s lang geblendet. Die Verbündeten sind für geblendete Gegner unsichtbar.\nGreift man einen geblendeten Gegner aktiv an, besteht eine Grundchance von #2[i]%, die Aktionen aller Gegner um #3[i]% zu verzögern.",
         "params": [
             [
@@ -6208,6 +6192,447 @@
         ],
         "icon": "icon/skill/1109_skill.png"
     },
+    "111101": {
+        "id": "111101",
+        "name": "Gerader Haken",
+        "max_level": 9,
+        "element": "Physical",
+        "type": "Normal",
+        "type_text": "Standardangriff",
+        "effect": "SingleAttack",
+        "effect_text": "Einzelangriff",
+        "simple_desc": "Fügt einem Gegner geringen physischen SCH zu.",
+        "desc": "Fügt einem anvisierten Gegner physischen SCH in Höhe von #1[i]% von Lukas ANG zu.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": ""
+    },
+    "111102": {
+        "id": "111102",
+        "name": "Schredderfaust",
+        "max_level": 15,
+        "element": "Physical",
+        "type": "BPSkill",
+        "type_text": "Fertigkeit",
+        "effect": "SingleAttack",
+        "effect_text": "Einzelangriff",
+        "simple_desc": "Fügt einem Gegner physischen SCH zu und bewirkt bei ihm mit hoher Chance Bluten.",
+        "desc": "Fügt einem anvisierten Gegner physischen SCH in Höhe von #1[i]% von Lukas ANG zu. Es besteht eine Grundchance von #2[i]%, bei diesem Gegner für #5[i] Rd. Bluten zu verursachen.\nDer blutende Gegner erleidet zu Beginn jeder Runde physischen DoT in Höhe von #3[f1]% seiner max. LP. Dieser SCH kann nicht #4[i]% von Lukas ANG übersteigen.",
+        "params": [
+            [
+                0.6,
+                1,
+                0.24,
+                1.3,
+                3
+            ],
+            [
+                0.66,
+                1,
+                0.24,
+                1.43,
+                3
+            ],
+            [
+                0.72,
+                1,
+                0.24,
+                1.56,
+                3
+            ],
+            [
+                0.78,
+                1,
+                0.24,
+                1.69,
+                3
+            ],
+            [
+                0.84,
+                1,
+                0.24,
+                1.82,
+                3
+            ],
+            [
+                0.9,
+                1,
+                0.24,
+                2.015,
+                3
+            ],
+            [
+                0.975,
+                1,
+                0.24,
+                2.275,
+                3
+            ],
+            [
+                1.05,
+                1,
+                0.24,
+                2.6,
+                3
+            ],
+            [
+                1.125,
+                1,
+                0.24,
+                2.99,
+                3
+            ],
+            [
+                1.2,
+                1,
+                0.24,
+                3.38,
+                3
+            ],
+            [
+                1.26,
+                1,
+                0.24,
+                3.549,
+                3
+            ],
+            [
+                1.32,
+                1,
+                0.24,
+                3.718,
+                3
+            ],
+            [
+                1.38,
+                1,
+                0.24,
+                3.887,
+                3
+            ],
+            [
+                1.44,
+                1,
+                0.24,
+                4.056,
+                3
+            ],
+            [
+                1.5,
+                1,
+                0.24,
+                4.225,
+                3
+            ]
+        ],
+        "icon": ""
+    },
+    "111103": {
+        "id": "111103",
+        "name": "Gnadenstoß",
+        "max_level": 15,
+        "element": "Physical",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "SingleAttack",
+        "effect_text": "Einzelangriff",
+        "simple_desc": "Luka erhält #5[i] Stapelungen „Kampfeswille“ mit einer hohen Chance, den vom Gegner erhaltenen SCH zu erhöhen, und fügt dem Ziel massiven physischen SCH zu.",
+        "desc": "Luka erhält #5[i] Stapelungen „Kampfeswille“. Es besteht eine Grundchance von #2[i]%, den erlittenen SCH eines anvisierten Gegners für #4[i] Rd. um #3[f1]% zu erhöhen. Fügt dem Ziel danach physischen SCH in Höhe von #1[i]% von Lukas ANG zu.",
+        "params": [
+            [
+                1.98,
+                1,
+                0.12,
+                3,
+                2
+            ],
+            [
+                2.112,
+                1,
+                0.128,
+                3,
+                2
+            ],
+            [
+                2.244,
+                1,
+                0.136,
+                3,
+                2
+            ],
+            [
+                2.376,
+                1,
+                0.144,
+                3,
+                2
+            ],
+            [
+                2.508,
+                1,
+                0.152,
+                3,
+                2
+            ],
+            [
+                2.64,
+                1,
+                0.16,
+                3,
+                2
+            ],
+            [
+                2.805,
+                1,
+                0.17,
+                3,
+                2
+            ],
+            [
+                2.97,
+                1,
+                0.18,
+                3,
+                2
+            ],
+            [
+                3.135,
+                1,
+                0.19,
+                3,
+                2
+            ],
+            [
+                3.3,
+                1,
+                0.2,
+                3,
+                2
+            ],
+            [
+                3.432,
+                1,
+                0.208,
+                3,
+                2
+            ],
+            [
+                3.564,
+                1,
+                0.216,
+                3,
+                2
+            ],
+            [
+                3.696,
+                1,
+                0.224,
+                3,
+                2
+            ],
+            [
+                3.828,
+                1,
+                0.232,
+                3,
+                2
+            ],
+            [
+                3.96,
+                1,
+                0.24,
+                3,
+                2
+            ]
+        ],
+        "icon": ""
+    },
+    "111104": {
+        "id": "111104",
+        "name": "Fliegende Funken",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Enhance",
+        "effect_text": "Verstärkung",
+        "simple_desc": "Luka erhält nach Einsatz von Standardangriff „Gerader Haken“ oder Fertigkeit „Schredderfaust“ 1 Stapelung „Kampfeswille“. Ab 2 Stapelungen „Kampfeswille“ wird der Standardangriff verstärkt.\nWenn der Gegner blutet, verursacht der verstärkte Standardangriff 1-mal zusätzlichen Bluten-SCH.",
+        "desc": "Nach dem Einsatz seines Standardangriffs „Gerader Haken“ oder seiner Fertigkeit „Schredderfaust“ erhält Luka #1[i] Stapelung „Kampfeswille“, bis zu 4-fach stapelbar. Ab 2 Stapelungen „Kampfeswille“ wird Lukas Standardangriff „Gerader Haken“ zu „Himmelsbrecher-Faust“ verstärkt. Wenn Lukas verstärkter Standardangriff „Himmelsbrecher-Faust“ einen blutenden Gegner trifft, erleidet dieser sofort 1-mal Bluten-SCH in Höhe von #2[i]% des ursprünglichen SCH. Bei Kampfbeginn besitzt Luka 1 Stapelung „Kampfeswille“.",
+        "params": [
+            [
+                1,
+                0.68
+            ],
+            [
+                1,
+                0.697
+            ],
+            [
+                1,
+                0.714
+            ],
+            [
+                1,
+                0.731
+            ],
+            [
+                1,
+                0.748
+            ],
+            [
+                1,
+                0.765
+            ],
+            [
+                1,
+                0.7863
+            ],
+            [
+                1,
+                0.8075
+            ],
+            [
+                1,
+                0.8288
+            ],
+            [
+                1,
+                0.85
+            ],
+            [
+                1,
+                0.867
+            ],
+            [
+                1,
+                0.884
+            ],
+            [
+                1,
+                0.901
+            ],
+            [
+                1,
+                0.918
+            ],
+            [
+                1,
+                0.935
+            ]
+        ],
+        "icon": ""
+    },
+    "111106": {
+        "id": "111106",
+        "name": "Angriff",
+        "max_level": 1,
+        "element": "Physical",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Greift den Gegner an und schwächt nach Kampfeintritt den Widerstand des Ziels gegen den entsprechenden Typ.",
+        "params": [],
+        "icon": ""
+    },
+    "111107": {
+        "id": "111107",
+        "name": "Vorausdenker",
+        "max_level": 1,
+        "element": "Physical",
+        "type": "Maze",
+        "type_text": "Technik",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "Greift den Gegner an. Fügt nach Kampfeintritt einem zufälligen Gegner geringen physischen SCH zu und hat eine hohe Chance, dem Ziel Bluten zuzufügen. Luka erhält dann 1 Stapelung „Kampfeswille“.",
+        "desc": "Greift den Gegner unmittelbar an. Nach Kampfeintritt fügt Luka einem zufälligen Gegner physischen SCH in Höhe von #1[i]% seines ANG zu und hat eine Grundchance von #2[i]%, dem Ziel den Status Bluten seiner Fertigkeit zuzufügen. Danach erhält Luka zusätzlich 1 Stapelung „Kampfeswille“.",
+        "params": [
+            [
+                0.5,
+                1
+            ]
+        ],
+        "icon": ""
+    },
+    "111108": {
+        "id": "111108",
+        "name": "Himmelsbrecher-Faust",
+        "max_level": 9,
+        "element": "Physical",
+        "type": "Normal",
+        "type_text": "Standardangriff",
+        "effect": "SingleAttack",
+        "effect_text": "Einzelangriff",
+        "simple_desc": "Verbraucht 2 Stapelungen „Kampfeswille“ und fügt einem Gegner physischen SCH zu.",
+        "desc": "Verbraucht 2 Stapelungen „Kampfeswille“. Attackiert erst einen Gegner mit einem dreifachen „Geraden Haken“, der pro Treffer physischen SCH in Höhe von #1[i]% von Lukas ANG verursacht.\nAttackiert dann einen Gegner mit „Himmelsbrecher-Faust“, die mit einem Schlag physischen SCH in Höhe von #2[i]% von Lukas ANG verursacht.",
+        "params": [
+            [
+                0.1,
+                0.4
+            ],
+            [
+                0.12,
+                0.48
+            ],
+            [
+                0.14,
+                0.56
+            ],
+            [
+                0.16,
+                0.64
+            ],
+            [
+                0.18,
+                0.72
+            ],
+            [
+                0.2,
+                0.8
+            ],
+            [
+                0.22,
+                0.88
+            ],
+            [
+                0.24,
+                0.96
+            ],
+            [
+                0.26,
+                1.04
+            ]
+        ],
+        "icon": ""
+    },
     "120101": {
         "id": "120101",
         "name": "Selbstgezogener Sieg",
@@ -6217,8 +6642,8 @@
         "type_text": "Standardangriff",
         "effect": "SingleAttack",
         "effect_text": "Einzelangriff",
-        "simple_desc": "Wirft einen Stein und fügt einem anvisierten Gegner geringen Quantum-SCH zu.",
-        "desc": "Wirft 1 Jadestein der Farbe mit der geringsten Anzahl von Steinen in Qingques aktueller Hand und fügt einem anvisierten Gegner Quantum-SCH in Höhe von #1[i]% von Qingques ANG zu.",
+        "simple_desc": "Wirft 1 Stein und fügt einem anvisierten Gegner geringen Quanten-SCH zu.",
+        "desc": "Wirft 1 Jadestein der Farbe mit der geringsten Anzahl von Steinen in Qingques aktueller Hand und fügt einem anvisierten Gegner Quanten-SCH in Höhe von #1[i]% von Qingques ANG zu.",
         "params": [
             [
                 0.5
@@ -6349,8 +6774,8 @@
         "type_text": "Ultimate",
         "effect": "AoEAttack",
         "effect_text": "Flächenangriff",
-        "simple_desc": "Fügt allen Gegnern Quantum-SCH zu und zieht dann 4 Jadesteine derselben Farbe.",
-        "desc": "Fügt allen Gegnern Quantum-SCH in Höhe von #1[i]% von Qingques ANG zu und zieht 4 Jadesteine derselben Farbe.",
+        "simple_desc": "Fügt allen Gegnern Quanten-SCH zu und zieht dann 4 Jadesteine derselben Farbe.",
+        "desc": "Fügt allen Gegnern Quanten-SCH in Höhe von #1[i]% von Qingques ANG zu und zieht 4 Jadesteine derselben Farbe.",
         "params": [
             [
                 1.2
@@ -6501,8 +6926,8 @@
         "type_text": "Standardangriff",
         "effect": "Blast",
         "effect_text": "Ausdehnung",
-        "simple_desc": "Fügt einem Gegner Quantum-SCH zu und fügt angrenzenden Zielen geringen Quantum-SCH zu.",
-        "desc": "Fügt einem anvisierten Gegner Quantum-SCH in Höhe von #1[i]% von Qingques ANG zu und fügt angrenzenden Zielen Quantum-SCH in Höhe von #2[i]% von Qingques ANG zu.\n„Sieg mit dem Kong!“ kann keine Fertigkeitspunkte wiederherstellen.",
+        "simple_desc": "Fügt einem Gegner Quanten-SCH zu und fügt angrenzenden Zielen geringen Quanten-SCH zu.",
+        "desc": "Fügt einem anvisierten Gegner Quanten-SCH in Höhe von #1[i]% von Qingques ANG zu und fügt angrenzenden Zielen Quanten-SCH in Höhe von #2[i]% von Qingques ANG zu.\n„Sieg mit dem Kong!“ kann keine Fertigkeitspunkte wiederherstellen.",
         "params": [
             [
                 1.2,
@@ -7586,6 +8011,519 @@
         ],
         "icon": "icon/skill/1204_technique.png"
     },
+    "120501": {
+        "id": "120501",
+        "name": "Scherbenschwert",
+        "max_level": 9,
+        "element": "Wind",
+        "type": "Normal",
+        "type_text": "Standardangriff",
+        "effect": "SingleAttack",
+        "effect_text": "Einzelangriff",
+        "simple_desc": "Fügt einem Gegner geringen Wind-SCH zu.",
+        "desc": "Fügt einem anvisierten Gegner Wind-SCH in Höhe von #1[i]% von Blades ANG zu.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": ""
+    },
+    "120502": {
+        "id": "120502",
+        "name": "Höllenqual",
+        "max_level": 15,
+        "element": "Wind",
+        "type": "BPSkill",
+        "type_text": "Fertigkeit",
+        "effect": "Enhance",
+        "effect_text": "Verstärkung",
+        "simple_desc": "Verbraucht LP, um den Standardangriff zu verstärken. Nach dem Einsatz der Fertigkeit wird die aktuelle Runde nicht beendet.",
+        "desc": "Verbraucht #1[i]% von Blades max. LP, um „Höllenqual“ zu aktivieren.\nWenn „Höllenqual“ aktiv ist, kann seine Fertigkeit nicht eingesetzt werden. Erhöht Blades verursachten SCH um #4[i]% und verstärkt seinen Standardangriff „Scherbenschwert“ für #2[i] Rd. zu „Schwerterwald“\nWenn Blades aktuelle LP nicht ausreichen, fallen seine aktuellen LP bei Einsatz seiner Fertigkeit auf 1.\nDiese Fertigkeit stellt keine Energie wieder her. Der Einsatz dieser Fertigkeit beendet nicht die aktuelle Runde.",
+        "params": [
+            [
+                0.3,
+                3,
+                1,
+                0.12
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.148
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.176
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.204
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.232
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.26
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.295
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.33
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.365
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.4
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.428
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.456
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.484
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.512
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.54
+            ]
+        ],
+        "icon": ""
+    },
+    "120503": {
+        "id": "120503",
+        "name": "Todesurteil",
+        "max_level": 15,
+        "element": "Wind",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "Blast",
+        "effect_text": "Ausdehnung",
+        "simple_desc": "Setzt die aktuellen LP auf 50 % der max. LP. Fügt einem Gegner massiven Wind-SCH und angrenzenden Einheiten Wind-SCH zu.",
+        "desc": "Setzt Blades aktuelle LP auf 50 % seiner max. LP und verursacht Wind-SCH. Dieser entspricht der Summe von #1[i]% seines ANG, #2[i]% seiner max. LP und #5[i]% der LP, die er im Laufe des aktuellen Kampfs insgesamt verloren hat. Fügt außerdem angrenzenden Einheiten Wind-SCH zu. Dieser entspricht der Summe von #3[f1]% seines ANG, #4[i]% seiner max. LP und #6[i]% der LP, die er im Laufe des aktuellen Kampfs insgesamt verloren hat.\nDie berechneten LP, die Blade im aktuellen Kampf insgesamt verloren hat, sind begrenzt auf #7[i]% seiner max. LP. Nachdem er seinen Ultimate eingesetzt hat, wird dieser Wert zurückgesetzt und neu berechnet.",
+        "params": [
+            [
+                0.24,
+                0.6,
+                0.096,
+                0.24,
+                0.6,
+                0.24,
+                0.9
+            ],
+            [
+                0.256,
+                0.64,
+                0.1024,
+                0.256,
+                0.64,
+                0.256,
+                0.9
+            ],
+            [
+                0.272,
+                0.68,
+                0.1088,
+                0.272,
+                0.68,
+                0.272,
+                0.9
+            ],
+            [
+                0.288,
+                0.72,
+                0.1152,
+                0.288,
+                0.72,
+                0.288,
+                0.9
+            ],
+            [
+                0.304,
+                0.76,
+                0.1216,
+                0.304,
+                0.76,
+                0.304,
+                0.9
+            ],
+            [
+                0.32,
+                0.8,
+                0.128,
+                0.32,
+                0.8,
+                0.32,
+                0.9
+            ],
+            [
+                0.34,
+                0.85,
+                0.136,
+                0.34,
+                0.85,
+                0.34,
+                0.9
+            ],
+            [
+                0.36,
+                0.9,
+                0.144,
+                0.36,
+                0.9,
+                0.36,
+                0.9
+            ],
+            [
+                0.38,
+                0.95,
+                0.152,
+                0.38,
+                0.95,
+                0.38,
+                0.9
+            ],
+            [
+                0.4,
+                1,
+                0.16,
+                0.4,
+                1,
+                0.4,
+                0.9
+            ],
+            [
+                0.416,
+                1.04,
+                0.1664,
+                0.416,
+                1.04,
+                0.416,
+                0.9
+            ],
+            [
+                0.432,
+                1.08,
+                0.1728,
+                0.432,
+                1.08,
+                0.432,
+                0.9
+            ],
+            [
+                0.448,
+                1.12,
+                0.1792,
+                0.448,
+                1.12,
+                0.448,
+                0.9
+            ],
+            [
+                0.464,
+                1.16,
+                0.1856,
+                0.464,
+                1.16,
+                0.464,
+                0.9
+            ],
+            [
+                0.48,
+                1.2,
+                0.192,
+                0.48,
+                1.2,
+                0.48,
+                0.9
+            ]
+        ],
+        "icon": ""
+    },
+    "120504": {
+        "id": "120504",
+        "name": "Shuhus Geschenk",
+        "max_level": 15,
+        "element": "Wind",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "AoEAttack",
+        "effect_text": "Flächenangriff",
+        "simple_desc": "Wenn Blades LP sinken, erhält er 1 Aufladung. Wenn die maximale Aufladungsanzahl erreicht wird, fügt er sofort allen Gegnern Wind-SCH zu und stellt seine LP wieder her. Dadurch werden alle Aufladungen verbraucht.",
+        "desc": "Wenn Blade SCH erleidet oder LP verbraucht, erhält er 1 Aufladung, bis zu 5-fach stapelbar. Pro erlittenem Angriff erhält Blade max. 1 Aufladung.\nWenn die max. Aufladungsanzahl erreicht wird, führt er sofort einen Folgeangriff gegen alle Gegner aus. Dieser verursacht Wind-SCH in Höhe von #2[i]% von Blades ANG plus #4[i]% seiner max. LP und stellt gleichzeitig LP in Höhe von #3[i]% von Blades max. LP wieder her. Alle Aufladungen werden beim Auslösen des Folgeangriffs verbraucht.",
+        "params": [
+            [
+                3,
+                0.22,
+                0.25,
+                0.55
+            ],
+            [
+                3,
+                0.242,
+                0.25,
+                0.605
+            ],
+            [
+                3,
+                0.264,
+                0.25,
+                0.66
+            ],
+            [
+                3,
+                0.286,
+                0.25,
+                0.715
+            ],
+            [
+                3,
+                0.308,
+                0.25,
+                0.77
+            ],
+            [
+                3,
+                0.33,
+                0.25,
+                0.825
+            ],
+            [
+                3,
+                0.3575,
+                0.25,
+                0.8938
+            ],
+            [
+                3,
+                0.385,
+                0.25,
+                0.9625
+            ],
+            [
+                3,
+                0.4125,
+                0.25,
+                1.0313
+            ],
+            [
+                3,
+                0.44,
+                0.25,
+                1.1
+            ],
+            [
+                3,
+                0.462,
+                0.25,
+                1.155
+            ],
+            [
+                3,
+                0.484,
+                0.25,
+                1.21
+            ],
+            [
+                3,
+                0.506,
+                0.25,
+                1.265
+            ],
+            [
+                3,
+                0.528,
+                0.25,
+                1.32
+            ],
+            [
+                3,
+                0.55,
+                0.25,
+                1.375
+            ]
+        ],
+        "icon": ""
+    },
+    "120506": {
+        "id": "120506",
+        "name": "Angriff",
+        "max_level": 1,
+        "element": "Wind",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Greift den Gegner an und schwächt nach Kampfeintritt den Widerstand des Ziels gegen den entsprechenden Typ.",
+        "params": [],
+        "icon": ""
+    },
+    "120507": {
+        "id": "120507",
+        "name": "Karmawind",
+        "max_level": 1,
+        "element": "Wind",
+        "type": "Maze",
+        "type_text": "Technik",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "Greift den Gegner an. Verbraucht nach Kampfeintritt eigene LP und fügt allen Gegnern Wind-SCH zu.",
+        "desc": "Greift den Gegner unmittelbar an. Verbraucht nach Kampfeintritt #2[i]% von Blades max. LP und fügt allen Gegnern Wind-SCH in Höhe von #1[i]% seiner max. LP zu.\nWenn Blades aktuelle LP nicht ausreichen, fallen seine aktuellen LP beim Einsatz dieser Technik auf 1.",
+        "params": [
+            [
+                0.4,
+                0.2
+            ]
+        ],
+        "icon": ""
+    },
+    "120508": {
+        "id": "120508",
+        "name": "Schwerterwald",
+        "max_level": 9,
+        "element": "Wind",
+        "type": "Normal",
+        "type_text": "Standardangriff",
+        "effect": "Blast",
+        "effect_text": "Ausdehnung",
+        "simple_desc": "Verbraucht LP und fügt einem Gegner Wind-SCH zu. Angrenzende Einheiten erleiden geringen Wind-SCH.",
+        "desc": "Verbraucht LP in Höhe von #1[i]% von Blades max. LP und fügt einem anvisierten Gegner Wind-SCH zu. Dieser entspricht der Summe von #2[i]% seines ANG und #4[i]% seiner max. LP. Fügt zusätzlich angrenzenden Einheiten Wind-SCH zu. Dieser entspricht der Summe von #3[i]% seines ANG und #5[i]% seiner max. LP.\nWenn Blades aktuelle LP nicht ausreichen, fallen seine aktuellen LP beim Einsatz von „Schwerterwald“ auf 1.\n„Schwerterwald“ kann keine Fertigkeitspunkte wiederherstellen.",
+        "params": [
+            [
+                0.1,
+                0.2,
+                0.08,
+                0.5,
+                0.2
+            ],
+            [
+                0.1,
+                0.24,
+                0.096,
+                0.6,
+                0.24
+            ],
+            [
+                0.1,
+                0.28,
+                0.112,
+                0.7,
+                0.28
+            ],
+            [
+                0.1,
+                0.32,
+                0.128,
+                0.8,
+                0.32
+            ],
+            [
+                0.1,
+                0.36,
+                0.144,
+                0.9,
+                0.36
+            ],
+            [
+                0.1,
+                0.4,
+                0.16,
+                1,
+                0.4
+            ],
+            [
+                0.1,
+                0.44,
+                0.176,
+                1.1,
+                0.44
+            ],
+            [
+                0.1,
+                0.48,
+                0.192,
+                1.2,
+                0.48
+            ],
+            [
+                0.1,
+                0.52,
+                0.208,
+                1.3,
+                0.52
+            ]
+        ],
+        "icon": ""
+    },
     "120601": {
         "id": "120601",
         "name": "Ritter-Schwertkunst: Stellarer Halo",
@@ -7832,7 +8770,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Verstärkung",
-        "simple_desc": "",
+        "simple_desc": "Erhöht die eigene GES, wenn ein Gegner im Kampf Schwächebruch erleidet.",
         "desc": "Wird die Schwäche eines Gegners gebrochen, steigt Sushangs GES für #2[i] Rd. um #1[f2]%.",
         "params": [
             [
@@ -7921,7 +8859,7 @@
         "type_text": "Technik",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "",
+        "simple_desc": "Greift den Gegner an. Fügt nach Kampfeintritt allen Gegnern geringen physischen SCH zu.",
         "desc": "Greift den Gegner unmittelbar an. Fügt nach Kampfeintritt allen Gegnern physischen SCH in Höhe von #1[i]% von Sushangs ANG zu.",
         "params": [
             [
@@ -8251,7 +9189,7 @@
         "effect": "Enhance",
         "effect_text": "Verstärkung",
         "simple_desc": "Erhöht ihre Bewegungs-GES. Gewährt 2-fach „Surrende Bogensehnen“, wenn sie durch Angriff auf den Gegner einen Kampf einleitet.",
-        "desc": "Aktiviert nach dem Einsatz der Technik für #1[i] Sek. Sprint-Modus. Der Sprint-Modus erhöht die Bewegungs-GES um #2[i]% und gewährt Yukong #3[i]-fach „Surrende Bogensehnen“, wenn sie durch Angriff auf den Gegner einen Kampf einleitet.",
+        "desc": "Aktiviert nach dem Einsatz der Technik für #1[i] Sek. Sprintmodus. Der Sprintmodus erhöht die Bewegungs-GES um #2[i]% und gewährt Yukong #3[i]-fach „Surrende Bogensehnen“, wenn sie durch Angriff auf den Gegner einen Kampf einleitet.",
         "params": [
             [
                 20,
@@ -8462,7 +9400,7 @@
         "type_text": "Talent",
         "effect": "SingleAttack",
         "effect_text": "Einzelangriff",
-        "simple_desc": "",
+        "simple_desc": "Verringert während „Empathische Schwertverbindung“ die Chance, angegriffen zu werden und erhöht die eigene KRIT-Rate und den KRIT-SCH. Nach einem Angriff auf einen Gegner besteht die Chance, einen Folgeangriff auszulösen, der Eis-SCH verursacht und den Gegner einfriert. \n„Empathische Schwertverbindung“ wird entfernt, sobald Yanqing Schaden erleidet.",
         "desc": "Ist „Empathische Schwertverbindung“ aktiv, sinkt die Chance, dass Yanqing angegriffen wird. Außerdem wird seine KRIT-Rate um #1[f1]% und sein KRIT-SCH um #2[i]% erhöht. Beim Angriff besteht eine feste Chance von #3[i]%, einen Folgeangriff auszuführen, der dem Ziel Eis-SCH in Höhe von #4[i]% von Yanqings ANG zufügt und mit einer Grundchance von #6[i]% für 1 Rd. Gefroren verursacht.\nDer eingefrorene Gegner ist handlungsunfähig und erleidet zu Beginn jeder Runde zusätzlichen Eis-SCH in Höhe von #5[i]% von Yanqings ANG. \nWenn Yanqing SCH erleidet, verschwindet die „Empathische Schwertverbindung“.",
         "params": [
             [
@@ -8611,7 +9549,7 @@
         "type_text": "Technik",
         "effect": "Enhance",
         "effect_text": "Verstärkung",
-        "simple_desc": "",
+        "simple_desc": "Der Einsatz der Technik erhöht zu Beginn des nächsten Kampfes den verursachten SCH bei Gegnern mit LP-Prozentsatz von 50 % oder höher.",
         "desc": "Fügt nach dem Einsatz der Technik Gegnern mit LP-Prozentsatz von #1[i]% oder höher zu Beginn des nächsten Kampfs #2[i]% mehr SCH für #3[i] Rd. zu.",
         "params": [
             [
@@ -8868,7 +9806,7 @@
         "type_text": "Talent",
         "effect": "Restore",
         "effect_text": "Wiederherstellung",
-        "simple_desc": "",
+        "simple_desc": "Verbündete mit „Belebung“ erhalten LP zurück, nachdem sie angegriffen wurden.\nWenn ein Verbündeter einen Todesstoß erleidet, stellt Bailu bei ihm sofort LP wieder her. Dieser Effekt kann pro Kampf nur 1-mal ausgelöst werden.",
         "desc": "Nachdem ein Verbündeter mit „Belebung“ getroffen worden ist, werden seine LP um #1[f1]% von Bailus max. LP plus #2[i] wiederhergestellt. Dieser Effekt kann #5[i]-mal ausgelöst werden. \nErleidet ein Verbündeter einen Todesstoß, wird dieser nicht handlungsunfähig. Stattdessen heilt Bailu den Verbündeten sofort um #3[i]% von Bailus max. LP plus #4[i]. Dieser Effekt kann 1-mal pro Kampf ausgelöst werden.",
         "params": [
             [
@@ -9002,7 +9940,7 @@
         "type_text": "Technik",
         "effect": "Restore",
         "effect_text": "Wiederherstellung",
-        "simple_desc": "",
+        "simple_desc": "Nach dem Einsatz der Technik erhalten alle Verbündeten zu Beginn des nächsten Kampfes „Belebung“.",
         "desc": "Gewährt nach dem Einsatz der Technik allen Verbündeten zu Beginn des nächsten Kampfes für #1[i] Rd. „Belebung“.",
         "params": [
             [
@@ -9010,6 +9948,755 @@
             ]
         ],
         "icon": "icon/skill/1211_technique.png"
+    },
+    "121301": {
+        "id": "121301",
+        "name": "",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "Standardangriff",
+        "effect": "SingleAttack",
+        "effect_text": "Einzelangriff",
+        "simple_desc": "",
+        "desc": "",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": ""
+    },
+    "121302": {
+        "id": "121302",
+        "name": "",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Fertigkeit",
+        "effect": "Enhance",
+        "effect_text": "Verstärkung",
+        "simple_desc": "",
+        "desc": "",
+        "params": [
+            [
+                1.3,
+                0.6,
+                0.3,
+                0.06,
+                4,
+                0.6,
+                0.6
+            ],
+            [
+                1.43,
+                0.66,
+                0.33,
+                0.066,
+                4,
+                0.66,
+                0.66
+            ],
+            [
+                1.56,
+                0.72,
+                0.36,
+                0.072,
+                4,
+                0.72,
+                0.72
+            ],
+            [
+                1.69,
+                0.78,
+                0.39,
+                0.078,
+                4,
+                0.78,
+                0.78
+            ],
+            [
+                1.82,
+                0.84,
+                0.42,
+                0.084,
+                4,
+                0.84,
+                0.84
+            ],
+            [
+                1.95,
+                0.9,
+                0.45,
+                0.09,
+                4,
+                0.9,
+                0.9
+            ],
+            [
+                2.1125,
+                0.975,
+                0.4875,
+                0.0975,
+                4,
+                0.975,
+                0.975
+            ],
+            [
+                2.275,
+                1.05,
+                0.525,
+                0.105,
+                4,
+                1.05,
+                1.05
+            ],
+            [
+                2.4375,
+                1.125,
+                0.5625,
+                0.1125,
+                4,
+                1.125,
+                1.125
+            ],
+            [
+                2.6,
+                1.2,
+                0.6,
+                0.12,
+                4,
+                1.2,
+                1.2
+            ],
+            [
+                2.73,
+                1.26,
+                0.63,
+                0.126,
+                4,
+                1.26,
+                1.26
+            ],
+            [
+                2.86,
+                1.32,
+                0.66,
+                0.132,
+                4,
+                1.32,
+                1.32
+            ],
+            [
+                2.99,
+                1.38,
+                0.69,
+                0.138,
+                4,
+                1.38,
+                1.38
+            ],
+            [
+                3.12,
+                1.44,
+                0.72,
+                0.144,
+                4,
+                1.44,
+                1.44
+            ],
+            [
+                3.25,
+                1.5,
+                0.75,
+                0.15,
+                4,
+                1.5,
+                1.5
+            ]
+        ],
+        "icon": ""
+    },
+    "121303": {
+        "id": "121303",
+        "name": "",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "Blast",
+        "effect_text": "Ausdehnung",
+        "simple_desc": "",
+        "desc": "",
+        "params": [
+            [
+                1.8,
+                0.84,
+                2,
+                3
+            ],
+            [
+                1.92,
+                0.896,
+                2,
+                3
+            ],
+            [
+                2.04,
+                0.952,
+                2,
+                3
+            ],
+            [
+                2.16,
+                1.008,
+                2,
+                3
+            ],
+            [
+                2.28,
+                1.064,
+                2,
+                3
+            ],
+            [
+                2.4,
+                1.12,
+                2,
+                3
+            ],
+            [
+                2.55,
+                1.19,
+                2,
+                3
+            ],
+            [
+                2.7,
+                1.26,
+                2,
+                3
+            ],
+            [
+                2.85,
+                1.33,
+                2,
+                3
+            ],
+            [
+                3,
+                1.4,
+                2,
+                3
+            ],
+            [
+                3.12,
+                1.456,
+                2,
+                3
+            ],
+            [
+                3.24,
+                1.512,
+                2,
+                3
+            ],
+            [
+                3.36,
+                1.568,
+                2,
+                3
+            ],
+            [
+                3.48,
+                1.624,
+                2,
+                3
+            ],
+            [
+                3.6,
+                1.68,
+                2,
+                3
+            ]
+        ],
+        "icon": ""
+    },
+    "121304": {
+        "id": "121304",
+        "name": "",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Enhance",
+        "effect_text": "Verstärkung",
+        "simple_desc": "",
+        "desc": "",
+        "params": [
+            [
+                0.09,
+                5
+            ],
+            [
+                0.095,
+                5
+            ],
+            [
+                0.1,
+                5
+            ],
+            [
+                0.105,
+                5
+            ],
+            [
+                0.11,
+                5
+            ],
+            [
+                0.115,
+                5
+            ],
+            [
+                0.1213,
+                5
+            ],
+            [
+                0.1275,
+                5
+            ],
+            [
+                0.1338,
+                5
+            ],
+            [
+                0.14,
+                5
+            ],
+            [
+                0.145,
+                5
+            ],
+            [
+                0.15,
+                5
+            ],
+            [
+                0.155,
+                5
+            ],
+            [
+                0.16,
+                5
+            ],
+            [
+                0.165,
+                5
+            ]
+        ],
+        "icon": ""
+    },
+    "121306": {
+        "id": "121306",
+        "name": "Angriff",
+        "max_level": 1,
+        "element": "Imaginary",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Greift den Gegner an und schwächt nach Kampfeintritt den Widerstand des Ziels gegen den entsprechenden Typ.",
+        "params": [],
+        "icon": ""
+    },
+    "121307": {
+        "id": "121307",
+        "name": "",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technik",
+        "effect": "Enhance",
+        "effect_text": "Verstärkung",
+        "simple_desc": "",
+        "desc": "",
+        "params": [
+            [
+                1,
+                20
+            ]
+        ],
+        "icon": ""
+    },
+    "121308": {
+        "id": "121308",
+        "name": "",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "Standardangriff",
+        "effect": "SingleAttack",
+        "effect_text": "Einzelangriff",
+        "simple_desc": "",
+        "desc": "",
+        "params": [
+            [
+                1.3
+            ],
+            [
+                1.43
+            ],
+            [
+                1.56
+            ],
+            [
+                1.69
+            ],
+            [
+                1.82
+            ],
+            [
+                1.95
+            ],
+            [
+                2.1125
+            ],
+            [
+                2.275
+            ],
+            [
+                2.4375
+            ],
+            [
+                2.6
+            ],
+            [
+                2.73
+            ],
+            [
+                2.86
+            ],
+            [
+                2.99
+            ],
+            [
+                3.12
+            ],
+            [
+                3.25
+            ]
+        ],
+        "icon": ""
+    },
+    "121309": {
+        "id": "121309",
+        "name": "",
+        "max_level": 1,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Fertigkeit",
+        "effect": "Support",
+        "effect_text": "Unterstützung",
+        "simple_desc": "",
+        "desc": "",
+        "params": [],
+        "icon": ""
+    },
+    "121310": {
+        "id": "121310",
+        "name": "",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "Standardangriff",
+        "effect": "Blast",
+        "effect_text": "Ausdehnung",
+        "simple_desc": "",
+        "desc": "",
+        "params": [
+            [
+                1.3,
+                0.6,
+                0.3,
+                0.06,
+                4
+            ],
+            [
+                1.43,
+                0.66,
+                0.33,
+                0.066,
+                4
+            ],
+            [
+                1.56,
+                0.72,
+                0.36,
+                0.072,
+                4
+            ],
+            [
+                1.69,
+                0.78,
+                0.39,
+                0.078,
+                4
+            ],
+            [
+                1.82,
+                0.84,
+                0.42,
+                0.084,
+                4
+            ],
+            [
+                1.95,
+                0.9,
+                0.45,
+                0.09,
+                4
+            ],
+            [
+                2.1125,
+                0.975,
+                0.4875,
+                0.0975,
+                4
+            ],
+            [
+                2.275,
+                1.05,
+                0.525,
+                0.105,
+                4
+            ],
+            [
+                2.4375,
+                1.125,
+                0.5625,
+                0.1125,
+                4
+            ],
+            [
+                2.6,
+                1.2,
+                0.6,
+                0.12,
+                4
+            ],
+            [
+                2.73,
+                1.26,
+                0.63,
+                0.126,
+                4
+            ],
+            [
+                2.86,
+                1.32,
+                0.66,
+                0.132,
+                4
+            ],
+            [
+                2.99,
+                1.38,
+                0.69,
+                0.138,
+                4
+            ],
+            [
+                3.12,
+                1.44,
+                0.72,
+                0.144,
+                4
+            ],
+            [
+                3.25,
+                1.5,
+                0.75,
+                0.15,
+                4
+            ]
+        ],
+        "icon": ""
+    },
+    "121312": {
+        "id": "121312",
+        "name": "",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "Standardangriff",
+        "effect": "Blast",
+        "effect_text": "Ausdehnung",
+        "simple_desc": "",
+        "desc": "",
+        "params": [
+            [
+                1.3,
+                0.6,
+                0.3,
+                0.06,
+                4,
+                0.6,
+                0.6
+            ],
+            [
+                1.43,
+                0.66,
+                0.33,
+                0.066,
+                4,
+                0.66,
+                0.66
+            ],
+            [
+                1.56,
+                0.72,
+                0.36,
+                0.072,
+                4,
+                0.72,
+                0.72
+            ],
+            [
+                1.69,
+                0.78,
+                0.39,
+                0.078,
+                4,
+                0.78,
+                0.78
+            ],
+            [
+                1.82,
+                0.84,
+                0.42,
+                0.084,
+                4,
+                0.84,
+                0.84
+            ],
+            [
+                1.95,
+                0.9,
+                0.45,
+                0.09,
+                4,
+                0.9,
+                0.9
+            ],
+            [
+                2.1125,
+                0.975,
+                0.4875,
+                0.0975,
+                4,
+                0.975,
+                0.975
+            ],
+            [
+                2.275,
+                1.05,
+                0.525,
+                0.105,
+                4,
+                1.05,
+                1.05
+            ],
+            [
+                2.4375,
+                1.125,
+                0.5625,
+                0.1125,
+                4,
+                1.125,
+                1.125
+            ],
+            [
+                2.6,
+                1.2,
+                0.6,
+                0.12,
+                4,
+                1.2,
+                1.2
+            ],
+            [
+                2.73,
+                1.26,
+                0.63,
+                0.126,
+                4,
+                1.26,
+                1.26
+            ],
+            [
+                2.86,
+                1.32,
+                0.66,
+                0.132,
+                4,
+                1.32,
+                1.32
+            ],
+            [
+                2.99,
+                1.38,
+                0.69,
+                0.138,
+                4,
+                1.38,
+                1.38
+            ],
+            [
+                3.12,
+                1.44,
+                0.72,
+                0.144,
+                4,
+                1.44,
+                1.44
+            ],
+            [
+                3.25,
+                1.5,
+                0.75,
+                0.15,
+                4,
+                1.5,
+                1.5
+            ]
+        ],
+        "icon": ""
     },
     "800101": {
         "id": "800101",

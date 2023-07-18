@@ -313,7 +313,7 @@
     "20009": {
         "id": "20009",
         "skill": "Éradication",
-        "desc": "Augmente de #2[i]% les DGT infligés aux ennemis dont les PV sont supérieurs à #1[i]%.",
+        "desc": "Le porteur inflige #2[i]% de DGT supplémentaires aux cibles ennemies dont le pourcentage de PV est supérieur à #1[i]%.",
         "params": [
             [
                 0.5,
@@ -1861,7 +1861,7 @@
     "21025": {
         "id": "21025",
         "skill": "Cerfs-volants du passé",
-        "desc": "Lorsque le porteur utilise sa compétence, les DGT infligés par son prochain allié à agir augmentent de #1[i]% pendant #2[i] tour.",
+        "desc": "Lorsque le porteur utilise sa compétence, les DGT infligés par le prochain allié à agir (à l'exception du porteur) augmentent de #1[i]% pendant #2[i] tour.",
         "params": [
             [
                 0.16,
@@ -1895,7 +1895,7 @@
     "21026": {
         "id": "21026",
         "skill": "Cours !",
-        "desc": "Augmente l'ATQ du porteur de #1[i]%, et augmente les DGT qu'il inflige aux ennemis affectés par Brûlure ou Saignement de #2[i]%. Cet effet s'applique également aux dégâts sur la durée.",
+        "desc": "Augmente l'ATQ du porteur de #1[i]%, ainsi que les DGT qu'il inflige aux ennemis affectés par Brûlure ou Saignement de #2[i]%. Cet effet s'applique également aux dégâts sur la durée.",
         "params": [
             [
                 0.1,
@@ -2018,7 +2018,7 @@
     "21028": {
         "id": "21028",
         "skill": "Petite lumière",
-        "desc": "Augmente les PV max du porteur de #1[i]%. Lorsque le porteur utilise l'ATQ normale ou sa compétence, restaure les PV de tous les alliés à hauteur de #2[f1]% de leurs PV max respectifs.",
+        "desc": "Augmente les PV max du porteur de #1[i]%. Lorsque le porteur utilise l'ATQ normale ou sa compétence, restaure des PV pour tous les alliés à hauteur de #2[f1]% de leurs PV max respectifs.",
         "params": [
             [
                 0.16,
@@ -2587,7 +2587,7 @@
     "23003": {
         "id": "23003",
         "skill": "Héritière",
-        "desc": "Augmente le taux de régénération d'énergie du porteur de #1[i]% et restaure 1 point de compétence lorsqu'il utilise son ultime sur un allié. Cet effet peut être déclenché toutes les 2 utilisations de l'ultime du porteur. Lorsque le porteur utilise sa compétence, le prochain allié à agir (à l'exception du porteur) inflige #2[i]% de DGT supplémentaires pendant #3[i] tour.",
+        "desc": "Augmente le taux de régénération d'énergie du porteur de #1[i]% et restaure 1 point de compétence lorsqu'il utilise son ultime sur un allié. Cet effet peut être déclenché une fois toutes les 2 utilisations de l'ultime du porteur. Lorsque le porteur utilise sa compétence, le prochain allié à agir (à l'exception du porteur) inflige #2[i]% de DGT supplémentaires pendant #3[i] tour.",
         "params": [
             [
                 0.1,
@@ -2776,6 +2776,80 @@
             ]
         ]
     },
+    "23006": {
+        "id": "23006",
+        "skill": "Toile d'araignée",
+        "desc": "Les DGT infligés par le porteur augmentent de #2[i]%. Après chaque attaque du porteur, sa VIT augmente de #3[f1]%, effet cumulable #4[i] fois.\\nLorsque le porteur attaque un ennemi, il y a 100 % de chances de base de lui infliger l'effet Érosion, lorsque l'ennemi n'est pas déjà affecté par cet effet. Les ennemis affectés par Érosion sont considérés comme Stupéfiés et subissent des DGT de foudre sur le durée équivalents à #1[i]% de l'ATQ du porteur pendant #5[i] tours.",
+        "params": [
+            [
+                0.6,
+                0.24,
+                0.048,
+                3,
+                1
+            ],
+            [
+                0.7,
+                0.28,
+                0.056,
+                3,
+                1
+            ],
+            [
+                0.8,
+                0.32,
+                0.064,
+                3,
+                1
+            ],
+            [
+                0.9,
+                0.36,
+                0.072,
+                3,
+                1
+            ],
+            [
+                1,
+                0.4,
+                0.08,
+                3,
+                1
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "AllDamageTypeAddedRatio",
+                    "value": 0.24
+                }
+            ],
+            [
+                {
+                    "type": "AllDamageTypeAddedRatio",
+                    "value": 0.28
+                }
+            ],
+            [
+                {
+                    "type": "AllDamageTypeAddedRatio",
+                    "value": 0.32
+                }
+            ],
+            [
+                {
+                    "type": "AllDamageTypeAddedRatio",
+                    "value": 0.36
+                }
+            ],
+            [
+                {
+                    "type": "AllDamageTypeAddedRatio",
+                    "value": 0.4
+                }
+            ]
+        ]
+    },
     "23007": {
         "id": "23007",
         "skill": "Mirage de la réalité",
@@ -2853,7 +2927,7 @@
     "23008": {
         "id": "23008",
         "skill": "Épines",
-        "desc": "Augmente l'ATQ du porteur de #1[i]%. Lorsque le porteur utilise une attaque, régénère #3[f1] points d'énergie pour chaque cible touchée. Chaque attaque peut régénérer de l'énergie jusqu'à #4[i] fois de cette façon. Lorsque le porteur utilise son ultime, tous les alliés obtiennent #2[i] de VIT pendant 1 tour.",
+        "desc": "Augmente l'ATQ du porteur de #1[i]%. Lorsque le porteur utilise une attaque, régénère #3[f1] points d'énergie pour chaque cible touchée. Chaque attaque peut régénérer de l'énergie jusqu'à #4[i] fois de cette façon. Lorsque le porteur utilise son ultime, la VIT de tous les alliés augmente de #2[i] pendant 1 tour.",
         "params": [
             [
                 0.24,
@@ -2915,6 +2989,90 @@
                 {
                     "type": "AttackAddedRatio",
                     "value": 0.4
+                }
+            ]
+        ]
+    },
+    "23009": {
+        "id": "23009",
+        "skill": "Envie inassouvie",
+        "desc": "Augmente les chances de coup critique du porteur de #1[i]% et ses PV max de #2[i]%. Ses DGT augmentent de #3[i]% lorsqu'il est attaqué ou qu'il consomme ses propres PV. Cet effet disparaît lorsque le porteur lance une attaque.",
+        "params": [
+            [
+                0.18,
+                0.18,
+                0.24
+            ],
+            [
+                0.21,
+                0.21,
+                0.28
+            ],
+            [
+                0.24,
+                0.24,
+                0.32
+            ],
+            [
+                0.27,
+                0.27,
+                0.36
+            ],
+            [
+                0.3,
+                0.3,
+                0.4
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.18
+                },
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.18
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.21
+                },
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.21
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.24
+                },
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.24
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.27
+                },
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.27
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.3
+                },
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.3
                 }
             ]
         ]
@@ -3055,7 +3213,7 @@
     "23013": {
         "id": "23013",
         "skill": "Matin, midi, crépuscule et nuit",
-        "desc": "Augmente les PV max du porteur de #1[i]% et les soins qu'il prodigue de #2[i]%. Lorsque le porteur soigne un allié, la quantité de soins prodigués est enregistrée. Lorsqu'un allié lance une attaque, un ennemi aléatoire parmi ceux attaqués subit des DGT additionnels équivalents à #3[i]% des soins prodigués enregistrés. Ces DGT additionnels sont du même type que le porteur, ne sont pas affectés par d'autres bonus et ne peuvent être infligés qu'1 fois par tour.",
+        "desc": "Augmente les PV max du porteur de #1[i]% et les soins qu'il prodigue de #2[i]%. Lorsque le porteur soigne un allié, la quantité de soins prodigués est enregistrée. Lorsqu'un allié lance une attaque, un ennemi aléatoire parmi ceux attaqués subit des DGT additionnels équivalents à #3[i]% des soins prodigués enregistrés. Le type des DGT additionnels est le même que celui du porteur. Ces DGT additionnels ne sont pas affectés par d'autres bonus et ne peuvent être infligés qu'1 fois par tour.",
         "params": [
             [
                 0.18,

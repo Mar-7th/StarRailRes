@@ -232,6 +232,44 @@
         "icon": "icon/relic/112.png",
         "guide_overview": []
     },
+    "113": {
+        "id": "113",
+        "name": "Disciple longévive",
+        "desc": [
+            "Augmente les PV max de 12%.",
+            "Lorsque le porteur est touché ou que ses PV sont consommés par un allié ou par lui-même, ses chances de coup critique augmentent de 8% pendant 2 tours, avec un maximum de 2 cumuls."
+        ],
+        "properties": [
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.12
+                }
+            ],
+            []
+        ],
+        "icon": "",
+        "guide_overview": []
+    },
+    "114": {
+        "id": "114",
+        "name": "Messager du hackerspace",
+        "desc": [
+            "Augmente la VIT de 6%.",
+            "Lorsque le porteur utilise son ultime sur un allié, la VIT de tous les alliés augmente de 12% pendant 1 tour. Cet effet n'est pas cumulable."
+        ],
+        "properties": [
+            [
+                {
+                    "type": "SpeedAddedRatio",
+                    "value": 0.06
+                }
+            ],
+            []
+        ],
+        "icon": "",
+        "guide_overview": []
+    },
     "301": {
         "id": "301",
         "name": "Station de scellement spatial",
@@ -374,6 +412,42 @@
             ]
         ],
         "icon": "icon/relic/308.png",
+        "guide_overview": []
+    },
+    "309": {
+        "id": "309",
+        "name": "Arène rutilante",
+        "desc": [
+            "Augmente les chances de coup critique du porteur de 8%. Lorsque ses chances de coup critique atteignent 70% ou plus, les DGT de son ATQ normale et de sa compétence augmentent de 20%.",
+            ""
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.08
+                }
+            ]
+        ],
+        "icon": "",
+        "guide_overview": []
+    },
+    "310": {
+        "id": "310",
+        "name": "Quille brisée",
+        "desc": [
+            "Augmente la RÉS aux effets du porteur de 10%. Lorsque sa RÉS aux effets est supérieure ou égale à 30%, les DGT critiques de tous les alliés augmentent de 10%.",
+            ""
+        ],
+        "properties": [
+            [
+                {
+                    "type": "StatusResistanceBase",
+                    "value": 0.1
+                }
+            ]
+        ],
+        "icon": "",
         "guide_overview": []
     }
 }

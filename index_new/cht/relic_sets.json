@@ -232,6 +232,44 @@
         "icon": "icon/relic/112.png",
         "guide_overview": []
     },
+    "113": {
+        "id": "113",
+        "name": "寶命長存的蒔者",
+        "desc": [
+            "生命上限提高12%。",
+            "當裝備者受到攻擊或被我方目標消耗生命值後，暴擊率提高8%，持續2回合，該效果最多疊加2層。"
+        ],
+        "properties": [
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.12
+                }
+            ],
+            []
+        ],
+        "icon": "",
+        "guide_overview": []
+    },
+    "114": {
+        "id": "114",
+        "name": "駭域漫遊的信使",
+        "desc": [
+            "速度提高6%。",
+            "當裝備者對我方目標施放終結技時，我方全體速度提高12%，持續1回合，該效果無法疊加。"
+        ],
+        "properties": [
+            [
+                {
+                    "type": "SpeedAddedRatio",
+                    "value": 0.06
+                }
+            ],
+            []
+        ],
+        "icon": "",
+        "guide_overview": []
+    },
     "301": {
         "id": "301",
         "name": "太空封印站",
@@ -374,6 +412,42 @@
             ]
         ],
         "icon": "icon/relic/308.png",
+        "guide_overview": []
+    },
+    "309": {
+        "id": "309",
+        "name": "繁星競技場",
+        "desc": [
+            "使裝備者的暴擊率提高8%。當裝備者在戰鬥中的暴擊率大於等於70%時，普通攻擊和戰技的傷害提高20%。",
+            ""
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.08
+                }
+            ]
+        ],
+        "icon": "",
+        "guide_overview": []
+    },
+    "310": {
+        "id": "310",
+        "name": "折斷的龍骨",
+        "desc": [
+            "使裝備者的效果抗性提高10%。當裝備者的效果抗性大於等於30%時，我方全體暴擊傷害提高10%。",
+            ""
+        ],
+        "properties": [
+            [
+                {
+                    "type": "StatusResistanceBase",
+                    "value": 0.1
+                }
+            ]
+        ],
+        "icon": "",
         "guide_overview": []
     }
 }

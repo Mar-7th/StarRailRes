@@ -232,6 +232,44 @@
         "icon": "icon/relic/112.png",
         "guide_overview": []
     },
+    "113": {
+        "id": "113",
+        "name": "Discípulo Macróbio",
+        "desc": [
+            "Aumenta os PV máximos em 12%.",
+            "Quando o usuário recebe um golpe ou tem seus PV consumidos por um aliado ou por si próprio, a Chance de CRIT dele aumenta em 8% por 2 rodada(s) e até 2 acúmulos."
+        ],
+        "properties": [
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.12
+                }
+            ],
+            []
+        ],
+        "icon": "",
+        "guide_overview": []
+    },
+    "114": {
+        "id": "114",
+        "name": "Mensageira Atravessando o Hackerspace",
+        "desc": [
+            "Aumenta a VEL em 6%.",
+            "Quando o usuário usa a sua Perícia Suprema em um aliado, a VEL de todos os aliados aumenta em 12% por 1 rodada(s). Este efeito não pode acumular."
+        ],
+        "properties": [
+            [
+                {
+                    "type": "SpeedAddedRatio",
+                    "value": 0.06
+                }
+            ],
+            []
+        ],
+        "icon": "",
+        "guide_overview": []
+    },
     "301": {
         "id": "301",
         "name": "Estação de Vedação Espacial",
@@ -344,7 +382,7 @@
         "id": "307",
         "name": "Talia: Reino do Banditismo",
         "desc": [
-            "Aumenta em 16% o Efeito de Quebra do usuário. Quando a VEL do usuário chegar a 145 ou mais, aumenta em mais 20% o efeito de Quebra do usuário.",
+            "Aumenta em 16% o Efeito de Quebra do usuário. Quando a VEL do usuário chegar a 145 ou mais, aumenta em mais 20% o Efeito de Quebra do usuário.",
             ""
         ],
         "properties": [
@@ -374,6 +412,42 @@
             ]
         ],
         "icon": "icon/relic/308.png",
+        "guide_overview": []
+    },
+    "309": {
+        "id": "309",
+        "name": "Arena Rutilante",
+        "desc": [
+            "Aumenta em 8% a Chance de CRIT do usuário. Quando a Chance de CRIT chegar a 70% ou mais, aumenta em 20% o ATQ Básico e o Dano de Perícia do usuário.",
+            ""
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.08
+                }
+            ]
+        ],
+        "icon": "",
+        "guide_overview": []
+    },
+    "310": {
+        "id": "310",
+        "name": "Quilha Quebrada",
+        "desc": [
+            "Aumenta em 10% a RES a Efeito do usuário. Quando a RES a Efeito do usuário chegar em 30% ou mais, aumenta em 10% o Dano CRIT de todos os aliados.",
+            ""
+        ],
+        "properties": [
+            [
+                {
+                    "type": "StatusResistanceBase",
+                    "value": 0.1
+                }
+            ]
+        ],
+        "icon": "",
         "guide_overview": []
     }
 }

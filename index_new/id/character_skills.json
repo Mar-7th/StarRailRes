@@ -906,7 +906,7 @@
         "type_text": "Talent",
         "effect": "AoEAttack",
         "effect_text": "AoE",
-        "simple_desc": "",
+        "simple_desc": "Mendapatkan Charge saat ada musuh yang terkena Weakness Break.\nJika Charge penuh setelah rekan tim menyerang, akan segera memicu Serangan Lanjutan yang mengakibatkan Fire DMG pada seluruh musuh dan mengonsumsi semua poin Charge.\nMemperoleh 1 Charge saat pertempuran dimulai.",
         "desc": "Saat ada target musuh yang terkena Weakness Break, Himeko akan memperoleh 1 Charge, maksimal #2[i].\nJika rekan tim melancarkan serangan saat Charge Himeko sudah penuh, Himeko akan segera melancarkan 1 Serangan Lanjutan yang mengakibatkan Fire DMG sebesar #1[i]% ATK Himeko pada seluruh musuh dan semua poin Charge akan terkonsumsi.\nMemperoleh 1 Charge pada saat pertempuran dimulai.",
         "params": [
             [
@@ -995,7 +995,7 @@
         "type_text": "Technique",
         "effect": "Impair",
         "effect_text": "Impair",
-        "simple_desc": "",
+        "simple_desc": "Menciptakan Dimension khusus. Setelah memasuki pertempuran dengan musuh dalam Dimension, berpeluang besar untuk meningkatkan Fire DMG yang diterima oleh target musuh.",
         "desc": "Setelah menggunakan Technique, Himeko akan menciptakan sebuah Dimension khusus selama #4[i] detik. Setelah memasuki pertempuran bersama musuh dalam Dimension, ada #1[i]% peluang dasar untuk meningkatkan #2[i]% Fire DMG yang diterima target musuh selama #3[i] giliran. Hanya boleh ada 1 efek Dimension ciptaan rekan tim dalam satu waktu.",
         "params": [
             [
@@ -1268,7 +1268,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "",
+        "simple_desc": "Saat menyerang target musuh berstatus Slow, akan mengakibatkan Imaginary DMG Tambahan dalam jumlah kecil.",
         "desc": "Saat menyerang target musuh berstatus Slow, akan mengakibatkan 1 kali Imaginary DMG tambahan sebesar #1[i]% ATK Welt.",
         "params": [
             [
@@ -1342,7 +1342,7 @@
         "type_text": "Technique",
         "effect": "Impair",
         "effect_text": "Impair",
-        "simple_desc": "",
+        "simple_desc": "Menciptakan Dimension khusus. Movement SPD musuh dalam Dimension akan berkurang. Setelah memasuki pertempuran dengan musuh dalam Dimension, berpeluang besar untuk membuat target musuh memasuki status Imprisonment.",
         "desc": "Setelah menggunakan Technique, Welt akan menciptakan sebuah Dimension khusus selama #4[i] detik. Movement SPD musuh yang berada di dalam Dimension akan berkurang #5[i]%. Setelah memasuki pertempuran dengan musuh dalam Dimension, ada #1[i]% peluang dasar untuk membuat target musuh memasuki status Imprisonment selama 1 giliran.\nSelama dalam status Imprisonment, target musuh akan mengalami #2[i]% penundaan aksi dan SPD berkurang #3[i]%. Hanya boleh ada 1 efek Dimension ciptaan rekan tim dalam satu waktu.",
         "params": [
             [
@@ -1406,7 +1406,7 @@
         "type_text": "Skill",
         "effect": "Blast",
         "effect_text": "Blast",
-        "simple_desc": "Mengakibatkan Lightning DMG pada 1 musuh dan membuat target menerima DMG tambahan dari DoT Debuff, serta mengakibatkan Lightning DMG dalam jumlah kecil pada musuh di sekitar target.",
+        "simple_desc": "Mengakibatkan Lightning DMG pada 1 musuh dan mengakibatkan Lightning DMG dalam jumlah kecil pada target di sekitarnya.\nJika target utama berada dalam DoT Debuff, maka DoT Debuff yang dimilikinya akan mengakibatkan 1 kali DMG tambahan.",
         "desc": "Mengakibatkan Lightning DMG sebesar #1[i]% ATK Kafka pada 1 target musuh, serta mengakibatkan Lightning DMG sebesar #3[i]% ATK Kafka pada musuh di sekitar target.\nJika target musuh sedang terkena DoT, seluruh DoT yang diterimanya akan segera mengakibatkan DMG sebesar #2[i]% DMG awal DoT Debuff-nya.",
         "params": [
             [
@@ -1496,113 +1496,113 @@
         "type_text": "Ultimate",
         "effect": "AoEAttack",
         "effect_text": "AoE",
-        "simple_desc": "Mengakibatkan Lightning DMG dalam jumlah kecil pada seluruh musuh, dan berpeluang besar memberikan status Shock, membuat musuh menerima Shock DMG tambahan.",
+        "simple_desc": "Mengakibatkan Lightning DMG dalam jumlah kecil pada seluruh musuh, berpeluang besar menambahkan status Shock pada musuh.\nJika target musuh berstatus Shock, maka status Shock tersebut akan mengakibatkan 1 kali DMG tambahan.",
         "desc": "Mengakibatkan Lightning DMG sebesar #1[i]% ATK Kafka pada seluruh musuh. Musuh yang terkena serangan memiliki #2[i]% peluang dasar untuk memasuki status Shock, dan membuat musuh berstatus Shock tersebut langsung menerima DMG sebesar #5[i]% DoT Status Shock. Status Shock berlangsung selama #3[i] giliran.\nSaat dalam status Shock, target musuh akan menerima Lightning DoT sebesar #4[i]% ATK Kafka setiap gilirannya dimulai.",
         "params": [
             [
                 0.48,
                 1,
                 2,
-                0.95,
-                0.72
+                1.16,
+                0.8
             ],
             [
                 0.512,
                 1,
                 2,
-                1.045,
-                0.738
+                1.2688,
+                0.82
             ],
             [
                 0.544,
                 1,
                 2,
-                1.14,
-                0.756
+                1.3775,
+                0.84
             ],
             [
                 0.576,
                 1,
                 2,
-                1.235,
-                0.774
+                1.4863,
+                0.86
             ],
             [
                 0.608,
                 1,
                 2,
-                1.33,
-                0.792
+                1.595,
+                0.88
             ],
             [
                 0.64,
                 1,
                 2,
-                1.4725,
-                0.81
+                1.7581,
+                0.9
             ],
             [
                 0.68,
                 1,
                 2,
-                1.6625,
-                0.8325
+                1.9756,
+                0.925
             ],
             [
                 0.72,
                 1,
                 2,
-                1.9,
-                0.855
+                2.2475,
+                0.95
             ],
             [
                 0.76,
                 1,
                 2,
-                2.185,
-                0.8775
+                2.5738,
+                0.975
             ],
             [
                 0.8,
                 1,
                 2,
-                2.47,
-                0.9
+                2.9,
+                1
             ],
             [
                 0.832,
                 1,
                 2,
-                2.5935,
-                0.918
+                3.0414,
+                1.02
             ],
             [
                 0.864,
                 1,
                 2,
-                2.717,
-                0.936
+                3.1828,
+                1.04
             ],
             [
                 0.896,
                 1,
                 2,
-                2.8405,
-                0.954
+                3.3241,
+                1.06
             ],
             [
                 0.928,
                 1,
                 2,
-                2.964,
-                0.972
+                3.4655,
+                1.08
             ],
             [
                 0.96,
                 1,
                 2,
-                3.0875,
-                0.99
+                3.6069,
+                1.1
             ]
         ],
         "icon": "icon/skill/1005_ultimate.png"
@@ -1616,98 +1616,83 @@
         "type_text": "Talent",
         "effect": "SingleAttack",
         "effect_text": "Single Target",
-        "simple_desc": "",
-        "desc": "Setelah rekan Kafka melancarkan Basic ATK pada target musuh, Kafka akan segera melancarkan Serangan Lanjutan dan mengakibatkan Lightning DMG sebesar #1[i]% ATK Kafka pada target tersebut, serta memiliki #4[i]% peluang dasar untuk meningkatkan #2[i]% DoT yang diterima target tersebut selama #3[i] giliran. Efek ini hanya dapat terpicu 1 kali setiap giliran.",
+        "simple_desc": "Setelah rekan Kafka melancarkan Basic ATK pada target musuh, Kafka akan segera memicu Serangan Lanjutan yang mengakibatkan Lightning DMG dalam jumlah kecil pada target, serta berpeluang menambahkan status Shock padanya. Efek ini hanya dapat dipicu 1 kali setiap giliran.",
+        "desc": "Setelah rekan Kafka melancarkan Basic ATK pada target musuh, Kafka akan segera memicu Serangan Lanjutan yang mengakibatkan Lightning DMG sebesar #1[i]% ATK Kafka pada target tersebut, serta memiliki #2[i]% peluang dasar untuk membuat target musuh yang terkena serangan ini memasuki status Shock yang sama dengan status Shock dari Ultimate Kafka, berlangsung selama #3[i] giliran. Efek ini hanya dapat dipicu 1 kali setiap giliran.",
         "params": [
             [
-                0.6,
-                0.15,
-                2,
-                1
+                0.42,
+                1,
+                2
             ],
             [
-                0.66,
-                0.155,
-                2,
-                1
+                0.518,
+                1,
+                2
             ],
             [
-                0.72,
-                0.16,
-                2,
-                1
+                0.616,
+                1,
+                2
             ],
             [
-                0.78,
-                0.165,
-                2,
-                1
+                0.714,
+                1,
+                2
             ],
             [
-                0.84,
-                0.17,
-                2,
-                1
+                0.812,
+                1,
+                2
             ],
             [
-                0.9,
-                0.175,
-                2,
-                1
+                0.91,
+                1,
+                2
             ],
             [
-                0.975,
-                0.1813,
-                2,
-                1
+                1.0325,
+                1,
+                2
             ],
             [
-                1.05,
-                0.1875,
-                2,
-                1
+                1.155,
+                1,
+                2
             ],
             [
-                1.125,
-                0.1938,
-                2,
-                1
+                1.2775,
+                1,
+                2
             ],
             [
-                1.2,
-                0.2,
-                2,
-                1
+                1.4,
+                1,
+                2
             ],
             [
-                1.26,
-                0.205,
-                2,
-                1
+                1.498,
+                1,
+                2
             ],
             [
-                1.32,
-                0.21,
-                2,
-                1
+                1.596,
+                1,
+                2
             ],
             [
-                1.38,
-                0.215,
-                2,
-                1
+                1.694,
+                1,
+                2
             ],
             [
-                1.44,
-                0.22,
-                2,
-                1
+                1.792,
+                1,
+                2
             ],
             [
-                1.5,
-                0.225,
-                2,
-                1
+                1.89,
+                1,
+                2
             ]
         ],
         "icon": "icon/skill/1005_talent.png"
@@ -1735,13 +1720,12 @@
         "type_text": "Technique",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "",
-        "desc": "Segera menyerang musuh. Setelah memasuki pertempuran, mengakibatkan Lightning DMG sebesar #4[i]% ATK Kafka pada seluruh musuh, dan di saat bersamaan memiliki #1[i]% peluang dasar untuk membuat setiap target musuh memasuki status Shock selama #3[i] giliran.\nSaat dalam status Shock, target musuh akan menerima Lightning DoT sebesar #2[i]% ATK Kafka setiap gilirannya dimulai.",
+        "simple_desc": "Menyerang seluruh musuh dalam cakupan area tertentu. Setelah memasuki pertempuran, mengakibatkan Lightning DMG dalam jumlah kecil pada seluruh musuh, dan berpeluang besar menambahkan status Shock pada mereka.",
+        "desc": "Segera menyerang musuh dalam cakupan area tertentu. Setelah memasuki pertempuran, mengakibatkan Lightning DMG sebesar #3[i]% ATK Kafka pada seluruh musuh, dan di saat bersamaan memiliki #1[i]% peluang dasar untuk membuat setiap target musuh memasuki status Shock yang sama dengan status Shock dari Ultimate Kafka selama #2[i] giliran.",
         "params": [
             [
                 1,
-                0.5,
-                3,
+                2,
                 0.5
             ]
         ],
@@ -2397,7 +2381,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "",
+        "simple_desc": "Meningkatkan DMG berdasarkan persentase HP dirinya yang berkurang saat ini.",
         "desc": "Memperoleh bonus DMG berdasarkan persentase HP Arlan yang berkurang saat ini, maksimal dapat meningkatkan #1[i]% DMG.",
         "params": [
             [
@@ -2471,7 +2455,7 @@
         "type_text": "Technique",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "",
+        "simple_desc": "Menyerang musuh dan mengakibatkan Lightning DMG dalam jumlah kecil pada seluruh musuh setelah memasuki pertempuran.",
         "desc": "Segera menyerang musuh dan setelah memasuki pertempuran, mengakibatkan Lightning DMG sebesar #1[i]% ATK Arlan pada seluruh musuh.",
         "params": [
             [
@@ -3340,7 +3324,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "",
+        "simple_desc": "Setelah melancarkan Basic ATK, aksi dirinya yang berikutnya akan didahulukan.",
         "desc": "Setelah melancarkan Basic Attack, mendahulukan #1[i]% aksi Bronya yang selanjutnya.",
         "params": [
             [
@@ -3414,7 +3398,7 @@
         "type_text": "Technique",
         "effect": "Support",
         "effect_text": "Support",
-        "simple_desc": "",
+        "simple_desc": "Setelah menggunakan Technique, meningkatkan ATK seluruh rekan tim saat pertempuran selanjutnya dimulai.",
         "desc": "Setelah menggunakan Technique, meningkatkan #1[i]% ATK seluruh rekan tim selama #2[i] giliran pada saat pertempuran selanjutnya dimulai.",
         "params": [
             [
@@ -4301,7 +4285,7 @@
         "type_text": "Talent",
         "effect": "Restore",
         "effect_text": "Restore",
-        "simple_desc": "",
+        "simple_desc": "Tidak akan gugur saat terkena serangan mematikan dan akan segera memulihkan HP. Hanya dapat dipicu 1 kali dalam setiap pertempuran.",
         "desc": "Saat menerima serangan mematikan, Gepard tidak akan gugur dan segera memulihkan HP-nya sebesar #1[i]% dari Max HP-nya. Efek ini hanya dapat terpicu sekali dalam 1 pertempuran.",
         "params": [
             [
@@ -4375,7 +4359,7 @@
         "type_text": "Technique",
         "effect": "Defence",
         "effect_text": "Defense",
-        "simple_desc": "",
+        "simple_desc": "Setelah menggunakan Technique, seluruh rekan tim memperoleh Shield saat pertempuran selanjutnya dimulai.",
         "desc": "Setelah menggunakan Technique, saat pertempuran selanjutnya dimulai, akan memberikan Shield yang dapat menahan DMG sebesar #1[i]% DEF Gepard + #3[i] kepada seluruh rekan selama #2[i] giliran.",
         "params": [
             [
@@ -4632,7 +4616,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "",
+        "simple_desc": "Meningkatkan pemulihan yang diberikan pada rekan tim yang persentase HP-nya rendah. Efek ini juga berlaku pada efek pemulihan berkelanjutan.",
         "desc": "Saat memulihkan rekan tim dengan persentase HP kurang dari atau sama dengan #1[i]%, pemulihan yang diberikan Natasha meningkat #2[i]%. Efek ini juga berlaku pada efek pemulihan berkelanjutan.",
         "params": [
             [
@@ -4721,7 +4705,7 @@
         "type_text": "Technique",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "",
+        "simple_desc": "Menyerang musuh dan mengakibatkan Physical DMG dalam jumlah kecil pada musuh secara acak. Berpeluang besar untuk membuat setiap target memasuki status Weaken.",
         "desc": "Segera menyerang musuh. Setelah memasuki pertempuran, mengakibatkan Physical DMG sebesar #4[i]% ATK Natasha pada musuh secara acak dan setiap target memiliki #1[i]% peluang dasar untuk memasuki status Weaken.\nUntuk target musuh berstatus Weaken, DMG yang diakibatkannya pada rekan tim akan berkurang #2[i]% selama #3[i] giliran.",
         "params": [
             [
@@ -5296,7 +5280,7 @@
         "type_text": "Talent",
         "effect": "SingleAttack",
         "effect_text": "Single Target",
-        "simple_desc": "",
+        "simple_desc": "Mengurangi DMG yang diterima dari serangan target musuh pada diri sendiri. Target musuh yang menyerang akan ditandai dengan \"Mark of Counter\" dan menerima Serangan Balasan dari Svarog yang mengakibatkan Physical DMG.",
         "desc": "Mengurangi #3[i]% DMG yang diterima Clara saat dilindungi Svarog. Target musuh yang menyerang Clara akan ditandai Svarog dengan \"Mark of Counter\", lalu mendapat Serangan Balasan dari Svarog yang akan mengakibatkan Physical DMG sebesar #2[i]% ATK Clara.",
         "params": [
             [
@@ -5400,7 +5384,7 @@
         "type_text": "Technique",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "",
+        "simple_desc": "Menyerang musuh dan meningkatkan peluang untuk diserang oleh musuh setelah memasuki pertempuran.",
         "desc": "Segera menyerang musuh. Setelah memasuki pertempuran, meningkatkan peluang Clara untuk diserang musuh selama #1[i] giliran.",
         "params": [
             [
@@ -5641,7 +5625,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "",
+        "simple_desc": "Setelah dirinya menyerang target musuh, berpeluang untuk membuat target memasuki status Wind Shear.",
         "desc": "Serangan Sampo memiliki #1[i]% peluang dasar untuk membuat target musuh memasuki status Wind Shear selama #3[i] giliran.\nSelama berstatus Wind Shear, target musuh akan menerima Wind DoT sebesar #2[i]% ATK Sampo setiap gilirannya dimulai. Status Wind Shear dapat ditumpuk hingga #4[i] lapis.",
         "params": [
             [
@@ -5760,7 +5744,7 @@
         "type_text": "Technique",
         "effect": "Impair",
         "effect_text": "Impair",
-        "simple_desc": "",
+        "simple_desc": "Membuat musuh dalam jangkauan tertentu memasuki status Blind dan berpeluang besar untuk menunda aksi setiap target musuh setelah memasuki pertempuran.",
         "desc": "Setelah menggunakan Technique, musuh dalam jangkauan tertentu akan terkena status Blind selama #1[i] detik. Musuh yang terkena status Blind tidak akan bisa mendeteksi timmu.\nJika menyerang musuh yang terkena status Blind, akan ada #2[i]% peluang tetap untuk menunda #3[i]% aksi seluruh musuh saat memasuki pertempuran.",
         "params": [
             [
@@ -6207,6 +6191,447 @@
             ]
         ],
         "icon": "icon/skill/1109_skill.png"
+    },
+    "111101": {
+        "id": "111101",
+        "name": "Direct Punch",
+        "max_level": 9,
+        "element": "Physical",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Mengakibatkan Physical DMG dalam jumlah kecil pada 1 musuh.",
+        "desc": "Mengakibatkan Physical DMG sebesar #1[i]% ATK Luka pada 1 target musuh.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": ""
+    },
+    "111102": {
+        "id": "111102",
+        "name": "Lacerating Fist",
+        "max_level": 15,
+        "element": "Physical",
+        "type": "BPSkill",
+        "type_text": "Skill",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Mengakibatkan Physical DMG pada 1 musuh dan berpeluang besar untuk memberikan status Bleed pada target.",
+        "desc": "Mengakibatkan Physical DMG sebesar #1[i]% ATK Luka pada 1 musuh yang ditarget, dan kemudian memiliki #2[i]% peluang dasar untuk membuat target memasuki status Bleed selama #5[i] giliran.\nDalam status Bleed, setiap saat giliran target musuh dimulai, musuh akan menerima Physical DoT sebesar #3[f1]% Max HP dirinya. Maksimal tidak melebihi #4[i]% ATK Luka.",
+        "params": [
+            [
+                0.6,
+                1,
+                0.24,
+                1.3,
+                3
+            ],
+            [
+                0.66,
+                1,
+                0.24,
+                1.43,
+                3
+            ],
+            [
+                0.72,
+                1,
+                0.24,
+                1.56,
+                3
+            ],
+            [
+                0.78,
+                1,
+                0.24,
+                1.69,
+                3
+            ],
+            [
+                0.84,
+                1,
+                0.24,
+                1.82,
+                3
+            ],
+            [
+                0.9,
+                1,
+                0.24,
+                2.015,
+                3
+            ],
+            [
+                0.975,
+                1,
+                0.24,
+                2.275,
+                3
+            ],
+            [
+                1.05,
+                1,
+                0.24,
+                2.6,
+                3
+            ],
+            [
+                1.125,
+                1,
+                0.24,
+                2.99,
+                3
+            ],
+            [
+                1.2,
+                1,
+                0.24,
+                3.38,
+                3
+            ],
+            [
+                1.26,
+                1,
+                0.24,
+                3.549,
+                3
+            ],
+            [
+                1.32,
+                1,
+                0.24,
+                3.718,
+                3
+            ],
+            [
+                1.38,
+                1,
+                0.24,
+                3.887,
+                3
+            ],
+            [
+                1.44,
+                1,
+                0.24,
+                4.056,
+                3
+            ],
+            [
+                1.5,
+                1,
+                0.24,
+                4.225,
+                3
+            ]
+        ],
+        "icon": ""
+    },
+    "111103": {
+        "id": "111103",
+        "name": "Coup de Grâce",
+        "max_level": 15,
+        "element": "Physical",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Mendapatkan #5[i] lapis \"Fighting Will\". Berpeluang besar untuk meningkatkan DMG yang diterima oleh 1 musuh, serta mengakibatkan Physical DMG dalam jumlah besar.",
+        "desc": "Memperoleh #5[i] lapis \"Fighting Will\", dan memiliki #2[i]% peluang dasar untuk meningkatkan #3[f1]% DMG yang diterima musuh yang ditarget selama #4[i] giliran. Lalu kemudian akan mengakibatkan Physical DMG sebesar #1[i]% ATK Luka pada target tersebut.",
+        "params": [
+            [
+                1.98,
+                1,
+                0.12,
+                3,
+                2
+            ],
+            [
+                2.112,
+                1,
+                0.128,
+                3,
+                2
+            ],
+            [
+                2.244,
+                1,
+                0.136,
+                3,
+                2
+            ],
+            [
+                2.376,
+                1,
+                0.144,
+                3,
+                2
+            ],
+            [
+                2.508,
+                1,
+                0.152,
+                3,
+                2
+            ],
+            [
+                2.64,
+                1,
+                0.16,
+                3,
+                2
+            ],
+            [
+                2.805,
+                1,
+                0.17,
+                3,
+                2
+            ],
+            [
+                2.97,
+                1,
+                0.18,
+                3,
+                2
+            ],
+            [
+                3.135,
+                1,
+                0.19,
+                3,
+                2
+            ],
+            [
+                3.3,
+                1,
+                0.2,
+                3,
+                2
+            ],
+            [
+                3.432,
+                1,
+                0.208,
+                3,
+                2
+            ],
+            [
+                3.564,
+                1,
+                0.216,
+                3,
+                2
+            ],
+            [
+                3.696,
+                1,
+                0.224,
+                3,
+                2
+            ],
+            [
+                3.828,
+                1,
+                0.232,
+                3,
+                2
+            ],
+            [
+                3.96,
+                1,
+                0.24,
+                3,
+                2
+            ]
+        ],
+        "icon": ""
+    },
+    "111104": {
+        "id": "111104",
+        "name": "Flying Sparks",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Enhance",
+        "effect_text": "Enhance",
+        "simple_desc": "Setelah melancarkan Basic Attack \"Direct Punch\" atau Skill \"Lacerating Fist\", Luka akan memperoleh 1 lapis \"Fighting Will\". Saat \"Fighting Will\" yang dimiliki lebih dari atau sama dengan 2 lapis, Basic ATK akan menjadi Enhanced Basic Attack.\nJika target musuh sedang dalam status Bleed, Enhanced Basic Attack akan membuat status Bleed menghasilkan 1 kali DMG tambahan.",
+        "desc": "Setelah Luka melancarkan Basic Attack \"Direct Punch\" atau Skill \"Lacerating Fist\", Luka akan memperoleh #1[i] lapis \"Fighting Will\", maksimal 4 lapis. Saat \"Fighting Will\" yang dimiliki lebih dari atau sama dengan 2, Basic Attack Luka \"Direct Punch\" akan meningkat menjadi \"Sky-Shatter Fist\". Saat \"Rising Uppercut\" dari Enhanced Basic Attack mengenai target musuh dengan status Bleed, maka status Bleed tersebut akan membuat target musuh segera menerima 1 kali DMG sebesar #2[i]% DMG awal. Saat pertempuran dimulai, Luka akan memiliki 1 lapis \"Fighting Will\".",
+        "params": [
+            [
+                1,
+                0.68
+            ],
+            [
+                1,
+                0.697
+            ],
+            [
+                1,
+                0.714
+            ],
+            [
+                1,
+                0.731
+            ],
+            [
+                1,
+                0.748
+            ],
+            [
+                1,
+                0.765
+            ],
+            [
+                1,
+                0.7863
+            ],
+            [
+                1,
+                0.8075
+            ],
+            [
+                1,
+                0.8288
+            ],
+            [
+                1,
+                0.85
+            ],
+            [
+                1,
+                0.867
+            ],
+            [
+                1,
+                0.884
+            ],
+            [
+                1,
+                0.901
+            ],
+            [
+                1,
+                0.918
+            ],
+            [
+                1,
+                0.935
+            ]
+        ],
+        "icon": ""
+    },
+    "111106": {
+        "id": "111106",
+        "name": "Attack",
+        "max_level": 1,
+        "element": "Physical",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Setelah menyerang musuh dan memasuki pertempuran, mengurangi Toughness target musuh sesuai dengan tipe Toughnessnya.",
+        "params": [],
+        "icon": ""
+    },
+    "111107": {
+        "id": "111107",
+        "name": "Anticipator",
+        "max_level": 1,
+        "element": "Physical",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "Menyerang musuh, dan setelah memasuki pertempuran, mengakibatkan Physical DMG dalam jumlah kecil pada 1 musuh secara acak, kemudian berpeluang besar membuat target memasuki status Bleed. Setelah itu akan memperoleh 1 lapis \"Fighting Will\" tambahan.",
+        "desc": "Segera menyerang musuh. Setelah memasuki pertempuran, akan mengakibatkan Physical DMG sebesar #1[i]% ATK Luka pada musuh secara acak, serta memiliki #2[i]% peluang dasar untuk membuat target memasuki status Bleed yang sama dengan Skill. Setelah itu Luka akan memperoleh tambahan 1 lapis \"Fighting Will\".",
+        "params": [
+            [
+                0.5,
+                1
+            ]
+        ],
+        "icon": ""
+    },
+    "111108": {
+        "id": "111108",
+        "name": "Sky-Shatter Fist",
+        "max_level": 9,
+        "element": "Physical",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Mengonsumsi 2 lapis \"Fighting Will\" dan mengakibatkan Physical DMG pada 1 musuh.",
+        "desc": "Mengonsumsi 2 lapis \"Fighting Will\", menggunakan \"Direct Punch\" terlebih dulu untuk melancarkan 3 serangan yang setiap serangannya akan mengakibatkan Physical DMG sebesar #1[i]% ATK Luka pada musuh yang ditarget.\nKemudian akan menggunakan \"Rising Uppercut\" untuk melancarkan 1 serangan yang akan mengakibatkan Physical DMG sebesar #2[i]% ATK Luka pada 1 target.",
+        "params": [
+            [
+                0.1,
+                0.4
+            ],
+            [
+                0.12,
+                0.48
+            ],
+            [
+                0.14,
+                0.56
+            ],
+            [
+                0.16,
+                0.64
+            ],
+            [
+                0.18,
+                0.72
+            ],
+            [
+                0.2,
+                0.8
+            ],
+            [
+                0.22,
+                0.88
+            ],
+            [
+                0.24,
+                0.96
+            ],
+            [
+                0.26,
+                1.04
+            ]
+        ],
+        "icon": ""
     },
     "120101": {
         "id": "120101",
@@ -7586,6 +8011,519 @@
         ],
         "icon": "icon/skill/1204_technique.png"
     },
+    "120501": {
+        "id": "120501",
+        "name": "Shard Sword",
+        "max_level": 9,
+        "element": "Wind",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Mengakibatkan Wind DMG dalam jumlah kecil pada 1 musuh.",
+        "desc": "Mengakibatkan Wind DMG sebesar #1[i]% ATK Blade pada 1 target musuh.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": ""
+    },
+    "120502": {
+        "id": "120502",
+        "name": "Hellscape",
+        "max_level": 15,
+        "element": "Wind",
+        "type": "BPSkill",
+        "type_text": "Skill",
+        "effect": "Enhance",
+        "effect_text": "Enhance",
+        "simple_desc": "Mengonsumsi HP diri sendiri, memperoleh Enhanced Basic Attack dan giliran tidak akan berakhir.",
+        "desc": "Mengonsumsi HP sebesar #1[i]% Max HP Blade dan memasuki status \"Hellscape\".\nSaat berstatus \"Hellscape\", Blade tidak dapat melancarkan Skill dan DMG yang diakibatkannya akan meningkat #4[i]%. Basic Attack \"Shard Sword\" akan meningkat menjadi \"Forest of Swords\" selama #2[i] giliran.\nJika HP-nya tidak mencukupi, saat melancarkan Skill, HP Blade akan berkurang hingga 1.\nSkill ini tidak dapat memulihkan Energy. Setelah melancarkan Skill ini, giliran saat ini tidak akan berakhir.",
+        "params": [
+            [
+                0.3,
+                3,
+                1,
+                0.12
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.148
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.176
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.204
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.232
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.26
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.295
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.33
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.365
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.4
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.428
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.456
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.484
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.512
+            ],
+            [
+                0.3,
+                3,
+                1,
+                0.54
+            ]
+        ],
+        "icon": ""
+    },
+    "120503": {
+        "id": "120503",
+        "name": "Death Sentence",
+        "max_level": 15,
+        "element": "Wind",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "Blast",
+        "effect_text": "Blast",
+        "simple_desc": "Mengonversi HP saat ini menjadi 50% Max HP, dan mengakibatkan Wind DMG dalam jumlah besar pada 1 musuh, serta Wind DMG pada target di sekitarnya.",
+        "desc": "Mengubah HP Blade saat ini menjadi 50% dari Max HP-nya, serta mengakibatkan Wind DMG pada 1 musuh sebesar #1[i]% ATK + #2[i]% Max HP + #5[i]% akumulasi jumlah HP Blade yang berkurang dalam pertempuran ini. Di saat yang bersamaan juga akan mengakibatkan Wind DMG pada target di sekitarnya sebesar #3[f1]% ATK + #4[i]% Max HP + #6[i]% akumulasi jumlah HP Blade yang berkurang dalam pertempuran ini.\nJumlah akumulasi HP Blade yang berkurang di pertempuran saat ini maksimal tidak boleh melebihi #7[i]% Max HP Blade. Setelah melancarkan Ultimate, jumlah akumulasi akan direset ulang dan diakumulasi kembali.",
+        "params": [
+            [
+                0.24,
+                0.6,
+                0.096,
+                0.24,
+                0.6,
+                0.24,
+                0.9
+            ],
+            [
+                0.256,
+                0.64,
+                0.1024,
+                0.256,
+                0.64,
+                0.256,
+                0.9
+            ],
+            [
+                0.272,
+                0.68,
+                0.1088,
+                0.272,
+                0.68,
+                0.272,
+                0.9
+            ],
+            [
+                0.288,
+                0.72,
+                0.1152,
+                0.288,
+                0.72,
+                0.288,
+                0.9
+            ],
+            [
+                0.304,
+                0.76,
+                0.1216,
+                0.304,
+                0.76,
+                0.304,
+                0.9
+            ],
+            [
+                0.32,
+                0.8,
+                0.128,
+                0.32,
+                0.8,
+                0.32,
+                0.9
+            ],
+            [
+                0.34,
+                0.85,
+                0.136,
+                0.34,
+                0.85,
+                0.34,
+                0.9
+            ],
+            [
+                0.36,
+                0.9,
+                0.144,
+                0.36,
+                0.9,
+                0.36,
+                0.9
+            ],
+            [
+                0.38,
+                0.95,
+                0.152,
+                0.38,
+                0.95,
+                0.38,
+                0.9
+            ],
+            [
+                0.4,
+                1,
+                0.16,
+                0.4,
+                1,
+                0.4,
+                0.9
+            ],
+            [
+                0.416,
+                1.04,
+                0.1664,
+                0.416,
+                1.04,
+                0.416,
+                0.9
+            ],
+            [
+                0.432,
+                1.08,
+                0.1728,
+                0.432,
+                1.08,
+                0.432,
+                0.9
+            ],
+            [
+                0.448,
+                1.12,
+                0.1792,
+                0.448,
+                1.12,
+                0.448,
+                0.9
+            ],
+            [
+                0.464,
+                1.16,
+                0.1856,
+                0.464,
+                1.16,
+                0.464,
+                0.9
+            ],
+            [
+                0.48,
+                1.2,
+                0.192,
+                0.48,
+                1.2,
+                0.48,
+                0.9
+            ]
+        ],
+        "icon": ""
+    },
+    "120504": {
+        "id": "120504",
+        "name": "Shuhu's Gift",
+        "max_level": 15,
+        "element": "Wind",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "AoEAttack",
+        "effect_text": "AoE",
+        "simple_desc": "Saat HP Blade berkurang, Blade akan memperoleh 1 lapis Charge. Saat Charge ditumpuk hingga batas maksimum, Blade akan segera mengakibatkan Wind DMG pada seluruh musuh dan memulihkan HP, kemudian mengonsumsi seluruh Charge.",
+        "desc": "Saat Blade terkena serangan atau mengonsumsi HP-nya, dia akan mendapatkan 1 lapis Charge, maksimal 5 lapis. Setiap kali Blade terkena serangan, Blade hanya bisa mendapatkan 1 lapis Charge efek ini.\nSetelah jumlah Charge mencapai batas maksimal, Blade akan segera melancarkan 1 kali Serangan Lanjutan yang mengakibatkan Wind DMG sebesar #2[i]% ATK Blade + #4[i]% Max HP Blade pada seluruh musuh. Di saat yang bersamaan, akan memulihkan HP Blade sebesar #3[i]% Max HP-nya. Setelah Serangan Lanjutan ini dilancarkan, semua lapisan Charge akan dihapus.",
+        "params": [
+            [
+                3,
+                0.22,
+                0.25,
+                0.55
+            ],
+            [
+                3,
+                0.242,
+                0.25,
+                0.605
+            ],
+            [
+                3,
+                0.264,
+                0.25,
+                0.66
+            ],
+            [
+                3,
+                0.286,
+                0.25,
+                0.715
+            ],
+            [
+                3,
+                0.308,
+                0.25,
+                0.77
+            ],
+            [
+                3,
+                0.33,
+                0.25,
+                0.825
+            ],
+            [
+                3,
+                0.3575,
+                0.25,
+                0.8938
+            ],
+            [
+                3,
+                0.385,
+                0.25,
+                0.9625
+            ],
+            [
+                3,
+                0.4125,
+                0.25,
+                1.0313
+            ],
+            [
+                3,
+                0.44,
+                0.25,
+                1.1
+            ],
+            [
+                3,
+                0.462,
+                0.25,
+                1.155
+            ],
+            [
+                3,
+                0.484,
+                0.25,
+                1.21
+            ],
+            [
+                3,
+                0.506,
+                0.25,
+                1.265
+            ],
+            [
+                3,
+                0.528,
+                0.25,
+                1.32
+            ],
+            [
+                3,
+                0.55,
+                0.25,
+                1.375
+            ]
+        ],
+        "icon": ""
+    },
+    "120506": {
+        "id": "120506",
+        "name": "Attack",
+        "max_level": 1,
+        "element": "Wind",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Setelah menyerang musuh dan memasuki pertempuran, mengurangi Toughness target musuh sesuai dengan tipe Toughnessnya.",
+        "params": [],
+        "icon": ""
+    },
+    "120507": {
+        "id": "120507",
+        "name": "Karma Wind",
+        "max_level": 1,
+        "element": "Wind",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "Menyerang musuh. Setelah memasuki pertempuran, mengonsumsi HP diri sendiri dan mengakibatkan Wind DMG pada seluruh musuh.",
+        "desc": "Segera menyerang musuh. Setelah memasuki pertempuran, mengonsumsi HP sebesar #2[i]% Max HP Blade dan di saat bersamaan, mengakibatkan Wind DMG sebesar #1[i]% Max HP Blade pada seluruh musuh.\nJika HP saat ini tidak cukup, saat melancarkan Technique, HP Blade saat ini akan berkurang hingga 1.",
+        "params": [
+            [
+                0.4,
+                0.2
+            ]
+        ],
+        "icon": ""
+    },
+    "120508": {
+        "id": "120508",
+        "name": "Forest of Swords",
+        "max_level": 9,
+        "element": "Wind",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "Blast",
+        "effect_text": "Blast",
+        "simple_desc": "Mengonsumsi HP diri sendiri, mengakibatkan Wind DMG pada 1 musuh, dan di saat bersamaan juga mengakibatkan Wind DMG dalam jumlah kecil pada musuh di sekitar target.",
+        "desc": "Mengonsumsi HP sebesar #1[i]% Max HP Blade dan mengakibatkan Wind DMG sebesar #2[i]% ATK Blade + #4[i]% Max HP Blade pada 1 musuh yang ditargetkan. Di saat bersamaan juga mengakibatkan Wind DMG sebesar #3[i]% ATK Blade + #5[i]% Max HP Blade pada musuh di sekitar target.\nJika HP saat ini tidak cukup, HP Blade saat ini akan langsung berkurang hingga 1 saat melancarkan \"Forest of Swords\".\n\"Forest of Swords\" tidak dapat memulihkan Poin Skill.",
+        "params": [
+            [
+                0.1,
+                0.2,
+                0.08,
+                0.5,
+                0.2
+            ],
+            [
+                0.1,
+                0.24,
+                0.096,
+                0.6,
+                0.24
+            ],
+            [
+                0.1,
+                0.28,
+                0.112,
+                0.7,
+                0.28
+            ],
+            [
+                0.1,
+                0.32,
+                0.128,
+                0.8,
+                0.32
+            ],
+            [
+                0.1,
+                0.36,
+                0.144,
+                0.9,
+                0.36
+            ],
+            [
+                0.1,
+                0.4,
+                0.16,
+                1,
+                0.4
+            ],
+            [
+                0.1,
+                0.44,
+                0.176,
+                1.1,
+                0.44
+            ],
+            [
+                0.1,
+                0.48,
+                0.192,
+                1.2,
+                0.48
+            ],
+            [
+                0.1,
+                0.52,
+                0.208,
+                1.3,
+                0.52
+            ]
+        ],
+        "icon": ""
+    },
     "120601": {
         "id": "120601",
         "name": "Cloudfencer Art: Starshine",
@@ -7832,7 +8770,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "",
+        "simple_desc": "Saat ada musuh yang berstatus Weakness Break, SPD dirinya akan meningkat.",
         "desc": "Saat ada target musuh dengan Weakness Break di medan pertempuran, SPD Sushang akan meningkat #1[f2]% selama #2[i] giliran.",
         "params": [
             [
@@ -7921,7 +8859,7 @@
         "type_text": "Technique",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "",
+        "simple_desc": "Menyerang musuh dan mengakibatkan Physical DMG dalam jumlah kecil pada seluruh musuh setelah memasuki pertempuran.",
         "desc": "Segera menyerang musuh. Setelah memasuki pertempuran, mengakibatkan Physical DMG sebesar #1[i]% ATK Sushang pada seluruh musuh.",
         "params": [
             [
@@ -8462,7 +9400,7 @@
         "type_text": "Talent",
         "effect": "SingleAttack",
         "effect_text": "Single Target",
-        "simple_desc": "",
+        "simple_desc": "Saat berada dalam status \"Soulsteel Sync\", kemungkinan diserang akan berkurang dan meningkatkan CRIT Rate dan CRIT DMG dirinya. Setelah melancarkan serangan pada target musuh, ada peluang untuk memicu Serangan Lanjutan yang mengakibatkan Ice DMG serta berpeluang untuk membuat target memasuki status Frozen.\n\"Soulsteel Sync\" akan hilang setelah dirinya terkena serangan.",
         "desc": "Efek \"Soulsteel Sync\" Yanqing yang aktif akan mengurangi peluangnya terkena serangan, serta meningkatkan #1[f1]% CRIT Rate dan #2[i]% CRIT DMG Yanqing. Setelah menyerang target musuh, Yanqing memiliki #3[i]% peluang tetap untuk melancarkan Serangan Lanjutan yang mengakibatkan Ice DMG sebesar #4[i]% ATK Yanqing pada target dan #6[i]% peluang dasar untuk membuat target memasuki status Frozen selama 1 giliran.\nSaat dalam status Frozen, target musuh tidak dapat beraksi dan juga akan menerima Ice DMG tambahan sebesar #5[i]% ATK Yanqing setiap gilirannya dimulai.\nEfek \"Soulsteel Sync\" akan hilang saat Yanqing menerima DMG.",
         "params": [
             [
@@ -8611,7 +9549,7 @@
         "type_text": "Technique",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "",
+        "simple_desc": "Setelah menggunakan Technique, meningkatkan DMG yang diakibatkan oleh dirinya pada target musuh dengan persentase HP lebih dari atau sama dengan 50% saat pertempuran berikutnya dimulai.",
         "desc": "Setelah menggunakan Technique, saat pertempuran berikutnya dimulai, akan meningkatkan #2[i]% DMG Yanqing terhadap target musuh yang persentase HP-nya lebih dari atau sama dengan #1[i]% selama #3[i] giliran.",
         "params": [
             [
@@ -8868,7 +9806,7 @@
         "type_text": "Talent",
         "effect": "Restore",
         "effect_text": "Restore",
-        "simple_desc": "",
+        "simple_desc": "Rekan tim yang memiliki \"Invigoration\" akan memulihkan HP setelah terkena serangan.\nSaat rekan tim terkena serangan mematikan, Bailu akan segera memulihkan HP rekan tersebut. Efek ini hanya dapat dipicu 1 kali dalam setiap pertempuran.",
         "desc": "Setelah rekan tim yang memiliki \"Invigoration\" terkena serangan, HP mereka akan pulih sebesar #1[f1]% Max HP Bailu +#2[i], efek ini dapat terpicu #5[i] kali.\nSaat rekan tim Bailu terkena serangan mematikan, rekan tersebut tidak akan gugur. Bailu akan segera memberikan pemulihan HP kepadanya sebesar #3[i]% Max HP Bailu +#4[i]. Efek ini dapat dipicu sekali dalam 1 pertempuran.",
         "params": [
             [
@@ -9002,7 +9940,7 @@
         "type_text": "Technique",
         "effect": "Restore",
         "effect_text": "Restore",
-        "simple_desc": "",
+        "simple_desc": "Setelah menggunakan Technique, seluruh rekan tim akan mendapatkan \"Invigoration\" saat pertempuran berikutnya dimulai.",
         "desc": "Setelah menggunakan Technique, memberikan \"Invigoration\" pada seluruh rekan tim saat pertempuran berikutnya dimulai. Efek berlangsung selama #1[i] giliran.",
         "params": [
             [
@@ -9010,6 +9948,755 @@
             ]
         ],
         "icon": "icon/skill/1211_technique.png"
+    },
+    "121301": {
+        "id": "121301",
+        "name": "",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "",
+        "desc": "",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": ""
+    },
+    "121302": {
+        "id": "121302",
+        "name": "",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Skill",
+        "effect": "Enhance",
+        "effect_text": "Enhance",
+        "simple_desc": "",
+        "desc": "",
+        "params": [
+            [
+                1.3,
+                0.6,
+                0.3,
+                0.06,
+                4,
+                0.6,
+                0.6
+            ],
+            [
+                1.43,
+                0.66,
+                0.33,
+                0.066,
+                4,
+                0.66,
+                0.66
+            ],
+            [
+                1.56,
+                0.72,
+                0.36,
+                0.072,
+                4,
+                0.72,
+                0.72
+            ],
+            [
+                1.69,
+                0.78,
+                0.39,
+                0.078,
+                4,
+                0.78,
+                0.78
+            ],
+            [
+                1.82,
+                0.84,
+                0.42,
+                0.084,
+                4,
+                0.84,
+                0.84
+            ],
+            [
+                1.95,
+                0.9,
+                0.45,
+                0.09,
+                4,
+                0.9,
+                0.9
+            ],
+            [
+                2.1125,
+                0.975,
+                0.4875,
+                0.0975,
+                4,
+                0.975,
+                0.975
+            ],
+            [
+                2.275,
+                1.05,
+                0.525,
+                0.105,
+                4,
+                1.05,
+                1.05
+            ],
+            [
+                2.4375,
+                1.125,
+                0.5625,
+                0.1125,
+                4,
+                1.125,
+                1.125
+            ],
+            [
+                2.6,
+                1.2,
+                0.6,
+                0.12,
+                4,
+                1.2,
+                1.2
+            ],
+            [
+                2.73,
+                1.26,
+                0.63,
+                0.126,
+                4,
+                1.26,
+                1.26
+            ],
+            [
+                2.86,
+                1.32,
+                0.66,
+                0.132,
+                4,
+                1.32,
+                1.32
+            ],
+            [
+                2.99,
+                1.38,
+                0.69,
+                0.138,
+                4,
+                1.38,
+                1.38
+            ],
+            [
+                3.12,
+                1.44,
+                0.72,
+                0.144,
+                4,
+                1.44,
+                1.44
+            ],
+            [
+                3.25,
+                1.5,
+                0.75,
+                0.15,
+                4,
+                1.5,
+                1.5
+            ]
+        ],
+        "icon": ""
+    },
+    "121303": {
+        "id": "121303",
+        "name": "",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "Blast",
+        "effect_text": "Blast",
+        "simple_desc": "",
+        "desc": "",
+        "params": [
+            [
+                1.8,
+                0.84,
+                2,
+                3
+            ],
+            [
+                1.92,
+                0.896,
+                2,
+                3
+            ],
+            [
+                2.04,
+                0.952,
+                2,
+                3
+            ],
+            [
+                2.16,
+                1.008,
+                2,
+                3
+            ],
+            [
+                2.28,
+                1.064,
+                2,
+                3
+            ],
+            [
+                2.4,
+                1.12,
+                2,
+                3
+            ],
+            [
+                2.55,
+                1.19,
+                2,
+                3
+            ],
+            [
+                2.7,
+                1.26,
+                2,
+                3
+            ],
+            [
+                2.85,
+                1.33,
+                2,
+                3
+            ],
+            [
+                3,
+                1.4,
+                2,
+                3
+            ],
+            [
+                3.12,
+                1.456,
+                2,
+                3
+            ],
+            [
+                3.24,
+                1.512,
+                2,
+                3
+            ],
+            [
+                3.36,
+                1.568,
+                2,
+                3
+            ],
+            [
+                3.48,
+                1.624,
+                2,
+                3
+            ],
+            [
+                3.6,
+                1.68,
+                2,
+                3
+            ]
+        ],
+        "icon": ""
+    },
+    "121304": {
+        "id": "121304",
+        "name": "",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Enhance",
+        "effect_text": "Enhance",
+        "simple_desc": "",
+        "desc": "",
+        "params": [
+            [
+                0.09,
+                5
+            ],
+            [
+                0.095,
+                5
+            ],
+            [
+                0.1,
+                5
+            ],
+            [
+                0.105,
+                5
+            ],
+            [
+                0.11,
+                5
+            ],
+            [
+                0.115,
+                5
+            ],
+            [
+                0.1213,
+                5
+            ],
+            [
+                0.1275,
+                5
+            ],
+            [
+                0.1338,
+                5
+            ],
+            [
+                0.14,
+                5
+            ],
+            [
+                0.145,
+                5
+            ],
+            [
+                0.15,
+                5
+            ],
+            [
+                0.155,
+                5
+            ],
+            [
+                0.16,
+                5
+            ],
+            [
+                0.165,
+                5
+            ]
+        ],
+        "icon": ""
+    },
+    "121306": {
+        "id": "121306",
+        "name": "Attack",
+        "max_level": 1,
+        "element": "Imaginary",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Setelah menyerang musuh dan memasuki pertempuran, mengurangi Toughness target musuh sesuai dengan tipe Toughnessnya.",
+        "params": [],
+        "icon": ""
+    },
+    "121307": {
+        "id": "121307",
+        "name": "",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Enhance",
+        "effect_text": "Enhance",
+        "simple_desc": "",
+        "desc": "",
+        "params": [
+            [
+                1,
+                20
+            ]
+        ],
+        "icon": ""
+    },
+    "121308": {
+        "id": "121308",
+        "name": "",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "",
+        "desc": "",
+        "params": [
+            [
+                1.3
+            ],
+            [
+                1.43
+            ],
+            [
+                1.56
+            ],
+            [
+                1.69
+            ],
+            [
+                1.82
+            ],
+            [
+                1.95
+            ],
+            [
+                2.1125
+            ],
+            [
+                2.275
+            ],
+            [
+                2.4375
+            ],
+            [
+                2.6
+            ],
+            [
+                2.73
+            ],
+            [
+                2.86
+            ],
+            [
+                2.99
+            ],
+            [
+                3.12
+            ],
+            [
+                3.25
+            ]
+        ],
+        "icon": ""
+    },
+    "121309": {
+        "id": "121309",
+        "name": "",
+        "max_level": 1,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Skill",
+        "effect": "Support",
+        "effect_text": "Support",
+        "simple_desc": "",
+        "desc": "",
+        "params": [],
+        "icon": ""
+    },
+    "121310": {
+        "id": "121310",
+        "name": "",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "Blast",
+        "effect_text": "Blast",
+        "simple_desc": "",
+        "desc": "",
+        "params": [
+            [
+                1.3,
+                0.6,
+                0.3,
+                0.06,
+                4
+            ],
+            [
+                1.43,
+                0.66,
+                0.33,
+                0.066,
+                4
+            ],
+            [
+                1.56,
+                0.72,
+                0.36,
+                0.072,
+                4
+            ],
+            [
+                1.69,
+                0.78,
+                0.39,
+                0.078,
+                4
+            ],
+            [
+                1.82,
+                0.84,
+                0.42,
+                0.084,
+                4
+            ],
+            [
+                1.95,
+                0.9,
+                0.45,
+                0.09,
+                4
+            ],
+            [
+                2.1125,
+                0.975,
+                0.4875,
+                0.0975,
+                4
+            ],
+            [
+                2.275,
+                1.05,
+                0.525,
+                0.105,
+                4
+            ],
+            [
+                2.4375,
+                1.125,
+                0.5625,
+                0.1125,
+                4
+            ],
+            [
+                2.6,
+                1.2,
+                0.6,
+                0.12,
+                4
+            ],
+            [
+                2.73,
+                1.26,
+                0.63,
+                0.126,
+                4
+            ],
+            [
+                2.86,
+                1.32,
+                0.66,
+                0.132,
+                4
+            ],
+            [
+                2.99,
+                1.38,
+                0.69,
+                0.138,
+                4
+            ],
+            [
+                3.12,
+                1.44,
+                0.72,
+                0.144,
+                4
+            ],
+            [
+                3.25,
+                1.5,
+                0.75,
+                0.15,
+                4
+            ]
+        ],
+        "icon": ""
+    },
+    "121312": {
+        "id": "121312",
+        "name": "",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "Blast",
+        "effect_text": "Blast",
+        "simple_desc": "",
+        "desc": "",
+        "params": [
+            [
+                1.3,
+                0.6,
+                0.3,
+                0.06,
+                4,
+                0.6,
+                0.6
+            ],
+            [
+                1.43,
+                0.66,
+                0.33,
+                0.066,
+                4,
+                0.66,
+                0.66
+            ],
+            [
+                1.56,
+                0.72,
+                0.36,
+                0.072,
+                4,
+                0.72,
+                0.72
+            ],
+            [
+                1.69,
+                0.78,
+                0.39,
+                0.078,
+                4,
+                0.78,
+                0.78
+            ],
+            [
+                1.82,
+                0.84,
+                0.42,
+                0.084,
+                4,
+                0.84,
+                0.84
+            ],
+            [
+                1.95,
+                0.9,
+                0.45,
+                0.09,
+                4,
+                0.9,
+                0.9
+            ],
+            [
+                2.1125,
+                0.975,
+                0.4875,
+                0.0975,
+                4,
+                0.975,
+                0.975
+            ],
+            [
+                2.275,
+                1.05,
+                0.525,
+                0.105,
+                4,
+                1.05,
+                1.05
+            ],
+            [
+                2.4375,
+                1.125,
+                0.5625,
+                0.1125,
+                4,
+                1.125,
+                1.125
+            ],
+            [
+                2.6,
+                1.2,
+                0.6,
+                0.12,
+                4,
+                1.2,
+                1.2
+            ],
+            [
+                2.73,
+                1.26,
+                0.63,
+                0.126,
+                4,
+                1.26,
+                1.26
+            ],
+            [
+                2.86,
+                1.32,
+                0.66,
+                0.132,
+                4,
+                1.32,
+                1.32
+            ],
+            [
+                2.99,
+                1.38,
+                0.69,
+                0.138,
+                4,
+                1.38,
+                1.38
+            ],
+            [
+                3.12,
+                1.44,
+                0.72,
+                0.144,
+                4,
+                1.44,
+                1.44
+            ],
+            [
+                3.25,
+                1.5,
+                0.75,
+                0.15,
+                4,
+                1.5,
+                1.5
+            ]
+        ],
+        "icon": ""
     },
     "800101": {
         "id": "800101",

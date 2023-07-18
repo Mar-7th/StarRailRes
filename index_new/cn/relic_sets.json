@@ -256,6 +256,44 @@
             "guide/Nwflower/relic_set/112.png"
         ]
     },
+    "113": {
+        "id": "113",
+        "name": "宝命长存的莳者",
+        "desc": [
+            "生命上限提高12%。",
+            "当装备者受到攻击或被我方目标消耗生命值后，暴击率提高8%，持续2回合，该效果最多叠加2层。"
+        ],
+        "properties": [
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.12
+                }
+            ],
+            []
+        ],
+        "icon": "",
+        "guide_overview": []
+    },
+    "114": {
+        "id": "114",
+        "name": "骇域漫游的信使",
+        "desc": [
+            "速度提高6%。",
+            "当装备者对我方目标施放终结技时，我方全体速度提高12%，持续1回合，该效果无法叠加。"
+        ],
+        "properties": [
+            [
+                {
+                    "type": "SpeedAddedRatio",
+                    "value": 0.06
+                }
+            ],
+            []
+        ],
+        "icon": "",
+        "guide_overview": []
+    },
     "301": {
         "id": "301",
         "name": "太空封印站",
@@ -415,5 +453,41 @@
         "guide_overview": [
             "guide/Nwflower/relic_set/308.png"
         ]
+    },
+    "309": {
+        "id": "309",
+        "name": "繁星竞技场",
+        "desc": [
+            "使装备者的暴击率提高8%。当装备者的当前暴击率大于等于70%时，普攻和战技造成的伤害提高20%。",
+            ""
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.08
+                }
+            ]
+        ],
+        "icon": "",
+        "guide_overview": []
+    },
+    "310": {
+        "id": "310",
+        "name": "折断的龙骨",
+        "desc": [
+            "使装备者的效果抵抗提高10%。当装备者的效果抵抗大于等于30%时，我方全体暴击伤害提高10%。",
+            ""
+        ],
+        "properties": [
+            [
+                {
+                    "type": "StatusResistanceBase",
+                    "value": 0.1
+                }
+            ]
+        ],
+        "icon": "",
+        "guide_overview": []
     }
 }

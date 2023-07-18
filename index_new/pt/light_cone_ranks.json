@@ -313,7 +313,7 @@
     "20009": {
         "id": "20009",
         "skill": "Erradicação",
-        "desc": "Causa #2[i]% de Dano aumentado em qualquer inimigo com PV acima de #1[i]%.",
+        "desc": "O usuário causa #2[i]% a mais de Dano a inimigos-alvo com porcentagem de PV maior do que #1[i]%.",
         "params": [
             [
                 0.5,
@@ -2415,7 +2415,7 @@
     "23000": {
         "id": "23000",
         "skill": "Enxame de Meteoros",
-        "desc": "Para cada inimigo no campo, aumenta o ATQ do usuário em #2[f1]%, até 5 acúmulo(s). Quando um inimigo é infligido com Quebra de Fraqueza, o Dano causado pelo usuário aumenta em #1[i]% por 1 rodada.",
+        "desc": "Para cada inimigo no campo, aumenta o ATQ do usuário em #2[f1]%, até 5 acúmulos. Quando um inimigo é infligido com Quebra de Fraqueza, o Dano causado pelo usuário aumenta em #1[i]% por 1 rodada.",
         "params": [
             [
                 0.3,
@@ -2776,10 +2776,84 @@
             ]
         ]
     },
+    "23006": {
+        "id": "23006",
+        "skill": "Teia de Aranha",
+        "desc": "Aumenta o Dano causado pelo usuário em #2[i]%. Após cada ataque desferido pelo usuário, sua VEL aumenta em #3[f1]%, acumulando até #4[i] vezes.\\nSe o usuário atingir um inimigo-alvo que não esteja afetado por Erosão, há uma chance-base de 100% de infligir Erosão ao alvo. Inimigos afetados por Erosão também são considerados como se estivessem em estado de Choque e receberão Dano de Raio Contínuo no início de cada rodada igual a #1[i]% do ATQ do usuário, durando por #5[i] rodada(s).",
+        "params": [
+            [
+                0.6,
+                0.24,
+                0.048,
+                3,
+                1
+            ],
+            [
+                0.7,
+                0.28,
+                0.056,
+                3,
+                1
+            ],
+            [
+                0.8,
+                0.32,
+                0.064,
+                3,
+                1
+            ],
+            [
+                0.9,
+                0.36,
+                0.072,
+                3,
+                1
+            ],
+            [
+                1,
+                0.4,
+                0.08,
+                3,
+                1
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "AllDamageTypeAddedRatio",
+                    "value": 0.24
+                }
+            ],
+            [
+                {
+                    "type": "AllDamageTypeAddedRatio",
+                    "value": 0.28
+                }
+            ],
+            [
+                {
+                    "type": "AllDamageTypeAddedRatio",
+                    "value": 0.32
+                }
+            ],
+            [
+                {
+                    "type": "AllDamageTypeAddedRatio",
+                    "value": 0.36
+                }
+            ],
+            [
+                {
+                    "type": "AllDamageTypeAddedRatio",
+                    "value": 0.4
+                }
+            ]
+        ]
+    },
     "23007": {
         "id": "23007",
         "skill": "Miragem da Realidade",
-        "desc": "Aumenta a Taxa de Acerto de Efeito do usuário em #1[i]%. Quando o usuário causa Dano a um inimigo com #4[i] ou mais penalidades no momento, aumenta a Chance de CRIT do usuário em #5[i]%. Depois que o usuário usar o seu ATQ Básico, Perícia, ou Perícia Suprema, existe uma chance-base de #2[i]% de implantar Código do Éter em um alvo aleatório que ainda não esteja com Código do Éter e que tenha sido atingido pela habilidade. Alvos com Código do Éter recebem #3[i]% a mais de Dano por 1 rodada.",
+        "desc": "Aumenta a Taxa de Acerto de Efeito do usuário em #1[i]%. Quando o usuário causa Dano a um inimigo com #4[i] ou mais penalidades no momento, aumenta a Chance de CRIT do usuário em #5[i]%. Depois que o usuário usar o seu ATQ Básico, Perícia ou Perícia Suprema, existe uma chance-base de #2[i]% de implantar Código do Éter em um alvo aleatório que ainda não esteja com Código do Éter. Alvos com Código do Éter recebem #3[i]% a mais de Dano por 1 rodada.",
         "params": [
             [
                 0.24,
@@ -2915,6 +2989,90 @@
                 {
                     "type": "AttackAddedRatio",
                     "value": 0.4
+                }
+            ]
+        ]
+    },
+    "23009": {
+        "id": "23009",
+        "skill": "Saudade Insatisfeita",
+        "desc": "Aumenta em #1[i]% a Chance de CRIT e em #2[i]% os PV máximos do usuário. Quando o usuário é atacado ou consome seus próprios PV, o Dano dele aumenta em #3[i]%. Esse efeito é removido depois que o usuário usar um ataque.",
+        "params": [
+            [
+                0.18,
+                0.18,
+                0.24
+            ],
+            [
+                0.21,
+                0.21,
+                0.28
+            ],
+            [
+                0.24,
+                0.24,
+                0.32
+            ],
+            [
+                0.27,
+                0.27,
+                0.36
+            ],
+            [
+                0.3,
+                0.3,
+                0.4
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.18
+                },
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.18
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.21
+                },
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.21
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.24
+                },
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.24
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.27
+                },
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.27
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.3
+                },
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.3
                 }
             ]
         ]
@@ -3055,7 +3213,7 @@
     "23013": {
         "id": "23013",
         "skill": "Manhã, Tarde, Crepúsculo e Noite",
-        "desc": "Aumenta em #1[i]% os PV máximos e em #2[i]% a Cura Realizada do usuário. Quando o usuário cura seus aliados, ele registra a quantidade de Cura Realizada. Quando qualquer aliado atacar, um inimigo atacado aleatório recebe Dano Adicional equivalente a #3[i]% da Cura Realizada registrada. Esse Dano Adicional é do mesmo Tipo que o do usuário, não é afetado por outras melhorias e pode acontecer apenas 1 vez por rodada.",
+        "desc": "Aumenta em #1[i]% os PV máximos e em #2[i]% a Cura Realizada do usuário. Quando o usuário cura seus aliados, ele registra a quantidade de Cura Realizada. Quando qualquer aliado atacar, um inimigo aleatório atacado recebe Dano Adicional equivalente a #3[i]% da Cura Realizada registrada. O tipo deste Dano Adicional é do mesmo Tipo que o do usuário. Este Dano Adicional não é afetado por outras melhorias e pode acontecer apenas 1 vez por rodada.",
         "params": [
             [
                 0.18,
@@ -3139,7 +3297,7 @@
     "24000": {
         "id": "24000",
         "skill": "Mariposa às Chamas",
-        "desc": "Sempre que o usuário atacar, o seu ATQ é aumentado em #1[i]% durante a batalha, até #2[i] vez(es). Quando o usuário infligir Quebra de Fraqueza nos inimigos, aumenta em #3[i]% o Dano do usuário por #4[i] rodada(s).",
+        "desc": "Sempre que o usuário atacar, o seu ATQ é aumentado em #1[i]% durante a batalha. Este efeito pode acumular até #2[i] vez(es). Quando o usuário infligir Quebra de Fraqueza nos inimigos, aumenta em #3[i]% o Dano do usuário por #4[i] rodada(s).",
         "params": [
             [
                 0.08,

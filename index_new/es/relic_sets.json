@@ -84,7 +84,7 @@
         "id": "105",
         "name": "Campeona de boxeo callejero",
         "desc": [
-            "El Daño Físico aumenta en un 10%.",
+            "Daño Físico +10%.",
             "Cuando el portador ataca o recibe un ataque, su ATQ aumenta en un 5% durante la batalla actual. Puede acumularse hasta 5 veces."
         ],
         "properties": [
@@ -103,7 +103,7 @@
         "id": "106",
         "name": "Guardia de la nieve borrascosa",
         "desc": [
-            "El daño recibido se reduce en un 8%.",
+            "Daño recibido -8%.",
             "Al comienzo del turno, si el portador tiene un porcentaje de PV igual o inferior al 50%, regenera una cantidad de PV equivalente al 8% de sus PV máx. y recupera 5 pts. de energía."
         ],
         "properties": [
@@ -230,6 +230,44 @@
             []
         ],
         "icon": "icon/relic/112.png",
+        "guide_overview": []
+    },
+    "113": {
+        "id": "113",
+        "name": "Discípula longeva",
+        "desc": [
+            "PV máx. +12%.",
+            "Cuando el portador recibe un ataque o un aliado (incluyendo el portador) consume PV del portador, la Prob. CRIT aumenta en un 8% durante 2 turnos. Este efecto se puede acumular hasta 2 veces."
+        ],
+        "properties": [
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.12
+                }
+            ],
+            []
+        ],
+        "icon": "",
+        "guide_overview": []
+    },
+    "114": {
+        "id": "114",
+        "name": "Mensajero del espacio hackeado",
+        "desc": [
+            "VEL +6%.",
+            "Cuando el portador usa su habilidad definitiva sobre un aliado, la VEL de todos los aliados aumenta en un 12% durante 1 turno. Este efecto no se puede acumular."
+        ],
+        "properties": [
+            [
+                {
+                    "type": "SpeedAddedRatio",
+                    "value": 0.06
+                }
+            ],
+            []
+        ],
+        "icon": "",
         "guide_overview": []
     },
     "301": {
@@ -374,6 +412,42 @@
             ]
         ],
         "icon": "icon/relic/308.png",
+        "guide_overview": []
+    },
+    "309": {
+        "id": "309",
+        "name": "Arena rutilante",
+        "desc": [
+            "La Prob. CRIT del portador aumenta en un 8%. Cuando su Prob. CRIT es igual o superior al 70%, el daño que infligen su ATQ Básico y su habilidad básica aumenta en un 20%.",
+            ""
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.08
+                }
+            ]
+        ],
+        "icon": "",
+        "guide_overview": []
+    },
+    "310": {
+        "id": "310",
+        "name": "Quilla rota",
+        "desc": [
+            "La RES a efecto del portador aumenta en un 10%. Cuando su RES a efecto es igual o superior al 30%, el Daño CRIT de todos los aliados aumenta en un 10%.",
+            ""
+        ],
+        "properties": [
+            [
+                {
+                    "type": "StatusResistanceBase",
+                    "value": 0.1
+                }
+            ]
+        ],
+        "icon": "",
         "guide_overview": []
     }
 }

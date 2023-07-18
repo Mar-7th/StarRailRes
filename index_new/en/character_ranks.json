@@ -411,7 +411,7 @@
         "id": "100501",
         "name": "Da Capo",
         "rank": 1,
-        "desc": "When using Ultimate, instead of immediately receiving DMG from the Shock state, enemies will now immediately receive DMG from all currently applied DoT sources.",
+        "desc": "When the Talent triggers a follow-up attack, there is a 100% base chance to increase the DoT received by the target by 30% for 2 turn(s).",
         "materials": [
             {
                 "id": "11005",
@@ -425,7 +425,7 @@
         "id": "100502",
         "name": "Fortississimo",
         "rank": 2,
-        "desc": "Weakness Break Efficiency boosted by 50%.",
+        "desc": "While Kafka is on the field, DoT dealt by all allies increases by 25%.",
         "materials": [
             {
                 "id": "11005",
@@ -462,7 +462,7 @@
         "id": "100504",
         "name": "Recitativo",
         "rank": 4,
-        "desc": "The duration of the increased DoT caused by Talent is extended by 1 turn(s). This effect is stackable and can stack up to 2 time(s)",
+        "desc": "When an enemy target takes DMG from the Shock status inflicted by Kafka, Kafka additionally regenerates 2 Energy.",
         "materials": [
             {
                 "id": "11005",
@@ -499,7 +499,7 @@
         "id": "100506",
         "name": "Leggiero",
         "rank": 6,
-        "desc": "The Ultimate increases the DMG multiplier of Shock DMG dealt to enemies by 130% and extends the duration of Shock by 1 turn(s).",
+        "desc": "The DMG multiplier for Shock DMG dealt by Ultimate, Technique, or the follow-up attack triggered by Talent increases by 156%, and extends the duration of Shock on the enemy target by 1 turn(s).",
         "materials": [
             {
                 "id": "11005",
@@ -1839,6 +1839,112 @@
         "level_up_skills": [],
         "icon": "icon/skill/1109_rank6.png"
     },
+    "111101": {
+        "id": "111101",
+        "name": "Fighting Endlessly",
+        "rank": 1,
+        "desc": "When Luka takes action, if the target enemy is Bleeding, increases DMG dealt by Luka by 15% for 2 turn(s).",
+        "materials": [
+            {
+                "id": "11111",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": ""
+    },
+    "111102": {
+        "id": "111102",
+        "name": "The Enemy is Weak, I am Strong",
+        "rank": 2,
+        "desc": "If the Skill hits an enemy target with Physical Weakness, gain 1 stack(s) of Fighting Will.",
+        "materials": [
+            {
+                "id": "11111",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": ""
+    },
+    "111103": {
+        "id": "111103",
+        "name": "Born for the Ring",
+        "rank": 3,
+        "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+        "materials": [
+            {
+                "id": "11111",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "111102",
+                "num": 2
+            },
+            {
+                "id": "111104",
+                "num": 2
+            }
+        ],
+        "icon": ""
+    },
+    "111104": {
+        "id": "111104",
+        "name": "Never Turning Back",
+        "rank": 4,
+        "desc": "For every stack of Fighting Will obtained, increases ATK by 5%, stacking up to 4 time(s).",
+        "materials": [
+            {
+                "id": "11111",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": ""
+    },
+    "111105": {
+        "id": "111105",
+        "name": "The Spirit of Wildfire",
+        "rank": 5,
+        "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "materials": [
+            {
+                "id": "11111",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "111103",
+                "num": 2
+            },
+            {
+                "id": "111101",
+                "num": 1
+            },
+            {
+                "id": "111108",
+                "num": 1
+            }
+        ],
+        "icon": ""
+    },
+    "111106": {
+        "id": "111106",
+        "name": "A Champion's Applause",
+        "rank": 6,
+        "desc": "After the Enhanced Basic ATK's \"Rising Uppercut\" hits a Bleeding enemy target, the Bleed status will immediately deal DMG 1 time equal to 8% of the original DMG for every hit of Direct Punch already unleashed during the current Enhanced Basic ATK.",
+        "materials": [
+            {
+                "id": "11111",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": ""
+    },
     "120101": {
         "id": "120101",
         "name": "Rise Through the Tiles",
@@ -2251,6 +2357,112 @@
         "level_up_skills": [],
         "icon": "icon/skill/1204_rank6.png"
     },
+    "120501": {
+        "id": "120501",
+        "name": "Blade Cuts the Deepest in Hell",
+        "rank": 1,
+        "desc": "Blade's Ultimate deals additionally increased DMG to a single enemy target, with the increased amount equal to 150% of Blade's total HP loss in the current battle.\\nThe total HP Blade has lost in the current battle is capped at 90% of his Max HP. This value will be reset and re-accumulated after his Ultimate has been used.",
+        "materials": [
+            {
+                "id": "11205",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": ""
+    },
+    "120502": {
+        "id": "120502",
+        "name": "Ten Thousand Sorrows From One Broken Dream",
+        "rank": 2,
+        "desc": "When Blade is in the Hellscape state, his CRIT Rate increases by 15%.",
+        "materials": [
+            {
+                "id": "11205",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": ""
+    },
+    "120503": {
+        "id": "120503",
+        "name": "Hardened Blade Bleeds Coldest Shade",
+        "rank": 3,
+        "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+        "materials": [
+            {
+                "id": "11205",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "120503",
+                "num": 2
+            },
+            {
+                "id": "120504",
+                "num": 2
+            }
+        ],
+        "icon": ""
+    },
+    "120504": {
+        "id": "120504",
+        "name": "Rejected by Death, Infected With Life",
+        "rank": 4,
+        "desc": "When Blade's current HP drops to 50% or lower of his Max HP, increases his Max HP by 20%. Stacks up to 2 time(s).",
+        "materials": [
+            {
+                "id": "11205",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": ""
+    },
+    "120505": {
+        "id": "120505",
+        "name": "Death By Ten Lords' Gaze",
+        "rank": 5,
+        "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "materials": [
+            {
+                "id": "11205",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "120502",
+                "num": 2
+            },
+            {
+                "id": "120501",
+                "num": 1
+            },
+            {
+                "id": "120508",
+                "num": 1
+            }
+        ],
+        "icon": ""
+    },
+    "120506": {
+        "id": "120506",
+        "name": "Reborn Into an Empty Husk",
+        "rank": 6,
+        "desc": "The maximum number of Charge stacks is reduced to 4. The DMG of the follow-up attack triggered by Blade's Talent additionally increases by 50% of his Max HP.",
+        "materials": [
+            {
+                "id": "11205",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": ""
+    },
     "120601": {
         "id": "120601",
         "name": "Cut With Ease",
@@ -2371,7 +2583,7 @@
         "id": "120702",
         "name": "Skyward Command",
         "rank": 2,
-        "desc": "When any ally's current energy is equal to its energy limit, Yukong regenerates an additional 5 energy. This effect can only be triggered once for each ally. The trigger count is reset after Yukong casts her Ultimate.",
+        "desc": "When any ally's current energy is equal to its energy limit, Yukong regenerates an additional 5 energy. This effect can only be triggered once for each ally. The trigger count is reset after Yukong uses her Ultimate.",
         "materials": [
             {
                 "id": "11207",
@@ -2385,7 +2597,7 @@
         "id": "120703",
         "name": "Torrential Fusillade",
         "rank": 3,
-        "desc": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
         "materials": [
             {
                 "id": "11207",
@@ -2422,7 +2634,7 @@
         "id": "120705",
         "name": "August Deadshot",
         "rank": 5,
-        "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+        "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
         "materials": [
             {
                 "id": "11207",
@@ -2658,6 +2870,120 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1211_rank6.png"
+    },
+    "121301": {
+        "id": "121301",
+        "name": "",
+        "rank": 1,
+        "desc": "",
+        "materials": [
+            {
+                "id": "11213",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": ""
+    },
+    "121302": {
+        "id": "121302",
+        "name": "",
+        "rank": 2,
+        "desc": "",
+        "materials": [
+            {
+                "id": "11213",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": ""
+    },
+    "121303": {
+        "id": "121303",
+        "name": "",
+        "rank": 3,
+        "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+        "materials": [
+            {
+                "id": "11213",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "121303",
+                "num": 2
+            },
+            {
+                "id": "121304",
+                "num": 2
+            }
+        ],
+        "icon": ""
+    },
+    "121304": {
+        "id": "121304",
+        "name": "",
+        "rank": 4,
+        "desc": "",
+        "materials": [
+            {
+                "id": "11213",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": ""
+    },
+    "121305": {
+        "id": "121305",
+        "name": "",
+        "rank": 5,
+        "desc": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "materials": [
+            {
+                "id": "11213",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "121302",
+                "num": 2
+            },
+            {
+                "id": "121301",
+                "num": 1
+            },
+            {
+                "id": "121308",
+                "num": 2
+            },
+            {
+                "id": "121310",
+                "num": 2
+            },
+            {
+                "id": "121312",
+                "num": 2
+            }
+        ],
+        "icon": ""
+    },
+    "121306": {
+        "id": "121306",
+        "name": "",
+        "rank": 6,
+        "desc": "",
+        "materials": [
+            {
+                "id": "11213",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": ""
     },
     "800101": {
         "id": "800101",

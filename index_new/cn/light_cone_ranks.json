@@ -2776,6 +2776,80 @@
             ]
         ]
     },
+    "23006": {
+        "id": "23006",
+        "skill": "蜘蛛的网",
+        "desc": "使装备者造成的伤害提高#2[i]%。装备者每次施放攻击后，速度提高#3[f1]%，最多叠加#4[i]层。\\n当装备者击中敌方目标时，如果该目标不处于【游丝】状态，则有100%的基础概率使其陷入【游丝】状态。当敌方目标处于【游丝】状态时，也会被视为陷入了触电状态。【游丝】状态下，敌方目标每回合开始时受到等同于装备者#1[i]%攻击力的雷属性持续伤害，持续#5[i]回合。",
+        "params": [
+            [
+                0.6,
+                0.24,
+                0.048,
+                3,
+                1
+            ],
+            [
+                0.7,
+                0.28,
+                0.056,
+                3,
+                1
+            ],
+            [
+                0.8,
+                0.32,
+                0.064,
+                3,
+                1
+            ],
+            [
+                0.9,
+                0.36,
+                0.072,
+                3,
+                1
+            ],
+            [
+                1,
+                0.4,
+                0.08,
+                3,
+                1
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "AllDamageTypeAddedRatio",
+                    "value": 0.24
+                }
+            ],
+            [
+                {
+                    "type": "AllDamageTypeAddedRatio",
+                    "value": 0.28
+                }
+            ],
+            [
+                {
+                    "type": "AllDamageTypeAddedRatio",
+                    "value": 0.32
+                }
+            ],
+            [
+                {
+                    "type": "AllDamageTypeAddedRatio",
+                    "value": 0.36
+                }
+            ],
+            [
+                {
+                    "type": "AllDamageTypeAddedRatio",
+                    "value": 0.4
+                }
+            ]
+        ]
+    },
     "23007": {
         "id": "23007",
         "skill": "幻影现实",
@@ -2915,6 +2989,90 @@
                 {
                     "type": "AttackAddedRatio",
                     "value": 0.4
+                }
+            ]
+        ]
+    },
+    "23009": {
+        "id": "23009",
+        "skill": "不得",
+        "desc": "使装备者的暴击率提高#1[i]%，生命上限提高#2[i]%。当装备者受到攻击或装备者消耗自身生命值后，造成的伤害提高#3[i]%，该效果在装备者施放攻击后解除。",
+        "params": [
+            [
+                0.18,
+                0.18,
+                0.24
+            ],
+            [
+                0.21,
+                0.21,
+                0.28
+            ],
+            [
+                0.24,
+                0.24,
+                0.32
+            ],
+            [
+                0.27,
+                0.27,
+                0.36
+            ],
+            [
+                0.3,
+                0.3,
+                0.4
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.18
+                },
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.18
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.21
+                },
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.21
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.24
+                },
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.24
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.27
+                },
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.27
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.3
+                },
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.3
                 }
             ]
         ]

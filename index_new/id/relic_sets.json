@@ -232,6 +232,44 @@
         "icon": "icon/relic/112.png",
         "guide_overview": []
     },
+    "113": {
+        "id": "113",
+        "name": "Longevous Disciple",
+        "desc": [
+            "Max HP +12%.",
+            "Setelah pengguna terkena serangan atau HP-nya dikonsumsi oleh rekan tim (termasuk pengguna sendiri), CRIT Rate akan meningkat 8% selama 2 giliran. Efek ini dapat ditumpuk hingga 2 lapis."
+        ],
+        "properties": [
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.12
+                }
+            ],
+            []
+        ],
+        "icon": "",
+        "guide_overview": []
+    },
+    "114": {
+        "id": "114",
+        "name": "Messenger Traversing Hackerspace",
+        "desc": [
+            "SPD +6%.",
+            "Saat pengguna melancarkan Ultimate pada rekan tim, SPD seluruh rekan tim meningkat 12% selama 1 giliran. Efek ini tidak dapat ditumpuk."
+        ],
+        "properties": [
+            [
+                {
+                    "type": "SpeedAddedRatio",
+                    "value": 0.06
+                }
+            ],
+            []
+        ],
+        "icon": "",
+        "guide_overview": []
+    },
     "301": {
         "id": "301",
         "name": "Space Sealing Station",
@@ -374,6 +412,42 @@
             ]
         ],
         "icon": "icon/relic/308.png",
+        "guide_overview": []
+    },
+    "309": {
+        "id": "309",
+        "name": "Rutilant Arena",
+        "desc": [
+            "Meningkatkan 8% CRIT Rate pengguna. Meningkatkan 20% DMG Basic Attack dan Skill ketika CRIT Rate pengguna saat ini lebih dari atau sama dengan 70%.",
+            ""
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.08
+                }
+            ]
+        ],
+        "icon": "",
+        "guide_overview": []
+    },
+    "310": {
+        "id": "310",
+        "name": "Broken Keel",
+        "desc": [
+            "Meningkatkan 10% Effect RES pengguna. Saat Effect RES pengguna lebih dari atau sama dengan 30%, CRIT DMG seluruh rekan tim meningkat 10%.",
+            ""
+        ],
+        "properties": [
+            [
+                {
+                    "type": "StatusResistanceBase",
+                    "value": 0.1
+                }
+            ]
+        ],
+        "icon": "",
         "guide_overview": []
     }
 }

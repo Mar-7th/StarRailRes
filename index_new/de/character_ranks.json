@@ -360,7 +360,7 @@
         "id": "100404",
         "name": "Anruf der Gerechtigkeit",
         "rank": 4,
-        "desc": "Erhöht die Grundchance, einen angriffenen Gegner beim Einsatz der Fertigkeit zu verlangsamen, um 35%.",
+        "desc": "Erhöht die Grundchance, einen angegriffenen Gegner beim Einsatz der Fertigkeit zu verlangsamen, um 35%.",
         "materials": [
             {
                 "id": "11004",
@@ -411,7 +411,7 @@
         "id": "100501",
         "name": "Da capo",
         "rank": 1,
-        "desc": "Nach dem Einsatz des Ultimates erleiden Gegner sofort SCH durch alle aktuellen Debuffs mit DoT, anstatt nur SCH durch den Status Schock.",
+        "desc": "Bei Auslösung eines Folgeangriffs durch das Talent besteht eine Grundchance von 100%, den erlittenen DoT des Ziels für 2 Rd. um 30% zu erhöhen.",
         "materials": [
             {
                 "id": "11005",
@@ -425,7 +425,7 @@
         "id": "100502",
         "name": "Fortississimo",
         "rank": 2,
-        "desc": "Erhöht die Schwächebruch-Effizienz um 50%.",
+        "desc": "Erhöht den DoT aller Verbündeten um 25%, wenn Kafka mitkämpft.",
         "materials": [
             {
                 "id": "11005",
@@ -462,7 +462,7 @@
         "id": "100504",
         "name": "Rezitativ",
         "rank": 4,
-        "desc": "Verlängert die Dauer des erhöhten DoT, der durch Kafkas Talent verursacht wird, um 1 Rd. Dieser Effekt ist bis zu 2-mal stapelbar.",
+        "desc": "Wenn ein Gegner SCH durch den von Kafka verursachten Schock-Status erleidet, wird die Energie von Kafka zusätzlich um 2 Pkt. wiederhergestellt.",
         "materials": [
             {
                 "id": "11005",
@@ -499,7 +499,7 @@
         "id": "100506",
         "name": "Leggiero",
         "rank": 6,
-        "desc": "Erhöht den SCH-Multiplikator des Status Schock durch Ultimate um 130% und verlängert den Status Schock um 1 Rd.",
+        "desc": "Erhöht den SCH-Multiplikator des Status Schock durch Ultimate, Technik und Folgeangriffe des Talents um 156% und verlängert den Status Schock um 1 Rd.",
         "materials": [
             {
                 "id": "11005",
@@ -564,7 +564,7 @@
         "id": "100604",
         "name": "Bounce-Angriff",
         "rank": 4,
-        "desc": "Nachdem Silberwolf mit ihrem Ultimate einen Gegner angegriffen hat, fügt sie für jeden Debuff des Ziels zusätzlichen Quantum-SCH in Höhe von 20% von Silberwolfs ANG zu. Dieser Effekt kann bei jedem Einsatz ihres Ultimates bis zu 5-mal ausgelöst werden.",
+        "desc": "Nachdem Silberwolf mit ihrem Ultimate einen Gegner angegriffen hat, fügt sie für jeden Debuff des Ziels zusätzlichen Quanten-SCH in Höhe von 20% von Silberwolfs ANG zu. Dieser Effekt kann bei jedem Einsatz ihres Ultimates bis zu 5-mal ausgelöst werden.",
         "materials": [
             {
                 "id": "11006",
@@ -921,7 +921,7 @@
         "id": "110101",
         "name": "Stärke erhöhen",
         "rank": 1,
-        "desc": "Beim Einsatz der Fertigkeit besteht eine feste Chance von 50%, 1 Fertigkeitspunkt wiederzuherstellen. Dieser Effekt hat eine Abklingzeit von 1 Rd.",
+        "desc": "Beim Einsatz der Fertigkeit besteht eine feste Chance von 50%, 1 Fertigkeitspunkt wiederherzustellen. Dieser Effekt hat eine Abklingzeit von 1 Rd.",
         "materials": [
             {
                 "id": "11101",
@@ -1111,7 +1111,7 @@
         "id": "110206",
         "name": "Trennung",
         "rank": 6,
-        "desc": "Der Ultimate verursacht beim getroffenen Gegner für 1 Rd. den Status „Schmetterlingssturm“. Gegner im Schmetterlingssturm erleiden bei Treffern 1-mal zusätzlich Quantum-SCH in Höhe von 15% von Seeles Ultimate-SCH. Wenn ein anderer Verbündeter das Ziel durch den zusätzlichen SCH von „Schmetterlingssturm“ besiegt, wird Seeles Talent nicht ausgelöst.\\nIst Seele handlungsunfähig, wird der Status „Schmetterlingssturm“ vom Gegner entfernt.",
+        "desc": "Der Ultimate verursacht beim getroffenen Gegner für 1 Rd. den Status „Schmetterlingssturm“. Gegner im Schmetterlingssturm erleiden bei Treffern 1-mal zusätzlich Quanten-SCH in Höhe von 15% von Seeles Ultimate-SCH. Wenn ein anderer Verbündeter das Ziel durch den zusätzlichen SCH von „Schmetterlingssturm“ besiegt, wird Seeles Talent nicht ausgelöst.\\nIst Seele handlungsunfähig, wird der Status „Schmetterlingssturm“ vom Gegner entfernt.",
         "materials": [
             {
                 "id": "11102",
@@ -1792,7 +1792,7 @@
         "id": "110904",
         "name": "Nichts wissen macht auch nichts",
         "rank": 4,
-        "desc": "Beim Auslösung des Talents besteht eine Grundchance von 100%, dass angrenzende Ziele des anvisierten Gegners von Brennen betroffen werden, das durch Fertigkeit verursacht wird.",
+        "desc": "Bei Auslösung des Talents besteht eine Grundchance von 100%, dass angrenzende Ziele des anvisierten Gegners von Brennen betroffen werden, das durch Fertigkeit verursacht wird.",
         "materials": [
             {
                 "id": "11109",
@@ -1838,6 +1838,112 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1109_rank6.png"
+    },
+    "111101": {
+        "id": "111101",
+        "name": "Endloser Kampf",
+        "rank": 1,
+        "desc": "Wenn Luka eine Aktion ausführt und der anvisierte Gegner von Bluten betroffen ist, wird der von Luka verursachte SCH für 2 Rd. um 15% erhöht.",
+        "materials": [
+            {
+                "id": "11111",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": ""
+    },
+    "111102": {
+        "id": "111102",
+        "name": "Der Feind ist schwach, ich bin stark",
+        "rank": 2,
+        "desc": "Wenn die Fertigkeit einen Gegner mit physischer Schwäche trifft, erhält Luka 1 Stapelung „Kampfeswille“.",
+        "materials": [
+            {
+                "id": "11111",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": ""
+    },
+    "111103": {
+        "id": "111103",
+        "name": "Geboren für den Ring",
+        "rank": 3,
+        "desc": "Fertigkeitsstufe +2 bis zu max. St. 15. Talentstufe +2 bis zu max. St. 15.",
+        "materials": [
+            {
+                "id": "11111",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "111102",
+                "num": 2
+            },
+            {
+                "id": "111104",
+                "num": 2
+            }
+        ],
+        "icon": ""
+    },
+    "111104": {
+        "id": "111104",
+        "name": "Keine Umkehr",
+        "rank": 4,
+        "desc": "Erhöht ANG für jede Stapelung „Kampfeswille“ um 5%. Dieser Effekt ist bis zu 4-fach stapelbar.",
+        "materials": [
+            {
+                "id": "11111",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": ""
+    },
+    "111105": {
+        "id": "111105",
+        "name": "Der Geist von Wildfeuer",
+        "rank": 5,
+        "desc": "Ultimate-Stufe +2 bis zu max. St. 15. Standardangriff-Stufe +1 bis zu max. St. 10.",
+        "materials": [
+            {
+                "id": "11111",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "111103",
+                "num": 2
+            },
+            {
+                "id": "111101",
+                "num": 1
+            },
+            {
+                "id": "111108",
+                "num": 1
+            }
+        ],
+        "icon": ""
+    },
+    "111106": {
+        "id": "111106",
+        "name": "Applaus für den Champion",
+        "rank": 6,
+        "desc": "Nachdem der verstärkte Standardangriff „Himmelsbrecher-Faust“ einen blutenden Gegner getroffen hat, verursacht das Bluten sofort einmal SCH in Höhe von 8% des ursprünglichen SCH für jeden Treffer von „Gerader Haken“, der in diesem verstärkten Standardangriff verwendet wird.",
+        "materials": [
+            {
+                "id": "11111",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": ""
     },
     "120101": {
         "id": "120101",
@@ -1894,7 +2000,7 @@
         "id": "120104",
         "name": "Glückliche Kombination, der letzte Stein wartet",
         "rank": 4,
-        "desc": "Nach dem Einsatz der Fertigkeit besteht eine Grundchance von 24%, in „Autarkie“ einzutreten. Dieser Status hält bis zum Ende dieser Runde.\\nIn „Autarkie“ führt Qingque nach dem Einsatz des Standardangriffs oder verstärkten Standardangriffs sofort einen Folgeangriff aus und fügt dem Ziel Quantum-SCH in Höhe von 100 % des Standardangriffs oder verstärkten Standardangriffs zu.",
+        "desc": "Nach dem Einsatz der Fertigkeit besteht eine Grundchance von 24%, in „Autarkie“ einzutreten. Dieser Status hält bis zum Ende dieser Runde.\\nIn „Autarkie“ führt Qingque nach dem Einsatz des Standardangriffs oder verstärkten Standardangriffs sofort einen Folgeangriff aus und fügt dem Ziel Quanten-SCH in Höhe von 100 % des Standardangriffs oder verstärkten Standardangriffs zu.",
         "materials": [
             {
                 "id": "11201",
@@ -2250,6 +2356,112 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1204_rank6.png"
+    },
+    "120501": {
+        "id": "120501",
+        "name": "Eine Schwertlänge, tausend Höllentiefen",
+        "rank": 1,
+        "desc": "Blades Ultimate verursacht bei einem anvisierten Gegner zusätzlich erhöhten SCH, wobei der erhöhte Betrag 150% seiner gesamten im aktuellen Kampf verlorenen LP beträgt.\\nDie berechneten LP, die Blade im aktuellen Kampf insgesamt verloren hat, werden auf 90% seiner max. LP begrenzt. Nachdem er seinen Ultimate eingesetzt hat, wird dieser Wert zurückgesetzt und neu berechnet.",
+        "materials": [
+            {
+                "id": "11205",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": ""
+    },
+    "120502": {
+        "id": "120502",
+        "name": "Verpasste Träume, unendliches Bedauern",
+        "rank": 2,
+        "desc": "Wenn „Höllenqual“ aktiv ist, wird die KRIT-Rate um 15% erhöht.",
+        "materials": [
+            {
+                "id": "11205",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": ""
+    },
+    "120503": {
+        "id": "120503",
+        "name": "Geschmolzener Stahl, gemahlenes Korn",
+        "rank": 3,
+        "desc": "Ultimate-Stufe +2 bis zu max. St. 15. Talentstufe +2 bis zu max. St. 15.",
+        "materials": [
+            {
+                "id": "11205",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "120503",
+                "num": 2
+            },
+            {
+                "id": "120504",
+                "num": 2
+            }
+        ],
+        "icon": ""
+    },
+    "120504": {
+        "id": "120504",
+        "name": "Vom Tod abgewiesen, vom Leben heimgesucht",
+        "rank": 4,
+        "desc": "Werden Blades aktuelle LP auf 50 % oder niedriger reduziert, werden seine max. LP um 20% erhöht. Dieser Effekt ist bis zu 2-fach stapelbar.",
+        "materials": [
+            {
+                "id": "11205",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": ""
+    },
+    "120505": {
+        "id": "120505",
+        "name": "Todesurteil, Karmavollstreckung",
+        "rank": 5,
+        "desc": "Fertigkeitsstufe +2 bis zu max. St. 15. Standardangriff-Stufe +1 bis zu max. St. 10.",
+        "materials": [
+            {
+                "id": "11205",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "120502",
+                "num": 2
+            },
+            {
+                "id": "120501",
+                "num": 1
+            },
+            {
+                "id": "120508",
+                "num": 1
+            }
+        ],
+        "icon": ""
+    },
+    "120506": {
+        "id": "120506",
+        "name": "Wie Körper, so Seele",
+        "rank": 6,
+        "desc": "Die maximale Aufladungsanzahl wird auf 4 reduziert. Der SCH des Folgeangriffs, der durch Blades Talent ausgelöst wird, wird zusätzlich um 50% seiner max. LP erhöht.",
+        "materials": [
+            {
+                "id": "11205",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": ""
     },
     "120601": {
         "id": "120601",
@@ -2658,6 +2870,120 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1211_rank6.png"
+    },
+    "121301": {
+        "id": "121301",
+        "name": "",
+        "rank": 1,
+        "desc": "",
+        "materials": [
+            {
+                "id": "11213",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": ""
+    },
+    "121302": {
+        "id": "121302",
+        "name": "",
+        "rank": 2,
+        "desc": "",
+        "materials": [
+            {
+                "id": "11213",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": ""
+    },
+    "121303": {
+        "id": "121303",
+        "name": "",
+        "rank": 3,
+        "desc": "Ultimate-Stufe +2 bis zu max. St. 15. Talentstufe +2 bis zu max. St. 15.",
+        "materials": [
+            {
+                "id": "11213",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "121303",
+                "num": 2
+            },
+            {
+                "id": "121304",
+                "num": 2
+            }
+        ],
+        "icon": ""
+    },
+    "121304": {
+        "id": "121304",
+        "name": "",
+        "rank": 4,
+        "desc": "",
+        "materials": [
+            {
+                "id": "11213",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": ""
+    },
+    "121305": {
+        "id": "121305",
+        "name": "",
+        "rank": 5,
+        "desc": "Fertigkeitsstufe +2 bis zu max. St. 15. Standardangriff-Stufe +1 bis zu max. St. 10.",
+        "materials": [
+            {
+                "id": "11213",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "121302",
+                "num": 2
+            },
+            {
+                "id": "121301",
+                "num": 1
+            },
+            {
+                "id": "121308",
+                "num": 2
+            },
+            {
+                "id": "121310",
+                "num": 2
+            },
+            {
+                "id": "121312",
+                "num": 2
+            }
+        ],
+        "icon": ""
+    },
+    "121306": {
+        "id": "121306",
+        "name": "",
+        "rank": 6,
+        "desc": "",
+        "materials": [
+            {
+                "id": "11213",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": ""
     },
     "800101": {
         "id": "800101",

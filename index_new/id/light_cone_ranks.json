@@ -2776,6 +2776,80 @@
             ]
         ]
     },
+    "23006": {
+        "id": "23006",
+        "skill": "Spider Web",
+        "desc": "Meningkatkan #2[i]% DMG yang diakibatkan pengguna. Setiap kali setelah pengguna melancarkan serangan, SPD meningkat #3[f1]%, maksimal hingga #4[i] lapis.\\nSaat pengguna menyerang target musuh, jika target tidak dalam status \"Erode\", maka pengguna memiliki 100% peluang dasar untuk membuat target memasuki status \"Erode\". Saat target musuh memasuki status \"Erode\", target juga akan dianggap memasuki status Shock. Saat berstatus Shock, setiap saat giliran dimulai, target musuh akan menerima Lightning DoT sebesar #1[i]% ATK pengguna selama #5[i] giliran.",
+        "params": [
+            [
+                0.6,
+                0.24,
+                0.048,
+                3,
+                1
+            ],
+            [
+                0.7,
+                0.28,
+                0.056,
+                3,
+                1
+            ],
+            [
+                0.8,
+                0.32,
+                0.064,
+                3,
+                1
+            ],
+            [
+                0.9,
+                0.36,
+                0.072,
+                3,
+                1
+            ],
+            [
+                1,
+                0.4,
+                0.08,
+                3,
+                1
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "AllDamageTypeAddedRatio",
+                    "value": 0.24
+                }
+            ],
+            [
+                {
+                    "type": "AllDamageTypeAddedRatio",
+                    "value": 0.28
+                }
+            ],
+            [
+                {
+                    "type": "AllDamageTypeAddedRatio",
+                    "value": 0.32
+                }
+            ],
+            [
+                {
+                    "type": "AllDamageTypeAddedRatio",
+                    "value": 0.36
+                }
+            ],
+            [
+                {
+                    "type": "AllDamageTypeAddedRatio",
+                    "value": 0.4
+                }
+            ]
+        ]
+    },
     "23007": {
         "id": "23007",
         "skill": "Mirage of Reality",
@@ -2915,6 +2989,90 @@
                 {
                     "type": "AttackAddedRatio",
                     "value": 0.4
+                }
+            ]
+        ]
+    },
+    "23009": {
+        "id": "23009",
+        "skill": "Unfulfilled Yearning",
+        "desc": "Meningkatkan #1[i]% CRIT Rate dan #2[i]% Max HP pengguna. Setelah pengguna terkena serangan atau mengonsumsi HP-nya sendiri, DMG yang diakibatkan akan meningkat #3[i]%, efek ini akan dihapus setelah pengguna melancarkan serangan.",
+        "params": [
+            [
+                0.18,
+                0.18,
+                0.24
+            ],
+            [
+                0.21,
+                0.21,
+                0.28
+            ],
+            [
+                0.24,
+                0.24,
+                0.32
+            ],
+            [
+                0.27,
+                0.27,
+                0.36
+            ],
+            [
+                0.3,
+                0.3,
+                0.4
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.18
+                },
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.18
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.21
+                },
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.21
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.24
+                },
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.24
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.27
+                },
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.27
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.3
+                },
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.3
                 }
             ]
         ]
