@@ -1497,7 +1497,7 @@
         "effect": "AoEAttack",
         "effect_text": "AoE",
         "simple_desc": "Mengakibatkan Lightning DMG dalam jumlah kecil pada seluruh musuh, berpeluang besar menambahkan status Shock pada musuh.\nJika target musuh berstatus Shock, maka status Shock tersebut akan mengakibatkan 1 kali DMG tambahan.",
-        "desc": "Mengakibatkan Lightning DMG sebesar #1[i]% ATK Kafka pada seluruh musuh. Musuh yang terkena serangan memiliki #2[i]% peluang dasar untuk memasuki status Shock, dan membuat musuh berstatus Shock tersebut langsung menerima DMG sebesar #5[i]% DoT Status Shock. Status Shock berlangsung selama #3[i] giliran.\nSaat dalam status Shock, target musuh akan menerima Lightning DoT sebesar #4[i]% ATK Kafka setiap gilirannya dimulai.",
+        "desc": "Mengakibatkan Lightning DMG sebesar #1[i]% ATK Kafka pada seluruh musuh. Musuh yang terkena serangan memiliki #2[i]% peluang dasar untuk memasuki status Shock, dan membuat semua status Shock yang saat ini dimiliki oleh target segera mengakibatkan DMG sebesar #5[i]% DMG awal DoT-nya.\nSaat dalam status Shock, target musuh akan menerima Lightning DoT sebesar #4[i]% ATK Kafka saat setiap gilirannya dimulai.",
         "params": [
             [
                 0.48,
@@ -6232,7 +6232,7 @@
                 1.3
             ]
         ],
-        "icon": ""
+        "icon": "icon/skill/1111_basic_atk.png"
     },
     "111102": {
         "id": "111102",
@@ -6352,7 +6352,7 @@
                 3
             ]
         ],
-        "icon": ""
+        "icon": "icon/skill/1111_skill.png"
     },
     "111103": {
         "id": "111103",
@@ -6472,7 +6472,7 @@
                 2
             ]
         ],
-        "icon": ""
+        "icon": "icon/skill/1111_ultimate.png"
     },
     "111104": {
         "id": "111104",
@@ -6547,7 +6547,7 @@
                 0.935
             ]
         ],
-        "icon": ""
+        "icon": "icon/skill/1111_talent.png"
     },
     "111106": {
         "id": "111106",
@@ -6561,7 +6561,7 @@
         "simple_desc": "",
         "desc": "Setelah menyerang musuh dan memasuki pertempuran, mengurangi Toughness target musuh sesuai dengan tipe Toughnessnya.",
         "params": [],
-        "icon": ""
+        "icon": "icon/skill/1111_basic_atk.png"
     },
     "111107": {
         "id": "111107",
@@ -6580,7 +6580,7 @@
                 1
             ]
         ],
-        "icon": ""
+        "icon": "icon/skill/1111_technique.png"
     },
     "111108": {
         "id": "111108",
@@ -6631,7 +6631,7 @@
                 1.04
             ]
         ],
-        "icon": ""
+        "icon": "icon/skill/1111_basic_atk.png"
     },
     "120101": {
         "id": "120101",
@@ -8051,7 +8051,7 @@
                 1.3
             ]
         ],
-        "icon": ""
+        "icon": "icon/skill/1205_basic_atk.png"
     },
     "120502": {
         "id": "120502",
@@ -8156,7 +8156,7 @@
                 0.54
             ]
         ],
-        "icon": ""
+        "icon": "icon/skill/1205_skill.png"
     },
     "120503": {
         "id": "120503",
@@ -8168,7 +8168,7 @@
         "effect": "Blast",
         "effect_text": "Blast",
         "simple_desc": "Mengonversi HP saat ini menjadi 50% Max HP, dan mengakibatkan Wind DMG dalam jumlah besar pada 1 musuh, serta Wind DMG pada target di sekitarnya.",
-        "desc": "Mengubah HP Blade saat ini menjadi 50% dari Max HP-nya, serta mengakibatkan Wind DMG pada 1 musuh sebesar #1[i]% ATK + #2[i]% Max HP + #5[i]% akumulasi jumlah HP Blade yang berkurang dalam pertempuran ini. Di saat yang bersamaan juga akan mengakibatkan Wind DMG pada target di sekitarnya sebesar #3[f1]% ATK + #4[i]% Max HP + #6[i]% akumulasi jumlah HP Blade yang berkurang dalam pertempuran ini.\nJumlah akumulasi HP Blade yang berkurang di pertempuran saat ini maksimal tidak boleh melebihi #7[i]% Max HP Blade. Setelah melancarkan Ultimate, jumlah akumulasi akan direset ulang dan diakumulasi kembali.",
+        "desc": "Mengubah HP Blade saat ini menjadi 50% dari Max HP-nya, serta mengakibatkan Wind DMG pada 1 musuh sebesar #1[i]% ATK + #2[i]% Max HP + #5[i]% perhitungan akumulasi jumlah HP Blade yang berkurang dalam pertempuran ini. Di saat yang bersamaan juga akan mengakibatkan Wind DMG pada target di sekitarnya sebesar #3[f1]% ATK + #4[i]% Max HP + #6[i]% perhitungan akumulasi jumlah HP Blade yang berkurang dalam pertempuran ini.\nPerhitungan jumlah akumulasi HP Blade yang berkurang di pertempuran saat ini maksimal tidak dapat melebihi #7[i]% Max HP Blade. Setelah melancarkan Ultimate, perhitungan jumlah akumulasi akan direset ulang dan diakumulasi kembali.",
         "params": [
             [
                 0.24,
@@ -8306,7 +8306,7 @@
                 0.9
             ]
         ],
-        "icon": ""
+        "icon": "icon/skill/1205_ultimate.png"
     },
     "120504": {
         "id": "120504",
@@ -8411,7 +8411,7 @@
                 1.375
             ]
         ],
-        "icon": ""
+        "icon": "icon/skill/1205_talent.png"
     },
     "120506": {
         "id": "120506",
@@ -8425,7 +8425,7 @@
         "simple_desc": "",
         "desc": "Setelah menyerang musuh dan memasuki pertempuran, mengurangi Toughness target musuh sesuai dengan tipe Toughnessnya.",
         "params": [],
-        "icon": ""
+        "icon": "icon/skill/1205_basic_atk.png"
     },
     "120507": {
         "id": "120507",
@@ -8444,7 +8444,7 @@
                 0.2
             ]
         ],
-        "icon": ""
+        "icon": "icon/skill/1205_technique.png"
     },
     "120508": {
         "id": "120508",
@@ -8522,7 +8522,7 @@
                 0.52
             ]
         ],
-        "icon": ""
+        "icon": "icon/skill/1205_basic_atk.png"
     },
     "120601": {
         "id": "120601",
@@ -9989,7 +9989,7 @@
                 1.3
             ]
         ],
-        "icon": ""
+        "icon": "icon/skill/1213_basic_atk.png"
     },
     "121302": {
         "id": "121302",
@@ -10139,7 +10139,7 @@
                 1.5
             ]
         ],
-        "icon": ""
+        "icon": "icon/skill/1213_skill.png"
     },
     "121303": {
         "id": "121303",
@@ -10244,7 +10244,7 @@
                 3
             ]
         ],
-        "icon": ""
+        "icon": "icon/skill/1213_ultimate.png"
     },
     "121304": {
         "id": "121304",
@@ -10319,7 +10319,7 @@
                 5
             ]
         ],
-        "icon": ""
+        "icon": "icon/skill/1213_talent.png"
     },
     "121306": {
         "id": "121306",
@@ -10333,7 +10333,7 @@
         "simple_desc": "",
         "desc": "Setelah menyerang musuh dan memasuki pertempuran, mengurangi Toughness target musuh sesuai dengan tipe Toughnessnya.",
         "params": [],
-        "icon": ""
+        "icon": "icon/skill/1213_basic_atk.png"
     },
     "121307": {
         "id": "121307",
@@ -10352,7 +10352,7 @@
                 20
             ]
         ],
-        "icon": ""
+        "icon": "icon/skill/1213_technique.png"
     },
     "121308": {
         "id": "121308",
@@ -10412,7 +10412,7 @@
                 3.25
             ]
         ],
-        "icon": ""
+        "icon": "icon/skill/1213_basic_atk.png"
     },
     "121309": {
         "id": "121309",
@@ -10426,7 +10426,7 @@
         "simple_desc": "",
         "desc": "",
         "params": [],
-        "icon": ""
+        "icon": "icon/skill/1213_skill.png"
     },
     "121310": {
         "id": "121310",
@@ -10546,7 +10546,7 @@
                 4
             ]
         ],
-        "icon": ""
+        "icon": "icon/skill/1213_basic_atk.png"
     },
     "121312": {
         "id": "121312",
@@ -10696,7 +10696,7 @@
                 1.5
             ]
         ],
-        "icon": ""
+        "icon": "icon/skill/1213_basic_atk.png"
     },
     "800101": {
         "id": "800101",
