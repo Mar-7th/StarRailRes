@@ -50,7 +50,7 @@
         "type_text": "Perícia",
         "effect": "Defence",
         "effect_text": "Defesa",
-        "simple_desc": "Concede um Escudo a um único aliado.",
+        "simple_desc": "Aplica um Escudo em um único aliado.",
         "desc": "Concede a um único aliado um Escudo que pode absorver Dano igual a #1[i]% da DEF de 7 de Março + #4[i] por #2[i] rodada(s).\nSe esse aliado tiver #3[i]% ou mais de PV, aumenta significativamente a chance de inimigos atacarem esse aliado.",
         "params": [
             [
@@ -170,7 +170,7 @@
         "type_text": "Perícia Suprema",
         "effect": "AoEAttack",
         "effect_text": "Área",
-        "simple_desc": "Causa Dano de Gelo a todos os inimigos, com uma chance de também causar Congelamento.",
+        "simple_desc": "Causa Dano de Gelo a todos os inimigos, com uma chance de aplicar o efeito de Congelamento",
         "desc": "Causa Dano de Gelo igual a #1[i]% do ATQ de 7 de Março a todos os inimigos. Ao serem atingidos, os inimigos têm #2[i]% de chance-base de sofrer Congelamento por #3[i] rodada(s).\nDurante o Congelamento, os inimigos não podem agir e recebem Dano de Gelo Adicional igual a #4[i]% do ATQ de 7 de Março no início de cada rodada.",
         "params": [
             [
@@ -275,7 +275,7 @@
         "type_text": "Talento",
         "effect": "SingleAttack",
         "effect_text": "Alvo Único",
-        "simple_desc": "",
+        "simple_desc": "Depois que um aliado com Escudo é atacado por um inimigo, 7 de Março realiza imediatamente um Contra-Ataque contra o atacante, causando Dano de Gelo leve.",
         "desc": "Quando um aliado com Escudo é atacado por um inimigo, 7 de Março Contra-Ataca imediatamente, causando Dano de Gelo igual a #1[i]% do ATQ dela. Esse efeito pode ser ativado #2[i] vez(es) por rodada.",
         "params": [
             [
@@ -364,7 +364,7 @@
         "type_text": "Técnica",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "",
+        "simple_desc": "Ataca o inimigo. Depois de entrar em batalha, existe uma alta chance de infligir Congelamento em um inimigo aleatório.",
         "desc": "Ataca o inimigo imediatamente. Após entrar na batalha, tem #1[i]% de chance-base de causar Congelamento a um inimigo aleatório por #2[i] rodada(s).\nDurante o Congelamento, o inimigo não pode agir e recebe #3[i]% do ATQ de 7 de Março como Dano de Gelo Adicional no início de cada rodada.",
         "params": [
             [
@@ -906,7 +906,7 @@
         "type_text": "Talento",
         "effect": "AoEAttack",
         "effect_text": "Área",
-        "simple_desc": "Ganha um acúmulo de Carga quando a Fraqueza de um inimigo é Quebrada.\nDepois que um aliado realiza um ataque, se estiver completamente Carregado, realiza imediatamente um Ataque Extra e causa Dano de Fogo a todos os inimigos, consumindo todos os acúmulos de Carga.\nGanha 1 acúmulo de Carga no início de cada batalha.",
+        "simple_desc": "Ganha um acúmulo de Carga quando um inimigo sofre a Quebra de Fraqueza.\nDepois que um aliado realiza um ataque, se estiver completamente Carregado, realiza imediatamente um Ataque Extra e causa Dano de Fogo a todos os inimigos, consumindo todos os acúmulos de Carga.\nGanha 1 acúmulo de Carga no início de cada batalha.",
         "desc": "Quando um inimigo é infligido com Quebra de Fraqueza, Himeko ganha 1 ponto de Carga (máximo de #2[i] pontos).\nSe Himeko estiver com carga total quando um aliado atacar, ela imediatamente realiza 1 Ataque Extra e causa #1[i]% do ATQ dela como Dano de Fogo a todos os inimigos, consumindo todos os pontos de Carga.\nNo início da batalha, Himeko ganha 1 ponto de Carga.",
         "params": [
             [
@@ -1058,7 +1058,7 @@
         "type_text": "Perícia",
         "effect": "Bounce",
         "effect_text": "Rebote",
-        "simple_desc": "Causa Dano Imaginário leve a inimigos aleatórios. Este ataque pode ser Rebatido 3 vezes, com chance de causar Lentidão nos inimigos atingidos.",
+        "simple_desc": "Causa Dano Imaginário leve a um único inimigo. Este ataque pode ser Rebatido 3 vezes, com chance de causar Lentidão nos inimigos atingidos.",
         "desc": "Causa Dano Imaginário igual a #1[i]% do ATQ de Welt a um único inimigo e causa Dano mais 2 vezes, causando Dano Imaginário igual a #1[i]% do ATQ de Welt por acerto a um inimigo aleatório. Ao acertar, há uma chance-base de #2[i]% de reduzir em #3[i]% a VEL do inimigo por #4[i] rodada(s).",
         "params": [
             [
@@ -1268,7 +1268,7 @@
         "type_text": "Talento",
         "effect": "Enhance",
         "effect_text": "Aprimoramento",
-        "simple_desc": "Ao golpear um inimigo com Lentidão, adicionalmente causa Dano Imaginário leve Adicional.",
+        "simple_desc": "Ao golpear um inimigo com Lentidão, adicionalmente causa Dano Adicional Imaginário leve.",
         "desc": "Ao atingir um inimigo que já está sob Lentidão, Welt causa um Adicional de #1[i]% do seu ATQ como Dano Imaginário ao inimigo.",
         "params": [
             [
@@ -1342,7 +1342,7 @@
         "type_text": "Técnica",
         "effect": "Impair",
         "effect_text": "Incapacitação",
-        "simple_desc": "Cria uma dimensão. Inimigos nessa dimensão têm sua VEL de Movimento reduzida. Depois de entrar em combate com inimigos na dimensão, existe uma alta chance dos inimigos ficarem Aprisionados.",
+        "simple_desc": "Cria uma dimensão. Inimigos nessa dimensão têm sua VEL de Movimento reduzida. Depois de entrar em combate com inimigos na dimensão, existe uma alta chance dos inimigos sofrerem de Aprisionamento.",
         "desc": "Após Welt usar sua Técnica, cria uma dimensão que dura #4[i]s. Inimigos nessa dimensão têm a VEL de Movimento reduzida em #5[i]%. Depois de entrar em batalha com inimigos na dimensão, há #1[i]% de chance-base de Aprisionar os inimigos por 1 rodada.\nInimigos aprisionados têm ações atrasadas em #2[i]% e a VEL reduzida em #3[i]%. Só 1 dimensão criada por aliados pode existir ao mesmo tempo.",
         "params": [
             [
@@ -1497,7 +1497,7 @@
         "effect": "AoEAttack",
         "effect_text": "Área",
         "simple_desc": "Causa Dano de Raio leve a todos os inimigos, com altas chances de causar Choque.\nSe os inimigos já estiverem com Choque, o estado de Choque causa Dano mais 1 vez.",
-        "desc": "Causa #1[i]% do ATQ de Kafka como Dano de Raio a todos os inimigos. Há #2[i]% de chance-base de os inimigos atingidos serem afligidos com Choque e imediatamente receberem Dano do estado de Choque atual igual a #5[i]% do Dano original. Choque dura #3[i] rodada(s).\nEnquanto em Choque, inimigos recebem #4[i]% do ATQ de Kafka como Dano Contínuo de Raio no início de cada rodada.",
+        "desc": "Causa #1[i]% do ATQ de Kafka como Dano de Raio a todos os inimigos. Há #2[i]% de chance-base de os inimigos atingidos serem afligidos com Choque e imediatamente receberem Dano do estado de Choque atual igual a #5[i]% do Dano original. Choque dura #3[i] rodada(s).\nEnquanto em Choque, inimigos recebem #4[i]% do ATQ de Kafka como Dano de Raio Contínuo no início de cada rodada.",
         "params": [
             [
                 0.48,
@@ -1616,8 +1616,8 @@
         "type_text": "Talento",
         "effect": "SingleAttack",
         "effect_text": "Alvo Único",
-        "simple_desc": "Após um aliado usar um ATQ Básico em um inimigo, Kafka realiza imediatamente um Ataque Extra e causa Dano de Raio leve, com altas chances de infligir Choque a este alvo. Este efeito só pode ser ativado 1 vez por rodada.",
-        "desc": "Após um aliado de Kafka usar um ATQ Básico em um alvo inimigo, Kafka imediatamente realiza 1 Ataque Extra e causa Dano de Raio igual a #1[i]% do seu ATQ ao alvo, com #2[i]% de chance-base de infligir Choque equivalente àquele aplicado pela Perícia Suprema dela ao alvo inimigo atacado por #3[i] rodadas. Este efeito só pode ser ativado 1 vez por rodada.",
+        "simple_desc": "Após um aliado usar um ATQ Básico em um inimigo, Kafka realiza imediatamente um Ataque Extra e causa Dano de Raio, com altas chances de infligir Choque a este alvo. Este efeito só pode ser ativado 1 vez por rodada.",
+        "desc": "Após um aliado de Kafka usar um ATQ Básico em um alvo inimigo, Kafka imediatamente realiza 1 Ataque Extra e causa Dano de Raio igual a #1[i]% do seu ATQ ao alvo, com #2[i]% de chance-base de infligir Choque equivalente àquele aplicado pela Perícia Suprema dela ao alvo inimigo atacado, durando por #3[i] rodadas. Este efeito só pode ser ativado 1 vez por rodada.",
         "params": [
             [
                 0.42,
@@ -3114,7 +3114,7 @@
         "type_text": "Perícia",
         "effect": "Support",
         "effect_text": "Suporte",
-        "simple_desc": "Remove 1 penalidade de um único aliado, aumenta o Dano dele e permite que ele aja imediatamente.",
+        "simple_desc": "Remove 1 penalidade de um único aliado, aumenta o dano que ele causa e permite que ele aja imediatamente.",
         "desc": "Dissipa uma penalidade de um único aliado, permite que ele aja imediatamente, e aumenta seu Dano em #1[i]% por #3[i] rodada(s).\nQuando esta Perícia é usada na própria Bronya, ela não pode agir imediatamente novamente.",
         "params": [
             [
@@ -3219,7 +3219,7 @@
         "type_text": "Perícia Suprema",
         "effect": "Support",
         "effect_text": "Suporte",
-        "simple_desc": "Aumenta ATQ e Dano CRIT de todos os aliados.",
+        "simple_desc": "Aumenta o ATQ e o Dano CRIT de todos os aliados",
         "desc": "Aumenta o ATQ de todos os aliados em #1[i]% e aumenta o Dano CRIT em #2[f1]% do Dano CRIT de Bronya mais #3[f1]% por #4[i] rodada(s).",
         "params": [
             [
@@ -3324,7 +3324,7 @@
         "type_text": "Talento",
         "effect": "Enhance",
         "effect_text": "Aprimoramento",
-        "simple_desc": "Depois que esta personagem usa o ATQ Básico, a próxima ação dela será Avançada Adiante",
+        "simple_desc": "Depois que esta personagem usa o ATQ Básico, a próxima ação dela será Avançada Adiante.",
         "desc": "Após usar o ATQ Básico, a próxima ação de Bronya será Avançada Adiante em #1[i]%.",
         "params": [
             [
@@ -3759,7 +3759,7 @@
         "effect": "Blast",
         "effect_text": "Explosão",
         "simple_desc": "Causa Dano de Raio leve a um único inimigo e aos inimigos adjacentes a ele, com alta chance de causar Choque nos inimigos atingidos.",
-        "desc": "Causa #1[i]% do ATQ de Serval como Dano de Raio a um único inimigo e #2[i]% do ATQ de Serval como Dano de Raio aos inimigos adjacentes a ele, com #3[i]% de chance-base de os inimigos atingidos receberem Choque por #4[i] rodada(s).\nQuando em Choque, inimigos recebem Dano Contínuo de raio igual a #5[i]% do ATQ de Serval no início de cada rodada.",
+        "desc": "Causa #1[i]% do ATQ de Serval como Dano de Raio a um único inimigo e #2[i]% do ATQ de Serval como Dano de Raio aos inimigos adjacentes a ele, com #3[i]% de chance-base de os inimigos atingidos receberem Choque por #4[i] rodada(s).\nQuando em Choque, inimigos recebem Dano de Raio Contínuo igual a #5[i]% do ATQ de Serval no início de cada rodada.",
         "params": [
             [
                 0.7,
@@ -4028,7 +4028,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "Ataca o inimigo. Após entrar na batalha, causa uma pequena quantidade de Dano a um inimigo aleatório, com alta chance de infligir Choque a todos os alvos inimigos.",
-        "desc": "Ataca o inimigo imediatamente. Após entrar na batalha, causa #4[i]% do ATQ de Serval como Dano de Raio a um inimigo aleatório, com #1[i]% de chance-base de todos os inimigos receberem Choque por #3[i] rodada(s).\nQuando em Choque, inimigos recebem #2[i]% do ATQ de Serval como Dano Contínuo de Raio no início de cada rodada.",
+        "desc": "Ataca o inimigo imediatamente. Após entrar na batalha, causa #4[i]% do ATQ de Serval como Dano de Raio a um inimigo aleatório, com #1[i]% de chance-base de todos os inimigos receberem Choque por #3[i] rodada(s).\nQuando em Choque, inimigos recebem #2[i]% do ATQ de Serval como Dano de Raio Contínuo no início de cada rodada.",
         "params": [
             [
                 1,
@@ -4195,7 +4195,7 @@
         "type_text": "Perícia Suprema",
         "effect": "Defence",
         "effect_text": "Defesa",
-        "simple_desc": "Protege todos os aliados com um Escudo.",
+        "simple_desc": "Fornece um Escudo para todos os aliados.",
         "desc": "Aplica um Escudo a todos os aliados, absorvendo Dano igual a #1[i]% da DEF de Gepard + #3[i] por #2[i] rodada(s).",
         "params": [
             [
@@ -4768,7 +4768,7 @@
         "type_text": "Perícia",
         "effect": "Impair",
         "effect_text": "Incapacitação",
-        "simple_desc": "Remove 1 melhoria e causa Dano de Gelo a um único inimigo.",
+        "simple_desc": "Remove 1 melhoria de um único inimigo-alvo e causa Dano de Gelo ao inimigo-alvo.",
         "desc": "Remove #2[i] melhoria(s) e causa Dano de Gelo igual a #1[i]% do ATQ de Pela a um único inimigo-alvo.",
         "params": [
             [
@@ -5085,7 +5085,7 @@
         "type_text": "Perícia",
         "effect": "AoEAttack",
         "effect_text": "Área",
-        "simple_desc": "Causa Dano Físico leve a todas as unidades inimigas. Causa Dano Físico extra leve a alvos que tiverem a Marca do Contra-Ataque.",
+        "simple_desc": "Causa Dano Físico a todos os inimigos. Adicionalmente, causa Dano Físico a alvos com Marcas do Contra-Ataque.",
         "desc": "Causa Dano Físico igual a #1[i]% do ATQ de Clara a todos os inimigos e adicionalmente causa Dano Físico igual a #2[i]% do ATQ de Clara a inimigos marcados por Svarog com uma Marca do Contra-Ataque.\nApós o uso desta Perícia, todas as Marcas do Contra-Ataque serão removidas.",
         "params": [
             [
@@ -5160,7 +5160,7 @@
         "type_text": "Perícia Suprema",
         "effect": "Enhance",
         "effect_text": "Aprimoramento",
-        "simple_desc": "Reduz o Dano recebido, aumenta as chances de receber ataques de inimigos, e aumenta o efeito de Contra-Ataque.",
+        "simple_desc": "Reduz o Dano recebido, aumenta as chances de receber ataques de inimigos, e aprimora Contra-Ataques.",
         "desc": "Após Clara usar sua Perícia Suprema, o Dano causado a ela é reduzido em #4[i]% extra, e ela terá muito mais chances de ser atacada por inimigos por #3[i] rodada(s).\nAlém disso, o Contra-Ataque de Svarog é aprimorado. Quando um aliado é atacado, Svarog usa um Contra-Ataque imediatamente, e seu multiplicador de Dano contra o inimigo aumenta em #2[i]%. Inimigos adjacentes a ele sofrem 50% do Dano causado ao inimigo-alvo. Contra-Ataque(s) aprimorado(s) podem entrar em vigor #5[i] vez(es).",
         "params": [
             [
@@ -5280,7 +5280,7 @@
         "type_text": "Talento",
         "effect": "SingleAttack",
         "effect_text": "Alvo Único",
-        "simple_desc": "O Dano recebido de ataques inimigos é reduzido. Inimigos que atacarem Clara serão marcados com a Marca do Contra-Ataque, e receberão um Contra-Ataque de Svarog que causa Dano Físico.",
+        "simple_desc": "O Dano recebido de ataques inimigos é reduzido. Inimigos que atacarem Clara serão marcados com uma Marca do Contra-Ataque, e receberão um Contra-Ataque de Svarog que causa Dano Físico.",
         "desc": "Sob a proteção de Svarog, o Dano recebido por Clara ao ser atingida por ataques inimigos é reduzido em #3[i]%. Svarog marca inimigos que atacarem Clara com sua Marca do Contra-Ataque e então Contra-Ataca, causando Dano Físico igual a #2[i]% do ATQ de Clara.",
         "params": [
             [
@@ -5384,7 +5384,7 @@
         "type_text": "Técnica",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "Ataca o inimigo. Depois de entrar em batalha, a chance desta personagem ser atacado por inimigos aumenta.",
+        "simple_desc": "Ataca o inimigo. Depois de entrar em batalha, a chance desta personagem ser atacada por inimigos aumenta.",
         "desc": "Ataca o inimigo imediatamente. Ao entrar na batalha, a chance de Clara ser atacada por inimigos aumenta por #1[i] rodada(s).",
         "params": [
             [
@@ -5626,7 +5626,7 @@
         "effect": "Enhance",
         "effect_text": "Aprimoramento",
         "simple_desc": "Depois que este personagem golpeia um inimigo, existe uma chance de infligir Cisalhamento de Vento no alvo.",
-        "desc": "Os ataques de Sampo têm #1[i]% de chance-base de infligir Cisalhamento de Vento por #3[i] rodada(s).\nInimigos infligidos com Cisalhamento de Vento recebem Dano Contínuo de Vento igual a #2[i]% do ATQ de Sampo no início de cada rodada. Cisalhamento de Vento pode se acumular até #4[i] vez(es).",
+        "desc": "Os ataques de Sampo têm #1[i]% de chance-base de infligir Cisalhamento de Vento por #3[i] rodada(s).\nInimigos infligidos com Cisalhamento de Vento recebem Dano de Vento Contínuo igual a #2[i]% do ATQ de Sampo no início de cada rodada. Cisalhamento de Vento pode se acumular até #4[i] vez(es).",
         "params": [
             [
                 0.65,
@@ -5807,7 +5807,7 @@
         "effect": "SingleAttack",
         "effect_text": "Alvo Único",
         "simple_desc": "Causa Dano de Fogo a um único inimigo, com altas chances de infligir Queimadura nele.",
-        "desc": "Causa Dano de Fogo igual a #1[i]% do ATQ de Hook a um inimigo-alvo. Além disso, há #2[i]% de chance-base de infligir Queimadura por #3[i] rodada(s).\nEnquanto tiverem Queimadura, inimigos recebem Dano Contínuo de Fogo igual a #4[i]% do ATQ de Hook no início de cada rodada.",
+        "desc": "Causa Dano de Fogo igual a #1[i]% do ATQ de Hook a um inimigo-alvo. Além disso, há #2[i]% de chance-base de infligir Queimadura por #3[i] rodada(s).\nEnquanto tiverem Queimadura, inimigos recebem Dano de Fogo Contínuo igual a #4[i]% do ATQ de Hook no início de cada rodada.",
         "params": [
             [
                 1.2,
@@ -5911,7 +5911,7 @@
         "type_text": "Perícia Suprema",
         "effect": "SingleAttack",
         "effect_text": "Alvo Único",
-        "simple_desc": "Causa Dano de Fogo massivo a um único inimigo e Aprimora a próxima Perícia de Hook.",
+        "simple_desc": "Causa Dano de Fogo massivo a um único inimigo e Aprimora a próxima Perícia dessa unidade.",
         "desc": "Causa #1[i]% do ATQ de Hook como Dano de Fogo a um inimigo-alvo.\nApós usar a Perícia Suprema, a próxima Perícia usada é Aprimorada, causando Dano a um único inimigo e aos inimigos adjacentes a ele.",
         "params": [
             [
@@ -5971,7 +5971,7 @@
         "type_text": "Talento",
         "effect": "Enhance",
         "effect_text": "Aprimoramento",
-        "simple_desc": "",
+        "simple_desc": "Ao atacar um inimigo com Queimadura, causa uma quantidade moderada de Dano de Fogo Adicional, e adicionalmente regenera Energia.",
         "desc": "Ao atacar um alvo afetado com Queimadura, causa Dano de Fogo Adicional igual a #1[i]% do ATQ de Hook e regenera #2[i] de Energia extra.",
         "params": [
             [
@@ -6060,8 +6060,8 @@
         "type_text": "Técnica",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "",
-        "desc": "Ataca imediatamente o inimigo. Ao entrar em batalha, Hook causa Dano de Fogo igual a #4[i]% de seu ATQ a um inimigo aleatório. Além disso, há #1[i]% de chance-base de infligir Queimadura em todos os inimigos por #3[i] rodada(s).\nEnquanto tiverem Queimadura, inimigos recebem #2[i]% do ATQ de Hook como Dano Contínuo de Fogo no início de cada rodada.",
+        "simple_desc": "Ataca o inimigo. Depois de entrar em batalha, causa Dano de Fogo a um único inimigo aleatório, com uma alta chance de infligir Queimadura a todos os alvos inimigos.",
+        "desc": "Ataca imediatamente o inimigo. Ao entrar em batalha, Hook causa Dano de Fogo igual a #4[i]% de seu ATQ a um inimigo aleatório. Além disso, há #1[i]% de chance-base de infligir Queimadura em todos os inimigos por #3[i] rodada(s).\nEnquanto tiverem Queimadura, inimigos recebem #2[i]% do ATQ de Hook como Dano de Fogo Contínuo no início de cada rodada.",
         "params": [
             [
                 1,
@@ -6082,7 +6082,7 @@
         "effect": "Blast",
         "effect_text": "Explosão",
         "simple_desc": "Causa Dano de Fogo a um único inimigo, com altas chances de infligir Queimadura, e Dano de Fogo leve a inimigos adjacentes a ele.",
-        "desc": "Causa Dano de Fogo igual a #1[i]% do ATQ de Hook a um único inimigo, com #2[i]% de chance-base de infligir Queimadura nele por #3[i] rodada(s). Adicionalmente, causa Dano de Fogo igual a #5[i]% do ATQ de Hook a qualquer inimigo adjacente a ele.\nEnquanto tiverem Queimadura, inimigos recebem Dano Contínuo de Fogo igual a #4[i]% do ATQ de Hook no início de cada rodada.",
+        "desc": "Causa Dano de Fogo igual a #1[i]% do ATQ de Hook a um único inimigo, com #2[i]% de chance-base de infligir Queimadura nele por #3[i] rodada(s). Adicionalmente, causa Dano de Fogo igual a #5[i]% do ATQ de Hook a qualquer inimigo adjacente a ele.\nEnquanto tiverem Queimadura, inimigos recebem Dano de Fogo Contínuo igual a #4[i]% do ATQ de Hook no início de cada rodada.",
         "params": [
             [
                 1.4,
@@ -6192,6 +6192,425 @@
         ],
         "icon": "icon/skill/1109_skill.png"
     },
+    "111001": {
+        "id": "111001",
+        "name": "Técnica de Grampos de Neve",
+        "max_level": 9,
+        "element": "Quantum",
+        "type": "Normal",
+        "type_text": "ATQ Básico",
+        "effect": "SingleAttack",
+        "effect_text": "Alvo Único",
+        "simple_desc": "Causa Dano Quântico leve a um único inimigo.",
+        "desc": "Causa Dano Quântico igual a #1[i]% dos PV máximos desta unidade a um único inimigo.",
+        "params": [
+            [
+                0.25
+            ],
+            [
+                0.3
+            ],
+            [
+                0.35
+            ],
+            [
+                0.4
+            ],
+            [
+                0.45
+            ],
+            [
+                0.5
+            ],
+            [
+                0.55
+            ],
+            [
+                0.6
+            ],
+            [
+                0.65
+            ]
+        ],
+        "icon": "icon/skill/1110_basic_atk.png"
+    },
+    "111002": {
+        "id": "111002",
+        "name": "Latas de Acampamento Salgadas",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Perícia",
+        "effect": "Restore",
+        "effect_text": "Restauração",
+        "simple_desc": "Aplica \"Resposta de Sobrevivência\" a um único aliado, aumenta seus PV máximos, e restaura PV a eles.",
+        "desc": "Aplica \"Resposta de Sobrevivência\" em um único aliado-alvo e aumenta seus PV máximos em #1[f1]% dos PV máximos de Lynx + #2[i]. Se o alvo for um personagem do Caminho da Destruição ou da Preservação, a chance de que ele seja atacado pelos inimigos aumentará drasticamente. A \"Resposta de Sobrevivência\" dura por #3[i] rodada(s).\nRestaura os PV do alvo em #4[f1]% dos PV máximos de Lynx + #5[i].",
+        "params": [
+            [
+                0.05,
+                50,
+                2,
+                0.08,
+                80,
+                5
+            ],
+            [
+                0.0525,
+                80,
+                2,
+                0.085,
+                128,
+                5
+            ],
+            [
+                0.055,
+                102.5,
+                2,
+                0.09,
+                164,
+                5
+            ],
+            [
+                0.0575,
+                125,
+                2,
+                0.095,
+                200,
+                5
+            ],
+            [
+                0.06,
+                140,
+                2,
+                0.1,
+                224,
+                5
+            ],
+            [
+                0.0625,
+                155,
+                2,
+                0.104,
+                248,
+                5
+            ],
+            [
+                0.0656,
+                166.25,
+                2,
+                0.108,
+                266,
+                5
+            ],
+            [
+                0.0688,
+                177.5,
+                2,
+                0.112,
+                284,
+                5
+            ],
+            [
+                0.0719,
+                188.75,
+                2,
+                0.116,
+                302,
+                5
+            ],
+            [
+                0.075,
+                200,
+                2,
+                0.12,
+                320,
+                5
+            ],
+            [
+                0.0775,
+                211.25,
+                2,
+                0.124,
+                338,
+                5
+            ],
+            [
+                0.08,
+                222.5,
+                2,
+                0.128,
+                356,
+                5
+            ],
+            [
+                0.0825,
+                233.75,
+                2,
+                0.132,
+                374,
+                5
+            ],
+            [
+                0.085,
+                245,
+                2,
+                0.136,
+                392,
+                5
+            ],
+            [
+                0.0875,
+                256.25,
+                2,
+                0.14,
+                410,
+                5
+            ]
+        ],
+        "icon": "icon/skill/1110_skill.png"
+    },
+    "111003": {
+        "id": "111003",
+        "name": "Primeiros Socorros do Campo de Neve",
+        "max_level": 15,
+        "element": "",
+        "type": "Ultra",
+        "type_text": "Perícia Suprema",
+        "effect": "Restore",
+        "effect_text": "Restauração",
+        "simple_desc": "Remove 1 penalidade de todos os aliados e restaura seus PV.",
+        "desc": "Remove #1[i] penalidade(s) de todos os aliados e imediatamente restaura seus respectivos PV em uma quantidade igual a #2[f1]% dos PV máximos de Lynx + #3[i].",
+        "params": [
+            [
+                1,
+                0.09,
+                90
+            ],
+            [
+                1,
+                0.0956,
+                144
+            ],
+            [
+                1,
+                0.1013,
+                184.5
+            ],
+            [
+                1,
+                0.1069,
+                225
+            ],
+            [
+                1,
+                0.1125,
+                252
+            ],
+            [
+                1,
+                0.117,
+                279
+            ],
+            [
+                1,
+                0.1215,
+                299.25
+            ],
+            [
+                1,
+                0.126,
+                319.5
+            ],
+            [
+                1,
+                0.1305,
+                339.75
+            ],
+            [
+                1,
+                0.135,
+                360
+            ],
+            [
+                1,
+                0.1395,
+                380.25
+            ],
+            [
+                1,
+                0.144,
+                400.5
+            ],
+            [
+                1,
+                0.1485,
+                420.75
+            ],
+            [
+                1,
+                0.153,
+                441
+            ],
+            [
+                1,
+                0.1575,
+                461.25
+            ]
+        ],
+        "icon": "icon/skill/1110_ultimate.png"
+    },
+    "111004": {
+        "id": "111004",
+        "name": "Experiência de Sobrevivência na Neve",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talento",
+        "effect": "Restore",
+        "effect_text": "Restauração",
+        "simple_desc": "Ao usar a Perícia ou a Perícia Suprema, aplica cura contínua ao aliado-alvo. Se o alvo tiver uma \"Resposta de Sobrevivência\" ativa, então o efeito da cura contínua aumenta adicionalmente.",
+        "desc": "Ao usar a Perícia ou Perícia Suprema de Lynx, aplica cura contínua ao aliado-alvo por #1[i] rodada(s), restaurando uma quantidade de PV igual a #2[f1]% dos PV máximos de Lynx + #3[i] no início de cada rodada. Se o alvo tiver \"Resposta de Sobrevivência\", o efeito da cura contínua restaura adicionalmente uma quantidade de PV igual a #4[f1]% dos PV máximos de Lynx + #5[i].",
+        "params": [
+            [
+                2,
+                0.024,
+                24,
+                0.03,
+                30
+            ],
+            [
+                2,
+                0.0255,
+                38.4,
+                0.0319,
+                48
+            ],
+            [
+                2,
+                0.027,
+                49.2,
+                0.0338,
+                61.5
+            ],
+            [
+                2,
+                0.0285,
+                60,
+                0.0356,
+                75
+            ],
+            [
+                2,
+                0.03,
+                67.2,
+                0.0375,
+                84
+            ],
+            [
+                2,
+                0.0312,
+                74.4,
+                0.039,
+                93
+            ],
+            [
+                2,
+                0.0324,
+                79.8,
+                0.0405,
+                99.75
+            ],
+            [
+                2,
+                0.0336,
+                85.2,
+                0.042,
+                106.5
+            ],
+            [
+                2,
+                0.0348,
+                90.6,
+                0.0435,
+                113.25
+            ],
+            [
+                2,
+                0.036,
+                96,
+                0.045,
+                120
+            ],
+            [
+                2,
+                0.0372,
+                101.4,
+                0.0465,
+                126.75
+            ],
+            [
+                2,
+                0.0384,
+                106.8,
+                0.048,
+                133.5
+            ],
+            [
+                2,
+                0.0396,
+                112.2,
+                0.0495,
+                140.25
+            ],
+            [
+                2,
+                0.0408,
+                117.6,
+                0.051,
+                147
+            ],
+            [
+                2,
+                0.042,
+                123,
+                0.0525,
+                153.75
+            ]
+        ],
+        "icon": "icon/skill/1110_talent.png"
+    },
+    "111006": {
+        "id": "111006",
+        "name": "Ataque",
+        "max_level": 1,
+        "element": "Quantum",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "SingleAttack",
+        "effect_text": "Alvo Único",
+        "simple_desc": "",
+        "desc": "Após atacar um inimigo e entrar em batalha, o Tipo de Tenacidade do alvo inimigo sofrerá Enfraquecimento.",
+        "params": [],
+        "icon": "icon/skill/1110_basic_atk.png"
+    },
+    "111007": {
+        "id": "111007",
+        "name": "Barra de Chocolate Energética",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Técnica",
+        "effect": "Restore",
+        "effect_text": "Restauração",
+        "simple_desc": "Depois que esta personagem usa sua Técnica, no início da próxima batalha, todos os aliados recebem um efeito de cura contínua.",
+        "desc": "Depois que Lynx usa sua Técnica, no início da próxima batalha, todos os aliados recebem o efeito de cura contínua do Talento dela por #1[i] rodada(s).",
+        "params": [
+            [
+                2
+            ]
+        ],
+        "icon": "icon/skill/1110_technique.png"
+    },
     "111101": {
         "id": "111101",
         "name": "Punho Certeiro",
@@ -6244,7 +6663,7 @@
         "effect": "SingleAttack",
         "effect_text": "Alvo Único",
         "simple_desc": "Causa Dano Físico a um único inimigo, com uma alta chance de causar Sangramento no inimigo.",
-        "desc": "Causa Dano Físico igual a #1[i]% do ATQ de Luka a um único inimigo-alvo. Além disso, há uma chance-base de #2[i]% de infligir Sangramento neles, durando #5[i] rodada(s).\nEnquanto estiver com Sangramento, o inimigo recebe #3[f1]% de seus PV máximos como Dano Contínuo Físico ao início de cada rodada. Este Dano não pode exceder #4[i]% do ATQ de Luka.",
+        "desc": "Causa Dano Físico igual a #1[i]% do ATQ de Luka a um único inimigo-alvo. Além disso, há uma chance-base de #2[i]% de infligir Sangramento a ele, durando #5[i] rodada(s).\nEnquanto estiver com Sangramento, o inimigo recebe #3[f1]% de seus PV máximos como Dano Físico Contínuo ao início de cada rodada. Este Dano não pode exceder #4[i]% do ATQ de Luka.",
         "params": [
             [
                 0.6,
@@ -6484,7 +6903,7 @@
         "effect": "Enhance",
         "effect_text": "Aprimoramento",
         "simple_desc": "Após usar seu ATQ Básico \"Punho Certeiro\" ou sua Perícia \"Punho Lacerante\", recebe 1 acúmulo de Desejo de Lutar. Quando 2 ou mais acúmulos de Desejo de Lutar estão presentes, o ATQ Básico se torna Aprimorado.\nSe o inimigo estiver com Sangramento, o ATQ Básico Aprimorado causa Dano extra por 1 vez.",
-        "desc": "Após Luka usar seu ATQ Básico \"Punho Certeiro\" ou sua Perícia \"Punho Lacerante\", ele recebe #1[i] acúmulo de Desejo de Lutar, até um máximo de 4 acúmulos. Quando ele tiver 2 ou mais acúmulos de Desejo de Lutar, seu ATQ Básico \"Punho Certeiro\" é aprimorado para \"Punho Demolidor de Céus\". Depois que \"Gancho Ascendente\" do seu ATQ Básico Aprimorado atinge um inimigo-alvo com Sangramento, o Sangramento causa Dano ao alvo imediatamente por 1 vez igual a #2[i]% do Dano original. No início da batalha, Luka possuirá 1 acúmulo de Desejo de Lutar.",
+        "desc": "Após Luka usar seu ATQ Básico \"Punho Certeiro\" ou sua Perícia \"Punho Lacerante\", ele recebe #1[i] acúmulo de Desejo de Lutar, até um máximo de 4 acúmulos. Quando ele tiver 2 ou mais acúmulos de Desejo de Lutar, seu ATQ Básico \"Punho Certeiro\" é aprimorado para \"Punho Demolidor de Céus\". Depois que o \"Gancho Ascendente\" do seu ATQ Básico Aprimorado atinge um inimigo-alvo com Sangramento, o Sangramento causa Dano ao alvo imediatamente por 1 vez igual a #2[i]% do Dano original. No início da batalha, Luka possuirá 1 acúmulo de Desejo de Lutar.",
         "params": [
             [
                 1,
@@ -6908,7 +7327,7 @@
         "type_text": "Técnica",
         "effect": "Enhance",
         "effect_text": "Aprimoramento",
-        "simple_desc": "Após usar sua Técnica, pega uma peça no início da próxima batalha.",
+        "simple_desc": "Após usar sua Técnica, pega peça(s) no início da próxima batalha.",
         "desc": "Após usar sua Técnica, Qingque pega #1[i] peça(s) de jade quando a batalha começa.",
         "params": [
             [
@@ -8919,7 +9338,7 @@
         "type_text": "Perícia",
         "effect": "Support",
         "effect_text": "Suporte",
-        "simple_desc": "Obtém 2 acúmulos de \"Arco Estrondoso\". O ATQ de todos os aliados aumenta quando \"Arco Estrondoso\" está ativo.",
+        "simple_desc": "Obtêm 2 acúmulos de Arco Estrondoso. Aumenta o ATQ de todos os aliados quando Arco Estrondoso está ativo nesta personagem.",
         "desc": "Obtém #1[i] acúmulo(s) de \"Arco Estrondoso\" (até um máximo de 2 acúmulos). Quando \"Arco Estrondoso\" está ativo, o ATQ de todos os aliados aumenta em #2[i]%, e sempre que a rodada de um aliado (incluindo a de Yukong) acaba, Yukong perde 1 acúmulo de \"Arco Estrondoso\".\nNa rodada na qual Yukong ganha \"Arco Estrondoso\" usando a Perícia, \"Arco Estrondoso\" não será removido.",
         "params": [
             [
@@ -8994,7 +9413,7 @@
         "type_text": "Perícia Suprema",
         "effect": "SingleAttack",
         "effect_text": "Alvo Único",
-        "simple_desc": "Quando \"Arco Estrondoso\" estiver ativo em si mesma, aumenta a Chance de CRIT e o Dano CRIT de todos os aliados e causa Dano Imaginário massivo a um único inimigo.",
+        "simple_desc": "Quando Arco Estrondoso estiver ativo nesta personagem, aumenta a Chance de CRIT e o Dano CRIT de todos os aliados e causa Dano Imaginário massivo a um único inimigo.",
         "desc": "Se o \"Arco Estrondoso\" estiver ativo em Yukong quando a sua Perícia Suprema for utilizada, a Chance de CRIT de todos os aliados aumenta adicionalmente em #2[i]% e o Dano CRIT aumenta em #3[i]%. Ao mesmo tempo, causa Dano Imaginário igual a #1[i]% do ATQ de Yukong a um único inimigo.",
         "params": [
             [
@@ -9084,7 +9503,7 @@
         "type_text": "Talento",
         "effect": "Enhance",
         "effect_text": "Aprimoramento",
-        "simple_desc": "O Ataque Básico adicionalmente causa Dano leve, e a Redução de Tenacidade do seu Ataque Básico é aumentada. Esse efeito pode ser ativado novamente após 1 rodada.",
+        "simple_desc": "O Ataque Básico adicionalmente causa Dano leve, e a Redução de Tenacidade do seu Ataque Básico é aumentada. Esse efeito pode ser ativado novamente após 1 rodada passar.",
         "desc": "O ATQ Básico causa adicionalmente Dano Imaginário igual a #1[i]% do ATQ de Yukong, e aumenta o Dano de Redução de Tenacidade deste ataque em #2[i]%. Este efeito pode ser ativado novamente após #3[i] rodada(s).",
         "params": [
             [
@@ -9198,6 +9617,351 @@
             ]
         ],
         "icon": "icon/skill/1207_technique.png"
+    },
+    "120801": {
+        "id": "120801",
+        "name": "Explosão Supernova",
+        "max_level": 9,
+        "element": "Quantum",
+        "type": "Normal",
+        "type_text": "ATQ Básico",
+        "effect": "SingleAttack",
+        "effect_text": "Alvo Único",
+        "simple_desc": "Causa Dano Quântico leve a um único inimigo.",
+        "desc": "Causa Dano Quântico igual a #1[i]% dos PV máximos de Fu Xuan a um único inimigo.",
+        "params": [
+            [
+                0.25
+            ],
+            [
+                0.3
+            ],
+            [
+                0.35
+            ],
+            [
+                0.4
+            ],
+            [
+                0.45
+            ],
+            [
+                0.5
+            ],
+            [
+                0.55
+            ],
+            [
+                0.6
+            ],
+            [
+                0.65
+            ]
+        ],
+        "icon": "icon/skill/1208_basic_atk.png"
+    },
+    "120802": {
+        "id": "120802",
+        "name": "Conhecida pelas Estrelas, Exibida pelos Corações",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Perícia",
+        "effect": "Defence",
+        "effect_text": "Defesa",
+        "simple_desc": "Ativa a Matriz de Presciência. O Dano recebido pelos aliados de Fu Xuan é Distribuído com ela. Além disso, aumenta a Chance de CRIT e os PV máximos de todos os aliados.",
+        "desc": "Ativa a Matriz de Presciência através da qual outros membros da equipe vão Distribuir #1[i]% do Dano que eles receberem (antes deste Dano ser mitigado por quaisquer Escudos) com Fu Xuan por #3[i] rodada(s).\nEnquanto afetados pela Matriz de Presciência, todos os membros da equipe ganham o efeito de Conhecimento, que aumenta seus respectivos PV máximos em #4[f1]% dos PV máximos de Fu Xuan, e aumenta a Chance de CRIT em #5[f1]%.\nQuando Fu Xuan é derrubada, a Matriz de Presciência é desfeita.",
+        "params": [
+            [
+                0.65,
+                0,
+                3,
+                0.03,
+                0.06
+            ],
+            [
+                0.65,
+                0,
+                3,
+                0.033,
+                0.066
+            ],
+            [
+                0.65,
+                0,
+                3,
+                0.036,
+                0.072
+            ],
+            [
+                0.65,
+                0,
+                3,
+                0.039,
+                0.078
+            ],
+            [
+                0.65,
+                0,
+                3,
+                0.042,
+                0.084
+            ],
+            [
+                0.65,
+                0,
+                3,
+                0.045,
+                0.09
+            ],
+            [
+                0.65,
+                0,
+                3,
+                0.0488,
+                0.0975
+            ],
+            [
+                0.65,
+                0,
+                3,
+                0.0525,
+                0.105
+            ],
+            [
+                0.65,
+                0,
+                3,
+                0.0563,
+                0.1125
+            ],
+            [
+                0.65,
+                0,
+                3,
+                0.06,
+                0.12
+            ],
+            [
+                0.65,
+                0,
+                3,
+                0.063,
+                0.126
+            ],
+            [
+                0.65,
+                0,
+                3,
+                0.066,
+                0.132
+            ],
+            [
+                0.65,
+                0,
+                3,
+                0.069,
+                0.138
+            ],
+            [
+                0.65,
+                0,
+                3,
+                0.072,
+                0.144
+            ],
+            [
+                0.65,
+                0,
+                3,
+                0.075,
+                0.15
+            ]
+        ],
+        "icon": "icon/skill/1208_skill.png"
+    },
+    "120803": {
+        "id": "120803",
+        "name": "Os Lamentos de Muitos Transformaram-se em Um",
+        "max_level": 15,
+        "element": "Quantum",
+        "type": "Ultra",
+        "type_text": "Perícia Suprema",
+        "effect": "AoEAttack",
+        "effect_text": "Área",
+        "simple_desc": "Causa Dano Quântico a todos os inimigos e aumenta a contagem de ativação do Talento de Fu Xuan.",
+        "desc": "Causa Dano Quântico igual a #1[i]% dos PV máximos de Fu Xuan a todos os inimigos e obtém 1 contagem de ativação para o efeito de Recuperação de PV concedido pelo Talento de Fu Xuan.",
+        "params": [
+            [
+                0.6
+            ],
+            [
+                0.64
+            ],
+            [
+                0.68
+            ],
+            [
+                0.72
+            ],
+            [
+                0.76
+            ],
+            [
+                0.8
+            ],
+            [
+                0.85
+            ],
+            [
+                0.9
+            ],
+            [
+                0.95
+            ],
+            [
+                1
+            ],
+            [
+                1.04
+            ],
+            [
+                1.08
+            ],
+            [
+                1.12
+            ],
+            [
+                1.16
+            ],
+            [
+                1.2
+            ]
+        ],
+        "icon": "icon/skill/1208_ultimate.png"
+    },
+    "120804": {
+        "id": "120804",
+        "name": "Das Sombras à Alegria",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talento",
+        "effect": "Restore",
+        "effect_text": "Restauração",
+        "simple_desc": "Enquanto Fu Xuan não está derrubada, o Dano recebido pela equipe inteira é reduzido.\nQuando os PV dela estiverem baixos, ela automaticamente restaura seus próprios PV com base na porcentagem de PV já perdidos. Este efeito pode ser acionado até 2 vezes em qualquer momento.",
+        "desc": "Enquanto Fu Xuan não tiver sido derrubada, a \"Prevenção de Infortúnio\" é aplicada à toda a equipe. Enquanto estiverem afetados pela \"Prevenção de Infortúnio\", os aliados recebem #1[f1]% a menos de Dano.\nA Recuperação de PV será ativada para Fu Xuan quando os PV dela chegarem a #2[i]% ou menos dos seus PV máximos. Este efeito recuperará os PV dela em #3[i]% da quantidade de PV perdida no momento. Este efeito não pode ser ativado se ela receber um golpe fatal. Este efeito possui 1 contagem de ativação por padrão, e pode possuir um máximo de 2 contagens de ativação.",
+        "params": [
+            [
+                0.1,
+                0.5,
+                0.8
+            ],
+            [
+                0.108,
+                0.5,
+                0.81
+            ],
+            [
+                0.116,
+                0.5,
+                0.82
+            ],
+            [
+                0.124,
+                0.5,
+                0.83
+            ],
+            [
+                0.132,
+                0.5,
+                0.84
+            ],
+            [
+                0.14,
+                0.5,
+                0.85
+            ],
+            [
+                0.15,
+                0.5,
+                0.8625
+            ],
+            [
+                0.16,
+                0.5,
+                0.875
+            ],
+            [
+                0.17,
+                0.5,
+                0.8875
+            ],
+            [
+                0.18,
+                0.5,
+                0.9
+            ],
+            [
+                0.188,
+                0.5,
+                0.91
+            ],
+            [
+                0.196,
+                0.5,
+                0.92
+            ],
+            [
+                0.204,
+                0.5,
+                0.93
+            ],
+            [
+                0.212,
+                0.5,
+                0.94
+            ],
+            [
+                0.22,
+                0.5,
+                0.95
+            ]
+        ],
+        "icon": "icon/skill/1208_talent.png"
+    },
+    "120806": {
+        "id": "120806",
+        "name": "Ataque",
+        "max_level": 1,
+        "element": "Quantum",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Ataca o inimigo. Ao entrar em batalha, reduz a Tenacidade dos inimigos-alvo do Tipo correspondente.",
+        "params": [],
+        "icon": "icon/skill/1208_basic_atk.png"
+    },
+    "120807": {
+        "id": "120807",
+        "name": "Da Sorte Vem o Destino",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Técnica",
+        "effect": "Defence",
+        "effect_text": "Defesa",
+        "simple_desc": "Ativa uma Barreira. Aliados não entrarão em batalha quando forem atacados por inimigos. Entrar em batalha ativará a Matriz de Presciência automaticamente.",
+        "desc": "Depois que a Técnica é utilizada, todos os membros da equipe recebem uma Barreira que dura por #1[i] segundos. Esta Barreira pode bloquear todos os ataques inimigos e a equipe não entrará em batalha quando atacada. Entrar em batalha enquanto a Barreira estiver ativa fará com que Fu Xuan ative a Matriz de Presciência automaticamente no início da batalha por #2[i] rodada(s).",
+        "params": [
+            [
+                20,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1208_technique.png"
     },
     "120901": {
         "id": "120901",
@@ -9400,7 +10164,7 @@
         "type_text": "Talento",
         "effect": "SingleAttack",
         "effect_text": "Alvo Único",
-        "simple_desc": "Durante Sincronia d'Alma de Ferro, reduz a chance deste personagem ser atacado e aumenta sua própria Chance de CRIT e Dano CRIT. Depois de atacar um inimigo, tem uma chance de realizar um Ataque Extra, causando Dano de Gelo com uma chance de causar Congelamento ao alvo.\nSincronia d'Alma de Ferro será removida depois que este personagem recebe Dano.",
+        "simple_desc": "Durante Sincronia d'Alma de Ferro, reduz a chance deste personagem ser atacado e aumenta a Chance de CRIT e Dano CRIT. Depois de atacar um inimigo, tem uma chance de realizar um Ataque Extra, causando Dano de Gelo com uma chance de causar Congelamento ao alvo.\nSincronia d'Alma de Ferro será removida depois que este personagem recebe Dano.",
         "desc": "Quando a Sincronia d'Alma de Ferro está ativa, Yanqing tem menos chance de ser atacado por inimigos. A Chance de CRIT de Yanqing aumenta em #1[f1]% e o Dano CRIT em #2[i]%. Depois que Yanqing ataca um inimigo, há uma chance fixa de #3[i]%  de executar um Ataque Extra, causando Dano de Gelo igual a #4[i]% do ATQ de Yanqing ao alvo, com uma chance-base de #6[i]% de causar Congelamento no alvo por 1 rodada.\nO alvo com Congelamento não pode realizar ações e sofre Dano Adicional de Gelo igual a #5[i]% do ATQ de Yanqing no início de cada rodada. \nQuando Yanqing recebe Dano, o efeito da Sincronia d'Alma de Ferro desaparece.",
         "params": [
             [
@@ -9806,8 +10570,8 @@
         "type_text": "Talento",
         "effect": "Restore",
         "effect_text": "Restauração",
-        "simple_desc": "Aliados com Revigoramento restauram PV depois que forem atacados.\nQuando aliados sofrem um golpe fatal, Bailu imediatamente restaura seus PV. Este efeito só pode ser ativado 1 vez por batalha.",
-        "desc": "Depois de um aliado Revigorado ser atingido, restaura #1[f1]% dos PV máximos de Bailu + #2[i]. Este efeito pode ser ativado #5[i] vez(es). Quando um aliado receber um golpe fatal, ele não será derrubado. Bailu o cura imediatamente em #3[i]% dos PV máximos de Bailu + #4[i] de PV. Este efeito pode ser ativado uma vez por batalha.",
+        "simple_desc": "Quando um aliado com Revigoramento é atacado, restaura PV do aliado.\nQuando um aliado sofre um golpe fatal, Bailu restaura imediatamente os PV dele. Este efeito só pode ser ativado 1 vez por batalha.",
+        "desc": "Depois que um aliado com Revigoramento é atingido, restaura #1[f1]% dos PV máximos de Bailu + #2[i]. Este efeito pode ser ativado #5[i] vez(es). Quando um aliado receber um golpe fatal, ele não será derrubado. Bailu o cura imediatamente em #3[i]% dos PV máximos de Bailu + #4[i] de PV. Este efeito pode ser ativado uma vez por batalha.",
         "params": [
             [
                 0.036,
@@ -9951,15 +10715,15 @@
     },
     "121301": {
         "id": "121301",
-        "name": "",
+        "name": "Lótus Beneficente",
         "max_level": 9,
         "element": "Imaginary",
         "type": "Normal",
         "type_text": "ATQ Básico",
         "effect": "SingleAttack",
         "effect_text": "Alvo Único",
-        "simple_desc": "",
-        "desc": "",
+        "simple_desc": "Causa Dano Imaginário leve a um único inimigo.",
+        "desc": "Usa um ataque de 2 golpes e causa Dano Imaginário igual a #1[i]% do ATQ de Dan Heng - Embebidor Lunae a um único inimigo.",
         "params": [
             [
                 0.5
@@ -9993,165 +10757,90 @@
     },
     "121302": {
         "id": "121302",
-        "name": "",
+        "name": "Dracore Libre",
         "max_level": 15,
         "element": "",
         "type": "BPSkill",
         "type_text": "Perícia",
         "effect": "Enhance",
         "effect_text": "Aprimoramento",
-        "simple_desc": "",
-        "desc": "",
+        "simple_desc": "Aprimora o ATQ Básico Lótus Beneficente para Transcendência, Lança Divina ou Salto Fulgurante.",
+        "desc": "Aprimora o ATQ Básico. Aprimoramentos podem ser aplicados até 3 vezes consecutivas. Usar esta habilidade não consome Pontos de Perícia e não é considerado como utilização de uma Perícia.\nAprimorado uma vez, Lótus Beneficente se torna Transcendência.\nAprimorado duas vezes, Lótus Beneficente se torna Lança Divina.\nAprimorado três vezes, Lótus Beneficente se torna Salto Fulgurante.\nAo utilizar Lança Divina ou Salto Fulgurante, começando do quarto golpe, 1 acúmulo de \"Rugido Soberano\" é concedido antes de cada golpe. Cada acúmulo de \"Rugido Soberano\" aumenta o Dano CRIT de Dan Heng - Embebidor Lunae em #1[f1]%, até um máximo de #2[i] acúmulos. Estes acúmulos duram até o final da rodada dele.",
         "params": [
             [
-                1.3,
-                0.6,
-                0.3,
                 0.06,
-                4,
-                0.6,
-                0.6
+                4
             ],
             [
-                1.43,
-                0.66,
-                0.33,
                 0.066,
-                4,
-                0.66,
-                0.66
+                4
             ],
             [
-                1.56,
-                0.72,
-                0.36,
                 0.072,
-                4,
-                0.72,
-                0.72
+                4
             ],
             [
-                1.69,
-                0.78,
-                0.39,
                 0.078,
-                4,
-                0.78,
-                0.78
+                4
             ],
             [
-                1.82,
-                0.84,
-                0.42,
                 0.084,
-                4,
-                0.84,
-                0.84
+                4
             ],
             [
-                1.95,
-                0.9,
-                0.45,
                 0.09,
-                4,
-                0.9,
-                0.9
+                4
             ],
             [
-                2.1125,
-                0.975,
-                0.4875,
                 0.0975,
-                4,
-                0.975,
-                0.975
+                4
             ],
             [
-                2.275,
-                1.05,
-                0.525,
                 0.105,
-                4,
-                1.05,
-                1.05
+                4
             ],
             [
-                2.4375,
-                1.125,
-                0.5625,
                 0.1125,
-                4,
-                1.125,
-                1.125
+                4
             ],
             [
-                2.6,
-                1.2,
-                0.6,
                 0.12,
-                4,
-                1.2,
-                1.2
+                4
             ],
             [
-                2.73,
-                1.26,
-                0.63,
                 0.126,
-                4,
-                1.26,
-                1.26
+                4
             ],
             [
-                2.86,
-                1.32,
-                0.66,
                 0.132,
-                4,
-                1.32,
-                1.32
+                4
             ],
             [
-                2.99,
-                1.38,
-                0.69,
                 0.138,
-                4,
-                1.38,
-                1.38
+                4
             ],
             [
-                3.12,
-                1.44,
-                0.72,
                 0.144,
-                4,
-                1.44,
-                1.44
+                4
             ],
             [
-                3.25,
-                1.5,
-                0.75,
                 0.15,
-                4,
-                1.5,
-                1.5
+                4
             ]
         ],
         "icon": "icon/skill/1213_skill.png"
     },
     "121303": {
         "id": "121303",
-        "name": "",
+        "name": "A Água Celeste Ablui Tudo",
         "max_level": 15,
         "element": "Imaginary",
         "type": "Ultra",
         "type_text": "Perícia Suprema",
         "effect": "Blast",
         "effect_text": "Explosão",
-        "simple_desc": "",
-        "desc": "",
+        "simple_desc": "Causa Dano Imaginário massivo a um único inimigo, causa Dano Imaginário a alvos adjacentes, e ganha 2 Squama Sacrosancta, que podem anular o consumo de Pontos de Perícia de Dan Heng - Embebidor Lunae. Consumir Squama Sacrosancta é considerado o equivalente a consumir pontos de Perícia.",
+        "desc": "Realiza um ataque de 3 golpes e causa Dano Imaginário igual a #1[i]% do ATQ de Dan Heng - Embebidor Lunae a um único inimigo-alvo. Ao mesmo tempo, causa Dano Imaginário igual a #2[i]% do ATQ de Dan Heng - Embebidor Lunae a alvos adjacentes. Então, obtém #3[i] Squama Sacrosancta.\nÉ possível possuir até #4[i] Squama Sacrosancta, que podem ser usados para anular o consumo de Pontos de Perícia de Dan Heng - Embebidor Lunae. Consumir Squama Sacrosancta é considerado o equivalente a consumir Pontos de Perícia.",
         "params": [
             [
                 1.8,
@@ -10248,75 +10937,75 @@
     },
     "121304": {
         "id": "121304",
-        "name": "",
+        "name": "Coração Íntegro",
         "max_level": 15,
         "element": "",
         "type": "Talent",
         "type_text": "Talento",
         "effect": "Enhance",
         "effect_text": "Aprimoramento",
-        "simple_desc": "",
-        "desc": "",
+        "simple_desc": "Aumenta o Dano para cada golpe realizado. Este efeito é acumulável e dura até o fim da rodada deste personagem.",
+        "desc": "Depois de cada golpe realizado durante um ataque, Dan Heng - Embebidor Lunae ganha 1 acúmulo de Coração Íntegro, aumentando seu Dano em #1[f1]%. Este efeito pode acumular até #2[i] vez(es), durando até o final da rodada dele.",
         "params": [
             [
-                0.09,
-                5
+                0.05,
+                6
             ],
             [
-                0.095,
-                5
+                0.055,
+                6
+            ],
+            [
+                0.06,
+                6
+            ],
+            [
+                0.065,
+                6
+            ],
+            [
+                0.07,
+                6
+            ],
+            [
+                0.075,
+                6
+            ],
+            [
+                0.0813,
+                6
+            ],
+            [
+                0.0875,
+                6
+            ],
+            [
+                0.0938,
+                6
             ],
             [
                 0.1,
-                5
+                6
             ],
             [
                 0.105,
-                5
+                6
             ],
             [
                 0.11,
-                5
+                6
             ],
             [
                 0.115,
-                5
+                6
             ],
             [
-                0.1213,
-                5
+                0.12,
+                6
             ],
             [
-                0.1275,
-                5
-            ],
-            [
-                0.1338,
-                5
-            ],
-            [
-                0.14,
-                5
-            ],
-            [
-                0.145,
-                5
-            ],
-            [
-                0.15,
-                5
-            ],
-            [
-                0.155,
-                5
-            ],
-            [
-                0.16,
-                5
-            ],
-            [
-                0.165,
-                5
+                0.125,
+                6
             ]
         ],
         "icon": "icon/skill/1213_talent.png"
@@ -10337,363 +11026,244 @@
     },
     "121307": {
         "id": "121307",
-        "name": "",
+        "name": "Prismadracônico Amaina-Céus",
         "max_level": 1,
         "element": "",
         "type": "Maze",
         "type_text": "Técnica",
         "effect": "Enhance",
         "effect_text": "Aprimoramento",
-        "simple_desc": "",
-        "desc": "",
+        "simple_desc": "Entra no estado de Dragão Saltitante. Atacar fará com que esse personagem se mova para frente rapidamente uma certa distância e ataque todos os inimigos tocados. Após entrar em combate ao atacar inimigos, causa Dano Imaginário a todos os inimigos, e ganha 1 Squama Sacrosancta.",
+        "desc": "Após usar sua Técnica, Dan Heng - Embebidor Lunae entra no estado de Dragão Saltitante por #2[i] segundos. Enquanto está no estado de Dragão Saltitante, usar o seu ataque permite que ele se mova para frente rapidamente por uma certa distância, atacando todos os inimigos que ele tocar e bloqueando todos os ataques direcionados a ele. Após entrar no combate ao atacar inimigos no estado de Dragão Saltitante, Dan Heng - Embebidor Lunae causa Dano Imaginário igual a #3[i]% do seu ATQ a todos os inimigos, e ganha #1[i] Squama Sacrosancta.",
         "params": [
             [
                 1,
-                20
+                20,
+                1.2
             ]
         ],
         "icon": "icon/skill/1213_technique.png"
     },
     "121308": {
         "id": "121308",
-        "name": "",
-        "max_level": 15,
+        "name": "Transcendência",
+        "max_level": 9,
         "element": "Imaginary",
         "type": "Normal",
         "type_text": "ATQ Básico",
         "effect": "SingleAttack",
         "effect_text": "Alvo Único",
-        "simple_desc": "",
-        "desc": "",
+        "simple_desc": "Realiza 3 golpes neste ataque e causa Dano Imaginário a um único inimigo-alvo.",
+        "desc": "Usa um ataque de 3 golpes e causa Dano Imaginário igual a #1[i]% do ATQ de Dan Heng - Embebidor Lunae a um único inimigo.",
         "params": [
             [
                 1.3
             ],
             [
-                1.43
-            ],
-            [
                 1.56
-            ],
-            [
-                1.69
             ],
             [
                 1.82
             ],
             [
-                1.95
+                2.08
             ],
             [
-                2.1125
-            ],
-            [
-                2.275
-            ],
-            [
-                2.4375
+                2.34
             ],
             [
                 2.6
             ],
             [
-                2.73
-            ],
-            [
                 2.86
-            ],
-            [
-                2.99
             ],
             [
                 3.12
             ],
             [
-                3.25
+                3.38
+            ],
+            [
+                1.3
+            ],
+            [
+                1.3
+            ],
+            [
+                1.3
+            ],
+            [
+                1.3
+            ],
+            [
+                1.3
+            ],
+            [
+                1.3
             ]
         ],
         "icon": "icon/skill/1213_basic_atk.png"
     },
     "121309": {
         "id": "121309",
-        "name": "",
+        "name": "Cancelar",
         "max_level": 1,
         "element": "",
         "type": "BPSkill",
         "type_text": "Perícia",
-        "effect": "Support",
-        "effect_text": "Suporte",
+        "effect": "Enhance",
+        "effect_text": "Cancelar",
         "simple_desc": "",
-        "desc": "",
+        "desc": "Cancelar Aprimoramento",
         "params": [],
         "icon": "icon/skill/1213_skill.png"
     },
     "121310": {
         "id": "121310",
-        "name": "",
-        "max_level": 15,
+        "name": "Lança Divina",
+        "max_level": 9,
         "element": "Imaginary",
         "type": "Normal",
         "type_text": "ATQ Básico",
         "effect": "Blast",
         "effect_text": "Explosão",
-        "simple_desc": "",
-        "desc": "",
+        "simple_desc": "Realiza 5 golpes neste ataque para causar Dano Imaginário massivo a um único inimigo e Dano Imaginário leve a alvos adjacentes. Obtém 1 acúmulo de \"Rugido Soberano\" cada antes de realizar o quarto e quinto golpes deste ataque. O \"Rugido Soberano\" aumenta o Dano CRIT.",
+        "desc": "Realiza um ataque de 5 golpes e causa Dano Imaginário igual a #1[i]% do ATQ de Dan Heng - Embebidor Lunae a um único inimigo-alvo. Do quarto golpe em diante, causa simultaneamente Dano Imaginário igual a #2[i]% do ATQ de Dan Heng - Embebidor Lunae a alvos adjacentes.",
         "params": [
             [
-                1.3,
-                0.6,
-                0.3,
-                0.06,
-                4
+                1.9,
+                0.3
             ],
             [
-                1.43,
-                0.66,
-                0.33,
-                0.066,
-                4
+                1.9,
+                0.3
             ],
             [
-                1.56,
-                0.72,
-                0.36,
-                0.072,
-                4
+                1.9,
+                0.3
             ],
             [
-                1.69,
-                0.78,
-                0.39,
-                0.078,
-                4
+                1.9,
+                0.3
             ],
             [
-                1.82,
-                0.84,
-                0.42,
-                0.084,
-                4
+                1.9,
+                0.3
             ],
             [
-                1.95,
-                0.9,
-                0.45,
-                0.09,
-                4
+                1.9,
+                0.3
             ],
             [
-                2.1125,
-                0.975,
-                0.4875,
-                0.0975,
-                4
+                1.9,
+                0.3
             ],
             [
-                2.275,
-                1.05,
-                0.525,
-                0.105,
-                4
+                2.28,
+                0.36
             ],
             [
-                2.4375,
-                1.125,
-                0.5625,
-                0.1125,
-                4
+                2.66,
+                0.42
             ],
             [
-                2.6,
-                1.2,
-                0.6,
-                0.12,
-                4
+                3.04,
+                0.48
             ],
             [
-                2.73,
-                1.26,
-                0.63,
-                0.126,
-                4
+                3.42,
+                0.54
             ],
             [
-                2.86,
-                1.32,
-                0.66,
-                0.132,
-                4
+                3.8,
+                0.6
             ],
             [
-                2.99,
-                1.38,
-                0.69,
-                0.138,
-                4
+                4.18,
+                0.66
             ],
             [
-                3.12,
-                1.44,
-                0.72,
-                0.144,
-                4
+                4.56,
+                0.72
             ],
             [
-                3.25,
-                1.5,
-                0.75,
-                0.15,
-                4
+                4.94,
+                0.78
             ]
         ],
         "icon": "icon/skill/1213_basic_atk.png"
     },
     "121312": {
         "id": "121312",
-        "name": "",
-        "max_level": 15,
+        "name": "Salto Fulgurante",
+        "max_level": 9,
         "element": "Imaginary",
         "type": "Normal",
         "type_text": "ATQ Básico",
         "effect": "Blast",
         "effect_text": "Explosão",
-        "simple_desc": "",
-        "desc": "",
+        "simple_desc": "Realiza 7 golpes neste ataque para causar Dano Imaginário massivo a um único inimigo e Dano Imaginário a alvos adjacentes. Obtém 1 acúmulo de \"Rugido Soberano\" cada antes de realizar o quarto, quinto, sexto e sétimo golpes deste ataque. O \"Rugido Soberano\" aumenta o Dano CRIT.",
+        "desc": "Realiza um ataque de 7 golpes e causa Dano Imaginário igual a #1[i]% do ATQ de Dan Heng - Embebidor Lunae a um único inimigo-alvo. Do quarto golpe em diante, causa simultaneamente Dano Imaginário igual a #2[i]% do ATQ de Dan Heng - Embebidor Lunae a alvos adjacentes.",
         "params": [
             [
-                1.3,
-                0.6,
-                0.3,
-                0.06,
-                4,
-                0.6,
-                0.6
-            ],
-            [
-                1.43,
-                0.66,
-                0.33,
-                0.066,
-                4,
-                0.66,
-                0.66
-            ],
-            [
-                1.56,
-                0.72,
-                0.36,
-                0.072,
-                4,
-                0.72,
-                0.72
-            ],
-            [
-                1.69,
-                0.78,
-                0.39,
-                0.078,
-                4,
-                0.78,
-                0.78
-            ],
-            [
-                1.82,
-                0.84,
-                0.42,
-                0.084,
-                4,
-                0.84,
-                0.84
-            ],
-            [
-                1.95,
-                0.9,
-                0.45,
-                0.09,
-                4,
-                0.9,
+                2.5,
                 0.9
             ],
             [
-                2.1125,
-                0.975,
-                0.4875,
-                0.0975,
-                4,
-                0.975,
-                0.975
+                2.5,
+                0.9
             ],
             [
-                2.275,
-                1.05,
-                0.525,
-                0.105,
-                4,
-                1.05,
-                1.05
+                2.5,
+                0.9
             ],
             [
-                2.4375,
-                1.125,
-                0.5625,
-                0.1125,
-                4,
-                1.125,
-                1.125
+                2.5,
+                0.9
             ],
             [
-                2.6,
-                1.2,
-                0.6,
-                0.12,
-                4,
-                1.2,
-                1.2
+                2.5,
+                0.9
             ],
             [
-                2.73,
-                1.26,
-                0.63,
-                0.126,
-                4,
-                1.26,
+                2.5,
+                0.9
+            ],
+            [
+                2.5,
+                0.9
+            ],
+            [
+                3,
+                1.08
+            ],
+            [
+                3.5,
                 1.26
             ],
             [
-                2.86,
-                1.32,
-                0.66,
-                0.132,
                 4,
-                1.32,
-                1.32
-            ],
-            [
-                2.99,
-                1.38,
-                0.69,
-                0.138,
-                4,
-                1.38,
-                1.38
-            ],
-            [
-                3.12,
-                1.44,
-                0.72,
-                0.144,
-                4,
-                1.44,
                 1.44
             ],
             [
-                3.25,
-                1.5,
-                0.75,
-                0.15,
-                4,
-                1.5,
-                1.5
+                4.5,
+                1.62
+            ],
+            [
+                5,
+                1.8
+            ],
+            [
+                5.5,
+                1.98
+            ],
+            [
+                6,
+                2.16
+            ],
+            [
+                6.5,
+                2.34
             ]
         ],
         "icon": "icon/skill/1213_basic_atk.png"

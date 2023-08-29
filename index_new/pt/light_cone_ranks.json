@@ -405,7 +405,7 @@
     "20012": {
         "id": "20012",
         "skill": "Triunfo da Frota",
-        "desc": "Após o usuário atacar ou ser atingido, regenera mais #1[i] de Energia adicional. Este efeito só pode ativado 1 vez por rodada.",
+        "desc": "Após o usuário atacar ou ser atingido, regenera mais #1[i] de Energia adicional. Este efeito não pode ser ativado repetidamente em uma única rodada.",
         "params": [
             [
                 4
@@ -434,7 +434,7 @@
     "20013": {
         "id": "20013",
         "skill": "Epifania",
-        "desc": "Após o usuário usar sua Perícia, regenera mais #1[i] de Energia adicional. Este efeito só pode ativado 1 vez por rodada.",
+        "desc": "Após o usuário usar sua Perícia, regenera mais #1[i] de Energia adicional. Este efeito não pode ser ativado repetidamente em uma única rodada.",
         "params": [
             [
                 8
@@ -897,7 +897,7 @@
     "21004": {
         "id": "21004",
         "skill": "Foto Antiga",
-        "desc": "Aumenta o Efeito de Quebra do usuário em #1[i]%. Quando o usuário ataca, regenera mais #2[i] de Energia adicional. Este efeito só pode ativado 1 vez por rodada.",
+        "desc": "Aumenta o Efeito de Quebra do usuário em #1[i]%. Quando o usuário ataca, regenera mais #2[i] de Energia adicional. Este efeito não pode ser ativado repetidamente em uma única rodada.",
         "params": [
             [
                 0.28,
@@ -1396,7 +1396,7 @@
     "21015": {
         "id": "21015",
         "skill": "Olhe Para Trás",
-        "desc": "Quando o usuário atingir um inimigo, se o inimigo atingido ainda não estiver Enredado, há #1[i]% de chance-base de Enredar o inimigo atingido. A DEF dos inimigos Enredados diminui em #2[i]% por #3[i] rodada(s).",
+        "desc": "Quando o usuário atacar um inimigo, se o inimigo atingido ainda não estiver com Enredamento, há #1[i]% de chance-base de afligir Enredamento ao inimigo atingido. A DEF dos inimigos com Enredamento diminui em #2[i]% por #3[i] rodada(s).",
         "params": [
             [
                 0.6,
@@ -1954,7 +1954,7 @@
     "21027": {
         "id": "21027",
         "skill": "Prepare-se",
-        "desc": "Aumenta em #1[i]% o Dano do usuário. Para cada inimigo derrotado, aumenta em #2[i]% o ATQ do usuário, podendo acumular até #3[i] vez(es).",
+        "desc": "Aumenta em #1[i]% o Dano do usuário. Para cada inimigo derrotado pelo usuário, aumenta em #2[i]% o ATQ do usuário, podendo acumular até #3[i] vez(es).",
         "params": [
             [
                 0.12,
@@ -2779,7 +2779,7 @@
     "23006": {
         "id": "23006",
         "skill": "Teia de Aranha",
-        "desc": "Aumenta o Dano causado pelo usuário em #2[i]%. Após cada ataque desferido pelo usuário, sua VEL aumenta em #3[f1]%, acumulando até #4[i] vezes.\\nSe o usuário atingir um inimigo-alvo que não esteja afetado por Erosão, há uma chance-base de 100% de infligir Erosão ao alvo. Inimigos afetados por Erosão também são considerados como se estivessem em estado de Choque e receberão Dano de Raio Contínuo no início de cada rodada igual a #1[i]% do ATQ do usuário, durando por #5[i] rodada(s).",
+        "desc": "Aumenta o Dano causado pelo usuário em #2[i]%. Após cada ataque desferido pelo usuário, sua VEL aumenta em #3[f1]%, acumulando até #4[i] vezes.\nSe o usuário atingir um inimigo-alvo que não esteja afetado por Erosão, há uma chance-base de 100% de infligir Erosão ao alvo. Inimigos afetados por Erosão também são considerados como se estivessem em estado de Choque e receberão Dano de Raio Contínuo no início de cada rodada igual a #1[i]% do ATQ do usuário, durando por #5[i] rodada(s).",
         "params": [
             [
                 0.6,
@@ -3141,6 +3141,100 @@
             ]
         ]
     },
+    "23011": {
+        "id": "23011",
+        "skill": "Visioscape",
+        "desc": "Aumenta os PV máximos do usuário em #1[i]% e a Taxa de Regeneração de Energia em #4[i]%. Quando os PV do usuário são reduzidos, o Dano causado por todos os aliados aumenta em #2[f1]%, por #5[i] rodada(s).\nNo início de cada onda, recupera PV de todos os aliados em uma quantidade igual a #3[i]% de seus respectivos PV perdidos.",
+        "params": [
+            [
+                0.24,
+                0.09,
+                0.8,
+                0.12,
+                2
+            ],
+            [
+                0.28,
+                0.105,
+                0.85,
+                0.14,
+                2
+            ],
+            [
+                0.32,
+                0.12,
+                0.9,
+                0.16,
+                2
+            ],
+            [
+                0.36,
+                0.135,
+                0.95,
+                0.18,
+                2
+            ],
+            [
+                0.4,
+                0.15,
+                1,
+                0.2,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.24
+                },
+                {
+                    "type": "SPRatioBase",
+                    "value": 0.12
+                }
+            ],
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.28
+                },
+                {
+                    "type": "SPRatioBase",
+                    "value": 0.14
+                }
+            ],
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.32
+                },
+                {
+                    "type": "SPRatioBase",
+                    "value": 0.16
+                }
+            ],
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.36
+                },
+                {
+                    "type": "SPRatioBase",
+                    "value": 0.18
+                }
+            ],
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.4
+                },
+                {
+                    "type": "SPRatioBase",
+                    "value": 0.2
+                }
+            ]
+        ]
+    },
     "23012": {
         "id": "23012",
         "skill": "Bons Sonhos",
@@ -3290,6 +3384,80 @@
                 {
                     "type": "HealRatioBase",
                     "value": 0.2
+                }
+            ]
+        ]
+    },
+    "23015": {
+        "id": "23015",
+        "skill": "Petulante Até a Morte",
+        "desc": "Aumenta a Chance de CRIT do usuário em #1[i]%. Quando o usuário utiliza seu ATQ Básico, ele ganha 1 acúmulo de Chamado do Dragão que dura por #2[i] rodadas. Cada acúmulo do Chamado do Dragão aumenta o ATQ do usuário em #4[i]% e a Taxa de Regeneração de Energia em #5[f1]%. O Chamado do Dragão pode ser acumulado até #3[i] vezes.",
+        "params": [
+            [
+                0.18,
+                2,
+                2,
+                0.18,
+                0.06
+            ],
+            [
+                0.21,
+                2,
+                2,
+                0.21,
+                0.07
+            ],
+            [
+                0.24,
+                2,
+                2,
+                0.24,
+                0.08
+            ],
+            [
+                0.27,
+                2,
+                2,
+                0.27,
+                0.09
+            ],
+            [
+                0.3,
+                2,
+                2,
+                0.3,
+                0.1
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.18
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.21
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.24
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.27
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.3
                 }
             ]
         ]
@@ -3482,6 +3650,75 @@
                 {
                     "type": "StatusResistanceBase",
                     "value": 0.16
+                }
+            ]
+        ]
+    },
+    "24003": {
+        "id": "24003",
+        "skill": "Elixir do Caos",
+        "desc": "Aumenta em #1[i]% o Efeito de Quebra do usuário. Quando o usuário usa sua Perícia Suprema, aumenta o Dano Contínuo causado pelo usuário em #2[i]% durando por #3[i] rodada(s). Quando o inimigo-alvo sofrendo com o Dano Contínuo imposto pelo usuário é derrotado, regenera #4[i] de Energia para o usuário.",
+        "params": [
+            [
+                0.2,
+                0.24,
+                2,
+                4
+            ],
+            [
+                0.25,
+                0.3,
+                2,
+                5
+            ],
+            [
+                0.3,
+                0.36,
+                2,
+                6
+            ],
+            [
+                0.35,
+                0.42,
+                2,
+                7
+            ],
+            [
+                0.4,
+                0.48,
+                2,
+                8
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.2
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.25
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.3
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.35
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.4
                 }
             ]
         ]

@@ -803,7 +803,7 @@
     },
     "100906": {
         "id": "100906",
-        "name": "Sonhos Galácticos Tranquilos e Confortáveis",
+        "name": "Sonhos Cósmicos Tranquilos e Confortáveis",
         "rank": 6,
         "desc": "A perda de acúmulo(s) de carregamento a cada rodada é diminuída em 1.",
         "materials": [
@@ -1839,6 +1839,108 @@
         "level_up_skills": [],
         "icon": "icon/skill/1109_rank6.png"
     },
+    "111001": {
+        "id": "111001",
+        "name": "Madrugada da Caminhada na Neve",
+        "rank": 1,
+        "desc": "Ao curar aliados com PV iguais ou menores que 50%, a Cura Realizada de Lynx aumenta em 20%. Este efeito também funciona em curas contínuas.",
+        "materials": [
+            {
+                "id": "11110",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1110_rank1.png"
+    },
+    "111002": {
+        "id": "111002",
+        "name": "Manhã da Fornalha Portátil",
+        "rank": 2,
+        "desc": "Um alvo com \"Resposta de Sobrevivência\" pode resistir a aplicação de penalidade por 1 vez(es).",
+        "materials": [
+            {
+                "id": "11110",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1110_rank2.png"
+    },
+    "111003": {
+        "id": "111003",
+        "name": "Tarde do Sinalizador de Avalanche",
+        "rank": 3,
+        "desc": "Nv. da Perícia +2, até no máximo Nv. 15.\\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
+        "materials": [
+            {
+                "id": "11110",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "111002",
+                "num": 2
+            },
+            {
+                "id": "111001",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1110_skill.png"
+    },
+    "111004": {
+        "id": "111004",
+        "name": "Crepúsculo da Fogueira Acolhedora",
+        "rank": 4,
+        "desc": "Quando a \"Resposta de Sobrevivência\" é recebida, aumenta o ATQ do alvo em uma quantidade igual a ('3.0', '.1f')% dos PV máximos de Lynx por 1 rodada(s).",
+        "materials": [
+            {
+                "id": "11110",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1110_rank4.png"
+    },
+    "111005": {
+        "id": "111005",
+        "name": "Noite do Chá de Aurora",
+        "rank": 5,
+        "desc": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\\nNv. do Talento +2, até no máximo Nv. 15.",
+        "materials": [
+            {
+                "id": "11110",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "111003",
+                "num": 2
+            },
+            {
+                "id": "111004",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1110_ultimate.png"
+    },
+    "111006": {
+        "id": "111006",
+        "name": "Amanhecer do Mapa dos Exploradores",
+        "rank": 6,
+        "desc": "Melhora adicionalmente o efeito de aumento de PV máximos da \"Resposta de Sobrevivência\" em uma quantidade igual a ('6.00000001', '.1f')% dos PV máximos de Lynx e aumenta a RES a Efeito em 30%.",
+        "materials": [
+            {
+                "id": "11110",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1110_rank6.png"
+    },
     "111101": {
         "id": "111101",
         "name": "Lutando Infinitamente",
@@ -1857,7 +1959,7 @@
         "id": "111102",
         "name": "O Inimigo é Fraco, Eu Sou Forte",
         "rank": 2,
-        "desc": "Se a Perícia atingir um inimigo-alvo com Fraqueza a Físico, ganha 1 acúmulo(s) de Desejo de Lutar.",
+        "desc": "Se a Perícia atingir um inimigo-alvo com Fraqueza Física, ganha 1 acúmulo(s) de Desejo de Lutar.",
         "materials": [
             {
                 "id": "11111",
@@ -2361,7 +2463,7 @@
         "id": "120501",
         "name": "A Lâmina Corta Mais Fundo no Inferno",
         "rank": 1,
-        "desc": "A Perícia Suprema de Blade causa Dano aumentado adicional a um único alvo inimigo, com um aumento igual a 150% dos PV totais que Blade perdeu na batalha atual. O total de PV que Blade perdeu na batalha atual tem um limite de 90% de seus PV máximos. Este valor será redefinido e reacumulado após usar sua Perícia Suprema.",
+        "desc": "A Perícia Suprema de Blade causa Dano aumentado adicional a um único alvo inimigo, com um aumento igual a 150% do total de PV que Blade perdeu na batalha atual. O total de PV que Blade perdeu na batalha atual tem um limite de 90% de seus PV máximos. Este valor será redefinido e reacumulado após usar sua Perícia Suprema.",
         "materials": [
             {
                 "id": "11205",
@@ -2667,6 +2769,108 @@
         "level_up_skills": [],
         "icon": "icon/skill/1207_rank6.png"
     },
+    "120801": {
+        "id": "120801",
+        "name": "Dominus Pacis",
+        "rank": 1,
+        "desc": "Todas as unidades com Conhecimento têm seu Dano CRIT aumentado em 30%.",
+        "materials": [
+            {
+                "id": "11208",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1208_rank1.png"
+    },
+    "120802": {
+        "id": "120802",
+        "name": "Optimus Felix",
+        "rank": 2,
+        "desc": "Se qualquer membro da equipe for atingido por um golpe fatal enquanto a Matriz de Presciência estiver ativa, todos os aliados que forem atingidos por um golpe fatal durante esta ação não serão derrubados e 70% de seus PV máximos serão restaurados imediatamente. Este efeito pode ser acionado 1 vez por batalha.",
+        "materials": [
+            {
+                "id": "11208",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1208_rank2.png"
+    },
+    "120803": {
+        "id": "120803",
+        "name": "Ápice da Ligação",
+        "rank": 3,
+        "desc": "Nv. da Perícia +2, até no máximo Nv. 15.\\nNv. do Talento +2, até no máximo Nv. 15.",
+        "materials": [
+            {
+                "id": "11208",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "120802",
+                "num": 2
+            },
+            {
+                "id": "120804",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1208_skill.png"
+    },
+    "120804": {
+        "id": "120804",
+        "name": "Fortuna Stellaris",
+        "rank": 4,
+        "desc": "Quando outros aliados sob a Matriz da Presciência são atacados, Fu Xuan regenera 5 de Energia.",
+        "materials": [
+            {
+                "id": "11208",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1208_rank4.png"
+    },
+    "120805": {
+        "id": "120805",
+        "name": "Árbitra Primordial",
+        "rank": 5,
+        "desc": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
+        "materials": [
+            {
+                "id": "11208",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "120803",
+                "num": 2
+            },
+            {
+                "id": "120801",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1208_ultimate.png"
+    },
+    "120806": {
+        "id": "120806",
+        "name": "Omnia Vita",
+        "rank": 6,
+        "desc": "Assim que a Matriz de Presciência é ativada, ela manterá um registro com o valor total de PV perdidos por todos os membros da equipe na batalha atual. O Dano da Perícia Suprema de Fu Xuan aumentará em 200% desse valor de PV perdidos.\\nEsse valor também é limitado a 120% dos PV máximos de Fu Xuan e o valor registrado será reiniciado e reacumulado após a Perícia Suprema de Fu Xuan ser utilizada.",
+        "materials": [
+            {
+                "id": "11208",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1208_rank6.png"
+    },
     "120901": {
         "id": "120901",
         "name": "Sabre Esbelto",
@@ -2873,9 +3077,9 @@
     },
     "121301": {
         "id": "121301",
-        "name": "",
+        "name": "Conectado ao Céu",
         "rank": 1,
-        "desc": "",
+        "desc": "Aumenta a contagem acumulável de Coração Íntegro em 4, e ganha 1 acúmulo extra de Coração Íntegro por cada golpe durante o ataque.",
         "materials": [
             {
                 "id": "11213",
@@ -2883,13 +3087,13 @@
             }
         ],
         "level_up_skills": [],
-        "icon": ""
+        "icon": "icon/skill/1213_rank1.png"
     },
     "121302": {
         "id": "121302",
-        "name": "",
+        "name": "Império nas Nuvens",
         "rank": 2,
-        "desc": "",
+        "desc": "Depois de usar sua Perícia Suprema, a ação de Dan Heng - Embebidor Lunae é Avançada Adiante em 100% e ganha 1 Squama Sacrosancta extra.",
         "materials": [
             {
                 "id": "11213",
@@ -2897,50 +3101,13 @@
             }
         ],
         "level_up_skills": [],
-        "icon": ""
+        "icon": "icon/skill/1213_rank2.png"
     },
     "121303": {
         "id": "121303",
-        "name": "",
+        "name": "Trajado com Nuvens",
         "rank": 3,
-        "desc": "Nv. de Perícia Suprema +2, até no máximo Nv. 15.\\nNv. de Talento +2, até no máximo Nv. 15.",
-        "materials": [
-            {
-                "id": "11213",
-                "num": 1
-            }
-        ],
-        "level_up_skills": [
-            {
-                "id": "121303",
-                "num": 2
-            },
-            {
-                "id": "121304",
-                "num": 2
-            }
-        ],
-        "icon": "icon/skill/1213_skill.png"
-    },
-    "121304": {
-        "id": "121304",
-        "name": "",
-        "rank": 4,
-        "desc": "",
-        "materials": [
-            {
-                "id": "11213",
-                "num": 1
-            }
-        ],
-        "level_up_skills": [],
-        "icon": ""
-    },
-    "121305": {
-        "id": "121305",
-        "name": "",
-        "rank": 5,
-        "desc": "Nv. de Perícia +2, até no máximo Nv. 15.\\nNv. de ATQ Básico +1, até no máximo Nv. 10.",
+        "desc": "Nv. da Perícia +2, até no máximo Nv. 15.\\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
         "materials": [
             {
                 "id": "11213",
@@ -2958,24 +3125,24 @@
             },
             {
                 "id": "121308",
-                "num": 2
+                "num": 1
             },
             {
                 "id": "121310",
-                "num": 2
+                "num": 1
             },
             {
                 "id": "121312",
-                "num": 2
+                "num": 1
             }
         ],
-        "icon": "icon/skill/1213_ultimate.png"
+        "icon": "icon/skill/1213_skill.png"
     },
-    "121306": {
-        "id": "121306",
-        "name": "",
-        "rank": 6,
-        "desc": "",
+    "121304": {
+        "id": "121304",
+        "name": "Bênção Zefirina",
+        "rank": 4,
+        "desc": "O efeito de melhoria concedido por \"Rugido Soberano\" dura até o final da próxima rodada deste personagem.",
         "materials": [
             {
                 "id": "11213",
@@ -2983,7 +3150,44 @@
             }
         ],
         "level_up_skills": [],
-        "icon": ""
+        "icon": "icon/skill/1213_rank4.png"
+    },
+    "121305": {
+        "id": "121305",
+        "name": "A Queda é o Orgulho",
+        "rank": 5,
+        "desc": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\\nNv. do Talento +2, até no máximo Nv. 15.",
+        "materials": [
+            {
+                "id": "11213",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "121303",
+                "num": 2
+            },
+            {
+                "id": "121304",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1213_ultimate.png"
+    },
+    "121306": {
+        "id": "121306",
+        "name": "Reinado, Retornado",
+        "rank": 6,
+        "desc": "Depois que qualquer aliado usa a Perícia Suprema, a PEN de RES a Imaginário do próximo Salto Fulgurante de Dan Heng - Embebidor Lunae aumenta em 20%. Este efeito pode acumular até 3 vez(es).",
+        "materials": [
+            {
+                "id": "11213",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1213_rank6.png"
     },
     "800101": {
         "id": "800101",

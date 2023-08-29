@@ -666,7 +666,7 @@
         "id": "100804",
         "name": "Phản Kích Tuyệt Diệu",
         "rank": 4,
-        "desc": "Khi vào chiến đấu, nếu chịu tấn công chí mạng, Arlan sẽ không rơi vào trạng thái không thể chiến đấu, đồng thời hồi ngay đến 25% Giới Hạn HP của bản thân. Hiệu ứng này sẽ tự động giải trừ sau khi kích hoạt 1 lần hoặc sau khi duy trì 2 hiệp.",
+        "desc": "Khi vào chiến đấu, nếu chịu tấn công chí tử, Arlan sẽ không rơi vào trạng thái không thể chiến đấu, đồng thời hồi ngay đến 25% Giới Hạn HP của bản thân. Hiệu ứng này sẽ tự động giải trừ sau khi kích hoạt 1 lần hoặc sau khi duy trì 2 hiệp.",
         "materials": [
             {
                 "id": "11008",
@@ -1839,6 +1839,108 @@
         "level_up_skills": [],
         "icon": "icon/skill/1109_rank6.png"
     },
+    "111001": {
+        "id": "111001",
+        "name": "Tinh Mơ Lang Thang Trên Tuyết",
+        "rank": 1,
+        "desc": "Khi trị liệu cho mục tiêu phe ta có Phần Trăm HP hiện tại nhỏ hơn hoặc bằng 50%, lượng trị liệu của Lynx tăng 20%, hiệu ứng này cũng có hiệu lực với hiệu ứng trị liệu liên tục.",
+        "materials": [
+            {
+                "id": "11110",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1110_rank1.png"
+    },
+    "111002": {
+        "id": "111002",
+        "name": "Buổi Trưa Lò Sưởi Di Động",
+        "rank": 2,
+        "desc": "Khi mục tiêu có \"Phản Ứng Sinh Tồn\" bị thi triển Hiệu Ứng Xấu, có thể kháng 1 lần Hiệu Ứng Xấu.",
+        "materials": [
+            {
+                "id": "11110",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1110_rank2.png"
+    },
+    "111003": {
+        "id": "111003",
+        "name": "Buổi Chiều Tín Hiệu Tuyết Lở",
+        "rank": 3,
+        "desc": "Cấp Chiến Kỹ +2, tối đa không quá cấp 15; Cấp Tấn Công Thường +1, tối đa không quá cấp 10.",
+        "materials": [
+            {
+                "id": "11110",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "111002",
+                "num": 2
+            },
+            {
+                "id": "111001",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1110_skill.png"
+    },
+    "111004": {
+        "id": "111004",
+        "name": "Hoàng Hôn Lửa Trại Ấm Áp",
+        "rank": 4,
+        "desc": "Khi nhận \"Phản Ứng Sinh Tồn\", sẽ tăng tấn công của mục tiêu này, mức tăng bằng ('3.0', '.1f')% Giới Hạn HP của Lynx, duy trì 1 hiệp.",
+        "materials": [
+            {
+                "id": "11110",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1110_rank4.png"
+    },
+    "111005": {
+        "id": "111005",
+        "name": "Buổi Đêm Hồng Trà Cực Quang",
+        "rank": 5,
+        "desc": "Cấp Tuyệt Kỹ +2, tối đa không quá 15 cấp; Cấp Thiên Phú +2, tối đa không quá cấp 15.",
+        "materials": [
+            {
+                "id": "11110",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "111003",
+                "num": 2
+            },
+            {
+                "id": "111004",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1110_ultimate.png"
+    },
+    "111006": {
+        "id": "111006",
+        "name": "Bình Minh Của Bản Khảo Sát",
+        "rank": 6,
+        "desc": "Hiệu ứng tăng Giới Hạn HP của Phản Ứng Sinh Tồn sẽ tăng thêm, mức tăng bằng ('6.00000001', '.1f')% Giới Hạn HP của Lynx và khiến Kháng Hiệu Ứng của mục tiêu đó tăng 30%.",
+        "materials": [
+            {
+                "id": "11110",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1110_rank6.png"
+    },
     "111101": {
         "id": "111101",
         "name": "Chiến Đấu Không Ngừng",
@@ -2667,6 +2769,108 @@
         "level_up_skills": [],
         "icon": "icon/skill/1207_rank6.png"
     },
+    "120801": {
+        "id": "120801",
+        "name": "Si Wei",
+        "rank": 1,
+        "desc": "\"Giám Tri\" Tăng Sát Thương Bạo Kích 30%.",
+        "materials": [
+            {
+                "id": "11208",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1208_rank1.png"
+    },
+    "120802": {
+        "id": "120802",
+        "name": "Điềm Gở",
+        "rank": 2,
+        "desc": "Khi mở Ma Trận Tiên Tri, nếu mục tiêu phe ta chịu sát thương chí tử, thì tất cả mục tiêu phe ta chịu sát thương chí tử trong lần hành động này sẽ không rơi vào trạng thái không thể chiến đấu, đồng thời hồi ngay HP bằng 70% Giới Hạn HP của bản thân nhân vật đó. Hiệu ứng này có thể kích hoạt 1 lần trong 1 trận đấu.",
+        "materials": [
+            {
+                "id": "11208",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1208_rank2.png"
+    },
+    "120803": {
+        "id": "120803",
+        "name": "Zhi Fu",
+        "rank": 3,
+        "desc": "Cấp Chiến Kỹ +2, tối đa không quá 15 cấp; Cấp Thiên Phú +2, tối đa không quá 15 cấp.",
+        "materials": [
+            {
+                "id": "11208",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "120802",
+                "num": 2
+            },
+            {
+                "id": "120804",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1208_skill.png"
+    },
+    "120804": {
+        "id": "120804",
+        "name": "Ge Ze",
+        "rank": 4,
+        "desc": "Sau khi mục tiêu khác của phe ta ở trạng thái \"Ma Trận Tiên Tri\" chịu tấn công, Fu Xuan hồi phục 5 điểm Năng Lượng.",
+        "materials": [
+            {
+                "id": "11208",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1208_rank4.png"
+    },
+    "120805": {
+        "id": "120805",
+        "name": "Ji Shen",
+        "rank": 5,
+        "desc": "Cấp Tuyệt Kỹ +2, tối đa không quá 15 cấp; Cấp Tấn Công Thường +1, tối đa không quá 10 cấp.",
+        "materials": [
+            {
+                "id": "11208",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "120803",
+                "num": 2
+            },
+            {
+                "id": "120801",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1208_ultimate.png"
+    },
+    "120806": {
+        "id": "120806",
+        "name": "Zhong Ling",
+        "rank": 6,
+        "desc": "Khi bắt đầu \"Ma Trận Tiên Tri\", sẽ tích lũy HP đã tổn thất của toàn thể phe ta trong trận này. Tăng sát thương gây ra khi Fu Xuan thi triển Tuyệt Kỹ, giá trị tăng bằng 200% HP đã tổn thất được tích lũy trong trận này.\\nHP đã tổn thất tích lũy trong trận này tối đa không quá 120% Giới Hạn HP của Fu Xuan, sau khi thi triển Tuyệt Kỹ sẽ xóa và tích lũy lại từ đầu.",
+        "materials": [
+            {
+                "id": "11208",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1208_rank6.png"
+    },
     "120901": {
         "id": "120901",
         "name": "Lưỡi Kiếm Đơn Thuần",
@@ -2861,7 +3065,7 @@
         "id": "121106",
         "name": "Nước Bọt Của Rồng Thần",
         "rank": 6,
-        "desc": "Số lần kích hoạt trị liệu của Bailu lên đồng đội bị tấn công chí mạng tăng 1 lần.",
+        "desc": "Số lần kích hoạt trị liệu của Bailu lên đồng đội bị tấn công chí tử tăng 1 lần.",
         "materials": [
             {
                 "id": "11211",
@@ -2873,9 +3077,9 @@
     },
     "121301": {
         "id": "121301",
-        "name": "",
+        "name": "Nhiễu Thiên",
         "rank": 1,
-        "desc": "",
+        "desc": "Số tầng cộng dồn của Trái Tim Chính Nghĩa tăng 4 tầng. Đồng thời mỗi đòn đánh sẽ nhận thêm 1 tầng Trái Tim Chính Nghĩa.",
         "materials": [
             {
                 "id": "11213",
@@ -2883,13 +3087,13 @@
             }
         ],
         "level_up_skills": [],
-        "icon": ""
+        "icon": "icon/skill/1213_rank1.png"
     },
     "121302": {
         "id": "121302",
-        "name": "",
+        "name": "Cửu Du",
         "rank": 2,
-        "desc": "",
+        "desc": "Sau khi thi triển Tuyệt Kỹ, Dan Heng - Ẩm Nguyệt được ưu tiên hành động 100% đồng thời sẽ nhận thêm 1 Nghịch Lân.",
         "materials": [
             {
                 "id": "11213",
@@ -2897,50 +3101,13 @@
             }
         ],
         "level_up_skills": [],
-        "icon": ""
+        "icon": "icon/skill/1213_rank2.png"
     },
     "121303": {
         "id": "121303",
-        "name": "",
+        "name": "Vân Kỳ",
         "rank": 3,
-        "desc": "Cấp Tuyệt Kỹ +2, tối đa không quá cấp 15; Cấp Thiên Phú +2, tối đa không quá cấp 15.",
-        "materials": [
-            {
-                "id": "11213",
-                "num": 1
-            }
-        ],
-        "level_up_skills": [
-            {
-                "id": "121303",
-                "num": 2
-            },
-            {
-                "id": "121304",
-                "num": 2
-            }
-        ],
-        "icon": "icon/skill/1213_skill.png"
-    },
-    "121304": {
-        "id": "121304",
-        "name": "",
-        "rank": 4,
-        "desc": "",
-        "materials": [
-            {
-                "id": "11213",
-                "num": 1
-            }
-        ],
-        "level_up_skills": [],
-        "icon": ""
-    },
-    "121305": {
-        "id": "121305",
-        "name": "",
-        "rank": 5,
-        "desc": "Cấp Chiến Kỹ +2, tối đa không quá cấp 15; Cấp Tấn Công Thường +1, tối đa không quá cấp 10.",
+        "desc": "Cấp Chiến Kỹ +2, tối đa không quá 15 cấp; Cấp Tấn Công Thường +1, tối đa không quá 10 cấp.",
         "materials": [
             {
                 "id": "11213",
@@ -2958,24 +3125,24 @@
             },
             {
                 "id": "121308",
-                "num": 2
+                "num": 1
             },
             {
                 "id": "121310",
-                "num": 2
+                "num": 1
             },
             {
                 "id": "121312",
-                "num": 2
+                "num": 1
             }
         ],
-        "icon": "icon/skill/1213_ultimate.png"
+        "icon": "icon/skill/1213_skill.png"
     },
-    "121306": {
-        "id": "121306",
-        "name": "",
-        "rank": 6,
-        "desc": "",
+    "121304": {
+        "id": "121304",
+        "name": "Trào Phong",
+        "rank": 4,
+        "desc": "Hiệu ứng buff Hô Phong Hoán Vũ sẽ duy trì đến khi kết thúc hiệp kế tiếp của bản thân.",
         "materials": [
             {
                 "id": "11213",
@@ -2983,7 +3150,44 @@
             }
         ],
         "level_up_skills": [],
-        "icon": ""
+        "icon": "icon/skill/1213_rank4.png"
+    },
+    "121305": {
+        "id": "121305",
+        "name": "Ngạo Nghễ",
+        "rank": 5,
+        "desc": "Cấp Tuyệt Kỹ +2, tối đa không quá 15 cấp; Cấp Thiên Phú +2, tối đa không quá 15 cấp.",
+        "materials": [
+            {
+                "id": "11213",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "121303",
+                "num": 2
+            },
+            {
+                "id": "121304",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1213_ultimate.png"
+    },
+    "121306": {
+        "id": "121306",
+        "name": "Cô Liêu",
+        "rank": 6,
+        "desc": "Khi Dan Heng - Ẩm Nguyệt thi triển \"Bàn Nã Diệu Dược\" ở lần kế tiếp sau khi nhân vật khác của phe ta thi triển Tuyệt Kỹ, Xuyên Kháng Số Ảo sẽ tăng 20%, hiệu ứng này tối đa cộng dồn 3 tầng.",
+        "materials": [
+            {
+                "id": "11213",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1213_rank6.png"
     },
     "800101": {
         "id": "800101",

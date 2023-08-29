@@ -768,7 +768,7 @@
         "id": "100904",
         "name": "Wenn die Morgenröte sich manifestiert",
         "rank": 4,
-        "desc": "Erhöht Astas Energie-Rgenerationsrate um 15%, wenn sie 2 oder mehr Aufladestapelungen hat.",
+        "desc": "Erhöht Astas Energie- Wiederherstellungsrate um 15%, wenn sie 2 oder mehr Aufladestapelungen hat.",
         "materials": [
             {
                 "id": "11009",
@@ -1839,6 +1839,108 @@
         "level_up_skills": [],
         "icon": "icon/skill/1109_rank6.png"
     },
+    "111001": {
+        "id": "111001",
+        "name": "Ein Morgen mit frischem Schnee",
+        "rank": 1,
+        "desc": "Heilt Lynx Verbündete mit LP in Höhe von 50% oder niedriger, wird die bewirkte Heilung um 20% erhöht. Dieser Effekt wirkt auch bei der kontinuierlichen Heilung.",
+        "materials": [
+            {
+                "id": "11110",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1110_rank1.png"
+    },
+    "111002": {
+        "id": "111002",
+        "name": "Ein Mittag am tragbaren Herd",
+        "rank": 2,
+        "desc": "Ein anvisierter Gegner mit Überlebensreaktion kann 1-mal der Wirkung eines Debuffs widerstehen.",
+        "materials": [
+            {
+                "id": "11110",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1110_rank2.png"
+    },
+    "111003": {
+        "id": "111003",
+        "name": "Ein Nachmittag mit dem Lawinenleuchtfeuer",
+        "rank": 3,
+        "desc": "Fertigkeitsstufe +2 bis zu max. St. 15. Standardangriff-Stufe. +1 bis zu max. St. 10.",
+        "materials": [
+            {
+                "id": "11110",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "111002",
+                "num": 2
+            },
+            {
+                "id": "111001",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1110_skill.png"
+    },
+    "111004": {
+        "id": "111004",
+        "name": "Ein Sonnenuntergang am Lagerfeuer",
+        "rank": 4,
+        "desc": "Wenn Überlebensreaktion erlangt wird, erhöht sich der ANG des Ziels für 1 Rd. um ('3.0', '.1f')% der max. LP von Lynx.",
+        "materials": [
+            {
+                "id": "11110",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1110_rank4.png"
+    },
+    "111005": {
+        "id": "111005",
+        "name": "Eine Nacht mit Tee und Polarlicht",
+        "rank": 5,
+        "desc": "Ultimate-Stufe +2 bis zu max. St. 15. Talentstufe +2 bis zu max. St. 15.",
+        "materials": [
+            {
+                "id": "11110",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "111003",
+                "num": 2
+            },
+            {
+                "id": "111004",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1110_ultimate.png"
+    },
+    "111006": {
+        "id": "111006",
+        "name": "Ein Sonnenaufgang mit Kartografiepapier",
+        "rank": 6,
+        "desc": "Verstärkt zusätzlich die Erhöhung der max. LP durch Überlebensreaktion in Höhe von ('6.00000001', '.1f')% von Lynx’ max. LP. Erhöht auch Effekt-WDS um 30%.",
+        "materials": [
+            {
+                "id": "11110",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1110_rank6.png"
+    },
     "111101": {
         "id": "111101",
         "name": "Endloser Kampf",
@@ -1935,7 +2037,7 @@
         "id": "111106",
         "name": "Applaus für den Champion",
         "rank": 6,
-        "desc": "Nachdem der verstärkte Standardangriff „Himmelsbrecher-Faust“ einen blutenden Gegner getroffen hat, verursacht das Bluten sofort einmal SCH in Höhe von 8% des ursprünglichen SCH für jeden Treffer von „Gerader Haken“, der in diesem verstärkten Standardangriff verwendet wird.",
+        "desc": "Nachdem der verstärkte Standardangriff „Himmelsbrecher-Faust“ einen blutenden Gegner getroffen hat, verursacht das Bluten sofort 1-mal SCH in Höhe von 8% des ursprünglichen SCH für jeden Treffer von „Gerader Haken“, der in diesem verstärkten Standardangriff verwendet wird.",
         "materials": [
             {
                 "id": "11111",
@@ -2667,6 +2769,108 @@
         "level_up_skills": [],
         "icon": "icon/skill/1207_rank6.png"
     },
+    "120801": {
+        "id": "120801",
+        "name": "Zyklus von Leben und Tod",
+        "rank": 1,
+        "desc": "Wissen erhöht KRIT-SCH um 30%.",
+        "materials": [
+            {
+                "id": "11208",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1208_rank1.png"
+    },
+    "120802": {
+        "id": "120802",
+        "name": "Ominöses Omen",
+        "rank": 2,
+        "desc": "Wenn die Matrix der Voraussicht aktiv ist, während ein Teammitglied von einem Todesstoß getroffen wird, bleiben alle Verbündeten, die während dieser Aktion von einem Todesstoß getroffen wurden, davon unberührt und 70% ihrer max. LP werden sofort wiederhergestellt. Dieser Effekt kann 1-mal pro Kampf ausgelöst werden.",
+        "materials": [
+            {
+                "id": "11208",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1208_rank2.png"
+    },
+    "120803": {
+        "id": "120803",
+        "name": "Gottheit der Pflicht",
+        "rank": 3,
+        "desc": "Fertigkeitsstufe +2 bis zu max. St. 15. Talentstufe +2 bis zu max. St. 15.",
+        "materials": [
+            {
+                "id": "11208",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "120802",
+                "num": 2
+            },
+            {
+                "id": "120804",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1208_skill.png"
+    },
+    "120804": {
+        "id": "120804",
+        "name": "Gunstvoller Stern",
+        "rank": 4,
+        "desc": "Wenn andere Verbündete unter Matrix der Vorraussicht angegriffen werden, stellt Fu Xuan 5 Pkt. Energie wieder her.",
+        "materials": [
+            {
+                "id": "11208",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1208_rank4.png"
+    },
+    "120805": {
+        "id": "120805",
+        "name": "Wahre Wahrsagerin",
+        "rank": 5,
+        "desc": "Ultimate-Stufe +2 bis zu max. St. 15. Standardangriff-Stufe +1 bis zu max. St. 10.",
+        "materials": [
+            {
+                "id": "11208",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "120803",
+                "num": 2
+            },
+            {
+                "id": "120801",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1208_ultimate.png"
+    },
+    "120806": {
+        "id": "120806",
+        "name": "Rettung",
+        "rank": 6,
+        "desc": "Sobald die Matrix der Voraussicht aktiviert ist, werden die gesamten LP, die alle Teammitglieder im aktuellen Kampf verloren haben, addiert. Der Ultimate-SCH von Fu Xuan erhöht sich um 200% der gesamten LP, die alle Teammitglieder im aktuellen Kampf verloren haben.\\nDie von allen Teammitgliedern im aktuellen Kampf verlorenen LP sind auf 120% von Fu Xuans max. LP begrenzt. Dieser Wert wird zurückgesetzt und neu angesammelt, nachdem ihr Ultimate eingesetzt wurde.",
+        "materials": [
+            {
+                "id": "11208",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1208_rank6.png"
+    },
     "120901": {
         "id": "120901",
         "name": "Saubere Klinge",
@@ -2873,9 +3077,9 @@
     },
     "121301": {
         "id": "121301",
-        "name": "",
+        "name": "Den Himmel fesseln",
         "rank": 1,
-        "desc": "",
+        "desc": "Erhöht die Anzahl der möglichen Stapelungen von „Aufrichtiges Herz“ um 4. Erhält für jeden Treffer 1 zusätzliche Stapelung von „Aufrichtiges Herz“.",
         "materials": [
             {
                 "id": "11213",
@@ -2883,13 +3087,13 @@
             }
         ],
         "level_up_skills": [],
-        "icon": ""
+        "icon": "icon/skill/1213_rank1.png"
     },
     "121302": {
         "id": "121302",
-        "name": "",
+        "name": "Banner der Herrschaft",
         "rank": 2,
-        "desc": "",
+        "desc": "Nach dem Einsatz seines Ultimates wird Dan Heng – Imbibitor Lunaes Aktion um 100 % vorgezogen und er erhält 1 zusätzliche „Unantastbare Schuppe“.",
         "materials": [
             {
                 "id": "11213",
@@ -2897,50 +3101,13 @@
             }
         ],
         "level_up_skills": [],
-        "icon": ""
+        "icon": "icon/skill/1213_rank2.png"
     },
     "121303": {
         "id": "121303",
-        "name": "",
+        "name": "Wolkenbanner",
         "rank": 3,
-        "desc": "Ultimate-Stufe +2 bis zu max. St. 15. Talentstufe +2 bis zu max. St. 15.",
-        "materials": [
-            {
-                "id": "11213",
-                "num": 1
-            }
-        ],
-        "level_up_skills": [
-            {
-                "id": "121303",
-                "num": 2
-            },
-            {
-                "id": "121304",
-                "num": 2
-            }
-        ],
-        "icon": "icon/skill/1213_skill.png"
-    },
-    "121304": {
-        "id": "121304",
-        "name": "",
-        "rank": 4,
-        "desc": "",
-        "materials": [
-            {
-                "id": "11213",
-                "num": 1
-            }
-        ],
-        "level_up_skills": [],
-        "icon": ""
-    },
-    "121305": {
-        "id": "121305",
-        "name": "",
-        "rank": 5,
-        "desc": "Fertigkeitsstufe +2 bis zu max. St. 15. Standardangriff-Stufe +1 bis zu max. St. 10.",
+        "desc": "Fertigkeitsstufe +2 bis max. St. 15. Standardangriff-Stufe +1 bis max. St. 10.",
         "materials": [
             {
                 "id": "11213",
@@ -2958,24 +3125,24 @@
             },
             {
                 "id": "121308",
-                "num": 2
+                "num": 1
             },
             {
                 "id": "121310",
-                "num": 2
+                "num": 1
             },
             {
                 "id": "121312",
-                "num": 2
+                "num": 1
             }
         ],
-        "icon": "icon/skill/1213_ultimate.png"
+        "icon": "icon/skill/1213_skill.png"
     },
-    "121306": {
-        "id": "121306",
-        "name": "",
-        "rank": 6,
-        "desc": "",
+    "121304": {
+        "id": "121304",
+        "name": "Ausfliegendes Drachenkind",
+        "rank": 4,
+        "desc": "Die Buffs von Beherrschendes Gebrüll bleiben bis zum Ende der nächsten Runde dieser Figur erhalten.",
         "materials": [
             {
                 "id": "11213",
@@ -2983,7 +3150,44 @@
             }
         ],
         "level_up_skills": [],
-        "icon": ""
+        "icon": "icon/skill/1213_rank4.png"
+    },
+    "121305": {
+        "id": "121305",
+        "name": "Erhöhte Arroganz",
+        "rank": 5,
+        "desc": "Ultimate-Stufe +2 bis max. St. 15. Talentstufe +2 bis max. St. 15.",
+        "materials": [
+            {
+                "id": "11213",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "121303",
+                "num": 2
+            },
+            {
+                "id": "121304",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1213_ultimate.png"
+    },
+    "121306": {
+        "id": "121306",
+        "name": "Der göttliche Drache kehrt zurück",
+        "rank": 6,
+        "desc": "Nachdem ein anderer Verbündeter ihren seinen Ultimate eingesetzt hat, wird seine imaginäre WDS-DUR um 20% erhöht, wenn Dan Heng – Imbibitor Lunae das nächste Mal „Blitzartiger Sprung“ einsetzt. Dieser Effekt ist bis zu 3-fach stapelbar.",
+        "materials": [
+            {
+                "id": "11213",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1213_rank6.png"
     },
     "800101": {
         "id": "800101",

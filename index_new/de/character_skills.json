@@ -170,7 +170,7 @@
         "type_text": "Ultimate",
         "effect": "AoEAttack",
         "effect_text": "Flächenangriff",
-        "simple_desc": "Fügt allen Gegnern Eis-SCH zu und hat eine Chance, Frost zu veruraschen.",
+        "simple_desc": "Fügt allen Gegnern Eis-SCH zu und hat eine Chance, sie einzufrieren.",
         "desc": "Fügt allen Gegnern Eis-SCH in Höhe von #1[i]% von 7. März’ ANG zu und friert die getroffenen Gegner mit einer Grundchance von #2[i]% für #3[i] Rd. ein.\nEingefrorene Gegner können keine Aktionen ausführen und erleiden zu Beginn jeder Runde zusätzlichen Eis-SCH in Höhe von #4[i]% von 7. März’ ANG.",
         "params": [
             [
@@ -275,7 +275,7 @@
         "type_text": "Talent",
         "effect": "SingleAttack",
         "effect_text": "Einzelangriff",
-        "simple_desc": "",
+        "simple_desc": "Nachdem ein Verbündeter mit Schild von einem Gegner angegriffen wird, startet 7. März sofort einen Konter gegen den Angreifer, der geringen Eis-SCH verursacht.",
         "desc": "Wird ein Verbündeter mit Schild von einem Gegner angegriffen, führt 7. März sofort einen Konter aus, der dem Angreifer Eis-SCH in Höhe von #1[i]% ihres ANG zufügt. Dieser Effekt kann pro Runde #2[i]-mal ausgelöst werden.",
         "params": [
             [
@@ -364,7 +364,7 @@
         "type_text": "Technik",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "",
+        "simple_desc": "Greift den Gegner an. Hat eine hohe Chance, einen zufälligen Gegner nach Kampfeintritt einzufrieren.",
         "desc": "Greift den Gegner unmittelbar an. Nach Kampfeintritt besteht eine Grundchance von #1[i]%, einen zufällig ausgewählten Gegner für #2[i] Rd. einzufrieren.\nEingefrorene Gegner können sich nicht bewegen und erleiden zu Beginn jeder Runde zusätzlichen Eis-SCH in Höhe von #3[i]% von 7. März’ ANG.",
         "params": [
             [
@@ -906,7 +906,7 @@
         "type_text": "Talent",
         "effect": "AoEAttack",
         "effect_text": "Flächenangriff",
-        "simple_desc": "Erhält 1 Aufladung, wenn die Schwäche eines Gegners gebrochen wird.\nWenn ein Verbündeter einen Angriff ausführt und Himeko voll aufgeladenen ist, führt sie sofort einen Folgeangriff aus und fügt allen Gegnern Feuer-SCH zu, wobei alle Aufladungen verbraucht werden.\nErhält zu Beginn jedes Kampfes 1 Pkt. Aufladung.",
+        "simple_desc": "Erhält 1 Aufladung, wenn die Schwäche eines Gegners gebrochen wird.\nNach einem voll aufgeladenen Angriff eines Verbündeten führt dieser sofort einen Folgeangriff aus und fügt allen Gegnern Feuer-SCH zu, wobei alle Aufladungen verbraucht werden.\nErhält zu Beginn jedes Kampfes 1 Aufladung.",
         "desc": "Wenn die Schwäche eines Gegners gebrochen wird, erhält Himeko 1 Pkt. Aufladung, maximal #2[i] Pkt.\nWenn ein Verbündeter einen Angriff ausführt und Himeko voll aufgeladen ist, führt sie sofort 1 Folgeangriff aus, der allen Gegnern Feuer-SCH in Höhe von #1[i]% von Himekos ANG zufügt und alle Aufladungen verbraucht.\nErhält beim Kampfeintritt 1 Pkt. Aufladung.",
         "params": [
             [
@@ -995,7 +995,7 @@
         "type_text": "Technik",
         "effect": "Impair",
         "effect_text": "Beeinträchtigung",
-        "simple_desc": "Erschafft eine Dimension. Beim Kämpfen mit Gegnern in der Dimension besteht eine hohe Chance, dass der ihnen zugefügte Feuer-SCH erhöht wird.",
+        "simple_desc": "Erschafft eine Dimension. Wenn du mit Gegnern in der Dimension kämpfst, besteht eine hohe Chance, dass der ihnen zugefügte Feuer-SCH erhöht wird.",
         "desc": "Erzeugt nach dem Einsatz der Technik für #4[i] s eine spezielle Dimension. Nach Kampfeintritt mit Gegnern in dieser Dimension besteht eine Grundchance von #1[i]%, den von den Gegnern erlittenen Feuer-SCH für #3[i] Rd. um #2[i]% zu erhöhen. Es kann nur eine von Verbündeten erschaffene Dimension zur gleichen Zeit existieren.",
         "params": [
             [
@@ -1342,7 +1342,7 @@
         "type_text": "Technik",
         "effect": "Impair",
         "effect_text": "Beeinträchtigung",
-        "simple_desc": "Erschafft eine Dimension. Gegner in dieser Dimension haben reduzierte Bewegungs-GES. Beim Kämpfen mit Gegnern in der Dimension besteht eine hohe Chance, dass sie in Gefangenschaft geraten.",
+        "simple_desc": "Erschafft eine Dimension. Gegner in dieser Dimension haben reduzierte Bewegungs-GES. Wenn du mit Gegnern in der Dimension kämpfst, besteht eine hohe Chance, dass sie in Gefangenschaft geraten.",
         "desc": "Nach dem Einsatz von Welts Technik wird für #4[i] s eine spezielle Dimension erzeugt. Die Bewegungs-GES der Gegner in dieser Dimension wird um #5[i]% reduziert. Nach Kampfeintritt mit Gegnern in der Dimension besteht eine Grundchance von #1[i]%, bei Gegnern für 1 Rd. den Status Gefangenschaft zu verursachen.\nDie Aktionen von gefangenen Gegnern werden um #2[i]% verzögert und ihre GES um #3[i]% verringert. Es kann nur eine von Verbündeten erschaffene Dimension zur gleichen Zeit existieren.",
         "params": [
             [
@@ -1407,7 +1407,7 @@
         "effect": "Blast",
         "effect_text": "Ausdehnung",
         "simple_desc": "Verursacht Blitz-SCH bei einem Gegner und geringen Blitz-SCH bei angrenzenden Einheiten.\nBefindet das Hauptziel sich momentan unter Einfluss von DoT, so erleidet es sofort 1-mal zusätzlichen SCH.",
-        "desc": "Fügt einem anvisierten Gegner Blitz-SCH in Höhe von #1[i]% von Kafkas ANG zu und fügt angrenzenden Zielen Blitz-SCH in Höhe von #3[i]% von Kafkas ANG zu.\nBefindet der anvisierte Gegner sich momentan unter Einfluss von DoT, so erleidet er sofort zusätzlich SCH in Höhe von #2[i]% des aktuell insgesamt erlittenen DoT.",
+        "desc": "Fügt einem anvisierten Gegner Blitz-SCH in Höhe von #1[i]% von Kafkas ANG zu und fügt angrenzenden Einheiten Blitz-SCH in Höhe von #3[i]% von Kafkas ANG zu.\nBefindet der anvisierte Gegner sich momentan unter Einfluss von DoT, so erleidet er sofort zusätzlich SCH in Höhe von #2[i]% des aktuell insgesamt erlittenen DoT.",
         "params": [
             [
                 0.8,
@@ -1616,7 +1616,7 @@
         "type_text": "Talent",
         "effect": "SingleAttack",
         "effect_text": "Einzelangriff",
-        "simple_desc": "Nach dem Einsatz des Standardangriffs von einem Verbündeten führt Kafka sofort einen Folgeangriff aus und fügt diesem Ziel geringen Blitz-SCH zu. Es besteht eine hohe Chance, den Status Schock zuzufügen. Dieser Effekt kann nur 1-mal pro Runde ausgelöst werden.",
+        "simple_desc": "Nach dem Einsatz des Standardangriffs von einem Verbündeten führt Kafka sofort einen Folgeangriff aus und fügt diesem Ziel Blitz-SCH zu. Es besteht eine hohe Chance, den Status Schock zuzufügen. Dieser Effekt kann nur 1-mal pro Runde ausgelöst werden.",
         "desc": "Nach dem Einsatz des Standardangriffs von einem Verbündeten führt Kafka sofort einen Folgeangriff aus und fügt dem Ziel Blitz-SCH in Höhe von #1[i]% von Kafkas ANG zu. Es besteht eine Grundchance von #2[i]%, dem angegriffenen Gegner für #3[i] Rd. Schock zuzufügen, der dem Status Schock des Ultimates entspricht. Dieser Effekt kann nur 1-mal pro Runde ausgelöst werden.",
         "params": [
             [
@@ -2515,7 +2515,7 @@
         "type_text": "Fertigkeit",
         "effect": "Bounce",
         "effect_text": "Abprallung",
-        "simple_desc": "Fügt einem Gegner geringen Feuer-SCH zu. Führt 5 Prallen aus.",
+        "simple_desc": "Fügt einem Gegner mit insgesamt 5-mal Abprall geringen Feuer-SCH zu.",
         "desc": "Fügt einem anvisierten Gegner Feuer-SCH in Höhe von #1[i]% von Astas ANG zu. Löst zusätzlich 4 Angriffe gegen zufällige Gegner aus, die jeweils Feuer-SCH in Höhe von #1[i]% von Astas ANG verursachen.",
         "params": [
             [
@@ -3114,7 +3114,7 @@
         "type_text": "Fertigkeit",
         "effect": "Support",
         "effect_text": "Unterstützung",
-        "simple_desc": "Entfernt 1 Debuff von einem Verbündeten und erhöht dessen SCH. Der Verbündete führt sofort eine Aktion aus.",
+        "simple_desc": "Entfernt 1 Debuff von einem Verbündeten, erhöht dessen SCH und er tritt sofort in Aktion.",
         "desc": "Entfernt 1 Debuff von einem anvisierten Verbündeten, lässt ihn sofort eine Aktion ausführen und erhöht seinen zugefügten SCH für #3[i] Rd. um #1[i]%.\nWird diese Fertigkeit auf Bronya selbst angewendet, kann sie keine sofortige Aktion ausführen.",
         "params": [
             [
@@ -3219,7 +3219,7 @@
         "type_text": "Ultimate",
         "effect": "Support",
         "effect_text": "Unterstützung",
-        "simple_desc": "Erhöht den ANG und den KRIT-SCH aller Verbündeten.",
+        "simple_desc": "Erhöht den ANG und KRIT-SCH aller Verbündeten.",
         "desc": "Erhöht den ANG aller Verbündeten um #1[i]% und ihren KRIT-SCH um #2[f1]% von Bronyas KRIT-SCH plus #3[f1]% für #4[i] Rd.",
         "params": [
             [
@@ -4768,7 +4768,7 @@
         "type_text": "Fertigkeit",
         "effect": "Impair",
         "effect_text": "Beeinträchtigung",
-        "simple_desc": "Entfernt 1 Buff und fügt einem Gegner Eis-SCH zu.",
+        "simple_desc": "Entfernt 1 Buff eines Gegners und fügt einem Gegner Eis-SCH zu.",
         "desc": "Entfernt #2[i] Buff des anvisierten Gegners und fügt dem Ziel Eis-SCH in Höhe von #1[i]% von Pelas ANG zu.",
         "params": [
             [
@@ -4843,7 +4843,7 @@
         "type_text": "Ultimate",
         "effect": "Impair",
         "effect_text": "Beeinträchtigung",
-        "simple_desc": "Hat eine hohe Chance, die VTD von Gegnern zu reduzieren und fügt allen Gegnern geringen Eis-SCH zu.",
+        "simple_desc": "Hat eine hohe Chance, die VTD aller Gegner zu reduzieren und fügt allen Gegnern geringen Eis-SCH zu.",
         "desc": "Fügt allen Gegnern Eis-SCH in Höhe von #4[i]% von Pelas ANG zu und hat eine Grundchance von #1[i]%, bei jedem Gegner „Universelle Beherrschung“ zu verursachen.\nDie VTD der Gegner im Status „Universelle Beherrschung“ wird für #3[i] Rd. um #2[i]% reduziert.",
         "params": [
             [
@@ -5085,7 +5085,7 @@
         "type_text": "Fertigkeit",
         "effect": "AoEAttack",
         "effect_text": "Flächenangriff",
-        "simple_desc": "Fügt allen Gegnern geringen physischen SCH zu. Gegner mit „Kontermarkierung“ erleiden zusätzlich geringen physischen SCH.",
+        "simple_desc": "Fügt allen Gegnern physischen SCH zu. Bei Gegnern mit Kontermarkierung wird zusätzlich physischer SCH bewirkt.",
         "desc": "Fügt allen Gegnern physischen SCH in Höhe von #1[i]% von Claras ANG zu. Gegner mit Svarogs „Kontermarkierung“ erleiden zusätzlichen physischen SCH in Höhe von #2[i]% von Claras ANG.\nAlle „Kontermarkierungen“ werden nach dem Einsatz der Fertigkeit entfernt.",
         "params": [
             [
@@ -5280,7 +5280,7 @@
         "type_text": "Talent",
         "effect": "SingleAttack",
         "effect_text": "Einzelangriff",
-        "simple_desc": "Der von gegnerischen Angriffen erhaltene SCH wird reduziert. Gegner, die Clara angreifen, werden mit einer „Kontermarkierung“ markiert und von Svarogs Konter getroffen, der physischen SCH zufügt.",
+        "simple_desc": "Der von gegnerischen Angriffen erhaltene SCH wird reduziert. Gegner, die Clara angreifen, werden mit einer Kontermarkierung markiert und von Svarogs Konter getroffen, der physischen SCH zufügt.",
         "desc": "Unter Svarogs Schutz erleidet Clara #3[i]% weniger SCH. Svarog markiert Gegner, die Clara angreifen, mit „Kontermarkierung“ und führt einen Konter aus, der physischen SCH in Höhe von #2[i]% von Claras ANG verursacht.",
         "params": [
             [
@@ -5971,7 +5971,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Verstärkung",
-        "simple_desc": "",
+        "simple_desc": "Fügt einem Gegner im Status Brennen zusätzlich geringen Feuer-SCH zu und stellt zusätzlich Energie wiederher.",
         "desc": "Beim Angriff gegen brennende Gegner wird zusätzlich Feuer-SCH in Höhe von #1[i]% von Hooks ANG zugefügt und zusätzlich #2[i] Pkt. Energie wiederhergestellt.",
         "params": [
             [
@@ -6060,7 +6060,7 @@
         "type_text": "Technik",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "",
+        "simple_desc": "Greift den Gegner an. Fügt nach Kampfeintritt einem zufälligen Gegner Feuer-SCH zu, mit einer hohen Chance, allen Gegnern Brennen zuzufügen.",
         "desc": "Greift den Gegner unmittelbar an. Nach Kampfeintritt fügt Hook einem zufälligen Gegner Feuer-SCH in Höhe von #4[i]% ihres ANG zu und hat eine Grundchance von #1[i]%, bei allen Gegnern für #3[i] Rd. Brennen zu verursachen.\nBrennende Gegner erleiden zu Beginn jeder Runde Feuer-DoT in Höhe von #2[i]% von Hooks ANG.",
         "params": [
             [
@@ -6191,6 +6191,425 @@
             ]
         ],
         "icon": "icon/skill/1109_skill.png"
+    },
+    "111001": {
+        "id": "111001",
+        "name": "Steigeisentechnik",
+        "max_level": 9,
+        "element": "Quantum",
+        "type": "Normal",
+        "type_text": "Standardangriff",
+        "effect": "SingleAttack",
+        "effect_text": "Einzelangriff",
+        "simple_desc": "Fügt einem Gegner geringen Quanten-SCH zu.",
+        "desc": "Fügt einem anvisierten Gegner Quanten-SCH in Höhe von #1[i]% der max. LP des Anwenders zu.",
+        "params": [
+            [
+                0.25
+            ],
+            [
+                0.3
+            ],
+            [
+                0.35
+            ],
+            [
+                0.4
+            ],
+            [
+                0.45
+            ],
+            [
+                0.5
+            ],
+            [
+                0.55
+            ],
+            [
+                0.6
+            ],
+            [
+                0.65
+            ]
+        ],
+        "icon": "icon/skill/1110_basic_atk.png"
+    },
+    "111002": {
+        "id": "111002",
+        "name": "Gesalzene Campingdosen",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Fertigkeit",
+        "effect": "Restore",
+        "effect_text": "Wiederherstellung",
+        "simple_desc": "Wendet die „Überlebensreaktion“ auf einen Verbündeten an, erhöht seine max. LP und stellt seine LP wieder her.",
+        "desc": "Wendet die Überlebensreaktion auf einen anvisierten Verbündeten an und erhöht dessen max. LP um #1[f1]% der max. LP von Lynx plus #2[i]. Wenn dieser Verbündete eine Figur auf dem Pfad der Zerstörung oder der Bewahrung ist, wird die Chance stark erhöht, dass er von Gegnern angegriffen wird. Die Überlebensreaktion hält für #3[i] Rd. an.\nStellt beim Ziel LP in Höhe von #4[f1]% der max. LP von Lynx plus #5[i].",
+        "params": [
+            [
+                0.05,
+                50,
+                2,
+                0.08,
+                80,
+                5
+            ],
+            [
+                0.0525,
+                80,
+                2,
+                0.085,
+                128,
+                5
+            ],
+            [
+                0.055,
+                102.5,
+                2,
+                0.09,
+                164,
+                5
+            ],
+            [
+                0.0575,
+                125,
+                2,
+                0.095,
+                200,
+                5
+            ],
+            [
+                0.06,
+                140,
+                2,
+                0.1,
+                224,
+                5
+            ],
+            [
+                0.0625,
+                155,
+                2,
+                0.104,
+                248,
+                5
+            ],
+            [
+                0.0656,
+                166.25,
+                2,
+                0.108,
+                266,
+                5
+            ],
+            [
+                0.0688,
+                177.5,
+                2,
+                0.112,
+                284,
+                5
+            ],
+            [
+                0.0719,
+                188.75,
+                2,
+                0.116,
+                302,
+                5
+            ],
+            [
+                0.075,
+                200,
+                2,
+                0.12,
+                320,
+                5
+            ],
+            [
+                0.0775,
+                211.25,
+                2,
+                0.124,
+                338,
+                5
+            ],
+            [
+                0.08,
+                222.5,
+                2,
+                0.128,
+                356,
+                5
+            ],
+            [
+                0.0825,
+                233.75,
+                2,
+                0.132,
+                374,
+                5
+            ],
+            [
+                0.085,
+                245,
+                2,
+                0.136,
+                392,
+                5
+            ],
+            [
+                0.0875,
+                256.25,
+                2,
+                0.14,
+                410,
+                5
+            ]
+        ],
+        "icon": "icon/skill/1110_skill.png"
+    },
+    "111003": {
+        "id": "111003",
+        "name": "Ersthilfeplan in der Schneewüste",
+        "max_level": 15,
+        "element": "",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "Restore",
+        "effect_text": "Wiederherstellung",
+        "simple_desc": "Entfernt 1 Debuff von allen Verbündeten und stellt ihre LP wieder her.",
+        "desc": "Entfernt #1[i] Debuff von allen Verbündeten und heilt bei ihnen sofort LP in Höhe von #2[f1]% der max. LP von Lynx + #3[i] Punkte.",
+        "params": [
+            [
+                1,
+                0.09,
+                90
+            ],
+            [
+                1,
+                0.0956,
+                144
+            ],
+            [
+                1,
+                0.1013,
+                184.5
+            ],
+            [
+                1,
+                0.1069,
+                225
+            ],
+            [
+                1,
+                0.1125,
+                252
+            ],
+            [
+                1,
+                0.117,
+                279
+            ],
+            [
+                1,
+                0.1215,
+                299.25
+            ],
+            [
+                1,
+                0.126,
+                319.5
+            ],
+            [
+                1,
+                0.1305,
+                339.75
+            ],
+            [
+                1,
+                0.135,
+                360
+            ],
+            [
+                1,
+                0.1395,
+                380.25
+            ],
+            [
+                1,
+                0.144,
+                400.5
+            ],
+            [
+                1,
+                0.1485,
+                420.75
+            ],
+            [
+                1,
+                0.153,
+                441
+            ],
+            [
+                1,
+                0.1575,
+                461.25
+            ]
+        ],
+        "icon": "icon/skill/1110_ultimate.png"
+    },
+    "111004": {
+        "id": "111004",
+        "name": "Überleben in der Wildnis",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Restore",
+        "effect_text": "Wiederherstellung",
+        "simple_desc": "Beim Einsatz der Fertigkeit oder des Ultimates wird kontinuierliche Heilung auf Verbündeten angewendet. Bei Verbündeten mit „Überlebensreaktion“ wird der Effekt der kontinuierlichen Heilung zusätzlich erhöht.",
+        "desc": "Wenn du Lynx’ Fertigkeit oder Ultimate einsetzt, erhält der anvisierte Verbündete für #1[i] Rd. zu Beginn jeder Runde kontinuierliche Heilung, sodass bei ihm LP in Höhe von #2[f1]% von Lynx’ max. LP + #3[i] wiederhergestellt werden. Wenn die Überlebensreaktion des anvisierten Gegners aktiv ist, stellt der kontinuierliche Heileffekt zusätzlich LP in Höhe von #4[f1]% von Lynx’ max. LP + #5[i] wieder her.",
+        "params": [
+            [
+                2,
+                0.024,
+                24,
+                0.03,
+                30
+            ],
+            [
+                2,
+                0.0255,
+                38.4,
+                0.0319,
+                48
+            ],
+            [
+                2,
+                0.027,
+                49.2,
+                0.0338,
+                61.5
+            ],
+            [
+                2,
+                0.0285,
+                60,
+                0.0356,
+                75
+            ],
+            [
+                2,
+                0.03,
+                67.2,
+                0.0375,
+                84
+            ],
+            [
+                2,
+                0.0312,
+                74.4,
+                0.039,
+                93
+            ],
+            [
+                2,
+                0.0324,
+                79.8,
+                0.0405,
+                99.75
+            ],
+            [
+                2,
+                0.0336,
+                85.2,
+                0.042,
+                106.5
+            ],
+            [
+                2,
+                0.0348,
+                90.6,
+                0.0435,
+                113.25
+            ],
+            [
+                2,
+                0.036,
+                96,
+                0.045,
+                120
+            ],
+            [
+                2,
+                0.0372,
+                101.4,
+                0.0465,
+                126.75
+            ],
+            [
+                2,
+                0.0384,
+                106.8,
+                0.048,
+                133.5
+            ],
+            [
+                2,
+                0.0396,
+                112.2,
+                0.0495,
+                140.25
+            ],
+            [
+                2,
+                0.0408,
+                117.6,
+                0.051,
+                147
+            ],
+            [
+                2,
+                0.042,
+                123,
+                0.0525,
+                153.75
+            ]
+        ],
+        "icon": "icon/skill/1110_talent.png"
+    },
+    "111006": {
+        "id": "111006",
+        "name": "Angriff",
+        "max_level": 1,
+        "element": "Quantum",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "SingleAttack",
+        "effect_text": "Einzelangriff",
+        "simple_desc": "",
+        "desc": "Greift den Gegner an und schwächt nach Kampfeintritt den Widerstand des Ziels gegen den entsprechenden Typ.",
+        "params": [],
+        "icon": "icon/skill/1110_basic_atk.png"
+    },
+    "111007": {
+        "id": "111007",
+        "name": "Schokoenergieriegel",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technik",
+        "effect": "Restore",
+        "effect_text": "Wiederherstellung",
+        "simple_desc": "Nach dem Einsatz der Technik erhalten alle Verbündeten zu Beginn des nächsten Kampfes kontinuierliche Heilung.",
+        "desc": "Nachdem Lynx ihre Technik eingesetzt hat, erhalten alle Verbündeten zu Beginn des nächsten Kampfes für #1[i] Rd. kontinuierliche Heilung durch ihr Talent.",
+        "params": [
+            [
+                2
+            ]
+        ],
+        "icon": "icon/skill/1110_technique.png"
     },
     "111101": {
         "id": "111101",
@@ -6363,7 +6782,7 @@
         "type_text": "Ultimate",
         "effect": "SingleAttack",
         "effect_text": "Einzelangriff",
-        "simple_desc": "Luka erhält #5[i] Stapelungen „Kampfeswille“ mit einer hohen Chance, den vom Gegner erhaltenen SCH zu erhöhen, und fügt dem Ziel massiven physischen SCH zu.",
+        "simple_desc": "Luka erhält #5[i] Stapelungen „Kampfeswille“ mit einer hohen Chance, den vom Gegner erlittenen SCH zu erhöhen, und fügt dem Ziel massiven physischen SCH zu.",
         "desc": "Luka erhält #5[i] Stapelungen „Kampfeswille“. Es besteht eine Grundchance von #2[i]%, den erlittenen SCH eines anvisierten Gegners für #4[i] Rd. um #3[f1]% zu erhöhen. Fügt dem Ziel danach physischen SCH in Höhe von #1[i]% von Lukas ANG zu.",
         "params": [
             [
@@ -6572,7 +6991,7 @@
         "type_text": "Technik",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "Greift den Gegner an. Fügt nach Kampfeintritt einem zufälligen Gegner geringen physischen SCH zu und hat eine hohe Chance, dem Ziel Bluten zuzufügen. Luka erhält dann 1 Stapelung „Kampfeswille“.",
+        "simple_desc": "Greift den Gegner an. Fügt nach Kampfeintritt einem zufälligen Gegner geringen physischen SCH zu und hat eine hohe Chance, dem Ziel Bluten zuzufügen. Luka erhält dann zusätzlich 1 Stapelung „Kampfeswille“.",
         "desc": "Greift den Gegner unmittelbar an. Nach Kampfeintritt fügt Luka einem zufälligen Gegner physischen SCH in Höhe von #1[i]% seines ANG zu und hat eine Grundchance von #2[i]%, dem Ziel den Status Bluten seiner Fertigkeit zuzufügen. Danach erhält Luka zusätzlich 1 Stapelung „Kampfeswille“.",
         "params": [
             [
@@ -6592,7 +7011,7 @@
         "effect": "SingleAttack",
         "effect_text": "Einzelangriff",
         "simple_desc": "Verbraucht 2 Stapelungen „Kampfeswille“ und fügt einem Gegner physischen SCH zu.",
-        "desc": "Verbraucht 2 Stapelungen „Kampfeswille“. Attackiert erst einen Gegner mit einem dreifachen „Geraden Haken“, der pro Treffer physischen SCH in Höhe von #1[i]% von Lukas ANG verursacht.\nAttackiert dann einen Gegner mit „Himmelsbrecher-Faust“, die mit einem Schlag physischen SCH in Höhe von #2[i]% von Lukas ANG verursacht.",
+        "desc": "Verbraucht 2 Stapelungen „Kampfeswille“. Attackiert erst einen anvisierten Gegner mit einem 3-fachen „Geraden Haken“, der pro Treffer physischen SCH in Höhe von #1[i]% von Lukas ANG verursacht.\nAttackiert dann den anvisierten Gegner mit 1-facher „Himmelsbrecher-Faust“, die physischen SCH in Höhe von #2[i]% von Lukas ANG verursacht.",
         "params": [
             [
                 0.1,
@@ -7529,7 +7948,7 @@
         "effect": "Restore",
         "effect_text": "Wiederherstellung",
         "simple_desc": "Wenn „Abgrundblume“ 2-fach gestapelt wird, wird ein Feld erzeugt. Solange das Feld aktiv ist, werden die LP der Verbündeten wiederhergestellt, nachdem sie einen Angriff ausgeführt haben.",
-        "desc": "Wird „Abgrundblume“ #1[i]-fach gestapelt, verbraucht Luocha alle Abgrundblumen, um ein Feld zu erzeugen.\nWird ein Gegner innerhalb des Felds von einem Verbündeten angegriffen, werden die LP des Verbündeten unmittelbar um #2[f1]% von Luochas ANG plus #4[i] wiederhergestellt.\nDas Feld hält für #3[i] Rd. an. Ist Luocha handlungsunfähig, verschwindet das Feld.",
+        "desc": "Wird Abgrundblume #1[i]-fach gestapelt, verbraucht Luocha alle Abgrundblumen, um ein Feld zu erzeugen.\nWird ein Gegner innerhalb des Felds von einem Verbündeten angegriffen, erhält der Verbündete unmittelbar LP in Höhe von #2[f1]% von Luochas ANG plus #4[i] zurück.\nDas Feld hält #3[i] Rd. an. Wenn Luocha handlungsunfähig wird, verschwindet das Feld.",
         "params": [
             [
                 2,
@@ -7662,7 +8081,7 @@
         "effect": "SingleAttack",
         "effect_text": "Einzelangriff",
         "simple_desc": "Fügt einem Gegner geringen Blitz-SCH zu.",
-        "desc": "Jing Yuan fügt einem einzelnen Gegner Blitz-SCHD in Höhe von #1[i]% seines ANG zu.",
+        "desc": "Jing Yuan fügt einem anvisierten Gegner Blitz-SCH in Höhe von #1[i]% seines ANG zu.",
         "params": [
             [
                 0.5
@@ -9084,7 +9503,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Verstärkung",
-        "simple_desc": "Der Standardangriff fügt geringen zusätzlichen imaginären SCH zu und erhöht SCH der Widerstand-Reduzierung dieses Angriffs. Dieser Effekt kann nach 1 Rd. erneut ausgelöst werden.",
+        "simple_desc": "Der Standardangriff fügt geringen zusätzlichen imaginären SCH zu und erhöht SCH der WDS-Reduzierung dieses Angriffs. Dieser Effekt kann nach 1 Rd. erneut ausgelöst werden.",
         "desc": "Der Standardangriff fügt zusätzlichen imaginären SCH in Höhe von #1[i]% von Yukongs ANG zu und erhöht außerdem SCH der WDS-Reduzierung dieses Angriffs um #2[i]%. Dieser Effekt kann nach #3[i] Rd. erneut ausgelöst werden.",
         "params": [
             [
@@ -9198,6 +9617,351 @@
             ]
         ],
         "icon": "icon/skill/1207_technique.png"
+    },
+    "120801": {
+        "id": "120801",
+        "name": "Sternschlag",
+        "max_level": 9,
+        "element": "Quantum",
+        "type": "Normal",
+        "type_text": "Standardangriff",
+        "effect": "SingleAttack",
+        "effect_text": "Einzelangriff",
+        "simple_desc": "Fügt einem Gegner geringen Quanten-SCH zu.",
+        "desc": "Fügt einem anvisierten Gegner Quanten-SCH in Höhe von #1[i]% der max. LP von Fu Xuan zu.",
+        "params": [
+            [
+                0.25
+            ],
+            [
+                0.3
+            ],
+            [
+                0.35
+            ],
+            [
+                0.4
+            ],
+            [
+                0.45
+            ],
+            [
+                0.5
+            ],
+            [
+                0.55
+            ],
+            [
+                0.6
+            ],
+            [
+                0.65
+            ]
+        ],
+        "icon": "icon/skill/1208_basic_atk.png"
+    },
+    "120802": {
+        "id": "120802",
+        "name": "Astronomisches Wunder",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Fertigkeit",
+        "effect": "Defence",
+        "effect_text": "Verteidigung",
+        "simple_desc": "Aktiviert die „Matrix der Voraussicht“, wodurch der erlittene SCH von Verbündeten mit Fu Xuan geteilt wird. Erhöht die KRIT-Rate und die max. LP aller Verbündeten.",
+        "desc": "Aktiviert die „Matrix der Voraussicht“. Für #3[i] Rd. wird #1[i]% des SCH, den Fu Xuans Verbündete erleiden (und bevor dieser Schaden durch eventuell vorhandene Schilde adsorbiert wird), mit Fu Xuan geteilt.\nAlle Verbündeten, die von der „Matrix der Voraussicht“ betroffen sind, erhalten den Status „Wissen“, der ihre max. LP um #4[f1]% von Fu Xuans max. LP und ihre KRIT-Rate um #5[f1]% erhöht.\nWenn Fu Xuan handlungsunfähig wird, verschwindet die „Matrix der Voraussicht“.",
+        "params": [
+            [
+                0.65,
+                0,
+                3,
+                0.03,
+                0.06
+            ],
+            [
+                0.65,
+                0,
+                3,
+                0.033,
+                0.066
+            ],
+            [
+                0.65,
+                0,
+                3,
+                0.036,
+                0.072
+            ],
+            [
+                0.65,
+                0,
+                3,
+                0.039,
+                0.078
+            ],
+            [
+                0.65,
+                0,
+                3,
+                0.042,
+                0.084
+            ],
+            [
+                0.65,
+                0,
+                3,
+                0.045,
+                0.09
+            ],
+            [
+                0.65,
+                0,
+                3,
+                0.0488,
+                0.0975
+            ],
+            [
+                0.65,
+                0,
+                3,
+                0.0525,
+                0.105
+            ],
+            [
+                0.65,
+                0,
+                3,
+                0.0563,
+                0.1125
+            ],
+            [
+                0.65,
+                0,
+                3,
+                0.06,
+                0.12
+            ],
+            [
+                0.65,
+                0,
+                3,
+                0.063,
+                0.126
+            ],
+            [
+                0.65,
+                0,
+                3,
+                0.066,
+                0.132
+            ],
+            [
+                0.65,
+                0,
+                3,
+                0.069,
+                0.138
+            ],
+            [
+                0.65,
+                0,
+                3,
+                0.072,
+                0.144
+            ],
+            [
+                0.65,
+                0,
+                3,
+                0.075,
+                0.15
+            ]
+        ],
+        "icon": "icon/skill/1208_skill.png"
+    },
+    "120803": {
+        "id": "120803",
+        "name": "Ultimative Evolution",
+        "max_level": 15,
+        "element": "Quantum",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "AoEAttack",
+        "effect_text": "Flächenangriff",
+        "simple_desc": "Fügt allen Gegnern Quanten-SCH zu und erhöht die Auslösungsanzahl von Fu Xuans Talent.",
+        "desc": "Fügt allen Gegnern Quanten-SCH in Höhe von #1[i]% von Fu Xuans max. LP zu und erhält 1 Auslösepunkt für die LP-Wiederherstellung von Fu Xuans Talent.",
+        "params": [
+            [
+                0.6
+            ],
+            [
+                0.64
+            ],
+            [
+                0.68
+            ],
+            [
+                0.72
+            ],
+            [
+                0.76
+            ],
+            [
+                0.8
+            ],
+            [
+                0.85
+            ],
+            [
+                0.9
+            ],
+            [
+                0.95
+            ],
+            [
+                1
+            ],
+            [
+                1.04
+            ],
+            [
+                1.08
+            ],
+            [
+                1.12
+            ],
+            [
+                1.16
+            ],
+            [
+                1.2
+            ]
+        ],
+        "icon": "icon/skill/1208_ultimate.png"
+    },
+    "120804": {
+        "id": "120804",
+        "name": "Nach Weh kommt Wohl",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Restore",
+        "effect_text": "Wiederherstellung",
+        "simple_desc": "Solange Fu Xuan kampffähig ist, wird der von allen Verbündeten erlittene SCH reduziert.\nWenn die LP niedrig sind, werden automatisch LP anhand des Prozentsatzes der verlorenen LP wiederhergestellt. Dieser Effekt kann höchstens 2-mal ausgelöst werden.",
+        "desc": "Solange Fu Xuan kampffähig ist, wird „Unglücksvermeidung“ auf alle Verbündeten angewendet. Im Status von „Unglücksvermeidung“ erleiden die Verbündeten #1[f1]% weniger SCH.\nLP-Wiederherstellung wird für Fu Xuan ausgelöst, wenn ihr LP-Prozentsatz auf #2[i]% oder weniger ihrer max. LP liegt. Dieser Effekt stellt ihre LP in Höhe von #3[i]% der bisher verlorenen LP wieder her. Er kann nicht ausgelöst werden, wenn sie einen Todesstoß erleidet. Dieser Effekt kann anfangs 1-mal ausgelöst werden und hat eine max. Auslösungsanzahl von 2.",
+        "params": [
+            [
+                0.1,
+                0.5,
+                0.8
+            ],
+            [
+                0.108,
+                0.5,
+                0.81
+            ],
+            [
+                0.116,
+                0.5,
+                0.82
+            ],
+            [
+                0.124,
+                0.5,
+                0.83
+            ],
+            [
+                0.132,
+                0.5,
+                0.84
+            ],
+            [
+                0.14,
+                0.5,
+                0.85
+            ],
+            [
+                0.15,
+                0.5,
+                0.8625
+            ],
+            [
+                0.16,
+                0.5,
+                0.875
+            ],
+            [
+                0.17,
+                0.5,
+                0.8875
+            ],
+            [
+                0.18,
+                0.5,
+                0.9
+            ],
+            [
+                0.188,
+                0.5,
+                0.91
+            ],
+            [
+                0.196,
+                0.5,
+                0.92
+            ],
+            [
+                0.204,
+                0.5,
+                0.93
+            ],
+            [
+                0.212,
+                0.5,
+                0.94
+            ],
+            [
+                0.22,
+                0.5,
+                0.95
+            ]
+        ],
+        "icon": "icon/skill/1208_talent.png"
+    },
+    "120806": {
+        "id": "120806",
+        "name": "Angriff",
+        "max_level": 1,
+        "element": "Quantum",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Greift den Gegner an und reduziert nach Kampfeintritt den Widerstand des gegnerischen Ziels des entsprechenden Typs.",
+        "params": [],
+        "icon": "icon/skill/1208_basic_atk.png"
+    },
+    "120807": {
+        "id": "120807",
+        "name": "Die Gunst des Schicksals",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technik",
+        "effect": "Defence",
+        "effect_text": "Verteidigung",
+        "simple_desc": "Aktiviert eine Barriere. Verbündete treten nicht in den Kampf ein, wenn sie von Gegnern angegriffen werden. Beim Kampfeintritt wird die „Matrix der Voraussicht“ automatisch aktiviert.",
+        "desc": "Nach dem Einsatz der Technik erhalten alle Verbündeten für #1[i] Sek. eine Barriere. Diese Barriere blockt alle gegnerischen Angriffe ab und die Verbündeten treten nicht in den Kampf ein. Beim Kampfeintritt während der Wirkungszeit der Barriere wird Fu Xuans „Matrix der Voraussicht“ automatisch für #2[i] Rd. aktiviert.",
+        "params": [
+            [
+                20,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1208_technique.png"
     },
     "120901": {
         "id": "120901",
@@ -9400,7 +10164,7 @@
         "type_text": "Talent",
         "effect": "SingleAttack",
         "effect_text": "Einzelangriff",
-        "simple_desc": "Verringert während „Empathische Schwertverbindung“ die Chance, angegriffen zu werden und erhöht die eigene KRIT-Rate und den KRIT-SCH. Nach einem Angriff auf einen Gegner besteht die Chance, einen Folgeangriff auszulösen, der Eis-SCH verursacht und den Gegner einfriert. \n„Empathische Schwertverbindung“ wird entfernt, sobald Yanqing Schaden erleidet.",
+        "simple_desc": "Verringert während „Empathische Schwertverbindung“ die Chance, angegriffen zu werden und erhöht die KRIT-Rate und den KRIT-SCH der Figur. Nach einem Angriff auf einen Gegner kann die Figur einen Folgeangriff auslösen, der Eis-SCH verursacht und die Chance hat, den Gegner einzufrieren. \n„Empathische Schwertverbindung“ wird entfernt, sobald diese Figur Schaden erleidet.",
         "desc": "Ist „Empathische Schwertverbindung“ aktiv, sinkt die Chance, dass Yanqing angegriffen wird. Außerdem wird seine KRIT-Rate um #1[f1]% und sein KRIT-SCH um #2[i]% erhöht. Beim Angriff besteht eine feste Chance von #3[i]%, einen Folgeangriff auszuführen, der dem Ziel Eis-SCH in Höhe von #4[i]% von Yanqings ANG zufügt und mit einer Grundchance von #6[i]% für 1 Rd. Gefroren verursacht.\nDer eingefrorene Gegner ist handlungsunfähig und erleidet zu Beginn jeder Runde zusätzlichen Eis-SCH in Höhe von #5[i]% von Yanqings ANG. \nWenn Yanqing SCH erleidet, verschwindet die „Empathische Schwertverbindung“.",
         "params": [
             [
@@ -9806,7 +10570,7 @@
         "type_text": "Talent",
         "effect": "Restore",
         "effect_text": "Wiederherstellung",
-        "simple_desc": "Verbündete mit „Belebung“ erhalten LP zurück, nachdem sie angegriffen wurden.\nWenn ein Verbündeter einen Todesstoß erleidet, stellt Bailu bei ihm sofort LP wieder her. Dieser Effekt kann pro Kampf nur 1-mal ausgelöst werden.",
+        "simple_desc": "Verbündete mit Belebung stellen ihre LP wieder her, nachdem sie angegriffen wurden.\nWenn ein Verbündeter einen Todesstoß erleidet, stellt Bailu sofort seine LP wieder her. Dieser Effekt kann nur 1-mal pro Kampf ausgelöst werden.",
         "desc": "Nachdem ein Verbündeter mit „Belebung“ getroffen worden ist, werden seine LP um #1[f1]% von Bailus max. LP plus #2[i] wiederhergestellt. Dieser Effekt kann #5[i]-mal ausgelöst werden. \nErleidet ein Verbündeter einen Todesstoß, wird dieser nicht handlungsunfähig. Stattdessen heilt Bailu den Verbündeten sofort um #3[i]% von Bailus max. LP plus #4[i]. Dieser Effekt kann 1-mal pro Kampf ausgelöst werden.",
         "params": [
             [
@@ -9951,15 +10715,15 @@
     },
     "121301": {
         "id": "121301",
-        "name": "",
+        "name": "Segensreicher Lotus",
         "max_level": 9,
         "element": "Imaginary",
         "type": "Normal",
         "type_text": "Standardangriff",
         "effect": "SingleAttack",
         "effect_text": "Einzelangriff",
-        "simple_desc": "",
-        "desc": "",
+        "simple_desc": "Fügt einem Gegner geringen imaginären SCH zu.",
+        "desc": "Verwendet einen Angriff mit 2 Treffern und fügt einem anvisierten Gegner imaginären SCH in Höhe von #1[i]% des ANG von Dan Heng – Imbibitor Lunae zu.",
         "params": [
             [
                 0.5
@@ -9993,165 +10757,90 @@
     },
     "121302": {
         "id": "121302",
-        "name": "",
+        "name": "Zügellos",
         "max_level": 15,
         "element": "",
         "type": "BPSkill",
         "type_text": "Fertigkeit",
         "effect": "Enhance",
         "effect_text": "Verstärkung",
-        "simple_desc": "",
-        "desc": "",
+        "simple_desc": "Verstärkt den Standardangriff Segensreicher Lotus zu Transzendenz, Himmlischer Speer oder Blitzartiger Sprung.",
+        "desc": "Verstärkt den Standardangriff bis zu 3-mal hintereinander. Der Einsatz dieser Fähigkeit verbraucht keinen Fertigkeitspunkt und gilt nicht als Einsatz einer Fertigkeit.\nDurch einmalige Verstärkung des Standardangriffs verwandelt sich „Segensreicher Lotus“ in „Transzendenz“.\nDurch zweimalige Verstärkung des Standardangriffs verwandelt sich „Segensreicher Lotus“ in „Himmlischer Speer“.\nDurch dreimalige Verstärkung des Standardangriffs verwandelt sich „Segensreicher Lotus“ in „Blitzartiger Sprung“.\nBeim Einsatz von „Himmlischer Speer“ oder „Blitzartiger Sprung“ erhält Dan Heng – Imbibitor Lunae ab dem vierten Treffer dieses Angriffs vor jedem Treffer jeweils 1 Stapelung „Beherrschendes Gebrüll“. Jede Stapelung von „Beherrschendes Gebrüll“ erhöht den KRIT-SCH von Dan Heng – Imbibitor Lunae um #1[f1]%. Dieser Effekt ist bis zu #2[i]-fach stapelbar und hält bis zum Ende seiner Runde an.",
         "params": [
             [
-                1.3,
-                0.6,
-                0.3,
                 0.06,
-                4,
-                0.6,
-                0.6
+                4
             ],
             [
-                1.43,
-                0.66,
-                0.33,
                 0.066,
-                4,
-                0.66,
-                0.66
+                4
             ],
             [
-                1.56,
-                0.72,
-                0.36,
                 0.072,
-                4,
-                0.72,
-                0.72
+                4
             ],
             [
-                1.69,
-                0.78,
-                0.39,
                 0.078,
-                4,
-                0.78,
-                0.78
+                4
             ],
             [
-                1.82,
-                0.84,
-                0.42,
                 0.084,
-                4,
-                0.84,
-                0.84
+                4
             ],
             [
-                1.95,
-                0.9,
-                0.45,
                 0.09,
-                4,
-                0.9,
-                0.9
+                4
             ],
             [
-                2.1125,
-                0.975,
-                0.4875,
                 0.0975,
-                4,
-                0.975,
-                0.975
+                4
             ],
             [
-                2.275,
-                1.05,
-                0.525,
                 0.105,
-                4,
-                1.05,
-                1.05
+                4
             ],
             [
-                2.4375,
-                1.125,
-                0.5625,
                 0.1125,
-                4,
-                1.125,
-                1.125
+                4
             ],
             [
-                2.6,
-                1.2,
-                0.6,
                 0.12,
-                4,
-                1.2,
-                1.2
+                4
             ],
             [
-                2.73,
-                1.26,
-                0.63,
                 0.126,
-                4,
-                1.26,
-                1.26
+                4
             ],
             [
-                2.86,
-                1.32,
-                0.66,
                 0.132,
-                4,
-                1.32,
-                1.32
+                4
             ],
             [
-                2.99,
-                1.38,
-                0.69,
                 0.138,
-                4,
-                1.38,
-                1.38
+                4
             ],
             [
-                3.12,
-                1.44,
-                0.72,
                 0.144,
-                4,
-                1.44,
-                1.44
+                4
             ],
             [
-                3.25,
-                1.5,
-                0.75,
                 0.15,
-                4,
-                1.5,
-                1.5
+                4
             ]
         ],
         "icon": "icon/skill/1213_skill.png"
     },
     "121303": {
         "id": "121303",
-        "name": "",
+        "name": "Säuberung der Welt",
         "max_level": 15,
         "element": "Imaginary",
         "type": "Ultra",
         "type_text": "Ultimate",
         "effect": "Blast",
         "effect_text": "Ausdehnung",
-        "simple_desc": "",
-        "desc": "",
+        "simple_desc": "Fügt einem Gegner massiven imaginären SCH zu, fügt angrenzenden Einheiten imaginären SCH zu und erhält 2 „Unantastbare Schuppe“. Dan Heng – Imbibitor Lunae kann anstelle von Fertigkeitspunkten die gleiche Anzahl von Unantastbare Schuppe verbrauchen. Der Verbrauch von „Unantastbare Schuppe“ wird mit dem Verbrauch von Fertigkeitspunkten gleichgesetzt.",
+        "desc": "Führt einen Angriff mit 3 Treffern aus und fügt einem anvisierten Gegner imaginären SCH in Höhe von #1[i]% des ANG von Dan Heng – Imbibitor Lunae zu. Fügt gleichzeitig angrenzenden Einheiten imaginären SCH in Höhe von #2[i]% des ANG von Dan Heng – Imbibitor Lunae zu. Erhält #3[i] „Unantastbare Schuppen“.\n„Unantastbare Schuppe“ kann bis zu #4[i]-mal erhalten werden. Dan Heng – Imbibitor Lunae kann eine entsprechende Anzahl von „Unantastbare Schuppen“ anstelle von Fertigkeitspunkten verbrauchen. Das Verbrauchen von „Unantastbare Schuppen“ wird dem Verbrauchen von Fertigkeitspunkten gleichgesetzt.",
         "params": [
             [
                 1.8,
@@ -10248,75 +10937,75 @@
     },
     "121304": {
         "id": "121304",
-        "name": "",
+        "name": "Aufrichtiges Herz",
         "max_level": 15,
         "element": "",
         "type": "Talent",
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Verstärkung",
-        "simple_desc": "",
-        "desc": "",
+        "simple_desc": "Erhöht den verursachten SCH nach jedem Treffer. Dieser Effekt ist stapelbar und hält bis zum Ende der Runde dieser Figur an.",
+        "desc": "Dan Heng – Imbibitor Lunae erhält nach jedem Treffer, den er während eines Angriffs auslöst, 1 Stapelung „Aufrichtiges Herz“, die seinen verursachten SCH um #1[f1]% erhöht. Dieser Effekt ist bis zu #2[i]-fach stapelbar und hält bis zum Ende seiner Runde an.",
         "params": [
             [
-                0.09,
-                5
+                0.05,
+                6
             ],
             [
-                0.095,
-                5
+                0.055,
+                6
+            ],
+            [
+                0.06,
+                6
+            ],
+            [
+                0.065,
+                6
+            ],
+            [
+                0.07,
+                6
+            ],
+            [
+                0.075,
+                6
+            ],
+            [
+                0.0813,
+                6
+            ],
+            [
+                0.0875,
+                6
+            ],
+            [
+                0.0938,
+                6
             ],
             [
                 0.1,
-                5
+                6
             ],
             [
                 0.105,
-                5
+                6
             ],
             [
                 0.11,
-                5
+                6
             ],
             [
                 0.115,
-                5
+                6
             ],
             [
-                0.1213,
-                5
+                0.12,
+                6
             ],
             [
-                0.1275,
-                5
-            ],
-            [
-                0.1338,
-                5
-            ],
-            [
-                0.14,
-                5
-            ],
-            [
-                0.145,
-                5
-            ],
-            [
-                0.15,
-                5
-            ],
-            [
-                0.155,
-                5
-            ],
-            [
-                0.16,
-                5
-            ],
-            [
-                0.165,
-                5
+                0.125,
+                6
             ]
         ],
         "icon": "icon/skill/1213_talent.png"
@@ -10337,363 +11026,244 @@
     },
     "121307": {
         "id": "121307",
-        "name": "",
+        "name": "Blitz des Regenbogens",
         "max_level": 1,
         "element": "",
         "type": "Maze",
         "type_text": "Technik",
         "effect": "Enhance",
         "effect_text": "Verstärkung",
-        "simple_desc": "",
-        "desc": "",
+        "simple_desc": "Geht in den Status „Springender Drache“ über. Beim Einsatz des Angriffs bewegt sich diese Figur eine bestimmte Strecke schnell vorwärts und greift Gegner an, die sie berührt. Wenn sie durch Angriff auf den Gegner einen Kampf einleitet, fügt sie allen Gegnern imaginären SCH zu und erhält 1 „Unantastbare Schuppe“.",
+        "desc": "Nach der Anwendung seiner Technik geht Dan Heng – Imbibitor Lunae für 2[i] Sekunden in den Status Springender Drache über. Im Status Springender Drache bewegt sich Dan Heng – Imbibitor Lunae beim Einsatz seines Angriffs eine bestimmte Strecke schnell vorwärts, greift alle Gegner an, die er berührt und blockt alle eingehenden Angriffe. Wenn Dan Heng – Imbibitor Lunae durch Angriff von Feinden im Status Springender Drache in einen Kampf eintritt, fügt er allen Feinden imaginären SCH in Höhe von #3[i]% seines ANG zu und erhält #1[i] „Unantastbare Schuppe“.",
         "params": [
             [
                 1,
-                20
+                20,
+                1.2
             ]
         ],
         "icon": "icon/skill/1213_technique.png"
     },
     "121308": {
         "id": "121308",
-        "name": "",
-        "max_level": 15,
+        "name": "Transzendenz",
+        "max_level": 9,
         "element": "Imaginary",
         "type": "Normal",
         "type_text": "Standardangriff",
         "effect": "SingleAttack",
         "effect_text": "Einzelangriff",
-        "simple_desc": "",
-        "desc": "",
+        "simple_desc": "Führt diesen Angriff mit 3 Treffern aus und fügt einem Gegner imaginären SCH zu.",
+        "desc": "Entfesselt in diesem Angriff 3 Treffer und fügt einem einzelnen gegnerischen Ziel imaginären SCH in Höhe von #1[i]% des ANG von Dan Heng – Imbibitor Lunae zu.",
         "params": [
             [
                 1.3
             ],
             [
-                1.43
-            ],
-            [
                 1.56
-            ],
-            [
-                1.69
             ],
             [
                 1.82
             ],
             [
-                1.95
+                2.08
             ],
             [
-                2.1125
-            ],
-            [
-                2.275
-            ],
-            [
-                2.4375
+                2.34
             ],
             [
                 2.6
             ],
             [
-                2.73
-            ],
-            [
                 2.86
-            ],
-            [
-                2.99
             ],
             [
                 3.12
             ],
             [
-                3.25
+                3.38
+            ],
+            [
+                1.3
+            ],
+            [
+                1.3
+            ],
+            [
+                1.3
+            ],
+            [
+                1.3
+            ],
+            [
+                1.3
+            ],
+            [
+                1.3
             ]
         ],
         "icon": "icon/skill/1213_basic_atk.png"
     },
     "121309": {
         "id": "121309",
-        "name": "",
+        "name": "Abbrechen",
         "max_level": 1,
         "element": "",
         "type": "BPSkill",
         "type_text": "Fertigkeit",
-        "effect": "Support",
-        "effect_text": "Unterstützung",
+        "effect": "Enhance",
+        "effect_text": "Abbrechen",
         "simple_desc": "",
-        "desc": "",
+        "desc": "Verstärkung abbrechen",
         "params": [],
         "icon": "icon/skill/1213_skill.png"
     },
     "121310": {
         "id": "121310",
-        "name": "",
-        "max_level": 15,
+        "name": "Himmlischer Speer",
+        "max_level": 9,
         "element": "Imaginary",
         "type": "Normal",
         "type_text": "Standardangriff",
         "effect": "Blast",
         "effect_text": "Ausdehnung",
-        "simple_desc": "",
-        "desc": "",
+        "simple_desc": "Fügt mit diesem Angriff 5 Treffer zu, die einem Gegner massiven imaginären SCH und angrenzenden Einheiten geringen imaginären SCH zufügen. Die letzten 2 Treffer erhalten jeweils 1 Stapelung „Beherrschendes Gebrüll“, bevor sie ausgeführt werden, was den KRIT-SCH erhöht.",
+        "desc": "Führe einen Angriff mit 5 Treffern aus, der einem anvisierten Gegner imaginären SCH in Höhe von #1[i]% von Dan Heng – Imbibitor Lunaes ANG zufügt. Fügt ab dem vierten Treffer den angrenzenden Einheiten imaginären SCH in Höhe von #2[i]% von Dan Heng – Imbibitor Lunaes ANG zu.",
         "params": [
             [
-                1.3,
-                0.6,
-                0.3,
-                0.06,
-                4
+                1.9,
+                0.3
             ],
             [
-                1.43,
-                0.66,
-                0.33,
-                0.066,
-                4
+                1.9,
+                0.3
             ],
             [
-                1.56,
-                0.72,
-                0.36,
-                0.072,
-                4
+                1.9,
+                0.3
             ],
             [
-                1.69,
-                0.78,
-                0.39,
-                0.078,
-                4
+                1.9,
+                0.3
             ],
             [
-                1.82,
-                0.84,
-                0.42,
-                0.084,
-                4
+                1.9,
+                0.3
             ],
             [
-                1.95,
-                0.9,
-                0.45,
-                0.09,
-                4
+                1.9,
+                0.3
             ],
             [
-                2.1125,
-                0.975,
-                0.4875,
-                0.0975,
-                4
+                1.9,
+                0.3
             ],
             [
-                2.275,
-                1.05,
-                0.525,
-                0.105,
-                4
+                2.28,
+                0.36
             ],
             [
-                2.4375,
-                1.125,
-                0.5625,
-                0.1125,
-                4
+                2.66,
+                0.42
             ],
             [
-                2.6,
-                1.2,
-                0.6,
-                0.12,
-                4
+                3.04,
+                0.48
             ],
             [
-                2.73,
-                1.26,
-                0.63,
-                0.126,
-                4
+                3.42,
+                0.54
             ],
             [
-                2.86,
-                1.32,
-                0.66,
-                0.132,
-                4
+                3.8,
+                0.6
             ],
             [
-                2.99,
-                1.38,
-                0.69,
-                0.138,
-                4
+                4.18,
+                0.66
             ],
             [
-                3.12,
-                1.44,
-                0.72,
-                0.144,
-                4
+                4.56,
+                0.72
             ],
             [
-                3.25,
-                1.5,
-                0.75,
-                0.15,
-                4
+                4.94,
+                0.78
             ]
         ],
         "icon": "icon/skill/1213_basic_atk.png"
     },
     "121312": {
         "id": "121312",
-        "name": "",
-        "max_level": 15,
+        "name": "Blitzartiger Sprung",
+        "max_level": 9,
         "element": "Imaginary",
         "type": "Normal",
         "type_text": "Standardangriff",
         "effect": "Blast",
         "effect_text": "Ausdehnung",
-        "simple_desc": "",
-        "desc": "",
+        "simple_desc": "Fügt mit diesem Angriff 7 Treffer zu, die einem Gegner massiven imaginären SCH und angrenzenden Einheiten geringen imaginären SCH zufügen. Die letzten 4 Treffer erhalten jeweils 1 Stapelung „Beherrschendes Gebrüll“, bevor sie ausgeführt werden, was den KRIT-SCH erhöht.",
+        "desc": "Führe einen Angriff mit 7 Treffern aus, der einem anvisierten Gegner imaginären SCH in Höhe von #1[i]% von Dan Heng – Imbibitor Lunaes ANG zufügt. Fügt ab dem vierten Treffer den angrenzenden Einheiten imaginären SCH in Höhe von #2[i]% von Dan Heng – Imbibitor Lunaes ANG zu.",
         "params": [
             [
-                1.3,
-                0.6,
-                0.3,
-                0.06,
-                4,
-                0.6,
-                0.6
-            ],
-            [
-                1.43,
-                0.66,
-                0.33,
-                0.066,
-                4,
-                0.66,
-                0.66
-            ],
-            [
-                1.56,
-                0.72,
-                0.36,
-                0.072,
-                4,
-                0.72,
-                0.72
-            ],
-            [
-                1.69,
-                0.78,
-                0.39,
-                0.078,
-                4,
-                0.78,
-                0.78
-            ],
-            [
-                1.82,
-                0.84,
-                0.42,
-                0.084,
-                4,
-                0.84,
-                0.84
-            ],
-            [
-                1.95,
-                0.9,
-                0.45,
-                0.09,
-                4,
-                0.9,
+                2.5,
                 0.9
             ],
             [
-                2.1125,
-                0.975,
-                0.4875,
-                0.0975,
-                4,
-                0.975,
-                0.975
+                2.5,
+                0.9
             ],
             [
-                2.275,
-                1.05,
-                0.525,
-                0.105,
-                4,
-                1.05,
-                1.05
+                2.5,
+                0.9
             ],
             [
-                2.4375,
-                1.125,
-                0.5625,
-                0.1125,
-                4,
-                1.125,
-                1.125
+                2.5,
+                0.9
             ],
             [
-                2.6,
-                1.2,
-                0.6,
-                0.12,
-                4,
-                1.2,
-                1.2
+                2.5,
+                0.9
             ],
             [
-                2.73,
-                1.26,
-                0.63,
-                0.126,
-                4,
-                1.26,
+                2.5,
+                0.9
+            ],
+            [
+                2.5,
+                0.9
+            ],
+            [
+                3,
+                1.08
+            ],
+            [
+                3.5,
                 1.26
             ],
             [
-                2.86,
-                1.32,
-                0.66,
-                0.132,
                 4,
-                1.32,
-                1.32
-            ],
-            [
-                2.99,
-                1.38,
-                0.69,
-                0.138,
-                4,
-                1.38,
-                1.38
-            ],
-            [
-                3.12,
-                1.44,
-                0.72,
-                0.144,
-                4,
-                1.44,
                 1.44
             ],
             [
-                3.25,
-                1.5,
-                0.75,
-                0.15,
-                4,
-                1.5,
-                1.5
+                4.5,
+                1.62
+            ],
+            [
+                5,
+                1.8
+            ],
+            [
+                5.5,
+                1.98
+            ],
+            [
+                6,
+                2.16
+            ],
+            [
+                6.5,
+                2.34
             ]
         ],
         "icon": "icon/skill/1213_basic_atk.png"

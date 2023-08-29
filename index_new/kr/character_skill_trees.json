@@ -5531,7 +5531,7 @@
         "id": "1005102",
         "name": "약탈",
         "max_level": 1,
-        "desc": "감전 상태의 적이 처치될 시 카프카는 추가로 에너지를 #1[i]pt 회복한다",
+        "desc": "감전 상태인 적이 처치될 시 카프카는 추가로 에너지를 #1[i]pt 회복한다",
         "params": [
             [
                 5
@@ -5570,7 +5570,7 @@
         "id": "1005103",
         "name": "가시",
         "max_level": 1,
-        "desc": "필살기, 비술, 특성이 발동한 추가 공격으로 적을 감전 상태에 빠트릴 기본 확률이 #1[i]% 증가한다",
+        "desc": "필살기, 비술, 특성으로 발동한 추가 공격이 적을 감전 상태에 빠트릴 기본 확률이 #1[i]% 증가한다",
         "params": [
             [
                 0.3
@@ -6734,7 +6734,7 @@
         "id": "1006102",
         "name": "주입",
         "max_level": 1,
-        "desc": "전투 스킬 발동 시 적에게 부여한 약점의 지속 시간이 #1[i]턴 증가한다",
+        "desc": "전투 스킬 발동 시 적에게 부여하는 약점의 지속 시간이 #1[i]턴 증가한다",
         "params": [
             [
                 1
@@ -12706,9 +12706,9 @@
     },
     "1102102": {
         "id": "1102102",
-        "name": "분열",
+        "name": "절단",
         "max_level": 1,
-        "desc": "증폭 상태인 제레의 양자 속성 저항 관통이 #1[i]% 증가한다",
+        "desc": "증폭 상태일 때 제레의 양자 속성 저항 관통이 #1[i]% 증가한다",
         "params": [
             [
                 0.2
@@ -12745,7 +12745,7 @@
     },
     "1102103": {
         "id": "1102103",
-        "name": "잔잔한 물결",
+        "name": "파문",
         "max_level": 1,
         "desc": "일반 공격 발동 후 제레의 다음 행동 게이지가 #1[i]% 증가한다",
         "params": [
@@ -21504,6 +21504,1194 @@
         ],
         "icon": "icon/property/IconAttack.png"
     },
+    "1110001": {
+        "id": "1110001",
+        "name": "",
+        "max_level": 6,
+        "desc": "",
+        "params": [],
+        "anchor": "Point01",
+        "pre_points": [],
+        "level_up_skills": [
+            {
+                "id": "111001",
+                "num": 1
+            }
+        ],
+        "levels": [
+            {
+                "promotion": 0,
+                "properties": [],
+                "materials": []
+            },
+            {
+                "promotion": 2,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 4000
+                    },
+                    {
+                        "id": "110171",
+                        "num": 2
+                    },
+                    {
+                        "id": "111001",
+                        "num": 4
+                    }
+                ]
+            },
+            {
+                "promotion": 3,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 8000
+                    },
+                    {
+                        "id": "110172",
+                        "num": 2
+                    },
+                    {
+                        "id": "111002",
+                        "num": 2
+                    }
+                ]
+            },
+            {
+                "promotion": 4,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 16000
+                    },
+                    {
+                        "id": "110172",
+                        "num": 4
+                    },
+                    {
+                        "id": "111002",
+                        "num": 3
+                    }
+                ]
+            },
+            {
+                "promotion": 5,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 36000
+                    },
+                    {
+                        "id": "110173",
+                        "num": 2
+                    },
+                    {
+                        "id": "111003",
+                        "num": 2
+                    }
+                ]
+            },
+            {
+                "promotion": 6,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 128000
+                    },
+                    {
+                        "id": "110173",
+                        "num": 6
+                    },
+                    {
+                        "id": "111003",
+                        "num": 3
+                    }
+                ]
+            }
+        ],
+        "icon": "icon/skill/1110_basic_atk.png"
+    },
+    "1110002": {
+        "id": "1110002",
+        "name": "",
+        "max_level": 10,
+        "desc": "",
+        "params": [],
+        "anchor": "Point02",
+        "pre_points": [],
+        "level_up_skills": [
+            {
+                "id": "111002",
+                "num": 1
+            }
+        ],
+        "levels": [
+            {
+                "promotion": 0,
+                "properties": [],
+                "materials": []
+            },
+            {
+                "promotion": 1,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 2000
+                    },
+                    {
+                        "id": "111001",
+                        "num": 2
+                    }
+                ]
+            },
+            {
+                "promotion": 2,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 4000
+                    },
+                    {
+                        "id": "110171",
+                        "num": 2
+                    },
+                    {
+                        "id": "111001",
+                        "num": 4
+                    }
+                ]
+            },
+            {
+                "promotion": 3,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 8000
+                    },
+                    {
+                        "id": "110172",
+                        "num": 2
+                    },
+                    {
+                        "id": "111002",
+                        "num": 2
+                    }
+                ]
+            },
+            {
+                "promotion": 4,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 16000
+                    },
+                    {
+                        "id": "110172",
+                        "num": 4
+                    },
+                    {
+                        "id": "111002",
+                        "num": 3
+                    }
+                ]
+            },
+            {
+                "promotion": 4,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 24000
+                    },
+                    {
+                        "id": "110172",
+                        "num": 6
+                    },
+                    {
+                        "id": "111002",
+                        "num": 5
+                    }
+                ]
+            },
+            {
+                "promotion": 5,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 36000
+                    },
+                    {
+                        "id": "110173",
+                        "num": 2
+                    },
+                    {
+                        "id": "111003",
+                        "num": 2
+                    }
+                ]
+            },
+            {
+                "promotion": 5,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 64000
+                    },
+                    {
+                        "id": "110173",
+                        "num": 4
+                    },
+                    {
+                        "id": "110503",
+                        "num": 1
+                    },
+                    {
+                        "id": "111003",
+                        "num": 3
+                    }
+                ]
+            },
+            {
+                "promotion": 6,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 128000
+                    },
+                    {
+                        "id": "110173",
+                        "num": 6
+                    },
+                    {
+                        "id": "110503",
+                        "num": 1
+                    }
+                ]
+            },
+            {
+                "promotion": 6,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 240000
+                    },
+                    {
+                        "id": "110173",
+                        "num": 11
+                    },
+                    {
+                        "id": "241",
+                        "num": 1
+                    },
+                    {
+                        "id": "110503",
+                        "num": 1
+                    }
+                ]
+            }
+        ],
+        "icon": "icon/skill/1110_skill.png"
+    },
+    "1110003": {
+        "id": "1110003",
+        "name": "",
+        "max_level": 10,
+        "desc": "",
+        "params": [],
+        "anchor": "Point03",
+        "pre_points": [],
+        "level_up_skills": [
+            {
+                "id": "111003",
+                "num": 1
+            }
+        ],
+        "levels": [
+            {
+                "promotion": 0,
+                "properties": [],
+                "materials": []
+            },
+            {
+                "promotion": 1,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 2000
+                    },
+                    {
+                        "id": "111001",
+                        "num": 2
+                    }
+                ]
+            },
+            {
+                "promotion": 2,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 4000
+                    },
+                    {
+                        "id": "110171",
+                        "num": 2
+                    },
+                    {
+                        "id": "111001",
+                        "num": 4
+                    }
+                ]
+            },
+            {
+                "promotion": 3,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 8000
+                    },
+                    {
+                        "id": "110172",
+                        "num": 2
+                    },
+                    {
+                        "id": "111002",
+                        "num": 2
+                    }
+                ]
+            },
+            {
+                "promotion": 4,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 16000
+                    },
+                    {
+                        "id": "110172",
+                        "num": 4
+                    },
+                    {
+                        "id": "111002",
+                        "num": 3
+                    }
+                ]
+            },
+            {
+                "promotion": 4,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 24000
+                    },
+                    {
+                        "id": "110172",
+                        "num": 6
+                    },
+                    {
+                        "id": "111002",
+                        "num": 5
+                    }
+                ]
+            },
+            {
+                "promotion": 5,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 36000
+                    },
+                    {
+                        "id": "110173",
+                        "num": 2
+                    },
+                    {
+                        "id": "111003",
+                        "num": 2
+                    }
+                ]
+            },
+            {
+                "promotion": 5,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 64000
+                    },
+                    {
+                        "id": "110173",
+                        "num": 4
+                    },
+                    {
+                        "id": "110503",
+                        "num": 1
+                    },
+                    {
+                        "id": "111003",
+                        "num": 3
+                    }
+                ]
+            },
+            {
+                "promotion": 6,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 128000
+                    },
+                    {
+                        "id": "110173",
+                        "num": 6
+                    },
+                    {
+                        "id": "110503",
+                        "num": 1
+                    }
+                ]
+            },
+            {
+                "promotion": 6,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 240000
+                    },
+                    {
+                        "id": "110173",
+                        "num": 11
+                    },
+                    {
+                        "id": "241",
+                        "num": 1
+                    },
+                    {
+                        "id": "110503",
+                        "num": 1
+                    }
+                ]
+            }
+        ],
+        "icon": "icon/skill/1110_ultimate.png"
+    },
+    "1110004": {
+        "id": "1110004",
+        "name": "",
+        "max_level": 10,
+        "desc": "",
+        "params": [],
+        "anchor": "Point04",
+        "pre_points": [],
+        "level_up_skills": [
+            {
+                "id": "111004",
+                "num": 1
+            }
+        ],
+        "levels": [
+            {
+                "promotion": 0,
+                "properties": [],
+                "materials": []
+            },
+            {
+                "promotion": 1,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 2000
+                    },
+                    {
+                        "id": "111001",
+                        "num": 2
+                    }
+                ]
+            },
+            {
+                "promotion": 2,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 4000
+                    },
+                    {
+                        "id": "110171",
+                        "num": 2
+                    },
+                    {
+                        "id": "111001",
+                        "num": 4
+                    }
+                ]
+            },
+            {
+                "promotion": 3,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 8000
+                    },
+                    {
+                        "id": "110172",
+                        "num": 2
+                    },
+                    {
+                        "id": "111002",
+                        "num": 2
+                    }
+                ]
+            },
+            {
+                "promotion": 4,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 16000
+                    },
+                    {
+                        "id": "110172",
+                        "num": 4
+                    },
+                    {
+                        "id": "111002",
+                        "num": 3
+                    }
+                ]
+            },
+            {
+                "promotion": 4,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 24000
+                    },
+                    {
+                        "id": "110172",
+                        "num": 6
+                    },
+                    {
+                        "id": "111002",
+                        "num": 5
+                    }
+                ]
+            },
+            {
+                "promotion": 5,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 36000
+                    },
+                    {
+                        "id": "110173",
+                        "num": 2
+                    },
+                    {
+                        "id": "111003",
+                        "num": 2
+                    }
+                ]
+            },
+            {
+                "promotion": 5,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 64000
+                    },
+                    {
+                        "id": "110173",
+                        "num": 4
+                    },
+                    {
+                        "id": "110503",
+                        "num": 1
+                    },
+                    {
+                        "id": "111003",
+                        "num": 3
+                    }
+                ]
+            },
+            {
+                "promotion": 6,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 128000
+                    },
+                    {
+                        "id": "110173",
+                        "num": 6
+                    },
+                    {
+                        "id": "110503",
+                        "num": 1
+                    }
+                ]
+            },
+            {
+                "promotion": 6,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 240000
+                    },
+                    {
+                        "id": "110173",
+                        "num": 11
+                    },
+                    {
+                        "id": "241",
+                        "num": 1
+                    },
+                    {
+                        "id": "110503",
+                        "num": 1
+                    }
+                ]
+            }
+        ],
+        "icon": "icon/skill/1110_talent.png"
+    },
+    "1110007": {
+        "id": "1110007",
+        "name": "",
+        "max_level": 1,
+        "desc": "",
+        "params": [],
+        "anchor": "Point05",
+        "pre_points": [],
+        "level_up_skills": [
+            {
+                "id": "111007",
+                "num": 1
+            }
+        ],
+        "levels": [
+            {
+                "promotion": 0,
+                "properties": [],
+                "materials": []
+            }
+        ],
+        "icon": "icon/skill/1110_technique.png"
+    },
+    "1110101": {
+        "id": "1110101",
+        "name": "사전 탐측",
+        "max_level": 1,
+        "desc": "[생존 반응]을 보유한 목표가 피격되면 링스는 즉시 에너지를 #1[i]pt 회복한다",
+        "params": [
+            [
+                2
+            ]
+        ],
+        "anchor": "Point06",
+        "pre_points": [],
+        "level_up_skills": [],
+        "levels": [
+            {
+                "promotion": 2,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 4000
+                    },
+                    {
+                        "id": "110171",
+                        "num": 2
+                    },
+                    {
+                        "id": "110503",
+                        "num": 1
+                    }
+                ]
+            }
+        ],
+        "icon": "icon/skill/1110_skilltree1.png"
+    },
+    "1110102": {
+        "id": "1110102",
+        "name": "탐험 스킬",
+        "max_level": 1,
+        "desc": "제어류 디버프 상태 저항 확률이 #1[i]% 증가한다",
+        "params": [
+            [
+                0.35
+            ]
+        ],
+        "anchor": "Point07",
+        "pre_points": [],
+        "level_up_skills": [],
+        "levels": [
+            {
+                "promotion": 4,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 16000
+                    },
+                    {
+                        "id": "110172",
+                        "num": 4
+                    },
+                    {
+                        "id": "241",
+                        "num": 1
+                    },
+                    {
+                        "id": "110503",
+                        "num": 1
+                    }
+                ]
+            }
+        ],
+        "icon": "icon/skill/1110_skilltree2.png"
+    },
+    "1110103": {
+        "id": "1110103",
+        "name": "극지 생존",
+        "max_level": 1,
+        "desc": "특성으로 생긴 지속 회복 효과를 #1[i]턴 연장한다",
+        "params": [
+            [
+                1
+            ]
+        ],
+        "anchor": "Point08",
+        "pre_points": [],
+        "level_up_skills": [],
+        "levels": [
+            {
+                "promotion": 6,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 128000
+                    },
+                    {
+                        "id": "110173",
+                        "num": 6
+                    },
+                    {
+                        "id": "241",
+                        "num": 1
+                    },
+                    {
+                        "id": "110503",
+                        "num": 1
+                    }
+                ]
+            }
+        ],
+        "icon": "icon/skill/1110_skilltree3.png"
+    },
+    "1110201": {
+        "id": "1110201",
+        "name": "HP 강화",
+        "max_level": 1,
+        "desc": "",
+        "params": [],
+        "anchor": "Point09",
+        "pre_points": [],
+        "level_up_skills": [],
+        "levels": [
+            {
+                "promotion": 0,
+                "properties": [
+                    {
+                        "type": "HPAddedRatio",
+                        "value": 0.04
+                    }
+                ],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 2000
+                    },
+                    {
+                        "id": "111001",
+                        "num": 2
+                    }
+                ]
+            }
+        ],
+        "icon": "icon/property/IconMaxHP.png"
+    },
+    "1110202": {
+        "id": "1110202",
+        "name": "방어 강화",
+        "max_level": 1,
+        "desc": "",
+        "params": [],
+        "anchor": "Point10",
+        "pre_points": [
+            "1110101"
+        ],
+        "level_up_skills": [],
+        "levels": [
+            {
+                "promotion": 2,
+                "properties": [
+                    {
+                        "type": "DefenceAddedRatio",
+                        "value": 0.05
+                    }
+                ],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 4000
+                    },
+                    {
+                        "id": "110171",
+                        "num": 2
+                    },
+                    {
+                        "id": "111001",
+                        "num": 4
+                    }
+                ]
+            }
+        ],
+        "icon": "icon/property/IconDefence.png"
+    },
+    "1110203": {
+        "id": "1110203",
+        "name": "HP 강화",
+        "max_level": 1,
+        "desc": "",
+        "params": [],
+        "anchor": "Point11",
+        "pre_points": [
+            "1110202"
+        ],
+        "level_up_skills": [],
+        "levels": [
+            {
+                "promotion": 3,
+                "properties": [
+                    {
+                        "type": "HPAddedRatio",
+                        "value": 0.04
+                    }
+                ],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 8000
+                    },
+                    {
+                        "id": "110172",
+                        "num": 2
+                    },
+                    {
+                        "id": "111002",
+                        "num": 2
+                    }
+                ]
+            }
+        ],
+        "icon": "icon/property/IconMaxHP.png"
+    },
+    "1110204": {
+        "id": "1110204",
+        "name": "효과 저항 강화",
+        "max_level": 1,
+        "desc": "",
+        "params": [],
+        "anchor": "Point12",
+        "pre_points": [
+            "1110203"
+        ],
+        "level_up_skills": [],
+        "levels": [
+            {
+                "promotion": 3,
+                "properties": [
+                    {
+                        "type": "StatusResistanceBase",
+                        "value": 0.04
+                    }
+                ],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 8000
+                    },
+                    {
+                        "id": "110172",
+                        "num": 2
+                    },
+                    {
+                        "id": "111002",
+                        "num": 2
+                    }
+                ]
+            }
+        ],
+        "icon": "icon/property/IconStatusResistance.png"
+    },
+    "1110205": {
+        "id": "1110205",
+        "name": "HP 강화",
+        "max_level": 1,
+        "desc": "",
+        "params": [],
+        "anchor": "Point13",
+        "pre_points": [
+            "1110102"
+        ],
+        "level_up_skills": [],
+        "levels": [
+            {
+                "promotion": 4,
+                "properties": [
+                    {
+                        "type": "HPAddedRatio",
+                        "value": 0.06
+                    }
+                ],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 16000
+                    },
+                    {
+                        "id": "110172",
+                        "num": 4
+                    },
+                    {
+                        "id": "111002",
+                        "num": 3
+                    }
+                ]
+            }
+        ],
+        "icon": "icon/property/IconMaxHP.png"
+    },
+    "1110206": {
+        "id": "1110206",
+        "name": "방어 강화",
+        "max_level": 1,
+        "desc": "",
+        "params": [],
+        "anchor": "Point14",
+        "pre_points": [
+            "1110205"
+        ],
+        "level_up_skills": [],
+        "levels": [
+            {
+                "promotion": 5,
+                "properties": [
+                    {
+                        "type": "DefenceAddedRatio",
+                        "value": 0.075
+                    }
+                ],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 36000
+                    },
+                    {
+                        "id": "110173",
+                        "num": 2
+                    },
+                    {
+                        "id": "111003",
+                        "num": 2
+                    }
+                ]
+            }
+        ],
+        "icon": "icon/property/IconDefence.png"
+    },
+    "1110207": {
+        "id": "1110207",
+        "name": "HP 강화",
+        "max_level": 1,
+        "desc": "",
+        "params": [],
+        "anchor": "Point15",
+        "pre_points": [
+            "1110206"
+        ],
+        "level_up_skills": [],
+        "levels": [
+            {
+                "promotion": 5,
+                "properties": [
+                    {
+                        "type": "HPAddedRatio",
+                        "value": 0.06
+                    }
+                ],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 36000
+                    },
+                    {
+                        "id": "110173",
+                        "num": 2
+                    },
+                    {
+                        "id": "111003",
+                        "num": 2
+                    }
+                ]
+            }
+        ],
+        "icon": "icon/property/IconMaxHP.png"
+    },
+    "1110208": {
+        "id": "1110208",
+        "name": "효과 저항 강화",
+        "max_level": 1,
+        "desc": "",
+        "params": [],
+        "anchor": "Point16",
+        "pre_points": [
+            "1110103"
+        ],
+        "level_up_skills": [],
+        "levels": [
+            {
+                "promotion": 6,
+                "properties": [
+                    {
+                        "type": "StatusResistanceBase",
+                        "value": 0.06
+                    }
+                ],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 128000
+                    },
+                    {
+                        "id": "110173",
+                        "num": 6
+                    },
+                    {
+                        "id": "111003",
+                        "num": 6
+                    }
+                ]
+            }
+        ],
+        "icon": "icon/property/IconStatusResistance.png"
+    },
+    "1110209": {
+        "id": "1110209",
+        "name": "방어 강화",
+        "max_level": 1,
+        "desc": "",
+        "params": [],
+        "anchor": "Point17",
+        "pre_points": [
+            "1110103"
+        ],
+        "level_up_skills": [],
+        "levels": [
+            {
+                "promotion": 0,
+                "properties": [
+                    {
+                        "type": "DefenceAddedRatio",
+                        "value": 0.1
+                    }
+                ],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 128000
+                    },
+                    {
+                        "id": "110173",
+                        "num": 6
+                    },
+                    {
+                        "id": "111003",
+                        "num": 6
+                    }
+                ]
+            }
+        ],
+        "icon": "icon/property/IconDefence.png"
+    },
+    "1110210": {
+        "id": "1110210",
+        "name": "HP 강화",
+        "max_level": 1,
+        "desc": "",
+        "params": [],
+        "anchor": "Point18",
+        "pre_points": [],
+        "level_up_skills": [],
+        "levels": [
+            {
+                "promotion": 0,
+                "properties": [
+                    {
+                        "type": "HPAddedRatio",
+                        "value": 0.08
+                    }
+                ],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 128000
+                    },
+                    {
+                        "id": "110173",
+                        "num": 6
+                    },
+                    {
+                        "id": "111003",
+                        "num": 6
+                    }
+                ]
+            }
+        ],
+        "icon": "icon/property/IconMaxHP.png"
+    },
     "1111001": {
         "id": "1111001",
         "name": "",
@@ -22215,7 +23403,7 @@
         "id": "1111101",
         "name": "동력 에너지 과부하",
         "max_level": 1,
-        "desc": "전투 스킬 발동 시 바로 적의 버프 효과 #1[i]개를 해제한다",
+        "desc": "전투 스킬 발동 시 바로 적의 버프 효과를 #1[i]개 해제한다",
         "params": [
             [
                 1
@@ -22289,7 +23477,7 @@
         "id": "1111103",
         "name": "투지 분쇄",
         "max_level": 1,
-        "desc": "일반 공격 강화 발동 시, [돌격 펀치]의 1단 공격마다 #1[i]%의 고정 확률로 루카가 1단 공격을 추가로 발동한다. 해당 효과는 추가 발동된 공격에는 적용되지 않는다",
+        "desc": "일반 공격 강화 발동 시, [돌격 펀치]의 공격 단수마다 #1[i]%의 고정 확률로 루카가 1단 공격을 추가로 발동한다. 해당 효과는 추가 발동된 공격에는 적용되지 않는다",
         "params": [
             [
                 0.5
@@ -25795,7 +26983,7 @@
         "id": "1203101",
         "name": "침지 소생",
         "max_level": 1,
-        "desc": "전투 스킬 효과 발동 시 지정된 단일 아군의 디버프 효과를 #1[i]개 해제한다",
+        "desc": "전투 스킬 효과 발동 시 지정한 단일 아군의 디버프 효과를 #1[i]개 해제한다",
         "params": [
             [
                 1
@@ -25830,7 +27018,7 @@
         "id": "1203102",
         "name": "쇄신의 몸",
         "max_level": 1,
-        "desc": "결계 안에 있는 임의의 적이 아군에게 피격되면 공격자가 아닌 아군도 나찰 공격력 #1[f1]%+#2[i]만큼의 HP를 회복한다",
+        "desc": "결계 안에 있는 임의의 적이 아군에게 피격되면 공격자가 아닌 아군도 나찰 공격력의 #1[f1]%+#2[i]만큼 HP를 회복한다",
         "params": [
             [
                 0.07,
@@ -25868,7 +27056,7 @@
     },
     "1203103": {
         "id": "1203103",
-        "name": "지나온 골짜기",
+        "name": "유곡을 걷다",
         "max_level": 1,
         "desc": "제어류 디버프 상태 저항 확률이 #1[i]% 증가한다",
         "params": [
@@ -26994,9 +28182,9 @@
     },
     "1204101": {
         "id": "1204101",
-        "name": "격파",
+        "name": "적진 격파",
         "max_level": 1,
-        "desc": "다음 턴에서 [신군]의 공격 단수가 #1[i]단 이상일 경우, 그다음 턴의 치명타 피해가 #2[i]% 증가한다",
+        "desc": "다음 턴에서 [신군]의 공격 단수가 #1[i]단 이상일 경우, 신군의 치명타 피해가 #2[i]% 증가한다",
         "params": [
             [
                 6,
@@ -27069,7 +28257,7 @@
     },
     "1204103": {
         "id": "1204103",
-        "name": "장군 파견",
+        "name": "장수 파견",
         "max_level": 1,
         "desc": "전투 스킬 발동 후 치명타 확률이 #1[i]% 증가한다. 지속 시간: #2[i]턴",
         "params": [
@@ -28200,7 +29388,7 @@
     },
     "1205101": {
         "id": "1205101",
-        "name": "불로장생",
+        "name": "무한한 수명",
         "max_level": 1,
         "desc": "블레이드의 현재 HP 백분율이 HP 최대치의 50% 이하인 경우, 치유 받을 때의 회복량이 #1[i]% 증가한다",
         "params": [
@@ -28235,9 +29423,9 @@
     },
     "1205102": {
         "id": "1205102",
-        "name": "끝없는 죽음",
+        "name": "견디고 견딘 죽음",
         "max_level": 1,
-        "desc": "[무간검수] 발동 후 약점 격파 상태인 적을 명중하면, 블레이드는 자신 HP 최대치 #1[i]%+#2[i]만큼의 HP를 회복한다",
+        "desc": "[무간검수] 발동 후 약점 격파 상태인 적을 명중하면, 블레이드는 자신의 HP를 HP 최대치의 #1[i]%+#2[i]만큼 회복한다",
         "params": [
             [
                 0.05,
@@ -28277,7 +29465,7 @@
         "id": "1205103",
         "name": "괴겁의 폐망",
         "max_level": 1,
-        "desc": "특성 발동의 추가 공격 피해가 #1[i]% 증가한다",
+        "desc": "특성으로 발동된 추가 공격의 피해가 #1[i]% 증가한다",
         "params": [
             [
                 0.2
@@ -30724,7 +31912,7 @@
     },
     "1207202": {
         "id": "1207202",
-        "name": "생명 강화",
+        "name": "HP 강화",
         "max_level": 1,
         "desc": "",
         "params": [],
@@ -30876,7 +32064,7 @@
     },
     "1207206": {
         "id": "1207206",
-        "name": "생명 강화",
+        "name": "HP 강화",
         "max_level": 1,
         "desc": "",
         "params": [],
@@ -30990,7 +32178,7 @@
     },
     "1207209": {
         "id": "1207209",
-        "name": "생명 강화",
+        "name": "HP 강화",
         "max_level": 1,
         "desc": "",
         "params": [],
@@ -31063,6 +32251,1205 @@
             }
         ],
         "icon": "icon/property/IconImaginaryAddedRatio.png"
+    },
+    "1208001": {
+        "id": "1208001",
+        "name": "",
+        "max_level": 6,
+        "desc": "",
+        "params": [],
+        "anchor": "Point01",
+        "pre_points": [],
+        "level_up_skills": [
+            {
+                "id": "120801",
+                "num": 1
+            }
+        ],
+        "levels": [
+            {
+                "promotion": 0,
+                "properties": [],
+                "materials": []
+            },
+            {
+                "promotion": 2,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 5000
+                    },
+                    {
+                        "id": "110141",
+                        "num": 3
+                    },
+                    {
+                        "id": "113011",
+                        "num": 6
+                    }
+                ]
+            },
+            {
+                "promotion": 3,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 10000
+                    },
+                    {
+                        "id": "110142",
+                        "num": 3
+                    },
+                    {
+                        "id": "113012",
+                        "num": 3
+                    }
+                ]
+            },
+            {
+                "promotion": 4,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 20000
+                    },
+                    {
+                        "id": "110142",
+                        "num": 5
+                    },
+                    {
+                        "id": "113012",
+                        "num": 4
+                    }
+                ]
+            },
+            {
+                "promotion": 5,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 45000
+                    },
+                    {
+                        "id": "110143",
+                        "num": 3
+                    },
+                    {
+                        "id": "113013",
+                        "num": 3
+                    }
+                ]
+            },
+            {
+                "promotion": 6,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 160000
+                    },
+                    {
+                        "id": "110143",
+                        "num": 8
+                    },
+                    {
+                        "id": "113013",
+                        "num": 4
+                    }
+                ]
+            }
+        ],
+        "icon": "icon/skill/1208_basic_atk.png"
+    },
+    "1208002": {
+        "id": "1208002",
+        "name": "",
+        "max_level": 10,
+        "desc": "",
+        "params": [],
+        "anchor": "Point02",
+        "pre_points": [],
+        "level_up_skills": [
+            {
+                "id": "120802",
+                "num": 1
+            }
+        ],
+        "levels": [
+            {
+                "promotion": 0,
+                "properties": [],
+                "materials": []
+            },
+            {
+                "promotion": 1,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 2500
+                    },
+                    {
+                        "id": "113011",
+                        "num": 3
+                    }
+                ]
+            },
+            {
+                "promotion": 2,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 5000
+                    },
+                    {
+                        "id": "110141",
+                        "num": 3
+                    },
+                    {
+                        "id": "113011",
+                        "num": 6
+                    }
+                ]
+            },
+            {
+                "promotion": 3,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 10000
+                    },
+                    {
+                        "id": "110142",
+                        "num": 3
+                    },
+                    {
+                        "id": "113012",
+                        "num": 3
+                    }
+                ]
+            },
+            {
+                "promotion": 4,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 20000
+                    },
+                    {
+                        "id": "110142",
+                        "num": 5
+                    },
+                    {
+                        "id": "113012",
+                        "num": 4
+                    }
+                ]
+            },
+            {
+                "promotion": 4,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 30000
+                    },
+                    {
+                        "id": "110142",
+                        "num": 7
+                    },
+                    {
+                        "id": "113012",
+                        "num": 6
+                    }
+                ]
+            },
+            {
+                "promotion": 5,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 45000
+                    },
+                    {
+                        "id": "110143",
+                        "num": 3
+                    },
+                    {
+                        "id": "113013",
+                        "num": 3
+                    }
+                ]
+            },
+            {
+                "promotion": 5,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 80000
+                    },
+                    {
+                        "id": "110143",
+                        "num": 5
+                    },
+                    {
+                        "id": "110503",
+                        "num": 1
+                    },
+                    {
+                        "id": "113013",
+                        "num": 4
+                    }
+                ]
+            },
+            {
+                "promotion": 6,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 160000
+                    },
+                    {
+                        "id": "110143",
+                        "num": 8
+                    },
+                    {
+                        "id": "241",
+                        "num": 1
+                    },
+                    {
+                        "id": "110503",
+                        "num": 1
+                    }
+                ]
+            },
+            {
+                "promotion": 6,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 300000
+                    },
+                    {
+                        "id": "110143",
+                        "num": 14
+                    },
+                    {
+                        "id": "241",
+                        "num": 1
+                    },
+                    {
+                        "id": "110503",
+                        "num": 1
+                    }
+                ]
+            }
+        ],
+        "icon": "icon/skill/1208_skill.png"
+    },
+    "1208003": {
+        "id": "1208003",
+        "name": "",
+        "max_level": 10,
+        "desc": "",
+        "params": [],
+        "anchor": "Point03",
+        "pre_points": [],
+        "level_up_skills": [
+            {
+                "id": "120803",
+                "num": 1
+            }
+        ],
+        "levels": [
+            {
+                "promotion": 0,
+                "properties": [],
+                "materials": []
+            },
+            {
+                "promotion": 1,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 2500
+                    },
+                    {
+                        "id": "113011",
+                        "num": 3
+                    }
+                ]
+            },
+            {
+                "promotion": 2,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 5000
+                    },
+                    {
+                        "id": "110141",
+                        "num": 3
+                    },
+                    {
+                        "id": "113011",
+                        "num": 6
+                    }
+                ]
+            },
+            {
+                "promotion": 3,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 10000
+                    },
+                    {
+                        "id": "110142",
+                        "num": 3
+                    },
+                    {
+                        "id": "113012",
+                        "num": 3
+                    }
+                ]
+            },
+            {
+                "promotion": 4,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 20000
+                    },
+                    {
+                        "id": "110142",
+                        "num": 5
+                    },
+                    {
+                        "id": "113012",
+                        "num": 4
+                    }
+                ]
+            },
+            {
+                "promotion": 4,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 30000
+                    },
+                    {
+                        "id": "110142",
+                        "num": 7
+                    },
+                    {
+                        "id": "113012",
+                        "num": 6
+                    }
+                ]
+            },
+            {
+                "promotion": 5,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 45000
+                    },
+                    {
+                        "id": "110143",
+                        "num": 3
+                    },
+                    {
+                        "id": "113013",
+                        "num": 3
+                    }
+                ]
+            },
+            {
+                "promotion": 5,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 80000
+                    },
+                    {
+                        "id": "110143",
+                        "num": 5
+                    },
+                    {
+                        "id": "110503",
+                        "num": 1
+                    },
+                    {
+                        "id": "113013",
+                        "num": 4
+                    }
+                ]
+            },
+            {
+                "promotion": 6,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 160000
+                    },
+                    {
+                        "id": "110143",
+                        "num": 8
+                    },
+                    {
+                        "id": "241",
+                        "num": 1
+                    },
+                    {
+                        "id": "110503",
+                        "num": 1
+                    }
+                ]
+            },
+            {
+                "promotion": 6,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 300000
+                    },
+                    {
+                        "id": "110143",
+                        "num": 14
+                    },
+                    {
+                        "id": "241",
+                        "num": 1
+                    },
+                    {
+                        "id": "110503",
+                        "num": 1
+                    }
+                ]
+            }
+        ],
+        "icon": "icon/skill/1208_ultimate.png"
+    },
+    "1208004": {
+        "id": "1208004",
+        "name": "",
+        "max_level": 10,
+        "desc": "",
+        "params": [],
+        "anchor": "Point04",
+        "pre_points": [],
+        "level_up_skills": [
+            {
+                "id": "120804",
+                "num": 1
+            }
+        ],
+        "levels": [
+            {
+                "promotion": 0,
+                "properties": [],
+                "materials": []
+            },
+            {
+                "promotion": 1,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 2500
+                    },
+                    {
+                        "id": "113011",
+                        "num": 3
+                    }
+                ]
+            },
+            {
+                "promotion": 2,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 5000
+                    },
+                    {
+                        "id": "110141",
+                        "num": 3
+                    },
+                    {
+                        "id": "113011",
+                        "num": 6
+                    }
+                ]
+            },
+            {
+                "promotion": 3,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 10000
+                    },
+                    {
+                        "id": "110142",
+                        "num": 3
+                    },
+                    {
+                        "id": "113012",
+                        "num": 3
+                    }
+                ]
+            },
+            {
+                "promotion": 4,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 20000
+                    },
+                    {
+                        "id": "110142",
+                        "num": 5
+                    },
+                    {
+                        "id": "113012",
+                        "num": 4
+                    }
+                ]
+            },
+            {
+                "promotion": 4,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 30000
+                    },
+                    {
+                        "id": "110142",
+                        "num": 7
+                    },
+                    {
+                        "id": "113012",
+                        "num": 6
+                    }
+                ]
+            },
+            {
+                "promotion": 5,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 45000
+                    },
+                    {
+                        "id": "110143",
+                        "num": 3
+                    },
+                    {
+                        "id": "113013",
+                        "num": 3
+                    }
+                ]
+            },
+            {
+                "promotion": 5,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 80000
+                    },
+                    {
+                        "id": "110143",
+                        "num": 5
+                    },
+                    {
+                        "id": "110503",
+                        "num": 1
+                    },
+                    {
+                        "id": "113013",
+                        "num": 4
+                    }
+                ]
+            },
+            {
+                "promotion": 6,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 160000
+                    },
+                    {
+                        "id": "110143",
+                        "num": 8
+                    },
+                    {
+                        "id": "241",
+                        "num": 1
+                    },
+                    {
+                        "id": "110503",
+                        "num": 1
+                    }
+                ]
+            },
+            {
+                "promotion": 6,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 300000
+                    },
+                    {
+                        "id": "110143",
+                        "num": 14
+                    },
+                    {
+                        "id": "241",
+                        "num": 1
+                    },
+                    {
+                        "id": "110503",
+                        "num": 1
+                    }
+                ]
+            }
+        ],
+        "icon": "icon/skill/1208_talent.png"
+    },
+    "1208007": {
+        "id": "1208007",
+        "name": "",
+        "max_level": 1,
+        "desc": "",
+        "params": [],
+        "anchor": "Point05",
+        "pre_points": [],
+        "level_up_skills": [
+            {
+                "id": "120807",
+                "num": 1
+            }
+        ],
+        "levels": [
+            {
+                "promotion": 0,
+                "properties": [],
+                "materials": []
+            }
+        ],
+        "icon": "icon/skill/1208_technique.png"
+    },
+    "1208101": {
+        "id": "1208101",
+        "name": "태을(太乙) 점술",
+        "max_level": 1,
+        "desc": "[궁관진] 활성화 시 부현이 전투 스킬을 발동하면 에너지 #1[i]pt를 추가로 회복한다",
+        "params": [
+            [
+                20
+            ]
+        ],
+        "anchor": "Point06",
+        "pre_points": [
+            "1208201"
+        ],
+        "level_up_skills": [],
+        "levels": [
+            {
+                "promotion": 2,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 5000
+                    },
+                    {
+                        "id": "110141",
+                        "num": 3
+                    },
+                    {
+                        "id": "110503",
+                        "num": 1
+                    }
+                ]
+            }
+        ],
+        "icon": "icon/skill/1208_skilltree1.png"
+    },
+    "1208102": {
+        "id": "1208102",
+        "name": "성반(星盤) 둔갑",
+        "max_level": 1,
+        "desc": "필살기 발동 시 다른 아군의 HP를 부현 HP 최대치 #1[i]%+#2[i]만큼 회복한다",
+        "params": [
+            [
+                0.05,
+                133
+            ]
+        ],
+        "anchor": "Point07",
+        "pre_points": [
+            "1208201"
+        ],
+        "level_up_skills": [],
+        "levels": [
+            {
+                "promotion": 4,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 20000
+                    },
+                    {
+                        "id": "110142",
+                        "num": 5
+                    },
+                    {
+                        "id": "241",
+                        "num": 1
+                    },
+                    {
+                        "id": "110503",
+                        "num": 1
+                    }
+                ]
+            }
+        ],
+        "icon": "icon/skill/1208_skilltree2.png"
+    },
+    "1208103": {
+        "id": "1208103",
+        "name": "육임(六壬) 점괘",
+        "max_level": 1,
+        "desc": "[궁관진] 활성화 시 적이 아군에게 제어류 디버프 상태를 부여하면, 모든 아군이 이번 행동에서 적이 부여한 모든 제어류 디버프 상태에 저항한다. 해당 효과는 최대 1회 발동한다. [궁관진]을 다시 활성화하면 효과 발동 가능 횟수가 갱신된다",
+        "params": [],
+        "anchor": "Point08",
+        "pre_points": [],
+        "level_up_skills": [],
+        "levels": [
+            {
+                "promotion": 6,
+                "properties": [],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 160000
+                    },
+                    {
+                        "id": "110143",
+                        "num": 8
+                    },
+                    {
+                        "id": "241",
+                        "num": 1
+                    },
+                    {
+                        "id": "110503",
+                        "num": 1
+                    }
+                ]
+            }
+        ],
+        "icon": "icon/skill/1208_skilltree3.png"
+    },
+    "1208201": {
+        "id": "1208201",
+        "name": "치명타 확률 강화",
+        "max_level": 1,
+        "desc": "",
+        "params": [],
+        "anchor": "Point09",
+        "pre_points": [],
+        "level_up_skills": [],
+        "levels": [
+            {
+                "promotion": 0,
+                "properties": [
+                    {
+                        "type": "CriticalChanceBase",
+                        "value": 0.027
+                    }
+                ],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 2500
+                    },
+                    {
+                        "id": "113011",
+                        "num": 2
+                    }
+                ]
+            }
+        ],
+        "icon": "icon/property/IconCriticalChance.png"
+    },
+    "1208202": {
+        "id": "1208202",
+        "name": "HP 강화",
+        "max_level": 1,
+        "desc": "",
+        "params": [],
+        "anchor": "Point10",
+        "pre_points": [
+            "1208101"
+        ],
+        "level_up_skills": [],
+        "levels": [
+            {
+                "promotion": 2,
+                "properties": [
+                    {
+                        "type": "HPAddedRatio",
+                        "value": 0.04
+                    }
+                ],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 5000
+                    },
+                    {
+                        "id": "110141",
+                        "num": 3
+                    },
+                    {
+                        "id": "113011",
+                        "num": 6
+                    }
+                ]
+            }
+        ],
+        "icon": "icon/property/IconMaxHP.png"
+    },
+    "1208203": {
+        "id": "1208203",
+        "name": "치명타 확률 강화",
+        "max_level": 1,
+        "desc": "",
+        "params": [],
+        "anchor": "Point11",
+        "pre_points": [
+            "1208202"
+        ],
+        "level_up_skills": [],
+        "levels": [
+            {
+                "promotion": 3,
+                "properties": [
+                    {
+                        "type": "CriticalChanceBase",
+                        "value": 0.027
+                    }
+                ],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 10000
+                    },
+                    {
+                        "id": "110142",
+                        "num": 3
+                    },
+                    {
+                        "id": "113012",
+                        "num": 3
+                    }
+                ]
+            }
+        ],
+        "icon": "icon/property/IconCriticalChance.png"
+    },
+    "1208204": {
+        "id": "1208204",
+        "name": "효과 저항 강화",
+        "max_level": 1,
+        "desc": "",
+        "params": [],
+        "anchor": "Point12",
+        "pre_points": [],
+        "level_up_skills": [],
+        "levels": [
+            {
+                "promotion": 3,
+                "properties": [
+                    {
+                        "type": "StatusResistanceBase",
+                        "value": 0.04
+                    }
+                ],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 10000
+                    },
+                    {
+                        "id": "110142",
+                        "num": 3
+                    },
+                    {
+                        "id": "113012",
+                        "num": 3
+                    }
+                ]
+            }
+        ],
+        "icon": "icon/property/IconStatusResistance.png"
+    },
+    "1208205": {
+        "id": "1208205",
+        "name": "치명타 확률 강화",
+        "max_level": 1,
+        "desc": "",
+        "params": [],
+        "anchor": "Point13",
+        "pre_points": [
+            "1208102"
+        ],
+        "level_up_skills": [],
+        "levels": [
+            {
+                "promotion": 4,
+                "properties": [
+                    {
+                        "type": "CriticalChanceBase",
+                        "value": 0.04
+                    }
+                ],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 20000
+                    },
+                    {
+                        "id": "110142",
+                        "num": 5
+                    },
+                    {
+                        "id": "113012",
+                        "num": 4
+                    }
+                ]
+            }
+        ],
+        "icon": "icon/property/IconCriticalChance.png"
+    },
+    "1208206": {
+        "id": "1208206",
+        "name": "HP 강화",
+        "max_level": 1,
+        "desc": "",
+        "params": [],
+        "anchor": "Point14",
+        "pre_points": [
+            "1208205"
+        ],
+        "level_up_skills": [],
+        "levels": [
+            {
+                "promotion": 5,
+                "properties": [
+                    {
+                        "type": "HPAddedRatio",
+                        "value": 0.06
+                    }
+                ],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 45000
+                    },
+                    {
+                        "id": "110143",
+                        "num": 3
+                    },
+                    {
+                        "id": "113013",
+                        "num": 3
+                    }
+                ]
+            }
+        ],
+        "icon": "icon/property/IconMaxHP.png"
+    },
+    "1208207": {
+        "id": "1208207",
+        "name": "치명타 확률 강화",
+        "max_level": 1,
+        "desc": "",
+        "params": [],
+        "anchor": "Point15",
+        "pre_points": [],
+        "level_up_skills": [],
+        "levels": [
+            {
+                "promotion": 5,
+                "properties": [
+                    {
+                        "type": "CriticalChanceBase",
+                        "value": 0.04
+                    }
+                ],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 45000
+                    },
+                    {
+                        "id": "110143",
+                        "num": 3
+                    },
+                    {
+                        "id": "113013",
+                        "num": 3
+                    }
+                ]
+            }
+        ],
+        "icon": "icon/property/IconCriticalChance.png"
+    },
+    "1208208": {
+        "id": "1208208",
+        "name": "효과 저항 강화",
+        "max_level": 1,
+        "desc": "",
+        "params": [],
+        "anchor": "Point16",
+        "pre_points": [
+            "1208103"
+        ],
+        "level_up_skills": [],
+        "levels": [
+            {
+                "promotion": 6,
+                "properties": [
+                    {
+                        "type": "StatusResistanceBase",
+                        "value": 0.06
+                    }
+                ],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 160000
+                    },
+                    {
+                        "id": "110143",
+                        "num": 8
+                    },
+                    {
+                        "id": "113013",
+                        "num": 8
+                    }
+                ]
+            }
+        ],
+        "icon": "icon/property/IconStatusResistance.png"
+    },
+    "1208209": {
+        "id": "1208209",
+        "name": "HP 강화",
+        "max_level": 1,
+        "desc": "",
+        "params": [],
+        "anchor": "Point17",
+        "pre_points": [
+            "1208208"
+        ],
+        "level_up_skills": [],
+        "levels": [
+            {
+                "promotion": 0,
+                "properties": [
+                    {
+                        "type": "HPAddedRatio",
+                        "value": 0.08
+                    }
+                ],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 160000
+                    },
+                    {
+                        "id": "110143",
+                        "num": 8
+                    },
+                    {
+                        "id": "113013",
+                        "num": 8
+                    }
+                ]
+            }
+        ],
+        "icon": "icon/property/IconMaxHP.png"
+    },
+    "1208210": {
+        "id": "1208210",
+        "name": "치명타 확률 강화",
+        "max_level": 1,
+        "desc": "",
+        "params": [],
+        "anchor": "Point18",
+        "pre_points": [
+            "1208208"
+        ],
+        "level_up_skills": [],
+        "levels": [
+            {
+                "promotion": 0,
+                "properties": [
+                    {
+                        "type": "CriticalChanceBase",
+                        "value": 0.053
+                    }
+                ],
+                "materials": [
+                    {
+                        "id": "2",
+                        "num": 160000
+                    },
+                    {
+                        "id": "110143",
+                        "num": 8
+                    },
+                    {
+                        "id": "113013",
+                        "num": 8
+                    }
+                ]
+            }
+        ],
+        "icon": "icon/property/IconCriticalChance.png"
     },
     "1209001": {
         "id": "1209001",
@@ -33476,6 +35863,18 @@
             {
                 "id": "121301",
                 "num": 1
+            },
+            {
+                "id": "121308",
+                "num": 1
+            },
+            {
+                "id": "121310",
+                "num": 1
+            },
+            {
+                "id": "121312",
+                "num": 1
             }
         ],
         "levels": [
@@ -33588,18 +35987,6 @@
         "level_up_skills": [
             {
                 "id": "121302",
-                "num": 1
-            },
-            {
-                "id": "121308",
-                "num": 1
-            },
-            {
-                "id": "121310",
-                "num": 1
-            },
-            {
-                "id": "121312",
                 "num": 1
             }
         ],
@@ -34193,12 +36580,12 @@
     },
     "1213101": {
         "id": "1213101",
-        "name": "",
+        "name": "자취를 감춘 성신",
         "max_level": 1,
-        "desc": "",
+        "desc": "전투 시작 시 즉시 에너지를 #1[i]pt 회복한다",
         "params": [
             [
-                1
+                15
             ]
         ],
         "anchor": "Point06",
@@ -34228,9 +36615,9 @@
     },
     "1213102": {
         "id": "1213102",
-        "name": "",
+        "name": "홍수의 통솔",
         "max_level": 1,
-        "desc": "",
+        "desc": "제어류 디버프 상태 저항 확률이 #1[i]% 증가한다",
         "params": [
             [
                 0.35
@@ -34267,12 +36654,12 @@
     },
     "1213103": {
         "id": "1213103",
-        "name": "",
+        "name": "복룡봉추",
         "max_level": 1,
-        "desc": "",
+        "desc": "허수 속성 약점을 보유한 적에게 피해를 가할 시 치명타 피해가 #1[i]% 증가한다",
         "params": [
             [
-                0.12
+                0.24
             ]
         ],
         "anchor": "Point08",
@@ -34306,7 +36693,7 @@
     },
     "1213201": {
         "id": "1213201",
-        "name": "공격 강화",
+        "name": "피해 강화•허수",
         "max_level": 1,
         "desc": "",
         "params": [],
@@ -34338,7 +36725,7 @@
     },
     "1213202": {
         "id": "1213202",
-        "name": "피해 강화·허수",
+        "name": "치명타 확률 강화",
         "max_level": 1,
         "desc": "",
         "params": [],
@@ -34376,7 +36763,7 @@
     },
     "1213203": {
         "id": "1213203",
-        "name": "공격 강화",
+        "name": "피해 강화•허수",
         "max_level": 1,
         "desc": "",
         "params": [],
@@ -34452,7 +36839,7 @@
     },
     "1213205": {
         "id": "1213205",
-        "name": "공격 강화",
+        "name": "피해 강화•허수",
         "max_level": 1,
         "desc": "",
         "params": [],
@@ -34490,7 +36877,7 @@
     },
     "1213206": {
         "id": "1213206",
-        "name": "피해 강화·허수",
+        "name": "치명타 확률 강화",
         "max_level": 1,
         "desc": "",
         "params": [],
@@ -34528,7 +36915,7 @@
     },
     "1213207": {
         "id": "1213207",
-        "name": "공격 강화",
+        "name": "피해 강화•허수",
         "max_level": 1,
         "desc": "",
         "params": [],
@@ -34604,7 +36991,7 @@
     },
     "1213209": {
         "id": "1213209",
-        "name": "피해 강화·허수",
+        "name": "치명타 확률 강화",
         "max_level": 1,
         "desc": "",
         "params": [],
@@ -34642,7 +37029,7 @@
     },
     "1213210": {
         "id": "1213210",
-        "name": "공격 강화",
+        "name": "피해 강화•허수",
         "max_level": 1,
         "desc": "",
         "params": [],

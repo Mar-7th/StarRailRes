@@ -170,7 +170,7 @@
         "type_text": "Ultime",
         "effect": "AoEAttack",
         "effect_text": "ZdE",
-        "simple_desc": "Inflige des DGT de glace à tous les ennemis, avec des chances de les geler.",
+        "simple_desc": "Inflige des DGT de glace à tous les ennemis avec une chance d'appliquer l'effet Gelé.",
         "desc": "Inflige des DGT de glace équivalents à #1[i]% de l'ATQ de March 7th à tous les ennemis. Les ennemis touchés ont #2[i]% de chances de base d'être gelés pendant #3[i] tour.\nLes ennemis gelés ne peuvent pas agir et subissent des DGT de glace additionnels équivalents à #4[i]% de l'ATQ de March 7th au début de chaque tour.",
         "params": [
             [
@@ -275,7 +275,7 @@
         "type_text": "Talent",
         "effect": "SingleAttack",
         "effect_text": "Cible unique",
-        "simple_desc": "",
+        "simple_desc": "Lorsqu'un allié qui bénéficie d'un bouclier est attaqué par un ennemi, March 7th lance immédiatement un contre sur l'assaillant, lui infligeant des DGT de glace mineurs.",
         "desc": "Lorsqu'un allié bénéficiant d'un bouclier est attaqué par un ennemi, March 7th contre immédiatement, infligeant des DGT de glace équivalents à #1[i]% de son ATQ. Cet effet peut être déclenché #2[i] fois par tour.",
         "params": [
             [
@@ -364,7 +364,7 @@
         "type_text": "Technique",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "",
+        "simple_desc": "Attaque l'ennemi avec de fortes chances d'infliger Gelé à un ennemi aléatoire en début de combat.",
         "desc": "Attaque immédiatement les ennemis. Il y a #1[i]% de chances de base de geler un ennemi aléatoire pendant #2[i] tour après être entré en combat.\nUn ennemi gelé ne peut pas agir et subit des DGT de glace additionnels équivalents à #3[i]% de l'ATQ de March 7th au début de chaque tour.",
         "params": [
             [
@@ -606,8 +606,8 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Renforcement",
-        "simple_desc": "Lorsqu'il est la cible de la capacité d'un allié, la PÉN de RÉS de vent de sa prochaine attaque augmente. Cet effet peut être déclenché à nouveau après 2 tours.",
-        "desc": "Lorsque Dan Heng est la cible de la capacité d'un allié, la PÉN de RÉS de vent de sa prochaine attaque augmente de #1[i]%. Cet effet peut être déclenché à nouveau après #2[i] tours.",
+        "simple_desc": "Lorsqu'il est la cible de la capacité d'un allié, la PÉN de RÉS de vent de sa prochaine attaque augmente. Cet effet peut se déclencher à nouveau après 2 tours.",
+        "desc": "Lorsque Dan Heng est la cible de la capacité d'un allié, la PÉN de RÉS de vent de sa prochaine attaque augmente de #1[i]%. Cet effet peut se déclencher à nouveau après #2[i] tours.",
         "params": [
             [
                 0.18,
@@ -906,7 +906,7 @@
         "type_text": "Talent",
         "effect": "AoEAttack",
         "effect_text": "ZdE",
-        "simple_desc": "Obtient un cumul de Charge lorsqu'un ennemi subit une Rupture de faiblesse.\nLorsque la Charge est complète, après une attaque alliée, Himeko lance immédiatement une attaque de suivi qui inflige des DGT de feu en consommant tous les cumuls de Charge.\nGagne 1 cumul de Charge au début de chaque combat.",
+        "simple_desc": "Obtient un cumul de Charge lorsqu'un ennemi subit une Rupture de faiblesse.\nLorsque la Charge est complète, après une attaque alliée, Himeko lance immédiatement une attaque de suivi qui inflige des DGT de feu à tous les ennemis, en consommant tous les cumuls de Charge.\nGagne 1 cumul de Charge au début de chaque combat.",
         "desc": "Lorsqu'un ennemi subit une Rupture de faiblesse, Himeko obtient 1 point de Charge (#2[i] points max).\nSi la Charge de Himeko est au maximum lorsqu'un allié attaque, Himeko effectue immédiatement 1 attaque de suivi et inflige des DGT de feu équivalents à #1[i]% de son ATQ à tous les ennemis, consommant tous les points de Charge.\nHimeko obtient 1 point de Charge en début de combat.",
         "params": [
             [
@@ -1058,7 +1058,7 @@
         "type_text": "Compétence",
         "effect": "Bounce",
         "effect_text": "Rebond",
-        "simple_desc": "Inflige des DGT imaginaires mineurs à des ennemis aléatoires. Cette attaque peut rebondir 3 fois et a une chance de ralentir les ennemis touchés.",
+        "simple_desc": "Inflige des DGT imaginaires mineurs à une cible ennemie unique. Cette attaque peut rebondir 3 fois et a une chance de ralentir les ennemis touchés.",
         "desc": "Inflige des DGT imaginaires équivalents à #1[i]% de l'ATQ de Welt à un ennemi unique et inflige des DGT 2 fois supplémentaires, infligeant à chaque fois des DGT imaginaires équivalents à #1[i]% de l'ATQ de Welt à un ennemi aléatoire. Les attaques qui touchent un ennemi ont #2[i]% de chances de base de réduire sa VIT de #3[i]% pendant #4[i] tours.",
         "params": [
             [
@@ -1497,7 +1497,7 @@
         "effect": "AoEAttack",
         "effect_text": "ZdE",
         "simple_desc": "Inflige des DGT de foudre mineurs à tous les ennemis, avec de fortes chances de les stupéfier.\nSi les ennemis sont déjà stupéfiés, l'état Stupéfaction inflige des dégâts 1 fois de plus.",
-        "desc": "Inflige des DGT de foudre équivalents à #1[i]% de l'ATQ de Kafka à tous les ennemis. Les ennemis touchés ont #2[i]% de chances de base d'être stupéfiés et de subir immédiatement des DGT équivalents à #5[i]% des dégâts sur la durée. Stupéfaction dure #3[i] tours.\nLes ennemis stupéfiés subissent des dégâts de foudre sur la durée équivalents à #4[i]% de l'ATQ de Kafka au début de chaque tour.",
+        "desc": "Inflige des DGT de foudre équivalents à #1[i]% de l'ATQ de Kafka à tous les ennemis. Les ennemis touchés ont #2[i]% de chances de base d'être stupéfiés et de subir immédiatement des dégâts équivalents à #5[i]% des DGT initiaux de l'effet Stupéfaction. Stupéfaction dure #3[i] tours.\nLes ennemis stupéfiés subissent des dégâts de foudre sur la durée équivalents à #4[i]% de l'ATQ de Kafka au début de chaque tour.",
         "params": [
             [
                 0.48,
@@ -1616,7 +1616,7 @@
         "type_text": "Talent",
         "effect": "SingleAttack",
         "effect_text": "Cible unique",
-        "simple_desc": "Lorsqu'un allié lance son ATQ normale sur un ennemi, Kafka lance immédiatement une attaque de suivi et inflige des DGT de foudre mineurs, avec de fortes chances d'infliger Stupéfaction à cette cible. Cet effet ne peut être déclenché qu'1 fois par tour.",
+        "simple_desc": "Lorsqu'un allié lance son ATQ normale sur un ennemi, Kafka lance immédiatement une attaque de suivi et inflige des DGT de foudre, avec de fortes chances d'infliger Stupéfaction à cette cible. Cet effet ne peut être déclenché que 1 fois par tour.",
         "desc": "Lorsqu'un allié de Kafka utilise une ATQ normale sur une cible ennemie, Kafka lance immédiatement 1 attaque de suivi et inflige des DGT de foudre équivalents à #1[i]% de son ATQ à cette cible, avec #2[i]% de chances de base de lui infliger l'effet Stupéfaction de son ultime pendant #3[i] tours. Cet effet ne peut être déclenché que 1 fois par tour.",
         "params": [
             [
@@ -1721,7 +1721,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "Attaque les ennemis à portée. Inflige des DGT de foudre mineurs à tous les ennemis avec de fortes chances de les stupéfier après être entré en combat.",
-        "desc": "Attaque immédiatement tous les ennemis dans un rayon déterminé. Inflige des DGT de foudre équivalents à #3[i]% de l'ATQ de Kafka à tous les ennemis après être entré en combat, avec #1[i]% de chances de base d'infliger l'effet Stupéfaction de l'ultime à chaque ennemi pendant #2[i] tours.",
+        "desc": "Attaque immédiatement tous les ennemis dans un rayon déterminé. Inflige des DGT de foudre équivalents à #3[i]% de l'ATQ de Kafka à tous les ennemis après être entrée en combat, avec #1[i]% de chances de base d'infliger l'effet Stupéfaction de l'ultime à chaque ennemi pendant #2[i] tours.",
         "params": [
             [
                 1,
@@ -2171,7 +2171,7 @@
         "type_text": "Technique",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "Attaque les ennemis. Après être entré en combat, inflige des DGT mineurs à tous les ennemis et réduit la robustesse de tous les ennemis, quels que soient leurs types de faiblesses.",
+        "simple_desc": "Attaque les ennemis. Inflige des DGT mineurs à tous les ennemis et réduit leur robustesse, quels que soient leurs types de faiblesses après être entré en combat.",
         "desc": "Attaque immédiatement. Inflige des DGT quantiques équivalents à #1[i]% de l'ATQ de Louve d'argent à tous les ennemis, ignore les types de faiblesse et réduit la robustesse de tous les ennemis après être entré en combat. Les ennemis qui subissent une Rupture de faiblesse de cette manière déclenchent l'effet de Rupture de faiblesse quantique.",
         "params": [
             [
@@ -2754,7 +2754,7 @@
         "type_text": "Technique",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "Attaque les ennemis. Après être entré en combat, inflige des DGT mineurs à tous les ennemis.",
+        "simple_desc": "Attaque les ennemis. Inflige des DGT mineurs à tous les ennemis après être entré en combat.",
         "desc": "Attaque immédiatement. Inflige des DGT de feu équivalents à #1[i]% de l'ATQ d'Asta à tous les ennemis après être entré en combat.",
         "params": [
             [
@@ -3114,7 +3114,7 @@
         "type_text": "Compétence",
         "effect": "Support",
         "effect_text": "Soutien",
-        "simple_desc": "Supprime 1 malus d'un allié unique, augmente ses DGT et lui permet d'agir immédiatement.",
+        "simple_desc": "Dissipe 1 malus subi par un allié unique, augmente les DGT qu'il inflige, et lui permet d'agir immédiatement.",
         "desc": "Dissipe un malus d'un allié, lui permet d'agir immédiatement et augmente ses DGT de #1[i]% pendant #3[i] tour.\nLorsque cette compétence est utilisée sur Bronya, elle ne peut pas agir immédiatement à nouveau.",
         "params": [
             [
@@ -3398,7 +3398,7 @@
         "type_text": "Technique",
         "effect": "Support",
         "effect_text": "Soutien",
-        "simple_desc": "Après l'utilisation de la technique, l'ATQ de tous les alliés augmente au début du prochain combat.",
+        "simple_desc": "Après utilisation de la technique, l'ATQ de tous les alliés augmente au début du combat suivant.",
         "desc": "Après utilisation de la technique de Bronya, l'ATQ de tous les alliés augmente de #1[i]% pendant #2[i] tours au début du combat suivant.",
         "params": [
             [
@@ -4027,7 +4027,7 @@
         "type_text": "Technique",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "Attaque les ennemis. Après être entré en combat, inflige des DGT mineurs à un ennemi unique aléatoire, avec de fortes chances d'appliquer Stupéfaction à toutes les cibles ennemies.",
+        "simple_desc": "Attaque les ennemis. Inflige des DGT mineurs à un ennemi unique aléatoire après être entré en combat, avec de fortes chances d'appliquer Stupéfaction à toutes les cibles ennemies.",
         "desc": "Attaque immédiatement les ennemis. Inflige des DGT de foudre équivalents à #4[i]% de l'ATQ de Serval à un ennemi aléatoire après être entré en combat, avec #1[i]% de chances de base que tous les ennemis soient stupéfiés pendant #3[i] tours.\nLes ennemis stupéfiés subissent des dégâts de foudre sur la durée équivalents à #2[i]% de l'ATQ de Serval au début de chaque tour.",
         "params": [
             [
@@ -4090,7 +4090,7 @@
         "type_text": "Compétence",
         "effect": "Impair",
         "effect_text": "Incapacitation",
-        "simple_desc": "Inflige des DGT de glace à un ennemi unique et a une chance de le geler.",
+        "simple_desc": "Inflige des DGT de glace à un ennemi unique, avec une chance de le geler.",
         "desc": "Inflige des DGT de glace équivalents à #1[i]% de l'ATQ de Gepard à un ennemi unique avec #2[i]% de chances de base de geler l'ennemi pendant #3[i] tour.\nUn ennemi gelé ne peut pas agir et subit des DGT de glace additionnels équivalents à #4[i]% de l'ATQ de Gepard au début de chaque tour.",
         "params": [
             [
@@ -4285,7 +4285,7 @@
         "type_text": "Talent",
         "effect": "Restore",
         "effect_text": "Restauration",
-        "simple_desc": "Au lieu de tomber à terre lorsqu'il subit un coup fatal, restaure immédiatement des PV. Cet effet ne peut se déclencher qu'une fois par combat.",
+        "simple_desc": "Au lieu de tomber à terre lorsqu'il subit un coup fatal, restaure immédiatement des PV. Cet effet ne peut se déclencher qu'1 fois par combat.",
         "desc": "Au lieu de tomber à terre lorsqu'il subit un coup fatal, Gepard restaure immédiatement #1[i]% de ses PV max. Cet effet ne peut se déclencher qu'une fois par combat.",
         "params": [
             [
@@ -4359,7 +4359,7 @@
         "type_text": "Technique",
         "effect": "Defence",
         "effect_text": "Défense",
-        "simple_desc": "Après l'utilisation de la technique, tous les alliés obtiennent un bouclier au début du prochain combat.",
+        "simple_desc": "Après utilisation de la technique, tous les alliés obtiennent un bouclier au début du combat suivant.",
         "desc": "Après utilisation de la technique de Gepard, tous les alliés gagnent un bouclier qui absorbe des DGT équivalents à #1[i]% de la DÉF de Gepard + #3[i] pendant #2[i] tours au début du combat suivant.",
         "params": [
             [
@@ -4706,7 +4706,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "Attaque les ennemis. Inflige des DGT physiques mineurs à un ennemi unique aléatoire, avec de fortes chances d'infliger Affaiblissement à toutes les cibles ennemies après être entré en combat.",
-        "desc": "Attaque immédiatement les ennemis. Inflige des DGT physiques équivalents à #4[i]% de l'ATQ de Natasha à un ennemi aléatoire avec #1[i]% de chances de base d'affaiblir tous les ennemis après être entré en combat.\nLes ennemis affaiblis infligent #2[i]% de DGT en moins aux alliés pendant #3[i] tour.",
+        "desc": "Attaque immédiatement les ennemis. Inflige des DGT physiques équivalents à #4[i]% de l'ATQ de Natasha à un ennemi aléatoire après être entré en combat, avec #1[i]% de chances de base d'affaiblir tous les ennemis.\nLes ennemis affaiblis infligent #2[i]% de DGT en moins aux alliés pendant #3[i] tour.",
         "params": [
             [
                 1,
@@ -4768,7 +4768,7 @@
         "type_text": "Compétence",
         "effect": "Impair",
         "effect_text": "Incapacitation",
-        "simple_desc": "Supprime 1 bonus et inflige des DGT de glace à un ennemi unique.",
+        "simple_desc": "Dissipe 1 bonus d'une cible ennemie unique, et inflige des DGT de glace à la cible ennemie.",
         "desc": "Supprime #2[i] bonus et inflige des DGT de glace équivalents à #1[i]% de l'ATQ de Pela à une cible ennemie unique.",
         "params": [
             [
@@ -5022,7 +5022,7 @@
         "type_text": "Technique",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "Attaque les ennemis. Après être entré en combat, inflige des DGT mineurs à un ennemi unique aléatoire, avec de fortes chances de réduire la DÉF de toutes les cibles ennemies.",
+        "simple_desc": "Attaque les ennemis. Inflige des DGT mineurs à un ennemi unique aléatoire après être entré en combat, avec de fortes chances de réduire la DÉF de toutes les cibles ennemies.",
         "desc": "Attaque immédiatement les ennemis. Pela inflige des DGT de glace équivalents à #4[i]% de son ATQ à un ennemi aléatoire en entrant en combat, avec #1[i]% de chances de base de diminuer la DÉF de tous les ennemis de #2[i]% pendant #3[i] tours.",
         "params": [
             [
@@ -5085,7 +5085,7 @@
         "type_text": "Compétence",
         "effect": "AoEAttack",
         "effect_text": "ZdE",
-        "simple_desc": "Inflige des DGT physiques mineurs à tous les ennemis et des DGT physiques mineurs supplémentaires aux cibles qui portent une Marque de contre.",
+        "simple_desc": "Inflige des DGT physiques à tous les ennemis et des DGT physiques supplémentaires aux cibles qui portent une Marque de contre.",
         "desc": "Inflige des DGT physiques équivalents à #1[i]% de l'ATQ de Clara à tous les ennemis et des DGT physiques supplémentaires équivalents à #2[i]% de l'ATQ de Clara aux ennemis marqués par Svarog d'une Marque de contre.\nToutes les Marques de contre sont supprimées après utilisation de cette compétence.",
         "params": [
             [
@@ -5160,8 +5160,8 @@
         "type_text": "Ultime",
         "effect": "Enhance",
         "effect_text": "Renforcement",
-        "simple_desc": "Réduit les DGT subis, augmente les chances d'être attaqué par les ennemis et améliore l'effet du contre.",
-        "desc": "Après utilisation de l'ultime de Clara, les DGT qu'elle subit sont réduits de #4[i]% supplémentaires et ses chances d'être attaquée par des ennemis sont fortement augmentées pendant #3[i] tours.\nD'autre part, le contre de Svarog est renforcé. Lorsqu'un allié est attaqué, Svarog lance immédiatement un contre et son multiplicateur de DGT contre l'ennemi augmente de #2[i]%. Les ennemis adjacents subissent 50 % des DGT infligés à la cible ennemie. Le contre renforcé peut prendre effet #5[i] fois.",
+        "simple_desc": "Réduit les DGT subis, augmente les chances d'être attaqué par les ennemis et renforce les contres.",
+        "desc": "Après utilisation de l'ultime de Clara, les DGT qu'elle subit sont réduits de #4[i]% supplémentaires et ses chances d'être attaquée par les ennemis sont considérablement augmentées pendant #3[i] tours.\nD'autre part, le contre de Svarog est renforcé. Lorsqu'un allié est attaqué, Svarog lance immédiatement un contre et son multiplicateur de DGT contre l'ennemi augmente de #2[i]%. Les ennemis adjacents subissent 50 % des DGT infligés à la cible ennemie. Le contre renforcé peut prendre effet #5[i] fois.",
         "params": [
             [
                 5,
@@ -5280,7 +5280,7 @@
         "type_text": "Talent",
         "effect": "SingleAttack",
         "effect_text": "Cible unique",
-        "simple_desc": "Réduit les DGT infligés par toutes les attaques ennemies. Les ennemis qui attaquent Clara obtiennent une Marque de contre, et subissent le Contre de Svarog qui inflige des DGT physiques.",
+        "simple_desc": "Réduit les DGT infligés par les attaques ennemies. Les ennemis qui attaquent Clara obtiennent une Marque de contre, et subissent le contre de Svarog qui inflige des DGT physiques.",
         "desc": "Sous la protection de Svarog, les DGT subis par Clara lorsqu'elle est touchée par des attaques ennemies sont réduits de #3[i]%. Svarog marque les ennemis qui attaquent Clara de sa Marque de contre et riposte avec un contre, infligeant des DGT physiques équivalents à #2[i]% de l'ATQ de Clara.",
         "params": [
             [
@@ -5911,7 +5911,7 @@
         "type_text": "Ultime",
         "effect": "SingleAttack",
         "effect_text": "Cible unique",
-        "simple_desc": "Inflige des DGT de feu massifs à un ennemi unique et renforce la compétence de Hook lors de sa prochaine utilisation.",
+        "simple_desc": "Inflige des DGT de feu massifs à un ennemi unique et renforce la compétence lors de sa prochaine utilisation.",
         "desc": "Inflige des DGT de feu équivalents à #1[i]% de l'ATQ de Hook à un ennemi unique.\nAprès utilisation de l'ultime, la prochaine compétence utilisée est renforcée, infligeant des DGT à la cible ennemie et aux ennemis adjacents.",
         "params": [
             [
@@ -5971,7 +5971,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Renforcement",
-        "simple_desc": "",
+        "simple_desc": "Lorsque Hook attaque une cible souffrant de Brûlure, elle inflige des DGT de feu additionnels moyens et régénère  points d'énergie supplémentaires.",
         "desc": "Lorsque Hook attaque une cible affectée par l'état Brûlure, elle inflige des DGT de feu additionnels équivalents à #1[i]% de son ATQ et régénère #2[i] points d'énergie supplémentaires.",
         "params": [
             [
@@ -6060,7 +6060,7 @@
         "type_text": "Technique",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "",
+        "simple_desc": "Attaque l'ennemi. Inflige des DGT de feu à un ennemi unique aléatoire, avec de fortes chances d'appliquer Brûlure à toutes les cibles ennemies après être entré en combat.",
         "desc": "Attaque immédiatement les ennemis. Hook inflige des DGT de feu équivalents à #4[i]% de son ATQ à un ennemi aléatoire en entrant en combat. D'autre part, il y a #1[i]% de chances de base d'infliger Brûlure à tous les ennemis pendant #3[i] tours.\nLes ennemis affectés par l'état Brûlure subissent des dégâts de feu sur la durée équivalents à #2[i]% de l'ATQ de Hook au début de chaque tour.",
         "params": [
             [
@@ -6191,6 +6191,425 @@
             ]
         ],
         "icon": "icon/skill/1109_skill.png"
+    },
+    "111001": {
+        "id": "111001",
+        "name": "Assaut du pic à glace",
+        "max_level": 9,
+        "element": "Quantum",
+        "type": "Normal",
+        "type_text": "ATQ normale",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "Inflige des DGT quantiques mineurs à un ennemi unique.",
+        "desc": "Inflige des DGT quantiques équivalents à #1[i]% des PV max de Lynx à un ennemi unique.",
+        "params": [
+            [
+                0.25
+            ],
+            [
+                0.3
+            ],
+            [
+                0.35
+            ],
+            [
+                0.4
+            ],
+            [
+                0.45
+            ],
+            [
+                0.5
+            ],
+            [
+                0.55
+            ],
+            [
+                0.6
+            ],
+            [
+                0.65
+            ]
+        ],
+        "icon": "icon/skill/1110_basic_atk.png"
+    },
+    "111002": {
+        "id": "111002",
+        "name": "Sardines en conserve",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Compétence",
+        "effect": "Restore",
+        "effect_text": "Restauration",
+        "simple_desc": "Applique Instinct de survie à un allié unique, augmente ses PV max, et lui redonne des PV.",
+        "desc": "Applique Instinct de survie à une cible alliée unique et augmente ses PV max d'un montant équivalent à #1[f1]% des PV max de Lynx + #2[i]. Si la cible est un personnage de la Voie de la Destruction ou de la Préservation, elle voit ses chances d'être attaquée par les ennemis considérablement augmenter. Instinct de survie dure #3[i] tours.\nRestaure les PV de la cible à hauteur de #4[f1]% des PV max de Lynx + #5[i].",
+        "params": [
+            [
+                0.05,
+                50,
+                2,
+                0.08,
+                80,
+                5
+            ],
+            [
+                0.0525,
+                80,
+                2,
+                0.085,
+                128,
+                5
+            ],
+            [
+                0.055,
+                102.5,
+                2,
+                0.09,
+                164,
+                5
+            ],
+            [
+                0.0575,
+                125,
+                2,
+                0.095,
+                200,
+                5
+            ],
+            [
+                0.06,
+                140,
+                2,
+                0.1,
+                224,
+                5
+            ],
+            [
+                0.0625,
+                155,
+                2,
+                0.104,
+                248,
+                5
+            ],
+            [
+                0.0656,
+                166.25,
+                2,
+                0.108,
+                266,
+                5
+            ],
+            [
+                0.0688,
+                177.5,
+                2,
+                0.112,
+                284,
+                5
+            ],
+            [
+                0.0719,
+                188.75,
+                2,
+                0.116,
+                302,
+                5
+            ],
+            [
+                0.075,
+                200,
+                2,
+                0.12,
+                320,
+                5
+            ],
+            [
+                0.0775,
+                211.25,
+                2,
+                0.124,
+                338,
+                5
+            ],
+            [
+                0.08,
+                222.5,
+                2,
+                0.128,
+                356,
+                5
+            ],
+            [
+                0.0825,
+                233.75,
+                2,
+                0.132,
+                374,
+                5
+            ],
+            [
+                0.085,
+                245,
+                2,
+                0.136,
+                392,
+                5
+            ],
+            [
+                0.0875,
+                256.25,
+                2,
+                0.14,
+                410,
+                5
+            ]
+        ],
+        "icon": "icon/skill/1110_skill.png"
+    },
+    "111003": {
+        "id": "111003",
+        "name": "Plan de secours des Plaines des neiges",
+        "max_level": 15,
+        "element": "",
+        "type": "Ultra",
+        "type_text": "Ultime",
+        "effect": "Restore",
+        "effect_text": "Restauration",
+        "simple_desc": "Dissipe 1 malus à tous les alliés et leur redonne des PV.",
+        "desc": "Dissipe #1[i] malus à tous les alliés et leur redonne immédiatement un montant de PV équivalent à #2[f1]% des PV max de Lynx + #3[i].",
+        "params": [
+            [
+                1,
+                0.09,
+                90
+            ],
+            [
+                1,
+                0.0956,
+                144
+            ],
+            [
+                1,
+                0.1013,
+                184.5
+            ],
+            [
+                1,
+                0.1069,
+                225
+            ],
+            [
+                1,
+                0.1125,
+                252
+            ],
+            [
+                1,
+                0.117,
+                279
+            ],
+            [
+                1,
+                0.1215,
+                299.25
+            ],
+            [
+                1,
+                0.126,
+                319.5
+            ],
+            [
+                1,
+                0.1305,
+                339.75
+            ],
+            [
+                1,
+                0.135,
+                360
+            ],
+            [
+                1,
+                0.1395,
+                380.25
+            ],
+            [
+                1,
+                0.144,
+                400.5
+            ],
+            [
+                1,
+                0.1485,
+                420.75
+            ],
+            [
+                1,
+                0.153,
+                441
+            ],
+            [
+                1,
+                0.1575,
+                461.25
+            ]
+        ],
+        "icon": "icon/skill/1110_ultimate.png"
+    },
+    "111004": {
+        "id": "111004",
+        "name": "Expérience de survie en plein air",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Restore",
+        "effect_text": "Restauration",
+        "simple_desc": "Chaque fois que Lynx utilise sa compétence ou son ultime, elle applique un effet de soins continus sur l'allié ciblé. Si la cible bénéficie d'Instinct de survie, l'effet de soins continus est augmenté.",
+        "desc": "Chaque fois que Lynx utilise sa compétence ou son ultime, elle applique un effet de soins continus sur l'allié ciblé pendant #1[i] tours, ce qui restaure un montant de PV équivalent à #2[f1]% des PV max de Lynx + #3[i] au début de chaque tour. Si la cible bénéficie d'Instinct de survie, l'effet de soins continus restaure en plus un montant de PV équivalent à #4[f1]% des PV max de Lynx + #5[i].",
+        "params": [
+            [
+                2,
+                0.024,
+                24,
+                0.03,
+                30
+            ],
+            [
+                2,
+                0.0255,
+                38.4,
+                0.0319,
+                48
+            ],
+            [
+                2,
+                0.027,
+                49.2,
+                0.0338,
+                61.5
+            ],
+            [
+                2,
+                0.0285,
+                60,
+                0.0356,
+                75
+            ],
+            [
+                2,
+                0.03,
+                67.2,
+                0.0375,
+                84
+            ],
+            [
+                2,
+                0.0312,
+                74.4,
+                0.039,
+                93
+            ],
+            [
+                2,
+                0.0324,
+                79.8,
+                0.0405,
+                99.75
+            ],
+            [
+                2,
+                0.0336,
+                85.2,
+                0.042,
+                106.5
+            ],
+            [
+                2,
+                0.0348,
+                90.6,
+                0.0435,
+                113.25
+            ],
+            [
+                2,
+                0.036,
+                96,
+                0.045,
+                120
+            ],
+            [
+                2,
+                0.0372,
+                101.4,
+                0.0465,
+                126.75
+            ],
+            [
+                2,
+                0.0384,
+                106.8,
+                0.048,
+                133.5
+            ],
+            [
+                2,
+                0.0396,
+                112.2,
+                0.0495,
+                140.25
+            ],
+            [
+                2,
+                0.0408,
+                117.6,
+                0.051,
+                147
+            ],
+            [
+                2,
+                0.042,
+                123,
+                0.0525,
+                153.75
+            ]
+        ],
+        "icon": "icon/skill/1110_talent.png"
+    },
+    "111006": {
+        "id": "111006",
+        "name": "Attaque",
+        "max_level": 1,
+        "element": "Quantum",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
+        "params": [],
+        "icon": "icon/skill/1110_basic_atk.png"
+    },
+    "111007": {
+        "id": "111007",
+        "name": "Barre énergétique chocolatée",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Restore",
+        "effect_text": "Restauration",
+        "simple_desc": "Après utilisation de la technique, tous les alliés bénéficient d'un effet de soins continus au début du combat suivant.",
+        "desc": "Lorsque Lynx utilise sa technique, tous les alliés bénéficient de l'effet de soins continus de son talent pendant #1[i] tours au début du combat suivant.",
+        "params": [
+            [
+                2
+            ]
+        ],
+        "icon": "icon/skill/1110_technique.png"
     },
     "111101": {
         "id": "111101",
@@ -6484,7 +6903,7 @@
         "effect": "Enhance",
         "effect_text": "Renforcement",
         "simple_desc": "Reçoit 1 cumul de Soif de combat après avoir utilisé l'ATQ normale Direct du droit ou la compétence Poing lacérateur. À 2 cumuls ou plus de Soif de combat, l'ATQ normale devient renforcée.\nSi l'ennemi est victime de Saignement, l'ATQ normale renforcée augmente les DGT de Saignement 1 fois.",
-        "desc": "Luka reçoit #1[i] cumul de Soif de combat après avoir utilisé son ATQ normale Direct du droit ou sa compétence Poing lacérateur jusqu'à un maximum de 4 cumuls. À 2 cumuls de Soif de combat, son ATQ normale Direct du droit est renforcée en Poing destructeur d'étoiles. Lorsque l'Uppercut du droit de son ATQ normale renforcée touche une cible ennemie victime de Saignement, l'effet Saignement inflige immédiatement des DGT équivalents à #2[i]% des DGT de Saignement d'origine 1 fois. Luka dispose d'1 cumul de Soif de combat en début de combat.",
+        "desc": "Luka reçoit #1[i] cumul de Soif de combat après avoir utilisé son ATQ normale Direct du droit ou sa compétence Poing lacérateur jusqu'à un maximum de 4 cumuls. À 2 cumuls de Soif de combat, son ATQ normale Direct du droit est renforcée en Poing destructeur d'étoiles. Lorsque l'Uppercut du droit de son ATQ normale renforcée touche une cible ennemie victime de Saignement, l'effet Saignement inflige immédiatement des DGT équivalents à #2[i]% des DGT de Saignement initiaux 1 fois. Luka dispose d'1 cumul de Soif de combat en début de combat.",
         "params": [
             [
                 1,
@@ -6908,7 +7327,7 @@
         "type_text": "Technique",
         "effect": "Enhance",
         "effect_text": "Renforcement",
-        "simple_desc": "Après utilisation de la technique, pioche une tuile au début du combat suivant.",
+        "simple_desc": "Après utilisation de la technique, pioche des tuiles au début du combat suivant.",
         "desc": "Après utilisation de la technique, Qingque pioche #1[i] tuiles de jade en début de combat.",
         "params": [
             [
@@ -7349,7 +7768,7 @@
         "effect": "Restore",
         "effect_text": "Restauration",
         "simple_desc": "Restaure les PV d'un allié unique et gagne 1 cumul de Fleur de l'abîme.",
-        "desc": "Après utilisation de la compétence, restaure immédiatement des PV à une cible alliée à hauteur de #1[i]% de l'ATQ de Luocha + #2[i]. D'autre part, Luocha obtient 1 cumul de Fleur de l'abîme.\nLorsque le pourcentage de PV d'un allié devient inférieur ou égal à #3[i]%, un effet équivalent à celui de la compétence est immédiatement déclenché et appliqué une fois à cet allié (sans consommer de points de compétence). Cet effet peut être déclenché à nouveau après #4[i] tours.",
+        "desc": "Après utilisation de la compétence, restaure immédiatement des PV à une cible alliée à hauteur de #1[i]% de l'ATQ de Luocha + #2[i]. D'autre part, Luocha obtient 1 cumul de Fleur de l'abîme.\nLorsque le pourcentage de PV d'un allié devient inférieur ou égal à #3[i]%, un effet équivalent à celui de la compétence est immédiatement déclenché et appliqué une fois à cet allié (sans consommer de points de compétence). Cet effet peut se déclencher à nouveau après #4[i] tours.",
         "params": [
             [
                 0.4,
@@ -8168,7 +8587,7 @@
         "effect": "Blast",
         "effect_text": "Propagation",
         "simple_desc": "Les PV du personnage passent à 50 % de ses PV max, et il inflige des DGT de vent massifs à une cible unique ainsi que des DGT de vent aux cibles adjacentes.",
-        "desc": "Les PV de Blade passent à 50 % de ses PV max, et il inflige des DGT de vent équivalents à la somme de #1[i]% de son ATQ, #2[i]% de ses PV max, et #5[i]% du total des PV qu'il a perdus au cours du combat à une cible unique, tout en infligeant des DGT de vent équivalents à la somme de #3[f1]% de son ATQ, #4[i]% de ses PV max, et #6[i]% du total des PV qu'il a perdus au cours du combat aux cibles adjacentes. Le montant des PV qu'il a perdus au cours du combat est plafonné à #7[i]% de ses PV max. Ce montant est remis à zéro et recommence à s'accumuler après l'utilisation de l'ultime.",
+        "desc": "Les PV de Blade passent à 50 % de ses PV max, et il inflige des DGT de vent équivalents à la somme de #1[i]% de son ATQ, #2[i]% de ses PV max, et #5[i]% du total des PV qu'il a perdus au cours du combat à une cible unique, tout en infligeant des DGT de vent équivalents à la somme de #3[f1]% de son ATQ, #4[i]% de ses PV max, et #6[i]% du total des PV qu'il a perdus au cours du combat aux cibles adjacentes.\nLe total des PV qu'il a perdus au cours du combat est plafonné à #7[i]% de ses PV max. Ce montant est réinitialisé et recommence à s'accumuler après utilisation de l'ultime.",
         "params": [
             [
                 0.24,
@@ -8919,7 +9338,7 @@
         "type_text": "Compétence",
         "effect": "Support",
         "effect_text": "Soutien",
-        "simple_desc": "Gagne 2 cumuls de « Rugissement des cordes ». L'ATQ de tous les alliés augmente lorsque « Rugissement des cordes » est actif.",
+        "simple_desc": "Gagne 2 cumuls de Rugissement des cordes. L'ATQ de tous les alliés augmente lorsque Rugissement des cordes est actif sur ce personnage.",
         "desc": "Obtient #1[i] cumuls de « Rugissement des cordes » (maximum de 2 cumuls). Lorsque « Rugissement des cordes » est actif, l'ATQ de tous les alliés augmente de #2[i]%, et Yukong perd 1 cumul de « Rugissement des cordes » à la fin de chaque tour allié (y compris celui de Yukong).\nAu cours du tour où Yukong obtient « Rugissement des cordes » en utilisant sa compétence, elle ne perd pas de cumul de « Rugissement des cordes ».",
         "params": [
             [
@@ -8994,7 +9413,7 @@
         "type_text": "Ultime",
         "effect": "SingleAttack",
         "effect_text": "Cible unique",
-        "simple_desc": "Augmente les chances de coup critique et les DGT critiques de tous les alliés quand « Rugissement des cordes » est actif et inflige des DGT imaginaires massifs à un ennemi unique.",
+        "simple_desc": "Augmente les chances de coup critique et les DGT critiques de tous les alliés quand Rugissement des cordes est actif sur ce personnage et inflige des DGT imaginaires massifs à un ennemi unique.",
         "desc": "Si Yukong bénéficie de « Rugissement des cordes » lorsqu'elle utilise son ultime, les chances de coup critique de tous les alliés augmentent de #2[i]% et leurs DGT critiques de #3[i]%. D'autre part, inflige des DGT imaginaires équivalents à #1[i]% de l'ATQ de Yukong à un ennemi unique.",
         "params": [
             [
@@ -9084,8 +9503,8 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Renforcement",
-        "simple_desc": "L'ATQ normale inflige des DGT supplémentaires mineurs, et les DGT à la robustesse de l'ATQ normale augmentent. Cet effet peut être déclenché à nouveau après 1 tour.",
-        "desc": "Les ATQ normales infligent des DGT imaginaires supplémentaires équivalents à #1[i]% de l'ATQ de Yukong et les DGT à la robustesse de ces attaques augmentent de #2[i]%. Cet effet peut être déclenché à nouveau après #3[i] tour.",
+        "simple_desc": "L'ATQ normale inflige des DGT supplémentaires mineurs, et les DGT à la robustesse de l'ATQ normale augmentent. Cet effet peut se déclencher à nouveau après 1 tour.",
+        "desc": "Les ATQ normales infligent des DGT imaginaires supplémentaires équivalents à #1[i]% de l'ATQ de Yukong et les DGT à la robustesse de ces attaques augmentent de #2[i]%. Cet effet peut se déclencher à nouveau après #3[i] tour.",
         "params": [
             [
                 0.4,
@@ -9188,7 +9607,7 @@
         "type_text": "Technique",
         "effect": "Enhance",
         "effect_text": "Renforcement",
-        "simple_desc": "Augmente sa vitesse de déplacement. Reçoit 2 cumuls de « Rugissement des cordes » après être entré en combat en attaquant un ennemi.",
+        "simple_desc": "Augmente la vitesse de déplacement. Reçoit 2 cumuls de Rugissement des cordes après être entré en combat en attaquant un ennemi.",
         "desc": "Après utilisation de la technique, Yukong entre en mode Sprint pendant #1[i] secondes. En mode Sprint, la vitesse de déplacement augmente de #2[i]% et Yukong obtient #3[i] cumuls de « Rugissement des cordes » lorsqu'elle entre en combat en attaquant des ennemis.",
         "params": [
             [
@@ -9198,6 +9617,351 @@
             ]
         ],
         "icon": "icon/skill/1207_technique.png"
+    },
+    "120801": {
+        "id": "120801",
+        "name": "Frappe stellaire",
+        "max_level": 9,
+        "element": "Quantum",
+        "type": "Normal",
+        "type_text": "ATQ normale",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "Inflige des DGT quantiques mineurs à un ennemi unique.",
+        "desc": "Inflige des DGT quantiques équivalents à #1[i]% des PV max de Fu Xuan à un ennemi unique.",
+        "params": [
+            [
+                0.25
+            ],
+            [
+                0.3
+            ],
+            [
+                0.35
+            ],
+            [
+                0.4
+            ],
+            [
+                0.45
+            ],
+            [
+                0.5
+            ],
+            [
+                0.55
+            ],
+            [
+                0.6
+            ],
+            [
+                0.65
+            ]
+        ],
+        "icon": "icon/skill/1208_basic_atk.png"
+    },
+    "120802": {
+        "id": "120802",
+        "name": "Merveille des étoiles",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Compétence",
+        "effect": "Defence",
+        "effect_text": "Défense",
+        "simple_desc": "Active Matrice de prémonition. Les DGT subis par les alliés de Fu Xuan lui sont transférés. D'autre part, augmente les chances de coup critique et les PV max de tous les alliés.",
+        "desc": "Active Matrice de prémonition, ce qui permet aux autres membres de l'équipe de Fu Xuan de lui transférer #1[i]% des DGT qu'ils subissent (avant que ces DGT ne soient atténués par d'éventuels boucliers) pendant #3[i] tours.\nLorsqu'ils sont affectés par Matrice de prémonition, tous les membres de l'équipe bénéficient de l'effet Connaissance, qui augmente leurs PV max respectifs à hauteur de #4[f1]% des PV max de Fu Xuan, et leurs chances de coup critique de #5[f1]%.\nMatrice de prémonition se dissipe lorsque Fu Xuan est à terre.",
+        "params": [
+            [
+                0.65,
+                0,
+                3,
+                0.03,
+                0.06
+            ],
+            [
+                0.65,
+                0,
+                3,
+                0.033,
+                0.066
+            ],
+            [
+                0.65,
+                0,
+                3,
+                0.036,
+                0.072
+            ],
+            [
+                0.65,
+                0,
+                3,
+                0.039,
+                0.078
+            ],
+            [
+                0.65,
+                0,
+                3,
+                0.042,
+                0.084
+            ],
+            [
+                0.65,
+                0,
+                3,
+                0.045,
+                0.09
+            ],
+            [
+                0.65,
+                0,
+                3,
+                0.0488,
+                0.0975
+            ],
+            [
+                0.65,
+                0,
+                3,
+                0.0525,
+                0.105
+            ],
+            [
+                0.65,
+                0,
+                3,
+                0.0563,
+                0.1125
+            ],
+            [
+                0.65,
+                0,
+                3,
+                0.06,
+                0.12
+            ],
+            [
+                0.65,
+                0,
+                3,
+                0.063,
+                0.126
+            ],
+            [
+                0.65,
+                0,
+                3,
+                0.066,
+                0.132
+            ],
+            [
+                0.65,
+                0,
+                3,
+                0.069,
+                0.138
+            ],
+            [
+                0.65,
+                0,
+                3,
+                0.072,
+                0.144
+            ],
+            [
+                0.65,
+                0,
+                3,
+                0.075,
+                0.15
+            ]
+        ],
+        "icon": "icon/skill/1208_skill.png"
+    },
+    "120803": {
+        "id": "120803",
+        "name": "Évolution ultime",
+        "max_level": 15,
+        "element": "Quantum",
+        "type": "Ultra",
+        "type_text": "Ultime",
+        "effect": "AoEAttack",
+        "effect_text": "ZdE",
+        "simple_desc": "Inflige des DGT quantiques à tous les ennemis et augmente le nombre de fois où le talent de Fu Xuan se déclenche.",
+        "desc": "Inflige des DGT quantiques équivalents à #1[i]% des PV max de Fu Xuan à tous les ennemis et obtient 1 déclenchement pour l'effet de restauration de PV accordé par le talent de Fu Xuan.",
+        "params": [
+            [
+                0.6
+            ],
+            [
+                0.64
+            ],
+            [
+                0.68
+            ],
+            [
+                0.72
+            ],
+            [
+                0.76
+            ],
+            [
+                0.8
+            ],
+            [
+                0.85
+            ],
+            [
+                0.9
+            ],
+            [
+                0.95
+            ],
+            [
+                1
+            ],
+            [
+                1.04
+            ],
+            [
+                1.08
+            ],
+            [
+                1.12
+            ],
+            [
+                1.16
+            ],
+            [
+                1.2
+            ]
+        ],
+        "icon": "icon/skill/1208_ultimate.png"
+    },
+    "120804": {
+        "id": "120804",
+        "name": "Coup du sort",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Restore",
+        "effect_text": "Restauration",
+        "simple_desc": "Tant que Fu Xuan n'est pas à terre, les DGT subis par tous les membres de l'équipe sont réduits.\nSi les PV de Fu Xuan sont faibles, elle restaure automatiquement ses propres PV en fonction du pourcentage de PV déjà perdus. Cet effet peut être déclenché 2 fois au maximum.",
+        "desc": "Tant que Fu Xuan n'a pas été mise à terre, Évitement d'infortune s'applique à toute l'équipe. Lorsqu'ils sont affectés par Évitement d'infortune, les alliés subissent #1[f1]% moins de DGT.\nLa restauration de PV de Fu Xuan se déclenche lorsque ses PV tombent à #2[i]% de ses PV max ou moins. Cela lui permet de récupérer #3[i]% du montant de PV qu'il lui manque actuellement. Cet effet ne peut pas être déclenché en cas de coup fatal. Il est disponible 1 fois par défaut, et peut passer à 2 fois au maximum.",
+        "params": [
+            [
+                0.1,
+                0.5,
+                0.8
+            ],
+            [
+                0.108,
+                0.5,
+                0.81
+            ],
+            [
+                0.116,
+                0.5,
+                0.82
+            ],
+            [
+                0.124,
+                0.5,
+                0.83
+            ],
+            [
+                0.132,
+                0.5,
+                0.84
+            ],
+            [
+                0.14,
+                0.5,
+                0.85
+            ],
+            [
+                0.15,
+                0.5,
+                0.8625
+            ],
+            [
+                0.16,
+                0.5,
+                0.875
+            ],
+            [
+                0.17,
+                0.5,
+                0.8875
+            ],
+            [
+                0.18,
+                0.5,
+                0.9
+            ],
+            [
+                0.188,
+                0.5,
+                0.91
+            ],
+            [
+                0.196,
+                0.5,
+                0.92
+            ],
+            [
+                0.204,
+                0.5,
+                0.93
+            ],
+            [
+                0.212,
+                0.5,
+                0.94
+            ],
+            [
+                0.22,
+                0.5,
+                0.95
+            ]
+        ],
+        "icon": "icon/skill/1208_talent.png"
+    },
+    "120806": {
+        "id": "120806",
+        "name": "Attaque",
+        "max_level": 1,
+        "element": "Quantum",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Attaque l'ennemi. Réduit la robustesse des cibles ennemies au type correspondant en entrant en combat.",
+        "params": [],
+        "icon": "icon/skill/1208_basic_atk.png"
+    },
+    "120807": {
+        "id": "120807",
+        "name": "De la chance au destin",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Defence",
+        "effect_text": "Défense",
+        "simple_desc": "Active une barrière. Les alliés n'entrent pas en combat lorsqu'ils sont attaqués par des ennemis. Matrice de prémonition s'active automatiquement lorsque vous entrez combat.",
+        "desc": "Après utilisation de la technique, tous les membres de l'équipe bénéficient d'une barrière qui dure #1[i] secondes. Cette barrière bloque toutes les attaques ennemies, et empêche l'équipe d'entrer en combat lorsqu'elle est attaquée. Lorsque vous engagez le combat avec la barrière active, Fu Xuan active automatiquement Matrice de prémonition en début de combat pour #2[i] tours.",
+        "params": [
+            [
+                20,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1208_technique.png"
     },
     "120901": {
         "id": "120901",
@@ -9400,7 +10164,7 @@
         "type_text": "Talent",
         "effect": "SingleAttack",
         "effect_text": "Cible unique",
-        "simple_desc": "Lorsque ce personnage est dans l'état Osmose avec l'acier, ses chances d'être attaqué sont réduites et ses chances de coup critique et ses DGT critiques augmentent. Après avoir attaqué un ennemi, il y a une chance de lancer une attaque de suivi, infligeant des DGT de glace avec une chance de geler la cible.\nOsmose avec l'acier se dissipe lorsque le personnage subit des DGT.",
+        "simple_desc": "Lorsque ce personnage est dans l'état Osmose avec l'acier, ses chances d'être attaqué sont réduites et ses chances de coup critique et ses DGT critiques augmentent. Après avoir attaqué un ennemi, il y a une chance de lancer une attaque de suivi, infligeant des DGT de glace avec une chance de geler la cible.\nOsmose avec l'acier se dissipe lorsque le personnage subit des dégâts.",
         "desc": "Lorsque Osmose avec l'acier est active, Yanqing est moins susceptible d'être attaqué par des ennemis. Ses chances de coup critique augmentent de #1[f1]% et ses DGT critiques de #2[i]%. Lorsque Yanqing attaque un ennemi, il a #3[i]% de chances fixes de lancer une attaque de suivi, infligeant des DGT de glace équivalents à #4[i]% de son ATQ à l'ennemi, avec #6[i]% de chances de base de le geler pendant 1 tour.\nLa cible gelée ne peut pas agir et subit des DGT de glace additionnels équivalents à #5[i]% de l'ATQ de Yanqing au début de chaque tour.\nLorsque Yanqing subit des DGT, l'effet Osmose avec l'acier disparaît.",
         "params": [
             [
@@ -9549,7 +10313,7 @@
         "type_text": "Technique",
         "effect": "Enhance",
         "effect_text": "Renforcement",
-        "simple_desc": "Après l'utilisation de la technique, les DGT infligés aux ennemis dont les PV sont supérieurs ou égaux à 50 % augmentent au début du prochain combat.",
+        "simple_desc": "Après utilisation de la technique, les DGT infligés aux ennemis dont les PV sont supérieurs ou égaux à 50 % augmentent au début du combat suivant.",
         "desc": "Après utilisation de sa technique, les DGT de Yanqing augmentent de #2[i]% pendant #3[i] tours contre les ennemis dont les PV sont supérieurs ou égaux à #1[i]% au début du combat suivant.",
         "params": [
             [
@@ -9806,7 +10570,7 @@
         "type_text": "Talent",
         "effect": "Restore",
         "effect_text": "Restauration",
-        "simple_desc": "Les alliés qui bénéficient de Revigoration regagnent des PV après avoir été attaqués.\nLorsqu'un allié subit un coup fatal, Bailu lui restaure immédiatement des PV. Cet effet ne peut être déclenché qu'une seule fois par combat.",
+        "simple_desc": "Les alliés qui bénéficient de Revigoration regagnent des PV après avoir été attaqués.\nLorsqu'un allié subit un coup fatal, Bailu lui restaure immédiatement des PV. Cet effet ne peut être déclenché qu'1 seule fois par combat.",
         "desc": "Lorsqu'un allié qui bénéficie de Revigoration est touché, restaure ses PV à hauteur de #1[f1]% des PV max de Bailu + #2[i]. Cet effet peut se déclencher #5[i] fois.\nQuand un allié subit un coup fatal, il ne tombe pas à terre, mais Bailu le soigne immédiatement à hauteur de #3[i]% de ses propres PV max + #4[i]. Cet effet peut être déclenché 1 fois par combat.",
         "params": [
             [
@@ -9940,7 +10704,7 @@
         "type_text": "Technique",
         "effect": "Restore",
         "effect_text": "Restauration",
-        "simple_desc": "Après l'utilisation de la technique, octroie Revigoration à tous les alliés au début du prochain combat.",
+        "simple_desc": "Après utilisation de la technique, octroie Revigoration à tous les alliés au début du combat suivant.",
         "desc": "Après utilisation de la technique, tous les alliés sont revigorés pendant #1[i] tours au début du combat suivant.",
         "params": [
             [
@@ -9951,15 +10715,15 @@
     },
     "121301": {
         "id": "121301",
-        "name": "",
+        "name": "Lotus bénéfique",
         "max_level": 9,
         "element": "Imaginary",
         "type": "Normal",
         "type_text": "ATQ normale",
         "effect": "SingleAttack",
         "effect_text": "Cible unique",
-        "simple_desc": "",
-        "desc": "",
+        "simple_desc": "Inflige des DGT imaginaires mineurs à un ennemi unique.",
+        "desc": "Utilise une attaque qui frappe 2 fois et inflige des DGT imaginaires équivalents à #1[i]% de l'ATQ de Dan Heng • Imbibitor Lunae à une cible ennemie unique.",
         "params": [
             [
                 0.5
@@ -9993,165 +10757,90 @@
     },
     "121302": {
         "id": "121302",
-        "name": "",
+        "name": "Déchaînement du dragon",
         "max_level": 15,
         "element": "",
         "type": "BPSkill",
         "type_text": "Compétence",
         "effect": "Enhance",
         "effect_text": "Renforcement",
-        "simple_desc": "",
-        "desc": "",
+        "simple_desc": "Renforce l'ATQ normale Lotus bénéfique en Transcendance, Lance divine ou Bond fulgurant.",
+        "desc": "Renforce l'ATQ normale. Le renforcement peut s'appliquer jusqu'à 3 fois consécutivement. L'utilisation de cette capacité ne consomme pas de point de compétence et n'est pas considérée comme une utilisation de compétence.\nRenforcé une fois, Lotus bénéfique devient Transcendance.\nRenforcé 2 fois, Lotus bénéfique devient Lance divine.\nRenforcé 3 fois, Lotus bénéfique devient Bond fulgurant.\nLorsque vous utilisez Lance divine ou Bond fulgurant, vous gagnez 1 cumul de Rugissement dominateur avant chaque frappe (à partir de la quatrième). Chaque cumul de Rugissement dominateur augmente les DGT critiques de Dan Heng • Imbibitor Lunae de #1[f1]%, pour un maximum de #2[i] cumuls. Ces cumuls durent jusqu'à la fin de son tour.",
         "params": [
             [
-                1.3,
-                0.6,
-                0.3,
                 0.06,
-                4,
-                0.6,
-                0.6
+                4
             ],
             [
-                1.43,
-                0.66,
-                0.33,
                 0.066,
-                4,
-                0.66,
-                0.66
+                4
             ],
             [
-                1.56,
-                0.72,
-                0.36,
                 0.072,
-                4,
-                0.72,
-                0.72
+                4
             ],
             [
-                1.69,
-                0.78,
-                0.39,
                 0.078,
-                4,
-                0.78,
-                0.78
+                4
             ],
             [
-                1.82,
-                0.84,
-                0.42,
                 0.084,
-                4,
-                0.84,
-                0.84
+                4
             ],
             [
-                1.95,
-                0.9,
-                0.45,
                 0.09,
-                4,
-                0.9,
-                0.9
+                4
             ],
             [
-                2.1125,
-                0.975,
-                0.4875,
                 0.0975,
-                4,
-                0.975,
-                0.975
+                4
             ],
             [
-                2.275,
-                1.05,
-                0.525,
                 0.105,
-                4,
-                1.05,
-                1.05
+                4
             ],
             [
-                2.4375,
-                1.125,
-                0.5625,
                 0.1125,
-                4,
-                1.125,
-                1.125
+                4
             ],
             [
-                2.6,
-                1.2,
-                0.6,
                 0.12,
-                4,
-                1.2,
-                1.2
+                4
             ],
             [
-                2.73,
-                1.26,
-                0.63,
                 0.126,
-                4,
-                1.26,
-                1.26
+                4
             ],
             [
-                2.86,
-                1.32,
-                0.66,
                 0.132,
-                4,
-                1.32,
-                1.32
+                4
             ],
             [
-                2.99,
-                1.38,
-                0.69,
                 0.138,
-                4,
-                1.38,
-                1.38
+                4
             ],
             [
-                3.12,
-                1.44,
-                0.72,
                 0.144,
-                4,
-                1.44,
-                1.44
+                4
             ],
             [
-                3.25,
-                1.5,
-                0.75,
                 0.15,
-                4,
-                1.5,
-                1.5
+                4
             ]
         ],
         "icon": "icon/skill/1213_skill.png"
     },
     "121303": {
         "id": "121303",
-        "name": "",
+        "name": "Absolution des eaux azur",
         "max_level": 15,
         "element": "Imaginary",
         "type": "Ultra",
         "type_text": "Ultime",
         "effect": "Blast",
         "effect_text": "Propagation",
-        "simple_desc": "",
-        "desc": "",
+        "simple_desc": "Inflige des DGT imaginaires massifs à un ennemi unique, des DGT imaginaires aux cibles adjacentes, et obtient 2 Écailles sacrées, ce qui permet de compenser la consommation de points de compétences de Dan Heng • Imbibitor Lunae. L'utilisation d'Écailles sacrées est considérée comme équivalente à la consommation de points de compétence.",
+        "desc": "Utilise une attaque qui frappe 3 fois et inflige des DGT imaginaires équivalents à #1[i]% de l'ATQ de Dan Heng • Imbibitor Lunae à une cible ennemie unique. D'autre part, inflige des DGT imaginaires équivalents à #2[i]% de l'ATQ de Dan Heng • Imbibitor Lunae aux cibles adjacentes. Puis, obtient #3[i] Écailles sacrées.\nDan Heng • Imbibitor Lunae peut posséder jusqu'à #4[i] Écailles sacrées à la fois. Elles peuvent être utilisées pour compenser la consommation de points de compétence. L'utilisation d'Écailles sacrées est considérée comme équivalente à la consommation de points de compétence.",
         "params": [
             [
                 1.8,
@@ -10248,75 +10937,75 @@
     },
     "121304": {
         "id": "121304",
-        "name": "",
+        "name": "Cœur vertueux",
         "max_level": 15,
         "element": "",
         "type": "Talent",
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Renforcement",
-        "simple_desc": "",
-        "desc": "",
+        "simple_desc": "Augmente les DGT pour chaque frappe infligée. Cet effet est cumulable et dure jusqu'à la fin du tour du personnage.",
+        "desc": "Dan Heng • Imbibitor Lunae gagne 1 cumul de Cœur vertueux après chaque frappe assénée lors d'une attaque, ce qui augmente ses DGT de #1[f1]%. Cet effet peut être cumulé jusqu'à #2[i] fois, et dure jusqu'à la fin du tour du personnage.",
         "params": [
             [
-                0.09,
-                5
+                0.05,
+                6
             ],
             [
-                0.095,
-                5
+                0.055,
+                6
+            ],
+            [
+                0.06,
+                6
+            ],
+            [
+                0.065,
+                6
+            ],
+            [
+                0.07,
+                6
+            ],
+            [
+                0.075,
+                6
+            ],
+            [
+                0.0813,
+                6
+            ],
+            [
+                0.0875,
+                6
+            ],
+            [
+                0.0938,
+                6
             ],
             [
                 0.1,
-                5
+                6
             ],
             [
                 0.105,
-                5
+                6
             ],
             [
                 0.11,
-                5
+                6
             ],
             [
                 0.115,
-                5
+                6
             ],
             [
-                0.1213,
-                5
+                0.12,
+                6
             ],
             [
-                0.1275,
-                5
-            ],
-            [
-                0.1338,
-                5
-            ],
-            [
-                0.14,
-                5
-            ],
-            [
-                0.145,
-                5
-            ],
-            [
-                0.15,
-                5
-            ],
-            [
-                0.155,
-                5
-            ],
-            [
-                0.16,
-                5
-            ],
-            [
-                0.165,
-                5
+                0.125,
+                6
             ]
         ],
         "icon": "icon/skill/1213_talent.png"
@@ -10337,363 +11026,244 @@
     },
     "121307": {
         "id": "121307",
-        "name": "",
+        "name": "Prismadragon de fulguration",
         "max_level": 1,
         "element": "",
         "type": "Maze",
         "type_text": "Technique",
         "effect": "Enhance",
         "effect_text": "Renforcement",
-        "simple_desc": "",
-        "desc": "",
+        "simple_desc": "Entre dans l'état du Dragon bondissant. Dans cet état, lorsque le personnage utilise son attaque, il fonce en avant sur une courte distance et attaque tous les ennemis sur sa route. S'il entre en combat en ayant attaqué un ennemi, il inflige des DGT imaginaires à tous les ennemis et obtient 1 Écaille sacrée.",
+        "desc": "Après utilisation de sa technique, Dan Heng • Imbibitor Lunae entre dans l'état du Dragon bondissant pendant #2[i] secondes. Lorsqu'il est dans cet état, il fonce en avant sur une courte distance lorsqu'il utilise son attaque, attaquant tous les ennemis sur sa route et bloquant toutes les attaques qui le touchent. S'il entre en combat en ayant attaqué des ennemis dans l'état du Dragon bondissant, Dan Heng • Imbibitor Lunae inflige des DGT imaginaires équivalents à #3[i]% de son ATQ à tous les ennemis et obtient #1[i] Écaille sacrée.",
         "params": [
             [
                 1,
-                20
+                20,
+                1.2
             ]
         ],
         "icon": "icon/skill/1213_technique.png"
     },
     "121308": {
         "id": "121308",
-        "name": "",
-        "max_level": 15,
+        "name": "Transcendance",
+        "max_level": 9,
         "element": "Imaginary",
         "type": "Normal",
         "type_text": "ATQ normale",
         "effect": "SingleAttack",
         "effect_text": "Cible unique",
-        "simple_desc": "",
-        "desc": "",
+        "simple_desc": "Lance 3 frappes lors de cette attaque pour infliger des DGT imaginaires à un ennemi unique.",
+        "desc": "Utilise une attaque qui frappe 3 fois et inflige des DGT imaginaires équivalents à #1[i]% de l'ATQ de Dan Heng • Imbibitor Lunae à une cible ennemie unique.",
         "params": [
             [
                 1.3
             ],
             [
-                1.43
-            ],
-            [
                 1.56
-            ],
-            [
-                1.69
             ],
             [
                 1.82
             ],
             [
-                1.95
+                2.08
             ],
             [
-                2.1125
-            ],
-            [
-                2.275
-            ],
-            [
-                2.4375
+                2.34
             ],
             [
                 2.6
             ],
             [
-                2.73
-            ],
-            [
                 2.86
-            ],
-            [
-                2.99
             ],
             [
                 3.12
             ],
             [
-                3.25
+                3.38
+            ],
+            [
+                1.3
+            ],
+            [
+                1.3
+            ],
+            [
+                1.3
+            ],
+            [
+                1.3
+            ],
+            [
+                1.3
+            ],
+            [
+                1.3
             ]
         ],
         "icon": "icon/skill/1213_basic_atk.png"
     },
     "121309": {
         "id": "121309",
-        "name": "",
+        "name": "Annulation",
         "max_level": 1,
         "element": "",
         "type": "BPSkill",
         "type_text": "Compétence",
-        "effect": "Support",
-        "effect_text": "Soutien",
+        "effect": "Enhance",
+        "effect_text": "Annulation",
         "simple_desc": "",
-        "desc": "",
+        "desc": "Annule le renforcement",
         "params": [],
         "icon": "icon/skill/1213_skill.png"
     },
     "121310": {
         "id": "121310",
-        "name": "",
-        "max_level": 15,
+        "name": "Lance divine",
+        "max_level": 9,
         "element": "Imaginary",
         "type": "Normal",
         "type_text": "ATQ normale",
         "effect": "Blast",
         "effect_text": "Propagation",
-        "simple_desc": "",
-        "desc": "",
+        "simple_desc": "Déclenche 5 frappes qui infligent des DGT imaginaires massifs à un ennemi unique et des DGT imaginaires mineurs aux cibles adjacentes. Obtient 1 cumul de Rugissement dominateur pour chaque frappe avant de déclencher les quatrième et cinquième frappes de cette attaque. Les cumuls de Rugissement dominateur augmentent les DGT critiques.",
+        "desc": "Utilise une attaque qui frappe 5 fois et inflige des DGT imaginaires équivalents à #1[i]% de l'ATQ de Dan Heng • Imbibitor Lunae à une cible ennemie unique. À partir de la quatrième frappe, inflige simultanément des DGT imaginaires équivalents à #2[i]% de l'ATQ de Dan Heng • Imbibitor Lunae aux cibles adjacentes.",
         "params": [
             [
-                1.3,
-                0.6,
-                0.3,
-                0.06,
-                4
+                1.9,
+                0.3
             ],
             [
-                1.43,
-                0.66,
-                0.33,
-                0.066,
-                4
+                1.9,
+                0.3
             ],
             [
-                1.56,
-                0.72,
-                0.36,
-                0.072,
-                4
+                1.9,
+                0.3
             ],
             [
-                1.69,
-                0.78,
-                0.39,
-                0.078,
-                4
+                1.9,
+                0.3
             ],
             [
-                1.82,
-                0.84,
-                0.42,
-                0.084,
-                4
+                1.9,
+                0.3
             ],
             [
-                1.95,
-                0.9,
-                0.45,
-                0.09,
-                4
+                1.9,
+                0.3
             ],
             [
-                2.1125,
-                0.975,
-                0.4875,
-                0.0975,
-                4
+                1.9,
+                0.3
             ],
             [
-                2.275,
-                1.05,
-                0.525,
-                0.105,
-                4
+                2.28,
+                0.36
             ],
             [
-                2.4375,
-                1.125,
-                0.5625,
-                0.1125,
-                4
+                2.66,
+                0.42
             ],
             [
-                2.6,
-                1.2,
-                0.6,
-                0.12,
-                4
+                3.04,
+                0.48
             ],
             [
-                2.73,
-                1.26,
-                0.63,
-                0.126,
-                4
+                3.42,
+                0.54
             ],
             [
-                2.86,
-                1.32,
-                0.66,
-                0.132,
-                4
+                3.8,
+                0.6
             ],
             [
-                2.99,
-                1.38,
-                0.69,
-                0.138,
-                4
+                4.18,
+                0.66
             ],
             [
-                3.12,
-                1.44,
-                0.72,
-                0.144,
-                4
+                4.56,
+                0.72
             ],
             [
-                3.25,
-                1.5,
-                0.75,
-                0.15,
-                4
+                4.94,
+                0.78
             ]
         ],
         "icon": "icon/skill/1213_basic_atk.png"
     },
     "121312": {
         "id": "121312",
-        "name": "",
-        "max_level": 15,
+        "name": "Bond fulgurant",
+        "max_level": 9,
         "element": "Imaginary",
         "type": "Normal",
         "type_text": "ATQ normale",
         "effect": "Blast",
         "effect_text": "Propagation",
-        "simple_desc": "",
-        "desc": "",
+        "simple_desc": "Déclenche 7 frappes qui infligent des DGT imaginaires massifs à un ennemi unique et des DGT imaginaires aux cibles adjacentes. Obtient 1 cumul de Rugissement dominateur pour chaque frappe avant de déclencher les quatrième, cinquième, sixième et septième frappes de cette attaque. Les cumuls de Rugissement dominateur augmentent les DGT critiques.",
+        "desc": "Utilise une attaque qui frappe 7 fois et inflige des DGT imaginaires équivalents à #1[i]% de l'ATQ de Dan Heng • Imbibitor Lunae à une cible ennemie unique. À partir de la quatrième frappe, inflige simultanément des DGT imaginaires équivalents à #2[i]% de l'ATQ de Dan Heng • Imbibitor Lunae aux cibles adjacentes.",
         "params": [
             [
-                1.3,
-                0.6,
-                0.3,
-                0.06,
-                4,
-                0.6,
-                0.6
-            ],
-            [
-                1.43,
-                0.66,
-                0.33,
-                0.066,
-                4,
-                0.66,
-                0.66
-            ],
-            [
-                1.56,
-                0.72,
-                0.36,
-                0.072,
-                4,
-                0.72,
-                0.72
-            ],
-            [
-                1.69,
-                0.78,
-                0.39,
-                0.078,
-                4,
-                0.78,
-                0.78
-            ],
-            [
-                1.82,
-                0.84,
-                0.42,
-                0.084,
-                4,
-                0.84,
-                0.84
-            ],
-            [
-                1.95,
-                0.9,
-                0.45,
-                0.09,
-                4,
-                0.9,
+                2.5,
                 0.9
             ],
             [
-                2.1125,
-                0.975,
-                0.4875,
-                0.0975,
-                4,
-                0.975,
-                0.975
+                2.5,
+                0.9
             ],
             [
-                2.275,
-                1.05,
-                0.525,
-                0.105,
-                4,
-                1.05,
-                1.05
+                2.5,
+                0.9
             ],
             [
-                2.4375,
-                1.125,
-                0.5625,
-                0.1125,
-                4,
-                1.125,
-                1.125
+                2.5,
+                0.9
             ],
             [
-                2.6,
-                1.2,
-                0.6,
-                0.12,
-                4,
-                1.2,
-                1.2
+                2.5,
+                0.9
             ],
             [
-                2.73,
-                1.26,
-                0.63,
-                0.126,
-                4,
-                1.26,
+                2.5,
+                0.9
+            ],
+            [
+                2.5,
+                0.9
+            ],
+            [
+                3,
+                1.08
+            ],
+            [
+                3.5,
                 1.26
             ],
             [
-                2.86,
-                1.32,
-                0.66,
-                0.132,
                 4,
-                1.32,
-                1.32
-            ],
-            [
-                2.99,
-                1.38,
-                0.69,
-                0.138,
-                4,
-                1.38,
-                1.38
-            ],
-            [
-                3.12,
-                1.44,
-                0.72,
-                0.144,
-                4,
-                1.44,
                 1.44
             ],
             [
-                3.25,
-                1.5,
-                0.75,
-                0.15,
-                4,
-                1.5,
-                1.5
+                4.5,
+                1.62
+            ],
+            [
+                5,
+                1.8
+            ],
+            [
+                5.5,
+                1.98
+            ],
+            [
+                6,
+                2.16
+            ],
+            [
+                6.5,
+                2.34
             ]
         ],
         "icon": "icon/skill/1213_basic_atk.png"
