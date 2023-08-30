@@ -6469,7 +6469,7 @@
         "effect": "Restore",
         "effect_text": "Regeneración",
         "simple_desc": "Al usar la habilidad básica o la habilidad definitiva, un aliado obtiene un efecto de regeneración continua de PV. Si el objetivo está afectado por Reacción de supervivencia, el efecto de regeneración continua de PV aumenta de forma adicional.",
-        "desc": "Al usar la habilidad básica o la habilidad definitiva, un objetivo aliado obtiene un efecto de curación continua durante #1[i] turno(s). Al comenzar cada turno, el objetivo regenera una cantidad de PV equivalente al #2[f1]% de los PV máx. de Lynx + #3[i]. Si el objetivo está afectado por Reacción de supervivencia, el efecto de regeneración continua de PV regenera de forma adicional una cantidad de PV equivalente al #4[f1]% de los PV máx. de Lynx + #5[i].",
+        "desc": "Al usar la habilidad básica o la habilidad definitiva, un objetivo aliado obtiene un efecto de curación continua durante #1[i] turnos. Al comenzar cada turno, el objetivo regenera una cantidad de PV equivalente al #2[f1]% de los PV máx. de Lynx + #3[i]. Si el objetivo está afectado por Reacción de supervivencia, el efecto de curación continua regenera de forma adicional una cantidad de PV equivalente al #4[f1]% de los PV máx. de Lynx + #5[i].",
         "params": [
             [
                 2,
@@ -6603,7 +6603,7 @@
         "effect": "Restore",
         "effect_text": "Regeneración",
         "simple_desc": "Tras usar la técnica, al comenzar la siguiente batalla, todos los aliados obtienen un efecto de curación continua.",
-        "desc": "Tras usar la técnica, al comenzar la siguiente batalla, se aplica el efecto de curación continua de Lynx a todos los aliados durante #1[i] turnos.",
+        "desc": "Tras usar la técnica, al comenzar la siguiente batalla, se aplica el efecto de curación continua del talento de Lynx a todos los aliados durante #1[i] turnos.",
         "params": [
             [
                 2
@@ -9670,7 +9670,7 @@
         "effect": "Defence",
         "effect_text": "Defensa",
         "simple_desc": "Activa Matriz del Presagio y los aliados traspasan a Fu Xuan parte del daño que reciben. Además, aumentan los PV máx. y la Prob. CRIT de todos los aliados.",
-        "desc": "Activa Matriz del Presagio y todos los aliados de Fu Xuan traspasan un #1[i]% del daño que reciben (antes de que un escudo mitigue el daño) a Fu Xuan durante #3[i] turno(s).\nTodos los aliados afectados por Matriz del Presagio obtienen Conocimiento. En este estado, los PV máx. de los aliados aumentan en una cantidad equivalente al #4[f1]% de los PV máx. de Fu Xuan y su Prob. CRIT aumenta en un #5[f1]%.\nCuando Fu Xuan es derrotada, Matriz del Presagio se disipa.",
+        "desc": "Activa Matriz del Presagio y todos los aliados de Fu Xuan traspasan un #1[i]% del daño que reciben (antes de que un escudo mitigue el daño) a Fu Xuan durante #3[i] turnos.\nMientras están afectados por Matriz del Presagio, todos los aliados obtienen Conocimiento. En este estado, los PV máx. de los aliados aumentan en una cantidad equivalente al #4[f1]% de los PV máx. de Fu Xuan y su Prob. CRIT aumenta en un #5[f1]%.\nCuando Fu Xuan es derrotada, Matriz del Presagio se disipa.",
         "params": [
             [
                 0.65,
@@ -9849,8 +9849,8 @@
         "type_text": "Talento",
         "effect": "Restore",
         "effect_text": "Regeneración",
-        "simple_desc": "Mientras Fu Xuan no haya sido derrotada, el daño que reciben todos los aliados se reduce.\nCuando tiene pocos PV, regenera sus propios PV automáticamente según el porcentaje de PV que le falten en ese momento. Este efecto se puede activar 2 veces como máximo.",
-        "desc": "Cuando Fu Xuan no ha sido derrotada, todos los aliados obtienen Escape del infortunio. En este estado, el daño que reciben todos los aliados se reduce en un #1[f1]%.\nFu Xuan regenera sus PV cuando tiene un porcentaje de PV inferior o igual al #2[i]%. Este efecto regenera un #3[i]% de los PV que le falten en ese momento, y no puede activarse cuando recibe un golpe letal. Inicialmente, este efecto puede activarse 1 vez, y se puede activar hasta 2 veces como máximo.",
+        "simple_desc": "Mientras Fu Xuan no haya sido derrotada, el daño que reciben todos los aliados se reduce.\nCuando tiene pocos PV, regenera sus propios PV automáticamente según el porcentaje de PV que le falte en ese momento. Este efecto puede tener un máximo de 2 intentos de activación.",
+        "desc": "Mientras Fu Xuan no haya sido derrotada, todos los aliados obtienen Escape del infortunio. En este estado, el daño que reciben todos los aliados se reduce en un #1[f1]%.\nFu Xuan regenera sus PV cuando tiene un porcentaje de PV inferior o igual al #2[i]%. Este efecto regenera un #3[i]% de los PV que le falten en ese momento, y no puede activarse cuando recibe un golpe letal. Al inicio, este efecto cuenta con 1 intento de activación, y se pueden tener un máximo de 2 intentos.",
         "params": [
             [
                 0.1,
@@ -9954,7 +9954,7 @@
         "effect": "Defence",
         "effect_text": "Defensa",
         "simple_desc": "Activa una barrera y no se entra en combate al recibir ataques de los enemigos. Al entrar en combate, Matriz del Presagio se activa de manera automática.",
-        "desc": "Tras usar la técnica, todos los aliados obtienen una barrera durante #1[i] segundos. Esta barrera bloquea los ataques infligidos por los enemigos e impide que los aliados entren en combate. Si se entra en combate mientras la barrera está activa, Fu Xuan activa automáticamente Matriz del Presagio durante #2[i] turnos.",
+        "desc": "Tras usar la técnica, todos los aliados obtienen una barrera durante #1[i] segundos. Esta barrera bloquea los ataques de los enemigos e impide que se entre en combate al recibir un ataque. Si se entra en combate mientras la barrera está activa, Fu Xuan activa automáticamente Matriz del Presagio durante #2[i] turnos.",
         "params": [
             [
                 20,
@@ -10765,7 +10765,7 @@
         "effect": "Enhance",
         "effect_text": "Potenciación",
         "simple_desc": "El ATQ básico Loto benéfico se potencia y se transforma en Trascendencia, Lanza divina o Salto fulgurante.",
-        "desc": "Dan Heng - Imbibitor Lunae potencia el ATQ básico un máximo de 3 veces consecutivas. Esta habilidad no consume pts. de habilidad básica y no se considera como un uso de la habilidad básica.\nAl potenciarse 1 vez, Loto benéfico se transforma en Trascendencia.\nAl potenciarse 2 veces, Loto benéfico se transforma en Lanza divina.\nAl potenciarse 3 veces, Loto benéfico se transforma en Salto fulgurante.\nAl lanzar Lanza divina o Salto fulgurante, a partir del 4.º golpe obtiene 1 acumulación de Rugido dominante antes de cada golpe. Rugido dominante hace que el Daño CRIT de Dan Heng - Imbibitor Lunae aumente en un #1[f1]%. Este efecto se puede acumular un máximo de #2[i] veces hasta el final de su turno.",
+        "desc": "Potencia el ATQ básico un máximo de 3 veces consecutivas. Esta habilidad no consume pts. de habilidad básica y no se considera como un uso de la habilidad básica.\nAl potenciarse 1 vez, Loto benéfico se transforma en Trascendencia.\nAl potenciarse 2 veces, Loto benéfico se transforma en Lanza divina.\nAl potenciarse 3 veces, Loto benéfico se transforma en Salto fulgurante.\nAl lanzar Lanza divina o Salto fulgurante, a partir del 4.º golpe obtiene 1 acumulación de Rugido dominante antes de cada golpe. Rugido dominante hace que el Daño CRIT de Dan Heng - Imbibitor Lunae aumente en un #1[f1]%. Este efecto se puede acumular un máximo de #2[i] veces y dura hasta el final de su turno.",
         "params": [
             [
                 0.06,
@@ -10945,7 +10945,7 @@
         "effect": "Enhance",
         "effect_text": "Potenciación",
         "simple_desc": "Aumenta el daño que inflige después de cada golpe. Este efecto se puede acumular y dura hasta el final de su turno.",
-        "desc": "Dan Heng - Imbibitor Lunae obtiene 1 acumulación de Corazón justo después de cada golpe y el daño que inflige aumenta en un #1[f1]%. Este efecto se puede acumular un máximo de #2[i] veces hasta el final de su turno.",
+        "desc": "Dan Heng - Imbibitor Lunae obtiene 1 acumulación de Corazón justo después de cada golpe y el daño que inflige aumenta en un #1[f1]%. Este efecto se puede acumular un máximo de #2[i] veces y dura hasta el final de su turno.",
         "params": [
             [
                 0.05,
@@ -11034,7 +11034,7 @@
         "effect": "Enhance",
         "effect_text": "Potenciación",
         "simple_desc": "Entra en el estado Salto en espiral. Al lanzar un ataque, avanza rápidamente una cierta distancia y ataca a los enemigos con los que entra en contacto. Tras atacar al enemigo y entrar en combate, inflige Daño Imaginario a todos los enemigos y obtiene 1 acumulación de Escama sacrosanta.",
-        "desc": "Después de usar su técnica, Dan Heng - Imbibitor Lunae entra en el estado de Salto en espiral durante #2[i] segundos. En este estado, al lanzar un ataque, avanza rápidamente una cierta distancia y ataca a los enemigos con los que entra en contacto, bloqueando los ataques infligidos por los enemigos. Al entrar en combate tras atacar a un enemigo en el estado Salto en espiral, inflige un Daño Imaginario equivalente al #3[i]% de su ATQ a todos los enemigos y obtiene #1[i] acumulación de Escama sacrosanta.",
+        "desc": "Tras usar la técnica, Dan Heng - Imbibitor Lunae entra en el estado de Salto en espiral durante #2[i] segundos. En este estado, al lanzar un ataque, avanza rápidamente una cierta distancia, ataca a todos los enemigos con los que entra en contacto y bloquea sus ataques. Al entrar en combate tras atacar a un enemigo en el estado Salto en espiral, inflige un Daño Imaginario equivalente al #3[i]% de su ATQ a todos los enemigos y obtiene #1[i] acumulación de Escama sacrosanta.",
         "params": [
             [
                 1,

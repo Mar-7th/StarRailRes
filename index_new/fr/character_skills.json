@@ -1058,7 +1058,7 @@
         "type_text": "Compétence",
         "effect": "Bounce",
         "effect_text": "Rebond",
-        "simple_desc": "Inflige des DGT imaginaires mineurs à une cible ennemie unique. Cette attaque peut rebondir 3 fois et a une chance de ralentir les ennemis touchés.",
+        "simple_desc": "Inflige des DGT imaginaires mineurs à un ennemi. Cette attaque peut rebondir 3 fois et a une chance de ralentir les ennemis touchés.",
         "desc": "Inflige des DGT imaginaires équivalents à #1[i]% de l'ATQ de Welt à un ennemi unique et inflige des DGT 2 fois supplémentaires, infligeant à chaque fois des DGT imaginaires équivalents à #1[i]% de l'ATQ de Welt à un ennemi aléatoire. Les attaques qui touchent un ennemi ont #2[i]% de chances de base de réduire sa VIT de #3[i]% pendant #4[i] tours.",
         "params": [
             [
@@ -6194,7 +6194,7 @@
     },
     "111001": {
         "id": "111001",
-        "name": "Assaut du pic à glace",
+        "name": "Attaque au pic à glace",
         "max_level": 9,
         "element": "Quantum",
         "type": "Normal",
@@ -6243,7 +6243,7 @@
         "type_text": "Compétence",
         "effect": "Restore",
         "effect_text": "Restauration",
-        "simple_desc": "Applique Instinct de survie à un allié unique, augmente ses PV max, et lui redonne des PV.",
+        "simple_desc": "Applique Instinct de survie à un allié unique, augmente ses PV max, et lui restaure des PV.",
         "desc": "Applique Instinct de survie à une cible alliée unique et augmente ses PV max d'un montant équivalent à #1[f1]% des PV max de Lynx + #2[i]. Si la cible est un personnage de la Voie de la Destruction ou de la Préservation, elle voit ses chances d'être attaquée par les ennemis considérablement augmenter. Instinct de survie dure #3[i] tours.\nRestaure les PV de la cible à hauteur de #4[f1]% des PV max de Lynx + #5[i].",
         "params": [
             [
@@ -6461,15 +6461,15 @@
     },
     "111004": {
         "id": "111004",
-        "name": "Expérience de survie en plein air",
+        "name": "Expérience de survie en pleine nature",
         "max_level": 15,
         "element": "",
         "type": "Talent",
         "type_text": "Talent",
         "effect": "Restore",
         "effect_text": "Restauration",
-        "simple_desc": "Chaque fois que Lynx utilise sa compétence ou son ultime, elle applique un effet de soins continus sur l'allié ciblé. Si la cible bénéficie d'Instinct de survie, l'effet de soins continus est augmenté.",
-        "desc": "Chaque fois que Lynx utilise sa compétence ou son ultime, elle applique un effet de soins continus sur l'allié ciblé pendant #1[i] tours, ce qui restaure un montant de PV équivalent à #2[f1]% des PV max de Lynx + #3[i] au début de chaque tour. Si la cible bénéficie d'Instinct de survie, l'effet de soins continus restaure en plus un montant de PV équivalent à #4[f1]% des PV max de Lynx + #5[i].",
+        "simple_desc": "Chaque fois que Lynx utilise sa compétence ou son ultime, elle applique des soins continus à la cible alliée. L'effet des soins continus est augmenté sur les cibles qui bénéficient d'Instinct de survie.",
+        "desc": "Chaque fois que Lynx utilise sa compétence ou son ultime, elle applique des soins continus pour #1[i] tours sur les alliés affectés. Ils restaurent donc un montant de PV équivalent à #2[f1]% des PV max de Lynx + #3[i] au début de chaque tour. L'effet des soins continus restaure en plus un montant de PV équivalent à #4[f1]% des PV max de Lynx + #5[i] aux cibles qui bénéficient d'Instinct de survie.",
         "params": [
             [
                 2,
@@ -9849,8 +9849,8 @@
         "type_text": "Talent",
         "effect": "Restore",
         "effect_text": "Restauration",
-        "simple_desc": "Tant que Fu Xuan n'est pas à terre, les DGT subis par tous les membres de l'équipe sont réduits.\nSi les PV de Fu Xuan sont faibles, elle restaure automatiquement ses propres PV en fonction du pourcentage de PV déjà perdus. Cet effet peut être déclenché 2 fois au maximum.",
-        "desc": "Tant que Fu Xuan n'a pas été mise à terre, Évitement d'infortune s'applique à toute l'équipe. Lorsqu'ils sont affectés par Évitement d'infortune, les alliés subissent #1[f1]% moins de DGT.\nLa restauration de PV de Fu Xuan se déclenche lorsque ses PV tombent à #2[i]% de ses PV max ou moins. Cela lui permet de récupérer #3[i]% du montant de PV qu'il lui manque actuellement. Cet effet ne peut pas être déclenché en cas de coup fatal. Il est disponible 1 fois par défaut, et peut passer à 2 fois au maximum.",
+        "simple_desc": "Tant que Fu Xuan n'est pas à terre, les DGT subis par tous les membres de l'équipe sont réduits.\nSi les PV de Fu Xuan sont faibles, elle restaure automatiquement ses propres PV en fonction du pourcentage de PV perdus. Cet effet peut être déclenché 2 fois au maximum.",
+        "desc": "Tant que Fu Xuan n'a pas été mise à terre, Évitement d'infortune s'applique à toute l'équipe. Lorsqu'ils bénéficient d'Évitement d'infortune, les alliés subissent #1[f1]% de DGT en moins.\nLa restauration de PV de Fu Xuan se déclenche lorsque ses PV tombent à #2[i]% de ses PV max ou moins. Cela lui permet de récupérer #3[i]% de ses PV manquants. Cet effet ne peut pas être déclenché en cas de coup fatal. Il est disponible 1 fois par défaut, et peut passer à 2 fois au maximum.",
         "params": [
             [
                 0.1,
@@ -9940,7 +9940,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Attaque l'ennemi. Réduit la robustesse des cibles ennemies au type correspondant en entrant en combat.",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
         "params": [],
         "icon": "icon/skill/1208_basic_atk.png"
     },
@@ -9953,7 +9953,7 @@
         "type_text": "Technique",
         "effect": "Defence",
         "effect_text": "Défense",
-        "simple_desc": "Active une barrière. Les alliés n'entrent pas en combat lorsqu'ils sont attaqués par des ennemis. Matrice de prémonition s'active automatiquement lorsque vous entrez combat.",
+        "simple_desc": "Active une barrière. Les alliés n'entrent pas en combat lorsqu'ils sont attaqués par des ennemis. Matrice de prémonition s'active automatiquement lorsque vous engagez le combat.",
         "desc": "Après utilisation de la technique, tous les membres de l'équipe bénéficient d'une barrière qui dure #1[i] secondes. Cette barrière bloque toutes les attaques ennemies, et empêche l'équipe d'entrer en combat lorsqu'elle est attaquée. Lorsque vous engagez le combat avec la barrière active, Fu Xuan active automatiquement Matrice de prémonition en début de combat pour #2[i] tours.",
         "params": [
             [
@@ -10839,8 +10839,8 @@
         "type_text": "Ultime",
         "effect": "Blast",
         "effect_text": "Propagation",
-        "simple_desc": "Inflige des DGT imaginaires massifs à un ennemi unique, des DGT imaginaires aux cibles adjacentes, et obtient 2 Écailles sacrées, ce qui permet de compenser la consommation de points de compétences de Dan Heng • Imbibitor Lunae. L'utilisation d'Écailles sacrées est considérée comme équivalente à la consommation de points de compétence.",
-        "desc": "Utilise une attaque qui frappe 3 fois et inflige des DGT imaginaires équivalents à #1[i]% de l'ATQ de Dan Heng • Imbibitor Lunae à une cible ennemie unique. D'autre part, inflige des DGT imaginaires équivalents à #2[i]% de l'ATQ de Dan Heng • Imbibitor Lunae aux cibles adjacentes. Puis, obtient #3[i] Écailles sacrées.\nDan Heng • Imbibitor Lunae peut posséder jusqu'à #4[i] Écailles sacrées à la fois. Elles peuvent être utilisées pour compenser la consommation de points de compétence. L'utilisation d'Écailles sacrées est considérée comme équivalente à la consommation de points de compétence.",
+        "simple_desc": "Inflige des DGT imaginaires massifs à un ennemi unique, des DGT imaginaires aux cibles adjacentes, et obtient 2 Écailles sacrées qui remplacent les points de compétence. L'utilisation d'Écailles sacrées est considérée comme équivalente à la consommation de points de compétence.",
+        "desc": "Utilise une attaque qui frappe 3 fois et inflige des DGT imaginaires équivalents à #1[i]% de l'ATQ de Dan Heng • Imbibitor Lunae à une cible ennemie unique. D'autre part, inflige des DGT imaginaires équivalents à #2[i]% de l'ATQ de Dan Heng • Imbibitor Lunae aux cibles adjacentes. Puis, obtient #3[i] Écailles sacrées.\nDan Heng • Imbibitor Lunae peut posséder jusqu'à #4[i] Écailles sacrées à la fois. Les Écailles sacrées remplacent les points de compétence. L'utilisation d'Écailles sacrées est considérée comme équivalente à la consommation de points de compétence.",
         "params": [
             [
                 1.8,
@@ -11033,8 +11033,8 @@
         "type_text": "Technique",
         "effect": "Enhance",
         "effect_text": "Renforcement",
-        "simple_desc": "Entre dans l'état du Dragon bondissant. Dans cet état, lorsque le personnage utilise son attaque, il fonce en avant sur une courte distance et attaque tous les ennemis sur sa route. S'il entre en combat en ayant attaqué un ennemi, il inflige des DGT imaginaires à tous les ennemis et obtient 1 Écaille sacrée.",
-        "desc": "Après utilisation de sa technique, Dan Heng • Imbibitor Lunae entre dans l'état du Dragon bondissant pendant #2[i] secondes. Lorsqu'il est dans cet état, il fonce en avant sur une courte distance lorsqu'il utilise son attaque, attaquant tous les ennemis sur sa route et bloquant toutes les attaques qui le touchent. S'il entre en combat en ayant attaqué des ennemis dans l'état du Dragon bondissant, Dan Heng • Imbibitor Lunae inflige des DGT imaginaires équivalents à #3[i]% de son ATQ à tous les ennemis et obtient #1[i] Écaille sacrée.",
+        "simple_desc": "Entre dans l'état Dragon bondissant. Dans cet état, lorsque le personnage utilise son attaque, il fonce en avant sur une courte distance et attaque tous les ennemis sur sa route. S'il entre en combat en ayant attaqué un ennemi, il inflige des DGT imaginaires à tous les ennemis et obtient 1 Écaille sacrée.",
+        "desc": "Après utilisation de sa technique, Dan Heng • Imbibitor Lunae entre dans l'état Dragon bondissant pendant #2[i] secondes. Lorsqu'il est dans cet état, il fonce en avant sur une courte distance lorsqu'il utilise son attaque, attaquant tous les ennemis sur sa route et bloquant toutes les attaques qui le touchent. S'il entre en combat en ayant attaqué des ennemis dans l'état Dragon bondissant, Dan Heng • Imbibitor Lunae inflige des DGT imaginaires équivalents à #3[i]% de son ATQ à tous les ennemis et obtient #1[i] Écaille sacrée.",
         "params": [
             [
                 1,
@@ -11053,7 +11053,7 @@
         "type_text": "ATQ normale",
         "effect": "SingleAttack",
         "effect_text": "Cible unique",
-        "simple_desc": "Lance 3 frappes lors de cette attaque pour infliger des DGT imaginaires à un ennemi unique.",
+        "simple_desc": "Déclenche 3 frappes lors de cette attaque pour infliger des DGT imaginaires à un ennemi unique.",
         "desc": "Utilise une attaque qui frappe 3 fois et inflige des DGT imaginaires équivalents à #1[i]% de l'ATQ de Dan Heng • Imbibitor Lunae à une cible ennemie unique.",
         "params": [
             [
@@ -11127,7 +11127,7 @@
         "type_text": "ATQ normale",
         "effect": "Blast",
         "effect_text": "Propagation",
-        "simple_desc": "Déclenche 5 frappes qui infligent des DGT imaginaires massifs à un ennemi unique et des DGT imaginaires mineurs aux cibles adjacentes. Obtient 1 cumul de Rugissement dominateur pour chaque frappe avant de déclencher les quatrième et cinquième frappes de cette attaque. Les cumuls de Rugissement dominateur augmentent les DGT critiques.",
+        "simple_desc": "Déclenche 5 frappes lors de cette attaque pour infliger des DGT imaginaires massifs à un ennemi unique et des DGT imaginaires mineurs aux cibles adjacentes. Vous gagnez 1 cumul de Rugissement dominateur avant chacune des deux dernières frappes de cette attaque. Rugissement dominateur augmente les DGT critiques.",
         "desc": "Utilise une attaque qui frappe 5 fois et inflige des DGT imaginaires équivalents à #1[i]% de l'ATQ de Dan Heng • Imbibitor Lunae à une cible ennemie unique. À partir de la quatrième frappe, inflige simultanément des DGT imaginaires équivalents à #2[i]% de l'ATQ de Dan Heng • Imbibitor Lunae aux cibles adjacentes.",
         "params": [
             [
@@ -11202,7 +11202,7 @@
         "type_text": "ATQ normale",
         "effect": "Blast",
         "effect_text": "Propagation",
-        "simple_desc": "Déclenche 7 frappes qui infligent des DGT imaginaires massifs à un ennemi unique et des DGT imaginaires aux cibles adjacentes. Obtient 1 cumul de Rugissement dominateur pour chaque frappe avant de déclencher les quatrième, cinquième, sixième et septième frappes de cette attaque. Les cumuls de Rugissement dominateur augmentent les DGT critiques.",
+        "simple_desc": "Déclenche 7 frappes lors de cette attaque pour infliger des DGT imaginaires massifs à un ennemi unique et des DGT imaginaires mineurs aux cibles adjacentes. Vous gagnez 1 cumul de Rugissement dominateur avant chacune des quatre dernières frappes de cette attaque. Rugissement dominateur augmente les DGT critiques.",
         "desc": "Utilise une attaque qui frappe 7 fois et inflige des DGT imaginaires équivalents à #1[i]% de l'ATQ de Dan Heng • Imbibitor Lunae à une cible ennemie unique. À partir de la quatrième frappe, inflige simultanément des DGT imaginaires équivalents à #2[i]% de l'ATQ de Dan Heng • Imbibitor Lunae aux cibles adjacentes.",
         "params": [
             [

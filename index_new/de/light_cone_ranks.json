@@ -3144,7 +3144,7 @@
     "23011": {
         "id": "23011",
         "skill": "Sicht",
-        "desc": "Erhöht die max. LP des Trägers um #1[i]% und Energie-Wiederherstellungsrate um #4[i]%. Wenn die LP des Trägers reduziert werden, wird der von allen Verbündeten bewirkte SCH für #5[i] Runden um #2[f1]% erhöht.\nZu Beginn jeder Welle wird bei allen Verbündeten LP in Höhe von #3[i]% des entsprechenden LP-Unterschieds zwischen der max. LP und aktueller LP jedes Charakters wiederhergestellt.",
+        "desc": "Erhöht die max. LP des Trägers um #1[i]% und Energie-Wiederherstellungsrate um #4[i]%. Wenn die LP des Trägers reduziert werden, wird der von allen Verbündeten verursachte SCH für #5[i] Rd. um #2[f1]% erhöht.\nZu Beginn jeder Kampfwelle werden bei allen Verbündeten LP in Höhe von #3[i]% der jeweiligen verlorenen LP wiederhergestellt.",
         "params": [
             [
                 0.24,
@@ -3390,8 +3390,8 @@
     },
     "23015": {
         "id": "23015",
-        "skill": "Bis zum Tod",
-        "desc": "Erhöht die KRIT-Rate des Trägers um #1[i]%. Wenn der Träger seinen Standardangriff ausführt, erhält er #2[i] Rd. lang 1-fach Drachenruf. Jeder gestapelte Drachenruf erhöht den ANG des Trägers um #4[i]% und seine Energie-Wiederherstellungsrate um #5[f1]%. Drachenruf ist bis zu #3[i]-fach stapelbar.",
+        "skill": "Dem Tode trotzend",
+        "desc": "Erhöht die KRIT-Rate des Trägers um #1[i]%. Wenn der Träger seinen Standardangriff ausführt, erhält er 1 Stapelung „Drachenruf“ für #2[i] Rd. Jede Stapelung Drachenruf erhöht den ANG des Trägers um #4[i]% und seine Energie-Wiederherstellungsrate um #5[f1]%. Drachenruf ist bis zu #3[i]-fach stapelbar.",
         "params": [
             [
                 0.18,
@@ -3657,7 +3657,7 @@
     "24003": {
         "id": "24003",
         "skill": "Chaoselixier",
-        "desc": "Erhöht den Brucheffekt des Trägers um #1[i]%. Beim Einsatz des Ultimates wird sein verursachter DoT für #3[i] Rd. um #2[i]% erhöht. Wird das Ziel besiegt, das von dem DoT durch den Träger betroffen ist, stellt der Träger #4[i] Pkt. Energie wieder her.",
+        "desc": "Erhöht den Brucheffekt des Trägers um #1[i]%. Wenn der Träger seinen Ultimate einsetzt, wird sein verursachter DoT für #3[i] Rd. um #2[i]% erhöht. Wird ein vom DoT durch den Träger betroffener Gegner besiegt, wird die Energie des Trägers um #4[i] Pkt. wiederhergestellt.",
         "params": [
             [
                 0.2,
@@ -3669,25 +3669,25 @@
                 0.25,
                 0.3,
                 2,
-                5
+                4.5
             ],
             [
                 0.3,
                 0.36,
                 2,
-                6
+                5
             ],
             [
                 0.35,
                 0.42,
                 2,
-                7
+                5.5
             ],
             [
                 0.4,
                 0.48,
                 2,
-                8
+                6
             ]
         ],
         "properties": [

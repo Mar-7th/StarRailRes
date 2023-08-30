@@ -1058,7 +1058,7 @@
         "type_text": "Perícia",
         "effect": "Bounce",
         "effect_text": "Rebote",
-        "simple_desc": "Causa Dano Imaginário leve a um único inimigo. Este ataque pode ser Rebatido 3 vezes, com chance de causar Lentidão nos inimigos atingidos.",
+        "simple_desc": "Causa Dano Imaginário leve a um único inimigo. Este ataque pode ser Rebatido 3 vezes, com chance de causar Lentidão aos inimigos atingidos.",
         "desc": "Causa Dano Imaginário igual a #1[i]% do ATQ de Welt a um único inimigo e causa Dano mais 2 vezes, causando Dano Imaginário igual a #1[i]% do ATQ de Welt por acerto a um inimigo aleatório. Ao acertar, há uma chance-base de #2[i]% de reduzir em #3[i]% a VEL do inimigo por #4[i] rodada(s).",
         "params": [
             [
@@ -6202,7 +6202,7 @@
         "effect": "SingleAttack",
         "effect_text": "Alvo Único",
         "simple_desc": "Causa Dano Quântico leve a um único inimigo.",
-        "desc": "Causa Dano Quântico igual a #1[i]% dos PV máximos desta unidade a um único inimigo.",
+        "desc": "Causa Dano Quântico igual a #1[i]% dos PV máximos deste personagem a um único inimigo.",
         "params": [
             [
                 0.25
@@ -6243,7 +6243,7 @@
         "type_text": "Perícia",
         "effect": "Restore",
         "effect_text": "Restauração",
-        "simple_desc": "Aplica \"Resposta de Sobrevivência\" a um único aliado, aumenta seus PV máximos, e restaura PV a eles.",
+        "simple_desc": "Aplica \"Resposta de Sobrevivência\" a um único aliado, aumentando os PV máximos, e restaurando os PV dele.",
         "desc": "Aplica \"Resposta de Sobrevivência\" em um único aliado-alvo e aumenta seus PV máximos em #1[f1]% dos PV máximos de Lynx + #2[i]. Se o alvo for um personagem do Caminho da Destruição ou da Preservação, a chance de que ele seja atacado pelos inimigos aumentará drasticamente. A \"Resposta de Sobrevivência\" dura por #3[i] rodada(s).\nRestaura os PV do alvo em #4[f1]% dos PV máximos de Lynx + #5[i].",
         "params": [
             [
@@ -6469,7 +6469,7 @@
         "effect": "Restore",
         "effect_text": "Restauração",
         "simple_desc": "Ao usar a Perícia ou a Perícia Suprema, aplica cura contínua ao aliado-alvo. Se o alvo tiver uma \"Resposta de Sobrevivência\" ativa, então o efeito da cura contínua aumenta adicionalmente.",
-        "desc": "Ao usar a Perícia ou Perícia Suprema de Lynx, aplica cura contínua ao aliado-alvo por #1[i] rodada(s), restaurando uma quantidade de PV igual a #2[f1]% dos PV máximos de Lynx + #3[i] no início de cada rodada. Se o alvo tiver \"Resposta de Sobrevivência\", o efeito da cura contínua restaura adicionalmente uma quantidade de PV igual a #4[f1]% dos PV máximos de Lynx + #5[i].",
+        "desc": "Ao usar a Perícia ou a Perícia Suprema de Lynx, aplica cura contínua ao aliado-alvo por #1[i] rodada(s), restaurando uma quantidade de PV do aliado-alvo igual a #2[f1]% dos PV máximos de Lynx + #3[i] no início de cada rodada do aliado. Se o alvo tiver \"Resposta de Sobrevivência\", o efeito da cura contínua restaura adicionalmente uma quantidade de PV igual a #4[f1]% dos PV máximos de Lynx + #5[i].",
         "params": [
             [
                 2,
@@ -6589,7 +6589,7 @@
         "effect": "SingleAttack",
         "effect_text": "Alvo Único",
         "simple_desc": "",
-        "desc": "Após atacar um inimigo e entrar em batalha, o Tipo de Tenacidade do alvo inimigo sofrerá Enfraquecimento.",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do Tipo correspondente do alvo inimigo.",
         "params": [],
         "icon": "icon/skill/1110_basic_atk.png"
     },
@@ -6603,7 +6603,7 @@
         "effect": "Restore",
         "effect_text": "Restauração",
         "simple_desc": "Depois que esta personagem usa sua Técnica, no início da próxima batalha, todos os aliados recebem um efeito de cura contínua.",
-        "desc": "Depois que Lynx usa sua Técnica, no início da próxima batalha, todos os aliados recebem o efeito de cura contínua do Talento dela por #1[i] rodada(s).",
+        "desc": "Depois que Lynx usa sua Técnica, no início da próxima batalha, todos os aliados recebem o efeito de cura contínua do Talento dela, durando por #1[i] rodada(s).",
         "params": [
             [
                 2
@@ -9790,7 +9790,7 @@
         "effect": "AoEAttack",
         "effect_text": "Área",
         "simple_desc": "Causa Dano Quântico a todos os inimigos e aumenta a contagem de ativação do Talento de Fu Xuan.",
-        "desc": "Causa Dano Quântico igual a #1[i]% dos PV máximos de Fu Xuan a todos os inimigos e obtém 1 contagem de ativação para o efeito de Recuperação de PV concedido pelo Talento de Fu Xuan.",
+        "desc": "Causa Dano Quântico igual a #1[i]% dos PV máximos de Fu Xuan a todos os inimigos e obtém 1 contagem de ativação para o efeito de Restauração de PV concedido pelo Talento de Fu Xuan.",
         "params": [
             [
                 0.6
@@ -9849,8 +9849,8 @@
         "type_text": "Talento",
         "effect": "Restore",
         "effect_text": "Restauração",
-        "simple_desc": "Enquanto Fu Xuan não está derrubada, o Dano recebido pela equipe inteira é reduzido.\nQuando os PV dela estiverem baixos, ela automaticamente restaura seus próprios PV com base na porcentagem de PV já perdidos. Este efeito pode ser acionado até 2 vezes em qualquer momento.",
-        "desc": "Enquanto Fu Xuan não tiver sido derrubada, a \"Prevenção de Infortúnio\" é aplicada à toda a equipe. Enquanto estiverem afetados pela \"Prevenção de Infortúnio\", os aliados recebem #1[f1]% a menos de Dano.\nA Recuperação de PV será ativada para Fu Xuan quando os PV dela chegarem a #2[i]% ou menos dos seus PV máximos. Este efeito recuperará os PV dela em #3[i]% da quantidade de PV perdida no momento. Este efeito não pode ser ativado se ela receber um golpe fatal. Este efeito possui 1 contagem de ativação por padrão, e pode possuir um máximo de 2 contagens de ativação.",
+        "simple_desc": "Enquanto Fu Xuan estiver ativa em batalha, o Dano recebido pela equipe inteira é reduzido.\nQuando os PV dela estiverem baixos, ela automaticamente restaura seus próprios PV com base na porcentagem de PV já perdidos. Este efeito pode ser acionado até 2 vezes em qualquer momento.",
+        "desc": "Enquanto Fu Xuan estiver ativa em combate, a \"Prevenção de Infortúnio\" é aplicada a toda a equipe. Enquanto estiverem com Prevenção de Infortúnio, os aliados recebem #1[f1]% a menos de Dano.\nQuando os PV atuais de Fu Xuan caírem para #2[i]% ou menos dos seus PV máximos, a Restauração de PV será ativada para Fu Xuan, recuperando os PV dela em #3[i]% da quantidade de PV perdida no momento. Este efeito não pode ser ativado se ela receber um golpe fatal. Este efeito possui 1 contagem de ativação por padrão, e pode possuir um máximo de 2 contagens de ativação.",
         "params": [
             [
                 0.1,
@@ -9940,7 +9940,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Ataca o inimigo. Ao entrar em batalha, reduz a Tenacidade dos inimigos-alvo do Tipo correspondente.",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do Tipo correspondente do alvo inimigo.",
         "params": [],
         "icon": "icon/skill/1208_basic_atk.png"
     },
@@ -9954,7 +9954,7 @@
         "effect": "Defence",
         "effect_text": "Defesa",
         "simple_desc": "Ativa uma Barreira. Aliados não entrarão em batalha quando forem atacados por inimigos. Entrar em batalha ativará a Matriz de Presciência automaticamente.",
-        "desc": "Depois que a Técnica é utilizada, todos os membros da equipe recebem uma Barreira que dura por #1[i] segundos. Esta Barreira pode bloquear todos os ataques inimigos e a equipe não entrará em batalha quando atacada. Entrar em batalha enquanto a Barreira estiver ativa fará com que Fu Xuan ative a Matriz de Presciência automaticamente no início da batalha por #2[i] rodada(s).",
+        "desc": "Depois que a Técnica é utilizada, todos os membros da equipe recebem uma Barreira que dura #1[i] segundos. Esta Barreira pode bloquear todos os ataques inimigos e a equipe não entrará em batalha quando atacada. Entrar em batalha enquanto a Barreira estiver ativa fará com que Fu Xuan ative a Matriz de Presciência automaticamente no início da batalha por #2[i] rodada(s).",
         "params": [
             [
                 20,
@@ -10723,7 +10723,7 @@
         "effect": "SingleAttack",
         "effect_text": "Alvo Único",
         "simple_desc": "Causa Dano Imaginário leve a um único inimigo.",
-        "desc": "Usa um ataque de 2 golpes e causa Dano Imaginário igual a #1[i]% do ATQ de Dan Heng - Embebidor Lunae a um único inimigo.",
+        "desc": "Realiza um ataque de 2 golpes e causa Dano Imaginário igual a #1[i]% do ATQ de Dan Heng - Embebidor Lunae a um único alvo inimigo.",
         "params": [
             [
                 0.5
@@ -11034,7 +11034,7 @@
         "effect": "Enhance",
         "effect_text": "Aprimoramento",
         "simple_desc": "Entra no estado de Dragão Saltitante. Atacar fará com que esse personagem se mova para frente rapidamente uma certa distância e ataque todos os inimigos tocados. Após entrar em combate ao atacar inimigos, causa Dano Imaginário a todos os inimigos, e ganha 1 Squama Sacrosancta.",
-        "desc": "Após usar sua Técnica, Dan Heng - Embebidor Lunae entra no estado de Dragão Saltitante por #2[i] segundos. Enquanto está no estado de Dragão Saltitante, usar o seu ataque permite que ele se mova para frente rapidamente por uma certa distância, atacando todos os inimigos que ele tocar e bloqueando todos os ataques direcionados a ele. Após entrar no combate ao atacar inimigos no estado de Dragão Saltitante, Dan Heng - Embebidor Lunae causa Dano Imaginário igual a #3[i]% do seu ATQ a todos os inimigos, e ganha #1[i] Squama Sacrosancta.",
+        "desc": "Após usar sua Técnica, Dan Heng - Embebidor Lunae entra no estado de Dragão Saltitante por #2[i] segundos. Enquanto está no estado de Dragão Saltitante, usar o seu ataque permite que ele se mova para frente rapidamente por uma certa distância, atacando todos os inimigos nos quais ele tocar e bloqueando todos os ataques direcionados a ele. Após entrar no combate ao atacar inimigos no estado de Dragão Saltitante, Dan Heng - Embebidor Lunae causa Dano Imaginário igual a #3[i]% do seu ATQ a todos os inimigos, e ganha #1[i] Squama Sacrosancta.",
         "params": [
             [
                 1,
@@ -11054,7 +11054,7 @@
         "effect": "SingleAttack",
         "effect_text": "Alvo Único",
         "simple_desc": "Realiza 3 golpes neste ataque e causa Dano Imaginário a um único inimigo-alvo.",
-        "desc": "Usa um ataque de 3 golpes e causa Dano Imaginário igual a #1[i]% do ATQ de Dan Heng - Embebidor Lunae a um único inimigo.",
+        "desc": "Realiza um ataque de 3 golpes e causa Dano Imaginário igual a #1[i]% do ATQ de Dan Heng - Embebidor Lunae a um único inimigo.",
         "params": [
             [
                 1.3
@@ -11127,7 +11127,7 @@
         "type_text": "ATQ Básico",
         "effect": "Blast",
         "effect_text": "Explosão",
-        "simple_desc": "Realiza 5 golpes neste ataque para causar Dano Imaginário massivo a um único inimigo e Dano Imaginário leve a alvos adjacentes. Obtém 1 acúmulo de \"Rugido Soberano\" cada antes de realizar o quarto e quinto golpes deste ataque. O \"Rugido Soberano\" aumenta o Dano CRIT.",
+        "simple_desc": "Realiza 5 golpes neste ataque para causar Dano Imaginário massivo a um único inimigo e Dano Imaginário leve a alvos adjacentes. Para cada um dos últimos 2 golpes, obtém 1 acúmulo de Rugido Soberano logo antes do golpe, aumentando o Dano CRIT.",
         "desc": "Realiza um ataque de 5 golpes e causa Dano Imaginário igual a #1[i]% do ATQ de Dan Heng - Embebidor Lunae a um único inimigo-alvo. Do quarto golpe em diante, causa simultaneamente Dano Imaginário igual a #2[i]% do ATQ de Dan Heng - Embebidor Lunae a alvos adjacentes.",
         "params": [
             [
@@ -11202,7 +11202,7 @@
         "type_text": "ATQ Básico",
         "effect": "Blast",
         "effect_text": "Explosão",
-        "simple_desc": "Realiza 7 golpes neste ataque para causar Dano Imaginário massivo a um único inimigo e Dano Imaginário a alvos adjacentes. Obtém 1 acúmulo de \"Rugido Soberano\" cada antes de realizar o quarto, quinto, sexto e sétimo golpes deste ataque. O \"Rugido Soberano\" aumenta o Dano CRIT.",
+        "simple_desc": "Realiza 7 golpes neste ataque para causar Dano Imaginário massivo a um único inimigo e Dano Imaginário a alvos adjacentes. Para cada um dos últimos 4 golpes, obtém 1 acúmulo de Rugido Soberano logo antes do golpe, aumentando o Dano CRIT.",
         "desc": "Realiza um ataque de 7 golpes e causa Dano Imaginário igual a #1[i]% do ATQ de Dan Heng - Embebidor Lunae a um único inimigo-alvo. Do quarto golpe em diante, causa simultaneamente Dano Imaginário igual a #2[i]% do ATQ de Dan Heng - Embebidor Lunae a alvos adjacentes.",
         "params": [
             [

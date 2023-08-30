@@ -6202,7 +6202,7 @@
         "effect": "SingleAttack",
         "effect_text": "Einzelangriff",
         "simple_desc": "Fügt einem Gegner geringen Quanten-SCH zu.",
-        "desc": "Fügt einem anvisierten Gegner Quanten-SCH in Höhe von #1[i]% der max. LP des Anwenders zu.",
+        "desc": "Fügt einem anvisierten Gegner Quanten-SCH in Höhe von #1[i]% der max. LP von Lynx zu.",
         "params": [
             [
                 0.25
@@ -6236,15 +6236,15 @@
     },
     "111002": {
         "id": "111002",
-        "name": "Gesalzene Campingdosen",
+        "name": "Gesalzenes Dosenfutter",
         "max_level": 15,
         "element": "",
         "type": "BPSkill",
         "type_text": "Fertigkeit",
         "effect": "Restore",
         "effect_text": "Wiederherstellung",
-        "simple_desc": "Wendet die „Überlebensreaktion“ auf einen Verbündeten an, erhöht seine max. LP und stellt seine LP wieder her.",
-        "desc": "Wendet die Überlebensreaktion auf einen anvisierten Verbündeten an und erhöht dessen max. LP um #1[f1]% der max. LP von Lynx plus #2[i]. Wenn dieser Verbündete eine Figur auf dem Pfad der Zerstörung oder der Bewahrung ist, wird die Chance stark erhöht, dass er von Gegnern angegriffen wird. Die Überlebensreaktion hält für #3[i] Rd. an.\nStellt beim Ziel LP in Höhe von #4[f1]% der max. LP von Lynx plus #5[i].",
+        "simple_desc": "Wendet „Überlebensreaktion“ auf einen Verbündeten an, erhöht seine max. LP und stellt seine LP wieder her.",
+        "desc": "Wendet „Überlebensreaktion“ auf einen anvisierten Verbündeten an und erhöht dessen max. LP um #1[f1]% der max. LP von Lynx plus #2[i]. Wenn dieser Verbündete dem Pfad der Zerstörung oder der Bewahrung angehört, wird die Chance stark erhöht, dass er von Gegnern angegriffen wird. Die „Überlebensreaktion“ hält für #3[i] Rd. an.\nStellt beim Ziel LP in Höhe von #4[f1]% der max. LP von Lynx plus #5[i] wieder her.",
         "params": [
             [
                 0.05,
@@ -6379,7 +6379,7 @@
         "effect": "Restore",
         "effect_text": "Wiederherstellung",
         "simple_desc": "Entfernt 1 Debuff von allen Verbündeten und stellt ihre LP wieder her.",
-        "desc": "Entfernt #1[i] Debuff von allen Verbündeten und heilt bei ihnen sofort LP in Höhe von #2[f1]% der max. LP von Lynx + #3[i] Punkte.",
+        "desc": "Entfernt #1[i] Debuff von allen Verbündeten und stellt bei ihnen sofort LP in Höhe von #2[f1]% der max. LP von Lynx plus #3[i] wieder her.",
         "params": [
             [
                 1,
@@ -6468,8 +6468,8 @@
         "type_text": "Talent",
         "effect": "Restore",
         "effect_text": "Wiederherstellung",
-        "simple_desc": "Beim Einsatz der Fertigkeit oder des Ultimates wird kontinuierliche Heilung auf Verbündeten angewendet. Bei Verbündeten mit „Überlebensreaktion“ wird der Effekt der kontinuierlichen Heilung zusätzlich erhöht.",
-        "desc": "Wenn du Lynx’ Fertigkeit oder Ultimate einsetzt, erhält der anvisierte Verbündete für #1[i] Rd. zu Beginn jeder Runde kontinuierliche Heilung, sodass bei ihm LP in Höhe von #2[f1]% von Lynx’ max. LP + #3[i] wiederhergestellt werden. Wenn die Überlebensreaktion des anvisierten Gegners aktiv ist, stellt der kontinuierliche Heileffekt zusätzlich LP in Höhe von #4[f1]% von Lynx’ max. LP + #5[i] wieder her.",
+        "simple_desc": "Beim Einsatz der Fertigkeit oder des Ultimates wird kontinuierliche Heilung auf Verbündete angewendet. Bei Verbündeten mit „Überlebensreaktion“ wird der Effekt der kontinuierlichen Heilung zusätzlich erhöht.",
+        "desc": "Wenn Lynx ihre Fertigkeit oder ihren Ultimate einsetzt, erhält der anvisierte Verbündete für #1[i] Rd. zu Beginn jeder Runde kontinuierliche Heilung in Höhe von #2[f1]% der max. LP von Lynx plus #3[i]. Wenn das anvisierte Ziel mit „Überlebensreaktion“ ausgestattet ist, stellt der kontinuierliche Heileffekt zusätzlich LP in Höhe von #4[f1]% der max. LP von Lynx plus #5[i] wieder her.",
         "params": [
             [
                 2,
@@ -6589,13 +6589,13 @@
         "effect": "SingleAttack",
         "effect_text": "Einzelangriff",
         "simple_desc": "",
-        "desc": "Greift den Gegner an und schwächt nach Kampfeintritt den Widerstand des Ziels gegen den entsprechenden Typ.",
+        "desc": "Greift den Gegner an und reduziert nach Kampfeintritt den Widerstand des gegnerischen Ziels des entsprechenden Typs.",
         "params": [],
         "icon": "icon/skill/1110_basic_atk.png"
     },
     "111007": {
         "id": "111007",
-        "name": "Schokoenergieriegel",
+        "name": "Schoko-Energieriegel",
         "max_level": 1,
         "element": "",
         "type": "Maze",
@@ -6603,7 +6603,7 @@
         "effect": "Restore",
         "effect_text": "Wiederherstellung",
         "simple_desc": "Nach dem Einsatz der Technik erhalten alle Verbündeten zu Beginn des nächsten Kampfes kontinuierliche Heilung.",
-        "desc": "Nachdem Lynx ihre Technik eingesetzt hat, erhalten alle Verbündeten zu Beginn des nächsten Kampfes für #1[i] Rd. kontinuierliche Heilung durch ihr Talent.",
+        "desc": "Nachdem Lynx ihre Technik eingesetzt hat, erhalten alle Verbündeten zu Beginn des nächsten Kampfes für #1[i] Rd. kontinuierliche Heilung von ihrem Talent.",
         "params": [
             [
                 2
@@ -9670,7 +9670,7 @@
         "effect": "Defence",
         "effect_text": "Verteidigung",
         "simple_desc": "Aktiviert die „Matrix der Voraussicht“, wodurch der erlittene SCH von Verbündeten mit Fu Xuan geteilt wird. Erhöht die KRIT-Rate und die max. LP aller Verbündeten.",
-        "desc": "Aktiviert die „Matrix der Voraussicht“. Für #3[i] Rd. wird #1[i]% des SCH, den Fu Xuans Verbündete erleiden (und bevor dieser Schaden durch eventuell vorhandene Schilde adsorbiert wird), mit Fu Xuan geteilt.\nAlle Verbündeten, die von der „Matrix der Voraussicht“ betroffen sind, erhalten den Status „Wissen“, der ihre max. LP um #4[f1]% von Fu Xuans max. LP und ihre KRIT-Rate um #5[f1]% erhöht.\nWenn Fu Xuan handlungsunfähig wird, verschwindet die „Matrix der Voraussicht“.",
+        "desc": "Aktiviert die „Matrix der Voraussicht“. Für #3[i] Rd. wird #1[i]% des SCH, den Fu Xuans Verbündete erleiden (und bevor dieser Schaden durch eventuell vorhandene Schilde adsorbiert wird), mit Fu Xuan geteilt.\nAlle Verbündeten, die von der „Matrix der Voraussicht“ betroffen sind, erhalten den Status „Wissen“, der ihre max. LP um #4[f1]% der max. LP von Fu Xuan und ihre KRIT-Rate um #5[f1]% erhöht.\nWenn Fu Xuan handlungsunfähig wird, verschwindet die „Matrix der Voraussicht“.",
         "params": [
             [
                 0.65,
@@ -9790,7 +9790,7 @@
         "effect": "AoEAttack",
         "effect_text": "Flächenangriff",
         "simple_desc": "Fügt allen Gegnern Quanten-SCH zu und erhöht die Auslösungsanzahl von Fu Xuans Talent.",
-        "desc": "Fügt allen Gegnern Quanten-SCH in Höhe von #1[i]% von Fu Xuans max. LP zu und erhält 1 Auslösepunkt für die LP-Wiederherstellung von Fu Xuans Talent.",
+        "desc": "Fügt allen Gegnern Quanten-SCH in Höhe von #1[i]% der max. LP von Fu Xuan zu und verleiht 1 Auslösepunkt für die LP-Wiederherstellung von Fu Xuans Talent.",
         "params": [
             [
                 0.6
@@ -9850,7 +9850,7 @@
         "effect": "Restore",
         "effect_text": "Wiederherstellung",
         "simple_desc": "Solange Fu Xuan kampffähig ist, wird der von allen Verbündeten erlittene SCH reduziert.\nWenn die LP niedrig sind, werden automatisch LP anhand des Prozentsatzes der verlorenen LP wiederhergestellt. Dieser Effekt kann höchstens 2-mal ausgelöst werden.",
-        "desc": "Solange Fu Xuan kampffähig ist, wird „Unglücksvermeidung“ auf alle Verbündeten angewendet. Im Status von „Unglücksvermeidung“ erleiden die Verbündeten #1[f1]% weniger SCH.\nLP-Wiederherstellung wird für Fu Xuan ausgelöst, wenn ihr LP-Prozentsatz auf #2[i]% oder weniger ihrer max. LP liegt. Dieser Effekt stellt ihre LP in Höhe von #3[i]% der bisher verlorenen LP wieder her. Er kann nicht ausgelöst werden, wenn sie einen Todesstoß erleidet. Dieser Effekt kann anfangs 1-mal ausgelöst werden und hat eine max. Auslösungsanzahl von 2.",
+        "desc": "Solange Fu Xuan kampffähig ist, wird „Unglücksvermeidung“ auf alle Verbündeten angewendet. Im Status „Unglücksvermeidung“ erleiden die Verbündeten #1[f1]% weniger SCH.\nLP-Wiederherstellung wird für Fu Xuan ausgelöst, wenn ihr LP-Prozentsatz auf #2[i]% oder weniger liegt. Dieser Effekt stellt ihre LP in Höhe von #3[i]% der bisher verlorenen LP wieder her. Er kann nicht ausgelöst werden, wenn sie einen Todesstoß erleidet. Dieser Effekt kann anfangs 1-mal ausgelöst werden und hat eine max. Auslösungsanzahl von 2.",
         "params": [
             [
                 0.1,
@@ -10723,7 +10723,7 @@
         "effect": "SingleAttack",
         "effect_text": "Einzelangriff",
         "simple_desc": "Fügt einem Gegner geringen imaginären SCH zu.",
-        "desc": "Verwendet einen Angriff mit 2 Treffern und fügt einem anvisierten Gegner imaginären SCH in Höhe von #1[i]% des ANG von Dan Heng – Imbibitor Lunae zu.",
+        "desc": "Führt einen Angriff mit 2 Treffern aus und fügt einem anvisierten Gegner imaginären SCH in Höhe von #1[i]% des ANG von Dan Heng – Imbibitor Lunae zu.",
         "params": [
             [
                 0.5
@@ -10765,7 +10765,7 @@
         "effect": "Enhance",
         "effect_text": "Verstärkung",
         "simple_desc": "Verstärkt den Standardangriff Segensreicher Lotus zu Transzendenz, Himmlischer Speer oder Blitzartiger Sprung.",
-        "desc": "Verstärkt den Standardangriff bis zu 3-mal hintereinander. Der Einsatz dieser Fähigkeit verbraucht keinen Fertigkeitspunkt und gilt nicht als Einsatz einer Fertigkeit.\nDurch einmalige Verstärkung des Standardangriffs verwandelt sich „Segensreicher Lotus“ in „Transzendenz“.\nDurch zweimalige Verstärkung des Standardangriffs verwandelt sich „Segensreicher Lotus“ in „Himmlischer Speer“.\nDurch dreimalige Verstärkung des Standardangriffs verwandelt sich „Segensreicher Lotus“ in „Blitzartiger Sprung“.\nBeim Einsatz von „Himmlischer Speer“ oder „Blitzartiger Sprung“ erhält Dan Heng – Imbibitor Lunae ab dem vierten Treffer dieses Angriffs vor jedem Treffer jeweils 1 Stapelung „Beherrschendes Gebrüll“. Jede Stapelung von „Beherrschendes Gebrüll“ erhöht den KRIT-SCH von Dan Heng – Imbibitor Lunae um #1[f1]%. Dieser Effekt ist bis zu #2[i]-fach stapelbar und hält bis zum Ende seiner Runde an.",
+        "desc": "Verstärkt den Standardangriff bis zu 3-mal hintereinander. Der Einsatz dieser Fähigkeit verbraucht keinen Fertigkeitspunkt und gilt nicht als Einsatz einer Fertigkeit.\nDurch einmalige Verstärkung des Standardangriffs verwandelt sich „Segensreicher Lotus“ in „Transzendenz“, durch zweimalige Verstärkung in „Himmlischer Speer“ und durch dreimalige Verstärkung in „Blitzartiger Sprung“.\nBeim Einsatz von „Himmlischer Speer“ oder „Blitzartiger Sprung“ erhält Dan Heng – Imbibitor Lunae ab dem vierten Treffer dieses Angriffs vor jedem Treffer jeweils 1 Stapelung „Beherrschendes Gebrüll“. Jede Stapelung von „Beherrschendes Gebrüll“ erhöht den KRIT-SCH von Dan Heng – Imbibitor Lunae um #1[f1]%. Dieser Effekt ist bis zu #2[i]-fach stapelbar und hält bis zum Ende seiner Runde an.",
         "params": [
             [
                 0.06,
@@ -10839,8 +10839,8 @@
         "type_text": "Ultimate",
         "effect": "Blast",
         "effect_text": "Ausdehnung",
-        "simple_desc": "Fügt einem Gegner massiven imaginären SCH zu, fügt angrenzenden Einheiten imaginären SCH zu und erhält 2 „Unantastbare Schuppe“. Dan Heng – Imbibitor Lunae kann anstelle von Fertigkeitspunkten die gleiche Anzahl von Unantastbare Schuppe verbrauchen. Der Verbrauch von „Unantastbare Schuppe“ wird mit dem Verbrauch von Fertigkeitspunkten gleichgesetzt.",
-        "desc": "Führt einen Angriff mit 3 Treffern aus und fügt einem anvisierten Gegner imaginären SCH in Höhe von #1[i]% des ANG von Dan Heng – Imbibitor Lunae zu. Fügt gleichzeitig angrenzenden Einheiten imaginären SCH in Höhe von #2[i]% des ANG von Dan Heng – Imbibitor Lunae zu. Erhält #3[i] „Unantastbare Schuppen“.\n„Unantastbare Schuppe“ kann bis zu #4[i]-mal erhalten werden. Dan Heng – Imbibitor Lunae kann eine entsprechende Anzahl von „Unantastbare Schuppen“ anstelle von Fertigkeitspunkten verbrauchen. Das Verbrauchen von „Unantastbare Schuppen“ wird dem Verbrauchen von Fertigkeitspunkten gleichgesetzt.",
+        "simple_desc": "Fügt einem Gegner massiven imaginären SCH zu, fügt angrenzenden Einheiten imaginären SCH zu und verleiht Dan Heng – Imbibitor Lunae 2 „Unantastbare Schuppen“. Dan Heng – Imbibitor Lunae kann anstelle von Fertigkeitspunkten die gleiche Anzahl von Unantastbaren Schuppen verbrauchen. Der Verbrauch von „Unantastbaren Schuppen“ wird mit dem Verbrauch von Fertigkeitspunkten gleichgesetzt.",
+        "desc": "Führt einen Angriff mit 3 Treffern aus und fügt einem anvisierten Gegner imaginären SCH in Höhe von #1[i]% des ANG von Dan Heng – Imbibitor Lunae zu. Fügt gleichzeitig angrenzenden Einheiten imaginären SCH in Höhe von #2[i]% des ANG von Dan Heng – Imbibitor Lunae zu. Erhält #3[i] „Unantastbare Schuppen“.\n„Unantastbare Schuppe“ kann bis zu #4[i]-mal erhalten werden. Dan Heng – Imbibitor Lunae kann eine entsprechende Anzahl von „Unantastbaren Schuppen“ anstelle von Fertigkeitspunkten verbrauchen. Das Verbrauchen von „Unantastbaren Schuppen“ wird dem Verbrauchen von Fertigkeitspunkten gleichgesetzt.",
         "params": [
             [
                 1.8,
@@ -11033,8 +11033,8 @@
         "type_text": "Technik",
         "effect": "Enhance",
         "effect_text": "Verstärkung",
-        "simple_desc": "Geht in den Status „Springender Drache“ über. Beim Einsatz des Angriffs bewegt sich diese Figur eine bestimmte Strecke schnell vorwärts und greift Gegner an, die sie berührt. Wenn sie durch Angriff auf den Gegner einen Kampf einleitet, fügt sie allen Gegnern imaginären SCH zu und erhält 1 „Unantastbare Schuppe“.",
-        "desc": "Nach der Anwendung seiner Technik geht Dan Heng – Imbibitor Lunae für 2[i] Sekunden in den Status Springender Drache über. Im Status Springender Drache bewegt sich Dan Heng – Imbibitor Lunae beim Einsatz seines Angriffs eine bestimmte Strecke schnell vorwärts, greift alle Gegner an, die er berührt und blockt alle eingehenden Angriffe. Wenn Dan Heng – Imbibitor Lunae durch Angriff von Feinden im Status Springender Drache in einen Kampf eintritt, fügt er allen Feinden imaginären SCH in Höhe von #3[i]% seines ANG zu und erhält #1[i] „Unantastbare Schuppe“.",
+        "simple_desc": "Geht in den Status „Springender Drache“ über. Beim Einsatz des Angriffs bewegt sich Dan Heng – Imbibitor Lunae beim Einsatz seines Angriffs eine bestimmte Strecke schnell vorwärts und greift Gegner an, die er berührt. Wenn er durch Angriff auf den Gegner einen Kampf einleitet, fügt er allen Gegnern imaginären SCH zu und erhält 1 „Unantastbare Schuppe“.",
+        "desc": "Nach der Anwendung seiner Technik geht Dan Heng – Imbibitor Lunae für #2[i] Sek. in den Status „Springender Drache“ über. Im Status Springender Drache bewegt sich Dan Heng – Imbibitor Lunae beim Einsatz seines Angriffs eine bestimmte Strecke schnell vorwärts, greift alle Gegner an, die er berührt und blockt alle eingehenden Angriffe. Wenn Dan Heng – Imbibitor Lunae im Status „Springender Drache“ durch Angriff auf den Gegner in einen Kampf eintritt, fügt er allen Gegnern imaginären SCH in Höhe von #3[i]% seines ANG zu und erhält #1[i] „Unantastbare Schuppe“.",
         "params": [
             [
                 1,
@@ -11053,8 +11053,8 @@
         "type_text": "Standardangriff",
         "effect": "SingleAttack",
         "effect_text": "Einzelangriff",
-        "simple_desc": "Führt diesen Angriff mit 3 Treffern aus und fügt einem Gegner imaginären SCH zu.",
-        "desc": "Entfesselt in diesem Angriff 3 Treffer und fügt einem einzelnen gegnerischen Ziel imaginären SCH in Höhe von #1[i]% des ANG von Dan Heng – Imbibitor Lunae zu.",
+        "simple_desc": "Führt einen Angriff mit 3 Treffern aus und fügt einem Gegner imaginären SCH zu.",
+        "desc": "Führt einen Angriff mit 3 Treffern aus und fügt einem anvisierten Gegner imaginären SCH in Höhe von #1[i]% des ANG von Dan Heng – Imbibitor Lunae zu.",
         "params": [
             [
                 1.3
@@ -11127,8 +11127,8 @@
         "type_text": "Standardangriff",
         "effect": "Blast",
         "effect_text": "Ausdehnung",
-        "simple_desc": "Fügt mit diesem Angriff 5 Treffer zu, die einem Gegner massiven imaginären SCH und angrenzenden Einheiten geringen imaginären SCH zufügen. Die letzten 2 Treffer erhalten jeweils 1 Stapelung „Beherrschendes Gebrüll“, bevor sie ausgeführt werden, was den KRIT-SCH erhöht.",
-        "desc": "Führe einen Angriff mit 5 Treffern aus, der einem anvisierten Gegner imaginären SCH in Höhe von #1[i]% von Dan Heng – Imbibitor Lunaes ANG zufügt. Fügt ab dem vierten Treffer den angrenzenden Einheiten imaginären SCH in Höhe von #2[i]% von Dan Heng – Imbibitor Lunaes ANG zu.",
+        "simple_desc": "Führt einen Angriff mit 5 Treffern aus und fügt einem Gegner massiven imaginären SCH und angrenzenden Einheiten geringen imaginären SCH zu. Die letzten 2 Treffer erhalten jeweils 1 Stapelung „Beherrschendes Gebrüll“, bevor sie ausgeführt werden, was den KRIT-SCH erhöht.",
+        "desc": "Führt einen Angriff mit 5 Treffern aus und fügt einem anvisierten Gegner imaginären SCH in Höhe von #1[i]% von Dan Heng – Imbibitor Lunaes ANG zu. Fügt ab dem vierten Treffer den angrenzenden Einheiten imaginären SCH in Höhe von #2[i]% von Dan Heng – Imbibitor Lunaes ANG zu.",
         "params": [
             [
                 1.9,
@@ -11202,8 +11202,8 @@
         "type_text": "Standardangriff",
         "effect": "Blast",
         "effect_text": "Ausdehnung",
-        "simple_desc": "Fügt mit diesem Angriff 7 Treffer zu, die einem Gegner massiven imaginären SCH und angrenzenden Einheiten geringen imaginären SCH zufügen. Die letzten 4 Treffer erhalten jeweils 1 Stapelung „Beherrschendes Gebrüll“, bevor sie ausgeführt werden, was den KRIT-SCH erhöht.",
-        "desc": "Führe einen Angriff mit 7 Treffern aus, der einem anvisierten Gegner imaginären SCH in Höhe von #1[i]% von Dan Heng – Imbibitor Lunaes ANG zufügt. Fügt ab dem vierten Treffer den angrenzenden Einheiten imaginären SCH in Höhe von #2[i]% von Dan Heng – Imbibitor Lunaes ANG zu.",
+        "simple_desc": "Führt einen Angriff mit 7 Treffern aus und fügt einem Gegner massiven imaginären SCH und angrenzenden Einheiten geringen imaginären SCH zu. Die letzten 4 Treffer erhalten jeweils 1 Stapelung „Beherrschendes Gebrüll“, bevor sie ausgeführt werden, was den KRIT-SCH erhöht.",
+        "desc": "Führt einen Angriff mit 7 Treffern aus und fügt einem anvisierten Gegner imaginären SCH in Höhe von #1[i]% von Dan Heng – Imbibitor Lunaes ANG zu. Fügt ab dem vierten Treffer den angrenzenden Einheiten imaginären SCH in Höhe von #2[i]% von Dan Heng – Imbibitor Lunaes ANG zu.",
         "params": [
             [
                 2.5,

@@ -1058,7 +1058,7 @@
         "type_text": "Skill",
         "effect": "Bounce",
         "effect_text": "Bounce",
-        "simple_desc": "Deals minor Imaginary DMG to a single enemy. This attack can Bounce 3 times, with a chance of Slowing hit enemies.",
+        "simple_desc": "Deals minor Imaginary DMG to a single enemy. This attack can Bounce 3 times, with a chance of Slowing the hit enemies.",
         "desc": "Deals Imaginary DMG equal to #1[i]% of Welt's ATK to a single enemy and further deals DMG 2 extra times, with each time dealing Imaginary DMG equal to #1[i]% of Welt's ATK to a random enemy. On hit, there is a #2[i]% base chance to reduce the enemy's SPD by #3[i]% for #4[i] turn(s).",
         "params": [
             [
@@ -6202,7 +6202,7 @@
         "effect": "SingleAttack",
         "effect_text": "Single Target",
         "simple_desc": "Deals minor Quantum DMG to a single enemy.",
-        "desc": "Deals Quantum DMG equal to #1[i]% of this unit's Max HP to a single enemy.",
+        "desc": "Deals Quantum DMG equal to #1[i]% of this character's Max HP to a single enemy.",
         "params": [
             [
                 0.25
@@ -6243,7 +6243,7 @@
         "type_text": "Skill",
         "effect": "Restore",
         "effect_text": "Restore",
-        "simple_desc": "Applies \"Survival Response\" to a single ally, increases their Max HP, and restores HP to them.",
+        "simple_desc": "Applies \"Survival Response\" to a single ally, increases their Max HP, and restores their HP.",
         "desc": "Applies \"Survival Response\" to a single target ally and increases their Max HP by #1[f1]% of Lynx's Max HP plus #2[i]. If the target ally is a character on the Path of Destruction or Preservation, the chance of them being attacked by enemies will greatly increase. \"Survival Response\" lasts for #3[i] turn(s).\nRestores the target's HP by #4[f1]% of Lynx's Max HP plus #5[i].",
         "params": [
             [
@@ -6468,8 +6468,8 @@
         "type_text": "Talent",
         "effect": "Restore",
         "effect_text": "Restore",
-        "simple_desc": "When the Skill or Ultimate is used, applies continuous healing on the targeted ally. If the target has \"Survival Response\" active, the continuous healing effect additionally increases.",
-        "desc": "When using Lynx's Skill or Ultimate, applies continuous healing to the target ally for #1[i] turn(s), restoring HP by an amount equal to #2[f1]% of Lynx's Max HP plus #3[i] at the start of each turn. If the target has \"Survival Response\", the continuous healing effect additionally restores HP by an amount equal to #4[f1]% of Lynx's Max HP plus #5[i].",
+        "simple_desc": "When using Skill or Ultimate, applies continuous healing on the target ally. If the target has \"Survival Response\", the continuous healing effect additionally increases.",
+        "desc": "When using Lynx's Skill or Ultimate, applies continuous healing to the target ally for #1[i] turn(s), restoring the target ally's HP by an amount equal to #2[f1]% of Lynx's Max HP plus #3[i] at the start of each their turn. If the target has \"Survival Response\", the continuous healing effect additionally restores HP by an amount equal to #4[f1]% of Lynx's Max HP plus #5[i].",
         "params": [
             [
                 2,
@@ -6589,7 +6589,7 @@
         "effect": "SingleAttack",
         "effect_text": "Single Target",
         "simple_desc": "",
-        "desc": "After attacking an enemy and entering battle, the enemy target's corresponding Type Toughness will be Weakened.",
+        "desc": "Attack an enemy, and when the battle starts, reduce their Toughness of the corresponding Type.",
         "params": [],
         "icon": "icon/skill/1110_basic_atk.png"
     },
@@ -6603,7 +6603,7 @@
         "effect": "Restore",
         "effect_text": "Restore",
         "simple_desc": "After this character uses her Technique, at the start of the next battle, all allies are granted a continuous healing effect.",
-        "desc": "After Lynx uses her Technique, at the start of the next battle, all allies are granted the continuous healing effect from her Talent for #1[i] turn(s).",
+        "desc": "After Lynx uses her Technique, at the start of the next battle, all allies are granted her Talent's continuous healing effect, lasting for #1[i] turn(s).",
         "params": [
             [
                 2
@@ -9849,8 +9849,8 @@
         "type_text": "Talent",
         "effect": "Restore",
         "effect_text": "Restore",
-        "simple_desc": "While Fu Xuan is not knocked down, DMG taken by all team members is reduced.\nWhen her HP is low, automatically restores her own HP based on the percentage of HP already lost. This effect can have up to 2 trigger counts at any given time.",
-        "desc": "While Fu Xuan has not been knocked down, \"Misfortune Avoidance\" is applied to the entire team. While affected by \"Misfortune Avoidance\", allies take #1[f1]% less DMG.\nHP Restore will be triggered for Fu Xuan when her HP falls to #2[i]% of her Max HP or less. This effect will restore her HP by #3[i]% of the amount of HP she is currently missing. This effect cannot be triggered if she receives a killing blow. This effect possesses 1 trigger count by default, and can have a maximum of 2 trigger counts.",
+        "simple_desc": "While Fu Xuan is still active in battle, the DMG taken by all team members is reduced.\nWhen her HP is low, automatically restores her own HP based on the percentage of HP already lost. This effect can have up to 2 trigger counts at any given time.",
+        "desc": "While Fu Xuan is still active in battle, Misfortune Avoidance is applied to the entire team. With Misfortune Avoidance, allies take #1[f1]% less DMG.\nWhen Fu Xuan's current HP falls to #2[i]% of her Max HP or less, HP Restore will be triggered for Fu Xuan, restoring her HP by #3[i]% of the amount of HP she is currently missing. This effect cannot be triggered if she receives a killing blow. This effect possesses 1 trigger count by default and can have a maximum of 2 trigger counts.",
         "params": [
             [
                 0.1,
@@ -9940,7 +9940,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Attack the enemy. Upon entering battle, reduce the enemy targets' Toughness of the corresponding Type.",
+        "desc": "Attack an enemy, and when the battle starts, reduce their Toughness of the corresponding Type.",
         "params": [],
         "icon": "icon/skill/1208_basic_atk.png"
     },
@@ -10765,7 +10765,7 @@
         "effect": "Enhance",
         "effect_text": "Enhance",
         "simple_desc": "Enhances the Basic ATK Beneficent Lotus to Transcendence, Divine Spear, or Fulgurant Leap.",
-        "desc": "Enhances Basic ATK. Enhancements may be applied up to 3 times consecutively. Using this ability does not consume Skill Points and is not considered as using a Skill.\nEnhanced once, Beneficent Lotus becomes Transcendence.\nEnhanced twice, Beneficent Lotus becomes Divine Spear.\nEnhanced 3 times, Beneficent Lotus becomes Fulgurant Leap.\nWhen using Divine Spear or Fulgurant Leap, starting from the fourth hit, 1 stack of \"Outroar\" is gained before every hit. Each stack of \"Outroar\" increases Dan Heng • Imbibitor Lunae's CRIT DMG by #1[f1]%, for a max of #2[i] stacks. These stacks last until the end of his turn.",
+        "desc": "Enhances Basic ATK. Enhancements may be applied up to 3 times consecutively. Using this ability does not consume Skill Points and is not considered as using a Skill.\nEnhanced once, Beneficent Lotus becomes Transcendence.\nEnhanced twice, Beneficent Lotus becomes Divine Spear.\nEnhanced thrice, Beneficent Lotus becomes Fulgurant Leap.\nWhen using Divine Spear or Fulgurant Leap, starting from the fourth hit, 1 stack of Outroar is gained before every hit. Each stack of Outroar increases Dan Heng • Imbibitor Lunae's CRIT DMG by #1[f1]%, for a max of #2[i] stacks. These stacks last until the end of his turn.",
         "params": [
             [
                 0.06,
@@ -10840,7 +10840,7 @@
         "effect": "Blast",
         "effect_text": "Blast",
         "simple_desc": "Deals massive Imaginary DMG to a single enemy, deals Imaginary DMG to adjacent targets, and gains 2 Squama Sacrosancta, which can offset Dan Heng • Imbibitor Lunae's consumption of skill points. Consuming Squama Sacrosancta is considered equivalent to consuming skill points.",
-        "desc": "Uses a 3-hit attack and deals Imaginary DMG equal to #1[i]% of Dan Heng • Imbibitor Lunae's ATK to a single enemy target. At the same time, deals Imaginary DMG equal to #2[i]% of Dan Heng • Imbibitor Lunae's ATK to adjacent targets. Then, obtains #3[i] Squama Sacrosancta.\nIt's possible to hold up to #4[i] Squama Sacrosancta, which can be used to offset the consumption of Dan Heng • Imbibitor Lunae's skill points. Consuming Squama Sacrosancta is considered equivalent to consuming skill points.",
+        "desc": "Uses a 3-hit attack and deals Imaginary DMG equal to #1[i]% of Dan Heng • Imbibitor Lunae's ATK to a single enemy target. At the same time, deals Imaginary DMG equal to #2[i]% of Dan Heng • Imbibitor Lunae's ATK to adjacent targets. Then, obtains #3[i] Squama Sacrosancta.\nIt's possible to hold up to #4[i] Squama Sacrosancta, which can be used to offset Dan Heng • Imbibitor Lunae's consumption of skill points. Consuming Squama Sacrosancta is considered equivalent to consuming skill points.",
         "params": [
             [
                 1.8,
@@ -11127,7 +11127,7 @@
         "type_text": "Basic ATK",
         "effect": "Blast",
         "effect_text": "Blast",
-        "simple_desc": "Unleashes 5 hits in this attack to deal massive Imaginary DMG to a single enemy and minor Imaginary DMG to adjacent targets. Obtains 1 stack of \"Outroar\" each before unleashing the fourth and fifth hits of this attack. \"Outroar\" increases CRIT DMG.",
+        "simple_desc": "Unleashes 5 hits in this attack to deal massive Imaginary DMG to a single enemy and minor Imaginary DMG to adjacent targets. For each of the last 2 hits, obtains 1 stack of Outroar just before the hit, increasing CRIT DMG.",
         "desc": "Uses a 5-hit attack and deals Imaginary DMG equal to #1[i]% of Dan Heng • Imbibitor Lunae's ATK to a single enemy target. From the fourth hit onward, simultaneously deals Imaginary DMG equal to #2[i]% of Dan Heng • Imbibitor Lunae's ATK to adjacent targets.",
         "params": [
             [
@@ -11202,7 +11202,7 @@
         "type_text": "Basic ATK",
         "effect": "Blast",
         "effect_text": "Blast",
-        "simple_desc": "Unleashes 7 hits in this attack to deal massive Imaginary DMG to a single enemy and Imaginary DMG to adjacent targets. Obtains 1 stack of \"Outroar\" each before unleashing the fourth, fifth, sixth, and seventh hits of this attack. \"Outroar\" increases CRIT DMG.",
+        "simple_desc": "Unleashes 7 hits in this attack to deal massive Imaginary DMG to a single enemy and Imaginary DMG to adjacent targets. For each of the last 4 hits, obtains 1 stack of Outroar just before the hit, increasing CRIT DMG.",
         "desc": "Uses a 7-hit attack and deals Imaginary DMG equal to #1[i]% of Dan Heng • Imbibitor Lunae's ATK to a single enemy target. From the fourth hit onward, simultaneously deal Imaginary DMG equal to #2[i]% of Dan Heng • Imbibitor Lunae's ATK to adjacent targets.",
         "params": [
             [
