@@ -3609,7 +3609,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Verstärkung",
-        "simple_desc": "",
+        "simple_desc": "Seele tritt beim Besiegen eines Gegners durch Standardangriff, Fertigkeit oder Ultimate in den verstärkten Zustand ein und erhält unmittelbar eine zusätzliche Runde. Während des verstärkten Zustands wird ihr SCH erhöht.",
         "desc": "Seele tritt beim Besiegen eines Gegners durch Standardangriff, Fertigkeit oder Ultimate in den verstärkten Zustand ein und erhält unmittelbar eine zusätzliche Runde. Während des verstärkten Zustands wird ihr SCH für #2[i] Rd. um #1[i]% erhöht.\nGegner, die in der zusätzlichen Runde des Talents „Erneute Erscheinung“ besiegt werden, lösen das Talent nicht aus.",
         "params": [
             [
@@ -3698,7 +3698,7 @@
         "type_text": "Technik",
         "effect": "Enhance",
         "effect_text": "Verstärkung",
-        "simple_desc": "",
+        "simple_desc": "Tritt in den Zustand Tarnung ein. Seele tritt zu Beginn des Kampfs sofort in den verstärkten Zustand ein, wenn sie einen Gegner aktiv angreift.",
         "desc": "Nach dem Einsatz der Technik erhält Seele für #1[i] s Tarnung. Während Tarnung aktiv ist, ist Seele für Gegner unsichtbar und tritt zu Beginn des Kampfs sofort in den verstärkten Zustand ein, wenn sie einen Gegner aktiv angreift.",
         "params": [
             [
@@ -4027,7 +4027,7 @@
         "type_text": "Technik",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "Greift Gegner an. Fügt nach Kampfeintritt einem zufälligen Gegner geringen Blitz-SCH zu. Verursacht bei allen Gegner mit einer hohen Chance Schock.",
+        "simple_desc": "Greift Gegner an. Fügt nach Kampfeintritt einem zufälligen Gegner geringen SCH zu. Verursacht bei allen Gegner mit einer hohen Chance Schock.",
         "desc": "Greift den Gegner unmittelbar an. Fügt nach Kampfeintritt einem zufälligen Gegner Blitz-SCH in Höhe von #4[i]% von Servals ANG zu. Verursacht gleichzeitig bei allen Gegner mit einer Grundchance von #1[i]% für #3[i] Rd. Schock.\nGeschockte Gegner erleiden zu Beginn jeder Runde Blitz-DoT in Höhe von #2[i]% von Servals ANG.",
         "params": [
             [
@@ -5520,7 +5520,7 @@
         "type_text": "Ultimate",
         "effect": "Impair",
         "effect_text": "Beeinträchtigung",
-        "simple_desc": "Fügt allen Gegnern Wind-SCH zu und erhöht mit einer hohen Chance den erlittenen DoT.",
+        "simple_desc": "Fügt allen Gegnern Wind-SCH zu. Hat eine hohe Chance, den erlittenen DoT zu erhöhen.",
         "desc": "Fügt allen Gegnern Wind-SCH in Höhe von #1[i]% von Sampos ANG zu und hat eine Grundchance von #4[i]%, den erlittenen DoT des Ziels für #3[i] Rd. um #2[i]% zu erhöhen.",
         "params": [
             [
@@ -7052,6 +7052,351 @@
         ],
         "icon": "icon/skill/1111_basic_atk.png"
     },
+    "111201": {
+        "id": "111201",
+        "name": "Defizit ...",
+        "max_level": 9,
+        "element": "Fire",
+        "type": "Normal",
+        "type_text": "Standardangriff",
+        "effect": "SingleAttack",
+        "effect_text": "Einzelangriff",
+        "simple_desc": "Fügt einem Gegner geringen Feuer-SCH zu.",
+        "desc": "Fügt einem anvisierten Gegner Feuer-SCH in Höhe von #1[i]% des ANG von Topaz zu.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1112_basic_atk.png"
+    },
+    "111202": {
+        "id": "111202",
+        "name": "Schwierigkeiten beim Bezahlen?",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "BPSkill",
+        "type_text": "Fertigkeit",
+        "effect": "SingleAttack",
+        "effect_text": "Einzelangriff",
+        "simple_desc": "Verursacht bei einem Gegner den Status „Schuldennachweis“ und lässt ihn bei Folgeangriffen mehr SCH erleiden. Kontie fügt dem Ziel Feuer-SCH zu.",
+        "desc": "Verursacht bei einem anvisierten Gegner „Schuldennachweis“ und erhöht den erlittenen SCH des Ziels aus Folgeangriffen um #2[i]%. Der „Schuldennachweis“ wirkt nur auf das letzte Ziel, auf das er angewendet wird. Wenn sich zu Beginn der Runde eines Verbündeten oder während der Aktion eines Verbündeten keine Gegner mit „Schuldennachweis“ auf dem Feld befinden, verursacht Topaz bei einem zufälligen Gegner „Schuldennachweis“.\nKontie fügt diesem Ziel Feuer-SCH in Höhe von #1[i]% des ANG von Topaz zu. Der Einsatz dieser Fertigkeit, um SCH zu verursachen, wird als ein Folgeangriff gewertet.",
+        "params": [
+            [
+                0.75,
+                0.25
+            ],
+            [
+                0.825,
+                0.275
+            ],
+            [
+                0.9,
+                0.3
+            ],
+            [
+                0.975,
+                0.325
+            ],
+            [
+                1.05,
+                0.35
+            ],
+            [
+                1.125,
+                0.375
+            ],
+            [
+                1.2188,
+                0.4063
+            ],
+            [
+                1.3125,
+                0.4375
+            ],
+            [
+                1.4063,
+                0.4688
+            ],
+            [
+                1.5,
+                0.5
+            ],
+            [
+                1.575,
+                0.525
+            ],
+            [
+                1.65,
+                0.55
+            ],
+            [
+                1.725,
+                0.575
+            ],
+            [
+                1.8,
+                0.6
+            ],
+            [
+                1.875,
+                0.625
+            ]
+        ],
+        "icon": "icon/skill/1112_skill.png"
+    },
+    "111203": {
+        "id": "111203",
+        "name": "Vom Verlust zum Gewinn!",
+        "max_level": 15,
+        "element": "",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "Enhance",
+        "effect_text": "Verstärkung",
+        "simple_desc": "Kontie tritt in den Status „Erstaunlicher Aufstieg!“ ein und sein SCH-Multiplikator und KRIT-SCH werden erhöht.",
+        "desc": "Kontie tritt in den Status „Erstaunlicher Aufstieg!“ ein. Sein SCH-Multiplikator wird um #1[i]% und der KRIT-SCH wird um #2[i]% erhöht. Außerdem wird Konties Aktion um #3[i]% vorgezogen, wenn Gegner mit „Schuldennachweis“ von Standardangriff, Fertigkeit oder Ultimate eines Verbündeten getroffen werden. Nachdem Kontie #4[i]-mal Angriff eingesetzt hat, wird der Status „Erstaunlicher Aufstieg!“ beendet.",
+        "params": [
+            [
+                0.75,
+                0.125,
+                0.5,
+                2
+            ],
+            [
+                0.825,
+                0.1375,
+                0.5,
+                2
+            ],
+            [
+                0.9,
+                0.15,
+                0.5,
+                2
+            ],
+            [
+                0.975,
+                0.1625,
+                0.5,
+                2
+            ],
+            [
+                1.05,
+                0.175,
+                0.5,
+                2
+            ],
+            [
+                1.125,
+                0.1875,
+                0.5,
+                2
+            ],
+            [
+                1.2188,
+                0.2031,
+                0.5,
+                2
+            ],
+            [
+                1.3125,
+                0.2188,
+                0.5,
+                2
+            ],
+            [
+                1.4063,
+                0.2344,
+                0.5,
+                2
+            ],
+            [
+                1.5,
+                0.25,
+                0.5,
+                2
+            ],
+            [
+                1.575,
+                0.2625,
+                0.5,
+                2
+            ],
+            [
+                1.65,
+                0.275,
+                0.5,
+                2
+            ],
+            [
+                1.725,
+                0.2875,
+                0.5,
+                2
+            ],
+            [
+                1.8,
+                0.3,
+                0.5,
+                2
+            ],
+            [
+                1.875,
+                0.3125,
+                0.5,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1112_ultimate.png"
+    },
+    "111204": {
+        "id": "111204",
+        "name": "Sparschweinmarkt?!",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "SingleAttack",
+        "effect_text": "Einzelangriff",
+        "simple_desc": "Beschwört Kontie zu Beginn des Kampfes. Wenn es eine Aktion ausführt, startet Kontie Folgeangriff auf einen Gegner mit „Schuldennachweis“. Wenn Gegner mit „Schuldennachweis“ Folgeangriffe eines Verbündeten erhalten, wird Konties Aktion vorgezogen.",
+        "desc": "Beschwört Kontie zu Beginn des Kampfes. Kontie hat standardmäßig #1[i] Pkt. GES. Wenn er eine Aktion ausführt, startet Kontie Folgeangriff auf einen Gegner mit „Schuldennachweis“ und verursacht dabei Feuer-SCH in Höhe von #2[i]% des ANG von Topaz.\nWenn Gegner mit „Schuldennachweis“ Folgeangriffe eines Verbündeten erhalten, wird Konties Aktion um #3[i]% vorgezogen. Der Effekt von Aktionsvorzug kann nicht während Konties eigener Runde ausgelöst werden.\nWenn Topaz handlungsunfähig ist, verschwindet Kontie.",
+        "params": [
+            [
+                80,
+                0.75,
+                0.5
+            ],
+            [
+                80,
+                0.825,
+                0.5
+            ],
+            [
+                80,
+                0.9,
+                0.5
+            ],
+            [
+                80,
+                0.975,
+                0.5
+            ],
+            [
+                80,
+                1.05,
+                0.5
+            ],
+            [
+                80,
+                1.125,
+                0.5
+            ],
+            [
+                80,
+                1.2188,
+                0.5
+            ],
+            [
+                80,
+                1.3125,
+                0.5
+            ],
+            [
+                80,
+                1.4063,
+                0.5
+            ],
+            [
+                80,
+                1.5,
+                0.5
+            ],
+            [
+                80,
+                1.575,
+                0.5
+            ],
+            [
+                80,
+                1.65,
+                0.5
+            ],
+            [
+                80,
+                1.725,
+                0.5
+            ],
+            [
+                80,
+                1.8,
+                0.5
+            ],
+            [
+                80,
+                1.875,
+                0.5
+            ]
+        ],
+        "icon": "icon/skill/1112_talent.png"
+    },
+    "111206": {
+        "id": "111206",
+        "name": "Angriff",
+        "max_level": 1,
+        "element": "Fire",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Greift den Gegner an und schwächt nach Kampfeintritt den Widerstand des Ziels gegen den entsprechenden Typ.",
+        "params": [],
+        "icon": "icon/skill/1112_basic_atk.png"
+    },
+    "111207": {
+        "id": "111207",
+        "name": "Explizite Subvention",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technik",
+        "effect": "Enhance",
+        "effect_text": "Verstärkung",
+        "simple_desc": "Beschwört Kontie, sich in einem Labyrinth anzuschließen. Kontie wird automatisch nach gewöhnlichen Schätzen und Sparschweinen in der Nähe suchen. Beim Einsatz der Technik wird die Energie für Topaz nach Konties erstem Angriff im nächsten Kampf wiederhergestellt.",
+        "desc": "Beschwört Kontie, wenn Topaz die Karte betritt. Kontie sucht automatisch nach gewöhnlichen Schätzen und Sparschweinen in einer bestimmten Reichweite.\nNach dem aktiven Einsatz der Technik wird Energie für Topaz nach Konties erstem Angriff im nächsten Kampf um #1[i] Pkt. wiederhergestellt.\nNach dem aktiven Einsatz der Technik und dem Besiegen von Gegnern auf der offenen Karte wird zusätzlich eine kleine Menge Credits erhalten, wenn Topaz noch im Team ist. Nur #2[i] zusätzliche Credits können pro Standardtag erhalten werden.\nNach dem aktiven Einsatz der Technik und dem Besiegen von Gegnern in der Universum-Simulation wird zusätzlich eine kleine Menge Kosmische Fragmenten erhalten. Außerdem besteht es eine geringe Chance, 1 zufällige Kuriosität zu erhalten.",
+        "params": [
+            [
+                60,
+                10000
+            ]
+        ],
+        "icon": "icon/skill/1112_technique.png"
+    },
     "120101": {
         "id": "120101",
         "name": "Selbstgezogener Sieg",
@@ -7438,7 +7783,7 @@
         "type_text": "Fertigkeit",
         "effect": "Support",
         "effect_text": "Unterstützung",
-        "simple_desc": "Erhöht den ANG eines Verbündeten und segnet ihn.",
+        "simple_desc": "Segnet einen Verbündeten und verstärkt seinen ANG. Der gesegnete Verbündete verursacht geringen zusätzlichen Blitz-SCH.",
         "desc": "Segnet einen anvisierten Verbündeten und verstärkt seinen ANG um #2[i]% bis zu einem Höchstwert von #4[i]% von Tingyuns aktuellem ANG.\nDer gesegnete Verbündete verursacht zusätzlichen Blitz-SCH, der #1[i]% seines ANG entspricht.\nDer „Segen“ hält für #3[i] Rd. an und ist nur beim letzten Empfänger von Tingyuns Fertigkeit wirksam.",
         "params": [
             [
@@ -7633,7 +7978,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Verstärkung",
-        "simple_desc": "",
+        "simple_desc": "Nachdem Tingyun einen Gegner angegriffen hat, fügt der gesegnete Verbündete dem Gegner sofort geringen zusätzlichen Blitz-SCH zu.",
         "desc": "Nachdem Tingyun einen Gegner angegriffen hat, fügt der gesegnete Verbündete dem Gegner sofort zusätzlichen Blitz-SCH in Höhe von #1[i]% seines ANG zu.",
         "params": [
             [
@@ -7707,7 +8052,7 @@
         "type_text": "Technik",
         "effect": "Support",
         "effect_text": "Unterstützung",
-        "simple_desc": "",
+        "simple_desc": "Nach der Anwendung der Technik stellt diese Figur sofort Energie für sich selbst wieder her.",
         "desc": "Stellt nach dem Einsatz der Technik unmittelbar #1[i] Pkt. Energie wieder her.",
         "params": [
             [
@@ -9670,7 +10015,7 @@
         "effect": "Defence",
         "effect_text": "Verteidigung",
         "simple_desc": "Aktiviert die „Matrix der Voraussicht“, wodurch der erlittene SCH von Verbündeten mit Fu Xuan geteilt wird. Erhöht die KRIT-Rate und die max. LP aller Verbündeten.",
-        "desc": "Aktiviert die „Matrix der Voraussicht“. Für #3[i] Rd. wird #1[i]% des SCH, den Fu Xuans Verbündete erleiden (und bevor dieser Schaden durch eventuell vorhandene Schilde adsorbiert wird), mit Fu Xuan geteilt.\nAlle Verbündeten, die von der „Matrix der Voraussicht“ betroffen sind, erhalten den Status „Wissen“, der ihre max. LP um #4[f1]% der max. LP von Fu Xuan und ihre KRIT-Rate um #5[f1]% erhöht.\nWenn Fu Xuan handlungsunfähig wird, verschwindet die „Matrix der Voraussicht“.",
+        "desc": "Aktiviert die „Matrix der Voraussicht“. Für #3[i] Rd. wird #1[i]% des SCH, den Fu Xuans Verbündete erleiden (und bevor dieser Schaden durch eventuell vorhandene Schilde absorbiert wird), mit Fu Xuan geteilt.\nAlle Verbündeten, die von der „Matrix der Voraussicht“ betroffen sind, erhalten den Status „Wissen“, der ihre max. LP um #4[f1]% der max. LP von Fu Xuan und ihre KRIT-Rate um #5[f1]% erhöht.\nWenn Fu Xuan handlungsunfähig wird, verschwindet die „Matrix der Voraussicht“.",
         "params": [
             [
                 0.65,
@@ -10324,6 +10669,412 @@
         ],
         "icon": "icon/skill/1209_technique.png"
     },
+    "121001": {
+        "id": "121001",
+        "name": "Stehende Ovation",
+        "max_level": 9,
+        "element": "Fire",
+        "type": "Normal",
+        "type_text": "Standardangriff",
+        "effect": "SingleAttack",
+        "effect_text": "Einzelangriff",
+        "simple_desc": "Fügt einem Gegner geringen Feuer-SCH zu.",
+        "desc": "Fügt einem anvisierten Gegner Feuer-SCH in Höhe von #1[i]% von Guinaifens ANG zu.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1210_basic_atk.png"
+    },
+    "121002": {
+        "id": "121002",
+        "name": "Herzliche Begrüßung",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "BPSkill",
+        "type_text": "Fertigkeit",
+        "effect": "Blast",
+        "effect_text": "Ausdehnung",
+        "simple_desc": "Fügt einem Gegner Feuer-SCH und angrenzenden Einheiten geringen Feuer-SCH zu. Verursacht mit hoher Chance Brennen.",
+        "desc": "Fügt einem anvisierten Gegner Feuer-SCH in Höhe von #1[i]% und angrenzenden Einheiten Feuer-SCH in Höhe von #2[i]% von Guinaifens ANG zu. Verursacht beim Ziel und angrenzenden Einheiten mit einer Grundchance von #3[i]% Brennen. Brennende Gegner erleiden für #5[i] Rd. zu Beginn jeder Runde Feuer-DoT in Höhe von #4[i]% von Guinaifens ANG.",
+        "params": [
+            [
+                0.6,
+                0.2,
+                1,
+                0.839,
+                2
+            ],
+            [
+                0.66,
+                0.22,
+                1,
+                0.923,
+                2
+            ],
+            [
+                0.72,
+                0.24,
+                1,
+                1.0069,
+                2
+            ],
+            [
+                0.78,
+                0.26,
+                1,
+                1.0909,
+                2
+            ],
+            [
+                0.84,
+                0.28,
+                1,
+                1.1748,
+                2
+            ],
+            [
+                0.9,
+                0.3,
+                1,
+                1.3007,
+                2
+            ],
+            [
+                0.975,
+                0.325,
+                1,
+                1.4686,
+                2
+            ],
+            [
+                1.05,
+                0.35,
+                1,
+                1.6784,
+                2
+            ],
+            [
+                1.125,
+                0.375,
+                1,
+                1.9303,
+                2
+            ],
+            [
+                1.2,
+                0.4,
+                1,
+                2.1821,
+                2
+            ],
+            [
+                1.26,
+                0.42,
+                1,
+                2.2912,
+                2
+            ],
+            [
+                1.32,
+                0.44,
+                1,
+                2.4003,
+                2
+            ],
+            [
+                1.38,
+                0.46,
+                1,
+                2.5094,
+                2
+            ],
+            [
+                1.44,
+                0.48,
+                1,
+                2.6186,
+                2
+            ],
+            [
+                1.5,
+                0.5,
+                1,
+                2.7277,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1210_skill.png"
+    },
+    "121003": {
+        "id": "121003",
+        "name": "Erstklassige Show",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "AoEAttack",
+        "effect_text": "Flächenangriff",
+        "simple_desc": "Fügt allen Gegnern Feuer-SCH zu. Gegner mit dem Status Brennen erleiden zusätzlich 1-mal SCH durch Brennen.",
+        "desc": "Fügt allen Gegnern Feuer-SCH in Höhe von #1[f1]% von Guinaifens ANG zu. Wenn Ziele von Brennen betroffen sind, verursacht das Brennen sofort SCH in Höhe von #2[i]% des ursprünglichen SCH.",
+        "params": [
+            [
+                0.72,
+                0.72
+            ],
+            [
+                0.768,
+                0.74
+            ],
+            [
+                0.816,
+                0.76
+            ],
+            [
+                0.864,
+                0.78
+            ],
+            [
+                0.912,
+                0.8
+            ],
+            [
+                0.96,
+                0.82
+            ],
+            [
+                1.02,
+                0.845
+            ],
+            [
+                1.08,
+                0.87
+            ],
+            [
+                1.14,
+                0.895
+            ],
+            [
+                1.2,
+                0.92
+            ],
+            [
+                1.248,
+                0.94
+            ],
+            [
+                1.296,
+                0.96
+            ],
+            [
+                1.344,
+                0.98
+            ],
+            [
+                1.392,
+                1
+            ],
+            [
+                1.44,
+                1.02
+            ]
+        ],
+        "icon": "icon/skill/1210_ultimate.png"
+    },
+    "121004": {
+        "id": "121004",
+        "name": "Vorteile für Gönner",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Impair",
+        "effect_text": "Beeinträchtigung",
+        "simple_desc": "Nachdem der Status Brennen SCH beim Gegner ausgelöst hat, besteht eine hohe Chance, „Feuer spucken“ auf den Gegner anzuwenden.",
+        "desc": "Wenn Guinaifen auf dem Feld ist und der Status von Brennen des Gegners SCH ausgelöst hat, besteht eine Grundchance von #1[i]%, dass bei ihm „Feuer spucken“ verursacht wird. Im Status „Feuer spucken“ erleiden das Ziel für #5[i] Rd #4[f1]% mehr SCH, bis #6[i]-fach stapelbar.",
+        "params": [
+            [
+                1,
+                0,
+                0,
+                0.04,
+                3,
+                3
+            ],
+            [
+                1,
+                0,
+                0,
+                0.043,
+                3,
+                3
+            ],
+            [
+                1,
+                0,
+                0,
+                0.046,
+                3,
+                3
+            ],
+            [
+                1,
+                0,
+                0,
+                0.049,
+                3,
+                3
+            ],
+            [
+                1,
+                0,
+                0,
+                0.052,
+                3,
+                3
+            ],
+            [
+                1,
+                0,
+                0,
+                0.055,
+                3,
+                3
+            ],
+            [
+                1,
+                0,
+                0,
+                0.0588,
+                3,
+                3
+            ],
+            [
+                1,
+                0,
+                0,
+                0.0625,
+                3,
+                3
+            ],
+            [
+                1,
+                0,
+                0,
+                0.0663,
+                3,
+                3
+            ],
+            [
+                1,
+                0,
+                0,
+                0.07,
+                3,
+                3
+            ],
+            [
+                1,
+                0,
+                0,
+                0.073,
+                3,
+                3
+            ],
+            [
+                1,
+                0,
+                0,
+                0.076,
+                3,
+                3
+            ],
+            [
+                1,
+                0,
+                0,
+                0.079,
+                3,
+                3
+            ],
+            [
+                1,
+                0,
+                0,
+                0.082,
+                3,
+                3
+            ],
+            [
+                1,
+                0,
+                0,
+                0.085,
+                3,
+                3
+            ]
+        ],
+        "icon": "icon/skill/1210_talent.png"
+    },
+    "121006": {
+        "id": "121006",
+        "name": "Angriff",
+        "max_level": 1,
+        "element": "Fire",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Greift den Gegner an und schwächt nach Kampfeintritt den Widerstand des Ziels gegen den entsprechenden Typ.",
+        "params": [],
+        "icon": "icon/skill/1210_basic_atk.png"
+    },
+    "121007": {
+        "id": "121007",
+        "name": "Demonstration der Fähigkeiten",
+        "max_level": 1,
+        "element": "Fire",
+        "type": "Maze",
+        "type_text": "Technik",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "Greift den Gegner an. Fügt nach Kampfeintritt einem Gegner geringen Feuer-SCH zu und verursacht „Feuer spucken“. Dieser Angriff prallt 4-mal ab.",
+        "desc": "Greift den Gegner unmittelbar an. Verursacht nach Kampfeintritt #2[i]-mal SCH, wobei jedes Mal einem zufälligen Gegner Feuer-SCH in Höhe von #1[i]% von Guinaifens ANG zugefügt wird und eine Grundchance von #3[i]% hat, „Feuer spucken“ bei ihm zu verursachen.",
+        "params": [
+            [
+                0.5,
+                4,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1210_technique.png"
+    },
     "121101": {
         "id": "121101",
         "name": "Diagnosetritt",
@@ -10713,6 +11464,505 @@
         ],
         "icon": "icon/skill/1211_technique.png"
     },
+    "121201": {
+        "id": "121201",
+        "name": "Strahlendes Mondleuchten",
+        "max_level": 9,
+        "element": "Ice",
+        "type": "Normal",
+        "type_text": "Standardangriff",
+        "effect": "SingleAttack",
+        "effect_text": "Einzelangriff",
+        "simple_desc": "Fügt einem anvisierten Gegner geringen Eis-SCH zu.",
+        "desc": "Fügt einem anvisierten Gegner Eis-SCH in Höhe von #1[i]% von Jinglius ANG zu.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1212_basic_atk.png"
+    },
+    "121202": {
+        "id": "121202",
+        "name": "Transzendenter Blitz",
+        "max_level": 15,
+        "element": "Ice",
+        "type": "BPSkill",
+        "type_text": "Fertigkeit",
+        "effect": "SingleAttack",
+        "effect_text": "Einzelangriff",
+        "simple_desc": "Fügt einem anvisierten Gegner Eis-SCH zu und erhält 1 Stapelung „Lunation“.",
+        "desc": "Fügt einem anvisierten Gegner Eis-SCH in Höhe von #1[i]% von Jinglius ANG zu und erhält #2[i] Stapelung „Lunation“.",
+        "params": [
+            [
+                1,
+                1
+            ],
+            [
+                1.1,
+                1
+            ],
+            [
+                1.2,
+                1
+            ],
+            [
+                1.3,
+                1
+            ],
+            [
+                1.4,
+                1
+            ],
+            [
+                1.5,
+                1
+            ],
+            [
+                1.625,
+                1
+            ],
+            [
+                1.75,
+                1
+            ],
+            [
+                1.875,
+                1
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2.1,
+                1
+            ],
+            [
+                2.2,
+                1
+            ],
+            [
+                2.3,
+                1
+            ],
+            [
+                2.4,
+                1
+            ],
+            [
+                2.5,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1212_skill.png"
+    },
+    "121203": {
+        "id": "121203",
+        "name": "Traum der vergänglichen Blüten",
+        "max_level": 15,
+        "element": "Ice",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "Blast",
+        "effect_text": "Ausdehnung",
+        "simple_desc": "Fügt einem anvisierten Gegner massiven Eis-SCH und angrenzenden Einheiten Eis-SCH zu. Erhält 1 Stapelung „Lunation“.",
+        "desc": "Fügt einem anvisierten Gegner Eis-SCH in Höhe von #1[i]% von Jinglius ANG zu und fügt angrenzenden Einheiten Eis-SCH in Höhe von #3[i]% von Jinglius ANG zu. Nach dem Angriff erhält sie #2[i] Stapelung „Lunation“.",
+        "params": [
+            [
+                1.8,
+                1,
+                0.9,
+                1
+            ],
+            [
+                1.92,
+                1,
+                0.96,
+                1
+            ],
+            [
+                2.04,
+                1,
+                1.02,
+                1
+            ],
+            [
+                2.16,
+                1,
+                1.08,
+                1
+            ],
+            [
+                2.28,
+                1,
+                1.14,
+                1
+            ],
+            [
+                2.4,
+                1,
+                1.2,
+                1
+            ],
+            [
+                2.55,
+                1,
+                1.275,
+                1
+            ],
+            [
+                2.7,
+                1,
+                1.35,
+                1
+            ],
+            [
+                2.85,
+                1,
+                1.425,
+                1
+            ],
+            [
+                3,
+                1,
+                1.5,
+                1
+            ],
+            [
+                3.12,
+                1,
+                1.56,
+                1
+            ],
+            [
+                3.24,
+                1,
+                1.62,
+                1
+            ],
+            [
+                3.36,
+                1,
+                1.68,
+                1
+            ],
+            [
+                3.48,
+                1,
+                1.74,
+                1
+            ],
+            [
+                3.6,
+                1,
+                1.8,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1212_ultimate.png"
+    },
+    "121204": {
+        "id": "121204",
+        "name": "Seelenwanderung der Mondsichel",
+        "max_level": 15,
+        "element": "Ice",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Enhance",
+        "effect_text": "Verstärkung",
+        "simple_desc": "Wenn Jingliu über #5[i] Stapelungen „Lunation“ verfügt, tritt sie in den Status „Seelenwanderung“ ein, wobei ihre Aktion um 100 % vorgezogen und ihre KRIT-Rate erhöht wird. Außerdem erhält sie eine verstärkte Fertigkeit. Beim Angriff verbraucht sie die LP ihrer Verbündeten und ihr ANG wird basierend auf den insgesamt verbrauchten Menge der LP erhöht. Wenn keine Stapelungen von „Lunation“ vorhanden sind, wird der Status „Seelenwanderung“ beendet.",
+        "desc": "Wenn Jingliu über #5[i] Stapelungen „Lunation“ verfügt, tritt sie in den Status „Seelenwanderung“ ein, wobei ihre Aktion um #6[i]% vorgezogen und ihre KRIT-Rate um #7[i]% erhöht wird. Danach wird die Fertigkeit „Transzendenter Blitz“ zu „Gletscherfluss im Mondenschein“ verstärkt und sie kann nur noch diese Fertigkeit einsetzen. Wenn Jingliu im Status „Seelenwanderung“ Angriff ausführt, verbraucht sie #2[i]% der max. LP ihrer Verbündeten (die LP aller Verbündeten können bis auf 1 verbraucht werden). Jinglius ANG wird um #3[i]% der diesmal gesamt verbrauchten Menge der LP aller Verbündeten erhöht, bis zu einem Maximum von #4[i]% ihres Basis-ANG und dies hält an, bis ihr aktueller Angriff beendet. Jingliu kann den Status „Seelenwanderung“ nicht wieder betreten, bevor er endet. „Lunation“ ist bis zu 3-fach stapelbar. Wenn keine Stapelungen von „Lunation“ vorhanden sind, wird der Status „Seelenwanderung“ beendet.",
+        "params": [
+            [
+                0.3,
+                0.04,
+                5.4,
+                0.9,
+                2,
+                1,
+                0.4
+            ],
+            [
+                0.3,
+                0.04,
+                5.4,
+                0.99,
+                2,
+                1,
+                0.41
+            ],
+            [
+                0.3,
+                0.04,
+                5.4,
+                1.08,
+                2,
+                1,
+                0.42
+            ],
+            [
+                0.3,
+                0.04,
+                5.4,
+                1.17,
+                2,
+                1,
+                0.43
+            ],
+            [
+                0.3,
+                0.04,
+                5.4,
+                1.26,
+                2,
+                1,
+                0.44
+            ],
+            [
+                0.3,
+                0.04,
+                5.4,
+                1.35,
+                2,
+                1,
+                0.45
+            ],
+            [
+                0.3,
+                0.04,
+                5.4,
+                1.4625,
+                2,
+                1,
+                0.4625
+            ],
+            [
+                0.3,
+                0.04,
+                5.4,
+                1.575,
+                2,
+                1,
+                0.475
+            ],
+            [
+                0.3,
+                0.04,
+                5.4,
+                1.6875,
+                2,
+                1,
+                0.4875
+            ],
+            [
+                0.3,
+                0.04,
+                5.4,
+                1.8,
+                2,
+                1,
+                0.5
+            ],
+            [
+                0.3,
+                0.04,
+                5.4,
+                1.89,
+                2,
+                1,
+                0.51
+            ],
+            [
+                0.3,
+                0.04,
+                5.4,
+                1.98,
+                2,
+                1,
+                0.52
+            ],
+            [
+                0.3,
+                0.04,
+                5.4,
+                2.07,
+                2,
+                1,
+                0.53
+            ],
+            [
+                0.3,
+                0.04,
+                5.4,
+                2.16,
+                2,
+                1,
+                0.54
+            ],
+            [
+                0.3,
+                0.04,
+                5.4,
+                2.25,
+                2,
+                1,
+                0.55
+            ]
+        ],
+        "icon": "icon/skill/1212_talent.png"
+    },
+    "121206": {
+        "id": "121206",
+        "name": "Angriff",
+        "max_level": 1,
+        "element": "Ice",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Greift den Gegner an und schwächt nach Kampfeintritt den Widerstand des Ziels gegen den entsprechenden Typ.",
+        "params": [],
+        "icon": "icon/skill/1212_basic_atk.png"
+    },
+    "121207": {
+        "id": "121207",
+        "name": "Glanz des Inneren",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technik",
+        "effect": "Impair",
+        "effect_text": "Beeinträchtigung",
+        "simple_desc": "Erzeugt eine spezielle Dimension um Jingliu herum. Gegner innerhalb dieser Dimension werden eingefroren. Nach Kampfeintritt mit Gegnern in dieser Dimension erhält Jingliu Energie, 1 Stapelung Lunation und hat eine hohe Chance, Gegner einzufrieren.",
+        "desc": "Nach dem Einsatz der Technik wird eine spezielle Dimension für #3[i] Sek. um Jingliu herum erzeugt. Alle Gegner innerhalb dieser Dimension werden eingefroren. Nach Kampfeintritt mit Gegnern in dieser Dimension werden #6[i] Pkt. Energie sofort wiederhergestellt. Gleichzeitig erhält Jingliu #1[i] Stapelung „Lunation“ und hat eine Grundchance von #2[i]%, Gegner für #4[i] Rd. einzufrieren. Gefrorene Gegner können keine Aktionen ausführen und erleiden zu Beginn jeder Runde zusätzlichen Eis-SCH in Höhe von #5[i]% von Jinglius ANG. Es kann nur 1 von Verbündeten erschaffene Dimension zur gleichen Zeit existieren.",
+        "params": [
+            [
+                1,
+                1,
+                20,
+                1,
+                0.8,
+                15
+            ]
+        ],
+        "icon": "icon/skill/1212_technique.png"
+    },
+    "121209": {
+        "id": "121209",
+        "name": "Gletscherfluss im Mondenschein",
+        "max_level": 15,
+        "element": "Ice",
+        "type": "BPSkill",
+        "type_text": "Fertigkeit",
+        "effect": "Blast",
+        "effect_text": "Ausdehnung",
+        "simple_desc": "Fügt einem anvisierten Gegner und angrenzenden Einheiten Eis-SCH zu. Verbraucht 1 Stapelung „Lunation“.",
+        "desc": "Fügt einem anvisierten Gegner Eis-SCH in Höhe von #1[i]% von Jinglius ANG zu und fügt angrenzenden Einheiten Eis-SCH in Höhe von #3[i]% von Jinglius ANG zu. Verbraucht #2[i] Stapelung „Lunation“. Der Einsatz dieser Fähigkeit verbraucht keine Fertigkeitspunkte.",
+        "params": [
+            [
+                1.25,
+                1,
+                0.625
+            ],
+            [
+                1.375,
+                1,
+                0.6875
+            ],
+            [
+                1.5,
+                1,
+                0.75
+            ],
+            [
+                1.625,
+                1,
+                0.8125
+            ],
+            [
+                1.75,
+                1,
+                0.875
+            ],
+            [
+                1.875,
+                1,
+                0.9375
+            ],
+            [
+                2.0313,
+                1,
+                1.0156
+            ],
+            [
+                2.1875,
+                1,
+                1.0938
+            ],
+            [
+                2.3438,
+                1,
+                1.1719
+            ],
+            [
+                2.5,
+                1,
+                1.25
+            ],
+            [
+                2.625,
+                1,
+                1.3125
+            ],
+            [
+                2.75,
+                1,
+                1.375
+            ],
+            [
+                2.875,
+                1,
+                1.4375
+            ],
+            [
+                3,
+                1,
+                1.5
+            ],
+            [
+                3.125,
+                1,
+                1.5625
+            ]
+        ],
+        "icon": "icon/skill/1212_skill.png"
+    },
     "121301": {
         "id": "121301",
         "name": "Segensreicher Lotus",
@@ -11082,24 +12332,6 @@
             ],
             [
                 3.38
-            ],
-            [
-                1.3
-            ],
-            [
-                1.3
-            ],
-            [
-                1.3
-            ],
-            [
-                1.3
-            ],
-            [
-                1.3
-            ],
-            [
-                1.3
             ]
         ],
         "icon": "icon/skill/1213_basic_atk.png"
@@ -11130,30 +12362,6 @@
         "simple_desc": "Führt einen Angriff mit 5 Treffern aus und fügt einem Gegner massiven imaginären SCH und angrenzenden Einheiten geringen imaginären SCH zu. Die letzten 2 Treffer erhalten jeweils 1 Stapelung „Beherrschendes Gebrüll“, bevor sie ausgeführt werden, was den KRIT-SCH erhöht.",
         "desc": "Führt einen Angriff mit 5 Treffern aus und fügt einem anvisierten Gegner imaginären SCH in Höhe von #1[i]% von Dan Heng – Imbibitor Lunaes ANG zu. Fügt ab dem vierten Treffer den angrenzenden Einheiten imaginären SCH in Höhe von #2[i]% von Dan Heng – Imbibitor Lunaes ANG zu.",
         "params": [
-            [
-                1.9,
-                0.3
-            ],
-            [
-                1.9,
-                0.3
-            ],
-            [
-                1.9,
-                0.3
-            ],
-            [
-                1.9,
-                0.3
-            ],
-            [
-                1.9,
-                0.3
-            ],
-            [
-                1.9,
-                0.3
-            ],
             [
                 1.9,
                 0.3
@@ -11205,30 +12413,6 @@
         "simple_desc": "Führt einen Angriff mit 7 Treffern aus und fügt einem Gegner massiven imaginären SCH und angrenzenden Einheiten geringen imaginären SCH zu. Die letzten 4 Treffer erhalten jeweils 1 Stapelung „Beherrschendes Gebrüll“, bevor sie ausgeführt werden, was den KRIT-SCH erhöht.",
         "desc": "Führt einen Angriff mit 7 Treffern aus und fügt einem anvisierten Gegner imaginären SCH in Höhe von #1[i]% von Dan Heng – Imbibitor Lunaes ANG zu. Fügt ab dem vierten Treffer den angrenzenden Einheiten imaginären SCH in Höhe von #2[i]% von Dan Heng – Imbibitor Lunaes ANG zu.",
         "params": [
-            [
-                2.5,
-                0.9
-            ],
-            [
-                2.5,
-                0.9
-            ],
-            [
-                2.5,
-                0.9
-            ],
-            [
-                2.5,
-                0.9
-            ],
-            [
-                2.5,
-                0.9
-            ],
-            [
-                2.5,
-                0.9
-            ],
             [
                 2.5,
                 0.9

@@ -405,7 +405,7 @@
     "20012": {
         "id": "20012",
         "skill": "Triomphe de la fluidité",
-        "desc": "Régénère #1[i] points d'énergie supplémentaires lorque le porteur attaque ou qu'il est touché. Cet effet ne peut pas être déclenché plus d'une fois par tour.",
+        "desc": "Régénère #1[i] points d'énergie supplémentaires lorsque le porteur attaque ou qu'il est touché. Cet effet ne peut pas être déclenché plus d'une fois par tour.",
         "params": [
             [
                 4
@@ -434,7 +434,7 @@
     "20013": {
         "id": "20013",
         "skill": "Épiphanie",
-        "desc": "Régénère #1[i] points d'énergie supplémentaires lorque le porteur utilise sa compétence. Cet effet ne peut pas être déclenché plus d'une fois par tour.",
+        "desc": "Régénère #1[i] points d'énergie supplémentaires lorsque le porteur utilise sa compétence. Cet effet ne peut pas être déclenché plus d'une fois par tour.",
         "params": [
             [
                 8
@@ -3388,6 +3388,75 @@
             ]
         ]
     },
+    "23014": {
+        "id": "23014",
+        "skill": "Avec ce jade du soir",
+        "desc": "Augmente les DGT critiques du porteur de #1[i]%. Le porteur gagne 1 cumul d'Éclipse chaque fois qu'un allié est attaqué ou perd des PV, jusqu'à un maximum de #2[i] cumuls. Chaque cumul d'Éclipse augmente les DGT de la prochaine attaque du porteur de #3[f1]%. À #2[i] cumuls, l'attaque ignore également #4[i]% de la DÉF de l'ennemi. L'effet disparaît chaque fois que le porteur utilise une attaque.",
+        "params": [
+            [
+                0.2,
+                3,
+                0.14,
+                0.12
+            ],
+            [
+                0.23,
+                3,
+                0.165,
+                0.14
+            ],
+            [
+                0.26,
+                3,
+                0.19,
+                0.16
+            ],
+            [
+                0.29,
+                3,
+                0.215,
+                0.18
+            ],
+            [
+                0.32,
+                3,
+                0.24,
+                0.2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.2
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.23
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.26
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.29
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.32
+                }
+            ]
+        ]
+    },
     "23015": {
         "id": "23015",
         "skill": "Jusqu'à la mort",
@@ -3427,6 +3496,75 @@
                 2,
                 0.3,
                 0.1
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.18
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.21
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.24
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.27
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.3
+                }
+            ]
+        ]
+    },
+    "23016": {
+        "id": "23016",
+        "skill": "Un à la fois",
+        "desc": "Augmente les chances de coup critique du porteur de #1[i]% et les DGT de ses attaques de suivi de #2[i]%. Lorsque le porteur déclenche une attaque de suivi, applique l'état Apprivoisement à la cible, cumulable jusqu'à #4[i] fois. Lorsque des alliés touchent des cibles ennemies affectées par Apprivoisement, chaque cumul d'Apprivoisement augmente les DGT critiques infligés de #3[i]%.",
+        "params": [
+            [
+                0.18,
+                0.3,
+                0.12,
+                2
+            ],
+            [
+                0.21,
+                0.35,
+                0.14,
+                2
+            ],
+            [
+                0.24,
+                0.4,
+                0.16,
+                2
+            ],
+            [
+                0.27,
+                0.45,
+                0.18,
+                2
+            ],
+            [
+                0.3,
+                0.5,
+                0.2,
+                2
             ]
         ],
         "properties": [
@@ -3657,7 +3795,7 @@
     "24003": {
         "id": "24003",
         "skill": "Élixir de chaos",
-        "desc": "Augmente l'effet de Rupture du porteur de #1[i]%. Lorsque le porteur utilise son ultime, il inflige #2[i]% de dégâts sur la durée supplémentaires pendant #3[i] tours. Lorsqu'une cible ennemie victime des dégâts sur la durée infligés par le porteur est vaincue, ce dernier récupère #4[i] points d'énergie.",
+        "desc": "Augmente l'effet de Rupture du porteur de #1[i]%. Lorsque le porteur utilise son ultime, il inflige #2[i]% de dégâts sur la durée supplémentaires pendant #3[i] tours. Lorsqu'une cible ennemie victime des dégâts sur la durée infligés par le porteur est vaincue, ce dernier récupère #4[f1] points d'énergie.",
         "params": [
             [
                 0.2,

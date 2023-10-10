@@ -17,7 +17,7 @@
         "id": "100102",
         "name": "Memória de Ser",
         "rank": 2,
-        "desc": "Ao entrar na batalha, concede um Escudo igual a 24% da DEF de 7 de Março + 320 ao aliado com menos PV por 3 rodada(s).",
+        "desc": "Ao entrar na batalha, concede um Escudo igual a 24% da DEF de 7 de Março + 320 ao aliado com a menor porcentagem de PV, durando por 3 rodada(s).",
         "materials": [
             {
                 "id": "11001",
@@ -462,7 +462,7 @@
         "id": "100504",
         "name": "Recitativo",
         "rank": 4,
-        "desc": "Quando um alvo inimigo recebe Dano do status de Choque infligido por Kafka, Kafka regenera adicionalmente 2 de Energia.",
+        "desc": "Quando um inimigo-alvo recebe Dano do status de Choque infligido por Kafka, Kafka regenera adicionalmente 2 de Energia.",
         "materials": [
             {
                 "id": "11005",
@@ -2047,6 +2047,108 @@
         "level_up_skills": [],
         "icon": "icon/skill/1111_rank6.png"
     },
+    "111201": {
+        "id": "111201",
+        "name": "Mercado Futuro",
+        "rank": 1,
+        "desc": "Quando inimigos afligidos com Prova de Débito recebem Ataques Extras, eles entrarão no estado de Devedor. Este efeito só é efetivo 1 única vez por ação.\\nO estado de Devedor aumenta em 25% o Dano CRIT de Ataques Extras infligidos aos inimigos-alvo, acumulando até 2 vez(es). Quando a Prova de Débito é removida, o estado de Devedor também é removido.",
+        "materials": [
+            {
+                "id": "11112",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1112_rank1.png"
+    },
+    "111202": {
+        "id": "111202",
+        "name": "Aquisição Genuína",
+        "rank": 2,
+        "desc": "Após Dinheirinho agir ou realizar um ataque, Topaz regenera 5 de Energia.",
+        "materials": [
+            {
+                "id": "11112",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1112_rank2.png"
+    },
+    "111203": {
+        "id": "111203",
+        "name": "Prenda os Grandes e Liberte os Pequenos",
+        "rank": 3,
+        "desc": "Nv. da Perícia +2, até no máximo Nv. 15.\\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
+        "materials": [
+            {
+                "id": "11112",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "111202",
+                "num": 2
+            },
+            {
+                "id": "111201",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1112_skill.png"
+    },
+    "111204": {
+        "id": "111204",
+        "name": "Operação Ágil",
+        "rank": 4,
+        "desc": "Após o início da rodada de Dinheirinho, a ação de Topaz é Avançada Adiante em 20%.",
+        "materials": [
+            {
+                "id": "11112",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1112_rank4.png"
+    },
+    "111205": {
+        "id": "111205",
+        "name": "Demanda Inflacionária",
+        "rank": 5,
+        "desc": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\\nNv. do Talento +2, até no máximo Nv. 15.",
+        "materials": [
+            {
+                "id": "11112",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "111203",
+                "num": 2
+            },
+            {
+                "id": "111204",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1112_ultimate.png"
+    },
+    "111206": {
+        "id": "111206",
+        "name": "Mecanismo de Incentivo",
+        "rank": 6,
+        "desc": "A contagem de ataque do Dinheirinho durante o estado de \"Bonança Inesperada!\" aumenta em 1, e sua PEN de RES a Fogo aumenta em 10% ao atacar.",
+        "materials": [
+            {
+                "id": "11112",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1112_rank6.png"
+    },
     "120101": {
         "id": "120101",
         "name": "Surgir Pelas Peças",
@@ -2463,7 +2565,7 @@
         "id": "120501",
         "name": "A Lâmina Corta Mais Fundo no Inferno",
         "rank": 1,
-        "desc": "A Perícia Suprema de Blade causa Dano aumentado adicional a um único alvo inimigo, com um aumento igual a 150% do total de PV que Blade perdeu na batalha atual. O total de PV que Blade perdeu na batalha atual tem um limite de 90% de seus PV máximos. Este valor será redefinido e reacumulado após usar sua Perícia Suprema.",
+        "desc": "A Perícia Suprema de Blade causa Dano aumentado adicional a um único inimigo-alvo, com um aumento igual a 150% do total de PV que Blade perdeu na batalha atual. O total de PV que Blade perdeu na batalha atual tem um limite de 90% de seus PV máximos. Este valor será redefinido e reacumulado após usar sua Perícia Suprema.",
         "materials": [
             {
                 "id": "11205",
@@ -2973,6 +3075,108 @@
         "level_up_skills": [],
         "icon": "icon/skill/1209_rank6.png"
     },
+    "121001": {
+        "id": "121001",
+        "name": "Comendo Macarrão Plantando Bananeira",
+        "rank": 1,
+        "desc": "Ao usar a Perícia, há 100% de chance-base de reduzir a RES a Efeito do inimigo-alvo atacado em 10% por 2 rodada(s).",
+        "materials": [
+            {
+                "id": "11210",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1210_rank1.png"
+    },
+    "121002": {
+        "id": "121002",
+        "name": "Escovando os Dentes Enquanto Assovia",
+        "rank": 2,
+        "desc": "Quando um inimigo-alvo estiver com Queimadura, o ATQ Básico e a Perícia de Guinaifen podem aumentar o multiplicador de Dano do estado de Queimadura dela em 40%.",
+        "materials": [
+            {
+                "id": "11210",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1210_rank2.png"
+    },
+    "121003": {
+        "id": "121003",
+        "name": "Destruindo Pedras com o Peito",
+        "rank": 3,
+        "desc": "Nv. da Perícia +2, até no máximo Nv. 15.\\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
+        "materials": [
+            {
+                "id": "11210",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "121002",
+                "num": 2
+            },
+            {
+                "id": "121001",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1210_skill.png"
+    },
+    "121004": {
+        "id": "121004",
+        "name": "Bloqueando Lanças com o Pescoço",
+        "rank": 4,
+        "desc": "Toda vez que o estado de Queimadura infligido por Guinaifen causar Dano, Guinaifen regenera 2 de Energia.",
+        "materials": [
+            {
+                "id": "11210",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1210_rank4.png"
+    },
+    "121005": {
+        "id": "121005",
+        "name": "Engolindo Espadas",
+        "rank": 5,
+        "desc": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\\nNv. do Talento +2, até no máximo Nv. 15.",
+        "materials": [
+            {
+                "id": "11210",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "121003",
+                "num": 2
+            },
+            {
+                "id": "121004",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1210_ultimate.png"
+    },
+    "121006": {
+        "id": "121006",
+        "name": "Pegando Projéteis com as Mãos",
+        "rank": 6,
+        "desc": "Aumenta o acúmulo máximo de Beijo de Fogo em 1.",
+        "materials": [
+            {
+                "id": "11210",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1210_rank6.png"
+    },
     "121101": {
         "id": "121101",
         "name": "Aqua Ambrosiana",
@@ -3074,6 +3278,112 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1211_rank6.png"
+    },
+    "121201": {
+        "id": "121201",
+        "name": "Queda Lunar nos Portões de Tianguan",
+        "rank": 1,
+        "desc": "Aumenta o Dano CRIT de Jingliu em 24% pela(s) próxima(s) 1 rodada(s) quando usa sua Perícia Aprimorada ou sua Perícia Suprema. Se apenas um alvo inimigo for atacado, o alvo receberá adicionalmente Dano de Gelo igual a 100% do ATQ de Jingliu.",
+        "materials": [
+            {
+                "id": "11212",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1212_rank1.png"
+    },
+    "121202": {
+        "id": "121202",
+        "name": "Sombras Crescentes Sobre a Constelação de Qixing",
+        "rank": 2,
+        "desc": "Após usar a Perícia Suprema, aumenta o Dano da próxima Perícia Aprimorada em 80%.",
+        "materials": [
+            {
+                "id": "11212",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1212_rank2.png"
+    },
+    "121203": {
+        "id": "121203",
+        "name": "Neblina Mercurial da Crescente",
+        "rank": 3,
+        "desc": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\\nNv. do Talento +2, até no máximo Nv. 15.",
+        "materials": [
+            {
+                "id": "11212",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "121203",
+                "num": 2
+            },
+            {
+                "id": "121204",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1212_skill.png"
+    },
+    "121204": {
+        "id": "121204",
+        "name": "Brilho da Lança Lunar",
+        "rank": 4,
+        "desc": "Durante o estado de Transmigração Espectral, o ATQ obtido por consumir os PV dos aliados é adicionalmente aumentado em 90% do total de PV consumido por toda a equipe. O limite para o aumento de ATQ feito dessa forma também aumenta em 30%.",
+        "materials": [
+            {
+                "id": "11212",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1212_rank4.png"
+    },
+    "121205": {
+        "id": "121205",
+        "name": "Brilho Noturno Estelar",
+        "rank": 5,
+        "desc": "Nv. da Perícia +2, até no máximo Nv. 15.\\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
+        "materials": [
+            {
+                "id": "11212",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "121202",
+                "num": 2
+            },
+            {
+                "id": "121201",
+                "num": 1
+            },
+            {
+                "id": "121209",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1212_ultimate.png"
+    },
+    "121206": {
+        "id": "121206",
+        "name": "Esfera Esvaziada pelo Vazio",
+        "rank": 6,
+        "desc": "Quando Jingliu entra no estado de Transmigração Espectral, o limite de acúmulos de Sizígia aumenta em 1, e Jingliu obtém 1 acúmulo9s) de Sizígia. Enquanto estiver no estado de Transmigração Espectral, seu Dano CRIT aumenta em 50%.",
+        "materials": [
+            {
+                "id": "11212",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1212_rank6.png"
     },
     "121301": {
         "id": "121301",

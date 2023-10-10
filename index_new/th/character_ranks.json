@@ -2047,6 +2047,108 @@
         "level_up_skills": [],
         "icon": "icon/skill/1111_rank6.png"
     },
+    "111201": {
+        "id": "111201",
+        "name": "Future Market",
+        "rank": 1,
+        "desc": "เมื่อศัตรูเป้าหมายที่ติดสถานะ \"Proof of Debt\" ได้รับการโจมตีต่อเนื่อง จะติดสถานะ \"Debtor\" ซึ่งจะมีผลได้สูงสุด 1 ครั้งต่อหนึ่งการโจมตี\\nสถานะ \"Debtor\" จะทำให้ศัตรูเป้าหมายได้รับ DMG คริติคอล จากการโจมตีต่อเนื่องเพิ่มขึ้น 25% โดยสามารถซ้อนทับได้สูงสุด 2 ชั้น เมื่อสถานะ \"Proof of Debt\" ถูกขจัด \"Debtor\" ก็จะถูกขจัดไปด้วย",
+        "materials": [
+            {
+                "id": "11112",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1112_rank1.png"
+    },
+    "111202": {
+        "id": "111202",
+        "name": "Bona Fide Acquisition",
+        "rank": 2,
+        "desc": "หลังจากที่ Numby แอ็กชันและทำการโจมตี Topaz จะฟื้นฟูพลังงาน 5 หน่วย",
+        "materials": [
+            {
+                "id": "11112",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1112_rank2.png"
+    },
+    "111203": {
+        "id": "111203",
+        "name": "Seize the Big and Free the Small",
+        "rank": 3,
+        "desc": "เลเวลสกิลต่อสู้ +2 สูงสุดไม่เกิน Lv.15 และเลเวลการโจมตีปกติ +1 สูงสุดไม่เกิน Lv.10",
+        "materials": [
+            {
+                "id": "11112",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "111202",
+                "num": 2
+            },
+            {
+                "id": "111201",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1112_skill.png"
+    },
+    "111204": {
+        "id": "111204",
+        "name": "Agile Operation",
+        "rank": 4,
+        "desc": "เมื่อเริ่มต้นเทิร์นของ Numby เอง Topaz จะเร่งแอ็กชัน 20%",
+        "materials": [
+            {
+                "id": "11112",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1112_rank4.png"
+    },
+    "111205": {
+        "id": "111205",
+        "name": "Inflationary Demand",
+        "rank": 5,
+        "desc": "เลเวลท่าไม้ตาย +2 สูงสุดไม่เกิน Lv.15 และเลเวลพรสวรรค์ +2 สูงสุดไม่เกิน Lv.15",
+        "materials": [
+            {
+                "id": "11112",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "111203",
+                "num": 2
+            },
+            {
+                "id": "111204",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1112_ultimate.png"
+    },
+    "111206": {
+        "id": "111206",
+        "name": "Incentive Mechanism",
+        "rank": 6,
+        "desc": "จำนวนการโจมตีของ Numby ขณะที่ติดสถานะ \"Windfall Bonanza!\" เพิ่มขึ้น 1 ครั้ง และเมื่อโจมตี การทะลวงความต้านทานไฟจะเพิ่มขึ้น 10%",
+        "materials": [
+            {
+                "id": "11112",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1112_rank6.png"
+    },
     "120101": {
         "id": "120101",
         "name": "Rise Through the Tiles",
@@ -2787,7 +2889,7 @@
         "id": "120802",
         "name": "Optimus Felix",
         "rank": 2,
-        "desc": "เมื่อเปิดใช้งาน \"Matrix of Prescience\" หากเป้าหมายฝ่ายเราได้รับ DMG ร้ายแรงถึงตาย เป้าหมายฝ่ายเราทั้งหมดที่ได้รับ DMG ร้ายแรงถึงตายในแอ็กชันครั้งนี้ จะไม่ติดสถานะหมดสติ และฟื้นฟู HP 70% ของ HP สูงสุดของตัวเองทันที โดยเอฟเฟกต์นี้สามารถเกิดได้ 1 ครั้งต่อหนึ่งการต่อสู้",
+        "desc": "เมื่อเปิดใช้งาน \"Matrix of Prescience\" หากเป้าหมายฝ่ายเราได้รับ DMG ที่รุนแรงถึงตาย เป้าหมายฝ่ายเราทั้งหมดที่ได้รับ DMG ร้ายแรงถึงตายในแอ็กชันครั้งนี้ จะไม่ติดสถานะหมดสติ และฟื้นฟู HP 70% ของ HP สูงสุดของตัวเองทันที โดยเอฟเฟกต์นี้สามารถเกิดได้ 1 ครั้งต่อหนึ่งการต่อสู้",
         "materials": [
             {
                 "id": "11208",
@@ -2973,6 +3075,108 @@
         "level_up_skills": [],
         "icon": "icon/skill/1209_rank6.png"
     },
+    "121001": {
+        "id": "121001",
+        "name": "Slurping Noodles During Handstand",
+        "rank": 1,
+        "desc": "เมื่อใช้สกิลต่อสู้ จะมีโอกาสพื้นฐาน 100% ที่จะทำให้การต้านทานสถานะ ของศัตรูเป้าหมายที่ถูกโจมตี ลดลง 10% เป็นเวลา 2 เทิร์น",
+        "materials": [
+            {
+                "id": "11210",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1210_rank1.png"
+    },
+    "121002": {
+        "id": "121002",
+        "name": "Brushing Teeth While Whistling",
+        "rank": 2,
+        "desc": "เมื่อศัตรูเป้าหมายติดสถานะเผาไหม้ ตัวคูณ DMG ของสถานะเผาไหม้ จากการโจมตีปกติและสกิลต่อสู้ของ Guinaifen จะเพิ่มขึ้น 40%",
+        "materials": [
+            {
+                "id": "11210",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1210_rank2.png"
+    },
+    "121003": {
+        "id": "121003",
+        "name": "Smashing Boulder on Chest",
+        "rank": 3,
+        "desc": "เลเวลสกิลต่อสู้ +2 สูงสุดไม่เกิน Lv.15 และเลเวลการโจมตีปกติ +1 สูงสุดไม่เกิน Lv.10",
+        "materials": [
+            {
+                "id": "11210",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "121002",
+                "num": 2
+            },
+            {
+                "id": "121001",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1210_skill.png"
+    },
+    "121004": {
+        "id": "121004",
+        "name": "Blocking Pike with Neck",
+        "rank": 4,
+        "desc": "ทุกครั้งที่สถานะเผาไหม้ของ Guinaifen สร้าง DMG หนึ่งครั้ง จะทำให้ Guinaifen ฟื้นฟูพลังงาน 2 หน่วย",
+        "materials": [
+            {
+                "id": "11210",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1210_rank4.png"
+    },
+    "121005": {
+        "id": "121005",
+        "name": "Swallowing Sword to Stomach",
+        "rank": 5,
+        "desc": "เลเวลท่าไม้ตาย +2 สูงสุดไม่เกิน Lv.15 และเลเวลพรสวรรค์ +2 สูงสุดไม่เกิน Lv.15",
+        "materials": [
+            {
+                "id": "11210",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "121003",
+                "num": 2
+            },
+            {
+                "id": "121004",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1210_ultimate.png"
+    },
+    "121006": {
+        "id": "121006",
+        "name": "Catching Bullet with Hands",
+        "rank": 6,
+        "desc": "ทำให้จำนวนชั้นที่ \"Firekiss\" สามารถซ้อนทับได้เพิ่มขึ้น 1 ชั้น",
+        "materials": [
+            {
+                "id": "11210",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1210_rank6.png"
+    },
     "121101": {
         "id": "121101",
         "name": "Ambrosial Aqua",
@@ -3074,6 +3278,112 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1211_rank6.png"
+    },
+    "121201": {
+        "id": "121201",
+        "name": "Moon Crashes Tianguan Gate",
+        "rank": 1,
+        "desc": "เมื่อปล่อยท่าไม้ตายหรือสกิลต่อสู้แบบเสริมพลัง DMG คริติคอลของ Jingliu จะเพิ่มขึ้น 24% เป็นเวลา 1 เทิร์น หากโจมตีศัตรูเป้าหมายเพียง 1 ตัว จะสร้าง DMG น้ำแข็ง 100% ของ ATK ของ Jingliu แก่เป้าหมายดังกล่าวเพิ่มเติม 1 ครั้ง",
+        "materials": [
+            {
+                "id": "11212",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1212_rank1.png"
+    },
+    "121202": {
+        "id": "121202",
+        "name": "Crescent Shadows Qixing Dipper",
+        "rank": 2,
+        "desc": "หลังจากใช้ท่าไม้ตาย DMG ของสกิลต่อสู้ที่เสริมพลังในครั้งถัดไป จะเพิ่มขึ้น 80%",
+        "materials": [
+            {
+                "id": "11212",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1212_rank2.png"
+    },
+    "121203": {
+        "id": "121203",
+        "name": "Halfmoon Gapes Mercurial Haze",
+        "rank": 3,
+        "desc": "เลเวลท่าไม้ตาย +2 สูงสุดไม่เกิน Lv.15 และเลเวลพรสวรรค์ +2 สูงสุดไม่เกิน Lv.15",
+        "materials": [
+            {
+                "id": "11212",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "121203",
+                "num": 2
+            },
+            {
+                "id": "121204",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1212_skill.png"
+    },
+    "121204": {
+        "id": "121204",
+        "name": "Lunarlance Shines Skyward Dome",
+        "rank": 4,
+        "desc": "ATK ที่ได้รับจากการใช้ HP ของเพื่อนร่วมทีมในสถานะ \"Spectral Transmigration\" จะเพิ่มมากขึ้นอีก 90% ของปริมาณ HP ทั้งหมดที่ฝ่ายเราทุกตัวใช้ไป อีกทั้งขีดจำกัดสูงสุดของ ATK จะเพิ่มขึ้น 30%",
+        "materials": [
+            {
+                "id": "11212",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1212_rank4.png"
+    },
+    "121205": {
+        "id": "121205",
+        "name": "Night Shades Astral Radiance",
+        "rank": 5,
+        "desc": "เลเวลสกิลต่อสู้ +2 สูงสุดไม่เกิน Lv.15 และเลเวลการโจมตีปกติ +1 สูงสุดไม่เกิน Lv.10",
+        "materials": [
+            {
+                "id": "11212",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "121202",
+                "num": 2
+            },
+            {
+                "id": "121201",
+                "num": 1
+            },
+            {
+                "id": "121209",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1212_ultimate.png"
+    },
+    "121206": {
+        "id": "121206",
+        "name": "Eclipse Hollows Corporeal Husk",
+        "rank": 6,
+        "desc": "เมื่อ Jingliu เข้าสู่สถานะ \"Spectral Transmigration\" ขีดจำกัดจำนวนชั้นของ \"Syzygy\" จะเพิ่มขึ้น 1 ชั้น อีกทั้งได้รับ \"Syzygy\" เพิ่มเติม 1 ชั้น เมื่ออยู่ในสถานะ \"Spectral Transmigration\" DMG คริติคอลจะเพิ่มขึ้น 50%",
+        "materials": [
+            {
+                "id": "11212",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1212_rank6.png"
     },
     "121301": {
         "id": "121301",

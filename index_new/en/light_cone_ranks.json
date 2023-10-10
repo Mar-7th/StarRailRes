@@ -3388,6 +3388,75 @@
             ]
         ]
     },
+    "23014": {
+        "id": "23014",
+        "skill": "With This Evening Jade",
+        "desc": "Increases the wearer's CRIT DMG by #1[i]%. When an ally gets attacked or loses HP, the wearer gains 1 stack of Eclipse, up to a max of #2[i] stack(s). Each stack of Eclipse increases the DMG of the wearer's next attack by #3[f1]%. When #2[i] stack(s) are reached, additionally enables the attack to ignore #4[i]% of the enemy's DEF. This effect will be removed after the wearer uses an attack.",
+        "params": [
+            [
+                0.2,
+                3,
+                0.14,
+                0.12
+            ],
+            [
+                0.23,
+                3,
+                0.165,
+                0.14
+            ],
+            [
+                0.26,
+                3,
+                0.19,
+                0.16
+            ],
+            [
+                0.29,
+                3,
+                0.215,
+                0.18
+            ],
+            [
+                0.32,
+                3,
+                0.24,
+                0.2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.2
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.23
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.26
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.29
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.32
+                }
+            ]
+        ]
+    },
     "23015": {
         "id": "23015",
         "skill": "Defiant Till Death",
@@ -3427,6 +3496,75 @@
                 2,
                 0.3,
                 0.1
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.18
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.21
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.24
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.27
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.3
+                }
+            ]
+        ]
+    },
+    "23016": {
+        "id": "23016",
+        "skill": "One At A Time",
+        "desc": "Increase the wearer's CRIT Rate by #1[i]% and their follow-up attacks' DMG by #2[i]%. After the wearer uses a follow-up attack, apply the Tame state to the target, stacking up to #4[i] stacks. When allies hit enemy targets under the Tame state, every Tame stack increases the CRIT DMG dealt by #3[i]%.",
+        "params": [
+            [
+                0.18,
+                0.3,
+                0.12,
+                2
+            ],
+            [
+                0.21,
+                0.35,
+                0.14,
+                2
+            ],
+            [
+                0.24,
+                0.4,
+                0.16,
+                2
+            ],
+            [
+                0.27,
+                0.45,
+                0.18,
+                2
+            ],
+            [
+                0.3,
+                0.5,
+                0.2,
+                2
             ]
         ],
         "properties": [
@@ -3657,7 +3795,7 @@
     "24003": {
         "id": "24003",
         "skill": "Chaos Elixir",
-        "desc": "Increases the wearer's Break Effect by #1[i]%. When the wearer uses their Ultimate, increases DoT dealt by the wearer by #2[i]%, lasting for #3[i] turn(s). When a target enemy suffering from DoT imposed by the wearer is defeated, regenerates #4[i] Energy for the wearer.",
+        "desc": "Increases the wearer's Break Effect by #1[i]%. When the wearer uses their Ultimate, increases DoT dealt by the wearer by #2[i]%, lasting for #3[i] turn(s). When a target enemy suffering from DoT imposed by the wearer is defeated, regenerates #4[f1] Energy for the wearer.",
         "params": [
             [
                 0.2,

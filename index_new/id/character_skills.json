@@ -3609,7 +3609,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "",
+        "simple_desc": "Saat mengalahkan target musuh dengan melancarkan Basic Attack, Skill, atau Ultimate, akan memperoleh giliran tambahan dan memasuki status Buff. DMG yang diakibatkan dalam status Buff akan meningkat.",
         "desc": "Saat mengalahkan target musuh dengan Basic Attack, Skill, atau Ultimate, Seele akan segera mendapatkan 1 giliran tambahan dan akan memasuki status Buff. Saat berada dalam status Buff, DMG Seele meningkat #1[i]% selama #2[i] giliran.\nJika Seele mengalahkan musuh lagi pada saat giliran tambahan yang diperoleh dari Talent \"Resurgence\", maka efek Talent ini tidak akan terpicu lagi.",
         "params": [
             [
@@ -3698,7 +3698,7 @@
         "type_text": "Technique",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "",
+        "simple_desc": "Memasuki status Stealth. Setelah menyerang musuh dan memasuki pertempuran, akan langsung memasuki status Buff.",
         "desc": "Setelah menggunakan Technique, Seele akan memasuki status Stealth selama #1[i] detik. Selama berada dalam status Stealth, Seele tidak akan terdeteksi musuh. Jika memulai pertempuran dengan cara menyerang musuh, Seele akan segera memasuki status Buff.",
         "params": [
             [
@@ -6662,7 +6662,7 @@
         "type_text": "Skill",
         "effect": "SingleAttack",
         "effect_text": "Single Target",
-        "simple_desc": "Mengakibatkan Physical DMG pada 1 musuh dan berpeluang besar untuk memberikan status Bleed pada target.",
+        "simple_desc": "Mengakibatkan Physical DMG pada 1 musuh, dan berpeluang besar untuk memberikan status Bleed pada target.",
         "desc": "Mengakibatkan Physical DMG sebesar #1[i]% ATK Luka pada 1 musuh yang ditarget, dan kemudian memiliki #2[i]% peluang dasar untuk membuat target memasuki status Bleed selama #5[i] giliran.\nDalam status Bleed, setiap saat giliran target musuh dimulai, musuh akan menerima Physical DoT sebesar #3[f1]% Max HP dirinya. Maksimal tidak melebihi #4[i]% ATK Luka.",
         "params": [
             [
@@ -6902,7 +6902,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "Setelah melancarkan Basic Attack \"Direct Punch\" atau Skill \"Lacerating Fist\", Luka akan memperoleh 1 lapis \"Fighting Will\". Saat \"Fighting Will\" yang dimiliki lebih dari atau sama dengan 2 lapis, Basic ATK akan menjadi Enhanced Basic Attack.\nJika target musuh sedang dalam status Bleed, Enhanced Basic Attack akan membuat status Bleed menghasilkan 1 kali DMG tambahan.",
+        "simple_desc": "Setelah melancarkan Basic Attack \"Direct Punch\" atau Skill \"Lacerating Fist\", Luka akan memperoleh 1 lapis \"Fighting Will\". Saat \"Fighting Will\" yang dimiliki lebih dari atau sama dengan 2 lapis, Basic Attack akan menjadi Enhanced Basic Attack.\nJika target musuh sedang dalam status Bleed, Enhanced Basic Attack akan membuat status Bleed menghasilkan 1 kali DMG tambahan.",
         "desc": "Setelah Luka melancarkan Basic Attack \"Direct Punch\" atau Skill \"Lacerating Fist\", Luka akan memperoleh #1[i] lapis \"Fighting Will\", maksimal 4 lapis. Saat \"Fighting Will\" yang dimiliki lebih dari atau sama dengan 2, Basic Attack Luka \"Direct Punch\" akan meningkat menjadi \"Sky-Shatter Fist\". Saat \"Rising Uppercut\" dari Enhanced Basic Attack mengenai target musuh dengan status Bleed, maka status Bleed tersebut akan membuat target musuh segera menerima 1 kali DMG sebesar #2[i]% DMG awal. Saat pertempuran dimulai, Luka akan memiliki 1 lapis \"Fighting Will\".",
         "params": [
             [
@@ -6991,7 +6991,7 @@
         "type_text": "Technique",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "Menyerang musuh, dan setelah memasuki pertempuran, mengakibatkan Physical DMG dalam jumlah kecil pada 1 musuh secara acak, kemudian berpeluang besar membuat target memasuki status Bleed. Setelah itu akan memperoleh 1 lapis \"Fighting Will\" tambahan.",
+        "simple_desc": "Menyerang musuh, dan setelah memasuki pertempuran, mengakibatkan Physical DMG dalam jumlah kecil pada 1 musuh secara acak, kemudian berpeluang besar membuat target memasuki status Bleed. Setelah itu, akan memperoleh 1 lapis \"Fighting Will\" tambahan.",
         "desc": "Segera menyerang musuh. Setelah memasuki pertempuran, akan mengakibatkan Physical DMG sebesar #1[i]% ATK Luka pada musuh secara acak, serta memiliki #2[i]% peluang dasar untuk membuat target memasuki status Bleed yang sama dengan Skill. Setelah itu Luka akan memperoleh tambahan 1 lapis \"Fighting Will\".",
         "params": [
             [
@@ -7052,6 +7052,351 @@
         ],
         "icon": "icon/skill/1111_basic_atk.png"
     },
+    "111201": {
+        "id": "111201",
+        "name": "Deficit...",
+        "max_level": 9,
+        "element": "Fire",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Mengakibatkan Fire DMG dalam jumlah kecil pada 1 musuh.",
+        "desc": "Mengakibatkan Fire DMG sebesar #1[i]% ATK Topaz pada 1 musuh yang ditargetkan.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1112_basic_atk.png"
+    },
+    "111202": {
+        "id": "111202",
+        "name": "Difficulty Paying?",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "BPSkill",
+        "type_text": "Skill",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Mengakibatkan 1 musuh memasuki status \"Proof of Debt\", dan DMG Serangan Lanjutan yang diterimanya akan meningkat. Numby mengakibatkan Fire DMG pada target.",
+        "desc": "Mengakibatkan 1 musuh yang ditarget memasuki status \"Proof of Debt\" dan mengakibatkan DMG Serangan Lanjutan yang diterima target meningkat #2[i]%. \"Proof of Debt\" hanya akan efektif pada target terbaru yang menerima efeknya. Saat giliran rekan tim dimulai atau saat rekan tim beraksi, jika tidak ada target musuh berstatus \"Proof of Debt\" di medan pertempuran, Topaz akan mengakibatkan 1 target musuh secara acak untuk memasuki status \"Proof of Debt\".\nNumby akan mengakibatkan Fire DMG sebesar #1[i]% ATK Topaz pada target tersebut. Saat melancarkan Skill ini untuk mengakibatkan DMG, akan dianggap sama dengan memicu Serangan Lanjutan.",
+        "params": [
+            [
+                0.75,
+                0.25
+            ],
+            [
+                0.825,
+                0.275
+            ],
+            [
+                0.9,
+                0.3
+            ],
+            [
+                0.975,
+                0.325
+            ],
+            [
+                1.05,
+                0.35
+            ],
+            [
+                1.125,
+                0.375
+            ],
+            [
+                1.2188,
+                0.4063
+            ],
+            [
+                1.3125,
+                0.4375
+            ],
+            [
+                1.4063,
+                0.4688
+            ],
+            [
+                1.5,
+                0.5
+            ],
+            [
+                1.575,
+                0.525
+            ],
+            [
+                1.65,
+                0.55
+            ],
+            [
+                1.725,
+                0.575
+            ],
+            [
+                1.8,
+                0.6
+            ],
+            [
+                1.875,
+                0.625
+            ]
+        ],
+        "icon": "icon/skill/1112_skill.png"
+    },
+    "111203": {
+        "id": "111203",
+        "name": "Turn a Profit!",
+        "max_level": 15,
+        "element": "",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "Enhance",
+        "effect_text": "Enhance",
+        "simple_desc": "Membuat Numby memasuki status \"Windfall Bonanza!\" dan mendapatkan peningkatan DMG Multiplier dan CRIT DMG.",
+        "desc": "Membuat Numby memasuki status \"Windfall Bonanza!\", meningkatkan #1[i]% DMG Multiplier dan #2[i]% CRIT DMG. Saat target musuh berstatus \"Proof of Debt\" menerima serangan dari Basic Attack, Skill, atau Ultimate dari rekan tim, aksi Numby akan didahulukan sebesar #3[i]%. Setelah Numby melancarkan #4[i] kali serangan, Numby akan keluar dari status \"Windfall Bonanza!\".",
+        "params": [
+            [
+                0.75,
+                0.125,
+                0.5,
+                2
+            ],
+            [
+                0.825,
+                0.1375,
+                0.5,
+                2
+            ],
+            [
+                0.9,
+                0.15,
+                0.5,
+                2
+            ],
+            [
+                0.975,
+                0.1625,
+                0.5,
+                2
+            ],
+            [
+                1.05,
+                0.175,
+                0.5,
+                2
+            ],
+            [
+                1.125,
+                0.1875,
+                0.5,
+                2
+            ],
+            [
+                1.2188,
+                0.2031,
+                0.5,
+                2
+            ],
+            [
+                1.3125,
+                0.2188,
+                0.5,
+                2
+            ],
+            [
+                1.4063,
+                0.2344,
+                0.5,
+                2
+            ],
+            [
+                1.5,
+                0.25,
+                0.5,
+                2
+            ],
+            [
+                1.575,
+                0.2625,
+                0.5,
+                2
+            ],
+            [
+                1.65,
+                0.275,
+                0.5,
+                2
+            ],
+            [
+                1.725,
+                0.2875,
+                0.5,
+                2
+            ],
+            [
+                1.8,
+                0.3,
+                0.5,
+                2
+            ],
+            [
+                1.875,
+                0.3125,
+                0.5,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1112_ultimate.png"
+    },
+    "111204": {
+        "id": "111204",
+        "name": "Trotter Market!?",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Memanggil Numby saat pertempuran dimulai. Saat Numby beraksi, ia akan melancarkan Serangan Lanjutan pada 1 musuh yang berstatus \"Proof of Debt\". Saat musuh dengan \"Proof of Debt\" terkena Serangan Lanjutan, aksi Numby akan didahulukan.",
+        "desc": "Memanggil Numby saat pertempuran dimulai. Numby memiliki #1[i] SPD dasar. Saat beraksi, Numby akan melancarkan Serangan Lanjutan pada 1 musuh yang berstatus \"Proof of Debt\", mengakibatkan Fire DMG sebesar #2[i]% ATK Topaz.\nSaat target musuh berstatus \"Proof of Debt\" terkena Serangan Lanjutan dari rekan tim, aksi Numby akan didahulukan sebesar #3[i]%. Saat dalam giliran Numby sendiri, efek pendahuluan aksi tidak dapat dipicu.\nSaat Topaz gugur, Numby akan menghilang.",
+        "params": [
+            [
+                80,
+                0.75,
+                0.5
+            ],
+            [
+                80,
+                0.825,
+                0.5
+            ],
+            [
+                80,
+                0.9,
+                0.5
+            ],
+            [
+                80,
+                0.975,
+                0.5
+            ],
+            [
+                80,
+                1.05,
+                0.5
+            ],
+            [
+                80,
+                1.125,
+                0.5
+            ],
+            [
+                80,
+                1.2188,
+                0.5
+            ],
+            [
+                80,
+                1.3125,
+                0.5
+            ],
+            [
+                80,
+                1.4063,
+                0.5
+            ],
+            [
+                80,
+                1.5,
+                0.5
+            ],
+            [
+                80,
+                1.575,
+                0.5
+            ],
+            [
+                80,
+                1.65,
+                0.5
+            ],
+            [
+                80,
+                1.725,
+                0.5
+            ],
+            [
+                80,
+                1.8,
+                0.5
+            ],
+            [
+                80,
+                1.875,
+                0.5
+            ]
+        ],
+        "icon": "icon/skill/1112_talent.png"
+    },
+    "111206": {
+        "id": "111206",
+        "name": "Attack",
+        "max_level": 1,
+        "element": "Fire",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Setelah menyerang musuh dan memasuki pertempuran, mengurangi Toughness target musuh sesuai dengan tipe Toughness-nya.",
+        "params": [],
+        "icon": "icon/skill/1112_basic_atk.png"
+    },
+    "111207": {
+        "id": "111207",
+        "name": "Explicit Subsidy",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Enhance",
+        "effect_text": "Enhance",
+        "simple_desc": "Memanggil Numby untuk mengikuti pergerakanmu di dalam latar tempat. Numby akan mencari Peti Harta biasa dan Trotter di sekitar secara otomatis. Melancarkan Technique akan membuat Topaz memulihkan Energy setelah Numby melancarkan serangan pertamanya pada pertempuran berikutnya.",
+        "desc": "Saat Topaz adalah karakter yang digunakan di latar tempat, akan memanggil Numby. Numby akan secara otomatis mencari Peti Harta biasa dan Trotter dalam jangkauan tertentu.\nMelancarkan Technique akan membuat Topaz memulihkan #1[i] Energy setelah Numby melancarkan serangan pertamanya pada pertempuran berikutnya.\nSetelah melancarkan Technique, jika Topaz masih berada dalam tim saat musuh di latar tempat dikalahkan, kamu akan memperoleh Credit tambahan dalam jumlah kecil saat menerima Credit. Setiap hari dalam kalender bumi, kamu hanya dapat menerima maksimal #2[i] Credit tambahan.\nSetelah melancarkan Technique dan mengalahkan musuh di Simulated Universe, kamu akan memperoleh Cosmic Fragment tambahan dalam jumlah kecil, serta memiliki peluang kecil untuk memperoleh 1 Benda Langka secara acak.",
+        "params": [
+            [
+                60,
+                10000
+            ]
+        ],
+        "icon": "icon/skill/1112_technique.png"
+    },
     "120101": {
         "id": "120101",
         "name": "Flower Pick",
@@ -7103,7 +7448,7 @@
         "type_text": "Skill",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "Mengambil Jade Tile, meningkatkan DMG diri sendiri, dan giliran saat ini tidak akan berakhir.",
+        "simple_desc": "Menarik Jade Tile, meningkatkan DMG yang diakibatkan dirinya, dan giliran kali ini tidak akan berakhir.",
         "desc": "Segera mengambil #1[i] lembar Jade Tile dan meningkatkan #2[i]% DMG Qingque hingga gilirannya berakhir, efek ini dapat ditumpuk hingga #3[i] lapis. Giliran saat ini tidak akan berakhir setelah melancarkan Skill ini.",
         "params": [
             [
@@ -7253,7 +7598,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "Mengambil Jade Tile saat giliran rekan tim dimulai. Saat giliran diri dimulai, jika memiliki 4 kartu dengan pola yang sama, kartu akan dikonsumsi dan Basic Attack kali ini akan diperkuat. ATK diri juga akan meningkat.",
+        "simple_desc": "Mengambil Jade Tile saat giliran rekan tim dimulai. Saat giliran dirinya dimulai, jika memiliki 4 Jade Tile dengan pola yang sama, kartu akan dikonsumsi dan Basic Attack kali ini akan mengalami peningkatan. ATK dirinya juga akan meningkat.",
         "desc": "Saat giliran rekan tim dimulai, Qingque akan mengambil secara acak 1 dari 3 Jade Tile dengan pola yang berbeda, Qingque maksimal memiliki 4 Jade Tile.\nSaat gilirannya dimulai, jika Qingque memiliki 4 Jade Tile berpola sama, Qingque akan mengonsumsi semua Jade Tile dan memasuki status \"Hidden Hand\".\nDalam status \"Hidden Hand\", Qingque tidak dapat melancarkan Skill lagi, di saat yang bersamaan akan meningkatkan #1[i]% ATK dirinya sendiri, lalu Basic ATK \"Flower Pick\" akan diperkuat menjadi \"Cherry on Top!\". Status \"Hidden Hand\" akan hilang setelah melancarkan \"Cherry on Top!\".",
         "params": [
             [
@@ -7438,7 +7783,7 @@
         "type_text": "Skill",
         "effect": "Support",
         "effect_text": "Support",
-        "simple_desc": "Meningkatkan ATK dari 1 rekan tim dan memberinya \"Benediction\".",
+        "simple_desc": "Meningkatkan ATK 1 rekan tim dan memberinya \"Benediction\". Saat rekan berstatus \"Benediction\" melancarkan serangan, akan mengakibatkan Lightning DMG tambahan dalam jumlah kecil.",
         "desc": "Memberikan \"Benediction\" pada 1 rekan tim dan meningkatkan #2[i]% ATK-nya. Nilai peningkatan ATK tidak dapat melebihi #4[i]% ATK Tingyun saat ini.\nSetelah rekan yang mendapatkan \"Benediction\" melancarkan serangan, rekan tersebut akan mengakibatkan 1 kali Lightning DMG tambahan sebesar #1[i]% ATK-nya.\n\"Benediction\" berlangsung selama #3[i] giliran dan hanya efektif pada target skill terbaru Tingyun.",
         "params": [
             [
@@ -7543,7 +7888,7 @@
         "type_text": "Ultimate",
         "effect": "Support",
         "effect_text": "Support",
-        "simple_desc": "Memulihkan Energy dari 1 rekan tim dan meningkatkan DMG yang diakibatkannya.",
+        "simple_desc": "Memulihkan Energy 1 rekan tim dan meningkatkan DMG yang diakibatkan rekan tersebut.",
         "desc": "Memulihkan #1[i] Energy 1 rekan tim yang ditargetkan dan di saat bersamaan meningkatkan #3[i]% DMG rekan tersebut selama #2[i] giliran.",
         "params": [
             [
@@ -7633,7 +7978,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "",
+        "simple_desc": "Setelah musuh terkena serangan dari Tingyun, target berstatus \"Benediction\" akan segera mengakibatkan Lightning DMG tambahan dalam jumlah kecil pada musuh tersebut.",
         "desc": "Setelah target musuh terkena serangan Tingyun, rekan tim yang mendapatkan \"Benediction\" akan segera mengakibatkan Lightning DMG tambahan sebesar #1[i]% ATK-nya pada musuh tersebut.",
         "params": [
             [
@@ -7707,7 +8052,7 @@
         "type_text": "Technique",
         "effect": "Support",
         "effect_text": "Support",
-        "simple_desc": "",
+        "simple_desc": "Akan segera memulihkan Energy dirinya setelah menggunakan Technique.",
         "desc": "Setelah menggunakan Technique, Tingyun akan segera memulihkan #1[i] Energy.",
         "params": [
             [
@@ -10324,6 +10669,412 @@
         ],
         "icon": "icon/skill/1209_technique.png"
     },
+    "121001": {
+        "id": "121001",
+        "name": "Standing Ovation",
+        "max_level": 9,
+        "element": "Fire",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Mengakibatkan Fire DMG dalam jumlah kecil pada 1 musuh.",
+        "desc": "Mengakibatkan Fire DMG sebesar #1[i]% ATK Guinaifen pada 1 musuh yang ditarget.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1210_basic_atk.png"
+    },
+    "121002": {
+        "id": "121002",
+        "name": "Blazing Welcome",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "BPSkill",
+        "type_text": "Skill",
+        "effect": "Blast",
+        "effect_text": "Blast",
+        "simple_desc": "Mengakibatkan Fire DMG pada 1 musuh, dan mengakibatkan Fire DMG dalam jumlah kecil pada musuh di sekitar target. Berpeluang besar untuk menambahkan status Burn.",
+        "desc": "Mengakibatkan Fire DMG sebesar #1[i]% ATK Guinaifen pada 1 musuh yang ditarget, dan mengakibatkan Fire DMG sebesar #2[i]% ATK Guinaifen pada musuh di sekitar target, memiliki #3[i]% peluang dasar untuk membuat musuh dan target di sekitarnya memasuki status Burn. Target musuh dengan status Burn akan menerima Fire DoT sebesar #4[i]% ATK Guinaifen setiap saat gilirannya dimulai selama #5[i] giliran.",
+        "params": [
+            [
+                0.6,
+                0.2,
+                1,
+                0.839,
+                2
+            ],
+            [
+                0.66,
+                0.22,
+                1,
+                0.923,
+                2
+            ],
+            [
+                0.72,
+                0.24,
+                1,
+                1.0069,
+                2
+            ],
+            [
+                0.78,
+                0.26,
+                1,
+                1.0909,
+                2
+            ],
+            [
+                0.84,
+                0.28,
+                1,
+                1.1748,
+                2
+            ],
+            [
+                0.9,
+                0.3,
+                1,
+                1.3007,
+                2
+            ],
+            [
+                0.975,
+                0.325,
+                1,
+                1.4686,
+                2
+            ],
+            [
+                1.05,
+                0.35,
+                1,
+                1.6784,
+                2
+            ],
+            [
+                1.125,
+                0.375,
+                1,
+                1.9303,
+                2
+            ],
+            [
+                1.2,
+                0.4,
+                1,
+                2.1821,
+                2
+            ],
+            [
+                1.26,
+                0.42,
+                1,
+                2.2912,
+                2
+            ],
+            [
+                1.32,
+                0.44,
+                1,
+                2.4003,
+                2
+            ],
+            [
+                1.38,
+                0.46,
+                1,
+                2.5094,
+                2
+            ],
+            [
+                1.44,
+                0.48,
+                1,
+                2.6186,
+                2
+            ],
+            [
+                1.5,
+                0.5,
+                1,
+                2.7277,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1210_skill.png"
+    },
+    "121003": {
+        "id": "121003",
+        "name": "Watch This Showstopper",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "AoEAttack",
+        "effect_text": "AoE",
+        "simple_desc": "Mengakibatkan Fire DMG dalam jumlah kecil pada seluruh musuh.\nJika target musuh berstatus Burn, maka status Burn tersebut akan mengakibatkan 1 kali DMG tambahan.",
+        "desc": "Mengakibatkan Fire DMG sebesar #1[f1]% ATK Guinaifen pada seluruh musuh. Jika target berstatus Burn, maka status Burn tersebut akan segera mengakibatkan DMG sebesar #2[i]% DMG awal.",
+        "params": [
+            [
+                0.72,
+                0.72
+            ],
+            [
+                0.768,
+                0.74
+            ],
+            [
+                0.816,
+                0.76
+            ],
+            [
+                0.864,
+                0.78
+            ],
+            [
+                0.912,
+                0.8
+            ],
+            [
+                0.96,
+                0.82
+            ],
+            [
+                1.02,
+                0.845
+            ],
+            [
+                1.08,
+                0.87
+            ],
+            [
+                1.14,
+                0.895
+            ],
+            [
+                1.2,
+                0.92
+            ],
+            [
+                1.248,
+                0.94
+            ],
+            [
+                1.296,
+                0.96
+            ],
+            [
+                1.344,
+                0.98
+            ],
+            [
+                1.392,
+                1
+            ],
+            [
+                1.44,
+                1.02
+            ]
+        ],
+        "icon": "icon/skill/1210_ultimate.png"
+    },
+    "121004": {
+        "id": "121004",
+        "name": "PatrAeon Benefits",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Impair",
+        "effect_text": "Impair",
+        "simple_desc": "Setelah status Burn yang diterima musuh memicu DMG, berpeluang besar untuk memberikan status \"Firekiss\".",
+        "desc": "Saat Guinaifen berada di medan pertempuran, setelah status Burn yang diterima musuh memicu DMG, musuh tersebut memiliki #1[i]% peluang dasar memasuki status \"Firekiss\". Saat berstatus \"Firekiss\", DMG yang diterima target musuh akan meningkat #4[f1]% selama #5[i] giliran. Efek ini dapat ditumpuk hingga #6[i] lapis.",
+        "params": [
+            [
+                1,
+                0,
+                0,
+                0.04,
+                3,
+                3
+            ],
+            [
+                1,
+                0,
+                0,
+                0.043,
+                3,
+                3
+            ],
+            [
+                1,
+                0,
+                0,
+                0.046,
+                3,
+                3
+            ],
+            [
+                1,
+                0,
+                0,
+                0.049,
+                3,
+                3
+            ],
+            [
+                1,
+                0,
+                0,
+                0.052,
+                3,
+                3
+            ],
+            [
+                1,
+                0,
+                0,
+                0.055,
+                3,
+                3
+            ],
+            [
+                1,
+                0,
+                0,
+                0.0588,
+                3,
+                3
+            ],
+            [
+                1,
+                0,
+                0,
+                0.0625,
+                3,
+                3
+            ],
+            [
+                1,
+                0,
+                0,
+                0.0663,
+                3,
+                3
+            ],
+            [
+                1,
+                0,
+                0,
+                0.07,
+                3,
+                3
+            ],
+            [
+                1,
+                0,
+                0,
+                0.073,
+                3,
+                3
+            ],
+            [
+                1,
+                0,
+                0,
+                0.076,
+                3,
+                3
+            ],
+            [
+                1,
+                0,
+                0,
+                0.079,
+                3,
+                3
+            ],
+            [
+                1,
+                0,
+                0,
+                0.082,
+                3,
+                3
+            ],
+            [
+                1,
+                0,
+                0,
+                0.085,
+                3,
+                3
+            ]
+        ],
+        "icon": "icon/skill/1210_talent.png"
+    },
+    "121006": {
+        "id": "121006",
+        "name": "Attack",
+        "max_level": 1,
+        "element": "Fire",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Setelah menyerang musuh dan memasuki pertempuran, mengurangi Toughness target musuh sesuai dengan tipe Toughness-nya.",
+        "params": [],
+        "icon": "icon/skill/1210_basic_atk.png"
+    },
+    "121007": {
+        "id": "121007",
+        "name": "Skill Showcase",
+        "max_level": 1,
+        "element": "Fire",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "Setelah menyerang musuh dan memasuki pertempuran, mengakibatkan Fire DMG dalam jumlah kecil pada 1 musuh, dan memberikan status \"Firekiss\". Total Bounce 4 kali.",
+        "desc": "Segera menyerang musuh. Setelah memasuki pertempuran, mengakibatkan #2[i] kali DMG yang masing-masing mengakibatkan Fire DMG sebesar #1[i]% ATK Guinaifen pada musuh secara acak, serta memiliki #3[i]% Peluang Dasar untuk membuat target memasuki status \"Firekiss\".",
+        "params": [
+            [
+                0.5,
+                4,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1210_technique.png"
+    },
     "121101": {
         "id": "121101",
         "name": "Diagnostic Kick",
@@ -10713,6 +11464,505 @@
         ],
         "icon": "icon/skill/1211_technique.png"
     },
+    "121201": {
+        "id": "121201",
+        "name": "Lucent Moonglow",
+        "max_level": 9,
+        "element": "Ice",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Mengakibatkan Ice DMG dalam jumlah kecil pada 1 musuh yang ditargetkan.",
+        "desc": "Mengakibatkan Ice DMG sebesar #1[i]% ATK Jingliu pada 1 musuh yang ditarget.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1212_basic_atk.png"
+    },
+    "121202": {
+        "id": "121202",
+        "name": "Transcendent Flash",
+        "max_level": 15,
+        "element": "Ice",
+        "type": "BPSkill",
+        "type_text": "Skill",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Mengakibatkan Ice DMG pada 1 musuh yang ditarget dan memperoleh 1 lapis \"Syzygy\".",
+        "desc": "Mengakibatkan Ice DMG sebesar #1[i]% ATK Jingliu pada 1 musuh yang ditarget dan memperoleh #2[i] lapis \"Syzygy\".",
+        "params": [
+            [
+                1,
+                1
+            ],
+            [
+                1.1,
+                1
+            ],
+            [
+                1.2,
+                1
+            ],
+            [
+                1.3,
+                1
+            ],
+            [
+                1.4,
+                1
+            ],
+            [
+                1.5,
+                1
+            ],
+            [
+                1.625,
+                1
+            ],
+            [
+                1.75,
+                1
+            ],
+            [
+                1.875,
+                1
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2.1,
+                1
+            ],
+            [
+                2.2,
+                1
+            ],
+            [
+                2.3,
+                1
+            ],
+            [
+                2.4,
+                1
+            ],
+            [
+                2.5,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1212_skill.png"
+    },
+    "121203": {
+        "id": "121203",
+        "name": "Florephemeral Dreamflux",
+        "max_level": 15,
+        "element": "Ice",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "Blast",
+        "effect_text": "Blast",
+        "simple_desc": "Mengakibatkan Ice DMG dalam jumlah besar pada 1 musuh yang ditarget dan mengakibatkan Ice DMG pada musuh di sekitar target, serta memperoleh 1 lapis \"Syzygy\".",
+        "desc": "Mengakibatkan Ice DMG sebesar #1[i]% ATK Jingliu pada 1 musuh yang ditarget, serta mengakibatkan Ice DMG sebesar #3[i]% ATK Jingliu pada musuh di sekitar target. Setelah serangan berakhir, akan memperoleh #2[i] lapis \"Syzygy\".",
+        "params": [
+            [
+                1.8,
+                1,
+                0.9,
+                1
+            ],
+            [
+                1.92,
+                1,
+                0.96,
+                1
+            ],
+            [
+                2.04,
+                1,
+                1.02,
+                1
+            ],
+            [
+                2.16,
+                1,
+                1.08,
+                1
+            ],
+            [
+                2.28,
+                1,
+                1.14,
+                1
+            ],
+            [
+                2.4,
+                1,
+                1.2,
+                1
+            ],
+            [
+                2.55,
+                1,
+                1.275,
+                1
+            ],
+            [
+                2.7,
+                1,
+                1.35,
+                1
+            ],
+            [
+                2.85,
+                1,
+                1.425,
+                1
+            ],
+            [
+                3,
+                1,
+                1.5,
+                1
+            ],
+            [
+                3.12,
+                1,
+                1.56,
+                1
+            ],
+            [
+                3.24,
+                1,
+                1.62,
+                1
+            ],
+            [
+                3.36,
+                1,
+                1.68,
+                1
+            ],
+            [
+                3.48,
+                1,
+                1.74,
+                1
+            ],
+            [
+                3.6,
+                1,
+                1.8,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1212_ultimate.png"
+    },
+    "121204": {
+        "id": "121204",
+        "name": "Crescent Transmigration",
+        "max_level": 15,
+        "element": "Ice",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Enhance",
+        "effect_text": "Enhance",
+        "simple_desc": "Saat memiliki #5[i] lapis \"Syzygy\", Jingliu akan memasuki status \"Spectral Transmigration\" dan mendahulukan aksinya sebesar 100%, meningkatkan CRIT Rate dirinya, serta memperoleh Enhanced Skill. Saat melancarkan serangan, akan mengonsumsi HP rekan tim, dan meningkatkan ATK Jingliu berdasarkan jumlah total HP rekan tim yang dikonsumsi. Saat jumlah lapisan \"Syzygy\" mencapai 0, Jingliu akan keluar dari status \"Spectral Transmigration\".",
+        "desc": "Saat Jingliu memiliki #5[i] lapis Syzygy, dia akan memasuki status \"Spectral Transmigration\", mendahulukan aksinya sebesar #6[i]%, dan meningkatkan #7[i]% CRIT Rate dirinya. Setelah itu, Skill \"Transcendent Flash\" miliknya akan diperkuat menjadi \"Moon On Glacial River\", dan dirinya hanya akan bisa menggunakan Skill ini. Saat melancarkan serangan dalam status \"Spectral Transmigration\", Jingliu akan mengonsumsi HP rekan tim-nya sebesar #2[i]% Max HP rekan tim-nya masing-masing (HP setiap rekan tim maksimal bisa dikonsumsi hingga tersisa 1). Meningkatkan ATK Jingliu sebesar #3[i]% dari total jumlah HP yang dikonsumsi dari seluruh rekan tim kali ini, maksimum tidak lebih dari #4[i]% Base ATK Jingliu dan berlangsung hingga serangan ini berakhir. Sebelum status \"Spectral Transmigration\" yang sedang berlangsung berakhir, Jingliu tidak akan bisa memasuki status \"Spectral Transmigration\" lagi. \"Syzygy\" dapat ditumpuk hingga 3 lapis, dan Jingliu akan keluar dari status \"Spectral Transmigration\" saat lapisan Syzygy berjumlah 0.",
+        "params": [
+            [
+                0.3,
+                0.04,
+                5.4,
+                0.9,
+                2,
+                1,
+                0.4
+            ],
+            [
+                0.3,
+                0.04,
+                5.4,
+                0.99,
+                2,
+                1,
+                0.41
+            ],
+            [
+                0.3,
+                0.04,
+                5.4,
+                1.08,
+                2,
+                1,
+                0.42
+            ],
+            [
+                0.3,
+                0.04,
+                5.4,
+                1.17,
+                2,
+                1,
+                0.43
+            ],
+            [
+                0.3,
+                0.04,
+                5.4,
+                1.26,
+                2,
+                1,
+                0.44
+            ],
+            [
+                0.3,
+                0.04,
+                5.4,
+                1.35,
+                2,
+                1,
+                0.45
+            ],
+            [
+                0.3,
+                0.04,
+                5.4,
+                1.4625,
+                2,
+                1,
+                0.4625
+            ],
+            [
+                0.3,
+                0.04,
+                5.4,
+                1.575,
+                2,
+                1,
+                0.475
+            ],
+            [
+                0.3,
+                0.04,
+                5.4,
+                1.6875,
+                2,
+                1,
+                0.4875
+            ],
+            [
+                0.3,
+                0.04,
+                5.4,
+                1.8,
+                2,
+                1,
+                0.5
+            ],
+            [
+                0.3,
+                0.04,
+                5.4,
+                1.89,
+                2,
+                1,
+                0.51
+            ],
+            [
+                0.3,
+                0.04,
+                5.4,
+                1.98,
+                2,
+                1,
+                0.52
+            ],
+            [
+                0.3,
+                0.04,
+                5.4,
+                2.07,
+                2,
+                1,
+                0.53
+            ],
+            [
+                0.3,
+                0.04,
+                5.4,
+                2.16,
+                2,
+                1,
+                0.54
+            ],
+            [
+                0.3,
+                0.04,
+                5.4,
+                2.25,
+                2,
+                1,
+                0.55
+            ]
+        ],
+        "icon": "icon/skill/1212_talent.png"
+    },
+    "121206": {
+        "id": "121206",
+        "name": "Attack",
+        "max_level": 1,
+        "element": "Ice",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Setelah menyerang musuh dan memasuki pertempuran, mengurangi Toughness target musuh sesuai dengan tipe Toughness-nya.",
+        "params": [],
+        "icon": "icon/skill/1212_basic_atk.png"
+    },
+    "121207": {
+        "id": "121207",
+        "name": "Shine of Truth",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Impair",
+        "effect_text": "Impair",
+        "simple_desc": "Menciptakan Dimension di sekelilingnya. Musuh yang berada dalam Dimension akan memasuki status Frozen. Setelah memasuki pertempuran dengan musuh dalam Dimension, akan memulihkan Energy diri sendiri, memperoleh 1 lapis Syzygy, dan berpeluang besar membuat target musuh memasuki status Frozen.",
+        "desc": "Setelah menggunakan Technique, karakter akan menciptakan Dimension di sekelilingnya selama #3[i] detik, dan musuh yang berada dalam Dimension akan memasuki status Frozen. Setelah memasuki pertempuran dengan musuh dalam Dimension, akan segera memulihkan #6[i] Energy diri sendiri, memperoleh #1[i] lapis \"Syzygy\", dan memiliki #2[i]% peluang dasar untuk membuat target musuh memasuki status Frozen yang berlangsung selama #4[i] giliran. Selama dalam status Frozen, target musuh tidak dapat beraksi, dan akan menerima Ice DMG tambahan sebesar #5[i]% ATK Jingliu setiap saat gilirannya dimulai. Hanya boleh ada 1 efek Dimension ciptaan rekan tim dalam satu waktu.",
+        "params": [
+            [
+                1,
+                1,
+                20,
+                1,
+                0.8,
+                15
+            ]
+        ],
+        "icon": "icon/skill/1212_technique.png"
+    },
+    "121209": {
+        "id": "121209",
+        "name": "Moon On Glacial River",
+        "max_level": 15,
+        "element": "Ice",
+        "type": "BPSkill",
+        "type_text": "Skill",
+        "effect": "Blast",
+        "effect_text": "Blast",
+        "simple_desc": "Mengakibatkan Ice DMG pada 1 musuh yang ditargetkan, dan Ice DMG pada musuh di sekitar target, serta mengonsumsi 1 lapis \"Syzygy\".",
+        "desc": "Mengakibatkan Ice DMG sebesar #1[i]% ATK Jingliu pada 1 musuh yang ditarget, serta mengakibatkan Ice DMG sebesar #3[i]% ATK Jingliu pada musuh di sekitar target. Mengonsumsi #2[i] lapis \"Syzygy\". Melancarkan kemampuan ini tidak akan mengonsumsi Poin Skill.",
+        "params": [
+            [
+                1.25,
+                1,
+                0.625
+            ],
+            [
+                1.375,
+                1,
+                0.6875
+            ],
+            [
+                1.5,
+                1,
+                0.75
+            ],
+            [
+                1.625,
+                1,
+                0.8125
+            ],
+            [
+                1.75,
+                1,
+                0.875
+            ],
+            [
+                1.875,
+                1,
+                0.9375
+            ],
+            [
+                2.0313,
+                1,
+                1.0156
+            ],
+            [
+                2.1875,
+                1,
+                1.0938
+            ],
+            [
+                2.3438,
+                1,
+                1.1719
+            ],
+            [
+                2.5,
+                1,
+                1.25
+            ],
+            [
+                2.625,
+                1,
+                1.3125
+            ],
+            [
+                2.75,
+                1,
+                1.375
+            ],
+            [
+                2.875,
+                1,
+                1.4375
+            ],
+            [
+                3,
+                1,
+                1.5
+            ],
+            [
+                3.125,
+                1,
+                1.5625
+            ]
+        ],
+        "icon": "icon/skill/1212_skill.png"
+    },
     "121301": {
         "id": "121301",
         "name": "Beneficent Lotus",
@@ -11082,24 +12332,6 @@
             ],
             [
                 3.38
-            ],
-            [
-                1.3
-            ],
-            [
-                1.3
-            ],
-            [
-                1.3
-            ],
-            [
-                1.3
-            ],
-            [
-                1.3
-            ],
-            [
-                1.3
             ]
         ],
         "icon": "icon/skill/1213_basic_atk.png"
@@ -11130,30 +12362,6 @@
         "simple_desc": "Melancarkan 5 Hit serangan untuk mengakibatkan Imaginary DMG dalam jumlah besar pada 1 musuh dan mengakibatkan Imaginary DMG dalam jumlah kecil pada musuh di sekitar target. Mendapatkan masing-masing 1 lapis \"Outroar\" sebelum pelancaran 2 Hit terakhir (Hit ke-4 dan 5). \"Outroar\" meningkatkan CRIT DMG.",
         "desc": "Melancarkan 5 Hit serangan untuk mengakibatkan Imaginary DMG sebesar #1[i]% ATK Dan Heng · Imbibitor Lunae pada 1 target musuh. Mulai dari Hit ke-4, akan mengakibatkan Imaginary DMG pada musuh di sekitar target sebesar #2[i]% ATK Dan Heng · Imbibitor Lunae.",
         "params": [
-            [
-                1.9,
-                0.3
-            ],
-            [
-                1.9,
-                0.3
-            ],
-            [
-                1.9,
-                0.3
-            ],
-            [
-                1.9,
-                0.3
-            ],
-            [
-                1.9,
-                0.3
-            ],
-            [
-                1.9,
-                0.3
-            ],
             [
                 1.9,
                 0.3
@@ -11205,30 +12413,6 @@
         "simple_desc": "Melancarkan 7 Hit serangan untuk mengakibatkan Imaginary DMG dalam jumlah besar pada 1 musuh dan mengakibatkan Imaginary DMG pada musuh di sekitar target. Mendapatkan masing-masing 1 lapis \"Outroar\" sebelum pelancaran 4 Hit terakhir (Hit ke-4, 5, 6, 7). \"Outroar\" meningkatkan CRIT DMG.",
         "desc": "Melancarkan 7 Hit serangan untuk mengakibatkan Imaginary DMG sebesar #1[i]% ATK Dan Heng · Imbibitor Lunae pada 1 target musuh. Mulai dari Hit ke-4, akan mengakibatkan Imaginary DMG pada musuh di sekitar target sebesar #2[i]% ATK Dan Heng · Imbibitor Lunae.",
         "params": [
-            [
-                2.5,
-                0.9
-            ],
-            [
-                2.5,
-                0.9
-            ],
-            [
-                2.5,
-                0.9
-            ],
-            [
-                2.5,
-                0.9
-            ],
-            [
-                2.5,
-                0.9
-            ],
-            [
-                2.5,
-                0.9
-            ],
             [
                 2.5,
                 0.9

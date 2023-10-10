@@ -3388,6 +3388,75 @@
             ]
         ]
     },
+    "23014": {
+        "id": "23014",
+        "skill": "Com Este Jade Vespertino",
+        "desc": "Aumenta o Dano CRIT do usuário em #1[i]%. Quando um aliado é atacado ou perde PV, o usuário ganha 1 acúmulo de Eclipse, até um máximo de #2[i] acúmulo(s). Cada acúmulo de Eclipse aumenta o Dano do próximo ataque do usuário em #3[f1]%. Ao alcançar #2[i] acúmulo(s), permite adicionalmente que o ataque ignore #4[i]% da DEF do inimigo. Este efeito será removido depois que o usuário utilizar um ataque.",
+        "params": [
+            [
+                0.2,
+                3,
+                0.14,
+                0.12
+            ],
+            [
+                0.23,
+                3,
+                0.165,
+                0.14
+            ],
+            [
+                0.26,
+                3,
+                0.19,
+                0.16
+            ],
+            [
+                0.29,
+                3,
+                0.215,
+                0.18
+            ],
+            [
+                0.32,
+                3,
+                0.24,
+                0.2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.2
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.23
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.26
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.29
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.32
+                }
+            ]
+        ]
+    },
     "23015": {
         "id": "23015",
         "skill": "Petulante Até a Morte",
@@ -3427,6 +3496,75 @@
                 2,
                 0.3,
                 0.1
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.18
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.21
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.24
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.27
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.3
+                }
+            ]
+        ]
+    },
+    "23016": {
+        "id": "23016",
+        "skill": "Um De Cada Vez",
+        "desc": "Aumenta o Chance de CRIT do usuário em #1[i]% e o Dano dos seus Ataques Extras em #2[i]%. Após o usuário utilizar um Ataque Extra, aplica o estado de Domesticação ao alvo, acumulando até #4[i] vezes. Quando os aliados atingem inimigos-alvo sob o estado de Domesticação, cada acúmulo de Domesticação aumenta o Dano CRIT causado em #3[i]%.",
+        "params": [
+            [
+                0.18,
+                0.3,
+                0.12,
+                2
+            ],
+            [
+                0.21,
+                0.35,
+                0.14,
+                2
+            ],
+            [
+                0.24,
+                0.4,
+                0.16,
+                2
+            ],
+            [
+                0.27,
+                0.45,
+                0.18,
+                2
+            ],
+            [
+                0.3,
+                0.5,
+                0.2,
+                2
             ]
         ],
         "properties": [
@@ -3657,7 +3795,7 @@
     "24003": {
         "id": "24003",
         "skill": "Elixir do Caos",
-        "desc": "Aumenta em #1[i]% o Efeito de Quebra do usuário. Quando o usuário usa sua Perícia Suprema, aumenta o Dano Contínuo causado pelo usuário em #2[i]% durando por #3[i] rodada(s). Quando o inimigo-alvo sofrendo com o Dano Contínuo imposto pelo usuário é derrotado, regenera #4[i] de Energia para o usuário.",
+        "desc": "Aumenta em #1[i]% o Efeito de Quebra do usuário. Quando o usuário usa sua Perícia Suprema, aumenta o Dano Contínuo causado pelo usuário em #2[i]% durando por #3[i] rodada(s). Quando o inimigo-alvo sofrendo com o Dano Contínuo imposto pelo usuário é derrotado, regenera #4[f1] de Energia para o usuário.",
         "params": [
             [
                 0.2,

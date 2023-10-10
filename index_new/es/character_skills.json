@@ -3609,7 +3609,7 @@
         "type_text": "Talento",
         "effect": "Enhance",
         "effect_text": "Potenciación",
-        "simple_desc": "",
+        "simple_desc": "Al eliminar a un enemigo con el ATQ básico, la habilidad básica o la habilidad definitiva, obtiene un turno adicional y entra en un estado potenciado en el que aumenta el daño que inflige.",
         "desc": "Al eliminar a un objetivo enemigo usando su ATQ básico, habilidad básica o habilidad definitiva, obtiene inmediatamente un turno adicional y entra en un estado potenciado. Este estado hace que el daño de los ataques de Seele aumente en un #1[i]% durante #2[i] turno.\nLos enemigos eliminados durante el turno adicional obtenido con su talento Reaparición no activarán el talento otra vez.",
         "params": [
             [
@@ -3698,7 +3698,7 @@
         "type_text": "Técnica",
         "effect": "Enhance",
         "effect_text": "Potenciación",
-        "simple_desc": "",
+        "simple_desc": "Entra en el estado de Invisibilidad. Tras atacar a un enemigo y entrar en combate, entra en el estado potenciado.",
         "desc": "Tras usar la técnica, Seele obtiene Invisibilidad durante #1[i] s. Mientras está en el estado de Invisibilidad, Seele no puede ser detectada por los enemigos. Al entrar en combate tras atacar a un enemigo, Seele entra en el estado potenciado inmediatamente.",
         "params": [
             [
@@ -6902,7 +6902,7 @@
         "type_text": "Talento",
         "effect": "Enhance",
         "effect_text": "Potenciación",
-        "simple_desc": "Tras usar el ATQ básico \"Puño certero\" o la habilidad básica \"¡Puño, fuera!\", obtiene #1[i] acumulación de Voluntad luchadora. Si tiene 2 o más acumulaciones, su ATQ básico se potencia.\nCuando el objetivo está afectado por Sangrado, el ATQ básico potenciado hace que el estado de Sangrado inflija daño 1 vez adicional.",
+        "simple_desc": "Tras usar el ATQ básico Puño certero o la habilidad básica ¡Puño, fuera!, obtiene #1[i] acumulación de Voluntad luchadora. Si tiene 2 o más acumulaciones, su ATQ básico se potencia.\nCuando el objetivo está afectado por Sangrado, el ATQ básico potenciado hace que el estado de Sangrado inflija daño 1 vez adicional.",
         "desc": "Luka obtiene #1[i] acumulación de Voluntad luchadora después de usar el ATQ básico \"Puño certero\" o la habilidad básica \"¡Puño, fuera!\", hasta un máximo de 4 acumulaciones. Si tiene 2 o más acumulaciones de Voluntad luchadora, el ATQ básico Puño certero se potencia y se convierte en Puño rompecielos certero. Tras golpear con el Puño rompecielos de su ATQ básico potenciado a un enemigo afectado por Sangrado, el estado de Sangrado inflige inmediatamente 1 vez un daño equivalente al #2[i]% del daño de Sangrado original. Al comenzar la batalla, Luka obtiene 1 acumulación de Voluntad luchadora.",
         "params": [
             [
@@ -7051,6 +7051,351 @@
             ]
         ],
         "icon": "icon/skill/1111_basic_atk.png"
+    },
+    "111201": {
+        "id": "111201",
+        "name": "Déficit",
+        "max_level": 9,
+        "element": "Fire",
+        "type": "Normal",
+        "type_text": "ATQ básico",
+        "effect": "SingleAttack",
+        "effect_text": "ATQ individual",
+        "simple_desc": "Inflige una pequeña cantidad de Daño de Fuego a un enemigo.",
+        "desc": "Inflige un #1[i]% del ATQ de Topaz como Daño de Fuego a un enemigo.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1112_basic_atk.png"
+    },
+    "111202": {
+        "id": "111202",
+        "name": "¿Problemas con el pago?",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "BPSkill",
+        "type_text": "Habilidad básica",
+        "effect": "SingleAttack",
+        "effect_text": "ATQ individual",
+        "simple_desc": "Hace que un enemigo entre en el estado Certificado de deuda y reciba más daño de los ataques adicionales. Conti inflige Daño de Fuego al objetivo.",
+        "desc": "Hace que un enemigo entre en el estado Certificado de deuda y aumenta el daño que recibe de los ataques adicionales en un #2[i]%. Certificado de deuda solo tiene efecto en el último objetivo al que se le haya aplicado. Al inicio del turno de un aliado o durante la acción de los aliados, si en el campo de batalla no hay ningún enemigo con Certificado de deuda, Topaz se lo aplica a un enemigo al azar.\nConti inflige a ese objetivo un #1[i]% del ATQ de Topaz como Daño de Fuego. Lanzar esta habilidad básica e infligir daño se considera como lanzar un ataque adicional.",
+        "params": [
+            [
+                0.75,
+                0.25
+            ],
+            [
+                0.825,
+                0.275
+            ],
+            [
+                0.9,
+                0.3
+            ],
+            [
+                0.975,
+                0.325
+            ],
+            [
+                1.05,
+                0.35
+            ],
+            [
+                1.125,
+                0.375
+            ],
+            [
+                1.2188,
+                0.4063
+            ],
+            [
+                1.3125,
+                0.4375
+            ],
+            [
+                1.4063,
+                0.4688
+            ],
+            [
+                1.5,
+                0.5
+            ],
+            [
+                1.575,
+                0.525
+            ],
+            [
+                1.65,
+                0.55
+            ],
+            [
+                1.725,
+                0.575
+            ],
+            [
+                1.8,
+                0.6
+            ],
+            [
+                1.875,
+                0.625
+            ]
+        ],
+        "icon": "icon/skill/1112_skill.png"
+    },
+    "111203": {
+        "id": "111203",
+        "name": "De pérdida a ganancia",
+        "max_level": 15,
+        "element": "",
+        "type": "Ultra",
+        "type_text": "Habilidad definitiva",
+        "effect": "Enhance",
+        "effect_text": "Potenciación",
+        "simple_desc": "Conti entra en el estado Subida increíble y aumenta su multiplicador de daño y su Daño CRIT.",
+        "desc": "Conti entra en el estado Subida increíble. Su multiplicador de daño aumenta en un #1[i]% y su Daño CRIT en un #2[i]%. Además, cuando un enemigo afectado por Certificado de deuda recibe el ataque de un ATQ básico, habilidad básica o habilidad definitiva de un aliado, la acción de Conti se adelanta un #3[i]%. Conti sale del estado Subida increíble después de lanzar #4[i] ataques.",
+        "params": [
+            [
+                0.75,
+                0.125,
+                0.5,
+                2
+            ],
+            [
+                0.825,
+                0.1375,
+                0.5,
+                2
+            ],
+            [
+                0.9,
+                0.15,
+                0.5,
+                2
+            ],
+            [
+                0.975,
+                0.1625,
+                0.5,
+                2
+            ],
+            [
+                1.05,
+                0.175,
+                0.5,
+                2
+            ],
+            [
+                1.125,
+                0.1875,
+                0.5,
+                2
+            ],
+            [
+                1.2188,
+                0.2031,
+                0.5,
+                2
+            ],
+            [
+                1.3125,
+                0.2188,
+                0.5,
+                2
+            ],
+            [
+                1.4063,
+                0.2344,
+                0.5,
+                2
+            ],
+            [
+                1.5,
+                0.25,
+                0.5,
+                2
+            ],
+            [
+                1.575,
+                0.2625,
+                0.5,
+                2
+            ],
+            [
+                1.65,
+                0.275,
+                0.5,
+                2
+            ],
+            [
+                1.725,
+                0.2875,
+                0.5,
+                2
+            ],
+            [
+                1.8,
+                0.3,
+                0.5,
+                2
+            ],
+            [
+                1.875,
+                0.3125,
+                0.5,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1112_ultimate.png"
+    },
+    "111204": {
+        "id": "111204",
+        "name": "¡¿Mercado diagonalista?!",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "Talent",
+        "type_text": "Talento",
+        "effect": "SingleAttack",
+        "effect_text": "ATQ individual",
+        "simple_desc": "Invoca a Conti al principio de la batalla. Cuando Conti realiza una acción, lanza un ataque adicional a un enemigo afectado por Certificado de deuda. Cuando un enemigo afectado por Certificado de deuda recibe un ataque adicional, la acción de Conti se adelanta.",
+        "desc": "Invoca a Conti al principio de la batalla. Conti tiene #1[i] pts. de VEL por defecto. Al realizar una acción, Conti lanza un ataque adicional e inflige un #2[i]% del ATQ de Topaz como Daño de Fuego a un enemigo afectado por Certificado de deuda.\nCuando el enemigo afectado por Certificado de deuda recibe un ataque adicional de un aliado, la acción de Conti se adelanta un #3[i]%. El efecto de adelanto de la acción no se puede activar durante el turno de Conti.\nCuando Topaz es derrotada, Conti desaparece.",
+        "params": [
+            [
+                80,
+                0.75,
+                0.5
+            ],
+            [
+                80,
+                0.825,
+                0.5
+            ],
+            [
+                80,
+                0.9,
+                0.5
+            ],
+            [
+                80,
+                0.975,
+                0.5
+            ],
+            [
+                80,
+                1.05,
+                0.5
+            ],
+            [
+                80,
+                1.125,
+                0.5
+            ],
+            [
+                80,
+                1.2188,
+                0.5
+            ],
+            [
+                80,
+                1.3125,
+                0.5
+            ],
+            [
+                80,
+                1.4063,
+                0.5
+            ],
+            [
+                80,
+                1.5,
+                0.5
+            ],
+            [
+                80,
+                1.575,
+                0.5
+            ],
+            [
+                80,
+                1.65,
+                0.5
+            ],
+            [
+                80,
+                1.725,
+                0.5
+            ],
+            [
+                80,
+                1.8,
+                0.5
+            ],
+            [
+                80,
+                1.875,
+                0.5
+            ]
+        ],
+        "icon": "icon/skill/1112_talent.png"
+    },
+    "111206": {
+        "id": "111206",
+        "name": "Ataque",
+        "max_level": 1,
+        "element": "Fire",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Ataca a un enemigo y, tras entrar en combate, consume la Firmeza del tipo correspondiente del enemigo.",
+        "params": [],
+        "icon": "icon/skill/1112_basic_atk.png"
+    },
+    "111207": {
+        "id": "111207",
+        "name": "Subsidio explícito",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Técnica",
+        "effect": "Enhance",
+        "effect_text": "Potenciación",
+        "simple_desc": "Invoca a Conti en el mapa para que la siga. Conti busca automáticamente los tesoros normales y Chanchitos de los alrededores. Al usar la técnica, Topaz recupera energía después del primer ataque de Conti en la siguiente batalla.",
+        "desc": "Topaz invoca a Conti al entrar en el mapa. Conti busca automáticamente los tesoros normales y Chanchitos que haya en un área determinada.\nUsar la técnica de forma proactiva hace que, después de que Conti lance su primer ataque en la siguiente batalla, Topaz recupere #1[i] pts. de energía.\nTras usar la técnica de forma proactiva y ganar una batalla contra los monstruos del mapa, si Topaz sigue en el equipo, se obtiene una pequeña cantidad adicional de créditos al conseguir créditos. Solo se pueden obtener #2[i] créditos adicionales cada día natural.\nTras usar la técnica de forma proactiva y ganar una batalla contra los enemigos en el Universo Simulado, se obtiene una pequeña cantidad de fragmentos cósmicos y hay una pequeña probabilidad de obtener 1 objeto raro al azar.",
+        "params": [
+            [
+                60,
+                10000
+            ]
+        ],
+        "icon": "icon/skill/1112_technique.png"
     },
     "120101": {
         "id": "120101",
@@ -7438,7 +7783,7 @@
         "type_text": "Habilidad básica",
         "effect": "Support",
         "effect_text": "Apoyo",
-        "simple_desc": "Aumenta el ATQ de un aliado y le otorga una Gracia.",
+        "simple_desc": "Aumenta el ATQ de un aliado y le otorga una Gracia. En este estado, el aliado inflige una pequeña cantidad de Daño de Rayo adicional al lanzar un ataque.",
         "desc": "Otorga una Gracia a un aliado y aumenta el ATQ de ese aliado en un #2[i]% (sin superar el #4[i]% del ATQ actual de Tingyun).\nCuando el aliado que ha recibido la Gracia lanza un ataque, inflige un Daño de Rayo adicional equivalente al #1[i]% de su ATQ.\nLa Gracia dura #3[i] turnos y solo tiene efecto en el último aliado que haya sido objetivo de la habilidad básica de Tingyun.",
         "params": [
             [
@@ -7633,7 +7978,7 @@
         "type_text": "Talento",
         "effect": "Enhance",
         "effect_text": "Potenciación",
-        "simple_desc": "",
+        "simple_desc": "Cuando un enemigo recibe un ataque de Tingyun, el aliado que tiene la Gracia le inflige inmediatamente una pequeña cantidad de Daño de Rayo adicional.",
         "desc": "Cuando un enemigo recibe un ataque de Tingyun, el aliado que tiene la Gracia le inflige inmediatamente un #1[i]% de su ATQ como Daño de Rayo adicional.",
         "params": [
             [
@@ -7707,7 +8052,7 @@
         "type_text": "Técnica",
         "effect": "Support",
         "effect_text": "Apoyo",
-        "simple_desc": "",
+        "simple_desc": "Tras usar la técnica, recupera energía.",
         "desc": "Tras usar la técnica, Tingyun recupera #1[i] pts. de energía.",
         "params": [
             [
@@ -8994,7 +9339,7 @@
         "type_text": "Habilidad básica",
         "effect": "SingleAttack",
         "effect_text": "ATQ individual",
-        "simple_desc": "Inflige Daño Físico a un enemigo y tiene una pequeña probabilidad de activar Postura espadachina (que será del 100% si el objetivo está en Ruptura de Debilidad).",
+        "simple_desc": "Inflige Daño Físico a un enemigo y tiene una pequeña probabilidad de activar Postura espadachina. Si el objetivo está afectado por Ruptura de Debilidad, la activación de Postura espadachina estará garantizada.",
         "desc": "Inflige un #1[i]% del ATQ de Sushang como Daño Físico a un enemigo. Además, hay una probabilidad del #3[i]% de activar Postura espadachina tras el último golpe e infligir al objetivo un Daño Físico adicional equivalente al #2[i]% del ATQ de Sushang.\nSi el objetivo está afectado por Ruptura de Debilidad, la activación de Postura espadachina estará garantizada.",
         "params": [
             [
@@ -9849,8 +10194,8 @@
         "type_text": "Talento",
         "effect": "Restore",
         "effect_text": "Regeneración",
-        "simple_desc": "Mientras Fu Xuan no haya sido derrotada, el daño que reciben todos los aliados se reduce.\nCuando tiene pocos PV, regenera sus propios PV automáticamente según el porcentaje de PV que le falte en ese momento. Este efecto puede tener un máximo de 2 intentos de activación.",
-        "desc": "Mientras Fu Xuan no haya sido derrotada, todos los aliados obtienen Escape del infortunio. En este estado, el daño que reciben todos los aliados se reduce en un #1[f1]%.\nFu Xuan regenera sus PV cuando tiene un porcentaje de PV inferior o igual al #2[i]%. Este efecto regenera un #3[i]% de los PV que le falten en ese momento, y no puede activarse cuando recibe un golpe letal. Al inicio, este efecto cuenta con 1 intento de activación, y se pueden tener un máximo de 2 intentos.",
+        "simple_desc": "Mientras Fu Xuan no haya sido derrotada, el daño que reciben todos los aliados se reduce.\nCuando tiene pocos PV, regenera sus propios PV automáticamente según el porcentaje de PV que le falte en ese momento. Este efecto puede tener un máximo de 2 activaciones.",
+        "desc": "Mientras Fu Xuan no haya sido derrotada, todos los aliados obtienen Escape del infortunio. En este estado, el daño que reciben todos los aliados se reduce en un #1[f1]%.\nFu Xuan regenera sus PV cuando tiene un porcentaje de PV inferior o igual al #2[i]%. Este efecto regenera un #3[i]% de los PV que le falten en ese momento, y no puede activarse cuando recibe un golpe letal. Al inicio, este efecto cuenta con 1 activación, y se pueden tener un máximo de 2 activaciones.",
         "params": [
             [
                 0.1,
@@ -10324,6 +10669,412 @@
         ],
         "icon": "icon/skill/1209_technique.png"
     },
+    "121001": {
+        "id": "121001",
+        "name": "Gran ovación",
+        "max_level": 9,
+        "element": "Fire",
+        "type": "Normal",
+        "type_text": "ATQ básico",
+        "effect": "SingleAttack",
+        "effect_text": "ATQ individual",
+        "simple_desc": "Inflige una pequeña cantidad de Daño de Fuego a un enemigo.",
+        "desc": "Inflige un #1[i]% del ATQ de Guinaifen como Daño de Fuego a un enemigo.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1210_basic_atk.png"
+    },
+    "121002": {
+        "id": "121002",
+        "name": "Calurosa bienvenida",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "BPSkill",
+        "type_text": "Habilidad básica",
+        "effect": "Blast",
+        "effect_text": "Ráfaga",
+        "simple_desc": "Inflige Daño de Fuego a un enemigo y una pequeña cantidad de Daño de Fuego a los enemigos adyacentes. Gran probabilidad de causar Quemadura.",
+        "desc": "Inflige un #1[i]% del ATQ de Guinaifen como Daño de Fuego a un enemigo e inflige un #2[i]% del ATQ de Guinaifen como Daño de Fuego a los enemigos adyacentes. Tiene una probabilidad base del #3[i]% de afectar con Quemadura al objetivo y a los enemigos adyacentes. Los enemigos afectados por Quemadura reciben al principio de cada turno un #4[i]% del ATQ de Guinaifen como Daño de Fuego con el tiempo durante #5[i] turnos.",
+        "params": [
+            [
+                0.6,
+                0.2,
+                1,
+                0.839,
+                2
+            ],
+            [
+                0.66,
+                0.22,
+                1,
+                0.923,
+                2
+            ],
+            [
+                0.72,
+                0.24,
+                1,
+                1.0069,
+                2
+            ],
+            [
+                0.78,
+                0.26,
+                1,
+                1.0909,
+                2
+            ],
+            [
+                0.84,
+                0.28,
+                1,
+                1.1748,
+                2
+            ],
+            [
+                0.9,
+                0.3,
+                1,
+                1.3007,
+                2
+            ],
+            [
+                0.975,
+                0.325,
+                1,
+                1.4686,
+                2
+            ],
+            [
+                1.05,
+                0.35,
+                1,
+                1.6784,
+                2
+            ],
+            [
+                1.125,
+                0.375,
+                1,
+                1.9303,
+                2
+            ],
+            [
+                1.2,
+                0.4,
+                1,
+                2.1821,
+                2
+            ],
+            [
+                1.26,
+                0.42,
+                1,
+                2.2912,
+                2
+            ],
+            [
+                1.32,
+                0.44,
+                1,
+                2.4003,
+                2
+            ],
+            [
+                1.38,
+                0.46,
+                1,
+                2.5094,
+                2
+            ],
+            [
+                1.44,
+                0.48,
+                1,
+                2.6186,
+                2
+            ],
+            [
+                1.5,
+                0.5,
+                1,
+                2.7277,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1210_skill.png"
+    },
+    "121003": {
+        "id": "121003",
+        "name": "Espectáculo de primera",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "Ultra",
+        "type_text": "Habilidad definitiva",
+        "effect": "AoEAttack",
+        "effect_text": "ATQ AdE",
+        "simple_desc": "Inflige Daño de Fuego a todos los enemigos. Si los objetivos están afectados por Quemadura, este estado inflige daño 1 vez adicional.",
+        "desc": "Inflige un #1[f1]% del ATQ de Guinaifen como Daño de Fuego a todos los enemigos. Si los objetivos están afectados por Quemadura, el estado actual de Quemadura inflige inmediatamente un daño equivalente al #2[i]% de su daño original.",
+        "params": [
+            [
+                0.72,
+                0.72
+            ],
+            [
+                0.768,
+                0.74
+            ],
+            [
+                0.816,
+                0.76
+            ],
+            [
+                0.864,
+                0.78
+            ],
+            [
+                0.912,
+                0.8
+            ],
+            [
+                0.96,
+                0.82
+            ],
+            [
+                1.02,
+                0.845
+            ],
+            [
+                1.08,
+                0.87
+            ],
+            [
+                1.14,
+                0.895
+            ],
+            [
+                1.2,
+                0.92
+            ],
+            [
+                1.248,
+                0.94
+            ],
+            [
+                1.296,
+                0.96
+            ],
+            [
+                1.344,
+                0.98
+            ],
+            [
+                1.392,
+                1
+            ],
+            [
+                1.44,
+                1.02
+            ]
+        ],
+        "icon": "icon/skill/1210_ultimate.png"
+    },
+    "121004": {
+        "id": "121004",
+        "name": "Beneficios del mecenas",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "Talent",
+        "type_text": "Talento",
+        "effect": "Impair",
+        "effect_text": "Alteración",
+        "simple_desc": "Después de que el estado de Quemadura inflija daño a un enemigo, hay una gran probabilidad de afectarlo con Beso ardiente.",
+        "desc": "Cuando Guinaifen está en el campo de batalla, hay una probabilidad base del #1[i]% de afectar con Beso ardiente al enemigo después de que reciba daño de Quemadura. En el estado de Beso ardiente, el daño que recibe el enemigo aumenta en un #4[f1]% durante #5[i] turnos. Se puede acumular hasta #6[i] veces.",
+        "params": [
+            [
+                1,
+                0,
+                0,
+                0.04,
+                3,
+                3
+            ],
+            [
+                1,
+                0,
+                0,
+                0.043,
+                3,
+                3
+            ],
+            [
+                1,
+                0,
+                0,
+                0.046,
+                3,
+                3
+            ],
+            [
+                1,
+                0,
+                0,
+                0.049,
+                3,
+                3
+            ],
+            [
+                1,
+                0,
+                0,
+                0.052,
+                3,
+                3
+            ],
+            [
+                1,
+                0,
+                0,
+                0.055,
+                3,
+                3
+            ],
+            [
+                1,
+                0,
+                0,
+                0.0588,
+                3,
+                3
+            ],
+            [
+                1,
+                0,
+                0,
+                0.0625,
+                3,
+                3
+            ],
+            [
+                1,
+                0,
+                0,
+                0.0663,
+                3,
+                3
+            ],
+            [
+                1,
+                0,
+                0,
+                0.07,
+                3,
+                3
+            ],
+            [
+                1,
+                0,
+                0,
+                0.073,
+                3,
+                3
+            ],
+            [
+                1,
+                0,
+                0,
+                0.076,
+                3,
+                3
+            ],
+            [
+                1,
+                0,
+                0,
+                0.079,
+                3,
+                3
+            ],
+            [
+                1,
+                0,
+                0,
+                0.082,
+                3,
+                3
+            ],
+            [
+                1,
+                0,
+                0,
+                0.085,
+                3,
+                3
+            ]
+        ],
+        "icon": "icon/skill/1210_talent.png"
+    },
+    "121006": {
+        "id": "121006",
+        "name": "Ataque",
+        "max_level": 1,
+        "element": "Fire",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Ataca a un enemigo y, tras entrar en combate, consume la Firmeza del tipo correspondiente del enemigo.",
+        "params": [],
+        "icon": "icon/skill/1210_basic_atk.png"
+    },
+    "121007": {
+        "id": "121007",
+        "name": "Demostración de habilidades",
+        "max_level": 1,
+        "element": "Fire",
+        "type": "Maze",
+        "type_text": "Técnica",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "Tras atacar a un enemigo y entrar en combate, inflige una pequeña cantidad de Daño de Fuego a un enemigo y le aplica Beso ardiente. Rebota 4 veces en total.",
+        "desc": "Ataca inmediatamente al enemigo y entra en combate. Inflige daño #2[i] veces y cada vez inflige un #1[i]% del ATQ de Guinaifen como Daño de Fuego a un enemigo al azar. Además, tiene una probabilidad base del #3[i]% de afectar con Beso ardiente al objetivo.",
+        "params": [
+            [
+                0.5,
+                4,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1210_technique.png"
+    },
     "121101": {
         "id": "121101",
         "name": "Patada diagnóstica",
@@ -10713,6 +11464,505 @@
         ],
         "icon": "icon/skill/1211_technique.png"
     },
+    "121201": {
+        "id": "121201",
+        "name": "Brillo resplandeciente",
+        "max_level": 9,
+        "element": "Ice",
+        "type": "Normal",
+        "type_text": "ATQ básico",
+        "effect": "SingleAttack",
+        "effect_text": "ATQ individual",
+        "simple_desc": "Inflige una pequeña cantidad de Daño de Hielo a un enemigo.",
+        "desc": "Inflige un #1[i]% del ATQ de Jingliu como Daño de Hielo a un enemigo.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1212_basic_atk.png"
+    },
+    "121202": {
+        "id": "121202",
+        "name": "Destello trascendental",
+        "max_level": 15,
+        "element": "Ice",
+        "type": "BPSkill",
+        "type_text": "Habilidad básica",
+        "effect": "SingleAttack",
+        "effect_text": "ATQ individual",
+        "simple_desc": "Inflige Daño de Hielo a un enemigo y obtiene 1 acumulación de Sizigia.",
+        "desc": "Inflige un #1[i]% del ATQ de Jingliu como Daño de Hielo a un enemigo y obtiene #2[i] acumulación de Sizigia.",
+        "params": [
+            [
+                1,
+                1
+            ],
+            [
+                1.1,
+                1
+            ],
+            [
+                1.2,
+                1
+            ],
+            [
+                1.3,
+                1
+            ],
+            [
+                1.4,
+                1
+            ],
+            [
+                1.5,
+                1
+            ],
+            [
+                1.625,
+                1
+            ],
+            [
+                1.75,
+                1
+            ],
+            [
+                1.875,
+                1
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2.1,
+                1
+            ],
+            [
+                2.2,
+                1
+            ],
+            [
+                2.3,
+                1
+            ],
+            [
+                2.4,
+                1
+            ],
+            [
+                2.5,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1212_skill.png"
+    },
+    "121203": {
+        "id": "121203",
+        "name": "Sueño de flores efímeras",
+        "max_level": 15,
+        "element": "Ice",
+        "type": "Ultra",
+        "type_text": "Habilidad definitiva",
+        "effect": "Blast",
+        "effect_text": "Ráfaga",
+        "simple_desc": "Inflige una gran cantidad de Daño de Hielo a un enemigo y Daño de Hielo a los enemigos adyacentes. Además, obtiene 1 acumulación de Sizigia.",
+        "desc": "Inflige un #1[i]% del ATQ de Jingliu como Daño de Hielo a un enemigo y un #3[i]% del ATQ de Jingliu como Daño de Hielo a los enemigos adyacentes. Cuando termina el ataque, obtiene #2[i] acumulación de Sizigia.",
+        "params": [
+            [
+                1.8,
+                1,
+                0.9,
+                1
+            ],
+            [
+                1.92,
+                1,
+                0.96,
+                1
+            ],
+            [
+                2.04,
+                1,
+                1.02,
+                1
+            ],
+            [
+                2.16,
+                1,
+                1.08,
+                1
+            ],
+            [
+                2.28,
+                1,
+                1.14,
+                1
+            ],
+            [
+                2.4,
+                1,
+                1.2,
+                1
+            ],
+            [
+                2.55,
+                1,
+                1.275,
+                1
+            ],
+            [
+                2.7,
+                1,
+                1.35,
+                1
+            ],
+            [
+                2.85,
+                1,
+                1.425,
+                1
+            ],
+            [
+                3,
+                1,
+                1.5,
+                1
+            ],
+            [
+                3.12,
+                1,
+                1.56,
+                1
+            ],
+            [
+                3.24,
+                1,
+                1.62,
+                1
+            ],
+            [
+                3.36,
+                1,
+                1.68,
+                1
+            ],
+            [
+                3.48,
+                1,
+                1.74,
+                1
+            ],
+            [
+                3.6,
+                1,
+                1.8,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1212_ultimate.png"
+    },
+    "121204": {
+        "id": "121204",
+        "name": "Transmigración creciente",
+        "max_level": 15,
+        "element": "Ice",
+        "type": "Talent",
+        "type_text": "Talento",
+        "effect": "Enhance",
+        "effect_text": "Potenciación",
+        "simple_desc": "Cuando tiene #5[i] acumulaciones de Sizigia, entra en el estado Transmigración espectral, su acción se adelanta un 100%, su Prob. CRIT aumenta y potencia su habilidad básica. Al lanzar un ataque, consume PV de los aliados y aumenta el ATQ de Jingliu según la cantidad consumida. Cuando no quedan acumulaciones de Sizigia, sale del estado de Transmigración espectral.",
+        "desc": "Cuando Jingliu tiene #5[i] acumulaciones de Sizigia, entra en el estado de Transmigración espectral, su acción se adelanta un #6[i]% y su Prob. CRIT aumenta en un #7[i]%. Después, la habilidad básica Destello trascendental se potencia y se convierte en Reflejo helado de la luna (solo puede usar esta habilidad básica). Al lanzar un ataque en el estado de Transmigración espectral, consume un #2[i]% de los PV máx. de los aliados (como máximo, consume PV hasta que a cada aliado solo le quede 1). El ATQ de Jingliu aumenta en un #3[i]% de la cantidad total de PV consumidos a todos los aliados, hasta un máximo del #4[i]% del ATQ base de Jingliu. Dura hasta que termine el ataque actual. No puede volver a entrar en el estado de Transmigración espectral antes de que este acabe. Sizigia se puede acumular hasta 3 veces. Cuando no quedan acumulaciones de Sizigia, sale del estado de Transmigración espectral.",
+        "params": [
+            [
+                0.3,
+                0.04,
+                5.4,
+                0.9,
+                2,
+                1,
+                0.4
+            ],
+            [
+                0.3,
+                0.04,
+                5.4,
+                0.99,
+                2,
+                1,
+                0.41
+            ],
+            [
+                0.3,
+                0.04,
+                5.4,
+                1.08,
+                2,
+                1,
+                0.42
+            ],
+            [
+                0.3,
+                0.04,
+                5.4,
+                1.17,
+                2,
+                1,
+                0.43
+            ],
+            [
+                0.3,
+                0.04,
+                5.4,
+                1.26,
+                2,
+                1,
+                0.44
+            ],
+            [
+                0.3,
+                0.04,
+                5.4,
+                1.35,
+                2,
+                1,
+                0.45
+            ],
+            [
+                0.3,
+                0.04,
+                5.4,
+                1.4625,
+                2,
+                1,
+                0.4625
+            ],
+            [
+                0.3,
+                0.04,
+                5.4,
+                1.575,
+                2,
+                1,
+                0.475
+            ],
+            [
+                0.3,
+                0.04,
+                5.4,
+                1.6875,
+                2,
+                1,
+                0.4875
+            ],
+            [
+                0.3,
+                0.04,
+                5.4,
+                1.8,
+                2,
+                1,
+                0.5
+            ],
+            [
+                0.3,
+                0.04,
+                5.4,
+                1.89,
+                2,
+                1,
+                0.51
+            ],
+            [
+                0.3,
+                0.04,
+                5.4,
+                1.98,
+                2,
+                1,
+                0.52
+            ],
+            [
+                0.3,
+                0.04,
+                5.4,
+                2.07,
+                2,
+                1,
+                0.53
+            ],
+            [
+                0.3,
+                0.04,
+                5.4,
+                2.16,
+                2,
+                1,
+                0.54
+            ],
+            [
+                0.3,
+                0.04,
+                5.4,
+                2.25,
+                2,
+                1,
+                0.55
+            ]
+        ],
+        "icon": "icon/skill/1212_talent.png"
+    },
+    "121206": {
+        "id": "121206",
+        "name": "Ataque",
+        "max_level": 1,
+        "element": "Ice",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Ataca a un enemigo y, tras entrar en combate, consume la Firmeza del tipo correspondiente del enemigo.",
+        "params": [],
+        "icon": "icon/skill/1212_basic_atk.png"
+    },
+    "121207": {
+        "id": "121207",
+        "name": "Resplandor de la verdad",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Técnica",
+        "effect": "Impair",
+        "effect_text": "Alteración",
+        "simple_desc": "Crea una zona especial a su alrededor. Los enemigos que estén en la zona se congelan. Al entrar en combate con los enemigos dentro de la zona, recupera energía, obtiene 1 acumulación de Sizigia y tiene una gran probabilidad de congelar a los enemigos.",
+        "desc": "Tras usar la técnica, crea una zona especial a su alrededor que dura #3[i] segundos. Los enemigos que estén en la zona especial son afectados con Congelación. Al entrar en combate con los enemigos dentro de la zona, recupera #6[i] pts. de energía, obtiene #1[i] acumulación de Sizigia y tiene una probabilidad base del #2[i]% de congelar a los enemigos durante #4[i] turno. Los enemigos congelados no se pueden mover y al principio de cada turno reciben un Daño de Hielo adicional equivalente al #5[i]% del ATQ de Jingliu. Solo puede haber una zona especial creada por los aliados a la vez.",
+        "params": [
+            [
+                1,
+                1,
+                20,
+                1,
+                0.8,
+                15
+            ]
+        ],
+        "icon": "icon/skill/1212_technique.png"
+    },
+    "121209": {
+        "id": "121209",
+        "name": "Reflejo helado de la luna",
+        "max_level": 15,
+        "element": "Ice",
+        "type": "BPSkill",
+        "type_text": "Habilidad básica",
+        "effect": "Blast",
+        "effect_text": "Ráfaga",
+        "simple_desc": "Inflige Daño de Hielo a un enemigo y a los enemigos adyacentes. Consume 1 acumulación de Sizigia.",
+        "desc": "Inflige un #1[i]% del ATQ de Jingliu como Daño de Hielo a un enemigo y un #3[i]% del ATQ de Jingliu como Daño de Hielo a los enemigos adyacentes. Consume #2[i] acumulación de Sizigia. Esta habilidad no consume pts. de habilidad básica.",
+        "params": [
+            [
+                1.25,
+                1,
+                0.625
+            ],
+            [
+                1.375,
+                1,
+                0.6875
+            ],
+            [
+                1.5,
+                1,
+                0.75
+            ],
+            [
+                1.625,
+                1,
+                0.8125
+            ],
+            [
+                1.75,
+                1,
+                0.875
+            ],
+            [
+                1.875,
+                1,
+                0.9375
+            ],
+            [
+                2.0313,
+                1,
+                1.0156
+            ],
+            [
+                2.1875,
+                1,
+                1.0938
+            ],
+            [
+                2.3438,
+                1,
+                1.1719
+            ],
+            [
+                2.5,
+                1,
+                1.25
+            ],
+            [
+                2.625,
+                1,
+                1.3125
+            ],
+            [
+                2.75,
+                1,
+                1.375
+            ],
+            [
+                2.875,
+                1,
+                1.4375
+            ],
+            [
+                3,
+                1,
+                1.5
+            ],
+            [
+                3.125,
+                1,
+                1.5625
+            ]
+        ],
+        "icon": "icon/skill/1212_skill.png"
+    },
     "121301": {
         "id": "121301",
         "name": "Loto benéfico",
@@ -11082,24 +12332,6 @@
             ],
             [
                 3.38
-            ],
-            [
-                1.3
-            ],
-            [
-                1.3
-            ],
-            [
-                1.3
-            ],
-            [
-                1.3
-            ],
-            [
-                1.3
-            ],
-            [
-                1.3
             ]
         ],
         "icon": "icon/skill/1213_basic_atk.png"
@@ -11130,30 +12362,6 @@
         "simple_desc": "Lanza un ataque de 5 golpes e inflige una gran cantidad de Daño Imaginario a un enemigo y una pequeña cantidad de Daño Imaginario a los enemigos adyacentes. Los 2 últimos golpes obtienen 1 acumulación de Rugido dominante cada uno antes de lanzarse, lo que aumenta su Daño CRIT.",
         "desc": "Dan Heng - Imbibitor Lunae lanza un ataque de 5 golpes que inflige un #1[i]% de su ATQ como Daño Imaginario a un enemigo. A partir del 4.º golpe también inflige un #2[i]% de su ATQ como Daño Imaginario a los enemigos adyacentes.",
         "params": [
-            [
-                1.9,
-                0.3
-            ],
-            [
-                1.9,
-                0.3
-            ],
-            [
-                1.9,
-                0.3
-            ],
-            [
-                1.9,
-                0.3
-            ],
-            [
-                1.9,
-                0.3
-            ],
-            [
-                1.9,
-                0.3
-            ],
             [
                 1.9,
                 0.3
@@ -11205,30 +12413,6 @@
         "simple_desc": "Lanza un ataque de 7 golpes e inflige una gran cantidad de Daño Imaginario a un enemigo y Daño Imaginario a los enemigos adyacentes. Los 4 últimos golpes obtienen 1 acumulación de Rugido dominante cada uno antes de lanzarse, lo que aumenta su Daño CRIT.",
         "desc": "Dan Heng - Imbibitor Lunae lanza un ataque de 7 golpes que inflige un #1[i]% de su ATQ como Daño Imaginario a un enemigo. A partir del 4.º golpe también inflige un #2[i]% de su ATQ como Daño Imaginario a los enemigos adyacentes.",
         "params": [
-            [
-                2.5,
-                0.9
-            ],
-            [
-                2.5,
-                0.9
-            ],
-            [
-                2.5,
-                0.9
-            ],
-            [
-                2.5,
-                0.9
-            ],
-            [
-                2.5,
-                0.9
-            ],
-            [
-                2.5,
-                0.9
-            ],
             [
                 2.5,
                 0.9

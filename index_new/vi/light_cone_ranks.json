@@ -1566,7 +1566,7 @@
     },
     "21019": {
         "id": "21019",
-        "skill": "Ngọn Lúa Dưới Ánh",
+        "skill": "Ngọn Lúa Dưới Ánh Mặt Trời",
         "desc": "Khiến Tấn Công của người trang bị tăng #1[i]%, sau khi người trang bị tiêu diệt kẻ địch, Tỷ Lệ Bạo Kích tăng #2[i]%, duy trì #3[i] hiệp.",
         "params": [
             [
@@ -3388,6 +3388,75 @@
             ]
         ]
     },
+    "23014": {
+        "id": "23014",
+        "skill": "Giữ Lấy Ngọc Này",
+        "desc": "Tăng #1[i]% Sát Thương Bạo Kích của người trang bị. Sau khi đồng đội bị tấn công hoặc tiêu hao HP, người trang bị sẽ nhận 1 tầng Nguyệt Thực, tối đa cộng dồn #2[i] tầng. Mỗi tầng Nguyệt Thực khiến sát thương gây ra ở lần tấn công kế tiếp của người trang bị tăng #3[f1]%. Khi cộng dồn đủ #2[i] tầng sẽ khiến lần tấn công này bỏ qua #4[i]% phòng thủ của mục tiêu. Hiệu ứng này sẽ bị giải trừ sau khi người trang bị thi triển tấn công.",
+        "params": [
+            [
+                0.2,
+                3,
+                0.14,
+                0.12
+            ],
+            [
+                0.23,
+                3,
+                0.165,
+                0.14
+            ],
+            [
+                0.26,
+                3,
+                0.19,
+                0.16
+            ],
+            [
+                0.29,
+                3,
+                0.215,
+                0.18
+            ],
+            [
+                0.32,
+                3,
+                0.24,
+                0.2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.2
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.23
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.26
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.29
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.32
+                }
+            ]
+        ]
+    },
     "23015": {
         "id": "23015",
         "skill": "Liều Mình",
@@ -3427,6 +3496,75 @@
                 2,
                 0.3,
                 0.1
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.18
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.21
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.24
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.27
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.3
+                }
+            ]
+        ]
+    },
+    "23016": {
+        "id": "23016",
+        "skill": "Từng Người Một",
+        "desc": "Tăng #1[i]% Tỷ Lệ Bạo Kích của người trang bị, tăng #2[i]% sát thương do Đòn Đánh Theo Sau gây ra. Sau khi người trang bị thi triển Đòn Đánh Theo Sau, khiến mục tiêu rơi vào trạng thái Ôn Hòa, hiệu ứng này tối đa cộng dồn #4[i] tầng. Khi mục tiêu phe ta đánh trúng kẻ địch ở trạng thái Ôn Hòa, mỗi tầng Ôn Hòa sẽ tăng #3[i]% Sát Thương Bạo Kích gây ra.",
+        "params": [
+            [
+                0.18,
+                0.3,
+                0.12,
+                2
+            ],
+            [
+                0.21,
+                0.35,
+                0.14,
+                2
+            ],
+            [
+                0.24,
+                0.4,
+                0.16,
+                2
+            ],
+            [
+                0.27,
+                0.45,
+                0.18,
+                2
+            ],
+            [
+                0.3,
+                0.5,
+                0.2,
+                2
             ]
         ],
         "properties": [
@@ -3657,7 +3795,7 @@
     "24003": {
         "id": "24003",
         "skill": "Linh Dược Hỗn Độn",
-        "desc": "Tăng #1[i]% Tấn Công Kích Phá của người trang bị. Khi người trang bị thi triển Tuyệt Kỹ, sẽ khiến Sát Thương Duy Trì của người trang bị gây ra tăng #2[i]%, duy trì #3[i] hiệp. Khi kẻ địch rơi vào hiệu ứng Sát Thương Duy Trì mà người trang bị thi triển bị tiêu diệt, người trang bị sẽ hồi #4[i] điểm Năng Lượng.",
+        "desc": "Tăng #1[i]% Tấn Công Kích Phá của người trang bị. Khi người trang bị thi triển Tuyệt Kỹ, sẽ khiến Sát Thương Duy Trì của người trang bị gây ra tăng #2[i]%, duy trì #3[i] hiệp. Khi kẻ địch rơi vào hiệu ứng Sát Thương Duy Trì mà người trang bị thi triển bị tiêu diệt, người trang bị sẽ hồi #4[f1] điểm Năng Lượng.",
         "params": [
             [
                 0.2,
