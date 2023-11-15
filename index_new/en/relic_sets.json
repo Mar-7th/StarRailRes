@@ -270,6 +270,39 @@
         "icon": "icon/relic/114.png",
         "guide_overview": []
     },
+    "115": {
+        "id": "115",
+        "name": "The Ashblazing Grand Duke",
+        "desc": [
+            "Increases follow-up attack DMG dealt by 20%.",
+            "When the wearer uses follow-up attacks, increases the wearer's ATK by 6% every time the follow-up attack deals DMG. This effect can stack up to 8 time(s) and lasts for 3 turn(s). This effect is removed the next time the wearer uses a follow-up attack."
+        ],
+        "properties": [
+            [],
+            []
+        ],
+        "icon": "icon/relic/115.png",
+        "guide_overview": []
+    },
+    "116": {
+        "id": "116",
+        "name": "Prisoner in Deep Confinement",
+        "desc": [
+            "ATK increases by 12%.",
+            "For every DoT the target enemy is afflicted with, the wearer will ignore 6% of its DEF when dealing DMG to it. This effect is valid for a max of 3 DoTs."
+        ],
+        "properties": [
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.12
+                }
+            ],
+            []
+        ],
+        "icon": "icon/relic/116.png",
+        "guide_overview": []
+    },
     "301": {
         "id": "301",
         "name": "Space Sealing Station",
@@ -448,6 +481,42 @@
             ]
         ],
         "icon": "icon/relic/310.png",
+        "guide_overview": []
+    },
+    "311": {
+        "id": "311",
+        "name": "Firmament Frontline: Glamoth",
+        "desc": [
+            "Increases the wearer's ATK by 12%. When the wearer's SPD is equal to or higher than 135/160, the wearer deals 12%/18% more DMG.",
+            ""
+        ],
+        "properties": [
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.12
+                }
+            ]
+        ],
+        "icon": "icon/relic/311.png",
+        "guide_overview": []
+    },
+    "312": {
+        "id": "312",
+        "name": "Penacony, Land of the Dreams",
+        "desc": [
+            "Increases wearer's Energy Regeneration Rate by 5%. Increases DMG by 10% for all other allies that are of the same Type as the wearer.",
+            ""
+        ],
+        "properties": [
+            [
+                {
+                    "type": "SPRatioBase",
+                    "value": 0.05
+                }
+            ]
+        ],
+        "icon": "icon/relic/312.png",
         "guide_overview": []
     }
 }

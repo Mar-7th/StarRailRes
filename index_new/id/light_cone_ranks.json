@@ -1024,7 +1024,7 @@
     "21007": {
         "id": "21007",
         "skill": "Cure and Repair",
-        "desc": "Meningkatkan #1[i]% Outgoing Healing pengguna. Saat melancarkan Skill akan memulihkan #2[i] Energy seluruh rekan tim.",
+        "desc": "Meningkatkan #1[i]% Outgoing Healing pengguna. Saat melancarkan Skill akan memulihkan #2[f1] Energy seluruh rekan tim.",
         "params": [
             [
                 0.1,
@@ -2412,6 +2412,70 @@
             ]
         ]
     },
+    "22001": {
+        "id": "22001",
+        "skill": "I'm Not Afraid!",
+        "desc": "Meningkatkan #1[i]% Max HP pengguna. Saat pengguna melancarkan Skill, Outgoing Healing meningkat #2[i]%, berlangsung selama #3[i] giliran.",
+        "params": [
+            [
+                0.08,
+                0.16,
+                2
+            ],
+            [
+                0.09,
+                0.19,
+                2
+            ],
+            [
+                0.1,
+                0.22,
+                2
+            ],
+            [
+                0.11,
+                0.25,
+                2
+            ],
+            [
+                0.12,
+                0.28,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.08
+                }
+            ],
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.09
+                }
+            ],
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.1
+                }
+            ],
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.11
+                }
+            ],
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.12
+                }
+            ]
+        ]
+    },
     "23000": {
         "id": "23000",
         "skill": "Meteor Swarm",
@@ -3391,7 +3455,7 @@
     "23014": {
         "id": "23014",
         "skill": "With This Evening Jade",
-        "desc": "Meningkatkan #1[i]% CRIT DMG pengguna. Saat rekan tim terkena serangan atau mengonsumsi HP, pengguna akan memperoleh 1 lapis \"Eclipse\", dapat ditumpuk hingga #2[i] lapis. Setiap lapis \"Eclipse\" akan meningkatkan #3[f1]% DMG yang diakibatkan dari serangan pengguna yang berikutnya. Saat mencapai #2[i] lapis, akan mengakibatkan serangan kali ini untuk mengabaikan #4[i]% DEF target. Efek ini akan dihapus setelah pengguna melancarkan serangan.",
+        "desc": "Meningkatkan #1[i]% CRIT DMG pengguna. Saat rekan tim (selain pengguna) terkena serangan atau kehilangan HP, pengguna akan memperoleh 1 lapis \"Eclipse\", dapat ditumpuk hingga #2[i] lapis. Setiap lapis \"Eclipse\" akan meningkatkan #3[f1]% DMG yang diakibatkan dari serangan pengguna yang berikutnya. Saat mencapai #2[i] lapis, akan mengakibatkan serangan kali ini untuk mengabaikan #4[i]% DEF target. Efek ini akan dihapus setelah pengguna melancarkan serangan.",
         "params": [
             [
                 0.2,
@@ -3596,6 +3660,144 @@
                 {
                     "type": "CriticalChanceBase",
                     "value": 0.3
+                }
+            ]
+        ]
+    },
+    "23017": {
+        "id": "23017",
+        "skill": "Deep, Deep Breaths",
+        "desc": "Meningkatkan #1[i]% Energy Regeneration Rate pengguna. Saat rekan tim melancarkan Ultimate, pengguna akan memulihkan HP rekan tim yang persentase HP-nya saat ini paling rendah sebesar #2[i]% Max HP rekan tersebut. Saat pengguna memberikan pemulihan untuk rekan tim, ATK dari rekan tim yang dipulihkan akan meningkat #3[f1]%, efek ini dapat ditumpuk hingga #4[i] lapis dan berlangsung selama #5[i] giliran.",
+        "params": [
+            [
+                0.12,
+                0.1,
+                0.024,
+                5,
+                2
+            ],
+            [
+                0.14,
+                0.11,
+                0.028,
+                5,
+                2
+            ],
+            [
+                0.16,
+                0.12,
+                0.032,
+                5,
+                2
+            ],
+            [
+                0.18,
+                0.13,
+                0.036,
+                5,
+                2
+            ],
+            [
+                0.2,
+                0.14,
+                0.04,
+                5,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "SPRatioBase",
+                    "value": 0.12
+                }
+            ],
+            [
+                {
+                    "type": "SPRatioBase",
+                    "value": 0.14
+                }
+            ],
+            [
+                {
+                    "type": "SPRatioBase",
+                    "value": 0.16
+                }
+            ],
+            [
+                {
+                    "type": "SPRatioBase",
+                    "value": 0.18
+                }
+            ],
+            [
+                {
+                    "type": "SPRatioBase",
+                    "value": 0.2
+                }
+            ]
+        ]
+    },
+    "23018": {
+        "id": "23018",
+        "skill": "A Knight's Pilgrimage",
+        "desc": "Meningkatkan #1[i]% CRIT DMG pengguna. Saat pengguna melancarkan Ultimate, akan meningkatkan DMG yang diakibatkan Ultimate pengguna berdasarkan Max Energy pengguna. Setiap poin Energy meningkatkan #2[f2]% DMG, maksimal hingga #3[i] Energy.",
+        "params": [
+            [
+                0.36,
+                0.0036,
+                180
+            ],
+            [
+                0.42,
+                0.0042,
+                180
+            ],
+            [
+                0.48,
+                0.0048,
+                180
+            ],
+            [
+                0.54,
+                0.0054,
+                180
+            ],
+            [
+                0.6,
+                0.006,
+                180
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.36
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.42
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.48
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.54
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.6
                 }
             ]
         ]

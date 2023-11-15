@@ -1024,7 +1024,7 @@
     "21007": {
         "id": "21007",
         "skill": "Heilung und Reparatur",
-        "desc": "Erhöht die bewirkte Heilung des Trägers um #1[i]%. Stellt beim Einsatz der Fertigkeit für alle Verbündeten #2[i] Pkt. Energie wieder her.",
+        "desc": "Erhöht die bewirkte Heilung des Trägers um #1[i]%. Stellt beim Einsatz der Fertigkeit für alle Verbündeten #2[f1] Pkt. Energie wieder her.",
         "params": [
             [
                 0.1,
@@ -2412,6 +2412,70 @@
             ]
         ]
     },
+    "22001": {
+        "id": "22001",
+        "skill": "Hab keine Angst",
+        "desc": "Erhöht die max. LP des Trägers um #1[i]%. Erhöht beim Einsatz der Fertigkeit die bewirkte Heilung für #3[i] Rd. um #2[i]%.",
+        "params": [
+            [
+                0.08,
+                0.16,
+                2
+            ],
+            [
+                0.09,
+                0.19,
+                2
+            ],
+            [
+                0.1,
+                0.22,
+                2
+            ],
+            [
+                0.11,
+                0.25,
+                2
+            ],
+            [
+                0.12,
+                0.28,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.08
+                }
+            ],
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.09
+                }
+            ],
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.1
+                }
+            ],
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.11
+                }
+            ],
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.12
+                }
+            ]
+        ]
+    },
     "23000": {
         "id": "23000",
         "skill": "Meteoritenschwarm",
@@ -3596,6 +3660,144 @@
                 {
                     "type": "CriticalChanceBase",
                     "value": 0.3
+                }
+            ]
+        ]
+    },
+    "23017": {
+        "id": "23017",
+        "skill": "Atme tief durch",
+        "desc": "Erhöht die Energie-Wiederherstellungsrate des Trägers um #1[i]%. Wenn ein Verbündeter seinen Ultimate einsetzt, stellt der Träger bei einem Verbündeten mit dem niedrigsten LP-Prozentsatz in Höhe von #2[i]% seiner max. LP wieder her. Wenn der Träger Verbündete heilt, wird der ANG des geheilten Verbündeten um #3[f1]% erhöht. Dieser Effekt ist bis zu #4[i]-fach stapelbar und hält #5[i] Rd. an.",
+        "params": [
+            [
+                0.12,
+                0.1,
+                0.024,
+                5,
+                2
+            ],
+            [
+                0.14,
+                0.11,
+                0.028,
+                5,
+                2
+            ],
+            [
+                0.16,
+                0.12,
+                0.032,
+                5,
+                2
+            ],
+            [
+                0.18,
+                0.13,
+                0.036,
+                5,
+                2
+            ],
+            [
+                0.2,
+                0.14,
+                0.04,
+                5,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "SPRatioBase",
+                    "value": 0.12
+                }
+            ],
+            [
+                {
+                    "type": "SPRatioBase",
+                    "value": 0.14
+                }
+            ],
+            [
+                {
+                    "type": "SPRatioBase",
+                    "value": 0.16
+                }
+            ],
+            [
+                {
+                    "type": "SPRatioBase",
+                    "value": 0.18
+                }
+            ],
+            [
+                {
+                    "type": "SPRatioBase",
+                    "value": 0.2
+                }
+            ]
+        ]
+    },
+    "23018": {
+        "id": "23018",
+        "skill": "Ritterreise",
+        "desc": "Erhöht den KRIT-SCH des Trägers um #1[i]%. Erhöht beim Einsatz des Ultimates den vom Träger verursachten SCH basierend auf seiner max. Energie: jeder Pkt. Energie erhöht den SCH um #2[f2]%, bis max. #3[i] Pkt.",
+        "params": [
+            [
+                0.36,
+                0.0036,
+                180
+            ],
+            [
+                0.42,
+                0.0042,
+                180
+            ],
+            [
+                0.48,
+                0.0048,
+                180
+            ],
+            [
+                0.54,
+                0.0054,
+                180
+            ],
+            [
+                0.6,
+                0.006,
+                180
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.36
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.42
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.48
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.54
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.6
                 }
             ]
         ]

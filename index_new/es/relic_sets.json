@@ -270,6 +270,39 @@
         "icon": "icon/relic/114.png",
         "guide_overview": []
     },
+    "115": {
+        "id": "115",
+        "name": "Gran duque incinerador",
+        "desc": [
+            "El daño de los ataques adicionales aumenta en un 20%.",
+            "Cuando el portador lanza un ataque adicional, el ATQ del portador aumenta en un 6% por cada vez que haya infligido daño con el ataque adicional. Se puede acumular hasta 8 veces y dura 3 turnos. Este efecto se disipa la siguiente vez que el portador lance un ataque adicional."
+        ],
+        "properties": [
+            [],
+            []
+        ],
+        "icon": "icon/relic/115.png",
+        "guide_overview": []
+    },
+    "116": {
+        "id": "116",
+        "name": "Prisionero aislado",
+        "desc": [
+            "ATQ +12%.",
+            "Por cada estado de Daño con el tiempo que tenga el objetivo, el portador ignora un 6% de su DEF cuando le inflige daño, hasta un máximo de 3 estados de Daño con el tiempo."
+        ],
+        "properties": [
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.12
+                }
+            ],
+            []
+        ],
+        "icon": "icon/relic/116.png",
+        "guide_overview": []
+    },
     "301": {
         "id": "301",
         "name": "Estación sellaespacios",
@@ -448,6 +481,42 @@
             ]
         ],
         "icon": "icon/relic/310.png",
+        "guide_overview": []
+    },
+    "311": {
+        "id": "311",
+        "name": "Glamoth, frente del firmamento",
+        "desc": [
+            "El ATQ del portador aumenta en un 12%. Cuando su VEL es igual o superior a 135/160, el daño que inflige aumenta en un 12%/18%.",
+            ""
+        ],
+        "properties": [
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.12
+                }
+            ]
+        ],
+        "icon": "icon/relic/311.png",
+        "guide_overview": []
+    },
+    "312": {
+        "id": "312",
+        "name": "Colonipenal, la tierra de los sueños",
+        "desc": [
+            "La recuperación de energía del portador aumenta en un 5%. Aumenta en un 10% el daño que infligen los demás aliados que sean del mismo tipo que el portador.",
+            ""
+        ],
+        "properties": [
+            [
+                {
+                    "type": "SPRatioBase",
+                    "value": 0.05
+                }
+            ]
+        ],
+        "icon": "icon/relic/312.png",
         "guide_overview": []
     }
 }

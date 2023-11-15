@@ -298,6 +298,39 @@
             "guide/Nwflower/relic_set/114.png"
         ]
     },
+    "115": {
+        "id": "115",
+        "name": "毁烬焚骨的大公",
+        "desc": [
+            "追加攻击造成的伤害提高20%。",
+            "装备者施放追加攻击时，根据追加攻击造成伤害的次数，每次造成伤害时使装备者的攻击力提高6%，最多叠加8次，持续3回合。该效果在装备者下一次施放追加攻击时移除。"
+        ],
+        "properties": [
+            [],
+            []
+        ],
+        "icon": "icon/relic/115.png",
+        "guide_overview": []
+    },
+    "116": {
+        "id": "116",
+        "name": "幽锁深牢的系囚",
+        "desc": [
+            "攻击力提高12%。",
+            "敌方目标每承受1个持续伤害效果，装备者对其造成伤害时就无视其6%的防御力，最多计入3个持续伤害效果。"
+        ],
+        "properties": [
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.12
+                }
+            ],
+            []
+        ],
+        "icon": "icon/relic/116.png",
+        "guide_overview": []
+    },
     "301": {
         "id": "301",
         "name": "太空封印站",
@@ -497,5 +530,41 @@
         "guide_overview": [
             "guide/Nwflower/relic_set/310.png"
         ]
+    },
+    "311": {
+        "id": "311",
+        "name": "苍穹战线格拉默",
+        "desc": [
+            "使装备者的攻击力提高12%。当装备者的速度大于等于135/160时，使装备者造成的伤害提高12%/18%。",
+            ""
+        ],
+        "properties": [
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.12
+                }
+            ]
+        ],
+        "icon": "icon/relic/311.png",
+        "guide_overview": []
+    },
+    "312": {
+        "id": "312",
+        "name": "梦想之地匹诺康尼",
+        "desc": [
+            "使装备者的能量恢复效率提高5%。使队伍中与装备者属性相同的我方其他角色造成的伤害提高10%。",
+            ""
+        ],
+        "properties": [
+            [
+                {
+                    "type": "SPRatioBase",
+                    "value": 0.05
+                }
+            ]
+        ],
+        "icon": "icon/relic/312.png",
+        "guide_overview": []
     }
 }

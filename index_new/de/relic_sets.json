@@ -270,6 +270,39 @@
         "icon": "icon/relic/114.png",
         "guide_overview": []
     },
+    "115": {
+        "id": "115",
+        "name": "Der eingeäscherte Erzherzog",
+        "desc": [
+            "Erhöht den SCH durch Folgeangriffe um 20%.",
+            "Wenn der Träger einen Folgeangriff einsetzt, wird sein ANG für jedes Mal, das der Folgeangriff SCH zufügt, um 6% erhöht. Dieser Effekt ist bis zu 8-mal stapelbar und hält 3 Rd. an. Das nächste Mal, dass der Träger einen Folgeangriff einsetzt, wird der Effekt entfernt."
+        ],
+        "properties": [
+            [],
+            []
+        ],
+        "icon": "icon/relic/115.png",
+        "guide_overview": []
+    },
+    "116": {
+        "id": "116",
+        "name": "Gefangene in tiefem Gewahrsam",
+        "desc": [
+            "Erhöht den ANG um 12%.",
+            "Für jeden DoT-Effekt, den der Gegner erleidet, ignoriert der Träger 6% der VTD dieses Gegners, wenn er diesem SCH zufügt. Bis zu 3 DoT-Effekte werden gezählt."
+        ],
+        "properties": [
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.12
+                }
+            ],
+            []
+        ],
+        "icon": "icon/relic/116.png",
+        "guide_overview": []
+    },
     "301": {
         "id": "301",
         "name": "Raumstation für Versiegelung",
@@ -448,6 +481,42 @@
             ]
         ],
         "icon": "icon/relic/310.png",
+        "guide_overview": []
+    },
+    "311": {
+        "id": "311",
+        "name": "Himmelsfront Glamoth",
+        "desc": [
+            "Erhöht den ANG des Trägers um 12%. Wenn die GES des Trägers 135/160 oder höher erreicht, wird sein verursachter SCH um 12%/18% erhöht.",
+            ""
+        ],
+        "properties": [
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.12
+                }
+            ]
+        ],
+        "icon": "icon/relic/311.png",
+        "guide_overview": []
+    },
+    "312": {
+        "id": "312",
+        "name": "Penacony, Land der Träume",
+        "desc": [
+            "Erhöht die Energie-Wiederherstellungsrate des Trägers um 5%. Erhöht den SCH aller anderen Verbündeten im Team mit dem gleichen Typ wie der Träger um 10%.",
+            ""
+        ],
+        "properties": [
+            [
+                {
+                    "type": "SPRatioBase",
+                    "value": 0.05
+                }
+            ]
+        ],
+        "icon": "icon/relic/312.png",
         "guide_overview": []
     }
 }

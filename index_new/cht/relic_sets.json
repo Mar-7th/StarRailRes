@@ -270,6 +270,39 @@
         "icon": "icon/relic/114.png",
         "guide_overview": []
     },
+    "115": {
+        "id": "115",
+        "name": "毀燼焚骨的大公",
+        "desc": [
+            "追加攻擊造成的傷害提高20%。",
+            "裝備者發動追加攻擊時，根據追加攻擊造成傷害的次數，每次造成傷害時使裝備者的攻擊力提高6%，最多疊加8次，持續3回合。此效果在裝備者下一次發動追加攻擊時移除。"
+        ],
+        "properties": [
+            [],
+            []
+        ],
+        "icon": "icon/relic/115.png",
+        "guide_overview": []
+    },
+    "116": {
+        "id": "116",
+        "name": "幽鎖深牢的繫囚",
+        "desc": [
+            "攻擊力提高12%。",
+            "敵方目標每承受1個持續傷害效果，裝備者對其造成傷害時便無視其6%的防禦力，最多計入3個持續傷害效果。"
+        ],
+        "properties": [
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.12
+                }
+            ],
+            []
+        ],
+        "icon": "icon/relic/116.png",
+        "guide_overview": []
+    },
     "301": {
         "id": "301",
         "name": "太空封印站",
@@ -448,6 +481,42 @@
             ]
         ],
         "icon": "icon/relic/310.png",
+        "guide_overview": []
+    },
+    "311": {
+        "id": "311",
+        "name": "蒼穹戰線格拉默",
+        "desc": [
+            "使裝備者的攻擊力提高12%。當裝備者的速度大於等於135/160時，使裝備者造成的傷害提高12%/18%。",
+            ""
+        ],
+        "properties": [
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.12
+                }
+            ]
+        ],
+        "icon": "icon/relic/311.png",
+        "guide_overview": []
+    },
+    "312": {
+        "id": "312",
+        "name": "夢想之地匹諾康尼",
+        "desc": [
+            "使裝備者的能量恢復效率提高5%。使隊伍中與裝備者屬性相同的我方其他角色造成的傷害提高10%。",
+            ""
+        ],
+        "properties": [
+            [
+                {
+                    "type": "SPRatioBase",
+                    "value": 0.05
+                }
+            ]
+        ],
+        "icon": "icon/relic/312.png",
         "guide_overview": []
     }
 }

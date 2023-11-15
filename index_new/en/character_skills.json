@@ -606,7 +606,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "When they are the target of an ally's Ability, their next attack's Wind RES PEN increases. This effect can be triggered again after 2 turns.",
+        "simple_desc": "When becoming the target of an ally's ability, their next attack's Wind RES PEN increases. This effect can be triggered again after 2 turns.",
         "desc": "When Dan Heng is the target of an ally's ability, his next attack's Wind RES PEN increases by #1[i]%. This effect can be triggered again after #2[i] turn(s).",
         "params": [
             [
@@ -1164,7 +1164,7 @@
         "effect": "AoEAttack",
         "effect_text": "AoE",
         "simple_desc": "Deals Imaginary DMG to all enemies, with a high chance of Imprisoning them.",
-        "desc": "Deals Imaginary DMG equal to #1[i]% of Welt's ATK to all enemies, with a #3[i]% base chance for enemies hit by this ability to be Imprisoned for 1 turn.\nImprisoned enemies have their actions delayed by #2[i]% and SPD reduced by #4[i]%.",
+        "desc": "Deals Imaginary DMG equal to #1[i]% of Welt's ATK to all enemies, with a #3[i]% base chance for enemies hit by this ability to be Imprisoned for 1 turn.\nImprisoned enemies have their actions delayed by #2[f1]% and SPD reduced by #4[i]%.",
         "params": [
             [
                 0.9,
@@ -1932,7 +1932,7 @@
         "type_text": "Ultimate",
         "effect": "Impair",
         "effect_text": "Impair",
-        "simple_desc": "Has a high chance of lowering a single enemy's DEF and deals massive Quantum DMG to this target enemy.",
+        "simple_desc": "There is a high chance of lowering a single enemy's DEF and deals massive Quantum DMG to this target enemy.",
         "desc": "There's a #2[i]% base chance to decrease the target enemy's DEF by #3[f1]% for #4[i] turn(s). And at the same time, deals Quantum DMG equal to #1[i]% of Silver Wolf's ATK to the target enemy.",
         "params": [
             [
@@ -2171,7 +2171,7 @@
         "type_text": "Technique",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "Attacks the enemy. After entering battle, deals minor amounts of DMG to all enemies and reduces Toughness of all enemies irrespective of Weakness Types.",
+        "simple_desc": "Attacks the enemy. After entering battle, deals minor DMG to all enemies and reduces Toughness of all enemies irrespective of Weakness Types.",
         "desc": "Immediately attacks the enemy. After entering battle, deals Quantum DMG equal to #1[i]% of Silver Wolf's ATK to all enemies, and ignores Weakness Types and reduces Toughness from all enemies. Enemies with their Weakness Broken in this way will trigger the Quantum Weakness Break effect.",
         "params": [
             [
@@ -2381,7 +2381,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "Increases DMG based on the current percentage of own HP lost.",
+        "simple_desc": "Gain DMG bonus based on percent of HP lost.",
         "desc": "Increases Arlan's DMG for every percent of HP below his Max HP, up to a max of #1[i]% more DMG.",
         "params": [
             [
@@ -2754,7 +2754,7 @@
         "type_text": "Technique",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "Attacks the enemy. After entering battle, deals minor amounts of DMG to all enemies.",
+        "simple_desc": "Attacks the enemy. After entering battle, deals minor DMG to all enemies.",
         "desc": "Immediately attacks the enemy. After entering battle, deals Fire DMG equal to #1[i]% of Asta's ATK to all enemies.",
         "params": [
             [
@@ -3758,7 +3758,7 @@
         "type_text": "Skill",
         "effect": "Blast",
         "effect_text": "Blast",
-        "simple_desc": "Deals minor Lightning DMG to a single enemy and enemies adjacent to it, with a high chance of Shocking enemies hit.",
+        "simple_desc": "Deals minor Lightning DMG to a single enemy and any adjacent targets, with a high chance of causing Shock.",
         "desc": "Deals Lightning DMG equal to #1[i]% of Serval's ATK to a single enemy and Lightning DMG equal to #2[i]% of Serval's ATK to enemies adjacent to it, with a #3[i]% base chance for enemies hit to become Shocked for #4[i] turn(s).\nWhile Shocked, enemies take Lightning DoT equal to #5[i]% of Serval's ATK at the beginning of each turn.",
         "params": [
             [
@@ -3953,7 +3953,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "After using an attack, deals minor Additional DMG to all Shocked enemy targets.",
+        "simple_desc": "After attacking, deals a minor amount of Additional DMG to all Shocked enemies.",
         "desc": "After Serval attacks, deals Additional Lightning DMG equal to #1[i]% of Serval's ATK to all Shocked enemies.",
         "params": [
             [
@@ -4027,7 +4027,7 @@
         "type_text": "Technique",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "Attacks the enemy. After entering battle, deals minor DMG to a random single enemy, with a high chance of applying Shock to all enemy targets.",
+        "simple_desc": "Attacks the enemy. After entering battle, deals minor Lightning DMG to a random single enemy, with a high chance to Shock all enemy targets.",
         "desc": "Immediately attacks the enemy. After entering battle, deals Lightning DMG equal to #4[i]% of Serval's ATK to a random enemy, with a #1[i]% base chance for all enemies to become Shocked for #3[i] turn(s).\nWhile Shocked, enemies will take Lightning DoT equal to #2[i]% of Serval's ATK at the beginning of each turn.",
         "params": [
             [
@@ -6468,8 +6468,8 @@
         "type_text": "Talent",
         "effect": "Restore",
         "effect_text": "Restore",
-        "simple_desc": "When using Skill or Ultimate, applies continuous healing on the target ally. If the target has \"Survival Response\", the continuous healing effect additionally increases.",
-        "desc": "When using Lynx's Skill or Ultimate, applies continuous healing to the target ally for #1[i] turn(s), restoring the target ally's HP by an amount equal to #2[f1]% of Lynx's Max HP plus #3[i] at the start of each turn. If the target has \"Survival Response\", the continuous healing effect additionally restores HP by an amount equal to #4[f1]% of Lynx's Max HP plus #5[i].",
+        "simple_desc": "When using Skill or Ultimate, applies continuous healing on the target ally. If the target has \"Survival Response,\" the continuous healing effect additionally increases.",
+        "desc": "When using Lynx's Skill or Ultimate, applies continuous healing to the target ally for #1[i] turn(s), restoring the target ally's HP by an amount equal to #2[f1]% of Lynx's Max HP plus #3[i] at the start of each turn. If the target has \"Survival Response,\" the continuous healing effect additionally restores HP by an amount equal to #4[f1]% of Lynx's Max HP plus #5[i].",
         "params": [
             [
                 2,
@@ -7374,7 +7374,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "After attacking an enemy and entering battle, the enemy target's corresponding Type Toughness will be Weakened.",
+        "desc": "Attack an enemy, and when the battle starts, reduce their Toughness of the corresponding Type.",
         "params": [],
         "icon": "icon/skill/1112_basic_atk.png"
     },
@@ -9759,7 +9759,7 @@
         "effect": "SingleAttack",
         "effect_text": "Single Target",
         "simple_desc": "When Roaring Bowstrings is active on this character, increases the CRIT Rate and CRIT DMG of all allies and deals massive Imaginary DMG to a single enemy.",
-        "desc": "If \"Roaring Bowstrings\" is active on Yukong when her Ultimate is used, additionally increases all allies' CRIT Rate by #2[i]% and CRIT DMG by #3[i]%. At the same time, deals Imaginary DMG equal to #1[i]% of Yukong's ATK to a single enemy.",
+        "desc": "If \"Roaring Bowstrings\" is active on Yukong when her Ultimate is used, additionally increases all allies' CRIT Rate by #2[f1]% and CRIT DMG by #3[i]%. At the same time, deals Imaginary DMG equal to #1[i]% of Yukong's ATK to a single enemy.",
         "params": [
             [
                 2.28,
@@ -10195,7 +10195,7 @@
         "effect": "Restore",
         "effect_text": "Restore",
         "simple_desc": "While Fu Xuan is still active in battle, the DMG taken by all team members is reduced.\nWhen her HP is low, automatically restores her own HP based on the percentage of HP already lost. This effect can have up to 2 trigger counts at any given time.",
-        "desc": "While Fu Xuan is still active in battle, Misfortune Avoidance is applied to the entire team. With Misfortune Avoidance, allies take #1[f1]% less DMG.\nWhen Fu Xuan's current HP falls to #2[i]% of her Max HP or less, HP Restore will be triggered for Fu Xuan, restoring her HP by #3[i]% of the amount of HP she is currently missing. This effect cannot be triggered if she receives a killing blow. This effect possesses 1 trigger count by default and can have a maximum of 2 trigger counts.",
+        "desc": "While Fu Xuan is still active in battle, Misfortune Avoidance is applied to the entire team. With Misfortune Avoidance, allies take #1[f1]% less DMG.\nWhen Fu Xuan's current HP falls to #2[i]% of her Max HP or less, HP Restore will be triggered for Fu Xuan, restoring her HP by #3[i]% of the amount of HP she is currently missing. This effect cannot be triggered if she receives a killing blow. This effect has 1 trigger count by default and can hold up to a maximum of 2 trigger counts.",
         "params": [
             [
                 0.1,
@@ -10721,7 +10721,7 @@
         "effect": "Blast",
         "effect_text": "Blast",
         "simple_desc": "Deals Fire DMG to a single enemy and minor Fire DMG to adjacent enemies, with a high chance of Burning them.",
-        "desc": "Deals Fire DMG equal to #1[i]% of Guinaifen's ATK to a single enemy and deals Fire DMG equal to #2[i]% of Guinaifen's ATK to any adjacent enemies with a #3[i]% base chance to Burn the target and adjacent targets. When Burned, enemies will take a Fire DoT equal to #4[i]% of Guinaifen's ATK at the beginning of each turn, lasting for #5[i] turn(s).",
+        "desc": "Deals Fire DMG equal to #1[i]% of Guinaifen's ATK to a single enemy and Fire DMG equal to #2[i]% of Guinaifen's ATK to any adjacent enemies, with a #3[i]% base chance to Burn the target and adjacent targets. When Burned, enemies will take a Fire DoT equal to #4[i]% of Guinaifen's ATK at the beginning of each turn, lasting for #5[i] turn(s).",
         "params": [
             [
                 0.6,
@@ -10841,7 +10841,7 @@
         "effect": "AoEAttack",
         "effect_text": "AoE",
         "simple_desc": "Deals Fire DMG to all enemies. If the enemies are inflicted with Burn, the Burn status deals DMG 1 extra time.",
-        "desc": "Deals Fire DMG equal to #1[f1]% of Guinaifen's ATK to all enemies. If the target enemy is currently inflicted with Burn, then their Burn status immediately produce DMG equal to #2[i]% of their original DMG.",
+        "desc": "Deals Fire DMG equal to #1[f1]% of Guinaifen's ATK to all enemies. If the target enemy is currently inflicted with Burn, then their Burn status immediately produces DMG equal to #2[i]% of their original DMG.",
         "params": [
             [
                 0.72,
@@ -11051,7 +11051,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "After attacking an enemy and entering battle, the enemy target's corresponding Type Toughness will be Weakened.",
+        "desc": "Attack an enemy, and when the battle starts, reduce their Toughness of the corresponding Type.",
         "params": [],
         "icon": "icon/skill/1210_basic_atk.png"
     },
@@ -11322,7 +11322,7 @@
         "effect": "Restore",
         "effect_text": "Restore",
         "simple_desc": "When an ally with Invigoration is attacked, restores HP for the ally.\nWhen an ally suffers a killing blow, Bailu immediately restores their HP. This effect can only trigger 1 time per battle.",
-        "desc": "After an ally with Invigoration is hit, restores the ally's HP for #1[f1]% of Bailu's Max HP plus #2[i]. This effect can trigger #5[i] time(s).\nWhen an ally receives a killing blow, they will not be knocked down. Bailu immediately heals the ally for #3[i]% of Bailu's Max HP plus #4[i] HP. This effect can be triggered 1 time per battle.",
+        "desc": "After an ally with Invigoration is hit, restores the ally's HP for #1[f1]% of Bailu's Max HP plus #2[i]. This effect can trigger #5[i] time(s).\nWhen an ally receives a killing blow, they will not be knocked down. Bailu immediately heals the ally for #3[f1]% of Bailu's Max HP plus #4[i] HP. This effect can be triggered 1 time per battle.",
         "params": [
             [
                 0.036,
@@ -11696,7 +11696,7 @@
         "effect": "Enhance",
         "effect_text": "Enhance",
         "simple_desc": "When possessing #5[i] stacks of Syzygy, Jingliu enters the Spectral Transmigration state with her Action Advanced by 100%, her CRIT Rate increased, and her Skill becoming Enhanced. Using an attack in this state consumes HP from all other allies and increases Jingliu's ATK according to the total HP consumed. When Syzygy stacks become 0, exits the Spectral Transmigration state.",
-        "desc": "When Jingliu has #5[i] stack(s) of Syzygy, she enters the Spectral Transmigration state with her Action Advanced by #6[i]% and her CRIT Rate increases by #7[i]%. Then, Jingliu's Skill \"Transcendent Flash\" becomes enhanced and turns into \"Moon On Glacial River,\" and becomes the only ability she can use in battle. When Jingliu uses an attack in the Spectral Transmigration state, she consumes HP from all other allies equal to #2[i]% of their respective Max HP (this cannot reduce allies' HP to lower than 1). Jingliu's ATK increases by #3[i]% of the total HP consumed from all allies in this attack, capped at #4[i]% of her base ATK, lasting until the current attack ends. Jingliu cannot enter the Spectral Transmigration state again until the current Spectral Transmigration state ends. Syzygy can stack up to 3 times. When Syzygy stacks become 0, Jingliu will exit the Spectral Transmigration state.",
+        "desc": "When Jingliu has #5[i] stack(s) of Syzygy, she enters the Spectral Transmigration state with her Action Advanced by #6[i]% and her CRIT Rate increases by #7[i]%. Then, Jingliu's Skill \"Transcendent Flash\" is enhanced to \"Moon On Glacial River,\" and only this enhanced Skill is available for use in battle. When Jingliu uses an attack in the Spectral Transmigration state, she consumes HP from all other allies equal to #2[i]% of their respective Max HP (this cannot reduce allies' HP to lower than 1). Jingliu's ATK increases by #3[i]% of the total HP consumed from all allies in this attack, capped at #4[i]% of her base ATK, lasting until the current attack ends. Jingliu cannot enter the Spectral Transmigration state again until the current Spectral Transmigration state ends. Syzygy can stack up to 3 times. When Syzygy stacks become 0, Jingliu will exit the Spectral Transmigration state.",
         "params": [
             [
                 0.3,
@@ -11846,7 +11846,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "After attacking an enemy and entering battle, the enemy's corresponding Type Toughness will be Weakened.",
+        "desc": "Attack an enemy, and when the battle starts, reduce their Toughness of the corresponding Type.",
         "params": [],
         "icon": "icon/skill/1212_basic_atk.png"
     },
@@ -12451,6 +12451,1159 @@
             ]
         ],
         "icon": "icon/skill/1213_basic_atk.png"
+    },
+    "121501": {
+        "id": "121501",
+        "name": "Oracle Brush",
+        "max_level": 9,
+        "element": "Physical",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Deals minor Physical DMG to a single enemy.",
+        "desc": "Deals Physical DMG equal to #1[i]% of Hanya's ATK to a single enemy.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1215_basic_atk.png"
+    },
+    "121502": {
+        "id": "121502",
+        "name": "Samsara, Locked",
+        "max_level": 15,
+        "element": "Physical",
+        "type": "BPSkill",
+        "type_text": "Skill",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Deals Physical DMG to a single enemy and applies Burden to them. For every 2 Basic ATKs, Skills, or Ultimates allies use on an enemy with Burden, allies recover 1 Skill Point.",
+        "desc": "Deals Physical DMG equal to #1[i]% of Hanya's ATK to a single enemy, then applies Burden to them.\nFor every 2 Basic ATKs, Skills, or Ultimates allies use on an enemy with Burden, allies will immediately recover 1 Skill Point. Burden is only active on the latest target it is applied to, and will be dispelled automatically after the Skill Point recovery effect has been triggered #2[i] times.",
+        "params": [
+            [
+                1.2,
+                2
+            ],
+            [
+                1.32,
+                2
+            ],
+            [
+                1.44,
+                2
+            ],
+            [
+                1.56,
+                2
+            ],
+            [
+                1.68,
+                2
+            ],
+            [
+                1.8,
+                2
+            ],
+            [
+                1.95,
+                2
+            ],
+            [
+                2.1,
+                2
+            ],
+            [
+                2.25,
+                2
+            ],
+            [
+                2.4,
+                2
+            ],
+            [
+                2.52,
+                2
+            ],
+            [
+                2.64,
+                2
+            ],
+            [
+                2.76,
+                2
+            ],
+            [
+                2.88,
+                2
+            ],
+            [
+                3,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1215_skill.png"
+    },
+    "121503": {
+        "id": "121503",
+        "name": "Ten-Lords' Decree, All Shall Obey",
+        "max_level": 15,
+        "element": "",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "Enhance",
+        "effect_text": "Enhance",
+        "simple_desc": "Increases an ally's SPD and ATK.",
+        "desc": "Increases the SPD of a target ally by #3[f1]% of Hanya's SPD and increases the same target ally's ATK by #1[i]%, lasting for #2[i] turn(s).",
+        "params": [
+            [
+                0.36,
+                2,
+                0.15
+            ],
+            [
+                0.384,
+                2,
+                0.155
+            ],
+            [
+                0.408,
+                2,
+                0.16
+            ],
+            [
+                0.432,
+                2,
+                0.165
+            ],
+            [
+                0.456,
+                2,
+                0.17
+            ],
+            [
+                0.48,
+                2,
+                0.175
+            ],
+            [
+                0.51,
+                2,
+                0.1813
+            ],
+            [
+                0.54,
+                2,
+                0.1875
+            ],
+            [
+                0.57,
+                2,
+                0.1938
+            ],
+            [
+                0.6,
+                2,
+                0.2
+            ],
+            [
+                0.624,
+                2,
+                0.205
+            ],
+            [
+                0.648,
+                2,
+                0.21
+            ],
+            [
+                0.672,
+                2,
+                0.215
+            ],
+            [
+                0.696,
+                2,
+                0.22
+            ],
+            [
+                0.72,
+                2,
+                0.225
+            ]
+        ],
+        "icon": "icon/skill/1215_ultimate.png"
+    },
+    "121504": {
+        "id": "121504",
+        "name": "Sanction",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Support",
+        "effect_text": "Support",
+        "simple_desc": "Ally deals more DMG when attacking enemies inflicted with Burden.",
+        "desc": "When an ally uses a Basic ATK, Skill, or Ultimate on an enemy inflicted with Burden, the DMG dealt increases by #1[i]% for #2[i] turn(s).",
+        "params": [
+            [
+                0.15,
+                2
+            ],
+            [
+                0.165,
+                2
+            ],
+            [
+                0.18,
+                2
+            ],
+            [
+                0.195,
+                2
+            ],
+            [
+                0.21,
+                2
+            ],
+            [
+                0.225,
+                2
+            ],
+            [
+                0.2438,
+                2
+            ],
+            [
+                0.2625,
+                2
+            ],
+            [
+                0.2813,
+                2
+            ],
+            [
+                0.3,
+                2
+            ],
+            [
+                0.315,
+                2
+            ],
+            [
+                0.33,
+                2
+            ],
+            [
+                0.345,
+                2
+            ],
+            [
+                0.36,
+                2
+            ],
+            [
+                0.375,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1215_talent.png"
+    },
+    "121506": {
+        "id": "121506",
+        "name": "Attack",
+        "max_level": 1,
+        "element": "Physical",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Attack an enemy, and when the battle starts, reduce their Toughness of the corresponding Type.",
+        "params": [],
+        "icon": "icon/skill/1215_basic_atk.png"
+    },
+    "121507": {
+        "id": "121507",
+        "name": "Netherworld Judgment",
+        "max_level": 1,
+        "element": "Physical",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "Attacks the enemy. After entering battle, applies Burden equivalent to that applied by the Skill to a random enemy.",
+        "desc": "Immediately attacks the enemy. After entering battle, applies Burden equivalent to that applied by the Skill to a random enemy.",
+        "params": [],
+        "icon": "icon/skill/1215_technique.png"
+    },
+    "121701": {
+        "id": "121701",
+        "name": "Banner: Stormcaller",
+        "max_level": 9,
+        "element": "Wind",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Deals minor Wind DMG to a single enemy.",
+        "desc": "Deals Wind DMG equal to #1[i]% of Huohuo's Max HP to a target enemy.",
+        "params": [
+            [
+                0.25
+            ],
+            [
+                0.3
+            ],
+            [
+                0.35
+            ],
+            [
+                0.4
+            ],
+            [
+                0.45
+            ],
+            [
+                0.5
+            ],
+            [
+                0.55
+            ],
+            [
+                0.6
+            ],
+            [
+                0.65
+            ]
+        ],
+        "icon": "icon/skill/1217_basic_atk.png"
+    },
+    "121702": {
+        "id": "121702",
+        "name": "Talisman: Protection",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Skill",
+        "effect": "Restore",
+        "effect_text": "Restore",
+        "simple_desc": "Dispels 1 debuff from an ally and restore HP to that ally and their adjacent allies.",
+        "desc": "Dispels #5[i] debuff(s) from a single target ally and immediately restores this ally's HP by an amount equal to #1[f1]% of Huohuo's Max HP plus #2[i]. At the same time, restores HP for allies that are adjacent to this target ally by an amount equal to #3[f1]% of Huohuo's Max HP plus #4[i].",
+        "params": [
+            [
+                0.14,
+                140,
+                0.112,
+                112,
+                1
+            ],
+            [
+                0.1488,
+                224,
+                0.119,
+                179.2,
+                1
+            ],
+            [
+                0.1575,
+                287,
+                0.126,
+                229.6,
+                1
+            ],
+            [
+                0.1663,
+                350,
+                0.133,
+                280,
+                1
+            ],
+            [
+                0.175,
+                392,
+                0.14,
+                313.6,
+                1
+            ],
+            [
+                0.182,
+                434,
+                0.1456,
+                347.2,
+                1
+            ],
+            [
+                0.189,
+                465.5,
+                0.1512,
+                372.4,
+                1
+            ],
+            [
+                0.196,
+                497,
+                0.1568,
+                397.6,
+                1
+            ],
+            [
+                0.203,
+                528.5,
+                0.1624,
+                422.8,
+                1
+            ],
+            [
+                0.21,
+                560,
+                0.168,
+                448,
+                1
+            ],
+            [
+                0.217,
+                591.5,
+                0.1736,
+                473.2,
+                1
+            ],
+            [
+                0.224,
+                623,
+                0.1792,
+                498.4,
+                1
+            ],
+            [
+                0.231,
+                654.5,
+                0.1848,
+                523.6,
+                1
+            ],
+            [
+                0.238,
+                686,
+                0.1904,
+                548.8,
+                1
+            ],
+            [
+                0.245,
+                717.5,
+                0.196,
+                574,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1217_skill.png"
+    },
+    "121703": {
+        "id": "121703",
+        "name": "Tail: Spiritual Domination",
+        "max_level": 15,
+        "element": "",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "Support",
+        "effect_text": "Support",
+        "simple_desc": "Regenerates Energy for all allies (excluding this character) and increases their ATK.",
+        "desc": "Regenerates Energy for all allies (excluding this character) by an amount equal to #1[f1]% of their respective Max Energy. At the same time, increases their ATK by #2[f1]% for #3[i] turn(s).",
+        "params": [
+            [
+                0.15,
+                0.24,
+                2
+            ],
+            [
+                0.155,
+                0.256,
+                2
+            ],
+            [
+                0.16,
+                0.272,
+                2
+            ],
+            [
+                0.165,
+                0.288,
+                2
+            ],
+            [
+                0.17,
+                0.304,
+                2
+            ],
+            [
+                0.175,
+                0.32,
+                2
+            ],
+            [
+                0.1813,
+                0.34,
+                2
+            ],
+            [
+                0.1875,
+                0.36,
+                2
+            ],
+            [
+                0.1938,
+                0.38,
+                2
+            ],
+            [
+                0.2,
+                0.4,
+                2
+            ],
+            [
+                0.205,
+                0.416,
+                2
+            ],
+            [
+                0.21,
+                0.432,
+                2
+            ],
+            [
+                0.215,
+                0.448,
+                2
+            ],
+            [
+                0.22,
+                0.464,
+                2
+            ],
+            [
+                0.225,
+                0.48,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1217_ultimate.png"
+    },
+    "121704": {
+        "id": "121704",
+        "name": "Possession: Ethereal Metaflow",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Restore",
+        "effect_text": "Restore",
+        "simple_desc": "Huohuo gains Divine Provision after using her Skill. If Huohuo possesses Divine Provision when an ally's turn starts or when an ally uses Ultimate, restores the ally's HP. At the same time, every ally with low HP receives healing once. When Divine Provision is triggered to heal an ally, dispel 1 debuff from that ally.",
+        "desc": "After using her Skill, Huohuo gains Divine Provision, lasting for #1[i] turn(s). This duration decreases by 1 turn at the start of each Huohuo's turn. If Huohuo has Divine Provision when an ally's turn starts or when an ally uses their Ultimate, restores HP for that ally by an amount equal to #3[f1]% of Huohuo's Max HP plus #5[i]. At the same time, every ally with #6[i]% HP or lower receives healing once.\nWhen Divine Provision is triggered to heal an ally, dispel #2[i] debuff(s) from that ally. This effect can be triggered up to #7[i] time(s). Using the skill again resets the effect's trigger count.",
+        "params": [
+            [
+                2,
+                1,
+                0.03,
+                0,
+                30,
+                0.5,
+                6
+            ],
+            [
+                2,
+                1,
+                0.0319,
+                0,
+                48,
+                0.5,
+                6
+            ],
+            [
+                2,
+                1,
+                0.0338,
+                0,
+                61.5,
+                0.5,
+                6
+            ],
+            [
+                2,
+                1,
+                0.0356,
+                0,
+                75,
+                0.5,
+                6
+            ],
+            [
+                2,
+                1,
+                0.0375,
+                0,
+                84,
+                0.5,
+                6
+            ],
+            [
+                2,
+                1,
+                0.039,
+                0,
+                93,
+                0.5,
+                6
+            ],
+            [
+                2,
+                1,
+                0.0405,
+                0,
+                99.75,
+                0.5,
+                6
+            ],
+            [
+                2,
+                1,
+                0.042,
+                0,
+                106.5,
+                0.5,
+                6
+            ],
+            [
+                2,
+                1,
+                0.0435,
+                0,
+                113.25,
+                0.5,
+                6
+            ],
+            [
+                2,
+                1,
+                0.045,
+                0,
+                120,
+                0.5,
+                6
+            ],
+            [
+                2,
+                1,
+                0.0465,
+                0,
+                126.75,
+                0.5,
+                6
+            ],
+            [
+                2,
+                1,
+                0.048,
+                0,
+                133.5,
+                0.5,
+                6
+            ],
+            [
+                2,
+                1,
+                0.0495,
+                0,
+                140.25,
+                0.5,
+                6
+            ],
+            [
+                2,
+                1,
+                0.051,
+                0,
+                147,
+                0.5,
+                6
+            ],
+            [
+                2,
+                1,
+                0.0525,
+                0,
+                153.75,
+                0.5,
+                6
+            ]
+        ],
+        "icon": "icon/skill/1217_talent.png"
+    },
+    "121706": {
+        "id": "121706",
+        "name": "Attack",
+        "max_level": 1,
+        "element": "Wind",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Attack an enemy, and when the battle starts, reduce their Toughness of the corresponding Type.",
+        "params": [],
+        "icon": "icon/skill/1217_basic_atk.png"
+    },
+    "121707": {
+        "id": "121707",
+        "name": "Fiend: Impeachment of Evil",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Impair",
+        "effect_text": "Impair",
+        "simple_desc": "Causes surrounding enemies to become Horror-Struck. After entering battle with enemies afflicted with Horror-Struck, there is a high chance applying ATK reduction on the enemy targets.",
+        "desc": "Huohuo terrorizes surrounding enemies, afflicting Horror-Struck on them. Enemies in Horror-Struck will flee away from Huohuo for #4[i] second(s). When entering battle with enemies in Horror-Struck, there is a #1[i]% base chance of reducing every single enemy's ATK by #2[i]% for #3[i] turn(s).",
+        "params": [
+            [
+                1,
+                0.25,
+                2,
+                10
+            ]
+        ],
+        "icon": "icon/skill/1217_technique.png"
+    },
+    "130201": {
+        "id": "130201",
+        "name": "Fleeting Fragrance",
+        "max_level": 9,
+        "element": "Physical",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Deals minor Physical DMG to a single enemy.",
+        "desc": "Deals Physical DMG equal to #1[i]% of Argenti's ATK to a single target enemy.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1302_basic_atk.png"
+    },
+    "130202": {
+        "id": "130202",
+        "name": "Justice, Hereby Blooms",
+        "max_level": 15,
+        "element": "Physical",
+        "type": "BPSkill",
+        "type_text": "Skill",
+        "effect": "AoEAttack",
+        "effect_text": "AoE",
+        "simple_desc": "Deals minor Physical DMG to all enemies.",
+        "desc": "Deals Physical DMG equal to #1[i]% of Argenti's ATK to all enemies.",
+        "params": [
+            [
+                0.6
+            ],
+            [
+                0.66
+            ],
+            [
+                0.72
+            ],
+            [
+                0.78
+            ],
+            [
+                0.84
+            ],
+            [
+                0.9
+            ],
+            [
+                0.975
+            ],
+            [
+                1.05
+            ],
+            [
+                1.125
+            ],
+            [
+                1.2
+            ],
+            [
+                1.26
+            ],
+            [
+                1.32
+            ],
+            [
+                1.38
+            ],
+            [
+                1.44
+            ],
+            [
+                1.5
+            ]
+        ],
+        "icon": "icon/skill/1302_skill.png"
+    },
+    "130203": {
+        "id": "130203",
+        "name": "For In This Garden Supreme Beauty Bestows",
+        "max_level": 15,
+        "element": "Physical",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "AoEAttack",
+        "effect_text": "AoE",
+        "simple_desc": "Consumes #2[i] Energy and deals Physical DMG to all enemies.",
+        "desc": "Consumes #2[i] Energy and deals Physical DMG equal to #1[i]% of Argenti's ATK to all enemies.",
+        "params": [
+            [
+                0.96,
+                90
+            ],
+            [
+                1.024,
+                90
+            ],
+            [
+                1.088,
+                90
+            ],
+            [
+                1.152,
+                90
+            ],
+            [
+                1.216,
+                90
+            ],
+            [
+                1.28,
+                90
+            ],
+            [
+                1.36,
+                90
+            ],
+            [
+                1.44,
+                90
+            ],
+            [
+                1.52,
+                90
+            ],
+            [
+                1.6,
+                90
+            ],
+            [
+                1.664,
+                90
+            ],
+            [
+                1.728,
+                90
+            ],
+            [
+                1.792,
+                90
+            ],
+            [
+                1.856,
+                90
+            ],
+            [
+                1.92,
+                90
+            ]
+        ],
+        "icon": "icon/skill/1302_ultimate.png"
+    },
+    "130204": {
+        "id": "130204",
+        "name": "Sublime Object",
+        "max_level": 15,
+        "element": "Physical",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Enhance",
+        "effect_text": "Enhance",
+        "simple_desc": "When Argenti uses his Basic ATK, Skill, or Ultimate, he regenerates Energy and increases his CRIT Rate for every enemy target hit.",
+        "desc": "For every enemy hit when Argenti uses his Basic Attack, Skill, or Ultimate, regenerates Argenti's Energy by #1[i], and grants him a stack of Ascend, increasing his CRIT Rate by #2[f1]%. This effect can stack up to #3[i] time(s).",
+        "params": [
+            [
+                3,
+                0.01,
+                10
+            ],
+            [
+                3,
+                0.0115,
+                10
+            ],
+            [
+                3,
+                0.013,
+                10
+            ],
+            [
+                3,
+                0.0145,
+                10
+            ],
+            [
+                3,
+                0.016,
+                10
+            ],
+            [
+                3,
+                0.0175,
+                10
+            ],
+            [
+                3,
+                0.0194,
+                10
+            ],
+            [
+                3,
+                0.0213,
+                10
+            ],
+            [
+                3,
+                0.0231,
+                10
+            ],
+            [
+                3,
+                0.025,
+                10
+            ],
+            [
+                3,
+                0.0265,
+                10
+            ],
+            [
+                3,
+                0.028,
+                10
+            ],
+            [
+                3,
+                0.0295,
+                10
+            ],
+            [
+                3,
+                0.031,
+                10
+            ],
+            [
+                3,
+                0.0325,
+                10
+            ]
+        ],
+        "icon": "icon/skill/1302_talent.png"
+    },
+    "130206": {
+        "id": "130206",
+        "name": "Attack",
+        "max_level": 1,
+        "element": "Physical",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Attack an enemy, and when the battle starts, reduce their Toughness of the corresponding Type.",
+        "params": [],
+        "icon": "icon/skill/1302_basic_atk.png"
+    },
+    "130207": {
+        "id": "130207",
+        "name": "Manifesto of Purest Virtue",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Impair",
+        "effect_text": "Impair",
+        "simple_desc": "Inflicts Daze on all enemies within a set area. When attacking a Dazed enemy to enter combat, deals minor Physical DMG to all enemies and regenerates energy for Argenti.",
+        "desc": "After using the Technique, enemies in a set area are inflicted with Daze for #1[i] second(s). Dazed enemies will not actively attack the team.\nWhen attacking a Dazed enemy to enter combat, deals Physical DMG to all enemies equal to #2[i]% of Argenti's ATK and regenerates his Energy by #3[i].",
+        "params": [
+            [
+                10,
+                0.8,
+                15
+            ]
+        ],
+        "icon": "icon/skill/1302_technique.png"
+    },
+    "130214": {
+        "id": "130214",
+        "name": "Merit Bestowed in \"My\" Garden",
+        "max_level": 15,
+        "element": "Physical",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "AoEAttack",
+        "effect_text": "AoE",
+        "simple_desc": "Consumes #4[i] Energy and deals Physical DMG to all enemies and additionally deals minor Physical DMG to random single enemy targets for 6 Bounces.",
+        "desc": "Consumes #4[i] Energy and deals Physical DMG equal to #1[i]% of Argenti's ATK to all enemies, and further deals DMG for #2[i] extra time(s), with each time dealing Physical DMG equal to #3[i]% of Argenti's ATK to a random enemy.",
+        "params": [
+            [
+                1.68,
+                6,
+                0.57,
+                180
+            ],
+            [
+                1.792,
+                6,
+                0.608,
+                180
+            ],
+            [
+                1.904,
+                6,
+                0.646,
+                180
+            ],
+            [
+                2.016,
+                6,
+                0.684,
+                180
+            ],
+            [
+                2.128,
+                6,
+                0.722,
+                180
+            ],
+            [
+                2.24,
+                6,
+                0.76,
+                180
+            ],
+            [
+                2.38,
+                6,
+                0.8075,
+                180
+            ],
+            [
+                2.52,
+                6,
+                0.855,
+                180
+            ],
+            [
+                2.66,
+                6,
+                0.9025,
+                180
+            ],
+            [
+                2.8,
+                6,
+                0.95,
+                180
+            ],
+            [
+                2.912,
+                6,
+                0.988,
+                180
+            ],
+            [
+                3.024,
+                6,
+                1.026,
+                180
+            ],
+            [
+                3.136,
+                6,
+                1.064,
+                180
+            ],
+            [
+                3.248,
+                6,
+                1.102,
+                180
+            ],
+            [
+                3.36,
+                6,
+                1.14,
+                180
+            ]
+        ],
+        "icon": "icon/skill/1302_ultimate.png"
     },
     "800101": {
         "id": "800101",

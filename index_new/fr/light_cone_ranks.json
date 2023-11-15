@@ -1024,7 +1024,7 @@
     "21007": {
         "id": "21007",
         "skill": "Guérison et réparation",
-        "desc": "Augmente les soins prodigués par le porteur de #1[i]%. Tous les alliés régénèrent #2[i] points d'énergie lors de l'utilisation de la compétence.",
+        "desc": "Augmente les soins prodigués par le porteur de #1[i]%. Tous les alliés régénèrent #2[f1] points d'énergie lors de l'utilisation de la compétence.",
         "params": [
             [
                 0.1,
@@ -2412,6 +2412,70 @@
             ]
         ]
     },
+    "22001": {
+        "id": "22001",
+        "skill": "Je n'ai pas peur !",
+        "desc": "Augmente les PV max du porteur de #1[i]%. Augmente les soins prodigués de #2[i]% quand le porteur utilise sa compétence, et ce pendant #3[i] tours.",
+        "params": [
+            [
+                0.08,
+                0.16,
+                2
+            ],
+            [
+                0.09,
+                0.19,
+                2
+            ],
+            [
+                0.1,
+                0.22,
+                2
+            ],
+            [
+                0.11,
+                0.25,
+                2
+            ],
+            [
+                0.12,
+                0.28,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.08
+                }
+            ],
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.09
+                }
+            ],
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.1
+                }
+            ],
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.11
+                }
+            ],
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.12
+                }
+            ]
+        ]
+    },
     "23000": {
         "id": "23000",
         "skill": "Essaim de météores",
@@ -3596,6 +3660,144 @@
                 {
                     "type": "CriticalChanceBase",
                     "value": 0.3
+                }
+            ]
+        ]
+    },
+    "23017": {
+        "id": "23017",
+        "skill": "On respire profondément",
+        "desc": "Augmente le taux de régénération d'énergie du porteur de #1[i]%. Lorsqu'un allié utilise son ultime, le porteur restaure #2[i]% des PV max de l'allié qui a le moins de PV en pourcentage. Quand le porteur prodigue des soins à l'allié, augmente l'ATQ de l'allié soigné de #3[f1]%. Cet effet peut être cumulé jusqu'à #4[i] fois et dure #5[i] tours.",
+        "params": [
+            [
+                0.12,
+                0.1,
+                0.024,
+                5,
+                2
+            ],
+            [
+                0.14,
+                0.11,
+                0.028,
+                5,
+                2
+            ],
+            [
+                0.16,
+                0.12,
+                0.032,
+                5,
+                2
+            ],
+            [
+                0.18,
+                0.13,
+                0.036,
+                5,
+                2
+            ],
+            [
+                0.2,
+                0.14,
+                0.04,
+                5,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "SPRatioBase",
+                    "value": 0.12
+                }
+            ],
+            [
+                {
+                    "type": "SPRatioBase",
+                    "value": 0.14
+                }
+            ],
+            [
+                {
+                    "type": "SPRatioBase",
+                    "value": 0.16
+                }
+            ],
+            [
+                {
+                    "type": "SPRatioBase",
+                    "value": 0.18
+                }
+            ],
+            [
+                {
+                    "type": "SPRatioBase",
+                    "value": 0.2
+                }
+            ]
+        ]
+    },
+    "23018": {
+        "id": "23018",
+        "skill": "Un chevalier en pèlerinage",
+        "desc": "Augmente les DGT critiques du porteur de #1[i]%. Lorsque le porteur lance son ultime, augmente les DGT de l'ultime du porteur en fonction de son énergie max. Chaque point d'énergie augmente les DGT de #2[f2]%, jusqu'à un maximum de #3[i] points d'énergie.",
+        "params": [
+            [
+                0.36,
+                0.0036,
+                180
+            ],
+            [
+                0.42,
+                0.0042,
+                180
+            ],
+            [
+                0.48,
+                0.0048,
+                180
+            ],
+            [
+                0.54,
+                0.0054,
+                180
+            ],
+            [
+                0.6,
+                0.006,
+                180
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.36
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.42
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.48
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.54
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.6
                 }
             ]
         ]

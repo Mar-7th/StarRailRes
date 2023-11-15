@@ -1024,7 +1024,7 @@
     "21007": {
         "id": "21007",
         "skill": "Cứu Chữa Và Tu Sửa",
-        "desc": "Tăng #1[i]% lượng trị liệu của người trang bị, đồng thời khi thi triển Chiến Kỹ, toàn bộ phe ta sẽ hồi #2[i] điểm Năng Lượng.",
+        "desc": "Tăng #1[i]% lượng trị liệu của người trang bị, đồng thời khi thi triển Chiến Kỹ, toàn bộ phe ta sẽ hồi #2[f1] điểm Năng Lượng.",
         "params": [
             [
                 0.1,
@@ -2412,6 +2412,70 @@
             ]
         ]
     },
+    "22001": {
+        "id": "22001",
+        "skill": "Không Sợ Đâu!",
+        "desc": "Khiến Giới Hạn HP của người trang bị tăng #1[i]%. Khi người trang bị thi triển Chiến Kỹ, lượng trị liệu tăng #2[i]%, duy trì #3[i] hiệp.",
+        "params": [
+            [
+                0.08,
+                0.16,
+                2
+            ],
+            [
+                0.09,
+                0.19,
+                2
+            ],
+            [
+                0.1,
+                0.22,
+                2
+            ],
+            [
+                0.11,
+                0.25,
+                2
+            ],
+            [
+                0.12,
+                0.28,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.08
+                }
+            ],
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.09
+                }
+            ],
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.1
+                }
+            ],
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.11
+                }
+            ],
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.12
+                }
+            ]
+        ]
+    },
     "23000": {
         "id": "23000",
         "skill": "Chòm Sao Băng",
@@ -3596,6 +3660,144 @@
                 {
                     "type": "CriticalChanceBase",
                     "value": 0.3
+                }
+            ]
+        ]
+    },
+    "23017": {
+        "id": "23017",
+        "skill": "Hít Thở Sâu",
+        "desc": "Tăng #1[i]% hiệu suất hồi phục Năng Lượng của người trang bị. Khi mục tiêu phe ta thi triển Tuyệt Kỹ, người trang bị sẽ hồi HP bằng #2[i]% Giới Hạn HP cho mục tiêu phe ta có Phần Trăm HP thấp nhất hiện tại. Khi người trang bị trị liệu cho mục tiêu phe ta, sẽ khiến tấn công của mục tiêu này tăng #3[f1]%, hiệu ứng này tối đa cộng dồn #4[i] tầng, duy trì #5[i] hiệp.",
+        "params": [
+            [
+                0.12,
+                0.1,
+                0.024,
+                5,
+                2
+            ],
+            [
+                0.14,
+                0.11,
+                0.028,
+                5,
+                2
+            ],
+            [
+                0.16,
+                0.12,
+                0.032,
+                5,
+                2
+            ],
+            [
+                0.18,
+                0.13,
+                0.036,
+                5,
+                2
+            ],
+            [
+                0.2,
+                0.14,
+                0.04,
+                5,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "SPRatioBase",
+                    "value": 0.12
+                }
+            ],
+            [
+                {
+                    "type": "SPRatioBase",
+                    "value": 0.14
+                }
+            ],
+            [
+                {
+                    "type": "SPRatioBase",
+                    "value": 0.16
+                }
+            ],
+            [
+                {
+                    "type": "SPRatioBase",
+                    "value": 0.18
+                }
+            ],
+            [
+                {
+                    "type": "SPRatioBase",
+                    "value": 0.2
+                }
+            ]
+        ]
+    },
+    "23018": {
+        "id": "23018",
+        "skill": "Kỵ Sĩ Hành Hương",
+        "desc": "Khiến sát thương bạo kích của người trang bị tăng #1[i]%. Khi người trang bị thi triển Tuyệt Kỹ, sẽ tăng sát thương Tuyệt Kỹ mà người trang bị gây ra theo giới hạn năng lượng của người trang bị: mỗi điểm năng lượng tăng #2[f2]%, tối đa #3[i] điểm năng lượng.",
+        "params": [
+            [
+                0.36,
+                0.0036,
+                180
+            ],
+            [
+                0.42,
+                0.0042,
+                180
+            ],
+            [
+                0.48,
+                0.0048,
+                180
+            ],
+            [
+                0.54,
+                0.0054,
+                180
+            ],
+            [
+                0.6,
+                0.006,
+                180
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.36
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.42
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.48
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.54
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.6
                 }
             ]
         ]
