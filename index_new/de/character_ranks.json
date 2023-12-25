@@ -3499,6 +3499,108 @@
         "level_up_skills": [],
         "icon": "icon/skill/1213_rank6.png"
     },
+    "121401": {
+        "id": "121401",
+        "name": "Dvesha, gefesselt",
+        "rank": 1,
+        "desc": "Erhöht den SCH durch Folgeangriffe des Talents um 40%.",
+        "materials": [
+            {
+                "id": "11214",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1214_rank1.png"
+    },
+    "121402": {
+        "id": "121402",
+        "name": "Klesha, durchbrochen",
+        "rank": 2,
+        "desc": "Der Folgeangriff des Talents verringert den WDS unabhängig vom Schwächetyp und stellt gleichzeitig Xueyis LP in Höhe von 5% ihrer max. LP wieder her. Wenn die Schwäche gebrochen wird, wird der Effekt „Schwächebruch: Quanten“ ausgelöst.",
+        "materials": [
+            {
+                "id": "11214",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1214_rank2.png"
+    },
+    "121403": {
+        "id": "121403",
+        "name": "Duhkha, ruhend",
+        "rank": 3,
+        "desc": "Fertigkeitsstufe +2 bis zu max. St. 15. Standardangriff-Stufe. +1 bis zu max. St. 10.",
+        "materials": [
+            {
+                "id": "11214",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "121402",
+                "num": 2
+            },
+            {
+                "id": "121401",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1214_skill.png"
+    },
+    "121404": {
+        "id": "121404",
+        "name": "Karma, durchtrennt",
+        "rank": 4,
+        "desc": "Erhöht den Brucheffekt dieser Einheit nach dem Einsatz des Ultimates für 2 Rd. um 40%.",
+        "materials": [
+            {
+                "id": "11214",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1214_rank4.png"
+    },
+    "121405": {
+        "id": "121405",
+        "name": "Deva, beschwingt",
+        "rank": 5,
+        "desc": "Ultimate-Stufe +2 bis max. St. 15. Talentstufe +2 bis max. St. 15.",
+        "materials": [
+            {
+                "id": "11214",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "121403",
+                "num": 2
+            },
+            {
+                "id": "121404",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1214_ultimate.png"
+    },
+    "121406": {
+        "id": "121406",
+        "name": "Samsara, gemeistert",
+        "rank": 6,
+        "desc": "Verringert die maximale Stapelung von „Karma“ auf 6.",
+        "materials": [
+            {
+                "id": "11214",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1214_rank6.png"
+    },
     "121501": {
         "id": "121501",
         "name": "Ein Herz",
@@ -3605,7 +3707,7 @@
         "id": "121701",
         "name": "Von Heliobi besessen, vom Bösen ergriffen",
         "rank": 1,
-        "desc": "Die Dauer von „Geopfertes Leben“, das vom Talent bewirkt wird, wird um 1 Runden verlängert. Wenn Huohuo Geopfertes Leben besitzt, wird die GES aller Verbündeten um 12% erhöht.",
+        "desc": "Die Dauer von „Gesegnete Heilung“, das vom Talent bewirkt wird, wird um 1 Runden verlängert. Wenn Huohuo Gesegnete Heilung besitzt, wird die GES aller Verbündeten um 12% erhöht.",
         "materials": [
             {
                 "id": "11217",
@@ -3619,7 +3721,7 @@
         "id": "121702",
         "name": "Im Schweif versiegelt, Geister besiegt",
         "rank": 2,
-        "desc": "Wenn Huohuo „Geopfertes Leben“ besitzt und ein Verbündeter von einem Todesstoß getroffen wird, wird der Verbündete nicht handlungsunfähig, sondern werden seine LP sofort in Höhe von 50% seiner max. LP wiederhergestellt. Dies reduziert die Dauer von Geopfertes Leben um 1 Runde. Dieser Effekt kann 2-mal pro Kampf ausgelöst werden.",
+        "desc": "Wenn Huohuo „Gesegnete Heilung“ besitzt und ein Verbündeter von einem Todesstoß getroffen wird, wird der Verbündete nicht handlungsunfähig, sondern werden seine LP sofort in Höhe von 50% seiner max. LP wiederhergestellt. Dies reduziert die Dauer von Gesegnete Heilung um 1 Rd. Dieser Effekt kann 2-mal pro Kampf ausgelöst werden.",
         "materials": [
             {
                 "id": "11217",
@@ -3707,7 +3809,7 @@
         "id": "130201",
         "name": "Ein Makel im Reich der Ästhetik",
         "rank": 1,
-        "desc": "Jede Stapelung „Aufsteigend“ erhöht den KRIT-SCH zusätzlich um 4%.",
+        "desc": "Jede Stapelung „Apotheose“ erhöht den KRIT-SCH zusätzlich um 4%.",
         "materials": [
             {
                 "id": "11302",
@@ -3758,7 +3860,7 @@
         "id": "130204",
         "name": "Fanfare der Widmung",
         "rank": 4,
-        "desc": "Erhält zu Beginn des Kampfes 2 Stapelung(en) „Aufsteigend“ und erhöht die max. Stapelung für das Talent um 2.",
+        "desc": "Erhält zu Beginn des Kampfes 2 Stapelung(en) „Apotheose“ und erhöht die max. Stapelung für das Talent um 2.",
         "materials": [
             {
                 "id": "11302",
@@ -3799,7 +3901,7 @@
         "id": "130206",
         "name": "Deine strahlende Pracht",
         "rank": 6,
-        "desc": "Nach dem Einsatz des Ultimates wird 30% die VTD des Zieles ignoriert.",
+        "desc": "Nach dem Einsatz des Ultimates wird 30% der VTD des Zieles ignoriert.",
         "materials": [
             {
                 "id": "11302",
@@ -3808,6 +3910,210 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1302_rank6.png"
+    },
+    "130301": {
+        "id": "130301",
+        "name": "Neuralstickerei",
+        "rank": 1,
+        "desc": "Während das Feld des Ultimates aktiv ist, ignoriert der von Verbündeten verursachte SCH 20% der VTD des Zieles.",
+        "materials": [
+            {
+                "id": "11303",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1303_rank1.png"
+    },
+    "130302": {
+        "id": "130302",
+        "name": "Schilfspaziergang",
+        "rank": 2,
+        "desc": "Wenn Ruan Mei am Kampf teilnimmt, wird der ANG von Verbündeten bei Angriffen auf Gegner mit Schwächebruch um 40% erhöht.",
+        "materials": [
+            {
+                "id": "11303",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1303_rank2.png"
+    },
+    "130303": {
+        "id": "130303",
+        "name": "Schillernd tanzendes Grün",
+        "rank": 3,
+        "desc": "Ultimate-Stufe +2 bis max. St. 15. Talentstufe +2 bis max. St. 15.",
+        "materials": [
+            {
+                "id": "11303",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130303",
+                "num": 2
+            },
+            {
+                "id": "130304",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1303_skill.png"
+    },
+    "130304": {
+        "id": "130304",
+        "name": "Göttliche Suche im bronzenen Spiegel",
+        "rank": 4,
+        "desc": "Wird die Schwäche eines Gegners gebrochen, steigt Ruan Meis Brucheffekt für 3 Rd. um 100%.",
+        "materials": [
+            {
+                "id": "11303",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1303_rank4.png"
+    },
+    "130305": {
+        "id": "130305",
+        "name": "Haarnadel des trägen Handwerkers",
+        "rank": 5,
+        "desc": "Fertigkeitsstufe +2 bis zu max. St. 15. Standardangriff-Stufe. +1 bis zu max. St. 10.",
+        "materials": [
+            {
+                "id": "11303",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130302",
+                "num": 2
+            },
+            {
+                "id": "130301",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1303_ultimate.png"
+    },
+    "130306": {
+        "id": "130306",
+        "name": "Vom Schleier halb bedeckt",
+        "rank": 6,
+        "desc": "Verlängert die aktive Dauer des vom Ultimate erzeugten Felds um 1 Rd. Der SCH-Multiplikator ihres Talents wird zusätzlich um 200% erhöht.",
+        "materials": [
+            {
+                "id": "11303",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1303_rank6.png"
+    },
+    "130501": {
+        "id": "130501",
+        "name": "Fluch des Hochmuts",
+        "rank": 1,
+        "desc": "Das Stapelungslimit für die Spur „Induktion“ wird um 4 erhöht. Gewährt zu Beginn des Kampfes sofort 4 Stapelung(en) Induktion. Induktion muss zuerst freigeschaltet sein.",
+        "materials": [
+            {
+                "id": "11305",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1305_rank1.png"
+    },
+    "130502": {
+        "id": "130502",
+        "name": "Mikroskopisch doch tiefgründig",
+        "rank": 2,
+        "desc": "Wenn Dr. Wahrheit mit einem Folgeangriff seines Talents einen Gegner angreift, fügt er für jeden Debuff des Ziels zusätzlichen imaginären SCH in Höhe von 20% von Dr. Wahrheits ANG zu. Dieser Effekt kann bei jedem Einsatz eines Folgeangriffs seines Talents bis zu 4-mal ausgelöst werden.",
+        "materials": [
+            {
+                "id": "11305",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1305_rank2.png"
+    },
+    "130503": {
+        "id": "130503",
+        "name": "Kenne dich selbst",
+        "rank": 3,
+        "desc": "Ultimate-Stufe +2 bis max. St. 15. Standardangriff-Stufe +1 bis max. St. 10.",
+        "materials": [
+            {
+                "id": "11305",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130503",
+                "num": 2
+            },
+            {
+                "id": "130501",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1305_skill.png"
+    },
+    "130504": {
+        "id": "130504",
+        "name": "Unwissen zeugt Dummheit",
+        "rank": 4,
+        "desc": "Wenn Dr. Wahrheits Talent ausgelöst wird, stellt er zusätzlich 15 Pkt. Energie wieder her.",
+        "materials": [
+            {
+                "id": "11305",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1305_rank4.png"
+    },
+    "130505": {
+        "id": "130505",
+        "name": "Ruderlos auf dem Ozean",
+        "rank": 5,
+        "desc": "Fertigkeitsstufe +2 bis max. St. 15.\\nTalentstufe +2 bis max. St. 15.",
+        "materials": [
+            {
+                "id": "11305",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130502",
+                "num": 2
+            },
+            {
+                "id": "130504",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1305_ultimate.png"
+    },
+    "130506": {
+        "id": "130506",
+        "name": "Ewige Wahrheit",
+        "rank": 6,
+        "desc": "Erhöht die Auslösungsanzahl für „Torheit der Weisen“ um 1. Der SCH durch den Folgeangriff des Talents wird um 50% erhöht.",
+        "materials": [
+            {
+                "id": "11305",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1305_rank6.png"
     },
     "800101": {
         "id": "800101",

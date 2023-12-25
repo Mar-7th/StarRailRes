@@ -3667,7 +3667,7 @@
     "23017": {
         "id": "23017",
         "skill": "Atme tief durch",
-        "desc": "Erhöht die Energie-Wiederherstellungsrate des Trägers um #1[i]%. Wenn ein Verbündeter seinen Ultimate einsetzt, stellt der Träger bei einem Verbündeten mit dem niedrigsten LP-Prozentsatz in Höhe von #2[i]% seiner max. LP wieder her. Wenn der Träger Verbündete heilt, wird der ANG des geheilten Verbündeten um #3[f1]% erhöht. Dieser Effekt ist bis zu #4[i]-fach stapelbar und hält #5[i] Rd. an.",
+        "desc": "Erhöht die Energie-Wiederherstellungsrate des Trägers um #1[i]%. Wenn ein Verbündeter seinen Ultimate einsetzt, stellt der Träger bei einem Verbündeten mit dem niedrigsten LP-Prozentsatz LP in Höhe von #2[i]% seiner max. LP wieder her. Wenn der Träger Verbündete heilt, wird der ANG des geheilten Verbündeten um #3[f1]% erhöht. Dieser Effekt ist bis zu #4[i]-fach stapelbar und hält #5[i] Rd. an.",
         "params": [
             [
                 0.12,
@@ -3741,7 +3741,7 @@
     "23018": {
         "id": "23018",
         "skill": "Ritterreise",
-        "desc": "Erhöht den KRIT-SCH des Trägers um #1[i]%. Erhöht beim Einsatz des Ultimates den vom Träger verursachten SCH basierend auf seiner max. Energie: jeder Pkt. Energie erhöht den SCH um #2[f2]%, bis max. #3[i] Pkt.",
+        "desc": "Erhöht den KRIT-SCH des Trägers um #1[i]%. Erhöht beim Einsatz des Ultimates den vom Träger verursachten SCH basierend auf seiner max. Energie: Jeder Pkt. Energie erhöht den SCH um #2[f2]%, bis max. #3[i] Pkt.",
         "params": [
             [
                 0.36,
@@ -3798,6 +3798,159 @@
                 {
                     "type": "CriticalDamageBase",
                     "value": 0.6
+                }
+            ]
+        ]
+    },
+    "23019": {
+        "id": "23019",
+        "skill": "Pflaumenduft",
+        "desc": "Erhöht den Brucheffekt des Trägers um #1[i]%. Wenn der Träger seinen Ultimate einsetzt, wird der verursachte SCH für #3[i] Rd. um #2[i]% erhöht. Wenn der Brucheffekt des Trägers #4[i]% oder mehr beträgt, wird 1 Fertigkeitspunkt wiederhergestellt.\nZu Beginn jeder Kampfwelle werden bei allen Verbündeten #5[f1] Pkt. Energie wiederhergestellt. Effekte desselben Typs sind nicht stapelbar.",
+        "params": [
+            [
+                0.6,
+                0.24,
+                3,
+                1.5,
+                10
+            ],
+            [
+                0.7,
+                0.28,
+                3,
+                1.5,
+                12.5
+            ],
+            [
+                0.8,
+                0.32,
+                3,
+                1.5,
+                15
+            ],
+            [
+                0.9,
+                0.36,
+                3,
+                1.5,
+                17.5
+            ],
+            [
+                1,
+                0.4,
+                3,
+                1.5,
+                20
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.6
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.7
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.8
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.9
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 1
+                }
+            ]
+        ]
+    },
+    "23020": {
+        "id": "23020",
+        "skill": "Denktraining",
+        "desc": "Erhöht den KRIT-SCH des Trägers um #1[i]%. Für jeden Debuff auf dem gegnerischen Ziel erhöht sich der KRIT-SCH des Trägers um #2[i]%, bis zu einem Maximum von #3[i] Stapelungen. Wenn der Träger das Ziel mit seinem Ultimate angreift, erhält er den Effekt Debatte, der den zugefügten SCH um #4[i]% erhöht, und seine Folgeangriffe ignorieren #5[i]% der VTD des Ziels. Dieser Effekt hält für #6[i] Rd. an.",
+        "params": [
+            [
+                0.2,
+                0.08,
+                3,
+                0.36,
+                0.24,
+                2
+            ],
+            [
+                0.23,
+                0.09,
+                3,
+                0.42,
+                0.28,
+                2
+            ],
+            [
+                0.26,
+                0.1,
+                3,
+                0.48,
+                0.32,
+                2
+            ],
+            [
+                0.29,
+                0.11,
+                3,
+                0.54,
+                0.36,
+                2
+            ],
+            [
+                0.32,
+                0.12,
+                3,
+                0.6,
+                0.4,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.2
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.23
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.26
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.29
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.32
                 }
             ]
         ]

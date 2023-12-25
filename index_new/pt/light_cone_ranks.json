@@ -3598,7 +3598,7 @@
     "23016": {
         "id": "23016",
         "skill": "Um De Cada Vez",
-        "desc": "Aumenta a Chance de CRIT do usuário em #1[i]% e o Dano dos seus Ataques Extras em #2[i]%. Após o usuário utilizar um Ataque Extra, aplica o estado de Domesticação ao alvo, acumulando até #4[i] vezes. Quando os aliados atingem inimigos-alvo sob o estado de Domesticação, cada acúmulo de Domesticação aumenta o Dano CRIT causado em #3[i]%.",
+        "desc": "Aumenta o Chance de CRIT do usuário em #1[i]% e o Dano dos seus Ataques Extras em #2[i]%. Após o usuário utilizar um Ataque Extra, aplica o estado de Domesticação ao alvo, acumulando até #4[i] vezes. Quando os aliados atingem inimigos-alvo sob o estado de Domesticação, cada acúmulo de Domesticação aumenta o Dano CRIT causado em #3[i]%.",
         "params": [
             [
                 0.18,
@@ -3802,10 +3802,163 @@
             ]
         ]
     },
+    "23019": {
+        "id": "23019",
+        "skill": "A Fragrância de Ameixa em Meus Ossos",
+        "desc": "Aumenta o Efeito de Quebra do usuário em #1[i]%. Quando o usuário utiliza sua Perícia Suprema, aumenta o Dano de todos os aliados em #2[i]%, durando por #3[i] rodada(s). Se o Efeito de Quebra for igual ou maior a #4[i]%, 1 Ponto de Perícia será recuperado. No início de cada onda, todos os aliados regeneram #5[f1] de Energia imediatamente. Os efeitos do mesmo tipo não podem ser acumulados.",
+        "params": [
+            [
+                0.6,
+                0.24,
+                3,
+                1.5,
+                10
+            ],
+            [
+                0.7,
+                0.28,
+                3,
+                1.5,
+                12.5
+            ],
+            [
+                0.8,
+                0.32,
+                3,
+                1.5,
+                15
+            ],
+            [
+                0.9,
+                0.36,
+                3,
+                1.5,
+                17.5
+            ],
+            [
+                1,
+                0.4,
+                3,
+                1.5,
+                20
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.6
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.7
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.8
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.9
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 1
+                }
+            ]
+        ]
+    },
+    "23020": {
+        "id": "23020",
+        "skill": "Treinamento Mental",
+        "desc": "Aumenta o Dano CRIT do usuário em #1[i]%. Para cada penalidade no inimigo-alvo, o Dano CRIT causado pelo usuário ao alvo aumenta em #2[i]%, acumulando até um máximo de #3[i] vezes. Quando o usuário ataca o inimigo-alvo com sua Perícia Suprema, ele recebe o efeito Disputa, que aumenta o Dano causado em #4[i]% e permite que seus Ataques Extras ignorem #5[i]% da DEF do alvo. Este efeito dura #6[i] rodadas.",
+        "params": [
+            [
+                0.2,
+                0.08,
+                3,
+                0.36,
+                0.24,
+                2
+            ],
+            [
+                0.23,
+                0.09,
+                3,
+                0.42,
+                0.28,
+                2
+            ],
+            [
+                0.26,
+                0.1,
+                3,
+                0.48,
+                0.32,
+                2
+            ],
+            [
+                0.29,
+                0.11,
+                3,
+                0.54,
+                0.36,
+                2
+            ],
+            [
+                0.32,
+                0.12,
+                3,
+                0.6,
+                0.4,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.2
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.23
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.26
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.29
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.32
+                }
+            ]
+        ]
+    },
     "24000": {
         "id": "24000",
         "skill": "Mariposa às Chamas",
-        "desc": "Sempre que o usuário atacar, o seu ATQ é aumentado em #1[i]% durante a batalha. Este efeito pode acumular até #2[i] vez(es). Quando o usuário infligir Quebra de Fraqueza nos inimigos, aumenta em #3[i]% o Dano do usuário por #4[i] rodada(s).",
+        "desc": "Sempre que o usuário atacar, o seu ATQ é aumentado em #1[i]% durante a batalha. Este efeito pode acumular até #2[i] vez(es). Após um personagem infligir Quebra de Fraqueza a um inimigo, aumenta em #3[i]% o Dano do usuário por #4[i] rodada(s).",
         "params": [
             [
                 0.08,

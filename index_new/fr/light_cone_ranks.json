@@ -192,7 +192,7 @@
     "20005": {
         "id": "20005",
         "skill": "De concert",
-        "desc": "Augmente l'ATQ de tous les alliés de #1[i]% après être entré en combat. Les effets du même type ne sont pas cumulables.",
+        "desc": "Augmente l'ATQ de tous les alliés de #1[i]% après être entré en combat. Les effets du même type ne peuvent pas être cumulés.",
         "params": [
             [
                 0.08
@@ -779,7 +779,7 @@
     "21002": {
         "id": "21002",
         "skill": "À cet instant précis",
-        "desc": "Augmente la DÉF du porteur de #1[i]%. Toutes les RÉS de type de tous les alliés augmentent de #2[i]% après être entré en combat. Les effets du même type ne sont pas cumulables.",
+        "desc": "Augmente la DÉF du porteur de #1[i]%. Toutes les RÉS de type de tous les alliés augmentent de #2[i]% après être entré en combat. Les effets du même type ne peuvent pas être cumulés.",
         "params": [
             [
                 0.16,
@@ -3741,7 +3741,7 @@
     "23018": {
         "id": "23018",
         "skill": "Un chevalier en pèlerinage",
-        "desc": "Augmente les DGT critiques du porteur de #1[i]%. Lorsque le porteur lance son ultime, augmente les DGT de l'ultime du porteur en fonction de son énergie max. Chaque point d'énergie augmente les DGT de #2[f2]%, jusqu'à un maximum de #3[i] points d'énergie.",
+        "desc": "Augmente les DGT critiques du porteur de #1[i]%. Lorsque le porteur lance son ultime, augmente les DGT de l'ultime du porteur en fonction de son énergie max. Chaque point d'énergie augmente les DGT de l'ultime de #2[f2]%, jusqu'à un maximum de #3[i] points d'énergie.",
         "params": [
             [
                 0.36,
@@ -3798,6 +3798,159 @@
                 {
                     "type": "CriticalDamageBase",
                     "value": 0.6
+                }
+            ]
+        ]
+    },
+    "23019": {
+        "id": "23019",
+        "skill": "La fragrance prune de mes os",
+        "desc": "Augmente l'effet de Rupture du porteur de #1[i]%. Augmente les DGT de tous les alliés de #2[i]% pendant #3[i] tours lorsque le porteur utilise son ultime. Si l'effet de Rupture du porteur est supérieur ou égal à #4[i]%, il récupère 1 point de compétence. Tous les alliés régénèrent immédiatement #5[f1] points d'énergie au début de chaque vague. Les effets du même type ne peuvent pas être cumulés.",
+        "params": [
+            [
+                0.6,
+                0.24,
+                3,
+                1.5,
+                10
+            ],
+            [
+                0.7,
+                0.28,
+                3,
+                1.5,
+                12.5
+            ],
+            [
+                0.8,
+                0.32,
+                3,
+                1.5,
+                15
+            ],
+            [
+                0.9,
+                0.36,
+                3,
+                1.5,
+                17.5
+            ],
+            [
+                1,
+                0.4,
+                3,
+                1.5,
+                20
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.6
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.7
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.8
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.9
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 1
+                }
+            ]
+        ]
+    },
+    "23020": {
+        "id": "23020",
+        "skill": "Entraînement mental",
+        "desc": "Augmente les DGT critiques du porteur de #1[i]%. Les DGT critiques du porteur augmentent de #2[i]% supplémentaires pour chaque malus subi par la cible ennemie, jusqu'à un maximum de #3[i] cumuls. Lorsque le porteur attaque une cible avec son ultime, il bénéficie de l'effet Débat, qui augmente les DGT qu'il inflige de #4[i]% et ses attaques de suivi ignorent #5[i]% de la DÉF de la cible. Cet effet dure #6[i] tours.",
+        "params": [
+            [
+                0.2,
+                0.08,
+                3,
+                0.36,
+                0.24,
+                2
+            ],
+            [
+                0.23,
+                0.09,
+                3,
+                0.42,
+                0.28,
+                2
+            ],
+            [
+                0.26,
+                0.1,
+                3,
+                0.48,
+                0.32,
+                2
+            ],
+            [
+                0.29,
+                0.11,
+                3,
+                0.54,
+                0.36,
+                2
+            ],
+            [
+                0.32,
+                0.12,
+                3,
+                0.6,
+                0.4,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.2
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.23
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.26
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.29
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.32
                 }
             ]
         ]

@@ -351,7 +351,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Réduit la robustesse de l'ennemi au type correspondant en entrant en combat après l'avoir attaqué.",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
         "params": [],
         "icon": "icon/skill/1001_basic_atk.png"
     },
@@ -682,7 +682,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Réduit la robustesse de l'ennemi au type correspondant en entrant en combat après l'avoir attaqué.",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
         "params": [],
         "icon": "icon/skill/1002_basic_atk.png"
     },
@@ -982,7 +982,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Réduit la robustesse de l'ennemi au type correspondant en entrant en combat après l'avoir attaqué.",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
         "params": [],
         "icon": "icon/skill/1003_basic_atk.png"
     },
@@ -1329,7 +1329,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Réduit la robustesse de l'ennemi au type correspondant en entrant en combat après l'avoir attaqué.",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
         "params": [],
         "icon": "icon/skill/1004_basic_atk.png"
     },
@@ -1406,7 +1406,7 @@
         "type_text": "Compétence",
         "effect": "Blast",
         "effect_text": "Propagation",
-        "simple_desc": "Inflige des DGT de foudre à un ennemi unique et des DGT de foudre mineurs aux cibles adjacentes.\nSi la cible ennemie subit actuellement un effet de dégâts sur la durée, ces dégâts s'activent 1 fois supplémentaire.",
+        "simple_desc": "Inflige des DGT de foudre à un ennemi unique et des DGT de foudre mineurs aux cibles adjacentes.\nSi la cible principale est actuellement affectée par un effet de dégâts sur la durée, les dégâts sur la durée infligent des DGT 1 fois supplémentaire.",
         "desc": "Inflige des DGT de foudre équivalents à #1[i]% de l'ATQ de Kafka à une cible ennemie et des DGT de foudre équivalents à #3[i]% de l'ATQ de Kafka aux ennemis adjacents.\nSi la cible ennemie est soumise à des dégâts sur la durée, tous les dégâts sur la durée qu'elle subit actuellement produisent immédiatement des DGT équivalents à #2[i]% des DGT initiaux.",
         "params": [
             [
@@ -1496,7 +1496,7 @@
         "type_text": "Ultime",
         "effect": "AoEAttack",
         "effect_text": "ZdE",
-        "simple_desc": "Inflige des DGT de foudre mineurs à tous les ennemis, avec de fortes chances de les stupéfier.\nSi les ennemis sont déjà stupéfiés, l'état Stupéfaction inflige des dégâts 1 fois de plus.",
+        "simple_desc": "Inflige des DGT de foudre mineurs à tous les ennemis, avec de fortes chances de les stupéfier.\nSi les ennemis sont déjà stupéfiés, l'état Stupéfaction inflige des DGT 1 fois supplémentaire.",
         "desc": "Inflige des DGT de foudre équivalents à #1[i]% de l'ATQ de Kafka à tous les ennemis. Les ennemis touchés ont #2[i]% de chances de base d'être stupéfiés et de subir immédiatement des dégâts équivalents à #5[i]% des DGT initiaux de l'effet Stupéfaction. Stupéfaction dure #3[i] tours.\nLes ennemis stupéfiés subissent des dégâts de foudre sur la durée équivalents à #4[i]% de l'ATQ de Kafka au début de chaque tour.",
         "params": [
             [
@@ -1616,7 +1616,7 @@
         "type_text": "Talent",
         "effect": "SingleAttack",
         "effect_text": "Cible unique",
-        "simple_desc": "Lorsqu'un allié lance son ATQ normale sur un ennemi, Kafka lance immédiatement une attaque de suivi et inflige des DGT de foudre, avec de fortes chances d'infliger Stupéfaction à cette cible. Cet effet ne peut être déclenché que 1 fois par tour.",
+        "simple_desc": "Lorsqu'un allié utilise son ATQ normale sur un ennemi, Kafka lance immédiatement une attaque de suivi et inflige des DGT de foudre, avec de fortes chances d'infliger Stupéfaction à cette cible. Cet effet ne peut être déclenché que 1 fois par tour.",
         "desc": "Lorsqu'un allié de Kafka utilise une ATQ normale sur une cible ennemie, Kafka lance immédiatement 1 attaque de suivi et inflige des DGT de foudre équivalents à #1[i]% de son ATQ à cette cible, avec #2[i]% de chances de base de lui infliger l'effet Stupéfaction de son ultime pendant #3[i] tours. Cet effet ne peut être déclenché que 1 fois par tour.",
         "params": [
             [
@@ -1707,7 +1707,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Réduit la robustesse de l'ennemi au type correspondant en entrant en combat après l'avoir attaqué.",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
         "params": [],
         "icon": "icon/skill/1005_basic_atk.png"
     },
@@ -1720,7 +1720,7 @@
         "type_text": "Technique",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "Attaque les ennemis à portée. Inflige des DGT de foudre mineurs à tous les ennemis avec de fortes chances de les stupéfier après être entré en combat.",
+        "simple_desc": "Attaque tous les ennemis à portée. Après être entré en combat, inflige des DGT de foudre mineurs à tous les ennemis, avec une forte probabilité de leur infliger Stupéfaction.",
         "desc": "Attaque immédiatement tous les ennemis dans un rayon déterminé. Inflige des DGT de foudre équivalents à #3[i]% de l'ATQ de Kafka à tous les ennemis après être entrée en combat, avec #1[i]% de chances de base d'infliger l'effet Stupéfaction de l'ultime à chaque ennemi pendant #2[i] tours.",
         "params": [
             [
@@ -1780,8 +1780,8 @@
         "element": "Quantum",
         "type": "BPSkill",
         "type_text": "Compétence",
-        "effect": "Impair",
-        "effect_text": "Incapacitation",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
         "simple_desc": "Fortes chances d'appliquer une Faiblesse de type supplémentaire à un ennemi unique et de lui infliger des DGT quantiques.",
         "desc": "Il y a #2[i]% de chances de base d'appliquer 1 Faiblesse du type d'un personnage présent sur le champ de bataille à une cible ennemie. Réduit également la RÉS aux DGT de ce type de faiblesse de l'ennemi de #4[i]% pendant #3[i] tours. Si l'ennemi a déjà ce type de faiblesse, l'effet de réduction de RÉS aux DGT ne sera pas déclenché.\nChaque ennemi ne peut avoir qu'une seule Faiblesse appliquée par Louve d'argent à la fois. Si Louve d'argent applique une nouvelle Faiblesse, elle remplace la précédente.\nD'autre part, il y a #5[i]% de chances de base de réduire toutes les RÉS de type de l'ennemi de #6[f1]% pendant #7[i] tours.\nInflige des DGT quantiques équivalents à #1[i]% de l'ATQ de Louve d'argent à cet ennemi.",
         "params": [
@@ -1930,8 +1930,8 @@
         "element": "Quantum",
         "type": "Ultra",
         "type_text": "Ultime",
-        "effect": "Impair",
-        "effect_text": "Incapacitation",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
         "simple_desc": "Fortes chances de réduire la DÉF d'un ennemi unique et inflige des DGT quantiques massifs à cette cible ennemie.",
         "desc": "Il y a #2[i]% de chances de base de réduire la DÉF d'une cible ennemie de #3[f1]% pendant #4[i] tours. D'autre part, inflige à la cible ennemie des DGT quantiques équivalent à #1[i]% de l'ATQ de Louve d'argent.",
         "params": [
@@ -2158,7 +2158,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Réduit la robustesse de l'ennemi au type correspondant en entrant en combat après l'avoir attaqué.",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
         "params": [],
         "icon": "icon/skill/1006_basic_atk.png"
     },
@@ -2442,7 +2442,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Réduit la robustesse de l'ennemi au type correspondant en entrant en combat après l'avoir attaqué.",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
         "params": [],
         "icon": "icon/skill/1008_basic_atk.png"
     },
@@ -2741,7 +2741,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Réduit la robustesse de l'ennemi au type correspondant en entrant en combat après l'avoir attaqué.",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
         "params": [],
         "icon": "icon/skill/1009_basic_atk.png"
     },
@@ -3040,7 +3040,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Réduit la robustesse de l'ennemi au type correspondant en entrant en combat après l'avoir attaqué.",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
         "params": [],
         "icon": "icon/skill/1013_basic_atk.png"
     },
@@ -3385,7 +3385,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Réduit la robustesse de l'ennemi au type correspondant en entrant en combat après l'avoir attaqué.",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
         "params": [],
         "icon": "icon/skill/1101_basic_atk.png"
     },
@@ -3685,7 +3685,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Réduit la robustesse de l'ennemi au type correspondant en entrant en combat après l'avoir attaqué.",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
         "params": [],
         "icon": "icon/skill/1102_basic_atk.png"
     },
@@ -4014,7 +4014,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Réduit la robustesse de l'ennemi au type correspondant en entrant en combat après l'avoir attaqué.",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
         "params": [],
         "icon": "icon/skill/1103_basic_atk.png"
     },
@@ -4088,8 +4088,8 @@
         "element": "Ice",
         "type": "BPSkill",
         "type_text": "Compétence",
-        "effect": "Impair",
-        "effect_text": "Incapacitation",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
         "simple_desc": "Inflige des DGT de glace à un ennemi unique, avec une chance de le geler.",
         "desc": "Inflige des DGT de glace équivalents à #1[i]% de l'ATQ de Gepard à un ennemi unique avec #2[i]% de chances de base de geler l'ennemi pendant #3[i] tour.\nUn ennemi gelé ne peut pas agir et subit des DGT de glace additionnels équivalents à #4[i]% de l'ATQ de Gepard au début de chaque tour.",
         "params": [
@@ -4346,7 +4346,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Réduit la robustesse de l'ennemi au type correspondant en entrant en combat après l'avoir attaqué.",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
         "params": [],
         "icon": "icon/skill/1104_basic_atk.png"
     },
@@ -4421,7 +4421,7 @@
         "type_text": "Compétence",
         "effect": "Restore",
         "effect_text": "Restauration",
-        "simple_desc": "Restaure les PV d'un allié unique et le soigne continuellement.",
+        "simple_desc": "Restaure des PV à un allié unique et lui prodigue des soins continus.",
         "desc": "Soigne un allié unique à hauteur de #1[f1]% des PV max de Natasha + #4[i]. Soigne encore l'allié à hauteur de #2[f1]% des PV max de Natasha + #5[i] au début de chaque tour pendant #3[i] tours.",
         "params": [
             [
@@ -4692,7 +4692,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Réduit la robustesse de l'ennemi au type correspondant en entrant en combat après l'avoir attaqué.",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
         "params": [],
         "icon": "icon/skill/1105_basic_atk.png"
     },
@@ -4766,8 +4766,8 @@
         "element": "Ice",
         "type": "BPSkill",
         "type_text": "Compétence",
-        "effect": "Impair",
-        "effect_text": "Incapacitation",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
         "simple_desc": "Dissipe 1 bonus d'une cible ennemie unique, et inflige des DGT de glace à la cible ennemie.",
         "desc": "Supprime #2[i] bonus et inflige des DGT de glace équivalents à #1[i]% de l'ATQ de Pela à une cible ennemie unique.",
         "params": [
@@ -4841,8 +4841,8 @@
         "element": "Ice",
         "type": "Ultra",
         "type_text": "Ultime",
-        "effect": "Impair",
-        "effect_text": "Incapacitation",
+        "effect": "AoEAttack",
+        "effect_text": "ZdE",
         "simple_desc": "A de fortes chances de diminuer la DÉF des ennemis et inflige des DGT de glace mineurs à tous les ennemis.",
         "desc": "Inflige des DGT de glace équivalents à #4[i]% de l'ATQ de Pela à tous les ennemis, avec #1[i]% de chances de base d'infliger Exposé à tous les ennemis.\nLorsqu'ils sont exposés, les ennemis voient leur DÉF réduite de #2[i]% pendant #3[i] tours.",
         "params": [
@@ -5009,7 +5009,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Réduit la robustesse de l'ennemi au type correspondant en entrant en combat après l'avoir attaqué.",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
         "params": [],
         "icon": "icon/skill/1106_basic_atk.png"
     },
@@ -5371,7 +5371,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Réduit la robustesse de l'ennemi au type correspondant en entrant en combat après l'avoir attaqué.",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
         "params": [],
         "icon": "icon/skill/1107_basic_atk.png"
     },
@@ -5518,8 +5518,8 @@
         "element": "Wind",
         "type": "Ultra",
         "type_text": "Ultime",
-        "effect": "Impair",
-        "effect_text": "Incapacitation",
+        "effect": "AoEAttack",
+        "effect_text": "ZdE",
         "simple_desc": "Inflige des DGT de vent à tous les ennemis, avec de fortes chances de leur infliger des dégâts sur la durée accrus.",
         "desc": "Inflige des DGT de vent équivalents à #1[i]% de l'ATQ de Sampo à tous les ennemis, avec #4[i]% de chances de base d'augmenter les dégâts sur la durée subis par les cibles de #2[i]% pendant #3[i] tours.",
         "params": [
@@ -5731,7 +5731,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Réduit la robustesse de l'ennemi au type correspondant en entrant en combat après l'avoir attaqué.",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
         "params": [],
         "icon": "icon/skill/1108_basic_atk.png"
     },
@@ -6047,7 +6047,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Réduit la robustesse de l'ennemi au type correspondant en entrant en combat après l'avoir attaqué.",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
         "params": [],
         "icon": "icon/skill/1109_basic_atk.png"
     },
@@ -6589,7 +6589,7 @@
         "effect": "SingleAttack",
         "effect_text": "Cible unique",
         "simple_desc": "",
-        "desc": "Réduit la robustesse de l'ennemi au type correspondant en entrant en combat après l'avoir attaqué.",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
         "params": [],
         "icon": "icon/skill/1110_basic_atk.png"
     },
@@ -6978,7 +6978,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Réduit la robustesse de l'ennemi au type correspondant en entrant en combat après l'avoir attaqué.",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
         "params": [],
         "icon": "icon/skill/1111_basic_atk.png"
     },
@@ -7374,7 +7374,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Réduit la robustesse de l'ennemi au type correspondant en entrant en combat après l'avoir attaqué.",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
         "params": [],
         "icon": "icon/skill/1112_basic_atk.png"
     },
@@ -7659,7 +7659,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Réduit la robustesse de l'ennemi au type correspondant en entrant en combat après l'avoir attaqué.",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
         "params": [],
         "icon": "icon/skill/1201_basic_atk.png"
     },
@@ -8039,7 +8039,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Réduit la robustesse de l'ennemi au type correspondant en entrant en combat après l'avoir attaqué.",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
         "params": [],
         "icon": "icon/skill/1202_basic_atk.png"
     },
@@ -8398,7 +8398,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Réduit la robustesse de l'ennemi au type correspondant en entrant en combat après l'avoir attaqué.",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
         "params": [],
         "icon": "icon/skill/1203_basic_atk.png"
     },
@@ -8753,7 +8753,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Réduit la robustesse de l'ennemi au type correspondant en entrant en combat après l'avoir attaqué.",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
         "params": [],
         "icon": "icon/skill/1204_basic_atk.png"
     },
@@ -8826,7 +8826,7 @@
         "type_text": "Compétence",
         "effect": "Enhance",
         "effect_text": "Renforcement",
-        "simple_desc": "Consomme des PV pour renforcer l'ATQ normale, sans mettre fin au tour.",
+        "simple_desc": "Consomme des PV pour renforcer son ATQ normale sans mettre fin au tour.",
         "desc": "Consomme #1[i]% des PV max de Blade pour entrer dans l'état Vue de l'enfer.\nLorsque l'état Vue de l'enfer est actif, Blade ne peut plus utiliser sa compétence, mais les DGT qu'il inflige augmentent de #4[i]%, et son ATQ normale Lame d'éclat se renforce en Forêt de lames pendant #2[i] tours.\nSi les PV de Blade sont insuffisants pour utiliser la compétence, ils tombent à 1 après utilisation de la compétence.\nCette compétence ne régénère pas l'énergie. Utiliser cette compétence ne met pas fin au tour.",
         "params": [
             [
@@ -9187,7 +9187,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Réduit la robustesse de l'ennemi au type correspondant en entrant en combat après l'avoir attaqué.",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
         "params": [],
         "icon": "icon/skill/1205_basic_atk.png"
     },
@@ -9610,7 +9610,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Réduit la robustesse de l'ennemi au type correspondant en entrant en combat après l'avoir attaqué.",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
         "params": [],
         "icon": "icon/skill/1206_basic_atk.png"
     },
@@ -9939,7 +9939,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Réduit la robustesse de l'ennemi au type correspondant en entrant en combat après l'avoir attaqué.",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
         "params": [],
         "icon": "icon/skill/1207_basic_atk.png"
     },
@@ -10285,7 +10285,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Réduit la robustesse de l'ennemi au type correspondant en entrant en combat après l'avoir attaqué.",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
         "params": [],
         "icon": "icon/skill/1208_basic_atk.png"
     },
@@ -10645,7 +10645,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Réduit la robustesse de l'ennemi au type correspondant en entrant en combat après l'avoir attaqué.",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
         "params": [],
         "icon": "icon/skill/1209_basic_atk.png"
     },
@@ -11051,7 +11051,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Réduit la robustesse de l'ennemi au type correspondant en entrant en combat après l'avoir attaqué.",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
         "params": [],
         "icon": "icon/skill/1210_basic_atk.png"
     },
@@ -11442,7 +11442,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Réduit la robustesse de l'ennemi au type correspondant en entrant en combat après l'avoir attaqué.",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
         "params": [],
         "icon": "icon/skill/1211_basic_atk.png"
     },
@@ -11846,7 +11846,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Réduit la robustesse de l'ennemi au type correspondant en entrant en combat après l'avoir attaqué.",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
         "params": [],
         "icon": "icon/skill/1212_basic_atk.png"
     },
@@ -12270,7 +12270,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Réduit la robustesse de l'ennemi au type correspondant en entrant en combat après l'avoir attaqué.",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
         "params": [],
         "icon": "icon/skill/1213_basic_atk.png"
     },
@@ -12451,6 +12451,335 @@
             ]
         ],
         "icon": "icon/skill/1213_basic_atk.png"
+    },
+    "121401": {
+        "id": "121401",
+        "name": "Pique scindemara",
+        "max_level": 9,
+        "element": "Quantum",
+        "type": "Normal",
+        "type_text": "ATQ normale",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "Inflige des DGT quantiques mineurs à un ennemi unique.",
+        "desc": "Inflige des DGT quantiques à hauteur de #1[i]% de l'ATQ de Xueyi à une cible unique.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1214_basic_atk.png"
+    },
+    "121402": {
+        "id": "121402",
+        "name": "Éradication des péchés",
+        "max_level": 15,
+        "element": "Quantum",
+        "type": "BPSkill",
+        "type_text": "Compétence",
+        "effect": "Blast",
+        "effect_text": "Propagation",
+        "simple_desc": "Inflige des DGT quantiques à un ennemi unique et des DGT quantiques mineurs aux ennemis adjacents.",
+        "desc": "Inflige des DGT quantiques équivalents à #1[i]% de l'ATQ de Xueyi à un ennemi unique et des DGT quantiques équivalents à #2[i]% de son ATQ aux ennemis adjacents.",
+        "params": [
+            [
+                0.7,
+                0.35
+            ],
+            [
+                0.77,
+                0.385
+            ],
+            [
+                0.84,
+                0.42
+            ],
+            [
+                0.91,
+                0.455
+            ],
+            [
+                0.98,
+                0.49
+            ],
+            [
+                1.05,
+                0.525
+            ],
+            [
+                1.1375,
+                0.5688
+            ],
+            [
+                1.225,
+                0.6125
+            ],
+            [
+                1.3125,
+                0.6563
+            ],
+            [
+                1.4,
+                0.7
+            ],
+            [
+                1.47,
+                0.735
+            ],
+            [
+                1.54,
+                0.77
+            ],
+            [
+                1.61,
+                0.805
+            ],
+            [
+                1.68,
+                0.84
+            ],
+            [
+                1.75,
+                0.875
+            ]
+        ],
+        "icon": "icon/skill/1214_skill.png"
+    },
+    "121403": {
+        "id": "121403",
+        "name": "Châtiment divin",
+        "max_level": 15,
+        "element": "Quantum",
+        "type": "Ultra",
+        "type_text": "Ultime",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "Inflige des DGT quantiques massifs à un ennemi. Cette attaque ignore les types de faiblesse et réduit la robustesse de la cible. Plus la robustesse de l'ennemi est réduite, plus les DGT sont élevés.",
+        "desc": "Inflige des DGT quantiques équivalents à #1[i]% de l'ATQ de Xueyi à un ennemi unique. Cette attaque ignore les types de faiblesse et réduit la robustesse de la cible. L'effet de la Rupture de faiblesse quantique se déclenche en cas de Rupture de faiblesse.\nPlus la robustesse est faible, plus les DGT infligés par cette attaque sont élevés, jusqu'à un maximum de #3[f1]%.",
+        "params": [
+            [
+                1.5,
+                0.09,
+                0.36
+            ],
+            [
+                1.6,
+                0.096,
+                0.384
+            ],
+            [
+                1.7,
+                0.102,
+                0.408
+            ],
+            [
+                1.8,
+                0.108,
+                0.432
+            ],
+            [
+                1.9,
+                0.114,
+                0.456
+            ],
+            [
+                2,
+                0.12,
+                0.48
+            ],
+            [
+                2.125,
+                0.1275,
+                0.51
+            ],
+            [
+                2.25,
+                0.135,
+                0.54
+            ],
+            [
+                2.375,
+                0.1425,
+                0.57
+            ],
+            [
+                2.5,
+                0.15,
+                0.6
+            ],
+            [
+                2.6,
+                0.156,
+                0.624
+            ],
+            [
+                2.7,
+                0.162,
+                0.648
+            ],
+            [
+                2.8,
+                0.168,
+                0.672
+            ],
+            [
+                2.9,
+                0.174,
+                0.696
+            ],
+            [
+                3,
+                0.18,
+                0.72
+            ]
+        ],
+        "icon": "icon/skill/1214_ultimate.png"
+    },
+    "121404": {
+        "id": "121404",
+        "name": "Rétribution karmique",
+        "max_level": 15,
+        "element": "Quantum",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Bounce",
+        "effect_text": "Rebond",
+        "simple_desc": "Lorsque Xueyi ou ses alliés réduisent la robustesse des ennemis avec des attaques, Xueyi obtient des cumuls de Karma. Lorsque le nombre de cumuls de Karma atteint son maximum, elle déclenche immédiatement une attaque de suivi qui inflige des DGT quantiques mineurs à une cible ennemie unique, rebondissant 3 fois et consommant tout le Karma.",
+        "desc": "Lorsque les attaques de Xueyi réduisent la robustesse ennemie, elle cumule du Karma. Plus la robustesse est réduite, plus elle gagne de cumuls de Karma, avec un maximum de #1[i] cumuls.\nLorsque les alliés de Xueyi réduisent la robustesse ennemie avec des attaques, Xueyi gagne #3[i] cumul de Karma.\nLorsque le nombre de cumuls de Karma atteint son maximum, elle consomme tous les cumuls de Karma et déclenche immédiatement une attaque de suivi, qui inflige des DGT à 3 reprises. Chaque instance de DGT inflige des DGT quantiques équivalents à #2[i]% de l'ATQ de Xueyi à une cible aléatoire unique. Cette attaque de suivi ne permet pas d'accumuler de Karma.",
+        "params": [
+            [
+                8,
+                0.45,
+                1
+            ],
+            [
+                8,
+                0.495,
+                1
+            ],
+            [
+                8,
+                0.54,
+                1
+            ],
+            [
+                8,
+                0.585,
+                1
+            ],
+            [
+                8,
+                0.63,
+                1
+            ],
+            [
+                8,
+                0.675,
+                1
+            ],
+            [
+                8,
+                0.7313,
+                1
+            ],
+            [
+                8,
+                0.7875,
+                1
+            ],
+            [
+                8,
+                0.8438,
+                1
+            ],
+            [
+                8,
+                0.9,
+                1
+            ],
+            [
+                8,
+                0.945,
+                1
+            ],
+            [
+                8,
+                0.99,
+                1
+            ],
+            [
+                8,
+                1.035,
+                1
+            ],
+            [
+                8,
+                1.08,
+                1
+            ],
+            [
+                8,
+                1.125,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1214_talent.png"
+    },
+    "121406": {
+        "id": "121406",
+        "name": "Attaque",
+        "max_level": 1,
+        "element": "Quantum",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
+        "params": [],
+        "icon": "icon/skill/1214_basic_atk.png"
+    },
+    "121407": {
+        "id": "121407",
+        "name": "Exécution sommaire",
+        "max_level": 1,
+        "element": "Quantum",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "Engage le combat contre les ennemis. Inflige des DGT quantiques mineurs à tous les ennemis après être entré en combat.",
+        "desc": "Engage immédiatement le combat contre les ennemis. Inflige des DGT quantiques équivalents à #1[i]% de l'ATQ de Xueyi à tous les ennemis après être entré en combat.",
+        "params": [
+            [
+                0.8
+            ]
+        ],
+        "icon": "icon/skill/1214_technique.png"
     },
     "121501": {
         "id": "121501",
@@ -12744,7 +13073,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Réduit la robustesse de l'ennemi au type correspondant en entrant en combat après l'avoir attaqué.",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
         "params": [],
         "icon": "icon/skill/1215_basic_atk.png"
     },
@@ -12758,7 +13087,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "Engage le combat contre les ennemis. Applique le même effet Fardeau que celui de la compétence à un ennemi aléatoire après être entré en combat.",
-        "desc": "Engage immédiatement le combat contre les ennemis. Applique le même effet Fardeau que la compétence à un ennemi aléatoire après être entré en combat.",
+        "desc": "Engage immédiatement le combat contre les ennemis. Applique le même effet Fardeau que celui de la compétence à un ennemi aléatoire après être entré en combat.",
         "params": [],
         "icon": "icon/skill/1215_technique.png"
     },
@@ -12933,8 +13262,8 @@
         "type_text": "Ultime",
         "effect": "Support",
         "effect_text": "Soutien",
-        "simple_desc": "Régénère des points d'énergie de tous les alliés, hormis Huohuo, et augmente leur ATQ.",
-        "desc": "Régénère des points d'énergie de tous les alliés, hormis Huohuo, à hauteur de #1[f1]% de leur énergie max respective. Augmente aussi leur ATQ de #2[f1]% pendant #3[i] tours.",
+        "simple_desc": "Régénère des points d'énergie pour tous les alliés, hormis Huohuo, et augmente leur ATQ.",
+        "desc": "Régénère des points d'énergie pour tous les alliés, hormis Huohuo, à hauteur de #1[f1]% de leur énergie max respective. Augmente aussi leur ATQ de #2[f1]% pendant #3[i] tours.",
         "params": [
             [
                 0.15,
@@ -13174,7 +13503,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Réduit la robustesse de l'ennemi au type correspondant en entrant en combat après l'avoir attaqué.",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
         "params": [],
         "icon": "icon/skill/1217_basic_atk.png"
     },
@@ -13386,7 +13715,7 @@
         "effect": "Enhance",
         "effect_text": "Renforcement",
         "simple_desc": "Quand Argenti utilise son ATQ normale, sa compétence ou son ultime, il régénère de l'énergie et augmente ses chances de coup critique pour chaque cible ennemie touchée.",
-        "desc": "Quand Argenti utilise son ATQ normale, sa compétence ou son ultime, chaque ennemi touché lui permet de régénérer #1[i] points d'énergie et lui accorde un cumul d'Ascension, ce qui augmente de #2[f1]% ses chances de coup critique. Cet effet peut être cumulé jusqu'à #3[i] fois.",
+        "desc": "Quand Argenti utilise son ATQ normale, sa compétence ou son ultime, chaque ennemi touché lui permet de régénérer #1[i] points d'énergie et lui accorde un cumul d'Ascension, effet qui augmente de #2[f1]% ses chances de coup critique. Cet effet peut être cumulé jusqu'à #3[i] fois.",
         "params": [
             [
                 3,
@@ -13476,7 +13805,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Réduit la robustesse de l'ennemi au type correspondant en entrant en combat après l'avoir attaqué.",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
         "params": [],
         "icon": "icon/skill/1302_basic_atk.png"
     },
@@ -13489,8 +13818,8 @@
         "type_text": "Technique",
         "effect": "Impair",
         "effect_text": "Incapacitation",
-        "simple_desc": "Inflige Hébété à tous les ennemis dans une zone délimitée. Lorsque vous attaquez des ennemis hébétés, vous leur infligez des DGT physiques mineurs et régénérez l'énergie d'Argenti.",
-        "desc": "Après utilisation de la technique d'Argenti, les ennemis situés dans une zone définie subissent Hébété pendant #1[i] secondes. Les ennemis hébétés ne peuvent pas attaquer votre équipe.\nInitier un combat en attaquant un ennemi hébété inflige des DGT équivalents à #2[i]% de l'ATQ d'Argenti à tous les ennemis en début de combat et régénère son énergie de #3[i] points.",
+        "simple_desc": "Inflige Hébété à tous les ennemis dans une zone définie. Lorsque vous engagez le combat contre des ennemis hébétés, vous leur infligez des DGT physiques mineurs et régénérez l'énergie d'Argenti.",
+        "desc": "Après utilisation de la technique, les ennemis situés dans une zone définie subissent Hébété pendant #1[i] secondes. Les ennemis hébétés ne peuvent pas attaquer activement votre équipe.\nEngager le combat en attaquant un ennemi hébété inflige des DGT équivalents à #2[i]% de l'ATQ d'Argenti à tous les ennemis et régénère son énergie de #3[i] points.",
         "params": [
             [
                 10,
@@ -13604,6 +13933,670 @@
             ]
         ],
         "icon": "icon/skill/1302_ultimate.png"
+    },
+    "130301": {
+        "id": "130301",
+        "name": "Parfum entêtant",
+        "max_level": 9,
+        "element": "Ice",
+        "type": "Normal",
+        "type_text": "ATQ normale",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "Inflige des DGT de glace mineurs à un ennemi unique.",
+        "desc": "Inflige des DGT de glace équivalents à #1[i]% de l'ATQ de Ruan Mei à une cible unique.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1303_basic_atk.png"
+    },
+    "130302": {
+        "id": "130302",
+        "name": "Chant lancinant des cordes",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Compétence",
+        "effect": "Support",
+        "effect_text": "Soutien",
+        "simple_desc": "Ruan Mei gagne Tonalité après avoir utilisé sa compétence. Les DGT et l'efficacité de Rupture de faiblesse de tous les alliés augmentent quand Ruan Mei bénéficie de cet effet.",
+        "desc": "Ruan Mei gagne Tonalité après avoir utilisé sa compétence, pour une durée de #3[i] tours. Cette durée diminue de 1 au début du tour de Ruan Mei. Les DGT de tous les alliés augmentent de #1[f1]% lorsque Ruan Mei bénéficie de Tonalité et leur efficacité de Rupture de faiblesse de #2[i]%.",
+        "params": [
+            [
+                0.16,
+                0.5,
+                3
+            ],
+            [
+                0.176,
+                0.5,
+                3
+            ],
+            [
+                0.192,
+                0.5,
+                3
+            ],
+            [
+                0.208,
+                0.5,
+                3
+            ],
+            [
+                0.224,
+                0.5,
+                3
+            ],
+            [
+                0.24,
+                0.5,
+                3
+            ],
+            [
+                0.26,
+                0.5,
+                3
+            ],
+            [
+                0.28,
+                0.5,
+                3
+            ],
+            [
+                0.3,
+                0.5,
+                3
+            ],
+            [
+                0.32,
+                0.5,
+                3
+            ],
+            [
+                0.336,
+                0.5,
+                3
+            ],
+            [
+                0.352,
+                0.5,
+                3
+            ],
+            [
+                0.368,
+                0.5,
+                3
+            ],
+            [
+                0.384,
+                0.5,
+                3
+            ],
+            [
+                0.4,
+                0.5,
+                3
+            ]
+        ],
+        "icon": "icon/skill/1303_skill.png"
+    },
+    "130303": {
+        "id": "130303",
+        "name": "Ondée de pétales",
+        "max_level": 15,
+        "element": "",
+        "type": "Ultra",
+        "type_text": "Ultime",
+        "effect": "Support",
+        "effect_text": "Soutien",
+        "simple_desc": "Augmente la PÉN de RÉS à tous les types pour tous les alliés. Leurs attaques appliquent Floraison incomplète aux ennemis touchés.",
+        "desc": "Ruan Mei déploie un champ qui dure #2[i] tours. La durée de ce champ diminue de 1 au début de son tour.\nLa PÉN de RÉS à tous les types de tous les alliés augmente de #1[f1]% lorsqu'ils se trouvent à l'intérieur du champ et leurs attaques appliquent Floraison incomplète aux ennemis touchés.\nFloraison incomplète se déclenche lorsque ces ennemis tentent de se rétablir d'une Rupture de faiblesse, ce qui prolonge la durée de leur état de Rupture de faiblesse et retarde leur action à hauteur de #3[i]% de l'effet de Rupture de Ruan Mei + #4[i]%, tout en infligeant des DGT de rupture équivalents à #5[i]% des DGT de rupture de glace de Ruan Mei.\nLes cibles ennemies ne peuvent pas subir à nouveau Floraison incomplète tant qu'elles n'ont pas récupéré de l'état de Rupture de faiblesse.",
+        "params": [
+            [
+                0.15,
+                2,
+                0.2,
+                0.1,
+                0.3
+            ],
+            [
+                0.16,
+                2,
+                0.2,
+                0.1,
+                0.32
+            ],
+            [
+                0.17,
+                2,
+                0.2,
+                0.1,
+                0.34
+            ],
+            [
+                0.18,
+                2,
+                0.2,
+                0.1,
+                0.36
+            ],
+            [
+                0.19,
+                2,
+                0.2,
+                0.1,
+                0.38
+            ],
+            [
+                0.2,
+                2,
+                0.2,
+                0.1,
+                0.4
+            ],
+            [
+                0.2125,
+                2,
+                0.2,
+                0.1,
+                0.425
+            ],
+            [
+                0.225,
+                2,
+                0.2,
+                0.1,
+                0.45
+            ],
+            [
+                0.2375,
+                2,
+                0.2,
+                0.1,
+                0.475
+            ],
+            [
+                0.25,
+                2,
+                0.2,
+                0.1,
+                0.5
+            ],
+            [
+                0.26,
+                2,
+                0.2,
+                0.1,
+                0.52
+            ],
+            [
+                0.27,
+                2,
+                0.2,
+                0.1,
+                0.54
+            ],
+            [
+                0.28,
+                2,
+                0.2,
+                0.1,
+                0.56
+            ],
+            [
+                0.29,
+                2,
+                0.2,
+                0.1,
+                0.58
+            ],
+            [
+                0.3,
+                2,
+                0.2,
+                0.1,
+                0.6
+            ]
+        ],
+        "icon": "icon/skill/1303_ultimate.png"
+    },
+    "130304": {
+        "id": "130304",
+        "name": "Spirale fractale",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Support",
+        "effect_text": "Soutien",
+        "simple_desc": "Augmente la VIT de tous les alliés (à l'exception de ce personnage). Infliger une Rupture de faiblesse à une cible ennemie lui inflige des DGT de rupture de glace supplémentaires.",
+        "desc": "Augmente de #1[f1]% la VIT de toute l'équipe (à l'exception de ce personnage). Lorsqu'un allié inflige une Rupture de faiblesse à une cible ennemie, Ruan Mei inflige des DGT de rupture équivalents à #2[f1]% de ses DGT de rupture de glace à cette cible.",
+        "params": [
+            [
+                0.08,
+                0.6
+            ],
+            [
+                0.082,
+                0.66
+            ],
+            [
+                0.084,
+                0.72
+            ],
+            [
+                0.086,
+                0.78
+            ],
+            [
+                0.088,
+                0.84
+            ],
+            [
+                0.09,
+                0.9
+            ],
+            [
+                0.0925,
+                0.975
+            ],
+            [
+                0.095,
+                1.05
+            ],
+            [
+                0.0975,
+                1.125
+            ],
+            [
+                0.1,
+                1.2
+            ],
+            [
+                0.102,
+                1.26
+            ],
+            [
+                0.104,
+                1.32
+            ],
+            [
+                0.106,
+                1.38
+            ],
+            [
+                0.108,
+                1.44
+            ],
+            [
+                0.11,
+                1.5
+            ]
+        ],
+        "icon": "icon/skill/1303_talent.png"
+    },
+    "130306": {
+        "id": "130306",
+        "name": "Attaque",
+        "max_level": 1,
+        "element": "Ice",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
+        "params": [],
+        "icon": "icon/skill/1303_basic_atk.png"
+    },
+    "130307": {
+        "id": "130307",
+        "name": "Sérénade de soie",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Enhance",
+        "effect_text": "Renforcement",
+        "simple_desc": "Déclenche automatiquement la compétence de ce personnage #1[i] fois la prochaine fois qu'il entre en combat. Après avoir utilisé la technique, les alliés qui attaquent des ennemis dans l'Univers simulé sont toujours considérés comme entrant en combat après avoir attaqué la Faiblesse des ennemis, et la robustesse des ennemis est réduite quel que soit leur type de faiblesse. Augmente les DGT à la robustesse et les DGT de rupture infligés lors de l'entrée en combat pour chaque bénédiction possédée.",
+        "desc": "Obtient Sérénade de soie après avoir utilisé la technique. Déclenche automatiquement la compétence sans utiliser de point de compétence #1[i] fois au début du combat suivant.\nDans l'Univers simulé, lorsque Ruan Mei bénéficie de Sérénade de soie et que l'équipe attaque activement une cible ennemie, la Faiblesse de l'ennemi est toujours considérée comme ayant été attaquée pour entrer en combat, et cette attaque peut réduire la robustesse de tous les ennemis quel que soit leur type de faiblesse. Lorsque vous infligez une Rupture de faiblesse, vous déclenchez l'effet de Rupture correspondant au type de faiblesse de l'assaillant. Augmente les DGT à la robustesse de cette attaque de #2[i]% pour chaque bénédiction possédée, jusqu'à #4[i] bénédictions. D'autre part, inflige à l'ennemi des DGT de rupture équivalents à #3[i]% des DGT de rupture de glace de Ruan Mei si cette attaque provoque une Rupture de faiblesse à un ennemi.",
+        "params": [
+            [
+                1,
+                1,
+                1,
+                20
+            ]
+        ],
+        "icon": "icon/skill/1303_technique.png"
+    },
+    "130501": {
+        "id": "130501",
+        "name": "Puissance de l'esprit",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "ATQ normale",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "Inflige des DGT imaginaires mineurs à une cible unique.",
+        "desc": "Inflige des DGT imaginaires équivalents à #1[i]% de l'ATQ de Dr Ratio à une cible unique.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1305_basic_atk.png"
+    },
+    "130502": {
+        "id": "130502",
+        "name": "Déclic intellectuel",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "BPSkill",
+        "type_text": "Compétence",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "Inflige des DGT imaginaires à un ennemi unique.",
+        "desc": "Inflige des DGT imaginaires équivalents à #1[i]% de l'ATQ de Dr Ratio à une cible unique.",
+        "params": [
+            [
+                0.75
+            ],
+            [
+                0.825
+            ],
+            [
+                0.9
+            ],
+            [
+                0.975
+            ],
+            [
+                1.05
+            ],
+            [
+                1.125
+            ],
+            [
+                1.2188
+            ],
+            [
+                1.3125
+            ],
+            [
+                1.4063
+            ],
+            [
+                1.5
+            ],
+            [
+                1.575
+            ],
+            [
+                1.65
+            ],
+            [
+                1.725
+            ],
+            [
+                1.8
+            ],
+            [
+                1.875
+            ]
+        ],
+        "icon": "icon/skill/1305_skill.png"
+    },
+    "130503": {
+        "id": "130503",
+        "name": "Paradoxe du syllogisme",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Ultra",
+        "type_text": "Ultime",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "Inflige des DGT imaginaires à une cible ennemie unique et applique Folie du sage. Lorsque les alliés de Dr Ratio attaquent une cible affectée par Folie du sage, Dr Ratio lui inflige 1 attaque de suivi.",
+        "desc": "Inflige des DGT imaginaires équivalents à #1[i]% de l'ATQ de Dr Ratio à une cible ennemie unique et applique Folie du sage. Lorsque les alliés de Dr Ratio attaquent une cible affectée par Folie du sage, Dr Ratio lui inflige l'attaque de suivi de son talent une fois.\nFolie du sage peut être déclenchée jusqu'à #2[i] fois et n'affecte que la cible la plus récente de l'ultime de Dr Ratio. Le nombre de déclenchements est réinitialisé après que Dr Ratio utilise son ultime.",
+        "params": [
+            [
+                1.44,
+                2
+            ],
+            [
+                1.536,
+                2
+            ],
+            [
+                1.632,
+                2
+            ],
+            [
+                1.728,
+                2
+            ],
+            [
+                1.824,
+                2
+            ],
+            [
+                1.92,
+                2
+            ],
+            [
+                2.04,
+                2
+            ],
+            [
+                2.16,
+                2
+            ],
+            [
+                2.28,
+                2
+            ],
+            [
+                2.4,
+                2
+            ],
+            [
+                2.496,
+                2
+            ],
+            [
+                2.592,
+                2
+            ],
+            [
+                2.688,
+                2
+            ],
+            [
+                2.784,
+                2
+            ],
+            [
+                2.88,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1305_ultimate.png"
+    },
+    "130504": {
+        "id": "130504",
+        "name": "Cogito, Ergo Sum",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "Lors de l'utilisation de la compétence, il y a une chance de lancer une attaque de suivi contre la cible 1 fois.",
+        "desc": "Dr Ratio a #2[i]% de chances fixes de déclencher 1 attaque de suivi contre sa cible lorsqu'il utilise sa compétence, lui infligeant des DGT imaginaires équivalents à #1[i]% de l'ATQ de Dr Ratio. Les chances fixes de déclencher l'attaque de suivi augmentent de #3[i]% pour chaque malus appliqué à la cible ennemie. L'attaque de suivi est lancée sur un autre ennemi aléatoire si la cible ennemie est vaincue avant que l'attaque de suivi ne soit déclenchée.",
+        "params": [
+            [
+                1.35,
+                0.4,
+                0.2
+            ],
+            [
+                1.485,
+                0.4,
+                0.2
+            ],
+            [
+                1.62,
+                0.4,
+                0.2
+            ],
+            [
+                1.755,
+                0.4,
+                0.2
+            ],
+            [
+                1.89,
+                0.4,
+                0.2
+            ],
+            [
+                2.025,
+                0.4,
+                0.2
+            ],
+            [
+                2.1938,
+                0.4,
+                0.2
+            ],
+            [
+                2.3625,
+                0.4,
+                0.2
+            ],
+            [
+                2.5313,
+                0.4,
+                0.2
+            ],
+            [
+                2.7,
+                0.4,
+                0.2
+            ],
+            [
+                2.835,
+                0.4,
+                0.2
+            ],
+            [
+                2.97,
+                0.4,
+                0.2
+            ],
+            [
+                3.105,
+                0.4,
+                0.2
+            ],
+            [
+                3.24,
+                0.4,
+                0.2
+            ],
+            [
+                3.375,
+                0.4,
+                0.2
+            ]
+        ],
+        "icon": "icon/skill/1305_talent.png"
+    },
+    "130506": {
+        "id": "130506",
+        "name": "Attaque",
+        "max_level": 1,
+        "element": "Imaginary",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
+        "params": [],
+        "icon": "icon/skill/1305_basic_atk.png"
+    },
+    "130507": {
+        "id": "130507",
+        "name": "Fascination façonnée",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Impair",
+        "effect_text": "Incapacitation",
+        "simple_desc": "Crée une dimension spéciale. Les ennemis dans la dimension subissent l'effet Provocation. Il y a de fortes chances de réduire la VIT des cibles ennemies après être entré en combat avec des ennemis dans cette dimension.",
+        "desc": "Crée une dimension spéciale qui provoque les ennemis proches pendant #1[i] secondes après avoir utilisé la technique. Il y a #2[i]% de chances de base de réduire la VIT des ennemis de #3[i]% pendant #4[i] tours en engageant le combat avec des ennemis dans la dimension. Il ne peut exister qu'1 dimension créée par les alliés à la fois.",
+        "params": [
+            [
+                10,
+                1,
+                0.15,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1305_technique.png"
     },
     "800101": {
         "id": "800101",
@@ -13882,7 +14875,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Réduit la robustesse de l'ennemi au type correspondant en entrant en combat après l'avoir attaqué.",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
         "params": [],
         "icon": "icon/skill/8001_basic_atk.png"
     },
@@ -14316,7 +15309,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Réduit la robustesse de l'ennemi au type correspondant en entrant en combat après l'avoir attaqué.",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
         "params": [],
         "icon": "icon/skill/8002_basic_atk.png"
     },
@@ -14795,7 +15788,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Réduit la robustesse de l'ennemi au type correspondant en entrant en combat après l'avoir attaqué.",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
         "params": [],
         "icon": "icon/skill/8003_basic_atk.png"
     },
@@ -15192,7 +16185,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Réduit la robustesse de l'ennemi au type correspondant en entrant en combat après l'avoir attaqué.",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
         "params": [],
         "icon": "icon/skill/8004_basic_atk.png"
     },

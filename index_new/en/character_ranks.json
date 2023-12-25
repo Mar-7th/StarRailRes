@@ -3499,6 +3499,108 @@
         "level_up_skills": [],
         "icon": "icon/skill/1213_rank6.png"
     },
+    "121401": {
+        "id": "121401",
+        "name": "Dvesha, Inhibited",
+        "rank": 1,
+        "desc": "Increases the DMG dealt by the Talent's follow-up attack by 40%.",
+        "materials": [
+            {
+                "id": "11214",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1214_rank1.png"
+    },
+    "121402": {
+        "id": "121402",
+        "name": "Klesha, Breached",
+        "rank": 2,
+        "desc": "Talent's follow-up attack reduces enemy Toughness regardless of Weakness types. At the same time, restores Xueyi's HP by an amount equal to 5% of her Max HP. When breaking Weakness, triggers the Quantum Break Effect.",
+        "materials": [
+            {
+                "id": "11214",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1214_rank2.png"
+    },
+    "121403": {
+        "id": "121403",
+        "name": "Duḥkha, Ceased",
+        "rank": 3,
+        "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "materials": [
+            {
+                "id": "11214",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "121402",
+                "num": 2
+            },
+            {
+                "id": "121401",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1214_skill.png"
+    },
+    "121404": {
+        "id": "121404",
+        "name": "Karma, Severed",
+        "rank": 4,
+        "desc": "When using Ultimate, increases Break Effect by 40% for 2 turn(s).",
+        "materials": [
+            {
+                "id": "11214",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1214_rank4.png"
+    },
+    "121405": {
+        "id": "121405",
+        "name": "Deva, Enthralled",
+        "rank": 5,
+        "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+        "materials": [
+            {
+                "id": "11214",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "121403",
+                "num": 2
+            },
+            {
+                "id": "121404",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1214_ultimate.png"
+    },
+    "121406": {
+        "id": "121406",
+        "name": "Saṃsāra, Mastered",
+        "rank": 6,
+        "desc": "The max stack limit for Karma decreases to 6.",
+        "materials": [
+            {
+                "id": "11214",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1214_rank6.png"
+    },
     "121501": {
         "id": "121501",
         "name": "One Heart",
@@ -3707,7 +3809,7 @@
         "id": "130201",
         "name": "A Lacuna in Kingdom of Aesthetics",
         "rank": 1,
-        "desc": "Each stack of Ascend additionally increases CRIT DMG by 4%.",
+        "desc": "Each stack of Apotheosis additionally increases CRIT DMG by 4%.",
         "materials": [
             {
                 "id": "11302",
@@ -3758,7 +3860,7 @@
         "id": "130204",
         "name": "Trumpet's Dedication",
         "rank": 4,
-        "desc": "At the start of battle, gains 2 stack(s) of Ascend and increases the maximum stack limit of the Talent's effect by 2.",
+        "desc": "At the start of battle, gains 2 stack(s) of Apotheosis and increases the maximum stack limit of the Talent's effect by 2.",
         "materials": [
             {
                 "id": "11302",
@@ -3799,7 +3901,7 @@
         "id": "130206",
         "name": "\"Your\" Resplendence",
         "rank": 6,
-        "desc": "When using Ultimate, ignores 30% of the enemy target's DEF.",
+        "desc": "When using Ultimate, ignores 30% of enemy targets' DEF.",
         "materials": [
             {
                 "id": "11302",
@@ -3808,6 +3910,210 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1302_rank6.png"
+    },
+    "130301": {
+        "id": "130301",
+        "name": "Neuronic Embroidery",
+        "rank": 1,
+        "desc": "While the Ultimate's field is deployed, the DMG dealt by all allies ignores 20% of the target's DEF.",
+        "materials": [
+            {
+                "id": "11303",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1303_rank1.png"
+    },
+    "130302": {
+        "id": "130302",
+        "name": "Reedside Promenade",
+        "rank": 2,
+        "desc": "With Ruan Mei on the field, all allies increase their ATK by 40% when dealing DMG to enemies with Weakness Break.",
+        "materials": [
+            {
+                "id": "11303",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1303_rank2.png"
+    },
+    "130303": {
+        "id": "130303",
+        "name": "Viridescent Pirouette",
+        "rank": 3,
+        "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+        "materials": [
+            {
+                "id": "11303",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130303",
+                "num": 2
+            },
+            {
+                "id": "130304",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1303_skill.png"
+    },
+    "130304": {
+        "id": "130304",
+        "name": "Chatoyant Éclat",
+        "rank": 4,
+        "desc": "When an enemy target's Weakness is Broken, Ruan Mei's Break Effect increases by 100% for 3 turn(s).",
+        "materials": [
+            {
+                "id": "11303",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1303_rank4.png"
+    },
+    "130305": {
+        "id": "130305",
+        "name": "Languid Barrette",
+        "rank": 5,
+        "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "materials": [
+            {
+                "id": "11303",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130302",
+                "num": 2
+            },
+            {
+                "id": "130301",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1303_ultimate.png"
+    },
+    "130306": {
+        "id": "130306",
+        "name": "Sash Cascade",
+        "rank": 6,
+        "desc": "Extends the duration of the Ultimate's field by 1 turn(s). The Talent's Break DMG multiplier additionally increases by 200%.",
+        "materials": [
+            {
+                "id": "11303",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1303_rank6.png"
+    },
+    "130501": {
+        "id": "130501",
+        "name": "Pride Comes Before a Fall",
+        "rank": 1,
+        "desc": "The maximum stackable count for the Trace \"Summation\" increases by 4. When a battle begins, immediately obtains 4 stacks of Summation. Needs to unlock Summation first.",
+        "materials": [
+            {
+                "id": "11305",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1305_rank1.png"
+    },
+    "130502": {
+        "id": "130502",
+        "name": "The Divine Is in the Details",
+        "rank": 2,
+        "desc": "When his Talent's follow-up attack hits a target, for every debuff the target has, additionally deals Imaginary Additional DMG equal to 20% of Dr. Ratio's ATK. This effect can be triggered for a maximum of 4 time(s) during each follow-up attack.",
+        "materials": [
+            {
+                "id": "11305",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1305_rank2.png"
+    },
+    "130503": {
+        "id": "130503",
+        "name": "Know Thyself",
+        "rank": 3,
+        "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "materials": [
+            {
+                "id": "11305",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130503",
+                "num": 2
+            },
+            {
+                "id": "130501",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1305_skill.png"
+    },
+    "130504": {
+        "id": "130504",
+        "name": "Ignorance Is Blight",
+        "rank": 4,
+        "desc": "When triggering the Talent, additionally regenerates 15 Energy for Dr. Ratio.",
+        "materials": [
+            {
+                "id": "11305",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1305_rank4.png"
+    },
+    "130505": {
+        "id": "130505",
+        "name": "Sic Itur Ad Astra",
+        "rank": 5,
+        "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+        "materials": [
+            {
+                "id": "11305",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130502",
+                "num": 2
+            },
+            {
+                "id": "130504",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1305_ultimate.png"
+    },
+    "130506": {
+        "id": "130506",
+        "name": "Vincit Omnia Veritas",
+        "rank": 6,
+        "desc": "Increases the trigger count for Wiseman's Folly by 1. The DMG dealt by the Talent's follow-up attack increases by 50%.",
+        "materials": [
+            {
+                "id": "11305",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1305_rank6.png"
     },
     "800101": {
         "id": "800101",

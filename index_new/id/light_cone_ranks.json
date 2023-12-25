@@ -2415,7 +2415,7 @@
     "22001": {
         "id": "22001",
         "skill": "I'm Not Afraid!",
-        "desc": "Meningkatkan #1[i]% Max HP pengguna. Saat pengguna melancarkan Skill, Outgoing Healing meningkat #2[i]%, berlangsung selama #3[i] giliran.",
+        "desc": "Meningkatkan #1[i]% Max HP pengguna. Saat pengguna melancarkan Skill, Outgoing Healing meningkat #2[i]% selama #3[i] giliran.",
         "params": [
             [
                 0.08,
@@ -3798,6 +3798,159 @@
                 {
                     "type": "CriticalDamageBase",
                     "value": 0.6
+                }
+            ]
+        ]
+    },
+    "23019": {
+        "id": "23019",
+        "skill": "The Plum Fragrance In My Bones",
+        "desc": "Meningkatkan #1[i]% Break Effect pengguna. Setelah pengguna melancarkan Ultimate, akan meningkatkan #2[i]% DMG yang diakibatkan seluruh rekan tim selama #3[i] giliran, jika Break Effect pengguna lebih dari atau sama dengan #4[i]%, maka akan memulihkan 1 Poin Skill.\nSaat setiap gelombang pertempuran dimulai, seluruh rekan tim akan segera memulihkan #5[f1] Energy, efek dari kemampuan yang sama tidak dapat ditumpuk.",
+        "params": [
+            [
+                0.6,
+                0.24,
+                3,
+                1.5,
+                10
+            ],
+            [
+                0.7,
+                0.28,
+                3,
+                1.5,
+                12.5
+            ],
+            [
+                0.8,
+                0.32,
+                3,
+                1.5,
+                15
+            ],
+            [
+                0.9,
+                0.36,
+                3,
+                1.5,
+                17.5
+            ],
+            [
+                1,
+                0.4,
+                3,
+                1.5,
+                20
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.6
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.7
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.8
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.9
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 1
+                }
+            ]
+        ]
+    },
+    "23020": {
+        "id": "23020",
+        "skill": "Mental Training",
+        "desc": "Meningkatkan #1[i]% CRIT DMG pengguna. Untuk setiap 1 efek Debuff yang dimiliki target musuh, CRIT DMG yang diakibatkan pengguna pada target tersebut akan meningkat ekstra #2[i]%, maksimal ditumpuk hingga #3[i] lapis. Saat melancarkan Ultimate untuk menyerang target musuh, pengguna akan memperoleh efek \"Disputation\", yang meningkatkan #4[i]% DMG yang diakibatkan, dan Serangan Lanjutan pengguna akan mengabaikan #5[i]% DEF target musuh. Efek ini berlangsung selama #6[i] giliran.",
+        "params": [
+            [
+                0.2,
+                0.08,
+                3,
+                0.36,
+                0.24,
+                2
+            ],
+            [
+                0.23,
+                0.09,
+                3,
+                0.42,
+                0.28,
+                2
+            ],
+            [
+                0.26,
+                0.1,
+                3,
+                0.48,
+                0.32,
+                2
+            ],
+            [
+                0.29,
+                0.11,
+                3,
+                0.54,
+                0.36,
+                2
+            ],
+            [
+                0.32,
+                0.12,
+                3,
+                0.6,
+                0.4,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.2
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.23
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.26
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.29
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.32
                 }
             ]
         ]

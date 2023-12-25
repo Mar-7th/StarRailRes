@@ -3499,6 +3499,108 @@
         "level_up_skills": [],
         "icon": "icon/skill/1213_rank6.png"
     },
+    "121401": {
+        "id": "121401",
+        "name": "Inhibición del dvesha",
+        "rank": 1,
+        "desc": "El daño del ataque adicional del talento aumenta en un 40%.",
+        "materials": [
+            {
+                "id": "11214",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1214_rank1.png"
+    },
+    "121402": {
+        "id": "121402",
+        "name": "Fisura del klesha",
+        "rank": 2,
+        "desc": "El ataque adicional del talento ignora los tipos de Debilidad y reduce la Firmeza del enemigo. A su vez, Xueyi regenera una cantidad de PV equivalente al 5% de sus PV máx. Al romper la Debilidad de un enemigo, activa el efecto de Ruptura Cuántica.",
+        "materials": [
+            {
+                "id": "11214",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1214_rank2.png"
+    },
+    "121403": {
+        "id": "121403",
+        "name": "Cese del dukkha",
+        "rank": 3,
+        "desc": "Niv. de habilidad básica +2 (máximo: nivel 15). Niv. de ATQ básico +1 (máximo: nivel 10).",
+        "materials": [
+            {
+                "id": "11214",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "121402",
+                "num": 2
+            },
+            {
+                "id": "121401",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1214_skill.png"
+    },
+    "121404": {
+        "id": "121404",
+        "name": "Ruptura del karma",
+        "rank": 4,
+        "desc": "Al usar la habilidad definitiva, su efecto de Ruptura aumenta en un 40% durante 2 turnos.",
+        "materials": [
+            {
+                "id": "11214",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1214_rank4.png"
+    },
+    "121405": {
+        "id": "121405",
+        "name": "Fascinación del deva",
+        "rank": 5,
+        "desc": "Niv. de habilidad definitiva +2 (máximo: nivel 15). Niv. de talento +2 (máximo: nivel 15).",
+        "materials": [
+            {
+                "id": "11214",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "121403",
+                "num": 2
+            },
+            {
+                "id": "121404",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1214_ultimate.png"
+    },
+    "121406": {
+        "id": "121406",
+        "name": "Dominio del samsara",
+        "rank": 6,
+        "desc": "Las acumulaciones máximas de Karma disminuyen a 6.",
+        "materials": [
+            {
+                "id": "11214",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1214_rank6.png"
+    },
     "121501": {
         "id": "121501",
         "name": "Un corazón",
@@ -3758,7 +3860,7 @@
         "id": "130204",
         "name": "Consagración de la corneta",
         "rank": 4,
-        "desc": "Argenti obtiene 2 acumulaciones de Elevación al comienzo de la batalla y el efecto de su talento se puede acumular hasta 2 veces.",
+        "desc": "Argenti obtiene 2 acumulaciones de Elevación al comienzo de la batalla y el límite de acumulaciones del efecto de su talento aumenta en 2.",
         "materials": [
             {
                 "id": "11302",
@@ -3808,6 +3910,210 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1302_rank6.png"
+    },
+    "130301": {
+        "id": "130301",
+        "name": "Bordado neuronal",
+        "rank": 1,
+        "desc": "Mientras el campo de la habilidad definitiva está activo, el daño que infligen todos los aliados ignora un 20% de la DEF del objetivo.",
+        "materials": [
+            {
+                "id": "11303",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1303_rank1.png"
+    },
+    "130302": {
+        "id": "130302",
+        "name": "Paseo por los juncos",
+        "rank": 2,
+        "desc": "Cuando Ruan Mei está en la batalla, el ATQ de los aliados que infligen daño a enemigos con Ruptura de Debilidad aumenta en un 40%.",
+        "materials": [
+            {
+                "id": "11303",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1303_rank2.png"
+    },
+    "130303": {
+        "id": "130303",
+        "name": "Vestida de brocado esmeralda",
+        "rank": 3,
+        "desc": "Niv. de habilidad definitiva +2 (máximo: nivel 15). Niv. de talento +2 (máximo: nivel 15).",
+        "materials": [
+            {
+                "id": "11303",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130303",
+                "num": 2
+            },
+            {
+                "id": "130304",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1303_skill.png"
+    },
+    "130304": {
+        "id": "130304",
+        "name": "Luminosidad reluciente",
+        "rank": 4,
+        "desc": "Cuando un enemigo es afectado por Ruptura de Debilidad, el efecto de Ruptura de Ruan Mei aumenta en un 100% durante 3 turnos.",
+        "materials": [
+            {
+                "id": "11303",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1303_rank4.png"
+    },
+    "130305": {
+        "id": "130305",
+        "name": "Horquilla de fabricación exquisita",
+        "rank": 5,
+        "desc": "Niv. de habilidad básica +2 (máximo: nivel 15). Niv. de ATQ básico +1 (máximo: nivel 10).",
+        "materials": [
+            {
+                "id": "11303",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130302",
+                "num": 2
+            },
+            {
+                "id": "130301",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1303_ultimate.png"
+    },
+    "130306": {
+        "id": "130306",
+        "name": "Oculta tras el abanico",
+        "rank": 6,
+        "desc": "La duración del campo creado por la habilidad definitiva de Ruan Mei aumenta en 1 turno. El multiplicador de Daño de Ruptura del talento aumenta en un 200% adicional.",
+        "materials": [
+            {
+                "id": "11303",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1303_rank6.png"
+    },
+    "130501": {
+        "id": "130501",
+        "name": "La calamidad de la arrogancia",
+        "rank": 1,
+        "desc": "El límite de acumulaciones del Rastro Inducción aumenta en 4. Al comenzar el combate, obtienes de inmediato 4 acumulaciones de Inducción. Es necesario haber desbloqueado antes el Rastro Inducción.",
+        "materials": [
+            {
+                "id": "11305",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1305_rank1.png"
+    },
+    "130502": {
+        "id": "130502",
+        "name": "En los detalles está lo divino",
+        "rank": 2,
+        "desc": "Cuando el ataque adicional de su talento golpea a un enemigo, el Dr. Ratio inflige un 20% de su ATQ como Daño Imaginario adicional por cada estado negativo que tenga el objetivo. Este efecto se puede activar un máximo de 4 veces cada vez que use su ataque adicional.",
+        "materials": [
+            {
+                "id": "11305",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1305_rank2.png"
+    },
+    "130503": {
+        "id": "130503",
+        "name": "Conócete a ti mismo",
+        "rank": 3,
+        "desc": "Niv. de habilidad definitiva +2 (máximo: nivel 15). Niv. de ATQ básico +1 (máximo: nivel 10).",
+        "materials": [
+            {
+                "id": "11305",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130503",
+                "num": 2
+            },
+            {
+                "id": "130501",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1305_skill.png"
+    },
+    "130504": {
+        "id": "130504",
+        "name": "La ignorancia es atrevida",
+        "rank": 4,
+        "desc": "Cuando se activa su talento, el Dr. Ratio recupera 15 pts. de energía adicionales.",
+        "materials": [
+            {
+                "id": "11305",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1305_rank4.png"
+    },
+    "130505": {
+        "id": "130505",
+        "name": "A la deriva en la inmensidad",
+        "rank": 5,
+        "desc": "Niv. de habilidad básica +2 (máximo: nivel 15). Niv. de talento +2 (máximo: nivel 15).",
+        "materials": [
+            {
+                "id": "11305",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130502",
+                "num": 2
+            },
+            {
+                "id": "130504",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1305_ultimate.png"
+    },
+    "130506": {
+        "id": "130506",
+        "name": "La verdad eterna",
+        "rank": 6,
+        "desc": "Locura de los sabios se puede activar 1 vez más. El daño que inflige el ataque adicional del talento aumenta en un 50%.",
+        "materials": [
+            {
+                "id": "11305",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1305_rank6.png"
     },
     "800101": {
         "id": "800101",

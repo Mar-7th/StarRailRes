@@ -1406,7 +1406,7 @@
         "type_text": "Chiến Kỹ",
         "effect": "Blast",
         "effect_text": "Khuếch Tán",
-        "simple_desc": "Gây Sát Thương Lôi cho một kẻ địch, gây một lượng nhỏ Sát Thương Lôi cho mục tiêu lân cận.\nNếu mục tiêu chính đang trong Hiệu Ứng Xấu loại Sát Thương Duy Trì, sẽ khiến hiệu ứng này gây thêm 1 lần sát thương.",
+        "simple_desc": "Gây Sát Thương Lôi cho một kẻ địch và lượng nhỏ Sát Thương Lôi cho mục tiêu lân cận.\nNếu mục tiêu chính đang trong Hiệu Ứng Xấu loại Sát Thương Duy Trì, sẽ khiến Hiệu Ứng Xấu loại Sát Thương Duy Trì này gây thêm 1 lần sát thương.",
         "desc": "Gây Sát Thương Lôi cho 1 kẻ địch chỉ định tương đương #1[i]% Tấn Công của Kafka, đồng thời gây cho mục tiêu lân cận của kẻ đó Sát Thương Lôi tương đương #3[i]% Tấn Công của Kafka.\nNếu kẻ địch chỉ định đang ở trạng thái Sát Thương Duy Trì, thì tất cả Sát Thương Duy Trì mà kẻ đó đang chịu sẽ lập tức sinh ra sát thương tương đương #2[i]% sát thương ban đầu.",
         "params": [
             [
@@ -1496,7 +1496,7 @@
         "type_text": "Tuyệt Kỹ",
         "effect": "AoEAttack",
         "effect_text": "Đánh Lan",
-        "simple_desc": "Gây lượng nhỏ Sát Thương Lôi cho toàn bộ kẻ địch, có xác suất lớn thi triển trạng thái Sốc Điện.\nNếu kẻ địch ở trạng thái Sốc Điện, sẽ khiến trạng thái này gây thêm 1 lần sát thương.",
+        "simple_desc": "Gây lượng nhỏ Sát Thương Lôi cho toàn bộ kẻ địch, có xác suất lớn thi triển trạng thái Sốc Điện.\nNếu kẻ địch ở trạng thái Sốc Điện, sẽ khiến trạng thái Sốc Điện gây thêm 1 lần sát thương.",
         "desc": "Gây Sát Thương Lôi cho toàn bộ kẻ địch tương đương #1[i]% Tấn Công của Kafka, có #2[i]% xác suất cơ bản khiến kẻ địch bị tấn công rơi vào trạng thái Sốc Điện và khiến trạng thái Sốc Điện phải chịu hiện tại sinh ra sát thương tương đương #5[i]% sát thương ban đầu. Trạng thái Sốc Điện duy trì #3[i] hiệp.\nTrong trạng thái này, kẻ địch mỗi khi bắt đầu hiệp sẽ chịu Sát Thương Lôi duy trì tương đương #4[i]% Tấn Công của Kafka.",
         "params": [
             [
@@ -1616,7 +1616,7 @@
         "type_text": "Thiên Phú",
         "effect": "SingleAttack",
         "effect_text": "Đánh Đơn",
-        "simple_desc": "Sau khi đồng đội thi triển tấn công thường lên kẻ địch, Kafka sẽ phát động ngay Đòn Đánh Theo Sau, gây Sát Thương Lôi cho mục tiêu này, đồng thời có xác suất lớn thi triển trạng thái Sốc Điện. Hiệu ứng này mỗi hiệp chỉ có thể kích hoạt 1 lần.",
+        "simple_desc": "Sau khi đồng đội tấn công thường lên kẻ địch, Kafka sẽ phát động ngay Đòn Đánh Theo Sau, gây Sát Thương Lôi cho mục tiêu này, đồng thời có xác suất lớn thi triển trạng thái Sốc Điện. Hiệu ứng này mỗi hiệp chỉ có thể kích hoạt 1 lần.",
         "desc": "Sau khi đồng đội của Kafka tấn công thường vào kẻ địch, Kafka sẽ phát động ngay Đòn Đánh Theo Sau, gây Sát Thương Lôi tương đương #1[i]% Tấn Công của Kafka cho mục tiêu này, và có #2[i]% xác suất cơ bản khiến kẻ địch bị tấn công rơi vào trạng thái Sốc Điện giống với Tuyệt Kỹ, duy trì #3[i] hiệp, hiệu ứng này mỗi hiệp chỉ có thể kích hoạt 1 lần.",
         "params": [
             [
@@ -1780,8 +1780,8 @@
         "element": "Quantum",
         "type": "BPSkill",
         "type_text": "Chiến Kỹ",
-        "effect": "Impair",
-        "effect_text": "Quấy Nhiễu",
+        "effect": "SingleAttack",
+        "effect_text": "Đánh Đơn",
         "simple_desc": "Có xác suất lớn thêm Điểm Yếu cho 1 kẻ địch và gây Sát Thương Lượng Tử cho kẻ đó.",
         "desc": "Có #2[i]% xác suất cơ bản thêm cho 1 kẻ địch chỉ định 1 Điểm Yếu mang thuộc tính có từ đồng đội trong trận, và giảm #4[i]% kháng thuộc tính của Điểm Yếu đó trong #3[i] hiệp. Nếu kẻ địch đã có điểm yếu của thuộc tính này thì hiệu ứng giảm kháng thuộc tính tương ứng sẽ không được kích hoạt.\nMỗi kẻ địch chỉ có thể bị Sói Bạc thêm 1 điểm yếu, khi Sói Bạc thêm điểm yếu lần nữa cho kẻ đó thì chỉ giữ lại điểm yếu được thêm vào sau cùng.\nCó #5[i]% xác suất cơ bản giảm kháng toàn bộ thuộc tính của kẻ địch này đi #6[f1]% trong #7[i] hiệp.\nGây cho kẻ địch này Sát Thương Lượng Tử bằng #1[i]% Tấn Công của Sói Bạc.",
         "params": [
@@ -1930,8 +1930,8 @@
         "element": "Quantum",
         "type": "Ultra",
         "type_text": "Tuyệt Kỹ",
-        "effect": "Impair",
-        "effect_text": "Quấy Nhiễu",
+        "effect": "SingleAttack",
+        "effect_text": "Đánh Đơn",
         "simple_desc": "Xác suất lớn giảm Phòng Thủ của 1 kẻ địch và gây lượng lớn Sát Thương Lượng Tử cho kẻ đó.",
         "desc": "Có #2[i]% xác suất cơ bản khiến Phòng Thủ của 1 kẻ địch chỉ định giảm #3[f1]% trong #4[i] hiệp, đồng thời gây cho mục tiêu này Sát Thương Lượng Tử bằng #1[i]% Tấn Công của Sói Bạc.",
         "params": [
@@ -4088,8 +4088,8 @@
         "element": "Ice",
         "type": "BPSkill",
         "type_text": "Chiến Kỹ",
-        "effect": "Impair",
-        "effect_text": "Quấy Nhiễu",
+        "effect": "SingleAttack",
+        "effect_text": "Đánh Đơn",
         "simple_desc": "Gây Sát Thương Băng cho 1 kẻ địch, có xác suất kèm trạng thái Đóng Băng cho mục tiêu.",
         "desc": "Gây Sát Thương Băng cho 1 kẻ địch chỉ định tương đương #1[i]% Tấn Công của Gepard, đồng thời có #2[i]% xác suất cơ bản khiến mục tiêu đó bị Đóng Băng, duy trì #3[i] hiệp.\nTrong trạng thái Đóng Băng, kẻ địch không thể hành động, đồng thời mỗi hiệp đấu bắt đầu sẽ chịu lượng sát thương kèm theo thuộc tính Băng bằng #4[i]% Tấn Công của Gepard.",
         "params": [
@@ -4421,7 +4421,7 @@
         "type_text": "Chiến Kỹ",
         "effect": "Restore",
         "effect_text": "Hồi Phục",
-        "simple_desc": "Hồi HP cho 1 đồng đội, và giúp mục tiêu hồi HP liên tục.",
+        "simple_desc": "Hồi HP cho 1 đồng đội, đồng thời khiến mục tiêu duy trì hồi HP.",
         "desc": "Lập tức hồi phục cho 1 đồng đội chỉ định một lượng HP bằng #1[f1]% Giới Hạn HP của Natasha +#4[i], đồng thời khi mục tiêu bắt đầu mỗi hiệp, sẽ hồi cho đơn vị đó lượng HP bằng #2[f1]% Giới Hạn HP của Natasha +#5[i], duy trì #3[i] hiệp.",
         "params": [
             [
@@ -4541,7 +4541,7 @@
         "type_text": "Tuyệt Kỹ",
         "effect": "Restore",
         "effect_text": "Hồi Phục",
-        "simple_desc": "Hồi HP cho toàn thể phe ta.",
+        "simple_desc": "Hồi HP cho toàn bộ phe ta.",
         "desc": "Lập tức hồi cho toàn phe ta lượng HP bằng #1[f1]% Giới Hạn HP của Natasha +#2[i].",
         "params": [
             [
@@ -4766,8 +4766,8 @@
         "element": "Ice",
         "type": "BPSkill",
         "type_text": "Chiến Kỹ",
-        "effect": "Impair",
-        "effect_text": "Quấy Nhiễu",
+        "effect": "SingleAttack",
+        "effect_text": "Đánh Đơn",
         "simple_desc": "Giải trừ 1 hiệu ứng BUFF của 1 kẻ địch, gây Sát Thương Băng cho 1 kẻ địch.",
         "desc": "Giải trừ #2[i] hiệu ứng buff của 1 kẻ địch chỉ định, đồng thời gây Sát Thương Băng tương đương #1[i]% Tấn Công của Pela.",
         "params": [
@@ -4841,8 +4841,8 @@
         "element": "Ice",
         "type": "Ultra",
         "type_text": "Tuyệt Kỹ",
-        "effect": "Impair",
-        "effect_text": "Quấy Nhiễu",
+        "effect": "AoEAttack",
+        "effect_text": "Đánh Lan",
         "simple_desc": "Có xác suất lớn khiến kẻ địch giảm phòng thủ, và gây lượng nhỏ Sát Thương Băng cho tất cả địch.",
         "desc": "Có #1[i]% xác suất cơ bản khiến mỗi kẻ địch rơi vào trạng thái Thông Hiểu, đồng thời gây Sát Thương Băng cho toàn bộ kẻ địch tương đương #4[i]% Tấn Công của Pela.\nMục tiêu địch ở trạng thái Thông Hiểu sẽ giảm #2[i]% Phòng Thủ, duy trì #3[i] hiệp.",
         "params": [
@@ -5518,8 +5518,8 @@
         "element": "Wind",
         "type": "Ultra",
         "type_text": "Tuyệt Kỹ",
-        "effect": "Impair",
-        "effect_text": "Quấy Nhiễu",
+        "effect": "AoEAttack",
+        "effect_text": "Đánh Lan",
         "simple_desc": "Gây Sát Thương Phong cho toàn bộ kẻ địch, có xác suất lớn khiến chúng tăng Sát Thương Duy Trì phải chịu.",
         "desc": "Gây Sát Thương Phong tương đương #1[i]% Tấn Công của Sampo lên toàn phe địch, đồng thời có #4[i]% xác suất cơ bản khiến sát thương duy trì mà kẻ địch bị tấn công phải chịu tăng #2[i]%, duy trì #3[i] hiệp.",
         "params": [
@@ -9081,7 +9081,7 @@
         "type_text": "Thiên Phú",
         "effect": "AoEAttack",
         "effect_text": "Đánh Lan",
-        "simple_desc": "Khi HP của Blade giảm sẽ nhận 1 tầng nạp năng lượng. Khi nạp năng lượng cộng dồn đến giới hạn sẽ lập tức gây Sát Thương Phong cho toàn bộ địch và hồi HP, sau đó tiêu hao tất cả nạp năng lượng.",
+        "simple_desc": "Khi HP của Blade giảm sẽ nhận 1 tầng Nạp Năng Lượng. Khi Nạp Năng Lượng cộng dồn đến giới hạn sẽ lập tức gây Sát Thương Phong cho toàn bộ địch và hồi HP, sau đó tiêu hao tất cả Nạp Năng Lượng.",
         "desc": "Khi Blade chịu sát thương hoặc tiêu hao HP sẽ nhận 1 tầng nạp năng lượng, tối đa cộng dồn 5 tầng. Hiệu ứng này mỗi lần chịu tấn công tối đa cộng dồn 1 tầng.\nKhi nạp năng lượng cộng dồn đến mức tối đa, lập tức thi triển lên toàn thể phe địch 1 Đòn Đánh Theo Sau, gây Sát Thương Phong bằng #2[i]% Tấn Công +#4[i]% Giới Hạn HP của Blade và hồi HP bằng #3[i]% Giới Hạn HP của Blade, sau khi thi triển Đòn Đánh Theo Sau sẽ tiêu hao tất cả nạp năng lượng.",
         "params": [
             [
@@ -12452,6 +12452,335 @@
         ],
         "icon": "icon/skill/1213_basic_atk.png"
     },
+    "121401": {
+        "id": "121401",
+        "name": "Dùi Phá Ma",
+        "max_level": 9,
+        "element": "Quantum",
+        "type": "Normal",
+        "type_text": "Tấn Công Thường",
+        "effect": "SingleAttack",
+        "effect_text": "Đánh Đơn",
+        "simple_desc": "Gây lượng nhỏ Sát Thương Lượng Tử cho 1 kẻ địch.",
+        "desc": "Gây cho 1 kẻ địch chỉ định sát thương Lượng Tử bằng #1[i]% Tấn Công của Xueyi.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1214_basic_atk.png"
+    },
+    "121402": {
+        "id": "121402",
+        "name": "Xóa Sổ Ác Nghiệp",
+        "max_level": 15,
+        "element": "Quantum",
+        "type": "BPSkill",
+        "type_text": "Chiến Kỹ",
+        "effect": "Blast",
+        "effect_text": "Khuếch Tán",
+        "simple_desc": "Gây Sát Thương Lượng Tử cho 1 kẻ địch, đồng thời gây lượng nhỏ Sát Thương Lượng Tử cho mục tiêu lân cận.",
+        "desc": "Gây Sát Thương Lượng Tử cho 1 kẻ địch chỉ định tương đương #1[i]% Tấn Công của Xueyi, đồng thời gây cho mục tiêu lân cận kẻ đó Sát Thương Lượng Tử tương đương #2[i]% Tấn Công của Xueyi.",
+        "params": [
+            [
+                0.7,
+                0.35
+            ],
+            [
+                0.77,
+                0.385
+            ],
+            [
+                0.84,
+                0.42
+            ],
+            [
+                0.91,
+                0.455
+            ],
+            [
+                0.98,
+                0.49
+            ],
+            [
+                1.05,
+                0.525
+            ],
+            [
+                1.1375,
+                0.5688
+            ],
+            [
+                1.225,
+                0.6125
+            ],
+            [
+                1.3125,
+                0.6563
+            ],
+            [
+                1.4,
+                0.7
+            ],
+            [
+                1.47,
+                0.735
+            ],
+            [
+                1.54,
+                0.77
+            ],
+            [
+                1.61,
+                0.805
+            ],
+            [
+                1.68,
+                0.84
+            ],
+            [
+                1.75,
+                0.875
+            ]
+        ],
+        "icon": "icon/skill/1214_skill.png"
+    },
+    "121403": {
+        "id": "121403",
+        "name": "Thiên Phạt Quán Thân",
+        "max_level": 15,
+        "element": "Quantum",
+        "type": "Ultra",
+        "type_text": "Tuyệt Kỹ",
+        "effect": "SingleAttack",
+        "effect_text": "Đánh Đơn",
+        "simple_desc": "Gây lượng lớn Sát Thương Lượng Tử cho 1 kẻ địch, lần tấn công này bỏ qua các thuộc tính Điểm Yếu và làm giảm Sức Bền của 1 kẻ địch, Sức Bền giảm càng nhiều, sát thương gây ra càng cao.",
+        "desc": "Gây cho 1 kẻ địch chỉ định Sát Thương Lượng Tử bằng #1[i]% Tấn Công của Xueyi, lần tấn công này bỏ qua các thuộc tính Điểm Yếu và làm giảm Sức Bền của 1 kẻ địch. Khi phá vỡ Điểm Yếu sẽ kích hoạt hiệu ứng Phá Vỡ Điểm Yếu thuộc tính Lượng Tử.\nTrong lần tấn công này, Sức Bền giảm càng nhiều, Sát Thương gây ra càng cao, tối đa tăng #3[f1]%.",
+        "params": [
+            [
+                1.5,
+                0.09,
+                0.36
+            ],
+            [
+                1.6,
+                0.096,
+                0.384
+            ],
+            [
+                1.7,
+                0.102,
+                0.408
+            ],
+            [
+                1.8,
+                0.108,
+                0.432
+            ],
+            [
+                1.9,
+                0.114,
+                0.456
+            ],
+            [
+                2,
+                0.12,
+                0.48
+            ],
+            [
+                2.125,
+                0.1275,
+                0.51
+            ],
+            [
+                2.25,
+                0.135,
+                0.54
+            ],
+            [
+                2.375,
+                0.1425,
+                0.57
+            ],
+            [
+                2.5,
+                0.15,
+                0.6
+            ],
+            [
+                2.6,
+                0.156,
+                0.624
+            ],
+            [
+                2.7,
+                0.162,
+                0.648
+            ],
+            [
+                2.8,
+                0.168,
+                0.672
+            ],
+            [
+                2.9,
+                0.174,
+                0.696
+            ],
+            [
+                3,
+                0.18,
+                0.72
+            ]
+        ],
+        "icon": "icon/skill/1214_ultimate.png"
+    },
+    "121404": {
+        "id": "121404",
+        "name": "Nghiệp Báo Vĩnh Hằng",
+        "max_level": 15,
+        "element": "Quantum",
+        "type": "Talent",
+        "type_text": "Thiên Phú",
+        "effect": "Bounce",
+        "effect_text": "Nảy Bật",
+        "simple_desc": "Khi Xueyi tấn công hoặc sau khi đồng đội của Xueyi tấn công làm giảm Sức Bền của phe địch, Xueyi sẽ cộng dồn Ác Báo. Khi Ác Báo cộng dồn đến giới hạn, lập tức phát động Đòn Đánh Theo Sau, gây lượng nhỏ Sát Thương Lượng Tử lên 1 kẻ địch, tổng cộng Nảy Bật 3 lần, đồng thời tiêu hao toàn bộ Ác Báo.",
+        "desc": "Khi Xueyi tấn công làm giảm Sức Bền phe địch sẽ cộng dồn số tầng Ác Báo, Sức Bền giảm càng nhiều, số tầng Ác Báo cộng dồn càng nhiều, có thể cộng dồn #1[i] tầng.\nSau khi đồng đội của Xueyi tấn công làm giảm Sức Bền phe địch, Xueyi sẽ cộng dồn #3[i] tầng Ác Báo.\nKhi Ác Báo cộng dồn đến giới hạn, sẽ tiêu hao tất cả Ác Báo hiện tại, lập tức phát động Đòn Đánh Theo Sau lên kẻ địch, gây ra 3 lần sát thương, mỗi lần sát thương sẽ gây ra Sát Thương Lượng Tử lên 1 kẻ địch ngẫu nhiên bằng #2[i]% Tấn Công của Xueyi. Đòn Đánh Theo Sau lần này không thể cộng dồn Ác Báo.",
+        "params": [
+            [
+                8,
+                0.45,
+                1
+            ],
+            [
+                8,
+                0.495,
+                1
+            ],
+            [
+                8,
+                0.54,
+                1
+            ],
+            [
+                8,
+                0.585,
+                1
+            ],
+            [
+                8,
+                0.63,
+                1
+            ],
+            [
+                8,
+                0.675,
+                1
+            ],
+            [
+                8,
+                0.7313,
+                1
+            ],
+            [
+                8,
+                0.7875,
+                1
+            ],
+            [
+                8,
+                0.8438,
+                1
+            ],
+            [
+                8,
+                0.9,
+                1
+            ],
+            [
+                8,
+                0.945,
+                1
+            ],
+            [
+                8,
+                0.99,
+                1
+            ],
+            [
+                8,
+                1.035,
+                1
+            ],
+            [
+                8,
+                1.08,
+                1
+            ],
+            [
+                8,
+                1.125,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1214_talent.png"
+    },
+    "121406": {
+        "id": "121406",
+        "name": "Tấn Công",
+        "max_level": 1,
+        "element": "Quantum",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Tấn công kẻ địch, sau khi vào chiến đấu sẽ làm giảm Sức Bền thuộc tính tương ứng của địch.",
+        "params": [],
+        "icon": "icon/skill/1214_basic_atk.png"
+    },
+    "121407": {
+        "id": "121407",
+        "name": "Hành Quyết",
+        "max_level": 1,
+        "element": "Quantum",
+        "type": "Maze",
+        "type_text": "Bí Kỹ",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "Tấn công kẻ địch, sau khi vào trận sẽ gây một lượng nhỏ Sát Thương Lượng Tử cho toàn bộ kẻ địch.",
+        "desc": "Lập tức tấn công kẻ địch, sau khi vào chiến đấu sẽ gây cho toàn phe địch sát thương Lượng Tử bằng #1[i]% Tấn Công của Xueyi.",
+        "params": [
+            [
+                0.8
+            ]
+        ],
+        "icon": "icon/skill/1214_technique.png"
+    },
     "121501": {
         "id": "121501",
         "name": "Thiên Bút Tiên Tri",
@@ -13604,6 +13933,670 @@
             ]
         ],
         "icon": "icon/skill/1302_ultimate.png"
+    },
+    "130301": {
+        "id": "130301",
+        "name": "U Lan Âm Sắc",
+        "max_level": 9,
+        "element": "Ice",
+        "type": "Normal",
+        "type_text": "Tấn Công Thường",
+        "effect": "SingleAttack",
+        "effect_text": "Đánh Đơn",
+        "simple_desc": "Gây lượng nhỏ Sát Thương Băng cho 1 kẻ địch.",
+        "desc": "Gây Sát Thương Băng cho 1 kẻ địch chỉ định tương đương #1[i]% Tấn Công của Ruan Mei.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1303_basic_atk.png"
+    },
+    "130302": {
+        "id": "130302",
+        "name": "Cung Tơ Trên Phím Nhạc",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Chiến Kỹ",
+        "effect": "Support",
+        "effect_text": "Hỗ Trợ",
+        "simple_desc": "Sau khi thi triển Chiến Kỹ, Ruan Mei nhận được Bồi Âm. Khi Ruan Mei có Bồi Âm, sẽ tăng sát thương và Hiệu Suất Phá Vỡ Điểm Yếu của toàn phe ta.",
+        "desc": "Sau khi thi triển Chiến Kỹ, Ruan Mei nhận được Bồi Âm, duy trì #3[i] hiệp, mỗi khi bắt đầu hiệp của Ruan Mei, số hiệp duy trì sẽ giảm 1. Khi Ruan Mei có Bồi Âm, toàn thể phe ta tăng #1[f1]% sát thương, tăng #2[i]% Hiệu Suất Phá Vỡ Điểm Yếu.",
+        "params": [
+            [
+                0.16,
+                0.5,
+                3
+            ],
+            [
+                0.176,
+                0.5,
+                3
+            ],
+            [
+                0.192,
+                0.5,
+                3
+            ],
+            [
+                0.208,
+                0.5,
+                3
+            ],
+            [
+                0.224,
+                0.5,
+                3
+            ],
+            [
+                0.24,
+                0.5,
+                3
+            ],
+            [
+                0.26,
+                0.5,
+                3
+            ],
+            [
+                0.28,
+                0.5,
+                3
+            ],
+            [
+                0.3,
+                0.5,
+                3
+            ],
+            [
+                0.32,
+                0.5,
+                3
+            ],
+            [
+                0.336,
+                0.5,
+                3
+            ],
+            [
+                0.352,
+                0.5,
+                3
+            ],
+            [
+                0.368,
+                0.5,
+                3
+            ],
+            [
+                0.384,
+                0.5,
+                3
+            ],
+            [
+                0.4,
+                0.5,
+                3
+            ]
+        ],
+        "icon": "icon/skill/1303_skill.png"
+    },
+    "130303": {
+        "id": "130303",
+        "name": "Hoa Rơi Chạm Nước Vương Vạt Áo",
+        "max_level": 15,
+        "element": "",
+        "type": "Ultra",
+        "type_text": "Tuyệt Kỹ",
+        "effect": "Support",
+        "effect_text": "Hỗ Trợ",
+        "simple_desc": "Tăng Xuyên Kháng Toàn Thuộc Tính cho toàn bộ phe ta, đồng thời sau khi tấn công sẽ thi triển Mai Nở Phai Tàn lên kẻ địch.",
+        "desc": "Ruan Mei triển khai kết giới, duy trì #2[i] hiệp, khi mỗi hiệp của bản thân bắt đầu, số hiệp duy trì kết giới sẽ giảm 1.\nKhi ở trong kết giới, toàn thể phe ta tăng #1[f1]% Xuyên Kháng Toàn Thuộc Tính, đồng thời sau khi tấn công sẽ thi triển Mai Nở Phai Tàn lên kẻ địch.\nMai Nở Phai Tàn sẽ kích hoạt khi kẻ địch cố gắng hồi phục từ trạng thái Phá Vỡ Điểm Yếu, kéo dài trạng thái Phá Vỡ Điểm Yếu của mục tiêu đồng thời khiến mục tiêu Trì Hoãn Hành Động bằng #3[i]% Tấn Công Kích Phá của Ruan Mei +#4[i]%, và gây cho kẻ đó Sát Thương Phá Vỡ tương đương #5[i]% Sát Thương Phá Vỡ thuộc tính Băng của Ruan Mei.\nTrước khi kẻ địch hồi phục khỏi trạng thái Phá Vỡ Điểm Yếu sẽ không thể bị đính kèm Mai Nở Phai Tàn nữa.",
+        "params": [
+            [
+                0.15,
+                2,
+                0.2,
+                0.1,
+                0.3
+            ],
+            [
+                0.16,
+                2,
+                0.2,
+                0.1,
+                0.32
+            ],
+            [
+                0.17,
+                2,
+                0.2,
+                0.1,
+                0.34
+            ],
+            [
+                0.18,
+                2,
+                0.2,
+                0.1,
+                0.36
+            ],
+            [
+                0.19,
+                2,
+                0.2,
+                0.1,
+                0.38
+            ],
+            [
+                0.2,
+                2,
+                0.2,
+                0.1,
+                0.4
+            ],
+            [
+                0.2125,
+                2,
+                0.2,
+                0.1,
+                0.425
+            ],
+            [
+                0.225,
+                2,
+                0.2,
+                0.1,
+                0.45
+            ],
+            [
+                0.2375,
+                2,
+                0.2,
+                0.1,
+                0.475
+            ],
+            [
+                0.25,
+                2,
+                0.2,
+                0.1,
+                0.5
+            ],
+            [
+                0.26,
+                2,
+                0.2,
+                0.1,
+                0.52
+            ],
+            [
+                0.27,
+                2,
+                0.2,
+                0.1,
+                0.54
+            ],
+            [
+                0.28,
+                2,
+                0.2,
+                0.1,
+                0.56
+            ],
+            [
+                0.29,
+                2,
+                0.2,
+                0.1,
+                0.58
+            ],
+            [
+                0.3,
+                2,
+                0.2,
+                0.1,
+                0.6
+            ]
+        ],
+        "icon": "icon/skill/1303_ultimate.png"
+    },
+    "130304": {
+        "id": "130304",
+        "name": "Xoắn Ốc Phân Tách",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Thiên Phú",
+        "effect": "Support",
+        "effect_text": "Hỗ Trợ",
+        "simple_desc": "Tăng tốc độ cho tất cả đồng đội (ngoại trừ bản thân), khi phá vỡ điểm yếu của kẻ địch sẽ gây thêm sát thương phá vỡ thuộc tính Băng lên kẻ địch đó.",
+        "desc": "Tăng #1[f1]% tốc độ cho cả đội (ngoại trừ bản thân). Khi toàn bộ phe ta phá vỡ Điểm Yếu của kẻ địch, Ruan Mei sẽ gây Sát Thương Phá Vỡ lên kẻ đó tương đương #2[f1]% Sát Thương Phá Vỡ thuộc tính Băng của bản thân.",
+        "params": [
+            [
+                0.08,
+                0.6
+            ],
+            [
+                0.082,
+                0.66
+            ],
+            [
+                0.084,
+                0.72
+            ],
+            [
+                0.086,
+                0.78
+            ],
+            [
+                0.088,
+                0.84
+            ],
+            [
+                0.09,
+                0.9
+            ],
+            [
+                0.0925,
+                0.975
+            ],
+            [
+                0.095,
+                1.05
+            ],
+            [
+                0.0975,
+                1.125
+            ],
+            [
+                0.1,
+                1.2
+            ],
+            [
+                0.102,
+                1.26
+            ],
+            [
+                0.104,
+                1.32
+            ],
+            [
+                0.106,
+                1.38
+            ],
+            [
+                0.108,
+                1.44
+            ],
+            [
+                0.11,
+                1.5
+            ]
+        ],
+        "icon": "icon/skill/1303_talent.png"
+    },
+    "130306": {
+        "id": "130306",
+        "name": "Tấn Công",
+        "max_level": 1,
+        "element": "Ice",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Tấn công kẻ địch, sau khi vào chiến đấu sẽ làm giảm Sức Bền thuộc tính tương ứng của địch.",
+        "params": [],
+        "icon": "icon/skill/1303_basic_atk.png"
+    },
+    "130307": {
+        "id": "130307",
+        "name": "Dạ Khúc Lụa Là",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Bí Kỹ",
+        "effect": "Enhance",
+        "effect_text": "Cường Hóa",
+        "simple_desc": "Sau khi vào trận lần kế tiếp sẽ tự động kích hoạt #1[i] lần Chiến Kỹ. Sau khi dùng Bí Kỹ, phe ta tấn công kẻ địch trong Vũ Trụ Mô Phỏng luôn được xem là tấn công Điểm Yếu để vào trận, đồng thời bỏ qua Thuộc Tính Điểm Yếu và làm giảm Sức Bền. Mỗi khi sở hữu 1 Chúc Phúc, sẽ tăng Sát Thương Giảm Sức Bền, hơn nữa khi phá vỡ điểm yếu sẽ gây thêm Sát Thương Phá Vỡ.",
+        "desc": "Sau khi dùng Bí Kỹ, nhận được Dạ Khúc Lụa Là, khi bắt đầu trận đấu tiếp theo sẽ tự động kích hoạt #1[i] lần Chiến Kỹ, lần kích hoạt này không tiêu hao Điểm Chiến Kỹ.\nTrong Vũ Trụ Mô Phỏng, khi Ruan Mei có Dạ Khúc Lụa Là và phe ta chủ động tấn công kẻ địch sẽ xem như tấn công Điểm Yếu của địch để vào chiến đấu, đồng thời lần tấn công này có thể bỏ qua Thuộc Tính Điểm Yếu và làm giảm Sức Bền của toàn thể địch. Khi Phá Vỡ Điểm Yếu, sẽ kích hoạt hiệu ứng Phá Vỡ Điểm Yếu tương ứng thuộc tính của người tấn công. Cứ mỗi Chúc Phúc sở hữu, sẽ tăng thêm #2[i]% Sát Thương Giảm Sức Bền do lần tấn công này gây ra, đồng thời sau khi Phá Vỡ Điểm Yếu của địch, sẽ gây thêm cho kẻ đó Sát Thương Phá Vỡ bằng #3[i]% Sát Thương Phá Vỡ thuộc tính Băng của Ruan Mei, tối đa tính vào cho #4[i] Chúc Phúc.",
+        "params": [
+            [
+                1,
+                1,
+                1,
+                20
+            ]
+        ],
+        "icon": "icon/skill/1303_technique.png"
+    },
+    "130501": {
+        "id": "130501",
+        "name": "Tri Thức Là Sức Mạnh",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "Tấn Công Thường",
+        "effect": "SingleAttack",
+        "effect_text": "Đánh Đơn",
+        "simple_desc": "Gây lượng nhỏ Sát Thương Số Ảo cho 1 kẻ địch chỉ định.",
+        "desc": "Gây Sát Thương Số Ảo cho 1 kẻ địch chỉ định tương đương #1[i]% Tấn Công của Dr. Ratio.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1305_basic_atk.png"
+    },
+    "130502": {
+        "id": "130502",
+        "name": "Thuật Nâng Cao Trí Tuệ",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "BPSkill",
+        "type_text": "Chiến Kỹ",
+        "effect": "SingleAttack",
+        "effect_text": "Đánh Đơn",
+        "simple_desc": "Gây Sát Thương Số Ảo cho 1 kẻ địch chỉ định.",
+        "desc": "Gây Sát Thương Số Ảo cho 1 kẻ địch chỉ định tương đương #1[i]% Tấn Công của Dr. Ratio.",
+        "params": [
+            [
+                0.75
+            ],
+            [
+                0.825
+            ],
+            [
+                0.9
+            ],
+            [
+                0.975
+            ],
+            [
+                1.05
+            ],
+            [
+                1.125
+            ],
+            [
+                1.2188
+            ],
+            [
+                1.3125
+            ],
+            [
+                1.4063
+            ],
+            [
+                1.5
+            ],
+            [
+                1.575
+            ],
+            [
+                1.65
+            ],
+            [
+                1.725
+            ],
+            [
+                1.8
+            ],
+            [
+                1.875
+            ]
+        ],
+        "icon": "icon/skill/1305_skill.png"
+    },
+    "130503": {
+        "id": "130503",
+        "name": "Tam Đoạn Phản Luận",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Ultra",
+        "type_text": "Tuyệt Kỹ",
+        "effect": "SingleAttack",
+        "effect_text": "Đánh Đơn",
+        "simple_desc": "Gây Sát Thương Số Ảo cho 1 kẻ địch chỉ định, kèm theo Sự Mù Quáng Của Trí Giả lên kẻ này, khi đồng đội của Dr. Ratio tấn công mục tiêu đang có Sự Mù Quáng Của Trí Giả, Dr. Ratio sẽ phát động 1 lần Đòn Đánh Theo Sau lên mục tiêu này.",
+        "desc": "Gây Sát Thương Số Ảo lên 1 kẻ địch chỉ định bằng #1[i]% Tấn Công của Dr. Ratio, đồng thời kèm theo Sự Mù Quáng Của Trí Giả. Khi đồng đội của Dr. Ratio tấn công mục tiêu đang có Sự Mù Quáng Của Trí Giả, Dr. Ratio sẽ phát động 1 lần Đòn Đánh Theo Sau của Thiên Phú lên mục tiêu này.\nHiệu ứng Sự Mù Quáng Của Trí Giả tối đa kích hoạt #2[i] lần, hơn nữa chỉ có hiệu lực với mục tiêu mà Dr. Ratio thi triển Tuyệt Kỹ mới nhất lên đó. Sau khi thi triển Tuyệt Kỹ sẽ làm mới số lần kích hoạt hiệu ứng này.",
+        "params": [
+            [
+                1.44,
+                2
+            ],
+            [
+                1.536,
+                2
+            ],
+            [
+                1.632,
+                2
+            ],
+            [
+                1.728,
+                2
+            ],
+            [
+                1.824,
+                2
+            ],
+            [
+                1.92,
+                2
+            ],
+            [
+                2.04,
+                2
+            ],
+            [
+                2.16,
+                2
+            ],
+            [
+                2.28,
+                2
+            ],
+            [
+                2.4,
+                2
+            ],
+            [
+                2.496,
+                2
+            ],
+            [
+                2.592,
+                2
+            ],
+            [
+                2.688,
+                2
+            ],
+            [
+                2.784,
+                2
+            ],
+            [
+                2.88,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1305_ultimate.png"
+    },
+    "130504": {
+        "id": "130504",
+        "name": "Tôi Tư Duy, Nên Tôi Tồn Tại",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Talent",
+        "type_text": "Thiên Phú",
+        "effect": "SingleAttack",
+        "effect_text": "Đánh Đơn",
+        "simple_desc": "Khi thi triển Chiến Kỹ sẽ có xác suất phát động 1 lần Đòn Đánh Theo Sau lên mục tiêu này.",
+        "desc": "Khi thi triển Chiến Kỹ, có #2[i]% xác suất cố định phát động 1 lần Đòn Đánh Theo Sau lên mục tiêu này, gây Sát Thương Số Ảo bằng #1[i]% Tấn Công của Dr. Ratio. Mỗi khi mục tiêu có 1 Hiệu Ứng Xấu sẽ tăng #3[i]% xác suất cố định phát động Đòn Đánh Theo Sau. Nếu mục tiêu bị tiêu diệt trước khi phát động Đòn Đánh Theo Sau thì sẽ phát động Đòn Đánh Theo Sau lên 1 kẻ địch ngẫu nhiên.",
+        "params": [
+            [
+                1.35,
+                0.4,
+                0.2
+            ],
+            [
+                1.485,
+                0.4,
+                0.2
+            ],
+            [
+                1.62,
+                0.4,
+                0.2
+            ],
+            [
+                1.755,
+                0.4,
+                0.2
+            ],
+            [
+                1.89,
+                0.4,
+                0.2
+            ],
+            [
+                2.025,
+                0.4,
+                0.2
+            ],
+            [
+                2.1938,
+                0.4,
+                0.2
+            ],
+            [
+                2.3625,
+                0.4,
+                0.2
+            ],
+            [
+                2.5313,
+                0.4,
+                0.2
+            ],
+            [
+                2.7,
+                0.4,
+                0.2
+            ],
+            [
+                2.835,
+                0.4,
+                0.2
+            ],
+            [
+                2.97,
+                0.4,
+                0.2
+            ],
+            [
+                3.105,
+                0.4,
+                0.2
+            ],
+            [
+                3.24,
+                0.4,
+                0.2
+            ],
+            [
+                3.375,
+                0.4,
+                0.2
+            ]
+        ],
+        "icon": "icon/skill/1305_talent.png"
+    },
+    "130506": {
+        "id": "130506",
+        "name": "Tấn Công",
+        "max_level": 1,
+        "element": "Imaginary",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Tấn công kẻ địch, sau khi vào chiến đấu sẽ làm giảm Sức Bền thuộc tính tương ứng của địch.",
+        "params": [],
+        "icon": "icon/skill/1305_basic_atk.png"
+    },
+    "130507": {
+        "id": "130507",
+        "name": "Hun Đúc Thần Tượng",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Bí Kỹ",
+        "effect": "Impair",
+        "effect_text": "Quấy Nhiễu",
+        "simple_desc": "Tạo một vùng đặc biệt. Kẻ địch trong vùng sẽ bị khiêu khích. Sau khi vào chiến đấu với kẻ địch trong vùng, sẽ có xác suất lớn giảm Tốc Độ của kẻ địch.",
+        "desc": "Sau khi dùng Bí Kỹ, sẽ tạo ra 1 vùng đặc biệt khiêu khích kẻ địch ở gần, duy trì #1[i] giây. Sau khi vào chiến đấu với kẻ địch trong vùng đặc biệt, có #2[i]% xác suất cơ bản khiến Tốc Độ của mỗi kẻ địch giảm #3[i]%, duy trì #4[i] hiệp. Tối đa chỉ tồn tại 1 hiệu ứng vùng do phe ta tạo ra.",
+        "params": [
+            [
+                10,
+                1,
+                0.15,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1305_technique.png"
     },
     "800101": {
         "id": "800101",

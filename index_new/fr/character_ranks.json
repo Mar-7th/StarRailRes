@@ -3499,6 +3499,108 @@
         "level_up_skills": [],
         "icon": "icon/skill/1213_rank6.png"
     },
+    "121401": {
+        "id": "121401",
+        "name": "Refoulement psychologique",
+        "rank": 1,
+        "desc": "Augmente les DGT infligés par l'attaque de suivi du talent de 40%.",
+        "materials": [
+            {
+                "id": "11214",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1214_rank1.png"
+    },
+    "121402": {
+        "id": "121402",
+        "name": "Perturbation mentale",
+        "rank": 2,
+        "desc": "L'attaque de suivi du talent réduit la robustesse de l'ennemi quel que soit son type de faiblesse et Xueyi régénère des PV à hauteur de 5% de ses PV max. Un effet de Rupture quantique se déclenche lorsqu'elle inflige une Rupture de faiblesse.",
+        "materials": [
+            {
+                "id": "11214",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1214_rank2.png"
+    },
+    "121403": {
+        "id": "121403",
+        "name": "Cessation de la souffrance",
+        "rank": 3,
+        "desc": "Niv. de la compétence +2, jusqu'au Niv. 15 maximum.\\nNiv. de l'ATQ normale +1, jusqu'au Niv. 10 maximum.",
+        "materials": [
+            {
+                "id": "11214",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "121402",
+                "num": 2
+            },
+            {
+                "id": "121401",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1214_skill.png"
+    },
+    "121404": {
+        "id": "121404",
+        "name": "Rupture de karma",
+        "rank": 4,
+        "desc": "Augmente l'effet de Rupture de 40% pendant 2 tours lors de l'utilisation de l'ultime.",
+        "materials": [
+            {
+                "id": "11214",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1214_rank4.png"
+    },
+    "121405": {
+        "id": "121405",
+        "name": "Esprit envoûté",
+        "rank": 5,
+        "desc": "Niv. de l'ultime +2, jusqu'au Niv. 15 maximum.\\nNiv. du talent +2, jusqu'au Niv. 15 maximum.",
+        "materials": [
+            {
+                "id": "11214",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "121403",
+                "num": 2
+            },
+            {
+                "id": "121404",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1214_ultimate.png"
+    },
+    "121406": {
+        "id": "121406",
+        "name": "Équilibre de la vie et de la mort",
+        "rank": 6,
+        "desc": "La limite max de Karma est réduite à 6.",
+        "materials": [
+            {
+                "id": "11214",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1214_rank6.png"
+    },
     "121501": {
         "id": "121501",
         "name": "Une seule pensée",
@@ -3619,7 +3721,7 @@
         "id": "121702",
         "name": "Queue de l'esprit scellée",
         "rank": 2,
-        "desc": "Si Huohuo bénéficie d'Intervention divine alors qu'un allié subit un coup fatal, l'allié ne tombe par à terre, et restaure immédiatement des PV à hauteur de 50% de ses PV max, ce qui réduit la durée d'Intervention divine de 1 tour. Cet effet ne peut être déclenché que 2 fois par combat.",
+        "desc": "Si Huohuo bénéficie d'Intervention divine alors qu'un allié subit un coup fatal, l'allié ne tombe pas à terre, et restaure immédiatement des PV à hauteur de 50% de ses PV max, ce qui réduit la durée d'Intervention divine de 1 tour. Cet effet ne peut être déclenché que 2 fois par combat.",
         "materials": [
             {
                 "id": "11217",
@@ -3758,7 +3860,7 @@
         "id": "130204",
         "name": "Dévotion des trompettes de la guerre",
         "rank": 4,
-        "desc": "Le personnage gagne 2 cumuls d'Ascension en début de combat, et le nombre de cumuls maximum de l'effet de son talent passe à 2.",
+        "desc": "Le personnage gagne 2 cumuls d'Ascension en début de combat, et le nombre de cumuls maximum de l'effet de son talent augmente de 2.",
         "materials": [
             {
                 "id": "11302",
@@ -3799,7 +3901,7 @@
         "id": "130206",
         "name": "Resplendissance",
         "rank": 6,
-        "desc": "L'ultime ignore 30% de la DÉF de la cible ennemie.",
+        "desc": "L'ultime ignore 30% de la DÉF des cibles ennemies.",
         "materials": [
             {
                 "id": "11302",
@@ -3808,6 +3910,210 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1302_rank6.png"
+    },
+    "130301": {
+        "id": "130301",
+        "name": "Schéma neuronal",
+        "rank": 1,
+        "desc": "Lorsque que le champ généré par l'ultime est déployé, les DGT infligés par tous les alliés ignorent 20% de la DÉF des cibles.",
+        "materials": [
+            {
+                "id": "11303",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1303_rank1.png"
+    },
+    "130302": {
+        "id": "130302",
+        "name": "Promenade au bord des roseaux",
+        "rank": 2,
+        "desc": "Lorsque Ruan Mei est sur le champ de bataille, l'ATQ de tous les alliés augmente de 40% lorsqu'ils infligent des DGT à des ennemis en état de Rupture de faiblesse.",
+        "materials": [
+            {
+                "id": "11303",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1303_rank2.png"
+    },
+    "130303": {
+        "id": "130303",
+        "name": "Virevolte viridescente",
+        "rank": 3,
+        "desc": "Niv. de l'ultime +2, jusqu'au Niv. 15 maximum.\\nNiv. du talent +2, jusqu'au Niv. 15 maximum.",
+        "materials": [
+            {
+                "id": "11303",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130303",
+                "num": 2
+            },
+            {
+                "id": "130304",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1303_skill.png"
+    },
+    "130304": {
+        "id": "130304",
+        "name": "Éclat chatoyant",
+        "rank": 4,
+        "desc": "L'effet de Rupture de Ruan Mei augmente de 100% pendant 3 tours en cas de Rupture de faiblesse d'une cible ennemie.",
+        "materials": [
+            {
+                "id": "11303",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1303_rank4.png"
+    },
+    "130305": {
+        "id": "130305",
+        "name": "Barrette de languissement",
+        "rank": 5,
+        "desc": "Niv. de la compétence +2, jusqu'au Niv. 15 maximum.\\nNiv. de l'ATQ normale +1, jusqu'au Niv. 10 maximum.",
+        "materials": [
+            {
+                "id": "11303",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130302",
+                "num": 2
+            },
+            {
+                "id": "130301",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1303_ultimate.png"
+    },
+    "130306": {
+        "id": "130306",
+        "name": "Cascade de rubans",
+        "rank": 6,
+        "desc": "Prolonge la durée du champ généré par l'ultime de 1 tour. D'autre part, le multiplicateur des DGT de rupture du talent augmente de 200%.",
+        "materials": [
+            {
+                "id": "11303",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1303_rank6.png"
+    },
+    "130501": {
+        "id": "130501",
+        "name": "L'arrogance engendre le malheur",
+        "rank": 1,
+        "desc": "Le nombre maximum de cumuls pour le bonus de Trace « Synthèse » augmente de 4. Vous gagnez immédiatement 4 cumuls de Synthèse en début de combat. Nécessite le déblocage de Synthèse.",
+        "materials": [
+            {
+                "id": "11305",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1305_rank1.png"
+    },
+    "130502": {
+        "id": "130502",
+        "name": "Le diable est dans les détails",
+        "rank": 2,
+        "desc": "Lorsque l'attaque de suivi de son talent touche une cible, cette dernière subit des DGT imaginaires supplémentaires équivalents à 20% de l'ATQ de Dr Ratio pour chaque malus qui lui est appliqué. Cet effet peut être déclenché un maximum de 4 fois durant chaque attaque de suivi.",
+        "materials": [
+            {
+                "id": "11305",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1305_rank2.png"
+    },
+    "130503": {
+        "id": "130503",
+        "name": "Connais-toi toi-même",
+        "rank": 3,
+        "desc": "Niv. de l'ultime +2, jusqu'au Niv. 15 maximum.\\nNiv. de l'ATQ normale +1, jusqu'au Niv. 10 maximum.",
+        "materials": [
+            {
+                "id": "11305",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130503",
+                "num": 2
+            },
+            {
+                "id": "130501",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1305_skill.png"
+    },
+    "130504": {
+        "id": "130504",
+        "name": "L'ignorance est aveugle",
+        "rank": 4,
+        "desc": "Régénère 15 points d'énergie supplémentaires pour Dr Ratio lorsque son talent se déclenche.",
+        "materials": [
+            {
+                "id": "11305",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1305_rank4.png"
+    },
+    "130505": {
+        "id": "130505",
+        "name": "Sic Itur Ad Astra",
+        "rank": 5,
+        "desc": "Niv. de la compétence +2, jusqu'au Niv. 15 maximum.\\nNiv. du talent +2, jusqu'au Niv. 15 maximum.",
+        "materials": [
+            {
+                "id": "11305",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130502",
+                "num": 2
+            },
+            {
+                "id": "130504",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1305_ultimate.png"
+    },
+    "130506": {
+        "id": "130506",
+        "name": "Vincit Omnia Veritas",
+        "rank": 6,
+        "desc": "Augmente de 1 le nombre de déclenchements de Folie du sage. Les DGT infligés par l'attaque de suivi du talent augmentent de 50%.",
+        "materials": [
+            {
+                "id": "11305",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1305_rank6.png"
     },
     "800101": {
         "id": "800101",

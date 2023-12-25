@@ -1959,7 +1959,7 @@
         "id": "111102",
         "name": "O Inimigo é Fraco, Eu Sou Forte",
         "rank": 2,
-        "desc": "Se a Perícia atingir um inimigo-alvo com Fraqueza Física, ganha 1 acúmulo(s) de Desejo de Lutar.",
+        "desc": "Se a Perícia atingir um inimigo-alvo com Fraqueza contra Físico, ganha 1 acúmulo(s) de Desejo de Lutar.",
         "materials": [
             {
                 "id": "11111",
@@ -3499,6 +3499,108 @@
         "level_up_skills": [],
         "icon": "icon/skill/1213_rank6.png"
     },
+    "121401": {
+        "id": "121401",
+        "name": "Dvesha, Inibida",
+        "rank": 1,
+        "desc": "Aumenta em 40% o Dano causado pelo Ataque Extra de Talento.",
+        "materials": [
+            {
+                "id": "11214",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1214_rank1.png"
+    },
+    "121402": {
+        "id": "121402",
+        "name": "Klesha, Rompida",
+        "rank": 2,
+        "desc": "O Ataque Extra do Talento reduz a Tenacidade inimiga independente dos Tipos de Fraqueza. Ao mesmo tempo, recupera os PV de Xueyi em uma quantidade igual a 5% dos PV máximos dela. Ao aplicar Quebra de Fraqueza, ativa o Efeito de Quebra Quântico.",
+        "materials": [
+            {
+                "id": "11214",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1214_rank2.png"
+    },
+    "121403": {
+        "id": "121403",
+        "name": "Duhkha, Cessada",
+        "rank": 3,
+        "desc": "Nv. da Perícia +2, até no máximo Nv. 15.\\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
+        "materials": [
+            {
+                "id": "11214",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "121402",
+                "num": 2
+            },
+            {
+                "id": "121401",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1214_skill.png"
+    },
+    "121404": {
+        "id": "121404",
+        "name": "Carma, Partido",
+        "rank": 4,
+        "desc": "Ao usar a Perícia Suprema, o Efeito de Quebra aumenta em 40% por 2 rodada(s).",
+        "materials": [
+            {
+                "id": "11214",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1214_rank4.png"
+    },
+    "121405": {
+        "id": "121405",
+        "name": "Deva, Encantada",
+        "rank": 5,
+        "desc": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\\nNv. do Talento +2, até no máximo Nv. 15.",
+        "materials": [
+            {
+                "id": "11214",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "121403",
+                "num": 2
+            },
+            {
+                "id": "121404",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1214_ultimate.png"
+    },
+    "121406": {
+        "id": "121406",
+        "name": "Samsara, Dominada",
+        "rank": 6,
+        "desc": "O limite de acúmulo máximo para Carma reduzido para 6.",
+        "materials": [
+            {
+                "id": "11214",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1214_rank6.png"
+    },
     "121501": {
         "id": "121501",
         "name": "Um Coração",
@@ -3617,7 +3719,7 @@
     },
     "121702": {
         "id": "121702",
-        "name": "Selado no Rabin, Espectro Subjugado",
+        "name": "Selada no Rabin, Espectro Subjugado",
         "rank": 2,
         "desc": "Se Huohuo possuir Provisão Divina quando um aliado for atingido por um golpe fatal, o aliado não será derrubado, e seus PV serão imediatamente restaurados em uma quantidade igual a 50% dos seus PV máximos. Isso reduz a duração da Provisão Divina em 1 rodada. Este efeito só pode ser ativado 2 vez(es) por batalha.",
         "materials": [
@@ -3707,7 +3809,7 @@
         "id": "130201",
         "name": "Uma Lacuna no Reino da Estética",
         "rank": 1,
-        "desc": "Cada acúmulo de Ascender aumenta o Dano CRIT adicionalmente em 4%.",
+        "desc": "Cada acúmulo de Apoteose aumenta o Dano CRIT adicionalmente em 4%.",
         "materials": [
             {
                 "id": "11302",
@@ -3758,7 +3860,7 @@
         "id": "130204",
         "name": "Devoção do Clarim",
         "rank": 4,
-        "desc": "No início da batalha, ganha 2 acúmulo(s) de Ascender e aumenta o limite máximo de acúmulos do efeito do Talento em 2.",
+        "desc": "No início da batalha, ganha 2 acúmulo(s) de Apoteose e aumenta o limite máximo de acúmulos do efeito do Talento em 2.",
         "materials": [
             {
                 "id": "11302",
@@ -3809,6 +3911,210 @@
         "level_up_skills": [],
         "icon": "icon/skill/1302_rank6.png"
     },
+    "130301": {
+        "id": "130301",
+        "name": "Bordado Neurônico",
+        "rank": 1,
+        "desc": "Quando o campo da Perícia Suprema é instalado, o Dano causado por todos os aliados ignora 20% da DEF do alvo.",
+        "materials": [
+            {
+                "id": "11303",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1303_rank1.png"
+    },
+    "130302": {
+        "id": "130302",
+        "name": "Passeio Pela Relva",
+        "rank": 2,
+        "desc": "Com Ruan Mei no campo, todos os aliados aumentam seus ATQs em 40% ao causar Dano a inimigos com Quebra de Fraqueza.",
+        "materials": [
+            {
+                "id": "11303",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1303_rank2.png"
+    },
+    "130303": {
+        "id": "130303",
+        "name": "Pirueta Viridescente",
+        "rank": 3,
+        "desc": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\\nNv. do Talento +2, até no máximo Nv. 15.",
+        "materials": [
+            {
+                "id": "11303",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130303",
+                "num": 2
+            },
+            {
+                "id": "130304",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1303_skill.png"
+    },
+    "130304": {
+        "id": "130304",
+        "name": "Chatoyant Éclat",
+        "rank": 4,
+        "desc": "Quando um inimigo-alvo sofrer de Quebra de Fraqueza, o Efeito de Quebra de Ruan Mei aumenta em 100% por 3 rodada(s).",
+        "materials": [
+            {
+                "id": "11303",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1303_rank4.png"
+    },
+    "130305": {
+        "id": "130305",
+        "name": "Presilha Lânguida",
+        "rank": 5,
+        "desc": "Nv. da Perícia +2, até no máximo Nv. 15.\\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
+        "materials": [
+            {
+                "id": "11303",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130302",
+                "num": 2
+            },
+            {
+                "id": "130301",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1303_ultimate.png"
+    },
+    "130306": {
+        "id": "130306",
+        "name": "Cascada de Lenços",
+        "rank": 6,
+        "desc": "Estende a duração do campo da Perícia Suprema por 1 rodada(s). O multiplicador do Dano de Quebra do Talento aumenta adicionalmente em 200%.",
+        "materials": [
+            {
+                "id": "11303",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1303_rank6.png"
+    },
+    "130501": {
+        "id": "130501",
+        "name": "Quanto Maior a Subida, Maior a Queda",
+        "rank": 1,
+        "desc": "A contagem máxima de acúmulos para o Rastro \"Soma\" aumenta em 4. Quando uma batalha começa, obtém imediatamente 4 acúmulos de Soma. É necessário desbloquear Soma antes.",
+        "materials": [
+            {
+                "id": "11305",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1305_rank1.png"
+    },
+    "130502": {
+        "id": "130502",
+        "name": "O Divino Está nos Detalhes",
+        "rank": 2,
+        "desc": "Quando o Ataque Extra do seu Talento atinge um alvo, para cada penalidade no alvo, causa adicionalmente Dano Imaginário Adicional igual a 20% do ATQ do Dr. Ratio. Este efeito pode ser acionado até um máximo de 4 vez(es) durante cada Ataque Extra.",
+        "materials": [
+            {
+                "id": "11305",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1305_rank2.png"
+    },
+    "130503": {
+        "id": "130503",
+        "name": "Conhece-te a Ti Mesmo",
+        "rank": 3,
+        "desc": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
+        "materials": [
+            {
+                "id": "11305",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130503",
+                "num": 2
+            },
+            {
+                "id": "130501",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1305_skill.png"
+    },
+    "130504": {
+        "id": "130504",
+        "name": "Ignorância É Uma Bênção",
+        "rank": 4,
+        "desc": "Ao ativar o Talento, adicionalmente regenera 15 de Energia do Dr. Ratio.",
+        "materials": [
+            {
+                "id": "11305",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1305_rank4.png"
+    },
+    "130505": {
+        "id": "130505",
+        "name": "Sic Itur Ad Astra",
+        "rank": 5,
+        "desc": "Nv. da Perícia +2, até no máximo Nv. 15.\\nNv. do Talento +2, até no máximo Nv. 15.",
+        "materials": [
+            {
+                "id": "11305",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130502",
+                "num": 2
+            },
+            {
+                "id": "130504",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1305_ultimate.png"
+    },
+    "130506": {
+        "id": "130506",
+        "name": "Vincit Omnia Veritas",
+        "rank": 6,
+        "desc": "Aumenta a contagem de acionamento para Tolice do Sábio em 1. O Dano causado pelo Ataque Extra do Talento aumenta em 50%.",
+        "materials": [
+            {
+                "id": "11305",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1305_rank6.png"
+    },
     "800101": {
         "id": "800101",
         "name": "Uma Estrela Cadente",
@@ -3827,7 +4133,7 @@
         "id": "800102",
         "name": "Um Anfitrião Indisposto",
         "rank": 2,
-        "desc": "Atacar inimigos com Fraqueza Física restaura uma quantidade de PV igual a 5% do ATQ {F#da Desbravadora}{M#do Desbravador}.",
+        "desc": "Atacar inimigos com Fraqueza contra Físico restaura uma quantidade de PV igual a 5% do ATQ {F#da Desbravadora}{M#do Desbravador}.",
         "materials": [
             {
                 "id": "18001",
@@ -3937,7 +4243,7 @@
         "id": "800202",
         "name": "Um Anfitrião Forçado",
         "rank": 2,
-        "desc": "Atacar inimigos com Fraqueza Física restaura uma quantidade de PV igual a 5% do ATQ {F#da Desbravadora}{M#do Desbravador}.",
+        "desc": "Atacar inimigos com Fraqueza contra Físico restaura uma quantidade de PV igual a 5% do ATQ {F#da Desbravadora}{M#do Desbravador}.",
         "materials": [
             {
                 "id": "18001",

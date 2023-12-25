@@ -351,7 +351,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do Tipo correspondente do inimigo-alvo.",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "params": [],
         "icon": "icon/skill/1001_basic_atk.png"
     },
@@ -682,7 +682,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do Tipo correspondente do inimigo-alvo.",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "params": [],
         "icon": "icon/skill/1002_basic_atk.png"
     },
@@ -982,7 +982,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do Tipo correspondente do inimigo-alvo.",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "params": [],
         "icon": "icon/skill/1003_basic_atk.png"
     },
@@ -1329,7 +1329,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do Tipo correspondente do inimigo-alvo.",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "params": [],
         "icon": "icon/skill/1004_basic_atk.png"
     },
@@ -1707,7 +1707,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do Tipo correspondente do inimigo-alvo.",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "params": [],
         "icon": "icon/skill/1005_basic_atk.png"
     },
@@ -1720,7 +1720,7 @@
         "type_text": "Técnica",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "Ataca todos os inimigos num certo alcance. Depois de entrar em batalha, causa Dano de Raio leve a todos os inimigos com alta chance de infligir Choque a eles.",
+        "simple_desc": "Ataca todos os inimigos num certo alcance. Depois de entrar em batalha, causa Dano de Raio leve a todos os inimigos com alta chance de infligir Choque neles.",
         "desc": "Ataca imediatamente todos os inimigos dentro de um alcance específico. Depois de entrar em batalha, causa Dano de Raio igual a #3[i]% do ATQ de Kafka a todos os inimigos, com uma chance-base de #1[i]% de infligir Choque equivalente àquele aplicado pela Perícia Suprema dela a todos os inimigos-alvo por #2[i] rodada(s).",
         "params": [
             [
@@ -1780,8 +1780,8 @@
         "element": "Quantum",
         "type": "BPSkill",
         "type_text": "Perícia",
-        "effect": "Impair",
-        "effect_text": "Incapacitação",
+        "effect": "SingleAttack",
+        "effect_text": "Alvo Único",
         "simple_desc": "Existe uma chance alta de aplicar Fraquezas de Tipo adicionais a um único inimigo e causa Dano Quântico a este inimigo-alvo.",
         "desc": "Tem #2[i]% de chance-base de adicionar 1 Fraqueza do Tipo de um personagem em campo ao inimigo-alvo. Isso também reduz a RES a Dano do inimigo a este Tipo de Fraqueza em #4[i]% por #3[i] rodada(s). Se o inimigo já possui Fraqueza a este Tipo, o efeito de redução da RES a Dano a este Tipo de Fraqueza não será ativado.\nCada inimigo pode ter apenas 1 Fraqueza implantada pela Loba Prateada. Quando Loba Prateada implanta outra Fraqueza ao alvo, apenas a última Fraqueza implantada será mantida. Adicionalmente, existe #5[i]% de chance-base de reduzir mais ainda a RES a Todos os Tipos do inimigo em #6[f1]% por #7[i] rodada(s).\nCausa Dano Quântico igual a #1[i]% do ATQ da Loba Prateada a um único inimigo-alvo.",
         "params": [
@@ -1930,8 +1930,8 @@
         "element": "Quantum",
         "type": "Ultra",
         "type_text": "Perícia Suprema",
-        "effect": "Impair",
-        "effect_text": "Incapacitação",
+        "effect": "SingleAttack",
+        "effect_text": "Alvo Único",
         "simple_desc": "Tem uma chance alta de diminuir a DEF de um único inimigo e causa Dano Quântico massivo a este inimigo-alvo.",
         "desc": "Tem uma chance-base de #2[i]% de diminuir a DEF do inimigo-alvo em #3[f1]% por #4[i] rodada(s). E, ao mesmo tempo, causa #1[i]% do ATQ da Loba Prateada como Dano Quântico ao inimigo-alvo.",
         "params": [
@@ -2158,7 +2158,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do Tipo correspondente do inimigo-alvo.",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "params": [],
         "icon": "icon/skill/1006_basic_atk.png"
     },
@@ -2172,7 +2172,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "Ataca o inimigo. Após entrar na batalha, causa uma pequena quantidade de Dano a todos os inimigos e reduz a Tenacidade deles independentemente de seus Tipos de Fraquezas.",
-        "desc": "Ataca o inimigo imediatamente. Após entrar na batalha, causa Dano Quântico igual a #1[i]% do ATQ da Loba Prateada a todos os inimigos, ignora os Tipos de Fraqueza e reduz a Tenacidade de todos os inimigos. Inimigos com suas Fraquezas Quebradas desta forma ativarão o efeito de Quebra de Fraqueza contra Dano Quântico.",
+        "desc": "Ataca o inimigo imediatamente. Após entrar na batalha, causa Dano Quântico igual a #1[i]% do ATQ da Loba Prateada a todos os inimigos, ignora os Tipos de Fraqueza e reduz a Tenacidade de todos os inimigos. Inimigos com suas Fraquezas Quebradas desta forma ativarão o efeito de Quebra de Fraqueza contra Quântico.",
         "params": [
             [
                 0.8
@@ -2442,7 +2442,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do Tipo correspondente do inimigo-alvo.",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "params": [],
         "icon": "icon/skill/1008_basic_atk.png"
     },
@@ -2651,7 +2651,7 @@
         "effect": "Support",
         "effect_text": "Suporte",
         "simple_desc": "O personagem receberá 1 acúmulo de Carga para cada inimigo diferente que atacar, com um máximo de 5 acúmulos. Cada acúmulo de Carga aumenta o ATQ de todos os aliados. Os acúmulos de Carga são reduzidos no início de cada rodada.",
-        "desc": "Ganha 1 acúmulo de Carga para cada inimigo diferente que Asta atingir, além de um acúmulo extra se o inimigo atingido tiver Fraqueza de Fogo.\nPara cada acúmulo de Carga que Asta tiver, aumenta em #1[f1]% o ATQ de todos os aliados, até #2[i] vez(es).\nA partir da segunda rodada, reduz em #3[i] a contagem de acúmulos de Carga de Asta no início de cada rodada.",
+        "desc": "Ganha 1 acúmulo de Carga para cada inimigo diferente que Asta atingir, além de um acúmulo extra se o inimigo atingido tiver Fraqueza contra Fogo.\nPara cada acúmulo de Carga que Asta tiver, aumenta em #1[f1]% o ATQ de todos os aliados, até #2[i] vez(es).\nA partir da segunda rodada, reduz em #3[i] a contagem de acúmulos de Carga de Asta no início de cada rodada.",
         "params": [
             [
                 0.07,
@@ -2741,7 +2741,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do Tipo correspondente do inimigo-alvo.",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "params": [],
         "icon": "icon/skill/1009_basic_atk.png"
     },
@@ -3040,7 +3040,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do Tipo correspondente do inimigo-alvo.",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "params": [],
         "icon": "icon/skill/1013_basic_atk.png"
     },
@@ -3385,7 +3385,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do Tipo correspondente do inimigo-alvo.",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "params": [],
         "icon": "icon/skill/1101_basic_atk.png"
     },
@@ -3685,7 +3685,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do Tipo correspondente do inimigo-alvo.",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "params": [],
         "icon": "icon/skill/1102_basic_atk.png"
     },
@@ -4014,7 +4014,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do Tipo correspondente do inimigo-alvo.",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "params": [],
         "icon": "icon/skill/1103_basic_atk.png"
     },
@@ -4088,8 +4088,8 @@
         "element": "Ice",
         "type": "BPSkill",
         "type_text": "Perícia",
-        "effect": "Impair",
-        "effect_text": "Incapacitação",
+        "effect": "SingleAttack",
+        "effect_text": "Alvo Único",
         "simple_desc": "Causa Dano de Gelo a um único inimigo, com uma chance de causar Congelamento.",
         "desc": "Causa Dano de Gelo igual a #1[i]% do ATQ de Gepard a um único inimigo, com #2[i]% de chance-base de o inimigo sofrer Congelamento por #3[i] rodada(s).\nDurante o Congelamento, o inimigo não pode agir e sofre Dano Adicional de Gelo igual a #4[i]% do ATQ de Gepard no início de cada rodada.",
         "params": [
@@ -4346,7 +4346,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do Tipo correspondente do inimigo-alvo.",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "params": [],
         "icon": "icon/skill/1104_basic_atk.png"
     },
@@ -4421,7 +4421,7 @@
         "type_text": "Perícia",
         "effect": "Restore",
         "effect_text": "Restauração",
-        "simple_desc": "Restaura PV de um único aliado e cura esse aliado continuamente.",
+        "simple_desc": "Restaura PV de um único aliado e concede a Cura Periódica a ele.",
         "desc": "Cura um único alvo em #1[f1]% dos PV máximos de Natasha + #4[i]. Cura o aliado em mais #2[f1]% dos PV máximos de Natasha mais #5[i] no início de cada rodada por #3[i] rodada(s).",
         "params": [
             [
@@ -4692,7 +4692,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do Tipo correspondente do inimigo-alvo.",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "params": [],
         "icon": "icon/skill/1105_basic_atk.png"
     },
@@ -4766,8 +4766,8 @@
         "element": "Ice",
         "type": "BPSkill",
         "type_text": "Perícia",
-        "effect": "Impair",
-        "effect_text": "Incapacitação",
+        "effect": "SingleAttack",
+        "effect_text": "Alvo Único",
         "simple_desc": "Remove 1 melhoria de um único inimigo-alvo e causa Dano de Gelo ao inimigo-alvo.",
         "desc": "Remove #2[i] melhoria(s) e causa Dano de Gelo igual a #1[i]% do ATQ de Pela a um único inimigo-alvo.",
         "params": [
@@ -4841,8 +4841,8 @@
         "element": "Ice",
         "type": "Ultra",
         "type_text": "Perícia Suprema",
-        "effect": "Impair",
-        "effect_text": "Incapacitação",
+        "effect": "AoEAttack",
+        "effect_text": "Área",
         "simple_desc": "Tem altas chances de reduzir a DEF dos inimigos, além de causar Dano de Gelo leve a todos os inimigos.",
         "desc": "Causa Dano de Gelo igual a #4[i]% do ATQ de Pela a todos os inimigos, com uma chance-base de #1[i]% de infligir a condição Exposto em todos os inimigos.\nInimigos Expostos têm a DEF reduzida em #2[i]% por #3[i] rodada(s).",
         "params": [
@@ -5009,7 +5009,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do Tipo correspondente do inimigo-alvo.",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "params": [],
         "icon": "icon/skill/1106_basic_atk.png"
     },
@@ -5371,7 +5371,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do Tipo correspondente do inimigo-alvo.",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "params": [],
         "icon": "icon/skill/1107_basic_atk.png"
     },
@@ -5518,8 +5518,8 @@
         "element": "Wind",
         "type": "Ultra",
         "type_text": "Perícia Suprema",
-        "effect": "Impair",
-        "effect_text": "Incapacitação",
+        "effect": "AoEAttack",
+        "effect_text": "Área",
         "simple_desc": "Causa Dano de Vento a todos os inimigos, com altas chances de causar Dano Contínuo aumentado a eles.",
         "desc": "Causa Dano de Vento igual a #1[i]% do ATQ de Sampo a todos os inimigos, com #4[i]% de chance-base de aumentar o Dano Contínuo recebido pelo alvo em #2[i]% por #3[i] rodada(s).",
         "params": [
@@ -5731,7 +5731,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do Tipo correspondente do inimigo-alvo.",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "params": [],
         "icon": "icon/skill/1108_basic_atk.png"
     },
@@ -6047,7 +6047,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do Tipo correspondente do inimigo-alvo.",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "params": [],
         "icon": "icon/skill/1109_basic_atk.png"
     },
@@ -6589,7 +6589,7 @@
         "effect": "SingleAttack",
         "effect_text": "Alvo Único",
         "simple_desc": "",
-        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do Tipo correspondente do inimigo-alvo.",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "params": [],
         "icon": "icon/skill/1110_basic_atk.png"
     },
@@ -6978,7 +6978,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do Tipo correspondente do inimigo-alvo.",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "params": [],
         "icon": "icon/skill/1111_basic_atk.png"
     },
@@ -7374,7 +7374,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do Tipo correspondente do inimigo-alvo.",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "params": [],
         "icon": "icon/skill/1112_basic_atk.png"
     },
@@ -7659,7 +7659,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do Tipo correspondente do inimigo-alvo.",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "params": [],
         "icon": "icon/skill/1201_basic_atk.png"
     },
@@ -8039,7 +8039,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do Tipo correspondente do inimigo-alvo.",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "params": [],
         "icon": "icon/skill/1202_basic_atk.png"
     },
@@ -8398,7 +8398,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do Tipo correspondente do inimigo-alvo.",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "params": [],
         "icon": "icon/skill/1203_basic_atk.png"
     },
@@ -8753,7 +8753,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do Tipo correspondente do inimigo-alvo.",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "params": [],
         "icon": "icon/skill/1204_basic_atk.png"
     },
@@ -9187,7 +9187,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do Tipo correspondente do inimigo-alvo.",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "params": [],
         "icon": "icon/skill/1205_basic_atk.png"
     },
@@ -9610,7 +9610,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do Tipo correspondente do inimigo-alvo.",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "params": [],
         "icon": "icon/skill/1206_basic_atk.png"
     },
@@ -9939,7 +9939,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do Tipo correspondente do inimigo-alvo.",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "params": [],
         "icon": "icon/skill/1207_basic_atk.png"
     },
@@ -10285,7 +10285,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do Tipo correspondente do inimigo-alvo.",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "params": [],
         "icon": "icon/skill/1208_basic_atk.png"
     },
@@ -10645,7 +10645,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do Tipo correspondente do inimigo-alvo.",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "params": [],
         "icon": "icon/skill/1209_basic_atk.png"
     },
@@ -11051,7 +11051,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do Tipo correspondente do inimigo-alvo.",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "params": [],
         "icon": "icon/skill/1210_basic_atk.png"
     },
@@ -11442,7 +11442,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do Tipo correspondente do inimigo-alvo.",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "params": [],
         "icon": "icon/skill/1211_basic_atk.png"
     },
@@ -11846,7 +11846,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do Tipo correspondente do inimigo-alvo.",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "params": [],
         "icon": "icon/skill/1212_basic_atk.png"
     },
@@ -12270,7 +12270,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do Tipo correspondente do inimigo-alvo.",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "params": [],
         "icon": "icon/skill/1213_basic_atk.png"
     },
@@ -12452,6 +12452,335 @@
         ],
         "icon": "icon/skill/1213_basic_atk.png"
     },
+    "121401": {
+        "id": "121401",
+        "name": "Sovela Quebra-mara",
+        "max_level": 9,
+        "element": "Quantum",
+        "type": "Normal",
+        "type_text": "ATQ Básico",
+        "effect": "SingleAttack",
+        "effect_text": "Alvo Único",
+        "simple_desc": "Causa Dano Quântico leve a um único inimigo.",
+        "desc": "Causa #1[i]% do ATQ de Xueyi como Dano Quântico a um único inimigo-alvo.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1214_basic_atk.png"
+    },
+    "121402": {
+        "id": "121402",
+        "name": "Obliteração de Iniquidade",
+        "max_level": 15,
+        "element": "Quantum",
+        "type": "BPSkill",
+        "type_text": "Perícia",
+        "effect": "Blast",
+        "effect_text": "Explosão",
+        "simple_desc": "Causa Dano Quântico a um único inimigo e Dano Quântico leve a inimigos adjacentes a ele.",
+        "desc": "Causa Dano Quântico igual a #1[i]% do ATQ de Xueyi a um único inimigo e #2[i]% do ATQ de Xueyi como Dano Quântico aos inimigos adjacentes.",
+        "params": [
+            [
+                0.7,
+                0.35
+            ],
+            [
+                0.77,
+                0.385
+            ],
+            [
+                0.84,
+                0.42
+            ],
+            [
+                0.91,
+                0.455
+            ],
+            [
+                0.98,
+                0.49
+            ],
+            [
+                1.05,
+                0.525
+            ],
+            [
+                1.1375,
+                0.5688
+            ],
+            [
+                1.225,
+                0.6125
+            ],
+            [
+                1.3125,
+                0.6563
+            ],
+            [
+                1.4,
+                0.7
+            ],
+            [
+                1.47,
+                0.735
+            ],
+            [
+                1.54,
+                0.77
+            ],
+            [
+                1.61,
+                0.805
+            ],
+            [
+                1.68,
+                0.84
+            ],
+            [
+                1.75,
+                0.875
+            ]
+        ],
+        "icon": "icon/skill/1214_skill.png"
+    },
+    "121403": {
+        "id": "121403",
+        "name": "Castigo Divino",
+        "max_level": 15,
+        "element": "Quantum",
+        "type": "Ultra",
+        "type_text": "Perícia Suprema",
+        "effect": "SingleAttack",
+        "effect_text": "Alvo Único",
+        "simple_desc": "Causa Dano Quântico massivo a um único inimigo. Este ataque ignora Tipos de Fraqueza e reduz a Tenacidade do alvo. Quanto mais Tenacidade é reduzida, mais alto é o Dano causado.",
+        "desc": "Causa Dano Quântico igual a #1[i]% do ATQ de Xueyi a um único inimigo-alvo. Este ataque ignora os Tipos de Fraqueza e reduz a Tenacidade do inimigo. Quando o inimigo sofrer a Quebra de Fraqueza, o efeito Quebra de Fraqueza contra Quântico é ativado.\nNeste ataque, quanto mais Tenacidade for reduzida, maior será o Dano causado, até um máximo de #3[f1]% de aumento.",
+        "params": [
+            [
+                1.5,
+                0.09,
+                0.36
+            ],
+            [
+                1.6,
+                0.096,
+                0.384
+            ],
+            [
+                1.7,
+                0.102,
+                0.408
+            ],
+            [
+                1.8,
+                0.108,
+                0.432
+            ],
+            [
+                1.9,
+                0.114,
+                0.456
+            ],
+            [
+                2,
+                0.12,
+                0.48
+            ],
+            [
+                2.125,
+                0.1275,
+                0.51
+            ],
+            [
+                2.25,
+                0.135,
+                0.54
+            ],
+            [
+                2.375,
+                0.1425,
+                0.57
+            ],
+            [
+                2.5,
+                0.15,
+                0.6
+            ],
+            [
+                2.6,
+                0.156,
+                0.624
+            ],
+            [
+                2.7,
+                0.162,
+                0.648
+            ],
+            [
+                2.8,
+                0.168,
+                0.672
+            ],
+            [
+                2.9,
+                0.174,
+                0.696
+            ],
+            [
+                3,
+                0.18,
+                0.72
+            ]
+        ],
+        "icon": "icon/skill/1214_ultimate.png"
+    },
+    "121404": {
+        "id": "121404",
+        "name": "Perpetuação Cármica",
+        "max_level": 15,
+        "element": "Quantum",
+        "type": "Talent",
+        "type_text": "Talento",
+        "effect": "Bounce",
+        "effect_text": "Rebote",
+        "simple_desc": "Quando Xueyi ou seus aliados reduzem a Tenacidade do inimigo, ela ganha acúmulos de Carma. Quando Carma atingir o número máximo de acúmulos, ativa imediatamente um Ataque Extra causando Dano Quântico leve a um único inimigo-alvo, saltando por 3 vezes e consumindo todo o Carma.",
+        "desc": "Quando Xueyi reduz a Tenacidade do inimigo com seus ataques, ela acumula Karma. Quando mais a Tenacidade é reduzida, mais acúmulos de Karma são adicionados, até #1[i] acúmulos.\nQuando os aliados de Xueyi reduzem a Tenacidade do inimigo com seus ataques, Xueyi ganha #3[i] acúmulos de Karma.\nQuando o Karma atingir o número máximo de acúmulos e consumir todos os acúmulos de Karma atuais, imediatamente lança um Ataque Extra contra um inimigo-alvo, causando Dano por 3 vezes, com cada vez causando Dano Quântico igual a #2[i]% do ATQ de Xueyi a um único inimigo aleatório. Este Ataque Extra não pode adicionar acúmulos de Karma.",
+        "params": [
+            [
+                8,
+                0.45,
+                1
+            ],
+            [
+                8,
+                0.495,
+                1
+            ],
+            [
+                8,
+                0.54,
+                1
+            ],
+            [
+                8,
+                0.585,
+                1
+            ],
+            [
+                8,
+                0.63,
+                1
+            ],
+            [
+                8,
+                0.675,
+                1
+            ],
+            [
+                8,
+                0.7313,
+                1
+            ],
+            [
+                8,
+                0.7875,
+                1
+            ],
+            [
+                8,
+                0.8438,
+                1
+            ],
+            [
+                8,
+                0.9,
+                1
+            ],
+            [
+                8,
+                0.945,
+                1
+            ],
+            [
+                8,
+                0.99,
+                1
+            ],
+            [
+                8,
+                1.035,
+                1
+            ],
+            [
+                8,
+                1.08,
+                1
+            ],
+            [
+                8,
+                1.125,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1214_talent.png"
+    },
+    "121406": {
+        "id": "121406",
+        "name": "Ataque",
+        "max_level": 1,
+        "element": "Quantum",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
+        "params": [],
+        "icon": "icon/skill/1214_basic_atk.png"
+    },
+    "121407": {
+        "id": "121407",
+        "name": "Execução Sumária",
+        "max_level": 1,
+        "element": "Quantum",
+        "type": "Maze",
+        "type_text": "Técnica",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "Ataca o inimigo. Depois de entrar em batalha, causa Dano Quântico leve a todos os inimigos.",
+        "desc": "Ataca o inimigo imediatamente. Depois de entrar no combate, causa #1[i]% do ATQ de Xueyi como Dano Quântico a todos os inimigos.",
+        "params": [
+            [
+                0.8
+            ]
+        ],
+        "icon": "icon/skill/1214_technique.png"
+    },
     "121501": {
         "id": "121501",
         "name": "Pincel do Oráculo",
@@ -12504,7 +12833,7 @@
         "effect": "SingleAttack",
         "effect_text": "Alvo Único",
         "simple_desc": "Causa Dano Físico a um único inimigo e aplica Fardo a ele. Para cada 2 ATQs Básicos, Perícias ou Perícias Supremas que aliados utilizarem contra um inimigo com Fardo, os aliados recuperarão 1 Ponto de Perícia.",
-        "desc": "Causa Dano Físico igual a #1[i]% do ATQ de Hanya a um único inimigo, então aplica Fardo a ele.\nA cada 2 ATQs Básicos, Perícias ou Perícias Supremas utilizados por aliados em um inimigo com Fardo, aliados recuperam imediatamente 1 Ponto de Perícia. Fardo só fica ativo no último alvo em que foi aplicado, e será removido automaticamente depois que o efeito de recuperação de Ponto de Perícia for ativado #2[i] vezes.",
+        "desc": "Causa Dano Físico igual a #1[i]% do ATQ de Hanya a um único inimigo-alvo, então aplica Fardo a ele.\nA cada 2 ATQs Básicos, Perícias ou Perícias Supremas utilizados por aliados em um inimigo com Fardo, aliados recuperam imediatamente 1 Ponto de Perícia. Fardo só fica ativo no último alvo em que foi aplicado, e será removido automaticamente depois que o efeito de recuperação de Ponto de Perícia for ativado #2[i] vezes.",
         "params": [
             [
                 1.2,
@@ -12669,7 +12998,7 @@
         "effect": "Support",
         "effect_text": "Suporte",
         "simple_desc": "Aliados causam mais Dano ao atacar inimigos infligidos com Fardo.",
-        "desc": "Quando um aliado usa um ATQ Básico, uma Perícia ou uma Perícia Suprema em um inimigo afligido com Fardo, o Dano causado aumenta em #1[i]% por #2[i] rodada(s).",
+        "desc": "Quando um aliado usa um ATQ Básico, uma Perícia ou uma Perícia Suprema em um inimigo afligido com Fardo, o Dano causado aumenta em #1[i]% durando por #2[i] rodada(s).",
         "params": [
             [
                 0.15,
@@ -12744,7 +13073,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do Tipo correspondente do inimigo-alvo.",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "params": [],
         "icon": "icon/skill/1215_basic_atk.png"
     },
@@ -13174,7 +13503,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do Tipo correspondente do inimigo-alvo.",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "params": [],
         "icon": "icon/skill/1217_basic_atk.png"
     },
@@ -13303,7 +13632,7 @@
     },
     "130203": {
         "id": "130203",
-        "name": "Pois Neste Jardim a Beleza Suprema Concede",
+        "name": "Pois Neste Jardim, a Beleza Suprema Concede",
         "max_level": 15,
         "element": "Physical",
         "type": "Ultra",
@@ -13386,7 +13715,7 @@
         "effect": "Enhance",
         "effect_text": "Aprimoramento",
         "simple_desc": "Quando Argenti usa seu ATQ Básico, Perícia ou Perícia Suprema, ele regenera Energia e aumenta sua Chance de CRIT para cada inimigo-alvo atingido.",
-        "desc": "Para cada inimigo atingido quando Argenti usa seu ATQ Básico, Perícia ou Perícia Suprema, regenera a Energia de Argenti em #1[i], e concede a ele um acúmulo de Ascender, além de aumentar sua Chance de CRIT em #2[f1]%. Este efeito pode acumular até #3[i] vez(es).",
+        "desc": "Para cada inimigo atingido quando Argenti usa seu ATQ Básico, Perícia ou Perícia Suprema, regenera a Energia de Argenti em #1[i], e concede a ele um acúmulo de Apoteose, além de aumentar sua Chance de CRIT em #2[f1]%. Este efeito pode acumular até #3[i] vez(es).",
         "params": [
             [
                 3,
@@ -13476,7 +13805,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do Tipo correspondente do inimigo-alvo.",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "params": [],
         "icon": "icon/skill/1302_basic_atk.png"
     },
@@ -13604,6 +13933,670 @@
             ]
         ],
         "icon": "icon/skill/1302_ultimate.png"
+    },
+    "130301": {
+        "id": "130301",
+        "name": "Fios de Perfume",
+        "max_level": 9,
+        "element": "Ice",
+        "type": "Normal",
+        "type_text": "ATQ Básico",
+        "effect": "SingleAttack",
+        "effect_text": "Alvo Único",
+        "simple_desc": "Causa Dano de Gelo leve a um único inimigo.",
+        "desc": "Causa Dano de Gelo igual a #1[i]% do ATQ de Ruan Mei a um único inimigo-alvo.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1303_basic_atk.png"
+    },
+    "130302": {
+        "id": "130302",
+        "name": "Cordas Cantam Lentos Sons",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Perícia",
+        "effect": "Support",
+        "effect_text": "Suporte",
+        "simple_desc": "Após usar sua Perícia, Ruan Mei ganha Tom Acima. Quando Ruan Mei possuir Tom Acima, a Dano e a Eficiência de Quebra de Fraqueza de todos os aliados é aumentada.",
+        "desc": "Após usar sua Perícia, Ruan Mei ganha Tom Acima, durando por #3[i] rodada(s). Essa duração diminui em 1 no início da rodada de Ruan Mei. Quando Ruan Mei possui Tom Acima, o Dano de todos os aliados é aumentado em #1[f1]% e a Eficiência de Quebra de Fraqueza deles aumenta em #2[i]%.",
+        "params": [
+            [
+                0.16,
+                0.5,
+                3
+            ],
+            [
+                0.176,
+                0.5,
+                3
+            ],
+            [
+                0.192,
+                0.5,
+                3
+            ],
+            [
+                0.208,
+                0.5,
+                3
+            ],
+            [
+                0.224,
+                0.5,
+                3
+            ],
+            [
+                0.24,
+                0.5,
+                3
+            ],
+            [
+                0.26,
+                0.5,
+                3
+            ],
+            [
+                0.28,
+                0.5,
+                3
+            ],
+            [
+                0.3,
+                0.5,
+                3
+            ],
+            [
+                0.32,
+                0.5,
+                3
+            ],
+            [
+                0.336,
+                0.5,
+                3
+            ],
+            [
+                0.352,
+                0.5,
+                3
+            ],
+            [
+                0.368,
+                0.5,
+                3
+            ],
+            [
+                0.384,
+                0.5,
+                3
+            ],
+            [
+                0.4,
+                0.5,
+                3
+            ]
+        ],
+        "icon": "icon/skill/1303_skill.png"
+    },
+    "130303": {
+        "id": "130303",
+        "name": "Pétalas na Corrente, Repouso Indolente",
+        "max_level": 15,
+        "element": "",
+        "type": "Ultra",
+        "type_text": "Perícia Suprema",
+        "effect": "Support",
+        "effect_text": "Suporte",
+        "simple_desc": "Aumenta a PEN de RES a Todos os Tipos para todos os aliados, e seus ataques aplicam Reflorescer da Ameixa aos inimigos atingidos.",
+        "desc": "Ruan Mei implanta um campo que dura por #2[i] rodadas. A duração do campo diminui em 1 no início da rodada dela.\nEnquanto estiver dentro do campo, a PEN de RES a Todos os Tipos de todos os aliados aumenta em #1[f1]% e os ataques deles aplicam Reflorescer da Ameixa aos inimigos atingidos.\nQuando esses inimigos tentam se recuperar da Quebra de Fraqueza, Reflorescer da Ameixa é ativado, estendendo a duração da sua Quebra de Fraqueza, atrasando sua ação em uma quantidade igual a #3[i]% do Efeito de Quebra de Ruan Mei + #4[i]%, e causando Dano de Quebra igual a #5[i]% do Dano de Quebra de Gelo de Ruan Mei.\nReflorescer da Ameixa não pode ser aplicado novamente aos inimigos-alvo até eles se recuperarem da Quebra de Fraqueza.",
+        "params": [
+            [
+                0.15,
+                2,
+                0.2,
+                0.1,
+                0.3
+            ],
+            [
+                0.16,
+                2,
+                0.2,
+                0.1,
+                0.32
+            ],
+            [
+                0.17,
+                2,
+                0.2,
+                0.1,
+                0.34
+            ],
+            [
+                0.18,
+                2,
+                0.2,
+                0.1,
+                0.36
+            ],
+            [
+                0.19,
+                2,
+                0.2,
+                0.1,
+                0.38
+            ],
+            [
+                0.2,
+                2,
+                0.2,
+                0.1,
+                0.4
+            ],
+            [
+                0.2125,
+                2,
+                0.2,
+                0.1,
+                0.425
+            ],
+            [
+                0.225,
+                2,
+                0.2,
+                0.1,
+                0.45
+            ],
+            [
+                0.2375,
+                2,
+                0.2,
+                0.1,
+                0.475
+            ],
+            [
+                0.25,
+                2,
+                0.2,
+                0.1,
+                0.5
+            ],
+            [
+                0.26,
+                2,
+                0.2,
+                0.1,
+                0.52
+            ],
+            [
+                0.27,
+                2,
+                0.2,
+                0.1,
+                0.54
+            ],
+            [
+                0.28,
+                2,
+                0.2,
+                0.1,
+                0.56
+            ],
+            [
+                0.29,
+                2,
+                0.2,
+                0.1,
+                0.58
+            ],
+            [
+                0.3,
+                2,
+                0.2,
+                0.1,
+                0.6
+            ]
+        ],
+        "icon": "icon/skill/1303_ultimate.png"
+    },
+    "130304": {
+        "id": "130304",
+        "name": "Hélice Somatotípica",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talento",
+        "effect": "Support",
+        "effect_text": "Suporte",
+        "simple_desc": "Aumenta a VEL para todos os aliados (com exceção deste personagem). Quebrar a Fraqueza de um inimigo-alvo causará adicionalmente Dano de Quebra de Gelo.",
+        "desc": "Aumenta a VEL em #1[f1]% para a equipe (excluindo este personagem). Quando os aliados aplicam Quebra de Fraqueza a um inimigo-alvo, Ruan Mei causa Dano de Quebra a esse inimigo igual a #2[f1]% de seu Dano de Quebra de Gelo.",
+        "params": [
+            [
+                0.08,
+                0.6
+            ],
+            [
+                0.082,
+                0.66
+            ],
+            [
+                0.084,
+                0.72
+            ],
+            [
+                0.086,
+                0.78
+            ],
+            [
+                0.088,
+                0.84
+            ],
+            [
+                0.09,
+                0.9
+            ],
+            [
+                0.0925,
+                0.975
+            ],
+            [
+                0.095,
+                1.05
+            ],
+            [
+                0.0975,
+                1.125
+            ],
+            [
+                0.1,
+                1.2
+            ],
+            [
+                0.102,
+                1.26
+            ],
+            [
+                0.104,
+                1.32
+            ],
+            [
+                0.106,
+                1.38
+            ],
+            [
+                0.108,
+                1.44
+            ],
+            [
+                0.11,
+                1.5
+            ]
+        ],
+        "icon": "icon/skill/1303_talent.png"
+    },
+    "130306": {
+        "id": "130306",
+        "name": "Ataque",
+        "max_level": 1,
+        "element": "Ice",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
+        "params": [],
+        "icon": "icon/skill/1303_basic_atk.png"
+    },
+    "130307": {
+        "id": "130307",
+        "name": "Serenata de Seda",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Técnica",
+        "effect": "Enhance",
+        "effect_text": "Aprimoramento",
+        "simple_desc": "Da próxima vez que entrar em batalha, ativa automaticamente a Perícia por #1[i] vez(es). Depois de usar a Técnica, aliados atacando inimigos no Universo Simulado sempre serão considerados como se estivessem atacando a Fraqueza para entrar em batalha, e sua Tenacidade é reduzida independente dos Tipos de Fraqueza. Para cada Bênção em posse, aumenta o Dano Redutor de Tenacidade e causa adicionalmente Dano de Quebra ao infligir Quebra de Fraqueza.",
+        "desc": "Depois de usar a Técnica, ganha Serenata de Seda. No início da próxima batalha, ativa automaticamente a Perícia #1[i] vez(es) sem consumir Pontos de Perícia.\nNo Universo Simulado, quando Ruan Mei possuir Serenata de Seda, a equipe atacando inimigos será considerada como se sempre estivesse atacando sua Fraqueza para entrar em batalha, e este ataque pode reduzir a Tenacidade de todos os inimigos independente dos Tipos de Fraqueza. Ao aplicar Quebra de Fraqueza, ativa o Efeito de Quebra de Fraqueza correspondente ao Tipo do atacante. Para cada Bênção em posse (até #4[i] Bênçãos), adicionalmente aumenta o Dano de Redução de Tenacidade deste ataque em #2[i]%. Após aplicar a Quebra de Fraqueza a um inimigo-alvo, causa adicionalmente Dano de Quebra igual a #3[i]% do Dano de Quebra de Gelo de Ruan Mei ao inimigo-alvo.",
+        "params": [
+            [
+                1,
+                1,
+                1,
+                20
+            ]
+        ],
+        "icon": "icon/skill/1303_technique.png"
+    },
+    "130501": {
+        "id": "130501",
+        "name": "A Mente É Poderosa",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "ATQ Básico",
+        "effect": "SingleAttack",
+        "effect_text": "Alvo Único",
+        "simple_desc": "Causa Dano Imaginário leve a um único inimigo-alvo.",
+        "desc": "Causa Dano Imaginário igual a #1[i]% do ATQ do Dr. Ratio a um único inimigo-alvo.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1305_basic_atk.png"
+    },
+    "130502": {
+        "id": "130502",
+        "name": "Obstetrícia Intelectual",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "BPSkill",
+        "type_text": "Perícia",
+        "effect": "SingleAttack",
+        "effect_text": "Alvo Único",
+        "simple_desc": "Causa Dano Imaginário a um único inimigo.",
+        "desc": "Causa Dano Imaginário igual a #1[i]% do ATQ do Dr. Ratio a um único inimigo.",
+        "params": [
+            [
+                0.75
+            ],
+            [
+                0.825
+            ],
+            [
+                0.9
+            ],
+            [
+                0.975
+            ],
+            [
+                1.05
+            ],
+            [
+                1.125
+            ],
+            [
+                1.2188
+            ],
+            [
+                1.3125
+            ],
+            [
+                1.4063
+            ],
+            [
+                1.5
+            ],
+            [
+                1.575
+            ],
+            [
+                1.65
+            ],
+            [
+                1.725
+            ],
+            [
+                1.8
+            ],
+            [
+                1.875
+            ]
+        ],
+        "icon": "icon/skill/1305_skill.png"
+    },
+    "130503": {
+        "id": "130503",
+        "name": "Paradoxo Silogístico",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Ultra",
+        "type_text": "Perícia Suprema",
+        "effect": "SingleAttack",
+        "effect_text": "Alvo Único",
+        "simple_desc": "Causa Dano Imaginário a um único inimigo-alvo e aplica Tolice dos Sábios. Quando os aliados do Dr. Ratio atacam um alvo afligido com Tolice do Sábio, o Dr. Ratio realiza 1 Ataque Extra contra este alvo.",
+        "desc": "Causa Dano Imaginário igual a #1[i]% do ATQ do Dr. Ratio a um único inimigo-alvo e aplica a Tolice do Sábio. Quando os aliados do Dr. Ratio atacam um alvo afligido com Tolice do Sábio, o Dr. Ratio realiza o Ataque Extra do seu Talento 1 vez contra o alvo.\nA Tolice do Sábio pode ser ativada até #2[i] vezes e só afeta o alvo mais recente da Perícia Suprema do Dr. Ratio. Essa contagem de ativação reinicia depois que a Perícia Suprema do Dr. Ratio é utilizada.",
+        "params": [
+            [
+                1.44,
+                2
+            ],
+            [
+                1.536,
+                2
+            ],
+            [
+                1.632,
+                2
+            ],
+            [
+                1.728,
+                2
+            ],
+            [
+                1.824,
+                2
+            ],
+            [
+                1.92,
+                2
+            ],
+            [
+                2.04,
+                2
+            ],
+            [
+                2.16,
+                2
+            ],
+            [
+                2.28,
+                2
+            ],
+            [
+                2.4,
+                2
+            ],
+            [
+                2.496,
+                2
+            ],
+            [
+                2.592,
+                2
+            ],
+            [
+                2.688,
+                2
+            ],
+            [
+                2.784,
+                2
+            ],
+            [
+                2.88,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1305_ultimate.png"
+    },
+    "130504": {
+        "id": "130504",
+        "name": "Cogito, Ergo Sum",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Talent",
+        "type_text": "Talento",
+        "effect": "SingleAttack",
+        "effect_text": "Alvo Único",
+        "simple_desc": "Ao usar a Perícia, há uma chance de realizar 1 Ataque Extra contra o alvo 1 vez.",
+        "desc": "Ao usar a sua Perícia, o Dr. Ratio tem uma chance fixa de #2[i]% de realizar um Ataque Extra contra o alvo 1 vez, causando Dano Imaginário igual a #1[i]% do ATQ do Dr. Ratio. Para cada penalidade que o inimigo possui, a chance fixa de realizar o Ataque Extra aumenta em #3[i]%. Se o inimigo-alvo for derrotado antes da ativação do Ataque Extra, o Ataque Extra será direcionado a um único inimigo aleatório ao invés disso.",
+        "params": [
+            [
+                1.35,
+                0.4,
+                0.2
+            ],
+            [
+                1.485,
+                0.4,
+                0.2
+            ],
+            [
+                1.62,
+                0.4,
+                0.2
+            ],
+            [
+                1.755,
+                0.4,
+                0.2
+            ],
+            [
+                1.89,
+                0.4,
+                0.2
+            ],
+            [
+                2.025,
+                0.4,
+                0.2
+            ],
+            [
+                2.1938,
+                0.4,
+                0.2
+            ],
+            [
+                2.3625,
+                0.4,
+                0.2
+            ],
+            [
+                2.5313,
+                0.4,
+                0.2
+            ],
+            [
+                2.7,
+                0.4,
+                0.2
+            ],
+            [
+                2.835,
+                0.4,
+                0.2
+            ],
+            [
+                2.97,
+                0.4,
+                0.2
+            ],
+            [
+                3.105,
+                0.4,
+                0.2
+            ],
+            [
+                3.24,
+                0.4,
+                0.2
+            ],
+            [
+                3.375,
+                0.4,
+                0.2
+            ]
+        ],
+        "icon": "icon/skill/1305_talent.png"
+    },
+    "130506": {
+        "id": "130506",
+        "name": "Ataque",
+        "max_level": 1,
+        "element": "Imaginary",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
+        "params": [],
+        "icon": "icon/skill/1305_basic_atk.png"
+    },
+    "130507": {
+        "id": "130507",
+        "name": "Molde da Idolatria",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Técnica",
+        "effect": "Impair",
+        "effect_text": "Incapacitação",
+        "simple_desc": "Cria uma dimensão especial. Inimigos dentro dessa dimensão sofrem Provocação. Após entrar em combate com inimigos nesta dimensão, há uma alta chance de reduzir a VEL dos inimigos-alvo.",
+        "desc": "Após usar a Técnica, cria uma dimensão especial que causa Provocação nos inimigos próximos, durando por #1[i] segundo(s). Após entrar em combate com inimigos nesta dimensão especial, há uma chance-base de #2[i]% de reduzir a VEL de cada inimigo-alvo em #3[i]% por #4[i] rodada(s). Apenas 1 dimensão criada pelos aliados pode existir ao mesmo tempo.",
+        "params": [
+            [
+                10,
+                1,
+                0.15,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1305_technique.png"
     },
     "800101": {
         "id": "800101",
@@ -13882,7 +14875,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do Tipo correspondente do inimigo-alvo.",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "params": [],
         "icon": "icon/skill/8001_basic_atk.png"
     },
@@ -14316,7 +15309,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do Tipo correspondente do inimigo-alvo.",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "params": [],
         "icon": "icon/skill/8002_basic_atk.png"
     },
@@ -14795,7 +15788,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do Tipo correspondente do inimigo-alvo.",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "params": [],
         "icon": "icon/skill/8003_basic_atk.png"
     },
@@ -15192,7 +16185,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do Tipo correspondente do inimigo-alvo.",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "params": [],
         "icon": "icon/skill/8004_basic_atk.png"
     },
