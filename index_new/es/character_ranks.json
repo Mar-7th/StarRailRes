@@ -1894,7 +1894,7 @@
         "id": "111004",
         "name": "Atardecer de fuego de campamento",
         "rank": 4,
-        "desc": "Al obtener Reacción de supervivencia, el ATQ del objetivo aumenta en una cantidad equivalente al ('3.0', '.1f')% de los PV máx. de Lynx durante 1 turno.",
+        "desc": "Al obtener Reacción de supervivencia, el ATQ del objetivo aumenta en una cantidad equivalente al 3.0% de los PV máx. de Lynx durante 1 turno.",
         "materials": [
             {
                 "id": "11110",
@@ -1931,7 +1931,7 @@
         "id": "111006",
         "name": "Alba del mapa de exploración",
         "rank": 6,
-        "desc": "El efecto de aumento de los PV máx. de Reacción de supervivencia se incrementa de forma adicional en una cantidad equivalente al ('6.00000001', '.1f')% de los PV máx. de Lynx. Además, la RES a efecto aumenta en un 30%.",
+        "desc": "El efecto de aumento de los PV máx. de Reacción de supervivencia se incrementa de forma adicional en una cantidad equivalente al 6.0% de los PV máx. de Lynx. Además, la RES a efecto aumenta en un 30%.",
         "materials": [
             {
                 "id": "11110",
@@ -3929,7 +3929,7 @@
         "id": "130302",
         "name": "Paseo por los juncos",
         "rank": 2,
-        "desc": "Cuando Ruan Mei está en la batalla, el ATQ de los aliados que infligen daño a enemigos con Ruptura de Debilidad aumenta en un 40%.",
+        "desc": "Cuando Ruan Mei está en la batalla, el ATQ de los aliados aumenta en un 40% cuando infligen daño a enemigos con Ruptura de Debilidad.",
         "materials": [
             {
                 "id": "11303",
@@ -4114,6 +4114,312 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1305_rank6.png"
+    },
+    "130601": {
+        "id": "130601",
+        "name": "Suspensión de la incredulidad",
+        "rank": 1,
+        "desc": "La duración de Adivinanza otorgada por la habilidad definitiva aumenta en 1 turno. El ATQ de los aliados con Adivinanza aumenta en un 40%.",
+        "materials": [
+            {
+                "id": "11306",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1306_rank1.png"
+    },
+    "130602": {
+        "id": "130602",
+        "name": "Ficción sin fundamento",
+        "rank": 2,
+        "desc": "Por cada acumulación del efecto del talento, los aliados ignoran un 8% de la DEF del objetivo cuando infligen daño.",
+        "materials": [
+            {
+                "id": "11306",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1306_rank2.png"
+    },
+    "130603": {
+        "id": "130603",
+        "name": "Sueño inalcanzable",
+        "rank": 3,
+        "desc": "Niv. de habilidad básica +2 (máximo: nivel 15). Niv. de ATQ básico +1 (máximo: nivel 10).",
+        "materials": [
+            {
+                "id": "11306",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130602",
+                "num": 2
+            },
+            {
+                "id": "130601",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1306_skill.png"
+    },
+    "130604": {
+        "id": "130604",
+        "name": "La vida es un juego",
+        "rank": 4,
+        "desc": "La habilidad definitiva recupera 1 pt. de habilidad básica adicional. El incremento del límite de pts. de habilidad básica del talento aumenta en 1.",
+        "materials": [
+            {
+                "id": "11306",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1306_rank4.png"
+    },
+    "130605": {
+        "id": "130605",
+        "name": "Verdad de dos caras",
+        "rank": 5,
+        "desc": "Niv. de habilidad definitiva +2 (máximo: nivel 15). Niv. de talento +2 (máximo: nivel 15).",
+        "materials": [
+            {
+                "id": "11306",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130603",
+                "num": 2
+            },
+            {
+                "id": "130604",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1306_ultimate.png"
+    },
+    "130606": {
+        "id": "130606",
+        "name": "Polisemia narrativa",
+        "rank": 6,
+        "desc": "El efecto de aumento de Daño CRIT de la habilidad básica aumenta adicionalmente en una cantidad equivalente al 30% del Daño CRIT de Sparkle. Cuando Sparkle usa su habilidad básica, el efecto de aumento de Daño CRIT de la habilidad básica se aplica a todos los aliados que tengan Adivinanza. Cuando Sparkle usa su habilidad definitiva, si el objetivo aliado tiene el efecto de aumento de Daño CRIT de la habilidad básica, este efecto se extiende a todos los aliados que tengan Adivinanza.",
+        "materials": [
+            {
+                "id": "11306",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1306_rank6.png"
+    },
+    "130701": {
+        "id": "130701",
+        "name": "Siete pilares de sabiduría",
+        "rank": 1,
+        "desc": "Cuando Cisne Negro está activa en la batalla, la RES a Viento, Físico, Fuego o Rayo de los enemigos afectados por Intemperie, Sangrado, Quemadura o Electrocución, respectivamente, se reduce en un 25%.",
+        "materials": [
+            {
+                "id": "11307",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1307_rank1.png"
+    },
+    "130702": {
+        "id": "130702",
+        "name": "No llores por mí, cordero",
+        "rank": 2,
+        "desc": "Cuando se elimina a un enemigo afectado por Arcano, hay una probabilidad base del 100% de aplicar 6 acumulaciones de Arcano a los enemigos adyacentes.",
+        "materials": [
+            {
+                "id": "11307",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1307_rank2.png"
+    },
+    "130703": {
+        "id": "130703",
+        "name": "Como arriba, así es abajo",
+        "rank": 3,
+        "desc": "Niv. de habilidad básica +2 (máximo: nivel 15). Niv. de talento +2 (máximo: nivel 15).",
+        "materials": [
+            {
+                "id": "11307",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130702",
+                "num": 2
+            },
+            {
+                "id": "130704",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1307_skill.png"
+    },
+    "130704": {
+        "id": "130704",
+        "name": "Regalo de lágrimas",
+        "rank": 4,
+        "desc": "En el estado de Desvelación, la RES a efecto de los objetivos enemigos se reduce en un 10% y Cisne Negro recupera 8 pts. de energía al comienzo de cada turno de los enemigos afectados por Desvelación o cuando un enemigo afectado es eliminado. El efecto de recuperación de energía solo se puede activar 1 vez mientras dure Desvelación. El contador de activaciones se actualiza cuando se vuelve a aplicar Desvelación.",
+        "materials": [
+            {
+                "id": "11307",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1307_rank4.png"
+    },
+    "130705": {
+        "id": "130705",
+        "name": "Estrellas migratorias",
+        "rank": 5,
+        "desc": "Niv. de habilidad definitiva +2 (máximo: nivel 15). Niv. de ATQ básico +1 (máximo: nivel 10).",
+        "materials": [
+            {
+                "id": "11307",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130703",
+                "num": 2
+            },
+            {
+                "id": "130701",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1307_ultimate.png"
+    },
+    "130706": {
+        "id": "130706",
+        "name": "Dioses buenos, plebe desgraciada",
+        "rank": 6,
+        "desc": "Cuando los aliados de Cisne Negro atacan a un enemigo, Cisne Negro tiene una probabilidad base del 65% de aplicar 1 acumulación de Arcano a ese objetivo.\\nCada vez que Cisne Negro aplica Arcano a un objetivo, hay una probabilidad fija del 50% de que la cantidad de acumulaciones de Arcano aplicadas esta vez aumente en 1.",
+        "materials": [
+            {
+                "id": "11307",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1307_rank6.png"
+    },
+    "131201": {
+        "id": "131201",
+        "name": "Ilusión caprichosa",
+        "rank": 1,
+        "desc": "Al usar la habilidad definitiva, el número de golpes por acción aumenta en 1 por cada enemigo que haya en el campo de batalla, hasta un máximo de 5 golpes más.",
+        "materials": [
+            {
+                "id": "11312",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1312_rank1.png"
+    },
+    "131202": {
+        "id": "131202",
+        "name": "Anhelo de juventud",
+        "rank": 2,
+        "desc": "Antes de que cada golpe de la habilidad definitiva alcance a su objetivo, hay un 24% de probabilidad base de reducir su DEF en un 16% durante 3 turnos.",
+        "materials": [
+            {
+                "id": "11312",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1312_rank2.png"
+    },
+    "131203": {
+        "id": "131203",
+        "name": "Vestigios de felicidad",
+        "rank": 3,
+        "desc": "Niv. de habilidad definitiva +2 (máximo: nivel 15). Niv. de ATQ básico +1 (máximo: nivel 10).",
+        "materials": [
+            {
+                "id": "11312",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "131203",
+                "num": 2
+            },
+            {
+                "id": "131201",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1312_skill.png"
+    },
+    "131204": {
+        "id": "131204",
+        "name": "Apariencia familiar",
+        "rank": 4,
+        "desc": "Aumenta el multiplicador de daño de cada golpe de la habilidad definitiva en un 6%.",
+        "materials": [
+            {
+                "id": "11312",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1312_rank4.png"
+    },
+    "131205": {
+        "id": "131205",
+        "name": "Génesis del amor y la amistad",
+        "rank": 5,
+        "desc": "Niv. de habilidad básica +2 (máximo: nivel 15). Niv. de talento +2 (máximo: nivel 15).",
+        "materials": [
+            {
+                "id": "11312",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "131202",
+                "num": 2
+            },
+            {
+                "id": "131204",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1312_ultimate.png"
+    },
+    "131206": {
+        "id": "131206",
+        "name": "Deseo del pasado",
+        "rank": 6,
+        "desc": "Al usar la habilidad definitiva, inflige un 30% más de daño hasta que termine su turno. Además, la siguiente vez que use la habilidad básica, los aliados recuperan 1 pt. de habilidad básica.",
+        "materials": [
+            {
+                "id": "11312",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1312_rank6.png"
     },
     "800101": {
         "id": "800101",

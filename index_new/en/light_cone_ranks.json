@@ -2353,6 +2353,458 @@
             []
         ]
     },
+    "21035": {
+        "id": "21035",
+        "skill": "Hypothesis",
+        "desc": "Increases the wearer's Break Effect by #1[i]%. After using Basic ATK, restores HP for the wearer by an amount equal to #2[f1]% of Max HP plus #3[i].",
+        "params": [
+            [
+                0.24,
+                0.02,
+                800
+            ],
+            [
+                0.3,
+                0.025,
+                800
+            ],
+            [
+                0.36,
+                0.03,
+                800
+            ],
+            [
+                0.42,
+                0.035,
+                800
+            ],
+            [
+                0.48,
+                0.04,
+                800
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.24
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.3
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.36
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.42
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.48
+                }
+            ]
+        ]
+    },
+    "21036": {
+        "id": "21036",
+        "skill": "Solidarity",
+        "desc": "After the wearer uses a certain type of ability such as Basic ATK, Skill, or Ultimate, all allies gain Childishness, which increases allies' DMG for the same type of ability as used by the wearer by #1[i]%. Childishness only takes effect for the most recent type of ability the wearer used and cannot be stacked.",
+        "params": [
+            [
+                0.12
+            ],
+            [
+                0.14
+            ],
+            [
+                0.16
+            ],
+            [
+                0.18
+            ],
+            [
+                0.2
+            ]
+        ],
+        "properties": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    "21037": {
+        "id": "21037",
+        "skill": "All In",
+        "desc": "Increases the wearer's ATK by #1[i]%. When the wearer lands a CRIT hit on enemies, gains a stack of Good Fortune, stacking up to #3[i] time(s). Every stack of Good Fortune the wearer has will increase their CRIT DMG by #2[i]%. Good Fortune will be removed at the end of the wearer's turn.",
+        "params": [
+            [
+                0.12,
+                0.08,
+                4
+            ],
+            [
+                0.14,
+                0.09,
+                4
+            ],
+            [
+                0.16,
+                0.1,
+                4
+            ],
+            [
+                0.18,
+                0.11,
+                4
+            ],
+            [
+                0.2,
+                0.12,
+                4
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.12
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.14
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.16
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.18
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.2
+                }
+            ]
+        ]
+    },
+    "21038": {
+        "id": "21038",
+        "skill": "Deflagration",
+        "desc": "When the cumulative HP loss of the wearer during a single attack exceeds #1[i]% of their Max HP, or if the amount of their own HP they consume at one time is greater than #1[i]% of their Max HP, immediately heals the wearer for #3[i]% of their Max HP, and at the same time, increases the DMG they deal by #2[i]% for #4[i] turn(s). This effect can only be triggered once every #5[i] turn(s).",
+        "params": [
+            [
+                0.25,
+                0.25,
+                0.15,
+                2,
+                3
+            ],
+            [
+                0.25,
+                0.3125,
+                0.15,
+                2,
+                3
+            ],
+            [
+                0.25,
+                0.375,
+                0.15,
+                2,
+                3
+            ],
+            [
+                0.25,
+                0.4375,
+                0.15,
+                2,
+                3
+            ],
+            [
+                0.25,
+                0.5,
+                0.15,
+                2,
+                3
+            ]
+        ],
+        "properties": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    "21039": {
+        "id": "21039",
+        "skill": "Insight",
+        "desc": "Increases the wearer's Effect RES by #1[i]%. For every #2[i] of DEF the wearer has, increases the wearer's DMG dealt by #3[f1]%, up to a maximum DMG increase of #4[i]%.",
+        "params": [
+            [
+                0.12,
+                100,
+                0.008,
+                0.32
+            ],
+            [
+                0.14,
+                100,
+                0.009,
+                0.36
+            ],
+            [
+                0.16,
+                100,
+                0.01,
+                0.4
+            ],
+            [
+                0.18,
+                100,
+                0.011,
+                0.44
+            ],
+            [
+                0.2,
+                100,
+                0.012,
+                0.48
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "StatusResistanceBase",
+                    "value": 0.12
+                }
+            ],
+            [
+                {
+                    "type": "StatusResistanceBase",
+                    "value": 0.14
+                }
+            ],
+            [
+                {
+                    "type": "StatusResistanceBase",
+                    "value": 0.16
+                }
+            ],
+            [
+                {
+                    "type": "StatusResistanceBase",
+                    "value": 0.18
+                }
+            ],
+            [
+                {
+                    "type": "StatusResistanceBase",
+                    "value": 0.2
+                }
+            ]
+        ]
+    },
+    "21040": {
+        "id": "21040",
+        "skill": "Stratagem",
+        "desc": "Increases the wearer's ATK by #1[i]%. When the wearer uses an attack and at least 2 attacked enemies have the corresponding Weakness, the wearer's CRIT DMG increases by #2[i]% for #3[i] turn(s).",
+        "params": [
+            [
+                0.16,
+                0.2,
+                2
+            ],
+            [
+                0.18,
+                0.25,
+                2
+            ],
+            [
+                0.2,
+                0.3,
+                2
+            ],
+            [
+                0.22,
+                0.35,
+                2
+            ],
+            [
+                0.24,
+                0.4,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.16
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.18
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.2
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.22
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.24
+                }
+            ]
+        ]
+    },
+    "21041": {
+        "id": "21041",
+        "skill": "Self-Amusement",
+        "desc": "When the wearer inflicts a debuff on an enemy, gains a stack of Trick. Every stack of Trick increases the wearer's DMG dealt by #1[i]%, stacking up to #2[i] time(s). This effect lasts for #3[i] turn(s). When the wearer's Effect Hit Rate is #4[i]% or higher, increases ATK by #5[i]%.",
+        "params": [
+            [
+                0.06,
+                3,
+                1,
+                0.8,
+                0.2
+            ],
+            [
+                0.07,
+                3,
+                1,
+                0.8,
+                0.24
+            ],
+            [
+                0.08,
+                3,
+                1,
+                0.8,
+                0.28
+            ],
+            [
+                0.09,
+                3,
+                1,
+                0.8,
+                0.32
+            ],
+            [
+                0.1,
+                3,
+                1,
+                0.8,
+                0.36
+            ]
+        ],
+        "properties": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    "21042": {
+        "id": "21042",
+        "skill": "Inheritance",
+        "desc": "Increases the wearer's Break Effect by #1[i]%. When the wearer uses their Ultimate, increases CRIT Rate by #2[i]%, lasting for #3[i] turn(s).",
+        "params": [
+            [
+                0.28,
+                0.15,
+                2
+            ],
+            [
+                0.35,
+                0.1875,
+                2
+            ],
+            [
+                0.42,
+                0.225,
+                2
+            ],
+            [
+                0.49,
+                0.2625,
+                2
+            ],
+            [
+                0.56,
+                0.3,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.28
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.35
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.42
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.49
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.56
+                }
+            ]
+        ]
+    },
     "22000": {
         "id": "22000",
         "skill": "Quick on the Draw",
@@ -3805,7 +4257,7 @@
     "23019": {
         "id": "23019",
         "skill": "The Plum Fragrance In My Bones",
-        "desc": "Increases the wearer's Break Effect by #1[i]%. When the wearer uses their Ultimate, increases all allies' DMG by #2[i]%, lasting for #3[i] turn(s). Should the wearer's Break Effect exceed or equal #4[i]%, 1 Skill Point will be recovered. At the start of each wave, all allies regenerate #5[f1] Energy immediately. Effects of the same type cannot stack.",
+        "desc": "Increases the wearer's Break Effect by #1[i]%. When the wearer uses their Ultimate, increases all allies' DMG by #2[i]%, lasting for #3[i] turn(s). Should the wearer's Break Effect exceed or equal #4[i]%, 1 Skill Point will be recovered.\nAt the start of each wave, all allies regenerate #5[f1] Energy immediately. Effects of the same type cannot stack.",
         "params": [
             [
                 0.6,
@@ -3879,7 +4331,7 @@
     "23020": {
         "id": "23020",
         "skill": "Mental Training",
-        "desc": "Increases the wearer's CRIT DMG by #1[i]%. For every debuff on the enemy target, the wearer's CRIT DMG dealt against this target increases by #2[i]%, stacking up to #3[i] times. When using Ultimate to attack the enemy target, the wearer receives the Disputation effect, which increases DMG dealt by #4[i]% and enables their follow-up attacks to ignore #5[i]% of the target's DEF. This effect lasts for #6[i] turns.",
+        "desc": "Increases the wearer's CRIT DMG by #1[i]%. For every debuff on the enemy target, the wearer's CRIT DMG dealt against this target additionally increases by #2[i]%, stacking up to #3[i] times. When using Ultimate to attack the enemy target, the wearer receives the Disputation effect, which increases DMG dealt by #4[i]% and enables their follow-up attacks to ignore #5[i]% of the target's DEF. This effect lasts for #6[i] turns.",
         "params": [
             [
                 0.2,
@@ -3951,6 +4403,154 @@
                 {
                     "type": "CriticalDamageBase",
                     "value": 0.32
+                }
+            ]
+        ]
+    },
+    "23021": {
+        "id": "23021",
+        "skill": "Capriciousness",
+        "desc": "Increases the wearer's CRIT DMG by #1[i]%. At the start of the battle, the wearer gains Mask, lasting for #6[i] turn(s). While the wearer has Mask, the wearer's allies have their CRIT Rate increased by #5[i]% and their CRIT DMG increased by #2[i]%. For every 1 Skill Point the wearer recovers (including Skill Points that exceed the limit), they gain 1 stack of Radiant Flame. And when the wearer has #4[i] stacks of Radiant Flame, all the stacks are removed, and they gain Mask for #3[i] turn(s).",
+        "params": [
+            [
+                0.32,
+                0.28,
+                4,
+                4,
+                0.1,
+                3
+            ],
+            [
+                0.39,
+                0.35,
+                4,
+                4,
+                0.11,
+                3
+            ],
+            [
+                0.46,
+                0.42,
+                4,
+                4,
+                0.12,
+                3
+            ],
+            [
+                0.53,
+                0.49,
+                4,
+                4,
+                0.13,
+                3
+            ],
+            [
+                0.6,
+                0.56,
+                4,
+                4,
+                0.14,
+                3
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.32
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.39
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.46
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.53
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.6
+                }
+            ]
+        ]
+    },
+    "23022": {
+        "id": "23022",
+        "skill": "Crystallize",
+        "desc": "Increases the wearer's Effect Hit Rate by #1[i]%. When the wearer deals DMG to an enemy inflicted with Wind Shear, Burn, Shock, or Bleed, each respectively grants 1 stack of Prophet, stacking up to #4[i] time(s). In a single battle, only 1 stack of Prophet can be granted for each type of DoT. Every stack of Prophet increases wearer's ATK by #2[i]% and enables the DoT dealt to ignore #3[f1]% of the target's DEF.",
+        "params": [
+            [
+                0.4,
+                0.05,
+                0.072,
+                4
+            ],
+            [
+                0.45,
+                0.06,
+                0.079,
+                4
+            ],
+            [
+                0.5,
+                0.07,
+                0.086,
+                4
+            ],
+            [
+                0.55,
+                0.08,
+                0.093,
+                4
+            ],
+            [
+                0.6,
+                0.09,
+                0.1,
+                4
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.4
+                }
+            ],
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.45
+                }
+            ],
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.5
+                }
+            ],
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.55
+                }
+            ],
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.6
                 }
             ]
         ]

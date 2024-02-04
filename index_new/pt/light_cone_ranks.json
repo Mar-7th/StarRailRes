@@ -2353,6 +2353,458 @@
             []
         ]
     },
+    "21035": {
+        "id": "21035",
+        "skill": "Hipótese",
+        "desc": "Aumenta o Efeito de Quebra do usuário em #1[i]%. Após usar ATQ Básico, restaura os PV do usuário em uma quantidade igual a #2[f1]% dos PV máximos mais #3[i].",
+        "params": [
+            [
+                0.24,
+                0.02,
+                800
+            ],
+            [
+                0.3,
+                0.025,
+                800
+            ],
+            [
+                0.36,
+                0.03,
+                800
+            ],
+            [
+                0.42,
+                0.035,
+                800
+            ],
+            [
+                0.48,
+                0.04,
+                800
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.24
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.3
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.36
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.42
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.48
+                }
+            ]
+        ]
+    },
+    "21036": {
+        "id": "21036",
+        "skill": "Solidariedade",
+        "desc": "Depois que um usuário usa um certo tipo de habilidade, como ATQ Básico, Perícia, ou Perícia Suprema, todos os aliados ganham Infantilidade, que aumenta o Dano do tipo de habilidade usada pelo usuário em #1[i]%. Infantilidade só tem efeito com o tipo de habilidade mais recente usada pelo usuário e não pode ser acumulada.",
+        "params": [
+            [
+                0.12
+            ],
+            [
+                0.14
+            ],
+            [
+                0.16
+            ],
+            [
+                0.18
+            ],
+            [
+                0.2
+            ]
+        ],
+        "properties": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    "21037": {
+        "id": "21037",
+        "skill": "Tudo ou Nada",
+        "desc": "Aumenta o ATQ do usuário em #1[i]%. Quando o usuário causa um acerto CRIT em inimigos, ganha um acúmulo de Boa Sorte, que pode ser acumulado até #3[i] vezes. Cada acúmulo de Boa Sorte que o usuário possui aumentará seu Dano CRIT em #2[i]%. Boa Sorte será removida no final da rodada do usuário.",
+        "params": [
+            [
+                0.12,
+                0.08,
+                4
+            ],
+            [
+                0.14,
+                0.09,
+                4
+            ],
+            [
+                0.16,
+                0.1,
+                4
+            ],
+            [
+                0.18,
+                0.11,
+                4
+            ],
+            [
+                0.2,
+                0.12,
+                4
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.12
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.14
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.16
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.18
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.2
+                }
+            ]
+        ]
+    },
+    "21038": {
+        "id": "21038",
+        "skill": "Deflagração",
+        "desc": "Quando a perda cumulativa de PV do usuário durante um único ataque ultrapassar #1[i]% de seus PV máximos, ou se a quantidade de PV que ele consumir for maior do que #1[i]% de seus PV máximos, cura imediatamente o usuário em #3[i]% de seus PV máximos. Ao mesmo tempo, aumenta o Dano causado por ele em #2[i]% por #4[i] rodada(s). Esse efeito só pode ser ativado uma vez a cada #5[i] rodada(s).",
+        "params": [
+            [
+                0.25,
+                0.25,
+                0.15,
+                2,
+                3
+            ],
+            [
+                0.25,
+                0.3125,
+                0.15,
+                2,
+                3
+            ],
+            [
+                0.25,
+                0.375,
+                0.15,
+                2,
+                3
+            ],
+            [
+                0.25,
+                0.4375,
+                0.15,
+                2,
+                3
+            ],
+            [
+                0.25,
+                0.5,
+                0.15,
+                2,
+                3
+            ]
+        ],
+        "properties": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    "21039": {
+        "id": "21039",
+        "skill": "Conhecimento",
+        "desc": "Aumenta a RES a Efeito do usuário em #1[i]%. Para cada #2[i] de DEF que o usuário possui, aumenta o Dano causado pelo usuário #3[f1]% até um aumento de Dano máximo de #4[i]%.",
+        "params": [
+            [
+                0.12,
+                100,
+                0.008,
+                0.32
+            ],
+            [
+                0.14,
+                100,
+                0.009,
+                0.36
+            ],
+            [
+                0.16,
+                100,
+                0.01,
+                0.4
+            ],
+            [
+                0.18,
+                100,
+                0.011,
+                0.44
+            ],
+            [
+                0.2,
+                100,
+                0.012,
+                0.48
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "StatusResistanceBase",
+                    "value": 0.12
+                }
+            ],
+            [
+                {
+                    "type": "StatusResistanceBase",
+                    "value": 0.14
+                }
+            ],
+            [
+                {
+                    "type": "StatusResistanceBase",
+                    "value": 0.16
+                }
+            ],
+            [
+                {
+                    "type": "StatusResistanceBase",
+                    "value": 0.18
+                }
+            ],
+            [
+                {
+                    "type": "StatusResistanceBase",
+                    "value": 0.2
+                }
+            ]
+        ]
+    },
+    "21040": {
+        "id": "21040",
+        "skill": "Artimanha",
+        "desc": "Aumenta o ATQ do usuário em #1[i]%. Quando o usuário usa um ataque e pelo menos 2 inimigos atacados possuem a Fraqueza correspondente, o Dano CRIT do usuário é aumentado em #2[i]% por #3[i] rodada(s).",
+        "params": [
+            [
+                0.16,
+                0.2,
+                2
+            ],
+            [
+                0.18,
+                0.25,
+                2
+            ],
+            [
+                0.2,
+                0.3,
+                2
+            ],
+            [
+                0.22,
+                0.35,
+                2
+            ],
+            [
+                0.24,
+                0.4,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.16
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.18
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.2
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.22
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.24
+                }
+            ]
+        ]
+    },
+    "21041": {
+        "id": "21041",
+        "skill": "Auto-entretenimento",
+        "desc": "Quando o usuário inflige uma penalidade em um inimigo, ganha um acúmulo de Truque. Cada acúmulo de Truque aumenta o Dano causado pelo usuário em #1[i]% por um máximo de #2[i] acúmulo(s). Esse efeito dura por #3[i] rodada(s). Quando a Taxa de Acerto de Efeito do usuário é maior ou igual a #4[i]%, aumenta o ATQ em #5[i]%.",
+        "params": [
+            [
+                0.06,
+                3,
+                1,
+                0.8,
+                0.2
+            ],
+            [
+                0.07,
+                3,
+                1,
+                0.8,
+                0.24
+            ],
+            [
+                0.08,
+                3,
+                1,
+                0.8,
+                0.28
+            ],
+            [
+                0.09,
+                3,
+                1,
+                0.8,
+                0.32
+            ],
+            [
+                0.1,
+                3,
+                1,
+                0.8,
+                0.36
+            ]
+        ],
+        "properties": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    "21042": {
+        "id": "21042",
+        "skill": "Herança",
+        "desc": "Aumenta o Efeito de Quebra do usuário em #1[i]%. Quando o usuário usa sua Perícia Suprema, aumenta a Chance de CRIT em #2[i]%, durando por #3[i] rodada(s).",
+        "params": [
+            [
+                0.28,
+                0.15,
+                2
+            ],
+            [
+                0.35,
+                0.1875,
+                2
+            ],
+            [
+                0.42,
+                0.225,
+                2
+            ],
+            [
+                0.49,
+                0.2625,
+                2
+            ],
+            [
+                0.56,
+                0.3,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.28
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.35
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.42
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.49
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.56
+                }
+            ]
+        ]
+    },
     "22000": {
         "id": "22000",
         "skill": "Rápido no Gatilho",
@@ -3805,7 +4257,7 @@
     "23019": {
         "id": "23019",
         "skill": "A Fragrância de Ameixa em Meus Ossos",
-        "desc": "Aumenta o Efeito de Quebra do usuário em #1[i]%. Quando o usuário utiliza sua Perícia Suprema, aumenta o Dano de todos os aliados em #2[i]%, durando por #3[i] rodada(s). Se o Efeito de Quebra for igual ou maior a #4[i]%, 1 Ponto de Perícia será recuperado. No início de cada onda, todos os aliados regeneram #5[f1] de Energia imediatamente. Os efeitos do mesmo tipo não podem ser acumulados.",
+        "desc": "Aumenta o Efeito de Quebra do usuário em #1[i]%. Quando o usuário utiliza sua Perícia Suprema, aumenta o Dano de todos os aliados em #2[i]%, durando por #3[i] rodada(s). Se o Efeito de Quebra for igual ou maior a #4[i]%, 1 Ponto de Perícia será recuperado.\nNo início de cada onda, todos os aliados regeneram #5[f1] de Energia imediatamente. Os efeitos do mesmo tipo não podem ser acumulados.",
         "params": [
             [
                 0.6,
@@ -3879,7 +4331,7 @@
     "23020": {
         "id": "23020",
         "skill": "Treinamento Mental",
-        "desc": "Aumenta o Dano CRIT do usuário em #1[i]%. Para cada penalidade no inimigo-alvo, o Dano CRIT causado pelo usuário ao alvo aumenta em #2[i]%, acumulando até um máximo de #3[i] vezes. Quando o usuário ataca o inimigo-alvo com sua Perícia Suprema, ele recebe o efeito Disputa, que aumenta o Dano causado em #4[i]% e permite que seus Ataques Extras ignorem #5[i]% da DEF do alvo. Este efeito dura #6[i] rodadas.",
+        "desc": "Aumenta o Dano CRIT do usuário em #1[i]%. Para cada penalidade no inimigo-alvo, o Dano CRIT causado pelo usuário ao alvo aumenta adicionalmente em #2[i]%, acumulando até um máximo de #3[i] vezes. Quando o usuário ataca o inimigo-alvo com sua Perícia Suprema, ele recebe o efeito Disputa, que aumenta o Dano causado em #4[i]% e permite que seus Ataques Extras ignorem #5[i]% da DEF do alvo. Este efeito dura #6[i] rodadas.",
         "params": [
             [
                 0.2,
@@ -3951,6 +4403,154 @@
                 {
                     "type": "CriticalDamageBase",
                     "value": 0.32
+                }
+            ]
+        ]
+    },
+    "23021": {
+        "id": "23021",
+        "skill": "Caprichosidade",
+        "desc": "Aumenta o Dano CRIT do usuário em #1[i]%. No início da batalha, o usuário ganha Máscara, durando por #6[i] rodada(s). Enquanto o usuário possuir Máscara, aumenta a Chance de CRIT dos aliados do usuário em #5[i]% e o Dano CRIT em #2[i]%. Para 1 Ponto de Perícia recuperado pelo usuário (incluindo Pontos de Perícia que excedam o limite), ele ganha 1 acúmulo de Chama Radiante. Quando o usuário possuir #4[i] acúmulos de Chama Radiante, todos os acúmulos são removidos e ele ganha Máscara por #3[i] rodada(s).",
+        "params": [
+            [
+                0.32,
+                0.28,
+                4,
+                4,
+                0.1,
+                3
+            ],
+            [
+                0.39,
+                0.35,
+                4,
+                4,
+                0.11,
+                3
+            ],
+            [
+                0.46,
+                0.42,
+                4,
+                4,
+                0.12,
+                3
+            ],
+            [
+                0.53,
+                0.49,
+                4,
+                4,
+                0.13,
+                3
+            ],
+            [
+                0.6,
+                0.56,
+                4,
+                4,
+                0.14,
+                3
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.32
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.39
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.46
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.53
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.6
+                }
+            ]
+        ]
+    },
+    "23022": {
+        "id": "23022",
+        "skill": "Cristalização",
+        "desc": "Aumenta a Taxa de Acerto de Efeito do usuário em #1[i]%. Quando o usuário causa Dano a um inimigo afligido com Cisalhamento de Vento, Queimadura, Choque ou Sangramento, cada um concede respectivamente 1 acúmulo de Profeta, podendo acumular até #4[i] vezes. Em uma única batalha, apenas 1 acúmulo de Profeta pode ser concedido para cada tipo de Dano Contínuo. Cada acúmulo de Profeta aumenta o ATQ do usuário em #2[i]% e o Dano Contínuo causado ignorará #3[f1]% da DEF do alvo.",
+        "params": [
+            [
+                0.4,
+                0.05,
+                0.072,
+                4
+            ],
+            [
+                0.45,
+                0.06,
+                0.079,
+                4
+            ],
+            [
+                0.5,
+                0.07,
+                0.086,
+                4
+            ],
+            [
+                0.55,
+                0.08,
+                0.093,
+                4
+            ],
+            [
+                0.6,
+                0.09,
+                0.1,
+                4
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.4
+                }
+            ],
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.45
+                }
+            ],
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.5
+                }
+            ],
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.55
+                }
+            ],
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.6
                 }
             ]
         ]

@@ -91,7 +91,7 @@
         "id": "100106",
         "name": "Just Like This, Always...",
         "rank": 6,
-        "desc": "Allies under the protection of the Shield granted by the Skill restores HP equal to 4% of their Max HP plus 106 at the beginning of each turn.",
+        "desc": "Allies under the protection of the Shield granted by the Skill restore HP equal to 4% of their Max HP plus 106 at the beginning of each turn.",
         "materials": [
             {
                 "id": "11001",
@@ -1894,7 +1894,7 @@
         "id": "111004",
         "name": "Dusk of Warm Campfire",
         "rank": 4,
-        "desc": "When \"Survival Response\" is gained, increases the target's ATK by an amount equal to ('3.0', '.1f')% of Lynx's Max HP for 1 turn(s).",
+        "desc": "When \"Survival Response\" is gained, increases the target's ATK by an amount equal to 3.0% of Lynx's Max HP for 1 turn(s).",
         "materials": [
             {
                 "id": "11110",
@@ -1931,7 +1931,7 @@
         "id": "111006",
         "name": "Dawn of Explorers' Chart",
         "rank": 6,
-        "desc": "Additionally boosts the Max HP increasing effect of \"Survival Response\" by an amount equal to ('6.00000001', '.1f')% of Lynx's Max HP and increases Effect RES by 30%.",
+        "desc": "Additionally boosts the Max HP increasing effect of \"Survival Response\" by an amount equal to 6.0% of Lynx's Max HP and increases Effect RES by 30%.",
         "materials": [
             {
                 "id": "11110",
@@ -4105,7 +4105,7 @@
         "id": "130506",
         "name": "Vincit Omnia Veritas",
         "rank": 6,
-        "desc": "Increases the trigger count for Wiseman's Folly by 1. The DMG dealt by the Talent's follow-up attack increases by 50%.",
+        "desc": "Additionally increases the triggerable count for Wiseman's Folly by 1. The DMG dealt by the Talent's follow-up attack increases by 50%.",
         "materials": [
             {
                 "id": "11305",
@@ -4114,6 +4114,312 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1305_rank6.png"
+    },
+    "130601": {
+        "id": "130601",
+        "name": "Suspension of Disbelief",
+        "rank": 1,
+        "desc": "The Cipher effect applied by the Ultimate lasts for 1 extra turn. All allies affected by Cipher have their ATK increased by 40%.",
+        "materials": [
+            {
+                "id": "11306",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1306_rank1.png"
+    },
+    "130602": {
+        "id": "130602",
+        "name": "Purely Fictitious",
+        "rank": 2,
+        "desc": "Each Talent stack allows allies to ignore 8% of the enemy target's DEF when dealing DMG to enemies.",
+        "materials": [
+            {
+                "id": "11306",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1306_rank2.png"
+    },
+    "130603": {
+        "id": "130603",
+        "name": "Pipedream",
+        "rank": 3,
+        "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "materials": [
+            {
+                "id": "11306",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130602",
+                "num": 2
+            },
+            {
+                "id": "130601",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1306_skill.png"
+    },
+    "130604": {
+        "id": "130604",
+        "name": "Life Is a Gamble",
+        "rank": 4,
+        "desc": "The Ultimate recovers 1 more Skill Point. The Talent additionally increases Max Skill Points by 1.",
+        "materials": [
+            {
+                "id": "11306",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1306_rank4.png"
+    },
+    "130605": {
+        "id": "130605",
+        "name": "Parallax Truth",
+        "rank": 5,
+        "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+        "materials": [
+            {
+                "id": "11306",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130603",
+                "num": 2
+            },
+            {
+                "id": "130604",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1306_ultimate.png"
+    },
+    "130606": {
+        "id": "130606",
+        "name": "Narrative Polysemy",
+        "rank": 6,
+        "desc": "The CRIT DMG Boost effect of Sparkle's Skill additionally increases by 30% of Sparkle's CRIT DMG, and when she uses her Skill, the CRIT DMG Boost effect will apply to all allies currently with Cipher. When Sparkle uses her Ultimate, this effect will spread to all allies with Cipher should the allied target have the CRIT DMG increase effect provided by the Skill active on them.",
+        "materials": [
+            {
+                "id": "11306",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1306_rank6.png"
+    },
+    "130701": {
+        "id": "130701",
+        "name": "Seven Pillars of Wisdom",
+        "rank": 1,
+        "desc": "While Black Swan is active in battle, enemies afflicted with Wind Shear, Bleed, Burn, or Shock will have their corresponding Wind, Physical, Fire, or Lightning RES respectively reduced by 25%.",
+        "materials": [
+            {
+                "id": "11307",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1307_rank1.png"
+    },
+    "130702": {
+        "id": "130702",
+        "name": "Weep Not For Me, My Lamb",
+        "rank": 2,
+        "desc": "When an enemy target afflicted with Arcana is defeated, there is a 100% base chance of inflicting 6 stack(s) of Arcana on adjacent targets.",
+        "materials": [
+            {
+                "id": "11307",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1307_rank2.png"
+    },
+    "130703": {
+        "id": "130703",
+        "name": "As Above, So Below",
+        "rank": 3,
+        "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+        "materials": [
+            {
+                "id": "11307",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130702",
+                "num": 2
+            },
+            {
+                "id": "130704",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1307_skill.png"
+    },
+    "130704": {
+        "id": "130704",
+        "name": "In Tears We Gift",
+        "rank": 4,
+        "desc": "While in the Epiphany state, enemy targets have their Effect RES reduced by 10%. And at the start of their turn or when they get defeated, Black Swan regenerates 8 Energy. This Energy Regeneration effect can only trigger up to 1 time while Epiphany lasts. And this trigger count resets after the enemy gets inflicted with Epiphany again.",
+        "materials": [
+            {
+                "id": "11307",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1307_rank4.png"
+    },
+    "130705": {
+        "id": "130705",
+        "name": "Linnutee Flyway",
+        "rank": 5,
+        "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "materials": [
+            {
+                "id": "11307",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130703",
+                "num": 2
+            },
+            {
+                "id": "130701",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1307_ultimate.png"
+    },
+    "130706": {
+        "id": "130706",
+        "name": "Pantheon Merciful, Masses Pitiful",
+        "rank": 6,
+        "desc": "When enemy targets get attacked by Black Swan's allies, Black Swan has a 65% base chance of inflicting 1 stack of Arcana on the target.\\nEach time Black Swan inflicts Arcana on an enemy target, there is a 50% fixed chance to additionally increase the number of Arcana stacks afflicted this time by 1.",
+        "materials": [
+            {
+                "id": "11307",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1307_rank6.png"
+    },
+    "131201": {
+        "id": "131201",
+        "name": "Whimsicality of Fancy",
+        "rank": 1,
+        "desc": "When using the Ultimate, for every enemy on the field, additionally increases the Hits Per Action for the Ultimate by 1 hit(s), up to a maximum increase of 5 hit(s).",
+        "materials": [
+            {
+                "id": "11312",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1312_rank1.png"
+    },
+    "131202": {
+        "id": "131202",
+        "name": "Yearning of Youth",
+        "rank": 2,
+        "desc": "Before each hit of the Ultimate lands, there is a 24% base chance of reducing the target's DEF by 16% for 3 turn(s).",
+        "materials": [
+            {
+                "id": "11312",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1312_rank2.png"
+    },
+    "131203": {
+        "id": "131203",
+        "name": "Vestige of Happiness",
+        "rank": 3,
+        "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "materials": [
+            {
+                "id": "11312",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "131203",
+                "num": 2
+            },
+            {
+                "id": "131201",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1312_skill.png"
+    },
+    "131204": {
+        "id": "131204",
+        "name": "Visage of Kinship",
+        "rank": 4,
+        "desc": "Increases the DMG multiplier for each hit of the Ultimate by 6%.",
+        "materials": [
+            {
+                "id": "11312",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1312_rank4.png"
+    },
+    "131205": {
+        "id": "131205",
+        "name": "Genesis of First Love",
+        "rank": 5,
+        "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+        "materials": [
+            {
+                "id": "11312",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "131202",
+                "num": 2
+            },
+            {
+                "id": "131204",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1312_ultimate.png"
+    },
+    "131206": {
+        "id": "131206",
+        "name": "Estrangement of Dream",
+        "rank": 6,
+        "desc": "When using the Ultimate, increases own DMG by 30%, lasting until the end of the turn. In addition, the next time the Skill is used, recovers 1 Skill Point(s) for the team.",
+        "materials": [
+            {
+                "id": "11312",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1312_rank6.png"
     },
     "800101": {
         "id": "800101",

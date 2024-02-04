@@ -1894,7 +1894,7 @@
         "id": "111004",
         "name": "Crepúsculo da Fogueira Acolhedora",
         "rank": 4,
-        "desc": "Quando a \"Resposta de Sobrevivência\" é recebida, aumenta o ATQ do alvo em uma quantidade igual a ('3.0', '.1f')% dos PV máximos de Lynx por 1 rodada(s).",
+        "desc": "Quando a \"Resposta de Sobrevivência\" é recebida, aumenta o ATQ do alvo em uma quantidade igual a 3.0% dos PV máximos de Lynx por 1 rodada(s).",
         "materials": [
             {
                 "id": "11110",
@@ -1931,7 +1931,7 @@
         "id": "111006",
         "name": "Amanhecer do Mapa dos Exploradores",
         "rank": 6,
-        "desc": "Melhora adicionalmente o efeito de aumento de PV máximos da \"Resposta de Sobrevivência\" em uma quantidade igual a ('6.00000001', '.1f')% dos PV máximos de Lynx e aumenta a RES a Efeito em 30%.",
+        "desc": "Melhora adicionalmente o efeito de aumento de PV máximos da \"Resposta de Sobrevivência\" em uma quantidade igual a 6.0% dos PV máximos de Lynx e aumenta a RES a Efeito em 30%.",
         "materials": [
             {
                 "id": "11110",
@@ -4105,7 +4105,7 @@
         "id": "130506",
         "name": "Vincit Omnia Veritas",
         "rank": 6,
-        "desc": "Aumenta a contagem de acionamento para Tolice do Sábio em 1. O Dano causado pelo Ataque Extra do Talento aumenta em 50%.",
+        "desc": "Aumenta adicionalmente a contagem ativável para Tolice do Sábio em 1. O Dano causado pelo Ataque Extra do Talento aumenta em 50%.",
         "materials": [
             {
                 "id": "11305",
@@ -4114,6 +4114,312 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1305_rank6.png"
+    },
+    "130601": {
+        "id": "130601",
+        "name": "Suspensão de Descrença",
+        "rank": 1,
+        "desc": "O efeito de Criptografia aplicado pela Perícia Suprema dura por 1 rodada extra. Todos os aliados afetados por Criptografia têm seu ATQ aumentado em 40%.",
+        "materials": [
+            {
+                "id": "11306",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1306_rank1.png"
+    },
+    "130602": {
+        "id": "130602",
+        "name": "Puramente Fictício",
+        "rank": 2,
+        "desc": "Cada acúmulo de Talento permite que os aliados ignorem 8% da DEF do inimigo-alvo ao causar Dano.",
+        "materials": [
+            {
+                "id": "11306",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1306_rank2.png"
+    },
+    "130603": {
+        "id": "130603",
+        "name": "Sonho Impossível",
+        "rank": 3,
+        "desc": "Nv. da Perícia +2, até no máximo Nv. 15.\\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
+        "materials": [
+            {
+                "id": "11306",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130602",
+                "num": 2
+            },
+            {
+                "id": "130601",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1306_skill.png"
+    },
+    "130604": {
+        "id": "130604",
+        "name": "A Vida É uma Aposta",
+        "rank": 4,
+        "desc": "A Perícia Suprema recupera mais 1 de Ponto de Perícia. O Talento ainda aumenta adicionalmente o máximo de Pontos de Perícia em 1.",
+        "materials": [
+            {
+                "id": "11306",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1306_rank4.png"
+    },
+    "130605": {
+        "id": "130605",
+        "name": "Verdade Paraláctica",
+        "rank": 5,
+        "desc": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\\nNv. do Talento +2, até no máximo Nv. 15.",
+        "materials": [
+            {
+                "id": "11306",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130603",
+                "num": 2
+            },
+            {
+                "id": "130604",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1306_ultimate.png"
+    },
+    "130606": {
+        "id": "130606",
+        "name": "Narrativa Polissêmica",
+        "rank": 6,
+        "desc": "O efeito de Bônus de Dano CRIT da Perícia de Sparkle aumenta adicionalmente o Dano CRIT de Sparkle em 30%, e quando ela usa sua Perícia, o efeito de Bônus de Dano CRIT será aplicado a todos os aliados com Criptografia no momento. Quando Sparkle usa sua Perícia Suprema, este efeito se espalha para todos os aliados com Criptografia caso o alvo aliado tenha o efeito de aumento de Dano CRIT da Perícia já ativo.",
+        "materials": [
+            {
+                "id": "11306",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1306_rank6.png"
+    },
+    "130701": {
+        "id": "130701",
+        "name": "Sete Pilares da Sabedoria",
+        "rank": 1,
+        "desc": "Enquanto Cisne Negro estiver ativa em batalha, inimigos com o estado de Cisalhamento de Vento, Sangramento, Queimadura ou Choque têm, respectivamente, sua RES a Vento, Físico, Fogo ou Raio reduzida em 25%.",
+        "materials": [
+            {
+                "id": "11307",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1307_rank1.png"
+    },
+    "130702": {
+        "id": "130702",
+        "name": "Não Chore por Mim, Cordeirinho",
+        "rank": 2,
+        "desc": "Quando um inimigo-alvo afligido por Arcana for derrotado, há uma chance-base de 100% de infligir 6 acúmulo(s) de Arcana a alvos adjacentes.",
+        "materials": [
+            {
+                "id": "11307",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1307_rank2.png"
+    },
+    "130703": {
+        "id": "130703",
+        "name": "Assim na Terra como no Céu",
+        "rank": 3,
+        "desc": "Nv. da Perícia +2, até no máximo Nv. 15.\\nNv. do Talento +2, até no máximo Nv. 15.",
+        "materials": [
+            {
+                "id": "11307",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130702",
+                "num": 2
+            },
+            {
+                "id": "130704",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1307_skill.png"
+    },
+    "130704": {
+        "id": "130704",
+        "name": "Em Lágrimas, Nós Presenteamos",
+        "rank": 4,
+        "desc": "Enquanto estiverem no estado de Epifania, a RES a Efeito dos inimigos-alvo é reduzida em 10%. E no início da rodada deles ou quando eles são derrotados, Cisne Negro recupera 8 de Energia. Essa Regeneração de Energia só pode ativar 1 vez enquanto Epifania durar. Esta contagem de ativação é redefinida depois que o inimigo é afligido com Epifania novamente.",
+        "materials": [
+            {
+                "id": "11307",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1307_rank4.png"
+    },
+    "130705": {
+        "id": "130705",
+        "name": "Voo Migratório",
+        "rank": 5,
+        "desc": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
+        "materials": [
+            {
+                "id": "11307",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130703",
+                "num": 2
+            },
+            {
+                "id": "130701",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1307_ultimate.png"
+    },
+    "130706": {
+        "id": "130706",
+        "name": "Panteão Misericordioso, Massas Lamentáveis",
+        "rank": 6,
+        "desc": "Quando inimigos-alvo são atacados pelos aliados da Cisne Negro, Cisne Negro tem uma chance-base de 65% de infligir 1 acúmulo de Arcana no alvo.\\nCada vez que Cisne Negro infligir Arcana em um inimigo-alvo, há uma chance fixa de 50% de aumentar adicionalmente o número de acúmulos de Arcana infligidos desta vez em 1.",
+        "materials": [
+            {
+                "id": "11307",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1307_rank6.png"
+    },
+    "131201": {
+        "id": "131201",
+        "name": "Capricho Extravagante",
+        "rank": 1,
+        "desc": "Ao usar a Perícia Suprema, para cada inimigo no campo, aumenta adicionalmente os Golpes por Ação da Perícia Suprema em 1 golpe(s), até um aumento máximo de 5 golpe(s).",
+        "materials": [
+            {
+                "id": "11312",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1312_rank1.png"
+    },
+    "131202": {
+        "id": "131202",
+        "name": "Anseio da Juventude",
+        "rank": 2,
+        "desc": "Antes do acerto de cada golpe da Perícia Suprema, existe uma chance-base de 24% de reduzir a DEF do alvo em 16% por 3 rodada(s).",
+        "materials": [
+            {
+                "id": "11312",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1312_rank2.png"
+    },
+    "131203": {
+        "id": "131203",
+        "name": "Vestígio de Felicidade",
+        "rank": 3,
+        "desc": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
+        "materials": [
+            {
+                "id": "11312",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "131203",
+                "num": 2
+            },
+            {
+                "id": "131201",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1312_skill.png"
+    },
+    "131204": {
+        "id": "131204",
+        "name": "Visão de Afinidade",
+        "rank": 4,
+        "desc": "Aumenta o Multiplicador de Dano de cada golpe da Perícia Suprema em 6%.",
+        "materials": [
+            {
+                "id": "11312",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1312_rank4.png"
+    },
+    "131205": {
+        "id": "131205",
+        "name": "Gênesis do Primeiro Amor",
+        "rank": 5,
+        "desc": "Nv. da Perícia +2, até no máximo Nv. 15.\\nNv. do Talento +2, até no máximo Nv. 15.",
+        "materials": [
+            {
+                "id": "11312",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "131202",
+                "num": 2
+            },
+            {
+                "id": "131204",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1312_ultimate.png"
+    },
+    "131206": {
+        "id": "131206",
+        "name": "Alienação do Sonho",
+        "rank": 6,
+        "desc": "Ao usar a Perícia Suprema, aumenta o próprio Dano em 30%, durando até o final da rodada. Além disso, da próxima vez que a Perícia for utilizada, recupera 1 Ponto(s) de Perícia para a equipe.",
+        "materials": [
+            {
+                "id": "11312",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1312_rank6.png"
     },
     "800101": {
         "id": "800101",

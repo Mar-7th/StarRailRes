@@ -1894,7 +1894,7 @@
         "id": "111004",
         "name": "Hoàng Hôn Lửa Trại Ấm Áp",
         "rank": 4,
-        "desc": "Khi nhận \"Phản Ứng Sinh Tồn\", sẽ tăng tấn công của mục tiêu này, mức tăng bằng ('3.0', '.1f')% Giới Hạn HP của Lynx, duy trì 1 hiệp.",
+        "desc": "Khi nhận \"Phản Ứng Sinh Tồn\", sẽ tăng tấn công của mục tiêu này, mức tăng bằng 3.0% Giới Hạn HP của Lynx, duy trì 1 hiệp.",
         "materials": [
             {
                 "id": "11110",
@@ -1931,7 +1931,7 @@
         "id": "111006",
         "name": "Bình Minh Của Bản Khảo Sát",
         "rank": 6,
-        "desc": "Hiệu ứng tăng Giới Hạn HP của Phản Ứng Sinh Tồn sẽ tăng thêm, mức tăng bằng ('6.00000001', '.1f')% Giới Hạn HP của Lynx và tăng Kháng Hiệu Ứng 30%.",
+        "desc": "Hiệu ứng tăng Giới Hạn HP của Phản Ứng Sinh Tồn sẽ tăng thêm, mức tăng bằng 6.0% Giới Hạn HP của Lynx và tăng Kháng Hiệu Ứng 30%.",
         "materials": [
             {
                 "id": "11110",
@@ -4114,6 +4114,312 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1305_rank6.png"
+    },
+    "130601": {
+        "id": "130601",
+        "name": "Dẹp Bỏ Hoài Nghi",
+        "rank": 1,
+        "desc": "Thời gian duy trì Câu Đố Kỳ Dị thi triển bởi Tuyệt Kỹ tăng thêm 1 hiệp, mục tiêu phe ta sở hữu Câu Đố Kỳ Dị sẽ tăng 40% Tấn Công.",
+        "materials": [
+            {
+                "id": "11306",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1306_rank1.png"
+    },
+    "130602": {
+        "id": "130602",
+        "name": "Hư Cấu Vô Cớ",
+        "rank": 2,
+        "desc": "Mỗi tầng hiệu ứng của Thiên Phú khiến mục tiêu phe ta khi gây sát thương sẽ bỏ qua 8% Phòng Thủ của mục tiêu.",
+        "materials": [
+            {
+                "id": "11306",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1306_rank2.png"
+    },
+    "130603": {
+        "id": "130603",
+        "name": "Giấc Mộng Viển Vông",
+        "rank": 3,
+        "desc": "Cấp Chiến Kỹ +2, tối đa không quá cấp 15; Cấp Tấn Công Thường +1, tối đa không quá cấp 10.",
+        "materials": [
+            {
+                "id": "11306",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130602",
+                "num": 2
+            },
+            {
+                "id": "130601",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1306_skill.png"
+    },
+    "130604": {
+        "id": "130604",
+        "name": "Cuộc Sống Là Canh Bạc",
+        "rank": 4,
+        "desc": "Tuyệt Kỹ có thể hồi phục thêm 1 Điểm Chiến Kỹ, hiệu ứng tăng giới hạn Điểm Chiến Kỹ của Thiên Phú tăng thêm 1 điểm.",
+        "materials": [
+            {
+                "id": "11306",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1306_rank4.png"
+    },
+    "130605": {
+        "id": "130605",
+        "name": "Chân Tướng Hai Mặt",
+        "rank": 5,
+        "desc": "Cấp Tuyệt Kỹ +2, tối đa không quá cấp 15; Cấp Thiên Phú +2, tối đa không quá cấp 15.",
+        "materials": [
+            {
+                "id": "11306",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130603",
+                "num": 2
+            },
+            {
+                "id": "130604",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1306_ultimate.png"
+    },
+    "130606": {
+        "id": "130606",
+        "name": "Lời Giải Đáp Đa Tầng",
+        "rank": 6,
+        "desc": "Tăng thêm hiệu ứng Tăng Sát Thương Bạo Kích của Chiến Kỹ, mức tăng bằng 30% Sát Thương Bạo Kích của Sparkle, khi Sparkle thi triển Chiến Kỹ, sẽ khiến hiệu ứng Tăng Sát Thương Bạo Kích của Chiến Kỹ có hiệu lực với đồng đội sở hữu Câu Đố Kỳ Dị, khi Sparkle thi triển Tuyệt Kỹ, nếu trong phe ta có mục tiêu mang hiệu ứng Tăng Sát Thương Bạo Kích của Chiến Kỹ, sẽ khiến hiệu ứng này khuếch tán đến đồng đội đang có Câu Đố Kỳ Dị.",
+        "materials": [
+            {
+                "id": "11306",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1306_rank6.png"
+    },
+    "130701": {
+        "id": "130701",
+        "name": "Bảy Trụ Cột Của Trí Tuệ",
+        "rank": 1,
+        "desc": "Khi Black Swan ở trạng thái có thể chiến đấu, kháng thuộc tính Phong, Vật Lý, Hỏa, Lôi tương ứng của kẻ địch ở trạng thái Bào Mòn, Chảy Máu, Thiêu Đốt, Sốc Điện lần lượt giảm 25%.",
+        "materials": [
+            {
+                "id": "11307",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1307_rank1.png"
+    },
+    "130702": {
+        "id": "130702",
+        "name": "Cừu Non, Xin Đừng Khóc Vì Ta",
+        "rank": 2,
+        "desc": "Khi kẻ địch ở trạng thái Dấu Tích Bí Ẩn bị tiêu diệt, có 100% xác suất cơ bản khiến mục tiêu ở gần rơi vào 6 tầng Dấu Tích Bí Ẩn.",
+        "materials": [
+            {
+                "id": "11307",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1307_rank2.png"
+    },
+    "130703": {
+        "id": "130703",
+        "name": "Thượng Giới Đã Vậy, Hạ Giới Cũng Như Vậy",
+        "rank": 3,
+        "desc": "Cấp Chiến Kỹ +2, tối đa không quá cấp 15; Cấp Thiên Phú +2, tối đa không quá cấp 15.",
+        "materials": [
+            {
+                "id": "11307",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130702",
+                "num": 2
+            },
+            {
+                "id": "130704",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1307_skill.png"
+    },
+    "130704": {
+        "id": "130704",
+        "name": "Nước Mắt, Cũng Là Một Món Quà",
+        "rank": 4,
+        "desc": "Ở trạng thái Vạch Trần, Kháng Hiệu Ứng của kẻ địch giảm 10%, đồng thời khi bắt đầu mỗi hiệp hoặc bị tiêu diệt sẽ hồi phục 8 Năng Lượng cho Black Swan. Hiệu ứng hồi phục Năng Lượng tối đa kích hoạt 1 lần trong thời gian duy trì trạng thái Vạch Trần, rơi vào trạng thái Vạch Trần một lần nữa sẽ làm mới số lần kích hoạt.",
+        "materials": [
+            {
+                "id": "11307",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1307_rank4.png"
+    },
+    "130705": {
+        "id": "130705",
+        "name": "Đường Bay Chim Di Trú",
+        "rank": 5,
+        "desc": "Cấp Tuyệt Kỹ +2, tối đa không quá cấp 15, cấp Tấn Công Thường +1, tối đa không quá cấp 10.",
+        "materials": [
+            {
+                "id": "11307",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130703",
+                "num": 2
+            },
+            {
+                "id": "130701",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1307_ultimate.png"
+    },
+    "130706": {
+        "id": "130706",
+        "name": "Vạn Thần Nhân Từ, Chúng Sinh Khổ Đau",
+        "rank": 6,
+        "desc": "Khi kẻ địch bị đồng đội của Black Swan tấn công, Black Swan sẽ có 65% xác suất cơ bản khiến mục tiêu rơi vào 1 tầng Dấu Tích Bí Ẩn.\\nMỗi khi Black Swan khiến kẻ địch rơi vào Dấu Tích Bí Ẩn, có 50% xác suất cố định khiến số tầng Dấu Tích Bí Ẩn cộng dồn lần này tăng thêm 1 tầng.",
+        "materials": [
+            {
+                "id": "11307",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1307_rank6.png"
+    },
+    "131201": {
+        "id": "131201",
+        "name": "Ảo Ảnh Lay Động",
+        "rank": 1,
+        "desc": "Khi thi triển Tuyệt Kỹ, cứ mỗi 1 kẻ địch có trên trận, thì số đòn đánh trong một lượt của Tuyệt Kỹ lần này tăng thêm 1 đòn, tối đa tăng thêm 5 đòn.",
+        "materials": [
+            {
+                "id": "11312",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1312_rank1.png"
+    },
+    "131202": {
+        "id": "131202",
+        "name": "Khát Khao Tuổi Trẻ",
+        "rank": 2,
+        "desc": "Trước mỗi đòn tấn công của Tuyệt Kỹ, có 24% xác suất cơ bản khiến Phòng Thủ của mục tiêu giảm 16%, duy trì 3 hiệp.",
+        "materials": [
+            {
+                "id": "11312",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1312_rank2.png"
+    },
+    "131203": {
+        "id": "131203",
+        "name": "Hình Bóng Tháng Ngày Hạnh Phúc",
+        "rank": 3,
+        "desc": "Cấp Tuyệt Kỹ +2, tối đa không quá cấp 15, cấp Tấn Công Thường +1, tối đa không quá cấp 10.",
+        "materials": [
+            {
+                "id": "11312",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "131203",
+                "num": 2
+            },
+            {
+                "id": "131201",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1312_skill.png"
+    },
+    "131204": {
+        "id": "131204",
+        "name": "Hình Bóng Thân Thương",
+        "rank": 4,
+        "desc": "Bội Số Sát Thương mỗi đòn tấn công của Tuyệt Kỹ tăng 6%.",
+        "materials": [
+            {
+                "id": "11312",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1312_rank4.png"
+    },
+    "131205": {
+        "id": "131205",
+        "name": "Tình Đầu Và Tình Bạn",
+        "rank": 5,
+        "desc": "Cấp Chiến Kỹ +2, tối đa không quá cấp 15; Cấp Thiên Phú +2, tối đa không quá cấp 15.",
+        "materials": [
+            {
+                "id": "11312",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "131202",
+                "num": 2
+            },
+            {
+                "id": "131204",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1312_ultimate.png"
+    },
+    "131206": {
+        "id": "131206",
+        "name": "Niềm Mong Mỏi Xa Vời",
+        "rank": 6,
+        "desc": "Khi thi triển Tuyệt Kỹ, tăng 30% sát thương do bản thân gây ra, duy trì đến khi kết thúc hiệp của bản thân, và sau lần thi triển Chiến Kỹ kế tiếp, sẽ hồi phục 1 Điểm Chiến Kỹ cho phe ta.",
+        "materials": [
+            {
+                "id": "11312",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1312_rank6.png"
     },
     "800101": {
         "id": "800101",

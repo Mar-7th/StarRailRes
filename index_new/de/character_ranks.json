@@ -1894,7 +1894,7 @@
         "id": "111004",
         "name": "Ein Sonnenuntergang am Lagerfeuer",
         "rank": 4,
-        "desc": "Wenn „Überlebensreaktion“ erlangt wird, erhöht sich der ANG des Ziels für 1 Rd. um ('3.0', '.1f')% der max. LP von Lynx.",
+        "desc": "Wenn „Überlebensreaktion“ erlangt wird, erhöht sich der ANG des Ziels für 1 Rd. um 3.0% der max. LP von Lynx.",
         "materials": [
             {
                 "id": "11110",
@@ -1931,7 +1931,7 @@
         "id": "111006",
         "name": "Ein Sonnenaufgang mit Kartografiepapier",
         "rank": 6,
-        "desc": "Die Erhöhung der max. LP durch „Überlebensreaktion“ wird zusätzlich um ('6.00000001', '.1f')% der max. LP von Lynx weiter erhöht. Erhöht auch den Effekt-WDS um 30%.",
+        "desc": "Die Erhöhung der max. LP durch „Überlebensreaktion“ wird zusätzlich um 6.0% der max. LP von Lynx weiter erhöht. Erhöht auch den Effekt-WDS um 30%.",
         "materials": [
             {
                 "id": "11110",
@@ -3554,7 +3554,7 @@
         "id": "121404",
         "name": "Karma, durchtrennt",
         "rank": 4,
-        "desc": "Erhöht den Brucheffekt dieser Einheit nach dem Einsatz des Ultimates für 2 Rd. um 40%.",
+        "desc": "Erhöht den Brucheffekt beim Einsatz des Ultimates für 2 Rd. um 40%.",
         "materials": [
             {
                 "id": "11214",
@@ -4082,7 +4082,7 @@
         "id": "130505",
         "name": "Ruderlos auf dem Ozean",
         "rank": 5,
-        "desc": "Fertigkeitsstufe +2 bis max. St. 15.\\nTalentstufe +2 bis max. St. 15.",
+        "desc": "Fertigkeitsstufe +2 bis max. St. 15. Talentstufe +2 bis max. St. 15.",
         "materials": [
             {
                 "id": "11305",
@@ -4114,6 +4114,312 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1305_rank6.png"
+    },
+    "130601": {
+        "id": "130601",
+        "name": "Am Rande des Zweifels",
+        "rank": 1,
+        "desc": "Verlängert die Dauer von „Rätselhaft“, das durch den Ultimate verursacht wurde, zusätzlich um 1 Rd. Der ANG der Verbündeten mit Rätselhaft wird um 40% erhöht.",
+        "materials": [
+            {
+                "id": "11306",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1306_rank1.png"
+    },
+    "130602": {
+        "id": "130602",
+        "name": "Sinnleere Fiktion",
+        "rank": 2,
+        "desc": "Jede Stapelung des Talents lässt Verbündete 8% der VTD des Ziels ignorieren.",
+        "materials": [
+            {
+                "id": "11306",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1306_rank2.png"
+    },
+    "130603": {
+        "id": "130603",
+        "name": "Fantasieblase",
+        "rank": 3,
+        "desc": "Fertigkeitsstufe +2 bis max. St. 15. Standardangriff-Stufe. +1 bis max. St. 10.",
+        "materials": [
+            {
+                "id": "11306",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130602",
+                "num": 2
+            },
+            {
+                "id": "130601",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1306_skill.png"
+    },
+    "130604": {
+        "id": "130604",
+        "name": "Das Leben ist ein Spiel",
+        "rank": 4,
+        "desc": "Der Ultimate stellt zusätzlich 1 Fertigkeitspunkt wieder her. Das Talent erhöht die max. Anzahl an Fertigkeitspunkten zusätzlich um 1.",
+        "materials": [
+            {
+                "id": "11306",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1306_rank4.png"
+    },
+    "130605": {
+        "id": "130605",
+        "name": "Zweigesichtige Wahrheit",
+        "rank": 5,
+        "desc": "Ultimate-Stufe +2 bis max. St. 15. Talentstufe +2 bis max. St. 15.",
+        "materials": [
+            {
+                "id": "11306",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130603",
+                "num": 2
+            },
+            {
+                "id": "130604",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1306_ultimate.png"
+    },
+    "130606": {
+        "id": "130606",
+        "name": "Mehrfachauswahl",
+        "rank": 6,
+        "desc": "Die KRIT-SCH-Erhöhung der Fertigkeit wird zusätzlich um 30% von Sparkles KRIT-SCH erhöht. Wenn sie ihre Fertigkeit einsetzt, wirkt der Effekt der KRIT-SCH-Erhöhung für alle Verbündeten mit „Rätselhaft“. Wenn Sparkle ihren Ultimate einsetzt und ein Verbündeter den von der Fertigkeit verursachten Effekt der KRIT-SCH-Erhöhung besitzt, wird dieser Effekt auf alle Teammitglieder mit Rätselhaft ausgedehnt.",
+        "materials": [
+            {
+                "id": "11306",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1306_rank6.png"
+    },
+    "130701": {
+        "id": "130701",
+        "name": "Drei Steine, sieben Säulen",
+        "rank": 1,
+        "desc": "Wenn Schwarzer Schwan kampffähig ist, wird jeweils der WDS des Typs Wind, Physisch, Feuer und Blitz von Gegnern mit Windscherung, Bluten, Brennen und Schock um 25% reduziert.",
+        "materials": [
+            {
+                "id": "11307",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1307_rank1.png"
+    },
+    "130702": {
+        "id": "130702",
+        "name": "Lämmchen, weine nicht um mich",
+        "rank": 2,
+        "desc": "Wird ein von „Arkana“ betroffener Gegner besiegt, besteht eine Grundchance von 100%, angrenzende Einheiten mit 6 Stapelung(en) Arkana zu belegen.",
+        "materials": [
+            {
+                "id": "11307",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1307_rank2.png"
+    },
+    "130703": {
+        "id": "130703",
+        "name": "Wie im Himmel, so auf Erden",
+        "rank": 3,
+        "desc": "Fertigkeitsstufe +2 bis max. St. 15. Talentstufe +2 bis max. St. 15.",
+        "materials": [
+            {
+                "id": "11307",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130702",
+                "num": 2
+            },
+            {
+                "id": "130704",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1307_skill.png"
+    },
+    "130704": {
+        "id": "130704",
+        "name": "Tränen, ein Geschenk",
+        "rank": 4,
+        "desc": "Der Effekt-WDS von Gegnern mit dem Status Enthüllung wird um 10% reduziert. Schwarzer Schwan stellt zu Beginn jeder Runde des betroffenen Ziels oder wenn es besiegt wird 8 Pkt. Energie wieder her. Dieser Effekt der Energiewiederherstellung kann während der Dauer von Enthüllung nur 1-mal ausgelöst werden. Die Auslösungsanzahl wird aktualisiert, wenn der Gegner erneut mit Enthüllung belegt wird.",
+        "materials": [
+            {
+                "id": "11307",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1307_rank4.png"
+    },
+    "130705": {
+        "id": "130705",
+        "name": "Weg des Zugvogels",
+        "rank": 5,
+        "desc": "Ultimate-Stufe +2 bis max. St. 15. Standardangriff-Stufe +1 bis max. St. 10.",
+        "materials": [
+            {
+                "id": "11307",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130703",
+                "num": 2
+            },
+            {
+                "id": "130701",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1307_ultimate.png"
+    },
+    "130706": {
+        "id": "130706",
+        "name": "Gnädiges Pantheon, unbekannte Diener",
+        "rank": 6,
+        "desc": "Wenn Verbündete von Schwarzer Schwan Gegner angreifen, hat Schwarzer Schwan eine Grundchance von 65%, das Ziel mit 1 Stapelung „Arkana“ zu belegen.\\nJedes Mal, wenn Schwarzer Schwan einen Gegner mit Arkana belegt, besteht eine feste Chance von 50%, die bei diesem Mal zugefügte Stapelung von Arkana zusätzlich um 1 zu erhöhen.",
+        "materials": [
+            {
+                "id": "11307",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1307_rank6.png"
+    },
+    "131201": {
+        "id": "131201",
+        "name": "Flatterhaftes Trugbild",
+        "rank": 1,
+        "desc": "Beim Einsatz des Ultimates wird seine Trefferzahl für jeden Gegner im Kampf zusätzlich um 1 erhöht, bis zu max. 5 Treffer.",
+        "materials": [
+            {
+                "id": "11312",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1312_rank1.png"
+    },
+    "131202": {
+        "id": "131202",
+        "name": "Jugendliche Sehnsucht",
+        "rank": 2,
+        "desc": "Der Ultimate hat vor jedem Treffer eine Grundchance von 24%, die VTD des Ziels für 3 Rd. um 16% zu reduzieren.",
+        "materials": [
+            {
+                "id": "11312",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1312_rank2.png"
+    },
+    "131203": {
+        "id": "131203",
+        "name": "Schatten glücklicher Jahre",
+        "rank": 3,
+        "desc": "Ultimate-Stufe +2 bis max. St. 15. Standardangriff-Stufe +1 bis max. St. 10.",
+        "materials": [
+            {
+                "id": "11312",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "131203",
+                "num": 2
+            },
+            {
+                "id": "131201",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1312_skill.png"
+    },
+    "131204": {
+        "id": "131204",
+        "name": "Vertraute Erscheinung",
+        "rank": 4,
+        "desc": "Erhöht den SCH-Multiplikator von jedem Treffer des Ultimates um 6%.",
+        "materials": [
+            {
+                "id": "11312",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1312_rank4.png"
+    },
+    "131205": {
+        "id": "131205",
+        "name": "Erste Liebe und Freundschaft",
+        "rank": 5,
+        "desc": "Fertigkeitsstufe +2 bis max. St. 15. Talentstufe +2 bis max. St. 15.",
+        "materials": [
+            {
+                "id": "11312",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "131202",
+                "num": 2
+            },
+            {
+                "id": "131204",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1312_ultimate.png"
+    },
+    "131206": {
+        "id": "131206",
+        "name": "Verblasste Sehnsucht",
+        "rank": 6,
+        "desc": "Nach dem Einsatz des Ultimates wird sein verursachter SCH um 30% bis zum Ende der eigenen Runde erhöht. Stellt nach dem nächsten Einsatz der Fertigkeit 1 Fertigkeitspunkt(e) für das Team wieder her.",
+        "materials": [
+            {
+                "id": "11312",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1312_rank6.png"
     },
     "800101": {
         "id": "800101",

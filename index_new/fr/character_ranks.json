@@ -1894,7 +1894,7 @@
         "id": "111004",
         "name": "Feu de camp du soir",
         "rank": 4,
-        "desc": "Les cibles qui bénéficient d'Instinct de survie voient leur ATQ augmenter d'un montant équivalent à ('3.0', '.1f')% des PV max de Lynx pendant 1 tour.",
+        "desc": "Les cibles qui bénéficient d'Instinct de survie voient leur ATQ augmenter d'un montant équivalent à 3.0% des PV max de Lynx pendant 1 tour.",
         "materials": [
             {
                 "id": "11110",
@@ -1931,7 +1931,7 @@
         "id": "111006",
         "name": "Aube des explorateurs",
         "rank": 6,
-        "desc": "L'effet d'augmentation des PV max accordé par Instinct de survie est majoré d'un montant équivalent à ('6.00000001', '.1f')% des PV max de Lynx. Augmente également la RÉS aux effets de 30%.",
+        "desc": "L'effet d'augmentation des PV max accordé par Instinct de survie est majoré d'un montant équivalent à 6.0% des PV max de Lynx. Augmente également la RÉS aux effets de 30%.",
         "materials": [
             {
                 "id": "11110",
@@ -4105,7 +4105,7 @@
         "id": "130506",
         "name": "Vincit Omnia Veritas",
         "rank": 6,
-        "desc": "Augmente de 1 le nombre de déclenchements de Folie du sage. Les DGT infligés par l'attaque de suivi du talent augmentent de 50%.",
+        "desc": "Augmente de 1 le nombre possible de déclenchements de Folie du sage. Les DGT infligés par l'attaque de suivi du talent augmentent de 50%.",
         "materials": [
             {
                 "id": "11305",
@@ -4114,6 +4114,312 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1305_rank6.png"
+    },
+    "130601": {
+        "id": "130601",
+        "name": "Suspens suspicieux",
+        "rank": 1,
+        "desc": "L'effet Énigme appliqué par l'ultime dure 1 tour supplémentaire. Tous les alliés affectés par Énigme voient leur ATQ augmenter de 40%.",
+        "materials": [
+            {
+                "id": "11306",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1306_rank1.png"
+    },
+    "130602": {
+        "id": "130602",
+        "name": "Fiction sans fondement",
+        "rank": 2,
+        "desc": "Chaque cumul du talent permet aux alliés d'ignorer 8% de la DÉF de la cible ennemie lorsqu'ils lui infligent des DGT.",
+        "materials": [
+            {
+                "id": "11306",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1306_rank2.png"
+    },
+    "130603": {
+        "id": "130603",
+        "name": "Rêve irréalisable",
+        "rank": 3,
+        "desc": "Niv. de la compétence +2, jusqu'au Niv. 15 maximum.\\nNiv. de l'ATQ normale +1, jusqu'au Niv. 10 maximum.",
+        "materials": [
+            {
+                "id": "11306",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130602",
+                "num": 2
+            },
+            {
+                "id": "130601",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1306_skill.png"
+    },
+    "130604": {
+        "id": "130604",
+        "name": "La vie est un jeu",
+        "rank": 4,
+        "desc": "L'ultime régénère 1 point de compétence supplémentaire. Le talent augmente encore le nombre de points de compétence max de 1.",
+        "materials": [
+            {
+                "id": "11306",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1306_rank4.png"
+    },
+    "130605": {
+        "id": "130605",
+        "name": "Vérité aux deux visages",
+        "rank": 5,
+        "desc": "Niv. de l'ultime +2, jusqu'au Niv. 15 maximum.\\nNiv. du talent +2, jusqu'au Niv. 15 maximum.",
+        "materials": [
+            {
+                "id": "11306",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130603",
+                "num": 2
+            },
+            {
+                "id": "130604",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1306_ultimate.png"
+    },
+    "130606": {
+        "id": "130606",
+        "name": "Choix multiples",
+        "rank": 6,
+        "desc": "L'effet d'augmentation des DGT critiques de la compétence de Sparkle augmente à hauteur de 30% des DGT critiques de Sparkle, et lorsqu'elle utilise sa compétence, il s'applique à tous les alliés qui bénéficient actuellement d'Énigme. Lorsque Sparkle utilise son ultime, si la cible alliée bénéficie de l'effet d'augmentation des DGT critiques accordé par la compétence de Sparkle, cet effet se propage à tous les alliés avec Énigme.",
+        "materials": [
+            {
+                "id": "11306",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1306_rank6.png"
+    },
+    "130701": {
+        "id": "130701",
+        "name": "Les sept piliers de la sagesse",
+        "rank": 1,
+        "desc": "Tant que Cygne noir est en état de combattre, la RÉS au vent, physique, au feu ou à la foudre des ennemis affectés respectivement par Faille du vent, Saignement, Brûlure ou Stupéfaction est réduite de 25%.",
+        "materials": [
+            {
+                "id": "11307",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1307_rank1.png"
+    },
+    "130702": {
+        "id": "130702",
+        "name": "Ne pleurez pas pour moi",
+        "rank": 2,
+        "desc": "Lorsqu'une cible ennemie affectée par Arcanes est vaincue, elle a 100% de chances de base d'appliquer 6 cumuls d'Arcanes aux cibles adjacentes.",
+        "materials": [
+            {
+                "id": "11307",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1307_rank2.png"
+    },
+    "130703": {
+        "id": "130703",
+        "name": "Sur la terre comme au ciel",
+        "rank": 3,
+        "desc": "Niv. de la compétence +2, jusqu'au Niv. 15 maximum.\\nNiv. du talent +2, jusqu'au Niv. 15 maximum.",
+        "materials": [
+            {
+                "id": "11307",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130702",
+                "num": 2
+            },
+            {
+                "id": "130704",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1307_skill.png"
+    },
+    "130704": {
+        "id": "130704",
+        "name": "Cadeau des pleurs",
+        "rank": 4,
+        "desc": "La RÉS aux effets des cibles ennemies affectées par Épiphanie est réduite de 10%, et Cygne noir récupère 8 points d'énergie au début de leur tour et lorsqu'elles sont éliminées. L'effet de régénération d'énergie ne peut se déclencher qu'une seule fois sur la durée d'Épiphanie et le nombre de déclenchements est réinitialisé lorsque l'ennemi subit à nouveau Épiphanie.",
+        "materials": [
+            {
+                "id": "11307",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1307_rank4.png"
+    },
+    "130705": {
+        "id": "130705",
+        "name": "Migration des oiseaux",
+        "rank": 5,
+        "desc": "Niv. de l'ultime +2, jusqu'au Niv. 15 maximum.\\nNiv. de l'ATQ normale +1, jusqu'au Niv. 10 maximum.",
+        "materials": [
+            {
+                "id": "11307",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130703",
+                "num": 2
+            },
+            {
+                "id": "130701",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1307_ultimate.png"
+    },
+    "130706": {
+        "id": "130706",
+        "name": "Panthéon miséricordieux des masses pitoyables",
+        "rank": 6,
+        "desc": "Lorsque des cibles ennemies sont attaquées par les alliés de Cygne noir, cette dernière a 65% de chances de base d'infliger 1 cumul d'Arcanes à la cible.\\nChaque fois que Cygne noir inflige Arcanes à une cible ennemie, il y a 50% de chances fixes d'augmenter de 1 le nombre de cumuls d'Arcanes infligés cette fois-ci.",
+        "materials": [
+            {
+                "id": "11307",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1307_rank6.png"
+    },
+    "131201": {
+        "id": "131201",
+        "name": "Rêverie insaisissable",
+        "rank": 1,
+        "desc": "Lors de l'utilisation de l'ultime, augmente de 1 le nombre de frappes par action pour chaque ennemi sur le champ de bataille, jusqu'à une augmentation maximale de 5 frappes.",
+        "materials": [
+            {
+                "id": "11312",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1312_rank1.png"
+    },
+    "131202": {
+        "id": "131202",
+        "name": "Mélancolie de la jeunesse",
+        "rank": 2,
+        "desc": "Avant chaque frappe de l'ultime, il y a 24% de chances de base de réduire la DÉF de la cible de 16% pendant 3 tours.",
+        "materials": [
+            {
+                "id": "11312",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1312_rank2.png"
+    },
+    "131203": {
+        "id": "131203",
+        "name": "Vestiges du bonheur",
+        "rank": 3,
+        "desc": "Niv. de l'ultime +2, jusqu'au Niv. 15 maximum.\\nNiv. de l'ATQ normale +1, jusqu'au Niv. 10 maximum.",
+        "materials": [
+            {
+                "id": "11312",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "131203",
+                "num": 2
+            },
+            {
+                "id": "131201",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1312_skill.png"
+    },
+    "131204": {
+        "id": "131204",
+        "name": "Présence bienveillante",
+        "rank": 4,
+        "desc": "Augmente de 6% le multiplicateur de DGT de chaque frappe de l'ultime.",
+        "materials": [
+            {
+                "id": "11312",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1312_rank4.png"
+    },
+    "131205": {
+        "id": "131205",
+        "name": "Genèse du premier amour",
+        "rank": 5,
+        "desc": "Niv. de la compétence +2, jusqu'au Niv. 15 maximum.\\nNiv. du talent +2, jusqu'au Niv. 15 maximum.",
+        "materials": [
+            {
+                "id": "11312",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "131202",
+                "num": 2
+            },
+            {
+                "id": "131204",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1312_ultimate.png"
+    },
+    "131206": {
+        "id": "131206",
+        "name": "Distanciation du rêve",
+        "rank": 6,
+        "desc": "Augmente de 30% les DGT du personnage jusqu'à la fin du tour lorsqu'il utilise son ultime. D'autre part, régénère 1 point de compétence pour l'équipe lors de la prochaine utilisation de la compétence.",
+        "materials": [
+            {
+                "id": "11312",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1312_rank6.png"
     },
     "800101": {
         "id": "800101",

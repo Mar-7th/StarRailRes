@@ -1894,7 +1894,7 @@
         "id": "111004",
         "name": "Dusk of Warm Campfire",
         "rank": 4,
-        "desc": "Saat target mendapatkan \"Survival Response\", ATK target tersebut akan meningkat sebesar ('3.0', '.1f')% Max HP Lynx selama 1 giliran.",
+        "desc": "Saat target mendapatkan \"Survival Response\", ATK target tersebut akan meningkat sebesar 3.0% Max HP Lynx selama 1 giliran.",
         "materials": [
             {
                 "id": "11110",
@@ -1931,7 +1931,7 @@
         "id": "111006",
         "name": "Dawn of Explorers' Chart",
         "rank": 6,
-        "desc": "Peningkatan Max HP dari \"Survival Response\" akan meningkat lagi sebesar ('6.00000001', '.1f')% Max HP Lynx, serta meningkatkan Effect RES sebesar 30%.",
+        "desc": "Peningkatan Max HP dari \"Survival Response\" akan meningkat lagi sebesar 6.0% Max HP Lynx, serta meningkatkan Effect RES sebesar 30%.",
         "materials": [
             {
                 "id": "11110",
@@ -3721,7 +3721,7 @@
         "id": "121702",
         "name": "Sealed in Tail, Wraith Subdued",
         "rank": 2,
-        "desc": "Saat Huohuo memiliki \"Divine Provision\", jika rekan yang ditarget terkena serangan mematikan, rekan tersebut tidak akan gugur dan HP dia akan segera dipulihkan sebesar 50% Max HP rekan tersebut. Hal ini akan mengurangi durasi \"Divine Provision\" sebanyak 1 giliran. Efek ini dapat terpicu 2 kali dalam satu pertempuran.",
+        "desc": "Saat Huohuo memiliki \"Divine Provision\", jika rekan tim terkena serangan mematikan, rekan tersebut tidak akan gugur dan HP-nya akan segera dipulihkan sebesar 50% Max HP rekan tersebut. Hal ini akan mengurangi durasi \"Divine Provision\" sebanyak 1 giliran. Efek ini dapat terpicu 2 kali dalam 1 pertempuran.",
         "materials": [
             {
                 "id": "11217",
@@ -4114,6 +4114,312 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1305_rank6.png"
+    },
+    "130601": {
+        "id": "130601",
+        "name": "Suspension of Disbelief",
+        "rank": 1,
+        "desc": "Durasi \"Cipher\" yang diberikan oleh Ultimate bertambah ekstra 1 giliran. Rekan tim yang memiliki \"Cipher\" akan mengalami peningkatan 40% ATK.",
+        "materials": [
+            {
+                "id": "11306",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1306_rank1.png"
+    },
+    "130602": {
+        "id": "130602",
+        "name": "Purely Fictitious",
+        "rank": 2,
+        "desc": "Setiap lapis efek Talent akan membuat rekan tim mengabaikan 8% DEF target saat mengakibatkan DMG pada musuh.",
+        "materials": [
+            {
+                "id": "11306",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1306_rank2.png"
+    },
+    "130603": {
+        "id": "130603",
+        "name": "Pipedream",
+        "rank": 3,
+        "desc": "Level Skill +2, maksimal Lv. 15. Level Basic Attack +1, maksimal Lv. 10.",
+        "materials": [
+            {
+                "id": "11306",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130602",
+                "num": 2
+            },
+            {
+                "id": "130601",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1306_skill.png"
+    },
+    "130604": {
+        "id": "130604",
+        "name": "Life Is a Gamble",
+        "rank": 4,
+        "desc": "Ultimate dapat memulihkan ekstra 1 Poin Skill. Efek peningkatan batas maksimum Poin Skill dari Talent bertambah 1.",
+        "materials": [
+            {
+                "id": "11306",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1306_rank4.png"
+    },
+    "130605": {
+        "id": "130605",
+        "name": "Parallax Truth",
+        "rank": 5,
+        "desc": "Level Ultimate +2, maksimal Lv. 15. Level Talent +2, maksimal Lv. 15.",
+        "materials": [
+            {
+                "id": "11306",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130603",
+                "num": 2
+            },
+            {
+                "id": "130604",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1306_ultimate.png"
+    },
+    "130606": {
+        "id": "130606",
+        "name": "Narrative Polysemy",
+        "rank": 6,
+        "desc": "Efek peningkatan CRIT DMG dari Skill Sparkle meningkat ekstra, peningkatannya sebesar 30% CRIT DMG Sparkle, dan saat Sparkle melancarkan Skill-nya, efek peningkatan CRIT DMG akan efektif untuk seluruh rekan yang memiliki efek \"Cipher\". Saat Sparkle melancarkan Ultimate, jika terdapat rekan tim yang memiliki efek peningkatan CRIT DMG dari Skill Sparkle, maka efek tersebut akan menyebar ke seluruh rekan yang memiliki efek \"Cipher\".",
+        "materials": [
+            {
+                "id": "11306",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1306_rank6.png"
+    },
+    "130701": {
+        "id": "130701",
+        "name": "Seven Pillars of Wisdom",
+        "rank": 1,
+        "desc": "Saat Black Swan berada dalam kondisi siap bertempur (tidak gugur), target musuh yang berstatus Wind Shear/Bleed/Burn/Shock akan mengalami pengurangan 25% RES Tipe terkait (Wind/Physical/Fire/Lightning RES sesuai urutan dengan jenis status di atas).",
+        "materials": [
+            {
+                "id": "11307",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1307_rank1.png"
+    },
+    "130702": {
+        "id": "130702",
+        "name": "Weep Not For Me, My Lamb",
+        "rank": 2,
+        "desc": "Saat target musuh berstatus \"Arcana\" dikalahkan, ada 100% Peluang Dasar untuk membuat musuh di sekitar target memasuki 6 lapis \"Arcana\".",
+        "materials": [
+            {
+                "id": "11307",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1307_rank2.png"
+    },
+    "130703": {
+        "id": "130703",
+        "name": "As Above, So Below",
+        "rank": 3,
+        "desc": "Level Skill +2, maksimal Lv. 15. Level Talent +2, maksimal Lv. 15.",
+        "materials": [
+            {
+                "id": "11307",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130702",
+                "num": 2
+            },
+            {
+                "id": "130704",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1307_skill.png"
+    },
+    "130704": {
+        "id": "130704",
+        "name": "In Tears We Gift",
+        "rank": 4,
+        "desc": "Saat berstatus \"Epiphany\", Effect RES target musuh akan berkurang 10%, dan Black Swan akan memulihkan 8 Energy setiap saat giliran target dimulai atau saat target dikalahkan. Efek pemulihan Energy ini maksimal terpicu 1 kali selama durasi \"Epiphany\" berlangsung. Saat target memasuki ulang status \"Epiphany\", jumlah batas terpicu akan di-refresh.",
+        "materials": [
+            {
+                "id": "11307",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1307_rank4.png"
+    },
+    "130705": {
+        "id": "130705",
+        "name": "Linnutee Flyway",
+        "rank": 5,
+        "desc": "Level Ultimate +2, maksimal Lv. 15. Level Basic Attack +1, maksimal Lv. 10.",
+        "materials": [
+            {
+                "id": "11307",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130703",
+                "num": 2
+            },
+            {
+                "id": "130701",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1307_ultimate.png"
+    },
+    "130706": {
+        "id": "130706",
+        "name": "Pantheon Merciful, Masses Pitiful",
+        "rank": 6,
+        "desc": "Saat target musuh menerima serangan dari rekan tim Black Swan, Black Swan memiliki 65% Peluang Dasar untuk membuat target tersebut memasuki 1 lapis \"Arcana\".\\nSetiap kali saat Black Swan membuat target musuh memasuki status \"Arcana\", ada 50% Peluang Tetap untuk membuat jumlah lapisan \"Arcana\" yang ditambahkan pada kali ini bertambah ekstra 1 lapis.",
+        "materials": [
+            {
+                "id": "11307",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1307_rank6.png"
+    },
+    "131201": {
+        "id": "131201",
+        "name": "Whimsicality of Fancy",
+        "rank": 1,
+        "desc": "Saat melancarkan Ultimate, untuk setiap 1 target musuh yang ada di medan pertempuran, akan menambah ekstra 1 Hit untuk Hits Per Action dari Ultimate kali ini, maksimal hingga ekstra 5 Hit.",
+        "materials": [
+            {
+                "id": "11312",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1312_rank1.png"
+    },
+    "131202": {
+        "id": "131202",
+        "name": "Yearning of Youth",
+        "rank": 2,
+        "desc": "Sebelum setiap Hit dari Ultimate mengenai target, memiliki 24% Peluang Dasar untuk mengurangi 16% DEF target selama 3 giliran.",
+        "materials": [
+            {
+                "id": "11312",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1312_rank2.png"
+    },
+    "131203": {
+        "id": "131203",
+        "name": "Vestige of Happiness",
+        "rank": 3,
+        "desc": "Level Ultimate +2, maksimal Lv. 15. Level Basic Attack +1, maksimal Lv. 10.",
+        "materials": [
+            {
+                "id": "11312",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "131203",
+                "num": 2
+            },
+            {
+                "id": "131201",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1312_skill.png"
+    },
+    "131204": {
+        "id": "131204",
+        "name": "Visage of Kinship",
+        "rank": 4,
+        "desc": "Meningkatkan 6% DMG Multiplier dari setiap Hit Ultimate.",
+        "materials": [
+            {
+                "id": "11312",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1312_rank4.png"
+    },
+    "131205": {
+        "id": "131205",
+        "name": "Genesis of First Love",
+        "rank": 5,
+        "desc": "Level Skill +2, maksimal Lv. 15. Level Talent +2, maksimal Lv. 15.",
+        "materials": [
+            {
+                "id": "11312",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "131202",
+                "num": 2
+            },
+            {
+                "id": "131204",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1312_ultimate.png"
+    },
+    "131206": {
+        "id": "131206",
+        "name": "Estrangement of Dream",
+        "rank": 6,
+        "desc": "Saat melancarkan Ultimate, meningkatkan 30% DMG yang diakibatkan diri sendiri hingga giliran berakhir. Dan pada pelancaran Skill Misha yang berikutnya, akan memulihkan 1 Poin Skill untuk rekan tim.",
+        "materials": [
+            {
+                "id": "11312",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1312_rank6.png"
     },
     "800101": {
         "id": "800101",

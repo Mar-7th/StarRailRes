@@ -192,7 +192,7 @@
     "20005": {
         "id": "20005",
         "skill": "Concerted",
-        "desc": "Setelah memasuki pertempuran, meningkatkan #1[i]% ATK seluruh rekan tim. Efek dari jenis skill yang sama tidak dapat ditumpuk.",
+        "desc": "Setelah memasuki pertempuran, meningkatkan #1[i]% ATK seluruh rekan tim. Efek dari jenis Kemampuan yang sama tidak dapat ditumpuk.",
         "params": [
             [
                 0.08
@@ -779,7 +779,7 @@
     "21002": {
         "id": "21002",
         "skill": "At This Very Moment",
-        "desc": "Meningkatkan #1[i]% DEF pengguna. Setelah memasuki pertempuran, meningkatkan #2[i]% RES seluruh tipe seluruh rekan tim. Skill yang serupa efeknya tidak dapat ditumpuk.",
+        "desc": "Meningkatkan #1[i]% DEF pengguna. Setelah memasuki pertempuran, meningkatkan #2[i]% RES seluruh tipe seluruh rekan tim. Kemampuan yang serupa efeknya tidak dapat ditumpuk.",
         "params": [
             [
                 0.16,
@@ -2351,6 +2351,458 @@
             [],
             [],
             []
+        ]
+    },
+    "21035": {
+        "id": "21035",
+        "skill": "Hypothesis",
+        "desc": "Meningkatkan #1[i]% Break Effect pengguna. Setelah melancarkan Basic Attack, pengguna akan memulihkan HP diri sendiri sebesar #2[f1]% Max HP + #3[i].",
+        "params": [
+            [
+                0.24,
+                0.02,
+                800
+            ],
+            [
+                0.3,
+                0.025,
+                800
+            ],
+            [
+                0.36,
+                0.03,
+                800
+            ],
+            [
+                0.42,
+                0.035,
+                800
+            ],
+            [
+                0.48,
+                0.04,
+                800
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.24
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.3
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.36
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.42
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.48
+                }
+            ]
+        ]
+    },
+    "21036": {
+        "id": "21036",
+        "skill": "Solidarity",
+        "desc": "Setelah pengguna melancarkan salah satu jenis Kemampuan antara Basic Attack, Skill, atau Ultimate, akan menambahkan efek \"Childishness\" pada seluruh rekan tim. \"Childishness\" akan meningkatkan #1[i]% DMG yang diakibatkan dari jenis Kemampuan yang sama. \"Childishness\" hanya akan efektif pada jenis Kemampuan terakhir yang digunakan oleh pengguna, efek ini tidak dapat ditumpuk.",
+        "params": [
+            [
+                0.12
+            ],
+            [
+                0.14
+            ],
+            [
+                0.16
+            ],
+            [
+                0.18
+            ],
+            [
+                0.2
+            ]
+        ],
+        "properties": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    "21037": {
+        "id": "21037",
+        "skill": "All In",
+        "desc": "Meningkatkan #1[i]% ATK pengguna. Saat setelah pengguna mengakibatkan CRIT HIT pada target musuh, akan memperoleh 1 lapis \"Good Fortune\", maksimal dapat ditumpuk hingga #3[i] lapis. Setiap lapis \"Good Fortune\" akan meningkatkan #2[i]% CRIT DMG pengguna. \"Good Fortune\" akan dihapus saat giliran pengguna berakhir.",
+        "params": [
+            [
+                0.12,
+                0.08,
+                4
+            ],
+            [
+                0.14,
+                0.09,
+                4
+            ],
+            [
+                0.16,
+                0.1,
+                4
+            ],
+            [
+                0.18,
+                0.11,
+                4
+            ],
+            [
+                0.2,
+                0.12,
+                4
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.12
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.14
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.16
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.18
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.2
+                }
+            ]
+        ]
+    },
+    "21038": {
+        "id": "21038",
+        "skill": "Deflagration",
+        "desc": "Saat pengguna kehilangan HP sebesar lebih dari #1[i]% Max HP dirinya dalam 1 serangan yang diterimanya, atau ketika mengonsumsi HP diri lebih dari #1[i]% Max HP dirinya, maka akan segera memulihkan HP dirinya sebesar #3[i]% Max HP pengguna serta meningkatkan #2[i]% DMG yang diakibatkan pengguna selama #4[i] giliran. Efek ini hanya dapat terpicu 1 kali setiap #5[i] giliran.",
+        "params": [
+            [
+                0.25,
+                0.25,
+                0.15,
+                2,
+                3
+            ],
+            [
+                0.25,
+                0.3125,
+                0.15,
+                2,
+                3
+            ],
+            [
+                0.25,
+                0.375,
+                0.15,
+                2,
+                3
+            ],
+            [
+                0.25,
+                0.4375,
+                0.15,
+                2,
+                3
+            ],
+            [
+                0.25,
+                0.5,
+                0.15,
+                2,
+                3
+            ]
+        ],
+        "properties": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    "21039": {
+        "id": "21039",
+        "skill": "Insight",
+        "desc": "Meningkatkan #1[i]% Effect RES pengguna. Untuk setiap #2[i] DEF yang dimiliki pengguna, DMG yang diakibatkan pengguna akan meningkat #3[f1]%, maksimal meningkat hingga #4[i]%.",
+        "params": [
+            [
+                0.12,
+                100,
+                0.008,
+                0.32
+            ],
+            [
+                0.14,
+                100,
+                0.009,
+                0.36
+            ],
+            [
+                0.16,
+                100,
+                0.01,
+                0.4
+            ],
+            [
+                0.18,
+                100,
+                0.011,
+                0.44
+            ],
+            [
+                0.2,
+                100,
+                0.012,
+                0.48
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "StatusResistanceBase",
+                    "value": 0.12
+                }
+            ],
+            [
+                {
+                    "type": "StatusResistanceBase",
+                    "value": 0.14
+                }
+            ],
+            [
+                {
+                    "type": "StatusResistanceBase",
+                    "value": 0.16
+                }
+            ],
+            [
+                {
+                    "type": "StatusResistanceBase",
+                    "value": 0.18
+                }
+            ],
+            [
+                {
+                    "type": "StatusResistanceBase",
+                    "value": 0.2
+                }
+            ]
+        ]
+    },
+    "21040": {
+        "id": "21040",
+        "skill": "Stratagem",
+        "desc": "Meningkatkan #1[i]% ATK pengguna. Setelah pengguna melancarkan serangan, jika jumlah target musuh yang terkena serangan (yang memiliki Tipe Weakness yang sama dengan Tipe Serangan pengguna) tidak kurang dari 2 musuh, maka CRIT DMG pengguna meningkat #2[i]% selama #3[i] giliran.",
+        "params": [
+            [
+                0.16,
+                0.2,
+                2
+            ],
+            [
+                0.18,
+                0.25,
+                2
+            ],
+            [
+                0.2,
+                0.3,
+                2
+            ],
+            [
+                0.22,
+                0.35,
+                2
+            ],
+            [
+                0.24,
+                0.4,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.16
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.18
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.2
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.22
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.24
+                }
+            ]
+        ]
+    },
+    "21041": {
+        "id": "21041",
+        "skill": "Self-Amusement",
+        "desc": "Setelah pengguna menambahkan status Debuff pada target musuh, pengguna akan memperoleh 1 lapis \"Trick\". Setiap lapis \"Trick\" meningkatkan #1[i]% DMG yang diakibatkan pengguna, maksimal #2[i] lapis, dan berlangsung selama #3[i] giliran. Saat Effect Hit Rate pengguna lebih dari atau sama dengan #4[i]%, ATK akan meningkat #5[i]%.",
+        "params": [
+            [
+                0.06,
+                3,
+                1,
+                0.8,
+                0.2
+            ],
+            [
+                0.07,
+                3,
+                1,
+                0.8,
+                0.24
+            ],
+            [
+                0.08,
+                3,
+                1,
+                0.8,
+                0.28
+            ],
+            [
+                0.09,
+                3,
+                1,
+                0.8,
+                0.32
+            ],
+            [
+                0.1,
+                3,
+                1,
+                0.8,
+                0.36
+            ]
+        ],
+        "properties": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    "21042": {
+        "id": "21042",
+        "skill": "Inheritance",
+        "desc": "Meningkatkan #1[i]% Break Effect pengguna. Saat pengguna melancarkan Ultimate, CRIT Rate meningkat #2[i]%, berlangsung selama #3[i] giliran.",
+        "params": [
+            [
+                0.28,
+                0.15,
+                2
+            ],
+            [
+                0.35,
+                0.1875,
+                2
+            ],
+            [
+                0.42,
+                0.225,
+                2
+            ],
+            [
+                0.49,
+                0.2625,
+                2
+            ],
+            [
+                0.56,
+                0.3,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.28
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.35
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.42
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.49
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.56
+                }
+            ]
         ]
     },
     "22000": {
@@ -3951,6 +4403,154 @@
                 {
                     "type": "CriticalDamageBase",
                     "value": 0.32
+                }
+            ]
+        ]
+    },
+    "23021": {
+        "id": "23021",
+        "skill": "Capriciousness",
+        "desc": "Meningkatkan #1[i]% CRIT DMG pengguna. Saat pertempuran dimulai, pengguna akan memperoleh \"Mask\" selama #6[i] giliran. Saat pengguna memiliki \"Mask\", akan meningkatkan #5[i]% CRIT Rate dan #2[i]% CRIT DMG rekan tim dari pengguna. Untuk setiap 1 Poin Skill yang dipulihkan pengguna, akan memperoleh 1 lapis \"Radiant Flame\" (Poin Skill yang melebihi batas juga akan masuk dalam penghitungan). Setelah jumlah \"Radiant Flame\" mencapai #4[i] lapis, semua \"Radiant Flame\" akan dihapus dan pengguna akan memperoleh \"Mask\" selama #3[i] giliran.",
+        "params": [
+            [
+                0.32,
+                0.28,
+                4,
+                4,
+                0.1,
+                3
+            ],
+            [
+                0.39,
+                0.35,
+                4,
+                4,
+                0.11,
+                3
+            ],
+            [
+                0.46,
+                0.42,
+                4,
+                4,
+                0.12,
+                3
+            ],
+            [
+                0.53,
+                0.49,
+                4,
+                4,
+                0.13,
+                3
+            ],
+            [
+                0.6,
+                0.56,
+                4,
+                4,
+                0.14,
+                3
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.32
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.39
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.46
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.53
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.6
+                }
+            ]
+        ]
+    },
+    "23022": {
+        "id": "23022",
+        "skill": "Crystallize",
+        "desc": "Meningkatkan #1[i]% Effect Hit Rate pengguna. Saat pengguna mengakibatkan DMG pada target musuh yang berstatus Wind Shear/Burn/Shock/Bleed, pengguna akan memperoleh masing-masing 1 lapis \"Prophet\" dari setiap jenis status prasyarat tersebut yang ada pada target, dapat ditumpuk hingga #4[i] lapis. Dalam 1 pertempuran, setiap jenis status DoT hanya dapat menciptakan 1 lapis efek \"Prophet\". Setiap lapisan \"Prophet\" akan meningkatkan #2[i]% ATK pengguna, dan DoT yang diakibatkan pengguna akan mengabaikan #3[f1]% DEF target.",
+        "params": [
+            [
+                0.4,
+                0.05,
+                0.072,
+                4
+            ],
+            [
+                0.45,
+                0.06,
+                0.079,
+                4
+            ],
+            [
+                0.5,
+                0.07,
+                0.086,
+                4
+            ],
+            [
+                0.55,
+                0.08,
+                0.093,
+                4
+            ],
+            [
+                0.6,
+                0.09,
+                0.1,
+                4
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.4
+                }
+            ],
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.45
+                }
+            ],
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.5
+                }
+            ],
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.55
+                }
+            ],
+            [
+                {
+                    "type": "StatusProbabilityBase",
+                    "value": 0.6
                 }
             ]
         ]
