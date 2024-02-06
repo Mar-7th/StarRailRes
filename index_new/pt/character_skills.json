@@ -14650,7 +14650,7 @@
         "effect": "Support",
         "effect_text": "Suporte",
         "simple_desc": "Aumenta o Dano CRIT de um aliado e sua ação é Avançada Adiante.",
-        "desc": "Aumenta o Dano CRIT de um único aliado em #1[f1]% do Dano CRIT de Sparkle + #2[f1]%, durando por #3[i] rodada(s). E ao mesmo tempo Avança Adiante a ação deste aliado em #4[i]%.\nQuando Sparkle usa essa habilidade em si, sua ação não será Avançada Adiante.",
+        "desc": "Aumenta o Dano CRIT de um único aliado-alvo em #1[f1]% do Dano CRIT de Sparkle + #2[f1]%, durando por #3[i] rodada(s). E ao mesmo tempo, Avança Adiante a ação deste aliado em #4[i]%.\nQuando Sparkle usa essa habilidade em si, sua ação não será Avançada Adiante.",
         "params": [
             [
                 0.12,
@@ -14754,8 +14754,8 @@
         "type_text": "Perícia Suprema",
         "effect": "Support",
         "effect_text": "Suporte",
-        "simple_desc": "Recupera Pontos de Perícia para os aliados e permite que o Bônus de Dano provido pelo Talento de Sparkle seja adicionalmente aprimorado.",
-        "desc": "Recupera #2[i] Pontos de Perícia para a equipe e concede Criptografia a todos os aliados. Quando aliados com Criptografia ativam o efeito de Bônus de Dano concedido pelo Talento de Sparkle, cada acúmulo aumenta adicionalmente seu efeito em #3[f1]%, durando por #4[i] rodadas.",
+        "simple_desc": "Recupera Pontos de Perícia para a equipe e habilita que o Bônus de Dano provido pelo Talento de Sparkle seja adicionalmente aprimorado.",
+        "desc": "Recupera #2[i] Pontos de Perícia para a equipe e concede Criptografia a todos os aliados. Para aliados com Criptografia, cada acúmulo do efeito de Bônus de Dano concedido pelo Talento de Sparkle aumenta adicionalmente em #3[f1]%, durando por #4[i] rodada(s).",
         "params": [
             [
                 2,
@@ -14860,7 +14860,7 @@
         "effect": "Support",
         "effect_text": "Suporte",
         "simple_desc": "Aumenta o máximo de Pontos de Perícia da equipe. Sempre que um aliado consome Pontos de Perícia, permite que todos os aliados causem mais Dano.",
-        "desc": "Enquanto Sparkle estiver no campo de batalha, aumenta adicionalmente o número máximo de Pontos de Perícia em #3[i]. Sempre que um aliado consome 1 Ponto de Perícia, o Dano de todos os aliados será aumentado em #2[f1]%. Este efeito dura por #1[i] rodada(s) e pode ser acumulado até #4[i] veze(s).",
+        "desc": "Enquanto Sparkle estiver no campo de batalha, aumenta adicionalmente o número máximo de Pontos de Perícia em #3[i]. Sempre que um aliado consome 1 Ponto de Perícia, o Dano causado por todos os aliados será aumentado em #2[f1]%. Este efeito dura por #1[i] rodada(s) e pode ser acumulado até #4[i] veze(s).",
         "params": [
             [
                 2,
@@ -14997,8 +14997,8 @@
         "type_text": "ATQ Básico",
         "effect": "SingleAttack",
         "effect_text": "Alvo Único",
-        "simple_desc": "Causa Dano de Vento leve a um único inimigo e tem uma chance de aplicar Arcana ao alvo. Depois que o alvo for afligido com Cisalhamento de Vento, Sangramento, Queimadura ou Choque, cada um desses efeitos possui uma chance respectiva de aplicar Arcana adicionalmente.",
-        "desc": "Causa Dano de Vento igual a #1[i]% do ATQ de Cisne Negro a um único inimigo-alvo, com uma chance-base de #2[i]% de infligir 1 acúmulo de Arcana. Caso o inimigo-alvo esteja atualmente afligido com Cisalhamento de Vento, Sangramento, Queimadura ou Choque, cada efeito possui uma chance-base de #3[i]% de aplicar adicionalmente 1 acúmulo de Arcana no inimigo.",
+        "simple_desc": "Causa Dano de Vento leve a um único inimigo e tem uma chance de aplicar Arcana ao alvo. Depois de atacar um alvo afligido com Cisalhamento de Vento, Sangramento, Queimadura ou Choque, existe uma chance respectiva de aplicar Arcana adicionalmente.",
+        "desc": "Causa Dano de Vento igual a #1[i]% do ATQ de Cisne Negro a um único inimigo-alvo, com uma chance-base de #2[i]% de infligir 1 acúmulo de Arcana ao alvo. Adicionalmente, ao atacar um alvo afligido com Cisalhamento de Vento, Sangramento, Queimadura ou Choque, existe respectivamente uma chance-base de #3[i]% de aplicar 1 acúmulo extra de Arcana no inimigo.",
         "params": [
             [
                 0.3,
@@ -15057,8 +15057,8 @@
         "type_text": "Perícia",
         "effect": "Blast",
         "effect_text": "Explosão",
-        "simple_desc": "Causa Dano de Vento leve a um único inimigo-alvo e a quaisquer alvos adjacentes, com uma alta chance de infligir Arcana e reduzir a DEF dos alvos.",
-        "desc": "Causa Dano de Vento igual a #1[i]% do ATQ de Cisne Negro a um único inimigo-alvo e a quaisquer alvos adjacentes. Ao mesmo tempo, há uma chance-base de #2[i]% de infligir 1 acúmulo de Arcana no inimigo-alvo e nos alvos adjacentes. E ainda há uma chance-base de #3[i]% de reduzir a DEF do inimigo-alvo e alvos adjacentes em #4[f1]%, durando por #5[i] rodada(s).",
+        "simple_desc": "Causa Dano de Vento leve a um único inimigo-alvo e a quaisquer alvos adjacentes, com uma alta chance de infligir Arcana nos alvos e reduzir a DEF deles.",
+        "desc": "Causa Dano de Vento igual a #1[i]% do ATQ de Cisne Negro a um único inimigo-alvo e a quaisquer alvos adjacentes. Ao mesmo tempo, há uma chance-base de #2[i]% de infligir 1 acúmulo de Arcana no inimigo-alvo e nos alvos adjacentes. Adicionalmente, ainda há uma chance-base de #3[i]% de reduzir a DEF do inimigo-alvo e alvos adjacentes em #4[f1]%, durando por #5[i] rodada(s).",
         "params": [
             [
                 0.45,
@@ -15177,8 +15177,8 @@
         "type_text": "Perícia Suprema",
         "effect": "AoEAttack",
         "effect_text": "Área",
-        "simple_desc": "Inflige Epifania em todos os inimigos. Os inimigos afetados tomam mais Dano em suas rodadas, e seu efeito de Arcana é levado como efeito de Cisalhamento de Vento, Sangramento, Queimadura e Choque. Além disso, quando seu efeito de Arcana é ativado no início da próxima rodada, os acúmulos de Arcana não são redefinidos. Causa Dano de Vento a todos os inimigos.",
-        "desc": "Inflige Epifania em todos os inimigos por #2[i] rodada(s).\nOs inimigos afetados por Epifania recebem #3[i]% a mais de Dano em suas rodadas, e seu efeito de Arcana é levado em conta como efeito de Cisalhamento de Vento, Sangramento, Queimadura e Choque. Além disso, quando seu efeito de Arcana é acionado no início da próxima rodada, os acúmulos de Arcana não são redefinidos. O efeito de não-redefinição de acúmulos pode ser acionado até #4[i] vez(es) durante o período da Epifania, e suas cargas são preenchidas quando a Epifania é aplicada novamente.\nCausa Dano de Vento igual a #1[i]% do ATQ da Cisne Negro em todos os inimigos.",
+        "simple_desc": "Inflige Epifania em todos os inimigos, aumentando o Dano que os alvos recebem em suas rodadas. Adicionalmente, possuir Arcana é considerado como possuir Cisalhamento de Vento, Sangramento, Queimadura ou Choque. Além disso, os acúmulos de Arcana não serão redefinidos depois de causar Dano no início da próxima rodada. Causa Dano de Vento a todos os inimigos.",
+        "desc": "Inflige Epifania em todos os inimigos por #2[i] rodada(s).\nEnquanto estiverem afligidos com Epifania, inimigos recebem #3[i]% de Dano aumentado em suas rodadas. Adicionalmente, se os inimigos também estiverem afligidos com Arcana, simultaneamente, considera-se que eles estão afligidos com Cisalhamento de Vento, Sangramento, Queimadura e Choque. Depois que Arcana causa Dano no início de cada rodada, seus acúmulos não são redefinidos. Este efeito de não redefinição dos acúmulos de Arcana é ativado até #4[i] vez(es) pela duração de Epifania. E a contagem de ativação é redefinida quando Epifania é aplicada novamente.\nCausa Dano de Vento igual a #1[i]% do ATQ de Cisne Negro a todos os inimigos.",
         "params": [
             [
                 0.72,
@@ -15283,7 +15283,7 @@
         "effect": "Impair",
         "effect_text": "Incapacitação",
         "simple_desc": "Quando um inimigo-alvo recebe Dano Contínuo no início de cada rodada, há uma chance de ele ser afligido com Arcana. Ele recebe Dano de Vento Contínuo no início da rodada e Cisne Negro ativa efeitos adicionais com base no número de acúmulos de Arcana.",
-        "desc": "Cada vez que um inimigo recebe Dano Contínuo no início de cada rodada, há uma chance-base de #2[i]% dele ser afligido com Arcana.\nEnquanto estiver sob efeito de Arcana, inimigos-alvo recebem Dano de Vento Contínuo igual a #1[i]% do ATQ de Cisne Negro no início de cada rodada. Cada acúmulo de Arcana aumenta este multiplicador de Dano Contínuo em #3[f1]%. Então, Arcana é redefinido para 1 acúmulo. Arcana pode acumular até #8[i] vezes.\nApenas quando Arcana causa Dano no início da rodada do inimigo-alvo, Cisne Negro ativa efeitos adicionais com base no número de acúmulos de Arcana infligidos no alvo:\nAo ter #4[i] ou mais acúmulos de Arcana, causa Dano de Vento Contínuo igual a #5[i]% do ATQ de Cisne Negro aos alvos adjacentes, com uma chance-base de #2[i]% de infligir 1 acúmulo de Arcana em alvos adjacentes.\nQuando tiver #6[i] ou mais acúmulos de Arcana, permite que o Dano Contínuo atual causado dessa vez ignore #7[i]% da DEF do alvo e alvos adjacentes.",
+        "desc": "Cada vez que um inimigo recebe Dano Contínuo no início de cada rodada, há uma chance-base de #2[i]% dele ser afligido com  1 acúmulo de Arcana.\nEnquanto estiver sob efeito de Arcana, inimigos-alvo recebem Dano de Vento Contínuo igual a #1[i]% do ATQ de Cisne Negro no início de cada rodada. Cada acúmulo de Arcana aumenta este multiplicador de Dano em #3[f1]%. Então, Arcana é redefinido para 1 acúmulo. Arcana pode acumular até #8[i] vezes.\nApenas quando Arcana causa Dano no início da rodada de um inimigo-alvo, Cisne Negro ativa efeitos adicionais com base no número de acúmulos de Arcana infligidos no alvo:\nAo ter #4[i] ou mais acúmulos de Arcana, causa Dano de Vento Contínuo igual a #5[i]% do ATQ de Cisne Negro aos alvos adjacentes, com uma chance-base de #2[i]% de infligir 1 acúmulo de Arcana em alvos adjacentes.\nQuando tiver #6[i] ou mais acúmulos de Arcana, permite que o Dano Contínuo atual causado dessa vez ignore #7[i]% da DEF do alvo e alvos adjacentes.",
         "params": [
             [
                 0.96,
@@ -15515,7 +15515,7 @@
     },
     "131202": {
         "id": "131202",
-        "name": "S-Serviço de Quarto",
+        "name": "S-Serviço de Quarto!",
         "max_level": 15,
         "element": "Ice",
         "type": "BPSkill",
@@ -15732,8 +15732,8 @@
         "type_text": "Talento",
         "effect": "Enhance",
         "effect_text": "Aprimoramento",
-        "simple_desc": "Sempre que algum aliado consumir 1 Ponto de Perícia, a próxima Perícia Suprema de Misha desfere mais Golpes por Ação e Misha regenera sua Energia.",
-        "desc": "Sempre que um aliado consumir um Ponto de Perícia, a próxima Perícia Suprema de Misha desfere #2[i] Golpe(s) por Ação a mais e Misha regenera #1[f1] de Energia.",
+        "simple_desc": "Sempre aliados consumirem 1 Ponto de Perícia, a próxima Perícia Suprema de Misha desfere mais Golpes por Ação e Misha regenera sua Energia.",
+        "desc": "Para cada 1 Ponto de Perícia consumido por um aliado, a próxima Perícia Suprema de Misha desfere #2[i] Golpe(s) por Ação a mais e Misha regenera #1[f1] de Energia.",
         "params": [
             [
                 1,

@@ -14650,7 +14650,7 @@
         "effect": "Support",
         "effect_text": "Support",
         "simple_desc": "Increases an ally's CRIT DMG and Advances Forward their action.",
-        "desc": "Increases the CRIT DMG of a single ally by #1[f1]% of Sparkle's CRIT DMG plus #2[f1]%, lasting for #3[i] turn(s). And at the same time, Advances Forward this ally's action by #4[i]%.\nWhen Sparkle uses this ability on herself, the Action Advance effect will not trigger.",
+        "desc": "Increases the CRIT DMG of a single target ally by #1[f1]% of Sparkle's CRIT DMG plus #2[f1]%, lasting for #3[i] turn(s). And at the same time, Advances Forward this ally's action by #4[i]%.\nWhen Sparkle uses this ability on herself, the Action Advance effect will not trigger.",
         "params": [
             [
                 0.12,
@@ -14754,8 +14754,8 @@
         "type_text": "Ultimate",
         "effect": "Support",
         "effect_text": "Support",
-        "simple_desc": "Recovers Skill Points for allies, and enables the DMG Boost provided by Sparkle's Talent to be additionally enhanced.",
-        "desc": "Recovers #2[i] Skill Points for the team and grants all allies Cipher. When allies with Cipher trigger the DMG Boost effect provided by Sparkle's Talent, each stack additionally increases its effect by #3[f1]%, lasting for #4[i] turns.",
+        "simple_desc": "Recovers Skill Points for the team, and enables the DMG Boost provided by Sparkle's Talent to be additionally enhanced.",
+        "desc": "Recovers #2[i] Skill Points for the team and grants all allies Cipher. For allies with Cipher, each stack of the DMG Boost effect provided by Sparkle's Talent additionally increases by #3[f1]%, lasting for #4[i] turns.",
         "params": [
             [
                 2,
@@ -14860,7 +14860,7 @@
         "effect": "Support",
         "effect_text": "Support",
         "simple_desc": "Increases the team's Max Skill Points. Whenever an ally consumes Skill Points, enables all allies to deal more damage.",
-        "desc": "While Sparkle is on the battlefield, additionally increases the max number of Skill Points by #3[i]. Whenever an ally consumes 1 Skill Point, all allies' DMG increases by #2[f1]%. This effect lasts for #1[i] turn(s) and can stack up to #4[i] time(s).",
+        "desc": "While Sparkle is on the battlefield, additionally increases the max number of Skill Points by #3[i]. Whenever an ally consumes 1 Skill Point, all allies' DMG dealt increases by #2[f1]%. This effect lasts for #1[i] turn(s) and can stack up to #4[i] time(s).",
         "params": [
             [
                 2,
@@ -14997,8 +14997,8 @@
         "type_text": "Basic ATK",
         "effect": "SingleAttack",
         "effect_text": "Single Target",
-        "simple_desc": "Deals minor Wind DMG to a single enemy and has a chance of applying Arcana to the target. After targets are inflicted with Wind Shear, Bleed, Burn, or Shock, each respectively has a chance of additionally applying Arcana.",
-        "desc": "Deals Wind DMG equal to #1[i]% of Black Swan's ATK to a single target enemy, with a #2[i]% base chance of inflicting 1 stack of Arcana. And if the hit target currently has Wind Shear, Bleed, Burn, or Shock applied to them, each respectively has a #3[i]% base chance of inflicting 1 extra stack of Arcana onto the enemy.",
+        "simple_desc": "Deals minor Wind DMG to a single enemy and has a chance of applying Arcana to the target. After attacking a target that suffers Wind Shear, Bleed, Burn, or Shock, there is respectively a chance of additionally applying Arcana.",
+        "desc": "Deals Wind DMG equal to #1[i]% of Black Swan's ATK to a single target enemy, with a #2[i]% base chance of inflicting 1 stack of Arcana on the target. Additionally, when attacking a target that suffers Wind Shear, Bleed, Burn, or Shock, there is respectively a #3[i]% base chance of inflicting 1 extra stack of Arcana on the target.",
         "params": [
             [
                 0.3,
@@ -15057,8 +15057,8 @@
         "type_text": "Skill",
         "effect": "Blast",
         "effect_text": "Blast",
-        "simple_desc": "Deals minor Wind DMG to a single enemy target and any adjacent targets, with a high chance of inflicting Arcana and lowering the targets' DEF.",
-        "desc": "Deals Wind DMG equal to #1[i]% of Black Swan's ATK to a single target enemy and any adjacent targets. At the same time, there is a #2[i]% base chance of inflicting 1 stack of Arcana on the target enemy and the adjacent targets. And there is a #3[i]% base chance of reducing the DEF of the target enemy and the adjacent targets by #4[f1]%, lasting for #5[i] turn(s).",
+        "simple_desc": "Deals minor Wind DMG to a single enemy target and any adjacent targets, with a high chance of inflicting Arcana on the targets and lowering their DEF.",
+        "desc": "Deals Wind DMG equal to #1[i]% of Black Swan's ATK to a single target enemy and any adjacent targets. At the same time, there is a #2[i]% base chance of inflicting 1 stack of Arcana on the target enemy and the adjacent targets. Additionally, there is a #3[i]% base chance of reducing the DEF of the target enemy and the adjacent targets by #4[f1]%, lasting for #5[i] turn(s).",
         "params": [
             [
                 0.45,
@@ -15177,8 +15177,8 @@
         "type_text": "Ultimate",
         "effect": "AoEAttack",
         "effect_text": "AoE",
-        "simple_desc": "Inflicts Epiphany on all enemies. Affected enemies take more DMG in their turn, and their Arcana effect is regarded as Wind Shear, Bleed, Burn, and Shock effects. In addition, when their Arcana effect is triggered at the beginning of the next turn, the Arcana stacks are not reset. Deals Wind DMG to all enemies.",
-        "desc": "Inflicts Epiphany on all enemies for #2[i] turn(s).\nEnemies affected by Epiphany take #3[i]% more DMG in their turn, and their Arcana effect is regarded as Wind Shear, Bleed, Burn, and Shock effects. In addition, when their Arcana effect is triggered at the beginning of the next turn, the Arcana stacks are not reset. The stack non-reset effect can be triggered up to #4[i] time(s) in Epiphany's duration, and its charges are replenished when Epiphany is applied again.\nDeals Wind DMG equal to #1[i]% of Black Swan's ATK to all enemies.",
+        "simple_desc": "Inflicts Epiphany on all enemies, increasing the DMG the targets take in their turn. Additionally, having Arcana is regarded as having Wind Shear, Bleed, Burn, and Shock. Furthermore, Arcana will not reset its stacks after causing DMG at the start of the next turn. Deals Wind DMG to all enemies.",
+        "desc": "Inflicts Epiphany on all enemies for #2[i] turn(s).\nWhile afflicted with Epiphany, enemies take #3[i]% increased DMG in their turn. Additionally, if enemies are also inflicted with Arcana, they are considered to be simultaneously afflicted with Wind Shear, Bleed, Burn, and Shock. After Arcana causes DMG at the start of each turn, its stacks are not reset. This non-reset effect of Arcana stacks can be triggered up to #4[i] time(s) for the duration of Epiphany. And the trigger count resets when Epiphany is applied again.\nDeals Wind DMG equal to #1[i]% of Black Swan's ATK to all enemies.",
         "params": [
             [
                 0.72,
@@ -15283,7 +15283,7 @@
         "effect": "Impair",
         "effect_text": "Impair",
         "simple_desc": "When an enemy target receives DoT at the start of each turn, there is a chance for it to be inflicted with Arcana. They receive Wind DoT at the start of the turn, and Black Swan triggers additional effects based on the number of Arcana stacks.",
-        "desc": "Every time an enemy target receives DoT at the start of each turn, there is a #2[i]% base chance for it to be inflicted with Arcana.\nWhile afflicted with Arcana, enemy targets receive Wind DoT equal to #1[i]% of Black Swan's ATK at the start of each turn. Each stack of Arcana increases this DoT DMG multiplier by #3[f1]%. Then Arcana resets to 1 stack. Arcana can stack up to #8[i] times.\nOnly when Arcana causes DMG at the start of an enemy target's turn, Black Swan triggers additional effects based on the number of Arcana stacks inflicted on the target:\nWhen there are #4[i] or more Arcana stacks, deals Wind DoT equal to #5[i]% of Black Swan's ATK to adjacent targets, with a #2[i]% base chance of inflicting 1 stack of Arcana on adjacent targets.\nWhen there are #6[i] or more Arcana stacks, enables the current DoT dealt this time to ignore #7[i]% of the target's and adjacent targets' DEF.",
+        "desc": "Every time an enemy target receives DoT at the start of each turn, there is a #2[i]% base chance for it to be inflicted with 1 stack of Arcana.\nWhile afflicted with Arcana, enemy targets receive Wind DoT equal to #1[i]% of Black Swan's ATK at the start of each turn. Each stack of Arcana increases this DMG multiplier by #3[f1]%. Then Arcana resets to 1 stack. Arcana can stack up to #8[i] times.\nOnly when Arcana causes DMG at the start of an enemy target's turn, Black Swan triggers additional effects based on the number of Arcana stacks inflicted on the target:\nWhen there are #4[i] or more Arcana stacks, deals Wind DoT equal to #5[i]% of Black Swan's ATK to adjacent targets, with a #2[i]% base chance of inflicting 1 stack of Arcana on adjacent targets.\nWhen there are #6[i] or more Arcana stacks, enables the current DoT dealt this time to ignore #7[i]% of the target's and adjacent targets' DEF.",
         "params": [
             [
                 0.96,
@@ -15515,7 +15515,7 @@
     },
     "131202": {
         "id": "131202",
-        "name": "R—Room Service",
+        "name": "R—Room Service!",
         "max_level": 15,
         "element": "Ice",
         "type": "BPSkill",
@@ -15732,8 +15732,8 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "Whenever any ally consumes 1 Skill Point, Misha's next Ultimate delivers more Hits Per Action and Misha regenerates his Energy.",
-        "desc": "Whenever any ally consumes 1 Skill Point, Misha's next Ultimate delivers #2[i] more Hit(s) Per Action and Misha regenerates #1[f1] Energy.",
+        "simple_desc": "Whenever allies consume 1 Skill Point, Misha's next Ultimate delivers more Hits Per Action and Misha regenerates his Energy.",
+        "desc": "For every 1 Skill Point allies consume, Misha's next Ultimate delivers #2[i] more Hit(s) Per Action and Misha regenerates #1[f1] Energy.",
         "params": [
             [
                 1,
