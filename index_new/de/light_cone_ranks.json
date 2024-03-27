@@ -1504,7 +1504,7 @@
     "21017": {
         "id": "21017",
         "skill": "Gib uns einen Like, bevor du gehst!",
-        "desc": "Erhöht den verursachten SCH des Trägers durch Standardangriff und Fertigkeit um #1[i]%. Dieser Effekt wird um zusätzliche #2[i]% erhöht, wenn die aktuelle Energie des Trägers den max. Wert erreicht.",
+        "desc": "Erhöht den verursachten SCH des Trägers durch Standardangriff und Fertigkeit um #1[i]%. Dieser Effekt wird zusätzlich um #2[i]% erhöht, wenn die aktuelle Energie des Trägers den Höchstwert erreicht.",
         "params": [
             [
                 0.24,
@@ -2805,6 +2805,65 @@
             ]
         ]
     },
+    "21043": {
+        "id": "21043",
+        "skill": "Inspirieren",
+        "desc": "Erhöht die VTD des Trägers um #1[i]%. Für jede Figur auf dem Feld, die einen Schild trägt, wird der verursachte SCH des Trägers um #2[i]% erhöht.",
+        "params": [
+            [
+                0.16,
+                0.04
+            ],
+            [
+                0.2,
+                0.05
+            ],
+            [
+                0.24,
+                0.06
+            ],
+            [
+                0.28,
+                0.07
+            ],
+            [
+                0.32,
+                0.08
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "DefenceAddedRatio",
+                    "value": 0.16
+                }
+            ],
+            [
+                {
+                    "type": "DefenceAddedRatio",
+                    "value": 0.2
+                }
+            ],
+            [
+                {
+                    "type": "DefenceAddedRatio",
+                    "value": 0.24
+                }
+            ],
+            [
+                {
+                    "type": "DefenceAddedRatio",
+                    "value": 0.28
+                }
+            ],
+            [
+                {
+                    "type": "DefenceAddedRatio",
+                    "value": 0.32
+                }
+            ]
+        ]
+    },
     "22000": {
         "id": "22000",
         "skill": "Flinke Hände",
@@ -3103,7 +3162,7 @@
     "23003": {
         "id": "23003",
         "skill": "Erbin",
-        "desc": "Erhöht die Energie-Wiederherstellungsrate des Trägers um #1[i]% und stellt beim Einsatz des Ultimates auf Verbündete 1 Fertigkeitspunkt wieder her. Dieser Effekt kann nach jeweils 2 Einsätzen des Ultimates ausgelöst werden. Nach dem Einsatz der Fertigkeit wird der verursachte SCH des Verbündeten, der nach ihm an der Reihe ist, für #3[i] Rd. um #2[i]% erhöht.",
+        "desc": "Erhöht die Energie-Wiederherstellungsrate des Trägers um #1[i]% und stellt beim Einsatz des Ultimates auf Verbündete 1 Fertigkeitspunkt wieder her. Dieser Effekt kann nach jeweils 2 Einsätzen des Ultimates ausgelöst werden. Nach dem Einsatz der Fertigkeit wird der verursachte SCH des Verbündeten, der als nächstes eine Aktion ausführt (außer dem Träger), für #3[i] Rd. um #2[i]% erhöht.",
         "params": [
             [
                 0.1,
@@ -4550,6 +4609,149 @@
             [
                 {
                     "type": "StatusProbabilityBase",
+                    "value": 0.6
+                }
+            ]
+        ]
+    },
+    "23023": {
+        "id": "23023",
+        "skill": "Alles auf den Tisch",
+        "desc": "Erhöht die VTD des Trägers um #1[i]%. Wenn der Träger Verbündeten einen Schild erzeugt, wird der KRIT-SCH des Trägers für #3[i] Rd. um #2[i]% erhöht. Wenn der Träger mit Folgeangriffe einen Gegner trifft, besteht eine Grundchance von #4[i]%, dass der vom angegriffenen Gegner erlittene SCH für #6[i] Rd. um #5[f1]% erhöht wird.",
+        "params": [
+            [
+                0.4,
+                0.4,
+                2,
+                1,
+                0.1,
+                2
+            ],
+            [
+                0.46,
+                0.46,
+                2,
+                1.15,
+                0.115,
+                2
+            ],
+            [
+                0.52,
+                0.52,
+                2,
+                1.3,
+                0.13,
+                2
+            ],
+            [
+                0.58,
+                0.58,
+                2,
+                1.45,
+                0.145,
+                2
+            ],
+            [
+                0.64,
+                0.64,
+                2,
+                1.6,
+                0.16,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "DefenceAddedRatio",
+                    "value": 0.4
+                }
+            ],
+            [
+                {
+                    "type": "DefenceAddedRatio",
+                    "value": 0.46
+                }
+            ],
+            [
+                {
+                    "type": "DefenceAddedRatio",
+                    "value": 0.52
+                }
+            ],
+            [
+                {
+                    "type": "DefenceAddedRatio",
+                    "value": 0.58
+                }
+            ],
+            [
+                {
+                    "type": "DefenceAddedRatio",
+                    "value": 0.64
+                }
+            ]
+        ]
+    },
+    "23024": {
+        "id": "23024",
+        "skill": "Fährmann",
+        "desc": "Erhöht den KRIT-SCH des Trägers um #1[i]%. Wenn der Träger einen Gegner trifft, wird das Ziel für 1 Rd. mit „Luftschloss“ belegt. Jedes Mal, wenn der Träger angreift, kann dieser Effekt bei jedem Ziel nur 1-mal ausgelöst werden. Der verursachte SCH des Trägers bei Gegnern mit Luftschloss wird um #2[i]% und der durch den Ultimate verursachte SCH zusätzlich um #3[i]% erhöht.",
+        "params": [
+            [
+                0.36,
+                0.24,
+                0.24
+            ],
+            [
+                0.42,
+                0.28,
+                0.28
+            ],
+            [
+                0.48,
+                0.32,
+                0.32
+            ],
+            [
+                0.54,
+                0.36,
+                0.36
+            ],
+            [
+                0.6,
+                0.4,
+                0.4
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.36
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.42
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.48
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.54
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
                     "value": 0.6
                 }
             ]

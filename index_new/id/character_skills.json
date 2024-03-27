@@ -761,39 +761,39 @@
         "params": [
             [
                 1,
-                0.4
+                0
             ],
             [
                 1.1,
-                0.44
+                0.08
             ],
             [
                 1.2,
-                0.48
+                0.16
             ],
             [
                 1.3,
-                0.52
+                0.24
             ],
             [
                 1.4,
-                0.56
+                0.32
             ],
             [
                 1.5,
-                0.6
+                0.4
             ],
             [
                 1.625,
-                0.65
+                0.5
             ],
             [
                 1.75,
-                0.7
+                0.6
             ],
             [
                 1.875,
-                0.75
+                0.7
             ],
             [
                 2,
@@ -801,23 +801,23 @@
             ],
             [
                 2.1,
-                0.84
-            ],
-            [
-                2.2,
                 0.88
             ],
             [
-                2.3,
-                0.92
-            ],
-            [
-                2.4,
+                2.2,
                 0.96
             ],
             [
+                2.3,
+                1.04
+            ],
+            [
+                2.4,
+                1.12
+            ],
+            [
                 2.5,
-                1
+                1.2
             ]
         ],
         "icon": "icon/skill/1003_skill.png"
@@ -8112,7 +8112,7 @@
         "type_text": "Skill",
         "effect": "Restore",
         "effect_text": "Restore",
-        "simple_desc": "Memulihkan HP 1 rekan tim dan mendapatkan 1 lapis \"Abyss Flower\".",
+        "simple_desc": "Memulihkan HP 1 rekan tim dan memperoleh 1 lapis \"Abyss Flower\".",
         "desc": "Setelah melancarkan Skill, segera memulihkan HP 1 rekan yang ditarget sebesar #1[i]% ATK Luocha + #2[i] dan membuat Luocha memperoleh 1 lapis \"Abyss Flower\".\nSaat Persentase HP salah satu rekan tim saat ini kurang dari atau sama dengan #3[i]%, Luocha akan segera memicu sebuah efek yang sama dengan Skill ini pada rekan tersebut sebanyak 1 kali tanpa perlu mengonsumsi Poin Skill. Efek ini dapat dipicu lagi setelah #4[i] giliran.",
         "params": [
             [
@@ -8217,7 +8217,7 @@
         "type_text": "Ultimate",
         "effect": "AoEAttack",
         "effect_text": "AoE",
-        "simple_desc": "Menghapus masing-masing 1 Buff dari seluruh musuh dan mengakibatkan Imaginary DMG pada seluruh musuh, serta memperoleh 1 lapis \"Abyss Flower\".",
+        "simple_desc": "Menghapus masing-masing 1 efek Buff dari seluruh musuh dan mengakibatkan Imaginary DMG pada seluruh musuh, serta memperoleh 1 lapis \"Abyss Flower\".",
         "desc": "Menghapus masing-masing #2[i] Buff dari seluruh target musuh dan mengakibatkan Imaginary DMG sebesar #1[i]% ATK Luocha ke seluruh musuh, serta memberikan Luocha 1 lapis \"Abyss Flower\".",
         "params": [
             [
@@ -13528,6 +13528,351 @@
         ],
         "icon": "icon/skill/1217_technique.png"
     },
+    "130101": {
+        "id": "130101",
+        "name": "Corkage Fee",
+        "max_level": 9,
+        "element": "Fire",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Mengakibatkan Fire DMG dalam jumlah kecil pada 1 musuh.",
+        "desc": "Mengakibatkan Fire DMG sebesar #1[i]% ATK Gallagher pada 1 musuh yang ditargetkan.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1301_basic_atk.png"
+    },
+    "130102": {
+        "id": "130102",
+        "name": "Special Brew",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Skill",
+        "effect": "Restore",
+        "effect_text": "Restore",
+        "simple_desc": "Segera memulihkan HP 1 rekan tim.",
+        "desc": "Segera memulihkan #1[i] HP 1 rekan tim yang ditargetkan.",
+        "params": [
+            [
+                200
+            ],
+            [
+                340
+            ],
+            [
+                480
+            ],
+            [
+                676
+            ],
+            [
+                830
+            ],
+            [
+                984
+            ],
+            [
+                1138
+            ],
+            [
+                1292
+            ],
+            [
+                1446
+            ],
+            [
+                1600
+            ],
+            [
+                1684
+            ],
+            [
+                1768
+            ],
+            [
+                1852
+            ],
+            [
+                1936
+            ],
+            [
+                2020
+            ]
+        ],
+        "icon": "icon/skill/1301_skill.png"
+    },
+    "130103": {
+        "id": "130103",
+        "name": "Champagne Etiquette",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "AoEAttack",
+        "effect_text": "AoE",
+        "simple_desc": "Membuat seluruh musuh memasuki status \"Besotted\", dan di saat yang bersamaan mengakibatkan Fire DMG pada seluruh musuh. Basic Attack berikutnya akan diperkuat menjadi \"Nectar Blitz\".",
+        "desc": "Membuat seluruh musuh memasuki status \"Besotted\" selama #2[i] giliran, dan di saat bersamaan mengakibatkan Fire DMG sebesar #1[i]% ATK Gallagher pada seluruh musuh, dan Basic Attack berikutnya akan diperkuat menjadi \"Nectar Blitz\".",
+        "params": [
+            [
+                0.75,
+                2
+            ],
+            [
+                0.825,
+                2
+            ],
+            [
+                0.9,
+                2
+            ],
+            [
+                0.975,
+                2
+            ],
+            [
+                1.05,
+                2
+            ],
+            [
+                1.125,
+                2
+            ],
+            [
+                1.2188,
+                2
+            ],
+            [
+                1.3125,
+                2
+            ],
+            [
+                1.4062,
+                2
+            ],
+            [
+                1.5,
+                2
+            ],
+            [
+                1.575,
+                2
+            ],
+            [
+                1.65,
+                2
+            ],
+            [
+                1.725,
+                2
+            ],
+            [
+                1.8,
+                2
+            ],
+            [
+                1.875,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1301_ultimate.png"
+    },
+    "130104": {
+        "id": "130104",
+        "name": "Tipsy Tussle",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Restore",
+        "effect_text": "Restore",
+        "simple_desc": "\"Besotted\" meningkatkan Break DMG yang diterima target. Setiap kali setelah target berstatus \"Besotted\" terkena serangan rekan tim, akan memulihkan HP penyerang.",
+        "desc": "\"Besotted\" meningkatkan Break DMG yang diterima target sebesar #1[f1]%. Setiap kali setelah target berstatus \"Besotted\" terkena serangan rekan tim, akan memulihkan #2[i] HP penyerang.",
+        "params": [
+            [
+                0.06,
+                80
+            ],
+            [
+                0.066,
+                136
+            ],
+            [
+                0.072,
+                192
+            ],
+            [
+                0.078,
+                270.4
+            ],
+            [
+                0.084,
+                332
+            ],
+            [
+                0.09,
+                393.6
+            ],
+            [
+                0.0975,
+                455.2
+            ],
+            [
+                0.105,
+                516.8
+            ],
+            [
+                0.1125,
+                578.4
+            ],
+            [
+                0.12,
+                640
+            ],
+            [
+                0.126,
+                673.6
+            ],
+            [
+                0.132,
+                707.2
+            ],
+            [
+                0.138,
+                740.8
+            ],
+            [
+                0.144,
+                774.4
+            ],
+            [
+                0.15,
+                808
+            ]
+        ],
+        "icon": "icon/skill/1301_talent.png"
+    },
+    "130106": {
+        "id": "130106",
+        "name": "Attack",
+        "max_level": 1,
+        "element": "Fire",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Setelah menyerang musuh dan memasuki pertempuran, akan mengurangi Toughness target musuh sesuai dengan tipe Toughness-nya.",
+        "params": [],
+        "icon": "icon/skill/1301_basic_atk.png"
+    },
+    "130107": {
+        "id": "130107",
+        "name": "Artisan Elixir",
+        "max_level": 1,
+        "element": "Fire",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "Menyerang musuh. Setelah memasuki pertempuran, membuat seluruh musuh memasuki status \"Besotted\", serta mengakibatkan Fire DMG dalam jumlah kecil pada seluruh musuh.",
+        "desc": "Segera menyerang musuh. Setelah memasuki pertempuran, akan membuat seluruh musuh memasuki status \"Besotted\" selama #1[i] giliran, serta mengakibatkan Fire DMG sebesar #2[i]% ATK Gallagher pada seluruh musuh.",
+        "params": [
+            [
+                2,
+                0.5
+            ]
+        ],
+        "icon": "icon/skill/1301_technique.png"
+    },
+    "130108": {
+        "id": "130108",
+        "name": "Nectar Blitz",
+        "max_level": 9,
+        "element": "Fire",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Mengakibatkan Fire DMG pada 1 musuh dan mengurangi ATK-nya.",
+        "desc": "Mengakibatkan Fire DMG sebesar #1[i]% ATK Gallagher pada 1 musuh yang ditargetkan, dan mengurangi ATK target sebesar #2[f1]%, berlangsung selama #3[i] giliran.",
+        "params": [
+            [
+                1.25,
+                0.1,
+                2
+            ],
+            [
+                1.5,
+                0.11,
+                2
+            ],
+            [
+                1.75,
+                0.12,
+                2
+            ],
+            [
+                2,
+                0.13,
+                2
+            ],
+            [
+                2.25,
+                0.14,
+                2
+            ],
+            [
+                2.5,
+                0.15,
+                2
+            ],
+            [
+                2.75,
+                0.16,
+                2
+            ],
+            [
+                3,
+                0.17,
+                2
+            ],
+            [
+                3.25,
+                0.18,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1301_basic_atk.png"
+    },
     "130201": {
         "id": "130201",
         "name": "Fleeting Fragrance",
@@ -14296,6 +14641,413 @@
         ],
         "icon": "icon/skill/1303_technique.png"
     },
+    "130401": {
+        "id": "130401",
+        "name": "Straight Bet",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Mengakibatkan Imaginary DMG dalam jumlah kecil pada 1 musuh yang ditargetkan.",
+        "desc": "Mengakibatkan Imaginary DMG sebesar #1[i]% DEF Aventurine pada 1 musuh yang ditargetkan.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1304_basic_atk.png"
+    },
+    "130402": {
+        "id": "130402",
+        "name": "Cornerstone Deluxe",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Skill",
+        "effect": "Defence",
+        "effect_text": "Defense",
+        "simple_desc": "Memberikan Shield \"Fortified Wager\" yang kekuatan Shield-nya dapat ditumpuk pada seluruh rekan tim.",
+        "desc": "Memberikan Shield \"Fortified Wager\" pada seluruh rekan tim yang dapat menahan DMG sebesar #1[f1]% DEF Aventurine + #2[i], berlangsung selama #3[i] giliran. Saat memperoleh ulang \"Fortified Wager\", kekuatan Shield dapat ditumpuk, maksimal tidak melebihi #4[i]% kekuatan Shield yang diberikan Skill saat ini.",
+        "params": [
+            [
+                0.16,
+                80,
+                3,
+                2
+            ],
+            [
+                0.17,
+                128,
+                3,
+                2
+            ],
+            [
+                0.18,
+                164,
+                3,
+                2
+            ],
+            [
+                0.19,
+                200,
+                3,
+                2
+            ],
+            [
+                0.2,
+                224,
+                3,
+                2
+            ],
+            [
+                0.208,
+                248,
+                3,
+                2
+            ],
+            [
+                0.216,
+                266,
+                3,
+                2
+            ],
+            [
+                0.224,
+                284,
+                3,
+                2
+            ],
+            [
+                0.232,
+                302,
+                3,
+                2
+            ],
+            [
+                0.24,
+                320,
+                3,
+                2
+            ],
+            [
+                0.248,
+                338,
+                3,
+                2
+            ],
+            [
+                0.256,
+                356,
+                3,
+                2
+            ],
+            [
+                0.264,
+                374,
+                3,
+                2
+            ],
+            [
+                0.272,
+                392,
+                3,
+                2
+            ],
+            [
+                0.28,
+                410,
+                3,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1304_skill.png"
+    },
+    "130403": {
+        "id": "130403",
+        "name": "Roulette Shark",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Memperoleh poin \"Blind Bet\" secara acak dan membuat 1 musuh memasuki status \"Unnerved\", serta mengakibatkan Imaginary DMG pada musuh tersebut. Saat rekan tim menyerang target musuh berstatus \"Unnerved\", CRIT DMG yang diakibatkan akan meningkat.",
+        "desc": "Memperoleh \"Blind Bet\" sebesar 1 hingga #1[i] poin secara acak. Kemudian, membuat 1 musuh yang ditargetkan memasuki status \"Unnerved\" selama #4[i] giliran, serta mengakibatkan Imaginary DMG sebesar #2[i]% DEF Aventurine pada 1 musuh yang ditargetkan tersebut. Saat rekan tim menyerang target musuh berstatus \"Unnerved\", CRIT DMG yang diakibatkan meningkat #3[f1]%.",
+        "params": [
+            [
+                7,
+                1.62,
+                0.09,
+                3
+            ],
+            [
+                7,
+                1.728,
+                0.096,
+                3
+            ],
+            [
+                7,
+                1.836,
+                0.102,
+                3
+            ],
+            [
+                7,
+                1.944,
+                0.108,
+                3
+            ],
+            [
+                7,
+                2.052,
+                0.114,
+                3
+            ],
+            [
+                7,
+                2.16,
+                0.12,
+                3
+            ],
+            [
+                7,
+                2.295,
+                0.1275,
+                3
+            ],
+            [
+                7,
+                2.43,
+                0.135,
+                3
+            ],
+            [
+                7,
+                2.565,
+                0.1425,
+                3
+            ],
+            [
+                7,
+                2.7,
+                0.15,
+                3
+            ],
+            [
+                7,
+                2.808,
+                0.156,
+                3
+            ],
+            [
+                7,
+                2.916,
+                0.162,
+                3
+            ],
+            [
+                7,
+                3.024,
+                0.168,
+                3
+            ],
+            [
+                7,
+                3.132,
+                0.174,
+                3
+            ],
+            [
+                7,
+                3.24,
+                0.18,
+                3
+            ]
+        ],
+        "icon": "icon/skill/1304_ultimate.png"
+    },
+    "130404": {
+        "id": "130404",
+        "name": "Shot Loaded Right",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Bounce",
+        "effect_text": "Bounce",
+        "simple_desc": "Effect RES rekan tim yang memiliki \"Fortified Wager\" akan meningkat, dan Aventurine akan mengakumulasi \"Blind Bet\" saat rekan tim yang memiliki \"Fortified Wager\" terkena serangan. Saat Aventurine memiliki \"Fortified Wager\", dia dapat menahan Crowd Control Debuff. Setelah \"Blind Bet\" mencapai 7 poin, Aventurine akan mengonsumsi 7 poin tersebut untuk melancarkan Serangan Lanjutan, yang mengakibatkan Imaginary DMG dalam jumlah kecil pada musuh secara acak, total Bounce 7 kali.",
+        "desc": "Effect RES rekan tim yang memiliki \"Fortified Wager\" akan meningkat #4[f1]%, dan setelah rekan tim yang memiliki \"Fortified Wager\" terkena serangan, Aventurine akan memperoleh 1 poin \"Blind Bet\". Saat Aventurine memiliki \"Fortified Wager\", dia dapat menahan Crowd Control Debuff, efek ini dapat dipicu lagi setelah #5[i] giliran, dan setelah menerima serangan, akan memperoleh tambahan #1[i] poin \"Blind Bet\". Setelah \"Blind Bet\" mencapai 7 poin, Aventurine akan mengonsumsi 7 poin tersebut untuk melancarkan #2[i] Hit Serangan Lanjutan, yang setiap Hit-nya akan mengakibatkan Imaginary DMG sebesar #3[i]% DEF Aventurine pada musuh secara acak. \"Blind Bet\" memiliki batas maksimal 10 poin.",
+        "params": [
+            [
+                1,
+                7,
+                0.125,
+                0.25,
+                2
+            ],
+            [
+                1,
+                7,
+                0.1375,
+                0.275,
+                2
+            ],
+            [
+                1,
+                7,
+                0.15,
+                0.3,
+                2
+            ],
+            [
+                1,
+                7,
+                0.1625,
+                0.325,
+                2
+            ],
+            [
+                1,
+                7,
+                0.175,
+                0.35,
+                2
+            ],
+            [
+                1,
+                7,
+                0.1875,
+                0.375,
+                2
+            ],
+            [
+                1,
+                7,
+                0.2031,
+                0.4062,
+                2
+            ],
+            [
+                1,
+                7,
+                0.2188,
+                0.4375,
+                2
+            ],
+            [
+                1,
+                7,
+                0.2344,
+                0.4688,
+                2
+            ],
+            [
+                1,
+                7,
+                0.25,
+                0.5,
+                2
+            ],
+            [
+                1,
+                7,
+                0.2625,
+                0.525,
+                2
+            ],
+            [
+                1,
+                7,
+                0.275,
+                0.55,
+                2
+            ],
+            [
+                1,
+                7,
+                0.2875,
+                0.575,
+                2
+            ],
+            [
+                1,
+                7,
+                0.3,
+                0.6,
+                2
+            ],
+            [
+                1,
+                7,
+                0.3125,
+                0.625,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1304_talent.png"
+    },
+    "130406": {
+        "id": "130406",
+        "name": "Attack",
+        "max_level": 1,
+        "element": "Imaginary",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Setelah menyerang musuh dan memasuki pertempuran, akan mengurangi Toughness target musuh sesuai dengan tipe Toughness-nya.",
+        "params": [],
+        "icon": "icon/skill/1304_basic_atk.png"
+    },
+    "130407": {
+        "id": "130407",
+        "name": "The Red or the Black",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Defence",
+        "effect_text": "Defense",
+        "simple_desc": "Setelah menggunakan Technique, akan memperoleh 1 dari 3 jenis efek peningkatan DEF secara acak. Saat pertempuran berikutnya dimulai, DEF seluruh rekan tim akan meningkat sesuai dengan nilai DEF yang terkait.",
+        "desc": "Setelah menggunakan Technique, akan memperoleh 1 dari beberapa efek berikut:\nMemiliki peluang tertentu untuk memperoleh peningkatan #1[i]% DEF;\nBerpeluang besar memperoleh peningkatan #2[i]% DEF;\nBerpeluang kecil memperoleh peningkatan #3[i]% DEF.\nKetika digunakan berulang, hanya efek dengan nilai tertinggi yang akan tersimpan.\nSaat pertempuran berikutnya dimulai, DEF seluruh rekan tim akan meningkat sesuai dengan nilai DEF yang terkait, berlangsung selama #4[i] giliran.",
+        "params": [
+            [
+                0.24,
+                0.36,
+                0.6,
+                3
+            ]
+        ],
+        "icon": "icon/skill/1304_technique.png"
+    },
     "130501": {
         "id": "130501",
         "name": "Mind is Might",
@@ -14859,7 +15611,7 @@
         "type_text": "Talent",
         "effect": "Support",
         "effect_text": "Support",
-        "simple_desc": "Meningkatkan batas maksimum Poin Skill  rekan tim. Saat rekan tim mengonsumsi Poin Skill, akan meningkatkan DMG yang diakibatkan  seluruh rekan tim.",
+        "simple_desc": "Meningkatkan batas maksimum Poin Skill  rekan tim. Saat rekan tim mengonsumsi Poin Skill, akan meningkatkan DMG yang diakibatkan seluruh rekan tim.",
         "desc": "Saat Sparkle berada di medan pertempuran, jumlah batas maksimal Poin Skill meningkat #3[i]. Setiap kali rekan tim mengonsumsi 1 Poin Skill, DMG yang diakibatkan oleh seluruh rekan tim akan meningkat #2[f1]% selama #1[i] giliran. Efek ini dapat ditumpuk hingga #4[i] lapis.",
         "params": [
             [
@@ -15470,6 +16222,726 @@
             ]
         ],
         "icon": "icon/skill/1307_technique.png"
+    },
+    "130801": {
+        "id": "130801",
+        "name": "Trilateral Wiltcross",
+        "max_level": 9,
+        "element": "Thunder",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Mengakibatkan Lightning DMG dalam jumlah kecil pada 1 musuh.",
+        "desc": "Mengakibatkan Lightning DMG sebesar #1[i]% ATK Acheron pada 1 musuh yang ditargetkan.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1308_basic_atk.png"
+    },
+    "130802": {
+        "id": "130802",
+        "name": "Octobolt Flash",
+        "max_level": 15,
+        "element": "Thunder",
+        "type": "BPSkill",
+        "type_text": "Skill",
+        "effect": "Blast",
+        "effect_text": "Blast",
+        "simple_desc": "Memperoleh 1 poin \"Slashed Dream\". Menambahkan 1 lapis \"Crimson Knot\" pada 1 musuh dan mengakibatkan Lightning DMG pada musuh tersebut, serta mengakibatkan Lightning DMG dalam jumlah kecil pada target di sekitar musuh tersebut.",
+        "desc": "Memperoleh #3[i] poin \"Slashed Dream\". Menambahkan #3[i] lapis \"Crimson Knot\" pada 1 musuh yang ditargetkan, dan mengakibatkan Lightning DMG sebesar #1[i]% ATK Acheron pada musuh tersebut, dan di saat yang bersamaan, mengakibatkan Lightning DMG sebesar #2[i]% ATK Acheron pada target di sekitar musuh tersebut.",
+        "params": [
+            [
+                0.8,
+                0.3,
+                1
+            ],
+            [
+                0.88,
+                0.33,
+                1
+            ],
+            [
+                0.96,
+                0.36,
+                1
+            ],
+            [
+                1.04,
+                0.39,
+                1
+            ],
+            [
+                1.12,
+                0.42,
+                1
+            ],
+            [
+                1.2,
+                0.45,
+                1
+            ],
+            [
+                1.3,
+                0.4875,
+                1
+            ],
+            [
+                1.4,
+                0.525,
+                1
+            ],
+            [
+                1.5,
+                0.5625,
+                1
+            ],
+            [
+                1.6,
+                0.6,
+                1
+            ],
+            [
+                1.68,
+                0.63,
+                1
+            ],
+            [
+                1.76,
+                0.66,
+                1
+            ],
+            [
+                1.84,
+                0.69,
+                1
+            ],
+            [
+                1.92,
+                0.72,
+                1
+            ],
+            [
+                2,
+                0.75,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1308_skill.png"
+    },
+    "130803": {
+        "id": "130803",
+        "name": "Slashed Dream Cries in Red",
+        "max_level": 15,
+        "element": "Thunder",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "AoEAttack",
+        "effect_text": "AoE",
+        "simple_desc": "Mengakibatkan 3 Hit Lightning DMG dalam jumlah kecil kepada 1 musuh. Jika \"Crimson Knot\" target dihilangkan, akan mengakibatkan Lightning DMG dalam jumlah kecil kepada seluruh musuh. Terakhir, akan mengakibatkan 1 Hit Lightning DMG pada seluruh musuh dan menghapus seluruh \"Crimson Knot\".",
+        "desc": "Melancarkan \"Rainblade\" 3 kali berturut-turut dan \"Stygian Resurge\" 1 kali, mengakibatkan Lightning DMG pada 1 musuh yang ditargetkan maksimal hingga sebesar #6[i]% ATK Acheron, serta mengakibatkan Lightning DMG maksimal hingga sebesar #7[i]% ATK Acheron pada target lainnya.\n\"Rainblade\": Mengakibatkan Lightning DMG pada 1 musuh yang ditargetkan sebesar #1[f1]% ATK Acheron, dan menghilangkan maksimal hingga 3 lapis \"Crimson Knot\" dari target. Saat \"Crimson Knot\" dihilangkan, akan segera mengakibatkan Lightning DMG sebesar #2[f1]% ATK Acheron pada seluruh musuh, dan DMG Multiplier dari serangan ini akan meningkat untuk setiap 1 lapis \"Crimson Knot\" yang dihilangkan, maksimal meningkat hingga #5[f1]%.\n\"Stygian Resurge\": Mengakibatkan Lightning DMG sebesar #3[i]% ATK Acheron pada seluruh musuh dan menghapus seluruh \"Crimson Knot\".\nSaat Ultimate berlangsung, \"Crimson Knot\" tidak dapat ditambahkan pada musuh.",
+        "params": [
+            [
+                0.144,
+                0.09,
+                0.72,
+                9,
+                0.36,
+                2.232,
+                1.8
+            ],
+            [
+                0.1536,
+                0.096,
+                0.768,
+                9,
+                0.384,
+                2.3808,
+                1.92
+            ],
+            [
+                0.1632,
+                0.102,
+                0.816,
+                9,
+                0.408,
+                2.5296,
+                2.04
+            ],
+            [
+                0.1728,
+                0.108,
+                0.864,
+                9,
+                0.432,
+                2.6784,
+                2.16
+            ],
+            [
+                0.1824,
+                0.114,
+                0.912,
+                9,
+                0.456,
+                2.8272,
+                2.28
+            ],
+            [
+                0.192,
+                0.12,
+                0.96,
+                9,
+                0.48,
+                2.976,
+                2.4
+            ],
+            [
+                0.204,
+                0.1275,
+                1.02,
+                9,
+                0.51,
+                3.162,
+                2.55
+            ],
+            [
+                0.216,
+                0.135,
+                1.08,
+                9,
+                0.54,
+                3.348,
+                2.7
+            ],
+            [
+                0.228,
+                0.1425,
+                1.14,
+                9,
+                0.57,
+                3.534,
+                2.85
+            ],
+            [
+                0.24,
+                0.15,
+                1.2,
+                9,
+                0.6,
+                3.72,
+                3
+            ],
+            [
+                0.2496,
+                0.156,
+                1.248,
+                9,
+                0.624,
+                3.8688,
+                3.12
+            ],
+            [
+                0.2592,
+                0.162,
+                1.296,
+                9,
+                0.648,
+                4.0176,
+                3.24
+            ],
+            [
+                0.2688,
+                0.168,
+                1.344,
+                9,
+                0.672,
+                4.1664,
+                3.36
+            ],
+            [
+                0.2784,
+                0.174,
+                1.392,
+                9,
+                0.696,
+                4.3152,
+                3.48
+            ],
+            [
+                0.288,
+                0.18,
+                1.44,
+                9,
+                0.72,
+                4.464,
+                3.6
+            ]
+        ],
+        "icon": "icon/skill/1308_ultimate.png"
+    },
+    "130804": {
+        "id": "130804",
+        "name": "Atop Rainleaf Hangs Oneness",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Enhance",
+        "effect_text": "Enhance",
+        "simple_desc": "Saat \"Slashed Dream\" mencapai batas maksimal, Ultimate dapat diaktifkan. Selama Ultimate berlangsung, dapat mengabaikan Tipe Weakness dan mengurangi Toughness musuh, serta mengurangi RES Seluruh Tipe milik seluruh musuh.\nSaat unit mana pun melancarkan kemampuan dan kemampuan tersebut membuat target musuh memasuki status Debuff, Acheron akan memperoleh \"Slashed Dream\", dan menambahkan \"Crimson Knot\" pada target musuh.",
+        "desc": "Saat \"Slashed Dream\" mencapai #1[i] poin, Ultimate dapat diaktifkan. Selama Ultimate berlangsung, akan mengabaikan Tipe Weakness dan mengurangi Toughness musuh, serta mengurangi #2[i]% RES Seluruh Tipe milik seluruh musuh, berlangsung hingga Ultimate berakhir.\nSaat unit mana pun melancarkan kemampuan dan kemampuan tersebut membuat target musuh memasuki status Debuff, Acheron akan memperoleh 1 poin \"Slashed Dream\" dan menambahkan 1 lapis \"Crimson Knot\" pada target. Jika unit tersebut membuat banyak target memasuki status Debuff, maka akan menambahkan 1 lapis \"Crimson Knot\" pada target musuh dengan \"Crimson Knot\" terbanyak. Efek ini dapat dipicu 1 kali per aksi.\nSaat Acheron berada di medan pertempuran, setelah target musuh meninggalkan medan pertempuran atau dikalahkan, maka \"Crimson Knot\" yang dimilikinya akan ditransfer ke target musuh yang memiliki \"Crimson Knot\" terbanyak.",
+        "params": [
+            [
+                9,
+                0.1
+            ],
+            [
+                9,
+                0.11
+            ],
+            [
+                9,
+                0.12
+            ],
+            [
+                9,
+                0.13
+            ],
+            [
+                9,
+                0.14
+            ],
+            [
+                9,
+                0.15
+            ],
+            [
+                9,
+                0.1625
+            ],
+            [
+                9,
+                0.175
+            ],
+            [
+                9,
+                0.1875
+            ],
+            [
+                9,
+                0.2
+            ],
+            [
+                9,
+                0.21
+            ],
+            [
+                9,
+                0.22
+            ],
+            [
+                9,
+                0.23
+            ],
+            [
+                9,
+                0.24
+            ],
+            [
+                9,
+                0.25
+            ]
+        ],
+        "icon": "icon/skill/1308_talent.png"
+    },
+    "130806": {
+        "id": "130806",
+        "name": "Attack",
+        "max_level": 1,
+        "element": "Thunder",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Setelah menyerang musuh dan memasuki pertempuran, akan mengurangi Toughness target musuh sesuai dengan tipe Toughness-nya.",
+        "params": [],
+        "icon": "icon/skill/1308_basic_atk.png"
+    },
+    "130807": {
+        "id": "130807",
+        "name": "Quadrivalent Ascendance",
+        "max_level": 1,
+        "element": "Thunder",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "Menyerang musuh. Saat setiap gelombang pertempuran dimulai, akan memperoleh \"Quadrivalent Ascendance\", mengakibatkan Lightning DMG pada seluruh musuh, mengabaikan Tipe Weakness dan mengurangi Toughness.\nJika menyerang musuh biasa, maka akan langsung mengalahkan musuh biasa tersebut tanpa perlu memasuki pertempuran. Jika serangan ini tidak mengenai musuh, maka Poin Technique tidak akan terkonsumsi.",
+        "desc": "Segera menyerang musuh. Saat setiap gelombang pertempuran dimulai, akan memperoleh \"Quadrivalent Ascendance\", mengakibatkan Lightning DMG kepada seluruh musuh sebesar #1[i]% ATK Acheron, lalu mengabaikan Tipe Weakness dan mengurangi Toughness seluruh musuh. Saat memicu Weakness Break, akan memicu efek Lightning Weakness Break.\n\"Quadrivalent Ascendance\": Setelah melancarkan Ultimate, Acheron akan memperoleh #2[i] poin \"Slashed Dream\", dan memberikan #2[i] lapis \"Crimson Knot\" pada 1 musuh secara acak.\nJika menyerang musuh biasa, maka akan langsung mengalahkan musuh biasa tersebut tanpa perlu memasuki pertempuran. Jika serangan ini tidak mengenai musuh, maka Poin Technique tidak akan terkonsumsi.",
+        "params": [
+            [
+                2,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1308_technique.png"
+    },
+    "130814": {
+        "id": "130814",
+        "name": "Rainblade",
+        "max_level": 15,
+        "element": "Thunder",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "AoEAttack",
+        "effect_text": "AoE",
+        "simple_desc": "Mengakibatkan Lightning DMG dalam jumlah kecil pada 1 musuh yang ditargetkan, dan menghilangkan maksimal hingga 3 lapis \"Crimson Knot\" dari target. Saat menghilangkan \"Crimson Knot\", akan mengakibatkan 1 kali Lightning DMG dalam jumlah kecil pada seluruh musuh, dan untuk setiap 1 lapisan \"Crimson Knot\" yang dihilangkan, DMG Multiplier dari serangan ini akan meningkat.",
+        "desc": "",
+        "params": [
+            [
+                0.144,
+                0.09,
+                0.72
+            ],
+            [
+                0.1536,
+                0.096,
+                0.768
+            ],
+            [
+                0.1632,
+                0.102,
+                0.816
+            ],
+            [
+                0.1728,
+                0.108,
+                0.864
+            ],
+            [
+                0.1824,
+                0.114,
+                0.912
+            ],
+            [
+                0.192,
+                0.12,
+                0.96
+            ],
+            [
+                0.204,
+                0.1275,
+                1.02
+            ],
+            [
+                0.216,
+                0.135,
+                1.08
+            ],
+            [
+                0.228,
+                0.1425,
+                1.14
+            ],
+            [
+                0.24,
+                0.15,
+                1.2
+            ],
+            [
+                0.2496,
+                0.156,
+                1.248
+            ],
+            [
+                0.2592,
+                0.162,
+                1.296
+            ],
+            [
+                0.2688,
+                0.168,
+                1.344
+            ],
+            [
+                0.2784,
+                0.174,
+                1.392
+            ],
+            [
+                0.288,
+                0.18,
+                1.44
+            ]
+        ],
+        "icon": "icon/skill/1308_ultimate.png"
+    },
+    "130815": {
+        "id": "130815",
+        "name": "Rainblade",
+        "max_level": 15,
+        "element": "Thunder",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "AoEAttack",
+        "effect_text": "AoE",
+        "simple_desc": "Mengakibatkan Lightning DMG dalam jumlah kecil pada 1 musuh yang ditargetkan, dan menghilangkan maksimal hingga 3 lapis \"Crimson Knot\" dari target. Saat menghilangkan \"Crimson Knot\", akan mengakibatkan 1 kali Lightning DMG dalam jumlah kecil pada seluruh musuh, dan untuk setiap 1 lapisan \"Crimson Knot\" yang dihilangkan, DMG Multiplier dari serangan ini akan meningkat.",
+        "desc": "",
+        "params": [
+            [
+                0.144,
+                0.09,
+                0.72
+            ],
+            [
+                0.1536,
+                0.096,
+                0.768
+            ],
+            [
+                0.1632,
+                0.102,
+                0.816
+            ],
+            [
+                0.1728,
+                0.108,
+                0.864
+            ],
+            [
+                0.1824,
+                0.114,
+                0.912
+            ],
+            [
+                0.192,
+                0.12,
+                0.96
+            ],
+            [
+                0.204,
+                0.1275,
+                1.02
+            ],
+            [
+                0.216,
+                0.135,
+                1.08
+            ],
+            [
+                0.228,
+                0.1425,
+                1.14
+            ],
+            [
+                0.24,
+                0.15,
+                1.2
+            ],
+            [
+                0.2496,
+                0.156,
+                1.248
+            ],
+            [
+                0.2592,
+                0.162,
+                1.296
+            ],
+            [
+                0.2688,
+                0.168,
+                1.344
+            ],
+            [
+                0.2784,
+                0.174,
+                1.392
+            ],
+            [
+                0.288,
+                0.18,
+                1.44
+            ]
+        ],
+        "icon": "icon/skill/1308_ultimate.png"
+    },
+    "130816": {
+        "id": "130816",
+        "name": "Rainblade",
+        "max_level": 15,
+        "element": "Thunder",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "AoEAttack",
+        "effect_text": "AoE",
+        "simple_desc": "Mengakibatkan Lightning DMG dalam jumlah kecil pada 1 musuh yang ditargetkan, dan menghilangkan maksimal hingga 3 lapis \"Crimson Knot\" dari target. Saat menghilangkan \"Crimson Knot\", akan mengakibatkan 1 kali Lightning DMG dalam jumlah kecil pada seluruh musuh, dan untuk setiap 1 lapisan \"Crimson Knot\" yang dihilangkan, DMG Multiplier dari serangan ini akan meningkat.",
+        "desc": "",
+        "params": [
+            [
+                0.144,
+                0.09,
+                0.72
+            ],
+            [
+                0.1536,
+                0.096,
+                0.768
+            ],
+            [
+                0.1632,
+                0.102,
+                0.816
+            ],
+            [
+                0.1728,
+                0.108,
+                0.864
+            ],
+            [
+                0.1824,
+                0.114,
+                0.912
+            ],
+            [
+                0.192,
+                0.12,
+                0.96
+            ],
+            [
+                0.204,
+                0.1275,
+                1.02
+            ],
+            [
+                0.216,
+                0.135,
+                1.08
+            ],
+            [
+                0.228,
+                0.1425,
+                1.14
+            ],
+            [
+                0.24,
+                0.15,
+                1.2
+            ],
+            [
+                0.2496,
+                0.156,
+                1.248
+            ],
+            [
+                0.2592,
+                0.162,
+                1.296
+            ],
+            [
+                0.2688,
+                0.168,
+                1.344
+            ],
+            [
+                0.2784,
+                0.174,
+                1.392
+            ],
+            [
+                0.288,
+                0.18,
+                1.44
+            ]
+        ],
+        "icon": "icon/skill/1308_ultimate.png"
+    },
+    "130817": {
+        "id": "130817",
+        "name": "Stygian Resurge",
+        "max_level": 15,
+        "element": "Thunder",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "AoEAttack",
+        "effect_text": "AoE",
+        "simple_desc": "Mengakibatkan Lightning DMG pada seluruh musuh dan menghapus seluruh \"Crimson Knot\".",
+        "desc": "",
+        "params": [
+            [
+                0.72
+            ],
+            [
+                0.768
+            ],
+            [
+                0.816
+            ],
+            [
+                0.864
+            ],
+            [
+                0.912
+            ],
+            [
+                0.96
+            ],
+            [
+                1.02
+            ],
+            [
+                1.08
+            ],
+            [
+                1.14
+            ],
+            [
+                1.2
+            ],
+            [
+                1.248
+            ],
+            [
+                1.296
+            ],
+            [
+                1.344
+            ],
+            [
+                1.392
+            ],
+            [
+                1.44
+            ]
+        ],
+        "icon": "icon/skill/1308_ultimate.png"
     },
     "131201": {
         "id": "131201",

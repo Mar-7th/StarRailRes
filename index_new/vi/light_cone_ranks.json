@@ -2805,6 +2805,65 @@
             ]
         ]
     },
+    "21043": {
+        "id": "21043",
+        "skill": "Cổ Vũ",
+        "desc": "Tăng #1[i]% Phòng Thủ của người trang bị. Mỗi khi trên trận có 1 nhân vật sở hữu Khiên, sát thương do người trang bị gây ra tăng #2[i]%.",
+        "params": [
+            [
+                0.16,
+                0.04
+            ],
+            [
+                0.2,
+                0.05
+            ],
+            [
+                0.24,
+                0.06
+            ],
+            [
+                0.28,
+                0.07
+            ],
+            [
+                0.32,
+                0.08
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "DefenceAddedRatio",
+                    "value": 0.16
+                }
+            ],
+            [
+                {
+                    "type": "DefenceAddedRatio",
+                    "value": 0.2
+                }
+            ],
+            [
+                {
+                    "type": "DefenceAddedRatio",
+                    "value": 0.24
+                }
+            ],
+            [
+                {
+                    "type": "DefenceAddedRatio",
+                    "value": 0.28
+                }
+            ],
+            [
+                {
+                    "type": "DefenceAddedRatio",
+                    "value": 0.32
+                }
+            ]
+        ]
+    },
     "22000": {
         "id": "22000",
         "skill": "Nhanh Như Tia Chớp",
@@ -4550,6 +4609,149 @@
             [
                 {
                     "type": "StatusProbabilityBase",
+                    "value": 0.6
+                }
+            ]
+        ]
+    },
+    "23023": {
+        "id": "23023",
+        "skill": "Cược Hết Tất Cả",
+        "desc": "Tăng #1[i]% Phòng Thủ của người trang bị, khi người trang bị cung cấp khiên cho phe ta, Sát Thương Bạo Kích của người trang bị sẽ tăng #2[i]%, duy trì #3[i] hiệp. Khi người trang bị phát động Đòn Đánh Theo Sau tấn công kẻ địch, có #4[i]% xác suất cơ bản khiến sát thương phải chịu của kẻ địch bị tấn công tăng #5[f1]%, duy trì #6[i] hiệp.",
+        "params": [
+            [
+                0.4,
+                0.4,
+                2,
+                1,
+                0.1,
+                2
+            ],
+            [
+                0.46,
+                0.46,
+                2,
+                1.15,
+                0.115,
+                2
+            ],
+            [
+                0.52,
+                0.52,
+                2,
+                1.3,
+                0.13,
+                2
+            ],
+            [
+                0.58,
+                0.58,
+                2,
+                1.45,
+                0.145,
+                2
+            ],
+            [
+                0.64,
+                0.64,
+                2,
+                1.6,
+                0.16,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "DefenceAddedRatio",
+                    "value": 0.4
+                }
+            ],
+            [
+                {
+                    "type": "DefenceAddedRatio",
+                    "value": 0.46
+                }
+            ],
+            [
+                {
+                    "type": "DefenceAddedRatio",
+                    "value": 0.52
+                }
+            ],
+            [
+                {
+                    "type": "DefenceAddedRatio",
+                    "value": 0.58
+                }
+            ],
+            [
+                {
+                    "type": "DefenceAddedRatio",
+                    "value": 0.64
+                }
+            ]
+        ]
+    },
+    "23024": {
+        "id": "23024",
+        "skill": "Người Điều Khiển",
+        "desc": "Tăng #1[i]% Sát Thương Bạo Kích của người trang bị. Khi người trang bị đánh trúng kẻ địch, sẽ khiến kẻ địch rơi vào trạng thái Bóng Hư Ảo, duy trì 1 hiệp. Mỗi lần người trang bị tấn công, đối với mỗi mục tiêu chỉ có thể được kích hoạt 1 lần. Sát Thương mà người trang bị gây ra cho mục tiêu đang ở trạng thái Bóng Hư Ảo tăng #2[i]%, sát thương do Tuyệt Kỹ gây ra tăng thêm #3[i]%.",
+        "params": [
+            [
+                0.36,
+                0.24,
+                0.24
+            ],
+            [
+                0.42,
+                0.28,
+                0.28
+            ],
+            [
+                0.48,
+                0.32,
+                0.32
+            ],
+            [
+                0.54,
+                0.36,
+                0.36
+            ],
+            [
+                0.6,
+                0.4,
+                0.4
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.36
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.42
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.48
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.54
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
                     "value": 0.6
                 }
             ]

@@ -3805,6 +3805,112 @@
         "level_up_skills": [],
         "icon": "icon/skill/1217_rank6.png"
     },
+    "130101": {
+        "id": "130101",
+        "name": "ソルティ・ドッグ",
+        "rank": 1,
+        "desc": "戦闘に入った後、ギャラガーはEPを20回復する。同時にギャラガーの効果抵抗+50%。",
+        "materials": [
+            {
+                "id": "11301",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1301_rank1.png"
+    },
+    "130102": {
+        "id": "130102",
+        "name": "レオ・ザ・ライオン",
+        "rank": 2,
+        "desc": "戦闘スキルを発動した時、指定した味方単体のデバフを1つ解除し、その味方の効果抵抗+30%、2ターン継続。",
+        "materials": [
+            {
+                "id": "11301",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1301_rank2.png"
+    },
+    "130103": {
+        "id": "130103",
+        "name": "コープス・リバイバー",
+        "rank": 3,
+        "desc": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+        "materials": [
+            {
+                "id": "11301",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130102",
+                "num": 2
+            },
+            {
+                "id": "130101",
+                "num": 1
+            },
+            {
+                "id": "130108",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1301_skill.png"
+    },
+    "130104": {
+        "id": "130104",
+        "name": "ラスト・ワード",
+        "rank": 4,
+        "desc": "ギャラガーの必殺技が付与する「酩酊」状態の継続時間+1ターン。",
+        "materials": [
+            {
+                "id": "11301",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1301_rank4.png"
+    },
+    "130105": {
+        "id": "130105",
+        "name": "デス・イン・ジ・\\nアフタヌーン",
+        "rank": 5,
+        "desc": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+        "materials": [
+            {
+                "id": "11301",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130103",
+                "num": 2
+            },
+            {
+                "id": "130104",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1301_ultimate.png"
+    },
+    "130106": {
+        "id": "130106",
+        "name": "ブラッド・アンド・\\nサンド",
+        "rank": 6,
+        "desc": "ギャラガーの撃破特効+20%、弱点撃破効率+20%。",
+        "materials": [
+            {
+                "id": "11301",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1301_rank6.png"
+    },
     "130201": {
         "id": "130201",
         "name": "{RUBY_B#しんびおうこく}審美王国{RUBY_E#}の{RUBY_B#けっかん}欠陥{RUBY_E#}",
@@ -4012,6 +4118,108 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1303_rank6.png"
+    },
+    "130401": {
+        "id": "130401",
+        "name": "{RUBY_B#しゅうじん}囚人{RUBY_E#}のジレンマ",
+        "rank": 1,
+        "desc": "「堅固なチップ」を持つ味方の会心ダメージ+20%。必殺技を発動した後、味方全体に「堅固なチップ」バリアを付与する、3ターン継続。バリア耐久値は戦闘スキルで付与できるバリア耐久値の100%。",
+        "materials": [
+            {
+                "id": "11304",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1304_rank1.png"
+    },
+    "130402": {
+        "id": "130402",
+        "name": "{RUBY_B#げんていごうりせい}限定合理性{RUBY_E#}",
+        "rank": 2,
+        "desc": "通常攻撃を行う時、ターゲットの全耐性-12%、3ターン継続。",
+        "materials": [
+            {
+                "id": "11304",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1304_rank2.png"
+    },
+    "130403": {
+        "id": "130403",
+        "name": "{RUBY_B#さいこうばいりつ}最高倍率{RUBY_E#}",
+        "rank": 3,
+        "desc": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+        "materials": [
+            {
+                "id": "11304",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130403",
+                "num": 2
+            },
+            {
+                "id": "130401",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1304_skill.png"
+    },
+    "130404": {
+        "id": "130404",
+        "name": "{RUBY_B#よき}予期{RUBY_E#}せぬ{RUBY_B#こうしゅけい}絞首刑{RUBY_E#}",
+        "rank": 4,
+        "desc": "天賦の追加攻撃を発動する前にアベンチュリンの防御力+40%、2ターン継続。さらに天賦の追加攻撃の攻撃段数+3。",
+        "materials": [
+            {
+                "id": "11304",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1304_rank4.png"
+    },
+    "130405": {
+        "id": "130405",
+        "name": "{RUBY_B#あいまいせいきひ}曖昧性忌避{RUBY_E#}",
+        "rank": 5,
+        "desc": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+        "materials": [
+            {
+                "id": "11304",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130402",
+                "num": 2
+            },
+            {
+                "id": "130404",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1304_ultimate.png"
+    },
+    "130406": {
+        "id": "130406",
+        "name": "スタグハントゲーム",
+        "rank": 6,
+        "desc": "バリアを持つ自身以外の味方1名につき、アベンチュリンの与ダメージ+50%、最大で+150%。",
+        "materials": [
+            {
+                "id": "11304",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1304_rank6.png"
     },
     "130501": {
         "id": "130501",
@@ -4318,6 +4526,124 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1307_rank6.png"
+    },
+    "130801": {
+        "id": "130801",
+        "name": "{RUBY_B#こうてんりょうらく}高天寥落{RUBY_E#}、\\n{RUBY_B#しんごん}真言{RUBY_E#}{RUBY_B#はじ}始{RUBY_E#}まる",
+        "rank": 1,
+        "desc": "デバフ状態の敵にダメージを与える時、会心率+18%。",
+        "materials": [
+            {
+                "id": "11308",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1308_rank1.png"
+    },
+    "130802": {
+        "id": "130802",
+        "name": "{RUBY_B#らいてい}雷霆{RUBY_E#}{RUBY_B#しず}静{RUBY_E#}まり、{RUBY_B#あきかぜ}秋風{RUBY_E#}{RUBY_B#や}止む{RUBY_E#}",
+        "rank": 2,
+        "desc": "軌跡「奈落」の効果の最大値に達するために必要な「虚無」の運命を歩むキャラクターの数-1名。自身のターンが回ってきた時、「残夢」を1層獲得し、「集真赤」が最も多い敵に「集真赤」を1層付与する。",
+        "materials": [
+            {
+                "id": "11308",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1308_rank2.png"
+    },
+    "130803": {
+        "id": "130803",
+        "name": "{RUBY_B#えいちつ}永蟄{RUBY_E#}を{RUBY_B#おびや}脅{RUBY_E#}かす{RUBY_B#かんぷう}寒風{RUBY_E#}",
+        "rank": 3,
+        "desc": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+        "materials": [
+            {
+                "id": "11308",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130803",
+                "num": 2
+            },
+            {
+                "id": "130801",
+                "num": 1
+            },
+            {
+                "id": "130814",
+                "num": 2
+            },
+            {
+                "id": "130815",
+                "num": 2
+            },
+            {
+                "id": "130816",
+                "num": 2
+            },
+            {
+                "id": "130817",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1308_skill.png"
+    },
+    "130804": {
+        "id": "130804",
+        "name": "{RUBY_B#きょうちゅう}鏡中{RUBY_E#}を{RUBY_B#て}照{RUBY_E#}らす{RUBY_B#えいえん}永焔{RUBY_E#}",
+        "rank": 4,
+        "desc": "戦闘に入った敵は、必殺技被ダメージアップ状態になり、受ける必殺技のダメージ+8%。",
+        "materials": [
+            {
+                "id": "11308",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1308_rank4.png"
+    },
+    "130805": {
+        "id": "130805",
+        "name": "{RUBY_B#ばんじゃくほうらく}盤石崩落{RUBY_E#}、{RUBY_B#せんしんひょうらく}千身漂落{RUBY_E#}",
+        "rank": 5,
+        "desc": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+        "materials": [
+            {
+                "id": "11308",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130802",
+                "num": 2
+            },
+            {
+                "id": "130804",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1308_ultimate.png"
+    },
+    "130806": {
+        "id": "130806",
+        "name": "{RUBY_B#そくばく}束縛{RUBY_E#}を{RUBY_B#と}解{RUBY_E#}く{RUBY_B#わざわ}災{RUBY_E#}い",
+        "rank": 6,
+        "desc": "黄泉が与える必殺技ダメージの全耐性貫通+20%。通常攻撃ダメージ、戦闘スキルダメージが同時に必殺技ダメージと見なされ、弱点属性を無視して敵の靭性を削る。敵を弱点撃破した時、雷属性の弱点撃破効果を触発する。",
+        "materials": [
+            {
+                "id": "11308",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1308_rank6.png"
     },
     "131201": {
         "id": "131201",

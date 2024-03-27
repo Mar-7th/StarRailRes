@@ -1729,7 +1729,7 @@
     "21022": {
         "id": "21022",
         "skill": "Descanso Semibreve",
-        "desc": "Aumenta em #1[i]% o Efeito de Quebra causado pelo usuário e aumenta o Dano que ele causa a inimigos sob o status de Choque ou Cisalhamento de Vento em #2[i]%. Também se aplica a Dano Contínuo.",
+        "desc": "Aumenta em #1[i]% o Efeito de Quebra do usuário e aumenta o Dano que ele causa a inimigos sob o status de Choque ou Cisalhamento de Vento em #2[i]%. Também se aplica a Dano Contínuo.",
         "params": [
             [
                 0.16,
@@ -2801,6 +2801,65 @@
                 {
                     "type": "BreakDamageAddedRatioBase",
                     "value": 0.56
+                }
+            ]
+        ]
+    },
+    "21043": {
+        "id": "21043",
+        "skill": "Inspirar",
+        "desc": "Aumenta a DEF do usuário em #1[i]%. Para cada personagem com um Escudo em campo, o Dano causado pelo usuário aumenta em #2[i]%.",
+        "params": [
+            [
+                0.16,
+                0.04
+            ],
+            [
+                0.2,
+                0.05
+            ],
+            [
+                0.24,
+                0.06
+            ],
+            [
+                0.28,
+                0.07
+            ],
+            [
+                0.32,
+                0.08
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "DefenceAddedRatio",
+                    "value": 0.16
+                }
+            ],
+            [
+                {
+                    "type": "DefenceAddedRatio",
+                    "value": 0.2
+                }
+            ],
+            [
+                {
+                    "type": "DefenceAddedRatio",
+                    "value": 0.24
+                }
+            ],
+            [
+                {
+                    "type": "DefenceAddedRatio",
+                    "value": 0.28
+                }
+            ],
+            [
+                {
+                    "type": "DefenceAddedRatio",
+                    "value": 0.32
                 }
             ]
         ]
@@ -4550,6 +4609,149 @@
             [
                 {
                     "type": "StatusProbabilityBase",
+                    "value": 0.6
+                }
+            ]
+        ]
+    },
+    "23023": {
+        "id": "23023",
+        "skill": "Vale Tudo",
+        "desc": "Aumenta em #1[i]% a DEF do usuário. Quando o usuário fornece um Escudo para um aliado, aumenta em #2[i]% o Dano CRIT do usuário por #3[i] rodada(s). Quando os Ataques Extras do usuário atingem um inimigo-alvo, há uma chance-base de #4[i]% de aumentar o Dano recebido pelo inimigo-alvo atacado em #5[f1]%, durando por #6[i] rodada(s).",
+        "params": [
+            [
+                0.4,
+                0.4,
+                2,
+                1,
+                0.1,
+                2
+            ],
+            [
+                0.46,
+                0.46,
+                2,
+                1.15,
+                0.115,
+                2
+            ],
+            [
+                0.52,
+                0.52,
+                2,
+                1.3,
+                0.13,
+                2
+            ],
+            [
+                0.58,
+                0.58,
+                2,
+                1.45,
+                0.145,
+                2
+            ],
+            [
+                0.64,
+                0.64,
+                2,
+                1.6,
+                0.16,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "DefenceAddedRatio",
+                    "value": 0.4
+                }
+            ],
+            [
+                {
+                    "type": "DefenceAddedRatio",
+                    "value": 0.46
+                }
+            ],
+            [
+                {
+                    "type": "DefenceAddedRatio",
+                    "value": 0.52
+                }
+            ],
+            [
+                {
+                    "type": "DefenceAddedRatio",
+                    "value": 0.58
+                }
+            ],
+            [
+                {
+                    "type": "DefenceAddedRatio",
+                    "value": 0.64
+                }
+            ]
+        ]
+    },
+    "23024": {
+        "id": "23024",
+        "skill": "Navegante",
+        "desc": "Aumenta o Dano CRIT do usuário em #1[i]%. Quando o usuário atinge um inimigo-alvo, inflige Miragem Fracassada ao inimigo, durando por 1 rodada. Cada vez que o usuário ataca, este efeito pode ser acionado 1 vez contra cada alvo. O usuário causa #2[i]% a mais de Dano aos alvos afligidos por Miragem Fracassada, e o Dano da Perícia Suprema do usuário é aumentado adicionalmente em #3[i]%.",
+        "params": [
+            [
+                0.36,
+                0.24,
+                0.24
+            ],
+            [
+                0.42,
+                0.28,
+                0.28
+            ],
+            [
+                0.48,
+                0.32,
+                0.32
+            ],
+            [
+                0.54,
+                0.36,
+                0.36
+            ],
+            [
+                0.6,
+                0.4,
+                0.4
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.36
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.42
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.48
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.54
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
                     "value": 0.6
                 }
             ]
