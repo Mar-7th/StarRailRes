@@ -2864,6 +2864,65 @@
             ]
         ]
     },
+    "21044": {
+        "id": "21044",
+        "skill": "Scrutinize",
+        "desc": "Meningkatkan #1[i]% CRIT Rate pengguna. CRIT DMG pengguna saat menyerang musuh yang mengalami pengurangan DEF atau berstatus Slow akan meningkat #2[i]%.",
+        "params": [
+            [
+                0.08,
+                0.24
+            ],
+            [
+                0.1,
+                0.3
+            ],
+            [
+                0.12,
+                0.36
+            ],
+            [
+                0.14,
+                0.42
+            ],
+            [
+                0.16,
+                0.48
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.08
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.1
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.12
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.14
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.16
+                }
+            ]
+        ]
+    },
     "22000": {
         "id": "22000",
         "skill": "Quick on the Draw",
@@ -2983,6 +3042,70 @@
                 {
                     "type": "HPAddedRatio",
                     "value": 0.12
+                }
+            ]
+        ]
+    },
+    "22002": {
+        "id": "22002",
+        "skill": "Bonds",
+        "desc": "Meningkatkan #1[i]% ATK pengguna. Setelah pengguna melancarkan Ultimate, DMG yang diakibatkan meningkat #2[i]%, berlangsung selama #3[i] giliran.",
+        "params": [
+            [
+                0.16,
+                0.18,
+                1
+            ],
+            [
+                0.2,
+                0.21,
+                1
+            ],
+            [
+                0.24,
+                0.24,
+                1
+            ],
+            [
+                0.28,
+                0.27,
+                1
+            ],
+            [
+                0.32,
+                0.3,
+                1
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.16
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.2
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.24
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.28
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.32
                 }
             ]
         ]
@@ -4617,7 +4740,7 @@
     "23023": {
         "id": "23023",
         "skill": "All-In",
-        "desc": "Meningkatkan #1[i]% DEF pengguna. Saat pengguna memberikan Shield untuk rekan tim, akan meningkatkan #2[i]% CRIT DMG pengguna selama #3[i] giliran. Saat Serangan Lanjutan yang dilancarkan pengguna mengenai target musuh, memiliki #4[i]% peluang dasar untuk meningkatkan #5[f1]% DMG yang diterima target musuh yang terserang selama #6[i] giliran.",
+        "desc": "Meningkatkan #1[i]% DEF pengguna. Saat pengguna memberikan Shield untuk rekan tim, akan meningkatkan #2[i]% CRIT DMG pengguna selama #3[i] giliran. Saat Serangan Lanjutan yang dilancarkan pengguna mengenai target musuh, memiliki #4[i]% peluang dasar untuk meningkatkan #5[f1]% DMG yang diterima target musuh yang terkena serangan selama #6[i] giliran.",
         "params": [
             [
                 0.4,
@@ -4753,6 +4876,124 @@
                 {
                     "type": "CriticalDamageBase",
                     "value": 0.6
+                }
+            ]
+        ]
+    },
+    "23026": {
+        "id": "23026",
+        "skill": "Pacify",
+        "desc": "Setiap kali saat rekan tim menyerang, pengguna akan memperoleh 1 lapis \"Cantillation\". Setiap lapis \"Cantillation\" meningkatkan #1[f1]% Energy Regeneration Rate pengguna, dapat ditumpuk hingga #2[i] lapis. Saat pengguna melancarkan Ultimate, \"Cantillation\" akan dihapus dan memperoleh \"Cadenza\". \"Cadenza\" meningkatkan #4[i]% ATK pengguna, dan meningkatkan #3[i]% DMG yang diakibatkan seluruh rekan tim, berlangsung selama #5[i] giliran.",
+        "params": [
+            [
+                0.03,
+                5,
+                0.24,
+                0.48,
+                1
+            ],
+            [
+                0.035,
+                5,
+                0.28,
+                0.6,
+                1
+            ],
+            [
+                0.04,
+                5,
+                0.32,
+                0.72,
+                1
+            ],
+            [
+                0.045,
+                5,
+                0.36,
+                0.84,
+                1
+            ],
+            [
+                0.05,
+                5,
+                0.4,
+                0.96,
+                1
+            ]
+        ],
+        "properties": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    "23027": {
+        "id": "23027",
+        "skill": "Rough Water",
+        "desc": "Meningkatkan #1[i]% Break Effect pengguna, dan Break DMG yang diakibatkan pengguna akan mengabaikan #3[i]% DEF target. Saat Break Effect pengguna di pertempuran lebih dari atau sama dengan #2[i]%, SPD akan meningkat #4[i]%.",
+        "params": [
+            [
+                0.6,
+                1.5,
+                0.2,
+                0.12
+            ],
+            [
+                0.7,
+                1.5,
+                0.23,
+                0.14
+            ],
+            [
+                0.8,
+                1.5,
+                0.26,
+                0.16
+            ],
+            [
+                0.9,
+                1.5,
+                0.29,
+                0.18
+            ],
+            [
+                1,
+                1.5,
+                0.32,
+                0.2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.6
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.7
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.8
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.9
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 1
                 }
             ]
         ]

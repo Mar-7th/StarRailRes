@@ -761,39 +761,39 @@
         "params": [
             [
                 1,
-                0
-            ],
-            [
-                1.1,
-                0.08
-            ],
-            [
-                1.2,
-                0.16
-            ],
-            [
-                1.3,
-                0.24
-            ],
-            [
-                1.4,
-                0.32
-            ],
-            [
-                1.5,
                 0.4
             ],
             [
-                1.625,
-                0.5
+                1.1,
+                0.44
             ],
             [
-                1.75,
+                1.2,
+                0.48
+            ],
+            [
+                1.3,
+                0.52
+            ],
+            [
+                1.4,
+                0.56
+            ],
+            [
+                1.5,
                 0.6
             ],
             [
-                1.875,
+                1.625,
+                0.65
+            ],
+            [
+                1.75,
                 0.7
+            ],
+            [
+                1.875,
+                0.75
             ],
             [
                 2,
@@ -801,23 +801,23 @@
             ],
             [
                 2.1,
-                0.88
+                0.84
             ],
             [
                 2.2,
-                0.96
+                0.88
             ],
             [
                 2.3,
-                1.04
+                0.92
             ],
             [
                 2.4,
-                1.12
+                0.96
             ],
             [
                 2.5,
-                1.2
+                1
             ]
         ],
         "icon": "icon/skill/1003_skill.png"
@@ -995,8 +995,8 @@
         "type_text": "Technique",
         "effect": "Impair",
         "effect_text": "Impair",
-        "simple_desc": "Creates a dimension. After entering combat with enemies in the dimension, there is a high chance to increase Fire DMG taken by enemies.",
-        "desc": "After using Technique, creates a dimension that lasts for #4[i] second(s). After entering battle with enemies in the dimension, there is a #1[i]% base chance to increase Fire DMG taken by enemies by #2[i]% for #3[i] turn(s). Only 1 dimension created by allies can exist at the same time.",
+        "simple_desc": "Creates a special dimension. After entering combat with enemies in the dimension, there is a high chance to increase Fire DMG taken by enemies.",
+        "desc": "After using Technique, creates a special dimension that lasts for #4[i] second(s). After entering battle with enemies in the special dimension, there is a #1[i]% base chance to increase Fire DMG taken by enemies by #2[i]% for #3[i] turn(s). Only 1 dimension created by allies can exist at the same time.",
         "params": [
             [
                 1,
@@ -1342,8 +1342,8 @@
         "type_text": "Technique",
         "effect": "Impair",
         "effect_text": "Impair",
-        "simple_desc": "Creates a dimension. Enemies in this dimension have their Movement SPD reduced. After entering combat with enemies in the dimension, there is a high chance for the enemies to become Imprisoned.",
-        "desc": "After using Welt's Technique, create a dimension that lasts for #4[i] second(s). Enemies in this dimension have their Movement SPD reduced by #5[i]%. After entering battle with enemies in the dimension, there is a #1[i]% base chance to Imprison the enemies for 1 turn.\nImprisoned enemies have their actions delayed by #2[i]% and SPD reduced by #3[i]%. Only 1 dimension created by allies can exist at the same time.",
+        "simple_desc": "Creates a special dimension. Enemies in this dimension have their Movement SPD reduced. After entering combat with enemies in the dimension, there is a high chance for the enemies to become Imprisoned.",
+        "desc": "After using Welt's Technique, create a special dimension that lasts for #4[i] second(s). Enemies in this special dimension have their Movement SPD reduced by #5[i]%. After entering battle with enemies in the special dimension, there is a #1[i]% base chance to Imprison the enemies for 1 turn.\nImprisoned enemies have their actions delayed by #2[i]% and SPD reduced by #3[i]%. Only 1 dimension created by allies can exist at the same time.",
         "params": [
             [
                 1,
@@ -11859,8 +11859,8 @@
         "type_text": "Technique",
         "effect": "Impair",
         "effect_text": "Impair",
-        "simple_desc": "Creates a dimension around the character. Enemies within this dimension will become Frozen. After entering combat with enemies in the dimension, this character regenerates Energy and obtains 1 stack of Syzygy with a high chance to Freeze enemies.",
-        "desc": "After using this Technique, creates a dimension around Jingliu that lasts for #3[i] seconds, and all enemies in this dimension will become Frozen. After entering combat with enemies in the dimension, Jingliu immediately regenerates #6[i] Energy and obtains #1[i] stack(s) of Syzygy, with a #2[i]% base chance of Freezing enemy targets for #4[i] turn(s). While Frozen, enemy targets cannot take action, and receive Ice Additional DMG equal to #5[i]% of Jingliu's ATK at the start of every turn. Only 1 dimension created by allies can exist at the same time.",
+        "simple_desc": "Creates a special dimension around the character. Enemies within this dimension will become Frozen. After entering combat with enemies in the dimension, this character regenerates Energy and obtains 1 stack of Syzygy with a high chance to Freeze enemies.",
+        "desc": "After using this Technique, creates a special dimension around Jingliu that lasts for #3[i] seconds, and all enemies in this special dimension will become Frozen. After entering combat with enemies in the special dimension, Jingliu immediately regenerates #6[i] Energy and obtains #1[i] stack(s) of Syzygy, with a #2[i]% base chance of Freezing enemy targets for #4[i] turn(s). While Frozen, enemy targets cannot take action, and receive Ice Additional DMG equal to #5[i]% of Jingliu's ATK at the start of every turn. Only 1 dimension created by allies can exist at the same time.",
         "params": [
             [
                 1,
@@ -13353,7 +13353,7 @@
         "effect": "Restore",
         "effect_text": "Restore",
         "simple_desc": "Huohuo gains Divine Provision after using her Skill. If Huohuo possesses Divine Provision when an ally's turn starts or when an ally uses Ultimate, restores the ally's HP. At the same time, every ally with low HP receives healing once. When Divine Provision is triggered to heal an ally, dispel 1 debuff from that ally.",
-        "desc": "After using her Skill, Huohuo gains Divine Provision, lasting for #1[i] turn(s). This duration decreases by 1 turn at the start of each Huohuo's turn. If Huohuo has Divine Provision when an ally's turn starts or when an ally uses their Ultimate, restores HP for that ally by an amount equal to #3[f1]% of Huohuo's Max HP plus #5[i]. At the same time, every ally with #6[i]% HP or lower receives healing once.\nWhen Divine Provision is triggered to heal an ally, dispel #2[i] debuff(s) from that ally. This effect can be triggered up to #7[i] time(s). Using the skill again resets the effect's trigger count.",
+        "desc": "After using her Skill, Huohuo gains Divine Provision, lasting for #1[i] turn(s). This duration reduces by 1 turn at the start of Huohuo's every turn. If Huohuo has Divine Provision when an ally's turn starts or when an ally uses their Ultimate, restores HP for that ally by an amount equal to #3[f1]% of Huohuo's Max HP plus #5[i]. At the same time, every ally with #6[i]% HP or lower receives healing once.\nWhen Divine Provision is triggered to heal an ally, dispel #2[i] debuff(s) from that ally. This effect can be triggered up to #7[i] time(s). Using the skill again resets the effect's trigger count.",
         "params": [
             [
                 2,
@@ -13639,8 +13639,8 @@
         "type_text": "Ultimate",
         "effect": "AoEAttack",
         "effect_text": "AoE",
-        "simple_desc": "Inflicts Besotted on all enemies and deals Fire DMG to them at the same time. Enhances this unit's next Basic ATK to Nectar Blitz.",
-        "desc": "Inflicts Besotted on all enemies, lasting for #2[i] turn(s). At the same time, deals Fire DMG equal to #1[i]% of Gallagher's ATK to all enemies, and enhances this unit's next Basic ATK to Nectar Blitz.",
+        "simple_desc": "Inflicts Besotted on all enemies and deals Fire DMG to them at the same time. Enhances the next Basic ATK to Nectar Blitz.",
+        "desc": "Inflicts Besotted on all enemies, lasting for #2[i] turn(s). At the same time, deals Fire DMG equal to #1[i]% of Gallagher's ATK to all enemies, and enhances his next Basic ATK to Nectar Blitz.",
         "params": [
             [
                 0.75,
@@ -13714,8 +13714,8 @@
         "type_text": "Talent",
         "effect": "Restore",
         "effect_text": "Restore",
-        "simple_desc": "The Besotted state increases the Break DMG that targets receive. Every time a Besotted target is attacked by an ally, the attacker's HP gets restored.",
-        "desc": "The Besotted state increases the Break DMG that targets receive by #1[f1]%. Every time a Besotted target is attacked by an ally, the attacker's HP gets restored by #2[i].",
+        "simple_desc": "The Besotted state makes targets receive more Break DMG. Every time the target gets attacked by an ally, the attacker's HP is restored.",
+        "desc": "The Besotted state makes targets receive #1[f1]% more Break DMG. Every time a Besotted target gets attacked by an ally, the attacking ally's HP is restored by #2[i].",
         "params": [
             [
                 0.06,
@@ -14331,7 +14331,7 @@
         "effect": "Support",
         "effect_text": "Support",
         "simple_desc": "After using her Skill, Ruan Mei gains Overtone. When Ruan Mei has Overtone, increase all allies' DMG and Weakness Break efficiency.",
-        "desc": "After using her Skill, Ruan Mei gains Overtone, lasting for #3[i] turn(s). This duration decreases by 1 at the start of Ruan Mei's turn. When Ruan Mei has Overtone, all allies' DMG increases by #1[f1]% and Weakness Break Efficiency increases by #2[i]%.",
+        "desc": "After using her Skill, Ruan Mei gains Overtone, lasting for #3[i] turn(s). This duration reduces by 1 at the start of Ruan Mei's every turn. When Ruan Mei has Overtone, all allies' DMG increases by #1[f1]% and Weakness Break Efficiency increases by #2[i]%.",
         "params": [
             [
                 0.16,
@@ -14693,7 +14693,7 @@
         "effect": "Defence",
         "effect_text": "Defense",
         "simple_desc": "Provides all allies with a Fortified Wager shield, whose Shield effect is stackable.",
-        "desc": "Provides all allies with a Fortified Wager shield that can block DMG equal to #1[f1]% of Aventurine's DEF plus #2[i], lasting for #3[i] turn(s). When repeatedly gaining Fortified Wager, the Shield effect can stack, up to #4[i]% of the Shield provided by the current Skill.",
+        "desc": "Provides all allies with a Fortified Wager shield that can block DMG equal to #1[f1]% of Aventurine's DEF plus #2[i], lasting for #3[i] turn(s). When Fortified Wager is gained repeatedly, the Shield effect can stack, up to #4[i]% of the current Shield effect provided by the Skill.",
         "params": [
             [
                 0.16,
@@ -14798,7 +14798,7 @@
         "effect": "SingleAttack",
         "effect_text": "Single Target",
         "simple_desc": "Gains a random amount of Blind Bet points and inflicts Unnerved on a single enemy, dealing Imaginary DMG. When an ally hits an Unnerved enemy, the CRIT DMG dealt increases.",
-        "desc": "Randomly gains 1 to #1[i] points of Blind Bet. Then inflicts Unnerved on a single target enemy, lasting for #4[i] turn(s). And deals Imaginary DMG equal to #2[i]% of Aventurine's DEF to the single target enemy. When an ally hits an Unnerved enemy target, the CRIT DMG dealt increases by #3[f1]%.",
+        "desc": "Randomly gains 1 to #1[i] points of Blind Bet. Then, inflicts Unnerved on a single target enemy for #4[i] turn(s) and deals Imaginary DMG equal to #2[i]% of Aventurine's DEF to the single target enemy. When an ally hits an Unnerved enemy target, the CRIT DMG dealt increases by #3[f1]%.",
         "params": [
             [
                 7,
@@ -14902,8 +14902,8 @@
         "type_text": "Talent",
         "effect": "Bounce",
         "effect_text": "Bounce",
-        "simple_desc": "The Effect RES increases for a single ally with Fortified Wager. When the single ally gets attacked, Aventurine accumulates Blind Bet. When Aventurine has Fortified Wager, he can resist Crowd Control debuffs. Upon reaching 7 points of Blind Bet, Aventurine consumes the 7 points to launch a follow-up attack that deals minor Imaginary DMG to random enemies, bouncing a total of 7 times.",
-        "desc": "The Effect RES increases by #4[f1]% for a single ally with Fortified Wager. And when this allied character gets attacked, Aventurine gains 1 point of Blind Bet. When Aventurine has Fortified Wager, he can resist Crowd Control debuffs. This effect can trigger again after #5[i] turn(s). Aventurine additionally gains #1[i] point(s) of Blind Bet after getting attacked. Upon reaching 7 points of Blind Bet, Aventurine consumes the 7 points to launch a #2[i]-hit follow-up attack, with each hit dealing Imaginary DMG equal to #3[i]% of Aventurine's DEF to a single random enemy. Blind Bet is capped at 10 points.",
+        "simple_desc": "For any single ally with Fortified Wager, their Effect RES increases, and when they get attacked, Aventurine accumulates Blind Bet. When Aventurine has Fortified Wager, he can resist Crowd Control debuffs. Upon reaching 7 points of Blind Bet, Aventurine consumes the 7 points to launch a follow-up attack that deals minor Imaginary DMG to random single enemy targets, bouncing a total of 7 times.",
+        "desc": "For any single ally with Fortified Wager, their Effect RES increases by #4[f1]%, and when they get attacked, Aventurine gains 1 point of Blind Bet. When Aventurine has Fortified Wager, he can resist Crowd Control debuffs. This effect can trigger again after #5[i] turn(s). Aventurine additionally gains #1[i] point(s) of Blind Bet after getting attacked. Upon reaching 7 points of Blind Bet, Aventurine consumes the 7 points to launch a #2[i]-hit follow-up attack, with each hit dealing Imaginary DMG equal to #3[i]% of Aventurine's DEF to a single random enemy. Blind Bet is capped at 10 points.",
         "params": [
             [
                 1,
@@ -15338,8 +15338,8 @@
         "type_text": "Technique",
         "effect": "Impair",
         "effect_text": "Impair",
-        "simple_desc": "Creates a dimension. Enemies within the dimension are Taunted. After entering battle with enemies in this dimension, there is a high chance to reduce SPD of enemy targets.",
-        "desc": "After using Technique, creates a dimension that Taunts nearby enemies, lasting for #1[i] second(s). After entering battle with enemies in this dimension, there is a #2[i]% base chance to reduce each single enemy target's SPD by #3[i]% for #4[i] turn(s). Only 1 dimension created by allies can exist at the same time.",
+        "simple_desc": "Creates a special dimension. Enemies within the dimension are Taunted. After entering battle with enemies in this dimension, there is a high chance to reduce SPD of enemy targets.",
+        "desc": "After using Technique, creates a special dimension that Taunts nearby enemies, lasting for #1[i] second(s). After entering battle with enemies in this special dimension, there is a #2[i]% base chance to reduce each single enemy target's SPD by #3[i]% for #4[i] turn(s). Only 1 dimension created by allies can exist at the same time.",
         "params": [
             [
                 10,
@@ -16514,8 +16514,8 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "When Slashed Dream reaches its upper limit, the Ultimate can be activated. During the Ultimate, reduces enemies' Toughness regardless of Weakness Types and reduces all enemies' All-Type RES.\nWhen any unit inflicts debuffs on an enemy target while using their ability, Acheron gains Slashed Dream and inflicts Crimson Knot on the enemy target.",
-        "desc": "When Slashed Dream reaches #1[i] point(s), the Ultimate can be activated. During the Ultimate, reduces enemies' Toughness regardless of Weakness Types and reduces all enemies' All-Type RES by #2[i]%, lasting until the end of the Ultimate.\nWhen any unit inflicts debuffs on an enemy target while using their ability, Acheron gains 1 point of Slashed Dream and inflicts 1 stack of Crimson Knot on the target. If debuffs are inflicted on multiple targets, then the 1 stack of Crimson Knot will be inflicted on the enemy target with the most Crimson Knot stacks. This effect can only trigger once per every ability usage.\nAfter an enemy target exits the field or gets defeated by any unit while Acheron is on the field, their Crimson Knot stacks will be transferred to the enemy target with the most Crimson Knot stacks on the whole field.",
+        "simple_desc": "When Slashed Dream reaches its upper limit, the Ultimate can be activated. During the Ultimate, reduces enemies' Toughness regardless of Weakness Types and reduces all enemies' All-Type RES.\nWhen any unit inflicts debuffs on an enemy target while using their ability, Acheron gains Slashed Dream and inflicts Crimson Knot on an enemy target.",
+        "desc": "When Slashed Dream reaches #1[i] point(s), the Ultimate can be activated. During the Ultimate, reduces enemies' Toughness regardless of Weakness Types and reduces all enemies' All-Type RES by #2[i]%, lasting until the end of the Ultimate.\nWhen any unit inflicts debuffs on an enemy target while using their ability, Acheron gains 1 point of Slashed Dream and inflicts 1 stack of Crimson Knot on a target. If debuffs are inflicted on multiple targets, then the 1 stack of Crimson Knot will be inflicted on the enemy target with the most Crimson Knot stacks. This effect can only trigger once for every ability use.\nAfter an enemy target exits the field or gets defeated by any unit while Acheron is on the field, their Crimson Knot stacks will be transferred to the enemy target with the most Crimson Knot stacks on the whole field.",
         "params": [
             [
                 9,
@@ -16604,7 +16604,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "Attacks the enemy. At the start of each wave, gains Quadrivalent Ascendance, dealing Lightning DMG to all enemies and reducing Toughness regardless of Weakness Types.\nIf attacking a normal enemy, immediately defeats them without entering combat. When not hitting enemies, no Technique Points are consumed.",
-        "desc": "Immediately attacks the enemy. At the start of each wave, gains Quadrivalent Ascendance, dealing Lightning DMG equal to #1[i]% of Acheron's ATK to all enemies and reducing Toughness of all enemies irrespective of Weakness Types. When Weakness is broken, triggers the Lightning Weakness Break effect.\nQuadrivalent Ascendance: After using the Ultimate, Acheron gains #2[i] point(s) of Slashed Dream and inflicts #2[i] stack(s) of Crimson Knot on a single random enemy.\nIf attacking a normal enemy, immediately defeats them without entering combat. When not hitting enemies, no Technique Points are consumed.",
+        "desc": "Immediately attacks the enemy. At the start of each wave, gains Quadrivalent Ascendance, dealing Lightning DMG equal to #1[i]% of Acheron's ATK to all enemies and reducing Toughness of all enemies irrespective of Weakness Types. When breaking Weaknesses, triggers the Lightning Weakness Break effect.\nQuadrivalent Ascendance: After using the Ultimate, Acheron gains #2[i] point(s) of Slashed Dream and inflicts #2[i] stack(s) of Crimson Knot on a single random enemy.\nIf attacking a normal enemy, immediately defeats them without entering combat. When not hitting enemies, no Technique Points are consumed.",
         "params": [
             [
                 2,
@@ -16942,6 +16942,366 @@
             ]
         ],
         "icon": "icon/skill/1308_ultimate.png"
+    },
+    "130901": {
+        "id": "130901",
+        "name": "Wingflip White Noise",
+        "max_level": 9,
+        "element": "Physical",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Deals minor Physical DMG to a single enemy.",
+        "desc": "Deals Physical DMG equal to #1[i]% of Robin's ATK to a single target enemy.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1309_basic_atk.png"
+    },
+    "130902": {
+        "id": "130902",
+        "name": "Pinion's Aria",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Skill",
+        "effect": "Support",
+        "effect_text": "Support",
+        "simple_desc": "Increases DMG dealt by all allies.",
+        "desc": "Increase DMG dealt by all allies by #1[i]%, lasting for #2[i] turn(s). This duration reduces by 1 at the start of Robin's every turn.",
+        "params": [
+            [
+                0.25,
+                3
+            ],
+            [
+                0.275,
+                3
+            ],
+            [
+                0.3,
+                3
+            ],
+            [
+                0.325,
+                3
+            ],
+            [
+                0.35,
+                3
+            ],
+            [
+                0.375,
+                3
+            ],
+            [
+                0.4062,
+                3
+            ],
+            [
+                0.4375,
+                3
+            ],
+            [
+                0.4688,
+                3
+            ],
+            [
+                0.5,
+                3
+            ],
+            [
+                0.525,
+                3
+            ],
+            [
+                0.55,
+                3
+            ],
+            [
+                0.575,
+                3
+            ],
+            [
+                0.6,
+                3
+            ],
+            [
+                0.625,
+                3
+            ]
+        ],
+        "icon": "icon/skill/1309_skill.png"
+    },
+    "130903": {
+        "id": "130903",
+        "name": "Vox Harmonique, Opus Cosmique",
+        "max_level": 15,
+        "element": "",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "Support",
+        "effect_text": "Support",
+        "simple_desc": "Enters the Concerto state, increases all allies' ATK, and causes all teammates to immediately take action. After an attack, Robin deals Additional Physical DMG. While Concerto lasts, Robin is immune to Crowd Control debuffs. Before Concerto ends, Robin won't take turn or action, lasting until the end of the countdown.",
+        "desc": "Robin enters the Concerto state and makes all other allies immediately take action.\nWhile in the Concerto state, increases all allies' ATK by #1[f1]% of Robin's ATK plus #3[i]. Moreover, after every attack by allies, Robin deals Additional Physical DMG equal to #4[i]% of her ATK for 1 time, with a fixed CRIT Rate for this damage set at #5[i]% and fixed CRIT DMG set at #6[i]%.\nWhile in the Concerto state, Robin is immune to Crowd Control debuffs and cannot enter her turn or take action until the Concerto state ends.\nA Concerto countdown appears on the Action Order bar. When the countdown's turn begins, Robin exits the Concerto state and immediately takes action. The countdown has its own fixed SPD of #2[i].",
+        "params": [
+            [
+                0.152,
+                90,
+                50,
+                0.72,
+                1,
+                1.5
+            ],
+            [
+                0.1596,
+                90,
+                65,
+                0.768,
+                1,
+                1.5
+            ],
+            [
+                0.1672,
+                90,
+                80,
+                0.816,
+                1,
+                1.5
+            ],
+            [
+                0.1748,
+                90,
+                95,
+                0.864,
+                1,
+                1.5
+            ],
+            [
+                0.1824,
+                90,
+                110,
+                0.912,
+                1,
+                1.5
+            ],
+            [
+                0.19,
+                90,
+                125,
+                0.96,
+                1,
+                1.5
+            ],
+            [
+                0.1995,
+                90,
+                143.75,
+                1.02,
+                1,
+                1.5
+            ],
+            [
+                0.209,
+                90,
+                162.5,
+                1.08,
+                1,
+                1.5
+            ],
+            [
+                0.2185,
+                90,
+                181.25,
+                1.14,
+                1,
+                1.5
+            ],
+            [
+                0.228,
+                90,
+                200,
+                1.2,
+                1,
+                1.5
+            ],
+            [
+                0.2356,
+                90,
+                215,
+                1.248,
+                1,
+                1.5
+            ],
+            [
+                0.2432,
+                90,
+                230,
+                1.296,
+                1,
+                1.5
+            ],
+            [
+                0.2508,
+                90,
+                245,
+                1.344,
+                1,
+                1.5
+            ],
+            [
+                0.2584,
+                90,
+                260,
+                1.392,
+                1,
+                1.5
+            ],
+            [
+                0.266,
+                90,
+                275,
+                1.44,
+                1,
+                1.5
+            ]
+        ],
+        "icon": "icon/skill/1309_ultimate.png"
+    },
+    "130904": {
+        "id": "130904",
+        "name": "Tonal Resonance",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Support",
+        "effect_text": "Support",
+        "simple_desc": "Increase all allies' CRIT DMG, and Robin additionally regenerates Energy after allies attack enemies.",
+        "desc": "Increase all allies' CRIT DMG by #1[f1]%. Moreover, after allies attack enemy targets, Robin additionally regenerates #2[i] Energy for herself.",
+        "params": [
+            [
+                0.05,
+                2
+            ],
+            [
+                0.065,
+                2
+            ],
+            [
+                0.08,
+                2
+            ],
+            [
+                0.095,
+                2
+            ],
+            [
+                0.11,
+                2
+            ],
+            [
+                0.125,
+                2
+            ],
+            [
+                0.1437,
+                2
+            ],
+            [
+                0.1625,
+                2
+            ],
+            [
+                0.1812,
+                2
+            ],
+            [
+                0.2,
+                2
+            ],
+            [
+                0.215,
+                2
+            ],
+            [
+                0.23,
+                2
+            ],
+            [
+                0.245,
+                2
+            ],
+            [
+                0.26,
+                2
+            ],
+            [
+                0.275,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1309_talent.png"
+    },
+    "130906": {
+        "id": "130906",
+        "name": "Attack",
+        "max_level": 1,
+        "element": "Physical",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Attacks an enemy, and when the battle starts, reduces their Toughness of the corresponding Type.",
+        "params": [],
+        "icon": "icon/skill/1309_basic_atk.png"
+    },
+    "130907": {
+        "id": "130907",
+        "name": "Overture of Inebriation",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Support",
+        "effect_text": "Support",
+        "simple_desc": "Creates a special dimension around the character. Enemies within this dimension will not attack Robin. After entering battle while the dimension is active, Robin additionally regenerates 5 Energy at the start of each wave.",
+        "desc": "After using Technique, creates a special dimension around the character that lasts for #1[i] seconds. Enemies within this dimension will not attack Robin and will follow Robin while the dimension is active. After entering battle while the dimension is active, Robin regenerates #2[i] Energy at the start of each wave. Only 1 dimension created by allies can exist at the same time.",
+        "params": [
+            [
+                15,
+                5
+            ]
+        ],
+        "icon": "icon/skill/1309_technique.png"
     },
     "131201": {
         "id": "131201",
@@ -17293,8 +17653,8 @@
         "type_text": "Technique",
         "effect": "Impair",
         "effect_text": "Impair",
-        "simple_desc": "Creates a dimension that stops all enemies within. Upon entering battle against enemies within the dimension, Misha's next Ultimate deals more Hits Per Action.",
-        "desc": "After using the Technique, creates a dimension that lasts for #1[i] seconds. Enemies caught in the dimension are inflicted with Dream Prison and stop all their actions. Upon entering battle against enemies afflicted with Dream Prison, increases the Hits Per Action for Misha's next Ultimate by #2[i] hit(s). Only 1 dimension created by allies can exist at the same time.",
+        "simple_desc": "Creates a special dimension that stops all enemies within. Upon entering battle against enemies within the dimension, Misha's next Ultimate deals more Hits Per Action.",
+        "desc": "After using the Technique, creates a special dimension that lasts for #1[i] seconds. Enemies caught in the special dimension are inflicted with Dream Prison and stop all their actions. Upon entering battle against enemies afflicted with Dream Prison, increases the Hits Per Action for Misha's next Ultimate by #2[i] hit(s). Only 1 dimension created by allies can exist at the same time.",
         "params": [
             [
                 15,
@@ -17302,6 +17662,437 @@
             ]
         ],
         "icon": "icon/skill/1312_technique.png"
+    },
+    "131501": {
+        "id": "131501",
+        "name": "Skullcrush Spurs",
+        "max_level": 9,
+        "element": "Physical",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Deals minor Physical DMG to a single enemy.",
+        "desc": "Deals Physical DMG equal to #1[i]% of Boothill's ATK to a single target enemy.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1315_basic_atk.png"
+    },
+    "131502": {
+        "id": "131502",
+        "name": "Sizzlin' Tango",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Skill",
+        "effect": "Impair",
+        "effect_text": "Impair",
+        "simple_desc": "Initiates Standoff. After the target in the Standoff is defeated or Weakness Broken, Boothill receives Pocket Trickshot and dispels the Standoff. Boothill gains Enhanced Basic ATK and this turn does not end.",
+        "desc": "Forces Boothill and a single target enemy into the Standoff state. Boothill's Basic ATK gets Enhanced, and he cannot use his Skill, lasting for #3[i] turn(s). This duration reduces by 1 at the start of Boothill's every turn.\nThe enemy target in the Standoff becomes Taunted. When this enemy target/Boothill gets attacked by the other party in the Standoff, the DMG they receive increases by #1[i]%/#2[i]%.\nAfter this target is defeated or becomes Weakness Broken, Boothill gains 1 stack of Pocket Trickshot, then dispels the Standoff.\nThis Skill cannot regenerate Energy. After using this Skill, the current turn does not end.",
+        "params": [
+            [
+                0.15,
+                0.15,
+                2
+            ],
+            [
+                0.165,
+                0.15,
+                2
+            ],
+            [
+                0.18,
+                0.15,
+                2
+            ],
+            [
+                0.195,
+                0.15,
+                2
+            ],
+            [
+                0.21,
+                0.15,
+                2
+            ],
+            [
+                0.225,
+                0.15,
+                2
+            ],
+            [
+                0.2437,
+                0.15,
+                2
+            ],
+            [
+                0.2625,
+                0.15,
+                2
+            ],
+            [
+                0.2812,
+                0.15,
+                2
+            ],
+            [
+                0.3,
+                0.15,
+                2
+            ],
+            [
+                0.315,
+                0.15,
+                2
+            ],
+            [
+                0.33,
+                0.15,
+                2
+            ],
+            [
+                0.345,
+                0.15,
+                2
+            ],
+            [
+                0.36,
+                0.15,
+                2
+            ],
+            [
+                0.375,
+                0.15,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1315_skill.png"
+    },
+    "131503": {
+        "id": "131503",
+        "name": "Dust Devil's Sunset Rodeo",
+        "max_level": 15,
+        "element": "Physical",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Applies Physical Weakness to a single enemy, deals massive Physical DMG to them, and delays their action.",
+        "desc": "Applies Physical Weakness to a single target enemy, lasting for #3[i] turn(s).\nDeals Physical DMG equal to #1[i]% of Boothill's ATK to the target and delays their action by #2[i]%.",
+        "params": [
+            [
+                2.4,
+                0.3,
+                2
+            ],
+            [
+                2.56,
+                0.31,
+                2
+            ],
+            [
+                2.72,
+                0.32,
+                2
+            ],
+            [
+                2.88,
+                0.33,
+                2
+            ],
+            [
+                3.04,
+                0.34,
+                2
+            ],
+            [
+                3.2,
+                0.35,
+                2
+            ],
+            [
+                3.4,
+                0.3625,
+                2
+            ],
+            [
+                3.6,
+                0.375,
+                2
+            ],
+            [
+                3.8,
+                0.3875,
+                2
+            ],
+            [
+                4,
+                0.4,
+                2
+            ],
+            [
+                4.16,
+                0.41,
+                2
+            ],
+            [
+                4.32,
+                0.42,
+                2
+            ],
+            [
+                4.48,
+                0.43,
+                2
+            ],
+            [
+                4.64,
+                0.44,
+                2
+            ],
+            [
+                4.8,
+                0.45,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1315_ultimate.png"
+    },
+    "131504": {
+        "id": "131504",
+        "name": "Five Peas in a Pod",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Enhance",
+        "effect_text": "Enhance",
+        "simple_desc": "Pocket Trickshot increases the Enhanced Basic ATK's Toughness Reduction and additionally deals Physical Break DMG if the target is Weakness Broken. After winning the battle, retains Pocket Trickshot for the next battle.",
+        "desc": "Each stack of Pocket Trickshot increases the Enhanced Basic Attack's Toughness Reduction by #4[i]%, stacking up to #5[i] time(s).\nIf the target is Weakness Broken while the Enhanced Basic ATK is being used, based on the number of Pocket Trickshot stacks, deals Break DMG to this target equal to #1[i]%/#2[i]%/#3[i]% of Boothill's Physical Break DMG. The max Toughness taken into account for this DMG cannot exceed #6[i] times the base Toughness Reduction of the Basic Attack \"Skullcrush Spurs.\"\nAfter winning the battle, Boothill can retain Pocket Trickshot for the next battle.",
+        "params": [
+            [
+                0.35,
+                0.6,
+                0.85,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.385,
+                0.66,
+                0.935,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.42,
+                0.72,
+                1.02,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.455,
+                0.78,
+                1.105,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.49,
+                0.84,
+                1.19,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.525,
+                0.9,
+                1.275,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.5687,
+                0.975,
+                1.3813,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.6125,
+                1.05,
+                1.4875,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.6562,
+                1.125,
+                1.5938,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.7,
+                1.2,
+                1.7,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.735,
+                1.26,
+                1.785,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.77,
+                1.32,
+                1.87,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.805,
+                1.38,
+                1.955,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.84,
+                1.44,
+                2.04,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.875,
+                1.5,
+                2.125,
+                0.5,
+                3,
+                16
+            ]
+        ],
+        "icon": "icon/skill/1315_talent.png"
+    },
+    "131506": {
+        "id": "131506",
+        "name": "Attack",
+        "max_level": 1,
+        "element": "Physical",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Attacks an enemy, and when the battle starts, reduces their Toughness of the corresponding Type.",
+        "params": [],
+        "icon": "icon/skill/1315_basic_atk.png"
+    },
+    "131507": {
+        "id": "131507",
+        "name": "3-9× Smile",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Enhance",
+        "effect_text": "Enhance",
+        "simple_desc": "After the Technique is used, inflicts Physical Weakness on a single enemy when casting the Skill for the first time in the next battle.",
+        "desc": "After the Technique is used, when casting the Skill for the first time in the next battle, applies the same Physical Weakness to the target as the one induced by the Ultimate, lasting for #1[i] turn(s).",
+        "params": [
+            [
+                2
+            ]
+        ],
+        "icon": "icon/skill/1315_technique.png"
+    },
+    "131508": {
+        "id": "131508",
+        "name": "Fanning the Hammer",
+        "max_level": 9,
+        "element": "Physical",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Deals Physical DMG to a single enemy. Can only attack the target in the Standoff.",
+        "desc": "Deals Physical DMG equal to #1[i]% of Boothill's ATK to a single target enemy.\nThe Enhanced Basic Attack cannot recover Skill Points and can only target the enemy that is in the Standoff.",
+        "params": [
+            [
+                1.1
+            ],
+            [
+                1.32
+            ],
+            [
+                1.54
+            ],
+            [
+                1.76
+            ],
+            [
+                1.98
+            ],
+            [
+                2.2
+            ],
+            [
+                2.42
+            ],
+            [
+                2.64
+            ],
+            [
+                2.86
+            ]
+        ],
+        "icon": "icon/skill/1315_basic_atk.png"
     },
     "800101": {
         "id": "800101",
@@ -18964,5 +19755,605 @@
             ]
         ],
         "icon": "icon/skill/8004_basic_atk.png"
+    },
+    "800501": {
+        "id": "800501",
+        "name": "Swing Dance Etiquette",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Deals minor Imaginary DMG to a single enemy.",
+        "desc": "Deals Imaginary DMG equal to #1[i]% of the Trailblazer's ATK to a single target enemy.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/8005_basic_atk.png"
+    },
+    "800502": {
+        "id": "800502",
+        "name": "Halftime to Make It Rain",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "BPSkill",
+        "type_text": "Skill",
+        "effect": "Bounce",
+        "effect_text": "Bounce",
+        "simple_desc": "Deals minor Imaginary DMG to single enemy targets with 5 Bounces in total.",
+        "desc": "Deals Imaginary DMG equal to #1[i]% of the Trailblazer's ATK to a single target enemy and additionally deals DMG for 4 times, with each time dealing Imaginary DMG equal to #1[i]% of the Trailblazer's ATK to a random enemy.",
+        "params": [
+            [
+                0.25,
+                2
+            ],
+            [
+                0.275,
+                2
+            ],
+            [
+                0.3,
+                2
+            ],
+            [
+                0.325,
+                2
+            ],
+            [
+                0.35,
+                2
+            ],
+            [
+                0.375,
+                2
+            ],
+            [
+                0.4062,
+                2
+            ],
+            [
+                0.4375,
+                2
+            ],
+            [
+                0.4688,
+                2
+            ],
+            [
+                0.5,
+                2
+            ],
+            [
+                0.525,
+                2
+            ],
+            [
+                0.55,
+                2
+            ],
+            [
+                0.575,
+                2
+            ],
+            [
+                0.6,
+                2
+            ],
+            [
+                0.625,
+                2
+            ]
+        ],
+        "icon": "icon/skill/8005_skill.png"
+    },
+    "800503": {
+        "id": "800503",
+        "name": "All-Out Footlight Parade",
+        "max_level": 15,
+        "element": "",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "Support",
+        "effect_text": "Support",
+        "simple_desc": "Grants all allies the Backup Dancer effect. Allies with Backup Dancer have their Break Effect increased and additionally deals Super Break DMG 1 time when they attack enemy targets that are Weakness Broken.",
+        "desc": "Grants all allies the Backup Dancer effect, lasting for #1[i] turn(s). This duration reduces by 1 at the start of Trailblazer's every turn. Allies with the Backup Dancer effect have their Break Effect increased by #3[i]%. And when they attack enemy targets that are in the Weakness Broken state, the Toughness Reduction of the attack will be converted into 1 instance of Super Break DMG.",
+        "params": [
+            [
+                3,
+                1,
+                0.15
+            ],
+            [
+                3,
+                1,
+                0.165
+            ],
+            [
+                3,
+                1,
+                0.18
+            ],
+            [
+                3,
+                1,
+                0.195
+            ],
+            [
+                3,
+                1,
+                0.21
+            ],
+            [
+                3,
+                1,
+                0.225
+            ],
+            [
+                3,
+                1,
+                0.2437
+            ],
+            [
+                3,
+                1,
+                0.2625
+            ],
+            [
+                3,
+                1,
+                0.2812
+            ],
+            [
+                3,
+                1,
+                0.3
+            ],
+            [
+                3,
+                1,
+                0.315
+            ],
+            [
+                3,
+                1,
+                0.33
+            ],
+            [
+                3,
+                1,
+                0.345
+            ],
+            [
+                3,
+                1,
+                0.36
+            ],
+            [
+                3,
+                1,
+                0.375
+            ]
+        ],
+        "icon": "icon/skill/8005_ultimate.png"
+    },
+    "800504": {
+        "id": "800504",
+        "name": "Full-on Aerial Dance",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Impair",
+        "effect_text": "Impair",
+        "simple_desc": "The Trailblazer regenerates Energy when an enemy target's Weakness is Broken.",
+        "desc": "The Trailblazer immediately regenerates #1[f1] Energy when an enemy target's Weakness is Broken.",
+        "params": [
+            [
+                5
+            ],
+            [
+                5.5
+            ],
+            [
+                6
+            ],
+            [
+                6.5
+            ],
+            [
+                7
+            ],
+            [
+                7.5
+            ],
+            [
+                8.125
+            ],
+            [
+                8.75
+            ],
+            [
+                9.375
+            ],
+            [
+                10
+            ],
+            [
+                10.5
+            ],
+            [
+                11
+            ],
+            [
+                11.5
+            ],
+            [
+                12
+            ],
+            [
+                12.5
+            ]
+        ],
+        "icon": "icon/skill/8005_talent.png"
+    },
+    "800506": {
+        "id": "800506",
+        "name": "Attack",
+        "max_level": 1,
+        "element": "Imaginary",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Attacks an enemy, and when the battle starts, reduces their Toughness of the corresponding Type.",
+        "params": [],
+        "icon": "icon/skill/8005_basic_atk.png"
+    },
+    "800507": {
+        "id": "800507",
+        "name": "Now! I'm the Band!",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Support",
+        "effect_text": "Support",
+        "simple_desc": "At the start of the next battle, increases all allies' Break Effect.",
+        "desc": "After the Technique is used, at the start of the next battle, all allies' Break Effect increases by #1[i]%, lasting for #2[i] turn(s).",
+        "params": [
+            [
+                0.3,
+                2
+            ]
+        ],
+        "icon": "icon/skill/8005_technique.png"
+    },
+    "800601": {
+        "id": "800601",
+        "name": "Swing Dance Etiquette",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Deals minor Imaginary DMG to a single enemy.",
+        "desc": "Deals Imaginary DMG equal to #1[i]% of the Trailblazer's ATK to a single enemy.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/8006_basic_atk.png"
+    },
+    "800602": {
+        "id": "800602",
+        "name": "Halftime to Make It Rain",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "BPSkill",
+        "type_text": "Skill",
+        "effect": "Bounce",
+        "effect_text": "Bounce",
+        "simple_desc": "Deals minor Imaginary DMG to single enemy targets with 5 Bounces in total.",
+        "desc": "Deals Imaginary DMG equal to #1[i]% of the Trailblazer's ATK to a single target enemy and additionally deals DMG for 4 times, with each time dealing Imaginary DMG equal to #1[i]% of the Trailblazer's ATK to a random enemy.",
+        "params": [
+            [
+                0.25,
+                2
+            ],
+            [
+                0.275,
+                2
+            ],
+            [
+                0.3,
+                2
+            ],
+            [
+                0.325,
+                2
+            ],
+            [
+                0.35,
+                2
+            ],
+            [
+                0.375,
+                2
+            ],
+            [
+                0.4062,
+                2
+            ],
+            [
+                0.4375,
+                2
+            ],
+            [
+                0.4688,
+                2
+            ],
+            [
+                0.5,
+                2
+            ],
+            [
+                0.525,
+                2
+            ],
+            [
+                0.55,
+                2
+            ],
+            [
+                0.575,
+                2
+            ],
+            [
+                0.6,
+                2
+            ],
+            [
+                0.625,
+                2
+            ]
+        ],
+        "icon": "icon/skill/8006_skill.png"
+    },
+    "800603": {
+        "id": "800603",
+        "name": "All-Out Footlight Parade",
+        "max_level": 15,
+        "element": "",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "Support",
+        "effect_text": "Support",
+        "simple_desc": "Grants all allies the Backup Dancer effect. Allies with Backup Dancer have their Break Effect increased and additionally deals Super Break DMG 1 time when they attack enemy targets that are Weakness Broken.",
+        "desc": "Grants all allies the Backup Dancer effect, lasting for #1[i] turn(s). This duration reduces by 1 at the start of Trailblazer's every turn. Allies with the Backup Dancer effect have their Break Effect increased by #3[i]%. And when they attack enemy targets that are in the Weakness Broken state, the Toughness Reduction of the attack will be converted into 1 instance of Super Break DMG.",
+        "params": [
+            [
+                3,
+                1,
+                0.15
+            ],
+            [
+                3,
+                1,
+                0.165
+            ],
+            [
+                3,
+                1,
+                0.18
+            ],
+            [
+                3,
+                1,
+                0.195
+            ],
+            [
+                3,
+                1,
+                0.21
+            ],
+            [
+                3,
+                1,
+                0.225
+            ],
+            [
+                3,
+                1,
+                0.2437
+            ],
+            [
+                3,
+                1,
+                0.2625
+            ],
+            [
+                3,
+                1,
+                0.2812
+            ],
+            [
+                3,
+                1,
+                0.3
+            ],
+            [
+                3,
+                1,
+                0.315
+            ],
+            [
+                3,
+                1,
+                0.33
+            ],
+            [
+                3,
+                1,
+                0.345
+            ],
+            [
+                3,
+                1,
+                0.36
+            ],
+            [
+                3,
+                1,
+                0.375
+            ]
+        ],
+        "icon": "icon/skill/8006_ultimate.png"
+    },
+    "800604": {
+        "id": "800604",
+        "name": "Full-on Aerial Dance",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Impair",
+        "effect_text": "Impair",
+        "simple_desc": "The Trailblazer regenerates Energy when an enemy target's Weakness is Broken.",
+        "desc": "The Trailblazer immediately regenerates #1[f1] Energy when an enemy target's Weakness is Broken.",
+        "params": [
+            [
+                5
+            ],
+            [
+                5.5
+            ],
+            [
+                6
+            ],
+            [
+                6.5
+            ],
+            [
+                7
+            ],
+            [
+                7.5
+            ],
+            [
+                8.125
+            ],
+            [
+                8.75
+            ],
+            [
+                9.375
+            ],
+            [
+                10
+            ],
+            [
+                10.5
+            ],
+            [
+                11
+            ],
+            [
+                11.5
+            ],
+            [
+                12
+            ],
+            [
+                12.5
+            ]
+        ],
+        "icon": "icon/skill/8006_talent.png"
+    },
+    "800606": {
+        "id": "800606",
+        "name": "Attack",
+        "max_level": 1,
+        "element": "Imaginary",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Attacks an enemy, and when the battle starts, reduces their Toughness of the corresponding Type.",
+        "params": [],
+        "icon": "icon/skill/8006_basic_atk.png"
+    },
+    "800607": {
+        "id": "800607",
+        "name": "Now! I'm the Band!",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Support",
+        "effect_text": "Support",
+        "simple_desc": "At the start of the next battle, increases all allies' Break Effect.",
+        "desc": "After the Technique is used, at the start of the next battle, all allies' Break Effect increases by #1[i]%, lasting for #2[i] turn(s).",
+        "params": [
+            [
+                0.3,
+                2
+            ]
+        ],
+        "icon": "icon/skill/8006_technique.png"
     }
 }

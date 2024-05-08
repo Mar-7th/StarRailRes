@@ -3809,7 +3809,7 @@
         "id": "130101",
         "name": "Salty Dog",
         "rank": 1,
-        "desc": "When Gallagher enters the battle, regenerates 20 Energy and increases Effect RES by 50%.",
+        "desc": "When entering the battle, Gallagher regenerates 20 Energy and increases Effect RES by 50%.",
         "materials": [
             {
                 "id": "11301",
@@ -3823,7 +3823,7 @@
         "id": "130102",
         "name": "Lion's Tail",
         "rank": 2,
-        "desc": "When using the Skill, removes 1 debuff(s) from a target ally. At the same time, increases their Effect RES by 30%, lasting for 2 turn(s).",
+        "desc": "When using the Skill, removes 1 debuff(s) from the target ally. At the same time, increases their Effect RES by 30%, lasting for 2 turn(s).",
         "materials": [
             {
                 "id": "11301",
@@ -4137,7 +4137,7 @@
         "id": "130402",
         "name": "Bounded Rationality",
         "rank": 2,
-        "desc": "When using Basic ATK, reduces the target's All-Type RES by 12% for 3 turn(s).",
+        "desc": "When using the Basic ATK, reduces the target's All-Type RES by 12% for 3 turn(s).",
         "materials": [
             {
                 "id": "11304",
@@ -4211,7 +4211,7 @@
         "id": "130406",
         "name": "Stag Hunt Game",
         "rank": 6,
-        "desc": "For every ally with a Shield, the DMG dealt by Aventurine increases by 50%, up to a maximum of 150%.",
+        "desc": "For every ally that holds a Shield, the DMG dealt by Aventurine increases by 50%, up to a maximum of 150%.",
         "materials": [
             {
                 "id": "11304",
@@ -4531,7 +4531,7 @@
         "id": "130801",
         "name": "Silenced Sky Spake Sooth",
         "rank": 1,
-        "desc": "CRIT Rate increases by 18% when dealing DMG to debuffed enemies.",
+        "desc": "When dealing DMG to debuffed enemies, increases the CRIT Rate by 18%.",
         "materials": [
             {
                 "id": "11308",
@@ -4598,7 +4598,7 @@
         "id": "130804",
         "name": "Shrined Fire for Mirrored Soul",
         "rank": 4,
-        "desc": "When enemy targets enter combat, afflict them with the Ultimate DMG Vulnerable Vulnerability state, increasing the amount of Ultimate DMG they take by 8%.",
+        "desc": "When enemy targets enter combat, inflicts them with the Ultimate DMG Vulnerability, increasing the amount of Ultimate DMG they take by 8%.",
         "materials": [
             {
                 "id": "11308",
@@ -4635,7 +4635,7 @@
         "id": "130806",
         "name": "Apocalypse, the Emancipator",
         "rank": 6,
-        "desc": "Increases the All-Type RES PEN for the Ultimate DMG dealt by Acheron by 20%. The DMG dealt by Basic ATK and Skill will also be considered as Ultimate DMG and can reduce enemy toughness regardless of Weakness Types. When Weakness is broken, triggers the Lightning Weakness Break effect.",
+        "desc": "Increases the All-Type RES PEN for the Ultimate DMG dealt by Acheron by 20%. The DMG dealt by Basic ATK and Skill will also be considered as Ultimate DMG and can reduce enemy toughness regardless of Weakness Types. When breaking Weaknesses, triggers the Lightning Weakness Break effect.",
         "materials": [
             {
                 "id": "11308",
@@ -4644,6 +4644,108 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1308_rank6.png"
+    },
+    "130901": {
+        "id": "130901",
+        "name": "Land of Smiles",
+        "rank": 1,
+        "desc": "While the Concerto state is active, all allies' All-Type RES PEN increases by 24%.",
+        "materials": [
+            {
+                "id": "11309",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1309_rank1.png"
+    },
+    "130902": {
+        "id": "130902",
+        "name": "Afternoon Tea For Two",
+        "rank": 2,
+        "desc": "While the Concerto state is active, all allies' SPD increases by 16%. The Talent's Energy Regeneration effect additionally increases by 1.",
+        "materials": [
+            {
+                "id": "11309",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1309_rank2.png"
+    },
+    "130903": {
+        "id": "130903",
+        "name": "Inverted Tuning",
+        "rank": 3,
+        "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nUltimate Lv. +2, up to a maximum of Lv. 15.",
+        "materials": [
+            {
+                "id": "11309",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130902",
+                "num": 2
+            },
+            {
+                "id": "130903",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1309_skill.png"
+    },
+    "130904": {
+        "id": "130904",
+        "name": "Raindrop Key",
+        "rank": 4,
+        "desc": "When using the Ultimate, dispels Crowd Control debuffs from all allies. While Robin is in the Concerto state, increases the Effect RES of all allies by 50%.",
+        "materials": [
+            {
+                "id": "11309",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1309_rank4.png"
+    },
+    "130905": {
+        "id": "130905",
+        "name": "Lonestar's Lament",
+        "rank": 5,
+        "desc": "Basic ATK Lv. +1, up to a maximum of Lv. 10.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+        "materials": [
+            {
+                "id": "11309",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130901",
+                "num": 1
+            },
+            {
+                "id": "130904",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1309_ultimate.png"
+    },
+    "130906": {
+        "id": "130906",
+        "name": "Moonless Midnight",
+        "rank": 6,
+        "desc": "While the Concerto state is active, the CRIT DMG for the Additional Physical DMG caused by the Ultimate increases by 450%. The effect of Moonless Midnight can trigger up to 8 time(s). And the trigger count resets each time the Ultimate is used.",
+        "materials": [
+            {
+                "id": "11309",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1309_rank6.png"
     },
     "131201": {
         "id": "131201",
@@ -4746,6 +4848,112 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1312_rank6.png"
+    },
+    "131501": {
+        "id": "131501",
+        "name": "Dusty Trail's Lone Star",
+        "rank": 1,
+        "desc": "When the battle starts, obtains 1 stack of Pocket Trickshot. When Boothill deals DMG, ignores 16% of the enemy target's DEF.",
+        "materials": [
+            {
+                "id": "11315",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1315_rank1.png"
+    },
+    "131502": {
+        "id": "131502",
+        "name": "Milestonemonger",
+        "rank": 2,
+        "desc": "When in Standoff and gaining Pocket Trickshot, recovers 1 Skill Point(s) and increases Break Effect by 30%, lasting for 2 turn(s). Can also trigger this effect when gaining Pocket Trickshot stacks that exceed the max limit. But cannot trigger repeatedly within one turn.",
+        "materials": [
+            {
+                "id": "11315",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1315_rank2.png"
+    },
+    "131503": {
+        "id": "131503",
+        "name": "Marble Orchard's Guard",
+        "rank": 3,
+        "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "materials": [
+            {
+                "id": "11315",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "131503",
+                "num": 2
+            },
+            {
+                "id": "131501",
+                "num": 1
+            },
+            {
+                "id": "131508",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1315_skill.png"
+    },
+    "131504": {
+        "id": "131504",
+        "name": "Cold Cuts Chef",
+        "rank": 4,
+        "desc": "When the enemy target in the Standoff is attacked by Boothill, the DMG they receive additionally increases by 12%. When Boothill is attacked by the enemy target in the Standoff, the effect of him receiving increased DMG is offset by 12%.",
+        "materials": [
+            {
+                "id": "11315",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1315_rank4.png"
+    },
+    "131505": {
+        "id": "131505",
+        "name": "Stump Speech",
+        "rank": 5,
+        "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+        "materials": [
+            {
+                "id": "11315",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "131502",
+                "num": 2
+            },
+            {
+                "id": "131504",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1315_ultimate.png"
+    },
+    "131506": {
+        "id": "131506",
+        "name": "Crowbar Hotel's Raccoon",
+        "rank": 6,
+        "desc": "When triggering the Talent's Break DMG, additionally deals Break DMG to the target equal to 40% of the original DMG multiplier and additionally deals Break DMG to adjacent targets equal to 70% of the original DMG multiplier.",
+        "materials": [
+            {
+                "id": "11315",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1315_rank6.png"
     },
     "800101": {
         "id": "800101",
@@ -5178,5 +5386,209 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/8004_rank6.png"
+    },
+    "800501": {
+        "id": "800501",
+        "name": "Best Seat in the House",
+        "rank": 1,
+        "desc": "After using Skill for the first time, immediately recovers 1 Skill Point(s).",
+        "materials": [
+            {
+                "id": "18005",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/8005_rank1.png"
+    },
+    "800502": {
+        "id": "800502",
+        "name": "Jailbreaking Rainbowwalk",
+        "rank": 2,
+        "desc": "When the battle starts, the Trailblazer's Energy Regeneration Rate increases by 25%, lasting for 3 turn(s).",
+        "materials": [
+            {
+                "id": "18005",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/8005_rank2.png"
+    },
+    "800503": {
+        "id": "800503",
+        "name": "Sanatorium for Rest Notes",
+        "rank": 3,
+        "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+        "materials": [
+            {
+                "id": "18005",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "800502",
+                "num": 2
+            },
+            {
+                "id": "800504",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/8005_skill.png"
+    },
+    "800504": {
+        "id": "800504",
+        "name": "Dove in Tophat",
+        "rank": 4,
+        "desc": "While the Trailblazer is on the field, increases the Break Effect of all teammates (excluding the Trailblazer), by an amount equal to 15% of the Trailblazer's Break Effect.",
+        "materials": [
+            {
+                "id": "18005",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/8005_rank4.png"
+    },
+    "800505": {
+        "id": "800505",
+        "name": "Poem Favors Rhythms of Old",
+        "rank": 5,
+        "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "materials": [
+            {
+                "id": "18005",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "800503",
+                "num": 2
+            },
+            {
+                "id": "800501",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/8005_ultimate.png"
+    },
+    "800506": {
+        "id": "800506",
+        "name": "Tomorrow, Rest in Spotlight",
+        "rank": 6,
+        "desc": "The number of additional DMG applications by the Skill increases by 2.",
+        "materials": [
+            {
+                "id": "18005",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/8005_rank6.png"
+    },
+    "800601": {
+        "id": "800601",
+        "name": "Best Seat in the House",
+        "rank": 1,
+        "desc": "After using Skill for the first time, immediately recovers 1 Skill Point(s).",
+        "materials": [
+            {
+                "id": "18005",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/8005_rank1.png"
+    },
+    "800602": {
+        "id": "800602",
+        "name": "Jailbreaking Rainbowwalk",
+        "rank": 2,
+        "desc": "When the battle starts, the Trailblazer's Energy Regeneration Rate increases by 25%, lasting for 3 turn(s).",
+        "materials": [
+            {
+                "id": "18005",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/8005_rank2.png"
+    },
+    "800603": {
+        "id": "800603",
+        "name": "Sanatorium for Rest Notes",
+        "rank": 3,
+        "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+        "materials": [
+            {
+                "id": "18005",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "800602",
+                "num": 2
+            },
+            {
+                "id": "800604",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/8006_skill.png"
+    },
+    "800604": {
+        "id": "800604",
+        "name": "Dove in Tophat",
+        "rank": 4,
+        "desc": "While the Trailblazer is on the field, increases the Break Effect of all teammates (excluding the Trailblazer), by an amount equal to 15% of the Trailblazer's Break Effect.",
+        "materials": [
+            {
+                "id": "18005",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/8005_rank4.png"
+    },
+    "800605": {
+        "id": "800605",
+        "name": "Poem Favors Rhythms of Old",
+        "rank": 5,
+        "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "materials": [
+            {
+                "id": "18005",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "800603",
+                "num": 2
+            },
+            {
+                "id": "800601",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/8006_ultimate.png"
+    },
+    "800606": {
+        "id": "800606",
+        "name": "Tomorrow, Rest in Spotlight",
+        "rank": 6,
+        "desc": "The number of additional DMG applications by the Skill increases by 2.",
+        "materials": [
+            {
+                "id": "18005",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/8005_rank6.png"
     }
 }

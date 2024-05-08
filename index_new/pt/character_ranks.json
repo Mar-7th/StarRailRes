@@ -4137,7 +4137,7 @@
         "id": "130402",
         "name": "Racionalidade Limitada",
         "rank": 2,
-        "desc": "Ao usar um ATQ Básico, reduz a RES a Todos os Tipos do alvo em 12% por 3 rodada(s).",
+        "desc": "Ao usar o ATQ Básico, reduz a RES a Todos os Tipos do alvo em 12% por 3 rodada(s).",
         "materials": [
             {
                 "id": "11304",
@@ -4531,7 +4531,7 @@
         "id": "130801",
         "name": "Verdadeiras Palavras do Céu",
         "rank": 1,
-        "desc": "Aumenta a Chance de CRIT em 18% ao causar Dano a inimigos penalizados.",
+        "desc": "Ao causar Dano a inimigos com penalidade, aumenta o CRIT em 18%.",
         "materials": [
             {
                 "id": "11308",
@@ -4635,7 +4635,7 @@
         "id": "130806",
         "name": "Apocalipse, o Emancipador",
         "rank": 6,
-        "desc": "Aumenta a PEN de RES a Todos os Tipos do Dano de Perícia Suprema causado por Acheron em 20%. O Dano causado pelo ATQ Básico e a Perícia também será considerado Dano de Perícia Suprema e não pode reduzir a Tenacidade do inimigo independentemente dos Tipos de Fraqueza. Quando a Fraqueza é Quebrada, aciona o efeito de Quebra de Fraqueza de Raio.",
+        "desc": "Aumenta a PEN de RES a Todos os Tipos do Dano de Perícia Suprema causado por Acheron em 20%. O Dano causado pelo ATQ Básico e a Perícia também será considerado Dano de Perícia Suprema e pode reduzir a Tenacidade do inimigo independentemente dos Tipos de Fraqueza. Quando as Fraquezas são Quebradas, aciona o efeito de Quebra de Fraqueza contra Raio.",
         "materials": [
             {
                 "id": "11308",
@@ -4644,6 +4644,108 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1308_rank6.png"
+    },
+    "130901": {
+        "id": "130901",
+        "name": "Terra dos Sorrisos",
+        "rank": 1,
+        "desc": "Enquanto estiverem no estado de Concerto, a PEN de RES a Todos os Tipos de todos os aliados aumenta em 24%.",
+        "materials": [
+            {
+                "id": "11309",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1309_rank1.png"
+    },
+    "130902": {
+        "id": "130902",
+        "name": "Chá da Tarde para Dois",
+        "rank": 2,
+        "desc": "Enquanto estiver no estado de Concerto, a VEL de todos os aliados aumenta em 16%. O efeito de Regeneração de Energia do Talento aumenta adicionalmente em 1.",
+        "materials": [
+            {
+                "id": "11309",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1309_rank2.png"
+    },
+    "130903": {
+        "id": "130903",
+        "name": "Afinação Inversa",
+        "rank": 3,
+        "desc": "Nv. de Perícia +2, até no máximo Nv. 15.\\nNv. de Perícia Suprema +2, até no máximo Nv. 15.",
+        "materials": [
+            {
+                "id": "11309",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130902",
+                "num": 2
+            },
+            {
+                "id": "130903",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1309_skill.png"
+    },
+    "130904": {
+        "id": "130904",
+        "name": "Chave da Chuva",
+        "rank": 4,
+        "desc": "Ao usar sua Perícia Suprema, remove penalidades de Controle Negativo de todos os aliados. Enquanto Robin estiver no estado de Concerto, aumenta a RES a Efeito de todos os aliados em 50%.",
+        "materials": [
+            {
+                "id": "11309",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1309_rank4.png"
+    },
+    "130905": {
+        "id": "130905",
+        "name": "Lamento da Estrela Solitária",
+        "rank": 5,
+        "desc": "Nv. do ATQ Básico +1, até no máximo Nv. 10.\\nNv. do Talento +2, até no máximo Nv. 15.",
+        "materials": [
+            {
+                "id": "11309",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130901",
+                "num": 1
+            },
+            {
+                "id": "130904",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1309_ultimate.png"
+    },
+    "130906": {
+        "id": "130906",
+        "name": "Meia-Noite Sem Lua",
+        "rank": 6,
+        "desc": "Enquanto o estado de Concerto estiver ativo, o Dano CRIT do Dano Físico Adicional causado pela Perícia Suprema aumenta em 450%. O efeito da Meia-Noite Sem Lua pode ser acionado até 8 vez(es). A contagem de ativação reinicia cada vez que a Perícia Suprema é usada.",
+        "materials": [
+            {
+                "id": "11309",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1309_rank6.png"
     },
     "131201": {
         "id": "131201",
@@ -4746,6 +4848,112 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1312_rank6.png"
+    },
+    "131501": {
+        "id": "131501",
+        "name": "Estrela Solitária da Trilha Empoeirada",
+        "rank": 1,
+        "desc": "No início da batalha, obtém 1 acúmulo de Truque de Bolso. Quando Boothill causa Dano, ignora 16% da DEF do inimigo-alvo.",
+        "materials": [
+            {
+                "id": "11315",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1315_rank1.png"
+    },
+    "131502": {
+        "id": "131502",
+        "name": "Revendedor de Conquistas",
+        "rank": 2,
+        "desc": "Quando em Confronto e obtendo Truque de Bolso, recupera 1 Ponto(s) de Perícia e aumenta o Efeito de Quebra em 30%, com duração de 2 rodada(s). Este efeito também pode ser ativado ao obter acúmulos de Truque de Bolso que excedam o limite máximo. No entanto, não pode ser ativado repetidamente em uma única rodada.",
+        "materials": [
+            {
+                "id": "11315",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1315_rank2.png"
+    },
+    "131503": {
+        "id": "131503",
+        "name": "Guarda do Jardim de Mármore",
+        "rank": 3,
+        "desc": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
+        "materials": [
+            {
+                "id": "11315",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "131503",
+                "num": 2
+            },
+            {
+                "id": "131501",
+                "num": 1
+            },
+            {
+                "id": "131508",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1315_skill.png"
+    },
+    "131504": {
+        "id": "131504",
+        "name": "Chef de Carnes Frias",
+        "rank": 4,
+        "desc": "Quando o inimigo-alvo que estiver em Confronto for atacado por Boothill, o Dano recebido por ele aumenta em 12%. Quando Boothill é atacado pelo inimigo-alvo em Confronto, o efeito de receber mais Dano é reduzido em 12% nele.",
+        "materials": [
+            {
+                "id": "11315",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1315_rank4.png"
+    },
+    "131505": {
+        "id": "131505",
+        "name": "Discurso do Tronco",
+        "rank": 5,
+        "desc": "Nv. da Perícia +2, até no máximo Nv. 15.\\nNv. do Talento +2, até no máximo Nv. 15.",
+        "materials": [
+            {
+                "id": "11315",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "131502",
+                "num": 2
+            },
+            {
+                "id": "131504",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1315_ultimate.png"
+    },
+    "131506": {
+        "id": "131506",
+        "name": "Guaxinim do Hotel Pé de Cabra",
+        "rank": 6,
+        "desc": "Ao ativar o Dano de Quebra do Talento, adicionalmente causa Dano de Quebra ao inimigo-alvo igual a 40% do multiplicador de Dano original e causa Dano de Quebra a alvos adjacentes igual a 70% do multiplicador de Dano original a alvos adjacentes.",
+        "materials": [
+            {
+                "id": "11315",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1315_rank6.png"
     },
     "800101": {
         "id": "800101",
@@ -5178,5 +5386,209 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/8004_rank6.png"
+    },
+    "800501": {
+        "id": "800501",
+        "name": "Melhor Assento da Casa",
+        "rank": 1,
+        "desc": "Recupera 1 Ponto(s) de Perícia depois de usar a Perícia pela primeira.",
+        "materials": [
+            {
+                "id": "18005",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/8005_rank1.png"
+    },
+    "800502": {
+        "id": "800502",
+        "name": "Marcha Arco-Íris da Libertação",
+        "rank": 2,
+        "desc": "No início da batalha, aumenta em 25% a Taxa de Regeneração de Energia {F#da Desbravadora}{M#do Desbravador} por 3 rodada(s).",
+        "materials": [
+            {
+                "id": "18005",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/8005_rank2.png"
+    },
+    "800503": {
+        "id": "800503",
+        "name": "Sanatório do Descanso",
+        "rank": 3,
+        "desc": "Nv. da Perícia +2, até no máximo Nv. 15.\\nNv. do Talento +2, até no máximo Nv. 15.",
+        "materials": [
+            {
+                "id": "18005",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "800502",
+                "num": 2
+            },
+            {
+                "id": "800504",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/8005_skill.png"
+    },
+    "800504": {
+        "id": "800504",
+        "name": "Pomba na Cartola",
+        "rank": 4,
+        "desc": "Enquanto {F#a Desbravadora}{M#o Desbravador} está em campo, aumenta o Efeito de Quebra de todos os aliados exceto o {F#da Desbravadora}{M#do Desbravador}. O aumento é igual a 15% do Efeito de Quebra {F#da Desbravadora}{M#do Desbravador}.",
+        "materials": [
+            {
+                "id": "18005",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/8005_rank4.png"
+    },
+    "800505": {
+        "id": "800505",
+        "name": "Os Poemas Favorecem os Ritmos do Passado",
+        "rank": 5,
+        "desc": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
+        "materials": [
+            {
+                "id": "18005",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "800503",
+                "num": 2
+            },
+            {
+                "id": "800501",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/8005_ultimate.png"
+    },
+    "800506": {
+        "id": "800506",
+        "name": "Amanhã, Descanse no Holofote",
+        "rank": 6,
+        "desc": "O número de aplicações adicionais de Dano pela Perícia aumenta em 2.",
+        "materials": [
+            {
+                "id": "18005",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/8005_rank6.png"
+    },
+    "800601": {
+        "id": "800601",
+        "name": "Melhor Assento da Casa",
+        "rank": 1,
+        "desc": "Recupera 1 Ponto(s) de Perícia depois de usar a Perícia pela primeira.",
+        "materials": [
+            {
+                "id": "18005",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/8005_rank1.png"
+    },
+    "800602": {
+        "id": "800602",
+        "name": "Marcha Arco-Íris da Libertação",
+        "rank": 2,
+        "desc": "No início da batalha, aumenta em 25% a Taxa de Regeneração de Energia {F#da Desbravadora}{M#do Desbravador} por 3 rodada(s).",
+        "materials": [
+            {
+                "id": "18005",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/8005_rank2.png"
+    },
+    "800603": {
+        "id": "800603",
+        "name": "Sanatório do Descanso",
+        "rank": 3,
+        "desc": "Nv. da Perícia +2, até no máximo Nv. 15.\\nNv. do Talento +2, até no máximo Nv. 15.",
+        "materials": [
+            {
+                "id": "18005",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "800602",
+                "num": 2
+            },
+            {
+                "id": "800604",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/8006_skill.png"
+    },
+    "800604": {
+        "id": "800604",
+        "name": "Pomba na Cartola",
+        "rank": 4,
+        "desc": "Enquanto {F#a Desbravadora}{M#o Desbravador} está em campo, aumenta o Efeito de Quebra de todos os aliados exceto o {F#da Desbravadora}{M#do Desbravador}. O aumento é igual a 15% do Efeito de Quebra {F#da Desbravadora}{M#do Desbravador}.",
+        "materials": [
+            {
+                "id": "18005",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/8005_rank4.png"
+    },
+    "800605": {
+        "id": "800605",
+        "name": "Os Poemas Favorecem os Ritmos do Passado",
+        "rank": 5,
+        "desc": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
+        "materials": [
+            {
+                "id": "18005",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "800603",
+                "num": 2
+            },
+            {
+                "id": "800601",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/8006_ultimate.png"
+    },
+    "800606": {
+        "id": "800606",
+        "name": "Amanhã, Descanse no Holofote",
+        "rank": 6,
+        "desc": "O número de aplicações adicionais de Dano pela Perícia aumenta em 2.",
+        "materials": [
+            {
+                "id": "18005",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/8005_rank6.png"
     }
 }

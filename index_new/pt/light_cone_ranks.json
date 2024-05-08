@@ -2864,6 +2864,65 @@
             ]
         ]
     },
+    "21044": {
+        "id": "21044",
+        "skill": "Escrutinar",
+        "desc": "Aumenta a Chance de CRIT do usuário em #1[i]%. O usuário causa #2[i]% 1 mais Dano CRIT em inimigos que estão com Lentidão ou com DEF reduzida.",
+        "params": [
+            [
+                0.08,
+                0.24
+            ],
+            [
+                0.1,
+                0.3
+            ],
+            [
+                0.12,
+                0.36
+            ],
+            [
+                0.14,
+                0.42
+            ],
+            [
+                0.16,
+                0.48
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.08
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.1
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.12
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.14
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.16
+                }
+            ]
+        ]
+    },
     "22000": {
         "id": "22000",
         "skill": "Rápido no Gatilho",
@@ -2983,6 +3042,70 @@
                 {
                     "type": "HPAddedRatio",
                     "value": 0.12
+                }
+            ]
+        ]
+    },
+    "22002": {
+        "id": "22002",
+        "skill": "Laços",
+        "desc": "Aumenta o ATQ do usuário em #1[i]%. Depois que o usuário usa sua Perícia Suprema, aumenta o seu Dano causado em #2[i]%, durando por #3[i] rodada(s).",
+        "params": [
+            [
+                0.16,
+                0.18,
+                1
+            ],
+            [
+                0.2,
+                0.21,
+                1
+            ],
+            [
+                0.24,
+                0.24,
+                1
+            ],
+            [
+                0.28,
+                0.27,
+                1
+            ],
+            [
+                0.32,
+                0.3,
+                1
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.16
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.2
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.24
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.28
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.32
                 }
             ]
         ]
@@ -4753,6 +4876,124 @@
                 {
                     "type": "CriticalDamageBase",
                     "value": 0.6
+                }
+            ]
+        ]
+    },
+    "23026": {
+        "id": "23026",
+        "skill": "Pacificar",
+        "desc": "O usuário ganha 1 acúmulo de Canção sempre que um aliado ataca. Cada acúmulo de Canção aumenta a Taxa de Regeneração de Energia do usuário em #1[f1]%, até #2[i] acúmulo(s). Quando o usuário utiliza sua Perícia Suprema, remove Canção e ganha Cadência. Cadência aumenta o ATQ do usuário em #4[i]% e o Dano causado pela equipe em #3[i]%, durando por #5[i] rodada(s).",
+        "params": [
+            [
+                0.03,
+                5,
+                0.24,
+                0.48,
+                1
+            ],
+            [
+                0.035,
+                5,
+                0.28,
+                0.6,
+                1
+            ],
+            [
+                0.04,
+                5,
+                0.32,
+                0.72,
+                1
+            ],
+            [
+                0.045,
+                5,
+                0.36,
+                0.84,
+                1
+            ],
+            [
+                0.05,
+                5,
+                0.4,
+                0.96,
+                1
+            ]
+        ],
+        "properties": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    "23027": {
+        "id": "23027",
+        "skill": "Mar Bravo",
+        "desc": "Aumenta o Efeito de Quebra do usuário em #1[i]%. O Dano de Quebra causado pelo usuário ignora #3[i]% da DEF do alvo. Quando o Efeito de Quebra do usuário em batalha está em #2[i]% ou maior, aumenta sua VEL em #4[i]%.",
+        "params": [
+            [
+                0.6,
+                1.5,
+                0.2,
+                0.12
+            ],
+            [
+                0.7,
+                1.5,
+                0.23,
+                0.14
+            ],
+            [
+                0.8,
+                1.5,
+                0.26,
+                0.16
+            ],
+            [
+                0.9,
+                1.5,
+                0.29,
+                0.18
+            ],
+            [
+                1,
+                1.5,
+                0.32,
+                0.2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.6
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.7
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.8
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.9
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 1
                 }
             ]
         ]

@@ -761,39 +761,39 @@
         "params": [
             [
                 1,
-                0
-            ],
-            [
-                1.1,
-                0.08
-            ],
-            [
-                1.2,
-                0.16
-            ],
-            [
-                1.3,
-                0.24
-            ],
-            [
-                1.4,
-                0.32
-            ],
-            [
-                1.5,
                 0.4
             ],
             [
-                1.625,
-                0.5
+                1.1,
+                0.44
             ],
             [
-                1.75,
+                1.2,
+                0.48
+            ],
+            [
+                1.3,
+                0.52
+            ],
+            [
+                1.4,
+                0.56
+            ],
+            [
+                1.5,
                 0.6
             ],
             [
-                1.875,
+                1.625,
+                0.65
+            ],
+            [
+                1.75,
                 0.7
+            ],
+            [
+                1.875,
+                0.75
             ],
             [
                 2,
@@ -801,23 +801,23 @@
             ],
             [
                 2.1,
-                0.88
+                0.84
             ],
             [
                 2.2,
-                0.96
+                0.88
             ],
             [
                 2.3,
-                1.04
+                0.92
             ],
             [
                 2.4,
-                1.12
+                0.96
             ],
             [
                 2.5,
-                1.2
+                1
             ]
         ],
         "icon": "icon/skill/1003_skill.png"
@@ -5445,7 +5445,7 @@
         "type_text": "Fertigkeit",
         "effect": "Bounce",
         "effect_text": "Abprallung",
-        "simple_desc": "Fügt einem Gegner geringen Wind-SCH zu und führt gesamt 5 Abpralle aus.",
+        "simple_desc": "Fügt einem Gegner geringen Wind-SCH zu und prallt insgesamt 5-mal ab.",
         "desc": "Fügt einem anvisierten Gegner Wind-SCH in Höhe von #2[i]% von Sampos ANG zu und verursacht zusätzlich #1[i]-mal SCH. Jeder Treffer fügt einem zufälligen Gegner Wind-SCH in Höhe von #2[i]% von Sampos ANG zu.",
         "params": [
             [
@@ -14797,7 +14797,7 @@
         "type_text": "Ultimate",
         "effect": "SingleAttack",
         "effect_text": "Einzelangriff",
-        "simple_desc": "Erhält zufällig „Blinde Wette“. Dadurch tritt ein Gegner in den Status „Panik“ ein und ihm wird imaginärer SCH zugefügt. Wenn ein Verbündeter einen Gegner im Status Panik angreift, wird der verursachte KRIT-SCH erhöht.",
+        "simple_desc": "Erhält zufällig „Blinde Wette“. Verursacht bei einem Gegner „Panik“ und fügt ihm imaginären SCH zu. Wenn ein Verbündeter einen Gegner im Status Panik angreift, wird der verursachte KRIT-SCH erhöht.",
         "desc": "Erhält zufällig 1 bis #1[i] Pkt. „Blinde Wette“ und verursacht dann bei einem anvisierten Gegner für #4[i] Rd. „Panik“. Außerdem wird dem anvisierten Gegner imaginärer SCH in Höhe von #2[i]% von Aventurins VTD zugefügt. Wenn Verbündete panische Gegner angreifen, wird der verursachte KRIT-SCH um #3[f1]% erhöht.",
         "params": [
             [
@@ -16514,8 +16514,8 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Verstärkung",
-        "simple_desc": "Wenn „Zerbrochener Traum“ die max. Anzahl erreicht, kann der Ultimate aktiviert werden. Der Ultimate ignoriert Schwächetypen, verringert den Widerstand aller Gegner und reduziert ihren WDS aller Typen.\nWenn eine beliebige Einheit mit ihrer Fähigkeit einem gegnerischen Ziel einen Debuff zufügt, erhält Acheron Zerbrochener Traum und belegt das Ziel mit „Karminroter Knoten“.",
-        "desc": "Wenn „Zerbrochener Traum“ #1[i] Pkt. erreicht, kann der Ultimate aktiviert werden. Der Ultimate ignoriert Schwächetypen, verringert den Widerstand aller Gegner und reduziert ihren WDS aller Typen um #2[i]%. Dies dauert bis zum Ende des Ultimates an.\nWenn eine beliebige Einheit einem gegnerischen Ziel mit einer Fähigkeit einen Debuff zufügt, erhält Acheron 1 Pkt. Zerbrochener Traum und belegt das Ziel mit 1 Stapelung „Karminroter Knoten“. Wenn die Fähigkeit mehrere Gegner mit Debuffs belegt, wird Karminroter Knoten dem Gegner mit den meisten Stapelungen Karminroter Knoten zugefügt. Dieser Effekt kann bis zu 1-mal pro Einsatz der Fähigkeit ausgelöst werden.\nWenn Acheron auf dem Kampffeld ist und ein gegnerisches Ziel das Feld verlässt oder von einer beliebigen Einheit besiegt wird, werden seine Stapelungen von Karminroter Knoten auf den Gegner mit den meisten Stapelungen Karminroter Knoten übertragen.",
+        "simple_desc": "Wenn „Zerbrochener Traum“ die max. Anzahl erreicht, kann der Ultimate aktiviert werden. Der Ultimate ignoriert Schwächetypen, verringert den Widerstand aller Gegner und reduziert ihren WDS aller Typen.\nWenn eine beliebige Einheit mit ihrer Fähigkeit einem gegnerischen Ziel einen Debuff zufügt, erhält Acheron Zerbrochener Traum und belegt ein Ziel mit „Karminroter Knoten“.",
+        "desc": "Wenn „Zerbrochener Traum“ #1[i] Pkt. erreicht, kann der Ultimate aktiviert werden. Der Ultimate ignoriert Schwächetypen, verringert den Widerstand aller Gegner und reduziert ihren WDS aller Typen um #2[i]%. Dies dauert bis zum Ende des Ultimates an.\nWenn eine beliebige Einheit einem gegnerischen Ziel mit einer Fähigkeit einen Debuff zufügt, erhält Acheron 1 Pkt. Zerbrochener Traum und belegt ein Ziel mit 1 Stapelung „Karminroter Knoten“. Wenn die Fähigkeit mehrere Gegner mit Debuffs belegt, wird 1 Stapelung Karminroter Knoten dem Gegner mit den meisten Stapelungen Karminroter Knoten zugefügt. Dieser Effekt kann bis zu 1-mal pro Einsatz der Fähigkeit ausgelöst werden.\nWenn Acheron auf dem Kampffeld ist und ein gegnerisches Ziel das Feld verlässt oder von einer beliebigen Einheit besiegt wird, werden seine Stapelungen von Karminroter Knoten auf den Gegner mit den meisten Stapelungen Karminroter Knoten übertragen.",
         "params": [
             [
                 9,
@@ -16604,7 +16604,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "Greift den Gegner an. Erhält zu Beginn jeder Kampfwelle „Vier Phasen des Ich“ und fügt allen Gegnern Blitz-SCH zu, der Schwächetypen ignoriert und Widerstand reduziert.\nWenn gewöhnliche Gegner angegriffen werden, werden sie sofort besiegt, ohne den Kampf zu betreten. Der Technikpunkt wird nicht verbraucht, wenn der Angriff keinen Gegner trifft.",
-        "desc": "Greift den Gegner an. Erhält zu Beginn jeder Kampfwelle „Vier Phasen des Ich“, fügt allen Gegnern Blitz-SCH in Höhe von #1[i]% von Acherons ANG zu und reduziert ihr Widerstand ungeachtet des Schwächetyps. Beim Schwächebruch wird der Effekt „Schwächebruch: Blitz“ ausgelöst.\nVier Phasen des Ich: Acheron erhält nach dem Einsatz des Ultimates #2[i] Pkt. „Zerbrochener Traum“ und belegt einen zufälligen Gegner mit #2[i] Stapelungen „Karminroter Knoten“.\nWenn gewöhnliche Gegner angegriffen werden, werden sie sofort besiegt, ohne den Kampf zu betreten. Der Technikpunkt wird nicht verbraucht, wenn der Angriff keinen Gegner trifft.",
+        "desc": "Greift den Gegner an. Erhält zu Beginn jeder Kampfwelle „Vier Phasen des Ich“, fügt allen Gegnern Blitz-SCH in Höhe von #1[i]% von Acherons ANG zu und reduziert ihr Widerstand ungeachtet des Schwächetyps. Beim Schwächebruch wird der Effekt „Schwächebruch: Blitz“ ausgelöst.\nVier Phasen des Ich: Acheron erhält nach dem Einsatz des Ultimates #2[i] Pkt. „Zerbrochener Traum“ und belegt einen zufälligen Gegner mit #2[i] Stapelung „Karminroter Knoten“.\nWenn gewöhnliche Gegner angegriffen werden, werden sie sofort besiegt, ohne den Kampf zu betreten. Der Technikpunkt wird nicht verbraucht, wenn der Angriff keinen Gegner trifft.",
         "params": [
             [
                 2,
@@ -16942,6 +16942,366 @@
             ]
         ],
         "icon": "icon/skill/1308_ultimate.png"
+    },
+    "130901": {
+        "id": "130901",
+        "name": "Flügelflattern",
+        "max_level": 9,
+        "element": "Physical",
+        "type": "Normal",
+        "type_text": "Standardangriff",
+        "effect": "SingleAttack",
+        "effect_text": "Einzelangriff",
+        "simple_desc": "Fügt einem Gegner geringen physischen SCH zu.",
+        "desc": "Fügt einem anvisierten Gegner physischen SCH in Höhe von #1[i]% von Robins ANG zu.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1309_basic_atk.png"
+    },
+    "130902": {
+        "id": "130902",
+        "name": "Arie der Feder",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Fertigkeit",
+        "effect": "Support",
+        "effect_text": "Unterstützung",
+        "simple_desc": "Erhöht den verursachten SCH aller Verbündeten.",
+        "desc": "Erhöht den verursachten SCH aller Verbündeten für #2[i] Rd. um #1[i]%. Diese Dauer wird jeweils zu Beginn von Robins Rd. um 1 verringert.",
+        "params": [
+            [
+                0.25,
+                3
+            ],
+            [
+                0.275,
+                3
+            ],
+            [
+                0.3,
+                3
+            ],
+            [
+                0.325,
+                3
+            ],
+            [
+                0.35,
+                3
+            ],
+            [
+                0.375,
+                3
+            ],
+            [
+                0.4062,
+                3
+            ],
+            [
+                0.4375,
+                3
+            ],
+            [
+                0.4688,
+                3
+            ],
+            [
+                0.5,
+                3
+            ],
+            [
+                0.525,
+                3
+            ],
+            [
+                0.55,
+                3
+            ],
+            [
+                0.575,
+                3
+            ],
+            [
+                0.6,
+                3
+            ],
+            [
+                0.625,
+                3
+            ]
+        ],
+        "icon": "icon/skill/1309_skill.png"
+    },
+    "130903": {
+        "id": "130903",
+        "name": "Sternenfuge mit tausend Klängen",
+        "max_level": 15,
+        "element": "",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "Support",
+        "effect_text": "Unterstützung",
+        "simple_desc": "Tritt in den Status „Konzert“ ein. Der ANG aller Verbündeten wird erhöht und Robins Teammitglieder können sofort eine Aktion ausführen. Robin fügt nach einem Angriff eines Verbündeten zusätzlich physischen SCH zu. Der Status Konzert verleiht Robin Immunität gegen Mengenkontrolle-Debuffs. Solange der Status aktiv ist, wird Robin bis zum Ende des Countdowns keine Runde haben und keine Aktion ausführen.",
+        "desc": "Robin tritt in den Status „Konzert“ ein, wodurch alle Verbündeten außer ihr selbst sofort eine Aktion ausführen.\nIm Status Konzert wird der ANG aller Verbündeten in Höhe von #1[f1]% von Robins ANG plus #3[i] erhöht. Nach jedem Angriff eines Verbündeten verursacht Robin 1-mal zusätzlich physischen SCH in Höhe von #4[i]% ihres ANG. Die KRIT-Rate für diesen SCH beträgt #5[i]% und der KRIT-SCH #6[i]%.\nWenn Robin sich im Status Konzert befindet, ist Robin immun gegen Mengenkontrolle-Debuffs. Bis zum Ende des Status Konzert wird sie keine Runde haben und keine Aktion ausführen.\nDer Countdown von Konzert erscheint in der Aktionsreihenfolge. Beginnt die Runde des Countdowns, verlässt Robin den Status Konzert und führt sofort eine Aktion aus. Der Countdown hat eine feste GES von #2[i].",
+        "params": [
+            [
+                0.152,
+                90,
+                50,
+                0.72,
+                1,
+                1.5
+            ],
+            [
+                0.1596,
+                90,
+                65,
+                0.768,
+                1,
+                1.5
+            ],
+            [
+                0.1672,
+                90,
+                80,
+                0.816,
+                1,
+                1.5
+            ],
+            [
+                0.1748,
+                90,
+                95,
+                0.864,
+                1,
+                1.5
+            ],
+            [
+                0.1824,
+                90,
+                110,
+                0.912,
+                1,
+                1.5
+            ],
+            [
+                0.19,
+                90,
+                125,
+                0.96,
+                1,
+                1.5
+            ],
+            [
+                0.1995,
+                90,
+                143.75,
+                1.02,
+                1,
+                1.5
+            ],
+            [
+                0.209,
+                90,
+                162.5,
+                1.08,
+                1,
+                1.5
+            ],
+            [
+                0.2185,
+                90,
+                181.25,
+                1.14,
+                1,
+                1.5
+            ],
+            [
+                0.228,
+                90,
+                200,
+                1.2,
+                1,
+                1.5
+            ],
+            [
+                0.2356,
+                90,
+                215,
+                1.248,
+                1,
+                1.5
+            ],
+            [
+                0.2432,
+                90,
+                230,
+                1.296,
+                1,
+                1.5
+            ],
+            [
+                0.2508,
+                90,
+                245,
+                1.344,
+                1,
+                1.5
+            ],
+            [
+                0.2584,
+                90,
+                260,
+                1.392,
+                1,
+                1.5
+            ],
+            [
+                0.266,
+                90,
+                275,
+                1.44,
+                1,
+                1.5
+            ]
+        ],
+        "icon": "icon/skill/1309_ultimate.png"
+    },
+    "130904": {
+        "id": "130904",
+        "name": "Harmonische Ode",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Support",
+        "effect_text": "Unterstützung",
+        "simple_desc": "Erhöht den KRIT-SCH aller Verbündeten. Nach einem Angriff eines Verbündeten stellt Robin zusätzlich Energie wieder her.",
+        "desc": "Erhöht den KRIT-SCH aller Verbündeten um #1[f1]%. Nach einem Angriff eines Verbündeten auf ein gegnerisches Ziel stellt Robin zusätzlich #2[i] Pkt. der eigenen Energie wieder her.",
+        "params": [
+            [
+                0.05,
+                2
+            ],
+            [
+                0.065,
+                2
+            ],
+            [
+                0.08,
+                2
+            ],
+            [
+                0.095,
+                2
+            ],
+            [
+                0.11,
+                2
+            ],
+            [
+                0.125,
+                2
+            ],
+            [
+                0.1437,
+                2
+            ],
+            [
+                0.1625,
+                2
+            ],
+            [
+                0.1812,
+                2
+            ],
+            [
+                0.2,
+                2
+            ],
+            [
+                0.215,
+                2
+            ],
+            [
+                0.23,
+                2
+            ],
+            [
+                0.245,
+                2
+            ],
+            [
+                0.26,
+                2
+            ],
+            [
+                0.275,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1309_talent.png"
+    },
+    "130906": {
+        "id": "130906",
+        "name": "Angriff",
+        "max_level": 1,
+        "element": "Physical",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Greift den Gegner an und schwächt nach Kampfeintritt den WDS des Ziels gegen den entsprechenden Typ.",
+        "params": [],
+        "icon": "icon/skill/1309_basic_atk.png"
+    },
+    "130907": {
+        "id": "130907",
+        "name": "Berauschte Ouvertüre",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technik",
+        "effect": "Support",
+        "effect_text": "Unterstützung",
+        "simple_desc": "Erzeugt eine spezielle Dimension um Robin herum. Gegner innerhalb dieser Dimension werden Robin nicht angreifen. Nach Kampfeintritt mit dieser Dimension stellt Robin zu Beginn jeder Kampfwelle zusätzlich 5 Pkt. Energie wieder her.",
+        "desc": "Erzeugt nach dem Einsatz der Technik eine spezielle Dimension um Robin, die #1[i] Sek. anhält. Gegner innerhalb dieser Dimension werden Robin nicht angreifen und folgen ihr, solange die Dimension aktiv ist. Nach Kampfeintritt mit dieser Dimension stellt Robin zu Beginn jeder Kampfwelle #2[i] Pkt. Energie wieder her. Es kann nur eine von Verbündeten erschaffene Dimension zur gleichen Zeit existieren.",
+        "params": [
+            [
+                15,
+                5
+            ]
+        ],
+        "icon": "icon/skill/1309_technique.png"
     },
     "131201": {
         "id": "131201",
@@ -17302,6 +17662,437 @@
             ]
         ],
         "icon": "icon/skill/1312_technique.png"
+    },
+    "131501": {
+        "id": "131501",
+        "name": "Schädelsplitter-Hufeisen",
+        "max_level": 9,
+        "element": "Physical",
+        "type": "Normal",
+        "type_text": "Standardangriff",
+        "effect": "SingleAttack",
+        "effect_text": "Einzelangriff",
+        "simple_desc": "Fügt einem Gegner geringen physischen SCH zu.",
+        "desc": "Fügt einem anvisierten Gegner physischen SCH in Höhe von #1[i]% von Boothills ANG zu.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1315_basic_atk.png"
+    },
+    "131502": {
+        "id": "131502",
+        "name": "Tango des Tänzers auf brennendem Kies",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Fertigkeit",
+        "effect": "Impair",
+        "effect_text": "Beeinträchtigung",
+        "simple_desc": "Aktiviert Tödliche Konfrontation. Nachdem das Ziel von Tödliche Konfrontation besiegt wurde oder Schwächebruch erlitten hat, erhält Boothill „Trumpf in der Tasche“ und Tödliche Konfrontation wird aufgehoben. Boothill erhält einen verstärkten Standardangriff und die aktuelle Runde wird nicht beendet.",
+        "desc": "Lässt einen anvisierten Gegner und Boothill in den Status „Tödliche Konfrontation“ eintreten. Boothill erhält für #3[i] Rd. einen verstärkten Standardangriff und kann seine Fertigkeit nicht einsetzen. Diese Dauer wird jeweils zu Beginn von Boothills Rd. um 1 verringert.\nDas gegnerische Ziel mit Tödliche Konfrontation wird verspottet. Wenn das Ziel / Boothill voneinander angegriffen wird, erleiden sie jeweils #1[i]%/#2[i]% mehr SCH.\nNachdem das Ziel besiegt wurde oder Schwächebruch erlitten hat, erhält Boothill 1 Stapelung „Trumpf in der Tasche“ und Tödliche Konfrontation wird dann aufgehoben.\nDiese Fertigkeit stellt keine Energie wieder her. Nach dem Einsatz dieser Fertigkeit wird die aktuelle Runde nicht beendet.",
+        "params": [
+            [
+                0.15,
+                0.15,
+                2
+            ],
+            [
+                0.165,
+                0.15,
+                2
+            ],
+            [
+                0.18,
+                0.15,
+                2
+            ],
+            [
+                0.195,
+                0.15,
+                2
+            ],
+            [
+                0.21,
+                0.15,
+                2
+            ],
+            [
+                0.225,
+                0.15,
+                2
+            ],
+            [
+                0.2437,
+                0.15,
+                2
+            ],
+            [
+                0.2625,
+                0.15,
+                2
+            ],
+            [
+                0.2812,
+                0.15,
+                2
+            ],
+            [
+                0.3,
+                0.15,
+                2
+            ],
+            [
+                0.315,
+                0.15,
+                2
+            ],
+            [
+                0.33,
+                0.15,
+                2
+            ],
+            [
+                0.345,
+                0.15,
+                2
+            ],
+            [
+                0.36,
+                0.15,
+                2
+            ],
+            [
+                0.375,
+                0.15,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1315_skill.png"
+    },
+    "131503": {
+        "id": "131503",
+        "name": "Staubteufels Tanz bei Sonnenuntergang",
+        "max_level": 15,
+        "element": "Physical",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "SingleAttack",
+        "effect_text": "Einzelangriff",
+        "simple_desc": "Fügt einem Gegner eine physische Schwäche hinzu, verursacht beim Ziel massiven physischen SCH und verzögert dessen Aktion.",
+        "desc": "Fügt einem anvisierten Gegner für #3[i] Rd. eine physische Schwäche hinzu.\nFügt dem Ziel physischen SCH in Höhe von #1[i]% von Boothills ANG zu und verzögert die Aktion des Ziels um #2[i]%.",
+        "params": [
+            [
+                2.4,
+                0.3,
+                2
+            ],
+            [
+                2.56,
+                0.31,
+                2
+            ],
+            [
+                2.72,
+                0.32,
+                2
+            ],
+            [
+                2.88,
+                0.33,
+                2
+            ],
+            [
+                3.04,
+                0.34,
+                2
+            ],
+            [
+                3.2,
+                0.35,
+                2
+            ],
+            [
+                3.4,
+                0.3625,
+                2
+            ],
+            [
+                3.6,
+                0.375,
+                2
+            ],
+            [
+                3.8,
+                0.3875,
+                2
+            ],
+            [
+                4,
+                0.4,
+                2
+            ],
+            [
+                4.16,
+                0.41,
+                2
+            ],
+            [
+                4.32,
+                0.42,
+                2
+            ],
+            [
+                4.48,
+                0.43,
+                2
+            ],
+            [
+                4.64,
+                0.44,
+                2
+            ],
+            [
+                4.8,
+                0.45,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1315_ultimate.png"
+    },
+    "131504": {
+        "id": "131504",
+        "name": "Fünf Bohnen, eine Schote",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Enhance",
+        "effect_text": "Verstärkung",
+        "simple_desc": "„Trumpf in der Tasche“ erhöht den WDS-Reduzierungswert des verstärkten Standardangriffs und fügt Gegnern mit Schwächebruch zusätzlichen physischen Bruch-SCH zu. Nach einem gewonnenen Kampf wird Trumpf in der Tasche bis zum nächsten Kampf beibehalten.",
+        "desc": "Jede Stapelung „Trumpf in der Tasche“ erhöht den WDS-Reduzierungswert des verstärkten Standardangriffs um #4[i]%, bis zu #5[i] Stapelungen.\nBefindet sich das Ziel im Schwächebruch, wenn der verstärkte Standardangriff eingesetzt wird, wird diesem Ziel für jede Stapelung Trumpf in der Tasche Bruch-SCH in Höhe von #1[i]%/#2[i]%/#3[i]% von Boothills physischem Bruch-SCH zugefügt. Die max. Menge an WDS, die bei diesem SCH gezählt werden kann, darf #6[i]-fach des Basis-WDS-Reduzierungswerts, der durch den Standardangriff „Schädelsplitter-Hufeisen“ verursacht wird, nicht überschreiten.\nNach einem gewonnenen Kampf wird Boothill Trumpf in der Tasche bis zum nächsten Kampf beibehalten.",
+        "params": [
+            [
+                0.35,
+                0.6,
+                0.85,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.385,
+                0.66,
+                0.935,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.42,
+                0.72,
+                1.02,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.455,
+                0.78,
+                1.105,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.49,
+                0.84,
+                1.19,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.525,
+                0.9,
+                1.275,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.5687,
+                0.975,
+                1.3813,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.6125,
+                1.05,
+                1.4875,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.6562,
+                1.125,
+                1.5938,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.7,
+                1.2,
+                1.7,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.735,
+                1.26,
+                1.785,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.77,
+                1.32,
+                1.87,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.805,
+                1.38,
+                1.955,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.84,
+                1.44,
+                2.04,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.875,
+                1.5,
+                2.125,
+                0.5,
+                3,
+                16
+            ]
+        ],
+        "icon": "icon/skill/1315_talent.png"
+    },
+    "131506": {
+        "id": "131506",
+        "name": "Angriff",
+        "max_level": 1,
+        "element": "Physical",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Greift den Gegner an und schwächt nach Kampfeintritt den WDS des Ziels gegen den entsprechenden Typ.",
+        "params": [],
+        "icon": "icon/skill/1315_basic_atk.png"
+    },
+    "131507": {
+        "id": "131507",
+        "name": "Drei-mal-Neun-Lächeln",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technik",
+        "effect": "Enhance",
+        "effect_text": "Verstärkung",
+        "simple_desc": "Nach dem Einsatz der Technik wird im nächsten Kampf beim ersten Einsatz der Fertigkeit einem Gegner eine physische Schwäche hinzugefügt.",
+        "desc": "Nachdem die Technik verwendet wurde, wird beim ersten Einsatz der Fertigkeit im nächsten Kampf dem Ziel für #1[i] Rd. dieselbe physische Schwäche wie die des Ultimates hinzugefügt.",
+        "params": [
+            [
+                2
+            ]
+        ],
+        "icon": "icon/skill/1315_technique.png"
+    },
+    "131508": {
+        "id": "131508",
+        "name": "Finger am Abzug",
+        "max_level": 9,
+        "element": "Physical",
+        "type": "Normal",
+        "type_text": "Standardangriff",
+        "effect": "SingleAttack",
+        "effect_text": "Einzelangriff",
+        "simple_desc": "Fügt einem Gegner physischen SCH zu. Kann nur das Ziel von „Tödliche Konfrontation“ angreifen.",
+        "desc": "Fügt einem anvisierten Gegner physischen SCH in Höhe von #1[i]% von Boothills ANG zu.\nDer verstärkte Standardangriff stellt keine Fertigkeitspunkte wieder her und kann nur gegnerische Ziele im Status „Tödliche Konfrontation“ angreifen.",
+        "params": [
+            [
+                1.1
+            ],
+            [
+                1.32
+            ],
+            [
+                1.54
+            ],
+            [
+                1.76
+            ],
+            [
+                1.98
+            ],
+            [
+                2.2
+            ],
+            [
+                2.42
+            ],
+            [
+                2.64
+            ],
+            [
+                2.86
+            ]
+        ],
+        "icon": "icon/skill/1315_basic_atk.png"
     },
     "800101": {
         "id": "800101",
@@ -18964,5 +19755,605 @@
             ]
         ],
         "icon": "icon/skill/8004_basic_atk.png"
+    },
+    "800501": {
+        "id": "800501",
+        "name": "Swing-Etikette",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "Standardangriff",
+        "effect": "SingleAttack",
+        "effect_text": "Einzelangriff",
+        "simple_desc": "Fügt einem Gegner geringen imaginären SCH zu.",
+        "desc": "Fügt einem anvisierten Gegner imaginären SCH in Höhe von #1[i]% des ANG {M#des Trailblazers}{F#der Trailblazerin} zu.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/8005_basic_atk.png"
+    },
+    "800502": {
+        "id": "800502",
+        "name": "Regen im Intermezzo",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "BPSkill",
+        "type_text": "Fertigkeit",
+        "effect": "Bounce",
+        "effect_text": "Abprallung",
+        "simple_desc": "Fügt einem Gegner geringen imaginären SCH zu und prallt insgesamt 5-mal ab.",
+        "desc": "Fügt einem anvisierten Gegner imaginären SCH in Höhe von #1[i]% des ANG {F#der Trailblazerin}{M#des Trailblazers} zu. Verursacht zusätzlich 4-mal SCH, der jedes Mal einem zufälligen Gegner imaginären SCH in Höhe von #1[i]% des ANG {F#der Trailblazerin}{M#des Trailblazers} zufügt.",
+        "params": [
+            [
+                0.25,
+                2
+            ],
+            [
+                0.275,
+                2
+            ],
+            [
+                0.3,
+                2
+            ],
+            [
+                0.325,
+                2
+            ],
+            [
+                0.35,
+                2
+            ],
+            [
+                0.375,
+                2
+            ],
+            [
+                0.4062,
+                2
+            ],
+            [
+                0.4375,
+                2
+            ],
+            [
+                0.4688,
+                2
+            ],
+            [
+                0.5,
+                2
+            ],
+            [
+                0.525,
+                2
+            ],
+            [
+                0.55,
+                2
+            ],
+            [
+                0.575,
+                2
+            ],
+            [
+                0.6,
+                2
+            ],
+            [
+                0.625,
+                2
+            ]
+        ],
+        "icon": "icon/skill/8005_skill.png"
+    },
+    "800503": {
+        "id": "800503",
+        "name": "Lärmende Laternenparade",
+        "max_level": 15,
+        "element": "",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "Support",
+        "effect_text": "Unterstützung",
+        "simple_desc": "Verleiht allen Verbündeten den Effekt „Backup-Tänzer“. Erhöht den Brucheffekt von Verbündeten mit diesem Effekt. Wenn sie einen Gegner im Status Schwächebruch angreifen, wird 1-mal zusätzlich Super-Bruch-SCH verursacht.",
+        "desc": "Verleiht allen Verbündeten für #1[i] Rd. den Effekt „Backup-Tänzer“. Zu Beginn jeder Runde {F#der Trailblazerin}{M#des Trailblazers} wird die Dauer dieses Effekts um 1 Rd. verringert. Der Brucheffekt von Verbündeten mit Backup-Tänzer wird um #3[i]% erhöht. Wenn sie Gegner im Status Schwächebruch angreifen, wandeln sie den WDS-Reduzierungswert dieses Angriffs 1-mal in Super-Bruch-SCH um.",
+        "params": [
+            [
+                3,
+                1,
+                0.15
+            ],
+            [
+                3,
+                1,
+                0.165
+            ],
+            [
+                3,
+                1,
+                0.18
+            ],
+            [
+                3,
+                1,
+                0.195
+            ],
+            [
+                3,
+                1,
+                0.21
+            ],
+            [
+                3,
+                1,
+                0.225
+            ],
+            [
+                3,
+                1,
+                0.2437
+            ],
+            [
+                3,
+                1,
+                0.2625
+            ],
+            [
+                3,
+                1,
+                0.2812
+            ],
+            [
+                3,
+                1,
+                0.3
+            ],
+            [
+                3,
+                1,
+                0.315
+            ],
+            [
+                3,
+                1,
+                0.33
+            ],
+            [
+                3,
+                1,
+                0.345
+            ],
+            [
+                3,
+                1,
+                0.36
+            ],
+            [
+                3,
+                1,
+                0.375
+            ]
+        ],
+        "icon": "icon/skill/8005_ultimate.png"
+    },
+    "800504": {
+        "id": "800504",
+        "name": "Tanzlieder auf ganzem Spektrum",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Impair",
+        "effect_text": "Beeinträchtigung",
+        "simple_desc": "Wenn die Schwäche eines Gegners gebrochen wird, stellt {F#die Trailblazerin}{M#der Trailblazer} Energie wieder her.",
+        "desc": "Wenn die Schwäche eines Gegners gebrochen wird, stellt {F#die Trailblazerin}{M#der Trailblazer} sofort #1[f1] Pkt. Energie wieder her.",
+        "params": [
+            [
+                5
+            ],
+            [
+                5.5
+            ],
+            [
+                6
+            ],
+            [
+                6.5
+            ],
+            [
+                7
+            ],
+            [
+                7.5
+            ],
+            [
+                8.125
+            ],
+            [
+                8.75
+            ],
+            [
+                9.375
+            ],
+            [
+                10
+            ],
+            [
+                10.5
+            ],
+            [
+                11
+            ],
+            [
+                11.5
+            ],
+            [
+                12
+            ],
+            [
+                12.5
+            ]
+        ],
+        "icon": "icon/skill/8005_talent.png"
+    },
+    "800506": {
+        "id": "800506",
+        "name": "Angriff",
+        "max_level": 1,
+        "element": "Imaginary",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Greift den Gegner an und schwächt nach Kampfeintritt den WDS des Ziels gegen den entsprechenden Typ.",
+        "params": [],
+        "icon": "icon/skill/8005_basic_atk.png"
+    },
+    "800507": {
+        "id": "800507",
+        "name": "Jetzt! Solo-Truppe!",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technik",
+        "effect": "Support",
+        "effect_text": "Unterstützung",
+        "simple_desc": "Erhöht zu Beginn des nächsten Kampfs den Brucheffekt aller Verbündeten.",
+        "desc": "Erhöht nach dem Einsatz der Technik den Brucheffekt aller Verbündeten zu Beginn des nächsten Kampfs für #2[i] Rd. um #1[i]%.",
+        "params": [
+            [
+                0.3,
+                2
+            ]
+        ],
+        "icon": "icon/skill/8005_technique.png"
+    },
+    "800601": {
+        "id": "800601",
+        "name": "Swing-Etikette",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "Standardangriff",
+        "effect": "SingleAttack",
+        "effect_text": "Einzelangriff",
+        "simple_desc": "Fügt einem Gegner geringen imaginären SCH zu.",
+        "desc": "Fügt einem anvisierten Gegner imaginären SCH in Höhe von #1[i]% des ANG {M#des Trailblazers}{F#der Trailblazerin} zu.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/8006_basic_atk.png"
+    },
+    "800602": {
+        "id": "800602",
+        "name": "Regen im Intermezzo",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "BPSkill",
+        "type_text": "Fertigkeit",
+        "effect": "Bounce",
+        "effect_text": "Abprallung",
+        "simple_desc": "Fügt einem Gegner geringen imaginären SCH zu und prallt insgesamt 5-mal ab.",
+        "desc": "Fügt einem anvisierten Gegner imaginären SCH in Höhe von #1[i]% des ANG {F#der Trailblazerin}{M#des Trailblazers} zu. Verursacht zusätzlich 4-mal SCH, der jedes Mal einem zufälligen Gegner imaginären SCH in Höhe von #1[i]% des ANG {F#der Trailblazerin}{M#des Trailblazers} zufügt.",
+        "params": [
+            [
+                0.25,
+                2
+            ],
+            [
+                0.275,
+                2
+            ],
+            [
+                0.3,
+                2
+            ],
+            [
+                0.325,
+                2
+            ],
+            [
+                0.35,
+                2
+            ],
+            [
+                0.375,
+                2
+            ],
+            [
+                0.4062,
+                2
+            ],
+            [
+                0.4375,
+                2
+            ],
+            [
+                0.4688,
+                2
+            ],
+            [
+                0.5,
+                2
+            ],
+            [
+                0.525,
+                2
+            ],
+            [
+                0.55,
+                2
+            ],
+            [
+                0.575,
+                2
+            ],
+            [
+                0.6,
+                2
+            ],
+            [
+                0.625,
+                2
+            ]
+        ],
+        "icon": "icon/skill/8006_skill.png"
+    },
+    "800603": {
+        "id": "800603",
+        "name": "Lärmende Laternenparade",
+        "max_level": 15,
+        "element": "",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "Support",
+        "effect_text": "Unterstützung",
+        "simple_desc": "Verleiht allen Verbündeten den Effekt „Backup-Tänzer“. Erhöht den Brucheffekt von Verbündeten mit diesem Effekt. Wenn sie einen Gegner im Status Schwächebruch angreifen, wird 1-mal zusätzlich Super-Bruch-SCH verursacht.",
+        "desc": "Verleiht allen Verbündeten für #1[i] Rd. den Effekt „Backup-Tänzer“. Zu Beginn jeder Runde {F#der Trailblazerin}{M#des Trailblazers} wird die Dauer dieses Effekts um 1 Rd. verringert. Der Brucheffekt von Verbündeten mit Backup-Tänzer wird um #3[i]% erhöht. Wenn sie Gegner im Status Schwächebruch angreifen, wandeln sie den WDS-Reduzierungswert dieses Angriffs 1-mal in Super-Bruch-SCH um.",
+        "params": [
+            [
+                3,
+                1,
+                0.15
+            ],
+            [
+                3,
+                1,
+                0.165
+            ],
+            [
+                3,
+                1,
+                0.18
+            ],
+            [
+                3,
+                1,
+                0.195
+            ],
+            [
+                3,
+                1,
+                0.21
+            ],
+            [
+                3,
+                1,
+                0.225
+            ],
+            [
+                3,
+                1,
+                0.2437
+            ],
+            [
+                3,
+                1,
+                0.2625
+            ],
+            [
+                3,
+                1,
+                0.2812
+            ],
+            [
+                3,
+                1,
+                0.3
+            ],
+            [
+                3,
+                1,
+                0.315
+            ],
+            [
+                3,
+                1,
+                0.33
+            ],
+            [
+                3,
+                1,
+                0.345
+            ],
+            [
+                3,
+                1,
+                0.36
+            ],
+            [
+                3,
+                1,
+                0.375
+            ]
+        ],
+        "icon": "icon/skill/8006_ultimate.png"
+    },
+    "800604": {
+        "id": "800604",
+        "name": "Tanzlieder auf ganzem Spektrum",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Impair",
+        "effect_text": "Beeinträchtigung",
+        "simple_desc": "Wenn die Schwäche eines Gegners gebrochen wird, stellt {F#die Trailblazerin}{M#der Trailblazer} Energie wieder her.",
+        "desc": "Wenn die Schwäche eines Gegners gebrochen wird, stellt {F#die Trailblazerin}{M#der Trailblazer} sofort #1[f1] Pkt. Energie wieder her.",
+        "params": [
+            [
+                5
+            ],
+            [
+                5.5
+            ],
+            [
+                6
+            ],
+            [
+                6.5
+            ],
+            [
+                7
+            ],
+            [
+                7.5
+            ],
+            [
+                8.125
+            ],
+            [
+                8.75
+            ],
+            [
+                9.375
+            ],
+            [
+                10
+            ],
+            [
+                10.5
+            ],
+            [
+                11
+            ],
+            [
+                11.5
+            ],
+            [
+                12
+            ],
+            [
+                12.5
+            ]
+        ],
+        "icon": "icon/skill/8006_talent.png"
+    },
+    "800606": {
+        "id": "800606",
+        "name": "Angriff",
+        "max_level": 1,
+        "element": "Imaginary",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Greift den Gegner an und schwächt nach Kampfeintritt den WDS des Ziels gegen den entsprechenden Typ.",
+        "params": [],
+        "icon": "icon/skill/8006_basic_atk.png"
+    },
+    "800607": {
+        "id": "800607",
+        "name": "Jetzt! Solo-Truppe!",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technik",
+        "effect": "Support",
+        "effect_text": "Unterstützung",
+        "simple_desc": "Erhöht zu Beginn des nächsten Kampfs den Brucheffekt aller Verbündeten.",
+        "desc": "Erhöht nach dem Einsatz der Technik den Brucheffekt aller Verbündeten zu Beginn des nächsten Kampfs für #2[i] Rd. um #1[i]%.",
+        "params": [
+            [
+                0.3,
+                2
+            ]
+        ],
+        "icon": "icon/skill/8006_technique.png"
     }
 }

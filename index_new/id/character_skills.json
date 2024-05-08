@@ -761,39 +761,39 @@
         "params": [
             [
                 1,
-                0
-            ],
-            [
-                1.1,
-                0.08
-            ],
-            [
-                1.2,
-                0.16
-            ],
-            [
-                1.3,
-                0.24
-            ],
-            [
-                1.4,
-                0.32
-            ],
-            [
-                1.5,
                 0.4
             ],
             [
-                1.625,
-                0.5
+                1.1,
+                0.44
             ],
             [
-                1.75,
+                1.2,
+                0.48
+            ],
+            [
+                1.3,
+                0.52
+            ],
+            [
+                1.4,
+                0.56
+            ],
+            [
+                1.5,
                 0.6
             ],
             [
-                1.875,
+                1.625,
+                0.65
+            ],
+            [
+                1.75,
                 0.7
+            ],
+            [
+                1.875,
+                0.75
             ],
             [
                 2,
@@ -801,23 +801,23 @@
             ],
             [
                 2.1,
-                0.88
+                0.84
             ],
             [
                 2.2,
-                0.96
+                0.88
             ],
             [
                 2.3,
-                1.04
+                0.92
             ],
             [
                 2.4,
-                1.12
+                0.96
             ],
             [
                 2.5,
-                1.2
+                1
             ]
         ],
         "icon": "icon/skill/1003_skill.png"
@@ -16515,7 +16515,7 @@
         "effect": "Enhance",
         "effect_text": "Enhance",
         "simple_desc": "Saat \"Slashed Dream\" mencapai batas maksimal, Ultimate dapat diaktifkan. Selama Ultimate berlangsung, dapat mengabaikan Tipe Weakness dan mengurangi Toughness musuh, serta mengurangi RES Seluruh Tipe milik seluruh musuh.\nSaat unit mana pun melancarkan kemampuan dan kemampuan tersebut membuat target musuh memasuki status Debuff, Acheron akan memperoleh \"Slashed Dream\", dan menambahkan \"Crimson Knot\" pada target musuh.",
-        "desc": "Saat \"Slashed Dream\" mencapai #1[i] poin, Ultimate dapat diaktifkan. Selama Ultimate berlangsung, akan mengabaikan Tipe Weakness dan mengurangi Toughness musuh, serta mengurangi #2[i]% RES Seluruh Tipe milik seluruh musuh, berlangsung hingga Ultimate berakhir.\nSaat unit mana pun melancarkan kemampuan dan kemampuan tersebut membuat target musuh memasuki status Debuff, Acheron akan memperoleh 1 poin \"Slashed Dream\" dan menambahkan 1 lapis \"Crimson Knot\" pada target. Jika unit tersebut membuat banyak target memasuki status Debuff, maka akan menambahkan 1 lapis \"Crimson Knot\" pada target musuh dengan \"Crimson Knot\" terbanyak. Efek ini dapat dipicu 1 kali per aksi.\nSaat Acheron berada di medan pertempuran, setelah target musuh meninggalkan medan pertempuran atau dikalahkan, maka \"Crimson Knot\" yang dimilikinya akan ditransfer ke target musuh yang memiliki \"Crimson Knot\" terbanyak.",
+        "desc": "Saat \"Slashed Dream\" mencapai #1[i] poin, Ultimate dapat diaktifkan. Selama Ultimate berlangsung, akan mengabaikan Tipe Weakness dan mengurangi Toughness musuh, serta mengurangi #2[i]% RES Seluruh Tipe milik seluruh musuh, berlangsung hingga Ultimate berakhir.\nSaat unit mana pun melancarkan kemampuan dan kemampuan tersebut membuat target musuh memasuki status Debuff, Acheron akan memperoleh 1 poin \"Slashed Dream\" dan menambahkan 1 lapis \"Crimson Knot\" pada target. Jika unit tersebut membuat banyak target memasuki status Debuff, maka akan menambahkan 1 lapis \"Crimson Knot\" pada target musuh dengan \"Crimson Knot\" terbanyak. Efek ini hanya dapat dipicu 1 kali per pelancaran kemampuan.\nSaat Acheron berada di medan pertempuran, setelah target musuh meninggalkan medan pertempuran atau dikalahkan, maka \"Crimson Knot\" yang dimilikinya akan ditransfer ke target musuh yang memiliki \"Crimson Knot\" terbanyak.",
         "params": [
             [
                 9,
@@ -16943,6 +16943,366 @@
         ],
         "icon": "icon/skill/1308_ultimate.png"
     },
+    "130901": {
+        "id": "130901",
+        "name": "Wingflip White Noise",
+        "max_level": 9,
+        "element": "Physical",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Mengakibatkan Physical DMG dalam jumlah kecil pada 1 musuh.",
+        "desc": "Mengakibatkan Physical DMG sebesar #1[i]% ATK Robin pada 1 musuh yang ditargetkan.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1309_basic_atk.png"
+    },
+    "130902": {
+        "id": "130902",
+        "name": "Pinion's Aria",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Skill",
+        "effect": "Support",
+        "effect_text": "Support",
+        "simple_desc": "Meningkatkan DMG seluruh rekan tim.",
+        "desc": "Meningkatkan #1[i]% DMG yang diakibatkan seluruh rekan tim, berlangsung selama #2[i] giliran. Setiap kali giliran Robin dimulai, durasi efek ini akan berkurang 1 giliran.",
+        "params": [
+            [
+                0.25,
+                3
+            ],
+            [
+                0.275,
+                3
+            ],
+            [
+                0.3,
+                3
+            ],
+            [
+                0.325,
+                3
+            ],
+            [
+                0.35,
+                3
+            ],
+            [
+                0.375,
+                3
+            ],
+            [
+                0.4062,
+                3
+            ],
+            [
+                0.4375,
+                3
+            ],
+            [
+                0.4688,
+                3
+            ],
+            [
+                0.5,
+                3
+            ],
+            [
+                0.525,
+                3
+            ],
+            [
+                0.55,
+                3
+            ],
+            [
+                0.575,
+                3
+            ],
+            [
+                0.6,
+                3
+            ],
+            [
+                0.625,
+                3
+            ]
+        ],
+        "icon": "icon/skill/1309_skill.png"
+    },
+    "130903": {
+        "id": "130903",
+        "name": "Vox Harmonique, Opus Cosmique",
+        "max_level": 15,
+        "element": "",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "Support",
+        "effect_text": "Support",
+        "simple_desc": "Memasuki status \"Concerto\" dan meningkatkan ATK seluruh rekan tim, serta membuat seluruh rekan tim selain dirinya sendiri segera beraksi. Setelah rekan tim menyerang, Robin akan mengakibatkan Physical DMG Tambahan. Selama berstatus \"Concerto\", Robin kebal terhadap Crowd Control Debuff, dan Robin tidak akan memasuki gilirannya serta tidak dapat beraksi hingga hitung mundur berakhir.",
+        "desc": "Robin memasuki status \"Concerto\", membuat rekan tim selain dirinya segera beraksi.\nSaat berstatus \"Concerto\", meningkatkan ATK seluruh rekan tim, peningkatannya adalah sebesar #1[f1]% ATK Robin + #3[i], dan setiap kali setelah rekan tim melancarkan serangan, Robin akan mengakibatkan 1 kali Physical DMG tambahan sebesar #4[i]% ATK dirinya (serangan ini memiliki CRIT Rate tetap sebesar #5[i]% dan CRIT DMG tetap sebesar #6[i]%).\nSaat berstatus \"Concerto\", Robin kebal terhadap Crowd Control Debuff, dan Robin tidak akan memasuki gilirannya serta tidak dapat beraksi hingga hitung mundur berakhir.\nHitung mundur \"Concerto\" akan muncul di Susunan Aksi. Saat giliran hitung mundur dimulai, Robin akan keluar dari status \"Concerto\" dan segera beraksi. Hitung mundur memiliki SPD tetap sebesar #2[i].",
+        "params": [
+            [
+                0.152,
+                90,
+                50,
+                0.72,
+                1,
+                1.5
+            ],
+            [
+                0.1596,
+                90,
+                65,
+                0.768,
+                1,
+                1.5
+            ],
+            [
+                0.1672,
+                90,
+                80,
+                0.816,
+                1,
+                1.5
+            ],
+            [
+                0.1748,
+                90,
+                95,
+                0.864,
+                1,
+                1.5
+            ],
+            [
+                0.1824,
+                90,
+                110,
+                0.912,
+                1,
+                1.5
+            ],
+            [
+                0.19,
+                90,
+                125,
+                0.96,
+                1,
+                1.5
+            ],
+            [
+                0.1995,
+                90,
+                143.75,
+                1.02,
+                1,
+                1.5
+            ],
+            [
+                0.209,
+                90,
+                162.5,
+                1.08,
+                1,
+                1.5
+            ],
+            [
+                0.2185,
+                90,
+                181.25,
+                1.14,
+                1,
+                1.5
+            ],
+            [
+                0.228,
+                90,
+                200,
+                1.2,
+                1,
+                1.5
+            ],
+            [
+                0.2356,
+                90,
+                215,
+                1.248,
+                1,
+                1.5
+            ],
+            [
+                0.2432,
+                90,
+                230,
+                1.296,
+                1,
+                1.5
+            ],
+            [
+                0.2508,
+                90,
+                245,
+                1.344,
+                1,
+                1.5
+            ],
+            [
+                0.2584,
+                90,
+                260,
+                1.392,
+                1,
+                1.5
+            ],
+            [
+                0.266,
+                90,
+                275,
+                1.44,
+                1,
+                1.5
+            ]
+        ],
+        "icon": "icon/skill/1309_ultimate.png"
+    },
+    "130904": {
+        "id": "130904",
+        "name": "Tonal Resonance",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Support",
+        "effect_text": "Support",
+        "simple_desc": "Meningkatkan CRIT DMG seluruh rekan tim, dan Robin akan memulihkan Energy tambahan setelah rekan tim menyerang musuh.",
+        "desc": "Meningkatkan #1[f1]% CRIT DMG seluruh rekan tim, dan Robin akan memulihkan #2[i] Energy tambahan untuk dirinya sendiri setelah rekan tim menyerang target musuh.",
+        "params": [
+            [
+                0.05,
+                2
+            ],
+            [
+                0.065,
+                2
+            ],
+            [
+                0.08,
+                2
+            ],
+            [
+                0.095,
+                2
+            ],
+            [
+                0.11,
+                2
+            ],
+            [
+                0.125,
+                2
+            ],
+            [
+                0.1437,
+                2
+            ],
+            [
+                0.1625,
+                2
+            ],
+            [
+                0.1812,
+                2
+            ],
+            [
+                0.2,
+                2
+            ],
+            [
+                0.215,
+                2
+            ],
+            [
+                0.23,
+                2
+            ],
+            [
+                0.245,
+                2
+            ],
+            [
+                0.26,
+                2
+            ],
+            [
+                0.275,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1309_talent.png"
+    },
+    "130906": {
+        "id": "130906",
+        "name": "Attack",
+        "max_level": 1,
+        "element": "Physical",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Setelah menyerang musuh dan memasuki pertempuran, akan mengurangi Toughness target musuh sesuai dengan tipe Toughness-nya.",
+        "params": [],
+        "icon": "icon/skill/1309_basic_atk.png"
+    },
+    "130907": {
+        "id": "130907",
+        "name": "Overture of Inebriation",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Support",
+        "effect_text": "Support",
+        "simple_desc": "Menciptakan Dimension di sekitar Robin. Musuh yang berada dalam Dimension tidak akan menyerang Robin. Setelah memasuki pertempuran dengan musuh saat Dimension aktif, Robin akan memulihkan 5 Energy tambahan saat setiap gelombang pertempuran dimulai.",
+        "desc": "Setelah melancarkan Technique, akan menciptakan Dimension di sekeliling dirinya yang berlangsung selama #1[i] detik. Musuh dalam Dimension tidak akan menyerang Robin dan akan mengikuti Robin selama Dimension aktif. Setelah memasuki pertempuran saat Dimension aktif, Robin akan memulihkan #2[i] Energy saat setiap gelombang pertempuran dimulai. Hanya boleh ada 1 efek Dimension ciptaan rekan tim dalam satu waktu.",
+        "params": [
+            [
+                15,
+                5
+            ]
+        ],
+        "icon": "icon/skill/1309_technique.png"
+    },
     "131201": {
         "id": "131201",
         "name": "E—Excuse Me, Please!",
@@ -17302,6 +17662,437 @@
             ]
         ],
         "icon": "icon/skill/1312_technique.png"
+    },
+    "131501": {
+        "id": "131501",
+        "name": "Skullcrush Spurs",
+        "max_level": 9,
+        "element": "Physical",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Mengakibatkan Physical DMG dalam jumlah kecil pada 1 musuh.",
+        "desc": "Mengakibatkan Physical DMG sebesar #1[i]% ATK Boothill pada 1 musuh yang ditargetkan.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1315_basic_atk.png"
+    },
+    "131502": {
+        "id": "131502",
+        "name": "Sizzlin' Tango",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Skill",
+        "effect": "Impair",
+        "effect_text": "Impair",
+        "simple_desc": "Mengaktifkan \"Standoff\". Setelah target berstatus \"Standoff\" dikalahkan atau terkena Weakness Break, Boothill akan memperoleh \"Pocket Trickshot\" dan menghapus \"Standoff\". Membuat Boothill memperoleh penguatan Basic Attack dan giliran kali ini tidak akan berakhir.",
+        "desc": "Membuat 1 musuh yang ditargetkan dan Boothill memasuki status \"Standoff\". Basic Attack Boothill akan diperkuat, dan tidak dapat melancarkan Skill, berlangsung selama #3[i] giliran. Durasi giliran akan berkurang 1 setiap kali giliran Boothill dimulai.\nMusuh yang berstatus \"Standoff\" akan memasuki status Taunt. Saat target musuh tersebut/Boothill terkena serangan dari satu sama lain, DMG yang diterima meningkat #1[i]%/#2[i]%.\nSetelah target tersebut dikalahkan atau terkena Weakness Break, Boothill akan memperoleh 1 lapis \"Pocket Trickshot\", lalu menghapus \"Standoff\".\nSkill ini tidak dapat memulihkan Energy. Giliran kali ini tidak akan berakhir setelah melancarkan Skill ini.",
+        "params": [
+            [
+                0.15,
+                0.15,
+                2
+            ],
+            [
+                0.165,
+                0.15,
+                2
+            ],
+            [
+                0.18,
+                0.15,
+                2
+            ],
+            [
+                0.195,
+                0.15,
+                2
+            ],
+            [
+                0.21,
+                0.15,
+                2
+            ],
+            [
+                0.225,
+                0.15,
+                2
+            ],
+            [
+                0.2437,
+                0.15,
+                2
+            ],
+            [
+                0.2625,
+                0.15,
+                2
+            ],
+            [
+                0.2812,
+                0.15,
+                2
+            ],
+            [
+                0.3,
+                0.15,
+                2
+            ],
+            [
+                0.315,
+                0.15,
+                2
+            ],
+            [
+                0.33,
+                0.15,
+                2
+            ],
+            [
+                0.345,
+                0.15,
+                2
+            ],
+            [
+                0.36,
+                0.15,
+                2
+            ],
+            [
+                0.375,
+                0.15,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1315_skill.png"
+    },
+    "131503": {
+        "id": "131503",
+        "name": "Dust Devil's Sunset Rodeo",
+        "max_level": 15,
+        "element": "Physical",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Menambahkan Physical Weakness pada 1 musuh dan mengakibatkan Physical DMG dalam jumlah besar pada musuh tersebut serta menunda aksinya.",
+        "desc": "Menambahkan Physical Weakness pada 1 musuh yang ditargetkan, berlangsung selama #3[i] giliran.\nMengakibatkan Physical DMG sebesar #1[i]% ATK Boothill pada target tersebut dan menunda aksinya sebesar #2[i]%.",
+        "params": [
+            [
+                2.4,
+                0.3,
+                2
+            ],
+            [
+                2.56,
+                0.31,
+                2
+            ],
+            [
+                2.72,
+                0.32,
+                2
+            ],
+            [
+                2.88,
+                0.33,
+                2
+            ],
+            [
+                3.04,
+                0.34,
+                2
+            ],
+            [
+                3.2,
+                0.35,
+                2
+            ],
+            [
+                3.4,
+                0.3625,
+                2
+            ],
+            [
+                3.6,
+                0.375,
+                2
+            ],
+            [
+                3.8,
+                0.3875,
+                2
+            ],
+            [
+                4,
+                0.4,
+                2
+            ],
+            [
+                4.16,
+                0.41,
+                2
+            ],
+            [
+                4.32,
+                0.42,
+                2
+            ],
+            [
+                4.48,
+                0.43,
+                2
+            ],
+            [
+                4.64,
+                0.44,
+                2
+            ],
+            [
+                4.8,
+                0.45,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1315_ultimate.png"
+    },
+    "131504": {
+        "id": "131504",
+        "name": "Five Peas in a Pod",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Enhance",
+        "effect_text": "Enhance",
+        "simple_desc": "\"Pocket Trickshot\" membuat Enhanced Basic Attack karakter ini mengurangi lebih banyak nilai Toughness dan mengakibatkan Physical Break DMG tambahan pada target musuh yang berstatus Weakness Break. Setelah memenangkan pertempuran, \"Pocket Trickshot\" akan disimpan hingga pertempuran berikutnya.",
+        "desc": "Setiap lapis \"Pocket Trickshot\" akan meningkatkan #4[i]% pengurangan nilai Toughness yang diakibatkan Enhanced Basic Attack, dapat ditumpuk hingga #5[i] lapis.\nJika target berstatus Weakness Break saat Enhanced Basic Attack dilancarkan, maka berdasarkan jumlah lapisan \"Pocket Trickshot\", akan mengakibatkan Break DMG pada target sebesar #1[i]%/#2[i]%/#3[i]% Physical Break DMG Boothill. Maksimal nilai Toughness yang masuk dalam perhitungan Break DMG ini tidak bisa melebihi ×#6[i] dari pengurangan nilai Toughness yang diakibatkan Basic Attack \"Skullcrush Spurs\".\nSetelah memenangkan pertempuran, Boothill akan menyimpan \"Pocket Trickshot\" hingga pertempuran berikutnya.",
+        "params": [
+            [
+                0.35,
+                0.6,
+                0.85,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.385,
+                0.66,
+                0.935,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.42,
+                0.72,
+                1.02,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.455,
+                0.78,
+                1.105,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.49,
+                0.84,
+                1.19,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.525,
+                0.9,
+                1.275,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.5687,
+                0.975,
+                1.3813,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.6125,
+                1.05,
+                1.4875,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.6562,
+                1.125,
+                1.5938,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.7,
+                1.2,
+                1.7,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.735,
+                1.26,
+                1.785,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.77,
+                1.32,
+                1.87,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.805,
+                1.38,
+                1.955,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.84,
+                1.44,
+                2.04,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.875,
+                1.5,
+                2.125,
+                0.5,
+                3,
+                16
+            ]
+        ],
+        "icon": "icon/skill/1315_talent.png"
+    },
+    "131506": {
+        "id": "131506",
+        "name": "Attack",
+        "max_level": 1,
+        "element": "Physical",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Setelah menyerang musuh dan memasuki pertempuran, mengurangi Toughness target musuh sesuai dengan tipe Toughnessnya.",
+        "params": [],
+        "icon": "icon/skill/1315_basic_atk.png"
+    },
+    "131507": {
+        "id": "131507",
+        "name": "3-9× Smile",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Enhance",
+        "effect_text": "Enhance",
+        "simple_desc": "Setelah melancarkan Technique, akan menambahkan Physical Weakness pada 1 musuh setelah melancarkan Skill unit ini untuk pertama kalinya dalam pertempuran berikutnya.",
+        "desc": "Setelah menggunakan Technique, saat melancarkan Skill untuk pertama kalinya dalam pertempuran berikutnya, akan menambahkan Physical Weakness yang sama dengan Ultimate pada target, berlangsung selama #1[i] giliran.",
+        "params": [
+            [
+                2
+            ]
+        ],
+        "icon": "icon/skill/1315_technique.png"
+    },
+    "131508": {
+        "id": "131508",
+        "name": "Fanning the Hammer",
+        "max_level": 9,
+        "element": "Physical",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Mengakibatkan Physical DMG pada 1 musuh. Hanya dapat menyerang target berstatus \"Standoff\".",
+        "desc": "Mengakibatkan Physical DMG pada 1 musuh yang ditargetkan sebesar #1[i]% ATK Boothill.\nEnhanced Basic Attack ini tidak dapat memulihkan Poin Skill dan hanya bisa menargetkan target musuh berstatus \"Standoff\".",
+        "params": [
+            [
+                1.1
+            ],
+            [
+                1.32
+            ],
+            [
+                1.54
+            ],
+            [
+                1.76
+            ],
+            [
+                1.98
+            ],
+            [
+                2.2
+            ],
+            [
+                2.42
+            ],
+            [
+                2.64
+            ],
+            [
+                2.86
+            ]
+        ],
+        "icon": "icon/skill/1315_basic_atk.png"
     },
     "800101": {
         "id": "800101",
@@ -18964,5 +19755,605 @@
             ]
         ],
         "icon": "icon/skill/8004_basic_atk.png"
+    },
+    "800501": {
+        "id": "800501",
+        "name": "Swing Dance Etiquette",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Mengakibatkan Imaginary DMG dalam jumlah kecil pada 1 musuh.",
+        "desc": "Mengakibatkan Imaginary DMG sebesar #1[i]% ATK Trailblazer pada 1 musuh yang ditargetkan.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/8005_basic_atk.png"
+    },
+    "800502": {
+        "id": "800502",
+        "name": "Halftime to Make It Rain",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "BPSkill",
+        "type_text": "Skill",
+        "effect": "Bounce",
+        "effect_text": "Bounce",
+        "simple_desc": "Mengakibatkan Imaginary DMG dalam jumlah kecil pada 1 musuh, total Bounce 5 kali.",
+        "desc": "Mengakibatkan Imaginary DMG sebesar #1[i]% ATK Trailblazer pada 1 musuh yang ditargetkan, serta mengakibatkan 4 kali DMG tambahan, yang setiap DMG-nya akan mengakibatkan Imaginary DMG pada musuh secara acak sebesar #1[i]% ATK Trailblazer.",
+        "params": [
+            [
+                0.25,
+                2
+            ],
+            [
+                0.275,
+                2
+            ],
+            [
+                0.3,
+                2
+            ],
+            [
+                0.325,
+                2
+            ],
+            [
+                0.35,
+                2
+            ],
+            [
+                0.375,
+                2
+            ],
+            [
+                0.4062,
+                2
+            ],
+            [
+                0.4375,
+                2
+            ],
+            [
+                0.4688,
+                2
+            ],
+            [
+                0.5,
+                2
+            ],
+            [
+                0.525,
+                2
+            ],
+            [
+                0.55,
+                2
+            ],
+            [
+                0.575,
+                2
+            ],
+            [
+                0.6,
+                2
+            ],
+            [
+                0.625,
+                2
+            ]
+        ],
+        "icon": "icon/skill/8005_skill.png"
+    },
+    "800503": {
+        "id": "800503",
+        "name": "All-Out Footlight Parade",
+        "max_level": 15,
+        "element": "",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "Support",
+        "effect_text": "Support",
+        "simple_desc": "Menambahkan efek \"Backup Dancer\" pada seluruh rekan tim. Break Effect rekan tim yang memiliki \"Backup Dancer\" akan meningkat, dan setelah menyerang target musuh berstatus Weakness Break, akan mengakibatkan 1 kali Super Break DMG tambahan.",
+        "desc": "Menambahkan efek \"Backup Dancer\" pada seluruh rekan tim, berlangsung selama #1[i] giliran. Durasi giliran akan berkurang 1 setiap kali giliran Trailblazer dimulai. Break Effect rekan tim berstatus \"Backup Dancer\" akan meningkat #3[i]%, dan setelah menyerang target musuh berstatus Weakness Break, akan mengubah pengurangan nilai Toughness dari serangan kali ini menjadi 1 kali Super Break DMG.",
+        "params": [
+            [
+                3,
+                1,
+                0.15
+            ],
+            [
+                3,
+                1,
+                0.165
+            ],
+            [
+                3,
+                1,
+                0.18
+            ],
+            [
+                3,
+                1,
+                0.195
+            ],
+            [
+                3,
+                1,
+                0.21
+            ],
+            [
+                3,
+                1,
+                0.225
+            ],
+            [
+                3,
+                1,
+                0.2437
+            ],
+            [
+                3,
+                1,
+                0.2625
+            ],
+            [
+                3,
+                1,
+                0.2812
+            ],
+            [
+                3,
+                1,
+                0.3
+            ],
+            [
+                3,
+                1,
+                0.315
+            ],
+            [
+                3,
+                1,
+                0.33
+            ],
+            [
+                3,
+                1,
+                0.345
+            ],
+            [
+                3,
+                1,
+                0.36
+            ],
+            [
+                3,
+                1,
+                0.375
+            ]
+        ],
+        "icon": "icon/skill/8005_ultimate.png"
+    },
+    "800504": {
+        "id": "800504",
+        "name": "Full-on Aerial Dance",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Impair",
+        "effect_text": "Impair",
+        "simple_desc": "Saat ada target musuh yang terkena Weakness Break, Trailblazer akan memulihkan Energy.",
+        "desc": "Saat ada target musuh yang terkena Weakness Break, Trailblazer akan segera memulihkan #1[f1] Energy.",
+        "params": [
+            [
+                5
+            ],
+            [
+                5.5
+            ],
+            [
+                6
+            ],
+            [
+                6.5
+            ],
+            [
+                7
+            ],
+            [
+                7.5
+            ],
+            [
+                8.125
+            ],
+            [
+                8.75
+            ],
+            [
+                9.375
+            ],
+            [
+                10
+            ],
+            [
+                10.5
+            ],
+            [
+                11
+            ],
+            [
+                11.5
+            ],
+            [
+                12
+            ],
+            [
+                12.5
+            ]
+        ],
+        "icon": "icon/skill/8005_talent.png"
+    },
+    "800506": {
+        "id": "800506",
+        "name": "Attack",
+        "max_level": 1,
+        "element": "Imaginary",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Setelah menyerang musuh dan memasuki pertempuran, akan mengurangi Toughness target musuh sesuai dengan tipe Toughness-nya.",
+        "params": [],
+        "icon": "icon/skill/8005_basic_atk.png"
+    },
+    "800507": {
+        "id": "800507",
+        "name": "Now! I'm the Band!",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Support",
+        "effect_text": "Support",
+        "simple_desc": "Meningkatkan Break Effect seluruh rekan tim saat pertempuran berikutnya dimulai.",
+        "desc": "Setelah melancarkan Technique, saat pertempuran berikutnya dimulai, Break Effect seluruh rekan tim akan meningkat #1[i]% selama #2[i] giliran.",
+        "params": [
+            [
+                0.3,
+                2
+            ]
+        ],
+        "icon": "icon/skill/8005_technique.png"
+    },
+    "800601": {
+        "id": "800601",
+        "name": "Swing Dance Etiquette",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Mengakibatkan Imaginary DMG dalam jumlah kecil pada 1 musuh.",
+        "desc": "Mengakibatkan Imaginary DMG sebesar #1[i]% ATK Trailblazer pada 1 musuh yang ditargetkan.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/8006_basic_atk.png"
+    },
+    "800602": {
+        "id": "800602",
+        "name": "Halftime to Make It Rain",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "BPSkill",
+        "type_text": "Skill",
+        "effect": "Bounce",
+        "effect_text": "Bounce",
+        "simple_desc": "Mengakibatkan Imaginary DMG dalam jumlah kecil pada 1 musuh, total Bounce 5 kali.",
+        "desc": "Mengakibatkan Imaginary DMG sebesar #1[i]% ATK Trailblazer pada 1 musuh yang ditargetkan, serta mengakibatkan 4 kali DMG tambahan, yang setiap DMG-nya akan mengakibatkan Imaginary DMG pada musuh secara acak sebesar #1[i]% ATK Trailblazer.",
+        "params": [
+            [
+                0.25,
+                2
+            ],
+            [
+                0.275,
+                2
+            ],
+            [
+                0.3,
+                2
+            ],
+            [
+                0.325,
+                2
+            ],
+            [
+                0.35,
+                2
+            ],
+            [
+                0.375,
+                2
+            ],
+            [
+                0.4062,
+                2
+            ],
+            [
+                0.4375,
+                2
+            ],
+            [
+                0.4688,
+                2
+            ],
+            [
+                0.5,
+                2
+            ],
+            [
+                0.525,
+                2
+            ],
+            [
+                0.55,
+                2
+            ],
+            [
+                0.575,
+                2
+            ],
+            [
+                0.6,
+                2
+            ],
+            [
+                0.625,
+                2
+            ]
+        ],
+        "icon": "icon/skill/8006_skill.png"
+    },
+    "800603": {
+        "id": "800603",
+        "name": "All-Out Footlight Parade",
+        "max_level": 15,
+        "element": "",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "Support",
+        "effect_text": "Support",
+        "simple_desc": "Menambahkan efek \"Backup Dancer\" pada seluruh rekan tim. Break Effect rekan tim yang memiliki \"Backup Dancer\" akan meningkat, dan setelah menyerang target musuh berstatus Weakness Break, akan mengakibatkan 1 kali Super Break DMG tambahan.",
+        "desc": "Menambahkan efek \"Backup Dancer\" pada seluruh rekan tim, berlangsung selama #1[i] giliran. Durasi giliran akan berkurang 1 setiap kali giliran Trailblazer dimulai. Break Effect rekan tim berstatus \"Backup Dancer\" akan meningkat #3[i]%, dan setelah menyerang target musuh berstatus Weakness Break, akan mengubah pengurangan nilai Toughness dari serangan kali ini menjadi 1 kali Super Break DMG.",
+        "params": [
+            [
+                3,
+                1,
+                0.15
+            ],
+            [
+                3,
+                1,
+                0.165
+            ],
+            [
+                3,
+                1,
+                0.18
+            ],
+            [
+                3,
+                1,
+                0.195
+            ],
+            [
+                3,
+                1,
+                0.21
+            ],
+            [
+                3,
+                1,
+                0.225
+            ],
+            [
+                3,
+                1,
+                0.2437
+            ],
+            [
+                3,
+                1,
+                0.2625
+            ],
+            [
+                3,
+                1,
+                0.2812
+            ],
+            [
+                3,
+                1,
+                0.3
+            ],
+            [
+                3,
+                1,
+                0.315
+            ],
+            [
+                3,
+                1,
+                0.33
+            ],
+            [
+                3,
+                1,
+                0.345
+            ],
+            [
+                3,
+                1,
+                0.36
+            ],
+            [
+                3,
+                1,
+                0.375
+            ]
+        ],
+        "icon": "icon/skill/8006_ultimate.png"
+    },
+    "800604": {
+        "id": "800604",
+        "name": "Full-on Aerial Dance",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Impair",
+        "effect_text": "Impair",
+        "simple_desc": "Saat ada target musuh yang terkena Weakness Break, Trailblazer akan memulihkan Energy.",
+        "desc": "Saat ada target musuh yang terkena Weakness Break, Trailblazer akan segera memulihkan #1[f1] Energy.",
+        "params": [
+            [
+                5
+            ],
+            [
+                5.5
+            ],
+            [
+                6
+            ],
+            [
+                6.5
+            ],
+            [
+                7
+            ],
+            [
+                7.5
+            ],
+            [
+                8.125
+            ],
+            [
+                8.75
+            ],
+            [
+                9.375
+            ],
+            [
+                10
+            ],
+            [
+                10.5
+            ],
+            [
+                11
+            ],
+            [
+                11.5
+            ],
+            [
+                12
+            ],
+            [
+                12.5
+            ]
+        ],
+        "icon": "icon/skill/8006_talent.png"
+    },
+    "800606": {
+        "id": "800606",
+        "name": "Attack",
+        "max_level": 1,
+        "element": "Imaginary",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Setelah menyerang musuh dan memasuki pertempuran, akan mengurangi Toughness target musuh sesuai dengan tipe Toughness-nya.",
+        "params": [],
+        "icon": "icon/skill/8006_basic_atk.png"
+    },
+    "800607": {
+        "id": "800607",
+        "name": "Now! I'm the Band!",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Support",
+        "effect_text": "Support",
+        "simple_desc": "Meningkatkan Break Effect seluruh rekan tim saat pertempuran berikutnya dimulai.",
+        "desc": "Setelah melancarkan Technique, saat pertempuran berikutnya dimulai, Break Effect seluruh rekan tim akan meningkat #1[i]% selama #2[i] giliran.",
+        "params": [
+            [
+                0.3,
+                2
+            ]
+        ],
+        "icon": "icon/skill/8006_technique.png"
     }
 }

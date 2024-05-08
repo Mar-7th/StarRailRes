@@ -2864,6 +2864,65 @@
             ]
         ]
     },
+    "21044": {
+        "id": "21044",
+        "skill": "Escrutinio",
+        "desc": "La Prob. CRIT del portador aumenta en un #1[i]%. El Daño CRIT que el portador inflige a los enemigos afectados por reducción de DEF o Ralentización aumenta en un #2[i]%.",
+        "params": [
+            [
+                0.08,
+                0.24
+            ],
+            [
+                0.1,
+                0.3
+            ],
+            [
+                0.12,
+                0.36
+            ],
+            [
+                0.14,
+                0.42
+            ],
+            [
+                0.16,
+                0.48
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.08
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.1
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.12
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.14
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.16
+                }
+            ]
+        ]
+    },
     "22000": {
         "id": "22000",
         "skill": "Mano rápida",
@@ -2983,6 +3042,70 @@
                 {
                     "type": "HPAddedRatio",
                     "value": 0.12
+                }
+            ]
+        ]
+    },
+    "22002": {
+        "id": "22002",
+        "skill": "Ataduras",
+        "desc": "El ATQ del portador aumenta en un #1[i]%. Cuando el portador usa su habilidad definitiva, el daño infligido aumenta en un #2[i]% durante #3[i] turno.",
+        "params": [
+            [
+                0.16,
+                0.18,
+                1
+            ],
+            [
+                0.2,
+                0.21,
+                1
+            ],
+            [
+                0.24,
+                0.24,
+                1
+            ],
+            [
+                0.28,
+                0.27,
+                1
+            ],
+            [
+                0.32,
+                0.3,
+                1
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.16
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.2
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.24
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.28
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.32
                 }
             ]
         ]
@@ -4753,6 +4876,124 @@
                 {
                     "type": "CriticalDamageBase",
                     "value": 0.6
+                }
+            ]
+        ]
+    },
+    "23026": {
+        "id": "23026",
+        "skill": "Consuelo",
+        "desc": "Cada vez que un aliado ataca, el portador obtiene 1 acumulación de Tonada. Cada acumulación de Tonada aumenta la recuperación de energía del portador en un #1[f1]%, hasta un máximo de #2[i] acumulaciones. Después de que el portador use su habilidad definitiva, elimina Tonada y obtiene Cadenza. Cadenza aumenta en un #4[i]% el ATQ del portador y aumenta en un #3[i]% el daño que infligen todos los aliados durante #5[i] turno.",
+        "params": [
+            [
+                0.03,
+                5,
+                0.24,
+                0.48,
+                1
+            ],
+            [
+                0.035,
+                5,
+                0.28,
+                0.6,
+                1
+            ],
+            [
+                0.04,
+                5,
+                0.32,
+                0.72,
+                1
+            ],
+            [
+                0.045,
+                5,
+                0.36,
+                0.84,
+                1
+            ],
+            [
+                0.05,
+                5,
+                0.4,
+                0.96,
+                1
+            ]
+        ],
+        "properties": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    "23027": {
+        "id": "23027",
+        "skill": "Mar bravo",
+        "desc": "El efecto de Ruptura del portador aumenta en un #1[i]% y el Daño de Ruptura que inflige el portador ignora un #3[i]% de la DEF del objetivo. Cuando el efecto de Ruptura del portador sea igual o superior al #2[i]% durante la batalla, su VEL aumenta en un #4[i]%.",
+        "params": [
+            [
+                0.6,
+                1.5,
+                0.2,
+                0.12
+            ],
+            [
+                0.7,
+                1.5,
+                0.23,
+                0.14
+            ],
+            [
+                0.8,
+                1.5,
+                0.26,
+                0.16
+            ],
+            [
+                0.9,
+                1.5,
+                0.29,
+                0.18
+            ],
+            [
+                1,
+                1.5,
+                0.32,
+                0.2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.6
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.7
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.8
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.9
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 1
                 }
             ]
         ]

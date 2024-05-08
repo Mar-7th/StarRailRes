@@ -4645,6 +4645,108 @@
         "level_up_skills": [],
         "icon": "icon/skill/1308_rank6.png"
     },
+    "130901": {
+        "id": "130901",
+        "name": "País de sonrisas",
+        "rank": 1,
+        "desc": "Cuando está en el estado de Concierto, la PEN de la RES a todos los tipos de todos los aliados aumenta en un 24%.",
+        "materials": [
+            {
+                "id": "11309",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1309_rank1.png"
+    },
+    "130902": {
+        "id": "130902",
+        "name": "Té de la tarde para dos",
+        "rank": 2,
+        "desc": "Cuando está en el estado de Concierto, la VEL de todos los aliados aumenta en un 16%. El efecto de recuperación de energía del talento aumenta adicionalmente en 1 pt.",
+        "materials": [
+            {
+                "id": "11309",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1309_rank2.png"
+    },
+    "130903": {
+        "id": "130903",
+        "name": "Afinación inversa",
+        "rank": 3,
+        "desc": "Niv. de habilidad básica +2 (máximo: nivel 15). Niv. de habilidad definitiva +2 (máximo: nivel 15).",
+        "materials": [
+            {
+                "id": "11309",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130902",
+                "num": 2
+            },
+            {
+                "id": "130903",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1309_skill.png"
+    },
+    "130904": {
+        "id": "130904",
+        "name": "Llave de lluvia",
+        "rank": 4,
+        "desc": "Al usar su habilidad definitiva, elimina los estados negativos de Control de todos los aliados. Cuando Robin está en el estado de Concierto, la RES a efecto de todos los aliados aumenta en un 50%.",
+        "materials": [
+            {
+                "id": "11309",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1309_rank4.png"
+    },
+    "130905": {
+        "id": "130905",
+        "name": "Lamento de la estrella solitaria",
+        "rank": 5,
+        "desc": "Niv. de ATQ básico +1 (máximo: nivel 10). Niv. de talento +2 (máximo: nivel 15).",
+        "materials": [
+            {
+                "id": "11309",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130901",
+                "num": 1
+            },
+            {
+                "id": "130904",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1309_ultimate.png"
+    },
+    "130906": {
+        "id": "130906",
+        "name": "Noche sin luna",
+        "rank": 6,
+        "desc": "Cuando está en el estado de Concierto, el Daño CRIT del Daño Físico adicional infligido por la habilidad definitiva aumenta en un 450%. El efecto de Noche sin luna se puede activar hasta 8 veces. Cada vez que usa la habilidad definitiva, se reinicia el número de veces que se puede activar.",
+        "materials": [
+            {
+                "id": "11309",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1309_rank6.png"
+    },
     "131201": {
         "id": "131201",
         "name": "Ilusión caprichosa",
@@ -4746,6 +4848,112 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1312_rank6.png"
+    },
+    "131501": {
+        "id": "131501",
+        "name": "Estrella solitaria del sendero polvoriento",
+        "rank": 1,
+        "desc": "Al inicio de la batalla, obtiene 1 acumulación de Ventaja en el bolsillo. Cuando Boothill inflige daño, ignora un 16% de la DEF del objetivo.",
+        "materials": [
+            {
+                "id": "11315",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1315_rank1.png"
+    },
+    "131502": {
+        "id": "131502",
+        "name": "Traficante de hitos",
+        "rank": 2,
+        "desc": "Cuando está en el estado de Duelo a muerte y obtiene Ventaja en el bolsillo, recupera 1 pt. de habilidad básica y aumenta su efecto de Ruptura en un 30% durante 2 turnos. Este efecto no se puede activar repetidamente en el mismo turno, y también se puede activar al obtener acumulaciones de Ventaja en el bolsillo por encima del límite.",
+        "materials": [
+            {
+                "id": "11315",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1315_rank2.png"
+    },
+    "131503": {
+        "id": "131503",
+        "name": "Guardia del jardín de mármol",
+        "rank": 3,
+        "desc": "Niv. de habilidad definitiva +2 (máximo: nivel 15). Niv. de ATQ básico +1 (máximo: nivel 10).",
+        "materials": [
+            {
+                "id": "11315",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "131503",
+                "num": 2
+            },
+            {
+                "id": "131501",
+                "num": 1
+            },
+            {
+                "id": "131508",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1315_skill.png"
+    },
+    "131504": {
+        "id": "131504",
+        "name": "Chef de fiambres",
+        "rank": 4,
+        "desc": "Cuando el enemigo con Duelo a muerte es atacado por Boothill, el daño recibido aumenta un 12% adicional. Cuando Boothill es atacado por un enemigo con Duelo a muerte, el efecto de aumento de daño recibido disminuye en un 12%.",
+        "materials": [
+            {
+                "id": "11315",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1315_rank4.png"
+    },
+    "131505": {
+        "id": "131505",
+        "name": "Discurso en el tocón",
+        "rank": 5,
+        "desc": "Niv. de habilidad básica +2 (máximo: nivel 15). Niv. de talento +2 (máximo: nivel 15).",
+        "materials": [
+            {
+                "id": "11315",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "131502",
+                "num": 2
+            },
+            {
+                "id": "131504",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1315_ultimate.png"
+    },
+    "131506": {
+        "id": "131506",
+        "name": "Mapache del hotel Palanca",
+        "rank": 6,
+        "desc": "Cuando inflige Daño de Ruptura activado por el talento, inflige adicionalmente un 40% del multiplicador de Daño de Ruptura al objetivo y un 70% del multiplicador del Daño de Ruptura a los objetivos adyacentes.",
+        "materials": [
+            {
+                "id": "11315",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1315_rank6.png"
     },
     "800101": {
         "id": "800101",
@@ -5178,5 +5386,209 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/8004_rank6.png"
+    },
+    "800501": {
+        "id": "800501",
+        "name": "El mejor asiento del local",
+        "rank": 1,
+        "desc": "Regenera 1 pt. de habilidad básica tras usar la habilidad por primera vez en una batalla.",
+        "materials": [
+            {
+                "id": "18005",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/8005_rank1.png"
+    },
+    "800502": {
+        "id": "800502",
+        "name": "Arcoíris fugaprisiones",
+        "rank": 2,
+        "desc": "Al comenzar la batalla, la recuperación de energía {F#de la}{M#del} Trazacaminos aumenta en un 25% durante 3 turnos.",
+        "materials": [
+            {
+                "id": "18005",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/8005_rank2.png"
+    },
+    "800503": {
+        "id": "800503",
+        "name": "Sanatorio del silencio de redonda",
+        "rank": 3,
+        "desc": "Niv. de habilidad básica +2 (máximo: nivel 15). Niv. de talento +2 (máximo: nivel 15).",
+        "materials": [
+            {
+                "id": "18005",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "800502",
+                "num": 2
+            },
+            {
+                "id": "800504",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/8005_skill.png"
+    },
+    "800504": {
+        "id": "800504",
+        "name": "Paloma en la chistera",
+        "rank": 4,
+        "desc": "Mientras {F#la}{M#el} Trazacaminos está en el campo de batalla, el efecto de Ruptura de todos los aliados excepto {F#ella}{M#él} aumenta en una cantidad equivalente al 15% del efecto de Ruptura {F#de la}{M#del} Trazacaminos.",
+        "materials": [
+            {
+                "id": "18005",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/8005_rank4.png"
+    },
+    "800505": {
+        "id": "800505",
+        "name": "Poema de viejos ritmos",
+        "rank": 5,
+        "desc": "Niv. de habilidad definitiva +2 (máximo: nivel 15). Niv. de ATQ básico +1 (máximo: nivel 10).",
+        "materials": [
+            {
+                "id": "18005",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "800503",
+                "num": 2
+            },
+            {
+                "id": "800501",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/8005_ultimate.png"
+    },
+    "800506": {
+        "id": "800506",
+        "name": "Mañana descansaremos bajo los focos",
+        "rank": 6,
+        "desc": "Aumenta el daño extra de la habilidad básica 2 veces.",
+        "materials": [
+            {
+                "id": "18005",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/8005_rank6.png"
+    },
+    "800601": {
+        "id": "800601",
+        "name": "El mejor asiento del local",
+        "rank": 1,
+        "desc": "Regenera 1 pt. de habilidad básica tras usar la habilidad por primera vez en una batalla.",
+        "materials": [
+            {
+                "id": "18005",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/8005_rank1.png"
+    },
+    "800602": {
+        "id": "800602",
+        "name": "Arcoíris fugaprisiones",
+        "rank": 2,
+        "desc": "Al comenzar la batalla, la recuperación de energía {F#de la}{M#del} Trazacaminos aumenta en un 25% durante 3 turnos.",
+        "materials": [
+            {
+                "id": "18005",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/8005_rank2.png"
+    },
+    "800603": {
+        "id": "800603",
+        "name": "Sanatorio del silencio de redonda",
+        "rank": 3,
+        "desc": "Niv. de habilidad básica +2 (máximo: nivel 15). Niv. de talento +2 (máximo: nivel 15).",
+        "materials": [
+            {
+                "id": "18005",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "800602",
+                "num": 2
+            },
+            {
+                "id": "800604",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/8006_skill.png"
+    },
+    "800604": {
+        "id": "800604",
+        "name": "Paloma en la chistera",
+        "rank": 4,
+        "desc": "Mientras {F#la}{M#el} Trazacaminos está en el campo de batalla, el efecto de Ruptura de todos los aliados excepto {F#ella}{M#él} aumenta en una cantidad equivalente al 15% del efecto de Ruptura {F#de la}{M#del} Trazacaminos.",
+        "materials": [
+            {
+                "id": "18005",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/8005_rank4.png"
+    },
+    "800605": {
+        "id": "800605",
+        "name": "Poema de viejos ritmos",
+        "rank": 5,
+        "desc": "Niv. de habilidad definitiva +2 (máximo: nivel 15). Niv. de ATQ básico +1 (máximo: nivel 10).",
+        "materials": [
+            {
+                "id": "18005",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "800603",
+                "num": 2
+            },
+            {
+                "id": "800601",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/8006_ultimate.png"
+    },
+    "800606": {
+        "id": "800606",
+        "name": "Mañana descansaremos bajo los focos",
+        "rank": 6,
+        "desc": "Aumenta el daño extra de la habilidad básica 2 veces.",
+        "materials": [
+            {
+                "id": "18005",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/8005_rank6.png"
     }
 }

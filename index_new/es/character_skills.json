@@ -761,39 +761,39 @@
         "params": [
             [
                 1,
-                0
-            ],
-            [
-                1.1,
-                0.08
-            ],
-            [
-                1.2,
-                0.16
-            ],
-            [
-                1.3,
-                0.24
-            ],
-            [
-                1.4,
-                0.32
-            ],
-            [
-                1.5,
                 0.4
             ],
             [
-                1.625,
-                0.5
+                1.1,
+                0.44
             ],
             [
-                1.75,
+                1.2,
+                0.48
+            ],
+            [
+                1.3,
+                0.52
+            ],
+            [
+                1.4,
+                0.56
+            ],
+            [
+                1.5,
                 0.6
             ],
             [
-                1.875,
+                1.625,
+                0.65
+            ],
+            [
+                1.75,
                 0.7
+            ],
+            [
+                1.875,
+                0.75
             ],
             [
                 2,
@@ -801,23 +801,23 @@
             ],
             [
                 2.1,
-                0.88
+                0.84
             ],
             [
                 2.2,
-                0.96
+                0.88
             ],
             [
                 2.3,
-                1.04
+                0.92
             ],
             [
                 2.4,
-                1.12
+                0.96
             ],
             [
                 2.5,
-                1.2
+                1
             ]
         ],
         "icon": "icon/skill/1003_skill.png"
@@ -11860,7 +11860,7 @@
         "effect": "Impair",
         "effect_text": "Alteración",
         "simple_desc": "Crea una zona especial a su alrededor. Los enemigos que estén en la zona se congelan. Al entrar en combate con los enemigos dentro de la zona, recupera energía, obtiene 1 acumulación de Sizigia y tiene una gran probabilidad de congelar a los enemigos.",
-        "desc": "Tras usar la técnica, crea una zona especial a su alrededor que dura #3[i] segundos. Los enemigos que estén en la zona especial son afectados con Congelación. Al entrar en combate con los enemigos dentro de la zona, recupera #6[i] pts. de energía, obtiene #1[i] acumulación de Sizigia y tiene una probabilidad base del #2[i]% de congelar a los enemigos durante #4[i] turno. Los enemigos congelados no se pueden mover y al principio de cada turno reciben un Daño de Hielo adicional equivalente al #5[i]% del ATQ de Jingliu. Solo puede haber una zona especial creada por los aliados a la vez.",
+        "desc": "Tras usar la técnica, crea una zona especial a su alrededor que dura #3[i] segundos. Los enemigos que estén en la zona especial son afectados con Congelación. Al entrar en combate con los enemigos dentro de la zona, recupera #6[i] pts. de energía, obtiene #1[i] acumulación de Sizigia y tiene una probabilidad base del #2[i]% de congelar a los enemigos durante #4[i] turno. Los enemigos congelados no pueden actuar y al principio de cada turno reciben un Daño de Hielo adicional equivalente al #5[i]% del ATQ de Jingliu. Solo puede haber una zona especial creada por los aliados a la vez.",
         "params": [
             [
                 1,
@@ -16514,8 +16514,8 @@
         "type_text": "Talento",
         "effect": "Enhance",
         "effect_text": "Potenciación",
-        "simple_desc": "La habilidad definitiva se puede activar cuando Sueños rotos llega al máximo. Mientras dura la habilidad definitiva, se ignora el tipo de Debilidad y se consume la Firmeza de los enemigos, y además se reduce la RES a todos los tipos de todos los enemigos.\nSi cualquier unidad lanza una habilidad y afecta con un estado negativo a un enemigo, Acheron obtiene Sueños rotos y aplica Rojo sacrificial al objetivo.",
-        "desc": "La habilidad definitiva se puede activar cuando Sueños rotos alcanza #1[i] pts. Mientras dura la habilidad definitiva, se ignora el tipo de Debilidad y se consume la Firmeza de los enemigos, y además la RES a todos los tipos de todos los enemigos se reduce en un #2[i]% hasta que finalice la habilidad definitiva.\nSi cualquier unidad lanza una habilidad y afecta con un estado negativo a un enemigo, Acheron obtiene 1 pt. de Sueños rotos y aplica 1 acumulación de Rojo sacrificial al objetivo. Si afecta con estados negativos a más de un enemigo, aplica 1 acumulación de Rojo sacrificial al enemigo que tenga más acumulaciones. Este efecto se puede activar 1 vez por acción. \nCuando Acheron esté en la batalla y un enemigo abandone la batalla o sea derrotado por cualquier unidad, las acumulaciones de Rojo sacrificial se traspasarán al objetivo que tenga más acumulaciones de Rojo sacrificial.",
+        "simple_desc": "La habilidad definitiva se puede activar cuando Sueños rotos llega al máximo. Mientras dura la habilidad definitiva, se ignora el tipo de Debilidad y se consume la Firmeza de los enemigos, y además se reduce la RES a todos los tipos de todos los enemigos.\nSi cualquier unidad lanza una habilidad y afecta con un estado negativo a un enemigo, Acheron obtiene Sueños rotos y aplica Rojo sacrificial a un objetivo.",
+        "desc": "La habilidad definitiva se puede activar cuando Sueños rotos alcanza #1[i] pts. Mientras dura la habilidad definitiva, se ignora el tipo de Debilidad y se consume la Firmeza de los enemigos, y además la RES a todos los tipos de todos los enemigos se reduce en un #2[i]% hasta que finalice la habilidad definitiva.\nSi cualquier unidad lanza una habilidad y afecta con un estado negativo a un enemigo, Acheron obtiene 1 pt. de Sueños rotos y aplica 1 acumulación de Rojo sacrificial a un objetivo. Si afecta con estados negativos a más de un enemigo, aplica 1 acumulación de Rojo sacrificial al enemigo que tenga más acumulaciones. Este efecto se puede activar 1 vez por acción. \nCuando Acheron esté en la batalla y un enemigo abandone la batalla o sea derrotado por cualquier unidad, las acumulaciones de Rojo sacrificial se traspasarán al objetivo que tenga más acumulaciones de Rojo sacrificial.",
         "params": [
             [
                 9,
@@ -16943,6 +16943,366 @@
         ],
         "icon": "icon/skill/1308_ultimate.png"
     },
+    "130901": {
+        "id": "130901",
+        "name": "Ruido blanco de aleteo",
+        "max_level": 9,
+        "element": "Physical",
+        "type": "Normal",
+        "type_text": "ATQ básico",
+        "effect": "SingleAttack",
+        "effect_text": "ATQ individual",
+        "simple_desc": "Inflige una pequeña cantidad de Daño Físico a un enemigo.",
+        "desc": "Inflige un #1[i]% del ATQ de Robin como Daño Físico a un enemigo.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1309_basic_atk.png"
+    },
+    "130902": {
+        "id": "130902",
+        "name": "Aria de la pluma",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Habilidad básica",
+        "effect": "Support",
+        "effect_text": "Apoyo",
+        "simple_desc": "Aumenta el daño que infligen todos los aliados.",
+        "desc": "Aumenta en un #1[i]% el daño que infligen todos los aliados durante #2[i] turnos. Cada vez que comience el turno de Robin, la duración se reduce en 1 turno.",
+        "params": [
+            [
+                0.25,
+                3
+            ],
+            [
+                0.275,
+                3
+            ],
+            [
+                0.3,
+                3
+            ],
+            [
+                0.325,
+                3
+            ],
+            [
+                0.35,
+                3
+            ],
+            [
+                0.375,
+                3
+            ],
+            [
+                0.4062,
+                3
+            ],
+            [
+                0.4375,
+                3
+            ],
+            [
+                0.4688,
+                3
+            ],
+            [
+                0.5,
+                3
+            ],
+            [
+                0.525,
+                3
+            ],
+            [
+                0.55,
+                3
+            ],
+            [
+                0.575,
+                3
+            ],
+            [
+                0.6,
+                3
+            ],
+            [
+                0.625,
+                3
+            ]
+        ],
+        "icon": "icon/skill/1309_skill.png"
+    },
+    "130903": {
+        "id": "130903",
+        "name": "Canon de mil voces, fuga estelar",
+        "max_level": 15,
+        "element": "",
+        "type": "Ultra",
+        "type_text": "Habilidad definitiva",
+        "effect": "Support",
+        "effect_text": "Apoyo",
+        "simple_desc": "Entra en el estado de Concierto, aumenta el ATQ de todos los aliados y hace que todos excepto ella actúen inmediatamente. Después de que un aliado ataque, Robin inflige Daño Físico adicional. En el estado de Concierto, Robin es inmune a estados negativos de Control. Antes de que Concierto termine, Robin no puede actuar ni entrar en su turno hasta que termine la cuenta regresiva.",
+        "desc": "Robin entra en el estado de Concierto y hace que todos los aliados excepto ella actúen inmediatamente.\nMientras está en el estado de Concierto, el ATQ de todos los aliados aumenta en una cantidad equivalente al #1[f1]% + #3[i] del ATQ de Robin. Después de cada ataque de los aliados, Robin inflige 1 vez un #4[i]% de su ATQ como Daño Físico adicional. La Prob. CRIT de este daño se fija en el #5[i]% y el Daño CRIT se fija en el #6[i]%.\nMientras está en el estado de Concierto, Robin obtiene inmunidad a estados negativos de Control y no puede realizar ninguna acción ni usar su turno hasta que termine el estado de Concierto.\nEn el orden de acción aparece una cuenta regresiva de Concierto. Cuando comienza el turno de la cuenta regresiva, Robin sale del estado de Concierto y actúa inmediatamente. La cuenta regresiva tiene una VEL fija de #2[i].",
+        "params": [
+            [
+                0.152,
+                90,
+                50,
+                0.72,
+                1,
+                1.5
+            ],
+            [
+                0.1596,
+                90,
+                65,
+                0.768,
+                1,
+                1.5
+            ],
+            [
+                0.1672,
+                90,
+                80,
+                0.816,
+                1,
+                1.5
+            ],
+            [
+                0.1748,
+                90,
+                95,
+                0.864,
+                1,
+                1.5
+            ],
+            [
+                0.1824,
+                90,
+                110,
+                0.912,
+                1,
+                1.5
+            ],
+            [
+                0.19,
+                90,
+                125,
+                0.96,
+                1,
+                1.5
+            ],
+            [
+                0.1995,
+                90,
+                143.75,
+                1.02,
+                1,
+                1.5
+            ],
+            [
+                0.209,
+                90,
+                162.5,
+                1.08,
+                1,
+                1.5
+            ],
+            [
+                0.2185,
+                90,
+                181.25,
+                1.14,
+                1,
+                1.5
+            ],
+            [
+                0.228,
+                90,
+                200,
+                1.2,
+                1,
+                1.5
+            ],
+            [
+                0.2356,
+                90,
+                215,
+                1.248,
+                1,
+                1.5
+            ],
+            [
+                0.2432,
+                90,
+                230,
+                1.296,
+                1,
+                1.5
+            ],
+            [
+                0.2508,
+                90,
+                245,
+                1.344,
+                1,
+                1.5
+            ],
+            [
+                0.2584,
+                90,
+                260,
+                1.392,
+                1,
+                1.5
+            ],
+            [
+                0.266,
+                90,
+                275,
+                1.44,
+                1,
+                1.5
+            ]
+        ],
+        "icon": "icon/skill/1309_ultimate.png"
+    },
+    "130904": {
+        "id": "130904",
+        "name": "Oda melodiosa",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talento",
+        "effect": "Support",
+        "effect_text": "Apoyo",
+        "simple_desc": "Aumenta el Daño CRIT de todos los aliados. Después de que un aliado ataque a un enemigo, Robin recupera energía adicional.",
+        "desc": "Aumenta el Daño CRIT de todos los aliados en un #1[f1]%. Después de que un aliado ataque a un enemigo, Robin recupera #2[i] pts. de energía adicionales.",
+        "params": [
+            [
+                0.05,
+                2
+            ],
+            [
+                0.065,
+                2
+            ],
+            [
+                0.08,
+                2
+            ],
+            [
+                0.095,
+                2
+            ],
+            [
+                0.11,
+                2
+            ],
+            [
+                0.125,
+                2
+            ],
+            [
+                0.1437,
+                2
+            ],
+            [
+                0.1625,
+                2
+            ],
+            [
+                0.1812,
+                2
+            ],
+            [
+                0.2,
+                2
+            ],
+            [
+                0.215,
+                2
+            ],
+            [
+                0.23,
+                2
+            ],
+            [
+                0.245,
+                2
+            ],
+            [
+                0.26,
+                2
+            ],
+            [
+                0.275,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1309_talent.png"
+    },
+    "130906": {
+        "id": "130906",
+        "name": "Ataque",
+        "max_level": 1,
+        "element": "Physical",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Ataca a un enemigo y, tras entrar en combate, consume la Firmeza del tipo correspondiente del enemigo.",
+        "params": [],
+        "icon": "icon/skill/1309_basic_atk.png"
+    },
+    "130907": {
+        "id": "130907",
+        "name": "Obertura embriagadora",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Técnica",
+        "effect": "Support",
+        "effect_text": "Apoyo",
+        "simple_desc": "Crea una zona especial a su alrededor. Los enemigos que estén en la zona no pueden atacar a Robin. Tras entrar en combate mientras la zona especial está activa, Robin recupera 5 pts. de energía adicionales al comienzo de cada oleada.",
+        "desc": "Tras usar la técnica, crea una zona especial a su alrededor que dura #1[i] s. Los enemigos que estén en la zona no pueden atacar a Robin y la siguen mientras la zona permanezca activa. Tras entrar en combate mientras la zona especial está activa, Robin recupera #2[i] pts. de energía al comienzo de cada oleada. Solo puede haber 1 efecto del área creado por los aliados a la vez.",
+        "params": [
+            [
+                15,
+                5
+            ]
+        ],
+        "icon": "icon/skill/1309_technique.png"
+    },
     "131201": {
         "id": "131201",
         "name": "¡Disculpe, por favor!",
@@ -17302,6 +17662,437 @@
             ]
         ],
         "icon": "icon/skill/1312_technique.png"
+    },
+    "131501": {
+        "id": "131501",
+        "name": "Espuelas rompetestas",
+        "max_level": 9,
+        "element": "Physical",
+        "type": "Normal",
+        "type_text": "ATQ básico",
+        "effect": "SingleAttack",
+        "effect_text": "ATQ individual",
+        "simple_desc": "Inflige una pequeña cantidad de Daño Físico a un enemigo.",
+        "desc": "Inflige un #1[i]% del ATQ de Boothill como Daño Físico a un enemigo.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1315_basic_atk.png"
+    },
+    "131502": {
+        "id": "131502",
+        "name": "Tango de las brasas ardientes",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Habilidad básica",
+        "effect": "Impair",
+        "effect_text": "Alteración",
+        "simple_desc": "Inicia Duelo a muerte. Después de que el objetivo de Duelo a muerte sea derrotado o se rompa su Debilidad, Boothill obtiene Ventaja en el bolsillo y disipa Duelo a muerte. Potencia su ATQ básico y el turno no termina.",
+        "desc": "Hace que Boothill y un enemigo entren en el estado de Duelo a muerte. El ATQ básico de Boothill se potencia y no puede usar la habilidad básica durante #3[i] turnos. Esta duración se reduce en 1 al comienzo del turno de Boothill.\nEl objetivo enemigo con Duelo a muerte es afectado con Provocación. Cuando el enemigo/Boothill reciben un ataque uno del otro, el daño recibido aumenta en un #1[i]%/#2[i]%.\nDespués de que este enemigo sea derrotado o se rompa su Debilidad, Boothill obtiene 1 acumulación de Ventaja en el bolsillo y luego disipa Duelo a muerte.\nEsta habilidad básica no puede recuperar energía y el turno no termina.",
+        "params": [
+            [
+                0.15,
+                0.15,
+                2
+            ],
+            [
+                0.165,
+                0.15,
+                2
+            ],
+            [
+                0.18,
+                0.15,
+                2
+            ],
+            [
+                0.195,
+                0.15,
+                2
+            ],
+            [
+                0.21,
+                0.15,
+                2
+            ],
+            [
+                0.225,
+                0.15,
+                2
+            ],
+            [
+                0.2437,
+                0.15,
+                2
+            ],
+            [
+                0.2625,
+                0.15,
+                2
+            ],
+            [
+                0.2812,
+                0.15,
+                2
+            ],
+            [
+                0.3,
+                0.15,
+                2
+            ],
+            [
+                0.315,
+                0.15,
+                2
+            ],
+            [
+                0.33,
+                0.15,
+                2
+            ],
+            [
+                0.345,
+                0.15,
+                2
+            ],
+            [
+                0.36,
+                0.15,
+                2
+            ],
+            [
+                0.375,
+                0.15,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1315_skill.png"
+    },
+    "131503": {
+        "id": "131503",
+        "name": "Rodeo vespertino del diablo de polvo",
+        "max_level": 15,
+        "element": "Physical",
+        "type": "Ultra",
+        "type_text": "Habilidad definitiva",
+        "effect": "SingleAttack",
+        "effect_text": "ATQ individual",
+        "simple_desc": "Aplica Debilidad Física a un enemigo. Además, inflige gran cantidad de Daño Físico y retrasa la acción del enemigo.",
+        "desc": "Aplica Debilidad Física a un enemigo durante #3[i] turnos.\nAdemás, inflige al enemigo un Daño Físico equivalente al #1[i]% del ATQ de Boothill y retrasa su acción en un #2[i]%.",
+        "params": [
+            [
+                2.4,
+                0.3,
+                2
+            ],
+            [
+                2.56,
+                0.31,
+                2
+            ],
+            [
+                2.72,
+                0.32,
+                2
+            ],
+            [
+                2.88,
+                0.33,
+                2
+            ],
+            [
+                3.04,
+                0.34,
+                2
+            ],
+            [
+                3.2,
+                0.35,
+                2
+            ],
+            [
+                3.4,
+                0.3625,
+                2
+            ],
+            [
+                3.6,
+                0.375,
+                2
+            ],
+            [
+                3.8,
+                0.3875,
+                2
+            ],
+            [
+                4,
+                0.4,
+                2
+            ],
+            [
+                4.16,
+                0.41,
+                2
+            ],
+            [
+                4.32,
+                0.42,
+                2
+            ],
+            [
+                4.48,
+                0.43,
+                2
+            ],
+            [
+                4.64,
+                0.44,
+                2
+            ],
+            [
+                4.8,
+                0.45,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1315_ultimate.png"
+    },
+    "131504": {
+        "id": "131504",
+        "name": "Cinco guisantes en la vaina",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talento",
+        "effect": "Enhance",
+        "effect_text": "Potenciación",
+        "simple_desc": "Ventaja en el bolsillo hace que el ATQ básico potenciado tenga más Reducción de Firmeza e inflija Daño de Ruptura Físico extra al enemigo afectado por Ruptura de Debilidad. Tras ganar el combate, Ventaja en el bolsillo se mantiene para el siguiente combate.",
+        "desc": "Cada acumulación de Ventaja en el bolsillo aumenta la Reducción de Firmeza del ATQ básico potenciado en un #4[i]%, hasta un máximo de #5[i] acumulaciones.\nSi el enemigo está afectado por Ruptura de Debilidad cuando usa el ATQ básico potenciado, inflige a ese enemigo un Daño de Ruptura equivalente al #1[i]%/#2[i]%/#3[i]% del Daño de Ruptura Físico de Boothill, en función de las acumulaciones de Ventaja en el bolsillo. La cantidad máxima de Firmeza calculada para este daño no puede superar #6[i] veces la Reducción de Firmeza de base que tiene el ATQ básico \"Espuelas rompetestas\".\nTras ganar el combate, Boothill mantiene Ventaja en el bolsillo para el siguiente combate.",
+        "params": [
+            [
+                0.35,
+                0.6,
+                0.85,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.385,
+                0.66,
+                0.935,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.42,
+                0.72,
+                1.02,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.455,
+                0.78,
+                1.105,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.49,
+                0.84,
+                1.19,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.525,
+                0.9,
+                1.275,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.5687,
+                0.975,
+                1.3813,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.6125,
+                1.05,
+                1.4875,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.6562,
+                1.125,
+                1.5938,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.7,
+                1.2,
+                1.7,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.735,
+                1.26,
+                1.785,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.77,
+                1.32,
+                1.87,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.805,
+                1.38,
+                1.955,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.84,
+                1.44,
+                2.04,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.875,
+                1.5,
+                2.125,
+                0.5,
+                3,
+                16
+            ]
+        ],
+        "icon": "icon/skill/1315_talent.png"
+    },
+    "131506": {
+        "id": "131506",
+        "name": "Ataque",
+        "max_level": 1,
+        "element": "Physical",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Ataca a un enemigo y, tras entrar en combate, consume la Firmeza del tipo correspondiente del enemigo.",
+        "params": [],
+        "icon": "icon/skill/1315_basic_atk.png"
+    },
+    "131507": {
+        "id": "131507",
+        "name": "Sonrisa 3×9",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Técnica",
+        "effect": "Enhance",
+        "effect_text": "Potenciación",
+        "simple_desc": "Tras usar la técnica, aplica Debilidad Física a un enemigo la primera vez que use la habilidad básica en el siguiente combate.",
+        "desc": "La primera vez que use la habilidad básica en el siguiente combate después de usar la técnica, afecta al objetivo con una Debilidad Física equivalente a la de la habilidad definitiva durante #1[i] turnos.",
+        "params": [
+            [
+                2
+            ]
+        ],
+        "icon": "icon/skill/1315_technique.png"
+    },
+    "131508": {
+        "id": "131508",
+        "name": "Percutor de repetición",
+        "max_level": 9,
+        "element": "Physical",
+        "type": "Normal",
+        "type_text": "ATQ básico",
+        "effect": "SingleAttack",
+        "effect_text": "ATQ individual",
+        "simple_desc": "Inflige Daño Físico a un enemigo. Solo puede atacar al enemigo con Duelo a muerte.",
+        "desc": "Inflige un #1[i]% del ATQ de Boothill como Daño Físico a un enemigo. \nEl ATQ básico potenciado no recupera pts. de habilidad básica y solo puede tener como objetivo al enemigo que tenga Duelo a muerte.",
+        "params": [
+            [
+                1.1
+            ],
+            [
+                1.32
+            ],
+            [
+                1.54
+            ],
+            [
+                1.76
+            ],
+            [
+                1.98
+            ],
+            [
+                2.2
+            ],
+            [
+                2.42
+            ],
+            [
+                2.64
+            ],
+            [
+                2.86
+            ]
+        ],
+        "icon": "icon/skill/1315_basic_atk.png"
     },
     "800101": {
         "id": "800101",
@@ -18964,5 +19755,605 @@
             ]
         ],
         "icon": "icon/skill/8004_basic_atk.png"
+    },
+    "800501": {
+        "id": "800501",
+        "name": "Etiqueta al bailar el swing",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "ATQ básico",
+        "effect": "SingleAttack",
+        "effect_text": "ATQ individual",
+        "simple_desc": "Inflige una pequeña cantidad de Daño Imaginario a un enemigo.",
+        "desc": "Inflige un #1[i]% del ATQ {F#de la}{M#del} Trazacaminos como Daño Imaginario a un enemigo.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/8005_basic_atk.png"
+    },
+    "800502": {
+        "id": "800502",
+        "name": "Aguacero en el intermedio",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "BPSkill",
+        "type_text": "Habilidad básica",
+        "effect": "Bounce",
+        "effect_text": "Rebote",
+        "simple_desc": "Inflige una pequeña cantidad de Daño Imaginario a un enemigo. Se dispara 5 veces en total.",
+        "desc": "Inflige un #1[i]% del ATQ {F#de la}{M#del} Trazacaminos como Daño Imaginario a un enemigo y después inflige daño 4 veces más. Cada golpe inflige un #1[i]% del ATQ {F#de la}{M#del} Trazacaminos como Daño Imaginario a un enemigo al azar.",
+        "params": [
+            [
+                0.25,
+                2
+            ],
+            [
+                0.275,
+                2
+            ],
+            [
+                0.3,
+                2
+            ],
+            [
+                0.325,
+                2
+            ],
+            [
+                0.35,
+                2
+            ],
+            [
+                0.375,
+                2
+            ],
+            [
+                0.4062,
+                2
+            ],
+            [
+                0.4375,
+                2
+            ],
+            [
+                0.4688,
+                2
+            ],
+            [
+                0.5,
+                2
+            ],
+            [
+                0.525,
+                2
+            ],
+            [
+                0.55,
+                2
+            ],
+            [
+                0.575,
+                2
+            ],
+            [
+                0.6,
+                2
+            ],
+            [
+                0.625,
+                2
+            ]
+        ],
+        "icon": "icon/skill/8005_skill.png"
+    },
+    "800503": {
+        "id": "800503",
+        "name": "Desfile clamoroso de luces",
+        "max_level": 15,
+        "element": "",
+        "type": "Ultra",
+        "type_text": "Habilidad definitiva",
+        "effect": "Support",
+        "effect_text": "Apoyo",
+        "simple_desc": "Aplica el efecto Bailarín de apoyo a todos los aliados. Los aliados bajo el efecto de Bailarín de apoyo tienen mayor efecto de Ruptura e infligen adicionalmente 1 vez Daño de Ultrarruptura cuando atacan a enemigos con Ruptura de Debilidad.",
+        "desc": "Aplica a todos los aliados el efecto Bailarín de apoyo durante #1[i] turnos. La duración del efecto se reduce en 1 cada vez que comience el turno {F#de la}{M#del} Trazacaminos. El efecto de Ruptura de los aliados bajo el efecto de Bailarín de apoyo aumenta en un #3[i]%. Cuando atacan a enemigos con Ruptura de Debilidad, convierten la Reducción de Firmeza de este ataque en Daño de Ultrarruptura 1 vez.",
+        "params": [
+            [
+                3,
+                1,
+                0.15
+            ],
+            [
+                3,
+                1,
+                0.165
+            ],
+            [
+                3,
+                1,
+                0.18
+            ],
+            [
+                3,
+                1,
+                0.195
+            ],
+            [
+                3,
+                1,
+                0.21
+            ],
+            [
+                3,
+                1,
+                0.225
+            ],
+            [
+                3,
+                1,
+                0.2437
+            ],
+            [
+                3,
+                1,
+                0.2625
+            ],
+            [
+                3,
+                1,
+                0.2812
+            ],
+            [
+                3,
+                1,
+                0.3
+            ],
+            [
+                3,
+                1,
+                0.315
+            ],
+            [
+                3,
+                1,
+                0.33
+            ],
+            [
+                3,
+                1,
+                0.345
+            ],
+            [
+                3,
+                1,
+                0.36
+            ],
+            [
+                3,
+                1,
+                0.375
+            ]
+        ],
+        "icon": "icon/skill/8005_ultimate.png"
+    },
+    "800504": {
+        "id": "800504",
+        "name": "Danza aérea panorámica",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talento",
+        "effect": "Impair",
+        "effect_text": "Alteración",
+        "simple_desc": "{F#La}{M#El} Trazacaminos recupera energía cuando se rompe la Debilidad de un enemigo.",
+        "desc": "{F#La}{M#El} Trazacaminos recupera inmediatamente #1[f1] pts. de energía cuando se rompe la Debilidad de un enemigo.",
+        "params": [
+            [
+                5
+            ],
+            [
+                5.5
+            ],
+            [
+                6
+            ],
+            [
+                6.5
+            ],
+            [
+                7
+            ],
+            [
+                7.5
+            ],
+            [
+                8.125
+            ],
+            [
+                8.75
+            ],
+            [
+                9.375
+            ],
+            [
+                10
+            ],
+            [
+                10.5
+            ],
+            [
+                11
+            ],
+            [
+                11.5
+            ],
+            [
+                12
+            ],
+            [
+                12.5
+            ]
+        ],
+        "icon": "icon/skill/8005_talent.png"
+    },
+    "800506": {
+        "id": "800506",
+        "name": "Ataque",
+        "max_level": 1,
+        "element": "Imaginary",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Ataca a un enemigo y, tras entrar en combate, consume la Firmeza del tipo correspondiente del enemigo.",
+        "params": [],
+        "icon": "icon/skill/8005_basic_atk.png"
+    },
+    "800507": {
+        "id": "800507",
+        "name": "¡Que entren los solistas!",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Técnica",
+        "effect": "Support",
+        "effect_text": "Apoyo",
+        "simple_desc": "Aumenta el efecto de Ruptura de todos los aliados en la siguiente batalla.",
+        "desc": "Tras usar la técnica, al comenzar la siguiente batalla, el efecto de Ruptura de todos los aliados aumenta en un #1[i]% durante #2[i] turnos.",
+        "params": [
+            [
+                0.3,
+                2
+            ]
+        ],
+        "icon": "icon/skill/8005_technique.png"
+    },
+    "800601": {
+        "id": "800601",
+        "name": "Etiqueta al bailar el swing",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "ATQ básico",
+        "effect": "SingleAttack",
+        "effect_text": "ATQ individual",
+        "simple_desc": "Inflige una pequeña cantidad de Daño Imaginario a un enemigo.",
+        "desc": "Inflige un #1[i]% del ATQ {F#de la}{M#del} Trazacaminos como Daño Imaginario a un enemigo.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/8006_basic_atk.png"
+    },
+    "800602": {
+        "id": "800602",
+        "name": "Aguacero en el intermedio",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "BPSkill",
+        "type_text": "Habilidad básica",
+        "effect": "Bounce",
+        "effect_text": "Rebote",
+        "simple_desc": "Inflige una pequeña cantidad de Daño Imaginario a un enemigo. Se dispara 5 veces en total.",
+        "desc": "Inflige un #1[i]% del ATQ {F#de la}{M#del} Trazacaminos como Daño Imaginario a un enemigo y después inflige daño 4 veces más. Cada golpe inflige un #1[i]% del ATQ {F#de la}{M#del} Trazacaminos como Daño Imaginario a un enemigo al azar.",
+        "params": [
+            [
+                0.25,
+                2
+            ],
+            [
+                0.275,
+                2
+            ],
+            [
+                0.3,
+                2
+            ],
+            [
+                0.325,
+                2
+            ],
+            [
+                0.35,
+                2
+            ],
+            [
+                0.375,
+                2
+            ],
+            [
+                0.4062,
+                2
+            ],
+            [
+                0.4375,
+                2
+            ],
+            [
+                0.4688,
+                2
+            ],
+            [
+                0.5,
+                2
+            ],
+            [
+                0.525,
+                2
+            ],
+            [
+                0.55,
+                2
+            ],
+            [
+                0.575,
+                2
+            ],
+            [
+                0.6,
+                2
+            ],
+            [
+                0.625,
+                2
+            ]
+        ],
+        "icon": "icon/skill/8006_skill.png"
+    },
+    "800603": {
+        "id": "800603",
+        "name": "Desfile clamoroso de luces",
+        "max_level": 15,
+        "element": "",
+        "type": "Ultra",
+        "type_text": "Habilidad definitiva",
+        "effect": "Support",
+        "effect_text": "Apoyo",
+        "simple_desc": "Aplica el efecto Bailarín de apoyo a todos los aliados. Los aliados bajo el efecto de Bailarín de apoyo tienen mayor efecto de Ruptura e infligen adicionalmente 1 vez Daño de Ultrarruptura cuando atacan a enemigos con Ruptura de Debilidad.",
+        "desc": "Aplica a todos los aliados el efecto Bailarín de apoyo durante #1[i] turnos. La duración del efecto se reduce en 1 cada vez que comience el turno {F#de la}{M#del} Trazacaminos. El efecto de Ruptura de los aliados bajo el efecto de Bailarín de apoyo aumenta en un #3[i]%. Cuando atacan a enemigos con Ruptura de Debilidad, convierten la Reducción de Firmeza de este ataque en Daño de Ultrarruptura 1 vez.",
+        "params": [
+            [
+                3,
+                1,
+                0.15
+            ],
+            [
+                3,
+                1,
+                0.165
+            ],
+            [
+                3,
+                1,
+                0.18
+            ],
+            [
+                3,
+                1,
+                0.195
+            ],
+            [
+                3,
+                1,
+                0.21
+            ],
+            [
+                3,
+                1,
+                0.225
+            ],
+            [
+                3,
+                1,
+                0.2437
+            ],
+            [
+                3,
+                1,
+                0.2625
+            ],
+            [
+                3,
+                1,
+                0.2812
+            ],
+            [
+                3,
+                1,
+                0.3
+            ],
+            [
+                3,
+                1,
+                0.315
+            ],
+            [
+                3,
+                1,
+                0.33
+            ],
+            [
+                3,
+                1,
+                0.345
+            ],
+            [
+                3,
+                1,
+                0.36
+            ],
+            [
+                3,
+                1,
+                0.375
+            ]
+        ],
+        "icon": "icon/skill/8006_ultimate.png"
+    },
+    "800604": {
+        "id": "800604",
+        "name": "Danza aérea panorámica",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talento",
+        "effect": "Impair",
+        "effect_text": "Alteración",
+        "simple_desc": "{F#La}{M#El} Trazacaminos recupera energía cuando se rompe la Debilidad de un enemigo.",
+        "desc": "{F#La}{M#El} Trazacaminos recupera inmediatamente #1[f1] pts. de energía cuando se rompe la Debilidad de un enemigo.",
+        "params": [
+            [
+                5
+            ],
+            [
+                5.5
+            ],
+            [
+                6
+            ],
+            [
+                6.5
+            ],
+            [
+                7
+            ],
+            [
+                7.5
+            ],
+            [
+                8.125
+            ],
+            [
+                8.75
+            ],
+            [
+                9.375
+            ],
+            [
+                10
+            ],
+            [
+                10.5
+            ],
+            [
+                11
+            ],
+            [
+                11.5
+            ],
+            [
+                12
+            ],
+            [
+                12.5
+            ]
+        ],
+        "icon": "icon/skill/8006_talent.png"
+    },
+    "800606": {
+        "id": "800606",
+        "name": "Ataque",
+        "max_level": 1,
+        "element": "Imaginary",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Ataca a un enemigo y, tras entrar en combate, consume la Firmeza del tipo correspondiente del enemigo.",
+        "params": [],
+        "icon": "icon/skill/8006_basic_atk.png"
+    },
+    "800607": {
+        "id": "800607",
+        "name": "¡Que entren los solistas!",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Técnica",
+        "effect": "Support",
+        "effect_text": "Apoyo",
+        "simple_desc": "Aumenta el efecto de Ruptura de todos los aliados en la siguiente batalla.",
+        "desc": "Tras usar la técnica, al comenzar la siguiente batalla, el efecto de Ruptura de todos los aliados aumenta en un #1[i]% durante #2[i] turnos.",
+        "params": [
+            [
+                0.3,
+                2
+            ]
+        ],
+        "icon": "icon/skill/8006_technique.png"
     }
 }

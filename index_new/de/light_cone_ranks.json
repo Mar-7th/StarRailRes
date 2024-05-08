@@ -1176,7 +1176,7 @@
     "21010": {
         "id": "21010",
         "skill": "Eigene Antworten",
-        "desc": "Jedes Mal, wenn der Träger dasselbe Ziel trifft, wird der zugefügte SCH um #1[i]% erhöht. Dieser Effekt ist bis zu #2[i]-mal stapelbar. Wechselt der Träger das Ziel, wird dieser Buff unmittelbar entfernt.",
+        "desc": "Jedes Mal, wenn der Träger dasselbe Ziel trifft, wird der verursachte SCH um #1[i]% erhöht. Dieser Effekt ist bis zu #2[i]-fach stapelbar. Wechselt der Träger das Angriffsziel, wird dieser Buff unmittelbar entfernt.",
         "params": [
             [
                 0.08,
@@ -1298,7 +1298,7 @@
     "21013": {
         "id": "21013",
         "skill": "Die Macht des Klangs",
-        "desc": "Stellt beim Kampfeintritt sofort #2[i] Pkt. Energie wieder her und erhöht den durch Ultimate verursachten SCH um #1[i]%.",
+        "desc": "Stellt beim Kampfeintritt sofort #2[i] Pkt. Energie des Trägers wieder her und erhöht den durch Ultimate verursachten SCH um #1[i]%.",
         "params": [
             [
                 0.32,
@@ -2864,6 +2864,65 @@
             ]
         ]
     },
+    "21044": {
+        "id": "21044",
+        "skill": "Prüfen",
+        "desc": "Erhöht die KRIT-Rate des Trägers um #1[i]%. Der Träger verursacht #2[i]% mehr KRIT-SCH bei Gegnern, die verringerte VTD besitzen oder verlangsamt sind.",
+        "params": [
+            [
+                0.08,
+                0.24
+            ],
+            [
+                0.1,
+                0.3
+            ],
+            [
+                0.12,
+                0.36
+            ],
+            [
+                0.14,
+                0.42
+            ],
+            [
+                0.16,
+                0.48
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.08
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.1
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.12
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.14
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.16
+                }
+            ]
+        ]
+    },
     "22000": {
         "id": "22000",
         "skill": "Flinke Hände",
@@ -2983,6 +3042,70 @@
                 {
                     "type": "HPAddedRatio",
                     "value": 0.12
+                }
+            ]
+        ]
+    },
+    "22002": {
+        "id": "22002",
+        "skill": "Verketten",
+        "desc": "Erhöht den ANG des Trägers um #1[i]%. Nachdem der Träger seinen Ultimate eingesetzt hat, wird der verursachte SCH für #3[i] Rd. um #2[i]% erhöht.",
+        "params": [
+            [
+                0.16,
+                0.18,
+                1
+            ],
+            [
+                0.2,
+                0.21,
+                1
+            ],
+            [
+                0.24,
+                0.24,
+                1
+            ],
+            [
+                0.28,
+                0.27,
+                1
+            ],
+            [
+                0.32,
+                0.3,
+                1
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.16
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.2
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.24
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.28
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.32
                 }
             ]
         ]
@@ -4617,7 +4740,7 @@
     "23023": {
         "id": "23023",
         "skill": "Alles auf den Tisch",
-        "desc": "Erhöht die VTD des Trägers um #1[i]%. Wenn der Träger Verbündeten einen Schild erzeugt, wird der KRIT-SCH des Trägers für #3[i] Rd. um #2[i]% erhöht. Wenn der Träger mit Folgeangriffe einen Gegner trifft, besteht eine Grundchance von #4[i]%, dass der vom angegriffenen Gegner erlittene SCH für #6[i] Rd. um #5[f1]% erhöht wird.",
+        "desc": "Erhöht die VTD des Trägers um #1[i]%. Wenn der Träger Verbündeten einen Schild erzeugt, wird der KRIT-SCH des Trägers für #3[i] Rd. um #2[i]% erhöht. Wenn der Träger einen Gegner durch Folgeangriff trifft, besteht eine Grundchance von #4[i]%, dass der vom angegriffenen Gegner erlittene SCH für #6[i] Rd. um #5[f1]% erhöht wird.",
         "params": [
             [
                 0.4,
@@ -4753,6 +4876,124 @@
                 {
                     "type": "CriticalDamageBase",
                     "value": 0.6
+                }
+            ]
+        ]
+    },
+    "23026": {
+        "id": "23026",
+        "skill": "Trösten",
+        "desc": "Jedes Mal, wenn ein Verbündeter angreift, erhält der Träger eine Stapelung „Gesang“. Jede Stapelung Gesang erhöht die Energie-Wiederherstellungsrate des Trägers um #1[f1]%, bis zu #2[i] Stapelungen. Wenn der Träger den Ultimate einsetzt, wird Gesang entfernt und er erhält „Farbenpracht“. Farbenpracht erhöht für #5[i] Rd. den ANG des Trägers um #4[i]% und den verursachten SCH aller Verbündeten um #3[i]%.",
+        "params": [
+            [
+                0.03,
+                5,
+                0.24,
+                0.48,
+                1
+            ],
+            [
+                0.035,
+                5,
+                0.28,
+                0.6,
+                1
+            ],
+            [
+                0.04,
+                5,
+                0.32,
+                0.72,
+                1
+            ],
+            [
+                0.045,
+                5,
+                0.36,
+                0.84,
+                1
+            ],
+            [
+                0.05,
+                5,
+                0.4,
+                0.96,
+                1
+            ]
+        ],
+        "properties": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    "23027": {
+        "id": "23027",
+        "skill": "Starker Wellengang",
+        "desc": "Erhöht den Brucheffekt des Trägers um #1[i]%. Vom Träger verursachter Bruch-SCH ignoriert #3[i]% der VTD des Ziels. Wenn der Brucheffekt des Trägers im Kampf #2[i]% oder mehr beträgt, wird seine GES um #4[i]% erhöht.",
+        "params": [
+            [
+                0.6,
+                1.5,
+                0.2,
+                0.12
+            ],
+            [
+                0.7,
+                1.5,
+                0.23,
+                0.14
+            ],
+            [
+                0.8,
+                1.5,
+                0.26,
+                0.16
+            ],
+            [
+                0.9,
+                1.5,
+                0.29,
+                0.18
+            ],
+            [
+                1,
+                1.5,
+                0.32,
+                0.2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.6
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.7
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.8
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.9
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 1
                 }
             ]
         ]

@@ -2864,6 +2864,65 @@
             ]
         ]
     },
+    "21044": {
+        "id": "21044",
+        "skill": "Thăm Dò",
+        "desc": "Tăng #1[i]% tỷ lệ Bạo Kích của người trang bị. Sát Thương Bạo Kích mà người trang bị gây cho kẻ địch ở trạng thái Giảm Phòng Thủ hoặc Giảm Tốc tăng #2[i]%.",
+        "params": [
+            [
+                0.08,
+                0.24
+            ],
+            [
+                0.1,
+                0.3
+            ],
+            [
+                0.12,
+                0.36
+            ],
+            [
+                0.14,
+                0.42
+            ],
+            [
+                0.16,
+                0.48
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.08
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.1
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.12
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.14
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.16
+                }
+            ]
+        ]
+    },
     "22000": {
         "id": "22000",
         "skill": "Nhanh Như Tia Chớp",
@@ -2983,6 +3042,70 @@
                 {
                     "type": "HPAddedRatio",
                     "value": 0.12
+                }
+            ]
+        ]
+    },
+    "22002": {
+        "id": "22002",
+        "skill": "Liên Kết",
+        "desc": "Tăng #1[i]% Tấn Công cho người trang bị. Sau khi người trang bị thi triển Tuyệt Kỹ, sát thương gây ra tăng #2[i]%, duy trì #3[i] hiệp.",
+        "params": [
+            [
+                0.16,
+                0.18,
+                1
+            ],
+            [
+                0.2,
+                0.21,
+                1
+            ],
+            [
+                0.24,
+                0.24,
+                1
+            ],
+            [
+                0.28,
+                0.27,
+                1
+            ],
+            [
+                0.32,
+                0.3,
+                1
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.16
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.2
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.24
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.28
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.32
                 }
             ]
         ]
@@ -4617,7 +4740,7 @@
     "23023": {
         "id": "23023",
         "skill": "Cược Hết Tất Cả",
-        "desc": "Tăng #1[i]% Phòng Thủ của người trang bị, khi người trang bị cung cấp khiên cho phe ta, Sát Thương Bạo Kích của người trang bị sẽ tăng #2[i]%, duy trì #3[i] hiệp. Khi người trang bị phát động Đòn Đánh Theo Sau tấn công kẻ địch, có #4[i]% xác suất cơ bản khiến sát thương phải chịu của kẻ địch bị tấn công tăng #5[f1]%, duy trì #6[i] hiệp.",
+        "desc": "Tăng #1[i]% Phòng Thủ của người trang bị, khi người trang bị cung cấp khiên cho mục tiêu phe ta, Sát Thương Bạo Kích của người trang bị sẽ tăng #2[i]%, duy trì #3[i] hiệp. Khi người trang bị phát động Đòn Đánh Theo Sau tấn công kẻ địch, có #4[i]% xác suất cơ bản khiến sát thương phải chịu của kẻ địch bị tấn công tăng #5[f1]%, duy trì #6[i] hiệp.",
         "params": [
             [
                 0.4,
@@ -4753,6 +4876,124 @@
                 {
                     "type": "CriticalDamageBase",
                     "value": 0.6
+                }
+            ]
+        ]
+    },
+    "23026": {
+        "id": "23026",
+        "skill": "An Ủi",
+        "desc": "Mỗi khi nhân vật phe ta tấn công, sẽ khiến người trang bị nhận 1 tầng Ca Tụng, mỗi tầng Ca Tụng sẽ tăng #1[f1]% hiệu suất hồi Năng Lượng của người trang bị, tối đa cộng dồn #2[i] tầng. Khi người trang bị thi triển Tuyệt Kỹ, sẽ xóa bỏ Ca Tụng và nhận Độc Tấu Tự Do, Độc Tấu Tự Do khiến Tấn Công của người trang bị tăng #4[i]%, khiến sát thương của toàn phe ta gây ra tăng #3[i]%, duy trì #5[i] hiệp.",
+        "params": [
+            [
+                0.03,
+                5,
+                0.24,
+                0.48,
+                1
+            ],
+            [
+                0.035,
+                5,
+                0.28,
+                0.6,
+                1
+            ],
+            [
+                0.04,
+                5,
+                0.32,
+                0.72,
+                1
+            ],
+            [
+                0.045,
+                5,
+                0.36,
+                0.84,
+                1
+            ],
+            [
+                0.05,
+                5,
+                0.4,
+                0.96,
+                1
+            ]
+        ],
+        "properties": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    "23027": {
+        "id": "23027",
+        "skill": "Gian Khổ",
+        "desc": "Tăng #1[i]% Tấn Công Kích Phá của người trang bị, Sát Thương Phá Vỡ gây ra sẽ bỏ qua #3[i]% Phòng Thủ của mục tiêu. Trong chiến đấu, khi Tấn Công Kích Phá của người trang bị lớn hơn hoặc bằng #2[i]%, Tốc Độ tăng #4[i]%.",
+        "params": [
+            [
+                0.6,
+                1.5,
+                0.2,
+                0.12
+            ],
+            [
+                0.7,
+                1.5,
+                0.23,
+                0.14
+            ],
+            [
+                0.8,
+                1.5,
+                0.26,
+                0.16
+            ],
+            [
+                0.9,
+                1.5,
+                0.29,
+                0.18
+            ],
+            [
+                1,
+                1.5,
+                0.32,
+                0.2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.6
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.7
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.8
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.9
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 1
                 }
             ]
         ]

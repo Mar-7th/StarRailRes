@@ -4123,7 +4123,7 @@
         "id": "130401",
         "name": "Spiel der Gefangenen",
         "rank": 1,
-        "desc": "Erhöht den KRIT-SCH von Verbündeten mit „Verstärkter Einsatz“ um 20%. Gewährt nach dem Einsatz des Ultimates für 3 Rd. den Schild Verstärkter Einsatz für alle Verbündeten. Die Schildmenge entspricht 100% der durch die Fertigkeit gewährte Schildmenge.",
+        "desc": "Erhöht den KRIT-SCH von Verbündeten mit „Verstärkter Einsatz“ um 20%. Gewährt nach dem Einsatz des Ultimates für 3 Rd. den Schild Verstärkter Einsatz für alle Verbündeten. Die Schildmenge entspricht 100% der durch die Fertigkeit gewährten Schildmenge.",
         "materials": [
             {
                 "id": "11304",
@@ -4635,7 +4635,7 @@
         "id": "130806",
         "name": "Gespaltene Fesseln des Verhängnisses",
         "rank": 6,
-        "desc": "Erhöht den WDS aller Typen für den von Acheron verursachten Ultimate-SCH um 20%. Der durch Standardangriff und Fertigkeit verursachte SCH wird ebenfalls als Ultimate-SCH betrachtet und kann den WDS des Gegners unabhängig vom Schwächetyp reduzieren. Beim Schwächebruch wird der Effekt „Schwächebruch: Blitz“ ausgelöst.",
+        "desc": "Erhöht die WDS-DUR aller Typen für den von Acheron verursachten Ultimate-SCH um 20%. Der durch Standardangriff und Fertigkeit verursachte SCH wird ebenfalls als Ultimate-SCH betrachtet und kann den WDS des Gegners unabhängig vom Schwächetyp reduzieren. Beim Schwächebruch wird der Effekt „Schwächebruch: Blitz“ ausgelöst.",
         "materials": [
             {
                 "id": "11308",
@@ -4644,6 +4644,108 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1308_rank6.png"
+    },
+    "130901": {
+        "id": "130901",
+        "name": "Land des Lächelns",
+        "rank": 1,
+        "desc": "Im Status „Konzert“ wird die WDS-DUR aller Typen für alle Verbündeten um 24% erhöht.",
+        "materials": [
+            {
+                "id": "11309",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1309_rank1.png"
+    },
+    "130902": {
+        "id": "130902",
+        "name": "Mittagstee für zwei",
+        "rank": 2,
+        "desc": "Im Status „Konzert“ wird die GES aller Verbündeten um 16% erhöht. Die Energie-Wiederherstellung des Talents wird zusätzlich um 1 Pkt. erhöht.",
+        "materials": [
+            {
+                "id": "11309",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1309_rank2.png"
+    },
+    "130903": {
+        "id": "130903",
+        "name": "Verdrehte Saiten",
+        "rank": 3,
+        "desc": "Fertigkeitsstufe +2 bis max. St. 15. Ultimate-Stufe +2 bis max. St. 15.",
+        "materials": [
+            {
+                "id": "11309",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130902",
+                "num": 2
+            },
+            {
+                "id": "130903",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1309_skill.png"
+    },
+    "130904": {
+        "id": "130904",
+        "name": "Schlüssel des Regentropfens",
+        "rank": 4,
+        "desc": "Beim Einsatz des Ultimates werden Mengenkontrolle-Debuffs von allen Verbündeten entfernt. Während Robin sich im Status „Konzert“ befindet, wird der Effekt-WDS aller Verbündeten um 50% erhöht.",
+        "materials": [
+            {
+                "id": "11309",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1309_rank4.png"
+    },
+    "130905": {
+        "id": "130905",
+        "name": "Tränen des einsamen Sterns",
+        "rank": 5,
+        "desc": "Standardangriff-Stufe +1 bis max. St. 10. Talentstufe +2 bis max. St. 15.",
+        "materials": [
+            {
+                "id": "11309",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "130901",
+                "num": 1
+            },
+            {
+                "id": "130904",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1309_ultimate.png"
+    },
+    "130906": {
+        "id": "130906",
+        "name": "Mondlose Mitternacht",
+        "rank": 6,
+        "desc": "Im Status „Konzert“ wird der KRIT-SCH des vom Ultimate verursachten zusätzlichen physischen SCH zusätzlich um 450% erhöht. „Mondlose Mitternacht“ kann bis zu 8-mal ausgelöst werden. Beim Einsatz des Ultimates wird die Auslösungszahl zurückgesetzt.",
+        "materials": [
+            {
+                "id": "11309",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1309_rank6.png"
     },
     "131201": {
         "id": "131201",
@@ -4746,6 +4848,112 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1312_rank6.png"
+    },
+    "131501": {
+        "id": "131501",
+        "name": "Einsamer Stern im Staub",
+        "rank": 1,
+        "desc": "Erhält zu Beginn des Kampfes 1 Stapelung „Trumpf in der Tasche“. Boothill verursacht SCH, der 16% der VTD des gegnerischen Ziels ignoriert.",
+        "materials": [
+            {
+                "id": "11315",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1315_rank1.png"
+    },
+    "131502": {
+        "id": "131502",
+        "name": "Meilenstein-Händler",
+        "rank": 2,
+        "desc": "Stellt beim Erhalt von „Trumpf in der Tasche“ im Status „Tödliche Konfrontation“ 1 Fertigkeitspunkt wieder her und erhöht für 2 Rd. den Brucheffekt um 30%. Dieser Effekt kann in einer einzelnen Runde nicht wiederholt ausgelöst werden. Er wird auch ausgelöst, wenn Stapelungen von Trumpf in der Tasche erhalten werden, die die max. Stapelzahl überschreiten.",
+        "materials": [
+            {
+                "id": "11315",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1315_rank2.png"
+    },
+    "131503": {
+        "id": "131503",
+        "name": "Wächter des marmornen Obstgartens",
+        "rank": 3,
+        "desc": "Ultimate-Stufe +2 bis max. St. 15. Standardangriff-Stufe +1 bis max. St. 10.",
+        "materials": [
+            {
+                "id": "11315",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "131503",
+                "num": 2
+            },
+            {
+                "id": "131501",
+                "num": 1
+            },
+            {
+                "id": "131508",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1315_skill.png"
+    },
+    "131504": {
+        "id": "131504",
+        "name": "Aufschnittskoch",
+        "rank": 4,
+        "desc": "Wenn Gegner mit „Tödliche Konfrontation“ von Boothill angegriffen werden, wird der erlittene SCH zusätzlich um 12% erhöht. Wenn Boothill von Gegnern mit Tödliche Konfrontation angegriffen wird, wird der Effekt der erlittenen SCH-Erhöhung um 12% reduziert.",
+        "materials": [
+            {
+                "id": "11315",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1315_rank4.png"
+    },
+    "131505": {
+        "id": "131505",
+        "name": "Baumstumpfredner",
+        "rank": 5,
+        "desc": "Fertigkeitsstufe +2 bis max. St. 15. Talentstufe +2 bis max. St. 15.",
+        "materials": [
+            {
+                "id": "11315",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "131502",
+                "num": 2
+            },
+            {
+                "id": "131504",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1315_ultimate.png"
+    },
+    "131506": {
+        "id": "131506",
+        "name": "Waschbär im Hotel Brecheisen",
+        "rank": 6,
+        "desc": "Wenn durch das Talent Bruch-SCH verursacht wird, wird dem Ziel zusätzlich Bruch-SCH in Höhe von 40% des ursprünglichen SCH-Multiplikators und angrenzenden Einheiten zusätzlich Bruch-SCH in Höhe von 70% des ursprünglichen SCH-Multiplikators zugefügt.",
+        "materials": [
+            {
+                "id": "11315",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1315_rank6.png"
     },
     "800101": {
         "id": "800101",
@@ -5178,5 +5386,209 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/8004_rank6.png"
+    },
+    "800501": {
+        "id": "800501",
+        "name": "Dein bester Sitzplatz",
+        "rank": 1,
+        "desc": "Stellt sofort 1 Fertigkeitspunkt wieder her, wenn die Fertigkeit zum ersten Mal eingesetzt wird.",
+        "materials": [
+            {
+                "id": "18005",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/8005_rank1.png"
+    },
+    "800502": {
+        "id": "800502",
+        "name": "Gefängnisausbruch des Regenbogens",
+        "rank": 2,
+        "desc": "Erhöht zu Beginn des Kampfes die Energie-Wiederherstellungsrate {F#der Trailblazerin}{M#des Trailblazers} für 3 Rd. um 25%.",
+        "materials": [
+            {
+                "id": "18005",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/8005_rank2.png"
+    },
+    "800503": {
+        "id": "800503",
+        "name": "Sanatorium des Pausenzeichens",
+        "rank": 3,
+        "desc": "Fertigkeitsstufe +2 bis max. St. 15. Talentstufe +2 bis max. St. 15.",
+        "materials": [
+            {
+                "id": "18005",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "800502",
+                "num": 2
+            },
+            {
+                "id": "800504",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/8005_skill.png"
+    },
+    "800504": {
+        "id": "800504",
+        "name": "Die weiße Taube schützende Krone",
+        "rank": 4,
+        "desc": "Wenn {F#die Trailblazerin}{M#der Trailblazer} auf dem Kampffeld ist, wird der Brucheffekt aller Verbündeten außer {F#ihr}{M#ihm} selbst um 15% {F#ihres}{M#seines} Brucheffekts erhöht.",
+        "materials": [
+            {
+                "id": "18005",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/8005_rank4.png"
+    },
+    "800505": {
+        "id": "800505",
+        "name": "Gedicht der alten Takte",
+        "rank": 5,
+        "desc": "Ultimate-Stufe +2 bis max. St. 15. Standardangriff-Stufe +1 bis max. St. 10.",
+        "materials": [
+            {
+                "id": "18005",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "800503",
+                "num": 2
+            },
+            {
+                "id": "800501",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/8005_ultimate.png"
+    },
+    "800506": {
+        "id": "800506",
+        "name": "Morgen, Nisten unter dem Rampenlicht",
+        "rank": 6,
+        "desc": "Erhöht die Anzahl des zusätzlichen SCH der Fertigkeit um 2.",
+        "materials": [
+            {
+                "id": "18005",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/8005_rank6.png"
+    },
+    "800601": {
+        "id": "800601",
+        "name": "Dein bester Sitzplatz",
+        "rank": 1,
+        "desc": "Stellt sofort 1 Fertigkeitspunkt wieder her, wenn die Fertigkeit zum ersten Mal eingesetzt wird.",
+        "materials": [
+            {
+                "id": "18005",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/8005_rank1.png"
+    },
+    "800602": {
+        "id": "800602",
+        "name": "Gefängnisausbruch des Regenbogens",
+        "rank": 2,
+        "desc": "Erhöht zu Beginn des Kampfes die Energie-Wiederherstellungsrate {F#der Trailblazerin}{M#des Trailblazers} für 3 Rd. um 25%.",
+        "materials": [
+            {
+                "id": "18005",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/8005_rank2.png"
+    },
+    "800603": {
+        "id": "800603",
+        "name": "Sanatorium des Pausenzeichens",
+        "rank": 3,
+        "desc": "Fertigkeitsstufe +2 bis max. St. 15. Talentstufe +2 bis max. St. 15.",
+        "materials": [
+            {
+                "id": "18005",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "800602",
+                "num": 2
+            },
+            {
+                "id": "800604",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/8006_skill.png"
+    },
+    "800604": {
+        "id": "800604",
+        "name": "Die weiße Taube schützende Krone",
+        "rank": 4,
+        "desc": "Wenn {F#die Trailblazerin}{M#der Trailblazer} auf dem Kampffeld ist, wird der Brucheffekt aller Verbündeten außer {F#ihr}{M#ihm} selbst um 15% {F#ihres}{M#seines} Brucheffekts erhöht.",
+        "materials": [
+            {
+                "id": "18005",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/8005_rank4.png"
+    },
+    "800605": {
+        "id": "800605",
+        "name": "Gedicht der alten Takte",
+        "rank": 5,
+        "desc": "Ultimate-Stufe +2 bis max. St. 15. Standardangriff-Stufe +1 bis max. St. 10.",
+        "materials": [
+            {
+                "id": "18005",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "800603",
+                "num": 2
+            },
+            {
+                "id": "800601",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/8006_ultimate.png"
+    },
+    "800606": {
+        "id": "800606",
+        "name": "Morgen, Nisten unter dem Rampenlicht",
+        "rank": 6,
+        "desc": "Erhöht die Anzahl des zusätzlichen SCH der Fertigkeit um 2.",
+        "materials": [
+            {
+                "id": "18005",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/8005_rank6.png"
     }
 }

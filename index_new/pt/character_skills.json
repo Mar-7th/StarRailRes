@@ -761,39 +761,39 @@
         "params": [
             [
                 1,
-                0
-            ],
-            [
-                1.1,
-                0.08
-            ],
-            [
-                1.2,
-                0.16
-            ],
-            [
-                1.3,
-                0.24
-            ],
-            [
-                1.4,
-                0.32
-            ],
-            [
-                1.5,
                 0.4
             ],
             [
-                1.625,
-                0.5
+                1.1,
+                0.44
             ],
             [
-                1.75,
+                1.2,
+                0.48
+            ],
+            [
+                1.3,
+                0.52
+            ],
+            [
+                1.4,
+                0.56
+            ],
+            [
+                1.5,
                 0.6
             ],
             [
-                1.875,
+                1.625,
+                0.65
+            ],
+            [
+                1.75,
                 0.7
+            ],
+            [
+                1.875,
+                0.75
             ],
             [
                 2,
@@ -801,23 +801,23 @@
             ],
             [
                 2.1,
-                0.88
+                0.84
             ],
             [
                 2.2,
-                0.96
+                0.88
             ],
             [
                 2.3,
-                1.04
+                0.92
             ],
             [
                 2.4,
-                1.12
+                0.96
             ],
             [
                 2.5,
-                1.2
+                1
             ]
         ],
         "icon": "icon/skill/1003_skill.png"
@@ -13639,8 +13639,8 @@
         "type_text": "Perícia Suprema",
         "effect": "AoEAttack",
         "effect_text": "Área",
-        "simple_desc": "Inflige Inebriação a todos os inimigos e causa Dano de Fogo a eles ao mesmo tempo. Aprimora o próximo ATQ Básico desta unidade para Blitz de Néctar.",
-        "desc": "Inflige Inebriação a todos os inimigos, durando por #2[i] rodada(s). Ao mesmo tempo, causa Dano de Fogo igual a #1[i]% do ATQ de Gallagher a todos os inimigos e aprimora o próximo ATQ Básico desta unidade para Blitz de Néctar.",
+        "simple_desc": "Inflige Inebriação a todos os inimigos e causa Dano de Fogo a eles ao mesmo tempo. Aprimora o próximo ATQ Básico para Blitz de Néctar.",
+        "desc": "Inflige Inebriação a todos os inimigos, durando por #2[i] rodada(s). Ao mesmo tempo, causa Dano de Fogo igual a #1[i]% do ATQ de Gallagher a todos os inimigos e aprimora o próximo ATQ Básico para Blitz de Néctar.",
         "params": [
             [
                 0.75,
@@ -13714,8 +13714,8 @@
         "type_text": "Talento",
         "effect": "Restore",
         "effect_text": "Restauração",
-        "simple_desc": "O estado de Inebriação aumenta o Dano de Quebra que os alvos recebem. Sempre que um alvo com Inebriação é atacado por um aliado, os PV do atacante são restaurados.",
-        "desc": "O estado de Inebriação aumenta o Dano de Quebra que os alvos recebem em #1[f1]%. Sempre que um alvo com Inebriação é atacado por um aliado, o atacante cura #2[i] de seus PV.",
+        "simple_desc": "O estado de Inebriação faz com que alvos recebam mais Dano de Quebra. Sempre que o alvo é atacado por um aliado, os PV do atacante são restaurados.",
+        "desc": "O estado de Inebriação faz com que alvos recebam #1[f1]% a mais de Dano de Quebra. Sempre que um alvo com Inebriação é atacado por um aliado, os PV do atacante são curados em #2[i].",
         "params": [
             [
                 0.06,
@@ -14693,7 +14693,7 @@
         "effect": "Defence",
         "effect_text": "Defesa",
         "simple_desc": "Fornece um escudo de Aposta Fortificada para todos os aliados, cujo efeito de Escudo é acumulável.",
-        "desc": "Fornece um Escudo de Aposta Fortificada que pode bloquear Dano igual a #1[f1]% da DEF de Aventurine + #2[i] para todos os aliados por #3[i] rodada(s). Ao ganhar Aposta Fortificada repetidamente, o efeito de Escudo pode acumular até #4[i]% do Escudo fornecido pela Perícia atual.",
+        "desc": "Fornece um Escudo de Aposta Fortificada que pode bloquear Dano igual a #1[f1]% da DEF de Aventurine + #2[i] para todos os aliados por #3[i] rodada(s). Ao ganhar Aposta Fortificada repetidamente, o efeito de Escudo pode se acumular, até #4[i]% do efeito de Escudo atual fornecido pela Perícia.",
         "params": [
             [
                 0.16,
@@ -14790,7 +14790,7 @@
     },
     "130403": {
         "id": "130403",
-        "name": "Lorde da Roleta",
+        "name": "Tubarão das Apostas",
         "max_level": 15,
         "element": "Imaginary",
         "type": "Ultra",
@@ -14902,8 +14902,8 @@
         "type_text": "Talento",
         "effect": "Bounce",
         "effect_text": "Rebote",
-        "simple_desc": "A RES a Efeito aumenta em um único aliado com Aposta Fortificada. Quando o único aliado é atacado, Aventurine acumula Aposta Cega. Quando Aventurine possui Aposta Fortificada, ele pode resistir a penalidades de Controle Negativo. Ao alcançar 7 pontos de Aposta Cega, Aventurine consome os 7 pontos para realizar um Ataque Extra que causa Dano Imaginário leve inimigos aleatórios, que ricocheteia 7 vezes.",
-        "desc": "A RES a Efeito aumenta em #4[f1]% em um único aliado com Aposta Fortificada. E quando este aliado é atacado, Aventurine ganha 1 ponto de Aposta Cega. Quando Aventurine possui Aposta Fortificada, ele pode resistir a penalidades de Controle Negativo. Este efeito pode ser acionado novamente após #5[i] rodada(s). Aventurine ganha adicionalmente #1[i] ponto(s) de Aposta Cega após ser atacado. Ao atingir 7 pontos de Aposta Cega, Aventurine consome os 7 pontos para realizar um Ataque Extra de #2[i] golpes, com cada golpe causando Dano Imaginário igual a #3[i]% da DEF de Aventurine a um único inimigo aleatório. Aposta Cega possui um máximo de 10 pontos.",
+        "simple_desc": "Para qualquer único aliado com Aposta Fortificada, sua RES a Efeito aumenta e, quando ele é atacado, Aventurine acumula Aposta Cega. Quando Aventurine possui Aposta Fortificada, ele pode resistir a penalidades de Controle Negativo. Ao alcançar 7 pontos de Aposta Cega, Aventurine consome os 7 pontos para realizar um Ataque Extra que causa Dano Imaginário leve a inimigos aleatórios, ricocheteando um total de 7 vezes.",
+        "desc": "Para qualquer único aliado com Aposta Fortificada, sua RES a Efeito aumenta em #4[f1]%, e quando eles são atacados, Aventurine ganha 1 ponto de Aposta Cega. Quando Aventurine tem Aposta Fortificada, ele pode resistir a penalidades de Controle Negativo. Esse efeito pode ser acionado novamente após #5[i] rodada(s). Aventurine adicionalmente ganha #1[i] ponto(s) de Aposta Cega após ser atacado. Ao alcançar 7 pontos de Aposta Cega, Aventurine consome os 7 pontos para lançar um Ataque Extra de #2[i] golpes, com cada golpe causando Dano Imaginário equivalente a #3[i]% da DEF de Aventurine a um único inimigo aleatório. Aposta Cega tem um limite máximo de 10 pontos.",
         "params": [
             [
                 1,
@@ -15338,8 +15338,8 @@
         "type_text": "Técnica",
         "effect": "Impair",
         "effect_text": "Incapacitação",
-        "simple_desc": "Cria uma dimensão. Inimigos dentro dessa dimensão sofrem Provocação. Após entrar em combate com inimigos nesta dimensão, há uma alta chance de reduzir a VEL dos inimigos-alvo.",
-        "desc": "Após usar a Técnica, cria uma dimensão que causa Provocação nos inimigos próximos, durando por #1[i] segundo(s). Após entrar em combate com inimigos nesta dimensão, há uma chance-base de #2[i]% de reduzir a VEL de cada inimigo-alvo em #3[i]% por #4[i] rodada(s). Apenas 1 dimensão criada pelos aliados pode existir ao mesmo tempo.",
+        "simple_desc": "Cria uma dimensão especial. Inimigos dentro dessa dimensão sofrem Provocação. Após entrar em combate com inimigos nesta dimensão, há uma alta chance de reduzir a VEL dos inimigos-alvo.",
+        "desc": "Após usar a Técnica, cria uma dimensão especial que causa Provocação nos inimigos próximos, durando por #1[i] segundo(s). Após entrar em combate com inimigos nesta dimensão especial, há uma chance-base de #2[i]% de reduzir a VEL de cada inimigo-alvo em #3[i]% por #4[i] rodada(s). Apenas 1 dimensão criada pelos aliados pode existir ao mesmo tempo.",
         "params": [
             [
                 10,
@@ -16943,6 +16943,366 @@
         ],
         "icon": "icon/skill/1308_ultimate.png"
     },
+    "130901": {
+        "id": "130901",
+        "name": "Bater de Asas Silencioso",
+        "max_level": 9,
+        "element": "Physical",
+        "type": "Normal",
+        "type_text": "ATQ Básico",
+        "effect": "SingleAttack",
+        "effect_text": "Alvo Único",
+        "simple_desc": "Causa Dano Físico leve a um único inimigo.",
+        "desc": "Causa Dano Físico igual a #1[i]% do ATQ de Robin a um único inimigo.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1309_basic_atk.png"
+    },
+    "130902": {
+        "id": "130902",
+        "name": "Ária das Penas",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Perícia",
+        "effect": "Support",
+        "effect_text": "Suporte",
+        "simple_desc": "Aumenta o Dano causado por todos os aliados.",
+        "desc": "Aumenta o Dano causado por todos os aliados em #1[i]%, durando por #2[i] rodada(s). Essa duração diminui em 1 no início de cada rodada de Robin.",
+        "params": [
+            [
+                0.25,
+                3
+            ],
+            [
+                0.275,
+                3
+            ],
+            [
+                0.3,
+                3
+            ],
+            [
+                0.325,
+                3
+            ],
+            [
+                0.35,
+                3
+            ],
+            [
+                0.375,
+                3
+            ],
+            [
+                0.4062,
+                3
+            ],
+            [
+                0.4375,
+                3
+            ],
+            [
+                0.4688,
+                3
+            ],
+            [
+                0.5,
+                3
+            ],
+            [
+                0.525,
+                3
+            ],
+            [
+                0.55,
+                3
+            ],
+            [
+                0.575,
+                3
+            ],
+            [
+                0.6,
+                3
+            ],
+            [
+                0.625,
+                3
+            ]
+        ],
+        "icon": "icon/skill/1309_skill.png"
+    },
+    "130903": {
+        "id": "130903",
+        "name": "Vox Harmonique, Opus Cosmique",
+        "max_level": 15,
+        "element": "",
+        "type": "Ultra",
+        "type_text": "Perícia Suprema",
+        "effect": "Support",
+        "effect_text": "Suporte",
+        "simple_desc": "Entra no estado de Concerto, aumenta o ATQ de todos os aliados e faz com que todos os companheiros de equipe ajam imediatamente. Depois de um ataque, Robin causa Dano Físico Adicional. Enquanto Concerto dura, Robin é imune a penalidades de Controle Negativo. Antes de Concerto terminar, Robin não pode agir nem iniciar sua rodada até o final da contagem regressiva.",
+        "desc": "Robin entra no estado de Concerto e faz com que todos os outros aliados ajam imediatamente.\nEnquanto estiver no estado de Concerto, aumenta o ATQ de todos os aliados em #1[f1]% do ATQ de Robin + #3[i]. Além disso, após cada ataque dos aliados, Robin causa Dano Físico Adicional igual a #4[i]% do seu ATQ uma vez. A Chance de CRIT para este dano é fixada em #5[i]% e o Dano CRIT é fixado em #6[i]%.\nQuando no estado de Concerto, Robin é imune a penalidades de Controle Negativo e não pode entrar em sua rodada ou agir.\nUma contagem regressiva de Concerto aparece na barra de Ordem de Ação. Quando a rodada da contagem regressiva começa, Robin sai do estado de Concerto e age imediatamente. A contagem regressiva tem sua própria VEL fixa de #2[i].",
+        "params": [
+            [
+                0.152,
+                90,
+                50,
+                0.72,
+                1,
+                1.5
+            ],
+            [
+                0.1596,
+                90,
+                65,
+                0.768,
+                1,
+                1.5
+            ],
+            [
+                0.1672,
+                90,
+                80,
+                0.816,
+                1,
+                1.5
+            ],
+            [
+                0.1748,
+                90,
+                95,
+                0.864,
+                1,
+                1.5
+            ],
+            [
+                0.1824,
+                90,
+                110,
+                0.912,
+                1,
+                1.5
+            ],
+            [
+                0.19,
+                90,
+                125,
+                0.96,
+                1,
+                1.5
+            ],
+            [
+                0.1995,
+                90,
+                143.75,
+                1.02,
+                1,
+                1.5
+            ],
+            [
+                0.209,
+                90,
+                162.5,
+                1.08,
+                1,
+                1.5
+            ],
+            [
+                0.2185,
+                90,
+                181.25,
+                1.14,
+                1,
+                1.5
+            ],
+            [
+                0.228,
+                90,
+                200,
+                1.2,
+                1,
+                1.5
+            ],
+            [
+                0.2356,
+                90,
+                215,
+                1.248,
+                1,
+                1.5
+            ],
+            [
+                0.2432,
+                90,
+                230,
+                1.296,
+                1,
+                1.5
+            ],
+            [
+                0.2508,
+                90,
+                245,
+                1.344,
+                1,
+                1.5
+            ],
+            [
+                0.2584,
+                90,
+                260,
+                1.392,
+                1,
+                1.5
+            ],
+            [
+                0.266,
+                90,
+                275,
+                1.44,
+                1,
+                1.5
+            ]
+        ],
+        "icon": "icon/skill/1309_ultimate.png"
+    },
+    "130904": {
+        "id": "130904",
+        "name": "Ressonância Tonal",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talento",
+        "effect": "Support",
+        "effect_text": "Suporte",
+        "simple_desc": "Aumenta o Dano CRIT de todos os aliados e Robin regenera adicionalmente Energia após aliados atacarem inimigos.",
+        "desc": "Aumenta o Dano CRIT de todos os aliados em #1[f1]%. Além disso, depois que aliados atacam inimigos-alvo, Robin regenera adicionalmente #2[i] de Energia para si.",
+        "params": [
+            [
+                0.05,
+                2
+            ],
+            [
+                0.065,
+                2
+            ],
+            [
+                0.08,
+                2
+            ],
+            [
+                0.095,
+                2
+            ],
+            [
+                0.11,
+                2
+            ],
+            [
+                0.125,
+                2
+            ],
+            [
+                0.1437,
+                2
+            ],
+            [
+                0.1625,
+                2
+            ],
+            [
+                0.1812,
+                2
+            ],
+            [
+                0.2,
+                2
+            ],
+            [
+                0.215,
+                2
+            ],
+            [
+                0.23,
+                2
+            ],
+            [
+                0.245,
+                2
+            ],
+            [
+                0.26,
+                2
+            ],
+            [
+                0.275,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1309_talent.png"
+    },
+    "130906": {
+        "id": "130906",
+        "name": "Ataque",
+        "max_level": 1,
+        "element": "Physical",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
+        "params": [],
+        "icon": "icon/skill/1309_basic_atk.png"
+    },
+    "130907": {
+        "id": "130907",
+        "name": "Prelúdio da Inebriação",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Técnica",
+        "effect": "Support",
+        "effect_text": "Suporte",
+        "simple_desc": "Cria uma dimensão especial ao seu redor. Inimigos dentro dessa dimensão não atacarão Robin. Depois de entrar em batalha enquanto a dimensão está ativa, Robin regenera adicionalmente 5 de Energia no início de cada onda.",
+        "desc": "Depois de usar a Técnica, cria uma dimensão especial ao seu redor que dura por #1[i] segundos. Inimigos dentro dessa dimensão não atacarão Robin e a seguirão enquanto a dimensão estiver ativa. Depois de entrar em batalha enquanto a dimensão está ativa, Robin regenera #2[i] de Energia no início de cada onda. Apenas 1 dimensão criada por aliados pode existir ao mesmo tempo.",
+        "params": [
+            [
+                15,
+                5
+            ]
+        ],
+        "icon": "icon/skill/1309_technique.png"
+    },
     "131201": {
         "id": "131201",
         "name": "C-Com Licença, Por Favor!",
@@ -17302,6 +17662,437 @@
             ]
         ],
         "icon": "icon/skill/1312_technique.png"
+    },
+    "131501": {
+        "id": "131501",
+        "name": "Esporas Esmaga-Crânio",
+        "max_level": 9,
+        "element": "Physical",
+        "type": "Normal",
+        "type_text": "ATQ Básico",
+        "effect": "SingleAttack",
+        "effect_text": "Alvo Único",
+        "simple_desc": "Causa Dano Físico leve a um único inimigo.",
+        "desc": "Causa Dano Físico igual a #1[i]% do ATQ de Boothill a um único inimigo-alvo.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1315_basic_atk.png"
+    },
+    "131502": {
+        "id": "131502",
+        "name": "Tango Crepitante",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Perícia",
+        "effect": "Impair",
+        "effect_text": "Incapacitação",
+        "simple_desc": "Inicia Confronto. Depois que o alvo no Confronto for derrotado ou sofrer Quebra de Fraqueza, Boothill recebe Truque de Bolso e desfaz o Confronto. Boothill ganha ATQs Básicos Aprimorados e esta rodada não termina.",
+        "desc": "Força Boothill e um inimigo-alvo a entrar no estado de Confronto. O ATQ Básico de Boothill é Aprimorado, e ele não pode usar sua Perícia, com duração de #3[i] rodada(s). A duração diminui em 1 no início de cada rodada de Boothill.\nO inimigo-alvo no Confronto fica Provocado. Quando esse inimigo-alvo ou Boothill é atacado pela outra parte no Confronto, o Dano que recebem aumenta em #1[i]%/#2[i]%.\nApós esse alvo ser derrotado ou sofrer Quebra de Fraqueza, Boothill ganha 1 acúmulo de Truque de Bolso e então dissolve o Confronto.\nEsta Perícia não regenera Energia. Após usar esta Perícia, o turno atual não termina.",
+        "params": [
+            [
+                0.15,
+                0.15,
+                2
+            ],
+            [
+                0.165,
+                0.15,
+                2
+            ],
+            [
+                0.18,
+                0.15,
+                2
+            ],
+            [
+                0.195,
+                0.15,
+                2
+            ],
+            [
+                0.21,
+                0.15,
+                2
+            ],
+            [
+                0.225,
+                0.15,
+                2
+            ],
+            [
+                0.2437,
+                0.15,
+                2
+            ],
+            [
+                0.2625,
+                0.15,
+                2
+            ],
+            [
+                0.2812,
+                0.15,
+                2
+            ],
+            [
+                0.3,
+                0.15,
+                2
+            ],
+            [
+                0.315,
+                0.15,
+                2
+            ],
+            [
+                0.33,
+                0.15,
+                2
+            ],
+            [
+                0.345,
+                0.15,
+                2
+            ],
+            [
+                0.36,
+                0.15,
+                2
+            ],
+            [
+                0.375,
+                0.15,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1315_skill.png"
+    },
+    "131503": {
+        "id": "131503",
+        "name": "Rodeio Crepuscular do Demônio da Areia",
+        "max_level": 15,
+        "element": "Physical",
+        "type": "Ultra",
+        "type_text": "Perícia Suprema",
+        "effect": "SingleAttack",
+        "effect_text": "Alvo Único",
+        "simple_desc": "Aplica Fraqueza contra Físico a um único inimigo, causa uma quantidade massiva de Dano Físico e atrasa suas ações.",
+        "desc": "Aplica Fraqueza contra Físico a um inimigo-alvo, durando por #3[i] rodada(s).\nCausa Dano Físico igual a #1[i]% do ATQ de Boothill ao alvo e retarda suas ações em #2[i]%.",
+        "params": [
+            [
+                2.4,
+                0.3,
+                2
+            ],
+            [
+                2.56,
+                0.31,
+                2
+            ],
+            [
+                2.72,
+                0.32,
+                2
+            ],
+            [
+                2.88,
+                0.33,
+                2
+            ],
+            [
+                3.04,
+                0.34,
+                2
+            ],
+            [
+                3.2,
+                0.35,
+                2
+            ],
+            [
+                3.4,
+                0.3625,
+                2
+            ],
+            [
+                3.6,
+                0.375,
+                2
+            ],
+            [
+                3.8,
+                0.3875,
+                2
+            ],
+            [
+                4,
+                0.4,
+                2
+            ],
+            [
+                4.16,
+                0.41,
+                2
+            ],
+            [
+                4.32,
+                0.42,
+                2
+            ],
+            [
+                4.48,
+                0.43,
+                2
+            ],
+            [
+                4.64,
+                0.44,
+                2
+            ],
+            [
+                4.8,
+                0.45,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1315_ultimate.png"
+    },
+    "131504": {
+        "id": "131504",
+        "name": "Cinco Balas no Tambor",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talento",
+        "effect": "Enhance",
+        "effect_text": "Aprimoramento",
+        "simple_desc": "O Truque de Bolso aumenta a Redução de Tenacidade do ATQ Básico Aprimorado e causa Dano de Quebra de Físico adicional ao inimigo que sofreu Quebra de Fraqueza. Após vencer a batalha, mantém o Truque de Bolso para a próxima batalha.",
+        "desc": "Cada acúmulo do Truque de Bolso aumenta a Redução de Tenacidade do ATQ Básico Aprimorado em #4[i]%, podendo acumular até #5[i] vez(es).\nSe o alvo estiver com Quebra de Fraqueza quando o ATQ Básico Aprimorado for usado, com base no número de acúmulos de Truque de Bolso, causa Dano de Quebra a esse alvo igual a #1[i]%/#2[i]%/#3[i]% do Dano de Quebra Físico de Boothill. A Tenacidade máxima considerada para este dano não pode exceder #6[i] vezes a Redução de Tenacidade base causada pelo ATQ Básico \"Esporas Esmaga-Crânio\".\nApós vencer a batalha, Boothill pode manter o Truque de Bolso para a próxima batalha.",
+        "params": [
+            [
+                0.35,
+                0.6,
+                0.85,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.385,
+                0.66,
+                0.935,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.42,
+                0.72,
+                1.02,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.455,
+                0.78,
+                1.105,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.49,
+                0.84,
+                1.19,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.525,
+                0.9,
+                1.275,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.5687,
+                0.975,
+                1.3813,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.6125,
+                1.05,
+                1.4875,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.6562,
+                1.125,
+                1.5938,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.7,
+                1.2,
+                1.7,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.735,
+                1.26,
+                1.785,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.77,
+                1.32,
+                1.87,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.805,
+                1.38,
+                1.955,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.84,
+                1.44,
+                2.04,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.875,
+                1.5,
+                2.125,
+                0.5,
+                3,
+                16
+            ]
+        ],
+        "icon": "icon/skill/1315_talent.png"
+    },
+    "131506": {
+        "id": "131506",
+        "name": "Ataque",
+        "max_level": 1,
+        "element": "Physical",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
+        "params": [],
+        "icon": "icon/skill/1315_basic_atk.png"
+    },
+    "131507": {
+        "id": "131507",
+        "name": "Sorriso 3x9",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Técnica",
+        "effect": "Enhance",
+        "effect_text": "Aprimoramento",
+        "simple_desc": "Depois que a Técnica é utilizada, aplica Fraqueza contra Físico contra um único inimigo ao usar a Perícia pela primeira vez na próxima batalha.",
+        "desc": "Após a Técnica ser utilizada, ao usar a Perícia pela primeira vez na próxima batalha, adiciona Fraqueza contra Físico igual àquela aplicada pela Perícia Suprema ao alvo, durando por #1[i] rodada(s).",
+        "params": [
+            [
+                2
+            ]
+        ],
+        "icon": "icon/skill/1315_technique.png"
+    },
+    "131508": {
+        "id": "131508",
+        "name": "Martelada Sequencial",
+        "max_level": 9,
+        "element": "Physical",
+        "type": "Normal",
+        "type_text": "ATQ Básico",
+        "effect": "SingleAttack",
+        "effect_text": "Alvo Único",
+        "simple_desc": "Causa Dano Físico a um único inimigo. Só pode atacar o alvo em Confronto.",
+        "desc": "Causa Dano Físico igual a #1[i]% do ATQ de Boothill a um único inimigo-alvo.\nO ATQ Básico Aprimorado não pode recuperar Pontos de Perícia e só pode focar o inimigo-alvo com Confronto.",
+        "params": [
+            [
+                1.1
+            ],
+            [
+                1.32
+            ],
+            [
+                1.54
+            ],
+            [
+                1.76
+            ],
+            [
+                1.98
+            ],
+            [
+                2.2
+            ],
+            [
+                2.42
+            ],
+            [
+                2.64
+            ],
+            [
+                2.86
+            ]
+        ],
+        "icon": "icon/skill/1315_basic_atk.png"
     },
     "800101": {
         "id": "800101",
@@ -18964,5 +19755,605 @@
             ]
         ],
         "icon": "icon/skill/8004_basic_atk.png"
+    },
+    "800501": {
+        "id": "800501",
+        "name": "Etiqueta da Dança de Swing",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "ATQ Básico",
+        "effect": "SingleAttack",
+        "effect_text": "Alvo Único",
+        "simple_desc": "Causa Dano Imaginário leve a um único inimigo.",
+        "desc": "Causa Dano Imaginário igual a #1[i]% do ATQ {F#da Desbravadora}{M#do Desbravador} a um único inimigo-alvo.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/8005_basic_atk.png"
+    },
+    "800502": {
+        "id": "800502",
+        "name": "Temporal no Intervalo",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "BPSkill",
+        "type_text": "Perícia",
+        "effect": "Bounce",
+        "effect_text": "Rebote",
+        "simple_desc": "Causa Dano Imaginário leve a inimigos-alvo únicos e é Rebatido 5 vezes.",
+        "desc": "Causa Dano Imaginário igual a #1[i]% do ATQ {F#da Desbravadora}{M#do Desbravador} a um único inimigo e causa Dano mais 4 vezes, causando Dano Imaginário igual a #1[i]% do ATQ {F#da Desbravadora}{M#do Desbravador} a um inimigo aleatório cada vez.",
+        "params": [
+            [
+                0.25,
+                2
+            ],
+            [
+                0.275,
+                2
+            ],
+            [
+                0.3,
+                2
+            ],
+            [
+                0.325,
+                2
+            ],
+            [
+                0.35,
+                2
+            ],
+            [
+                0.375,
+                2
+            ],
+            [
+                0.4062,
+                2
+            ],
+            [
+                0.4375,
+                2
+            ],
+            [
+                0.4688,
+                2
+            ],
+            [
+                0.5,
+                2
+            ],
+            [
+                0.525,
+                2
+            ],
+            [
+                0.55,
+                2
+            ],
+            [
+                0.575,
+                2
+            ],
+            [
+                0.6,
+                2
+            ],
+            [
+                0.625,
+                2
+            ]
+        ],
+        "icon": "icon/skill/8005_skill.png"
+    },
+    "800503": {
+        "id": "800503",
+        "name": "Desfile Clamoroso das Luzes",
+        "max_level": 15,
+        "element": "",
+        "type": "Ultra",
+        "type_text": "Perícia Suprema",
+        "effect": "Support",
+        "effect_text": "Suporte",
+        "simple_desc": "Concede a todos os aliados o efeito de Dançarino de Apoio. Aliados com Dançarino de Apoio têm seus Efeitos de Quebra aumentados e causam adicionalmente Super Dano de Quebra 1 vez quando atacam inimigos-alvo que estão com Quebra de Fraqueza.",
+        "desc": "Concede a todos os aliados o efeito de Dançarino de Apoio, com duração de #1[i] rodada(s). A duração diminui em 1 a cada início de rodada {M#do Desbravador}{F#da Desbravadora}. Aliados com o efeito Dançarino de Apoio têm seu Efeito de Quebra aumentado em #3[i]%. Quando atacam alvos que estão no estado de Quebra de Fraqueza, a Redução de Tenacidade desse ataque será convertida em uma instância de Super Dano de Quebra.",
+        "params": [
+            [
+                3,
+                1,
+                0.15
+            ],
+            [
+                3,
+                1,
+                0.165
+            ],
+            [
+                3,
+                1,
+                0.18
+            ],
+            [
+                3,
+                1,
+                0.195
+            ],
+            [
+                3,
+                1,
+                0.21
+            ],
+            [
+                3,
+                1,
+                0.225
+            ],
+            [
+                3,
+                1,
+                0.2437
+            ],
+            [
+                3,
+                1,
+                0.2625
+            ],
+            [
+                3,
+                1,
+                0.2812
+            ],
+            [
+                3,
+                1,
+                0.3
+            ],
+            [
+                3,
+                1,
+                0.315
+            ],
+            [
+                3,
+                1,
+                0.33
+            ],
+            [
+                3,
+                1,
+                0.345
+            ],
+            [
+                3,
+                1,
+                0.36
+            ],
+            [
+                3,
+                1,
+                0.375
+            ]
+        ],
+        "icon": "icon/skill/8005_ultimate.png"
+    },
+    "800504": {
+        "id": "800504",
+        "name": "Dança Aérea Absoluta",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talento",
+        "effect": "Impair",
+        "effect_text": "Incapacitação",
+        "simple_desc": "{F#A Desbravadora}{M#O Desbravador} regenera Energia quando um inimigo-alvo tem sua Fraqueza Quebrada.",
+        "desc": "{F#A Desbravadora}{M#O Desbravador} regenera imediatamente #1[f1] de Energia sempre que um inimigo-alvo tem sua Fraqueza Quebrada.",
+        "params": [
+            [
+                5
+            ],
+            [
+                5.5
+            ],
+            [
+                6
+            ],
+            [
+                6.5
+            ],
+            [
+                7
+            ],
+            [
+                7.5
+            ],
+            [
+                8.125
+            ],
+            [
+                8.75
+            ],
+            [
+                9.375
+            ],
+            [
+                10
+            ],
+            [
+                10.5
+            ],
+            [
+                11
+            ],
+            [
+                11.5
+            ],
+            [
+                12
+            ],
+            [
+                12.5
+            ]
+        ],
+        "icon": "icon/skill/8005_talent.png"
+    },
+    "800506": {
+        "id": "800506",
+        "name": "Ataque",
+        "max_level": 1,
+        "element": "Imaginary",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Ataca um inimigo, e quando a batalha começa, reduz a Tenacidade dele do Tipo correspondente.",
+        "params": [],
+        "icon": "icon/skill/8005_basic_atk.png"
+    },
+    "800507": {
+        "id": "800507",
+        "name": "Agora! Eu sou a Banda!",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Técnica",
+        "effect": "Support",
+        "effect_text": "Suporte",
+        "simple_desc": "No início da próxima batalha, aumenta o Efeito de Quebra de todos os aliados.",
+        "desc": "Após usar a Técnica, no início da próxima batalha, o Efeito de Quebra de todos os aliados aumenta em #1[i]% por #2[i] rodada(s).",
+        "params": [
+            [
+                0.3,
+                2
+            ]
+        ],
+        "icon": "icon/skill/8005_technique.png"
+    },
+    "800601": {
+        "id": "800601",
+        "name": "Etiqueta da Dança de Swing",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "ATQ Básico",
+        "effect": "SingleAttack",
+        "effect_text": "Alvo Único",
+        "simple_desc": "Causa Dano Imaginário leve a um único inimigo.",
+        "desc": "Causa Dano Imaginário igual a #1[i]% do ATQ {F#da Desbravadora}{M#do Desbravador} a um único inimigo.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/8006_basic_atk.png"
+    },
+    "800602": {
+        "id": "800602",
+        "name": "Temporal no Intervalo",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "BPSkill",
+        "type_text": "Perícia",
+        "effect": "Bounce",
+        "effect_text": "Rebote",
+        "simple_desc": "Causa Dano Imaginário leve a inimigos-alvo únicos e é Rebatido 5 vezes.",
+        "desc": "Causa Dano Imaginário igual a #1[i]% do ATQ {F#da Desbravadora}{M#do Desbravador} a um único inimigo e causa Dano mais 4 vezes, causando Dano Imaginário igual a #1[i]% do ATQ {F#da Desbravadora}{M#do Desbravador} a um inimigo aleatório cada vez.",
+        "params": [
+            [
+                0.25,
+                2
+            ],
+            [
+                0.275,
+                2
+            ],
+            [
+                0.3,
+                2
+            ],
+            [
+                0.325,
+                2
+            ],
+            [
+                0.35,
+                2
+            ],
+            [
+                0.375,
+                2
+            ],
+            [
+                0.4062,
+                2
+            ],
+            [
+                0.4375,
+                2
+            ],
+            [
+                0.4688,
+                2
+            ],
+            [
+                0.5,
+                2
+            ],
+            [
+                0.525,
+                2
+            ],
+            [
+                0.55,
+                2
+            ],
+            [
+                0.575,
+                2
+            ],
+            [
+                0.6,
+                2
+            ],
+            [
+                0.625,
+                2
+            ]
+        ],
+        "icon": "icon/skill/8006_skill.png"
+    },
+    "800603": {
+        "id": "800603",
+        "name": "Desfile Clamoroso das Luzes",
+        "max_level": 15,
+        "element": "",
+        "type": "Ultra",
+        "type_text": "Perícia Suprema",
+        "effect": "Support",
+        "effect_text": "Suporte",
+        "simple_desc": "Concede a todos os aliados o efeito de Dançarino de Apoio. Aliados com Dançarino de Apoio têm seus Efeitos de Quebra aumentados e causam adicionalmente Super Dano de Quebra 1 vez quando atacam inimigos-alvo que estão com Quebra de Fraqueza.",
+        "desc": "Concede a todos os aliados o efeito de Dançarino de Apoio, com duração de #1[i] rodada(s). A duração diminui em 1 a cada início de rodada {M#do Desbravador}{F#da Desbravadora}. Aliados com o efeito Dançarino de Apoio têm seu Efeito de Quebra aumentado em #3[i]%. Quando atacam alvos que estão no estado de Quebra de Fraqueza, a Redução de Tenacidade desse ataque será convertida em uma instância de Super Dano de Quebra.",
+        "params": [
+            [
+                3,
+                1,
+                0.15
+            ],
+            [
+                3,
+                1,
+                0.165
+            ],
+            [
+                3,
+                1,
+                0.18
+            ],
+            [
+                3,
+                1,
+                0.195
+            ],
+            [
+                3,
+                1,
+                0.21
+            ],
+            [
+                3,
+                1,
+                0.225
+            ],
+            [
+                3,
+                1,
+                0.2437
+            ],
+            [
+                3,
+                1,
+                0.2625
+            ],
+            [
+                3,
+                1,
+                0.2812
+            ],
+            [
+                3,
+                1,
+                0.3
+            ],
+            [
+                3,
+                1,
+                0.315
+            ],
+            [
+                3,
+                1,
+                0.33
+            ],
+            [
+                3,
+                1,
+                0.345
+            ],
+            [
+                3,
+                1,
+                0.36
+            ],
+            [
+                3,
+                1,
+                0.375
+            ]
+        ],
+        "icon": "icon/skill/8006_ultimate.png"
+    },
+    "800604": {
+        "id": "800604",
+        "name": "Dança Aérea Absoluta",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talento",
+        "effect": "Impair",
+        "effect_text": "Incapacitação",
+        "simple_desc": "{F#A Desbravadora}{M#O Desbravador} regenera Energia quando um inimigo-alvo tem sua Fraqueza Quebrada.",
+        "desc": "{F#A Desbravadora}{M#O Desbravador} regenera imediatamente #1[f1] de Energia sempre que um inimigo-alvo tem sua Fraqueza Quebrada.",
+        "params": [
+            [
+                5
+            ],
+            [
+                5.5
+            ],
+            [
+                6
+            ],
+            [
+                6.5
+            ],
+            [
+                7
+            ],
+            [
+                7.5
+            ],
+            [
+                8.125
+            ],
+            [
+                8.75
+            ],
+            [
+                9.375
+            ],
+            [
+                10
+            ],
+            [
+                10.5
+            ],
+            [
+                11
+            ],
+            [
+                11.5
+            ],
+            [
+                12
+            ],
+            [
+                12.5
+            ]
+        ],
+        "icon": "icon/skill/8006_talent.png"
+    },
+    "800606": {
+        "id": "800606",
+        "name": "Ataque",
+        "max_level": 1,
+        "element": "Imaginary",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Ataca um inimigo, e quando a batalha começa, reduz a Tenacidade dele do Tipo correspondente.",
+        "params": [],
+        "icon": "icon/skill/8006_basic_atk.png"
+    },
+    "800607": {
+        "id": "800607",
+        "name": "Agora! Eu sou a Banda!",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Técnica",
+        "effect": "Support",
+        "effect_text": "Suporte",
+        "simple_desc": "No início da próxima batalha, aumenta o Efeito de Quebra de todos os aliados.",
+        "desc": "Após o uso da Técnica, no início da próxima batalha, o Efeito de Quebra de todos os aliados aumenta em #1[i]%, durando por #2[i] rodada(s).",
+        "params": [
+            [
+                0.3,
+                2
+            ]
+        ],
+        "icon": "icon/skill/8006_technique.png"
     }
 }

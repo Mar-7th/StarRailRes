@@ -761,39 +761,39 @@
         "params": [
             [
                 1,
-                0
-            ],
-            [
-                1.1,
-                0.08
-            ],
-            [
-                1.2,
-                0.16
-            ],
-            [
-                1.3,
-                0.24
-            ],
-            [
-                1.4,
-                0.32
-            ],
-            [
-                1.5,
                 0.4
             ],
             [
-                1.625,
-                0.5
+                1.1,
+                0.44
             ],
             [
-                1.75,
+                1.2,
+                0.48
+            ],
+            [
+                1.3,
+                0.52
+            ],
+            [
+                1.4,
+                0.56
+            ],
+            [
+                1.5,
                 0.6
             ],
             [
-                1.875,
+                1.625,
+                0.65
+            ],
+            [
+                1.75,
                 0.7
+            ],
+            [
+                1.875,
+                0.75
             ],
             [
                 2,
@@ -801,23 +801,23 @@
             ],
             [
                 2.1,
-                0.88
+                0.84
             ],
             [
                 2.2,
-                0.96
+                0.88
             ],
             [
                 2.3,
-                1.04
+                0.92
             ],
             [
                 2.4,
-                1.12
+                0.96
             ],
             [
                 2.5,
-                1.2
+                1
             ]
         ],
         "icon": "icon/skill/1003_skill.png"
@@ -995,7 +995,7 @@
         "type_text": "Technique",
         "effect": "Impair",
         "effect_text": "Incapacitation",
-        "simple_desc": "Crée une dimension. Il y a de fortes chances d'augmenter les DGT de feu subis par les ennemis en engageant le combat avec des ennemis à l'intérieur de la dimension.",
+        "simple_desc": "Crée une dimension. Il y a de fortes chances d'augmenter les DGT de feu subis par les ennemis lorsque le combat est engagé avec des ennemis de la dimension.",
         "desc": "Crée une dimension qui dure #4[i] secondes. Il y a #1[i]% de chances de base d'augmenter les DGT de feu subis par les ennemis de #2[i]% pendant #3[i] tours après être entré en combat avec des ennemis dans la dimension. Il ne peut exister qu'1 dimension créée par les alliés à la fois.",
         "params": [
             [
@@ -1342,7 +1342,7 @@
         "type_text": "Technique",
         "effect": "Impair",
         "effect_text": "Incapacitation",
-        "simple_desc": "Crée une dimension. La vitesse de déplacement des ennemis à l'intérieur de la dimension est réduite. Il y a de fortes chances d'infliger Emprisonné aux ennemis en engageant le combat avec des ennemis à l'intérieur de la dimension.",
+        "simple_desc": "Crée une dimension. La vitesse de déplacement des ennemis à l'intérieur de la dimension est réduite. Il y a de fortes chances d'infliger Emprisonné aux ennemis lorsque le combat est engagé avec des ennemis de la dimension.",
         "desc": "Crée une dimension qui dure #4[i] secondes. Les ennemis dans cette dimension voient leur vitesse de déplacement réduite de #5[i]%. Il y a #1[i]% de chances de base d'emprisonner les ennemis pour 1 tour après être entré en combat avec des ennemis dans la dimension.\nLes ennemis emprisonnés voient leur action retardée de #2[i]% et leur VIT réduite de #3[i]%. Il ne peut exister qu'1 dimension créée par les alliés à la fois.",
         "params": [
             [
@@ -13639,8 +13639,8 @@
         "type_text": "Ultime",
         "effect": "AoEAttack",
         "effect_text": "ZdE",
-        "simple_desc": "Applique l'effet Ivresse à tous les ennemis tout en leur infligeant des DGT de feu. Renforce la prochaine ATQ normale de cette unité en Coup de fouet.",
-        "desc": "Applique l'effet Ivresse à tous les ennemis pendant #2[i] tours. D'autre part, inflige des DGT de feu équivalents à #1[i]% de l'ATQ de Gallagher à tous les ennemis et la prochaine ATQ normale de Gallagher est renforcée en Coup de fouet.",
+        "simple_desc": "Applique l'effet Ivresse à tous les ennemis tout en leur infligeant des DGT de feu. Renforce la prochaine ATQ normale en Coup de fouet.",
+        "desc": "Applique l'effet Ivresse à tous les ennemis pendant #2[i] tours. D'autre part, inflige des DGT de feu équivalents à #1[i]% de l'ATQ de Gallagher à tous les ennemis et renforce sa prochaine ATQ normale en Coup de fouet.",
         "params": [
             [
                 0.75,
@@ -13714,7 +13714,7 @@
         "type_text": "Talent",
         "effect": "Restore",
         "effect_text": "Restauration",
-        "simple_desc": "L'effet Ivresse augmente les DGT de rupture subis par les cibles. Chaque fois qu'une cible affectée par Ivresse est attaquée par un allié, l'assaillant récupère des PV.",
+        "simple_desc": "L'effet Ivresse augmente les DGT de rupture que subissent les cibles et chaque fois qu'une cible se fait attaquer par un allié, l'assaillant récupère des PV.",
         "desc": "L'effet Ivresse augmente de #1[f1]% les DGT de rupture subis par les cibles. Chaque fois qu'une cible affectée par Ivresse est attaquée par un allié, l'assaillant récupère #2[i] PV.",
         "params": [
             [
@@ -13804,7 +13804,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "Engage le combat contre les ennemis. Inflige Ivresse ainsi que des DGT de feu mineurs à tous les ennemis après être entré en combat.",
-        "desc": "Engage immédiatement le combat contre les ennemis. Inflige Ivresse à tous les ennemis pour une durée de #1[i] tours en entrant en combat. Et inflige des DGT de feu équivalents à #2[i]% de l'ATQ de Gallagher à tous les ennemis.",
+        "desc": "Engage immédiatement le combat contre les ennemis. Inflige Ivresse à tous les ennemis pour une durée de #1[i] tours en entrant en combat et inflige des DGT de feu équivalents à #2[i]% de l'ATQ de Gallagher à tous les ennemis.",
         "params": [
             [
                 2,
@@ -14541,7 +14541,7 @@
         "effect": "Support",
         "effect_text": "Soutien",
         "simple_desc": "Augmente la VIT de tous les alliés (à l'exception de ce personnage). Infliger une Rupture de faiblesse à une cible ennemie lui inflige des DGT de rupture de glace supplémentaires.",
-        "desc": "Augmente de #1[f1]% la VIT de toute l'équipe (à l'exception de ce personnage). Lorsqu'un allié inflige une Rupture de faiblesse à une cible ennemie, Ruan Mei inflige des DGT de rupture équivalents à #2[f1]% de ses DGT de rupture de glace à cette cible.",
+        "desc": "Augmente la VIT de toute l'équipe de #1[f1]% (à l'exception de ce personnage). Lorsqu'un allié inflige une Rupture de faiblesse à une cible ennemie, Ruan Mei inflige des DGT de rupture équivalents à #2[f1]% de ses propres DGT de rupture de glace à cette cible.",
         "params": [
             [
                 0.08,
@@ -14693,7 +14693,7 @@
         "effect": "Defence",
         "effect_text": "Défense",
         "simple_desc": "Accorde à tous les alliés un bouclier de Mise renforcée dont la valeur de bouclier est cumulable.",
-        "desc": "Accorde à tous les alliés un bouclier de Mise renforcée qui peut bloquer des DGT équivalents à #1[f1]% de la DÉF d'Aventurine + #2[i]pendant #3[i] tours. Lorsque l'effet Mise renforcée est obtenu à plusieurs reprises, la valeur de bouclier peut se cumuler jusqu'à #4[i]% du bouclier fourni par la compétence actuelle.",
+        "desc": "Accorde à tous les alliés un bouclier de Mise renforcée qui peut bloquer des DGT équivalents à #1[f1]% de la DÉF d'Aventurine + #2[i] pendant #3[i] tours. Lorsque l'effet Mise renforcée est obtenu à plusieurs reprises, la valeur de bouclier peut se cumuler jusqu'à #4[i]% du bouclier fourni par la compétence actuelle.",
         "params": [
             [
                 0.16,
@@ -14902,8 +14902,8 @@
         "type_text": "Talent",
         "effect": "Bounce",
         "effect_text": "Rebond",
-        "simple_desc": "Augmente la RÉS aux effets d'un allié qui bénéficie de Mise renforcée. Aventurine récupère des Paris aveugles lorsqu'un allié qui bénéficie de Mise renforcée est attaqué. Lorsqu'Aventurine bénéficie de Mise renforcée, il peut résister aux malus de contrôle. À 7 Paris aveugles, Aventurine utilise tous les paris pour lancer une attaque de suivi qui inflige des DGT imaginaires mineurs à des ennemis aléatoires, rebondissant 7 fois.",
-        "desc": "Augmente de #4[f1]% la RÉS aux effets d'un allié qui bénéficie de Mise renforcée. Aventurine récupère 1 Pari aveugle chaque fois qu'un allié qui bénéficie de Mise renforcée subit une attaque. Lorsqu'Aventurine bénéficie de Mise renforcée, il peut résister aux malus de contrôle 1 fois tous les #5[i] tours et il récupère #1[i] Pari aveugle supplémentaire lorsqu'il est attaqué. À 7 Paris aveugles, Aventurine utilise tous les paris pour lancer une attaque de suivi qui inflige #2[i] frappes. Chacune de ces frappes inflige des DGT imaginaires équivalents à #3[i]% de la DÉF d'Aventurine à un ennemi aléatoire. Aventurine peut cumuler un maximum de 10 Paris aveugles.",
+        "simple_desc": "Tout allié qui bénéficie de Mise renforcée voit sa RÉS aux effets augmenter, et chaque fois qu'il est attaqué, Aventurine récupère des Paris aveugles. Lorsqu'Aventurine bénéficie de Mise renforcée, il peut résister aux malus de contrôle. À 7 Paris aveugles, Aventurine utilise tous les paris pour lancer une attaque de suivi qui inflige des DGT imaginaires mineurs à des ennemis uniques aléatoires, pour un total de 7 rebonds.",
+        "desc": "Tout allié qui bénéficie de Mise renforcée voit sa RÉS aux effets augmenter de #4[f1]%, et chaque fois qu'il est attaqué, Aventurine récupère 1 Pari aveugle. Lorsqu'Aventurine bénéficie de Mise renforcée, il peut résister aux malus de contrôle 1 fois tous les #5[i] tours et il récupère #1[i] Pari aveugle supplémentaire lorsqu'il est attaqué. À 7 Paris aveugles, Aventurine utilise tous les paris pour lancer une attaque de suivi qui inflige #2[i] frappes. Chacune de ces frappes inflige des DGT imaginaires équivalents à #3[i]% de la DÉF d'Aventurine à un ennemi aléatoire. Aventurine peut cumuler un maximum de 10 Paris aveugles.",
         "params": [
             [
                 1,
@@ -15338,8 +15338,8 @@
         "type_text": "Technique",
         "effect": "Impair",
         "effect_text": "Incapacitation",
-        "simple_desc": "Crée une dimension. Les ennemis à l'intérieur de la dimension subissent l'effet Provocation. Il y a de fortes chances de réduire la VIT des cibles ennemies après être entré en combat avec des ennemis dans cette dimension.",
-        "desc": "Crée une dimension qui provoque les ennemis à proximité pendant #1[i] secondes après avoir utilisé la technique. Il y a #2[i]% de chances de base de réduire de #3[i]% la VIT de chaque cible ennemie pendant #4[i] tours en engageant le combat avec des ennemis dans la dimension. Il ne peut exister qu'1 dimension créée par les alliés à la fois.",
+        "simple_desc": "Crée une dimension spéciale. Les ennemis dans la dimension subissent l'effet Provocation. Il y a de fortes chances de réduire la VIT des cibles ennemies après être entré en combat avec des ennemis dans cette dimension.",
+        "desc": "Crée une dimension spéciale qui provoque les ennemis proches pendant #1[i] secondes après avoir utilisé la technique. Il y a #2[i]% de chances de base de réduire la VIT des ennemis de #3[i]% pendant #4[i] tours en engageant le combat avec des ennemis dans la dimension. Il ne peut exister qu'1 dimension créée par les alliés à la fois.",
         "params": [
             [
                 10,
@@ -16365,7 +16365,7 @@
         "effect": "AoEAttack",
         "effect_text": "ZdE",
         "simple_desc": "Inflige des DGT de foudre mineurs 3 fois à un ennemi unique. Inflige des DGT de foudre mineurs à tous les ennemis si la cible perd l'effet Étreinte écarlate. Puis, inflige des DGT de foudre 1 fois à tous les ennemis et supprime tous les cumuls d'Étreinte écarlate.",
-        "desc": "Déclenche Lame de pluie 3 fois de suite et Vengeance du Styx 1 fois, infligeant des DGT de foudre équivalents à #6[i]% de l'ATQ d'Achéron à une cible ennemie unique, et des DGT de foudre équivalents à #7[i]% de l'ATQ d'Achéron aux autres ennemis.\nLame de pluie : Inflige des DGT de foudre équivalents à #1[f1]% de l'ATQ d'Achéron à une cible ennemie unique et supprime jusqu'à 3 cumuls d'Étreinte écarlate à la cible. Lorsque l'effet Étreinte écarlate est supprimé, inflige immédiatement des DGT de foudre équivalents à #2[f1]% de l'ATQ d'Achéron à tous les ennemis. Le multiplicateur de cette instance de DGT augmente pour chaque cumul d'Étreinte écarlate supprimé, jusqu'à un maximum de #5[f1]%.\nVengeance du Styx : Inflige des DGT de foudre équivalents à #3[i]% de l'ATQ d'Achéron à tous les ennemis et supprime tous les effets d'Étreinte écarlate.\nL'effet Étreinte écarlate ne peut pas être appliqué aux ennemis pendant l'ultime.",
+        "desc": "Déclenche Lame de pluie 3 fois de suite et Vengeance du Styx 1 fois, infligeant des DGT de foudre équivalents à #6[i]% de l'ATQ d'Achéron à une cible ennemie unique, et des DGT de foudre équivalents à #7[i]% de l'ATQ d'Achéron aux autres cibles.\nLame de pluie : Inflige des DGT de foudre équivalents à #1[f1]% de l'ATQ d'Achéron à une cible ennemie unique et supprime jusqu'à 3 cumuls d'Étreinte écarlate de la cible. Lorsque l'effet Étreinte écarlate est supprimé, inflige immédiatement des DGT de foudre équivalents à #2[f1]% de l'ATQ d'Achéron à tous les ennemis. Le multiplicateur de cette instance de DGT augmente pour chaque cumul d'Étreinte écarlate supprimé, jusqu'à un maximum de #5[f1]%.\nVengeance du Styx : Inflige des DGT de foudre équivalents à #3[i]% de l'ATQ d'Achéron à tous les ennemis et supprime tous les effets d'Étreinte écarlate.\nL'effet Étreinte écarlate ne peut pas être appliqué à des ennemis pendant l'ultime.",
         "params": [
             [
                 0.144,
@@ -16514,8 +16514,8 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Renforcement",
-        "simple_desc": "L'ultime peut être activé quand Rêve flétri atteint la limite maximum. Pendant l'ultime, la robustesse des ennemis est réduite quels que soient leurs types de faiblesse, ainsi que toutes leurs RÉS de type.\nLorsqu'une unité applique un malus à une cible ennemie en utilisant une de ses capacités, Achéron gagne un point de Rêve flétri et applique Étreinte écarlate à la cible ennemie.",
-        "desc": "L'ultime peut être activé quand Rêve flétri atteint #1[i] points. Pendant l'ultime, la robustesse des ennemis est réduite quels que soient leurs types de faiblesse, ainsi que toutes leurs RÉS de type de #2[i]% jusqu'à la fin de l'ultime.\nLorsqu'une unité applique un malus à une cible ennemie en utilisant une de ses capacités, Achéron gagne 1 point de Rêve flétri et applique 1 cumul d'Étreinte écarlate à cette cible ennemie. Si des malus sont appliqués à plusieurs ennemis, alors le cumul d'Étreinte écarlate est infligé à l'ennemi ayant le plus de cumuls d'Étreinte écarlate. Cet effet ne peut être déclenché qu'1 fois par utilisation de la capacité.\nLorsqu'Achéron est sur le champ de bataille et après qu'une cible ennemie a quitté le champ de bataille ou a été vaincue, ses cumuls d'Étreinte écarlate sont transférés à la cible ennemie qui a le plus de cumuls d'Étreinte écarlate sur tout le champ de bataille.",
+        "simple_desc": "L'ultime peut être activé quand Rêve flétri atteint la limite maximum. Pendant l'ultime, la robustesse des ennemis est réduite quels que soient leurs types de faiblesse, ainsi que toutes leurs RÉS de type.\nLorsqu'une unité applique un malus à une cible ennemie en utilisant une de ses capacités, Achéron gagne un point de Rêve flétri et applique Étreinte écarlate à une cible ennemie.",
+        "desc": "L'ultime peut être activé quand Rêve flétri atteint #1[i] points. Pendant l'ultime, la robustesse des ennemis est réduite quels que soient leurs types de faiblesse, ainsi que toutes leurs RÉS de type de #2[i]% jusqu'à la fin de l'ultime.\nLorsqu'une unité applique un malus à une cible ennemie en utilisant une de ses capacités, Achéron gagne 1 point de Rêve flétri et applique 1 cumul d'Étreinte écarlate à une cible ennemie. Si des malus sont appliqués à plusieurs ennemis, alors le cumul d'Étreinte écarlate est infligé à l'ennemi ayant le plus de cumuls d'Étreinte écarlate. Cet effet ne peut être déclenché qu'1 fois par utilisation de la capacité.\nLorsqu'Achéron est sur le champ de bataille et après qu'une cible ennemie a quitté le champ de bataille ou a été vaincue, ses cumuls d'Étreinte écarlate sont transférés à la cible ennemie qui a le plus de cumuls d'Étreinte écarlate sur tout le champ de bataille.",
         "params": [
             [
                 9,
@@ -16622,7 +16622,7 @@
         "type_text": "Ultime",
         "effect": "AoEAttack",
         "effect_text": "ZdE",
-        "simple_desc": "Inflige des DGT de foudre mineurs à un ennemi unique, et supprime jusqu'à 3 cumuls d'Étreinte écarlate à la cible. Inflige 1 fois des DGT de foudre mineurs à tous les ennemis lorsque l'effet Étreinte écarlate est supprimé. Le multiplicateur de cette instance de DGT augmente pour chaque cumul d'Étreinte écarlate supprimé.",
+        "simple_desc": "Inflige des DGT de foudre mineurs à un ennemi unique, et supprime jusqu'à 3 cumuls d'Étreinte écarlate de la cible. Inflige 1 fois des DGT de foudre mineurs à tous les ennemis lorsque l'effet Étreinte écarlate est supprimé. Le multiplicateur de cette instance de DGT augmente pour chaque cumul d'Étreinte écarlate supprimé.",
         "desc": "",
         "params": [
             [
@@ -16712,7 +16712,7 @@
         "type_text": "Ultime",
         "effect": "AoEAttack",
         "effect_text": "ZdE",
-        "simple_desc": "Inflige des DGT de foudre mineurs à un ennemi unique, et supprime jusqu'à 3 cumuls d'Étreinte écarlate à la cible. Inflige 1 fois des DGT de foudre mineurs à tous les ennemis lorsque l'effet Étreinte écarlate est supprimé. Le multiplicateur de cette instance de DGT augmente pour chaque cumul d'Étreinte écarlate supprimé.",
+        "simple_desc": "Inflige des DGT de foudre mineurs à un ennemi unique, et supprime jusqu'à 3 cumuls d'Étreinte écarlate de la cible. Inflige 1 fois des DGT de foudre mineurs à tous les ennemis lorsque l'effet Étreinte écarlate est supprimé. Le multiplicateur de cette instance de DGT augmente pour chaque cumul d'Étreinte écarlate supprimé.",
         "desc": "",
         "params": [
             [
@@ -16802,7 +16802,7 @@
         "type_text": "Ultime",
         "effect": "AoEAttack",
         "effect_text": "ZdE",
-        "simple_desc": "Inflige des DGT de foudre mineurs à un ennemi unique, et supprime jusqu'à 3 cumuls d'Étreinte écarlate à la cible. Inflige 1 fois des DGT de foudre mineurs à tous les ennemis lorsque l'effet Étreinte écarlate est supprimé. Le multiplicateur de cette instance de DGT augmente pour chaque cumul d'Étreinte écarlate supprimé.",
+        "simple_desc": "Inflige des DGT de foudre mineurs à un ennemi unique, et supprime jusqu'à 3 cumuls d'Étreinte écarlate de la cible. Inflige 1 fois des DGT de foudre mineurs à tous les ennemis lorsque l'effet Étreinte écarlate est supprimé. Le multiplicateur de cette instance de DGT augmente pour chaque cumul d'Étreinte écarlate supprimé.",
         "desc": "",
         "params": [
             [
@@ -16942,6 +16942,366 @@
             ]
         ],
         "icon": "icon/skill/1308_ultimate.png"
+    },
+    "130901": {
+        "id": "130901",
+        "name": "Battement d'aile silencieux",
+        "max_level": 9,
+        "element": "Physical",
+        "type": "Normal",
+        "type_text": "ATQ normale",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "Inflige des DGT physiques mineurs à un ennemi unique.",
+        "desc": "Inflige des DGT physiques équivalents à #1[i]% de l'ATQ de Robin à une cible ennemie unique.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1309_basic_atk.png"
+    },
+    "130902": {
+        "id": "130902",
+        "name": "Aria de la plume",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Compétence",
+        "effect": "Support",
+        "effect_text": "Soutien",
+        "simple_desc": "Augmente les DGT infligés par tous les alliés.",
+        "desc": "Augmente les DGT infligés par tous les alliés de #1[i]%. Dure #2[i] tours. Cette durée diminue de 1 au début de chaque tour de Robin.",
+        "params": [
+            [
+                0.25,
+                3
+            ],
+            [
+                0.275,
+                3
+            ],
+            [
+                0.3,
+                3
+            ],
+            [
+                0.325,
+                3
+            ],
+            [
+                0.35,
+                3
+            ],
+            [
+                0.375,
+                3
+            ],
+            [
+                0.4062,
+                3
+            ],
+            [
+                0.4375,
+                3
+            ],
+            [
+                0.4688,
+                3
+            ],
+            [
+                0.5,
+                3
+            ],
+            [
+                0.525,
+                3
+            ],
+            [
+                0.55,
+                3
+            ],
+            [
+                0.575,
+                3
+            ],
+            [
+                0.6,
+                3
+            ],
+            [
+                0.625,
+                3
+            ]
+        ],
+        "icon": "icon/skill/1309_skill.png"
+    },
+    "130903": {
+        "id": "130903",
+        "name": "Vox Harmonique, Opus Cosmique",
+        "max_level": 15,
+        "element": "",
+        "type": "Ultra",
+        "type_text": "Ultime",
+        "effect": "Support",
+        "effect_text": "Soutien",
+        "simple_desc": "Entre dans l'état Concerto, ce qui augmente l'ATQ de tous les alliés et permet à tous les coéquipiers d'agir immédiatement. Robin inflige des DGT physiques additionnels après une attaque. Lorsque Robin est dans l'état Concerto, elle est immunisée aux malus de contrôle. Pendant toute la durée de cet état, Robin ne peut ni agir ni jouer son tour jusqu'à la fin du compte à rebours.",
+        "desc": "Robin entre dans l'état Concerto, et permet à tous les alliés d'attaquer immédiatement.\nLorsque Robin est dans l'état Concerto, l'attaque de tous les alliés augmente à hauteur de #1[f1]% de l'ATQ de Robin + #3[i]. D'autre part, après chaque attaque d'un allié, Robin inflige des DGT physiques additionnels équivalents à #4[i]% de son ATQ 1 fois, avec des chances de coup critique fixées à #5[i]% et des DGT critiques fixés à #6[i]%.\nLorsque Robin est dans l'état Concerto, elle devient immunisée aux malus de contrôle et ne peut ni agir ni jouer son tour tant que l'état Concerto n'est pas terminé.\nUn compte à rebours pour Concerto s'affiche dans la barre d'ordre d'action. Lorsque ce compte à rebours débute, Robin quitte l'état Concerto et agit immédiatement. Le compte à rebours a sa propre VIT fixe qui est de #2[i].",
+        "params": [
+            [
+                0.152,
+                90,
+                50,
+                0.72,
+                1,
+                1.5
+            ],
+            [
+                0.1596,
+                90,
+                65,
+                0.768,
+                1,
+                1.5
+            ],
+            [
+                0.1672,
+                90,
+                80,
+                0.816,
+                1,
+                1.5
+            ],
+            [
+                0.1748,
+                90,
+                95,
+                0.864,
+                1,
+                1.5
+            ],
+            [
+                0.1824,
+                90,
+                110,
+                0.912,
+                1,
+                1.5
+            ],
+            [
+                0.19,
+                90,
+                125,
+                0.96,
+                1,
+                1.5
+            ],
+            [
+                0.1995,
+                90,
+                143.75,
+                1.02,
+                1,
+                1.5
+            ],
+            [
+                0.209,
+                90,
+                162.5,
+                1.08,
+                1,
+                1.5
+            ],
+            [
+                0.2185,
+                90,
+                181.25,
+                1.14,
+                1,
+                1.5
+            ],
+            [
+                0.228,
+                90,
+                200,
+                1.2,
+                1,
+                1.5
+            ],
+            [
+                0.2356,
+                90,
+                215,
+                1.248,
+                1,
+                1.5
+            ],
+            [
+                0.2432,
+                90,
+                230,
+                1.296,
+                1,
+                1.5
+            ],
+            [
+                0.2508,
+                90,
+                245,
+                1.344,
+                1,
+                1.5
+            ],
+            [
+                0.2584,
+                90,
+                260,
+                1.392,
+                1,
+                1.5
+            ],
+            [
+                0.266,
+                90,
+                275,
+                1.44,
+                1,
+                1.5
+            ]
+        ],
+        "icon": "icon/skill/1309_ultimate.png"
+    },
+    "130904": {
+        "id": "130904",
+        "name": "Résonance du chœur",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Support",
+        "effect_text": "Soutien",
+        "simple_desc": "Augmente les DGT critiques de tous les alliés, et Robin régénère de l'énergie lorsqu'un allié attaque un ennemi.",
+        "desc": "Augmente les DGT critiques de tous les alliés de #1[f1]%. D'autre part, Robin régénère #2[i] points d'énergie lorsqu'un allié attaque une cible ennemie.",
+        "params": [
+            [
+                0.05,
+                2
+            ],
+            [
+                0.065,
+                2
+            ],
+            [
+                0.08,
+                2
+            ],
+            [
+                0.095,
+                2
+            ],
+            [
+                0.11,
+                2
+            ],
+            [
+                0.125,
+                2
+            ],
+            [
+                0.1437,
+                2
+            ],
+            [
+                0.1625,
+                2
+            ],
+            [
+                0.1812,
+                2
+            ],
+            [
+                0.2,
+                2
+            ],
+            [
+                0.215,
+                2
+            ],
+            [
+                0.23,
+                2
+            ],
+            [
+                0.245,
+                2
+            ],
+            [
+                0.26,
+                2
+            ],
+            [
+                0.275,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1309_talent.png"
+    },
+    "130906": {
+        "id": "130906",
+        "name": "Attaque",
+        "max_level": 1,
+        "element": "Physical",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
+        "params": [],
+        "icon": "icon/skill/1309_basic_atk.png"
+    },
+    "130907": {
+        "id": "130907",
+        "name": "Prélude à l'ivresse",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Support",
+        "effect_text": "Soutien",
+        "simple_desc": "Crée une dimension spéciale autour du personnage. Les ennemis qui se trouvent dans cette dimension n'attaquent pas Robin. Robin régénère 5 points d'énergie supplémentaires au début de chaque vague lorsque le combat est engagé alors que la dimension est active.",
+        "desc": "Crée une dimension spéciale autour du personnage qui dure #1[i] secondes après avoir utilisé la technique. Les ennemis qui s'y trouvent n'attaquent pas Robin et la suivent tant que la dimension est active. Robin régénère #2[i] points d'énergie au début de chaque vague lorsque le combat est engagé alors que la dimension est active. Il ne peut exister qu'1 dimension créée par les alliés à la fois.",
+        "params": [
+            [
+                15,
+                5
+            ]
+        ],
+        "icon": "icon/skill/1309_technique.png"
     },
     "131201": {
         "id": "131201",
@@ -17302,6 +17662,437 @@
             ]
         ],
         "icon": "icon/skill/1312_technique.png"
+    },
+    "131501": {
+        "id": "131501",
+        "name": "Coup de talon brise-crâne",
+        "max_level": 9,
+        "element": "Physical",
+        "type": "Normal",
+        "type_text": "ATQ normale",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "Inflige des DGT physiques mineurs à un ennemi unique.",
+        "desc": "Inflige des DGT physiques équivalents à #1[i]% de l'ATQ du Fossoyeur à un cible ennemie unique.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1315_basic_atk.png"
+    },
+    "131502": {
+        "id": "131502",
+        "name": "Tango endiablé",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Compétence",
+        "effect": "Impair",
+        "effect_text": "Incapacitation",
+        "simple_desc": "Initie une Confrontation. Lorsque la cible de la Confrontation est éliminée ou subit une Rupture de faiblesse, le Fossoyeur bénéficie d'Avantage en poche et dissipe Confrontation. Le Fossoyeur utilise désormais son ATQ normale renforcée et le tour ne se termine pas.",
+        "desc": "Force le Fossoyeur à entrer en état de Confrontation avec une cible ennemie unique. L'ATQ normale du Fossoyeur devient renforcée et il ne peut pas utiliser sa compétence pour une durée de #3[i] tours. Cette durée est réduite de 1 au début de chaque tour du Fossoyeur.\nLa cible ennemie qui est en état de Confrontation est provoquée. Lorsque la cible ennemie/le Fossoyeur subit une attaque de la part de l'autre partie, les DGT reçus augmentent de #1[i]%/#2[i]%.\nLorsque la cible est éliminée ou qu'elle subit une Rupture de faiblesse, le Fossoyeur obtient 1 cumul d'Avantage en poche, et dissipe Confrontation.\nCette compétence ne régénère pas d'énergie. Le tour ne se termine pas après l'utilisation de la compétence.",
+        "params": [
+            [
+                0.15,
+                0.15,
+                2
+            ],
+            [
+                0.165,
+                0.15,
+                2
+            ],
+            [
+                0.18,
+                0.15,
+                2
+            ],
+            [
+                0.195,
+                0.15,
+                2
+            ],
+            [
+                0.21,
+                0.15,
+                2
+            ],
+            [
+                0.225,
+                0.15,
+                2
+            ],
+            [
+                0.2437,
+                0.15,
+                2
+            ],
+            [
+                0.2625,
+                0.15,
+                2
+            ],
+            [
+                0.2812,
+                0.15,
+                2
+            ],
+            [
+                0.3,
+                0.15,
+                2
+            ],
+            [
+                0.315,
+                0.15,
+                2
+            ],
+            [
+                0.33,
+                0.15,
+                2
+            ],
+            [
+                0.345,
+                0.15,
+                2
+            ],
+            [
+                0.36,
+                0.15,
+                2
+            ],
+            [
+                0.375,
+                0.15,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1315_skill.png"
+    },
+    "131503": {
+        "id": "131503",
+        "name": "Crépuscule des plaines du sud",
+        "max_level": 15,
+        "element": "Physical",
+        "type": "Ultra",
+        "type_text": "Ultime",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "Applique une Faiblesse physique à un ennemi unique et lui inflige une quantité massive de DGT physiques, tout en retardant son action.",
+        "desc": "Applique une Faiblesse physique à une cible ennemie unique pour #3[i] tours.\nInflige des DGT physiques équivalents à #1[i]% de l'ATQ du Fossoyeur à la cible et retarde son action de #2[i]%.",
+        "params": [
+            [
+                2.4,
+                0.3,
+                2
+            ],
+            [
+                2.56,
+                0.31,
+                2
+            ],
+            [
+                2.72,
+                0.32,
+                2
+            ],
+            [
+                2.88,
+                0.33,
+                2
+            ],
+            [
+                3.04,
+                0.34,
+                2
+            ],
+            [
+                3.2,
+                0.35,
+                2
+            ],
+            [
+                3.4,
+                0.3625,
+                2
+            ],
+            [
+                3.6,
+                0.375,
+                2
+            ],
+            [
+                3.8,
+                0.3875,
+                2
+            ],
+            [
+                4,
+                0.4,
+                2
+            ],
+            [
+                4.16,
+                0.41,
+                2
+            ],
+            [
+                4.32,
+                0.42,
+                2
+            ],
+            [
+                4.48,
+                0.43,
+                2
+            ],
+            [
+                4.64,
+                0.44,
+                2
+            ],
+            [
+                4.8,
+                0.45,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1315_ultimate.png"
+    },
+    "131504": {
+        "id": "131504",
+        "name": "Barillet plein",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Enhance",
+        "effect_text": "Renforcement",
+        "simple_desc": "Avantage en poche accentue la réduction de robustesse de l'ATQ normale renforcée et inflige des DGT de rupture physiques supplémentaires si la cible est en état de Rupture de faiblesse. En cas de victoire, Avantage en poche est conservé pour le prochain combat.",
+        "desc": "Chaque cumul d'Avantage en poche accentue la réduction de robustesse de l'ATQ normale renforcée de #4[i]%, cumulable jusqu'à #5[i] fois.\nSi la cible est en état de Rupture de faiblesse lors de l'utilisation de l'ATQ normale renforcée, inflige à la cible des DGT de rupture équivalents à #1[i]%/#2[i]%/#3[i]% des DGT de rupture physiques du Fossoyeur pour chaque cumul d'Avantage en poche. La robustesse maximale prise en compte pour ces DGT ne peut pas dépasser #6[i] fois la réduction de robustesse de base de l'ATQ normale « Coup de talon brise-crâne ».\nEn cas de victoire, le Fossoyeur peut conserver Avantage en poche pour le prochain combat.",
+        "params": [
+            [
+                0.35,
+                0.6,
+                0.85,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.385,
+                0.66,
+                0.935,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.42,
+                0.72,
+                1.02,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.455,
+                0.78,
+                1.105,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.49,
+                0.84,
+                1.19,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.525,
+                0.9,
+                1.275,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.5687,
+                0.975,
+                1.3813,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.6125,
+                1.05,
+                1.4875,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.6562,
+                1.125,
+                1.5938,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.7,
+                1.2,
+                1.7,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.735,
+                1.26,
+                1.785,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.77,
+                1.32,
+                1.87,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.805,
+                1.38,
+                1.955,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.84,
+                1.44,
+                2.04,
+                0.5,
+                3,
+                16
+            ],
+            [
+                0.875,
+                1.5,
+                2.125,
+                0.5,
+                3,
+                16
+            ]
+        ],
+        "icon": "icon/skill/1315_talent.png"
+    },
+    "131506": {
+        "id": "131506",
+        "name": "Attaque",
+        "max_level": 1,
+        "element": "Physical",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Réduit la robustesse de l'ennemi au type correspondant en entrant en combat après l'avoir attaqué.",
+        "params": [],
+        "icon": "icon/skill/1315_basic_atk.png"
+    },
+    "131507": {
+        "id": "131507",
+        "name": "Sourire carnassier",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Enhance",
+        "effect_text": "Renforcement",
+        "simple_desc": "Après utilisation de la technique, applique une Faiblesse physique à un ennemi unique lors de la première utilisation de la compétence au cours du prochain combat.",
+        "desc": "Après utilisation de la technique, lors de la première utilisation de la compétence au cours du prochain combat, applique une Faiblesse physique équivalente à celle appliquée par l'ultime à la cible pour #1[i] tours.",
+        "params": [
+            [
+                2
+            ]
+        ],
+        "icon": "icon/skill/1315_technique.png"
+    },
+    "131508": {
+        "id": "131508",
+        "name": "Tir en rafale",
+        "max_level": 9,
+        "element": "Physical",
+        "type": "Normal",
+        "type_text": "ATQ normale",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "Inflige des DGT physiques à un ennemi unique. Ne peut attaquer que la cible avec Confrontation.",
+        "desc": "Inflige des DGT physiques équivalents à #1[i]% de l'ATQ du Fossoyeur à une cible ennemie unique.\nL'ATQ normale renforcée ne peut pas régénérer de points de compétence et ne peut cibler que l'ennemi qui est actuellement dans l'état Confrontation.",
+        "params": [
+            [
+                1.1
+            ],
+            [
+                1.32
+            ],
+            [
+                1.54
+            ],
+            [
+                1.76
+            ],
+            [
+                1.98
+            ],
+            [
+                2.2
+            ],
+            [
+                2.42
+            ],
+            [
+                2.64
+            ],
+            [
+                2.86
+            ]
+        ],
+        "icon": "icon/skill/1315_basic_atk.png"
     },
     "800101": {
         "id": "800101",
@@ -18964,5 +19755,605 @@
             ]
         ],
         "icon": "icon/skill/8004_basic_atk.png"
+    },
+    "800501": {
+        "id": "800501",
+        "name": "Coup de chapeau",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "ATQ normale",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "Inflige des DGT imaginaires mineurs à un ennemi unique.",
+        "desc": "Inflige des DGT imaginaires équivalents à #1[i]% de l'ATQ {M#du pionnier}{F#de la pionnière} à une cible ennemie unique.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/8005_basic_atk.png"
+    },
+    "800502": {
+        "id": "800502",
+        "name": "Pluie d'applaudissements",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "BPSkill",
+        "type_text": "Compétence",
+        "effect": "Bounce",
+        "effect_text": "Rebond",
+        "simple_desc": "Inflige des DGT imaginaires mineurs à des cibles ennemies uniques pour un total de 5 rebonds.",
+        "desc": "Inflige des DGT imaginaires équivalents à #1[i]% de l'ATQ {M#du pionnier}{F#de la pionnière} à une cible ennemie unique et inflige des DGT 4 fois supplémentaires, infligeant à chaque fois des DGT imaginaires équivalents à #1[i]% de l'ATQ {M#du pionnier}{F#de la pionnière} à un ennemi aléatoire.",
+        "params": [
+            [
+                0.25,
+                2
+            ],
+            [
+                0.275,
+                2
+            ],
+            [
+                0.3,
+                2
+            ],
+            [
+                0.325,
+                2
+            ],
+            [
+                0.35,
+                2
+            ],
+            [
+                0.375,
+                2
+            ],
+            [
+                0.4062,
+                2
+            ],
+            [
+                0.4375,
+                2
+            ],
+            [
+                0.4688,
+                2
+            ],
+            [
+                0.5,
+                2
+            ],
+            [
+                0.525,
+                2
+            ],
+            [
+                0.55,
+                2
+            ],
+            [
+                0.575,
+                2
+            ],
+            [
+                0.6,
+                2
+            ],
+            [
+                0.625,
+                2
+            ]
+        ],
+        "icon": "icon/skill/8005_skill.png"
+    },
+    "800503": {
+        "id": "800503",
+        "name": "Performance sur scène",
+        "max_level": 15,
+        "element": "",
+        "type": "Ultra",
+        "type_text": "Ultime",
+        "effect": "Support",
+        "effect_text": "Soutien",
+        "simple_desc": "Applique l'effet Soutien sur scène à tous les alliés. Les alliés qui bénéficient de l'effet Soutien sur scène voient leur effet de Rupture augmenté et infligent des DGT de rupture extrême 1 fois lorsqu'ils attaquent des cibles ennemies qui subissent une Rupture de faiblesse.",
+        "desc": "Applique l'effet Soutien sur scène à tous les alliés, pour une durée de #1[i] tours. La durée de l'effet diminue de 1 tour au début de chaque tour {M#du pionnier}{F#de la pionnière}. L'effet de Rupture des alliés qui bénéficient de Soutien sur scène augmente de #3[i]%. Lorsqu'ils attaquent des cibles ennemies qui sont en état de Rupture de faiblesse, la réduction de robustesse de cette attaque est convertie 1 fois en une instance de DGT de rupture extrême.",
+        "params": [
+            [
+                3,
+                1,
+                0.15
+            ],
+            [
+                3,
+                1,
+                0.165
+            ],
+            [
+                3,
+                1,
+                0.18
+            ],
+            [
+                3,
+                1,
+                0.195
+            ],
+            [
+                3,
+                1,
+                0.21
+            ],
+            [
+                3,
+                1,
+                0.225
+            ],
+            [
+                3,
+                1,
+                0.2437
+            ],
+            [
+                3,
+                1,
+                0.2625
+            ],
+            [
+                3,
+                1,
+                0.2812
+            ],
+            [
+                3,
+                1,
+                0.3
+            ],
+            [
+                3,
+                1,
+                0.315
+            ],
+            [
+                3,
+                1,
+                0.33
+            ],
+            [
+                3,
+                1,
+                0.345
+            ],
+            [
+                3,
+                1,
+                0.36
+            ],
+            [
+                3,
+                1,
+                0.375
+            ]
+        ],
+        "icon": "icon/skill/8005_ultimate.png"
+    },
+    "800504": {
+        "id": "800504",
+        "name": "Ballet aérien",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Impair",
+        "effect_text": "Incapacitation",
+        "simple_desc": "{M#Le pionnier}{F#La pionnière} régénère de l'énergie chaque fois qu'une cible ennemie subit une Rupture de faiblesse.",
+        "desc": "{M#Le pionnier}{F#La pionnière} régénère immédiatement #1[f1] points d'énergie lorsqu'une cible ennemie subit une Rupture de faiblesse.",
+        "params": [
+            [
+                5
+            ],
+            [
+                5.5
+            ],
+            [
+                6
+            ],
+            [
+                6.5
+            ],
+            [
+                7
+            ],
+            [
+                7.5
+            ],
+            [
+                8.125
+            ],
+            [
+                8.75
+            ],
+            [
+                9.375
+            ],
+            [
+                10
+            ],
+            [
+                10.5
+            ],
+            [
+                11
+            ],
+            [
+                11.5
+            ],
+            [
+                12
+            ],
+            [
+                12.5
+            ]
+        ],
+        "icon": "icon/skill/8005_talent.png"
+    },
+    "800506": {
+        "id": "800506",
+        "name": "Attaque",
+        "max_level": 1,
+        "element": "Imaginary",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
+        "params": [],
+        "icon": "icon/skill/8005_basic_atk.png"
+    },
+    "800507": {
+        "id": "800507",
+        "name": "Entrée fracassante",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Support",
+        "effect_text": "Soutien",
+        "simple_desc": "Augmente l'effet de Rupture de tous les alliés au début du prochain combat.",
+        "desc": "L'effet de Rupture de tous les alliés augmente de #1[i]% pendant #2[i] tours au début du prochain combat après avoir utilisé la technique.",
+        "params": [
+            [
+                0.3,
+                2
+            ]
+        ],
+        "icon": "icon/skill/8005_technique.png"
+    },
+    "800601": {
+        "id": "800601",
+        "name": "Coup de chapeau",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "ATQ normale",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "Inflige des DGT imaginaires mineurs à un ennemi unique.",
+        "desc": "Inflige des DGT imaginaires équivalents à #1[i]% de l'ATQ {M#du pionnier}{F#de la pionnière} à un ennemi unique.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/8006_basic_atk.png"
+    },
+    "800602": {
+        "id": "800602",
+        "name": "Pluie d'applaudissements",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "BPSkill",
+        "type_text": "Compétence",
+        "effect": "Bounce",
+        "effect_text": "Rebond",
+        "simple_desc": "Inflige des DGT imaginaires mineurs à des cibles ennemies uniques pour un total de 5 rebonds.",
+        "desc": "Inflige des DGT imaginaires équivalents à #1[i]% de l'ATQ {M#du pionnier}{F#de la pionnière} à un ennemi unique et inflige des DGT 4 fois supplémentaires, infligeant à chaque fois des DGT imaginaires équivalents à #1[i]% de l'ATQ {M#du pionnier}{F#de la pionnière} à un ennemi aléatoire.",
+        "params": [
+            [
+                0.25,
+                2
+            ],
+            [
+                0.275,
+                2
+            ],
+            [
+                0.3,
+                2
+            ],
+            [
+                0.325,
+                2
+            ],
+            [
+                0.35,
+                2
+            ],
+            [
+                0.375,
+                2
+            ],
+            [
+                0.4062,
+                2
+            ],
+            [
+                0.4375,
+                2
+            ],
+            [
+                0.4688,
+                2
+            ],
+            [
+                0.5,
+                2
+            ],
+            [
+                0.525,
+                2
+            ],
+            [
+                0.55,
+                2
+            ],
+            [
+                0.575,
+                2
+            ],
+            [
+                0.6,
+                2
+            ],
+            [
+                0.625,
+                2
+            ]
+        ],
+        "icon": "icon/skill/8006_skill.png"
+    },
+    "800603": {
+        "id": "800603",
+        "name": "Performance sur scène",
+        "max_level": 15,
+        "element": "",
+        "type": "Ultra",
+        "type_text": "Ultime",
+        "effect": "Support",
+        "effect_text": "Soutien",
+        "simple_desc": "Applique l'effet Soutien sur scène à tous les alliés. Les alliés qui bénéficient de l'effet Soutien sur scène voient leur effet de Rupture augmenté et infligent des DGT de rupture extrême 1 fois lorsqu'ils attaquent des cibles ennemies qui subissent une Rupture de faiblesse.",
+        "desc": "Applique l'effet Soutien sur scène à tous les alliés, pour une durée de #1[i] tours. La durée de l'effet diminue de 1 tour au début de chaque tour {M#du pionnier}{F#de la pionnière}. L'effet de Rupture des alliés qui bénéficient de Soutien sur scène augmente de #3[i]%. Lorsqu'ils attaquent des cibles ennemies qui sont en état de Rupture de faiblesse, la réduction de robustesse de cette attaque est convertie 1 fois en une instance de DGT de rupture extrême.",
+        "params": [
+            [
+                3,
+                1,
+                0.15
+            ],
+            [
+                3,
+                1,
+                0.165
+            ],
+            [
+                3,
+                1,
+                0.18
+            ],
+            [
+                3,
+                1,
+                0.195
+            ],
+            [
+                3,
+                1,
+                0.21
+            ],
+            [
+                3,
+                1,
+                0.225
+            ],
+            [
+                3,
+                1,
+                0.2437
+            ],
+            [
+                3,
+                1,
+                0.2625
+            ],
+            [
+                3,
+                1,
+                0.2812
+            ],
+            [
+                3,
+                1,
+                0.3
+            ],
+            [
+                3,
+                1,
+                0.315
+            ],
+            [
+                3,
+                1,
+                0.33
+            ],
+            [
+                3,
+                1,
+                0.345
+            ],
+            [
+                3,
+                1,
+                0.36
+            ],
+            [
+                3,
+                1,
+                0.375
+            ]
+        ],
+        "icon": "icon/skill/8006_ultimate.png"
+    },
+    "800604": {
+        "id": "800604",
+        "name": "Ballet aérien",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Impair",
+        "effect_text": "Incapacitation",
+        "simple_desc": "{M#Le pionnier}{F#La pionnière} régénère de l'énergie chaque fois qu'une cible ennemie subit une Rupture de faiblesse.",
+        "desc": "{M#Le pionnier}{F#La pionnière} régénère immédiatement #1[f1] points d'énergie lorsqu'une cible ennemie subit une Rupture de faiblesse.",
+        "params": [
+            [
+                5
+            ],
+            [
+                5.5
+            ],
+            [
+                6
+            ],
+            [
+                6.5
+            ],
+            [
+                7
+            ],
+            [
+                7.5
+            ],
+            [
+                8.125
+            ],
+            [
+                8.75
+            ],
+            [
+                9.375
+            ],
+            [
+                10
+            ],
+            [
+                10.5
+            ],
+            [
+                11
+            ],
+            [
+                11.5
+            ],
+            [
+                12
+            ],
+            [
+                12.5
+            ]
+        ],
+        "icon": "icon/skill/8006_talent.png"
+    },
+    "800606": {
+        "id": "800606",
+        "name": "Attaque",
+        "max_level": 1,
+        "element": "Imaginary",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
+        "params": [],
+        "icon": "icon/skill/8006_basic_atk.png"
+    },
+    "800607": {
+        "id": "800607",
+        "name": "Entrée fracassante",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Support",
+        "effect_text": "Soutien",
+        "simple_desc": "Augmente l'effet de Rupture de tous les alliés au début du prochain combat.",
+        "desc": "L'effet de Rupture de tous les alliés augmente de #1[i]% pendant #2[i] tours au début du prochain combat après avoir utilisé la technique.",
+        "params": [
+            [
+                0.3,
+                2
+            ]
+        ],
+        "icon": "icon/skill/8006_technique.png"
     }
 }

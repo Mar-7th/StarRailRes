@@ -2356,7 +2356,7 @@
     "21035": {
         "id": "21035",
         "skill": "Hypothèse",
-        "desc": "Augmente de #1[i]% l'effet de Rupture du porteur. Les ATQ normales du porteur lui rendent un montant de PV équivalent à #2[f1]% de ses PV max + #3[i].",
+        "desc": "Augmente l'effet de Rupture du porteur de #1[i]%. Les ATQ normales du porteur lui rendent un montant de PV équivalent à #2[f1]% de ses PV max + #3[i].",
         "params": [
             [
                 0.24,
@@ -2562,7 +2562,7 @@
     "21039": {
         "id": "21039",
         "skill": "Prescience",
-        "desc": "Augmente de #1[i]% la RÉS aux effets du porteur. Augmente de #3[f1]% les DGT infligés par le porteur pour chaque tranche de #2[i] points de DÉF jusqu'à une augmentation maximale de DGT de #4[i]%.",
+        "desc": "Augmente la RÉS aux effets du porteur de #1[i]%. Augmente les DGT infligés par le porteur de #3[f1]% pour chaque tranche de #2[i] points de DÉF jusqu'à une augmentation maximale de DGT de #4[i]%.",
         "params": [
             [
                 0.12,
@@ -2631,7 +2631,7 @@
     "21040": {
         "id": "21040",
         "skill": "Stratagème",
-        "desc": "Augmente de #1[i]% l'ATQ du porteur. Lorsque le porteur utilise une attaque et qu'au moins 2 ennemis attaqués ont la Faiblesse correspondante, les DGT critiques du porteur augmentent de #2[i]%. Dure #3[i] tours.",
+        "desc": "Augmente l'ATQ du porteur de #1[i]%. Lorsque le porteur utilise une attaque et qu'au moins 2 ennemis attaqués ont la Faiblesse correspondante, les DGT critiques du porteur augmentent de #2[i]%. Dure #3[i] tours.",
         "params": [
             [
                 0.16,
@@ -2695,7 +2695,7 @@
     "21041": {
         "id": "21041",
         "skill": "Divertissement",
-        "desc": "Le porteur gagne un cumul de Mascarade lorsqu'il inflige un malus à un ennemi. Chaque cumul de Mascarade augmente de #1[i]% les DGT infligés par le porteur pour un maximum de #2[i] cumuls. Cet effet dure #3[i] tour. Augmente de #5[i]% l'ATQ du porteur lorsque ses chances d'appliquer des effets sont supérieures ou égales à #4[i]%.",
+        "desc": "Le porteur gagne un cumul de Mascarade lorsqu'il inflige un malus à un ennemi. Chaque cumul de Mascarade augmente de #1[i]% les DGT infligés par le porteur pour un maximum de #2[i] cumuls. Cet effet dure #3[i] tour. Augmente l'ATQ du porteur de #5[i]% lorsque ses chances d'appliquer des effets sont supérieures ou égales à #4[i]%.",
         "params": [
             [
                 0.06,
@@ -2744,7 +2744,7 @@
     "21042": {
         "id": "21042",
         "skill": "Héritage",
-        "desc": "Augmente de #1[i]% l'effet de Rupture du porteur. Lorsque le porteur utilise son ultime, augmente de #2[i]% ses chances de coup critique pendant #3[i] tours.",
+        "desc": "Augmente l'effet de Rupture du porteur de #1[i]%. Lorsque le porteur utilise son ultime, ses chances de coup critique augmentent de #2[i]% pendant #3[i] tours.",
         "params": [
             [
                 0.28,
@@ -2808,7 +2808,7 @@
     "21043": {
         "id": "21043",
         "skill": "Inspiration",
-        "desc": "Augmente de #1[i]% la DÉF du porteur. Les DGT infligés par le porteur augmentent de #2[i]% pour chaque personnage qui bénéficie d'un bouclier sur le champ de bataille.",
+        "desc": "Augmente la DÉF du porteur de #1[i]%. Les DGT infligés par le porteur augmentent de #2[i]% pour chaque personnage qui bénéficie d'un bouclier sur le champ de bataille.",
         "params": [
             [
                 0.16,
@@ -2860,6 +2860,65 @@
                 {
                     "type": "DefenceAddedRatio",
                     "value": 0.32
+                }
+            ]
+        ]
+    },
+    "21044": {
+        "id": "21044",
+        "skill": "Perception",
+        "desc": "Augmente les chances de coup critique du porteur de #1[i]%. Le porteur inflige #2[i]% de DGT critiques supplémentaires aux ennemis ralentis ou dont la DÉF est réduite.",
+        "params": [
+            [
+                0.08,
+                0.24
+            ],
+            [
+                0.1,
+                0.3
+            ],
+            [
+                0.12,
+                0.36
+            ],
+            [
+                0.14,
+                0.42
+            ],
+            [
+                0.16,
+                0.48
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.08
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.1
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.12
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.14
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.16
                 }
             ]
         ]
@@ -2983,6 +3042,70 @@
                 {
                     "type": "HPAddedRatio",
                     "value": 0.12
+                }
+            ]
+        ]
+    },
+    "22002": {
+        "id": "22002",
+        "skill": "Liens",
+        "desc": "Augmente l'ATQ du porteur de #1[i]%. Augmente les DGT infligés de #2[i]% pendant #3[i] tour lorsque le porteur utilise son ultime.",
+        "params": [
+            [
+                0.16,
+                0.18,
+                1
+            ],
+            [
+                0.2,
+                0.21,
+                1
+            ],
+            [
+                0.24,
+                0.24,
+                1
+            ],
+            [
+                0.28,
+                0.27,
+                1
+            ],
+            [
+                0.32,
+                0.3,
+                1
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.16
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.2
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.24
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.28
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.32
                 }
             ]
         ]
@@ -4390,7 +4513,7 @@
     "23020": {
         "id": "23020",
         "skill": "Entraînement mental",
-        "desc": "Augmente de #1[i]% les DGT critiques du porteur. Pour chaque malus subi par une cible ennemie, les DGT critiques du porteur augmentent de #2[i]% supplémentaires sur cette cible, jusqu'à un maximum de #3[i] cumuls. Lorsque le porteur attaque une cible avec son ultime, il bénéficie de l'effet Débat, ce qui augmente de #4[i]% les DGT qu'il inflige et permet à ses attaques de suivi d'ignorer #5[i]% de la DÉF de la cible. Cet effet dure #6[i] tours.",
+        "desc": "Augmente les DGT critiques du porteur de #1[i]%. Pour chaque malus subi par une cible ennemie, les DGT critiques du porteur augmentent de #2[i]% supplémentaires sur cette cible, jusqu'à un maximum de #3[i] cumuls. Lorsque le porteur attaque une cible avec son ultime, il bénéficie de l'effet Débat, ce qui augmente de #4[i]% les DGT qu'il inflige et permet à ses attaques de suivi d'ignorer #5[i]% de la DÉF de la cible. Cet effet dure #6[i] tours.",
         "params": [
             [
                 0.2,
@@ -4469,7 +4592,7 @@
     "23021": {
         "id": "23021",
         "skill": "Caprices",
-        "desc": "Augmente de #1[i]% les DGT critiques du porteur. Le porteur obtient l'effet Masque pendant #6[i] tours en début de combat. Tant que le porteur bénéficie de Masque, ses alliés voient leurs chances de coup critique augmenter de #5[i]% et leurs DGT critiques de #2[i]%. Chaque fois que le porteur régénère 1 point de compétence (y compris des points de compétence au-delà de la limite), il gagne 1 cumul de Flamme radieuse. À #4[i] cumuls de Flamme radieuse, il perd tous les cumuls et gagne Masque. Dure #3[i] tours.",
+        "desc": "Augmente les DGT critiques du porteur de #1[i]%. Le porteur obtient l'effet Masque pendant #6[i] tours en début de combat. Tant que le porteur bénéficie de Masque, ses alliés voient leurs chances de coup critique augmenter de #5[i]% et leurs DGT critiques de #2[i]%. Chaque fois que le porteur régénère 1 point de compétence (y compris des points de compétence au-delà de la limite), il gagne 1 cumul de Flamme radieuse. À #4[i] cumuls de Flamme radieuse, il perd tous les cumuls et gagne Masque. Dure #3[i] tours.",
         "params": [
             [
                 0.32,
@@ -4548,7 +4671,7 @@
     "23022": {
         "id": "23022",
         "skill": "Cristallisation",
-        "desc": "Augmente de #1[i]% les chances d'appliquer des effets du porteur. Lorsque le porteur inflige des DGT à un ennemi affecté par Faille du vent, Saignement, Brûlure ou Stupéfaction, chaque effet lui accorde 1 cumul de Prophétie, cumulable jusqu'à #4[i] fois. Chaque type de dégâts sur la durée ne peut générer qu'1 seul cumul de Prophétie par combat. Chaque cumul de Prophétie augmente de #2[i]% l'ATQ du porteur et permet aux dégâts sur la durée infligés d'ignorer #3[f1]% de la DÉF de la cible.",
+        "desc": "Augmente les chances d'appliquer des effets du porteur de #1[i]%. Lorsque le porteur inflige des DGT à un ennemi affecté par Faille du vent, Saignement, Brûlure ou Stupéfaction, chaque effet lui accorde 1 cumul de Prophétie, cumulable jusqu'à #4[i] fois. Chaque type de dégâts sur la durée ne peut générer qu'1 seul cumul de Prophétie par combat. Chaque cumul de Prophétie augmente de #2[i]% l'ATQ du porteur et permet aux dégâts sur la durée infligés d'ignorer #3[f1]% de la DÉF de la cible.",
         "params": [
             [
                 0.4,
@@ -4617,7 +4740,7 @@
     "23023": {
         "id": "23023",
         "skill": "Le tout pour le tout",
-        "desc": "Augmente de #1[i]% la DÉF du porteur. Les DGT critiques du porteur augmentent de #2[i]% pendant #3[i] tours à chaque fois qu'il accorde un bouclier à un allié. Lorsque le porteur utilise une attaque de suivi pour attaquer un ennemi, il y a #4[i]% de chances de base d'augmenter les DGT subis par l'ennemi attaqué de #5[f1]% pendant #6[i] tours.",
+        "desc": "Augmente la DÉF du porteur de #1[i]%. Les DGT critiques du porteur augmentent de #2[i]% pendant #3[i] tours à chaque fois qu'il accorde un bouclier à un allié. Lorsque le porteur utilise une attaque de suivi pour attaquer un ennemi, il y a #4[i]% de chances de base d'augmenter les DGT subis par l'ennemi attaqué de #5[f1]% pendant #6[i] tours.",
         "params": [
             [
                 0.4,
@@ -4696,7 +4819,7 @@
     "23024": {
         "id": "23024",
         "skill": "Passeur",
-        "desc": "Augmente de #1[i]% les DGT critiques du porteur. Lorsque le porteur touche une cible ennemie, applique l'effet Bulle du vide pendant 1 tour à l'ennemi. Cet effet peut être déclenché 1 fois sur chaque cible pour chaque attaque lancée par le porteur. Le porteur inflige #2[i]% de DGT supplémentaires aux cibles affectées par Bulle du vide et ses DGT d'ultime augmentent de #3[i]%.",
+        "desc": "Augmente les DGT critiques du porteur de #1[i]%. Lorsque le porteur touche une cible ennemie, applique l'effet Bulle du vide pendant 1 tour à l'ennemi. Cet effet peut être déclenché 1 fois sur chaque cible pour chaque attaque lancée par le porteur. Le porteur inflige #2[i]% de DGT supplémentaires aux cibles affectées par Bulle du vide et ses DGT d'ultime augmentent de #3[i]%.",
         "params": [
             [
                 0.36,
@@ -4753,6 +4876,124 @@
                 {
                     "type": "CriticalDamageBase",
                     "value": 0.6
+                }
+            ]
+        ]
+    },
+    "23026": {
+        "id": "23026",
+        "skill": "Apaisement",
+        "desc": "Le porteur gagne 1 cumul de Cantique à chaque fois qu'un allié attaque. Chaque cumul de Cantique augmente de #1[f1]% le taux de régénération d'énergie du porteur, jusqu'à #2[i] cumuls. Supprime l'effet Cantique et gagne Cadence à la place lorsque le porteur utilise son ultime. Cadence augmente l'ATQ du porteur de #4[i]% et les DGT infligés par l'équipe de #3[i]%. Dure #5[i] tour.",
+        "params": [
+            [
+                0.03,
+                5,
+                0.24,
+                0.48,
+                1
+            ],
+            [
+                0.035,
+                5,
+                0.28,
+                0.6,
+                1
+            ],
+            [
+                0.04,
+                5,
+                0.32,
+                0.72,
+                1
+            ],
+            [
+                0.045,
+                5,
+                0.36,
+                0.84,
+                1
+            ],
+            [
+                0.05,
+                5,
+                0.4,
+                0.96,
+                1
+            ]
+        ],
+        "properties": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    "23027": {
+        "id": "23027",
+        "skill": "Navigation en eaux troubles",
+        "desc": "Augmente l'effet de Rupture du porteur de #1[i]% et les DGT de rupture qu'il inflige ignorent #3[i]% de la DÉF de la cible. Lorsque l'effet de Rupture du porteur est supérieur ou égal à #2[i]%, sa VIT augmente de #4[i]%.",
+        "params": [
+            [
+                0.6,
+                1.5,
+                0.2,
+                0.12
+            ],
+            [
+                0.7,
+                1.5,
+                0.23,
+                0.14
+            ],
+            [
+                0.8,
+                1.5,
+                0.26,
+                0.16
+            ],
+            [
+                0.9,
+                1.5,
+                0.29,
+                0.18
+            ],
+            [
+                1,
+                1.5,
+                0.32,
+                0.2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.6
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.7
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.8
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.9
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 1
                 }
             ]
         ]
