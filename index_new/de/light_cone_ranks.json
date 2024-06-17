@@ -2923,6 +2923,70 @@
             ]
         ]
     },
+    "21045": {
+        "id": "21045",
+        "skill": "Stille",
+        "desc": "Erhöht den Brucheffekt des Trägers um #1[i]%. Nachdem der Träger seinen Ultimate eingesetzt hat, wird seine GES für #3[i] Rd. um #2[i]% erhöht.",
+        "params": [
+            [
+                0.28,
+                0.08,
+                2
+            ],
+            [
+                0.35,
+                0.1,
+                2
+            ],
+            [
+                0.42,
+                0.12,
+                2
+            ],
+            [
+                0.49,
+                0.14,
+                2
+            ],
+            [
+                0.56,
+                0.16,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.28
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.35
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.42
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.49
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.56
+                }
+            ]
+        ]
+    },
     "22000": {
         "id": "22000",
         "skill": "Flinke Hände",
@@ -4880,6 +4944,75 @@
             ]
         ]
     },
+    "23025": {
+        "id": "23025",
+        "skill": "Metamorphose",
+        "desc": "Erhöht den Brucheffekt des Trägers um #1[i]%. Wenn der Träger bei einem Gegner Bruch-SCH verursacht, wird dieser für #4[i] Rd. mit „Niedergeschmettert“ belegt. Gegner mit Niedergeschmettert erleiden durch den Träger #2[f1]% mehr Bruch-SCH und ihre GES wird um #3[i]% reduziert. Effekte der gleichen Art sind nicht stapelbar.",
+        "params": [
+            [
+                0.6,
+                0.24,
+                0.2,
+                2
+            ],
+            [
+                0.7,
+                0.28,
+                0.2,
+                2
+            ],
+            [
+                0.8,
+                0.32,
+                0.2,
+                2
+            ],
+            [
+                0.9,
+                0.36,
+                0.2,
+                2
+            ],
+            [
+                1,
+                0.4,
+                0.2,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.6
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.7
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.8
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.9
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 1
+                }
+            ]
+        ]
+    },
     "23026": {
         "id": "23026",
         "skill": "Trösten",
@@ -4994,6 +5127,90 @@
                 {
                     "type": "BreakDamageAddedRatioBase",
                     "value": 1
+                }
+            ]
+        ]
+    },
+    "23028": {
+        "id": "23028",
+        "skill": "Versprechen",
+        "desc": "Erhöht die KRIT-Rate des Trägers um #1[i]%. Liegt der KRIT-SCH des Trägers im Kampf über #2[i]%, wird für je weitere #3[i]% der Folgeangriff-SCH des Trägers um #4[i]% erhöht. Dieser Effekt ist #5[i]-fach stapelbar. Zu Beginn des Kampfes und nachdem der Träger einen Standardangriff ausgeführt hat, ignoriert der SCH durch Ultimate oder Folgeangriff für #7[i] Rd. #6[i]% der VTD des Ziels.",
+        "params": [
+            [
+                0.16,
+                1.2,
+                0.2,
+                0.12,
+                4,
+                0.2,
+                2
+            ],
+            [
+                0.19,
+                1.2,
+                0.2,
+                0.14,
+                4,
+                0.24,
+                2
+            ],
+            [
+                0.22,
+                1.2,
+                0.2,
+                0.16,
+                4,
+                0.28,
+                2
+            ],
+            [
+                0.25,
+                1.2,
+                0.2,
+                0.18,
+                4,
+                0.32,
+                2
+            ],
+            [
+                0.28,
+                1.2,
+                0.2,
+                0.2,
+                4,
+                0.36,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.16
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.19
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.22
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.25
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.28
                 }
             ]
         ]
@@ -5255,6 +5472,80 @@
                 {
                     "type": "BreakDamageAddedRatioBase",
                     "value": 0.4
+                }
+            ]
+        ]
+    },
+    "24004": {
+        "id": "24004",
+        "skill": "Gedanken ohne Grenzen",
+        "desc": "Erhöht den ANG des Trägers um #1[i]%. Nach einem Angriff wird der ANG für jedes getroffene Ziel zusätzlich um #2[i]% erhöht. Dieser Effekt ist bis zu 5-fach stapelbar und dauert bis zum nächsten Angriff. Wenn #3[i] oder mehr Gegner getroffen werden, wird die GES dieser Einheit für #5[i] Rd. um #4[i]% erhöht.",
+        "params": [
+            [
+                0.08,
+                0.04,
+                3,
+                0.08,
+                1
+            ],
+            [
+                0.09,
+                0.05,
+                3,
+                0.1,
+                1
+            ],
+            [
+                0.1,
+                0.06,
+                3,
+                0.12,
+                1
+            ],
+            [
+                0.11,
+                0.07,
+                3,
+                0.14,
+                1
+            ],
+            [
+                0.12,
+                0.08,
+                3,
+                0.16,
+                1
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.08
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.09
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.1
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.11
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.12
                 }
             ]
         ]

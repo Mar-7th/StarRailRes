@@ -22,7 +22,7 @@
         "id": "102",
         "name": "Musketeer of Wild Wheat",
         "desc": [
-            "ATK increases by 12%.",
+            "Increases ATK by 12%.",
             "The wearer's SPD increases by 6% and Basic ATK DMG increases by 10%."
         ],
         "properties": [
@@ -288,7 +288,7 @@
         "id": "116",
         "name": "Prisoner in Deep Confinement",
         "desc": [
-            "ATK increases by 12%.",
+            "Increases ATK by 12%.",
             "For every DoT the target enemy is afflicted with, the wearer will ignore 6% of its DEF when dealing DMG to it. This effect is valid for a max of 3 DoTs."
         ],
         "properties": [
@@ -339,6 +339,49 @@
             []
         ],
         "icon": "icon/relic/118.png",
+        "guide_overview": []
+    },
+    "119": {
+        "id": "119",
+        "name": "Iron Cavalry Against the Scourge",
+        "desc": [
+            "Increases Break Effect by 16%.",
+            "If the wearer's Break Effect is 150% or higher, the Break DMG dealt to the enemy target ignores 10% of their DEF. If the wearer's Break Effect is 250% or higher, the Super Break DMG dealt to the enemy target additionally ignores 15% of their DEF."
+        ],
+        "properties": [
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.16
+                }
+            ],
+            []
+        ],
+        "icon": "icon/relic/119.png",
+        "guide_overview": []
+    },
+    "120": {
+        "id": "120",
+        "name": "The Wind-Soaring Valorous",
+        "desc": [
+            "Increases ATK by 12%.",
+            "Increases the wearer's CRIT Rate by 6%. When the wearer uses a follow-up attack, increases the DMG dealt by Ultimate by 36%, lasting for 1 turn(s)."
+        ],
+        "properties": [
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.12
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.06
+                }
+            ]
+        ],
+        "icon": "icon/relic/120.png",
         "guide_overview": []
     },
     "301": {
@@ -591,6 +634,37 @@
             ]
         ],
         "icon": "icon/relic/314.png",
+        "guide_overview": []
+    },
+    "315": {
+        "id": "315",
+        "name": "Duran, Dynasty of Running Wolves",
+        "desc": [
+            "When allies use follow-up attacks, the wearer gains 1 stack of Merit, stacking up to 5 times. Each stack of Merit increases the DMG dealt by the wearer's follow-up attacks by 5%. When there are 5 stacks, additionally increases the wearer's CRIT DMG by 25%.",
+            ""
+        ],
+        "properties": [
+            []
+        ],
+        "icon": "icon/relic/315.png",
+        "guide_overview": []
+    },
+    "316": {
+        "id": "316",
+        "name": "Forge of the Kalpagni Lantern",
+        "desc": [
+            "Increases the wearer's SPD by 6%. When the wearer hits an enemy target that has Fire Weakness, the wearer's Break Effect increases by 40%, lasting for 1 turn(s).",
+            ""
+        ],
+        "properties": [
+            [
+                {
+                    "type": "SpeedAddedRatio",
+                    "value": 0.06
+                }
+            ]
+        ],
+        "icon": "icon/relic/316.png",
         "guide_overview": []
     }
 }

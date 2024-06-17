@@ -2744,7 +2744,7 @@
     "21042": {
         "id": "21042",
         "skill": "Legado",
-        "desc": "El efecto de Ruptura del portador aumenta en un #1[i]%. Cuando el portador usa su habilidad definitiva, la Prob. CRIT aumenta en un #2[i]% durante #3[i] turnos.",
+        "desc": "El efecto de Ruptura del portador aumenta en un #1[i]%. Cuando el portador usa su habilidad definitiva, la Prob. CRIT aumenta en un #2[i]% durante #3[i] turno(s).",
         "params": [
             [
                 0.28,
@@ -2919,6 +2919,70 @@
                 {
                     "type": "CriticalChanceBase",
                     "value": 0.16
+                }
+            ]
+        ]
+    },
+    "21045": {
+        "id": "21045",
+        "skill": "Silencio",
+        "desc": "El efecto de Ruptura del portador aumenta en un #1[i]%. Después de que el portador use su habilidad definitiva, la VEL aumenta en un #2[i]% durante #3[i] turnos.",
+        "params": [
+            [
+                0.28,
+                0.08,
+                2
+            ],
+            [
+                0.35,
+                0.1,
+                2
+            ],
+            [
+                0.42,
+                0.12,
+                2
+            ],
+            [
+                0.49,
+                0.14,
+                2
+            ],
+            [
+                0.56,
+                0.16,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.28
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.35
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.42
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.49
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.56
                 }
             ]
         ]
@@ -4880,6 +4944,75 @@
             ]
         ]
     },
+    "23025": {
+        "id": "23025",
+        "skill": "Metamorfosis",
+        "desc": "El efecto de Ruptura del portador aumenta en un #1[i]%. Cuando el portador inflige Daño de Ruptura a un enemigo, este entra en el estado de Vencido durante #4[i] turnos. Los objetivos afectados con Vencido reciben un #2[f1]% más de Daño de Ruptura del portador y su VEL se reduce en un #3[i]%. Los efectos del mismo tipo no se pueden acumular.",
+        "params": [
+            [
+                0.6,
+                0.24,
+                0.2,
+                2
+            ],
+            [
+                0.7,
+                0.28,
+                0.2,
+                2
+            ],
+            [
+                0.8,
+                0.32,
+                0.2,
+                2
+            ],
+            [
+                0.9,
+                0.36,
+                0.2,
+                2
+            ],
+            [
+                1,
+                0.4,
+                0.2,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.6
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.7
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.8
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.9
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 1
+                }
+            ]
+        ]
+    },
     "23026": {
         "id": "23026",
         "skill": "Consuelo",
@@ -4994,6 +5127,90 @@
                 {
                     "type": "BreakDamageAddedRatioBase",
                     "value": 1
+                }
+            ]
+        ]
+    },
+    "23028": {
+        "id": "23028",
+        "skill": "Promesa",
+        "desc": "La Prob. CRIT del portador aumenta en un #1[i]%. Cuando el Daño CRIT del portador es superior al #2[i]% en el combate, por cada #3[i]% en exceso, el daño que infligen los ataques adicionales aumenta en un #4[i]%. Este efecto se puede acumular hasta #5[i] veces. Al comenzar el combate y después de que el portador use el ATQ básico, el daño que infligen su habilidad definitiva o ataques adicionales ignora un #6[i]% de la DEF del objetivo durante #7[i] turnos.",
+        "params": [
+            [
+                0.16,
+                1.2,
+                0.2,
+                0.12,
+                4,
+                0.2,
+                2
+            ],
+            [
+                0.19,
+                1.2,
+                0.2,
+                0.14,
+                4,
+                0.24,
+                2
+            ],
+            [
+                0.22,
+                1.2,
+                0.2,
+                0.16,
+                4,
+                0.28,
+                2
+            ],
+            [
+                0.25,
+                1.2,
+                0.2,
+                0.18,
+                4,
+                0.32,
+                2
+            ],
+            [
+                0.28,
+                1.2,
+                0.2,
+                0.2,
+                4,
+                0.36,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.16
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.19
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.22
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.25
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.28
                 }
             ]
         ]
@@ -5255,6 +5472,80 @@
                 {
                     "type": "BreakDamageAddedRatioBase",
                     "value": 0.4
+                }
+            ]
+        ]
+    },
+    "24004": {
+        "id": "24004",
+        "skill": "Pensamiento infinito",
+        "desc": "El ATQ del portador aumenta en un #1[i]%. Tras lanzar un ataque, el ATQ aumenta en un #2[i]% adicional por cada enemigo golpeado. Este efecto se puede acumular hasta 5 veces y dura hasta después del siguiente ataque. Si se golpean a #3[i] o más enemigos, la VEL del portador aumenta en un #4[i]% durante #5[i] turno.",
+        "params": [
+            [
+                0.08,
+                0.04,
+                3,
+                0.08,
+                1
+            ],
+            [
+                0.09,
+                0.05,
+                3,
+                0.1,
+                1
+            ],
+            [
+                0.1,
+                0.06,
+                3,
+                0.12,
+                1
+            ],
+            [
+                0.11,
+                0.07,
+                3,
+                0.14,
+                1
+            ],
+            [
+                0.12,
+                0.08,
+                3,
+                0.16,
+                1
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.08
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.09
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.1
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.11
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.12
                 }
             ]
         ]

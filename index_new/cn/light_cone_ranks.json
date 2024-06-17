@@ -2744,7 +2744,7 @@
     "21042": {
         "id": "21042",
         "skill": "传承",
-        "desc": "使装备者的击破特攻提高#1[i]%。当装备者释放终结技时，暴击率提高#2[i]%，持续#3[i]回合。",
+        "desc": "使装备者的击破特攻提高#1[i]%。当装备者施放终结技时，暴击率提高#2[i]%，持续#3[i]回合。",
         "params": [
             [
                 0.28,
@@ -2919,6 +2919,70 @@
                 {
                     "type": "CriticalChanceBase",
                     "value": 0.16
+                }
+            ]
+        ]
+    },
+    "21045": {
+        "id": "21045",
+        "skill": "沉寂",
+        "desc": "使装备者的击破特攻提高#1[i]%。装备者施放终结技后，速度提高#2[i]%，持续#3[i]回合。",
+        "params": [
+            [
+                0.28,
+                0.08,
+                2
+            ],
+            [
+                0.35,
+                0.1,
+                2
+            ],
+            [
+                0.42,
+                0.12,
+                2
+            ],
+            [
+                0.49,
+                0.14,
+                2
+            ],
+            [
+                0.56,
+                0.16,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.28
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.35
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.42
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.49
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.56
                 }
             ]
         ]
@@ -4880,6 +4944,75 @@
             ]
         ]
     },
+    "23025": {
+        "id": "23025",
+        "skill": "蜕变",
+        "desc": "使装备者的击破特攻提高#1[i]%。当装备者对敌方目标造成击破伤害时，使敌方陷入【溃败】状态，持续#4[i]回合。【溃败】状态下目标受到装备者造成的击破伤害提高#2[f1]%，速度降低#3[i]%，同类效果无法叠加。",
+        "params": [
+            [
+                0.6,
+                0.24,
+                0.2,
+                2
+            ],
+            [
+                0.7,
+                0.28,
+                0.2,
+                2
+            ],
+            [
+                0.8,
+                0.32,
+                0.2,
+                2
+            ],
+            [
+                0.9,
+                0.36,
+                0.2,
+                2
+            ],
+            [
+                1,
+                0.4,
+                0.2,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.6
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.7
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.8
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.9
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 1
+                }
+            ]
+        ]
+    },
     "23026": {
         "id": "23026",
         "skill": "抚慰",
@@ -4994,6 +5127,90 @@
                 {
                     "type": "BreakDamageAddedRatioBase",
                     "value": 1
+                }
+            ]
+        ]
+    },
+    "23028": {
+        "id": "23028",
+        "skill": "承诺",
+        "desc": "使装备者的暴击率提高#1[i]%。当装备者在战斗中暴击伤害大于#2[i]%时，每超过#3[i]%，追加攻击造成的伤害提高#4[i]%，该效果可叠加#5[i]层。战斗开始时和装备者施放普攻后，使终结技或追加攻击造成的伤害无视目标#6[i]%的防御，持续#7[i]回合。",
+        "params": [
+            [
+                0.16,
+                1.2,
+                0.2,
+                0.12,
+                4,
+                0.2,
+                2
+            ],
+            [
+                0.19,
+                1.2,
+                0.2,
+                0.14,
+                4,
+                0.24,
+                2
+            ],
+            [
+                0.22,
+                1.2,
+                0.2,
+                0.16,
+                4,
+                0.28,
+                2
+            ],
+            [
+                0.25,
+                1.2,
+                0.2,
+                0.18,
+                4,
+                0.32,
+                2
+            ],
+            [
+                0.28,
+                1.2,
+                0.2,
+                0.2,
+                4,
+                0.36,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.16
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.19
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.22
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.25
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.28
                 }
             ]
         ]
@@ -5255,6 +5472,80 @@
                 {
                     "type": "BreakDamageAddedRatioBase",
                     "value": 0.4
+                }
+            ]
+        ]
+    },
+    "24004": {
+        "id": "24004",
+        "skill": "无界之思",
+        "desc": "使装备者的攻击力提高#1[i]%。施放攻击后，每击中一名敌方目标，使攻击力额外提高#2[i]%，该效果最多叠加5次，持续至下次攻击后，若击中大于等于#3[i]名敌方目标，使自身速度提高#4[i]%，持续#5[i]回合。",
+        "params": [
+            [
+                0.08,
+                0.04,
+                3,
+                0.08,
+                1
+            ],
+            [
+                0.09,
+                0.05,
+                3,
+                0.1,
+                1
+            ],
+            [
+                0.1,
+                0.06,
+                3,
+                0.12,
+                1
+            ],
+            [
+                0.11,
+                0.07,
+                3,
+                0.14,
+                1
+            ],
+            [
+                0.12,
+                0.08,
+                3,
+                0.16,
+                1
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.08
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.09
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.1
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.11
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.12
                 }
             ]
         ]

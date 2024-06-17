@@ -4747,6 +4747,116 @@
         "level_up_skills": [],
         "icon": "icon/skill/1309_rank6.png"
     },
+    "131001": {
+        "id": "131001",
+        "name": "Dormí plácidamente en la crisálida escarlata",
+        "rank": 1,
+        "desc": "La habilidad básica potenciada ignora un 15% de la DEF de los objetivos y no consume pts. de habilidad básica.",
+        "materials": [
+            {
+                "id": "11310",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1310_rank1.png"
+    },
+    "131002": {
+        "id": "131002",
+        "name": "Me precipito desde el cielo fragmentado",
+        "rank": 2,
+        "desc": "Al usar el ATQ básico potenciado o la habilidad básica potenciada en el estado de Combustión completa, si derrota a un enemigo o lo afecta con Ruptura de Debilidad, SAM obtiene inmediatamente 1 turno adicional. Este efecto se puede volver a activar después de 1 turno.",
+        "materials": [
+            {
+                "id": "11310",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1310_rank2.png"
+    },
+    "131003": {
+        "id": "131003",
+        "name": "Me abandono a los sueños en la galaxia silenciosa",
+        "rank": 3,
+        "desc": "Niv. de habilidad básica +2 (máximo: nivel 15). Niv. de ATQ básico +1 (máximo: nivel 10).",
+        "materials": [
+            {
+                "id": "11310",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "131002",
+                "num": 2
+            },
+            {
+                "id": "131001",
+                "num": 1
+            },
+            {
+                "id": "131009",
+                "num": 2
+            },
+            {
+                "id": "131008",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1310_skill.png"
+    },
+    "131004": {
+        "id": "131004",
+        "name": "Veré la luz de las luciérnagas",
+        "rank": 4,
+        "desc": "En el estado de Combustión completa, la RES a efecto de SAM aumenta en un 50%.",
+        "materials": [
+            {
+                "id": "11310",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1310_rank4.png"
+    },
+    "131005": {
+        "id": "131005",
+        "name": "Me elevo brillante de la larga noche sin sueños",
+        "rank": 5,
+        "desc": "Niv. de habilidad definitiva +2 (máximo: nivel 15). Niv. de talento +2 (máximo: nivel 15).",
+        "materials": [
+            {
+                "id": "11310",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "131003",
+                "num": 2
+            },
+            {
+                "id": "131004",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1310_ultimate.png"
+    },
+    "131006": {
+        "id": "131006",
+        "name": "Brillo hacia el mañana aun después de florecer",
+        "rank": 6,
+        "desc": "Cuando SAM está en el estado de Combustión completa, su PEN de la RES a Fuego aumenta en un 20%. Al usar el ATQ básico potenciado o la habilidad básica potenciada, su eficiencia de la Ruptura de Debilidad aumenta en un 50%.",
+        "materials": [
+            {
+                "id": "11310",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1310_rank6.png"
+    },
     "131201": {
         "id": "131201",
         "name": "Ilusión caprichosa",
@@ -4848,6 +4958,108 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1312_rank6.png"
+    },
+    "131401": {
+        "id": "131401",
+        "name": "¿Altruismo? Comerciable, no obstante",
+        "rank": 1,
+        "desc": "El daño de ataque adicional del talento de Jade aumenta en un 32%. Si un personaje en el estado de Cobrador de deudas golpea a 2/1 enemigos tras atacar, Jade obtiene 1/2 puntos de carga adicionales respectivamente.",
+        "materials": [
+            {
+                "id": "11314",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1314_rank1.png"
+    },
+    "131402": {
+        "id": "131402",
+        "name": "¿Moralidad? Autenticada por la presente",
+        "rank": 2,
+        "desc": "Cuando hay 15 acumulaciones de Prenda, la Prob. CRIT de Jade aumenta en un 18%.",
+        "materials": [
+            {
+                "id": "11314",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1314_rank2.png"
+    },
+    "131403": {
+        "id": "131403",
+        "name": "¿Sinceridad? Pronto será empeñada",
+        "rank": 3,
+        "desc": "Niv. de habilidad básica +2 (máximo: nivel 15). Niv. de talento +2 (máximo: nivel 15).",
+        "materials": [
+            {
+                "id": "11314",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "131402",
+                "num": 2
+            },
+            {
+                "id": "131404",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1314_skill.png"
+    },
+    "131404": {
+        "id": "131404",
+        "name": "¿Sinceridad? Solo con opción de venta",
+        "rank": 4,
+        "desc": "Al usar la habilidad definitiva, el daño que inflige Jade ignora un 12% de la DEF del enemigo durante 3 turnos.",
+        "materials": [
+            {
+                "id": "11314",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1314_rank4.png"
+    },
+    "131405": {
+        "id": "131405",
+        "name": "¿Esperanza? Dada en pago hace tiempo",
+        "rank": 5,
+        "desc": "Niv. de habilidad definitiva +2 (máximo: nivel 15). Niv. de ATQ básico +1 (máximo: nivel 10).",
+        "materials": [
+            {
+                "id": "11314",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "131403",
+                "num": 2
+            },
+            {
+                "id": "131401",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1314_ultimate.png"
+    },
+    "131406": {
+        "id": "131406",
+        "name": "¿Justicia? Pendiente de patrocinio",
+        "rank": 6,
+        "desc": "Cuando hay aliados en el estado de Cobrador de deudas en el campo de batalla, la PEN de la RES a Cuántico de Jade aumenta en un 20%, y Jade obtiene el estado de Cobrador de deudas.",
+        "materials": [
+            {
+                "id": "11314",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1314_rank6.png"
     },
     "131501": {
         "id": "131501",

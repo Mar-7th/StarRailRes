@@ -276,7 +276,7 @@
         "effect": "SingleAttack",
         "effect_text": "Cible unique",
         "simple_desc": "Lorsqu'un allié qui bénéficie d'un bouclier est attaqué par un ennemi, March 7th lance immédiatement un contre sur l'assaillant, lui infligeant des DGT de glace mineurs.",
-        "desc": "Lorsqu'un allié bénéficiant d'un bouclier est attaqué par un ennemi, March 7th contre immédiatement, infligeant des DGT de glace équivalents à #1[i]% de son ATQ. Cet effet peut être déclenché #2[i] fois par tour.",
+        "desc": "Lorsqu'un allié qui bénéficie d'un bouclier est attaqué par un ennemi, March 7th contre immédiatement, infligeant des DGT de glace équivalents à #1[i]% de son ATQ. Cet effet peut être déclenché #2[i] fois par tour.",
         "params": [
             [
                 0.5,
@@ -995,8 +995,8 @@
         "type_text": "Technique",
         "effect": "Impair",
         "effect_text": "Incapacitation",
-        "simple_desc": "Crée une dimension. Il y a de fortes chances d'augmenter les DGT de feu subis par les ennemis lorsque le combat est engagé avec des ennemis de la dimension.",
-        "desc": "Crée une dimension qui dure #4[i] secondes. Il y a #1[i]% de chances de base d'augmenter les DGT de feu subis par les ennemis de #2[i]% pendant #3[i] tours après être entré en combat avec des ennemis dans la dimension. Il ne peut exister qu'1 dimension créée par les alliés à la fois.",
+        "simple_desc": "Crée une dimension spéciale. Il y a de fortes chances d'augmenter les DGT de feu subis par les ennemis lorsque le combat est engagé avec des ennemis de la dimension.",
+        "desc": "Crée une dimension spéciale qui dure #4[i] secondes. Il y a #1[i]% de chances de base d'augmenter les DGT de feu subis par les ennemis de #2[i]% pendant #3[i] tours après être entré en combat avec des ennemis dans la dimension spéciale. Il ne peut exister qu'1 dimension créée par les alliés à la fois.",
         "params": [
             [
                 1,
@@ -1342,8 +1342,8 @@
         "type_text": "Technique",
         "effect": "Impair",
         "effect_text": "Incapacitation",
-        "simple_desc": "Crée une dimension. La vitesse de déplacement des ennemis à l'intérieur de la dimension est réduite. Il y a de fortes chances d'infliger Emprisonné aux ennemis lorsque le combat est engagé avec des ennemis de la dimension.",
-        "desc": "Crée une dimension qui dure #4[i] secondes. Les ennemis dans cette dimension voient leur vitesse de déplacement réduite de #5[i]%. Il y a #1[i]% de chances de base d'emprisonner les ennemis pour 1 tour après être entré en combat avec des ennemis dans la dimension.\nLes ennemis emprisonnés voient leur action retardée de #2[i]% et leur VIT réduite de #3[i]%. Il ne peut exister qu'1 dimension créée par les alliés à la fois.",
+        "simple_desc": "Crée une dimension spéciale. La vitesse de déplacement des ennemis à l'intérieur de la dimension est réduite. Il y a de fortes chances d'infliger Emprisonné aux ennemis lorsque le combat est engagé avec des ennemis de la dimension.",
+        "desc": "Crée une dimension spéciale qui dure #4[i] secondes. Les ennemis dans cette dimension spéciale voient leur vitesse de déplacement réduite de #5[i]%. Il y a #1[i]% de chances de base d'emprisonner les ennemis pour 1 tour après être entré en combat avec des ennemis dans la dimension spéciale.\nLes ennemis emprisonnés voient leur action retardée de #2[i]% et leur VIT réduite de #3[i]%. Il ne peut exister qu'1 dimension créée par les alliés à la fois.",
         "params": [
             [
                 1,
@@ -5971,7 +5971,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Renforcement",
-        "simple_desc": "Lorsque Hook attaque une cible souffrant de Brûlure, elle inflige des DGT de feu additionnels moyens et régénère  points d'énergie supplémentaires.",
+        "simple_desc": "Lorsque Hook attaque une cible qui souffre de Brûlure, elle inflige des DGT de feu additionnels moyens et régénère de l'énergie supplémentaires.",
         "desc": "Lorsque Hook attaque une cible affectée par l'état Brûlure, elle inflige des DGT de feu additionnels équivalents à #1[i]% de son ATQ et régénère #2[i] points d'énergie supplémentaires.",
         "params": [
             [
@@ -6663,7 +6663,7 @@
         "effect": "SingleAttack",
         "effect_text": "Cible unique",
         "simple_desc": "Inflige des DGT physiques à un ennemi unique, avec de fortes chances de provoquer Saignement.",
-        "desc": "Inflige des DGT physiques équivalents à #1[i]% de l'ATQ de Luka à une cible ennemie unique, avec #2[i]% de chances de base de lui infliger Saignement pendant #5[i] tours.\nQuand un ennemi souffre de Saignement, il subit des dégâts sur la durée physiques équivalents à #3[f1]% de ses PV max au début de chaque tour. Ces DGT ne peuvent pas excéder #4[i]% de l'ATQ de Luka.",
+        "desc": "Inflige des DGT physiques équivalents à #1[i]% de l'ATQ de Luka à une cible ennemie unique, avec #2[i]% de chances de base de lui infliger Saignement pendant #5[i] tours.\nLes ennemis qui souffrent de Saignement subissent des dégâts physiques sur la durée équivalents à #3[f1]% de leurs PV max au début de chaque tour. Ces DGT ne peuvent pas excéder #4[i]% de l'ATQ de Luka.",
         "params": [
             [
                 0.6,
@@ -7388,7 +7388,7 @@
         "effect": "Enhance",
         "effect_text": "Renforcement",
         "simple_desc": "Invoque Compti à vos côtés lorsque vous êtes en exploration. Compti cherche automatiquement les coffres de base et Magorets à proximité. L'utilisation de la technique permet à Topaz de régénérer des points d'énergie lors de la première attaque de Compti au prochain combat.",
-        "desc": "Topaz invoque Compti lorsqu'elle est en exploration. Compti cherche automatiquement les coffres de base et les Magorets dans un rayon défini.\nLa technique de Topaz lui permet de régénérer #1[i] points d'énergie à la première attaque de Compti lors du prochain combat.\nSi Topaz fait toujours partie de l'équipe quand les ennemis de la phase d'exploration sont vaincus, après avoir utilisé sa technique, un petit bonus de crédits est ajouté à ceux déjà gagnés. Vous pouvez recevoir un maximum de #2[i] crédits bonus par jour calendaire.\nLors d'une victoire dans l'Univers simulé suivant l'utilisation de la technique de Topaz, vous obtenez une petite quantité de fragments cosmiques supplémentaires, et vous avez une faible chance d'obtenir 1 bizarrerie aléatoire.",
+        "desc": "Topaz invoque Compti lorsqu'elle est en exploration. Compti cherche automatiquement les coffres de base et les Magorets dans un rayon défini.\nLa technique de Topaz lui permet de régénérer #1[i] points d'énergie après la première attaque de Compti au cours du combat suivant.\nSi Topaz fait toujours partie de l'équipe après avoir utilisé sa technique et vaincu des ennemis en phase d'exploration, vous recevez un petit bonus de crédits. Vous pouvez recevoir un maximum de #2[i] crédits bonus par jour calendaire.\nVous obtenez une petite quantité de fragments cosmiques supplémentaires, et avez une faible chance d'obtenir 1 bizarrerie aléatoire après avoir utilisé sa technique et avoir vaincu des ennemis dans l'Univers simulé ou parallèle.",
         "params": [
             [
                 60,
@@ -9848,8 +9848,8 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Renforcement",
-        "simple_desc": "L'ATQ normale inflige des DGT supplémentaires mineurs, et les DGT à la robustesse de l'ATQ normale augmentent. Cet effet peut se déclencher à nouveau après 1 tour.",
-        "desc": "Les ATQ normales infligent des DGT imaginaires supplémentaires équivalents à #1[i]% de l'ATQ de Yukong et les DGT à la robustesse de ces attaques augmentent de #2[i]%. Cet effet peut se déclencher à nouveau après #3[i] tour.",
+        "simple_desc": "L'ATQ normale inflige des DGT supplémentaires mineurs, et la réduction de robustesse de l'ATQ normale augmente. Cet effet peut se déclencher à nouveau après 1 tour.",
+        "desc": "Les ATQ normales infligent des DGT imaginaires supplémentaires équivalents à #1[i]% de l'ATQ de Yukong et la réduction de robustesse de ces attaques augmente de #2[i]%. Cet effet peut se déclencher à nouveau après #3[i] tour.",
         "params": [
             [
                 0.4,
@@ -11859,8 +11859,8 @@
         "type_text": "Technique",
         "effect": "Impair",
         "effect_text": "Incapacitation",
-        "simple_desc": "Crée une dimension autour du personnage. Les ennemis qui s'y trouvent sont gelés. Le personnage génère de l'énergie et obtient 1 cumul de Syzygie avec de fortes chances d'appliquer Gelé aux ennemis lorsque le combat est engagé avec des ennemis de la dimension.",
-        "desc": "Crée une dimension autour de Jingliu qui dure #3[i] secondes. Tous les ennemis dans cette dimension sont gelés. Jingliu génère immédiatement #6[i] points d'énergie et obtient #1[i] cumul de Syzygie, avec #2[i]% de chances de base de geler les cibles ennemies pendant #4[i] tours lorsque le combat est engagé avec des ennemis de la dimension. Les cibles ennemies gelées ne peuvent pas agir et subissent des DGT de glace additionnels équivalents à #5[i]% de l'ATQ de Jingliu au début de chaque tour. Il ne peut exister qu'1 dimension créée par les alliés à la fois.",
+        "simple_desc": "Crée une dimension spéciale autour du personnage. Les ennemis qui s'y trouvent sont gelés. Le personnage génère de l'énergie et obtient 1 cumul de Syzygie avec de fortes chances d'appliquer Gelé aux ennemis lorsque le combat est engagé avec des ennemis de la dimension.",
+        "desc": "Crée une dimension spéciale autour de Jingliu qui dure #3[i] secondes. Tous les ennemis dans cette dimension spéciale sont gelés. Jingliu génère immédiatement #6[i] points d'énergie et obtient #1[i] cumul de Syzygie, avec #2[i]% de chances de base de geler les cibles ennemies pendant #4[i] tours lorsque le combat est engagé avec des ennemis de la dimension spéciale. Les cibles ennemies gelées ne peuvent pas agir et subissent des DGT de glace additionnels équivalents à #5[i]% de l'ATQ de Jingliu au début de chaque tour. Il ne peut exister qu'1 dimension créée par les alliés à la fois.",
         "params": [
             [
                 1,
@@ -13353,7 +13353,7 @@
         "effect": "Restore",
         "effect_text": "Restauration",
         "simple_desc": "Huohuo obtient Intervention divine après avoir utilisé sa compétence. Si Huohuo bénéficie d'Intervention divine au début du tour d'un allié ou lorsqu'un allié utilise un ultime, restaure les PV de cet allié. Aussi, soigne une fois tous les alliés dont les PV sont bas. Lorsqu'Intervention divine se déclenche pour soigner un allié, dissipe 1 malus dont souffre cet allié.",
-        "desc": "Huohuo obtient Intervention divine pendant #1[i] tours après avoir utilisé sa compétence. Ce décompte est réduit de 1 au début de chaque tour de Huohuo. Si Huohuo bénéficie d'Intervention divine au début du tour d'un allié ou lorsqu'un allié utilise un ultime, restaure les PV de cet allié à hauteur de #3[f1]% des PV max de Huohuo + #5[i]. Aussi, soigne une fois tous les alliés dont les PV sont inférieurs ou égaux à #6[i]% de leurs PV max.\nQuand Intervention divine se déclenche pour soigner un allié, dissipe #2[i] malus dont souffre cet allié. Cet effet peut être déclenché #7[i] fois. Utiliser la compétence réinitialise le décompte.",
+        "desc": "Huohuo gagne Intervention divine après avoir utilisé sa compétence, pour une durée de #1[i] tours. Ce décompte est réduit de 1 au début de chaque tour de Huohuo. Si Huohuo bénéficie d'Intervention divine au début du tour d'un allié ou lorsqu'un allié utilise un ultime, restaure les PV de cet allié à hauteur de #3[f1]% des PV max de Huohuo + #5[i]. Aussi, soigne une fois tous les alliés dont les PV sont inférieurs ou égaux à #6[i]% de leurs PV max.\nQuand Intervention divine se déclenche pour soigner un allié, dissipe #2[i] malus dont souffre cet allié. Cet effet peut être déclenché #7[i] fois. Utiliser la compétence réinitialise le décompte.",
         "params": [
             [
                 2,
@@ -14629,8 +14629,8 @@
         "type_text": "Technique",
         "effect": "Enhance",
         "effect_text": "Renforcement",
-        "simple_desc": "Déclenche automatiquement la compétence de ce personnage 1 fois la prochaine fois qu'il entre en combat. Après avoir utilisé la technique, les alliés qui attaquent des ennemis dans l'Univers simulé sont toujours considérés comme entrant en combat après avoir attaqué la Faiblesse des ennemis, et la robustesse des ennemis est réduite quel que soit leur type de faiblesse. Augmente les DGT à la robustesse et les DGT de rupture infligés lors de l'entrée en combat pour chaque bénédiction possédée.",
-        "desc": "Obtient Sérénade de soie après avoir utilisé la technique. Déclenche automatiquement la compétence sans utiliser de point de compétence #1[i] fois au début du combat suivant.\nDans l'Univers simulé, lorsque Ruan Mei bénéficie de Sérénade de soie et que l'équipe attaque activement une cible ennemie, la Faiblesse de l'ennemi est toujours considérée comme ayant été attaquée pour entrer en combat, et cette attaque peut réduire la robustesse de tous les ennemis quel que soit leur type de faiblesse. Lorsque vous infligez une Rupture de faiblesse, vous déclenchez l'effet de Rupture correspondant au type de faiblesse de l'assaillant. Augmente les DGT à la robustesse de cette attaque de #2[i]% pour chaque bénédiction possédée (jusqu'à #4[i] bénédictions). D'autre part, inflige à l'ennemi des DGT de rupture équivalents à #3[i]% des DGT de rupture de glace de Ruan Mei si cette attaque provoque une Rupture de faiblesse à un ennemi.",
+        "simple_desc": "Déclenche automatiquement la compétence de ce personnage 1 fois la prochaine fois qu'il entre en combat. Après avoir utilisé la technique, les alliés qui attaquent des ennemis dans l'Univers simulé ou parallèle sont toujours considérés comme entrant en combat après avoir attaqué la Faiblesse des ennemis, et la robustesse des ennemis est réduite quel que soit leur type de faiblesse. Augmente la réduction de robustesse et les DGT de rupture infligés en cas de Rupture de faiblesse pour chaque bénédiction possédée.",
+        "desc": "Obtient Sérénade de soie après avoir utilisé la technique. Déclenche automatiquement la compétence sans utiliser de point de compétence #1[i] fois au début du combat suivant.\nDans l'Univers simulé ou parallèle, lorsque Ruan Mei bénéficie de Sérénade de soie et que l'équipe attaque activement une cible ennemie, la Faiblesse de l'ennemi est toujours considérée comme ayant été attaquée pour entrer en combat, et cette attaque peut réduire la robustesse de tous les ennemis quel que soit leur type de faiblesse. Lorsque vous infligez une Rupture de faiblesse, vous déclenchez l'effet de Rupture correspondant au type de faiblesse de l'assaillant. Augmente la réduction de robustesse de cette attaque de #2[i]% pour chaque bénédiction possédée (jusqu'à #4[i] bénédictions). D'autre part, inflige à l'ennemi des DGT de rupture équivalents à #3[i]% des DGT de rupture de glace de Ruan Mei si cette attaque provoque une Rupture de faiblesse à un ennemi.",
         "params": [
             [
                 1,
@@ -17303,6 +17303,598 @@
         ],
         "icon": "icon/skill/1309_technique.png"
     },
+    "131001": {
+        "id": "131001",
+        "name": "Manœuvre de propulsion éclair",
+        "max_level": 9,
+        "element": "Fire",
+        "type": "Normal",
+        "type_text": "ATQ normale",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "Inflige des DGT de feu mineurs à un ennemi unique.",
+        "desc": "Inflige des DGT de feu équivalents à #1[i]% de l'ATQ de SAM à une cible ennemie unique.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1310_basic_atk.png"
+    },
+    "131002": {
+        "id": "131002",
+        "name": "Manœuvre de frappe aérienne",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "BPSkill",
+        "type_text": "Compétence",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "Consomme une partie des PV du personnage pour régénérer des points d'énergie, inflige des DGT de feu à un ennemi unique et avance la prochaine action du personnage.",
+        "desc": "Consomme un montant de PV équivalent à #2[i]% des PV max du personnage pour régénérer un montant fixe d'énergie équivalent à #3[i]% de son énergie max. Inflige des DGT de feu équivalents à #1[i]% de son ATQ à une cible ennemie unique. Si les PV actuels du personnage ne sont pas suffisants, ils sont réduits à 1 après utilisation de la compétence. Avance la prochaine action du personnage de #4[i]%.",
+        "params": [
+            [
+                1,
+                0.4,
+                0.5,
+                0.25
+            ],
+            [
+                1.1,
+                0.4,
+                0.51,
+                0.25
+            ],
+            [
+                1.2,
+                0.4,
+                0.52,
+                0.25
+            ],
+            [
+                1.3,
+                0.4,
+                0.53,
+                0.25
+            ],
+            [
+                1.4,
+                0.4,
+                0.54,
+                0.25
+            ],
+            [
+                1.5,
+                0.4,
+                0.55,
+                0.25
+            ],
+            [
+                1.625,
+                0.4,
+                0.5625,
+                0.25
+            ],
+            [
+                1.75,
+                0.4,
+                0.575,
+                0.25
+            ],
+            [
+                1.875,
+                0.4,
+                0.5875,
+                0.25
+            ],
+            [
+                2,
+                0.4,
+                0.6,
+                0.25
+            ],
+            [
+                2.1,
+                0.4,
+                0.61,
+                0.25
+            ],
+            [
+                2.2,
+                0.4,
+                0.62,
+                0.25
+            ],
+            [
+                2.3,
+                0.4,
+                0.63,
+                0.25
+            ],
+            [
+                2.4,
+                0.4,
+                0.64,
+                0.25
+            ],
+            [
+                2.5,
+                0.4,
+                0.65,
+                0.25
+            ]
+        ],
+        "icon": "icon/skill/1310_skill.png"
+    },
+    "131003": {
+        "id": "131003",
+        "name": "Combustion complète de Lampyroptère type IV",
+        "max_level": 15,
+        "element": "",
+        "type": "Ultra",
+        "type_text": "Ultime",
+        "effect": "Enhance",
+        "effect_text": "Renforcement",
+        "simple_desc": "Entre dans l'état Combustion complète. Avance l'action du personnage de 100 %, son ATQ normale et sa compétence deviennent renforcées, et sa VIT, son efficacité de Rupture de faiblesse et les DGT de rupture qu'il inflige aux cibles ennemies augmentent jusqu'à la fin du compte à rebours.",
+        "desc": "Entre dans l'état Combustion complète. Avance l'action du personnage de 100 % et son ATQ normale et sa compétence deviennent renforcées. Dans l'état Combustion complète, sa VIT augmente de #3[i], et lors de l'utilisation de l'ATQ normale renforcée ou de la compétence renforcée, son efficacité de Rupture de faiblesse augmente de #2[i]% et les DGT de rupture que le personnage inflige aux ennemis augmentent de #1[f1]% jusqu'à la fin de cette attaque.\nUn compte à rebours pour l'effet Combustion complète apparaît dans l'ordre d'action. SAM quitte l'état Combustion complète lorsque le compte à rebours se termine. Le compte à rebours a une VIT fixe de #4[i].\nSAM ne peut pas utiliser son ultime dans l'état Combustion complète.",
+        "params": [
+            [
+                0.1,
+                0.5,
+                30,
+                70
+            ],
+            [
+                0.11,
+                0.5,
+                33,
+                70
+            ],
+            [
+                0.12,
+                0.5,
+                36,
+                70
+            ],
+            [
+                0.13,
+                0.5,
+                39,
+                70
+            ],
+            [
+                0.14,
+                0.5,
+                42,
+                70
+            ],
+            [
+                0.15,
+                0.5,
+                45,
+                70
+            ],
+            [
+                0.1625,
+                0.5,
+                48.75,
+                70
+            ],
+            [
+                0.175,
+                0.5,
+                52.5,
+                70
+            ],
+            [
+                0.1875,
+                0.5,
+                56.25,
+                70
+            ],
+            [
+                0.2,
+                0.5,
+                60,
+                70
+            ],
+            [
+                0.21,
+                0.5,
+                63,
+                70
+            ],
+            [
+                0.22,
+                0.5,
+                66,
+                70
+            ],
+            [
+                0.23,
+                0.5,
+                69,
+                70
+            ],
+            [
+                0.24,
+                0.5,
+                72,
+                70
+            ],
+            [
+                0.25,
+                0.5,
+                75,
+                70
+            ]
+        ],
+        "icon": "icon/skill/1310_ultimate.png"
+    },
+    "131004": {
+        "id": "131004",
+        "name": "Cœur en feu de la chrysalide",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Defence",
+        "effect_text": "Défense",
+        "simple_desc": "Plus ses PV sont bas, moins le personnage subit de DGT. Dans l'état Combustion complète, l'effet de réduction de DGT est toujours au maximum et la RÉS aux effets augmente. Si ses points d'énergie sont inférieurs à 50% en début de combat, les régénère jusqu'à 50%. Quand l'énergie est à son maximum, tous les malus appliqués au personnage sont dissipés.",
+        "desc": "Plus ses PV sont bas, moins le personnage subit de DGT. Lorsque ses PV sont inférieurs ou égaux à #3[i]%, l'effet de réduction de DGT est à son maximum, atteignant #1[i]%. Dans l'état Combustion complète, l'effet de réduction de DGT est toujours au maximum et la RÉS aux effets augmente de #4[i]%.\nSi ses points d'énergie sont inférieurs à #2[i]% en début de combat, les régénère jusqu'à #2[i]%. Quand l'énergie est à son maximum, tous les malus appliqués au personnage sont dissipés.",
+        "params": [
+            [
+                0.2,
+                0.5,
+                0.2,
+                0.1
+            ],
+            [
+                0.22,
+                0.5,
+                0.2,
+                0.12
+            ],
+            [
+                0.24,
+                0.5,
+                0.2,
+                0.14
+            ],
+            [
+                0.26,
+                0.5,
+                0.2,
+                0.16
+            ],
+            [
+                0.28,
+                0.5,
+                0.2,
+                0.18
+            ],
+            [
+                0.3,
+                0.5,
+                0.2,
+                0.2
+            ],
+            [
+                0.325,
+                0.5,
+                0.2,
+                0.225
+            ],
+            [
+                0.35,
+                0.5,
+                0.2,
+                0.25
+            ],
+            [
+                0.375,
+                0.5,
+                0.2,
+                0.275
+            ],
+            [
+                0.4,
+                0.5,
+                0.2,
+                0.3
+            ],
+            [
+                0.42,
+                0.5,
+                0.2,
+                0.32
+            ],
+            [
+                0.44,
+                0.5,
+                0.2,
+                0.34
+            ],
+            [
+                0.46,
+                0.5,
+                0.2,
+                0.36
+            ],
+            [
+                0.48,
+                0.5,
+                0.2,
+                0.38
+            ],
+            [
+                0.5,
+                0.5,
+                0.2,
+                0.4
+            ]
+        ],
+        "icon": "icon/skill/1310_talent.png"
+    },
+    "131006": {
+        "id": "131006",
+        "name": "Attaque",
+        "max_level": 1,
+        "element": "Fire",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
+        "params": [],
+        "icon": "icon/skill/1310_basic_atk.png"
+    },
+    "131007": {
+        "id": "131007",
+        "name": "Δ Manœuvre d'incinération météoritique",
+        "max_level": 1,
+        "element": "Fire",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "S'envole pour se déplacer librement. Après quelques secondes dans les airs, plonge et attaque les ennemis dans une zone définie. Au début de chaque vague, applique une Faiblesse au feu à tous les ennemis et leur inflige des DGT de feu.",
+        "desc": "S'envole et se déplace librement dans les airs pendant #1[i] secondes. Cet effet peut être annulé prématurément en déclenchant une attaque plongeante. À la fin de la durée, plonge et attaque immédiatement tous les ennemis dans une zone définie. Applique une Faiblesse au feu pour #3[i] tours aux ennemis au début de chaque vague, puis inflige des DGT de feu équivalents à #2[i]% de l'ATQ de SAM à tous les ennemis.",
+        "params": [
+            [
+                5,
+                2,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1310_technique.png"
+    },
+    "131008": {
+        "id": "131008",
+        "name": "Décimation pyrogénique de Lampyroptère type IV",
+        "max_level": 9,
+        "element": "Fire",
+        "type": "Normal",
+        "type_text": "ATQ normale",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "Restaure une partie des PV du personnage et inflige des DGT de feu à un ennemi unique.",
+        "desc": "Restaure des PV à hauteur de #2[i]% des PV max du personnage et inflige des DGT de feu équivalents à #1[i]% de l'ATQ de SAM à une cible ennemie unique.",
+        "params": [
+            [
+                1,
+                0.2
+            ],
+            [
+                1.2,
+                0.2
+            ],
+            [
+                1.4,
+                0.2
+            ],
+            [
+                1.6,
+                0.2
+            ],
+            [
+                1.8,
+                0.2
+            ],
+            [
+                2,
+                0.2
+            ],
+            [
+                2.2,
+                0.2
+            ],
+            [
+                2.4,
+                0.2
+            ],
+            [
+                2.6,
+                0.2
+            ]
+        ],
+        "icon": "icon/skill/1310_basic_atk.png"
+    },
+    "131009": {
+        "id": "131009",
+        "name": "Surcharge de l'étoile mourante de Lampyroptère type IV",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "BPSkill",
+        "type_text": "Compétence",
+        "effect": "Blast",
+        "effect_text": "Propagation",
+        "simple_desc": "Restaure une partie des PV du personnage, applique une Faiblesse au feu à une cible ennemie unique et inflige des DGT de feu massifs à cette cible, et des DGT de feu aux cibles adjacentes.",
+        "desc": "Restaure des PV à hauteur de #3[i]% des PV max du personnage. Applique une Faiblesse au feu à une cible ennemie unique pour une durée de #4[i] tours. Inflige des DGT de feu équivalents à (#5[f1] x effet de Rupture + #1[f1]%) de l'ATQ de SAM à cette cible. D'autre part, inflige des DGT de feu équivalents à (#6[f1] x effet de Rupture + #2[f1]%) de l'ATQ de SAM aux cibles adjacentes. L'effet de Rupture pris en compte ne peut pas dépasser #7[i]%.",
+        "params": [
+            [
+                1,
+                0.5,
+                0.25,
+                2,
+                0.2,
+                0.1,
+                3.6
+            ],
+            [
+                1.1,
+                0.55,
+                0.25,
+                2,
+                0.2,
+                0.1,
+                3.6
+            ],
+            [
+                1.2,
+                0.6,
+                0.25,
+                2,
+                0.2,
+                0.1,
+                3.6
+            ],
+            [
+                1.3,
+                0.65,
+                0.25,
+                2,
+                0.2,
+                0.1,
+                3.6
+            ],
+            [
+                1.4,
+                0.7,
+                0.25,
+                2,
+                0.2,
+                0.1,
+                3.6
+            ],
+            [
+                1.5,
+                0.75,
+                0.25,
+                2,
+                0.2,
+                0.1,
+                3.6
+            ],
+            [
+                1.625,
+                0.8125,
+                0.25,
+                2,
+                0.2,
+                0.1,
+                3.6
+            ],
+            [
+                1.75,
+                0.875,
+                0.25,
+                2,
+                0.2,
+                0.1,
+                3.6
+            ],
+            [
+                1.875,
+                0.9375,
+                0.25,
+                2,
+                0.2,
+                0.1,
+                3.6
+            ],
+            [
+                2,
+                1,
+                0.25,
+                2,
+                0.2,
+                0.1,
+                3.6
+            ],
+            [
+                2.1,
+                1.05,
+                0.25,
+                2,
+                0.2,
+                0.1,
+                3.6
+            ],
+            [
+                2.2,
+                1.1,
+                0.25,
+                2,
+                0.2,
+                0.1,
+                3.6
+            ],
+            [
+                2.3,
+                1.15,
+                0.25,
+                2,
+                0.2,
+                0.1,
+                3.6
+            ],
+            [
+                2.4,
+                1.2,
+                0.25,
+                2,
+                0.2,
+                0.1,
+                3.6
+            ],
+            [
+                2.5,
+                1.25,
+                0.25,
+                2,
+                0.2,
+                0.1,
+                3.6
+            ]
+        ],
+        "icon": "icon/skill/1310_skill.png"
+    },
     "131201": {
         "id": "131201",
         "name": "P—Pardon de vous déranger !",
@@ -17653,8 +18245,8 @@
         "type_text": "Technique",
         "effect": "Impair",
         "effect_text": "Incapacitation",
-        "simple_desc": "Crée une dimension qui arrête tous les ennemis qui s'y trouvent. Le prochain ultime de Micha inflige plus de frappes par action après être entré en combat contre des ennemis à l'intérieur de la dimension.",
-        "desc": "Crée une dimension qui dure #1[i] secondes après avoir utilisé la technique. Les ennemis pris dans la dimension sont affectés par Prison onirique et arrêtent toutes leurs actions. Le nombre de frappes par action du prochain ultime de Micha augmente de #2[i] lorsqu'il entre en combat contre des ennemis affectés par Prison onirique. Il ne peut exister qu'1 dimension créée par les alliés à la fois.",
+        "simple_desc": "Crée une dimension spéciale qui arrête tous les ennemis qui s'y trouvent. Le prochain ultime de Micha inflige plus de frappes par action après être entré en combat contre des ennemis à l'intérieur de la dimension.",
+        "desc": "Crée une dimension spéciale qui dure #1[i] secondes après avoir utilisé la technique. Les ennemis pris dans la dimension sont affectés par Prison onirique et arrêtent toutes leurs actions. Le nombre de frappes par action du prochain ultime de Micha augmente de #2[i] lorsqu'il entre en combat contre des ennemis affectés par Prison onirique. Il ne peut exister qu'1 dimension créée par les alliés à la fois.",
         "params": [
             [
                 15,
@@ -17662,6 +18254,406 @@
             ]
         ],
         "icon": "icon/skill/1312_technique.png"
+    },
+    "131401": {
+        "id": "131401",
+        "name": "Revers de fortune",
+        "max_level": 9,
+        "element": "Quantum",
+        "type": "Normal",
+        "type_text": "ATQ normale",
+        "effect": "Blast",
+        "effect_text": "Propagation",
+        "simple_desc": "Inflige des DGT quantiques mineurs à un ennemi unique et des DGT quantiques mineurs aux ennemis adjacents.",
+        "desc": "Inflige des DGT quantiques équivalents à #1[i]% de l'ATQ de Jade à une cible ennemie unique et des DGT quantiques équivalents à #2[i]% de son ATQ aux ennemis adjacents.",
+        "params": [
+            [
+                0.45,
+                0.15
+            ],
+            [
+                0.54,
+                0.18
+            ],
+            [
+                0.63,
+                0.21
+            ],
+            [
+                0.72,
+                0.24
+            ],
+            [
+                0.81,
+                0.27
+            ],
+            [
+                0.9,
+                0.3
+            ],
+            [
+                0.99,
+                0.33
+            ],
+            [
+                1.08,
+                0.36
+            ],
+            [
+                1.17,
+                0.39
+            ]
+        ],
+        "icon": "icon/skill/1314_basic_atk.png"
+    },
+    "131402": {
+        "id": "131402",
+        "name": "Contrat d'acquisition",
+        "max_level": 15,
+        "element": "Quantum",
+        "type": "BPSkill",
+        "type_text": "Compétence",
+        "effect": "Support",
+        "effect_text": "Soutien",
+        "simple_desc": "Transforme un allié en Agent de recouvrement de dettes et augmente sa VIT. Lorsque l'Agent de recouvrement de dettes attaque, il inflige des DGT quantiques additionnels mineurs à chaque cible ennemie touchée et consomme ses propres PV. Lorsque Jade devient Agent de recouvrement de dettes, elle ne bénéficie pas de l'effet d'augmentation de VIT, et ses attaques ne consomment pas de PV.",
+        "desc": "Transforme une cible alliée unique en Agent de recouvrement de dettes et augmente sa VIT de #1[i] pendant #4[i] tours.\nLorsque l'Agent de recouvrement de dettes attaque, inflige 1 instance de DGT quantiques additionnels équivalents à #3[i]% de l'ATQ de Jade à chaque cible ennemie touchée et consomme une partie des PV de l'Agent de recouvrement de dettes à hauteur de #2[i]% de ses PV max. Si ses PV actuels sont insuffisants, ils sont réduits à 1.\nLorsque Jade devient Agent de recouvrement de dettes, elle ne bénéficie pas de l'effet d'augmentation de VIT, et ses attaques ne consomment pas de PV.\nJade ne peut pas utiliser sa compétence lorsqu'il y a déjà un Agent de recouvrement de dettes sur le champ de bataille. La durée de l'effet Agent de recouvrement de dettes est réduite de 1 au début de chaque tour de Jade.",
+        "params": [
+            [
+                30,
+                0.02,
+                0.15,
+                3
+            ],
+            [
+                30,
+                0.02,
+                0.16,
+                3
+            ],
+            [
+                30,
+                0.02,
+                0.17,
+                3
+            ],
+            [
+                30,
+                0.02,
+                0.18,
+                3
+            ],
+            [
+                30,
+                0.02,
+                0.19,
+                3
+            ],
+            [
+                30,
+                0.02,
+                0.2,
+                3
+            ],
+            [
+                30,
+                0.02,
+                0.2125,
+                3
+            ],
+            [
+                30,
+                0.02,
+                0.225,
+                3
+            ],
+            [
+                30,
+                0.02,
+                0.2375,
+                3
+            ],
+            [
+                30,
+                0.02,
+                0.25,
+                3
+            ],
+            [
+                30,
+                0.02,
+                0.26,
+                3
+            ],
+            [
+                30,
+                0.02,
+                0.27,
+                3
+            ],
+            [
+                30,
+                0.02,
+                0.28,
+                3
+            ],
+            [
+                30,
+                0.02,
+                0.29,
+                3
+            ],
+            [
+                30,
+                0.02,
+                0.3,
+                3
+            ]
+        ],
+        "icon": "icon/skill/1314_skill.png"
+    },
+    "131403": {
+        "id": "131403",
+        "name": "Pacte de l'abîme",
+        "max_level": 15,
+        "element": "Quantum",
+        "type": "Ultra",
+        "type_text": "Ultime",
+        "effect": "AoEAttack",
+        "effect_text": "ZdE",
+        "simple_desc": "Inflige des DGT quantiques à tous les ennemis et augmente le multiplicateur de DGT de l'attaque de suivi.",
+        "desc": "Inflige des DGT quantiques équivalents à #3[i]% de l'ATQ de Jade à tous les ennemis. D'autre part, renforce l'attaque de suivi du talent de Jade en augmentant son multiplicateur de DGT de #1[i]%. Cet effet de renforcement peut se déclencher #2[i] fois.",
+        "params": [
+            [
+                0.4,
+                2,
+                1.2
+            ],
+            [
+                0.44,
+                2,
+                1.32
+            ],
+            [
+                0.48,
+                2,
+                1.44
+            ],
+            [
+                0.52,
+                2,
+                1.56
+            ],
+            [
+                0.56,
+                2,
+                1.68
+            ],
+            [
+                0.6,
+                2,
+                1.8
+            ],
+            [
+                0.65,
+                2,
+                1.95
+            ],
+            [
+                0.7,
+                2,
+                2.1
+            ],
+            [
+                0.75,
+                2,
+                2.25
+            ],
+            [
+                0.8,
+                2,
+                2.4
+            ],
+            [
+                0.84,
+                2,
+                2.52
+            ],
+            [
+                0.88,
+                2,
+                2.64
+            ],
+            [
+                0.92,
+                2,
+                2.76
+            ],
+            [
+                0.96,
+                2,
+                2.88
+            ],
+            [
+                1,
+                2,
+                3
+            ]
+        ],
+        "icon": "icon/skill/1314_ultimate.png"
+    },
+    "131404": {
+        "id": "131404",
+        "name": "Crocs ravageurs",
+        "max_level": 15,
+        "element": "Quantum",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "AoEAttack",
+        "effect_text": "ZdE",
+        "simple_desc": "Jade gagne 1 point de charge à chaque fois qu'une cible ennemie est touchée par une de ses attaques ou une attaque de l'Agent de recouvrement de dettes. À 8 points de charge, Jade consomme les 8 points pour déclencher 1 attaque de suivi qui inflige des DGT quantiques à tous les ennemis.\nJade gagne des cumuls de Bien hypothéqué lorsqu'elle déclenche l'attaque de suivi, ce qui augmente ses DGT critiques. Cet effet peut se cumuler jusqu'à 50 fois.",
+        "desc": "Jade gagne 1 point de charge à chaque fois qu'une cible ennemie est touchée par une de ses attaques ou une attaque de l'Agent de recouvrement de dettes. À #3[i] points de charge, Jade consomme les #3[i] points pour déclencher 1 attaque de suivi qui inflige des DGT quantiques équivalents à #5[i]% de son ATQ à tous les ennemis. Cette attaque de suivi ne génère pas de points de charge.\nJade gagne immédiatement #4[i] cumuls de Bien hypothéqué lorsqu'elle déclenche l'attaque de suivi de son talent et chaque cumul de Bien hypothéqué augmente ses DGT critiques de #1[f1]%. Cet effet peut être cumulé jusqu'à #2[i] fois.",
+        "params": [
+            [
+                0.012,
+                50,
+                8,
+                5,
+                0.6
+            ],
+            [
+                0.0132,
+                50,
+                8,
+                5,
+                0.66
+            ],
+            [
+                0.0144,
+                50,
+                8,
+                5,
+                0.72
+            ],
+            [
+                0.0156,
+                50,
+                8,
+                5,
+                0.78
+            ],
+            [
+                0.0168,
+                50,
+                8,
+                5,
+                0.84
+            ],
+            [
+                0.018,
+                50,
+                8,
+                5,
+                0.9
+            ],
+            [
+                0.0195,
+                50,
+                8,
+                5,
+                0.975
+            ],
+            [
+                0.021,
+                50,
+                8,
+                5,
+                1.05
+            ],
+            [
+                0.0225,
+                50,
+                8,
+                5,
+                1.125
+            ],
+            [
+                0.024,
+                50,
+                8,
+                5,
+                1.2
+            ],
+            [
+                0.0252,
+                50,
+                8,
+                5,
+                1.26
+            ],
+            [
+                0.0264,
+                50,
+                8,
+                5,
+                1.32
+            ],
+            [
+                0.0276,
+                50,
+                8,
+                5,
+                1.38
+            ],
+            [
+                0.0288,
+                50,
+                8,
+                5,
+                1.44
+            ],
+            [
+                0.03,
+                50,
+                8,
+                5,
+                1.5
+            ]
+        ],
+        "icon": "icon/skill/1314_talent.png"
+    },
+    "131406": {
+        "id": "131406",
+        "name": "Attaque",
+        "max_level": 1,
+        "element": "Quantum",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
+        "params": [],
+        "icon": "icon/skill/1314_basic_atk.png"
+    },
+    "131407": {
+        "id": "131407",
+        "name": "Vision de prédateur",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Impair",
+        "effect_text": "Incapacitation",
+        "simple_desc": "Inflige Obéissance aveugle à tous les ennemis dans une zone définie. Tous les ennemis avec Obéissance aveugle entrent en combat simultanément en cas d'attaque sur un ennemi avec Obéissance aveugle. Inflige des DGT quantiques mineurs à tous les ennemis et Jade gagne immédiatement 15 cumuls de Bien hypothéqué en entrant en combat.",
+        "desc": "Après utilisation de la technique, les ennemis situés dans une zone définie sont affectés par Obéissance aveugle pendant #1[i] secondes. Les ennemis affectés par Obéissance aveugle n'initient pas l'attaque contre les alliés. Lorsque vous engagez le combat en attaquant des ennemis affectés par Obéissance aveugle, tous les ennemis avec Obéissance aveugle entrent en combat simultanément. Une fois en combat, inflige des DGT quantiques équivalents à #2[i]% de l'ATQ de Jade à tous les ennemis, et Jade obtient immédiatement #3[i] cumuls de Bien hypothéqué.",
+        "params": [
+            [
+                10,
+                0.5,
+                15
+            ]
+        ],
+        "icon": "icon/skill/1314_technique.png"
     },
     "131501": {
         "id": "131501",
@@ -17673,7 +18665,7 @@
         "effect": "SingleAttack",
         "effect_text": "Cible unique",
         "simple_desc": "Inflige des DGT physiques mineurs à un ennemi unique.",
-        "desc": "Inflige des DGT physiques équivalents à #1[i]% de l'ATQ du Fossoyeur à un cible ennemie unique.",
+        "desc": "Inflige des DGT physiques équivalents à #1[i]% de l'ATQ du Fossoyeur à une cible ennemie unique.",
         "params": [
             [
                 0.5
@@ -19970,8 +20962,8 @@
         "element": "",
         "type": "Talent",
         "type_text": "Talent",
-        "effect": "Impair",
-        "effect_text": "Incapacitation",
+        "effect": "Support",
+        "effect_text": "Soutien",
         "simple_desc": "{M#Le pionnier}{F#La pionnière} régénère de l'énergie chaque fois qu'une cible ennemie subit une Rupture de faiblesse.",
         "desc": "{M#Le pionnier}{F#La pionnière} régénère immédiatement #1[f1] points d'énergie lorsqu'une cible ennemie subit une Rupture de faiblesse.",
         "params": [
@@ -20270,8 +21262,8 @@
         "element": "",
         "type": "Talent",
         "type_text": "Talent",
-        "effect": "Impair",
-        "effect_text": "Incapacitation",
+        "effect": "Support",
+        "effect_text": "Soutien",
         "simple_desc": "{M#Le pionnier}{F#La pionnière} régénère de l'énergie chaque fois qu'une cible ennemie subit une Rupture de faiblesse.",
         "desc": "{M#Le pionnier}{F#La pionnière} régénère immédiatement #1[f1] points d'énergie lorsqu'une cible ennemie subit une Rupture de faiblesse.",
         "params": [

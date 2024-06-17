@@ -2204,7 +2204,7 @@
         "id": "120104",
         "name": "Right on the Tiles",
         "rank": 4,
-        "desc": "Setelah melancarkan Skill, memiliki 24% peluang tetap untuk memperoleh status \"Autarky\" hingga akhir giliran saat ini.\\nSetelah melancarkan Basic Attack atau Enhanced Basic Attack dalam status \"Autarky\", Qingque akan langsung melancarkan 1 Serangan Lanjutan yang mengakibatkan Quantum DMG pada target sebesar 100% dari Basic Attack DMG atau Enhanced Basic Attack DMG.",
+        "desc": "Setelah melancarkan Skill, memiliki 24% peluang tetap untuk memperoleh status \"Self-Sufficer\" hingga akhir giliran saat ini.\\nSetelah melancarkan Basic Attack atau Enhanced Basic Attack dalam status \"Self-Sufficer\", Qingque akan langsung melancarkan 1 Serangan Lanjutan yang mengakibatkan Quantum DMG pada target sebesar 100% dari Basic Attack DMG atau Enhanced Basic Attack DMG.",
         "materials": [
             {
                 "id": "11201",
@@ -4747,6 +4747,116 @@
         "level_up_skills": [],
         "icon": "icon/skill/1309_rank6.png"
     },
+    "131001": {
+        "id": "131001",
+        "name": "In Reddened Chrysalis, I Once Rest",
+        "rank": 1,
+        "desc": "Saat melancarkan Enhanced Skill, akan mengabaikan 15% DEF target, dan Enhanced Skill tidak mengonsumsi Poin Skill.",
+        "materials": [
+            {
+                "id": "11310",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1310_rank1.png"
+    },
+    "131002": {
+        "id": "131002",
+        "name": "From Shattered Sky, I Free Fall",
+        "rank": 2,
+        "desc": "Saat berstatus \"Complete Combustion\", jika Enhanced Basic Attack atau Enhanced Skill yang dilancarkan mengalahkan target musuh atau membuat target musuh memasuki status Weakness Break, maka SAM akan segera memperoleh 1 giliran tambahan. Efek ini dapat dipicu lagi setelah 1 giliran.",
+        "materials": [
+            {
+                "id": "11310",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1310_rank2.png"
+    },
+    "131003": {
+        "id": "131003",
+        "name": "Amidst Silenced Stars, I Deep Sleep",
+        "rank": 3,
+        "desc": "Level Skill +2, maksimal Lv. 15. Level Basic Attack +1, maksimal Lv. 10.",
+        "materials": [
+            {
+                "id": "11310",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "131002",
+                "num": 2
+            },
+            {
+                "id": "131001",
+                "num": 1
+            },
+            {
+                "id": "131009",
+                "num": 2
+            },
+            {
+                "id": "131008",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1310_skill.png"
+    },
+    "131004": {
+        "id": "131004",
+        "name": "Upon Lighted Fyrefly, I Soon Gaze",
+        "rank": 4,
+        "desc": "Saat berstatus \"Complete Combustion\", Effect RES milik SAM meningkat 50%.",
+        "materials": [
+            {
+                "id": "11310",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1310_rank4.png"
+    },
+    "131005": {
+        "id": "131005",
+        "name": "From Undreamt Night, I Thence Shine",
+        "rank": 5,
+        "desc": "Level Ultimate +2, maksimal Lv. 15. Level Talent +2, maksimal Lv. 15.",
+        "materials": [
+            {
+                "id": "11310",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "131003",
+                "num": 2
+            },
+            {
+                "id": "131004",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1310_ultimate.png"
+    },
+    "131006": {
+        "id": "131006",
+        "name": "In Finalized Morrow, I Full Bloom",
+        "rank": 6,
+        "desc": "Fire RES PEN milik SAM saat berstatus \"Complete Combustion\" meningkat 20%. Saat melancarkan Enhanced Basic Attack atau Enhanced Skill, Weakness Break Efficiency meningkat 50%.",
+        "materials": [
+            {
+                "id": "11310",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1310_rank6.png"
+    },
     "131201": {
         "id": "131201",
         "name": "Whimsicality of Fancy",
@@ -4848,6 +4958,108 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1312_rank6.png"
+    },
+    "131401": {
+        "id": "131401",
+        "name": "Altruism? Nevertheless Tradable",
+        "rank": 1,
+        "desc": "DMG Serangan Lanjutan dari Talent Jade meningkat 32%. Setelah karakter yang berstatus \"Debt Collector\" melancarkan serangan, jika jumlah target musuh yang terkena serangan adalah 2/1, maka Jade akan memperoleh ekstra 1/2 poin Charge.",
+        "materials": [
+            {
+                "id": "11314",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1314_rank1.png"
+    },
+    "131402": {
+        "id": "131402",
+        "name": "Morality? Herein Authenticated",
+        "rank": 2,
+        "desc": "Saat \"Pawned Asset\" mencapai 15 lapis, CRIT Rate Jade akan meningkat 18%.",
+        "materials": [
+            {
+                "id": "11314",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1314_rank2.png"
+    },
+    "131403": {
+        "id": "131403",
+        "name": "Honesty? Soon Mortgaged",
+        "rank": 3,
+        "desc": "Level Skill +2, maksimal Lv. 15. Level Talent +2, maksimal Lv. 15.",
+        "materials": [
+            {
+                "id": "11314",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "131402",
+                "num": 2
+            },
+            {
+                "id": "131404",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1314_skill.png"
+    },
+    "131404": {
+        "id": "131404",
+        "name": "Sincerity? Put Option Only",
+        "rank": 4,
+        "desc": "Saat melancarkan Ultimate, membuat DMG yang diakibatkan Jade mengabaikan 12% DEF target musuh, berlangsung selama 3 giliran.",
+        "materials": [
+            {
+                "id": "11314",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1314_rank4.png"
+    },
+    "131405": {
+        "id": "131405",
+        "name": "Hope? Hitherto Forfeited",
+        "rank": 5,
+        "desc": "Level Ultimate +2, maksimal Lv. 15. Level Basic Attack +1, maksimal Lv. 10.",
+        "materials": [
+            {
+                "id": "11314",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "131403",
+                "num": 2
+            },
+            {
+                "id": "131401",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1314_ultimate.png"
+    },
+    "131406": {
+        "id": "131406",
+        "name": "Equity? Pending Sponsorship",
+        "rank": 6,
+        "desc": "Saat di medan pertempuran terdapat karakter yang berstatus \"Debt Collector\", Quantum RES PEN Jade akan meningkat 20%, dan Jade juga akan memperoleh status \"Debt Collector\".",
+        "materials": [
+            {
+                "id": "11314",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1314_rank6.png"
     },
     "131501": {
         "id": "131501",

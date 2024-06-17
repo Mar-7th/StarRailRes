@@ -4747,6 +4747,116 @@
         "level_up_skills": [],
         "icon": "icon/skill/1309_rank6.png"
     },
+    "131001": {
+        "id": "131001",
+        "name": "Im geröteten Kokon schlief ich einst",
+        "rank": 1,
+        "desc": "Beim Einsatz der verstärkten Fertigkeit werden 15% der VTD des Ziels ignoriert und keine Fertigkeitspunkte verbraucht.",
+        "materials": [
+            {
+                "id": "11310",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1310_rank1.png"
+    },
+    "131002": {
+        "id": "131002",
+        "name": "Fall aus zerbrochenem Himmel",
+        "rank": 2,
+        "desc": "Wenn im Status „Vollständige Verbrennung“ durch den Einsatz des verstärkten Standardangriffs oder der verstärkten Fertigkeit ein Gegner besiegt oder seine Schwäche gebrochen wird, erhält SAM sofort eine zusätzliche Runde. Dieser Effekt kann nach 1 Rd. wieder ausgelöst werden.",
+        "materials": [
+            {
+                "id": "11310",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1310_rank2.png"
+    },
+    "131003": {
+        "id": "131003",
+        "name": "Schlummern in der totenstillen Galaxie",
+        "rank": 3,
+        "desc": "Fertigkeitsstufe +2 bis max. St. 15. Standardangriff-Stufe +1 bis max. St. 10.",
+        "materials": [
+            {
+                "id": "11310",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "131002",
+                "num": 2
+            },
+            {
+                "id": "131001",
+                "num": 1
+            },
+            {
+                "id": "131009",
+                "num": 2
+            },
+            {
+                "id": "131008",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1310_skill.png"
+    },
+    "131004": {
+        "id": "131004",
+        "name": "Ich sehe sie bald, die Flamme des Glühwürmchens",
+        "rank": 4,
+        "desc": "Erhöht im Status „Vollständige Verbrennung“ SAMs Effekt-WDS um 50%.",
+        "materials": [
+            {
+                "id": "11310",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1310_rank4.png"
+    },
+    "131005": {
+        "id": "131005",
+        "name": "Entfacht aus traumloser Nacht",
+        "rank": 5,
+        "desc": "Ultimate-Stufe +2 bis max. St. 15. Talentstufe +2 bis max. St. 15.",
+        "materials": [
+            {
+                "id": "11310",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "131003",
+                "num": 2
+            },
+            {
+                "id": "131004",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1310_ultimate.png"
+    },
+    "131006": {
+        "id": "131006",
+        "name": "Erblüht aus endgültigem Morgen",
+        "rank": 6,
+        "desc": "Erhöht im Status „Vollständige Verbrennung“ SAMs Feuer-WDS-DUR um 20%. Beim Einsatz des verstärkten Standardangriffs und der verstärkten Fertigkeit wird die Schwächebruch-Effizienz um 50% erhöht.",
+        "materials": [
+            {
+                "id": "11310",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1310_rank6.png"
+    },
     "131201": {
         "id": "131201",
         "name": "Flatterhaftes Trugbild",
@@ -4848,6 +4958,108 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1312_rank6.png"
+    },
+    "131401": {
+        "id": "131401",
+        "name": "Uneigennützigkeit? Auch handelbar",
+        "rank": 1,
+        "desc": "Der Folgeangriff von Jades Talent verursacht 32% mehr SCH. Wenn eine Figur mit „Schuldeneintreiber“ angrifft und 2/1 Gegner trifft, erhält Jade zusätzlich 1/2 Pkt. Aufladung.",
+        "materials": [
+            {
+                "id": "11314",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1314_rank1.png"
+    },
+    "131402": {
+        "id": "131402",
+        "name": "Moralität? Hiermit bescheinigt",
+        "rank": 2,
+        "desc": "Wenn „Verpfändung“ 15 Stapelung(en) erreicht, wird Jades KRIT-Rate um 18% erhöht.",
+        "materials": [
+            {
+                "id": "11314",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1314_rank2.png"
+    },
+    "131403": {
+        "id": "131403",
+        "name": "Ehrlichkeit? Bald verpfändet",
+        "rank": 3,
+        "desc": "Fertigkeitsstufe +2 bis max. St. 15. Talentstufe +2 bis max. St. 15.",
+        "materials": [
+            {
+                "id": "11314",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "131402",
+                "num": 2
+            },
+            {
+                "id": "131404",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1314_skill.png"
+    },
+    "131404": {
+        "id": "131404",
+        "name": "Aufrichtigkeit? Nur mit Verkaufsoption",
+        "rank": 4,
+        "desc": "Beim Einsatz des Ultimates ignoriert der von Jade verursachte SCH für 3 Rd. 12% der VTD der Gegner.",
+        "materials": [
+            {
+                "id": "11314",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1314_rank4.png"
+    },
+    "131405": {
+        "id": "131405",
+        "name": "Hoffnung? Bereits ausverkauft",
+        "rank": 5,
+        "desc": "Ultimate-Stufe +2 bis max. St. 15. Standardangriff-Stufe +1 bis max. St. 10.",
+        "materials": [
+            {
+                "id": "11314",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "131403",
+                "num": 2
+            },
+            {
+                "id": "131401",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1314_ultimate.png"
+    },
+    "131406": {
+        "id": "131406",
+        "name": "Gerechtigkeit? Ausstehender Sponsor",
+        "rank": 6,
+        "desc": "Wenn sich Verbündete mit „Schuldeneintreiber“ auf dem Kampffeld befinden, wird Jades Quanten-WDS-DUR um 20% erhöht und sie tritt in den Status Schuldeneintreiber ein.",
+        "materials": [
+            {
+                "id": "11314",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1314_rank6.png"
     },
     "131501": {
         "id": "131501",

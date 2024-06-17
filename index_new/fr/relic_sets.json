@@ -275,7 +275,7 @@
         "name": "Grand duc incandescendre",
         "desc": [
             "Augmente les DGT infligés par les attaques de suivi de 20%.",
-            "Augmente l'ATQ du porteur de 6% chaque fois que ses attaques de suivi infligent des DGT. Cet effet est cumulable jusqu'à 8 fois pour une durée de 3 tours. Cet effet disparaît à la prochaine attaque de suivi lancée par le porteur."
+            "Augmente l'ATQ du porteur de 6% chaque fois que ses attaques de suivi infligent des DGT. Cet effet est cumulable jusqu'à 8 fois pour une durée de 3 tours. Cet effet est supprimé à la prochaine attaque de suivi lancée par le porteur."
         ],
         "properties": [
             [],
@@ -324,7 +324,7 @@
     },
     "118": {
         "id": "118",
-        "name": "L'Horloger, maître des machinations oniriques",
+        "name": "Horloger, maître des machinations oniriques",
         "desc": [
             "Augmente l'effet de Rupture de 16%.",
             "Lorsque le porteur utilise son ultime sur un allié, l'effet de Rupture de tous les alliés augmente de 30% pendant 2 tours. Cet effet n'est pas cumulable."
@@ -339,6 +339,49 @@
             []
         ],
         "icon": "icon/relic/118.png",
+        "guide_overview": []
+    },
+    "119": {
+        "id": "119",
+        "name": "Brigade de fer à l'assaut du fléau",
+        "desc": [
+            "Augmente l'effet de Rupture de 16%.",
+            "Si l'effet de Rupture du porteur est supérieur ou égal à 150%, les DGT de rupture infligés ignorent 10% de la DÉF de la cible ennemie. Lorsque l'effet de Rupture du porteur est supérieur ou égal à 250%, les DGT de rupture extrême qu'il inflige aux cibles ennemies ignorent 15% supplémentaires de la DÉF ennemie."
+        ],
+        "properties": [
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.16
+                }
+            ],
+            []
+        ],
+        "icon": "icon/relic/119.png",
+        "guide_overview": []
+    },
+    "120": {
+        "id": "120",
+        "name": "Vaillance du guerrier du vent",
+        "desc": [
+            "Augmente l'ATQ de 12%.",
+            "Augmente les chances de coup critique du porteur de 6%. Augmente de 36% les DGT infligés par l'ultime du porteur pendant 1 tour lorsqu'il utilise une attaque de suivi."
+        ],
+        "properties": [
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.12
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.06
+                }
+            ]
+        ],
+        "icon": "icon/relic/120.png",
         "guide_overview": []
     },
     "301": {
@@ -591,6 +634,37 @@
             ]
         ],
         "icon": "icon/relic/314.png",
+        "guide_overview": []
+    },
+    "315": {
+        "id": "315",
+        "name": "Duran, dynastie des loups",
+        "desc": [
+            "Lorsqu'un allié utilise une attaque de suivi, le porteur gagne 1 cumul de Mérite, cumulable jusqu'à 5 fois. Chaque cumul de Mérite augmente les DGT infligés par les attaques de suivi du porteur de 5%. À 5 cumuls, les DGT critiques du porteur augmentent de 25%.",
+            ""
+        ],
+        "properties": [
+            []
+        ],
+        "icon": "icon/relic/315.png",
+        "guide_overview": []
+    },
+    "316": {
+        "id": "316",
+        "name": "Forge de la lanterne Kalpagni",
+        "desc": [
+            "Augmente la VIT du porteur de 6%. Lorsque le porteur touche une cible ennemie qui a une Faiblesse au feu, l'effet de Rupture du porteur augmente de 40% pendant 1 tour.",
+            ""
+        ],
+        "properties": [
+            [
+                {
+                    "type": "SpeedAddedRatio",
+                    "value": 0.06
+                }
+            ]
+        ],
+        "icon": "icon/relic/316.png",
         "guide_overview": []
     }
 }

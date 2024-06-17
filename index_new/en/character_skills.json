@@ -2038,7 +2038,7 @@
         "effect": "Impair",
         "effect_text": "Impair",
         "simple_desc": "After each attack, there is a chance of inflicting the attacked enemy with 1 random Bug.",
-        "desc": "Silver Wolf can create three types of Bugs: reduce ATK by #1[f1]%, reduce DEF by #2[f1]%, and reduce SPD by #3[f1]%.\nEvery time Silver Wolf attacks, she has a #4[i]% base chance to implant a random Bug that lasts for #5[i] turn(s) in an enemy target.",
+        "desc": "Silver Wolf can create three types of Bugs: Reduce ATK by #1[f1]%, reduce DEF by #2[f1]%, and reduce SPD by #3[f1]%.\nEvery time Silver Wolf attacks, she has a #4[i]% base chance to implant a random Bug that lasts for #5[i] turn(s) in an enemy target.",
         "params": [
             [
                 0.05,
@@ -7388,7 +7388,7 @@
         "effect": "Enhance",
         "effect_text": "Enhance",
         "simple_desc": "Summons Numby to tag along in a Maze. Numby will automatically search for Basic Treasures and Trotters nearby. Using Technique will regenerate Energy for Topaz after Numby's first attack in the next battle.",
-        "desc": "Summons Numby when Topaz enters the overworld. Numby will automatically search for Basic Treasures and Trotters within a set radius.\nUsing her Technique will regenerate #1[i] Energy for Topaz after Numby's first attack in the next battle.\nIf Topaz is still in the team after using her Technique and defeating overworld enemies, a small bonus amount of credits will be added to the earned credits. A maximum of #2[i] bonus credits can be received per calendar day.\nAfter using her Technique and defeating enemies in Simulated Universe, additionally receive a small amount of Cosmic Fragments with a small chance to obtain 1 random Curio.",
+        "desc": "Summons Numby when Topaz enters the overworld. Numby will automatically search for Basic Treasures and Trotters within a set radius.\nUsing her Technique will regenerate #1[i] Energy for Topaz after Numby's first attack in the next battle.\nIf Topaz is still in the team after using her Technique and defeating overworld enemies, a small bonus amount of credits will be added to the earned credits. A maximum of #2[i] bonus credits can be received per calendar day.\nAfter using her Technique and defeating enemies in Simulated Universe or Divergent Universe, additionally receive a small amount of Cosmic Fragments with a small chance to obtain 1 random Curio.",
         "params": [
             [
                 60,
@@ -9848,8 +9848,8 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "Basic Attack additionally deals minor DMG, and the Toughness-Reducing DMG of this Basic Attack is increased. This effect can be triggered again after 1 turn have passed.",
-        "desc": "Basic ATK additionally deals Imaginary DMG equal to #1[i]% of Yukong's ATK, and increases the Toughness-Reducing DMG of this attack by #2[i]%. This effect can be triggered again after #3[i] turn(s).",
+        "simple_desc": "Basic Attack additionally deals minor DMG, and the Toughness Reduction of this Basic Attack is increased. This effect can be triggered again after 1 turn have passed.",
+        "desc": "Basic ATK additionally deals Imaginary DMG equal to #1[i]% of Yukong's ATK, and increases the Toughness Reduction of this attack by #2[i]%. This effect can be triggered again after #3[i] turn(s).",
         "params": [
             [
                 0.4,
@@ -9945,7 +9945,7 @@
     },
     "120707": {
         "id": "120707",
-        "name": "Chasing the Wind",
+        "name": "Windchaser",
         "max_level": 1,
         "element": "",
         "type": "Maze",
@@ -14629,8 +14629,8 @@
         "type_text": "Technique",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "The next time entering battle, automatically triggers the Skill for 1 time(s). After using the Technique, allies attacking enemies in Simulated Universe will always be regarded as attacking their Weakness to enter battle, and their Toughness is reduced regardless of Weakness types. For every Blessing in possession, increases Toughness-Reducing DMG and additionally deals Break DMG when breaking Weakness.",
-        "desc": "After using the Technique, gains Silken Serenade. At the start of the next battle, automatically triggers the Skill for #1[i] time(s) without consuming Skill Points.\nIn Simulated Universe, when Ruan Mei has Silken Serenade, the team actively attacking enemies will always be regarded as attacking their Weakness to enter battle, and this attack can reduce all enemies' Toughness regardless of Weakness types. When breaking Weakness, triggers Weakness Break Effect corresponding to the attacker's Type. For every Blessing in possession (up to a maximum of #4[i] Blessings), additionally increases the Toughness-Reducing DMG of this attack by #2[i]%. After breaking an enemy target's Weakness, additionally deals to the enemy target Break DMG equal to #3[i]% of Ruan Mei's Ice Break DMG.",
+        "simple_desc": "The next time entering battle, automatically triggers the Skill for 1 time(s). After using the Technique, allies attacking enemies in Simulated Universe or Divergent Universe will always be regarded as attacking their Weakness to enter battle, and their Toughness is reduced regardless of Weakness types. For every Blessing in possession, increases Toughness Reduction and additionally deals Break DMG when breaking Weakness.",
+        "desc": "After using the Technique, gains Silken Serenade. At the start of the next battle, automatically triggers the Skill for #1[i] time(s) without consuming Skill Points.\nIn Simulated Universe or Divergent Universe, when Ruan Mei has Silken Serenade, the team actively attacking enemies will always be regarded as attacking their Weakness to enter battle, and this attack can reduce all enemies' Toughness regardless of Weakness types. When breaking Weakness, triggers Weakness Break Effect corresponding to the attacker's Type. For every Blessing in possession (up to a maximum of #4[i] Blessings), additionally increases the Toughness Reduction of this attack by #2[i]%. After breaking an enemy target's Weakness, additionally deals to the enemy target Break DMG equal to #3[i]% of Ruan Mei's Ice Break DMG.",
         "params": [
             [
                 1,
@@ -17303,6 +17303,598 @@
         ],
         "icon": "icon/skill/1309_technique.png"
     },
+    "131001": {
+        "id": "131001",
+        "name": "Order: Flare Propulsion",
+        "max_level": 9,
+        "element": "Fire",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Deals minor Fire DMG to a single enemy.",
+        "desc": "Deals Fire DMG equal to #1[i]% of SAM's ATK to a single target enemy.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1310_basic_atk.png"
+    },
+    "131002": {
+        "id": "131002",
+        "name": "Order: Aerial Bombardment",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "BPSkill",
+        "type_text": "Skill",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Consumes a portion of this unit's own HP to regenerate Energy. Deals Fire DMG to a single enemy. Advances this unit's next Action.",
+        "desc": "Consumes HP equal to #2[i]% of this unit's Max HP and regenerates a fixed amount of Energy equal to #3[i]% of this unit's Max Energy. Deals Fire DMG equal to #1[i]% of SAM's ATK to a single target enemy. If the current HP is not sufficient, reduces SAM's HP to 1 when using this Skill. Advances this unit's next Action by #4[i]%.",
+        "params": [
+            [
+                1,
+                0.4,
+                0.5,
+                0.25
+            ],
+            [
+                1.1,
+                0.4,
+                0.51,
+                0.25
+            ],
+            [
+                1.2,
+                0.4,
+                0.52,
+                0.25
+            ],
+            [
+                1.3,
+                0.4,
+                0.53,
+                0.25
+            ],
+            [
+                1.4,
+                0.4,
+                0.54,
+                0.25
+            ],
+            [
+                1.5,
+                0.4,
+                0.55,
+                0.25
+            ],
+            [
+                1.625,
+                0.4,
+                0.5625,
+                0.25
+            ],
+            [
+                1.75,
+                0.4,
+                0.575,
+                0.25
+            ],
+            [
+                1.875,
+                0.4,
+                0.5875,
+                0.25
+            ],
+            [
+                2,
+                0.4,
+                0.6,
+                0.25
+            ],
+            [
+                2.1,
+                0.4,
+                0.61,
+                0.25
+            ],
+            [
+                2.2,
+                0.4,
+                0.62,
+                0.25
+            ],
+            [
+                2.3,
+                0.4,
+                0.63,
+                0.25
+            ],
+            [
+                2.4,
+                0.4,
+                0.64,
+                0.25
+            ],
+            [
+                2.5,
+                0.4,
+                0.65,
+                0.25
+            ]
+        ],
+        "icon": "icon/skill/1310_skill.png"
+    },
+    "131003": {
+        "id": "131003",
+        "name": "Fyrefly Type-IV: Complete Combustion",
+        "max_level": 15,
+        "element": "",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "Enhance",
+        "effect_text": "Enhance",
+        "simple_desc": "Enters the Complete Combustion state. Advances this unit's Action by 100%. Gains Enhanced Basic ATK and Enhanced Skill. Increases this unit's SPD, Weakness Break efficiency, and the Break DMG received by the enemy targets, lasting until the countdown ends.",
+        "desc": "Enters the Complete Combustion state, advances this unit's Action by 100%, and gains Enhanced Basic ATK and Enhanced Skill. While in Complete Combustion, increases SPD by #3[i], and when using the Enhanced Basic ATK or Enhanced Skill, increases this unit's Weakness Break efficiency by #2[i]% and the Break DMG dealt by SAM to the enemy targets by #1[f1]%, lasting until this current attack ends.\nA countdown timer for the Complete Combustion state appears on the Action Order. When the countdown timer's turn starts, SAM exits the Complete Combustion state. The countdown timer has a fixed SPD of #4[i].\nSAM cannot use Ultimate while in Complete Combustion.",
+        "params": [
+            [
+                0.1,
+                0.5,
+                30,
+                70
+            ],
+            [
+                0.11,
+                0.5,
+                33,
+                70
+            ],
+            [
+                0.12,
+                0.5,
+                36,
+                70
+            ],
+            [
+                0.13,
+                0.5,
+                39,
+                70
+            ],
+            [
+                0.14,
+                0.5,
+                42,
+                70
+            ],
+            [
+                0.15,
+                0.5,
+                45,
+                70
+            ],
+            [
+                0.1625,
+                0.5,
+                48.75,
+                70
+            ],
+            [
+                0.175,
+                0.5,
+                52.5,
+                70
+            ],
+            [
+                0.1875,
+                0.5,
+                56.25,
+                70
+            ],
+            [
+                0.2,
+                0.5,
+                60,
+                70
+            ],
+            [
+                0.21,
+                0.5,
+                63,
+                70
+            ],
+            [
+                0.22,
+                0.5,
+                66,
+                70
+            ],
+            [
+                0.23,
+                0.5,
+                69,
+                70
+            ],
+            [
+                0.24,
+                0.5,
+                72,
+                70
+            ],
+            [
+                0.25,
+                0.5,
+                75,
+                70
+            ]
+        ],
+        "icon": "icon/skill/1310_ultimate.png"
+    },
+    "131004": {
+        "id": "131004",
+        "name": "Chrysalid Pyronexus",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Defence",
+        "effect_text": "Defense",
+        "simple_desc": "The lower the HP, the less DMG received. During the Complete Combustion, the DMG Reduction remains at its maximum effect, and the Effect RES increases. If Energy is lower than 50% when the battle starts, regenerates Energy to 50%. Once Energy is regenerated to its maximum, dispels all debuffs on this unit.",
+        "desc": "The lower the HP, the less DMG received. When HP is #3[i]% or lower, the DMG Reduction reaches its maximum effect, reducing up to #1[i]%. During the Complete Combustion, the DMG Reduction remains at its maximum effect, and the Effect RES increases by #4[i]%.\nIf Energy is lower than #2[i]% when the battle starts, regenerates Energy to #2[i]%. Once Energy is regenerated to its maximum, dispels all debuffs on this unit.",
+        "params": [
+            [
+                0.2,
+                0.5,
+                0.2,
+                0.1
+            ],
+            [
+                0.22,
+                0.5,
+                0.2,
+                0.12
+            ],
+            [
+                0.24,
+                0.5,
+                0.2,
+                0.14
+            ],
+            [
+                0.26,
+                0.5,
+                0.2,
+                0.16
+            ],
+            [
+                0.28,
+                0.5,
+                0.2,
+                0.18
+            ],
+            [
+                0.3,
+                0.5,
+                0.2,
+                0.2
+            ],
+            [
+                0.325,
+                0.5,
+                0.2,
+                0.225
+            ],
+            [
+                0.35,
+                0.5,
+                0.2,
+                0.25
+            ],
+            [
+                0.375,
+                0.5,
+                0.2,
+                0.275
+            ],
+            [
+                0.4,
+                0.5,
+                0.2,
+                0.3
+            ],
+            [
+                0.42,
+                0.5,
+                0.2,
+                0.32
+            ],
+            [
+                0.44,
+                0.5,
+                0.2,
+                0.34
+            ],
+            [
+                0.46,
+                0.5,
+                0.2,
+                0.36
+            ],
+            [
+                0.48,
+                0.5,
+                0.2,
+                0.38
+            ],
+            [
+                0.5,
+                0.5,
+                0.2,
+                0.4
+            ]
+        ],
+        "icon": "icon/skill/1310_talent.png"
+    },
+    "131006": {
+        "id": "131006",
+        "name": "Attack",
+        "max_level": 1,
+        "element": "Fire",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Attacks an enemy, and when the battle starts, reduces their Toughness of the corresponding Type.",
+        "params": [],
+        "icon": "icon/skill/1310_basic_atk.png"
+    },
+    "131007": {
+        "id": "131007",
+        "name": "Δ Order: Meteoric Incineration",
+        "max_level": 1,
+        "element": "Fire",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "Leaps into the air and moves about freely. After a few seconds of movement, plunges and attacks all enemies within range. At the start of each wave, applies a Fire Weakness to all enemies and deals Fire DMG to them.",
+        "desc": "Leaps into the air and moves about freely for #1[i] seconds, which can be ended early by launching a plunging attack. When the duration ends, plunges and immediately attacks all enemies within a set area. At the start of each wave, applies a Fire Weakness to all enemies, lasting for #3[i] turn(s). Then, deals Fire DMG equal to #2[i]% of SAM's ATK to all enemies.",
+        "params": [
+            [
+                5,
+                2,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1310_technique.png"
+    },
+    "131008": {
+        "id": "131008",
+        "name": "Fyrefly Type-IV: Pyrogenic Decimation",
+        "max_level": 9,
+        "element": "Fire",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Restores a portion of this unit's own HP and deals Fire DMG to a single enemy.",
+        "desc": "Restores HP by an amount equal to #2[i]% of this unit's Max HP. Deals Fire DMG equal to #1[i]% of SAM's ATK to a single target enemy.",
+        "params": [
+            [
+                1,
+                0.2
+            ],
+            [
+                1.2,
+                0.2
+            ],
+            [
+                1.4,
+                0.2
+            ],
+            [
+                1.6,
+                0.2
+            ],
+            [
+                1.8,
+                0.2
+            ],
+            [
+                2,
+                0.2
+            ],
+            [
+                2.2,
+                0.2
+            ],
+            [
+                2.4,
+                0.2
+            ],
+            [
+                2.6,
+                0.2
+            ]
+        ],
+        "icon": "icon/skill/1310_basic_atk.png"
+    },
+    "131009": {
+        "id": "131009",
+        "name": "Fyrefly Type-IV: Deathstar Overload",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "BPSkill",
+        "type_text": "Skill",
+        "effect": "Blast",
+        "effect_text": "Blast",
+        "simple_desc": "Restores a portion of this unit's own HP. Applies Fire Weakness to a single enemy target. Deals massive Fire DMG to this target and Fire DMG to adjacent targets.",
+        "desc": "Restores HP by an amount equal to #3[i]% of this unit's Max HP. Applies Fire Weakness to a single target enemy, lasting for #4[i] turn(s). Deals Fire DMG equal to (#5[f1] × Break Effect + #1[f1]%) of SAM's ATK to this target. At the same time, deals Fire DMG equal to (#6[f1] × Break Effect + #2[f1]%) of SAM's ATK to adjacent targets. The Break Effect taken into the calculation is capped at #7[i]%.",
+        "params": [
+            [
+                1,
+                0.5,
+                0.25,
+                2,
+                0.2,
+                0.1,
+                3.6
+            ],
+            [
+                1.1,
+                0.55,
+                0.25,
+                2,
+                0.2,
+                0.1,
+                3.6
+            ],
+            [
+                1.2,
+                0.6,
+                0.25,
+                2,
+                0.2,
+                0.1,
+                3.6
+            ],
+            [
+                1.3,
+                0.65,
+                0.25,
+                2,
+                0.2,
+                0.1,
+                3.6
+            ],
+            [
+                1.4,
+                0.7,
+                0.25,
+                2,
+                0.2,
+                0.1,
+                3.6
+            ],
+            [
+                1.5,
+                0.75,
+                0.25,
+                2,
+                0.2,
+                0.1,
+                3.6
+            ],
+            [
+                1.625,
+                0.8125,
+                0.25,
+                2,
+                0.2,
+                0.1,
+                3.6
+            ],
+            [
+                1.75,
+                0.875,
+                0.25,
+                2,
+                0.2,
+                0.1,
+                3.6
+            ],
+            [
+                1.875,
+                0.9375,
+                0.25,
+                2,
+                0.2,
+                0.1,
+                3.6
+            ],
+            [
+                2,
+                1,
+                0.25,
+                2,
+                0.2,
+                0.1,
+                3.6
+            ],
+            [
+                2.1,
+                1.05,
+                0.25,
+                2,
+                0.2,
+                0.1,
+                3.6
+            ],
+            [
+                2.2,
+                1.1,
+                0.25,
+                2,
+                0.2,
+                0.1,
+                3.6
+            ],
+            [
+                2.3,
+                1.15,
+                0.25,
+                2,
+                0.2,
+                0.1,
+                3.6
+            ],
+            [
+                2.4,
+                1.2,
+                0.25,
+                2,
+                0.2,
+                0.1,
+                3.6
+            ],
+            [
+                2.5,
+                1.25,
+                0.25,
+                2,
+                0.2,
+                0.1,
+                3.6
+            ]
+        ],
+        "icon": "icon/skill/1310_skill.png"
+    },
     "131201": {
         "id": "131201",
         "name": "E—Excuse Me, Please!",
@@ -17662,6 +18254,406 @@
             ]
         ],
         "icon": "icon/skill/1312_technique.png"
+    },
+    "131401": {
+        "id": "131401",
+        "name": "Lash of Riches",
+        "max_level": 9,
+        "element": "Quantum",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "Blast",
+        "effect_text": "Blast",
+        "simple_desc": "Deals minor Quantum DMG to a single enemy and minor Quantum DMG to enemies adjacent to it.",
+        "desc": "Deals Quantum DMG equal to #1[i]% of Jade's ATK to a single target enemy, and Quantum DMG equal to #2[i]% of Jade's ATK to adjacent enemies.",
+        "params": [
+            [
+                0.45,
+                0.15
+            ],
+            [
+                0.54,
+                0.18
+            ],
+            [
+                0.63,
+                0.21
+            ],
+            [
+                0.72,
+                0.24
+            ],
+            [
+                0.81,
+                0.27
+            ],
+            [
+                0.9,
+                0.3
+            ],
+            [
+                0.99,
+                0.33
+            ],
+            [
+                1.08,
+                0.36
+            ],
+            [
+                1.17,
+                0.39
+            ]
+        ],
+        "icon": "icon/skill/1314_basic_atk.png"
+    },
+    "131402": {
+        "id": "131402",
+        "name": "Acquisition Surety",
+        "max_level": 15,
+        "element": "Quantum",
+        "type": "BPSkill",
+        "type_text": "Skill",
+        "effect": "Support",
+        "effect_text": "Support",
+        "simple_desc": "Makes a single ally become the Debt Collector and increases their SPD. After the Debt Collector attacks, they deal minor Additional Quantum DMG to each enemy target hit and consume their own HP. When Jade becomes the Debt Collector, she cannot gain the SPD boost effect, and her attacks do not consume HP.",
+        "desc": "Makes a single target ally become the Debt Collector and increases their SPD by #1[i], lasting for #4[i] turn(s).\nAfter the Debt Collector attacks, deals 1 instance of Additional Quantum DMG equal to #3[i]% of Jade's ATK to each enemy target hit, and consumes the Debt Collector's HP by an amount equal to #2[i]% of their Max HP. If the current HP is insufficient, reduces HP to 1.\nIf Jade becomes the Debt Collector, she cannot gain the SPD boost effect, and her attacks do not consume HP.\nWhen the Debt Collector exists on the field, Jade cannot use her Skill. At the start of Jade's every turn, the Debt Collector's duration reduces by 1 turn.",
+        "params": [
+            [
+                30,
+                0.02,
+                0.15,
+                3
+            ],
+            [
+                30,
+                0.02,
+                0.16,
+                3
+            ],
+            [
+                30,
+                0.02,
+                0.17,
+                3
+            ],
+            [
+                30,
+                0.02,
+                0.18,
+                3
+            ],
+            [
+                30,
+                0.02,
+                0.19,
+                3
+            ],
+            [
+                30,
+                0.02,
+                0.2,
+                3
+            ],
+            [
+                30,
+                0.02,
+                0.2125,
+                3
+            ],
+            [
+                30,
+                0.02,
+                0.225,
+                3
+            ],
+            [
+                30,
+                0.02,
+                0.2375,
+                3
+            ],
+            [
+                30,
+                0.02,
+                0.25,
+                3
+            ],
+            [
+                30,
+                0.02,
+                0.26,
+                3
+            ],
+            [
+                30,
+                0.02,
+                0.27,
+                3
+            ],
+            [
+                30,
+                0.02,
+                0.28,
+                3
+            ],
+            [
+                30,
+                0.02,
+                0.29,
+                3
+            ],
+            [
+                30,
+                0.02,
+                0.3,
+                3
+            ]
+        ],
+        "icon": "icon/skill/1314_skill.png"
+    },
+    "131403": {
+        "id": "131403",
+        "name": "Vow of the Deep",
+        "max_level": 15,
+        "element": "Quantum",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "AoEAttack",
+        "effect_text": "AoE",
+        "simple_desc": "Deals Quantum DMG to all enemies and gains increased DMG multiplier for follow-up attack.",
+        "desc": "Deals Quantum DMG equal to #3[i]% of Jade's ATK to all enemies. At the same time, Jade enhances her Talent's follow-up attack, increasing its DMG multiplier by #1[i]%. This enhancement can trigger #2[i] time(s).",
+        "params": [
+            [
+                0.4,
+                2,
+                1.2
+            ],
+            [
+                0.44,
+                2,
+                1.32
+            ],
+            [
+                0.48,
+                2,
+                1.44
+            ],
+            [
+                0.52,
+                2,
+                1.56
+            ],
+            [
+                0.56,
+                2,
+                1.68
+            ],
+            [
+                0.6,
+                2,
+                1.8
+            ],
+            [
+                0.65,
+                2,
+                1.95
+            ],
+            [
+                0.7,
+                2,
+                2.1
+            ],
+            [
+                0.75,
+                2,
+                2.25
+            ],
+            [
+                0.8,
+                2,
+                2.4
+            ],
+            [
+                0.84,
+                2,
+                2.52
+            ],
+            [
+                0.88,
+                2,
+                2.64
+            ],
+            [
+                0.92,
+                2,
+                2.76
+            ],
+            [
+                0.96,
+                2,
+                2.88
+            ],
+            [
+                1,
+                2,
+                3
+            ]
+        ],
+        "icon": "icon/skill/1314_ultimate.png"
+    },
+    "131404": {
+        "id": "131404",
+        "name": "Fang of Flare Flaying",
+        "max_level": 15,
+        "element": "Quantum",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "AoEAttack",
+        "effect_text": "AoE",
+        "simple_desc": "After Jade or the Debt Collector unit attacks, gains 1 point of Charge for each enemy target hit. Upon reaching 8 points of Charge, consumes the 8 points to launch 1 instance of follow-up attack, dealing Quantum DMG to all enemies.\nWhen Jade launches the follow-up attack, gains Pawned Asset and increases CRIT DMG, stacking up to 50 times.",
+        "desc": "After Jade or the Debt Collector unit attacks, gains 1 point of Charge for each enemy target hit. Upon reaching #3[i] points of Charge, consumes the #3[i] points to launch 1 instance of follow-up attack, dealing Quantum DMG equal to #5[i]% of Jade's ATK to all enemies. This follow-up attack does not generate Charge.\nWhen launching her Talent's follow-up attack, Jade immediately gains #4[i] stack(s) of Pawned Asset, with each stack increasing CRIT DMG by #1[f1]%, stacking up to #2[i] times.",
+        "params": [
+            [
+                0.012,
+                50,
+                8,
+                5,
+                0.6
+            ],
+            [
+                0.0132,
+                50,
+                8,
+                5,
+                0.66
+            ],
+            [
+                0.0144,
+                50,
+                8,
+                5,
+                0.72
+            ],
+            [
+                0.0156,
+                50,
+                8,
+                5,
+                0.78
+            ],
+            [
+                0.0168,
+                50,
+                8,
+                5,
+                0.84
+            ],
+            [
+                0.018,
+                50,
+                8,
+                5,
+                0.9
+            ],
+            [
+                0.0195,
+                50,
+                8,
+                5,
+                0.975
+            ],
+            [
+                0.021,
+                50,
+                8,
+                5,
+                1.05
+            ],
+            [
+                0.0225,
+                50,
+                8,
+                5,
+                1.125
+            ],
+            [
+                0.024,
+                50,
+                8,
+                5,
+                1.2
+            ],
+            [
+                0.0252,
+                50,
+                8,
+                5,
+                1.26
+            ],
+            [
+                0.0264,
+                50,
+                8,
+                5,
+                1.32
+            ],
+            [
+                0.0276,
+                50,
+                8,
+                5,
+                1.38
+            ],
+            [
+                0.0288,
+                50,
+                8,
+                5,
+                1.44
+            ],
+            [
+                0.03,
+                50,
+                8,
+                5,
+                1.5
+            ]
+        ],
+        "icon": "icon/skill/1314_talent.png"
+    },
+    "131406": {
+        "id": "131406",
+        "name": "Attack",
+        "max_level": 1,
+        "element": "Quantum",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Attacks an enemy, and when the battle starts, reduces their Toughness of the corresponding Type.",
+        "params": [],
+        "icon": "icon/skill/1314_basic_atk.png"
+    },
+    "131407": {
+        "id": "131407",
+        "name": "Visionary Predation",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Impair",
+        "effect_text": "Impair",
+        "simple_desc": "Inflicts Blind Fealty on all enemies within a set area. Attacking an enemy with Blind Fealty causes all enemies with Blind Fealty to enter combat simultaneously. Upon entering combat, deals minor Quantum DMG to all enemies and immediately gains 15 stack(s) of Pawned Asset.",
+        "desc": "After using the Technique, inflicts enemies within a set area with Blind Fealty for #1[i] second(s). Enemies inflicted with Blind Fealty will not initiate attacks on allies. When entering battle via actively attacking enemies inflicted with Blind Fealty, all enemies with Blind Fealty will enter combat simultaneously. After entering battle, deals Quantum DMG equal to #2[i]% of Jade's ATK to all enemies, and immediately gains #3[i] stack(s) of Pawned Asset.",
+        "params": [
+            [
+                10,
+                0.5,
+                15
+            ]
+        ],
+        "icon": "icon/skill/1314_technique.png"
     },
     "131501": {
         "id": "131501",
@@ -19970,8 +20962,8 @@
         "element": "",
         "type": "Talent",
         "type_text": "Talent",
-        "effect": "Impair",
-        "effect_text": "Impair",
+        "effect": "Support",
+        "effect_text": "Support",
         "simple_desc": "The Trailblazer regenerates Energy when an enemy target's Weakness is Broken.",
         "desc": "The Trailblazer immediately regenerates #1[f1] Energy when an enemy target's Weakness is Broken.",
         "params": [
@@ -20270,8 +21262,8 @@
         "element": "",
         "type": "Talent",
         "type_text": "Talent",
-        "effect": "Impair",
-        "effect_text": "Impair",
+        "effect": "Support",
+        "effect_text": "Support",
         "simple_desc": "The Trailblazer regenerates Energy when an enemy target's Weakness is Broken.",
         "desc": "The Trailblazer immediately regenerates #1[f1] Energy when an enemy target's Weakness is Broken.",
         "params": [

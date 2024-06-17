@@ -2923,6 +2923,70 @@
             ]
         ]
     },
+    "21045": {
+        "id": "21045",
+        "skill": "Quiescence",
+        "desc": "Meningkatkan #1[i]% Break Effect pengguna. Setelah pengguna melancarkan Ultimate, SPD akan meningkat #2[i]%, berlangsung selama #3[i] giliran.",
+        "params": [
+            [
+                0.28,
+                0.08,
+                2
+            ],
+            [
+                0.35,
+                0.1,
+                2
+            ],
+            [
+                0.42,
+                0.12,
+                2
+            ],
+            [
+                0.49,
+                0.14,
+                2
+            ],
+            [
+                0.56,
+                0.16,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.28
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.35
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.42
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.49
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.56
+                }
+            ]
+        ]
+    },
     "22000": {
         "id": "22000",
         "skill": "Quick on the Draw",
@@ -4880,6 +4944,75 @@
             ]
         ]
     },
+    "23025": {
+        "id": "23025",
+        "skill": "Metamorphosis",
+        "desc": "Meningkatkan #1[i]% Break Effect pengguna. Saat pengguna mengakibatkan Break DMG pada target musuh, musuh akan memasuki status \"Routed\" selama #4[i] giliran. Break DMG yang diakibatkan pengguna pada target berstatus \"Routed\" akan meningkat #2[f1]%, dan SPD target akan berkurang #3[i]%. Efek dengan jenis yang sama tidak dapat ditumpuk.",
+        "params": [
+            [
+                0.6,
+                0.24,
+                0.2,
+                2
+            ],
+            [
+                0.7,
+                0.28,
+                0.2,
+                2
+            ],
+            [
+                0.8,
+                0.32,
+                0.2,
+                2
+            ],
+            [
+                0.9,
+                0.36,
+                0.2,
+                2
+            ],
+            [
+                1,
+                0.4,
+                0.2,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.6
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.7
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.8
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.9
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 1
+                }
+            ]
+        ]
+    },
     "23026": {
         "id": "23026",
         "skill": "Pacify",
@@ -4994,6 +5127,90 @@
                 {
                     "type": "BreakDamageAddedRatioBase",
                     "value": 1
+                }
+            ]
+        ]
+    },
+    "23028": {
+        "id": "23028",
+        "skill": "Promise",
+        "desc": "Meningkatkan #1[i]% CRIT Rate pengguna. Saat CRIT DMG pengguna di dalam pertempuran lebih dari #2[i]%, maka untuk setiap #3[i]% CRIT DMG yang berlebih, akan meningkatkan #4[i]% DMG yang diakibatkan Serangan Lanjutan, efek ini dapat ditumpuk hingga #5[i] lapis. Saat pertempuran dimulai atau saat setelah pengguna melancarkan Basic Attack, akan membuat DMG yang diakibatkan Ultimate atau Serangan Lanjutan mengabaikan #6[i]% DEF target, berlangsung selama #7[i] giliran.",
+        "params": [
+            [
+                0.16,
+                1.2,
+                0.2,
+                0.12,
+                4,
+                0.2,
+                2
+            ],
+            [
+                0.19,
+                1.2,
+                0.2,
+                0.14,
+                4,
+                0.24,
+                2
+            ],
+            [
+                0.22,
+                1.2,
+                0.2,
+                0.16,
+                4,
+                0.28,
+                2
+            ],
+            [
+                0.25,
+                1.2,
+                0.2,
+                0.18,
+                4,
+                0.32,
+                2
+            ],
+            [
+                0.28,
+                1.2,
+                0.2,
+                0.2,
+                4,
+                0.36,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.16
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.19
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.22
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.25
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.28
                 }
             ]
         ]
@@ -5255,6 +5472,80 @@
                 {
                     "type": "BreakDamageAddedRatioBase",
                     "value": 0.4
+                }
+            ]
+        ]
+    },
+    "24004": {
+        "id": "24004",
+        "skill": "Boundless Thought",
+        "desc": "Meningkatkan #1[i]% ATK pengguna. Setelah melancarkan serangan, untuk setiap 1 target musuh yang terkena serangan, akan membuat ATK pengguna meningkat ekstra #2[i]%. Efek ini dapat ditumpuk hingga 5 kali dan berlangsung hingga setelah serangan berikutnya. Jika serangan mengenai lebih dari atau sama dengan #3[i] target musuh, akan membuat SPD pengguna meningkat #4[i]% selama #5[i] giliran.",
+        "params": [
+            [
+                0.08,
+                0.04,
+                3,
+                0.08,
+                1
+            ],
+            [
+                0.09,
+                0.05,
+                3,
+                0.1,
+                1
+            ],
+            [
+                0.1,
+                0.06,
+                3,
+                0.12,
+                1
+            ],
+            [
+                0.11,
+                0.07,
+                3,
+                0.14,
+                1
+            ],
+            [
+                0.12,
+                0.08,
+                3,
+                0.16,
+                1
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.08
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.09
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.1
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.11
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.12
                 }
             ]
         ]
