@@ -309,7 +309,7 @@
         "id": "100401",
         "name": "Nachlass der Ehre",
         "rank": 1,
-        "desc": "Nach dem Einsatz des Ultimates werden Welts Fähigkeiten verstärkt. Die nächsten 2 Einsätze seines Standardangriffs oder seiner Fertigkeit fügen dem Ziel zusätzlichen SCH in Höhe von 50% seines Standardangriff-Multiplikators bzw. 80% des SCH-Multiplikators seiner Fertigkeit zu.",
+        "desc": "Nach dem Einsatz des Ultimates wird Welt verstärkt. Die nächsten 2 Einsätze seines Standardangriffs oder seiner Fertigkeit fügen dem Gegner 1-mal zusätzlichen SCH in Höhe von 50% seines Multiplikators von Standardangriff-SCH bzw. 80% des SCH-Multiplikators seiner Fertigkeit zu.",
         "materials": [
             {
                 "id": "11004",
@@ -615,7 +615,7 @@
         "id": "100801",
         "name": "Bis zum bitteren Ende",
         "rank": 1,
-        "desc": "Liegt Arlans LP-Prozentsatz bei 50 % oder weniger, wird der durch die Fertigkeit verursachte SCH um 10% erhöht.",
+        "desc": "Liegt der LP-Prozentsatz bei 50 % oder weniger, wird der durch die Fertigkeit verursachte SCH um 10% erhöht.",
         "materials": [
             {
                 "id": "11008",
@@ -2153,7 +2153,7 @@
         "id": "120101",
         "name": "Bauer umgewandelt, Preis erhalten",
         "rank": 1,
-        "desc": "Der Ultimate fügt 10% mehr SCH zu.",
+        "desc": "Der Ultimate verursacht 10% mehr SCH.",
         "materials": [
             {
                 "id": "11201",
@@ -2204,7 +2204,7 @@
         "id": "120104",
         "name": "Glückliche Kombination, der letzte Stein wartet",
         "rank": 4,
-        "desc": "Nach dem Einsatz der Fertigkeit besteht eine Grundchance von 24%, in „Autarkie“ einzutreten. Dieser Status hält bis zum Ende dieser Runde.\\nIn „Autarkie“ führt Qingque nach dem Einsatz des Standardangriffs oder verstärkten Standardangriffs sofort einen Folgeangriff aus und fügt dem Ziel Quanten-SCH in Höhe von 100 % des Standardangriffs oder verstärkten Standardangriffs zu.",
+        "desc": "Nach dem Einsatz der Fertigkeit besteht eine feste Chance von 24%, den Status „Autarkie“ zu erhalten. Dieser Status hält bis zum Ende dieser Runde.\\nIm Status Autarkie führt Qingque nach dem Einsatz des Standardangriffs oder verstärkten Standardangriffs sofort einen Folgeangriff aus und fügt dem Ziel Quanten-SCH in Höhe von 100 % des Standardangriff-SCH oder verstärkten Standardangriff-SCH zu.",
         "materials": [
             {
                 "id": "11201",
@@ -2285,7 +2285,7 @@
     },
     "120203": {
         "id": "120203",
-        "name": "Geschenk des alten grünen Zuhauses",
+        "name": "Vermächtnis der gesegneten Tage",
         "rank": 3,
         "desc": "Ultimate-Stufe +2 bis max. St. 15. Standardangriff-Stufe +1 bis max. St. 10.",
         "materials": [
@@ -2657,7 +2657,7 @@
         "id": "120506",
         "name": "Wie Körper, so Seele",
         "rank": 6,
-        "desc": "Die maximale Aufladungsanzahl wird auf 4 reduziert. Der SCH des Folgeangriffs, der durch Blades Talent ausgelöst wird, wird zusätzlich um 50% seiner max. LP erhöht.",
+        "desc": "Die maximale Aufladungsanzahl wird auf 4 reduziert. Der durch Folgeangriffe verursachte SCH von Blades Talent wird zusätzlich um 50% seiner max. LP erhöht.",
         "materials": [
             {
                 "id": "11205",
@@ -2963,7 +2963,7 @@
         "id": "120806",
         "name": "Wiederaufleben",
         "rank": 6,
-        "desc": "Sobald die „Matrix der Voraussicht“ aktiviert ist, werden die gesamten LP, die alle Verbündeten im aktuellen Kampf verloren haben, addiert. Der Ultimate-SCH von Fu Xuan erhöht sich um 200% der gesamten LP, die alle Verbündeten im aktuellen Kampf verloren haben.\\nDie von allen Verbündeten im aktuellen Kampf verlorenen LP sind auf 120% der max. LP von Fu Xuan begrenzt. Dieser Wert wird zurückgesetzt und neu angesammelt, nachdem Fu Xuans Ultimate eingesetzt wurde.",
+        "desc": "Sobald die „Matrix der Voraussicht“ aktiviert ist, werden die gesamten LP, die alle Verbündeten im aktuellen Kampf verloren haben, addiert. Der durch Ultimate von Fu Xuan verursachte SCH erhöht sich um 200% der gesamten LP, die alle Verbündeten im aktuellen Kampf verloren haben.\\nDie von allen Verbündeten im aktuellen Kampf verlorenen LP sind auf 120% der max. LP von Fu Xuan begrenzt. Dieser Wert wird zurückgesetzt und neu angesammelt, nachdem Fu Xuans Ultimate eingesetzt wurde.",
         "materials": [
             {
                 "id": "11208",
@@ -3503,7 +3503,7 @@
         "id": "121401",
         "name": "Dvesha, gefesselt",
         "rank": 1,
-        "desc": "Erhöht den SCH durch Folgeangriffe des Talents um 40%.",
+        "desc": "Erhöht den durch Folgeangriffe verursachten SCH des Talents um 40%.",
         "materials": [
             {
                 "id": "11214",
@@ -3804,6 +3804,316 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1217_rank6.png"
+    },
+    "121801": {
+        "id": "121801",
+        "name": "Vorbestimmung der Geschmäcke",
+        "rank": 1,
+        "desc": "Verbündete fügen Gegnern mit dem Status „Aschenbrennen“ 40% mehr SCH zu. Jedes Mal, wenn der Effekt des Talents ausgelöst und ein Gegner mit Aschenbrennen belegt wird, werden die Stapelungen von Aschenbrennen dieses Mal zusätzlich um 1 erhöht.",
+        "materials": [
+            {
+                "id": "11218",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1218_rank1.png"
+    },
+    "121802": {
+        "id": "121802",
+        "name": "Köstliche Gifte",
+        "rank": 2,
+        "desc": "Wenn der Gegner sich im Status „Aschenbrennen“ befindet, wird der Feuer-DoT-Multiplikator von Aschenbrennen an ihm um 300% erhöht.",
+        "materials": [
+            {
+                "id": "11218",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1218_rank2.png"
+    },
+    "121803": {
+        "id": "121803",
+        "name": "Unaufhaltsame Harmonie des Geschmacks",
+        "rank": 3,
+        "desc": "Fertigkeitsstufe +2 bis max. St. 15. Standardangriff-Stufe +1 bis max. St. 10.",
+        "materials": [
+            {
+                "id": "11218",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "121802",
+                "num": 2
+            },
+            {
+                "id": "121801",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1218_skill.png"
+    },
+    "121804": {
+        "id": "121804",
+        "name": "Innerer Frieden, blühende Lebenskraft",
+        "rank": 4,
+        "desc": "Solange das Feld aktiv ist, wird der ANG der Gegner um 15% reduziert.",
+        "materials": [
+            {
+                "id": "11218",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1218_rank4.png"
+    },
+    "121805": {
+        "id": "121805",
+        "name": "Kollision von Licht und Schatten",
+        "rank": 5,
+        "desc": "Ultimate-Stufe +2 bis max. St. 15. Talentstufe +2 bis max. St. 15.",
+        "materials": [
+            {
+                "id": "11218",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "121803",
+                "num": 2
+            },
+            {
+                "id": "121804",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1218_ultimate.png"
+    },
+    "121806": {
+        "id": "121806",
+        "name": "Feuer in neun Stufen",
+        "rank": 6,
+        "desc": "Wenn ein Gegner besiegt wird, werden seine Stapelungen „Aschenbrennen“ auf den Gegner mit der niedrigsten verbleibenden Stapelzahl von Aschenbrennen auf dem Kampffeld übertragen. Das Stapelungslimit von Aschenbrennen wird auf 9 erhöht. Jede Stapelung von Aschenbrennen reduziert den WDS aller Typen des Ziels um 3%.",
+        "materials": [
+            {
+                "id": "11218",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1218_rank6.png"
+    },
+    "122101": {
+        "id": "122101",
+        "name": "Polierter Stahl",
+        "rank": 1,
+        "desc": "Erhöht den SCH durch „Intuition: Abtrennen“ und „Intuition: Auslöschen“ um 20%. Erhöht die Anzahl des zusätzlichen SCH durch „Intuition: Auslöschen“ um 3.",
+        "materials": [
+            {
+                "id": "11221",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1221_rank1.png"
+    },
+    "122102": {
+        "id": "122102",
+        "name": "Erwachter Schimmer",
+        "rank": 2,
+        "desc": "Wenn durch einen Konter SCH verursacht wird, werden 20% der VTD des Ziels ignoriert.",
+        "materials": [
+            {
+                "id": "11221",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1221_rank2.png"
+    },
+    "122103": {
+        "id": "122103",
+        "name": "Bergspalter-Kluft",
+        "rank": 3,
+        "desc": "Ultimate-Stufe +2 bis max. St. 15. Standardangriff-Stufe +1 bis max. St. 10.",
+        "materials": [
+            {
+                "id": "11221",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "122103",
+                "num": 2
+            },
+            {
+                "id": "122101",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1221_skill.png"
+    },
+    "122104": {
+        "id": "122104",
+        "name": "Meisterschlag",
+        "rank": 4,
+        "desc": "Nach dem Einsatz von „Intuition: Abtrennen“ oder „Intuition: Auslöschen“ wird der eigene Effekt-WDS für 1 Rd. um 50% erhöht.",
+        "materials": [
+            {
+                "id": "11221",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1221_rank4.png"
+    },
+    "122105": {
+        "id": "122105",
+        "name": "Beharrliche Waffen",
+        "rank": 5,
+        "desc": "Fertigkeitsstufe +2 bis max. St. 15. Talentstufe +2 bis max. St. 15.",
+        "materials": [
+            {
+                "id": "11221",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "122102",
+                "num": 2
+            },
+            {
+                "id": "122104",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1221_ultimate.png"
+    },
+    "122106": {
+        "id": "122106",
+        "name": "Mut des Schwerts, Wille der Zither",
+        "rank": 6,
+        "desc": "Wenn ein Gegner während des Status „Parade“ Fähigkeiten einsetzt, wird „Intuition: Auslöschen“ ausgelöst und Parade entfernt, unabhängig davon, ob Yunli angegriffen wird oder nicht. Wenn Intuition: Abtrennen oder Intuition: Auslöschen SCH verursacht, wird die KRIT-Rate um 15% und die physische WDS-DUR um 20% erhöht.",
+        "materials": [
+            {
+                "id": "11221",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1221_rank6.png"
+    },
+    "122401": {
+        "id": "122401",
+        "name": "Mein Schwert rührt das Sternenlicht",
+        "rank": 1,
+        "desc": "Wenn sich der „Meister“ auf dem Kampffeld befindet, wird 7. März’ GES um 10% erhöht.",
+        "materials": [
+            {
+                "id": "11224",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1224_rank1.png"
+    },
+    "122402": {
+        "id": "122402",
+        "name": "Klingentanz im Schnee",
+        "rank": 2,
+        "desc": "Jedes Mal, wenn der „Meister“ einen Standardangriff oder eine Fertigkeit gegen einen Gegner einsetzt, startet 7. März sofort einen Folgeangriff, der dem Hauptziel dieses Angriffs imaginären SCH in Höhe von 60% von 7. März’ ANG zufügt und den entsprechenden Effekt basierend auf dem Pfad des Meisters auslöst. 7. März erhält danach 1 Pkt. Aufladung. Greift bei nicht vorhandenem Hauptziel einen zufälligen Gegner an. Dieser Effekt kann nur 1-mal pro Runde ausgelöst werden.",
+        "materials": [
+            {
+                "id": "11224",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1224_rank2.png"
+    },
+    "122403": {
+        "id": "122403",
+        "name": "Kluge Köpfe und starke Fähigkeiten",
+        "rank": 3,
+        "desc": "Fertigkeitsstufe +2 bis max. St. 15. Standardangriff-Stufe +1 bis max. St. 10.",
+        "materials": [
+            {
+                "id": "11224",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "122402",
+                "num": 2
+            },
+            {
+                "id": "122401",
+                "num": 1
+            },
+            {
+                "id": "122408",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1224_skill.png"
+    },
+    "122404": {
+        "id": "122404",
+        "name": "Auch Drachen können süß sein",
+        "rank": 4,
+        "desc": "Stellt zu Beginn der Runde 5 Pkt. Energie wieder her.",
+        "materials": [
+            {
+                "id": "11224",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1224_rank4.png"
+    },
+    "122405": {
+        "id": "122405",
+        "name": "Mehr Kampfkunst, weniger Süßigkeiten",
+        "rank": 5,
+        "desc": "Ultimate-Stufe +2 bis max. St. 15. Talentstufe +2 bis max. St. 15.",
+        "materials": [
+            {
+                "id": "11224",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "122403",
+                "num": 2
+            },
+            {
+                "id": "122404",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1224_ultimate.png"
+    },
+    "122406": {
+        "id": "122406",
+        "name": "Das beste Mädchen der Welt",
+        "rank": 6,
+        "desc": "Erhöht nach dem Einsatz des Ultimates den verursachten KRIT-SCH des nächsten verstärkten Standardangriffs um 50%.",
+        "materials": [
+            {
+                "id": "11224",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1224_rank6.png"
     },
     "130101": {
         "id": "130101",
@@ -4313,7 +4623,7 @@
         "id": "130506",
         "name": "Ewige Wahrheit",
         "rank": 6,
-        "desc": "Erhöht die Auslösungsanzahl für „Torheit der Weisen“ um 1. Der SCH durch den Folgeangriff des Talents wird um 50% erhöht.",
+        "desc": "Erhöht die Auslösungsanzahl für „Torheit der Weisen“ um 1. Der durch Folgeangriffe verursachte SCH des Talents wird um 50% erhöht.",
         "materials": [
             {
                 "id": "11305",
@@ -4963,7 +5273,7 @@
         "id": "131401",
         "name": "Uneigennützigkeit? Auch handelbar",
         "rank": 1,
-        "desc": "Der Folgeangriff von Jades Talent verursacht 32% mehr SCH. Wenn eine Figur mit „Schuldeneintreiber“ angrifft und 2/1 Gegner trifft, erhält Jade zusätzlich 1/2 Pkt. Aufladung.",
+        "desc": "Erhöht den Folgeangriff-SCH von Jades Talent um 32%. Wenn ein Verbündeter als „Schuldeneintreiber“ angreift und 2/1 Gegner trifft, erhält Jade zusätzlich 1/2 Pkt. Aufladung.",
         "materials": [
             {
                 "id": "11314",
@@ -4977,7 +5287,7 @@
         "id": "131402",
         "name": "Moralität? Hiermit bescheinigt",
         "rank": 2,
-        "desc": "Wenn „Verpfändung“ 15 Stapelung(en) erreicht, wird Jades KRIT-Rate um 18% erhöht.",
+        "desc": "Wenn „Verpfändung“ 15 Stapelungen erreicht, wird Jades KRIT-Rate um 18% erhöht.",
         "materials": [
             {
                 "id": "11314",
@@ -5051,7 +5361,7 @@
         "id": "131406",
         "name": "Gerechtigkeit? Ausstehender Sponsor",
         "rank": 6,
-        "desc": "Wenn sich Verbündete mit „Schuldeneintreiber“ auf dem Kampffeld befinden, wird Jades Quanten-WDS-DUR um 20% erhöht und sie tritt in den Status Schuldeneintreiber ein.",
+        "desc": "Wenn sich ein Verbündeter als „Schuldeneintreiber“ auf dem Feld befindet, wird Jades Quanten-WDS-DUR um 20% erhöht und sie tritt in den Status Schuldeneintreiber ein.",
         "materials": [
             {
                 "id": "11314",

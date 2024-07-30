@@ -427,7 +427,7 @@
         "effect": "SingleAttack",
         "effect_text": "Cible unique",
         "simple_desc": "Inflige des DGT de vent à un ennemi unique. En cas de coup critique, il y a de fortes chances de ralentir l'ennemi.",
-        "desc": "Inflige des DGT de vent équivalents à #1[i]% de l'ATQ de Dan Heng à un ennemi unique.\nEn cas de coup critique, il y a #4[i]% de chances de base de réduire la VIT de la cible de #2[i]% pendant #3[i] tours.",
+        "desc": "Inflige des DGT de vent équivalents à #1[i]% de l'ATQ de Dan Heng à un ennemi unique.\nSi les DGT infligés par la compétence résultent en un coup critique, il y a #4[i]% de chances de base de réduire la VIT de la cible de #2[i]% pendant #3[i] tours.",
         "params": [
             [
                 1.3,
@@ -532,7 +532,7 @@
         "effect": "SingleAttack",
         "effect_text": "Cible unique",
         "simple_desc": "Inflige des DGT de vent massifs à un ennemi unique. Si l'ennemi est ralenti, le multiplicateur des dégâts infligés augmente.",
-        "desc": "Inflige des DGT de vent équivalents à #1[i]% de l'ATQ de Dan Heng à un ennemi unique. Si l'ennemi est ralenti, le multiplicateur de DGT de l'ultime augmente de #2[i]%.",
+        "desc": "Inflige des DGT de vent équivalents à #1[i]% de l'ATQ de Dan Heng à un ennemi unique. Si l'ennemi est ralenti, le multiplicateur des DGT infligés par l'ultime augmente de #2[i]%.",
         "params": [
             [
                 2.4,
@@ -906,7 +906,7 @@
         "type_text": "Talent",
         "effect": "AoEAttack",
         "effect_text": "ZdE",
-        "simple_desc": "Obtient un cumul de Charge lorsqu'un ennemi subit une Rupture de faiblesse.\nLorsque la Charge est complète, après une attaque alliée, Himeko lance immédiatement une attaque de suivi qui inflige des DGT de feu à tous les ennemis, en consommant tous les cumuls de Charge.\nGagne 1 cumul de Charge au début de chaque combat.",
+        "simple_desc": "Obtient un point de Charge lorsqu'un ennemi subit une Rupture de faiblesse.\nLorsque la Charge est complète, après une attaque alliée, Himeko lance immédiatement une attaque de suivi qui inflige des DGT de feu à tous les ennemis, en consommant tous les points de Charge.\nGagne 1 point de Charge au début de chaque combat.",
         "desc": "Lorsqu'un ennemi subit une Rupture de faiblesse, Himeko obtient 1 point de Charge (#2[i] points max).\nSi la Charge de Himeko est au maximum lorsqu'un allié attaque, Himeko effectue immédiatement 1 attaque de suivi et inflige des DGT de feu équivalents à #1[i]% de son ATQ à tous les ennemis, consommant tous les points de Charge.\nHimeko obtient 1 point de Charge en début de combat.",
         "params": [
             [
@@ -5161,7 +5161,7 @@
         "effect": "Enhance",
         "effect_text": "Renforcement",
         "simple_desc": "Réduit les DGT subis, augmente les chances d'être attaqué par les ennemis et renforce les contres.",
-        "desc": "Après utilisation de l'ultime de Clara, les DGT qu'elle subit sont réduits de #4[i]% supplémentaires et ses chances d'être attaquée par les ennemis sont considérablement augmentées pendant #3[i] tours.\nD'autre part, le contre de Svarog est renforcé. Lorsqu'un allié est attaqué, Svarog lance immédiatement un contre et son multiplicateur de DGT contre l'ennemi augmente de #2[i]%. Les ennemis adjacents subissent 50 % des DGT infligés à la cible ennemie. Le contre renforcé peut prendre effet #5[i] fois.",
+        "desc": "Après utilisation de l'ultime de Clara, les DGT qu'elle subit sont réduits de #4[i]% supplémentaires et ses chances d'être attaquée par les ennemis sont considérablement augmentées pendant #3[i] tours.\nD'autre part, le contre de Svarog est renforcé. Lorsqu'un allié est attaqué, Svarog lance immédiatement un contre et son multiplicateur de DGT contre l'ennemi augmente de #2[i]%. Les ennemis adjacents subissent 50 % des DGT infligés à la cible ennemie principale. Le contre renforcé peut prendre effet #5[i] fois.",
         "params": [
             [
                 5,
@@ -7103,8 +7103,8 @@
         "type_text": "Compétence",
         "effect": "SingleAttack",
         "effect_text": "Cible unique",
-        "simple_desc": "Applique Reconnaissance de dette à un ennemi unique, ce qui augmente les DGT qu'il subit de la part des attaques de suivi. Compti inflige des DGT de feu à la cible.",
-        "desc": "Applique Reconnaissance de dette à une cible ennemie unique, ce qui augmente les DGT des attaques de suivi qu'elle subit de #2[i]%. Reconnaissance de dette ne s'applique qu'à sa dernière cible. Si aucun ennemi sur le champ de bataille n'est affecté par Reconnaissance de dette au début du tour ou pendant l'action d'un allié, Topaz applique Reconnaissance de dette à une cible ennemie aléatoire.\nCompti inflige des DGT de feu équivalents à #1[i]% de l'ATQ de Topaz à cette cible. Les DGT infligés par cette compétence sont considérés comme provenant d'une attaque de suivi.",
+        "simple_desc": "Applique Reconnaissance de dette à un ennemi unique, ce qui augmente les DGT d'attaque de suivi qu'il subit. Compti inflige des DGT de feu à la cible.",
+        "desc": "Applique Reconnaissance de dette à une cible ennemie unique, ce qui augmente les DGT d'attaque de suivi qu'elle subit de #2[i]%. Reconnaissance de dette ne s'applique qu'à sa dernière cible. Si aucun ennemi sur le champ de bataille n'est affecté par Reconnaissance de dette au début du tour ou pendant l'action d'un allié, Topaz applique Reconnaissance de dette à une cible ennemie aléatoire.\nCompti inflige des DGT de feu équivalents à #1[i]% de l'ATQ de Topaz à cette cible. Les DGT infligés par cette compétence sont considérés comme provenant d'une attaque de suivi.",
         "params": [
             [
                 0.75,
@@ -8292,8 +8292,8 @@
         "type_text": "Talent",
         "effect": "Restore",
         "effect_text": "Restauration",
-        "simple_desc": "Déploie un Champ lorsque Fleur de l'abîme atteint 2 cumuls. Tant que le Champ est actif, les alliés récupèrent des PV après avoir attaqué.",
-        "desc": "Lorsque le nombre de cumuls de Fleur de l'abîme atteint #1[i], Luocha consomme tous les cumuls de Fleur de l'abîme pour déployer un Champ hostile aux ennemis.\nLorsqu'un ennemi situé dans le Champ est attaqué par un allié, les PV de ce dernier sont immédiatement restaurés à hauteur de #2[f1]% de l'ATQ de Luocha + #4[i].\nL'effet du Champ dure #3[i] tours. Le Champ se dissipe lorsque Luocha est à terre.",
+        "simple_desc": "Déploie une zone lorsque Fleur de l'abîme atteint 2 cumuls. Tant que la zone est active, les alliés récupèrent des PV après avoir attaqué.",
+        "desc": "Lorsque le nombre de cumuls de Fleur de l'abîme atteint #1[i], Luocha consomme tous les cumuls de Fleur de l'abîme pour déployer une zone hostile aux ennemis.\nLorsqu'un ennemi situé dans la zone est attaqué par un allié, les PV de ce dernier sont immédiatement restaurés à hauteur de #2[f1]% de l'ATQ de Luocha + #4[i].\nL'effet de la zone dure #3[i] tours. La zone se dissipe lorsque Luocha est à terre.",
         "params": [
             [
                 2,
@@ -8618,7 +8618,7 @@
         "effect": "Bounce",
         "effect_text": "Rebond",
         "simple_desc": "Invoque le Seigneur de la foudre au début du combat. Le Seigneur de la foudre inflige des DGT de foudre mineurs automatiquement à une cible ennemie aléatoire et aux ennemis adjacents.",
-        "desc": "Invoque le Seigneur de la foudre en début de combat. Le Seigneur de la foudre dispose d'une VIT de base de #1[i] et d'un nombre de frappes par action de base de #4[i]. Lorsque le Seigneur de la foudre agit, ses frappes sont considérées comme des attaques de suivi, chacune infligeant des DGT de foudre équivalents à #2[i]% de l'ATQ de Jing Yuan à un ennemi unique aléatoire, et les ennemis adjacents subissent également des DGT de foudre équivalents à #5[i]% des DGT infligés à l'ennemi principal.\nLe nombre de frappes par action du Seigneur de la foudre peut atteindre un maximum de #6[i]. Chaque fois que le nombre de frappes par action du Seigneur de la foudre augmente de 1, sa VIT augmente de #3[i]. Une fois l'action du Seigneur de la foudre terminée, sa VIT et son nombre de frappes par action retrouvent leurs valeurs de base.\nLorsque Jing Yuan est à terre, le Seigneur de la foudre disparaît.\nLorsque Jing Yuan est affecté par un malus de contrôle, le Seigneur de la foudre ne peut plus agir.",
+        "desc": "Invoque le Seigneur de la foudre en début de combat. Le Seigneur de la foudre dispose d'une VIT de base de #1[i] et d'un nombre de frappes par action de base de #4[i]. Lorsque le Seigneur de la foudre agit, ses frappes sont considérées comme des attaques de suivi, chacune infligeant des DGT de foudre équivalents à #2[i]% de l'ATQ de Jing Yuan à un ennemi unique aléatoire, et les ennemis adjacents subissent également des DGT de foudre équivalents à #5[i]% des DGT infligés à la cible ennemie principale.\nLe nombre de frappes par action du Seigneur de la foudre peut atteindre un maximum de #6[i]. Chaque fois que le nombre de frappes par action du Seigneur de la foudre augmente de 1, sa VIT augmente de #3[i]. Une fois l'action du Seigneur de la foudre terminée, sa VIT et son nombre de frappes par action retrouvent leurs valeurs de base.\nLorsque Jing Yuan est à terre, le Seigneur de la foudre disparaît.\nLorsque Jing Yuan est affecté par un malus de contrôle, le Seigneur de la foudre ne peut plus agir.",
         "params": [
             [
                 60,
@@ -13353,7 +13353,7 @@
         "effect": "Restore",
         "effect_text": "Restauration",
         "simple_desc": "Huohuo obtient Intervention divine après avoir utilisé sa compétence. Si Huohuo bénéficie d'Intervention divine au début du tour d'un allié ou lorsqu'un allié utilise un ultime, restaure les PV de cet allié. Aussi, soigne une fois tous les alliés dont les PV sont bas. Lorsqu'Intervention divine se déclenche pour soigner un allié, dissipe 1 malus dont souffre cet allié.",
-        "desc": "Huohuo gagne Intervention divine après avoir utilisé sa compétence, pour une durée de #1[i] tours. Ce décompte est réduit de 1 au début de chaque tour de Huohuo. Si Huohuo bénéficie d'Intervention divine au début du tour d'un allié ou lorsqu'un allié utilise un ultime, restaure les PV de cet allié à hauteur de #3[f1]% des PV max de Huohuo + #5[i]. Aussi, soigne une fois tous les alliés dont les PV sont inférieurs ou égaux à #6[i]% de leurs PV max.\nQuand Intervention divine se déclenche pour soigner un allié, dissipe #2[i] malus dont souffre cet allié. Cet effet peut être déclenché #7[i] fois. Utiliser la compétence réinitialise le décompte.",
+        "desc": "Huohuo gagne Intervention divine après avoir utilisé sa compétence, pour une durée de #1[i] tours. Cette durée diminue de 1 au début de chaque tour de Huohuo. Si Huohuo bénéficie d'Intervention divine au début du tour d'un allié ou lorsqu'un allié utilise un ultime, restaure les PV de cet allié à hauteur de #3[f1]% des PV max de Huohuo + #5[i]. Aussi, soigne une fois tous les alliés dont les PV sont inférieurs ou égaux à #6[i]% de leurs PV max.\nQuand Intervention divine se déclenche pour soigner un allié, dissipe #2[i] malus dont souffre cet allié. Cet effet peut être déclenché #7[i] fois. Utiliser la compétence réinitialise le décompte.",
         "params": [
             [
                 2,
@@ -13527,6 +13527,1285 @@
             ]
         ],
         "icon": "icon/skill/1217_technique.png"
+    },
+    "121801": {
+        "id": "121801",
+        "name": "Cœur de flamme",
+        "max_level": 9,
+        "element": "Fire",
+        "type": "Normal",
+        "type_text": "ATQ normale",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "Inflige des DGT de feu mineurs à un ennemi unique.",
+        "desc": "Inflige des DGT de feu équivalents à #1[i]% de l'ATQ de Jiaoqiu à une cible ennemie unique.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1218_basic_atk.png"
+    },
+    "121802": {
+        "id": "121802",
+        "name": "Lancer d'épices",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "BPSkill",
+        "type_text": "Compétence",
+        "effect": "Blast",
+        "effect_text": "Propagation",
+        "simple_desc": "Inflige des DGT de feu à un ennemi unique et des DGT de feu mineurs aux cibles adjacentes, avec de fortes chances d'appliquer 1 cumul de Charbons ardents à la cible principale.",
+        "desc": "Inflige des DGT de feu équivalents à #1[i]% de l'ATQ de Jiaoqiu à une cible ennemie unique et des DGT de feu équivalents à #2[i]% de l'ATQ de Jiaoqiu aux cibles adjacentes, avec #3[i]% de chances de base d'infliger 1 cumul de Charbons ardents à la cible principale.",
+        "params": [
+            [
+                0.75,
+                0.45,
+                1
+            ],
+            [
+                0.825,
+                0.495,
+                1
+            ],
+            [
+                0.9,
+                0.54,
+                1
+            ],
+            [
+                0.975,
+                0.585,
+                1
+            ],
+            [
+                1.05,
+                0.63,
+                1
+            ],
+            [
+                1.125,
+                0.675,
+                1
+            ],
+            [
+                1.2188,
+                0.7312,
+                1
+            ],
+            [
+                1.3125,
+                0.7875,
+                1
+            ],
+            [
+                1.4062,
+                0.8438,
+                1
+            ],
+            [
+                1.5,
+                0.9,
+                1
+            ],
+            [
+                1.575,
+                0.945,
+                1
+            ],
+            [
+                1.65,
+                0.99,
+                1
+            ],
+            [
+                1.725,
+                1.035,
+                1
+            ],
+            [
+                1.8,
+                1.08,
+                1
+            ],
+            [
+                1.875,
+                1.125,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1218_skill.png"
+    },
+    "121803": {
+        "id": "121803",
+        "name": "Arcanes pyrogramiques",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "Ultra",
+        "type_text": "Ultime",
+        "effect": "AoEAttack",
+        "effect_text": "ZdE",
+        "simple_desc": "Ajuste le nombre de cumuls de Charbons ardents sur les cibles ennemies au nombre maximum de cumuls de Charbons ardents présent sur le champ de bataille. Puis, active une zone et inflige des DGT de feu à tous les ennemis. Les cibles ennemies à l'intérieur de la zone subissent plus de DGT d'ultime et ont une chance de se voir appliqué 1 cumul de Charbons ardents à chaque action.",
+        "desc": "Ajuste le nombre de cumuls de Charbons ardents sur les cibles ennemies au nombre maximum de cumuls de Charbons ardents présent sur le champ de bataille. Puis, active une zone et inflige des DGT de feu équivalents à #1[i]% de l'ATQ de Jiaoqiu à tous les ennemis.\nLes cibles ennemies situées dans la zone subissent #3[f1]% de DGT d'ultime supplémentaires et ont #2[i]% de chances de base de se voir appliqué 1 cumul de Charbons ardents à chaque action. Cet effet peut se déclencher jusqu'à #5[i] fois pendant la durée de la zone, chaque cible ennemie ne pouvant être affectée qu'une fois par tour. Le nombre de déclenchements se réinitialise à chaque fois que Jiaoqiu utilise son ultime.\nLa zone dure #4[i] tours et sa durée diminue de 1 tour au début de chaque tour de Jiaoqiu. Si Jiaoqiu est à terre, la zone est également dissipée.",
+        "params": [
+            [
+                0.6,
+                0.5,
+                0.09,
+                3,
+                6
+            ],
+            [
+                0.64,
+                0.51,
+                0.096,
+                3,
+                6
+            ],
+            [
+                0.68,
+                0.52,
+                0.102,
+                3,
+                6
+            ],
+            [
+                0.72,
+                0.53,
+                0.108,
+                3,
+                6
+            ],
+            [
+                0.76,
+                0.54,
+                0.114,
+                3,
+                6
+            ],
+            [
+                0.8,
+                0.55,
+                0.12,
+                3,
+                6
+            ],
+            [
+                0.85,
+                0.5625,
+                0.1275,
+                3,
+                6
+            ],
+            [
+                0.9,
+                0.575,
+                0.135,
+                3,
+                6
+            ],
+            [
+                0.95,
+                0.5875,
+                0.1425,
+                3,
+                6
+            ],
+            [
+                1,
+                0.6,
+                0.15,
+                3,
+                6
+            ],
+            [
+                1.04,
+                0.61,
+                0.156,
+                3,
+                6
+            ],
+            [
+                1.08,
+                0.62,
+                0.162,
+                3,
+                6
+            ],
+            [
+                1.12,
+                0.63,
+                0.168,
+                3,
+                6
+            ],
+            [
+                1.16,
+                0.64,
+                0.174,
+                3,
+                6
+            ],
+            [
+                1.2,
+                0.65,
+                0.18,
+                3,
+                6
+            ]
+        ],
+        "icon": "icon/skill/1218_ultimate.png"
+    },
+    "121804": {
+        "id": "121804",
+        "name": "Force et raffinement",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Impair",
+        "effect_text": "Incapacitation",
+        "simple_desc": "Jiaoqiu a de fortes chances d'appliquer 1 cumul de Charbons ardents après avoir attaqué une cible, ce qui augmente les DGT qu'elle subit et la considère comme subissant l'état Brûlure.",
+        "desc": "Chaque fois que Jiaoqiu touche un ennemi avec son ATQ normale, sa compétence ou son ultime, il a #1[i]% de chances de base de lui appliquer 1 cumul de Charbons ardents. À 1 cumul, les DGT subis par l'ennemi augmentent de #2[f1]%, puis chaque cumul supplémentaire augmente les DGT subis de #3[f1]%.\nCharbons ardents peut se cumuler jusqu'à #4[i] fois et dure #5[i] tours.\nLorsqu'une cible ennemie est dans l'état Charbons ardents, elle est également considérée en état de Brûlure et elle subit des dégâts de feu sur la durée équivalents à #6[i]% de l'ATQ de Jiaoqiu au début de chaque tour.",
+        "params": [
+            [
+                1,
+                0.075,
+                0.025,
+                5,
+                2,
+                0.9
+            ],
+            [
+                1,
+                0.0825,
+                0.0275,
+                5,
+                2,
+                0.99
+            ],
+            [
+                1,
+                0.09,
+                0.03,
+                5,
+                2,
+                1.08
+            ],
+            [
+                1,
+                0.0975,
+                0.0325,
+                5,
+                2,
+                1.17
+            ],
+            [
+                1,
+                0.105,
+                0.035,
+                5,
+                2,
+                1.26
+            ],
+            [
+                1,
+                0.1125,
+                0.0375,
+                5,
+                2,
+                1.35
+            ],
+            [
+                1,
+                0.1219,
+                0.0406,
+                5,
+                2,
+                1.4625
+            ],
+            [
+                1,
+                0.1313,
+                0.0437,
+                5,
+                2,
+                1.575
+            ],
+            [
+                1,
+                0.1406,
+                0.0469,
+                5,
+                2,
+                1.6875
+            ],
+            [
+                1,
+                0.15,
+                0.05,
+                5,
+                2,
+                1.8
+            ],
+            [
+                1,
+                0.1575,
+                0.0525,
+                5,
+                2,
+                1.89
+            ],
+            [
+                1,
+                0.165,
+                0.055,
+                5,
+                2,
+                1.98
+            ],
+            [
+                1,
+                0.1725,
+                0.0575,
+                5,
+                2,
+                2.07
+            ],
+            [
+                1,
+                0.18,
+                0.06,
+                5,
+                2,
+                2.16
+            ],
+            [
+                1,
+                0.1875,
+                0.0625,
+                5,
+                2,
+                2.25
+            ]
+        ],
+        "icon": "icon/skill/1218_talent.png"
+    },
+    "121806": {
+        "id": "121806",
+        "name": "Attaque",
+        "max_level": 1,
+        "element": "Fire",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
+        "params": [],
+        "icon": "icon/skill/1218_basic_atk.png"
+    },
+    "121807": {
+        "id": "121807",
+        "name": "Réprimande ardente",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Impair",
+        "effect_text": "Incapacitation",
+        "simple_desc": "Crée une dimension spéciale. Inflige des DGT de feu mineurs à tous les ennemis et a de fortes chances d'appliquer 1 cumul de Charbons ardents après être entré en combat avec des ennemis dans cette dimension.",
+        "desc": "Crée une dimension spéciale qui dure #2[i] secondes après avoir utilisé la technique. Inflige des DGT de feu équivalents à #1[i]% de l'ATQ de Jiaoqiu à tous les ennemis, avec #3[i]% de chances de base d'appliquer 1 cumul de Charbons ardents après être entré en combat avec des ennemis dans cette dimension. Il ne peut exister qu'1 dimension créée par les alliés à la fois.",
+        "params": [
+            [
+                1,
+                15,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1218_technique.png"
+    },
+    "122101": {
+        "id": "122101",
+        "name": "Frappe tourbillonnante",
+        "max_level": 9,
+        "element": "Physical",
+        "type": "Normal",
+        "type_text": "ATQ normale",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "Inflige des DGT physiques mineurs à un ennemi unique.",
+        "desc": "Inflige des DGT physiques équivalents à #1[i]% de l'ATQ de Yunli à une cible ennemie unique.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1221_basic_atk.png"
+    },
+    "122102": {
+        "id": "122102",
+        "name": "Lame de choc",
+        "max_level": 15,
+        "element": "Physical",
+        "type": "BPSkill",
+        "type_text": "Compétence",
+        "effect": "Blast",
+        "effect_text": "Propagation",
+        "simple_desc": "Restaure des PV au personnage et inflige des DGT physiques mineurs à un ennemi unique et aux cibles adjacentes.",
+        "desc": "Restaure des PV équivalents à #3[f1]% de l'ATQ de Yunli + #4[i], et inflige des DGT physiques équivalents à #1[i]% de l'ATQ de Yunli à une cible ennemie unique et des DGT physiques équivalents à #2[i]% de l'ATQ de Yunli aux cibles adjacentes.",
+        "params": [
+            [
+                0.6,
+                0.3,
+                0.2,
+                50
+            ],
+            [
+                0.66,
+                0.33,
+                0.2125,
+                80
+            ],
+            [
+                0.72,
+                0.36,
+                0.225,
+                102.5
+            ],
+            [
+                0.78,
+                0.39,
+                0.2375,
+                125
+            ],
+            [
+                0.84,
+                0.42,
+                0.25,
+                140
+            ],
+            [
+                0.9,
+                0.45,
+                0.26,
+                155
+            ],
+            [
+                0.975,
+                0.4875,
+                0.27,
+                166.25
+            ],
+            [
+                1.05,
+                0.525,
+                0.28,
+                177.5
+            ],
+            [
+                1.125,
+                0.5625,
+                0.29,
+                188.75
+            ],
+            [
+                1.2,
+                0.6,
+                0.3,
+                200
+            ],
+            [
+                1.26,
+                0.63,
+                0.31,
+                211.25
+            ],
+            [
+                1.32,
+                0.66,
+                0.32,
+                222.5
+            ],
+            [
+                1.38,
+                0.69,
+                0.33,
+                233.75
+            ],
+            [
+                1.44,
+                0.72,
+                0.34,
+                245
+            ],
+            [
+                1.5,
+                0.75,
+                0.35,
+                256.25
+            ]
+        ],
+        "icon": "icon/skill/1221_skill.png"
+    },
+    "122103": {
+        "id": "122103",
+        "name": "Du ciel à la terre",
+        "max_level": 15,
+        "element": "",
+        "type": "Ultra",
+        "type_text": "Ultime",
+        "effect": "Enhance",
+        "effect_text": "Renforcement",
+        "simple_desc": "Entre en état de Parade et provoque tous les ennemis, déclenchant un puissant contre lorsqu'elle est attaquée pendant cette période. Le contre inflige des DGT physiques à l'assaillant et aux cibles adjacentes, puis inflige des DGT physiques mineurs à un ennemi unique qui rebondissent 6 fois. Si aucun contre n'est déclenché pendant l'état Parade, inflige des DGT physiques à une cible ennemie aléatoire et aux cibles adjacentes à la fin de l'état.",
+        "desc": "Consomme #8[i] points d'énergie. Yunli obtient l'effet Parade et provoque tous les ennemis. Dure jusqu'à la fin du prochain tour allié ou ennemi et augmente les DGT critiques infligés par le prochain contre de Yunli de #2[i]%. Lorsque l'effet de contre du talent se déclenche dans l'état Parade, il est converti en contre Sens de l'éradication et supprime l'état Parade. Si aucun contre n'est déclenché dans l'état Parade, Yunli lance immédiatement le contre Sens de l'entaille sur une cible ennemie aléatoire à la fin de l'état Parade.\nSens de l'entaille : Inflige des DGT physiques équivalents à #1[i]% de l'ATQ de Yunli à la cible et des DGT physiques équivalents à #6[i]% de l'ATQ de Yunli aux cibles adjacentes.\nSens de l'éradication : Inflige des DGT physiques équivalents à #1[i]% de l'ATQ de Yunli à la cible et des DGT physiques équivalents à #6[i]% de l'ATQ de Yunli aux cibles adjacentes. Puis, inflige #4[i] instances de DGT supplémentaires, chacune infligeant des DGT physiques équivalents à #7[i]% de l'ATQ de Yunli à une cible ennemie unique aléatoire.\nLes DGT que Yunli inflige via cette capacité sont considérés comme des DGT d'ultime.",
+        "params": [
+            [
+                1.32,
+                0.6,
+                0,
+                6,
+                0,
+                0.66,
+                0.432,
+                120
+            ],
+            [
+                1.408,
+                0.64,
+                0,
+                6,
+                0,
+                0.704,
+                0.4608,
+                120
+            ],
+            [
+                1.496,
+                0.68,
+                0,
+                6,
+                0,
+                0.748,
+                0.4896,
+                120
+            ],
+            [
+                1.584,
+                0.72,
+                0,
+                6,
+                0,
+                0.792,
+                0.5184,
+                120
+            ],
+            [
+                1.672,
+                0.76,
+                0,
+                6,
+                0,
+                0.836,
+                0.5472,
+                120
+            ],
+            [
+                1.76,
+                0.8,
+                0,
+                6,
+                0,
+                0.88,
+                0.576,
+                120
+            ],
+            [
+                1.87,
+                0.85,
+                0,
+                6,
+                0,
+                0.935,
+                0.612,
+                120
+            ],
+            [
+                1.98,
+                0.9,
+                0,
+                6,
+                0,
+                0.99,
+                0.648,
+                120
+            ],
+            [
+                2.09,
+                0.95,
+                0,
+                6,
+                0,
+                1.045,
+                0.684,
+                120
+            ],
+            [
+                2.2,
+                1,
+                0,
+                6,
+                0,
+                1.1,
+                0.72,
+                120
+            ],
+            [
+                2.288,
+                1.04,
+                0,
+                6,
+                0,
+                1.144,
+                0.7488,
+                120
+            ],
+            [
+                2.376,
+                1.08,
+                0,
+                6,
+                0,
+                1.188,
+                0.7776,
+                120
+            ],
+            [
+                2.464,
+                1.12,
+                0,
+                6,
+                0,
+                1.232,
+                0.8064,
+                120
+            ],
+            [
+                2.552,
+                1.16,
+                0,
+                6,
+                0,
+                1.276,
+                0.8352,
+                120
+            ],
+            [
+                2.64,
+                1.2,
+                0,
+                6,
+                0,
+                1.32,
+                0.864,
+                120
+            ]
+        ],
+        "icon": "icon/skill/1221_ultimate.png"
+    },
+    "122104": {
+        "id": "122104",
+        "name": "Représailles de la forge",
+        "max_level": 15,
+        "element": "Physical",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Blast",
+        "effect_text": "Propagation",
+        "simple_desc": "Quand Yunli est attaquée par une cible ennemie, elle régénère de l'énergie supplémentaire et lance immédiatement un contre sur l'assaillant et les cibles adjacentes.",
+        "desc": "Quand Yunli est attaquée par une cible ennemie, elle régénère #3[i] points d'énergie et lance immédiatement un contre sur l'assaillant, ce qui lui inflige des DGT physiques équivalents à #1[i]% de l'ATQ de Yunli et inflige des DGT physiques équivalents à #2[i]% de l'ATQ de Yunli aux cibles adjacentes.\nContre une cible ennemie aléatoire s'il n'y a aucune cible immédiate à contrer.",
+        "params": [
+            [
+                0.6,
+                0.3,
+                15
+            ],
+            [
+                0.66,
+                0.33,
+                15
+            ],
+            [
+                0.72,
+                0.36,
+                15
+            ],
+            [
+                0.78,
+                0.39,
+                15
+            ],
+            [
+                0.84,
+                0.42,
+                15
+            ],
+            [
+                0.9,
+                0.45,
+                15
+            ],
+            [
+                0.975,
+                0.4875,
+                15
+            ],
+            [
+                1.05,
+                0.525,
+                15
+            ],
+            [
+                1.125,
+                0.5625,
+                15
+            ],
+            [
+                1.2,
+                0.6,
+                15
+            ],
+            [
+                1.26,
+                0.63,
+                15
+            ],
+            [
+                1.32,
+                0.66,
+                15
+            ],
+            [
+                1.38,
+                0.69,
+                15
+            ],
+            [
+                1.44,
+                0.72,
+                15
+            ],
+            [
+                1.5,
+                0.75,
+                15
+            ]
+        ],
+        "icon": "icon/skill/1221_talent.png"
+    },
+    "122106": {
+        "id": "122106",
+        "name": "Attaque",
+        "max_level": 1,
+        "element": "Physical",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
+        "params": [],
+        "icon": "icon/skill/1221_basic_atk.png"
+    },
+    "122107": {
+        "id": "122107",
+        "name": "Riposte anticipée",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Enhance",
+        "effect_text": "Renforcement",
+        "simple_desc": "Bénéficie de l'effet Protection pendant 20 secondes. Durant cette période, si le combat est engagé en attaquant un ennemi ou en subissant une attaque, Yunli inflige immédiatement Sens de l'éradication à une cible ennemie aléatoire.",
+        "desc": "Bénéficie de l'effet Protection pendant #2[i] secondes. Durant cette période, si le combat est engagé en attaquant un ennemi ou en subissant une attaque, Yunli inflige immédiatement Sens de l'éradication à une cible ennemie aléatoire et augmente les DGT infligés par cette attaque de #1[i]%.",
+        "params": [
+            [
+                0.8,
+                20
+            ]
+        ],
+        "icon": "icon/skill/1221_technique.png"
+    },
+    "122401": {
+        "id": "122401",
+        "name": "Lame tueuse de démons",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "ATQ normale",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "Inflige des DGT imaginaires mineurs à un ennemi unique et obtient 1 point de charge.",
+        "desc": "Inflige des DGT imaginaires équivalents à #1[i]% de l'ATQ de March 7th à un ennemi unique et obtient #2[i] point de charge.",
+        "params": [
+            [
+                0.5,
+                1
+            ],
+            [
+                0.6,
+                1
+            ],
+            [
+                0.7,
+                1
+            ],
+            [
+                0.8,
+                1
+            ],
+            [
+                0.9,
+                1
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1.1,
+                1
+            ],
+            [
+                1.2,
+                1
+            ],
+            [
+                1.3,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1224_basic_atk.png"
+    },
+    "122402": {
+        "id": "122402",
+        "name": "Maître, c'est l'heure du thé !",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Compétence",
+        "effect": "Support",
+        "effect_text": "Soutien",
+        "simple_desc": "Désigne un allié unique comme « Maître ». Chaque fois que March utilise son ATQ normale ou qu'elle inflige des DGT avec son ATQ normale renforcée, elle déclenche un effet qui correspond à la Voie du Maître :\nÉrudition, Destruction, Chasse : Inflige des DGT additionnels en fonction du type du Maître.\nHarmonie, Nihilité, Préservation, Abondance : Augmente la réduction de robustesse.",
+        "desc": "Désigne un allié unique (à l'exception de ce personnage) comme Maître et augmente sa VIT de #1[f1]%. Seule la dernière cible de la compétence de March 7th est considérée comme son « Maître ».\nChaque fois que March 7th utilise son ATQ normale ou qu'elle inflige des DGT avec 1 frappe de son ATQ normale renforcée, elle déclenche l'effet correspondant en fonction de la Voie du Maître :\nÉrudition, Destruction, Chasse : Inflige des DGT additionnels (dont le type correspond au type de combat du Maître) équivalents à #2[i]% de l'ATQ de March 7th.\nHarmonie, Nihilité, Préservation, Abondance : Augmente la réduction de robustesse de cette instance de DGT de #3[i]%.",
+        "params": [
+            [
+                0.06,
+                0.1,
+                1
+            ],
+            [
+                0.064,
+                0.11,
+                1
+            ],
+            [
+                0.068,
+                0.12,
+                1
+            ],
+            [
+                0.072,
+                0.13,
+                1
+            ],
+            [
+                0.076,
+                0.14,
+                1
+            ],
+            [
+                0.08,
+                0.15,
+                1
+            ],
+            [
+                0.085,
+                0.1625,
+                1
+            ],
+            [
+                0.09,
+                0.175,
+                1
+            ],
+            [
+                0.095,
+                0.1875,
+                1
+            ],
+            [
+                0.1,
+                0.2,
+                1
+            ],
+            [
+                0.104,
+                0.21,
+                1
+            ],
+            [
+                0.108,
+                0.22,
+                1
+            ],
+            [
+                0.112,
+                0.23,
+                1
+            ],
+            [
+                0.116,
+                0.24,
+                1
+            ],
+            [
+                0.12,
+                0.25,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1224_skill.png"
+    },
+    "122403": {
+        "id": "122403",
+        "name": "March 7th, héroïne suprême",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Ultra",
+        "type_text": "Ultime",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "Inflige des DGT imaginaires à un ennemi unique et augmente le nombre de frappes par action et les chances d'infliger des DGT de la prochaine ATQ normale renforcée.",
+        "desc": "Inflige des DGT imaginaires équivalents à #1[i]% de l'ATQ de March 7th à une cible ennemie unique.\nAugmente de #2[i] le nombre de frappes par action de la prochaine ATQ normale renforcée et augmente les chances fixes d'infliger des DGT supplémentaires de #3[i]%.",
+        "params": [
+            [
+                1.44,
+                2,
+                0.2
+            ],
+            [
+                1.536,
+                2,
+                0.2
+            ],
+            [
+                1.632,
+                2,
+                0.2
+            ],
+            [
+                1.728,
+                2,
+                0.2
+            ],
+            [
+                1.824,
+                2,
+                0.2
+            ],
+            [
+                1.92,
+                2,
+                0.2
+            ],
+            [
+                2.04,
+                2,
+                0.2
+            ],
+            [
+                2.16,
+                2,
+                0.2
+            ],
+            [
+                2.28,
+                2,
+                0.2
+            ],
+            [
+                2.4,
+                2,
+                0.2
+            ],
+            [
+                2.496,
+                2,
+                0.2
+            ],
+            [
+                2.592,
+                2,
+                0.2
+            ],
+            [
+                2.688,
+                2,
+                0.2
+            ],
+            [
+                2.784,
+                2,
+                0.2
+            ],
+            [
+                2.88,
+                2,
+                0.2
+            ]
+        ],
+        "icon": "icon/skill/1224_ultimate.png"
+    },
+    "122404": {
+        "id": "122404",
+        "name": "J'ai compris, Maître !",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Enhance",
+        "effect_text": "Renforcement",
+        "simple_desc": "March 7th obtient des points de charge à chaque fois que le Maître utilise une attaque ou un ultime. À 7 points de charge ou plus, March 7th agit immédiatement et augmente ses DGT. Son ATQ normale devient renforcée.",
+        "desc": "March 7th gagne 1 point de charge à chaque fois que le Maître utilise une attaque ou un ultime.\nÀ #1[i] points de charge ou plus, March 7th agit immédiatement et augmente ses DGT de #2[i]%. Son ATQ normale est renforcée et elle ne peut plus utiliser sa compétence. L'utilisation de l'ATQ normale renforcée consomme #1[i] points de charge. Les points de charge sont limités à un maximum de #3[i].",
+        "params": [
+            [
+                7,
+                0.4,
+                10
+            ],
+            [
+                7,
+                0.44,
+                10
+            ],
+            [
+                7,
+                0.48,
+                10
+            ],
+            [
+                7,
+                0.52,
+                10
+            ],
+            [
+                7,
+                0.56,
+                10
+            ],
+            [
+                7,
+                0.6,
+                10
+            ],
+            [
+                7,
+                0.65,
+                10
+            ],
+            [
+                7,
+                0.7,
+                10
+            ],
+            [
+                7,
+                0.75,
+                10
+            ],
+            [
+                7,
+                0.8,
+                10
+            ],
+            [
+                7,
+                0.84,
+                10
+            ],
+            [
+                7,
+                0.88,
+                10
+            ],
+            [
+                7,
+                0.92,
+                10
+            ],
+            [
+                7,
+                0.96,
+                10
+            ],
+            [
+                7,
+                1,
+                10
+            ]
+        ],
+        "icon": "icon/skill/1224_talent.png"
+    },
+    "122406": {
+        "id": "122406",
+        "name": "Attaque",
+        "max_level": 1,
+        "element": "Imaginary",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
+        "params": [],
+        "icon": "icon/skill/1224_basic_atk.png"
+    },
+    "122407": {
+        "id": "122407",
+        "name": "Repas sur le pouce",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Enhance",
+        "effect_text": "Renforcement",
+        "simple_desc": "March 7th obtient une charge pour le prochain combat chaque fois qu'un allié autre qu'elle utilise sa technique. Lorsque March 7th utilise sa technique, elle régénère des points d'énergie au début du prochain combat.",
+        "desc": "Lorsque March 7th fait partie de l'équipe, elle obtient 1 point de charge pour le prochain combat à chaque fois qu'un allié autre qu'elle utilise sa technique, jusqu'à un maximum de #1[i] points.\nLorsque March 7th utilise sa technique, elle régénère #2[i] points d'énergie au début du prochain combat.",
+        "params": [
+            [
+                3,
+                30
+            ]
+        ],
+        "icon": "icon/skill/1224_technique.png"
+    },
+    "122408": {
+        "id": "122408",
+        "name": "Déluge de lames",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "ATQ normale",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "Inflige des DGT imaginaires à un ennemi unique sous forme de 3 frappes initiales, et avec des chances d'infliger jusqu'à 3 frappes supplémentaires.",
+        "desc": "Cette attaque inflige des DGT #4[i] fois initialement, chaque frappe infligeant des DGT imaginaires équivalents à #1[i]% de l'ATQ de March 7th à la cible ennemie. Après la frappe finale, il y a #2[i]% de chances fixes d'infliger 1 frappe supplémentaire, jusqu'à un maximum de #3[i] frappes supplémentaires. L'énergie régénérée par l'utilisation de l'ATQ normale renforcée n'augmente pas avec le nombre de frappes par action.\nL'ATQ normale renforcée ne permet pas de récupérer de points de compétence.",
+        "params": [
+            [
+                0.4,
+                0.6,
+                3,
+                3
+            ],
+            [
+                0.48,
+                0.6,
+                3,
+                3
+            ],
+            [
+                0.56,
+                0.6,
+                3,
+                3
+            ],
+            [
+                0.64,
+                0.6,
+                3,
+                3
+            ],
+            [
+                0.72,
+                0.6,
+                3,
+                3
+            ],
+            [
+                0.8,
+                0.6,
+                3,
+                3
+            ],
+            [
+                0.88,
+                0.6,
+                3,
+                3
+            ],
+            [
+                0.96,
+                0.6,
+                3,
+                3
+            ],
+            [
+                1.04,
+                0.6,
+                3,
+                3
+            ]
+        ],
+        "icon": "icon/skill/1224_basic_atk.png"
     },
     "130101": {
         "id": "130101",
@@ -14331,7 +15610,7 @@
         "effect": "Support",
         "effect_text": "Soutien",
         "simple_desc": "Ruan Mei gagne Tonalité après avoir utilisé sa compétence. Les DGT et l'efficacité de Rupture de faiblesse de tous les alliés augmentent quand Ruan Mei bénéficie de cet effet.",
-        "desc": "Ruan Mei gagne Tonalité après avoir utilisé sa compétence, pour une durée de #3[i] tours. Cette durée diminue de 1 au début du tour de Ruan Mei. Les DGT de tous les alliés augmentent de #1[f1]% lorsque Ruan Mei bénéficie de Tonalité et leur efficacité de Rupture de faiblesse de #2[i]%.",
+        "desc": "Ruan Mei gagne Tonalité après avoir utilisé sa compétence, pour une durée de #3[i] tours. Cette durée diminue de 1 au début de chaque tour de Ruan Mei. Les DGT de tous les alliés augmentent de #1[f1]% lorsque Ruan Mei bénéficie de Tonalité et leur efficacité de Rupture de faiblesse augmente de #2[i]%.",
         "params": [
             [
                 0.16,
@@ -14421,7 +15700,7 @@
         "effect": "Support",
         "effect_text": "Soutien",
         "simple_desc": "Augmente la PÉN de RÉS à tous les types pour tous les alliés. Leurs attaques appliquent Floraison incomplète aux ennemis touchés.",
-        "desc": "Ruan Mei déploie un champ qui dure #2[i] tours. La durée de ce champ diminue de 1 au début de son tour.\nLa PÉN de RÉS à tous les types de tous les alliés augmente de #1[f1]% lorsqu'ils se trouvent à l'intérieur du champ et leurs attaques appliquent Floraison incomplète aux ennemis touchés.\nFloraison incomplète se déclenche lorsque ces ennemis tentent de se rétablir d'une Rupture de faiblesse, ce qui prolonge la durée de leur état de Rupture de faiblesse et retarde leur action à hauteur de #3[i]% de l'effet de Rupture de Ruan Mei + #4[i]%, tout en infligeant des DGT de rupture équivalents à #5[i]% des DGT de rupture de glace de Ruan Mei.\nLes cibles ennemies ne peuvent pas subir à nouveau Floraison incomplète tant qu'elles n'ont pas récupéré de l'état de Rupture de faiblesse.",
+        "desc": "Ruan Mei déploie une zone qui dure #2[i] tours. La durée de cette zone diminue de 1 au début de son tour.\nLa PÉN de RÉS à tous les types de tous les alliés augmente de #1[f1]% lorsqu'ils se trouvent à l'intérieur de la zone et leurs attaques appliquent Floraison incomplète aux ennemis touchés.\nFloraison incomplète se déclenche lorsque ces ennemis tentent de se rétablir d'une Rupture de faiblesse, ce qui prolonge la durée de leur état de Rupture de faiblesse et retarde leur action à hauteur de #3[i]% de l'effet de Rupture de Ruan Mei + #4[i]%, tout en infligeant des DGT de rupture équivalents à #5[i]% des DGT de rupture de glace de Ruan Mei.\nLes cibles ennemies ne peuvent pas subir à nouveau Floraison incomplète tant qu'elles n'ont pas récupéré de l'état de Rupture de faiblesse.",
         "params": [
             [
                 0.15,
@@ -14630,7 +15909,7 @@
         "effect": "Enhance",
         "effect_text": "Renforcement",
         "simple_desc": "Déclenche automatiquement la compétence de ce personnage 1 fois la prochaine fois qu'il entre en combat. Après avoir utilisé la technique, les alliés qui attaquent des ennemis dans l'Univers simulé ou parallèle sont toujours considérés comme entrant en combat après avoir attaqué la Faiblesse des ennemis, et la robustesse des ennemis est réduite quel que soit leur type de faiblesse. Augmente la réduction de robustesse et les DGT de rupture infligés en cas de Rupture de faiblesse pour chaque bénédiction possédée.",
-        "desc": "Obtient Sérénade de soie après avoir utilisé la technique. Déclenche automatiquement la compétence sans utiliser de point de compétence #1[i] fois au début du combat suivant.\nDans l'Univers simulé ou parallèle, lorsque Ruan Mei bénéficie de Sérénade de soie et que l'équipe attaque activement une cible ennemie, la Faiblesse de l'ennemi est toujours considérée comme ayant été attaquée pour entrer en combat, et cette attaque peut réduire la robustesse de tous les ennemis quel que soit leur type de faiblesse. Lorsque vous infligez une Rupture de faiblesse, vous déclenchez l'effet de Rupture correspondant au type de faiblesse de l'assaillant. Augmente la réduction de robustesse de cette attaque de #2[i]% pour chaque bénédiction possédée (jusqu'à #4[i] bénédictions). D'autre part, inflige à l'ennemi des DGT de rupture équivalents à #3[i]% des DGT de rupture de glace de Ruan Mei si cette attaque provoque une Rupture de faiblesse à un ennemi.",
+        "desc": "Obtient Sérénade de soie après avoir utilisé la technique. Déclenche automatiquement la compétence sans utiliser de point de compétence #1[i] fois au début du combat suivant.\nDans l'Univers simulé ou parallèle, lorsque Ruan Mei bénéficie de Sérénade de soie et que l'équipe attaque activement une cible ennemie, la Faiblesse de l'ennemi est toujours considérée comme ayant été attaquée pour entrer en combat, et cette attaque peut réduire la robustesse de tous les ennemis quel que soit leur type de faiblesse. Lorsque vous infligez une Rupture de faiblesse, vous déclenchez l'effet de Rupture correspondant au type de faiblesse de l'assaillant. Augmente la réduction de robustesse de cette attaque de #2[i]% pour chaque bénédiction possédée (un maximum de #4[i] bénédictions sont prises en compte). D'autre part, inflige à l'ennemi des DGT de rupture équivalents à #3[i]% des DGT de rupture de glace de Ruan Mei si cette attaque provoque une Rupture de faiblesse à un ennemi.",
         "params": [
             [
                 1,
@@ -18316,7 +19595,7 @@
         "effect": "Support",
         "effect_text": "Soutien",
         "simple_desc": "Transforme un allié en Agent de recouvrement de dettes et augmente sa VIT. Lorsque l'Agent de recouvrement de dettes attaque, il inflige des DGT quantiques additionnels mineurs à chaque cible ennemie touchée et consomme ses propres PV. Lorsque Jade devient Agent de recouvrement de dettes, elle ne bénéficie pas de l'effet d'augmentation de VIT, et ses attaques ne consomment pas de PV.",
-        "desc": "Transforme une cible alliée unique en Agent de recouvrement de dettes et augmente sa VIT de #1[i] pendant #4[i] tours.\nLorsque l'Agent de recouvrement de dettes attaque, inflige 1 instance de DGT quantiques additionnels équivalents à #3[i]% de l'ATQ de Jade à chaque cible ennemie touchée et consomme une partie des PV de l'Agent de recouvrement de dettes à hauteur de #2[i]% de ses PV max. Si ses PV actuels sont insuffisants, ils sont réduits à 1.\nLorsque Jade devient Agent de recouvrement de dettes, elle ne bénéficie pas de l'effet d'augmentation de VIT, et ses attaques ne consomment pas de PV.\nJade ne peut pas utiliser sa compétence lorsqu'il y a déjà un Agent de recouvrement de dettes sur le champ de bataille. La durée de l'effet Agent de recouvrement de dettes est réduite de 1 au début de chaque tour de Jade.",
+        "desc": "Transforme une cible alliée unique en Agent de recouvrement de dettes et augmente sa VIT de #1[i] pendant #4[i] tours.\nLorsque l'Agent de recouvrement de dettes attaque, inflige 1 instance de DGT quantiques additionnels équivalents à #3[i]% de l'ATQ de Jade à chaque cible ennemie touchée et consomme une partie des PV de l'Agent de recouvrement de dettes à hauteur de #2[i]% de ses PV max. Si ses PV actuels sont insuffisants, ils sont réduits à 1.\nLorsque Jade devient Agent de recouvrement de dettes, elle ne bénéficie pas de l'effet d'augmentation de VIT, et ses attaques ne consomment pas de PV.\nJade ne peut pas utiliser sa compétence lorsqu'il y a un Agent de recouvrement de dettes sur le champ de bataille. La durée de l'effet Agent de recouvrement de dettes diminue de 1 au début de chaque tour de Jade.",
         "params": [
             [
                 30,
@@ -18420,8 +19699,8 @@
         "type_text": "Ultime",
         "effect": "AoEAttack",
         "effect_text": "ZdE",
-        "simple_desc": "Inflige des DGT quantiques à tous les ennemis et augmente le multiplicateur de DGT de l'attaque de suivi.",
-        "desc": "Inflige des DGT quantiques équivalents à #3[i]% de l'ATQ de Jade à tous les ennemis. D'autre part, renforce l'attaque de suivi du talent de Jade en augmentant son multiplicateur de DGT de #1[i]%. Cet effet de renforcement peut se déclencher #2[i] fois.",
+        "simple_desc": "Inflige des DGT quantiques à tous les ennemis et augmente le multiplicateur de DGT d'attaque de suivi.",
+        "desc": "Inflige des DGT quantiques équivalents à #3[i]% de l'ATQ de Jade à tous les ennemis. D'autre part, renforce l'attaque de suivi du talent de Jade en augmentant son multiplicateur de DGT de #1[i]%. Ce renforcement peut prendre effet #2[i] fois.",
         "params": [
             [
                 0.4,
@@ -18644,7 +19923,7 @@
         "type_text": "Technique",
         "effect": "Impair",
         "effect_text": "Incapacitation",
-        "simple_desc": "Inflige Obéissance aveugle à tous les ennemis dans une zone définie. Tous les ennemis avec Obéissance aveugle entrent en combat simultanément en cas d'attaque sur un ennemi avec Obéissance aveugle. Inflige des DGT quantiques mineurs à tous les ennemis et Jade gagne immédiatement 15 cumuls de Bien hypothéqué en entrant en combat.",
+        "simple_desc": "Inflige Obéissance aveugle aux ennemis dans une zone définie. Tous les ennemis avec Obéissance aveugle entrent en combat simultanément en cas d'attaque sur un ennemi avec Obéissance aveugle. Inflige des DGT quantiques mineurs à tous les ennemis et Jade gagne immédiatement 15 cumuls de Bien hypothéqué en entrant en combat.",
         "desc": "Après utilisation de la technique, les ennemis situés dans une zone définie sont affectés par Obéissance aveugle pendant #1[i] secondes. Les ennemis affectés par Obéissance aveugle n'initient pas l'attaque contre les alliés. Lorsque vous engagez le combat en attaquant des ennemis affectés par Obéissance aveugle, tous les ennemis avec Obéissance aveugle entrent en combat simultanément. Une fois en combat, inflige des DGT quantiques équivalents à #2[i]% de l'ATQ de Jade à tous les ennemis, et Jade obtient immédiatement #3[i] cumuls de Bien hypothéqué.",
         "params": [
             [
@@ -18707,7 +19986,7 @@
         "effect": "Impair",
         "effect_text": "Incapacitation",
         "simple_desc": "Initie une Confrontation. Lorsque la cible de la Confrontation est éliminée ou subit une Rupture de faiblesse, le Fossoyeur bénéficie d'Avantage en poche et dissipe Confrontation. Le Fossoyeur utilise désormais son ATQ normale renforcée et le tour ne se termine pas.",
-        "desc": "Force le Fossoyeur à entrer en état de Confrontation avec une cible ennemie unique. L'ATQ normale du Fossoyeur devient renforcée et il ne peut pas utiliser sa compétence pour une durée de #3[i] tours. Cette durée est réduite de 1 au début de chaque tour du Fossoyeur.\nLa cible ennemie qui est en état de Confrontation est provoquée. Lorsque la cible ennemie/le Fossoyeur subit une attaque de la part de l'autre partie, les DGT reçus augmentent de #1[i]%/#2[i]%.\nLorsque la cible est éliminée ou qu'elle subit une Rupture de faiblesse, le Fossoyeur obtient 1 cumul d'Avantage en poche, et dissipe Confrontation.\nCette compétence ne régénère pas d'énergie. Le tour ne se termine pas après l'utilisation de la compétence.",
+        "desc": "Force le Fossoyeur à entrer en état de Confrontation avec une cible ennemie unique. L'ATQ normale du Fossoyeur devient renforcée et il ne peut pas utiliser sa compétence pour une durée de #3[i] tours. Cette durée diminue de 1 au début de chaque tour du Fossoyeur.\nLa cible ennemie qui est en état de Confrontation est provoquée. Lorsque la cible ennemie/le Fossoyeur subit une attaque de la part de l'autre partie, les DGT reçus augmentent de #1[i]%/#2[i]%.\nLorsque la cible est éliminée ou qu'elle subit une Rupture de faiblesse, le Fossoyeur obtient 1 cumul d'Avantage en poche, et dissipe Confrontation.\nCette compétence ne régénère pas d'énergie. Le tour ne se termine pas après l'utilisation de la compétence.",
         "params": [
             [
                 0.15,
@@ -19054,7 +20333,7 @@
         "effect": "SingleAttack",
         "effect_text": "Cible unique",
         "simple_desc": "Inflige des DGT physiques à un ennemi unique. Ne peut attaquer que la cible avec Confrontation.",
-        "desc": "Inflige des DGT physiques équivalents à #1[i]% de l'ATQ du Fossoyeur à une cible ennemie unique.\nL'ATQ normale renforcée ne peut pas régénérer de points de compétence et ne peut cibler que l'ennemi qui est actuellement dans l'état Confrontation.",
+        "desc": "Inflige des DGT physiques équivalents à #1[i]% de l'ATQ du Fossoyeur à une cible ennemie unique.\nL'ATQ normale renforcée ne permet pas de récupérer de points de compétence et ne peut cibler que l'ennemi qui est actuellement dans l'état Confrontation.",
         "params": [
             [
                 1.1
@@ -20875,7 +22154,7 @@
         "effect": "Support",
         "effect_text": "Soutien",
         "simple_desc": "Applique l'effet Soutien sur scène à tous les alliés. Les alliés qui bénéficient de l'effet Soutien sur scène voient leur effet de Rupture augmenté et infligent des DGT de rupture extrême 1 fois lorsqu'ils attaquent des cibles ennemies qui subissent une Rupture de faiblesse.",
-        "desc": "Applique l'effet Soutien sur scène à tous les alliés, pour une durée de #1[i] tours. La durée de l'effet diminue de 1 tour au début de chaque tour {M#du pionnier}{F#de la pionnière}. L'effet de Rupture des alliés qui bénéficient de Soutien sur scène augmente de #3[i]%. Lorsqu'ils attaquent des cibles ennemies qui sont en état de Rupture de faiblesse, la réduction de robustesse de cette attaque est convertie 1 fois en une instance de DGT de rupture extrême.",
+        "desc": "Applique l'effet Soutien sur scène à tous les alliés, pour une durée de #1[i] tours. Cette durée diminue de 1 tour au début de chaque tour {M#du pionnier}{F#de la pionnière}. L'effet de Rupture des alliés qui bénéficient de Soutien sur scène augmente de #3[i]%. Lorsqu'ils attaquent des cibles ennemies qui sont en état de Rupture de faiblesse, la réduction de robustesse de cette attaque est convertie 1 fois en une instance de DGT de rupture extrême.",
         "params": [
             [
                 3,
@@ -21175,7 +22454,7 @@
         "effect": "Support",
         "effect_text": "Soutien",
         "simple_desc": "Applique l'effet Soutien sur scène à tous les alliés. Les alliés qui bénéficient de l'effet Soutien sur scène voient leur effet de Rupture augmenté et infligent des DGT de rupture extrême 1 fois lorsqu'ils attaquent des cibles ennemies qui subissent une Rupture de faiblesse.",
-        "desc": "Applique l'effet Soutien sur scène à tous les alliés, pour une durée de #1[i] tours. La durée de l'effet diminue de 1 tour au début de chaque tour {M#du pionnier}{F#de la pionnière}. L'effet de Rupture des alliés qui bénéficient de Soutien sur scène augmente de #3[i]%. Lorsqu'ils attaquent des cibles ennemies qui sont en état de Rupture de faiblesse, la réduction de robustesse de cette attaque est convertie 1 fois en une instance de DGT de rupture extrême.",
+        "desc": "Applique l'effet Soutien sur scène à tous les alliés, pour une durée de #1[i] tours. Cette durée diminue de 1 tour au début de chaque tour {M#du pionnier}{F#de la pionnière}. L'effet de Rupture des alliés qui bénéficient de Soutien sur scène augmente de #3[i]%. Lorsqu'ils attaquent des cibles ennemies qui sont en état de Rupture de faiblesse, la réduction de robustesse de cette attaque est convertie 1 fois en une instance de DGT de rupture extrême.",
         "params": [
             [
                 3,

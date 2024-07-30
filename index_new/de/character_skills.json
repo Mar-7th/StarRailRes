@@ -427,7 +427,7 @@
         "effect": "SingleAttack",
         "effect_text": "Einzelangriff",
         "simple_desc": "Fügt einem Gegner Wind-SCH zu. Nach einem KRIT wird das Ziel mit hoher Wahrscheinlichkeit verlangsamt.",
-        "desc": "Fügt einem anvisierten Gegner Wind-SCH in Höhe von #1[i]% von Dan Hengs ANG zu.\nVerringert die GES des Ziels mit einer Grundchance von #4[i]% für #3[i] Rd. um #2[i]%, wenn ein kritischer Treffer ausgelöst wird.",
+        "desc": "Fügt einem anvisierten Gegner Wind-SCH in Höhe von #1[i]% von Dan Hengs ANG zu.\nVerringert die GES des Ziels mit einer Grundchance von #4[i]% für #3[i] Rd. um #2[i]%, wenn der durch Fertigkeiten verursachte SCH einen kritischen Treffer auslöst.",
         "params": [
             [
                 1.3,
@@ -532,7 +532,7 @@
         "effect": "SingleAttack",
         "effect_text": "Einzelangriff",
         "simple_desc": "Fügt einem Gegner massiven Wind-SCH zu. Wenn der Gegner verlangsamt wird, steigt der verursachte SCH.",
-        "desc": "Fügt einem anvisierten Gegner Wind-SCH in Höhe von #1[i]% von Dan Hengs ANG zu. Erhöht den durch Ultimate verursachten SCH-Multiplikator um #2[i]%, wenn der Gegner verlangsamt ist.",
+        "desc": "Fügt einem anvisierten Gegner Wind-SCH in Höhe von #1[i]% von Dan Hengs ANG zu. Erhöht den durch Ultimates verursachten SCH-Multiplikator um #2[i]%, wenn der getroffene Gegner verlangsamt ist.",
         "params": [
             [
                 2.4,
@@ -7103,8 +7103,8 @@
         "type_text": "Fertigkeit",
         "effect": "SingleAttack",
         "effect_text": "Einzelangriff",
-        "simple_desc": "Verursacht bei einem Gegner den Status „Schuldennachweis“ und lässt ihn bei Folgeangriffen mehr SCH erleiden. Kontie fügt dem Ziel Feuer-SCH zu.",
-        "desc": "Verursacht bei einem anvisierten Gegner „Schuldennachweis“ und erhöht den erlittenen SCH des Ziels aus Folgeangriffen um #2[i]%. Der „Schuldennachweis“ wirkt nur auf das letzte Ziel, auf das er angewendet wird. Wenn sich zu Beginn der Runde eines Verbündeten oder während der Aktion eines Verbündeten keine Gegner mit „Schuldennachweis“ auf dem Feld befinden, verursacht Topaz bei einem zufälligen Gegner „Schuldennachweis“.\nKontie fügt diesem Ziel Feuer-SCH in Höhe von #1[i]% des ANG von Topaz zu. Der Einsatz dieser Fertigkeit, um SCH zu verursachen, wird als ein Folgeangriff gewertet.",
+        "simple_desc": "Verursacht bei einem Gegner „Schuldennachweis“ und lässt ihn mehr Folgeangriff-SCH erleiden. Kontie fügt dem Ziel Feuer-SCH zu.",
+        "desc": "Verursacht bei einem anvisierten Gegner „Schuldennachweis“ und erhöht den erlittenen Folgeangriff-SCH des Ziels um #2[i]%. Der „Schuldennachweis“ wirkt nur auf das letzte Ziel, auf das er angewendet wird. Wenn sich zu Beginn der Runde eines Verbündeten oder während der Aktion eines Verbündeten keine Gegner mit „Schuldennachweis“ auf dem Feld befinden, verursacht Topaz bei einem zufälligen Gegner „Schuldennachweis“.\nKontie fügt diesem Ziel Feuer-SCH in Höhe von #1[i]% des ANG von Topaz zu. Der Einsatz dieser Fertigkeit, um SCH zu verursachen, wird als ein Folgeangriff gewertet.",
         "params": [
             [
                 0.75,
@@ -13528,6 +13528,1285 @@
         ],
         "icon": "icon/skill/1217_technique.png"
     },
+    "121801": {
+        "id": "121801",
+        "name": "Entflammen des Herzens",
+        "max_level": 9,
+        "element": "Fire",
+        "type": "Normal",
+        "type_text": "Standardangriff",
+        "effect": "SingleAttack",
+        "effect_text": "Einzelangriff",
+        "simple_desc": "Fügt einem Gegner geringen Feuer-SCH zu.",
+        "desc": "Fügt einem anvisierten Gegner Feuer-SCH in Höhe von #1[i]% von Jiaoqius ANG zu.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1218_basic_atk.png"
+    },
+    "121802": {
+        "id": "121802",
+        "name": "Lodernder Angriff",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "BPSkill",
+        "type_text": "Fertigkeit",
+        "effect": "Blast",
+        "effect_text": "Ausdehnung",
+        "simple_desc": "Fügt einem Gegner Feuer-SCH und angrenzenden Einheiten geringen Feuer-SCH zu. Verursacht beim Hauptziel mit hoher Chance 1 Stapelung Aschenbrennen.",
+        "desc": "Fügt einem anvisierten Gegner Feuer-SCH in Höhe von #1[i]% von Jiaoqius ANG zu und fügt den angrenzenden Einheiten Feuer-SCH in Höhe von #2[i]% von Jiaoqius ANG zu. Es besteht eine Grundchance von #3[i]%, das Hauptziel mit 1 Stapelung „Aschenbrennen“ zu belegen.",
+        "params": [
+            [
+                0.75,
+                0.45,
+                1
+            ],
+            [
+                0.825,
+                0.495,
+                1
+            ],
+            [
+                0.9,
+                0.54,
+                1
+            ],
+            [
+                0.975,
+                0.585,
+                1
+            ],
+            [
+                1.05,
+                0.63,
+                1
+            ],
+            [
+                1.125,
+                0.675,
+                1
+            ],
+            [
+                1.2188,
+                0.7312,
+                1
+            ],
+            [
+                1.3125,
+                0.7875,
+                1
+            ],
+            [
+                1.4062,
+                0.8438,
+                1
+            ],
+            [
+                1.5,
+                0.9,
+                1
+            ],
+            [
+                1.575,
+                0.945,
+                1
+            ],
+            [
+                1.65,
+                0.99,
+                1
+            ],
+            [
+                1.725,
+                1.035,
+                1
+            ],
+            [
+                1.8,
+                1.08,
+                1
+            ],
+            [
+                1.875,
+                1.125,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1218_skill.png"
+    },
+    "121803": {
+        "id": "121803",
+        "name": "Formation durch Einfallsreichtum",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "AoEAttack",
+        "effect_text": "Flächenangriff",
+        "simple_desc": "Setzt die Stapelzahl von „Aschenbrennen“ der Gegner einheitlich auf die höchste Stapelzahl von Aschenbrennen auf dem Kampffeld. Aktiviert dann ein Feld und fügt allen Gegnern Feuer-SCH zu. Solange sich ein Gegner in diesem Feld befindet, wird sein erlittener Ultimate-SCH erhöht und es besteht die Chance, dass er bei seiner Aktion mit 1 Stapelung Aschenbrennen belegt wird.",
+        "desc": "Setzt die Stapelzahl von „Aschenbrennen“ der Gegner einheitlich auf die höchste Stapelzahl von Aschenbrennen auf dem Kampffeld. Aktiviert dann ein Feld und fügt allen Gegnern Feuer-SCH in Höhe von #1[i]% von Jiaoqius ANG zu.\nSolange sich ein Gegner in diesem Feld befindet, wird sein erlittener Ultimate-SCH um #3[f1]% erhöht und es besteht die Grundchance von #2[i]%, dass er bei seiner Aktion mit 1 Stapelung Aschenbrennen belegt wird. Ist dieses Feld aktiv, kann dieser Effekt bis zu #5[i]-mal und für jeden Gegner nur 1-mal pro Runde ausgelöst werden. Die Auslösungsanzahl wird jedes Mal zurückgesetzt, wenn Jiaoqiu seinen Ultimate einsetzt.\nDas Feld hält #4[i] Rd. an und seine Dauer wird zu Beginn jeder Runde um 1 verringert. Wenn Jiaoqiu handlungsunfähig wird, wird auch das Feld aufgehoben.",
+        "params": [
+            [
+                0.6,
+                0.5,
+                0.09,
+                3,
+                6
+            ],
+            [
+                0.64,
+                0.51,
+                0.096,
+                3,
+                6
+            ],
+            [
+                0.68,
+                0.52,
+                0.102,
+                3,
+                6
+            ],
+            [
+                0.72,
+                0.53,
+                0.108,
+                3,
+                6
+            ],
+            [
+                0.76,
+                0.54,
+                0.114,
+                3,
+                6
+            ],
+            [
+                0.8,
+                0.55,
+                0.12,
+                3,
+                6
+            ],
+            [
+                0.85,
+                0.5625,
+                0.1275,
+                3,
+                6
+            ],
+            [
+                0.9,
+                0.575,
+                0.135,
+                3,
+                6
+            ],
+            [
+                0.95,
+                0.5875,
+                0.1425,
+                3,
+                6
+            ],
+            [
+                1,
+                0.6,
+                0.15,
+                3,
+                6
+            ],
+            [
+                1.04,
+                0.61,
+                0.156,
+                3,
+                6
+            ],
+            [
+                1.08,
+                0.62,
+                0.162,
+                3,
+                6
+            ],
+            [
+                1.12,
+                0.63,
+                0.168,
+                3,
+                6
+            ],
+            [
+                1.16,
+                0.64,
+                0.174,
+                3,
+                6
+            ],
+            [
+                1.2,
+                0.65,
+                0.18,
+                3,
+                6
+            ]
+        ],
+        "icon": "icon/skill/1218_ultimate.png"
+    },
+    "121804": {
+        "id": "121804",
+        "name": "Strategeme und List, Köstlichkeiten und Gift",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Impair",
+        "effect_text": "Beeinträchtigung",
+        "simple_desc": "Nach einem Angriff besteht eine hohe Chance, das Ziel mit 1 Stapelung „Aschenbrennen“ zu belegen, wodurch der Gegner mehr SCH erleidet und gleichzeitig als im Status Brennen betrachtet wird.",
+        "desc": "Wenn Jiaoqiu Gegner mit Standardangriff, Fertigkeit oder Ultimate angreift, besteht eine Grundchance von #1[i]%, sie mit 1 Stapelung „Aschenbrennen“ zu belegen. Bei 1 Stapelung wird der erlittene SCH des Gegners um #2[f1]% erhöht, und jede Stapelung danach erhöht ihn um #3[f1]%.\nAschenbrennen ist bis zu #4[i]-fach stapelbar und hält #5[i] Rd. an.\nWenn der Gegner sich im Status Aschenbrennen befindet, wird er gleichzeitig als im Status Brennen angesehen und erleidet zu Beginn jeder Runde Feuer-DoT in Höhe von #6[i]% von Jiaoqius ANG.",
+        "params": [
+            [
+                1,
+                0.075,
+                0.025,
+                5,
+                2,
+                0.9
+            ],
+            [
+                1,
+                0.0825,
+                0.0275,
+                5,
+                2,
+                0.99
+            ],
+            [
+                1,
+                0.09,
+                0.03,
+                5,
+                2,
+                1.08
+            ],
+            [
+                1,
+                0.0975,
+                0.0325,
+                5,
+                2,
+                1.17
+            ],
+            [
+                1,
+                0.105,
+                0.035,
+                5,
+                2,
+                1.26
+            ],
+            [
+                1,
+                0.1125,
+                0.0375,
+                5,
+                2,
+                1.35
+            ],
+            [
+                1,
+                0.1219,
+                0.0406,
+                5,
+                2,
+                1.4625
+            ],
+            [
+                1,
+                0.1313,
+                0.0437,
+                5,
+                2,
+                1.575
+            ],
+            [
+                1,
+                0.1406,
+                0.0469,
+                5,
+                2,
+                1.6875
+            ],
+            [
+                1,
+                0.15,
+                0.05,
+                5,
+                2,
+                1.8
+            ],
+            [
+                1,
+                0.1575,
+                0.0525,
+                5,
+                2,
+                1.89
+            ],
+            [
+                1,
+                0.165,
+                0.055,
+                5,
+                2,
+                1.98
+            ],
+            [
+                1,
+                0.1725,
+                0.0575,
+                5,
+                2,
+                2.07
+            ],
+            [
+                1,
+                0.18,
+                0.06,
+                5,
+                2,
+                2.16
+            ],
+            [
+                1,
+                0.1875,
+                0.0625,
+                5,
+                2,
+                2.25
+            ]
+        ],
+        "icon": "icon/skill/1218_talent.png"
+    },
+    "121806": {
+        "id": "121806",
+        "name": "Angriff",
+        "max_level": 1,
+        "element": "Fire",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Greift den Gegner an und schwächt nach Kampfeintritt den WDS des Ziels gegen den entsprechenden Typ.",
+        "params": [],
+        "icon": "icon/skill/1218_basic_atk.png"
+    },
+    "121807": {
+        "id": "121807",
+        "name": "Feuriger Aufruhr",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technik",
+        "effect": "Impair",
+        "effect_text": "Beeinträchtigung",
+        "simple_desc": "Erzeugt eine spezielle Dimension. Nach Kampfeintritt mit Gegnern in dieser Dimension wird allen Gegnern geringer Feuer-SCH zugefügt und sie werden mit hoher Chance mit 1 Stapelung „Aschenbrennen“ belegt.",
+        "desc": "Erzeugt nach dem Einsatz der Technik für #2[i] Sek. eine spezielle Dimension. Nach Kampfeintritt mit Gegnern in dieser Dimension wird allen Gegnern Feuer-SCH in Höhe von #1[i]% von Jiaoqius ANG zugefügt. Außerdem besteht eine Grundchance von #3[i]%, ihnen 1 Stapelung „Aschenbrennen“ zuzufügen. Es kann nur eine von Verbündeten erschaffene Dimension zur gleichen Zeit existieren.",
+        "params": [
+            [
+                1,
+                15,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1218_technique.png"
+    },
+    "122101": {
+        "id": "122101",
+        "name": "Windumkehr in der Sonne",
+        "max_level": 9,
+        "element": "Physical",
+        "type": "Normal",
+        "type_text": "Standardangriff",
+        "effect": "SingleAttack",
+        "effect_text": "Einzelangriff",
+        "simple_desc": "Fügt einem Gegner geringen physischen SCH zu.",
+        "desc": "Fügt einem anvisierten Gegner physischen SCH in Höhe von #1[i]% von Yunlis ANG zu.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1221_basic_atk.png"
+    },
+    "122102": {
+        "id": "122102",
+        "name": "Schockwellen-Schlag",
+        "max_level": 15,
+        "element": "Physical",
+        "type": "BPSkill",
+        "type_text": "Fertigkeit",
+        "effect": "Blast",
+        "effect_text": "Ausdehnung",
+        "simple_desc": "Stellt die eigene LP wieder her und fügt einem Gegner sowie angrenzenden Einheiten geringen physischen SCH zu.",
+        "desc": "Stellt LP in Höhe von #3[f1]% von Yunlis ANG plus #4[i] wieder her. Fügt einem anvisierten Gegner physischen SCH in Höhe von #1[i]% von Yunlis ANG und angrenzenden Einheiten physischen SCH in Höhe von #2[i]% von Yunlis ANG zu.",
+        "params": [
+            [
+                0.6,
+                0.3,
+                0.2,
+                50
+            ],
+            [
+                0.66,
+                0.33,
+                0.2125,
+                80
+            ],
+            [
+                0.72,
+                0.36,
+                0.225,
+                102.5
+            ],
+            [
+                0.78,
+                0.39,
+                0.2375,
+                125
+            ],
+            [
+                0.84,
+                0.42,
+                0.25,
+                140
+            ],
+            [
+                0.9,
+                0.45,
+                0.26,
+                155
+            ],
+            [
+                0.975,
+                0.4875,
+                0.27,
+                166.25
+            ],
+            [
+                1.05,
+                0.525,
+                0.28,
+                177.5
+            ],
+            [
+                1.125,
+                0.5625,
+                0.29,
+                188.75
+            ],
+            [
+                1.2,
+                0.6,
+                0.3,
+                200
+            ],
+            [
+                1.26,
+                0.63,
+                0.31,
+                211.25
+            ],
+            [
+                1.32,
+                0.66,
+                0.32,
+                222.5
+            ],
+            [
+                1.38,
+                0.69,
+                0.33,
+                233.75
+            ],
+            [
+                1.44,
+                0.72,
+                0.34,
+                245
+            ],
+            [
+                1.5,
+                0.75,
+                0.35,
+                256.25
+            ]
+        ],
+        "icon": "icon/skill/1221_skill.png"
+    },
+    "122103": {
+        "id": "122103",
+        "name": "Himmlische Verkündung der Klinge",
+        "max_level": 15,
+        "element": "",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "Enhance",
+        "effect_text": "Verstärkung",
+        "simple_desc": "Tritt in den Status „Parade“ ein und verspottet alle Gegner. Wird während der Dauer des Status angegriffen, wird der verstärkte Konter ausgelöst und dem Angreifer sowie angrenzenden Einheiten physischer SCH zugefügt. Fügt danach einem Gegner geringen physischen SCH zu und prallt insgesamt 6-mal ab. Wenn kein Konter ausgelöst wird, während der Status Parade aktiv ist, wird zufälligen Gegnern sowie angrenzenden Einheiten physischer SCH zugefügt, wenn der Status endet.",
+        "desc": "Verbraucht #8[i] Pkt. Energie. Yunli erhält „Parade“ und versetzt alle Gegner in den Status Verspotten bis zum Ende der nächsten Runde eines Verbündeten oder eines Gegners. Der KRIT-SCH von Yunlis nächstem Konter wird um #2[i]% erhöht. Wenn der Konter des Talents ausgelöst wird, wird stattdessen der Konter „Intuition: Auslöschen“ ausgelöst und der Effekt Parade entfernt. Wenn im Status Parade kein Konter ausgelöst wird, führt Yunli nach Ende des Status sofort einen Konter „Intuition: Abtrennen“ gegen zufällige Gegner aus.\n„Intuition: Abtrennen“: Verursacht beim Ziel physischen SCH in Höhe von #1[i]% von Yunlis ANG und bei angrenzenden Einheiten physischen SCH in Höhe von #6[i]% von Yunlis ANG.\n„Intuition: Auslöschen“: Verursacht beim Ziel physischen SCH in Höhe von #1[i]% von Yunlis ANG und bei angrenzenden Einheiten physischen SCH in Höhe von #6[i]% von Yunlis ANG. Verursacht danach zusätzlich #4[i]-mal SCH, der jeweils einem zufälligen Gegner physischen SCH in Höhe von #7[i]% von Yunlis ANG zufügt.\nWenn Yunli durch diese Fähigkeit SCH verursacht, wird dieser als Ultimate-SCH angesehen.",
+        "params": [
+            [
+                1.32,
+                0.6,
+                0,
+                6,
+                0,
+                0.66,
+                0.432,
+                120
+            ],
+            [
+                1.408,
+                0.64,
+                0,
+                6,
+                0,
+                0.704,
+                0.4608,
+                120
+            ],
+            [
+                1.496,
+                0.68,
+                0,
+                6,
+                0,
+                0.748,
+                0.4896,
+                120
+            ],
+            [
+                1.584,
+                0.72,
+                0,
+                6,
+                0,
+                0.792,
+                0.5184,
+                120
+            ],
+            [
+                1.672,
+                0.76,
+                0,
+                6,
+                0,
+                0.836,
+                0.5472,
+                120
+            ],
+            [
+                1.76,
+                0.8,
+                0,
+                6,
+                0,
+                0.88,
+                0.576,
+                120
+            ],
+            [
+                1.87,
+                0.85,
+                0,
+                6,
+                0,
+                0.935,
+                0.612,
+                120
+            ],
+            [
+                1.98,
+                0.9,
+                0,
+                6,
+                0,
+                0.99,
+                0.648,
+                120
+            ],
+            [
+                2.09,
+                0.95,
+                0,
+                6,
+                0,
+                1.045,
+                0.684,
+                120
+            ],
+            [
+                2.2,
+                1,
+                0,
+                6,
+                0,
+                1.1,
+                0.72,
+                120
+            ],
+            [
+                2.288,
+                1.04,
+                0,
+                6,
+                0,
+                1.144,
+                0.7488,
+                120
+            ],
+            [
+                2.376,
+                1.08,
+                0,
+                6,
+                0,
+                1.188,
+                0.7776,
+                120
+            ],
+            [
+                2.464,
+                1.12,
+                0,
+                6,
+                0,
+                1.232,
+                0.8064,
+                120
+            ],
+            [
+                2.552,
+                1.16,
+                0,
+                6,
+                0,
+                1.276,
+                0.8352,
+                120
+            ],
+            [
+                2.64,
+                1.2,
+                0,
+                6,
+                0,
+                1.32,
+                0.864,
+                120
+            ]
+        ],
+        "icon": "icon/skill/1221_ultimate.png"
+    },
+    "122104": {
+        "id": "122104",
+        "name": "Glimmender Glanz",
+        "max_level": 15,
+        "element": "Physical",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Blast",
+        "effect_text": "Ausdehnung",
+        "simple_desc": "Wenn Yunli von Gegnern angegriffen wird, wird zusätzlich Energie wiederhergestellt und gegen den Angreifer sowie angrenzende Einheiten sofort ein Konter ausgelöst.",
+        "desc": "Wenn Yunli von Gegnern angegriffen wird, werden zusätzlich #3[i] Pkt. Energie wiederhergestellt und es wird sofort ein Konter gegen den Angreifer ausgelöst, der beim Ziel physischen SCH in Höhe von #1[i]% von Yunlis ANG und bei angrenzenden Einheiten physischen SCH in Höhe von #2[i]% von Yunlis ANG verursacht.\nWenn kein Ziel gekontert werden kann, wird der Konter gegen ein zufälliges Ziel ausgelöst.",
+        "params": [
+            [
+                0.6,
+                0.3,
+                15
+            ],
+            [
+                0.66,
+                0.33,
+                15
+            ],
+            [
+                0.72,
+                0.36,
+                15
+            ],
+            [
+                0.78,
+                0.39,
+                15
+            ],
+            [
+                0.84,
+                0.42,
+                15
+            ],
+            [
+                0.9,
+                0.45,
+                15
+            ],
+            [
+                0.975,
+                0.4875,
+                15
+            ],
+            [
+                1.05,
+                0.525,
+                15
+            ],
+            [
+                1.125,
+                0.5625,
+                15
+            ],
+            [
+                1.2,
+                0.6,
+                15
+            ],
+            [
+                1.26,
+                0.63,
+                15
+            ],
+            [
+                1.32,
+                0.66,
+                15
+            ],
+            [
+                1.38,
+                0.69,
+                15
+            ],
+            [
+                1.44,
+                0.72,
+                15
+            ],
+            [
+                1.5,
+                0.75,
+                15
+            ]
+        ],
+        "icon": "icon/skill/1221_talent.png"
+    },
+    "122106": {
+        "id": "122106",
+        "name": "Angriff",
+        "max_level": 1,
+        "element": "Physical",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Greift den Gegner an und schwächt nach Kampfeintritt den WDS des Ziels gegen den entsprechenden Typ.",
+        "params": [],
+        "icon": "icon/skill/1221_basic_atk.png"
+    },
+    "122107": {
+        "id": "122107",
+        "name": "Angriff der Abwendung",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technik",
+        "effect": "Enhance",
+        "effect_text": "Verstärkung",
+        "simple_desc": "Erhält für 20 Sek. den Effekt „Abwehr“. Nach Kampfeintritt durch einen Angriff auf Gegner oder durch einen erlittenen Angriff wird sofort einem zufälligen Gegner „Intuition: Auslöschen“ zugefügt.",
+        "desc": "Erhält für #2[i] Sek. den Effekt „Abwehr“. Nach Kampfeintritt durch einen Angriff auf Gegner oder durch einen erlittenen Angriff wird sofort einem zufälligen Gegner „Intuition: Auslöschen“ zugefügt und der verursachte SCH dieses Angriffs um #1[i]% erhöht.",
+        "params": [
+            [
+                0.8,
+                20
+            ]
+        ],
+        "icon": "icon/skill/1221_technique.png"
+    },
+    "122401": {
+        "id": "122401",
+        "name": "Kristallschwert der Geisteraustreibung",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "Standardangriff",
+        "effect": "SingleAttack",
+        "effect_text": "Einzelangriff",
+        "simple_desc": "Fügt einem Gegner geringen imaginären SCH zu. Erhält 1 Pkt. Aufladung.",
+        "desc": "Fügt einem anvisierten Gegner imaginären SCH in Höhe von #1[i]% von 7. März’ ANG zu. Erhält dann #2[i] Pkt. Aufladung.",
+        "params": [
+            [
+                0.5,
+                1
+            ],
+            [
+                0.6,
+                1
+            ],
+            [
+                0.7,
+                1
+            ],
+            [
+                0.8,
+                1
+            ],
+            [
+                0.9,
+                1
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1.1,
+                1
+            ],
+            [
+                1.2,
+                1
+            ],
+            [
+                1.3,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1224_basic_atk.png"
+    },
+    "122402": {
+        "id": "122402",
+        "name": "Meister, trink etwas Tee!",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Fertigkeit",
+        "effect": "Support",
+        "effect_text": "Unterstützung",
+        "simple_desc": "Lässt einen Verbündeten zum „Meister“ werden. Wenn er seinen Standardangriff einsetzt oder SCH durch einen verstärkten Standardangriff verursacht, wird basierend auf dem Pfad des Meisters der entsprechende Effekt ausgelöst.\nDie Gelehrsamkeit, Die Zerstörung, Die Jagd: Verursacht basierend auf dem Typ des Meisters zusätzlichen SCH.\nDie Harmonie, Die Nichtigkeit, Die Bewahrung, Der Überfluss: Erhöht WDS-Reduzierungswert.",
+        "desc": "Lässt einen Verbündeten außer der Figur selbst zum „Meister“ werden. Seine GES wird um #1[f1]% erhöht. Nur das letzte Ziel der Fertigkeit gilt als Meister von 7. März.\nWenn der Meister mit bestimmten Pfaden auf dem Kampffeld ist, werden entsprechende Effekte beim Einsatz von Standardangriffen oder beim Verursachen von SCH durch verstärkte Standardangriffe mit 1 Treffer ausgelöst:\nDie Gelehrsamkeit, Die Zerstörung, Die Jagd: Verursacht basierend auf dem Typ des Meisters zusätzlichen SCH in Höhe von #2[i]% von 7. März’ ANG.\nDie Harmonie, Die Nichtigkeit, Die Bewahrung, Der Überfluss: Der WDS-Reduzierungswert des verursachten SCH wird um #3[i]% erhöht.",
+        "params": [
+            [
+                0.06,
+                0.1,
+                1
+            ],
+            [
+                0.064,
+                0.11,
+                1
+            ],
+            [
+                0.068,
+                0.12,
+                1
+            ],
+            [
+                0.072,
+                0.13,
+                1
+            ],
+            [
+                0.076,
+                0.14,
+                1
+            ],
+            [
+                0.08,
+                0.15,
+                1
+            ],
+            [
+                0.085,
+                0.1625,
+                1
+            ],
+            [
+                0.09,
+                0.175,
+                1
+            ],
+            [
+                0.095,
+                0.1875,
+                1
+            ],
+            [
+                0.1,
+                0.2,
+                1
+            ],
+            [
+                0.104,
+                0.21,
+                1
+            ],
+            [
+                0.108,
+                0.22,
+                1
+            ],
+            [
+                0.112,
+                0.23,
+                1
+            ],
+            [
+                0.116,
+                0.24,
+                1
+            ],
+            [
+                0.12,
+                0.25,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1224_skill.png"
+    },
+    "122403": {
+        "id": "122403",
+        "name": "7. März, Heldin der Welt",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "SingleAttack",
+        "effect_text": "Einzelangriff",
+        "simple_desc": "Fügt einem Gegner imaginären SCH zu und erhöht die Trefferzahl und die Chance auf SCH des nächsten verstärkten Standardangriffs.",
+        "desc": "Fügt einem anvisierten Gegner imaginären SCH in Höhe von #1[i]% von 7. März’ ANG zu.\nErhöht die anfängliche Trefferzahl des nächsten verstärkten Standardangriffs um #2[i]. Erhöht die feste Chance für zusätzlichen SCH um #3[i]%.",
+        "params": [
+            [
+                1.44,
+                2,
+                0.2
+            ],
+            [
+                1.536,
+                2,
+                0.2
+            ],
+            [
+                1.632,
+                2,
+                0.2
+            ],
+            [
+                1.728,
+                2,
+                0.2
+            ],
+            [
+                1.824,
+                2,
+                0.2
+            ],
+            [
+                1.92,
+                2,
+                0.2
+            ],
+            [
+                2.04,
+                2,
+                0.2
+            ],
+            [
+                2.16,
+                2,
+                0.2
+            ],
+            [
+                2.28,
+                2,
+                0.2
+            ],
+            [
+                2.4,
+                2,
+                0.2
+            ],
+            [
+                2.496,
+                2,
+                0.2
+            ],
+            [
+                2.592,
+                2,
+                0.2
+            ],
+            [
+                2.688,
+                2,
+                0.2
+            ],
+            [
+                2.784,
+                2,
+                0.2
+            ],
+            [
+                2.88,
+                2,
+                0.2
+            ]
+        ],
+        "icon": "icon/skill/1224_ultimate.png"
+    },
+    "122404": {
+        "id": "122404",
+        "name": "Meister, jetzt verstehe ich!",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Enhance",
+        "effect_text": "Verstärkung",
+        "simple_desc": "Nachdem der Meister einen Angriff oder seinen Ultimate eingesetzt hat, erhält 7. März eine Aufladung. Wenn die Aufladung 7 Pkt. erreicht, führt 7. März sofort eine Aktion aus, wobei ihr verursachter SCH erhöht und ihr Standardangriff verstärkt wird.",
+        "desc": "Nachdem der Meister einen Angriff oder seinen Ultimate eingesetzt hat, erhält 7. März jedes Mal bis zu 1 Pkt. Aufladung.\nWenn die Aufladung #1[i] Pkt. oder mehr erreicht, führt 7. März sofort eine Aktion aus, wobei ihr verursachter SCH um #2[i]% erhöht wird. Außerdem wird ihr Standardangriff verstärkt und ihre Fertigkeit kann nicht verwendet werden. Verbraucht nach dem Einsatz ihres verstärkten Standardangriffs #1[i] Pkt. Aufladung, bis zu #3[i] Pkt.",
+        "params": [
+            [
+                7,
+                0.4,
+                10
+            ],
+            [
+                7,
+                0.44,
+                10
+            ],
+            [
+                7,
+                0.48,
+                10
+            ],
+            [
+                7,
+                0.52,
+                10
+            ],
+            [
+                7,
+                0.56,
+                10
+            ],
+            [
+                7,
+                0.6,
+                10
+            ],
+            [
+                7,
+                0.65,
+                10
+            ],
+            [
+                7,
+                0.7,
+                10
+            ],
+            [
+                7,
+                0.75,
+                10
+            ],
+            [
+                7,
+                0.8,
+                10
+            ],
+            [
+                7,
+                0.84,
+                10
+            ],
+            [
+                7,
+                0.88,
+                10
+            ],
+            [
+                7,
+                0.92,
+                10
+            ],
+            [
+                7,
+                0.96,
+                10
+            ],
+            [
+                7,
+                1,
+                10
+            ]
+        ],
+        "icon": "icon/skill/1224_talent.png"
+    },
+    "122406": {
+        "id": "122406",
+        "name": "Angriff",
+        "max_level": 1,
+        "element": "Imaginary",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Greift den Gegner an und schwächt nach Kampfeintritt den WDS des Ziels gegen den entsprechenden Typ.",
+        "params": [],
+        "icon": "icon/skill/1224_basic_atk.png"
+    },
+    "122407": {
+        "id": "122407",
+        "name": "Drei Mahlzeiten in einem Zug",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technik",
+        "effect": "Enhance",
+        "effect_text": "Verstärkung",
+        "simple_desc": "Jedes Mal, wenn ein Teammitglied seine Technik einsetzt, erhält 7. März beim nächsten Kampfeintritt Aufladung. Nach Einsatz der Technik stellt sie beim nächsten Kampfeintritt Energie wieder her.",
+        "desc": "Wenn 7. März im Team ist, erhält sie zu Beginn des nächsten Kampfes 1 Pkt. Aufladung für jedes Teammitglied, das eine Technik eingesetzt hat, bis zu #1[i] Pkt.\nNach Einsatz der Technik stellt 7. März zu Beginn des nächsten Kampfes #2[i] Pkt. Energie wieder her.",
+        "params": [
+            [
+                3,
+                30
+            ]
+        ],
+        "icon": "icon/skill/1224_technique.png"
+    },
+    "122408": {
+        "id": "122408",
+        "name": "Zwischen die Augenbrauen und mitten ins Herz",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "Standardangriff",
+        "effect": "SingleAttack",
+        "effect_text": "Einzelangriff",
+        "simple_desc": "Fügt einem Gegner imaginären SCH zu. Anfänglich wird 3-mal SCH verursacht. Es besteht eine Chance, zusätzlich bis zu 3-mal SCH zu verursachen.",
+        "desc": "Anfänglich wird #4[i]-mal SCH verursacht. Jeder Treffer fügt einem anvisierten Gegner imaginären SCH in Höhe von #1[i]% von 7. März’ ANG zu. Immer wenn der letzte Treffer zugefügt wird, besteht eine feste Chance von #2[i]%, noch 1 weiteren Treffer zu verursachen, bis zu #3[i] zusätzlichen Treffern. Die Energie, die der verstärkte Standardangriff wiederherstellt, wird nicht mit der Trefferzahl erhöht.\nDer verstärkte Standardangriff kann keine Fertigkeitspunkte wiederherstellen.",
+        "params": [
+            [
+                0.4,
+                0.6,
+                3,
+                3
+            ],
+            [
+                0.48,
+                0.6,
+                3,
+                3
+            ],
+            [
+                0.56,
+                0.6,
+                3,
+                3
+            ],
+            [
+                0.64,
+                0.6,
+                3,
+                3
+            ],
+            [
+                0.72,
+                0.6,
+                3,
+                3
+            ],
+            [
+                0.8,
+                0.6,
+                3,
+                3
+            ],
+            [
+                0.88,
+                0.6,
+                3,
+                3
+            ],
+            [
+                0.96,
+                0.6,
+                3,
+                3
+            ],
+            [
+                1.04,
+                0.6,
+                3,
+                3
+            ]
+        ],
+        "icon": "icon/skill/1224_basic_atk.png"
+    },
     "130101": {
         "id": "130101",
         "name": "Entkorkungsgebühr",
@@ -17355,7 +18634,7 @@
         "effect": "SingleAttack",
         "effect_text": "Einzelangriff",
         "simple_desc": "Verbraucht einen Teil der eigenen LP und stellt Energie wieder her, um einem Gegner Feuer-SCH zuzufügen. Die nächste Aktion wird vorgezogen.",
-        "desc": "Verbraucht #2[i]% der eigenen max. LP und stellt eine feste Menge Energie in Höhe von #3[i]% von SAMs max. Energie wieder her, um einem anvisierten Gegner Feuer-SCH in Höhe von #1[i]% von SAMs ANG zuzufügen. Hat SAM nicht genügend LP, werden seine LP beim Einsatz der Fertigkeit auf 1 reduziert. Seine nächste Aktion wird um #4[i]% vorgezogen.",
+        "desc": "Verbraucht #2[i]% der eigenen max. LP und stellt eine feste Menge Energie in Höhe von #3[i]% der eigenen max. Energie wieder her, um einem anvisierten Gegner Feuer-SCH in Höhe von #1[i]% von SAMs ANG zuzufügen. Wenn die aktuellen LP nicht ausreichen, werden SAMs LP beim Einsatz der Fertigkeit auf 1 reduziert. Die nächste Aktion wird um #4[i]% vorgezogen.",
         "params": [
             [
                 1,
@@ -17460,7 +18739,7 @@
         "effect": "Enhance",
         "effect_text": "Verstärkung",
         "simple_desc": "Tritt in den Status „Vollständige Verbrennung“ ein. Zieht die eigene Aktion um 100 %  und erhält den verstärkten Standardangriff sowie die verstärkte Fertigkeit. Erhöht außerdem die GES, Schwächebruch-Effizienz und den von Gegnern erlittenen Bruch-SCH, bis zum Ende des Countdowns.",
-        "desc": "Tritt in den Status „Vollständige Verbrennung“ ein. Die eigene Aktion wird um 100 % vorgezogen und SAM erhält den verstärkten Standardangriff sowie die verstärkte Fertigkeit. Erhöht im Status Vollständige Verbrennung die GES um #3[i] Pkt., bei Einsatz des verstärkten Standardangriffs oder der verstärkten Fertigkeit die eigene Schwächebruch-Effizienz um #2[i]% und den von Gegnern erlittenen Bruch-SCH durch SAM um #1[f1]%. Dies dauert bis zum Ende des Angriffs an.\nIn der Aktionsreihenfolge erscheint ein Countdown für Vollständige Verbrennung. Beginnt die Runde des Countdowns, verlässt SAM den Status Vollständige Verbrennung. Der Countdown hat eine feste GES von #4[i].\nIm Status Vollständige Verbrennung kann SAM den Ultimate nicht einsetzen.",
+        "desc": "Tritt in den Status „Vollständige Verbrennung“ ein. Zieht die eigene Aktion um 100 % vor und erhält den verstärkten Standardangriff sowie die verstärkte Fertigkeit. Erhöht im Status Vollständige Verbrennung die GES um #3[i] Pkt., beim Einsatz des verstärkten Standardangriffs oder der verstärkten Fertigkeit die eigene Schwächebruch-Effizienz um #2[i]% und den von Gegnern erlittenen Bruch-SCH durch SAM um #1[f1]%. Dies dauert bis zum Ende des Angriffs an.\nIn der Aktionsreihenfolge erscheint ein Countdown für Vollständige Verbrennung. Beginnt die Runde des Countdowns, verlässt SAM den Status Vollständige Verbrennung. Der Countdown hat eine feste GES von #4[i].\nIm Status Vollständige Verbrennung kann SAM den Ultimate nicht einsetzen.",
         "params": [
             [
                 0.1,
@@ -17564,8 +18843,8 @@
         "type_text": "Talent",
         "effect": "Defence",
         "effect_text": "Verteidigung",
-        "simple_desc": "Je niedriger die LP sind, desto geringer wird der erlittene SCH. Im Status „Vollständige Verbrennung“ ist die SCH-Reduktion stets maximal wirksam und der Effekt-WDS wird erhöht. Wenn die Energie beim Kampfbeginn unter 50% liegt, wird sie auf 50% wiederhergestellt. Sobald die Energie vollständig wiederhergestellt ist, werden alle Debuffs von SAM entfernt.",
-        "desc": "Je niedriger die LP sind, desto geringer wird der erlittene SCH. Wenn die LP #3[i]% oder weniger betragen, ist der Effekt maximal wirksam, wobei die max. SCH-Reduktion bei #1[i]% liegt. Im Status Vollständige Verbrennung ist die SCH-Reduktion stets maximal wirksam und der Effekt-WDS wird um #4[i]% erhöht.\nWenn die Energie beim Kampfbeginn unter #2[i]% liegt, wird sie auf #2[i]% wiederhergestellt. Sobald die Energie vollständig wiederhergestellt ist, werden alle Debuffs von SAM entfernt.",
+        "simple_desc": "Je niedriger die LP sind, desto geringer wird der erlittene SCH. Im Status „Vollständige Verbrennung“ ist die SCH-Reduktion stets maximal wirksam und der Effekt-WDS wird erhöht. Wenn die Energie beim Kampfbeginn unter 50% liegt, wird sie auf 50% wiederhergestellt. Sobald die Energie vollständig wiederhergestellt ist, werden alle Debuffs entfernt.",
+        "desc": "Je niedriger die LP sind, desto geringer wird der erlittene SCH. Wenn die LP #3[i]% oder weniger betragen, ist der Effekt maximal wirksam, wobei die max. SCH-Reduktion bei #1[i]% liegt. Im Status Vollständige Verbrennung ist die SCH-Reduktion stets maximal wirksam und der Effekt-WDS wird um #4[i]% erhöht.\nWenn die Energie beim Kampfbeginn unter #2[i]% liegt, wird sie auf #2[i]% wiederhergestellt. Sobald die Energie vollständig wiederhergestellt ist, werden alle Debuffs entfernt.",
         "params": [
             [
                 0.2,
@@ -18316,7 +19595,7 @@
         "effect": "Support",
         "effect_text": "Unterstützung",
         "simple_desc": "Lässt einen Verbündeten zum Schuldeneintreiber werden und erhöht seine GES. Nachdem der Schuldeneintreiber angegriffen hat, verbraucht er seine eigenen LP und fügt allen getroffenen Gegnern geringen zusätzlichen Quanten-SCH zu. Wenn Jade zur Schuldeneintreiberin wird, kann sie den Effekt der GES-Erhöhung nicht erhalten und ihre Angriffe verbrauchen keine LP.",
-        "desc": "Lässt einen Verbündeten zum „Schuldeneintreiber“ werden und erhöht seine GES für #4[i] Rd. um #1[i] Pkt.\nNachdem der Schuldeneintreiber angegriffen hat, fügt er allen getroffenen Gegnernzusätzlichen Quanten-SCH in Höhe von #3[i]% von Jades ANG zu und verbraucht #2[i]% seiner max. LP. Wenn die aktuellen LP nicht ausreichen, werden sie auf 1 reduziert.\nWenn Jade zur Schuldeneintreiberin wird, kann sie den Effekt der GES-Erhöhung nicht erhalten und ihre Angriffe verbrauchen keine LP.\nWenn auf dem Feld ein Schuldeneintreiber existiert, kann Jade ihre Fertigkeit nicht einsetzen. Zu Beginn jeder ihrer Runden wird die Dauer des Status Schuldeneintreiber um 1 verringert.",
+        "desc": "Lässt einen Verbündeten zum „Schuldeneintreiber“ werden und erhöht seine GES für #4[i] Rd. um #1[i] Pkt.\nNachdem der Schuldeneintreiber angegriffen hat, fügt er allen getroffenen Gegnern 1-mal zusätzlichen Quanten-SCH in Höhe von #3[i]% von Jades ANG zu und verbraucht #2[i]% seiner max. LP. Wenn die aktuellen LP nicht ausreichen, werden sie auf 1 reduziert.\nWenn Jade zur Schuldeneintreiberin wird, kann sie den Effekt der GES-Erhöhung nicht erhalten und ihre Angriffe verbrauchen keine LP.\nWenn auf dem Feld der Schuldeneintreiber existiert, kann Jade ihre Fertigkeit nicht einsetzen. Zu Beginn jeder ihrer Runden wird die Dauer des Status Schuldeneintreiber um 1 verringert.",
         "params": [
             [
                 30,
@@ -18510,8 +19789,8 @@
         "type_text": "Talent",
         "effect": "AoEAttack",
         "effect_text": "Flächenangriff",
-        "simple_desc": "Nachdem Jade oder ein Verbündeter als Schuldeneintreiber angegriffen hat, erhält Jade für jeden getroffenen Gegner 1 Pkt. Aufladung. Wenn die Aufladung 8 Pkt. erreicht, werden 8 Pkt. Aufladungen verbraucht, um 1-mal einen Folgeangriff auszuführen, der allen Gegnern Quanten-SCH zufügt.\nWenn Jade den Folgeangriff startet, erhält sie „Verpfändung“, wodurch ihr KRIT-SCH erhöht wird. Dieser Effekt ist bis zu 50-fach stapelbar.",
-        "desc": "Nachdem Jade oder ein Verbündeter als „Schuldeneintreiber“ angegriffen hat, erhält Jade für jeden getroffenen Gegner 1 Pkt. Aufladung. Wenn die Aufladung #3[i] Pkt. erreicht, werden #3[i] Pkt. Aufladungen verbraucht, um 1-mal einen Folgeangriff auszuführen, der allen Gegnern Quanten-SCH in Höhe von #5[i]% von Jades ANG zufügt. Durch diesen Folgeangriff wird keine Aufladung erhalten.\nWenn Jade den Folgeangriff ihres Talents startet, erhält sie #4[i] Stapelung(en) „Verpfändung“, wobei jede Stapelung ihren KRIT-SCH um #1[f1]% erhöht. Dieser Effekt ist bis zu #2[i]-fach stapelbar.",
+        "simple_desc": "Nachdem Jade oder der Schuldeneintreiber angegriffen hat, erhält Jade für jeden getroffenen Gegner 1 Pkt. Aufladung. Wenn die Aufladung 8 Pkt. erreicht, werden 8 Pkt. Aufladungen verbraucht, um 1-mal einen Folgeangriff auszuführen, der allen Gegnern Quanten-SCH zufügt.\nWenn Jade den Folgeangriff startet, erhält sie „Verpfändung“, wodurch ihr KRIT-SCH erhöht wird. Dieser Effekt ist bis zu 50-fach stapelbar.",
+        "desc": "Nachdem Jade oder der „Schuldeneintreiber“ angegriffen hat, erhält Jade für jeden getroffenen Gegner 1 Pkt. Aufladung. Wenn die Aufladung #3[i] Pkt. erreicht, werden #3[i] Pkt. Aufladungen verbraucht, um 1-mal einen Folgeangriff auszuführen, der allen Gegnern Quanten-SCH in Höhe von #5[i]% von Jades ANG zufügt. Durch diesen Folgeangriff wird keine Aufladung erhalten.\nWenn Jade den Folgeangriff ihres Talents startet, erhält sie #4[i] Stapelungen „Verpfändung“, wobei jede Stapelung ihren KRIT-SCH um #1[f1]% erhöht. Dieser Effekt ist bis zu #2[i]-fach stapelbar.",
         "params": [
             [
                 0.012,
@@ -18644,8 +19923,8 @@
         "type_text": "Technik",
         "effect": "Impair",
         "effect_text": "Beeinträchtigung",
-        "simple_desc": "Belegt Gegner in einem bestimmten Wirkungsbereich mit „Blindlings“. Beim Angriff auf Gegner mit Blindlings treten alle Gegner mit diesem Status gleichzeitig in den Kampf ein. Nach Kampfeintritt erleiden alle Gegner geringen Quanten-SCH und Jade erhält sofort 15-fach „Verpfändung“.",
-        "desc": "Nach Einsatz der Technik werden Gegner in einem bestimmten Wirkungsbereich für #1[i] Sek. mit „Blindlings“ belegt. Gegner im Status Blindlings greifen Verbündete nicht aktiv an. Werden Gegner mit Blindlings aktiv angegriffen, treten alle Gegner mit diesem Status gleichzeitig in den Kampf ein. Nach Kampfeintritt erleiden alle Gegner Quanten-SCH in Höhe von #2[i]% von Jades ANG und Jade erhält sofort #3[i]-fach „Verpfändung“.",
+        "simple_desc": "Belegt Gegner in einem bestimmten Wirkungsbereich mit „Blindlings“. Beim Angriff auf Gegner mit Blindlings treten alle Gegner mit diesem Status gleichzeitig in den Kampf ein. Fügt nach Kampfeintritt allen Gegnern geringen Quanten-SCH zu und Jade erhält sofort 15-fach „Verpfändung“.",
+        "desc": "Nach dem Einsatz der Technik werden Gegner in einem bestimmten Wirkungsbereich für #1[i] Sek. mit „Blindlings“ belegt. Gegner im Status Blindlings greifen Verbündete nicht aktiv an. Werden Gegner mit Blindlings aktiv angegriffen, treten alle Gegner mit diesem Status gleichzeitig in den Kampf ein. Fügt nach Kampfeintritt allen Gegnern Quanten-SCH in Höhe von #2[i]% von Jades ANG zu und Jade erhält sofort #3[i]-fach „Verpfändung“.",
         "params": [
             [
                 10,

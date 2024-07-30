@@ -309,7 +309,7 @@
         "id": "100401",
         "name": "Héritage d'honneur",
         "rank": 1,
-        "desc": "Après utilisation de l'ultime de Welt, ses capacités sont renforcées. Lors des 2 prochaines fois où il utilise son ATQ normale ou sa compétence, il inflige des DGT additionnels à la cible équivalents respectivement à 50% du multiplicateur de DGT de son ATQ normale et à 80% du multiplicateur de DGT de sa compétence.",
+        "desc": "Après utilisation de son ultime, Welt est renforcé. Puis, les 2 prochaines fois où il utilise l'ATQ normale ou la compétence, Welt inflige 1 instance supplémentaire de DGT additionnels à la cible ennemie. Les DGT additionnels infligés en utilisant l'ATQ normale sont équivalents à 50% du multiplicateur de DGT de l'ATQ normale. Les DGT additionnels infligés en utilisant la compétence sont équivalents à 80% du multiplicateur de DGT de la compétence.",
         "materials": [
             {
                 "id": "11004",
@@ -615,7 +615,7 @@
         "id": "100801",
         "name": "Jusqu'au-boutiste",
         "rank": 1,
-        "desc": "Lorsque les PV du personnage sont inférieurs ou égaux à 50 % de ses PV max, augmente les DGT de la compétence de 10%.",
+        "desc": "Lorsque les PV du personnage sont inférieurs ou égaux à 50 % de ses PV max, augmente les DGT infligés par la compétence de 10%.",
         "materials": [
             {
                 "id": "11008",
@@ -703,7 +703,7 @@
         "id": "100806",
         "name": "Abnégation",
         "rank": 6,
-        "desc": "Lorsque les PV du personnage sont inférieurs ou égaux à 50 % de ses PV max, l'ultime inflige 20% de DGT supplémentaires. Le multiplicateur de DGT de l'ennemi ciblé s'applique désormais également aux ennemis adjacents.",
+        "desc": "Lorsque les PV du personnage sont inférieurs ou égaux à 50 % de ses PV max, l'ultime inflige 20% de DGT supplémentaires. Le multiplicateur de DGT de la cible principale s'applique également aux ennemis adjacents.",
         "materials": [
             {
                 "id": "11008",
@@ -972,7 +972,7 @@
         "id": "110104",
         "name": "Embuscade",
         "rank": 4,
-        "desc": "Lorsqu'un de ses alliés utilise son ATQ normale sur un ennemi qui a une Faiblesse au vent, Bronya lance immédiatement une attaque de suivi sur la cible, infligeant des DGT de vent équivalents à 80% des DGT de l'ATQ normale de Bronya. Cet effet ne peut être déclenché qu'1 fois par tour.",
+        "desc": "Lorsqu'un allié autre que Bronya utilise son ATQ normale sur un ennemi qui a une Faiblesse au vent, Bronya lance immédiatement 1 instance d'attaque de suivi sur la cible, infligeant des DGT de vent équivalents à 80% des DGT d'ATQ normale de Bronya. Cet effet ne peut être déclenché qu'1 fois par tour.",
         "materials": [
             {
                 "id": "11101",
@@ -1125,7 +1125,7 @@
         "id": "110301",
         "name": "Écho",
         "rank": 1,
-        "desc": "L'ATQ normale inflige des DGT de foudre équivalents à 60% des DGT de l'ATQ normale à un ennemi aléatoire adjacent à la cible.",
+        "desc": "L'ATQ normale inflige des DGT de foudre équivalents à 60% des DGT d'ATQ normale à un ennemi aléatoire adjacent à la cible.",
         "materials": [
             {
                 "id": "11103",
@@ -2153,7 +2153,7 @@
         "id": "120101",
         "name": "Avènement des tuiles",
         "rank": 1,
-        "desc": "Les DGT de l'ultime augmentent de 10%.",
+        "desc": "Les DGT infligés par l'ultime augmentent de 10%.",
         "materials": [
             {
                 "id": "11201",
@@ -2204,7 +2204,7 @@
         "id": "120104",
         "name": "Mets de la tuile",
         "rank": 4,
-        "desc": "Après avoir utilisé la compétence, il y a 24% de chances fixes d'obtenir Autonome, qui dure jusqu'à la fin du tour en cours.\\nLorsque l'état Autonome est actif, utiliser l'ATQ normale ou l'ATQ normale renforcée lance immédiatement 1 attaque de suivi sur le ou les mêmes cibles, infligeant des DGT quantiques équivalents à 100 % des DGT de l'ATQ normale (ou ATQ normale renforcée) précédente.",
+        "desc": "Après avoir utilisé la compétence, il y a 24% de chances fixes d'obtenir Autonome, qui dure jusqu'à la fin du tour en cours.\\nLorsque l'état Autonome est actif, utiliser l'ATQ normale ou l'ATQ normale renforcée lance immédiatement 1 attaque de suivi sur le ou les mêmes cibles, infligeant des DGT quantiques équivalents à 100 % des DGT d'ATQ normale (ou d'ATQ normale renforcée).",
         "materials": [
             {
                 "id": "11201",
@@ -2361,7 +2361,7 @@
         "id": "120301",
         "name": "Ablution de rapidité",
         "rank": 1,
-        "desc": "Tant que le Champ est actif, l'ATQ de tous les alliés augmente de 20%.",
+        "desc": "Tant que la zone est active, l'ATQ de tous les alliés augmente de 20%.",
         "materials": [
             {
                 "id": "11203",
@@ -2412,7 +2412,7 @@
         "id": "120304",
         "name": "Lourde est la couronne",
         "rank": 4,
-        "desc": "Lorsque le Champ de Luocha est actif, les ennemis sont affaiblis et les DGT qu'ils infligent diminuent de 12%.",
+        "desc": "Lorsque la zone de Luocha est active, les ennemis sont affaiblis et les DGT qu'ils infligent diminuent de 12%.",
         "materials": [
             {
                 "id": "11203",
@@ -2657,7 +2657,7 @@
         "id": "120506",
         "name": "Revenu dans une coquille vide",
         "rank": 6,
-        "desc": "Le nombre de cumuls maximum de Charge est réduit à 4. Les DGT de l'attaque de suivi déclenchée par le talent de Blade augmentent d'un montant équivalent à 50% de ses PV max.",
+        "desc": "Le nombre de cumuls maximum de Charge est réduit à 4. Les DGT infligés par les attaques de suivi déclenchées par le talent de Blade augmentent d'un montant équivalent à 50% de ses PV max.",
         "materials": [
             {
                 "id": "11205",
@@ -2963,7 +2963,7 @@
         "id": "120806",
         "name": "Omnia Vita",
         "rank": 6,
-        "desc": "Lorsque Matrice de prémonition est activée, le total des PV perdus par tous les membres de l'équipe est enregistré au cours du combat. Les DGT de l'ultime de Fu Xuan augmentent d'un montant équivalent à 200% de ce total.\\nCe total est plafonné à 120% des PV max de Fu Xuan et sa valeur est réinitialisée et recommence à s'accumuler après utilisation de l'ultime de Fu Xuan.",
+        "desc": "Lorsque Matrice de prémonition est activée, le total des PV perdus par tous les membres de l'équipe est enregistré au cours du combat. Les DGT infligés par l'ultime de Fu Xuan augmentent d'un montant équivalent à 200% de ce total.\\nCe total est plafonné à 120% des PV max de Fu Xuan et sa valeur est réinitialisée et recommence à s'accumuler après utilisation de l'ultime de Fu Xuan.",
         "materials": [
             {
                 "id": "11208",
@@ -3297,7 +3297,7 @@
         "id": "121202",
         "name": "Ombre du croissant",
         "rank": 2,
-        "desc": "Augmente les DGT de la prochaine compétence renforcée de 80% après avoir utilisé l'ultime.",
+        "desc": "Augmente de 80% les DGT de la prochaine compétence renforcée après avoir utilisé l'ultime.",
         "materials": [
             {
                 "id": "11212",
@@ -3805,6 +3805,316 @@
         "level_up_skills": [],
         "icon": "icon/skill/1217_rank6.png"
     },
+    "121801": {
+        "id": "121801",
+        "name": "Transfert des saveurs",
+        "rank": 1,
+        "desc": "Les alliés infligent 40% de DGT supplémentaires aux cibles ennemies affectées par Charbons ardents. Lorsque Charbons ardents est appliqué à une cible ennemie via l'effet du talent, le nombre de cumuls de Charbons ardents appliqué cette fois augmente de 1.",
+        "materials": [
+            {
+                "id": "11218",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1218_rank1.png"
+    },
+    "121802": {
+        "id": "121802",
+        "name": "Goût de la souffrance",
+        "rank": 2,
+        "desc": "Lorsqu'une cible ennemie est affectée par Charbons ardents, le multiplicateur des dégâts de feu sur la durée infligés par Charbons ardents augmente de 300%.",
+        "materials": [
+            {
+                "id": "11218",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1218_rank2.png"
+    },
+    "121803": {
+        "id": "121803",
+        "name": "Art de l'équilibre",
+        "rank": 3,
+        "desc": "Niv. de la compétence +2, jusqu'au Niv. 15 maximum.\\nNiv. de l'ATQ normale +1, jusqu'au Niv. 10 maximum.",
+        "materials": [
+            {
+                "id": "11218",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "121802",
+                "num": 2
+            },
+            {
+                "id": "121801",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1218_skill.png"
+    },
+    "121804": {
+        "id": "121804",
+        "name": "Paix intérieure et vigueur extérieure",
+        "rank": 4,
+        "desc": "L'ATQ des cibles ennemies est réduite de 15% lorsque la zone est active.",
+        "materials": [
+            {
+                "id": "11218",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1218_rank4.png"
+    },
+    "121805": {
+        "id": "121805",
+        "name": "Équilibre des contraires",
+        "rank": 5,
+        "desc": "Niv. de l'ultime +2, jusqu'au Niv. 15 maximum.\\nNiv. du talent +2, jusqu'au Niv. 15 maximum.",
+        "materials": [
+            {
+                "id": "11218",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "121803",
+                "num": 2
+            },
+            {
+                "id": "121804",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1218_ultimate.png"
+    },
+    "121806": {
+        "id": "121806",
+        "name": "Feu des neufs transformations",
+        "rank": 6,
+        "desc": "Lorsqu'une cible ennemie est éliminée, ses cumuls de Charbons ardents accumulés sont transférés à l'ennemi ayant le moins de cumuls de Charbons ardents sur le champ de bataille. La limite de cumuls de Charbons ardents passe à 9. Chaque cumul de Charbons ardents réduit toutes les RÉS de type de la cible de 3%.",
+        "materials": [
+            {
+                "id": "11218",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1218_rank6.png"
+    },
+    "122101": {
+        "id": "122101",
+        "name": "Pureté de la lame forgée",
+        "rank": 1,
+        "desc": "Augmente les DGT de Sens de l'entaille et de Sens de l'éradication de 20%, et augmente le nombre d'instances de DGT supplémentaires de Sens de l'éradication de 3.",
+        "materials": [
+            {
+                "id": "11221",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1221_rank1.png"
+    },
+    "122102": {
+        "id": "122102",
+        "name": "Rupture de l'aube",
+        "rank": 2,
+        "desc": "Lorsque Yunli inflige des DGT via un contre, elle ignore 20% de la DÉF de la cible.",
+        "materials": [
+            {
+                "id": "11221",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1221_rank2.png"
+    },
+    "122103": {
+        "id": "122103",
+        "name": "Domination du fer",
+        "rank": 3,
+        "desc": "Niv. de l'ultime +2, jusqu'au Niv. 15 maximum.\\nNiv. de l'ATQ normale +1, jusqu'au Niv. 10 maximum.",
+        "materials": [
+            {
+                "id": "11221",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "122103",
+                "num": 2
+            },
+            {
+                "id": "122101",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1221_skill.png"
+    },
+    "122104": {
+        "id": "122104",
+        "name": "Chant de l'acier",
+        "rank": 4,
+        "desc": "Augmente de 50% la RÉS aux effets du personnage pendant 1 tour après avoir lancé Sens de l'entaille ou Sens de l'éradication.",
+        "materials": [
+            {
+                "id": "11221",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1221_rank4.png"
+    },
+    "122105": {
+        "id": "122105",
+        "name": "Arme de toujours",
+        "rank": 5,
+        "desc": "Niv. de la compétence +2, jusqu'au Niv. 15 maximum.\\nNiv. du talent +2, jusqu'au Niv. 15 maximum.",
+        "materials": [
+            {
+                "id": "11221",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "122102",
+                "num": 2
+            },
+            {
+                "id": "122104",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1221_ultimate.png"
+    },
+    "122106": {
+        "id": "122106",
+        "name": "Courage à toute épreuve",
+        "rank": 6,
+        "desc": "Quand l'effet Parade est actif, lorsqu'un ennemi utilise activement une capacité, que ce soit pour attaquer Yunli ou non, Sens de l'éradication se déclenche et supprime l'effet Parade. Lorsque Yunli inflige des DGT via Sens de l'entaille ou Sens de l'éradication, ses chances de coup critique augmentent de 15% et sa PÉN de RÉS physique augmente de 20%.",
+        "materials": [
+            {
+                "id": "11221",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1221_rank6.png"
+    },
+    "122401": {
+        "id": "122401",
+        "name": "Fulgurance du succès",
+        "rank": 1,
+        "desc": "La VIT de March 7th augmente de 10% lorsqu'il y a un Maître sur le champ de bataille.",
+        "materials": [
+            {
+                "id": "11224",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1224_rank1.png"
+    },
+    "122402": {
+        "id": "122402",
+        "name": "Flot de fleurets",
+        "rank": 2,
+        "desc": "Lorsque le Maître utilise son ATQ normale ou sa compétence pour attaquer une cible ennemie, March 7th lance immédiatement une attaque de suivi, infligeant des DGT imaginaires équivalents à 60% de son ATQ à la cible principale de cette attaque. D'autre part, elle déclenche l'effet qui correspond à la Voie du Maître et gagne 1 point de charge. S'il n'y a aucune cible principale à attaquer, March 7th attaque un ennemi unique aléatoire. Cet effet ne peut se déclencher qu'une fois par tour.",
+        "materials": [
+            {
+                "id": "11224",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1224_rank2.png"
+    },
+    "122403": {
+        "id": "122403",
+        "name": "Futée et affûtée",
+        "rank": 3,
+        "desc": "Niv. de la compétence +2, jusqu'au Niv. 15 maximum.\\nNiv. de l'ATQ normale +1, jusqu'au Niv. 10 maximum.",
+        "materials": [
+            {
+                "id": "11224",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "122402",
+                "num": 2
+            },
+            {
+                "id": "122401",
+                "num": 1
+            },
+            {
+                "id": "122408",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1224_skill.png"
+    },
+    "122404": {
+        "id": "122404",
+        "name": "Parée et apprêtée",
+        "rank": 4,
+        "desc": "Régénère 5 points d'énergie au début du tour.",
+        "materials": [
+            {
+                "id": "11224",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1224_rank4.png"
+    },
+    "122405": {
+        "id": "122405",
+        "name": "Mélange sucrée-armée",
+        "rank": 5,
+        "desc": "Niv. de l'ultime +2, jusqu'au Niv. 15 maximum.\\nNiv. du talent +2, jusqu'au Niv. 15 maximum.",
+        "materials": [
+            {
+                "id": "11224",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "122403",
+                "num": 2
+            },
+            {
+                "id": "122404",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1224_ultimate.png"
+    },
+    "122406": {
+        "id": "122406",
+        "name": "Jamais égalée",
+        "rank": 6,
+        "desc": "Augmente les DGT critiques de la prochaine ATQ normale renforcée de 50% après avoir utilisé l'ultime.",
+        "materials": [
+            {
+                "id": "11224",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1224_rank6.png"
+    },
     "130101": {
         "id": "130101",
         "name": "B-52",
@@ -4021,7 +4331,7 @@
         "id": "130301",
         "name": "Schéma neuronal",
         "rank": 1,
-        "desc": "Lorsque que le champ généré par l'ultime est déployé, les DGT infligés par tous les alliés ignorent 20% de la DÉF des cibles.",
+        "desc": "Lorsque que la zone générée par l'ultime est déployée, les DGT infligés par tous les alliés ignorent 20% de la DÉF des cibles.",
         "materials": [
             {
                 "id": "11303",
@@ -4109,7 +4419,7 @@
         "id": "130306",
         "name": "Cascade de rubans",
         "rank": 6,
-        "desc": "Prolonge la durée du champ généré par l'ultime de 1 tour. D'autre part, le multiplicateur des DGT de rupture du talent augmente de 200%.",
+        "desc": "Prolonge la durée de la zone générée par l'ultime de 1 tour. D'autre part, le multiplicateur des DGT de rupture du talent augmente de 200%.",
         "materials": [
             {
                 "id": "11303",
@@ -4635,7 +4945,7 @@
         "id": "130806",
         "name": "Catalysatrice de l'apocalypse",
         "rank": 6,
-        "desc": "Augmente la PÉN de RÉS à tous les types des DGT d'ultime infligés par Achéron de 20%. Les DGT infligés par l'ATQ normale et la compétence sont également considérés comme des DGT d'ultime et peuvent réduire la robustesse de l'ennemi, quels que soient ses types de faiblesse. En cas de Rupture de faiblesse, c'est l'effet de Rupture de faiblesse de foudre qui est déclenché.",
+        "desc": "Augmente la PÉN de RÉS à tous les types des DGT d'ultime d'Achéron de 20%. Les DGT infligés par l'ATQ normale et la compétence sont également considérés comme des DGT d'ultime et peuvent réduire la robustesse de l'ennemi, quels que soient ses types de faiblesse. En cas de Rupture de faiblesse, c'est l'effet de Rupture de faiblesse de foudre qui est déclenché.",
         "materials": [
             {
                 "id": "11308",
@@ -4765,7 +5075,7 @@
         "id": "131002",
         "name": "Chute des cieux fracturés",
         "rank": 2,
-        "desc": "Lorsque SAM utilise son ATQ normale renforcée ou sa compétence renforcée dans l'état Combustion complète pour éliminer une cible ennemie ou lui infliger une Rupture de faiblesse, il gagne immédiatement 1 tour supplémentaire. Cet effet peut se déclencher à nouveau après 1 tour.",
+        "desc": "Lorsque SAM utilise son ATQ normale renforcée ou sa compétence renforcée dans l'état Combustion complète pour éliminer une cible ennemie ou lui infliger une Rupture de faiblesse, gagne immédiatement 1 tour supplémentaire. Cet effet peut se déclencher à nouveau après 1 tour.",
         "materials": [
             {
                 "id": "11310",
@@ -4963,7 +5273,7 @@
         "id": "131401",
         "name": "Altruisme négociable",
         "rank": 1,
-        "desc": "Les DGT infligés par l'attaque de suivi du talent de Jade augmentent de 32%. Lorsque le personnage qui bénéficie de l'effet Agent de recouvrement de dettes attaque et touche 2 ou 1 cible ennemie, Jade obtient respectivement 1 ou 2 points de charge supplémentaires.",
+        "desc": "Les DGT d'attaque de suivi du talent de Jade augmentent de 32%. Lorsque le personnage qui bénéficie de l'effet Agent de recouvrement de dettes attaque et touche 2 ou 1 cible ennemie, Jade obtient respectivement 1 ou 2 points de charge supplémentaires.",
         "materials": [
             {
                 "id": "11314",
@@ -5051,7 +5361,7 @@
         "id": "131406",
         "name": "Équité sous condition",
         "rank": 6,
-        "desc": "La PÉN de RÉS quantique de Jade augmente de 20% lorsque l'Agent de recouvrement de dettes existe sur le champ de bataille, et elle bénéficie également elle-même de l'effet Agent de recouvrement de dettes.",
+        "desc": "La PÉN de RÉS quantique de Jade augmente de 20% lorsqu'il y a un Agent de recouvrement de dettes sur le champ de bataille, et elle bénéficie également elle-même de l'effet Agent de recouvrement de dettes.",
         "materials": [
             {
                 "id": "11314",

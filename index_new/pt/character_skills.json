@@ -427,7 +427,7 @@
         "effect": "SingleAttack",
         "effect_text": "Alvo Único",
         "simple_desc": "Causa Dano de Vento a um único inimigo. Ao realizar um Acerto CRIT, há altas chances de causar Lentidão no inimigo.",
-        "desc": "Causa #1[i]% do ATQ de Dan Heng como Dano de Vento a um único inimigo.\nAo realizar um Acerto CRIT, há #4[i]% de chance-base de reduzir a VEL do alvo em #2[i]% por #3[i] rodada(s).",
+        "desc": "Causa Dano de Vento igual a #1[i]% do ATQ de Dan Heng a um único inimigo.\nQuando o Dano causado pela Perícia ativa um Acerto CRIT, há uma chance-base de #4[i]% de reduzir a VEL do alvo em #2[i]%, durando por #3[i] rodada(s).",
         "params": [
             [
                 1.3,
@@ -532,7 +532,7 @@
         "effect": "SingleAttack",
         "effect_text": "Alvo Único",
         "simple_desc": "Causa Dano de Vento massivo a um inimigo. Se o inimigo estiver sofrendo de Lentidão, o multiplicador de Dano causado será maior.",
-        "desc": "Causa #1[i]% do ATQ de Dan Heng como Dano de Vento a um único inimigo. Se o inimigo estiver sofrendo de Lentidão, o multiplicador de Dano da Perícia Suprema aumenta em #2[i]%.",
+        "desc": "Causa Dano de Vento igual a #1[i]% do ATQ de Dan Heng a um único inimigo-alvo. Se o inimigo atacado estiver com Lentidão, o multiplicador do Dano causado pela Perícia Suprema aumenta em #2[i]%.",
         "params": [
             [
                 2.4,
@@ -906,7 +906,7 @@
         "type_text": "Talento",
         "effect": "AoEAttack",
         "effect_text": "Área",
-        "simple_desc": "Ganha um acúmulo de Carga quando um inimigo sofre a Quebra de Fraqueza.\nDepois que um aliado realiza um ataque, se estiver completamente Carregado, realiza imediatamente um Ataque Extra e causa Dano de Fogo a todos os inimigos, consumindo todos os acúmulos de Carga.\nGanha 1 acúmulo de Carga no início de cada batalha.",
+        "simple_desc": "Ganha Carga quando um inimigo sofre a Quebra de Fraqueza.\nDepois que um aliado realiza um ataque, se estiver completamente Carregado, realiza imediatamente um Ataque Extra e causa Dano de Fogo a todos os inimigos, consumindo todos os pontos de Carga.\nGanha 1 ponto de Carga no início de cada batalha.",
         "desc": "Quando um inimigo é infligido com Quebra de Fraqueza, Himeko ganha 1 ponto de Carga (máximo de #2[i] pontos).\nSe Himeko estiver com carga total quando um aliado atacar, ela imediatamente realiza 1 Ataque Extra e causa #1[i]% do ATQ dela como Dano de Fogo a todos os inimigos, consumindo todos os pontos de Carga.\nNo início da batalha, Himeko ganha 1 ponto de Carga.",
         "params": [
             [
@@ -5161,7 +5161,7 @@
         "effect": "Enhance",
         "effect_text": "Aprimoramento",
         "simple_desc": "Reduz o Dano recebido, aumenta as chances de receber ataques de inimigos, e aprimora Contra-Ataques.",
-        "desc": "Após Clara usar sua Perícia Suprema, o Dano causado a ela é reduzido em #4[i]% extra, e ela terá muito mais chances de ser atacada por inimigos por #3[i] rodada(s).\nAlém disso, o Contra-Ataque de Svarog é aprimorado. Quando um aliado é atacado, Svarog usa um Contra-Ataque imediatamente, e seu multiplicador de Dano contra o inimigo aumenta em #2[i]%. Inimigos adjacentes a ele sofrem 50% do Dano causado ao inimigo-alvo. Contra-Ataque(s) aprimorado(s) podem entrar em vigor #5[i] vez(es).",
+        "desc": "Após Clara usar sua Perícia Suprema, o Dano causado a ela é reduzido em #4[i]% extra, e ela terá muito mais chances de ser atacada por inimigos por #3[i] rodada(s).\nAlém disso, o Contra-Ataque de Svarog é aprimorado. Quando um aliado é atacado, Svarog usa um Contra-Ataque imediatamente, e seu multiplicador de Dano contra o inimigo aumenta em #2[i]%. Inimigos adjacentes a ele sofrem 50% do Dano causado ao inimigo-alvo principal. Contra-Ataque(s) aprimorado(s) podem entrar em vigor #5[i] vez(es).",
         "params": [
             [
                 5,
@@ -8618,7 +8618,7 @@
         "effect": "Bounce",
         "effect_text": "Rebote",
         "simple_desc": "Invoca o Senhor dos Raios no início da batalha. O Senhor dos Raios causa Dano de Raio leve automaticamente a um inimigo aleatório e os inimigos adjacentes a ele.",
-        "desc": "Invoca o Senhor dos Raios no início da batalha. O Senhor dos Raios tem #1[i] de VEL base e #4[i] Golpes por Ação base. Quando o Senhor dos Raios age, seus golpes são considerados Ataques Extras, com cada golpe do Senhor dos Raios causando Dano de Raio igual a #2[i]% do ATQ de Jing Yuan a um único inimigo aleatório, e inimigos adjacentes a ele também recebem Dano de Raio igual a #5[i]% do Dano causado ao inimigo-alvo.\nOs Golpes por Ação do Senhor dos Raios podem atingir o máximo de #6[i]. Toda vez que os Golpes por Ação do Senhor dos Raios aumentam em 1, sua VEL aumenta em #3[i]. Ao fim da ação do Senhor dos Raios, a sua VEL e os Golpes por Ação voltam aos valores-base. \nQuando Jing Yuan é derrubado, o Senhor dos Raios desaparecerá.\nQuando Jing Yuan é afetado por penalidades de Controle Negativo, o Senhor dos Raios será incapaz de agir.",
+        "desc": "Invoca o Senhor dos Raios no início da batalha. O Senhor dos Raios tem #1[i] de VEL base e #4[i] Golpes por Ação base. Quando o Senhor dos Raios age, seus golpes são considerados Ataques Extras, com cada golpe do Senhor dos Raios causando Dano de Raio igual a #2[i]% do ATQ de Jing Yuan a um único inimigo aleatório, e inimigos adjacentes a ele também recebem Dano de Raio igual a #5[i]% do Dano causado ao inimigo-alvo principal.\nOs Golpes por Ação do Senhor dos Raios podem atingir o máximo de #6[i]. Toda vez que os Golpes por Ação do Senhor dos Raios aumentam em 1, sua VEL aumenta em #3[i]. Ao fim da ação do Senhor dos Raios, a sua VEL e os Golpes por Ação voltam aos valores-base. \nQuando Jing Yuan é derrubado, o Senhor dos Raios desaparecerá.\nQuando Jing Yuan é afetado por penalidades de Controle Negativo, o Senhor dos Raios será incapaz de agir.",
         "params": [
             [
                 60,
@@ -8759,7 +8759,7 @@
     },
     "120407": {
         "id": "120407",
-        "name": "Invocação de Espírito",
+        "name": "Invocação de Spiritus",
         "max_level": 1,
         "element": "",
         "type": "Maze",
@@ -9430,7 +9430,7 @@
         "effect": "SingleAttack",
         "effect_text": "Alvo Único",
         "simple_desc": "Causa Dano Físico massivo a um único inimigo, aprimora o efeito da Postura da Espada e realiza uma ação imediatamente.",
-        "desc": "Causa Dano Físico igual a #1[i]% do ATQ de Sushang a um único inimigo-alvo e ela age de novo imediatamente. Além disso, o ATQ de Sushang aumenta em #4[i]% e usar sua Perícia concede 2 chances extras de ativar a Postura da Espada por #2[i] rodada(s).\nQuando ativada graças às chances extras, a Postura da Espada causa #3[i]% do Dano original.",
+        "desc": "Causa Dano Físico igual a #1[i]% do ATQ de Sushang a um único inimigo-alvo e ela age imediatamente. Além disso, o ATQ de Sushang aumenta em #4[i]% e usar sua Perícia concede 2 chances extras de ativar a Postura da Espada por #2[i] rodada(s).\nQuando ativada graças às chances extras, a Postura da Espada causa #3[i]% do Dano original.",
         "params": [
             [
                 1.92,
@@ -13528,6 +13528,1285 @@
         ],
         "icon": "icon/skill/1217_technique.png"
     },
+    "121801": {
+        "id": "121801",
+        "name": "Coração em Chamas",
+        "max_level": 9,
+        "element": "Fire",
+        "type": "Normal",
+        "type_text": "ATQ Básico",
+        "effect": "SingleAttack",
+        "effect_text": "Alvo Único",
+        "simple_desc": "Causa Dano de Fogo leve a um único inimigo.",
+        "desc": "Causa Dano de Fogo igual a #1[i]% do ATQ de Jiaoqiu a um único inimigo-alvo.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1218_basic_atk.png"
+    },
+    "121802": {
+        "id": "121802",
+        "name": "Massacre em Brasas",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "BPSkill",
+        "type_text": "Perícia",
+        "effect": "Blast",
+        "effect_text": "Explosão",
+        "simple_desc": "Causa Dano de Fogo a um único inimigo e Dano de Fogo leve a alvos adjacentes, com altas chances de infligir 1 acúmulo de Assado Acinzentado ao alvo principal.",
+        "desc": "Causa Dano de Fogo igual a #1[i]% do ATQ de Jiaoqiu a um único inimigo-alvo e Dano de Fogo igual a #2[i]% do ATQ de Jiaoqiu aos alvos adjacentes, com uma chance-base de #3[i]% de infligir 1 acúmulo de Assado Acinzentado no alvo principal.",
+        "params": [
+            [
+                0.75,
+                0.45,
+                1
+            ],
+            [
+                0.825,
+                0.495,
+                1
+            ],
+            [
+                0.9,
+                0.54,
+                1
+            ],
+            [
+                0.975,
+                0.585,
+                1
+            ],
+            [
+                1.05,
+                0.63,
+                1
+            ],
+            [
+                1.125,
+                0.675,
+                1
+            ],
+            [
+                1.2188,
+                0.7312,
+                1
+            ],
+            [
+                1.3125,
+                0.7875,
+                1
+            ],
+            [
+                1.4062,
+                0.8438,
+                1
+            ],
+            [
+                1.5,
+                0.9,
+                1
+            ],
+            [
+                1.575,
+                0.945,
+                1
+            ],
+            [
+                1.65,
+                0.99,
+                1
+            ],
+            [
+                1.725,
+                1.035,
+                1
+            ],
+            [
+                1.8,
+                1.08,
+                1
+            ],
+            [
+                1.875,
+                1.125,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1218_skill.png"
+    },
+    "121803": {
+        "id": "121803",
+        "name": "Arcano do Pirógrafo",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "Ultra",
+        "type_text": "Perícia Suprema",
+        "effect": "AoEAttack",
+        "effect_text": "Área",
+        "simple_desc": "Define o número de acúmulos de \"Assado Acinzentado\" nos inimigos-alvo para o maior número de acúmulos de \"Assado Acinzentado\" presente no campo de batalha no momento. Então, ativa um Campo e causa Dano de Fogo a todos os inimigos. Enquanto estiverem dentro do Campo, inimigos-alvo recebem mais Dano de Perícia Suprema, com uma chance de serem afligidos com 1 acúmulo de Assado Acinzentado ao agir.",
+        "desc": "Define o número de acúmulos de Assado Acinzentado nos inimigos-alvo para o maior número de acúmulos de Assado Acinzentado presente no campo de batalha no momento. Então, ativa um Campo e causa Dano de Fogo igual a #1[i]% do ATQ de Jiaoqiu a todos os inimigos.\nEnquanto estiverem dentro do campo, inimigos-alvo recebem #3[f1]% a mais de Dano de Perícia Suprema, com uma chance-base de #2[i]% de serem infligidos com 1 acúmulo de Assado Acinzentado ao agir. Enquanto o Campo existir, este efeito pode acionar até #5[i] vez(es). E para cada inimigo-alvo, ele só pode ser acionado uma vez por rodada. Essa contagem de ativação reinicia toda vez que Jiaoqiu utiliza sua Perícia Suprema.\nO Campo dura por #4[i] rodada(s), e sua duração diminui em 1 no início de toda rodada desta unidade. Se Jiaoqiu for derrubado, o Campo também será desfeito.",
+        "params": [
+            [
+                0.6,
+                0.5,
+                0.09,
+                3,
+                6
+            ],
+            [
+                0.64,
+                0.51,
+                0.096,
+                3,
+                6
+            ],
+            [
+                0.68,
+                0.52,
+                0.102,
+                3,
+                6
+            ],
+            [
+                0.72,
+                0.53,
+                0.108,
+                3,
+                6
+            ],
+            [
+                0.76,
+                0.54,
+                0.114,
+                3,
+                6
+            ],
+            [
+                0.8,
+                0.55,
+                0.12,
+                3,
+                6
+            ],
+            [
+                0.85,
+                0.5625,
+                0.1275,
+                3,
+                6
+            ],
+            [
+                0.9,
+                0.575,
+                0.135,
+                3,
+                6
+            ],
+            [
+                0.95,
+                0.5875,
+                0.1425,
+                3,
+                6
+            ],
+            [
+                1,
+                0.6,
+                0.15,
+                3,
+                6
+            ],
+            [
+                1.04,
+                0.61,
+                0.156,
+                3,
+                6
+            ],
+            [
+                1.08,
+                0.62,
+                0.162,
+                3,
+                6
+            ],
+            [
+                1.12,
+                0.63,
+                0.168,
+                3,
+                6
+            ],
+            [
+                1.16,
+                0.64,
+                0.174,
+                3,
+                6
+            ],
+            [
+                1.2,
+                0.65,
+                0.18,
+                3,
+                6
+            ]
+        ],
+        "icon": "icon/skill/1218_ultimate.png"
+    },
+    "121804": {
+        "id": "121804",
+        "name": "Fineza de um Quarteto, Elegância de um Octeto",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "Talent",
+        "type_text": "Talento",
+        "effect": "Impair",
+        "effect_text": "Incapacitação",
+        "simple_desc": "Após atacar, há uma chance alta de infligir 1 acúmulo de Assado Acinzentado no alvo, fazendo com que o inimigo receba Dano aumentado e também seja considerado com efeito de Queimadura ao mesmo tempo.",
+        "desc": "Quando Jiaoqiu atinge um inimigo com um ATQ Básico, Perícia ou Perícia Suprema, há uma chance-base de #1[i]% de infligir 1 acúmulo de Assado Acinzentado a ele. Com 1 acúmulo, aumenta o Dano recebido pelo inimigo em #2[f1]%. Então, cada acúmulo subsequente aumenta esse Dano em #3[f1]%.\nAssado Acinzentado tem um limite de #4[i] acúmulo(s) e dura por #5[i] rodada(s).\nQuando o inimigo-alvo é afligido com Assado Acinzentado, ele também é considerado como se estivesse afligido com o efeito de Queimadura, recebendo Dano de Fogo Contínuo igual a #6[i]% do ATQ de Jiaoqiu no início de cada rodada.",
+        "params": [
+            [
+                1,
+                0.075,
+                0.025,
+                5,
+                2,
+                0.9
+            ],
+            [
+                1,
+                0.0825,
+                0.0275,
+                5,
+                2,
+                0.99
+            ],
+            [
+                1,
+                0.09,
+                0.03,
+                5,
+                2,
+                1.08
+            ],
+            [
+                1,
+                0.0975,
+                0.0325,
+                5,
+                2,
+                1.17
+            ],
+            [
+                1,
+                0.105,
+                0.035,
+                5,
+                2,
+                1.26
+            ],
+            [
+                1,
+                0.1125,
+                0.0375,
+                5,
+                2,
+                1.35
+            ],
+            [
+                1,
+                0.1219,
+                0.0406,
+                5,
+                2,
+                1.4625
+            ],
+            [
+                1,
+                0.1313,
+                0.0437,
+                5,
+                2,
+                1.575
+            ],
+            [
+                1,
+                0.1406,
+                0.0469,
+                5,
+                2,
+                1.6875
+            ],
+            [
+                1,
+                0.15,
+                0.05,
+                5,
+                2,
+                1.8
+            ],
+            [
+                1,
+                0.1575,
+                0.0525,
+                5,
+                2,
+                1.89
+            ],
+            [
+                1,
+                0.165,
+                0.055,
+                5,
+                2,
+                1.98
+            ],
+            [
+                1,
+                0.1725,
+                0.0575,
+                5,
+                2,
+                2.07
+            ],
+            [
+                1,
+                0.18,
+                0.06,
+                5,
+                2,
+                2.16
+            ],
+            [
+                1,
+                0.1875,
+                0.0625,
+                5,
+                2,
+                2.25
+            ]
+        ],
+        "icon": "icon/skill/1218_talent.png"
+    },
+    "121806": {
+        "id": "121806",
+        "name": "Ataque",
+        "max_level": 1,
+        "element": "Fire",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
+        "params": [],
+        "icon": "icon/skill/1218_basic_atk.png"
+    },
+    "121807": {
+        "id": "121807",
+        "name": "Amainador de Chamas",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Técnica",
+        "effect": "Impair",
+        "effect_text": "Incapacitação",
+        "simple_desc": "Cria uma dimensão especial. Depois de iniciar uma batalha contra inimigos nesta dimensão, causa Dano de Fogo leve a todos os inimigos, com uma alta chance de aplicar 1 acúmulo de \"Assado Acinzentado\".",
+        "desc": "Após usar a Técnica, cria uma dimensão especial que dura por #2[i] segundo(s). Depois de iniciar uma batalha contra inimigos nesta dimensão especial, causa Dano de Fogo igual a #1[i]% do ATQ de Jiaoqiu a todos os inimigos, com uma chance-base de #3[i]% de aplicar 1 acúmulo de \"Assado Acinzentado\". Apenas 1 dimensão criada por aliados pode existir ao mesmo tempo.",
+        "params": [
+            [
+                1,
+                15,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1218_technique.png"
+    },
+    "122101": {
+        "id": "122101",
+        "name": "Salto dos Ventos Rodopiantes",
+        "max_level": 9,
+        "element": "Physical",
+        "type": "Normal",
+        "type_text": "ATQ Básico",
+        "effect": "SingleAttack",
+        "effect_text": "Alvo Único",
+        "simple_desc": "Causa Dano Físico leve a um único inimigo.",
+        "desc": "Causa Dano Físico igual a #1[i]% do ATQ de Yunli a um único inimigo-alvo.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1221_basic_atk.png"
+    },
+    "122102": {
+        "id": "122102",
+        "name": "Terremoto de Lâminas",
+        "max_level": 15,
+        "element": "Physical",
+        "type": "BPSkill",
+        "type_text": "Perícia",
+        "effect": "Blast",
+        "effect_text": "Explosão",
+        "simple_desc": "Restaura os PV dessa unidade e causa Dano Físico leve a um único inimigo e seus alvos adjacentes.",
+        "desc": "Restaura PV igual a #3[f1]% do ATQ de Yunli + #4[i]. Causa Dano Físico igual a #1[i]% do ATQ de Yunli a um único inimigo-alvo e Dano Físico igual a #2[i]% do ATQ de Yunli a alvos adjacentes.",
+        "params": [
+            [
+                0.6,
+                0.3,
+                0.2,
+                50
+            ],
+            [
+                0.66,
+                0.33,
+                0.2125,
+                80
+            ],
+            [
+                0.72,
+                0.36,
+                0.225,
+                102.5
+            ],
+            [
+                0.78,
+                0.39,
+                0.2375,
+                125
+            ],
+            [
+                0.84,
+                0.42,
+                0.25,
+                140
+            ],
+            [
+                0.9,
+                0.45,
+                0.26,
+                155
+            ],
+            [
+                0.975,
+                0.4875,
+                0.27,
+                166.25
+            ],
+            [
+                1.05,
+                0.525,
+                0.28,
+                177.5
+            ],
+            [
+                1.125,
+                0.5625,
+                0.29,
+                188.75
+            ],
+            [
+                1.2,
+                0.6,
+                0.3,
+                200
+            ],
+            [
+                1.26,
+                0.63,
+                0.31,
+                211.25
+            ],
+            [
+                1.32,
+                0.66,
+                0.32,
+                222.5
+            ],
+            [
+                1.38,
+                0.69,
+                0.33,
+                233.75
+            ],
+            [
+                1.44,
+                0.72,
+                0.34,
+                245
+            ],
+            [
+                1.5,
+                0.75,
+                0.35,
+                256.25
+            ]
+        ],
+        "icon": "icon/skill/1221_skill.png"
+    },
+    "122103": {
+        "id": "122103",
+        "name": "Amarras da Terra, Quebra de Éter",
+        "max_level": 15,
+        "element": "",
+        "type": "Ultra",
+        "type_text": "Perícia Suprema",
+        "effect": "Enhance",
+        "effect_text": "Aprimoramento",
+        "simple_desc": "Entra em \"Apara\" e provoca todos os inimigos. Ao atacar durante este período, ativa um Contra-Ataque poderoso e causa Dano Físico ao atacante e alvos adjacentes. Então, causa Dano Físico leve a um único inimigo-alvo que ricocheteia 6 vezes. Se nenhum Contra-Ataque for acionado durante o estado de Apara, causa Dano Físico a um inimigo-alvo aleatório e alvos adjacentes quando Apara acaba.",
+        "desc": "Consome #8[i] de Energia. Yunli ganha Apara e aplica Provocação em todos os inimigos, durando até o final da próxima rodada de um aliado ou um inimigo. Aumenta o Dano CRIT do próximo Contra-Ataque de Yunli em #2[i]%. Ao ativar o efeito de Contra-Ataque do Talento, desfere o inimigo Contra-Ataque \"Intuito: Abatedora\" ao invés disso e remove o efeito de Apara. Se nenhum Contra-Ataque for ativado enquanto Apara estiver ativa, Yunli realizará imediatamente um Contra-Ataque \"Intuito: Corte\" em um inimigo-alvo aleatório.\n\"Intuito: Corte\": causa Dano Físico ao alvo igual a #1[i]% do ATQ de Yunli, e causa Dano Físico a alvos adjacentes igual a #6[i]% do ATQ de Yunli.\n\"Intuito: Abatedora\": causa Dano Físico igual a #1[i]% do ATQ de Yunli ao alvo, e causa Dano Físico igual a #6[i]% do ATQ de Yunli a alvos adjacentes. Então, adicionalmente, causa #4[i] ocorrências de Dano, com cada vez causando Dano Físico igual a #7[i]% do ATQ de Yunli a um único inimigo-alvo aleatório.\nQuando Yunli causa Dano através desta habilidade, esse Dano será considerado Dano de Perícia Suprema.",
+        "params": [
+            [
+                1.32,
+                0.6,
+                0,
+                6,
+                0,
+                0.66,
+                0.432,
+                120
+            ],
+            [
+                1.408,
+                0.64,
+                0,
+                6,
+                0,
+                0.704,
+                0.4608,
+                120
+            ],
+            [
+                1.496,
+                0.68,
+                0,
+                6,
+                0,
+                0.748,
+                0.4896,
+                120
+            ],
+            [
+                1.584,
+                0.72,
+                0,
+                6,
+                0,
+                0.792,
+                0.5184,
+                120
+            ],
+            [
+                1.672,
+                0.76,
+                0,
+                6,
+                0,
+                0.836,
+                0.5472,
+                120
+            ],
+            [
+                1.76,
+                0.8,
+                0,
+                6,
+                0,
+                0.88,
+                0.576,
+                120
+            ],
+            [
+                1.87,
+                0.85,
+                0,
+                6,
+                0,
+                0.935,
+                0.612,
+                120
+            ],
+            [
+                1.98,
+                0.9,
+                0,
+                6,
+                0,
+                0.99,
+                0.648,
+                120
+            ],
+            [
+                2.09,
+                0.95,
+                0,
+                6,
+                0,
+                1.045,
+                0.684,
+                120
+            ],
+            [
+                2.2,
+                1,
+                0,
+                6,
+                0,
+                1.1,
+                0.72,
+                120
+            ],
+            [
+                2.288,
+                1.04,
+                0,
+                6,
+                0,
+                1.144,
+                0.7488,
+                120
+            ],
+            [
+                2.376,
+                1.08,
+                0,
+                6,
+                0,
+                1.188,
+                0.7776,
+                120
+            ],
+            [
+                2.464,
+                1.12,
+                0,
+                6,
+                0,
+                1.232,
+                0.8064,
+                120
+            ],
+            [
+                2.552,
+                1.16,
+                0,
+                6,
+                0,
+                1.276,
+                0.8352,
+                120
+            ],
+            [
+                2.64,
+                1.2,
+                0,
+                6,
+                0,
+                1.32,
+                0.864,
+                120
+            ]
+        ],
+        "icon": "icon/skill/1221_ultimate.png"
+    },
+    "122104": {
+        "id": "122104",
+        "name": "Forja Fulgurante",
+        "max_level": 15,
+        "element": "Physical",
+        "type": "Talent",
+        "type_text": "Talento",
+        "effect": "Blast",
+        "effect_text": "Explosão",
+        "simple_desc": "Quando Yunli é atacada por um inimigo-alvo, adicionalmente regenera Energia e imediatamente desfere um Contra-Ataque contra o atacante e alvos adjacentes.",
+        "desc": "Quando Yunli é atacada por um inimigo-alvo, adicionalmente regenera #3[i] de Energia e imediatamente desfere um Contra-Ataque contra o atacante, causando Dano Físico igual a #1[i]% do ATQ de Yunli ao atacante e Dano Físico igual a #2[i]% do ATQ de Yunli aos alvos adjacentes.\nSe não houver nenhum alvo para receber o Contra-Ataque imediatamente, então o Contra-Ataque é desferido contra um inimigo-alvo aleatório.",
+        "params": [
+            [
+                0.6,
+                0.3,
+                15
+            ],
+            [
+                0.66,
+                0.33,
+                15
+            ],
+            [
+                0.72,
+                0.36,
+                15
+            ],
+            [
+                0.78,
+                0.39,
+                15
+            ],
+            [
+                0.84,
+                0.42,
+                15
+            ],
+            [
+                0.9,
+                0.45,
+                15
+            ],
+            [
+                0.975,
+                0.4875,
+                15
+            ],
+            [
+                1.05,
+                0.525,
+                15
+            ],
+            [
+                1.125,
+                0.5625,
+                15
+            ],
+            [
+                1.2,
+                0.6,
+                15
+            ],
+            [
+                1.26,
+                0.63,
+                15
+            ],
+            [
+                1.32,
+                0.66,
+                15
+            ],
+            [
+                1.38,
+                0.69,
+                15
+            ],
+            [
+                1.44,
+                0.72,
+                15
+            ],
+            [
+                1.5,
+                0.75,
+                15
+            ]
+        ],
+        "icon": "icon/skill/1221_talent.png"
+    },
+    "122106": {
+        "id": "122106",
+        "name": "Ataque",
+        "max_level": 1,
+        "element": "Physical",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
+        "params": [],
+        "icon": "icon/skill/1221_basic_atk.png"
+    },
+    "122107": {
+        "id": "122107",
+        "name": "Predecessor Posterior",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Técnica",
+        "effect": "Enhance",
+        "effect_text": "Aprimoramento",
+        "simple_desc": "Esta unidade ganha o efeito de Sentinela, durando por 20 segundos. Durante este tempo, ao entrar em combate atacando inimigos ou recebendo um ataque, utiliza imediatamente \"Intuito: Abatedora\" em um inimigo aleatório.",
+        "desc": "Esta unidade ganha o efeito de Sentinela, durando por #2[i] segundos. Durante este tempo, ao entrar em combate atacando inimigos ou recebendo um ataque, utiliza imediatamente \"Intuito: Abatedora\" em um inimigo aleatório, e aumenta o Dano causado por este ataque em #1[i]%.",
+        "params": [
+            [
+                0.8,
+                20
+            ]
+        ],
+        "icon": "icon/skill/1221_technique.png"
+    },
+    "122401": {
+        "id": "122401",
+        "name": "Minha Espada Eletrocuta Demônios",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "ATQ Básico",
+        "effect": "SingleAttack",
+        "effect_text": "Alvo Único",
+        "simple_desc": "Causa Dano Imaginário leve a um único inimigo e ganha 1 ponto(s) de Carga.",
+        "desc": "Causa Dano Imaginário igual a #1[i]% do ATQ de 7 de Março a um único inimigo e ganha #2[i] ponto(s) de Carga.",
+        "params": [
+            [
+                0.5,
+                1
+            ],
+            [
+                0.6,
+                1
+            ],
+            [
+                0.7,
+                1
+            ],
+            [
+                0.8,
+                1
+            ],
+            [
+                0.9,
+                1
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1.1,
+                1
+            ],
+            [
+                1.2,
+                1
+            ],
+            [
+                1.3,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1224_basic_atk.png"
+    },
+    "122402": {
+        "id": "122402",
+        "name": "Shifu, É Hora do Chá!",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Perícia",
+        "effect": "Support",
+        "effect_text": "Suporte",
+        "simple_desc": "Faz com que um único aliado se torne Shifu. Ao utilizar ATQ Básico ou causar Dano de ATQ Básico Aprimorado, aciona o efeito correspondente ao Caminho do Shifu:\nA Erudição, A Destruição, A Caça: causa Dano Adicional com base no Tipo do Shifu.\nA Harmonia, A Inexistência, A Preservação, A Abundância: a Redução de Tenacidade aumenta.",
+        "desc": "Define um único aliado (excluindo esta unidade) como o Shifu e aumenta a VEL do Shifu em #1[f1]%. Apenas o alvo mais recente da Perícia de 7 de Março será considerado seu \"Shifu\".\nAo usar um ATQ Básico ou ao aplicar 1 golpe de seu ATQ Básico Aprimorado que cause Dano, ativa os seguintes efeitos com base no Caminho específico do Shifu:\nA Erudição, A Destruição, A Caça: adicionalmente causa Dano Adicional (Tipo de Dano baseado no Tipo de Dano do Shifu) igual a #2[i]% do ATQ de 7 de Março.\nA Harmonia, A Inexistência, A Preservação, A Abundância: aumenta a Redução de Tenacidade para esse Dano em #3[i]%.",
+        "params": [
+            [
+                0.06,
+                0.1,
+                1
+            ],
+            [
+                0.064,
+                0.11,
+                1
+            ],
+            [
+                0.068,
+                0.12,
+                1
+            ],
+            [
+                0.072,
+                0.13,
+                1
+            ],
+            [
+                0.076,
+                0.14,
+                1
+            ],
+            [
+                0.08,
+                0.15,
+                1
+            ],
+            [
+                0.085,
+                0.1625,
+                1
+            ],
+            [
+                0.09,
+                0.175,
+                1
+            ],
+            [
+                0.095,
+                0.1875,
+                1
+            ],
+            [
+                0.1,
+                0.2,
+                1
+            ],
+            [
+                0.104,
+                0.21,
+                1
+            ],
+            [
+                0.108,
+                0.22,
+                1
+            ],
+            [
+                0.112,
+                0.23,
+                1
+            ],
+            [
+                0.116,
+                0.24,
+                1
+            ],
+            [
+                0.12,
+                0.25,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1224_skill.png"
+    },
+    "122403": {
+        "id": "122403",
+        "name": "7 de Março, a Maior das Heroínas",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Ultra",
+        "type_text": "Perícia Suprema",
+        "effect": "SingleAttack",
+        "effect_text": "Alvo Único",
+        "simple_desc": "Causa Dano Imaginário a um único inimigo e aumenta os Golpes por Ação e a chance de Dano do próximo ATQ Básico Aprimorado.",
+        "desc": "Causa Dano Imaginário igual a #1[i]% do ATQ de 7 de Março a um único inimigo-alvo.\nAumenta os Golpes por Ação iniciais do próximo ATQ Básico Aprimorado em #2[i] golpes e aumenta a chance-fixa de causar Dano adicional em #3[i]%.",
+        "params": [
+            [
+                1.44,
+                2,
+                0.2
+            ],
+            [
+                1.536,
+                2,
+                0.2
+            ],
+            [
+                1.632,
+                2,
+                0.2
+            ],
+            [
+                1.728,
+                2,
+                0.2
+            ],
+            [
+                1.824,
+                2,
+                0.2
+            ],
+            [
+                1.92,
+                2,
+                0.2
+            ],
+            [
+                2.04,
+                2,
+                0.2
+            ],
+            [
+                2.16,
+                2,
+                0.2
+            ],
+            [
+                2.28,
+                2,
+                0.2
+            ],
+            [
+                2.4,
+                2,
+                0.2
+            ],
+            [
+                2.496,
+                2,
+                0.2
+            ],
+            [
+                2.592,
+                2,
+                0.2
+            ],
+            [
+                2.688,
+                2,
+                0.2
+            ],
+            [
+                2.784,
+                2,
+                0.2
+            ],
+            [
+                2.88,
+                2,
+                0.2
+            ]
+        ],
+        "icon": "icon/skill/1224_ultimate.png"
+    },
+    "122404": {
+        "id": "122404",
+        "name": "Shifu, Eu Ascendi!",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talento",
+        "effect": "Enhance",
+        "effect_text": "Aprimoramento",
+        "simple_desc": "Depois que o Shifu usa um ataque ou Perícia Suprema, 7 de Março ganha Carga. Quando os pontos de Carga atingem 7, 7 de Março age imediatamente e aumenta o Dano causado por ela. O ATQ Básico dela é Aprimorado.",
+        "desc": "Depois que o Shifu usa um ataque ou Perícia Suprema, 7 de Março ganha até um ponto de Carga por vez.\nQuando a Carga chegar a #1[i] ou mais, 7 de Março age imediatamente e aumenta o Dano causado por ela em #2[i]%. O ATQ Básico dela é Aprimorado, e sua Perícia não pode ser utilizada. Após utilizar um ATQ Básico Aprimorado, consome #1[i] ponto(s) de Carga. O máximo de acúmulos possível de ponto(s) de Carga é #3[i].",
+        "params": [
+            [
+                7,
+                0.4,
+                10
+            ],
+            [
+                7,
+                0.44,
+                10
+            ],
+            [
+                7,
+                0.48,
+                10
+            ],
+            [
+                7,
+                0.52,
+                10
+            ],
+            [
+                7,
+                0.56,
+                10
+            ],
+            [
+                7,
+                0.6,
+                10
+            ],
+            [
+                7,
+                0.65,
+                10
+            ],
+            [
+                7,
+                0.7,
+                10
+            ],
+            [
+                7,
+                0.75,
+                10
+            ],
+            [
+                7,
+                0.8,
+                10
+            ],
+            [
+                7,
+                0.84,
+                10
+            ],
+            [
+                7,
+                0.88,
+                10
+            ],
+            [
+                7,
+                0.92,
+                10
+            ],
+            [
+                7,
+                0.96,
+                10
+            ],
+            [
+                7,
+                1,
+                10
+            ]
+        ],
+        "icon": "icon/skill/1224_talent.png"
+    },
+    "122406": {
+        "id": "122406",
+        "name": "Ataque",
+        "max_level": 1,
+        "element": "Imaginary",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
+        "params": [],
+        "icon": "icon/skill/1224_basic_atk.png"
+    },
+    "122407": {
+        "id": "122407",
+        "name": "Banquete de Uma Só Vez",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Técnica",
+        "effect": "Enhance",
+        "effect_text": "Aprimoramento",
+        "simple_desc": "Sempre que um aliado usa uma Técnica, 7 de Março ganha uma Carga ao entrar na próxima batalha. Utilizar a Técnica regenera Energia ao entrar na próxima batalha.",
+        "desc": "Se 7 de Março estiver na equipe, ela ganha 1 ponto de Carga no início da próxima batalha sempre que um aliado utiliza uma Técnica, até um máximo de #1[i] ponto(s).\nApós utilizar a Técnica, 7 de Março regenera #2[i] de Energia quando a próxima batalha começa.",
+        "params": [
+            [
+                3,
+                30
+            ]
+        ],
+        "icon": "icon/skill/1224_technique.png"
+    },
+    "122408": {
+        "id": "122408",
+        "name": "Rostos Feridos, Corações Mordidos",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "ATQ Básico",
+        "effect": "SingleAttack",
+        "effect_text": "Alvo Único",
+        "simple_desc": "Causa Dano Imaginário a um único inimigo, realizando inicialmente 3 golpes. Há uma chance de causar até 3 golpe(s) adicionalmente.",
+        "desc": "Este ataque causa Dano #4[i] vez(es) inicialmente. Cada golpe contra o inimigo-alvo causa Dano Imaginário igual a #1[i]% do ATQ de 7 de Março. Após realizar o golpe final, há uma chance fixa de #2[i]% de realizar 1 golpe extra, até um máximo de #3[i] golpe(s) extra(s). A Energia regenerada ao utilizar o ATQ Básico Aprimorado não aumenta com o número de Golpes por Ação.\nO ATQ Básico Aprimorado não pode recuperar Pontos de Perícia.",
+        "params": [
+            [
+                0.4,
+                0.6,
+                3,
+                3
+            ],
+            [
+                0.48,
+                0.6,
+                3,
+                3
+            ],
+            [
+                0.56,
+                0.6,
+                3,
+                3
+            ],
+            [
+                0.64,
+                0.6,
+                3,
+                3
+            ],
+            [
+                0.72,
+                0.6,
+                3,
+                3
+            ],
+            [
+                0.8,
+                0.6,
+                3,
+                3
+            ],
+            [
+                0.88,
+                0.6,
+                3,
+                3
+            ],
+            [
+                0.96,
+                0.6,
+                3,
+                3
+            ],
+            [
+                1.04,
+                0.6,
+                3,
+                3
+            ]
+        ],
+        "icon": "icon/skill/1224_basic_atk.png"
+    },
     "130101": {
         "id": "130101",
         "name": "Taxa de Rolha",
@@ -14421,7 +15700,7 @@
         "effect": "Support",
         "effect_text": "Suporte",
         "simple_desc": "Aumenta a PEN de RES a Todos os Tipos para todos os aliados, e seus ataques aplicam Reflorescer da Ameixa aos inimigos atingidos.",
-        "desc": "Ruan Mei implanta um campo que dura por #2[i] rodadas. A duração do campo diminui em 1 no início da rodada dela.\nEnquanto estiver dentro do campo, a PEN de RES a Todos os Tipos de todos os aliados aumenta em #1[f1]% e os ataques deles aplicam Reflorescer da Ameixa aos inimigos atingidos.\nQuando esses inimigos tentam se recuperar da Quebra de Fraqueza, Reflorescer da Ameixa é ativado, estendendo a duração da sua Quebra de Fraqueza, atrasando sua ação em uma quantidade igual a #3[i]% do Efeito de Quebra de Ruan Mei + #4[i]%, e causando Dano de Quebra igual a #5[i]% do Dano de Quebra de Gelo de Ruan Mei.\nReflorescer da Ameixa não pode ser aplicado novamente aos inimigos-alvo até eles se recuperarem da Quebra de Fraqueza.",
+        "desc": "Ruan Mei implanta um Campo que dura por #2[i] rodadas. A duração do campo diminui em 1 no início da rodada dela.\nEnquanto estiver dentro do Campo, a PEN de RES a Todos os Tipos de todos os aliados aumenta em #1[f1]% e os ataques deles aplicam Reflorescer da Ameixa aos inimigos atingidos.\nQuando esses inimigos tentam se recuperar da Quebra de Fraqueza, Reflorescer da Ameixa é ativado, estendendo a duração da sua Quebra de Fraqueza, atrasando sua ação em uma quantidade igual a #3[i]% do Efeito de Quebra de Ruan Mei + #4[i]%, e causando Dano de Quebra igual a #5[i]% do Dano de Quebra de Gelo de Ruan Mei.\nReflorescer da Ameixa não pode ser aplicado novamente aos inimigos-alvo até eles se recuperarem da Quebra de Fraqueza.",
         "params": [
             [
                 0.15,
@@ -14630,7 +15909,7 @@
         "effect": "Enhance",
         "effect_text": "Aprimoramento",
         "simple_desc": "Da próxima vez que entrar em batalha, ativa automaticamente a Perícia por 1 vez(es). Depois de usar a Técnica, aliados atacando inimigos no Universo Simulado ou no Universo Divergente sempre serão considerados como se estivessem atacando a Fraqueza para entrar em batalha, e sua Tenacidade é reduzida independente dos Tipos de Fraqueza. Para cada Bênção em posse, aumenta a Redução de Tenacidade e causa adicionalmente Dano de Quebra ao infligir Quebra de Fraqueza.",
-        "desc": "Depois de usar a Técnica, ganha Serenata de Seda. No início da próxima batalha, ativa automaticamente a Perícia #1[i] vez(es) sem consumir Pontos de Perícia.\nNo Universo Simulado ou no Universo Divergente, quando Ruan Mei possuir Serenata de Seda, a equipe atacando inimigos será considerada como se sempre estivesse atacando sua Fraqueza para entrar em batalha, e este ataque pode reduzir a Tenacidade de todos os inimigos independente dos Tipos de Fraqueza. Ao aplicar Quebra de Fraqueza, ativa o Efeito de Quebra de Fraqueza correspondente ao Tipo do atacante. Para cada Bênção em posse (até #4[i] Bênçãos), adicionalmente aumenta a Redução de Tenacidade deste ataque em #2[i]%. Após aplicar a Quebra de Fraqueza a um inimigo-alvo, causa adicionalmente Dano de Quebra igual a #3[i]% do Dano de Quebra de Gelo de Ruan Mei ao inimigo-alvo.",
+        "desc": "Depois de usar a Técnica, ganha Serenata de Seda. No início da próxima batalha, ativa automaticamente a Perícia #1[i] vez(es) sem consumir Pontos de Perícia.\nNo Universo Simulado ou no Universo Divergente, quando Ruan Mei possuir Serenata de Seda, a equipe atacando inimigos será considerada como se sempre estivesse atacando sua Fraqueza para entrar em batalha, e este ataque pode reduzir a Tenacidade de todos os inimigos independente dos Tipos de Fraqueza. Ao aplicar Quebra de Fraqueza, ativa o Efeito de Quebra de Fraqueza correspondente ao Tipo do atacante. Para cada Bênção em posse (até um máximo de #4[i] Bênção(s) será(ão) considerada(s)), adicionalmente aumenta a Redução de Tenacidade deste ataque em #2[i]%. Após aplicar a Quebra de Fraqueza a um inimigo-alvo, causa adicionalmente Dano de Quebra igual a #3[i]% do Dano de Quebra de Gelo de Ruan Mei ao inimigo-alvo.",
         "params": [
             [
                 1,
@@ -17355,7 +18634,7 @@
         "effect": "SingleAttack",
         "effect_text": "Alvo Único",
         "simple_desc": "Consome uma parte dos PV desta unidade para regenerar Energia. Causa Dano de Fogo a um único inimigo. Faz com que a próxima ação do personagem seja Avançada Adiante.",
-        "desc": "Consome PV igual a #2[i]% dos PV máximos desta unidade e regenera uma quantidade fixa de Energia igual a #3[i]% da Energia máxima desta unidade. Causa Dano de Fogo equivalente a #1[i]% do ATQ de SAM a um único inimigo-alvo. Se os PV atuais não forem suficientes, os PV de SAM serão reduzidos a 1 ao usar esta Perícia. Avança a próxima ação desta unidade em #4[i]%.",
+        "desc": "Consome PV igual a #2[i]% dos PV máximos desta unidade e regenera uma quantidade fixa de Energia igual a #3[i]% da Energia máxima desta unidade. Causa Dano de Fogo equivalente a #1[i]% do ATQ de SAM a um único inimigo-alvo. Se os PV atuais não forem suficientes, os PV de SAM serão reduzidos a 1 ao usar esta Perícia. A próxima ação desta unidade é Avançada Adiante em #4[i]%.",
         "params": [
             [
                 1,
@@ -18316,7 +19595,7 @@
         "effect": "Support",
         "effect_text": "Suporte",
         "simple_desc": "Faz com que um único aliado se torne o Coletor de Dívidas e aumente sua VEL. Após um Coletor de Dívidas atacar, ele causa Dano Quântico leve Adicional a cada inimigo-alvo atingido e consome seus próprios PV. Quando Jade se torna a Coletora de Dívidas, ela não pode ganhar o efeito de bônus de VEL, e seus ataques não consomem PV.",
-        "desc": "Faz com que um único aliado-alvo se torne o Coletor de Dívidas e aumenta sua VEL em #1[i], durando #4[i] rodada(s).\nApós um Coletor de Dívidas atacar, causa uma instância de Dano Quântico Adicional igual a #3[i]% do ATQ de Jade a cada inimigo-alvo atingido, e consome os PV do Coletor de Dívidas em uma quantidade igual a #2[i]% dos seus PV máximos. Se seus PV atuais forem insuficientes, seus PV atuais serão reduzidos para 1.\nSe Jade se tornar a Coletora de Dívidas, ela não pode ganhar o efeito de aumento de VEL, e seus ataques não consomem PV.\nQuando há o Coletor de Dívidas em campo, Jade não pode usar sua Perícia. No início de cada rodada de Jade, a duração do estado Coletor de Dívidas é reduzida em 1 turno.",
+        "desc": "Faz com que um único aliado-alvo se torne o Coletor de Dívidas e aumenta sua VEL em #1[i], durando #4[i] rodada(s).\nApós um Coletor de Dívidas atacar, causa uma instância de Dano Quântico Adicional igual a #3[i]% do ATQ de Jade a cada inimigo-alvo atingido, e consome os PV do Coletor de Dívidas em uma quantidade igual a #2[i]% dos seus PV máximos. Se seus PV atuais forem insuficientes, seus PV atuais serão reduzidos para 1.\nSe Jade se tornar a Coletora de Dívidas, ela não pode ganhar o efeito de aumento de VEL, e seus ataques não consomem PV.\nQuando há o Coletor de Dívidas em campo, Jade não pode usar sua Perícia. No início de cada rodada de Jade, a duração do estado Coletor de Dívidas é reduzida em 1 rodada.",
         "params": [
             [
                 30,
@@ -18420,7 +19699,7 @@
         "type_text": "Perícia Suprema",
         "effect": "AoEAttack",
         "effect_text": "Área",
-        "simple_desc": "Causa Dano Quântico a todos os inimigos e ganha Multiplicador de Dano para Ataque Extra.",
+        "simple_desc": "Causa Dano Quântico a todos os inimigos e ganha Multiplicador de Dano de Ataque Extra.",
         "desc": "Causa Dano Quântico igual a #3[i]% do ATQ de Jade a todos os inimigos. Ao mesmo tempo, Jade aprimora o Ataque Extra do seu Talento, aumentando o multiplicador de Dano do Ataque Extra em #1[i]%. Esse efeito de aprimoramento pode ser ativado #2[i] vez(es).",
         "params": [
             [

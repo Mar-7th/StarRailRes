@@ -309,7 +309,7 @@
         "id": "100401",
         "name": "Legado de honor",
         "rank": 1,
-        "desc": "Tras usar su habilidad definitiva, Welt obtiene una potenciación: las 2 siguientes veces que ataque usando el ATQ básico o la habilidad básica, inflige daño adicional a los objetivos 1 vez. El daño adicional del ATQ básico es un 50% del multiplicador de daño de su ATQ básico, y el daño adicional de la habilidad básica es un 80% del multiplicador de daño de su habilidad básica.",
+        "desc": "Tras usar su habilidad definitiva, Welt obtiene una potenciación: las 2 siguientes veces que ataque usando el ATQ básico o la habilidad básica, inflige daño adicional a los objetivos 1 vez. El daño adicional que inflige el ATQ básico es igual al 50% del multiplicador del daño de ATQ básico, y el daño adicional que inflige la habilidad básica es igual al 80% del multiplicador del daño de habilidad básica.",
         "materials": [
             {
                 "id": "11004",
@@ -972,7 +972,7 @@
         "id": "110104",
         "name": "Por sorpresa",
         "rank": 4,
-        "desc": "Cuando un aliado de Bronya usa su ATQ básico contra un enemigo que tiene Debilidad de Viento, Bronya lanza un ataque adicional que inflige un Daño de Viento equivalente al 80% del daño de su ATQ básico. Este efecto solo se puede activar una vez por turno.",
+        "desc": "Cuando un aliado de Bronya usa su ATQ básico contra un enemigo que tiene Debilidad de Viento, Bronya lanza un ataque adicional que inflige un Daño de Viento equivalente al 80% del daño de ATQ básico. Este efecto solo se puede activar una vez por turno.",
         "materials": [
             {
                 "id": "11101",
@@ -1111,7 +1111,7 @@
         "id": "110206",
         "name": "Caos destructivo",
         "rank": 6,
-        "desc": "Tras usar la habilidad definitiva de Seele, el objetivo entra en el estado de Mariposa desbocada durante 1 turno. Cuando un enemigo afectado por Mariposa desbocada es atacado, recibe un Daño Cuántico adicional equivalente al 15% del daño de la habilidad definitiva de Seele. Si el enemigo es eliminado por el daño adicional de Mariposa desbocada activado por el ataque de otro aliado, no se activará el talento de Seele.\\nCuando Seele sea derrotada, se disipará el estado de Mariposa desbocada infligido a los enemigos.",
+        "desc": "Tras usar la habilidad definitiva de Seele, el objetivo entra en el estado de Mariposa desbocada durante 1 turno. Cuando un enemigo afectado por Mariposa desbocada es atacado, recibe un Daño Cuántico adicional equivalente al 15% del daño de habilidad definitiva de Seele. Si el enemigo es eliminado por el daño adicional de Mariposa desbocada activado por el ataque de otro aliado, no se activará el talento de Seele.\\nCuando Seele sea derrotada, se disipará el estado de Mariposa desbocada infligido a los enemigos.",
         "materials": [
             {
                 "id": "11102",
@@ -1125,7 +1125,7 @@
         "id": "110301",
         "name": "Cámara de eco",
         "rank": 1,
-        "desc": "El ATQ básico inflige un Daño de Rayo equivalente al 60% del daño del ATQ básico a un enemigo aleatorio adyacente al objetivo.",
+        "desc": "El ATQ básico inflige un Daño de Rayo equivalente al 60% del daño de ATQ básico a un enemigo aleatorio adyacente al objetivo.",
         "materials": [
             {
                 "id": "11103",
@@ -2204,7 +2204,7 @@
         "id": "120104",
         "name": "Combo oportuno, la última ficha espera",
         "rank": 4,
-        "desc": "Tras usar su habilidad básica, Qingque tiene un 24% de probabilidad fija de obtener Autosuficiencia hasta que termine el turno.\\nEn el estado de Autosuficiencia, al usar el ATQ básico o el ATQ básico potenciado, se lanza inmediatamente un ataque adicional que inflige al mismo objetivo u objetivos un Daño Cuántico equivalente al 100% del daño del ATQ básico o del ATQ básico potenciado.",
+        "desc": "Tras usar su habilidad básica, Qingque tiene un 24% de probabilidad fija de obtener Autosuficiencia hasta que termine el turno.\\nEn el estado de Autosuficiencia, al usar el ATQ básico o el ATQ básico potenciado, se lanza inmediatamente un ataque adicional que inflige al mismo objetivo u objetivos un Daño Cuántico equivalente al 100% del daño de ATQ básico o de ATQ básico potenciado.",
         "materials": [
             {
                 "id": "11201",
@@ -3503,7 +3503,7 @@
         "id": "121401",
         "name": "Inhibición del dvesha",
         "rank": 1,
-        "desc": "El daño del ataque adicional del talento aumenta en un 40%.",
+        "desc": "El daño que inflige el ataque adicional del talento aumenta en un 40%.",
         "materials": [
             {
                 "id": "11214",
@@ -3804,6 +3804,316 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1217_rank6.png"
+    },
+    "121801": {
+        "id": "121801",
+        "name": "Transferencia pentapática",
+        "rank": 1,
+        "desc": "El daño que infligen los aliados a los enemigos afectados con Asado al rescoldo aumenta en un 40%. Cada vez que el objetivo es afectado con Asado al rescoldo por la activación del talento, se obtiene 1 acumulación adicional del efecto actual de Asado al rescoldo.",
+        "materials": [
+            {
+                "id": "11218",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1218_rank1.png"
+    },
+    "121802": {
+        "id": "121802",
+        "name": "Del sabor sale el dolor",
+        "rank": 2,
+        "desc": "Cuando un enemigo está en el estado de Asado al rescoldo, el multiplicador del Daño de Fuego con el tiempo que le inflige Asado al rescoldo aumenta en un 300%.",
+        "materials": [
+            {
+                "id": "11218",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1218_rank2.png"
+    },
+    "121803": {
+        "id": "121803",
+        "name": "Armonía de sabor irresistible",
+        "rank": 3,
+        "desc": "Niv. de habilidad básica +2 (máximo: nivel 15). Niv. de ATQ básico +1 (máximo: nivel 10).",
+        "materials": [
+            {
+                "id": "11218",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "121802",
+                "num": 2
+            },
+            {
+                "id": "121801",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1218_skill.png"
+    },
+    "121804": {
+        "id": "121804",
+        "name": "Serenidad interior y lustre exterior",
+        "rank": 4,
+        "desc": "Mientras el campo está activo, el ATQ de los enemigos se reduce en un 15%.",
+        "materials": [
+            {
+                "id": "11218",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1218_rank4.png"
+    },
+    "121805": {
+        "id": "121805",
+        "name": "Lucha en la luz y asesta en las sombras",
+        "rank": 5,
+        "desc": "Niv. de habilidad definitiva +2 (máximo: nivel 15). Niv. de talento +2 (máximo: nivel 15).",
+        "materials": [
+            {
+                "id": "11218",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "121803",
+                "num": 2
+            },
+            {
+                "id": "121804",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1218_ultimate.png"
+    },
+    "121806": {
+        "id": "121806",
+        "name": "Pirovínculo nonomorfo",
+        "rank": 6,
+        "desc": "Cuando un enemigo es derrotado, sus acumulaciones de Asado al rescoldo se agregan al enemigo con menos acumulaciones de Asado al rescoldo en el campo de batalla. El límite de acumulaciones de Asado al rescoldo aumenta a 9. Cada acumulación de Asado al rescoldo reduce la RES a todos los tipos del objetivo en un 3%.",
+        "materials": [
+            {
+                "id": "11218",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1218_rank6.png"
+    },
+    "122101": {
+        "id": "122101",
+        "name": "Espada curtida libre de mácula",
+        "rank": 1,
+        "desc": "El daño que infligen Capción: Sajadura y Capción: Exterminio aumenta en un 20%, y las veces adicionales que Capción: Exterminio inflige daño aumentan en 3.",
+        "materials": [
+            {
+                "id": "11221",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1221_rank1.png"
+    },
+    "122102": {
+        "id": "122102",
+        "name": "Primer lustre al romper el alba",
+        "rank": 2,
+        "desc": "Cuando inflige daño con un contraataque, ignora un 20% de la DEF del objetivo.",
+        "materials": [
+            {
+                "id": "11221",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1221_rank2.png"
+    },
+    "122103": {
+        "id": "122103",
+        "name": "Diez palmos de maestría",
+        "rank": 3,
+        "desc": "Niv. de habilidad definitiva +2 (máximo: nivel 15). Niv. de ATQ básico +1 (máximo: nivel 10).",
+        "materials": [
+            {
+                "id": "11221",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "122103",
+                "num": 2
+            },
+            {
+                "id": "122101",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1221_skill.png"
+    },
+    "122104": {
+        "id": "122104",
+        "name": "Tintineo del maestro herrero",
+        "rank": 4,
+        "desc": "Después de lanzar Capción: Sajadura o Capción: Exterminio, su RES a efecto aumenta en un 50% durante 1 turno.",
+        "materials": [
+            {
+                "id": "11221",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1221_rank4.png"
+    },
+    "122105": {
+        "id": "122105",
+        "name": "Vieja amiga para siempre",
+        "rank": 5,
+        "desc": "Niv. de habilidad básica +2 (máximo: nivel 15). Niv. de talento +2 (máximo: nivel 15).",
+        "materials": [
+            {
+                "id": "11221",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "122102",
+                "num": 2
+            },
+            {
+                "id": "122104",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1221_ultimate.png"
+    },
+    "122106": {
+        "id": "122106",
+        "name": "Temple de acero, corazón de coplero",
+        "rank": 6,
+        "desc": "Si el enemigo lanza una habilidad por iniciativa propia mientras dura el estado de Bloqueo, Capción: Exterminio se activa independientemente de si ataca a Yunli o no, y el efecto de Bloqueo se disipa. Cuando inflige daño al lanzar Capción: Exterminio o Capción: Sajadura, su Prob. CRIT aumenta en un 15% y su PEN de la RES a Físico aumenta en un 20%.",
+        "materials": [
+            {
+                "id": "11221",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1221_rank6.png"
+    },
+    "122401": {
+        "id": "122401",
+        "name": "Espada de lustre astral",
+        "rank": 1,
+        "desc": "Cuando el Maestro está en el campo de batalla, la VEL de Siete de Marzo aumenta en un 10%.",
+        "materials": [
+            {
+                "id": "11224",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1224_rank1.png"
+    },
+    "122402": {
+        "id": "122402",
+        "name": "Ágil hoja del agitado oleaje",
+        "rank": 2,
+        "desc": "Después de que el Maestro use el ATQ básico o la habilidad básica para atacar al enemigo, Siete de Marzo lanza inmediatamente un ataque adicional e inflige un Daño Imaginario equivalente al 60% de su ATQ al objetivo principal. Además, activa el efecto correspondiente según la Vía del Maestro, y obtiene 1 pt. de carga. Si no existe ningún objetivo principal que pueda ser atacado, el ataque adicional se dirige contra un enemigo al azar. Este efecto solo se puede activar una vez en cada turno.",
+        "materials": [
+            {
+                "id": "11224",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1224_rank2.png"
+    },
+    "122403": {
+        "id": "122403",
+        "name": "Agudeza y habilidad a la par",
+        "rank": 3,
+        "desc": "Niv. de habilidad básica +2 (máximo: nivel 15). Niv. de ATQ básico +1 (máximo: nivel 10).",
+        "materials": [
+            {
+                "id": "11224",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "122402",
+                "num": 2
+            },
+            {
+                "id": "122401",
+                "num": 1
+            },
+            {
+                "id": "122408",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1224_skill.png"
+    },
+    "122404": {
+        "id": "122404",
+        "name": "Quien es divina no desatina",
+        "rank": 4,
+        "desc": "Recupera 5 pts. de energía al comienzo del turno.",
+        "materials": [
+            {
+                "id": "11224",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1224_rank4.png"
+    },
+    "122405": {
+        "id": "122405",
+        "name": "Más entreno y menos caramelos",
+        "rank": 5,
+        "desc": "Niv. de habilidad definitiva +2 (máximo: nivel 15). Niv. de talento +2 (máximo: nivel 15).",
+        "materials": [
+            {
+                "id": "11224",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "122403",
+                "num": 2
+            },
+            {
+                "id": "122404",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1224_ultimate.png"
+    },
+    "122406": {
+        "id": "122406",
+        "name": "Una chica sin igual",
+        "rank": 6,
+        "desc": "Tras usar la habilidad definitiva, el Daño CRIT que inflige el siguiente ATQ básico potenciado aumenta en un 50%.",
+        "materials": [
+            {
+                "id": "11224",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1224_rank6.png"
     },
     "130101": {
         "id": "130101",
@@ -4635,7 +4945,7 @@
         "id": "130806",
         "name": "Calamidad rompecadenas",
         "rank": 6,
-        "desc": "La PEN de la RES a todos los tipos que causa el daño de la habilidad definitiva de Acheron aumenta en un 20%. El daño infligido por su ATQ básico o habilidad básica se considera daño de habilidad definitiva, y consume la Firmeza del enemigo ignorando sus tipos de Debilidad. Al romper la Debilidad de un enemigo, activa el efecto de Ruptura de Rayo.",
+        "desc": "La PEN de la RES a todos los tipos del daño de habilidad definitiva infligido por Acheron aumenta en un 20%. El daño infligido por su ATQ básico o habilidad básica se considera daño de habilidad definitiva, y consume la Firmeza del enemigo ignorando sus tipos de Debilidad. Al romper la Debilidad de un enemigo, activa el efecto de Ruptura de Rayo.",
         "materials": [
             {
                 "id": "11308",
@@ -4989,7 +5299,7 @@
     },
     "131403": {
         "id": "131403",
-        "name": "¿Sinceridad? Pronto será empeñada",
+        "name": "¿Franqueza? Pronto será empeñada",
         "rank": 3,
         "desc": "Niv. de habilidad básica +2 (máximo: nivel 15). Niv. de talento +2 (máximo: nivel 15).",
         "materials": [

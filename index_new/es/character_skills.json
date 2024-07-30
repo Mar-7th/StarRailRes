@@ -532,7 +532,7 @@
         "effect": "SingleAttack",
         "effect_text": "ATQ individual",
         "simple_desc": "Inflige una gran cantidad de Daño de Viento a un enemigo. Aumenta el multiplicador de daño contra los objetivos afectados por Ralentización.",
-        "desc": "Inflige un #1[i]% del ATQ de Dan Heng como Daño de Viento a un enemigo. Cuando el objetivo está afectado por Ralentización, el multiplicador de daño de la habilidad definitiva de Dan Heng aumenta en un #2[i]%.",
+        "desc": "Inflige un #1[i]% del ATQ de Dan Heng como Daño de Viento a un enemigo. Cuando el objetivo está afectado por Ralentización, el multiplicador del daño que inflige la habilidad definitiva de Dan Heng aumenta en un #2[i]%.",
         "params": [
             [
                 2.4,
@@ -7103,8 +7103,8 @@
         "type_text": "Habilidad básica",
         "effect": "SingleAttack",
         "effect_text": "ATQ individual",
-        "simple_desc": "Hace que un enemigo entre en el estado Certificado de deuda y reciba más daño de los ataques adicionales. Conti inflige Daño de Fuego al objetivo.",
-        "desc": "Hace que un enemigo entre en el estado Certificado de deuda y aumenta el daño que recibe de los ataques adicionales en un #2[i]%. Certificado de deuda solo tiene efecto en el último objetivo al que se le haya aplicado. Al inicio del turno de un aliado o durante la acción de los aliados, si en el campo de batalla no hay ningún enemigo con Certificado de deuda, Topaz se lo aplica a un enemigo al azar.\nConti inflige a ese objetivo un #1[i]% del ATQ de Topaz como Daño de Fuego. Lanzar esta habilidad básica e infligir daño se considera como lanzar un ataque adicional.",
+        "simple_desc": "Hace que un enemigo entre en el estado Certificado de deuda y reciba más daño de ataque adicional. Conti inflige Daño de Fuego al objetivo.",
+        "desc": "Hace que un enemigo entre en el estado Certificado de deuda y aumenta en un #2[i]% el daño de ataque adicional que recibe. Certificado de deuda solo tiene efecto en el último objetivo al que se le haya aplicado. Al inicio del turno de un aliado o durante la acción de los aliados, si en el campo de batalla no hay ningún enemigo con Certificado de deuda, Topaz se lo aplica a un enemigo al azar.\nConti inflige a ese objetivo un #1[i]% del ATQ de Topaz como Daño de Fuego. Lanzar esta habilidad básica e infligir daño se considera como lanzar un ataque adicional.",
         "params": [
             [
                 0.75,
@@ -13528,6 +13528,1285 @@
         ],
         "icon": "icon/skill/1217_technique.png"
     },
+    "121801": {
+        "id": "121801",
+        "name": "Corazón inflamado",
+        "max_level": 9,
+        "element": "Fire",
+        "type": "Normal",
+        "type_text": "ATQ básico",
+        "effect": "SingleAttack",
+        "effect_text": "ATQ individual",
+        "simple_desc": "Inflige una pequeña cantidad de Daño de Fuego a un enemigo.",
+        "desc": "Inflige un #1[i]% del ATQ de Jiaoqiu como Daño de Fuego a un enemigo.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1218_basic_atk.png"
+    },
+    "121802": {
+        "id": "121802",
+        "name": "Asalto conflagrador",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "BPSkill",
+        "type_text": "Habilidad básica",
+        "effect": "Blast",
+        "effect_text": "Ráfaga",
+        "simple_desc": "Inflige Daño de Fuego a un enemigo y una pequeña cantidad de Daño de Fuego a los enemigos adyacentes. Tiene una gran probabilidad aplicar 1 acumulación de Asado al rescoldo al objetivo principal.",
+        "desc": "Jiaoqiu inflige un #1[i]% de su ATQ como Daño de Fuego a un enemigo y un #2[i]% de su ATQ como Daño de Fuego a los enemigos adyacentes. Tiene una probabilidad base del #3[i]% de aplicar una acumulación de Asado al rescoldo al objetivo principal.",
+        "params": [
+            [
+                0.75,
+                0.45,
+                1
+            ],
+            [
+                0.825,
+                0.495,
+                1
+            ],
+            [
+                0.9,
+                0.54,
+                1
+            ],
+            [
+                0.975,
+                0.585,
+                1
+            ],
+            [
+                1.05,
+                0.63,
+                1
+            ],
+            [
+                1.125,
+                0.675,
+                1
+            ],
+            [
+                1.2188,
+                0.7312,
+                1
+            ],
+            [
+                1.3125,
+                0.7875,
+                1
+            ],
+            [
+                1.4062,
+                0.8438,
+                1
+            ],
+            [
+                1.5,
+                0.9,
+                1
+            ],
+            [
+                1.575,
+                0.945,
+                1
+            ],
+            [
+                1.65,
+                0.99,
+                1
+            ],
+            [
+                1.725,
+                1.035,
+                1
+            ],
+            [
+                1.8,
+                1.08,
+                1
+            ],
+            [
+                1.875,
+                1.125,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1218_skill.png"
+    },
+    "121803": {
+        "id": "121803",
+        "name": "Arcano pirográfico",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "Ultra",
+        "type_text": "Habilidad definitiva",
+        "effect": "AoEAttack",
+        "effect_text": "ATQ AdE",
+        "simple_desc": "Iguala las acumulaciones de Asado al rescoldo que tenga cada enemigo a las que tenga el efecto de Asado al rescoldo con más acumulaciones en el campo de batalla. A continuación, activa un campo e Inflige Daño de Fuego a todos los enemigos. Los enemigos dentro del campo reciben más daño de habilidad definitiva y tienen una probabilidad de recibir 1 acumulación de Asado al rescoldo cuando actúan.",
+        "desc": "Iguala las acumulaciones de Asado al rescoldo que tiene cada enemigo a las que tenga el efecto de Asado al rescoldo con más acumulaciones en el campo de batalla. Luego, activa un campo e inflige un #1[i]% del ATQ de Jiaoqiu como Daño de Fuego a todos los enemigos.\nLos enemigos dentro del campo reciben un #3[f1]% más de daño de habilidad definitiva y tienen una probabilidad base del #2[i]% de recibir 1 acumulación de Asado al rescoldo al actuar. Este efecto solo se puede activar #5[i] veces mientras dura el campo, y solo puede activarse 1 vez por cada turno de cada enemigo. El recuento de activaciones se reinicia cada vez que Jiaoqiu lanza la habilidad definitiva.\nEl campo dura #4[i] turnos. Al comienzo de cada turno de Jiaoqiu, los turnos del campo disminuyen en 1. Cuando Jiaoqiu es derrotado, el campo también se disipa.",
+        "params": [
+            [
+                0.6,
+                0.5,
+                0.09,
+                3,
+                6
+            ],
+            [
+                0.64,
+                0.51,
+                0.096,
+                3,
+                6
+            ],
+            [
+                0.68,
+                0.52,
+                0.102,
+                3,
+                6
+            ],
+            [
+                0.72,
+                0.53,
+                0.108,
+                3,
+                6
+            ],
+            [
+                0.76,
+                0.54,
+                0.114,
+                3,
+                6
+            ],
+            [
+                0.8,
+                0.55,
+                0.12,
+                3,
+                6
+            ],
+            [
+                0.85,
+                0.5625,
+                0.1275,
+                3,
+                6
+            ],
+            [
+                0.9,
+                0.575,
+                0.135,
+                3,
+                6
+            ],
+            [
+                0.95,
+                0.5875,
+                0.1425,
+                3,
+                6
+            ],
+            [
+                1,
+                0.6,
+                0.15,
+                3,
+                6
+            ],
+            [
+                1.04,
+                0.61,
+                0.156,
+                3,
+                6
+            ],
+            [
+                1.08,
+                0.62,
+                0.162,
+                3,
+                6
+            ],
+            [
+                1.12,
+                0.63,
+                0.168,
+                3,
+                6
+            ],
+            [
+                1.16,
+                0.64,
+                0.174,
+                3,
+                6
+            ],
+            [
+                1.2,
+                0.65,
+                0.18,
+                3,
+                6
+            ]
+        ],
+        "icon": "icon/skill/1218_ultimate.png"
+    },
+    "121804": {
+        "id": "121804",
+        "name": "Superposición de poder exquisita",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "Talent",
+        "type_text": "Talento",
+        "effect": "Impair",
+        "effect_text": "Alteración",
+        "simple_desc": "Tras atacar, tiene una gran probabilidad de aplicar 1 acumulación de Asado al rescoldo al objetivo. El daño que recibe el enemigo aumenta y se considera que también es afectado con Quemadura.",
+        "desc": "Después de que Jiaoqiu golpee a un enemigo con el ATQ básico, la habilidad básica o la habilidad definitiva, tiene una probabilidad base del #1[i]% de aplicarle 1 acumulación de Asado al rescoldo. Con 1 acumulación, el daño que recibe el enemigo aumenta en un #2[f1]%, y cada acumulación posterior aumenta el daño que recibe en un #3[f1]%.\nAsado al rescoldo se puede acumular hasta #4[i] veces y dura #5[i] turnos.\nCuando un enemigo está en el estado de Asado al rescoldo, se considera que también está afectado con Quemadura. Al comienzo de cada turno, recibe un #6[i]% del ATQ de Jiaoqiu como Daño de Fuego con el tiempo.",
+        "params": [
+            [
+                1,
+                0.075,
+                0.025,
+                5,
+                2,
+                0.9
+            ],
+            [
+                1,
+                0.0825,
+                0.0275,
+                5,
+                2,
+                0.99
+            ],
+            [
+                1,
+                0.09,
+                0.03,
+                5,
+                2,
+                1.08
+            ],
+            [
+                1,
+                0.0975,
+                0.0325,
+                5,
+                2,
+                1.17
+            ],
+            [
+                1,
+                0.105,
+                0.035,
+                5,
+                2,
+                1.26
+            ],
+            [
+                1,
+                0.1125,
+                0.0375,
+                5,
+                2,
+                1.35
+            ],
+            [
+                1,
+                0.1219,
+                0.0406,
+                5,
+                2,
+                1.4625
+            ],
+            [
+                1,
+                0.1313,
+                0.0437,
+                5,
+                2,
+                1.575
+            ],
+            [
+                1,
+                0.1406,
+                0.0469,
+                5,
+                2,
+                1.6875
+            ],
+            [
+                1,
+                0.15,
+                0.05,
+                5,
+                2,
+                1.8
+            ],
+            [
+                1,
+                0.1575,
+                0.0525,
+                5,
+                2,
+                1.89
+            ],
+            [
+                1,
+                0.165,
+                0.055,
+                5,
+                2,
+                1.98
+            ],
+            [
+                1,
+                0.1725,
+                0.0575,
+                5,
+                2,
+                2.07
+            ],
+            [
+                1,
+                0.18,
+                0.06,
+                5,
+                2,
+                2.16
+            ],
+            [
+                1,
+                0.1875,
+                0.0625,
+                5,
+                2,
+                2.25
+            ]
+        ],
+        "icon": "icon/skill/1218_talent.png"
+    },
+    "121806": {
+        "id": "121806",
+        "name": "Ataque",
+        "max_level": 1,
+        "element": "Fire",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Ataca a un enemigo y, tras entrar en combate, consume la Firmeza del tipo correspondiente del enemigo.",
+        "params": [],
+        "icon": "icon/skill/1218_basic_atk.png"
+    },
+    "121807": {
+        "id": "121807",
+        "name": "Llamas extintoras",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Técnica",
+        "effect": "Impair",
+        "effect_text": "Alteración",
+        "simple_desc": "Crea una zona especial. Tras entrar en combate con los enemigos dentro de la zona, inflige una pequeña cantidad de Daño de Fuego a todos los enemigos y tiene una gran probabilidad de aplicarles 1 acumulación de Asado al rescoldo.",
+        "desc": "Tras usar la técnica, crea una zona especial que dura #2[i] s. Tras entrar en combate con enemigos dentro de la zona especial, inflige un #1[i]% del ATQ de Jiaoqiu como Daño de Fuego a todos los enemigos y tiene una probabilidad base del #3[i]% de aplicarles 1 acumulación de Asado al rescoldo. Solo puede haber una zona especial creada por los aliados a la vez.",
+        "params": [
+            [
+                1,
+                15,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1218_technique.png"
+    },
+    "122101": {
+        "id": "122101",
+        "name": "Tornasol vuelvevientos",
+        "max_level": 9,
+        "element": "Physical",
+        "type": "Normal",
+        "type_text": "ATQ básico",
+        "effect": "SingleAttack",
+        "effect_text": "ATQ individual",
+        "simple_desc": "Inflige una pequeña cantidad de Daño Físico a un enemigo.",
+        "desc": "Inflige un #1[i]% del ATQ de Yunli como Daño Físico a un enemigo.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1221_basic_atk.png"
+    },
+    "122102": {
+        "id": "122102",
+        "name": "Mandoble sísmico",
+        "max_level": 15,
+        "element": "Physical",
+        "type": "BPSkill",
+        "type_text": "Habilidad básica",
+        "effect": "Blast",
+        "effect_text": "Ráfaga",
+        "simple_desc": "Regenera sus propios PV e inflige una pequeña cantidad de Daño Físico a un enemigo y a los enemigos adyacentes.",
+        "desc": "Yunli regenera una cantidad de PV equivalente al #3[f1]% de su ATQ + #4[i] e inflige un #1[i]% de su ATQ como Daño Físico a un enemigo y un #2[i]% de su ATQ como Daño Físico a los enemigos adyacentes.",
+        "params": [
+            [
+                0.6,
+                0.3,
+                0.2,
+                50
+            ],
+            [
+                0.66,
+                0.33,
+                0.2125,
+                80
+            ],
+            [
+                0.72,
+                0.36,
+                0.225,
+                102.5
+            ],
+            [
+                0.78,
+                0.39,
+                0.2375,
+                125
+            ],
+            [
+                0.84,
+                0.42,
+                0.25,
+                140
+            ],
+            [
+                0.9,
+                0.45,
+                0.26,
+                155
+            ],
+            [
+                0.975,
+                0.4875,
+                0.27,
+                166.25
+            ],
+            [
+                1.05,
+                0.525,
+                0.28,
+                177.5
+            ],
+            [
+                1.125,
+                0.5625,
+                0.29,
+                188.75
+            ],
+            [
+                1.2,
+                0.6,
+                0.3,
+                200
+            ],
+            [
+                1.26,
+                0.63,
+                0.31,
+                211.25
+            ],
+            [
+                1.32,
+                0.66,
+                0.32,
+                222.5
+            ],
+            [
+                1.38,
+                0.69,
+                0.33,
+                233.75
+            ],
+            [
+                1.44,
+                0.72,
+                0.34,
+                245
+            ],
+            [
+                1.5,
+                0.75,
+                0.35,
+                256.25
+            ]
+        ],
+        "icon": "icon/skill/1221_skill.png"
+    },
+    "122103": {
+        "id": "122103",
+        "name": "Ceñidora del mundo, rompedora del cielo",
+        "max_level": 15,
+        "element": "",
+        "type": "Ultra",
+        "type_text": "Habilidad definitiva",
+        "effect": "Enhance",
+        "effect_text": "Potenciación",
+        "simple_desc": "Entra en el estado de Bloqueo y todos los enemigos son afectados con Provocación. Tras recibir un ataque durante este periodo, lanza un poderoso contraataque e inflige Daño Físico al atacante y a los objetivos adyacentes. A continuación, inflige una pequeña cantidad de Daño Físico a un enemigo; se dispara 6 veces. Si durante el estado de Bloqueo no ha activado ningún contraataque, inflige Daño Físico a un enemigo al azar y a los objetivos adyacentes cuando termina el estado de Bloqueo.",
+        "desc": "Consume #8[i] pts. de energía. Yunli obtiene Bloqueo y todos los enemigos son afectados con Provocación hasta que termine el próximo turno de un aliado o un enemigo. Además, el Daño CRIT infligido por el siguiente contraataque de Yunli aumenta en un #2[i]%. Cuando se activa el efecto de contraataque del talento mientras dura el estado de Bloqueo, se reemplaza por el contraataque Capción: Exterminio y se disipa el estado de Bloqueo. Si no activa ningún contraataque mientras dura el estado de Bloqueo, Yunli lanza inmediatamente al terminar este estado el contraataque Capción: Sajadura a un enemigo al azar.\nCapción: Sajadura: Yunli inflige un #1[i]% de su ATQ como Daño Físico a un enemigo y un #6[i]% de su ATQ como Daño Físico a los enemigos adyacentes.\nCapción: Exterminio: Yunli inflige un #1[i]% de su ATQ como Daño Físico a un enemigo y un #6[i]% de su ATQ como Daño Físico a los enemigos adyacentes, y a continuación inflige daño #4[i] veces más. Cada vez, inflige un #7[i]% del ATQ de Yunli como Daño Físico a un enemigo al azar.\nEl daño infligido por Yunli con esta habilidad se considera daño de habilidad definitiva.",
+        "params": [
+            [
+                1.32,
+                0.6,
+                0,
+                6,
+                0,
+                0.66,
+                0.432,
+                120
+            ],
+            [
+                1.408,
+                0.64,
+                0,
+                6,
+                0,
+                0.704,
+                0.4608,
+                120
+            ],
+            [
+                1.496,
+                0.68,
+                0,
+                6,
+                0,
+                0.748,
+                0.4896,
+                120
+            ],
+            [
+                1.584,
+                0.72,
+                0,
+                6,
+                0,
+                0.792,
+                0.5184,
+                120
+            ],
+            [
+                1.672,
+                0.76,
+                0,
+                6,
+                0,
+                0.836,
+                0.5472,
+                120
+            ],
+            [
+                1.76,
+                0.8,
+                0,
+                6,
+                0,
+                0.88,
+                0.576,
+                120
+            ],
+            [
+                1.87,
+                0.85,
+                0,
+                6,
+                0,
+                0.935,
+                0.612,
+                120
+            ],
+            [
+                1.98,
+                0.9,
+                0,
+                6,
+                0,
+                0.99,
+                0.648,
+                120
+            ],
+            [
+                2.09,
+                0.95,
+                0,
+                6,
+                0,
+                1.045,
+                0.684,
+                120
+            ],
+            [
+                2.2,
+                1,
+                0,
+                6,
+                0,
+                1.1,
+                0.72,
+                120
+            ],
+            [
+                2.288,
+                1.04,
+                0,
+                6,
+                0,
+                1.144,
+                0.7488,
+                120
+            ],
+            [
+                2.376,
+                1.08,
+                0,
+                6,
+                0,
+                1.188,
+                0.7776,
+                120
+            ],
+            [
+                2.464,
+                1.12,
+                0,
+                6,
+                0,
+                1.232,
+                0.8064,
+                120
+            ],
+            [
+                2.552,
+                1.16,
+                0,
+                6,
+                0,
+                1.276,
+                0.8352,
+                120
+            ],
+            [
+                2.64,
+                1.2,
+                0,
+                6,
+                0,
+                1.32,
+                0.864,
+                120
+            ]
+        ],
+        "icon": "icon/skill/1221_ultimate.png"
+    },
+    "122104": {
+        "id": "122104",
+        "name": "Forja fulgurante",
+        "max_level": 15,
+        "element": "Physical",
+        "type": "Talent",
+        "type_text": "Talento",
+        "effect": "Blast",
+        "effect_text": "Ráfaga",
+        "simple_desc": "Cuando Yunli recibe un ataque enemigo, recupera energía adicional y lanza inmediatamente un contraataque contra dicho enemigo y los objetivos adyacentes.",
+        "desc": "Cuando Yunli recibe un ataque enemigo, recupera #3[i] pts. de energía adicionales y lanza inmediatamente un contraataque contra dicho enemigo y le inflige un #1[i]% de su ATQ como Daño Físico. También inflige un #2[i]% de su ATQ como Daño Físico a los enemigos adyacentes.\nSi no existe el objetivo del contraataque, contraataca a un objetivo enemigo al azar.",
+        "params": [
+            [
+                0.6,
+                0.3,
+                15
+            ],
+            [
+                0.66,
+                0.33,
+                15
+            ],
+            [
+                0.72,
+                0.36,
+                15
+            ],
+            [
+                0.78,
+                0.39,
+                15
+            ],
+            [
+                0.84,
+                0.42,
+                15
+            ],
+            [
+                0.9,
+                0.45,
+                15
+            ],
+            [
+                0.975,
+                0.4875,
+                15
+            ],
+            [
+                1.05,
+                0.525,
+                15
+            ],
+            [
+                1.125,
+                0.5625,
+                15
+            ],
+            [
+                1.2,
+                0.6,
+                15
+            ],
+            [
+                1.26,
+                0.63,
+                15
+            ],
+            [
+                1.32,
+                0.66,
+                15
+            ],
+            [
+                1.38,
+                0.69,
+                15
+            ],
+            [
+                1.44,
+                0.72,
+                15
+            ],
+            [
+                1.5,
+                0.75,
+                15
+            ]
+        ],
+        "icon": "icon/skill/1221_talent.png"
+    },
+    "122106": {
+        "id": "122106",
+        "name": "Ataque",
+        "max_level": 1,
+        "element": "Physical",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Ataca a un enemigo y, tras entrar en combate, consume la Firmeza del tipo correspondiente del enemigo.",
+        "params": [],
+        "icon": "icon/skill/1221_basic_atk.png"
+    },
+    "122107": {
+        "id": "122107",
+        "name": "Atacar después y golpear primero",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Técnica",
+        "effect": "Enhance",
+        "effect_text": "Potenciación",
+        "simple_desc": "Obtiene el efecto de Resistencia durante 20 s. Si en este tiempo entra en combate tras atacar a un enemigo o recibir un ataque, lanza inmediatamente Capción: Exterminio a un enemigo al azar.",
+        "desc": "Obtiene el efecto de Resistencia durante #2[i] s. Si en este tiempo entra en combate tras atacar a un enemigo o recibir un ataque, lanza inmediatamente Capción: Exterminio a un enemigo al azar y aumenta el daño que inflige este ataque en un #1[i]%.",
+        "params": [
+            [
+                0.8,
+                20
+            ]
+        ],
+        "icon": "icon/skill/1221_technique.png"
+    },
+    "122401": {
+        "id": "122401",
+        "name": "Espada dominademonios",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "ATQ básico",
+        "effect": "SingleAttack",
+        "effect_text": "ATQ individual",
+        "simple_desc": "Inflige una pequeña cantidad de Daño Imaginario a un enemigo y obtiene 1 pt. de carga.",
+        "desc": "Inflige un #1[i]% del ATQ de Siete de Marzo como Daño Imaginario a un enemigo y obtiene #2[i] pt. de carga.",
+        "params": [
+            [
+                0.5,
+                1
+            ],
+            [
+                0.6,
+                1
+            ],
+            [
+                0.7,
+                1
+            ],
+            [
+                0.8,
+                1
+            ],
+            [
+                0.9,
+                1
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1.1,
+                1
+            ],
+            [
+                1.2,
+                1
+            ],
+            [
+                1.3,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1224_basic_atk.png"
+    },
+    "122402": {
+        "id": "122402",
+        "name": "Maestro, ¡toma un poco de té!",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Habilidad básica",
+        "effect": "Support",
+        "effect_text": "Apoyo",
+        "simple_desc": "Designa a un aliado como Maestro. Al infligir daño el ATQ básico o ATQ básico potenciado, activa uno de los siguientes efectos según sea la Vía del Maestro:\nErudición, Destrucción o Cacería: inflige daño adicional extra del mismo tipo que el Maestro.\nArmonía, Nihilidad, Conservación o Abundancia: aumenta la Reducción de Firmeza.",
+        "desc": "Hace que otro aliado distinto a sí misma se convierta en Maestro. La VEL del Maestro aumenta en un #1[f1]%. Solo el último aliado que haya sido objetivo de la habilidad básica de Siete de Marzo se considera su \"Maestro\".\nCuando usa su ATQ básico o inflige daño 1 vez con su ATQ básico potenciado, se activa uno de los siguientes efectos en función de la Vía del Maestro que haya presente en el campo de batalla:\nErudición, Destrucción o Cacería: inflige un daño adicional del mismo tipo que el Maestro equivalente al #2[i]% del ATQ de Siete de Marzo.\nArmonía, Nihilidad, Conservación o Abundancia: la Reducción de Firmeza del daño infligido esta vez aumenta en un #3[i]%.",
+        "params": [
+            [
+                0.06,
+                0.1,
+                1
+            ],
+            [
+                0.064,
+                0.11,
+                1
+            ],
+            [
+                0.068,
+                0.12,
+                1
+            ],
+            [
+                0.072,
+                0.13,
+                1
+            ],
+            [
+                0.076,
+                0.14,
+                1
+            ],
+            [
+                0.08,
+                0.15,
+                1
+            ],
+            [
+                0.085,
+                0.1625,
+                1
+            ],
+            [
+                0.09,
+                0.175,
+                1
+            ],
+            [
+                0.095,
+                0.1875,
+                1
+            ],
+            [
+                0.1,
+                0.2,
+                1
+            ],
+            [
+                0.104,
+                0.21,
+                1
+            ],
+            [
+                0.108,
+                0.22,
+                1
+            ],
+            [
+                0.112,
+                0.23,
+                1
+            ],
+            [
+                0.116,
+                0.24,
+                1
+            ],
+            [
+                0.12,
+                0.25,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1224_skill.png"
+    },
+    "122403": {
+        "id": "122403",
+        "name": "Siete de Marzo, heroína inigualable",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Ultra",
+        "type_text": "Habilidad definitiva",
+        "effect": "SingleAttack",
+        "effect_text": "ATQ individual",
+        "simple_desc": "Inflige Daño Imaginario a un enemigo y aumenta la probabilidad de infligir daño y el número de veces que inflige daño su próximo ATQ básico potenciado.",
+        "desc": "Inflige un #1[i]% del ATQ de Siete de Marzo como Daño Imaginario a un enemigo.\nAumenta en #2[i] las veces que inflige daño inicialmente con su próximo ATQ básico potenciado y aumenta en un #3[i]% la probabilidad fija de que este inflija daño extra.",
+        "params": [
+            [
+                1.44,
+                2,
+                0.2
+            ],
+            [
+                1.536,
+                2,
+                0.2
+            ],
+            [
+                1.632,
+                2,
+                0.2
+            ],
+            [
+                1.728,
+                2,
+                0.2
+            ],
+            [
+                1.824,
+                2,
+                0.2
+            ],
+            [
+                1.92,
+                2,
+                0.2
+            ],
+            [
+                2.04,
+                2,
+                0.2
+            ],
+            [
+                2.16,
+                2,
+                0.2
+            ],
+            [
+                2.28,
+                2,
+                0.2
+            ],
+            [
+                2.4,
+                2,
+                0.2
+            ],
+            [
+                2.496,
+                2,
+                0.2
+            ],
+            [
+                2.592,
+                2,
+                0.2
+            ],
+            [
+                2.688,
+                2,
+                0.2
+            ],
+            [
+                2.784,
+                2,
+                0.2
+            ],
+            [
+                2.88,
+                2,
+                0.2
+            ]
+        ],
+        "icon": "icon/skill/1224_ultimate.png"
+    },
+    "122404": {
+        "id": "122404",
+        "name": "¡Maestro, ya lo tengo!",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talento",
+        "effect": "Enhance",
+        "effect_text": "Potenciación",
+        "simple_desc": "Siete de Marzo gana carga después de que el Maestro lance un ataque o use la habilidad definitiva. Cuando alcanza 7 pts. de carga, Siete de Marzo actúa inmediatamente, el daño que inflige aumenta y su ATQ básico se potencia.",
+        "desc": "Siete de Marzo obtiene hasta 1 pt. de carga después de que el Maestro lance un ataque o use la habilidad definitiva.\nCuando alcanza #1[i] o más pts. de carga, Siete de Marzo actúa inmediatamente. El daño que inflige aumenta en un #2[i]% y su ATQ básico se potencia, pero no puede usar la habilidad básica. Tras usar el ATQ básico potenciado, consume #1[i] pts. de carga. El límite de carga es de #3[i] pts.",
+        "params": [
+            [
+                7,
+                0.4,
+                10
+            ],
+            [
+                7,
+                0.44,
+                10
+            ],
+            [
+                7,
+                0.48,
+                10
+            ],
+            [
+                7,
+                0.52,
+                10
+            ],
+            [
+                7,
+                0.56,
+                10
+            ],
+            [
+                7,
+                0.6,
+                10
+            ],
+            [
+                7,
+                0.65,
+                10
+            ],
+            [
+                7,
+                0.7,
+                10
+            ],
+            [
+                7,
+                0.75,
+                10
+            ],
+            [
+                7,
+                0.8,
+                10
+            ],
+            [
+                7,
+                0.84,
+                10
+            ],
+            [
+                7,
+                0.88,
+                10
+            ],
+            [
+                7,
+                0.92,
+                10
+            ],
+            [
+                7,
+                0.96,
+                10
+            ],
+            [
+                7,
+                1,
+                10
+            ]
+        ],
+        "icon": "icon/skill/1224_talent.png"
+    },
+    "122406": {
+        "id": "122406",
+        "name": "Ataque",
+        "max_level": 1,
+        "element": "Imaginary",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Ataca a un enemigo y, tras entrar en combate, consume la Firmeza del tipo correspondiente del enemigo.",
+        "params": [],
+        "icon": "icon/skill/1224_basic_atk.png"
+    },
+    "122407": {
+        "id": "122407",
+        "name": "Festín de una sentada",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Técnica",
+        "effect": "Enhance",
+        "effect_text": "Potenciación",
+        "simple_desc": "Cada vez que un aliado usa la técnica, Siete de Marzo obtiene carga al entrar en el siguiente combate. Al usar la técnica, recupera pts. de energía tras entrar en el siguiente combate.",
+        "desc": "Si Siete de Marzo está en el equipo, cada vez que un aliado use la técnica 1 vez, Siete de Marzo obtiene 1 pt. de carga al entrar en el siguiente combate, hasta un máximo de #1[i] pts. \nAl usar la técnica, Siete de Marzo recupera #2[i] pts. de energía al entrar en el siguiente combate.",
+        "params": [
+            [
+                3,
+                30
+            ]
+        ],
+        "icon": "icon/skill/1224_technique.png"
+    },
+    "122408": {
+        "id": "122408",
+        "name": "Ceño desarrugado, corazón azorado",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "ATQ básico",
+        "effect": "SingleAttack",
+        "effect_text": "ATQ individual",
+        "simple_desc": "Inflige Daño Imaginario a un enemigo. Inicialmente, inflige daño 3 veces. Tiene una probabilidad de infligir daño hasta 3 veces más.",
+        "desc": "Inicialmente, inflige daño #4[i] veces. Cada vez, inflige un #1[i]% del ATQ de Siete de Marzo como Daño Imaginario a un enemigo. Después de infligir daño la última vez, tiene una probabilidad fija del #2[i]% de infligir daño 1 vez adicional, hasta un máximo de #3[i] veces adicionales. La energía recuperada al usar el ATQ básico potenciado no aumenta en función de las veces adicionales que se inflija daño.\nEl ATQ básico potenciado no puede recuperar pts. de habilidad básica.",
+        "params": [
+            [
+                0.4,
+                0.6,
+                3,
+                3
+            ],
+            [
+                0.48,
+                0.6,
+                3,
+                3
+            ],
+            [
+                0.56,
+                0.6,
+                3,
+                3
+            ],
+            [
+                0.64,
+                0.6,
+                3,
+                3
+            ],
+            [
+                0.72,
+                0.6,
+                3,
+                3
+            ],
+            [
+                0.8,
+                0.6,
+                3,
+                3
+            ],
+            [
+                0.88,
+                0.6,
+                3,
+                3
+            ],
+            [
+                0.96,
+                0.6,
+                3,
+                3
+            ],
+            [
+                1.04,
+                0.6,
+                3,
+                3
+            ]
+        ],
+        "icon": "icon/skill/1224_basic_atk.png"
+    },
     "130101": {
         "id": "130101",
         "name": "Tarifa de descorche",
@@ -18420,8 +19699,8 @@
         "type_text": "Habilidad definitiva",
         "effect": "AoEAttack",
         "effect_text": "ATQ AdE",
-        "simple_desc": "Inflige Daño Cuántico a todos los enemigos y mejora su multiplicador de daño de ataque adicional.",
-        "desc": "Inflige un #3[i]% del ATQ de Jade como Daño Cuántico a todos los enemigos. Además, potencia el ataque adicional del talento de Jade. El multiplicador de daño de los ataques adicionales aumenta en un #1[i]%. El efecto de potenciación se puede activar #2[i] veces.",
+        "simple_desc": "Inflige Daño Cuántico a todos los enemigos y aumenta el multiplicador del daño de ataque adicional.",
+        "desc": "Inflige un #3[i]% del ATQ de Jade como Daño Cuántico a todos los enemigos. Además, potencia el ataque adicional del talento de Jade. El multiplicador del daño que infligen los ataques adicionales aumenta en un #1[i]%. El efecto de potenciación se puede activar #2[i] veces.",
         "params": [
             [
                 0.4,
@@ -19455,7 +20734,7 @@
         "effect": "Blast",
         "effect_text": "Ráfaga",
         "simple_desc": "Inflige Daño Físico a un objetivo y a los enemigos adyacentes.",
-        "desc": "Inflige un #1[i]% del ATQ {F#de la}{M#del} Trazacaminos como Daño Físico a un objetivo y un #2[i]% del ATQ {F#de la}{M#del} Trazacaminos como Daño Físico a los enemigos adyacentes.",
+        "desc": "{F#La}{M#El} Trazacaminos inflige un #1[i]% de su ATQ como Daño Físico a un enemigo y un #2[i]% de su ATQ como Daño Físico a los enemigos adyacentes.",
         "params": [
             [
                 1.8,
@@ -19889,7 +21168,7 @@
         "effect": "Blast",
         "effect_text": "Ráfaga",
         "simple_desc": "Inflige Daño Físico a un objetivo y a los enemigos adyacentes.",
-        "desc": "Inflige un #1[i]% del ATQ {F#de la}{M#del} Trazacaminos como Daño Físico a un objetivo y un #2[i]% del ATQ {F#de la}{M#del} Trazacaminos como Daño Físico a los enemigos adyacentes.",
+        "desc": "{F#La}{M#El} Trazacaminos inflige un #1[i]% de su ATQ como Daño Físico a un enemigo y un #2[i]% de su ATQ como Daño Físico a los enemigos adyacentes.",
         "params": [
             [
                 1.8,

@@ -9,7 +9,7 @@
         "effect": "SingleAttack",
         "effect_text": "Single Target",
         "simple_desc": "Mengakibatkan Ice DMG dalam jumlah kecil pada 1 musuh.",
-        "desc": "Mengakibatkan Ice DMG sebesar #1[i]% ATK March 7th pada 1 target musuh.",
+        "desc": "Mengakibatkan Ice DMG sebesar #1[i]% ATK March 7th pada 1 musuh yang ditargetkan.",
         "params": [
             [
                 0.5
@@ -171,7 +171,7 @@
         "effect": "AoEAttack",
         "effect_text": "AoE",
         "simple_desc": "Mengakibatkan Ice DMG pada seluruh musuh, dan berpeluang untuk mengakibatkan status Frozen.",
-        "desc": "Mengakibatkan Ice DMG sebesar #1[i]% ATK March 7th kepada seluruh musuh. Target musuh yang terkena serangan memiliki #2[i]% peluang dasar untuk memasuki status Frozen selama #3[i] giliran.\nSaat dalam status Frozen, target musuh tidak dapat beraksi dan di saat bersamaan akan menerima Ice DMG tambahan sebesar #4[i]% ATK March 7th setiap kali gilirannya dimulai.",
+        "desc": "Mengakibatkan Ice DMG sebesar #1[i]% ATK March 7th pada seluruh musuh. Target musuh yang terkena serangan memiliki #2[i]% peluang dasar untuk memasuki status Frozen selama #3[i] giliran.\nSaat berstatus Frozen, target musuh tidak dapat beraksi dan di saat bersamaan akan menerima Ice DMG Tambahan sebesar #4[i]% ATK March 7th setiap saat gilirannya dimulai.",
         "params": [
             [
                 0.9,
@@ -276,7 +276,7 @@
         "effect": "SingleAttack",
         "effect_text": "Single Target",
         "simple_desc": "Saat rekan tim yang dilindungi Shield terkena serangan musuh, March 7th akan segera melancarkan Serangan Balasan pada penyerang, yang akan mengakibatkan Ice DMG dalam jumlah kecil.",
-        "desc": "Setelah rekan tim yang ber-Shield terkena serangan musuh, March 7th segera melancarkan Serangan Balasan yang mengakibatkan Ice DMG sebesar #1[i]% ATK March 7th pada penyerang. Efek ini dapat terpicu #2[i] kali di setiap giliran.",
+        "desc": "Setelah rekan tim yang memiliki Shield terkena serangan target musuh, March 7th akan segera melancarkan Serangan Balasan pada penyerang dan mengakibatkan Ice DMG sebesar #1[i]% ATK March 7th. Efek ini dapat terpicu #2[i] kali di setiap giliran.",
         "params": [
             [
                 0.5,
@@ -427,7 +427,7 @@
         "effect": "SingleAttack",
         "effect_text": "Single Target",
         "simple_desc": "Mengakibatkan Wind DMG pada 1 musuh. Berpeluang memberikan status Slow jika memicu CRIT Hit.",
-        "desc": "Mengakibatkan Wind DMG sebesar #1[i]% ATK Dan Heng pada 1 target musuh.\nSaat DMG yang diakibatkan memicu CRIT Hit, ada #4[i]% peluang dasar untuk mengurangi #2[i]% SPD target musuh selama #3[i] giliran.",
+        "desc": "Mengakibatkan Wind DMG sebesar #1[i]% ATK Dan Heng pada 1 target musuh.\nSaat DMG yang diakibatkan Skill memicu CRIT Hit, ada #4[i]% peluang dasar untuk mengurangi #2[i]% SPD target musuh selama #3[i] giliran.",
         "params": [
             [
                 1.3,
@@ -532,7 +532,7 @@
         "effect": "SingleAttack",
         "effect_text": "Single Target",
         "simple_desc": "Mengakibatkan Wind DMG dalam jumlah besar pada 1 musuh, meningkatkan DMG Multiplier jika musuh berstatus Slow.",
-        "desc": "Mengakibatkan Wind DMG sebesar #1[i]% ATK Dan Heng pada 1 target musuh. Jika musuh tersebut sedang berstatus Slow, maka DMG Multiplier Ultimate milik Dan Heng akan meningkat #2[i]%.",
+        "desc": "Mengakibatkan Wind DMG sebesar #1[i]% ATK Dan Heng pada 1 target musuh. Jika musuh tersebut sedang berstatus Slow, maka DMG Multiplier dari DMG yang diakibatkan Ultimate Dan Heng akan meningkat #2[i]%.",
         "params": [
             [
                 2.4,
@@ -995,8 +995,8 @@
         "type_text": "Technique",
         "effect": "Impair",
         "effect_text": "Impair",
-        "simple_desc": "Menciptakan Dimension khusus. Setelah memasuki pertempuran dengan musuh dalam Dimension, berpeluang besar untuk meningkatkan Fire DMG yang diterima oleh target musuh.",
-        "desc": "Setelah menggunakan Technique, Himeko akan menciptakan sebuah Dimension khusus selama #4[i] detik. Setelah memasuki pertempuran bersama musuh dalam Dimension, ada #1[i]% peluang dasar untuk meningkatkan #2[i]% Fire DMG yang diterima target musuh selama #3[i] giliran. Hanya boleh ada 1 efek Dimension ciptaan rekan tim dalam satu waktu.",
+        "simple_desc": "Menciptakan dimensi khusus. Setelah memasuki pertempuran dengan musuh dalam dimensi khusus, berpeluang besar untuk meningkatkan Fire DMG yang diterima oleh target musuh.",
+        "desc": "Setelah menggunakan Technique, Himeko akan menciptakan sebuah dimensi khusus selama #4[i] detik. Setelah memasuki pertempuran bersama musuh dalam dimensi khusus, ada #1[i]% peluang dasar untuk meningkatkan #2[i]% Fire DMG yang diterima target musuh selama #3[i] giliran. Hanya boleh ada 1 efek dimensi khusus ciptaan rekan tim dalam satu waktu.",
         "params": [
             [
                 1,
@@ -1342,8 +1342,8 @@
         "type_text": "Technique",
         "effect": "Impair",
         "effect_text": "Impair",
-        "simple_desc": "Menciptakan Dimension khusus. Movement SPD musuh dalam Dimension akan berkurang. Setelah memasuki pertempuran dengan musuh dalam Dimension, berpeluang besar untuk membuat target musuh memasuki status Imprisonment.",
-        "desc": "Setelah menggunakan Technique, Welt akan menciptakan sebuah Dimension khusus selama #4[i] detik. Movement SPD musuh yang berada di dalam Dimension akan berkurang #5[i]%. Setelah memasuki pertempuran dengan musuh dalam Dimension, ada #1[i]% peluang dasar untuk membuat target musuh memasuki status Imprisonment selama 1 giliran.\nSelama dalam status Imprisonment, target musuh akan mengalami #2[i]% penundaan aksi dan SPD berkurang #3[i]%. Hanya boleh ada 1 efek Dimension ciptaan rekan tim dalam satu waktu.",
+        "simple_desc": "Menciptakan dimensi khusus. Movement SPD musuh dalam dimensi khusus akan berkurang. Setelah memasuki pertempuran dengan musuh dalam dimensi khusus, berpeluang besar untuk membuat target musuh memasuki status Imprisonment.",
+        "desc": "Setelah menggunakan Technique, Welt akan menciptakan sebuah dimensi khusus selama #4[i] detik. Movement SPD musuh yang berada di dalam dimensi khusus akan berkurang #5[i]%. Setelah memasuki pertempuran dengan musuh dalam dimensi khusus, ada #1[i]% peluang dasar untuk membuat target musuh memasuki status Imprisonment selama 1 giliran.\nSelama dalam status Imprisonment, target musuh akan mengalami #2[i]% penundaan aksi dan SPD berkurang #3[i]%. Hanya boleh ada 1 efek dimensi khusus ciptaan rekan tim dalam satu waktu.",
         "params": [
             [
                 1,
@@ -8292,8 +8292,8 @@
         "type_text": "Talent",
         "effect": "Restore",
         "effect_text": "Restore",
-        "simple_desc": "Saat memiliki 2 lapis \"Abyss Flower\", sebuah Field akan dihasilkan. Selama durasi Field, setiap rekan yang menyerang akan memperoleh pemulihan HP.",
-        "desc": "Saat tumpukan \"Abyss Flower\" mencapai #1[i] lapis, Luocha akan mengonsumsi semua \"Abyss Flower\" dan membuat sebuah Field pada musuh.\nSetelah musuh dalam Field diserang rekan tim, rekan tim yang menyerang akan segera memulihkan HP sebesar #2[f1]% ATK Luocha +#4[i].\nEfek Field berlangsung selama #3[i] giliran. Saat Luocha gugur, efek Field akan menghilang.",
+        "simple_desc": "Saat memiliki 2 lapis \"Abyss Flower\", sebuah area pembatas akan dihasilkan. Selama durasi area pembatas, setiap rekan yang menyerang akan memperoleh pemulihan HP.",
+        "desc": "Saat tumpukan \"Abyss Flower\" mencapai #1[i] lapis, Luocha akan mengonsumsi semua \"Abyss Flower\" dan membuat sebuah area pembatas pada musuh.\nSetelah musuh dalam area pembatas diserang rekan tim, rekan tim yang menyerang akan segera memulihkan HP sebesar #2[f1]% ATK Luocha +#4[i].\nEfek area pembatas berlangsung selama #3[i] giliran. Saat Luocha gugur, efek area pembatas akan menghilang.",
         "params": [
             [
                 2,
@@ -8759,7 +8759,7 @@
     },
     "120407": {
         "id": "120407",
-        "name": "Spirit Invocation",
+        "name": "Spiritus Invocation",
         "max_level": 1,
         "element": "",
         "type": "Maze",
@@ -11859,8 +11859,8 @@
         "type_text": "Technique",
         "effect": "Impair",
         "effect_text": "Impair",
-        "simple_desc": "Menciptakan Dimension di sekelilingnya. Musuh yang berada dalam Dimension akan memasuki status Frozen. Setelah memasuki pertempuran dengan musuh dalam Dimension, akan memulihkan Energy diri sendiri, memperoleh 1 lapis Syzygy, dan berpeluang besar membuat target musuh memasuki status Frozen.",
-        "desc": "Setelah menggunakan Technique, karakter akan menciptakan Dimension di sekelilingnya selama #3[i] detik, dan musuh yang berada dalam Dimension akan memasuki status Frozen. Setelah memasuki pertempuran dengan musuh dalam Dimension, akan segera memulihkan #6[i] Energy diri sendiri, memperoleh #1[i] lapis \"Syzygy\", dan memiliki #2[i]% peluang dasar untuk membuat target musuh memasuki status Frozen yang berlangsung selama #4[i] giliran. Selama dalam status Frozen, target musuh tidak dapat beraksi, dan akan menerima Ice DMG tambahan sebesar #5[i]% ATK Jingliu setiap saat gilirannya dimulai. Hanya boleh ada 1 efek Dimension ciptaan rekan tim dalam satu waktu.",
+        "simple_desc": "Menciptakan dimensi khusus di sekelilingnya. Musuh yang berada dalam dimensi khusus akan memasuki status Frozen. Setelah memasuki pertempuran dengan musuh dalam dimensi khusus, akan memulihkan Energy diri sendiri, memperoleh 1 lapis Syzygy, dan berpeluang besar membuat target musuh memasuki status Frozen.",
+        "desc": "Setelah menggunakan Technique, karakter akan menciptakan dimensi khusus di sekelilingnya selama #3[i] detik, dan musuh yang berada dalam dimensi khusus akan memasuki status Frozen. Setelah memasuki pertempuran dengan musuh dalam dimensi khusus, akan segera memulihkan #6[i] Energy diri sendiri, memperoleh #1[i] lapis \"Syzygy\", dan memiliki #2[i]% peluang dasar untuk membuat target musuh memasuki status Frozen yang berlangsung selama #4[i] giliran. Selama dalam status Frozen, target musuh tidak dapat beraksi, dan akan menerima Ice DMG tambahan sebesar #5[i]% ATK Jingliu setiap saat gilirannya dimulai. Hanya boleh ada 1 efek dimensi khusus ciptaan rekan tim dalam satu waktu.",
         "params": [
             [
                 1,
@@ -13516,8 +13516,8 @@
         "type_text": "Technique",
         "effect": "Impair",
         "effect_text": "Impair",
-        "simple_desc": "Membuat musuh di sekitarnya memasuki Status \"Horror-Struck\". Setelah memasuki pertempuran dengan musuh yang berstatus \"Horror-Struck\", berpeluang besar mengurangi ATK target musuh.",
-        "desc": "Huohuo meneror musuh di sekitarnya, membuat musuh memasuki Status \"Horror-Struck\". Musuh yang berstatus \"Horror-Struck\" akan lari menjauhi Huohuo selama #4[i] detik. Setelah memasuki pertempuran dengan musuh yang berstatus \"Horror-Struck\", memiliki #1[i]% peluang dasar untuk mengurangi #2[i]% ATK setiap target selama #3[i] giliran.",
+        "simple_desc": "Membuat musuh di sekitarnya memasuki status \"Horror-Struck\". Setelah memasuki pertempuran dengan musuh yang berstatus \"Horror-Struck\", berpeluang besar mengurangi ATK target musuh.",
+        "desc": "Huohuo meneror musuh di sekitarnya, membuat musuh memasuki status \"Horror-Struck\". Musuh yang berstatus \"Horror-Struck\" akan lari menjauhi Huohuo selama #4[i] detik. Setelah memasuki pertempuran dengan musuh yang berstatus \"Horror-Struck\", memiliki #1[i]% peluang dasar untuk mengurangi #2[i]% ATK setiap target selama #3[i] giliran.",
         "params": [
             [
                 1,
@@ -13527,6 +13527,1285 @@
             ]
         ],
         "icon": "icon/skill/1217_technique.png"
+    },
+    "121801": {
+        "id": "121801",
+        "name": "Heart Afire",
+        "max_level": 9,
+        "element": "Fire",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Mengakibatkan Fire DMG dalam jumlah kecil pada 1 musuh.",
+        "desc": "Mengakibatkan Fire DMG sebesar #1[i]% ATK Jiaoqiu pada 1 musuh yang ditargetkan.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1218_basic_atk.png"
+    },
+    "121802": {
+        "id": "121802",
+        "name": "Scorch Onslaught",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "BPSkill",
+        "type_text": "Skill",
+        "effect": "Blast",
+        "effect_text": "Blast",
+        "simple_desc": "Mengakibatkan Fire DMG pada 1 musuh, dan mengakibatkan Fire DMG dalam jumlah kecil pada musuh di sekitar target. Berpeluang besar untuk menambahkan 1 lapis \"Ashen Roast\" pada target utama.",
+        "desc": "Mengakibatkan Fire DMG sebesar #1[i]% ATK Jiaoqiu pada 1 musuh yang ditargetkan, dan di saat bersamaan mengakibatkan Fire DMG sebesar #2[i]% ATK Jiaoqiu pada musuh di sekitar target, serta memiliki #3[i]% peluang dasar untuk menambahkan 1 lapis \"Ashen Roast\" pada target utama.",
+        "params": [
+            [
+                0.75,
+                0.45,
+                1
+            ],
+            [
+                0.825,
+                0.495,
+                1
+            ],
+            [
+                0.9,
+                0.54,
+                1
+            ],
+            [
+                0.975,
+                0.585,
+                1
+            ],
+            [
+                1.05,
+                0.63,
+                1
+            ],
+            [
+                1.125,
+                0.675,
+                1
+            ],
+            [
+                1.2188,
+                0.7312,
+                1
+            ],
+            [
+                1.3125,
+                0.7875,
+                1
+            ],
+            [
+                1.4062,
+                0.8438,
+                1
+            ],
+            [
+                1.5,
+                0.9,
+                1
+            ],
+            [
+                1.575,
+                0.945,
+                1
+            ],
+            [
+                1.65,
+                0.99,
+                1
+            ],
+            [
+                1.725,
+                1.035,
+                1
+            ],
+            [
+                1.8,
+                1.08,
+                1
+            ],
+            [
+                1.875,
+                1.125,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1218_skill.png"
+    },
+    "121803": {
+        "id": "121803",
+        "name": "Pyrograph Arcanum",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "AoEAttack",
+        "effect_text": "AoE",
+        "simple_desc": "Menyesuaikan jumlah lapisan \"Ashen Roast\" yang dimiliki target musuh menjadi jumlah lapisan \"Ashen Roast\" tertinggi yang ada di medan pertempuran. Setelah itu, akan mengaktifkan area pembatas dan mengakibatkan Fire DMG pada seluruh musuh. Saat target musuh berada di dalam area pembatas, Ultimate DMG yang diterima target musuh akan meningkat, dan memiliki peluang untuk menambahkan 1 lapis \"Ashen Roast\" pada target musuh saat target beraksi.",
+        "desc": "Menyesuaikan jumlah lapisan \"Ashen Roast\" yang dimiliki target musuh menjadi jumlah lapisan \"Ashen Roast\" tertinggi yang ada di medan pertempuran. Setelah itu, akan mengaktifkan area pembatas dan mengakibatkan Fire DMG sebesar #1[i]% ATK Jiaoqiu pada seluruh musuh.\nSaat berada di dalam area pembatas, Ultimate DMG yang diterima target musuh meningkat #3[f1]%, dan memiliki #2[i]% peluang dasar untuk menambahkan 1 lapis \"Ashen Roast\" pada target musuh saat target beraksi. Selama durasi area pembatas, efek ini dapat dipicu maksimal #5[i] kali. Setiap kali Jiaoqiu melancarkan Ultimate, akan mereset jumlah pemicuan yang terhitung.\nArea pembatas akan aktif selama #4[i] giliran, dan durasi giliran area pembatas akan berkurang 1 setiap saat giliran Jiaoqiu dimulai. Saat Jiaoqiu gugur, area pembatas juga akan dihapus.",
+        "params": [
+            [
+                0.6,
+                0.5,
+                0.09,
+                3,
+                6
+            ],
+            [
+                0.64,
+                0.51,
+                0.096,
+                3,
+                6
+            ],
+            [
+                0.68,
+                0.52,
+                0.102,
+                3,
+                6
+            ],
+            [
+                0.72,
+                0.53,
+                0.108,
+                3,
+                6
+            ],
+            [
+                0.76,
+                0.54,
+                0.114,
+                3,
+                6
+            ],
+            [
+                0.8,
+                0.55,
+                0.12,
+                3,
+                6
+            ],
+            [
+                0.85,
+                0.5625,
+                0.1275,
+                3,
+                6
+            ],
+            [
+                0.9,
+                0.575,
+                0.135,
+                3,
+                6
+            ],
+            [
+                0.95,
+                0.5875,
+                0.1425,
+                3,
+                6
+            ],
+            [
+                1,
+                0.6,
+                0.15,
+                3,
+                6
+            ],
+            [
+                1.04,
+                0.61,
+                0.156,
+                3,
+                6
+            ],
+            [
+                1.08,
+                0.62,
+                0.162,
+                3,
+                6
+            ],
+            [
+                1.12,
+                0.63,
+                0.168,
+                3,
+                6
+            ],
+            [
+                1.16,
+                0.64,
+                0.174,
+                3,
+                6
+            ],
+            [
+                1.2,
+                0.65,
+                0.18,
+                3,
+                6
+            ]
+        ],
+        "icon": "icon/skill/1218_ultimate.png"
+    },
+    "121804": {
+        "id": "121804",
+        "name": "Quartet Finesse, Octave Finery",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Impair",
+        "effect_text": "Impair",
+        "simple_desc": "Setelah menyerang, berpeluang besar untuk menambahkan 1 lapis \"Ashen Roast\" pada target, membuat DMG yang diterima musuh meningkat, dan juga akan dianggap memasuki status Burn.",
+        "desc": "Saat Jiaoqiu menggunakan Basic Attack, Skill, atau Ultimate untuk menyerang musuh, memiliki #1[i]% peluang dasar untuk menambahkan 1 lapis \"Ashen Roast\" pada target. Pada saat lapisan \"Ashen Roast\" berjumlah 1 lapis, akan meningkatkan DMG yang diterima musuh sebesar #2[f1]%. Setelah itu, setiap menumpuk 1 lapis akan meningkatkan #3[f1]% DMG yang diterima musuh.\n\"Ashen Roast\" maksimal dapat ditumpuk hingga #4[i] lapis, dan berlangsung selama #5[i] giliran.\nSaat target musuh berada dalam status \"Ashen Roast\", musuh tersebut juga akan dianggap memasuki status Burn. Setiap saat giliran musuh tersebut dimulai, ia akan menerima Fire DoT sebesar #6[i]% ATK Jiaoqiu.",
+        "params": [
+            [
+                1,
+                0.075,
+                0.025,
+                5,
+                2,
+                0.9
+            ],
+            [
+                1,
+                0.0825,
+                0.0275,
+                5,
+                2,
+                0.99
+            ],
+            [
+                1,
+                0.09,
+                0.03,
+                5,
+                2,
+                1.08
+            ],
+            [
+                1,
+                0.0975,
+                0.0325,
+                5,
+                2,
+                1.17
+            ],
+            [
+                1,
+                0.105,
+                0.035,
+                5,
+                2,
+                1.26
+            ],
+            [
+                1,
+                0.1125,
+                0.0375,
+                5,
+                2,
+                1.35
+            ],
+            [
+                1,
+                0.1219,
+                0.0406,
+                5,
+                2,
+                1.4625
+            ],
+            [
+                1,
+                0.1313,
+                0.0437,
+                5,
+                2,
+                1.575
+            ],
+            [
+                1,
+                0.1406,
+                0.0469,
+                5,
+                2,
+                1.6875
+            ],
+            [
+                1,
+                0.15,
+                0.05,
+                5,
+                2,
+                1.8
+            ],
+            [
+                1,
+                0.1575,
+                0.0525,
+                5,
+                2,
+                1.89
+            ],
+            [
+                1,
+                0.165,
+                0.055,
+                5,
+                2,
+                1.98
+            ],
+            [
+                1,
+                0.1725,
+                0.0575,
+                5,
+                2,
+                2.07
+            ],
+            [
+                1,
+                0.18,
+                0.06,
+                5,
+                2,
+                2.16
+            ],
+            [
+                1,
+                0.1875,
+                0.0625,
+                5,
+                2,
+                2.25
+            ]
+        ],
+        "icon": "icon/skill/1218_talent.png"
+    },
+    "121806": {
+        "id": "121806",
+        "name": "Attack",
+        "max_level": 1,
+        "element": "Fire",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Setelah menyerang musuh dan memasuki pertempuran, akan mengurangi Toughness target musuh sesuai dengan tipe Toughness-nya.",
+        "params": [],
+        "icon": "icon/skill/1218_basic_atk.png"
+    },
+    "121807": {
+        "id": "121807",
+        "name": "Fiery Queller",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Impair",
+        "effect_text": "Impair",
+        "simple_desc": "Menciptakan sebuah dimensi khusus. Setelah memasuki pertempuran dengan musuh di dalam dimensi khusus, akan mengakibatkan Fire DMG dalam jumlah kecil pada seluruh musuh, dan berpeluang besar untuk menambahkan 1 lapis \"Ashen Roast\".",
+        "desc": "Setelah menggunakan Technique, Jiaoqiu akan menciptakan sebuah dimensi khusus selama #2[i] detik. Setelah memasuki pertempuran dengan musuh yang berada di dalam dimensi khusus, akan mengakibatkan Fire DMG sebesar #1[i]% ATK Jiaoqiu pada seluruh musuh, dan memiliki #3[i]% peluang dasar untuk menambahkan 1 lapis \"Ashen Roast\". Hanya boleh ada 1 efek dimensi khusus ciptaan rekan tim dalam satu waktu.",
+        "params": [
+            [
+                1,
+                15,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1218_technique.png"
+    },
+    "122101": {
+        "id": "122101",
+        "name": "Galespin Summersault",
+        "max_level": 9,
+        "element": "Physical",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Mengakibatkan Physical DMG dalam jumlah kecil pada 1 musuh.",
+        "desc": "Mengakibatkan Physical DMG sebesar #1[i]% ATK Yunli pada 1 musuh yang ditargetkan.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1221_basic_atk.png"
+    },
+    "122102": {
+        "id": "122102",
+        "name": "Bladeborne Quake",
+        "max_level": 15,
+        "element": "Physical",
+        "type": "BPSkill",
+        "type_text": "Skill",
+        "effect": "Blast",
+        "effect_text": "Blast",
+        "simple_desc": "Memulihkan HP diri sendiri, dan mengakibatkan Physical DMG dalam jumlah kecil pada 1 musuh dan target di sekitarnya.",
+        "desc": "Memulihkan HP sebesar #3[f1]% ATK Yunli + #4[i], dan mengakibatkan Physical DMG sebesar #1[i]% ATK Yunli pada 1 musuh yang ditargetkan, serta mengakibatkan Physical DMG sebesar #2[i]% ATK Yunli pada musuh di sekitar target.",
+        "params": [
+            [
+                0.6,
+                0.3,
+                0.2,
+                50
+            ],
+            [
+                0.66,
+                0.33,
+                0.2125,
+                80
+            ],
+            [
+                0.72,
+                0.36,
+                0.225,
+                102.5
+            ],
+            [
+                0.78,
+                0.39,
+                0.2375,
+                125
+            ],
+            [
+                0.84,
+                0.42,
+                0.25,
+                140
+            ],
+            [
+                0.9,
+                0.45,
+                0.26,
+                155
+            ],
+            [
+                0.975,
+                0.4875,
+                0.27,
+                166.25
+            ],
+            [
+                1.05,
+                0.525,
+                0.28,
+                177.5
+            ],
+            [
+                1.125,
+                0.5625,
+                0.29,
+                188.75
+            ],
+            [
+                1.2,
+                0.6,
+                0.3,
+                200
+            ],
+            [
+                1.26,
+                0.63,
+                0.31,
+                211.25
+            ],
+            [
+                1.32,
+                0.66,
+                0.32,
+                222.5
+            ],
+            [
+                1.38,
+                0.69,
+                0.33,
+                233.75
+            ],
+            [
+                1.44,
+                0.72,
+                0.34,
+                245
+            ],
+            [
+                1.5,
+                0.75,
+                0.35,
+                256.25
+            ]
+        ],
+        "icon": "icon/skill/1221_skill.png"
+    },
+    "122103": {
+        "id": "122103",
+        "name": "Earthbind, Etherbreak",
+        "max_level": 15,
+        "element": "",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "Enhance",
+        "effect_text": "Enhance",
+        "simple_desc": "Memasuki status \"Parry\" dan membuat seluruh musuh memasuki status Taunt. Selama durasi \"Parry\", setelah terkena serangan akan memicu Serangan Balasan yang kuat, mengakibatkan Physical DMG pada penyerang dan target di sekitarnya. Kemudian, akan mengakibatkan Physical DMG dalam jumlah kecil pada 1 musuh, total Bounce sebanyak 6 kali. Jika tidak memicu Serangan Balasan saat status \"Parry\" berlangsung, maka saat status berakhir akan mengakibatkan Physical DMG pada target musuh acak dan musuh di sekitarnya.",
+        "desc": "Mengonsumsi #8[i] Energy. Yunli akan memperoleh \"Parry\" dan membuat seluruh musuh memasuki status Taunt, berlangsung hingga akhir giliran salah satu rekan tim atau musuh yang berikutnya. Selain itu, CRIT DMG yang diakibatkan Serangan Balasan Yunli yang berikutnya akan meningkat #2[i]%, dan saat memicu efek Serangan Balasan dari Talent, akan diganti menjadi melancarkan Serangan Balasan \"Intuit: Cull\", dan di saat bersamaan juga menghapus efek \"Parry\". Jika selama berstatus \"Parry\" tidak memicu Serangan Balasan, maka saat status berakhir, Yunli akan segera melancarkan Serangan Balasan \"Intuit: Slash\" pada target musuh acak.\n\"Intuit: Slash\": Mengakibatkan Physical DMG sebesar #1[i]% ATK Yunli pada target, dan mengakibatkan Physical DMG sebesar #6[i]% ATK Yunli pada target di sekitarnya.\n\"Intuit: Cull\": Mengakibatkan Physical DMG sebesar #1[i]% ATK Yunli pada target, dan mengakibatkan Physical DMG sebesar #6[i]% ATK Yunli pada target di sekitarnya, lalu mengakibatkan ekstra #4[i] kali DMG, yang setiap DMG-nya mengakibatkan Physical DMG sebesar #7[i]% ATK Yunli pada musuh acak.\nSaat Yunli mengakibatkan DMG melalui kemampuan ini, akan dianggap mengakibatkan Ultimate DMG.",
+        "params": [
+            [
+                1.32,
+                0.6,
+                0,
+                6,
+                0,
+                0.66,
+                0.432,
+                120
+            ],
+            [
+                1.408,
+                0.64,
+                0,
+                6,
+                0,
+                0.704,
+                0.4608,
+                120
+            ],
+            [
+                1.496,
+                0.68,
+                0,
+                6,
+                0,
+                0.748,
+                0.4896,
+                120
+            ],
+            [
+                1.584,
+                0.72,
+                0,
+                6,
+                0,
+                0.792,
+                0.5184,
+                120
+            ],
+            [
+                1.672,
+                0.76,
+                0,
+                6,
+                0,
+                0.836,
+                0.5472,
+                120
+            ],
+            [
+                1.76,
+                0.8,
+                0,
+                6,
+                0,
+                0.88,
+                0.576,
+                120
+            ],
+            [
+                1.87,
+                0.85,
+                0,
+                6,
+                0,
+                0.935,
+                0.612,
+                120
+            ],
+            [
+                1.98,
+                0.9,
+                0,
+                6,
+                0,
+                0.99,
+                0.648,
+                120
+            ],
+            [
+                2.09,
+                0.95,
+                0,
+                6,
+                0,
+                1.045,
+                0.684,
+                120
+            ],
+            [
+                2.2,
+                1,
+                0,
+                6,
+                0,
+                1.1,
+                0.72,
+                120
+            ],
+            [
+                2.288,
+                1.04,
+                0,
+                6,
+                0,
+                1.144,
+                0.7488,
+                120
+            ],
+            [
+                2.376,
+                1.08,
+                0,
+                6,
+                0,
+                1.188,
+                0.7776,
+                120
+            ],
+            [
+                2.464,
+                1.12,
+                0,
+                6,
+                0,
+                1.232,
+                0.8064,
+                120
+            ],
+            [
+                2.552,
+                1.16,
+                0,
+                6,
+                0,
+                1.276,
+                0.8352,
+                120
+            ],
+            [
+                2.64,
+                1.2,
+                0,
+                6,
+                0,
+                1.32,
+                0.864,
+                120
+            ]
+        ],
+        "icon": "icon/skill/1221_ultimate.png"
+    },
+    "122104": {
+        "id": "122104",
+        "name": "Flashforge",
+        "max_level": 15,
+        "element": "Physical",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Blast",
+        "effect_text": "Blast",
+        "simple_desc": "Saat Yunli terkena serangan dari target musuh, akan memulihkan Energy tambahan dan segera melancarkan Serangan Balasan pada penyerang dan target di sekitarnya.",
+        "desc": "Saat setelah Yunli terkena serangan dari target musuh, akan memulihkan #3[i] Energy tambahan dan segera melancarkan Serangan Balasan pada penyerang, mengakibatkan Physical DMG sebesar #1[i]% ATK Yunli pada penyerang dan mengakibatkan Physical DMG sebesar #2[i]% pada target di sekitarnya.\nJika target Serangan Balasan tidak ada, maka akan melancarkan Serangan Balasan pada target musuh acak.",
+        "params": [
+            [
+                0.6,
+                0.3,
+                15
+            ],
+            [
+                0.66,
+                0.33,
+                15
+            ],
+            [
+                0.72,
+                0.36,
+                15
+            ],
+            [
+                0.78,
+                0.39,
+                15
+            ],
+            [
+                0.84,
+                0.42,
+                15
+            ],
+            [
+                0.9,
+                0.45,
+                15
+            ],
+            [
+                0.975,
+                0.4875,
+                15
+            ],
+            [
+                1.05,
+                0.525,
+                15
+            ],
+            [
+                1.125,
+                0.5625,
+                15
+            ],
+            [
+                1.2,
+                0.6,
+                15
+            ],
+            [
+                1.26,
+                0.63,
+                15
+            ],
+            [
+                1.32,
+                0.66,
+                15
+            ],
+            [
+                1.38,
+                0.69,
+                15
+            ],
+            [
+                1.44,
+                0.72,
+                15
+            ],
+            [
+                1.5,
+                0.75,
+                15
+            ]
+        ],
+        "icon": "icon/skill/1221_talent.png"
+    },
+    "122106": {
+        "id": "122106",
+        "name": "Attack",
+        "max_level": 1,
+        "element": "Physical",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Setelah menyerang musuh dan memasuki pertempuran, akan mengurangi Toughness target musuh sesuai dengan tipe Toughness-nya.",
+        "params": [],
+        "icon": "icon/skill/1221_basic_atk.png"
+    },
+    "122107": {
+        "id": "122107",
+        "name": "Posterior Precedence",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Enhance",
+        "effect_text": "Enhance",
+        "simple_desc": "Membuat diri sendiri memperoleh efek \"Ward\" selama 20 detik. Selama durasi tersebut, setelah menyerang musuh atau terkena serangan untuk memasuki pertempuran, akan segera melancarkan \"Intuit: Cull\" pada musuh acak.",
+        "desc": "Membuat diri sendiri memperoleh efek \"Ward\" selama #2[i] detik. Selama durasi, setelah menyerang musuh atau terkena serangan untuk memasuki pertempuran, akan segera melancarkan \"Intuit: Cull\" pada musuh acak dan membuat DMG yang diakibatkan dari serangan kali ini meningkat #1[i]%.",
+        "params": [
+            [
+                0.8,
+                20
+            ]
+        ],
+        "icon": "icon/skill/1221_technique.png"
+    },
+    "122401": {
+        "id": "122401",
+        "name": "My Sword Zaps Demons",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Mengakibatkan Imaginary DMG dalam jumlah kecil pada 1 musuh dan memperoleh 1 poin Charge.",
+        "desc": "Mengakibatkan Imaginary DMG sebesar #1[i]% ATK March 7th pada 1 musuh yang ditargetkan, lalu memperoleh #2[i] poin Charge.",
+        "params": [
+            [
+                0.5,
+                1
+            ],
+            [
+                0.6,
+                1
+            ],
+            [
+                0.7,
+                1
+            ],
+            [
+                0.8,
+                1
+            ],
+            [
+                0.9,
+                1
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1.1,
+                1
+            ],
+            [
+                1.2,
+                1
+            ],
+            [
+                1.3,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1224_basic_atk.png"
+    },
+    "122402": {
+        "id": "122402",
+        "name": "Master, It's Tea Time!",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Skill",
+        "effect": "Support",
+        "effect_text": "Support",
+        "simple_desc": "Membuat 1 rekan tim menjadi \"Shifu\". Saat melancarkan Basic Attack atau mengakibatkan Enhanced Basic Attack DMG, akan memicu efek berikut berdasarkan Path \"Shifu\":\n\"Erudition\", \"Destruction\", \"Hunt\": mengakibatkan DMG Tambahan berdasarkan Tipe \"Shifu\".\n\"Harmony\", \"Nihility\", \"Preservation\", \"Abundance\": Pengurangan Toughness meningkat.",
+        "desc": "Membuat 1 rekan tim selain diri sendiri menjadi \"Shifu\". SPD \"Shifu\" akan meningkat #1[f1]%. Hanya target pelancaran Skill terbaru yang akan dianggap sebagai \"Shifu\" March 7th.\nSetiap kali melancarkan Basic Attack atau mengakibatkan 1 Hit Enhanced Basic Attack DMG, jika ada \"Shifu\" dari Path tertentu di medan pertempuran, akan memicu efek yang sesuai:\n\"Erudition\", \"Destruction\", dan \"Hunt\": Mengakibatkan DMG Tambahan berdasarkan Tipe \"Shifu\" sebesar #2[i]% ATK March 7th.\n\"Harmony\", \"Nihility\", \"Preservation\", dan \"Abundance\": Pengurangan Toughness dari DMG kali ini meningkat #3[i]%.",
+        "params": [
+            [
+                0.06,
+                0.1,
+                1
+            ],
+            [
+                0.064,
+                0.11,
+                1
+            ],
+            [
+                0.068,
+                0.12,
+                1
+            ],
+            [
+                0.072,
+                0.13,
+                1
+            ],
+            [
+                0.076,
+                0.14,
+                1
+            ],
+            [
+                0.08,
+                0.15,
+                1
+            ],
+            [
+                0.085,
+                0.1625,
+                1
+            ],
+            [
+                0.09,
+                0.175,
+                1
+            ],
+            [
+                0.095,
+                0.1875,
+                1
+            ],
+            [
+                0.1,
+                0.2,
+                1
+            ],
+            [
+                0.104,
+                0.21,
+                1
+            ],
+            [
+                0.108,
+                0.22,
+                1
+            ],
+            [
+                0.112,
+                0.23,
+                1
+            ],
+            [
+                0.116,
+                0.24,
+                1
+            ],
+            [
+                0.12,
+                0.25,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1224_skill.png"
+    },
+    "122403": {
+        "id": "122403",
+        "name": "March 7th, the Apex Heroine",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Mengakibatkan Imaginary DMG pada 1 musuh, serta meningkatkan jumlah Hit dan peluang mengakibatkan DMG dari pelancaran Enhanced Basic Attack yang berikutnya.",
+        "desc": "Mengakibatkan Imaginary DMG sebesar #1[i]% ATK March 7th pada 1 musuh yang ditargetkan.\nMeningkatkan jumlah Hit awal dari pelancaran Enhanced Basic Attack yang berikutnya sebanyak #2[i] Hit, serta meningkatkan peluang tetap sebesar #3[i]% untuk mengakibatkan tambahan DMG.",
+        "params": [
+            [
+                1.44,
+                2,
+                0.2
+            ],
+            [
+                1.536,
+                2,
+                0.2
+            ],
+            [
+                1.632,
+                2,
+                0.2
+            ],
+            [
+                1.728,
+                2,
+                0.2
+            ],
+            [
+                1.824,
+                2,
+                0.2
+            ],
+            [
+                1.92,
+                2,
+                0.2
+            ],
+            [
+                2.04,
+                2,
+                0.2
+            ],
+            [
+                2.16,
+                2,
+                0.2
+            ],
+            [
+                2.28,
+                2,
+                0.2
+            ],
+            [
+                2.4,
+                2,
+                0.2
+            ],
+            [
+                2.496,
+                2,
+                0.2
+            ],
+            [
+                2.592,
+                2,
+                0.2
+            ],
+            [
+                2.688,
+                2,
+                0.2
+            ],
+            [
+                2.784,
+                2,
+                0.2
+            ],
+            [
+                2.88,
+                2,
+                0.2
+            ]
+        ],
+        "icon": "icon/skill/1224_ultimate.png"
+    },
+    "122404": {
+        "id": "122404",
+        "name": "Master, I've Ascended!",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Enhance",
+        "effect_text": "Enhance",
+        "simple_desc": "Setelah \"Shifu\" melancarkan serangan atau Ultimate, March 7th akan memperoleh Charge. Saat poin Charge mencapai 7, March 7th akan segera beraksi, DMG yang diakibatkan akan meningkat, dan Basic Attack akan diperkuat.",
+        "desc": "Setelah \"Shifu\" melancarkan serangan atau Ultimate, March 7th akan memperoleh maksimal hingga 1 poin Charge untuk setiap kalinya.\nSaat poin Charge lebih dari atau sama dengan #1[i], March 7th akan segera beraksi, dan DMG yang diakibatkan akan meningkat #2[i]%. Basic Attack akan diperkuat dan March 7th tidak dapat melancarkan Skill. Setelah melancarkan Enhanced Basic Attack, akan mengonsumsi #1[i] poin Charge. Batas maksimum Charge adalah #3[i].",
+        "params": [
+            [
+                7,
+                0.4,
+                10
+            ],
+            [
+                7,
+                0.44,
+                10
+            ],
+            [
+                7,
+                0.48,
+                10
+            ],
+            [
+                7,
+                0.52,
+                10
+            ],
+            [
+                7,
+                0.56,
+                10
+            ],
+            [
+                7,
+                0.6,
+                10
+            ],
+            [
+                7,
+                0.65,
+                10
+            ],
+            [
+                7,
+                0.7,
+                10
+            ],
+            [
+                7,
+                0.75,
+                10
+            ],
+            [
+                7,
+                0.8,
+                10
+            ],
+            [
+                7,
+                0.84,
+                10
+            ],
+            [
+                7,
+                0.88,
+                10
+            ],
+            [
+                7,
+                0.92,
+                10
+            ],
+            [
+                7,
+                0.96,
+                10
+            ],
+            [
+                7,
+                1,
+                10
+            ]
+        ],
+        "icon": "icon/skill/1224_talent.png"
+    },
+    "122406": {
+        "id": "122406",
+        "name": "Attack",
+        "max_level": 1,
+        "element": "Imaginary",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Setelah menyerang musuh dan memasuki pertempuran, akan mengurangi Toughness target musuh sesuai dengan tipe Toughness-nya.",
+        "params": [],
+        "icon": "icon/skill/1224_basic_atk.png"
+    },
+    "122407": {
+        "id": "122407",
+        "name": "Feast in One Go",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Enhance",
+        "effect_text": "Enhance",
+        "simple_desc": "Setiap kali rekan tim (selain March 7th) melancarkan Technique, March 7th akan memperoleh Charge setelah memasuki pertempuran berikutnya. Setelah melancarkan Technique, March 7th akan memulihkan Energy setelah memasuki pertempuran berikutnya.",
+        "desc": "Jika March 7th berada dalam tim, setiap kali rekan tim (selain March 7th) melancarkan 1 kali Technique, March 7th akan memperoleh 1 poin Charge saat pertempuran berikutnya dimulai, maksimal dapat memperoleh #1[i] poin.\nSetelah melancarkan Technique, March 7th akan memulihkan #2[i] Energy saat pertempuran berikutnya dimulai.",
+        "params": [
+            [
+                3,
+                30
+            ]
+        ],
+        "icon": "icon/skill/1224_technique.png"
+    },
+    "122408": {
+        "id": "122408",
+        "name": "Brows Be Smitten, Heart Be Bitten",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Mengakibatkan Imaginary DMG pada 1 musuh, yang pada awalnya mengakibatkan 3 Hit DMG, berpeluang mengakibatkan maksimal hingga ekstra 3 Hit DMG.",
+        "desc": "Pada awalnya mengakibatkan #4[i] Hit DMG. Setiap Hit-nya mengakibatkan Imaginary DMG sebesar #1[i]% ATK March 7th pada 1 musuh yang ditargetkan. Setiap kali setelah mengakibatkan 1 Hit DMG yang terakhir, memiliki #2[i]% peluang tetap untuk mengakibatkan 1 Hit DMG lagi, maksimal mengakibatkan ekstra #3[i] Hit DMG. Pemulihan Energy dari pelancaran Enhanced Basic Attack tidak meningkat seiring dengan meningkatnya jumlah Hit.\nEnhanced Basic Attack tidak dapat memulihkan Poin Skill.",
+        "params": [
+            [
+                0.4,
+                0.6,
+                3,
+                3
+            ],
+            [
+                0.48,
+                0.6,
+                3,
+                3
+            ],
+            [
+                0.56,
+                0.6,
+                3,
+                3
+            ],
+            [
+                0.64,
+                0.6,
+                3,
+                3
+            ],
+            [
+                0.72,
+                0.6,
+                3,
+                3
+            ],
+            [
+                0.8,
+                0.6,
+                3,
+                3
+            ],
+            [
+                0.88,
+                0.6,
+                3,
+                3
+            ],
+            [
+                0.96,
+                0.6,
+                3,
+                3
+            ],
+            [
+                1.04,
+                0.6,
+                3,
+                3
+            ]
+        ],
+        "icon": "icon/skill/1224_basic_atk.png"
     },
     "130101": {
         "id": "130101",
@@ -14421,7 +15700,7 @@
         "effect": "Support",
         "effect_text": "Support",
         "simple_desc": "Meningkatkan RES PEN Seluruh Tipe dari seluruh rekan tim. Setelah menyerang, akan menambahkan \"Thanatoplum Rebloom\" pada target musuh.",
-        "desc": "Ruan Mei membuka sebuah Field yang berlangsung selama #2[i] giliran. Durasi giliran Field akan berkurang 1 setiap kali giliran Ruan Mei dimulai.\nSeluruh rekan tim yang berada dalam Field akan mendapat peningkatan #1[f1]% RES PEN Seluruh Tipe, dan setelah menyerang, akan menambahkan \"Thanatoplum Rebloom\" pada target musuh.\n\"Thanatoplum Rebloom\" akan terpicu saat target musuh mencoba pulih dari status Weakness Break, memperpanjang status Weakness Break yang dimilikinya dan menunda aksinya. Penundaan aksinya adalah sebesar #3[i]% Break Effect Ruan Mei + #4[i]%, serta mengakibatkan Break DMG pada target tersebut sebesar #5[i]% Ice Break DMG Ruan Mei.\nTarget musuh yang belum pulih dari status Weakness Break tidak dapat terkena \"Thanatoplum Rebloom\" lagi.",
+        "desc": "Ruan Mei membuka sebuah area pembatas yang berlangsung selama #2[i] giliran. Durasi giliran area pembatas akan berkurang 1 setiap kali giliran Ruan Mei dimulai.\nSeluruh rekan tim yang berada dalam area pembatas akan mendapat peningkatan #1[f1]% RES PEN Seluruh Tipe, dan setelah menyerang, akan menambahkan \"Thanatoplum Rebloom\" pada target musuh.\n\"Thanatoplum Rebloom\" akan terpicu saat target musuh mencoba pulih dari status Weakness Break, memperpanjang status Weakness Break yang dimilikinya dan menunda aksinya. Penundaan aksinya adalah sebesar #3[i]% Break Effect Ruan Mei + #4[i]%, serta mengakibatkan Break DMG pada target tersebut sebesar #5[i]% Ice Break DMG Ruan Mei.\nTarget musuh yang belum pulih dari status Weakness Break tidak dapat terkena \"Thanatoplum Rebloom\" lagi.",
         "params": [
             [
                 0.15,
@@ -15338,8 +16617,8 @@
         "type_text": "Technique",
         "effect": "Impair",
         "effect_text": "Impair",
-        "simple_desc": "Menciptakan sebuah Dimension. Musuh di dalam Dimension akan terpancing (terkena Taunt). Setelah memasuki pertempuran dengan musuh di dalam Dimension, berpeluang besar untuk mengurangi SPD target musuh.",
-        "desc": "Setelah menggunakan Technique, akan menciptakan sebuah Dimension yang akan memancing (Taunt) musuh di sekitar, berlangsung selama #1[i] detik. Setelah memasuki pertempuran dengan musuh di dalam Dimension, ada #2[i]% peluang dasar untuk membuat SPD setiap target musuh berkurang #3[i]%, berlangsung selama #4[i] giliran. Hanya boleh ada 1 efek Dimension ciptaan rekan tim dalam satu waktu.",
+        "simple_desc": "Menciptakan sebuah dimensi khusus. Musuh di dalam dimensi khusus akan terpancing (terkena Taunt). Setelah memasuki pertempuran dengan musuh di dalam dimensi khusus, berpeluang besar untuk mengurangi SPD target musuh.",
+        "desc": "Setelah menggunakan Technique, akan menciptakan sebuah dimensi khusus yang akan memancing (Taunt) musuh di sekitar, berlangsung selama #1[i] detik. Setelah memasuki pertempuran dengan musuh di dalam dimensi khusus, ada #2[i]% peluang dasar untuk membuat SPD setiap target musuh berkurang #3[i]%, berlangsung selama #4[i] giliran. Hanya boleh ada 1 efek dimensi khusus ciptaan rekan tim dalam satu waktu.",
         "params": [
             [
                 10,
@@ -17293,8 +18572,8 @@
         "type_text": "Technique",
         "effect": "Support",
         "effect_text": "Support",
-        "simple_desc": "Menciptakan Dimension di sekitar Robin. Musuh yang berada dalam Dimension tidak akan menyerang Robin. Setelah memasuki pertempuran dengan musuh saat Dimension aktif, Robin akan memulihkan 5 Energy tambahan saat setiap gelombang pertempuran dimulai.",
-        "desc": "Setelah melancarkan Technique, akan menciptakan Dimension di sekeliling dirinya yang berlangsung selama #1[i] detik. Musuh dalam Dimension tidak akan menyerang Robin dan akan mengikuti Robin selama Dimension aktif. Setelah memasuki pertempuran saat Dimension aktif, Robin akan memulihkan #2[i] Energy saat setiap gelombang pertempuran dimulai. Hanya boleh ada 1 efek Dimension ciptaan rekan tim dalam satu waktu.",
+        "simple_desc": "Menciptakan dimensi khusus di sekitar Robin. Musuh yang berada dalam dimensi khusus tidak akan menyerang Robin. Setelah memasuki pertempuran dengan musuh saat dimensi khusus aktif, Robin akan memulihkan 5 Energy tambahan saat setiap gelombang pertempuran dimulai.",
+        "desc": "Setelah melancarkan Technique, akan menciptakan dimensi khusus di sekeliling dirinya yang berlangsung selama #1[i] detik. Musuh dalam dimensi khusus tidak akan menyerang Robin dan akan mengikuti Robin selama dimensi khusus aktif. Setelah memasuki pertempuran saat dimensi khusus aktif, Robin akan memulihkan #2[i] Energy saat setiap gelombang pertempuran dimulai. Hanya boleh ada 1 efek dimensi khusus ciptaan rekan tim dalam satu waktu.",
         "params": [
             [
                 15,
@@ -17460,7 +18739,7 @@
         "effect": "Enhance",
         "effect_text": "Enhance",
         "simple_desc": "Memasuki status \"Complete Combustion\", mendahulukan aksi diri sendiri sebesar 100%, memperoleh Enhanced Basic Attack dan Enhanced Skill, serta meningkatkan SPD dirinya, Weakness Break Efficiency dirinya, dan Break DMG yang diterima target musuh, berlangsung hingga hitung mundur berakhir.",
-        "desc": "Memasuki status \"Complete Combustion\", mendahulukan aksi diri sendiri sebesar 100%, serta memperoleh Enhanced Basic Attack dan Enhanced Skill. Saat dalam status \"Complete Combustion\", SPD meningkat #3[i]. Selain itu, saat melancarkan Enhanced Basic Attack dan Enhanced Skill, Weakness Break Efficiency dirinya meningkat #2[i]%, dan Break DMG yang diterima target musuh yang diakibatkan SAM meningkat #1[f1]%, berlangsung hingga serangan kali ini berakhir.\nHitung mundur \"Complete Combustion\" akan muncul di Susunan Aksi, dan status \"Complete Combustion\" SAM akan menghilang saat giliran hitung mundur dimulai. Hitung mundur memiliki SPD tetap sebesar #4[i].\nSAM yang berstatus \"Complete Combustion\" tidak dapat melancarkan Ultimate.",
+        "desc": "Memasuki status \"Complete Combustion\", mendahulukan aksi diri sendiri sebesar 100%, serta memperoleh Enhanced Basic Attack dan Enhanced Skill. Saat dalam status \"Complete Combustion\", SPD meningkat #3[i]. Selain itu, saat melancarkan Enhanced Basic Attack atau Enhanced Skill, Weakness Break Efficiency dirinya meningkat #2[i]%, dan Break DMG yang diterima target musuh (yang diakibatkan SAM) meningkat #1[f1]%, berlangsung hingga serangan kali ini berakhir.\nHitung mundur \"Complete Combustion\" akan muncul di Susunan Aksi, dan status \"Complete Combustion\" SAM akan dihapus saat giliran hitung mundur dimulai. Hitung mundur memiliki SPD tetap sebesar #4[i].\nSAM yang berstatus \"Complete Combustion\" tidak dapat melancarkan Ultimate.",
         "params": [
             [
                 0.1,
@@ -17683,8 +18962,8 @@
         "type_text": "Technique",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "Melompat ke udara dan bergerak dengan bebas. Setelah durasi bergerak bebas habis, akan turun dan menyerang semua musuh dalam jangkauan. Saat setiap gelombang pertempuran dimulai, menambahkan Fire Weakness pada seluruh musuh dan mengakibatkan Fire DMG pada seluruh musuh.",
-        "desc": "Melompat ke udara dan bergerak dengan bebas selama #1[i] detik. Melancarkan Plunging Attack selama periode tersebut dapat mengakhiri waktu gerak bebas. Setelah waktu gerak bebas berakhir, SAM akan turun dan segera menyerang semua musuh dalam jangkauan tertentu. Saat setiap gelombang pertempuran dimulai, akan menambahkan Fire Weakness pada seluruh musuh, berlangsung selama #3[i] giliran. Setelahnya, akan mengakibatkan Fire DMG sebesar #2[i]% ATK SAM pada seluruh musuh.",
+        "simple_desc": "Melompat ke udara dan bergerak dengan bebas. Setelah bergerak bebas selama beberapa detik, akan turun dan menyerang semua musuh dalam jangkauan. Saat setiap gelombang pertempuran dimulai, menambahkan Fire Weakness pada seluruh musuh dan mengakibatkan Fire DMG pada seluruh musuh.",
+        "desc": "Melompat ke udara dan bergerak dengan bebas selama #1[i] detik. Melancarkan Plunging Attack selama periode tersebut dapat mengakhiri waktu gerak bebas lebih awal. Setelah waktu gerak bebas berakhir, SAM akan turun dan segera menyerang semua musuh dalam jangkauan tertentu. Saat setiap gelombang pertempuran dimulai, akan menambahkan Fire Weakness pada seluruh musuh, berlangsung selama #3[i] giliran. Setelahnya, akan mengakibatkan Fire DMG sebesar #2[i]% ATK SAM pada seluruh musuh.",
         "params": [
             [
                 5,
@@ -18245,8 +19524,8 @@
         "type_text": "Technique",
         "effect": "Impair",
         "effect_text": "Impair",
-        "simple_desc": "Menciptakan sebuah Dimension. Aksi musuh dalam Dimension akan terhenti. Setelah memasuki pertempuran melawan musuh dalam Dimension, akan menambah jumlah Hits Per Action untuk Ultimate Misha yang berikutnya.",
-        "desc": "Setelah menggunakan Technique, Misha akan menciptakan sebuah Dimension selama #1[i] detik. Musuh dalam Dimension akan memasuki status \"Dream Prison\", dan aksinya akan terhenti. Setelah memasuki pertempuran melawan musuh berstatus \"Dream Prison\", jumlah Hits Per Action untuk Ultimate Misha yang berikutnya akan bertambah #2[i] Hit. Hanya boleh ada 1 efek Dimension ciptaan rekan tim dalam satu waktu.",
+        "simple_desc": "Menciptakan sebuah dimensi khusus. Aksi musuh dalam dimensi khusus akan terhenti. Setelah memasuki pertempuran melawan musuh dalam dimensi khusus, akan menambah jumlah Hits Per Action untuk Ultimate Misha yang berikutnya.",
+        "desc": "Setelah menggunakan Technique, Misha akan menciptakan sebuah dimensi khusus selama #1[i] detik. Musuh dalam dimensi khusus akan memasuki status \"Dream Prison\", dan aksinya akan terhenti. Setelah memasuki pertempuran melawan musuh berstatus \"Dream Prison\", jumlah Hits Per Action untuk Ultimate Misha yang berikutnya akan bertambah #2[i] Hit. Hanya boleh ada 1 efek dimensi khusus ciptaan rekan tim dalam satu waktu.",
         "params": [
             [
                 15,
@@ -18510,7 +19789,7 @@
         "type_text": "Talent",
         "effect": "AoEAttack",
         "effect_text": "AoE",
-        "simple_desc": "Setelah Jade atau target yang menjadi \"Debt Collector\" melancarkan serangan, akan memperoleh 1 poin Charge untuk setiap 1 target musuh yang terkena serangan. Saat Charge mencapai 8 poin, akan mengonsumsi 8 poin Charge dan melancarkan 1 kali Serangan Lanjutanyang mengakibatkan Quantum DMG pada seluruh musuh.\nSaat Jade melancarkan Serangan Lanjutan, Jade akan memperoleh \"Pawned Asset\" dan meningkatkan CRIT DMG dirinya, efek ini dapat ditumpuk hingga 50 lapis.",
+        "simple_desc": "Setelah Jade atau target yang menjadi \"Debt Collector\" melancarkan serangan, akan memperoleh 1 poin Charge untuk setiap 1 target musuh yang terkena serangan. Saat Charge mencapai 8 poin, akan mengonsumsi 8 poin Charge dan melancarkan 1 kali Serangan Lanjutan yang mengakibatkan Quantum DMG pada seluruh musuh.\nSaat Jade melancarkan Serangan Lanjutan, Jade akan memperoleh \"Pawned Asset\" dan meningkatkan CRIT DMG dirinya, efek ini dapat ditumpuk hingga 50 lapis.",
         "desc": "Setelah Jade atau target yang menjadi \"Debt Collector\" melancarkan serangan, Jade akan memperoleh 1 poin Charge untuk setiap 1 target musuh yang terkena serangan. Saat Charge mencapai #3[i] poin, akan mengonsumsi #3[i] poin Charge dan melancarkan 1 kali Serangan Lanjutan untuk mengakibatkan Quantum DMG sebesar #5[i]% ATK Jade pada seluruh target musuh. Serangan Lanjutan kali ini tidak dapat memperoleh Charge.\nSaat Jade memicu Serangan Lanjutan dari Talent, Jade akan segera memperoleh #4[i] lapis \"Pawned Asset\". Setiap lapis \"Pawned Asset\" meningkatkan #1[f1]% CRIT DMG. Efek ini dapat ditumpuk hingga #2[i] lapis.",
         "params": [
             [
