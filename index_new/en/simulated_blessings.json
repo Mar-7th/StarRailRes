@@ -56,7 +56,7 @@
     "612031": {
         "id": "612031",
         "name": "Divine Construct: Metastatic Field",
-        "desc": "After a character is hit, deals Quake DMG to the attacker, equal to 340% of the character's current Shield effect. This DMG cannot defeat the enemy.",
+        "desc": "After a character is attacked, deals Quake DMG to the attacker, equal to 340% of the character's current Shield effect. This DMG cannot defeat the enemy.",
         "enhanced_desc": "After a character is attacked, deals Quake DMG to the attacker, equal to 420% of the character's Shield effect just before the attack. This DMG cannot defeat the enemy."
     },
     "612032": {
@@ -68,8 +68,8 @@
     "612040": {
         "id": "612040",
         "name": "Interstellar Construct: Shear Structure",
-        "desc": "Characters deal 10% increased Quake DMG to their target enemy, and enemies adjacent to it also take Quake DMG equal to 25% of DMG dealt to the target enemy.",
-        "enhanced_desc": "Characters deal 15% increased Quake DMG to their target, and other targets also take Quake DMG equal to 30% of DMG dealt to the target enemy."
+        "desc": "Characters deal 10% increased Quake DMG to their target enemy, and enemies adjacent to it also take Quake DMG equal to 25% of DMG dealt to the primary target enemy.",
+        "enhanced_desc": "Characters deal 15% increased Quake DMG to their target, and other targets also take Quake DMG equal to 30% of DMG dealt to the primary target enemy."
     },
     "612041": {
         "id": "612041",
@@ -506,7 +506,7 @@
     "612326": {
         "id": "612326",
         "name": "Resonance Interplay: Fleeting Samadhi",
-        "desc": "For every 1% of healing from Path Resonance that exceeds a character's Max HP, the character's Ultimate deals 1% more DMG. This effect is stackable, up to a maximum of 100%, lasting for 2 turn(s).",
+        "desc": "For every 1% of healing from Path Resonance that exceeds a character's Max HP, the character deals 1% increased Ultimate DMG. This effect is stackable, up to a maximum of 100%, lasting for 2 turn(s).",
         "enhanced_desc": ""
     },
     "612327": {
@@ -619,7 +619,7 @@
     },
     "612357": {
         "id": "612357",
-        "name": "Blessing",
+        "name": "Empower",
         "desc": "After a character provides healing, there is a 30% fixed chance to recover 1 Skill Point. This effect can only trigger once per action.",
         "enhanced_desc": "After a character provides healing, there is a 45% fixed chance to recover 1 Skill Point. This effect can only trigger once per action."
     },
@@ -938,7 +938,7 @@
     "612620": {
         "id": "612620",
         "name": "Path Resonance: Elation",
-        "desc": "Spend 100 points of Energy to use this ability and resonate with the Path of Elation, dealing follow-up attacks of a random Type to all enemies for 3 – 5 time(s).",
+        "desc": "Can consume 100 points of Energy to use the ability and resonate with the Path of Elation, dealing follow-up attack DMG of a random Type to all enemies for 3 – 5 time(s).",
         "enhanced_desc": ""
     },
     "612621": {
@@ -998,8 +998,8 @@
     "612632": {
         "id": "612632",
         "name": "Champion's Dinner: Cat's Cradle",
-        "desc": "When characters deal DMG to an enemy with their Ultimate, this attack is considered a follow-up attack. Increases the DMG of follow-up attacks by 15%.",
-        "enhanced_desc": "When characters deal DMG to an enemy with their Ultimate, this attack is considered a follow-up attack. Increases the DMG of follow-up attacks by 55%."
+        "desc": "When a character uses Ultimate to deal DMG to an enemy target, it is considered as follow-up attack. Increases DMG dealt by follow-up attacks by 15%.",
+        "enhanced_desc": "When a character uses Ultimate to deal DMG to an enemy target, it is considered as follow-up attack. Increases DMG dealt by follow-up attacks by 55%."
     },
     "612640": {
         "id": "612640",
@@ -1028,8 +1028,8 @@
     "612644": {
         "id": "612644",
         "name": "12 Monkeys and Angry Men",
-        "desc": "When a character deals DMG to an enemy with a follow-up attack, DMG for this follow-up attack increases by 4%.",
-        "enhanced_desc": "When a character deals DMG to an enemy with a follow-up attack, DMG for this follow-up attack increases by 6%."
+        "desc": "When a character deals follow-up attack DMG to an enemy target, the follow-up attack DMG within this attack increases by 4%.",
+        "enhanced_desc": "When a character deals follow-up attack DMG to an enemy target, the follow-up attack DMG within this attack increases by 6%."
     },
     "612645": {
         "id": "612645",
@@ -1046,26 +1046,26 @@
     "612650": {
         "id": "612650",
         "name": "Exemplary Conduct",
-        "desc": "Increases the DMG of follow-up attacks by 9% for each Elation Blessing. This effect can stack up to a max of 6 time(s).",
-        "enhanced_desc": "Increases the DMG of follow-up attacks by 12% for each Elation Blessing. This effect can stack up to a max of 9 time(s)."
+        "desc": "For each Elation Blessing in possession, increases characters' follow-up attack DMG dealt by 9%. This effect can stack up to 6 time(s).",
+        "enhanced_desc": "For each Elation Blessing in possession, increases characters' follow-up attack DMG dealt by 12%. This effect can stack up to 9 time(s)."
     },
     "612651": {
         "id": "612651",
         "name": "Mostly Harmful",
-        "desc": "Increases the Weakness Break efficiency of follow-up attacks by 35%.",
-        "enhanced_desc": "Increases the Weakness Break efficiency of follow-up attacks by 50%."
+        "desc": "The Weakness Break efficiency increases by 35% when characters deal follow-up attack DMG.",
+        "enhanced_desc": "The Weakness Break efficiency increases by 50% when characters deal follow-up attack DMG."
     },
     "612652": {
         "id": "612652",
         "name": "Suspiria",
-        "desc": "Increases the DMG of follow-up attacks by 26%.",
-        "enhanced_desc": "Increases the DMG of follow-up attacks by 39%."
+        "desc": "Increases characters' follow-up attack DMG dealt by 26%.",
+        "enhanced_desc": "Increases characters' follow-up attack DMG dealt by 39%."
     },
     "612653": {
         "id": "612653",
         "name": "Pale Fire",
-        "desc": "Increases the CRIT Rate of follow-up attacks by 26%.",
-        "enhanced_desc": "Increases the CRIT Rate of follow-up attacks by 39%."
+        "desc": "Increases the CRIT Rate for follow-up attack DMG dealt by characters by 26%.",
+        "enhanced_desc": "Increases the CRIT Rate for follow-up attack DMG dealt by characters by 39%."
     },
     "612654": {
         "id": "612654",
@@ -1112,7 +1112,7 @@
     "612723": {
         "id": "612723",
         "name": "Resonance Formation: Crystal Pincers",
-        "desc": "Metamorphosis additionally increases DMG dealt by a character by 40%. Only when a character is under the Metamorphosis effect can they cause Spores to burst. Every time a character causes a Spore to burst, additionally deal Basic ATK DMG equal to 80% of the character's ATK. This effect can trigger up to 3 time(s) on the same target.",
+        "desc": "Metamorphosis additionally increases DMG dealt by a character by 40%. Only when a character is under the Metamorphosis effect can they cause Spores to burst. Every time a character causes 1 Spore to burst, additionally deals Basic ATK DMG equal to 80% of the character's ATK. This effect can trigger up to 3 time(s) on the same target.",
         "enhanced_desc": ""
     },
     "612724": {
@@ -1184,8 +1184,8 @@
     "612744": {
         "id": "612744",
         "name": "Exposed Brain Matter",
-        "desc": "The DMG dealt by Basic ATK will deal DMG equal to 30% of the original DMG to a random adjacent target.",
-        "enhanced_desc": "The DMG dealt by Basic ATK will deal DMG equal to 35% of the original DMG to adjacent targets."
+        "desc": "DMG dealt by Basic ATK also deals DMG equal to 30% of the original DMG to a random adjacent target.",
+        "enhanced_desc": "DMG dealt by Basic ATK also deals DMG equal to 35% of the original DMG to adjacent targets."
     },
     "612745": {
         "id": "612745",
@@ -1202,20 +1202,20 @@
     "612750": {
         "id": "612750",
         "name": "Osseus Blade",
-        "desc": "For each Blessing of Propagation in possession, increases all characters' Basic ATK DMG by 9%. This effect can stacked up to 6 time(s).",
-        "enhanced_desc": "For each Blessing of Propagation in possession, increases all characters' Basic ATK DMG by 12%. This effect can stacked up to 9 time(s)."
+        "desc": "For each Blessing of Propagation in possession, increases all characters' Basic ATK DMG by 9%. This effect can stack up to 6 time(s).",
+        "enhanced_desc": "For each Blessing of Propagation in possession, increases all characters' Basic ATK DMG by 12%. This effect can stack up to 9 time(s)."
     },
     "612751": {
         "id": "612751",
         "name": "Spinal Spur",
-        "desc": "The CRIT Rate for Characters' Basic ATK DMG increases by 24%.",
-        "enhanced_desc": "The CRIT Rate for Characters' Basic ATK DMG increases by 36%."
+        "desc": "The CRIT Rate for characters' Basic ATK DMG increases by 24%.",
+        "enhanced_desc": "The CRIT Rate for characters' Basic ATK DMG increases by 36%."
     },
     "612752": {
         "id": "612752",
         "name": "Channeled Needle",
-        "desc": "The CRIT DMG for Characters' Basic ATK DMG increases by 40%.",
-        "enhanced_desc": "The CRIT DMG for Characters' Basic ATK DMG increases by 60%."
+        "desc": "The CRIT DMG for characters' Basic ATK DMG increases by 40%.",
+        "enhanced_desc": "The CRIT DMG for characters' Basic ATK DMG increases by 60%."
     },
     "612753": {
         "id": "612753",
@@ -1298,8 +1298,8 @@
     "612832": {
         "id": "612832",
         "name": "VEP-18 Occipital Lobe",
-        "desc": "The All-Type RES PEN for characters' Ultimate DMG increases by 20%. When an Ultimate is used, for every enemy target that is hit by this Ultimate, the All-Type RES PEN for the Ultimate DMG dealt will additionally increase by 3%. This effect lasts until the next time an Ultimate is used.",
-        "enhanced_desc": "The All-Type RES PEN for characters' Ultimate DMG increases by 25%. For each enemy target hit by the Ultimate that achieves the highest number of enemy hits in a single attack in this battle, the All-Type RES PEN for Ultimate DMG dealt additionally increases by 3%."
+        "desc": "The All-Type RES PEN for the Ultimate DMG dealt by characters increases by 20%. When an Ultimate is used, for every enemy target that is hit by this Ultimate, the All-Type RES PEN for the Ultimate DMG dealt will additionally increase by 3%. This effect lasts until the next time an Ultimate is used.",
+        "enhanced_desc": "The All-Type RES PEN for Ultimate DMG dealt by characters increases by 25%. For each enemy target hit by the Ultimate that achieves the highest number of enemy hits in a single attack in this battle, the All-Type RES PEN for the Ultimate DMG dealt additionally increases by 3%."
     },
     "612840": {
         "id": "612840",
@@ -1328,8 +1328,8 @@
     "612844": {
         "id": "612844",
         "name": "Analysis: Subliminal Sensation",
-        "desc": "Characters' Ultimate DMG increases by 50%, lasting until the end of the first Ultimate they use in battle. After entering battle, characters regenerate energy equal to 60% of their respective Max Energy.",
-        "enhanced_desc": "Characters' Ultimate DMG increases by 50%. After entering battle, regenerates energy equal to 100% of the character's Max Energy."
+        "desc": "Ultimate DMG dealt by characters increases by 50%, lasting until the end of the first Ultimate they use in battle. After entering battle, characters regenerate energy equal to 60% of their respective Max Energy.",
+        "enhanced_desc": "Ultimate DMG dealt by characters increases by 50%. After entering battle, regenerates energy equal to 100% of the character's Max Energy."
     },
     "612845": {
         "id": "612845",
@@ -1346,20 +1346,20 @@
     "612850": {
         "id": "612850",
         "name": "Throne of Engaged Gears",
-        "desc": "For every Blessing of Erudition currently in possession, characters' Ultimate DMG increases by 7%, stacking up to 6 times.",
-        "enhanced_desc": "For every Blessing of Erudition currently in possession, characters' Ultimate DMG increases by 10%, stacking up to 9 times."
+        "desc": "For every Blessing of Erudition currently in possession, Ultimate DMG dealt by characters increases by 7%, stacking up to 6 times.",
+        "enhanced_desc": "For every Blessing of Erudition currently in possession, Ultimate DMG dealt by characters increases by 10%, stacking up to 9 times."
     },
     "612851": {
         "id": "612851",
         "name": "Ring of Bent Wires",
-        "desc": "Characters' Ultimate CRIT Rate increases by 18%.",
-        "enhanced_desc": "Characters' Ultimate CRIT Rate increases by 27%."
+        "desc": "The CRIT Rate for Ultimate DMG dealt by characters increases by 18%.",
+        "enhanced_desc": "The CRIT Rate for Ultimate DMG dealt by characters increases by 27%."
     },
     "612852": {
         "id": "612852",
         "name": "Scepter of Energy Torque",
-        "desc": "Characters' Ultimate CRIT DMG increases by 30%.",
-        "enhanced_desc": "Characters' Ultimate CRIT DMG increases by 45%."
+        "desc": "The CRIT DMG for Ultimate DMG dealt by characters increases by 30%.",
+        "enhanced_desc": "The CRIT DMG for Ultimate DMG dealt by characters increases by 45%."
     },
     "612853": {
         "id": "612853",
@@ -1424,8 +1424,8 @@
     "615040": {
         "id": "615040",
         "name": "Interstellar Construct: Shear Structure",
-        "desc": "Characters deal 10% increased Quake DMG to their target enemy, and enemies adjacent to it also take Quake DMG equal to 25% of DMG dealt to the target enemy.",
-        "enhanced_desc": "Characters deal 15% increased Quake DMG to their target, and other targets also take Quake DMG equal to 30% of DMG dealt to the target enemy."
+        "desc": "Characters deal 10% increased Quake DMG to their target enemy, and enemies adjacent to it also take Quake DMG equal to 25% of DMG dealt to the primary target enemy.",
+        "enhanced_desc": "Characters deal 15% increased Quake DMG to their target, and other targets also take Quake DMG equal to 30% of DMG dealt to the primary target enemy."
     },
     "615041": {
         "id": "615041",
@@ -2084,7 +2084,7 @@
     "615620": {
         "id": "615620",
         "name": "Masked Fools",
-        "desc": "Spend 100 points of Energy to use the ability and achieve Boundary Resonance with the Path of Elation, dealing follow-up attacks of a random Type to all enemies for 5 – 10 time(s). Additionally, all allies' Basic ATK/Skill/Ultimate DMG are considered to be follow-up attack DMG, lasting for 1 turn(s).",
+        "desc": "Can consume 100 points of Energy to use the ability and achieve Boundary Resonance with the Path of Elation, dealing follow-up attack DMG of a random Type to all enemies for 5 – 10 time(s). And all allies' Basic ATK/Skill/Ultimate DMG are all considered as follow-up attack DMG, lasting for 1 turn(s).",
         "enhanced_desc": ""
     },
     "615630": {
@@ -2101,7 +2101,7 @@
     },
     "615632": {
         "id": "615632",
-        "name": "Invitation to a Beheading: Black Box Crying",
+        "name": "Invitation to a Beheading: Weeping Blackbox",
         "desc": "When a character launches a follow-up attack on an enemy, the enemy's action is delayed by 25%. This can trigger a max of 2 time(s) per enemy target's turn.",
         "enhanced_desc": "When a character launches a follow-up attack on an enemy, the enemy's action is delayed by 25%. This can trigger a max of 3 time(s) per enemy target's turn."
     },
@@ -2126,8 +2126,8 @@
     "615643": {
         "id": "615643",
         "name": "12 Monkeys and Angry Men",
-        "desc": "When a character deals follow-up attack DMG to an enemy, increase follow-up attack DMG by 4% for a max of 24 stack(s) and lasts until the start of the next turn.",
-        "enhanced_desc": "When a character deals follow-up attack DMG to an enemy, increase follow-up attack DMG by 5% for a max of 30 stack(s) and lasts until the start of the next turn."
+        "desc": "When a character deals follow-up attack DMG to an enemy target, increases follow-up attack DMG by 4%, stacking up to 24 time(s) and lasting until the start of the next turn.",
+        "enhanced_desc": "When a character deals follow-up attack DMG to an enemy target, increases follow-up attack DMG by 5%, stacking up to 30 time(s) and lasting until the start of the next turn."
     },
     "615644": {
         "id": "615644",
@@ -2150,26 +2150,26 @@
     "615651": {
         "id": "615651",
         "name": "Mostly Harmful",
-        "desc": "Increases the Weakness Break efficiency of follow-up attacks by 35%.",
-        "enhanced_desc": "Increases the Weakness Break efficiency of follow-up attacks by 50%."
+        "desc": "The Weakness Break efficiency increases by 35% when characters deal follow-up attack DMG.",
+        "enhanced_desc": "The Weakness Break efficiency increases by 50% when characters deal follow-up attack DMG."
     },
     "615652": {
         "id": "615652",
         "name": "Suspiria",
-        "desc": "Increases the DMG of follow-up attacks by 26%.",
-        "enhanced_desc": "Increases the DMG of follow-up attacks by 39%."
+        "desc": "Increases characters' follow-up attack DMG dealt by 26%.",
+        "enhanced_desc": "Increases characters' follow-up attack DMG dealt by 39%."
     },
     "615653": {
         "id": "615653",
         "name": "Pale Fire",
-        "desc": "Increases the CRIT Rate of follow-up attacks by 26%.",
-        "enhanced_desc": "Increases the CRIT Rate of follow-up attacks by 39%."
+        "desc": "Increases the CRIT Rate for follow-up attack DMG dealt by characters by 26%.",
+        "enhanced_desc": "Increases the CRIT Rate for follow-up attack DMG dealt by characters by 39%."
     },
     "615654": {
         "id": "615654",
         "name": "Back to the Lighthouse",
-        "desc": "When characters use a follow-up attack, restore 6 of Energy. This effect can be triggered up to 1 time(s) per turn.",
-        "enhanced_desc": "When characters use a follow-up attack, restore 8 of Energy. This effect can be triggered up to 1 time(s) per turn."
+        "desc": "When characters use a follow-up attack, restore 6 Energy. This effect can be triggered up to 1 time(s) per turn.",
+        "enhanced_desc": "When characters use a follow-up attack, restore 8 Energy. This effect can be triggered up to 1 time(s) per turn."
     },
     "615655": {
         "id": "615655",
@@ -2240,8 +2240,8 @@
     "615743": {
         "id": "615743",
         "name": "Exposed Brain Matter",
-        "desc": "The DMG dealt by Basic ATK will deal DMG equal to 30% of the original DMG to a random adjacent target.",
-        "enhanced_desc": "The DMG dealt by Basic ATK will deal DMG equal to 35% of the original DMG to adjacent targets."
+        "desc": "DMG dealt by Basic ATK also deals DMG equal to 30% of the original DMG to a random adjacent target.",
+        "enhanced_desc": "DMG dealt by Basic ATK also deals DMG equal to 35% of the original DMG to adjacent targets."
     },
     "615744": {
         "id": "615744",
@@ -2258,20 +2258,20 @@
     "615750": {
         "id": "615750",
         "name": "Osseus Blade",
-        "desc": "Characters' Basic ATK is boosted by 24%.",
-        "enhanced_desc": "Characters' Basic ATK is boosted by 36%."
+        "desc": "Basic ATK DMG dealt by characters increases by 24%.",
+        "enhanced_desc": "Basic ATK DMG dealt by characters increases by 36%."
     },
     "615751": {
         "id": "615751",
         "name": "Spinal Spur",
-        "desc": "Characters' Basic ATK CRIT Rate increases by 24%.",
-        "enhanced_desc": "Characters' Basic ATK CRIT Rate increases by 36%."
+        "desc": "The CRIT Rate for characters' Basic ATK DMG increases by 24%.",
+        "enhanced_desc": "The CRIT Rate for characters' Basic ATK DMG increases by 36%."
     },
     "615752": {
         "id": "615752",
         "name": "Channeled Needle",
-        "desc": "Characters' Basic ATK CRIT DMG increases by 40%.",
-        "enhanced_desc": "Characters' Basic ATK CRIT DMG increases by 60%."
+        "desc": "The CRIT DMG for characters' Basic ATK DMG increases by 40%.",
+        "enhanced_desc": "The CRIT DMG for characters' Basic ATK DMG increases by 60%."
     },
     "615753": {
         "id": "615753",
@@ -2330,8 +2330,8 @@
     "615832": {
         "id": "615832",
         "name": "VEP-18 Occipital Lobe",
-        "desc": "The All-Type RES PEN for characters' Ultimate DMG increases by 20%. After an Ultimate is used, for every enemy target that is hit by this Ultimate, the All-Type RES PEN for the Ultimate DMG dealt will additionally increase by 3%. This effect lasts until the next time an Ultimate is used.",
-        "enhanced_desc": "The All-Type RES PEN for characters' Ultimate DMG increases by 25%. For each enemy target hit by the Ultimate that achieves the highest number of enemy hits in a single attack in this battle, the All-Type RES PEN for Ultimate DMG dealt additionally increases by 3%."
+        "desc": "The All-Type RES PEN for Ultimate DMG dealt by characters increases by 20%. After an Ultimate is used, for every enemy target that is hit by this Ultimate, the All-Type RES PEN for the Ultimate DMG dealt will additionally increase by 3%. This effect lasts until the next time an Ultimate is used.",
+        "enhanced_desc": "The All-Type RES PEN for Ultimate DMG dealt by characters increases by 25%. For each enemy target hit by the Ultimate that achieves the highest number of enemy hits in a single attack in this battle, the All-Type RES PEN for the Ultimate DMG dealt additionally increases by 3%."
     },
     "615840": {
         "id": "615840",
@@ -2354,8 +2354,8 @@
     "615843": {
         "id": "615843",
         "name": "Analysis: Subliminal Sensation",
-        "desc": "Characters' Ultimate DMG increases by 50%, lasting until the end of the first Ultimate they use in battle. Upon entering battle, characters regenerate energy equal to 60% of their respective Max Energy.",
-        "enhanced_desc": "Characters' Ultimate DMG increases by 50%. Upon entering battle, regenerates energy equal to 100% of the character's Max Energy."
+        "desc": "Ultimate DMG dealt by characters increases by 50%, lasting until the end of the first Ultimate they use in battle. Upon entering battle, characters regenerate energy equal to 60% of their respective Max Energy.",
+        "enhanced_desc": "Ultimate DMG dealt by characters increases by 50%. Upon entering battle, regenerates energy equal to 100% of the character's Max Energy."
     },
     "615844": {
         "id": "615844",
@@ -2372,20 +2372,20 @@
     "615850": {
         "id": "615850",
         "name": "Throne of Engaged Gears",
-        "desc": "Increases characters' Ultimate DMG dealt by 18%.",
-        "enhanced_desc": "Increases characters' Ultimate DMG dealt by 27%."
+        "desc": "Ultimate DMG dealt by characters increases by 18%.",
+        "enhanced_desc": "Ultimate DMG dealt by characters increases by 27%."
     },
     "615851": {
         "id": "615851",
         "name": "Ring of Bent Wires",
-        "desc": "Characters' Ultimate CRIT Rate increases by 18%.",
-        "enhanced_desc": "Characters' Ultimate CRIT Rate increases by 27%."
+        "desc": "The CRIT Rate for Ultimate DMG dealt by characters increases by 18%.",
+        "enhanced_desc": "The CRIT Rate for Ultimate DMG dealt by characters increases by 27%."
     },
     "615852": {
         "id": "615852",
         "name": "Scepter of Energy Torque",
-        "desc": "Characters' Ultimate CRIT DMG increases by 30%.",
-        "enhanced_desc": "Characters' Ultimate CRIT DMG increases by 45%."
+        "desc": "The CRIT DMG for Ultimate DMG dealt by characters increases by 30%.",
+        "enhanced_desc": "The CRIT DMG for Ultimate DMG dealt by characters increases by 45%."
     },
     "615853": {
         "id": "615853",
@@ -2480,7 +2480,7 @@
     "670630": {
         "id": "670630",
         "name": "Advisor Physician",
-        "desc": "DMG dealt by Dewdrop is regarded as follow-up attack DMG. After Dewdrop burst as a result of the character launching a follow-up attack or using an attack, there is a 12% fixed chance every time for them to trigger the following effect: Charge Dewdrop for 80% of its maximum, and deals DMG equal to 1/2/3/4 time(s) of Dewdrop's Charge with a 15%/50%/30%/5% fixed chance.",
+        "desc": "DMG dealt by Dewdrop is considered as follow-up attack DMG. After Dewdrop burst as a result of the character launching a follow-up attack or using an attack, there is a 12% fixed chance every time for them to trigger the following effect: Charge Dewdrop for 80% of its maximum, and deals DMG equal to 1/2/3/4 time(s) of Dewdrop's Charge with a 15%/50%/30%/5% fixed chance.",
         "enhanced_desc": ""
     },
     "670720": {
@@ -2552,13 +2552,13 @@
     "671460": {
         "id": "671460",
         "name": "Bounty Hunter",
-        "desc": "When a character deals CRIT DMG, there is a 50% fixed chance to additionally deal CRIT DMG equal to a set amount (1–100%) of the original DMG for 1 times(s). This DMG is considered follow-up attack DMG.",
+        "desc": "When a character deals CRIT DMG, there is a 50% fixed chance to additionally deal a set amount of CRIT DMG equal to 1–100% of the original DMG for 1 time(s). This is considered as follow-up attack DMG.",
         "enhanced_desc": ""
     },
     "671510": {
         "id": "671510",
         "name": "Memosnatcher",
-        "desc": "When a character uses an attack that deals Ultimate DMG, consumes their HP equal to 20% of their current HP. After this attack, there is a 50% base chance to inflict Freeze on the attack target, lasting for1 turn(s). Every stack of Grit increases the character's Effect Hit Rate by 2%.",
+        "desc": "When a character uses an attack that deals Ultimate DMG, consumes their HP equal to 20% of their current HP. After this attack, there is a 50% base chance to inflict Freeze on the attack target, lasting for 1 turn(s). Every stack of Grit increases the character's Effect Hit Rate by 2%.",
         "enhanced_desc": ""
     },
     "671520": {
@@ -2588,7 +2588,7 @@
     "671780": {
         "id": "671780",
         "name": "Deceiver of Calamity",
-        "desc": "Increases max Spores by 3. After a character uses an attack to deal Ultimate DMG and if the attacked target's Spore bursts, then additionally deal Ultimate DMG equal to 200% of the character's ATK to the target. Every Spore burst by this attack increases this DMG multiplier by 30%.",
+        "desc": "Increases max Spores by 3. After a character uses an attack that deals Ultimate DMG and if the attacked target's Spore bursts, then additionally deals Ultimate DMG equal to 200% of the character's ATK to the target. Every Spore burst by this attack increases this DMG multiplier by 30%.",
         "enhanced_desc": ""
     },
     "671840": {
@@ -2654,7 +2654,7 @@
     "672280": {
         "id": "672280",
         "name": "Common Mortal",
-        "desc": "When an enemy target is defeated, every stack of Suspicion they had will regenerate 0.30 of Energy for all allies.",
+        "desc": "When an enemy target is defeated, every stack of Suspicion they had will regenerate 0.30 Energy for all allies.",
         "enhanced_desc": ""
     },
     "672340": {
@@ -2708,7 +2708,7 @@
     "672580": {
         "id": "672580",
         "name": "Firesmith",
-        "desc": "Increases characters' Ultimate DMG dealt by 60%. Every 1% of HP a character loses will Charge Brain in a Vat by 0.5%.",
+        "desc": "Ultimate DMG dealt by characters increases by 60%. Every 1% of HP a character loses will Charge Brain in a Vat by 0.5%.",
         "enhanced_desc": ""
     },
     "672620": {
@@ -2750,19 +2750,19 @@
     "672840": {
         "id": "672840",
         "name": "Penman",
-        "desc": "After a character attacks and deals Ultimate DMG, every enemy target hit will deal Ultimate DMG equal to 100% of the character's ATK to the enemy target with the highest Max HP.",
+        "desc": "After a character attacks and deals Ultimate DMG, for every enemy target hit, deals Ultimate DMG equal to 100% of the character's ATK to the enemy target with the highest Max HP.",
         "enhanced_desc": ""
     },
     "672860": {
         "id": "672860",
         "name": "Repairman",
-        "desc": "Increases characters' Ultimate DMG by 60%. After triggering a follow-up attack, every enemy target hit by the attack will make the next Ultimate ignore 5% of the enemy targets' DEF, stacking up to 5 time(s).",
+        "desc": "Ultimate DMG dealt by characters increases by 60%. After triggering a follow-up attack, every enemy target hit by the attack will make the next Ultimate ignore 5% of the enemy targets' DEF, stacking up to 5 time(s).",
         "enhanced_desc": ""
     },
     "672870": {
         "id": "672870",
         "name": "Kolchis",
-        "desc": "Every Skill Point characters consume increases Ultimate DMG dealt by 45%, up to a max of 135% and lasting until after using the Ultimate.",
+        "desc": "For every 1 Skill Point consumed by characters, increases their Ultimate DMG dealt by 45%, up to a max of 135% and lasting until after using the Ultimate.",
         "enhanced_desc": ""
     },
     "680010": {

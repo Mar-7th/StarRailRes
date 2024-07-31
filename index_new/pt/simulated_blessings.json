@@ -56,7 +56,7 @@
     "612031": {
         "id": "612031",
         "name": "Construção Divina: Campo Metastático",
-        "desc": "Quando um personagem é atingido, causa Dano de Terremoto ao atacante igual a 340% do Escudo atual do personagem. Esse Dano não pode derrotar o inimigo.",
+        "desc": "Quando um personagem é atacado, causa Dano de Terremoto ao atacante igual a 340% do Escudo atual do personagem. Esse Dano não pode derrotar o inimigo.",
         "enhanced_desc": "Quando um personagem é atacado, causa Dano de Terremoto ao atacante igual a 420% do Escudo do personagem logo antes ao ataque. Esse Dano não pode derrotar o inimigo."
     },
     "612032": {
@@ -68,8 +68,8 @@
     "612040": {
         "id": "612040",
         "name": "Construção Interestelar: Estrutura de Cisalhamento",
-        "desc": "Personagens causam Dano de Terremoto aumentado em 10% ao inimigo-alvo, e inimigos adjacentes a ele também sofrem Dano de Terremoto equivalente a 25% do Dano causado ao inimigo-alvo.",
-        "enhanced_desc": "Personagens causam Dano de Terremoto aumentado em 15% ao alvo. Outros inimigos também sofrem Dano de Terremoto equivalente a 30% do Dano causado ao inimigo-alvo."
+        "desc": "Personagens causam Dano de Terremoto aumentado em 10% ao inimigo-alvo, e inimigos adjacentes a ele também sofrem Dano de Terremoto equivalente a 25% do Dano causado ao inimigo-alvo principal.",
+        "enhanced_desc": "Personagens causam Dano de Terremoto aumentado em 15% ao alvo. Outros inimigos também sofrem Dano de Terremoto equivalente a 30% do Dano causado ao inimigo-alvo principal."
     },
     "612041": {
         "id": "612041",
@@ -506,7 +506,7 @@
     "612326": {
         "id": "612326",
         "name": "Interação de Ressonância: Samadhi Passageiro",
-        "desc": "Para cada 1% de cura da Ressonância do Caminho que exceda os PV máximos de um personagem, a Perícia Suprema do personagem causa 1% a mais de Dano. Esse efeito pode acumular até um máximo de 100% vez(es), durando por 2 rodada(s).",
+        "desc": "Para cada 1% de cura da Ressonância do Caminho que exceda os PV máximos de um personagem, o personagem causa 1% a mais de Dano de Perícia Suprema. Esse efeito pode acumular até um máximo de 100% vez(es), durando por 2 rodada(s).",
         "enhanced_desc": ""
     },
     "612327": {
@@ -619,7 +619,7 @@
     },
     "612357": {
         "id": "612357",
-        "name": "Bênção",
+        "name": "Benção",
         "desc": "Após um personagem curar alguém, tem 30% de chance fixa de recuperar 1 Ponto de Perícia. Só é possível ativar este efeito uma vez por ação.",
         "enhanced_desc": "Após um personagem curar alguém, tem 45% de chance fixa de recuperar 1 Ponto de Perícia. Só é possível ativar este efeito uma vez por ação."
     },
@@ -938,7 +938,7 @@
     "612620": {
         "id": "612620",
         "name": "Ressonância do Caminho: A Euforia",
-        "desc": "Gaste 100 pontos de Energia para usar esta habilidade para ressoar com o Caminho da Euforia, causando Ataques Extras de um Tipo aleatório a todos os inimigos por 3 – 5 vez(es).",
+        "desc": "Pode consumir 100 pontos de Energia para usar a habilidade para ressoar com o Caminho da Euforia, causando Dano de Ataques Extras de um Tipo aleatório a todos os inimigos por 3 – 5 vez(es).",
         "enhanced_desc": ""
     },
     "612621": {
@@ -1027,9 +1027,9 @@
     },
     "612644": {
         "id": "612644",
-        "name": "12 Homens e Primatas em Fúria",
-        "desc": "Quando um personagem causa Dano a um inimigo com um Ataque Extra, seu Dano aumenta em 4%.",
-        "enhanced_desc": "Quando um personagem causa Dano a um inimigo com um Ataque Extra, seu Dano aumenta em 6%."
+        "name": "\"12 Homens e Primatas em Fúria\"",
+        "desc": "Quando um personagem causa Dano a um inimigo com um Ataque Extra, seu Dano deste Ataque Extra aumenta em 4%.",
+        "enhanced_desc": "Quando um personagem causa Dano a um inimigo com um Ataque Extra, seu Dano deste Ataque Extra aumenta em 6%."
     },
     "612645": {
         "id": "612645",
@@ -1046,20 +1046,20 @@
     "612650": {
         "id": "612650",
         "name": "Conduta Exemplar",
-        "desc": "Aumenta o Dano de ataques extras em 9% para cada Bênção da Euforia. Este efeito pode ser acumulado no máximo de 6 vez(es).",
-        "enhanced_desc": "Aumenta o Dano de ataques extras em 12% para cada Bênção da Euforia. Este efeito pode ser acumulado no máximo de 9 vez(es)."
+        "desc": "Aumenta o Dano causado por Ataques Extras em 9% para cada Bênção da Euforia. Este efeito pode ser acumulado no máximo de 6 vez(es).",
+        "enhanced_desc": "Aumenta o Dano causado por Ataques Extras em 12% para cada Bênção da Euforia. Este efeito pode ser acumulado no máximo de 9 vez(es)."
     },
     "612651": {
         "id": "612651",
         "name": "Risco de Dano",
-        "desc": "Aumenta a Eficiência de Quebra de Fraqueza de Ataques Extra em 35%.",
-        "enhanced_desc": "Aumenta a Eficiência de Quebra de Fraqueza de Ataques Extra em 50%."
+        "desc": "Aumenta a Eficiência de Quebra de Fraqueza 35% quando personagens realizam Ataques Extras.",
+        "enhanced_desc": "Aumenta a Eficiência de Quebra de Fraqueza 50% quando personagens realizam Ataques Extras."
     },
     "612652": {
         "id": "612652",
         "name": "Suspiria",
-        "desc": "Aumenta o Dano dos Ataques Extras do personagem em 26%.",
-        "enhanced_desc": "Aumenta o Dano dos Ataques Extras do personagem em 39%."
+        "desc": "Aumenta o Dano causado pelos Ataques Extras do personagem em 26%.",
+        "enhanced_desc": "Aumenta o Dano causado pelos Ataques Extras do personagem em 39%."
     },
     "612653": {
         "id": "612653",
@@ -1112,7 +1112,7 @@
     "612723": {
         "id": "612723",
         "name": "Formação da Ressonância: Pinças de Cristal",
-        "desc": "A Metamorfose aumenta adicionalmente o Dano causado por um personagem em 40%. Quando um personagem está sob o efeito da Metamorfose, ele pode fazer com que os Esporos explodam. Sempre que um personagem faz um Esporo explodir, causa adicionalmente Dano de ATQ Básico igual a 80% do ATQ do personagem. Este efeito pode ser acionado até 3 vez(es) no mesmo alvo.",
+        "desc": "A Metamorfose aumenta adicionalmente o Dano causado por um personagem em 40%. Quando um personagem está sob o efeito da Metamorfose, ele pode fazer com que os Esporos explodam. Sempre que um personagem faz 1 Esporo explodir, causa adicionalmente Dano de ATQ Básico igual a 80% do ATQ do personagem. Este efeito pode ser acionado até 3 vez(es) no mesmo alvo.",
         "enhanced_desc": ""
     },
     "612724": {
@@ -1208,8 +1208,8 @@
     "612751": {
         "id": "612751",
         "name": "Esporão Espinhal",
-        "desc": "O Dano CRIT do ATQ Básico dos personagens aumenta em 24%.",
-        "enhanced_desc": "O Dano CRIT do ATQ Básico dos personagens aumenta em 36%."
+        "desc": "O Chance de CRIT do ATQ Básico dos personagens aumenta em 24%.",
+        "enhanced_desc": "O Chance de CRIT do ATQ Básico dos personagens aumenta em 36%."
     },
     "612752": {
         "id": "612752",
@@ -1299,7 +1299,7 @@
         "id": "612832",
         "name": "VEP-18 Lóbulo Occipital",
         "desc": "A PEN de RES a Todos os Tipos do Dano da Perícia Suprema dos personagens aumenta em 20%. Quando uma Perícia Suprema é utilizada, para cada inimigo-alvo atingido por essa Perícia Suprema, a PEN de RES a Todos os Tipos para o Dano causado pela Perícia Suprema aumentará adicionalmente em 3%. Esse efeito dura até a próxima vez que uma Perícia Suprema for utilizada.",
-        "enhanced_desc": "A PEN de RES a Todos os Tipos do Dano da Perícia Suprema dos personagens aumenta em 25%. Para cada inimigo-alvo atingido pela Perícia Suprema que alcance o maior número de inimigos atingidos em um único ataque nesta batalha, a PEN de RES a Todos os Tipos para o Dano da Perícia Suprema infligido aumenta adicionalmente em 3%."
+        "enhanced_desc": "A PEN de RES a Todos os Tipos do Dano causado pela Perícia Suprema dos personagens aumenta em 25%. Para cada inimigo-alvo atingido pela Perícia Suprema que alcance o maior número de inimigos atingidos em um único ataque nesta batalha, a PEN de RES a Todos os Tipos para o Dano da Perícia Suprema infligido aumenta adicionalmente em 3%."
     },
     "612840": {
         "id": "612840",
@@ -1346,8 +1346,8 @@
     "612850": {
         "id": "612850",
         "name": "Trono de Engrenagens Engajadas",
-        "desc": "Para cada Bênção da Erudição atualmente em posse, o Dano da Perícia Suprema dos personagens aumenta em 7%, acumulando até 6 vezes.",
-        "enhanced_desc": "Para cada Bênção da Erudição atualmente em posse, o Dano da Perícia Suprema dos personagens aumenta em 10%, acumulando até 9 vezes."
+        "desc": "Para cada Bênção da Erudição atualmente em posse, o Dano causado pela Perícia Suprema dos personagens aumenta em 7%, acumulando até 6 vezes.",
+        "enhanced_desc": "Para cada Bênção da Erudição atualmente em posse, o Dano causado pela Perícia Suprema dos personagens aumenta em 10%, acumulando até 9 vezes."
     },
     "612851": {
         "id": "612851",
@@ -1358,8 +1358,8 @@
     "612852": {
         "id": "612852",
         "name": "Cetro de Torque de Energia",
-        "desc": "O Dano CRIT da Perícia Suprema dos personagens aumenta em 30%.",
-        "enhanced_desc": "O Dano CRIT da Perícia Suprema dos personagens aumenta em 45%."
+        "desc": "O Dano CRIT causado pela Perícia Suprema dos personagens aumenta em 30%.",
+        "enhanced_desc": "O Dano CRIT causado pela Perícia Suprema dos personagens aumenta em 45%."
     },
     "612853": {
         "id": "612853",
@@ -1424,8 +1424,8 @@
     "615040": {
         "id": "615040",
         "name": "Construção Interestelar: Estrutura de Cisalhamento",
-        "desc": "Personagens causam Dano de Terremoto aumentado em 10% ao inimigo-alvo, e inimigos adjacentes a ele também sofrem Dano de Terremoto equivalente a 25% do Dano causado ao inimigo-alvo.",
-        "enhanced_desc": "Personagens causam Dano de Terremoto aumentado em 15% ao alvo. Outros inimigos também sofrem Dano de Terremoto equivalente a 30% do Dano causado ao inimigo-alvo."
+        "desc": "Personagens causam Dano de Terremoto aumentado em 10% ao inimigo-alvo, e inimigos adjacentes a ele também sofrem Dano de Terremoto equivalente a 25% do Dano causado ao inimigo-alvo principal.",
+        "enhanced_desc": "Personagens causam Dano de Terremoto aumentado em 15% ao alvo. Outros inimigos também sofrem Dano de Terremoto equivalente a 30% do Dano causado ao inimigo-alvo principal."
     },
     "615041": {
         "id": "615041",
@@ -2084,12 +2084,12 @@
     "615620": {
         "id": "615620",
         "name": "Tolos Mascarados",
-        "desc": "Gasta 100 pontos de Energia para usar essa habilidade e ativa a Ressonância Limítrofe com o Caminho da Euforia, causando Ataques Extra de um Tipo aleatório a todos os inimigos de 5 – 10 vez(es). Além disso, o Dano dos ATQs Básicos/Perícias/Perícias Supremas de todos os aliados é considerado como Dano de Ataque Extra, durando por 1 rodada(s).",
+        "desc": "Pode consumir 100 pontos de Energia para usar essa habilidade e ativa a Ressonância Limítrofe com o Caminho da Euforia, causando Dano de Ataque Extra de um Tipo aleatório a todos os inimigos de 5 – 10 vez(es). Além disso, o Dano dos ATQs Básicos/Perícias/Perícias Supremas de todos os aliados é considerado como Dano de Ataque Extra, durando por 1 rodada(s).",
         "enhanced_desc": ""
     },
     "615630": {
         "id": "615630",
-        "name": "Vinhedo: Resistência à Escuridão",
+        "name": "\"Vinhedo: Resistência à Escuridão\"",
         "desc": "Toda vez que um personagem usa um ATQ Básico / Perícia / Perícia Suprema, ele adicionalmente causará Dano de Sabor Residual 1 vez igual a 80% do seu ATQ após o próximo Ataque Extra ser lançado. Esse status pode causar Dano até 5 vez(es).",
         "enhanced_desc": "Toda vez que um personagem usa um ATQ Básico / Perícia / Perícia Suprema, ele adicionalmente causará Dano de Sabor Residual 1 vez igual a 120% do seu ATQ após o próximo Ataque Extra ser lançado. Esse status pode causar Dano até 5 vez(es)."
     },
@@ -2101,7 +2101,7 @@
     },
     "615632": {
         "id": "615632",
-        "name": "Convite à Decapitação: O Pranto da Caixa Escura",
+        "name": "\"Convite à Decapitação: O Pranto da Caixa Escura\"",
         "desc": "Quando um personagem desfere um Ataque Extra em um inimigo, a ação do inimigo é atrasada em 25%. Esse efeito pode ser acionado até um máximo de 2 vez(es) por rodada do inimigo-alvo.",
         "enhanced_desc": "Quando um personagem desfere um Ataque Extra em um inimigo, a ação do inimigo é atrasada em 25%. Esse efeito pode ser acionado até um máximo de 3 vez(es) por rodada do inimigo-alvo."
     },
@@ -2125,9 +2125,9 @@
     },
     "615643": {
         "id": "615643",
-        "name": "12 Homens e Primatas em Fúria",
-        "desc": "Quando um personagem causa Dano de Ataque Extra a um inimigo, aumenta o Dano de Ataque Extra em 4% por um máximo de 24 acúmulo(s) e dura até o início da próxima rodada.",
-        "enhanced_desc": "Quando um personagem causa Dano de Ataque Extra a um inimigo, aumenta o Dano de Ataque Extra em 5% por um máximo de 30 acúmulo(s) e dura até o início da próxima rodada."
+        "name": "\"12 Homens e Primatas em Fúria\"",
+        "desc": "Quando um personagem causa Dano de Ataque Extra a um inimigo-alvo, aumenta o Dano de Ataque Extra em 4%, até um mãximo de 24 acúmulo(s), durando até o início da próxima rodada.",
+        "enhanced_desc": "Quando um personagem causa Dano de Ataque Extra a um inimigo-alvo, aumenta o Dano de Ataque Extra em 5%, até um mãximo de 30 acúmulo(s), durando até o início da próxima rodada."
     },
     "615644": {
         "id": "615644",
@@ -2150,14 +2150,14 @@
     "615651": {
         "id": "615651",
         "name": "Risco de Dano",
-        "desc": "Aumenta a Eficiência de Quebra de Fraqueza de Ataques Extra em 35%.",
-        "enhanced_desc": "Aumenta a Eficiência de Quebra de Fraqueza de Ataques Extra em 50%."
+        "desc": "Aumenta a Eficiência de Quebra de Fraqueza 35% quando personagens realizam Ataques Extras.",
+        "enhanced_desc": "Aumenta a Eficiência de Quebra de Fraqueza 50% quando personagens realizam Ataques Extras."
     },
     "615652": {
         "id": "615652",
         "name": "Suspiria",
-        "desc": "Aumenta o Dano dos Ataques Extras do personagem em 26%.",
-        "enhanced_desc": "Aumenta o Dano dos Ataques Extras do personagem em 39%."
+        "desc": "Aumenta o Dano causado pelos Ataques Extras do personagem em 26%.",
+        "enhanced_desc": "Aumenta o Dano causado pelos Ataques Extras do personagem em 39%."
     },
     "615653": {
         "id": "615653",
@@ -2258,14 +2258,14 @@
     "615750": {
         "id": "615750",
         "name": "Lâmina Óssea",
-        "desc": "O ATQ Básico dos personagens recebe um bônus de 24%.",
-        "enhanced_desc": "O ATQ Básico dos personagens recebe um bônus de 36%."
+        "desc": "O Dano causado pelo ATQ Básico dos personagens aumenta em 24%.",
+        "enhanced_desc": "O Dano causado pelo ATQ Básico dos personagens aumenta em 36%."
     },
     "615751": {
         "id": "615751",
         "name": "Esporão Espinhal",
-        "desc": "A Chance de CRIT do ATQ Básico dos personagens aumenta em 24%.",
-        "enhanced_desc": "A Chance de CRIT do ATQ Básico dos personagens aumenta em 36%."
+        "desc": "O Chance de CRIT do ATQ Básico dos personagens aumenta em 24%.",
+        "enhanced_desc": "O Chance de CRIT do ATQ Básico dos personagens aumenta em 36%."
     },
     "615752": {
         "id": "615752",
@@ -2331,7 +2331,7 @@
         "id": "615832",
         "name": "VEP-18 Lóbulo Occipital",
         "desc": "A PEN de RES a Todos os Tipos do Dano da Perícia Suprema dos personagens aumenta em 20%. Depois que uma Perícia Suprema é utilizada, para cada inimigo-alvo atingido por essa Perícia Suprema, a PEN de RES a Todos os Tipos para o Dano causado pela Perícia Suprema aumentará adicionalmente em 3%. Esse efeito dura até a próxima vez que uma Perícia Suprema for utilizada.",
-        "enhanced_desc": "A PEN de RES a Todos os Tipos do Dano da Perícia Suprema dos personagens aumenta em 25%. Para cada inimigo-alvo atingido pela Perícia Suprema que alcance o maior número de inimigos atingidos em um único ataque nesta batalha, a PEN de RES a Todos os Tipos para o Dano da Perícia Suprema infligido aumenta adicionalmente em 3%."
+        "enhanced_desc": "A PEN de RES a Todos os Tipos do Dano causado pela Perícia Suprema dos personagens aumenta em 25%. Para cada inimigo-alvo atingido pela Perícia Suprema que alcance o maior número de inimigos atingidos em um único ataque nesta batalha, a PEN de RES a Todos os Tipos para o Dano da Perícia Suprema infligido aumenta adicionalmente em 3%."
     },
     "615840": {
         "id": "615840",
@@ -2384,8 +2384,8 @@
     "615852": {
         "id": "615852",
         "name": "Cetro de Torque de Energia",
-        "desc": "O Dano CRIT da Perícia Suprema dos personagens aumenta em 30%.",
-        "enhanced_desc": "O Dano CRIT da Perícia Suprema dos personagens aumenta em 45%."
+        "desc": "O Dano CRIT causado pela Perícia Suprema dos personagens aumenta em 30%.",
+        "enhanced_desc": "O Dano CRIT causado pela Perícia Suprema dos personagens aumenta em 45%."
     },
     "615853": {
         "id": "615853",
@@ -2456,7 +2456,7 @@
     "670280": {
         "id": "670280",
         "name": "Instituto de Auto-Provas",
-        "desc": "Após Suspeita atingir 99 acúmulos, ela será consumida e transformada em 1 acúmulo de Auto-Negação: aumenta o Dano Contínuo causado pelo atacante em 70%. Cada acúmulo aumenta adicionalmente ela em 10%, acumulando até #10[i] vez(es). No início da rodada de um inimigo, eles recebem Dano de Raio Contínuo e fazem com que os alvos adjacentes recebam Dano de Raio Contínuo igual a 20% do multiplicador de Dano original. Em 2 acúmulos ou mais: no início da rodada, regenera 20% de Cérebro In Vitro para um personagem aleatório. Em 3 ou mais acúmulos: no início da rodada, regenera 10% de Cérebro In Vitro para todos os aliados.",
+        "desc": "Após Suspeita atingir 99 acúmulos, ela será consumida e transformada em 1 acúmulo de Auto-Negação: aumenta o Dano Contínuo causado pelo atacante em 70%. Cada acúmulo aumenta adicionalmente ela em 10%, acumulando até #10[i] vez(es). No início da rodada de um inimigo, eles recebem Dano de Raio Contínuo e fazem com que os alvos adjacentes recebam Dano de Raio Contínuo igual a 20% do multiplicador de Dano original. Em 2 acúmulos ou mais: no início da rodada, regenera 20% de Cérebro In Vitro para um personagem aleatório. Em 3 acúmulos ou mais: no início da rodada, regenera 10% de Cérebro In Vitro para todos os aliados.",
         "enhanced_desc": ""
     },
     "670350": {
@@ -2588,7 +2588,7 @@
     "671780": {
         "id": "671780",
         "name": "Ardiloso da Calamidade",
-        "desc": "Aumenta o máximo de Esporos em 3. Depois que um personagem usa um ataque para causar Dano de Perícia Suprema e se o Esporo do alvo atacado explodir, causa adicionalmente Dano de Perícia Suprema igual a 200% do ATQ do personagem ao alvo. Cada Esporo explodido por este ataque aumenta este multiplicador de Dano em 30%.",
+        "desc": "Aumenta o máximo de Esporos em 3. Depois que um personagem usa um ataque que causa Dano de Perícia Suprema e se o Esporo do alvo atacado explodir, causa adicionalmente Dano de Perícia Suprema igual a 200% do ATQ do personagem ao alvo. Cada Esporo explodido por este ataque aumenta este multiplicador de Dano em 30%.",
         "enhanced_desc": ""
     },
     "671840": {
@@ -2708,7 +2708,7 @@
     "672580": {
         "id": "672580",
         "name": "Artesão de Fogo",
-        "desc": "Aumenta o Dano de Perícia Suprema infligido por personagens em 60%. A cada 1% de PV que um personagem perder providencia Carga de Cérebro In Vitro em 0.5%.",
+        "desc": "O Dano de Perícia Suprema causado pelos personagens aumenta em 60%. A cada 1% de PV que um personagem perder providencia Carga de Cérebro In Vitro em 0.5%.",
         "enhanced_desc": ""
     },
     "672620": {
@@ -2750,19 +2750,19 @@
     "672840": {
         "id": "672840",
         "name": "Escrevente",
-        "desc": "Após um personagem atacar e causar Dano de Perícia Suprema, todo inimigo-alvo atingido causará Dano de Perícia Suprema igual a 100% do ATQ do personagem ao inimigo-alvo com os PV máximos mais altos.",
+        "desc": "Após um personagem atacar e causar Dano de Perícia Suprema, para cada inimigo-alvo atingido, causa Dano de Perícia Suprema igual a 100% do ATQ do personagem ao inimigo-alvo com os PV máximos mais altos.",
         "enhanced_desc": ""
     },
     "672860": {
         "id": "672860",
         "name": "Faz Tudo",
-        "desc": "Aumenta o Dano de Perícia Suprema dos personagens em 60%. Após acionar um Ataque Extra, todo inimigo-alvo atingido pelo ataque fará com que a sua próxima Perícia Suprema ignore 5% da DEF dos inimigos-alvo, acumulando até 5 vez(es).",
+        "desc": "O Dano de Perícia Suprema causado pelos personagens aumenta em 60%. Após acionar um Ataque Extra, todo inimigo-alvo atingido pelo ataque fará com que a sua próxima Perícia Suprema ignore 5% da DEF dos inimigos-alvo, acumulando até 5 vez(es).",
         "enhanced_desc": ""
     },
     "672870": {
         "id": "672870",
         "name": "Kolchis",
-        "desc": "Cada Ponto de Perícia que os personagens consumirem aumenta o Dano causado pela Perícia Suprema em 45%, até um máximo de 135% e durando até após utilizar a Perícia Suprema.",
+        "desc": "Para cada 1 Ponto de Perícia consumido pelos personagens, aumenta o Dano causado pela Perícia Suprema deles em 45%, até um máximo de 135% e durando até após utilizar a Perícia Suprema.",
         "enhanced_desc": ""
     },
     "680010": {

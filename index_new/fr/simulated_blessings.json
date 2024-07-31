@@ -56,7 +56,7 @@
     "612031": {
         "id": "612031",
         "name": "Construction divine : Champ métastatique",
-        "desc": "Lorsqu'un personnage est touché, inflige des DGT de Séisme à l'assaillant équivalents à 340% de la valeur de bouclier actuelle du personnage. Ces DGT ne peuvent pas vaincre l'ennemi.",
+        "desc": "Lorsqu'un personnage est attaqué, inflige des DGT de Séisme à l'assaillant équivalents à 340% de la valeur de bouclier actuelle du personnage. Ces DGT ne peuvent pas vaincre l'ennemi.",
         "enhanced_desc": "Lorsqu'un personnage subit une attaque, inflige des DGT de Séisme à l'assaillant équivalents à 420% de la valeur de bouclier du personnage avant l'attaque. Ces DGT ne peuvent pas vaincre l'ennemi."
     },
     "612032": {
@@ -68,8 +68,8 @@
     "612040": {
         "id": "612040",
         "name": "Construction interstellaire : Structure de cisaillement",
-        "desc": "Les personnages infligent des DGT de Séisme augmentés de 10% à leur cible ennemie, et les ennemis adjacents subissent des DGT de Séisme équivalents à 25% des DGT infligés à la cible ennemie.",
-        "enhanced_desc": "Les personnages infligent à leur cible des DGT de Séisme augmentés de 15%, et les autres cibles subissent des DGT de Séisme équivalents à 30% des DGT infligés à la cible ennemie."
+        "desc": "Les personnages infligent des DGT de Séisme augmentés de 10% à leur cible ennemie, et les ennemis adjacents subissent des DGT de Séisme équivalents à 25% des DGT infligés à la cible ennemie principale.",
+        "enhanced_desc": "Les personnages infligent à leur cible des DGT de Séisme augmentés de 15%, et les autres cibles subissent des DGT de Séisme équivalents à 30% des DGT infligés à la cible ennemie principale."
     },
     "612041": {
         "id": "612041",
@@ -506,7 +506,7 @@
     "612326": {
         "id": "612326",
         "name": "Combinaison de résonance : Samadhi éphémère",
-        "desc": "Pour chaque 1 % de soin prodigué par la Résonance de la Voie qui dépasse les PV max d'un personnage, l'ultime du personnage inflige 1% de DGT supplémentaires. Cet effet peut être cumulé jusqu'à un maximum de 100%. Dure 2 tours.",
+        "desc": "Pour chaque 1 % de soin prodigué par la Résonance de la Voie qui dépasse les PV max d'un personnage, le personnage inflige 1% de DGT d'ultime supplémentaires. Cet effet peut être cumulé jusqu'à un maximum de 100%. Dure 2 tours.",
         "enhanced_desc": ""
     },
     "612327": {
@@ -938,7 +938,7 @@
     "612620": {
         "id": "612620",
         "name": "Résonance de la Voie de l'Allégresse",
-        "desc": "Dépensez 100 points d'énergie pour utiliser cette capacité et entrer en résonance avec la Voie de l'Allégresse, ce qui inflige des attaques de suivi d'un type aléatoire à tous les ennemis 3 à 5 fois.",
+        "desc": "Dépensez 100 points d'énergie pour utiliser cette capacité et entrer en résonance avec la Voie de l'Allégresse, ce qui inflige des DGT d'attaque de suivi d'un type aléatoire à tous les ennemis 3 à 5 fois.",
         "enhanced_desc": ""
     },
     "612621": {
@@ -998,8 +998,8 @@
     "612632": {
         "id": "612632",
         "name": "Dîner du champion : jeu de ficelle",
-        "desc": "Les ultimes des personnages sont considérés comme des attaques de suivi. Augmente les DGT des attaques de suivi de 15%.",
-        "enhanced_desc": "Les ultimes des personnages sont considérés comme des attaques de suivi. Augmente les DGT des attaques de suivi de 55%."
+        "desc": "Les ultimes des personnages sont considérés comme des attaques de suivi. Augmente les DGT infligés par les attaques de suivi de 15%.",
+        "enhanced_desc": "Les ultimes des personnages sont considérés comme des attaques de suivi. Augmente les DGT infligés par les attaques de suivi de 55%."
     },
     "612640": {
         "id": "612640",
@@ -1028,8 +1028,8 @@
     "612644": {
         "id": "612644",
         "name": "12 singes et des hommes en colère",
-        "desc": "Lorsqu'un personnage inflige des DGT à un ennemi avec une attaque de suivi, les DGT de cette attaque de suivi augmentent de 4%.",
-        "enhanced_desc": "Lorsqu'un personnage inflige des DGT à un ennemi avec une attaque de suivi, les DGT de cette attaque de suivi augmentent de 6%."
+        "desc": "Lorsqu'un personnage inflige des DGT d'attaque de suivi à une cible ennemie, les DGT d'attaque de suivi de cette attaque augmentent de 4%.",
+        "enhanced_desc": "Lorsqu'un personnage inflige des DGT d'attaque de suivi à une cible ennemie, les DGT d'attaque de suivi de cette attaque augmentent de 6%."
     },
     "612645": {
         "id": "612645",
@@ -1046,26 +1046,26 @@
     "612650": {
         "id": "612650",
         "name": "Conduite exemplaire",
-        "desc": "Augmente les DGT des attaques de suivi de 9% pour chaque bénédiction de l'Allégresse. Cet effet peut être cumulé jusqu'à 6 fois.",
-        "enhanced_desc": "Augmente les DGT des attaques de suivi de 12% pour chaque bénédiction de l'Allégresse. Cet effet peut être cumulé jusqu'à 9 fois."
+        "desc": "Augmente les DGT d'attaque de suivi de 9% pour chaque bénédiction de l'Allégresse. Cet effet peut être cumulé jusqu'à 6 fois.",
+        "enhanced_desc": "Augmente les DGT d'attaque de suivi de 12% pour chaque bénédiction de l'Allégresse. Cet effet peut être cumulé jusqu'à 9 fois."
     },
     "612651": {
         "id": "612651",
         "name": "Plutôt nocif",
-        "desc": "Augmente l'efficacité de Rupture de faiblesse des attaques de suivi de 35%.",
-        "enhanced_desc": "Augmente l'efficacité de Rupture de faiblesse des attaques de suivi de 50%."
+        "desc": "Augmente l'efficacité de Rupture de faiblesse de 35% lorsqu'un personnage inflige des DGT d'attaque de suivi.",
+        "enhanced_desc": "Augmente l'efficacité de Rupture de faiblesse de 50% lorsqu'un personnage inflige des DGT d'attaque de suivi."
     },
     "612652": {
         "id": "612652",
         "name": "Suspiria",
-        "desc": "Augmente les DGT des attaques de suivi de 26%.",
-        "enhanced_desc": "Augmente les DGT des attaques de suivi de 39%."
+        "desc": "Augmente les DGT d'attaque de suivi de 26%.",
+        "enhanced_desc": "Augmente les DGT d'attaque de suivi des personnages de 39%."
     },
     "612653": {
         "id": "612653",
         "name": "Feu pâle",
-        "desc": "Augmente les chances de coup critique des attaques de suivi de 26%.",
-        "enhanced_desc": "Augmente les chances de coup critique des attaques de suivi de 39%."
+        "desc": "Augmente les chances de coup critique des DGT d'attaque de suivi des personnages de 26%.",
+        "enhanced_desc": "Augmente les chances de coup critique des DGT d'attaque de suivi des personnages de 39%."
     },
     "612654": {
         "id": "612654",
@@ -1112,7 +1112,7 @@
     "612723": {
         "id": "612723",
         "name": "Formation de résonance : Pinces de cristal",
-        "desc": "Métamorphose augmente les DGT infligés par un personnage de 40%. Ce n'est que lorsqu'un personnage est sous l'effet de Métamorphose qu'il peut faire éclater des spores. Chaque fois qu'un personnage fait éclater une spore, les DGT de son ATQ normale augmentent d'un montant équivalent à 80% de son ATQ. Cet effet peut se déclencher jusqu'à 3 fois sur la même cible.",
+        "desc": "Métamorphose augmente les DGT infligés par un personnage de 40%. Ce n'est que lorsqu'un personnage est sous l'effet de Métamorphose qu'il peut faire éclater des spores. Chaque fois qu'un personnage fait éclater 1 spore, les DGT de son ATQ normale augmentent d'un montant équivalent à 80% de son ATQ. Cet effet peut se déclencher jusqu'à 3 fois sur la même cible.",
         "enhanced_desc": ""
     },
     "612724": {
@@ -1184,8 +1184,8 @@
     "612744": {
         "id": "612744",
         "name": "Tissu cérébral apparent",
-        "desc": "L'ATQ normale inflige 30% des DGT initiaux à une cible adjacente aléatoire.",
-        "enhanced_desc": "L'ATQ normale inflige 35% des DGT initiaux aux cibles adjacentes."
+        "desc": "30% des DGT initiaux infligés par l'ATQ normale sont appliqués à une cible adjacente aléatoire.",
+        "enhanced_desc": "Les ATQ normales infligent 35% des DGT initiaux aux cibles adjacentes."
     },
     "612745": {
         "id": "612745",
@@ -1202,20 +1202,20 @@
     "612750": {
         "id": "612750",
         "name": "Lame osseuse",
-        "desc": "Pour chaque bénédiction de la Propagation actuellement en possession, les DGT des ATQ normales de tous les personnages augmentent de 9%. Cet effet peut être cumulé jusqu'à 6 fois.",
-        "enhanced_desc": "Pour chaque bénédiction de la Propagation actuellement en possession, les DGT des ATQ normales de tous les personnages augmentent de 12%. Cet effet peut être cumulé jusqu'à 9 fois."
+        "desc": "Pour chaque bénédiction de la Propagation actuellement en possession, les DGT d'ATQ normale de tous les personnages augmentent de 9%. Cet effet peut être cumulé jusqu'à 6 fois.",
+        "enhanced_desc": "Pour chaque bénédiction de la Propagation actuellement en possession, les DGT d'ATQ normale de tous les personnages augmentent de 12%. Cet effet peut être cumulé jusqu'à 9 fois."
     },
     "612751": {
         "id": "612751",
         "name": "Éperon rachidien",
-        "desc": "Les chances de coup critique des DGT des ATQ normales des personnages augmentent de 24%.",
-        "enhanced_desc": "Les chances de coup critique des DGT des ATQ normales des personnages augmentent de 36%."
+        "desc": "Les chances de coup critique des DGT d'ATQ normale des personnages augmentent de 24%.",
+        "enhanced_desc": "Les chances de coup critique des DGT d'ATQ normale des personnages augmentent de 36%."
     },
     "612752": {
         "id": "612752",
         "name": "Aiguille striée",
-        "desc": "Les DGT critiques des DGT des ATQ normales des personnages augmentent de 40%.",
-        "enhanced_desc": "Les DGT critiques des DGT des ATQ normales des personnages augmentent de 60%."
+        "desc": "Les DGT critiques des DGT d'ATQ normale des personnages augmentent de 40%.",
+        "enhanced_desc": "Les DGT critiques des DGT d'ATQ normale des personnages augmentent de 60%."
     },
     "612753": {
         "id": "612753",
@@ -1299,7 +1299,7 @@
         "id": "612832",
         "name": "Lobe occipital VEP-18",
         "desc": "La PÉN de RÉS à tous les types des DGT d'ultime de tous les personnages augmente de 20%. Lors de l'utilisation d'un ultime, et pour chaque ennemi qu'il frappe, augmente la PÉN de RÉS à tous les types des prochains DGT d'ultime de 3% supplémentaires. Cet effet dure jusqu'à la prochaine utilisation d'un ultime.",
-        "enhanced_desc": "La PÉN de RÉS à tous les types des DGT d'ultime de tous les personnages augmente de 25%. Pour chaque cible ennemie touchée par l'ultime ayant frappé le plus grand nombre d'ennemis en une seule attaque pendant ce combat, augmente la PÉN de RÉS à tous les types des prochains DGT d'ultime infligés de 3% supplémentaires."
+        "enhanced_desc": "La PÉN de RÉS à tous les types des DGT d'ultime de tous les personnages augmente de 25%. Pour chaque cible ennemie touchée par l'ultime ayant frappé le plus grand nombre d'ennemis en une seule attaque pendant ce combat, augmente la PÉN de RÉS à tous les types des DGT d'ultime de 3% supplémentaires."
     },
     "612840": {
         "id": "612840",
@@ -1328,7 +1328,7 @@
     "612844": {
         "id": "612844",
         "name": "Analyse : Perception subliminale",
-        "desc": "Les DGT infligés par l'ultime des personnages augmentent de 50%, jusqu'à la fin de leur premier ultime durant le combat. Après être entrés au combat, les personnages régénèrent des points d'énergie équivalents à 60% de leur énergie max respective.",
+        "desc": "Les DGT d'ultime des personnages augmentent de 50%, jusqu'à la fin de leur premier ultime durant le combat. Après être entrés au combat, les personnages régénèrent des points d'énergie équivalents à 60% de leur énergie max respective.",
         "enhanced_desc": "Augmente les DGT d'ultime des personnages de 50%. Régénère une quantité d'énergie équivalente à 100% de l'énergie max des personnages après être entré en combat."
     },
     "612845": {
@@ -1346,20 +1346,20 @@
     "612850": {
         "id": "612850",
         "name": "Trône des engrenages engagés",
-        "desc": "Augmente les DGT d'ultime des personnages pour chaque bénédiction de l'Érudition actuellement possédée de 7%. Cet effet est cumulable jusqu'à 6 fois.",
-        "enhanced_desc": "Augmente de 10% les DGT d'ultime des personnages pour chaque bénédiction de l'Érudition actuellement possédée. Cet effet est cumulable jusqu'à 9 fois."
+        "desc": "Pour chaque bénédiction de l'Érudition actuellement possédée, augmente les DGT d'ultime des personnages de 7%. Cet effet est cumulable jusqu'à 6 fois.",
+        "enhanced_desc": "Pour chaque bénédiction de l'Érudition actuellement possédée, augmente les DGT d'ultime des personnages de 10%. Cet effet est cumulable jusqu'à 9 fois."
     },
     "612851": {
         "id": "612851",
         "name": "Anneau des fils pliés",
-        "desc": "Augmente les chances de coup critique de l'ultime des personnages de 18%.",
-        "enhanced_desc": "Augmente les chances de coup critique de l'ultime des personnages de 27%."
+        "desc": "Augmente les chances de coup critique des DGT d'ultime des personnages de 18%.",
+        "enhanced_desc": "Augmente les chances de coup critique des DGT d'ultime des personnages de 27%."
     },
     "612852": {
         "id": "612852",
         "name": "Sceptre de couple énergétique",
-        "desc": "Augmente les DGT critiques de l'ultime des personnages de 30%.",
-        "enhanced_desc": "Augmente les DGT critiques de l'ultime des personnages de 45%."
+        "desc": "Augmente les DGT critiques des DGT d'ultime des personnages de 30%.",
+        "enhanced_desc": "Augmente les DGT critiques des DGT d'ultime des personnages de 45%."
     },
     "612853": {
         "id": "612853",
@@ -1424,8 +1424,8 @@
     "615040": {
         "id": "615040",
         "name": "Construction interstellaire : Structure de cisaillement",
-        "desc": "Les personnages infligent des DGT de Séisme renforcés de 10% à leur cible ennemie, et les ennemis adjacents subissent des DGT de Séisme équivalents à 25% des DGT infligés à la cible ennemie.",
-        "enhanced_desc": "Les personnages infligent à leur cible des DGT de Séisme renforcés de 15%, et les autres cibles subissent des DGT de Séisme équivalents à 30% des DGT infligés à la cible ennemie."
+        "desc": "Les personnages infligent des DGT de Séisme augmentés de 10% à leur cible ennemie, et les ennemis adjacents subissent des DGT de Séisme équivalents à 25% des DGT infligés à la cible ennemie principale.",
+        "enhanced_desc": "Les personnages infligent à leur cible des DGT de Séisme augmentés de 15%, et les autres cibles subissent des DGT de Séisme équivalents à 30% des DGT infligés à la cible ennemie principale."
     },
     "615041": {
         "id": "615041",
@@ -2084,7 +2084,7 @@
     "615620": {
         "id": "615620",
         "name": "Fous masqués",
-        "desc": "Dépensez 100 points d'énergie pour utiliser cette capacité et générer la Résonance critique de la Voie de l'Allégresse, ce qui inflige des attaques de suivi de type aléatoire à tous les ennemis 5 à 10 fois. D'autre part, les DGT de l'ATQ normale/la compétence/l'ultime de tous les alliés sont considérés comme des DGT d'attaque de suivi. Dure 1 tour.",
+        "desc": "Dépensez 100 points d'énergie pour utiliser cette capacité et générer la Résonance critique de la Voie de l'Allégresse, ce qui inflige des DGT d'attaque de suivi de type aléatoire à tous les ennemis 5 à 10 fois. D'autre part, les DGT d'ATQ normale/de compétence/d'ultime de tous les alliés sont considérés comme des DGT d'attaque de suivi. Dure 1 tour.",
         "enhanced_desc": ""
     },
     "615630": {
@@ -2126,8 +2126,8 @@
     "615643": {
         "id": "615643",
         "name": "12 singes et des hommes en colère",
-        "desc": "Lorsqu'un personnage lance une attaque de suivi sur un ennemi, augmente les DGT d'attaque de suivi de 4%. Cet effet est cumulable jusqu'à 24 fois, et dure jusqu'au début du prochain tour.",
-        "enhanced_desc": "Lorsqu'un personnage lance une attaque de suivi sur un ennemi, augmente les DGT d'attaque de suivi de 5%. Cet effet est cumulable jusqu'à 30 fois, et dure jusqu'au début du prochain tour."
+        "desc": "Lorsqu'un personnage inflige des DGT d'attaque de suivi à un ennemi, augmente les DGT d'attaque de suivi de 4%. Cet effet est cumulable jusqu'à 24 fois, et dure jusqu'au début du prochain tour.",
+        "enhanced_desc": "Lorsqu'un personnage inflige des DGT d'attaque de suivi à un ennemi, augmente les DGT d'attaque de suivi de 5%. Cet effet est cumulable jusqu'à 30 fois, et dure jusqu'au début du prochain tour."
     },
     "615644": {
         "id": "615644",
@@ -2138,8 +2138,8 @@
     "615645": {
         "id": "615645",
         "name": "Un poisson a découvert le feu",
-        "desc": "Les DGT des attaques de suivi des personnages ignorent 20% de la DÉF de la cible ennemie.",
-        "enhanced_desc": "Les DGT des attaques de suivi des personnages ignorent 27% de la DÉF de la cible ennemie."
+        "desc": "Les DGT d'attaque de suivi des personnages ignorent 20% de la DÉF de la cible ennemie.",
+        "enhanced_desc": "Les DGT d'attaque de suivi des personnages ignorent 27% de la DÉF de la cible ennemie."
     },
     "615650": {
         "id": "615650",
@@ -2150,20 +2150,20 @@
     "615651": {
         "id": "615651",
         "name": "Plutôt nocif",
-        "desc": "Augmente l'efficacité de Rupture de faiblesse des attaques de suivi de 35%.",
-        "enhanced_desc": "Augmente l'efficacité de Rupture de faiblesse des attaques de suivi de 50%."
+        "desc": "Augmente l'efficacité de Rupture de faiblesse de 35% lorsqu'un personnage inflige des DGT d'attaque de suivi.",
+        "enhanced_desc": "Augmente l'efficacité de Rupture de faiblesse de 50% lorsqu'un personnage inflige des DGT d'attaque de suivi."
     },
     "615652": {
         "id": "615652",
         "name": "Suspiria",
-        "desc": "Augmente les DGT des attaques de suivi de 26%.",
-        "enhanced_desc": "Augmente les DGT des attaques de suivi de 39%."
+        "desc": "Augmente les DGT d'attaque de suivi des personnages de 26%.",
+        "enhanced_desc": "Augmente les DGT d'attaque de suivi des personnages de 39%."
     },
     "615653": {
         "id": "615653",
         "name": "Feu pâle",
-        "desc": "Augmente les chances de coup critique des attaques de suivi de 26%.",
-        "enhanced_desc": "Augmente les chances de coup critique des attaques de suivi de 39%."
+        "desc": "Augmente de 26% les chances de coup critique des DGT d'attaque de suivi des personnages.",
+        "enhanced_desc": "Augmente de 39% les chances de coup critique des DGT d'attaque de suivi des personnages."
     },
     "615654": {
         "id": "615654",
@@ -2234,13 +2234,13 @@
     "615742": {
         "id": "615742",
         "name": "Glande exocrine",
-        "desc": "Augmente les DGT infligés par les attaques normales du personnage de 30%. Après avoir consommé des points de compétence, il y a 15% de chances fixes de récupérer 1 point de compétence.",
-        "enhanced_desc": "Augmente les DGT infligés par les attaques normales du personnage de 50%. Après avoir consommé des points de compétence, il y a 20% de chances fixes de récupérer 1 point de compétence."
+        "desc": "Augmente les DGT d'ATQ normale des personnages de 30%. Après avoir consommé des points de compétence, il y a 15% de chances fixes de récupérer 1 point de compétence.",
+        "enhanced_desc": "Augmente les DGT d'ATQ normale des personnages de 50%. Après avoir consommé des points de compétence, il y a 20% de chances fixes de récupérer 1 point de compétence."
     },
     "615743": {
         "id": "615743",
         "name": "Tissu cérébral apparent",
-        "desc": "Les ATQ normales infligent 30% des DGT initiaux à une cible adjacente aléatoire.",
+        "desc": "30% des DGT initiaux infligés par l'ATQ normale sont appliqués à une cible adjacente aléatoire.",
         "enhanced_desc": "Les ATQ normales infligent 35% des DGT initiaux aux cibles adjacentes."
     },
     "615744": {
@@ -2258,20 +2258,20 @@
     "615750": {
         "id": "615750",
         "name": "Lame osseuse",
-        "desc": "L'ATQ normale des personnages augmente de 24%.",
-        "enhanced_desc": "L'ATQ normale des personnages augmente de 36%."
+        "desc": "Augmente les DGT d'ATQ normale des personnages de 24%.",
+        "enhanced_desc": "Augmente les DGT d'ATQ normale des personnages de 36%."
     },
     "615751": {
         "id": "615751",
         "name": "Éperon rachidien",
-        "desc": "Les chances de coup critique des ATQ normales des personnages augmentent de 24%.",
-        "enhanced_desc": "Les chances de coup critique des ATQ normales des personnages augmentent de 36%."
+        "desc": "Les chances de coup critique des DGT d'ATQ normale des personnages augmentent de 24%.",
+        "enhanced_desc": "Les chances de coup critique des DGT d'ATQ normale des personnages augmentent de 36%."
     },
     "615752": {
         "id": "615752",
         "name": "Aiguille striée",
-        "desc": "Les DGT critiques des ATQ normales des personnages augmentent de 40%.",
-        "enhanced_desc": "Les DGT critiques des ATQ normales des personnages augmentent de 60%."
+        "desc": "Les DGT critiques des DGT d'ATQ normale des personnages augmentent de 40%.",
+        "enhanced_desc": "Les DGT critiques des DGT d'ATQ normale des personnages augmentent de 60%."
     },
     "615753": {
         "id": "615753",
@@ -2331,7 +2331,7 @@
         "id": "615832",
         "name": "Lobe occipital VEP-18",
         "desc": "La PÉN de RÉS à tous les types des DGT d'ultime de tous les personnages augmente de 20%. Après l'utilisation d'un ultime, et pour chaque ennemi qu'il touche, augmente la PÉN de RÉS à tous les types des prochains DGT d'ultime de 3% supplémentaires. Cet effet dure jusqu'à la prochaine utilisation d'un ultime.",
-        "enhanced_desc": "La PÉN de RÉS à tous les types de l'ultime du personnage augmente de 25%. Lorsqu'un ultime est utilisé, pour chaque ennemi frappé par cet ultime, la PÉN de RÉS à tous les types pour les DGT infligés par l'ultime augmentera de 3% supplémentaires. Cet effet dure jusqu'à la prochaine utilisation d'un ultime."
+        "enhanced_desc": "La PÉN de RÉS à tous les types des DGT d'ultime des personnages augmente de 25%. Lorsqu'un ultime est utilisé, pour chaque ennemi frappé par cet ultime, la PÉN de RÉS à tous les types pour les DGT d'ultime infligés augmentera de 3% supplémentaires."
     },
     "615840": {
         "id": "615840",
@@ -2372,20 +2372,20 @@
     "615850": {
         "id": "615850",
         "name": "Trône des engrenages engagés",
-        "desc": "Augmente les DGT infligés par l'ultime des personnages de 18%.",
-        "enhanced_desc": "Augmente les DGT infligés par l'ultime des personnages de 27%."
+        "desc": "Augmente les DGT d'ultime des personnages de 18%.",
+        "enhanced_desc": "Augmente les DGT d'ultime des personnages de 27%."
     },
     "615851": {
         "id": "615851",
         "name": "Anneau des fils pliés",
-        "desc": "Augmente les chances de coup critique de l'ultime des personnages de 18%.",
-        "enhanced_desc": "Augmente les chances de coup critique de l'ultime des personnages de 27%."
+        "desc": "Augmente les chances de coup critique des DGT d'ultime des personnages de 18%.",
+        "enhanced_desc": "Augmente les chances de coup critique des DGT d'ultime des personnages de 27%."
     },
     "615852": {
         "id": "615852",
         "name": "Sceptre de couple énergétique",
-        "desc": "Augmente les DGT critiques de l'ultime des personnages de 30%.",
-        "enhanced_desc": "Augmente les DGT critiques de l'ultime des personnages de 45%."
+        "desc": "Augmente les DGT critiques des DGT d'ultime des personnages de 30%.",
+        "enhanced_desc": "Augmente les DGT critiques des DGT d'ultime des personnages de 45%."
     },
     "615853": {
         "id": "615853",
@@ -2480,7 +2480,7 @@
     "670630": {
         "id": "670630",
         "name": "Médecin conseiller",
-        "desc": "Les DGT infligés par Goutte de rosée sont considérés comme étant des DGT de suivi. Après que Goutte de rosée se déclenche parce qu'un personnage a lancé une attaque de suivi ou a utilisé une attaque, il y a 12% de chances fixes à chaque fois de provoquer l'effet suivant : Goutte de rosée est chargée à 80% de son maximum et inflige des DGT équivalents à 1/2/3/4 fois de la charge de Goutte de rosée avec une chance fixe de 15%/50%/30%/5%.",
+        "desc": "Les DGT infligés par Goutte de rosée sont considérés comme étant des DGT d'attaque de suivi. Après que Goutte de rosée se déclenche parce qu'un personnage a lancé une attaque de suivi ou a utilisé une attaque, il y a 12% de chances fixes à chaque fois de provoquer l'effet suivant : Goutte de rosée est chargée à 80% de son maximum et inflige des DGT équivalents à 1/2/3/4 fois de la charge de Goutte de rosée avec une chance fixe de 15%/50%/30%/5%.",
         "enhanced_desc": ""
     },
     "670720": {
@@ -2588,7 +2588,7 @@
     "671780": {
         "id": "671780",
         "name": "Trompeur de calamité",
-        "desc": "Augmente le nombre maximum de spores de 3. Lorsqu'un personnage utilise une attaque pour infliger des DGT d'ultime et si des spores de la cible attaquée éclatent, inflige des DGT d'ultime supplémentaires équivalents à 200% de l'ATQ du personnage à la cible. Chaque spore que cette attaque éclate, augmente le multiplicateur de DGT de 30%.",
+        "desc": "Augmente le nombre maximum de spores de 3. Lorsqu'un personnage utilise une attaque qui inflige des DGT d'ultime et si des spores de la cible attaquée éclatent, inflige des DGT d'ultime supplémentaires équivalents à 200% de l'ATQ du personnage à la cible. Chaque spore que cette attaque éclate, augmente le multiplicateur de DGT de 30%.",
         "enhanced_desc": ""
     },
     "671840": {
@@ -2708,7 +2708,7 @@
     "672580": {
         "id": "672580",
         "name": "Forgefeu",
-        "desc": "Augmente les DGT d'ultime infligés des personnages de 60%. Chaque 1 % de PV perdu par un personnage charge Cerveau dans une cuve de 0.5%.",
+        "desc": "Les DGT d'ultime infligés par les personnages augmentent de 60%. Chaque 1 % de PV perdu par un personnage charge Cerveau dans une cuve de 0.5%.",
         "enhanced_desc": ""
     },
     "672620": {
@@ -2750,13 +2750,13 @@
     "672840": {
         "id": "672840",
         "name": "Écrivain",
-        "desc": "Après qu'un personnage inflige des DGT d'ultime avec une attaque, à chaque fois qu'il touche une cible ennemie, il inflige des DGT d'ultime équivalents à 100% de son ATQ à la cible ennemie dont les PV max sont les plus élevés.",
+        "desc": "Après qu'un personnage inflige des DGT d'ultime avec une attaque, pour chaque cible ennemie touchée, il inflige des DGT d'ultime équivalents à 100% de son ATQ à la cible ennemie dont les PV max sont les plus élevés.",
         "enhanced_desc": ""
     },
     "672860": {
         "id": "672860",
         "name": "Réparateur",
-        "desc": "Augmente les DGT d'ultime du personnage de 60%. Après avoir déclenché une attaque de suivi, pour chaque cible ennemie touchée, le prochain ultime ignore 5% de la DÉF des cibles ennemies, cumulable jusqu'à 5 fois.",
+        "desc": "Augmente les DGT d'ultime des personnages de 60%. Après avoir déclenché une attaque de suivi, pour chaque cible ennemie touchée, le prochain ultime ignore 5% de la DÉF des cibles ennemies, cumulable jusqu'à 5 fois.",
         "enhanced_desc": ""
     },
     "672870": {
