@@ -38,7 +38,7 @@
     "612026": {
         "id": "612026",
         "name": "Combinaison de résonance : Trempe inversée",
-        "desc": "Prolonge de 2 tours la durée du bouclier pour les alliés dont les PV sont inférieurs à 50% de leurs PV max lors de l'utilisation de la Résonance de la Voie. L'utilisation de cette Résonance de la Voie inflige 20% de DGT supplémentaires pour chaque personnage affecté.",
+        "desc": "Prolonge de 2 tours la durée du bouclier pour les alliés dont les PV actuels sont inférieurs à 50% de leurs PV max lors de l'utilisation de la Résonance de la Voie. L'utilisation de cette Résonance de la Voie actuelle inflige 20% de DGT supplémentaires pour chaque personnage affecté.",
         "enhanced_desc": ""
     },
     "612027": {
@@ -278,8 +278,8 @@
     "612152": {
         "id": "612152",
         "name": "Expérience : Mémoire perdue",
-        "desc": "Lorsque les attaques réduisent les PV d'un ennemi en dessous de 50% pour la première fois du combat, il y a 70% de chances de base de geler l'ennemi pendant 1 tour.",
-        "enhanced_desc": "Lorsque les attaques réduisent les PV d'un ennemi en dessous de 50% pour la première fois du combat, il y a 100% de chances de base de geler l'ennemi pendant 1 tour."
+        "desc": "Lorsque les attaques réduisent le pourcentage de PV d'un ennemi en dessous de 50% pour la première fois du combat, il y a 70% de chances de base de geler l'ennemi pendant 1 tour.",
+        "enhanced_desc": "Lorsque les attaques réduisent le pourcentage de PV d'un ennemi en dessous de 50% pour la première fois du combat, il y a 100% de chances de base de geler l'ennemi pendant 1 tour."
     },
     "612153": {
         "id": "612153",
@@ -398,8 +398,8 @@
     "612243": {
         "id": "612243",
         "name": "Nuit au-delà des flammes",
-        "desc": "Augmente l'efficacité de Rupture de faiblesse de 30%.",
-        "enhanced_desc": "Augmente l'efficacité de Rupture de faiblesse de 45%."
+        "desc": "Augmente l'efficacité de Rupture de faiblesse des personnages de 30%.",
+        "enhanced_desc": "Augmente l'efficacité de Rupture de faiblesse des personnages de 45%."
     },
     "612244": {
         "id": "612244",
@@ -800,7 +800,7 @@
     "612523": {
         "id": "612523",
         "name": "Formation de résonance : Horizon événementiel",
-        "desc": "Lorsqu'un allié dont les PV actuels sont inférieurs à 35% se fait attaquer, active automatiquement 1 Résonance de la Voie sans consommer d'énergie. Cet effet peut être déclenché jusqu'à un maximum de #10[i] fois lors d'un combat et ne peut pas être déclenché plusieurs fois par la même attaque.",
+        "desc": "Lorsqu'un allié dont le pourcentage de PV actuel est inférieur à 35% se fait attaquer, active automatiquement 1 Résonance de la Voie sans consommer d'énergie. Cet effet peut être déclenché jusqu'à un maximum de #10[i] fois lors d'un combat et ne peut pas être déclenché plusieurs fois par la même attaque.",
         "enhanced_desc": ""
     },
     "612524": {
@@ -830,8 +830,8 @@
     "612530": {
         "id": "612530",
         "name": "Équation non inversée d'antimatière",
-        "desc": "Si les PV d'un personnage sont inférieurs à 50%, il obtient 16 cumuls supplémentaires d'Esprit combatif.",
-        "enhanced_desc": "Si les PV d'un personnage sont inférieurs à 50%, il est considéré comme bénéficiant de 20 cumuls supplémentaires d'Esprit combatif. Pour chaque 10% de PV supplémentaires perdus, gagne 2 cumuls supplémentaires d'Esprit combatif."
+        "desc": "Si le pourcentage de PV d'un personnage est inférieur à 50%, il obtient 16 cumuls supplémentaires d'Esprit combatif.",
+        "enhanced_desc": "Si le pourcentage de PV d'un personnage est inférieur à 50%, il est considéré comme bénéficiant de 20 cumuls supplémentaires d'Esprit combatif. Pour chaque 10% de PV supplémentaires perdus, gagne 2 cumuls supplémentaires d'Esprit combatif."
     },
     "612531": {
         "id": "612531",
@@ -1184,8 +1184,8 @@
     "612744": {
         "id": "612744",
         "name": "Tissu cérébral apparent",
-        "desc": "30% des DGT initiaux infligés par l'ATQ normale sont appliqués à une cible adjacente aléatoire.",
-        "enhanced_desc": "Les ATQ normales infligent 35% des DGT initiaux aux cibles adjacentes."
+        "desc": "Les ATQ normales des personnages infligent en plus des DGT équivalents à 30% des DGT initiaux à une cible adjacente aléatoire.",
+        "enhanced_desc": "Les ATQ normales des personnages infligent 35% des DGT initiaux aux cibles adjacentes."
     },
     "612745": {
         "id": "612745",
@@ -1457,6 +1457,12 @@
         "desc": "Lorsqu'un personnage accorde un bouclier à un allié, les deux unités augmentent leurs DGT infligés de 20%, cumulable jusqu'à 5 fois. Dure 1 tour.",
         "enhanced_desc": "Lorsqu'un personnage accorde un bouclier à un allié, les deux unités augmentent leurs DGT infligés de 30%, cumulable jusqu'à 5 fois. Dure 1 tour."
     },
+    "615046": {
+        "id": "615046",
+        "name": "Construction interstellaire : Cube d'inversion",
+        "desc": "Augmente les chances de coup critique de 20% et les DGT critiques de 50% lorsque les personnages infligent des DGT de Séisme.",
+        "enhanced_desc": "Augmente les chances de coup critique de 30% et les DGT critiques de 75% lorsque les personnages infligent des DGT de Séisme."
+    },
     "615050": {
         "id": "615050",
         "name": "Construction : Assemblage",
@@ -1571,6 +1577,12 @@
         "desc": "Il y a 150% de chances de base pour que tous les ennemis deviennent gelés pendant 1 tour en entrant en combat.",
         "enhanced_desc": "Il y a 150% de chances de base pour que tous les ennemis deviennent gelés et que leur VIT soit réduite de 30% en entrant en combat, dure 1 tour."
     },
+    "615146": {
+        "id": "615146",
+        "name": "Expérience ultime : Cynisme",
+        "desc": "Lorsqu'un allié utilise une attaque, il y a 40% de chances de base d'infliger l'état Dissociation à la cible. Cet effet peut se déclencher jusqu'à 1 fois pour chaque cible ennemie lors d'un même combat.",
+        "enhanced_desc": "Lorsqu'un allié utilise une attaque, il y a 60% de chances de base d'infliger l'état Dissociation à la cible. Cet effet peut se déclencher jusqu'à 1 fois pour chaque cible ennemie lors d'un même combat."
+    },
     "615150": {
         "id": "615150",
         "name": "Expérience : Ravage chronique",
@@ -1586,8 +1598,8 @@
     "615152": {
         "id": "615152",
         "name": "Expérience : Mémoire perdue",
-        "desc": "Lorsque pour la première fois en combat une attaque réduit les PV d'un ennemi en dessous de 50%, il y a 70% de chances de base de lui infliger Gelé pendant 1 tour.",
-        "enhanced_desc": "Lorsque pour la première fois en combat une attaque réduit les PV d'un ennemi en dessous de 50%, il y a 100% de chances de base de lui infliger Gelé pendant 1 tour."
+        "desc": "Lorsque les attaques réduisent le pourcentage de PV d'un ennemi en dessous de 50% pour la première fois du combat, il y a 70% de chances de base de geler l'ennemi pendant 1 tour.",
+        "enhanced_desc": "Lorsque les attaques réduisent le pourcentage de PV d'un ennemi en dessous de 50% pour la première fois du combat, il y a 100% de chances de base de geler l'ennemi pendant 1 tour."
     },
     "615153": {
         "id": "615153",
@@ -1670,8 +1682,8 @@
     "615243": {
         "id": "615243",
         "name": "Nuit au-delà des flammes",
-        "desc": "Augmente l'efficacité de Rupture de faiblesse de 30%.",
-        "enhanced_desc": "Augmente l'efficacité de Rupture de faiblesse de 45%."
+        "desc": "Augmente l'efficacité de Rupture de faiblesse des personnages de 30%.",
+        "enhanced_desc": "Augmente l'efficacité de Rupture de faiblesse des personnages de 45%."
     },
     "615244": {
         "id": "615244",
@@ -1684,6 +1696,12 @@
         "name": "Tout est possible",
         "desc": "Si un ennemi est attaqué alors qu'il subit des dégâts sur la durée, déclenche des dégâts sur la durée aléatoires, infligeant des DGT équivalents à 100% des dégâts sur la durée initiaux.",
         "enhanced_desc": "Si un ennemi est attaqué alors qu'il subit des dégâts sur la durée, déclenche des dégâts sur la durée aléatoires, infligeant des DGT équivalents à 150% des dégâts sur la durée initiaux."
+    },
+    "615246": {
+        "id": "615246",
+        "name": "Voie dans les bois",
+        "desc": "Lorsqu'une cible ennemie entre en combat, elle obtient 30 cumuls de Suspicion.",
+        "enhanced_desc": "Lorsqu'une cible ennemie entre en combat, elle obtient 45 cumuls de Suspicion."
     },
     "615250": {
         "id": "615250",
@@ -1799,6 +1817,12 @@
         "desc": "Lorsqu'ils sont soignés par un allié, les personnages restaurent 30% de PV supplémentaires.",
         "enhanced_desc": "Lorsqu'ils sont soignés par un allié, les personnages restaurent 45% de PV supplémentaires."
     },
+    "615346": {
+        "id": "615346",
+        "name": "Offrande de chair incinérée",
+        "desc": "Augmente les chances de coup critique de 20% et les DGT critiques de 50% lorsque les personnages infligent des DGT de Goutte de rosée.",
+        "enhanced_desc": "Augmente les chances de coup critique de 30% et les DGT critiques de 75% lorsque les personnages infligent des DGT de Goutte de rosée."
+    },
     "615350": {
         "id": "615350",
         "name": "Pluie de la vérité",
@@ -1913,6 +1937,12 @@
         "desc": "Lorsqu'un personnage élimine un ennemi, restaure les PV de tous les alliés à hauteur de 30% de leurs PV max respectifs et augmente leur attaque de 25%. Dure 2 tours.",
         "enhanced_desc": "Lorsqu'un personnage élimine un ennemi, restaure les PV de tous les alliés à hauteur de 45% de leurs PV max respectifs et augmente leur attaque de 45%. Dure 2 tours."
     },
+    "615446": {
+        "id": "615446",
+        "name": "Guerre de purification de la peste",
+        "desc": "Augmente la VIT d'un personnage de 24% s'il détient 4 cumuls d'Amélioration critique au début de son tour. Cet effet dure 2 tours.",
+        "enhanced_desc": "Augmente la VIT d'un personnage de 36% s'il détient 4 cumuls d'Amélioration critique au début de son tour. Cet effet dure 2 tours."
+    },
     "615450": {
         "id": "615450",
         "name": "Arc vermeil et flèche blanche",
@@ -2006,14 +2036,14 @@
     "615542": {
         "id": "615542",
         "name": "Vague de destruction",
-        "desc": "Après qu'un personnage a perdu ou restauré ses propres PV, la prochaine fois qu'il attaque un ennemi en état de Rupture de faiblesse, convertit la réduction de robustesse de l'attaque en 1 instance de 70% de DGT de rupture extrême.",
-        "enhanced_desc": "Après qu'un personnage a perdu ou restauré ses propres PV, la prochaine fois qu'il attaque un ennemi en état de Rupture de faiblesse, convertit la réduction de robustesse de l'attaque en 1 instance de 105% de DGT de rupture extrême."
+        "desc": "Après qu'un personnage a perdu ou récupéré des PV pour un total de 40% de ses propres PV, la prochaine fois qu'il attaque un ennemi en état de Rupture de faiblesse, convertit la réduction de robustesse de l'attaque en 1 instance de 70% de DGT de rupture extrême.",
+        "enhanced_desc": "Après qu'un personnage a perdu ou récupéré des PV pour un total de 40% de ses propres PV, la prochaine fois qu'il attaque un ennemi en état de Rupture de faiblesse, convertit la réduction de robustesse de l'attaque en 1 instance de 105% de DGT de rupture extrême."
     },
     "615543": {
         "id": "615543",
         "name": "Implosion de décomposition",
-        "desc": "Après qu'un personnage a perdu ou restauré ses propres PV, augmente sa PÉN de RÉS à tous les types de 10% et les DGT de rupture infligés de 20% jusqu'au début du tour suivant.",
-        "enhanced_desc": "Après qu'un personnage a perdu ou restauré ses propres PV, augmente sa PÉN de RÉS à tous les types de 15% et les DGT de rupture infligés de 30% jusqu'au début du tour suivant."
+        "desc": "Après qu'un personnage a perdu ou récupéré des PV pour un total de 40% de ses propres PV, augmente sa PÉN de RÉS à tous les types de 10%, ce qui augmente les DGT de rupture extrême infligés de 20%.",
+        "enhanced_desc": "Après qu'un personnage a perdu ou récupéré des PV pour un total de 40% de ses propres PV, augmente sa PÉN de RÉS à tous les types de 15%, ce qui augmente les DGT de rupture extrême infligés de 30%."
     },
     "615544": {
         "id": "615544",
@@ -2026,6 +2056,12 @@
         "name": "Impulsion perturbatrice",
         "desc": "Lorsque le pourcentage de PV d'un personnage tombe en dessous de 50%, il régénère un montant fixe d'énergie équivalent à 50% de son énergie max. Cet effet ne peut se déclencher à nouveau qu'après 4 tours.",
         "enhanced_desc": "Lorsque le pourcentage de PV d'un personnage tombe en dessous de 60%, il régénère un montant fixe d'énergie équivalent à 50% de son énergie max ainsi que 1 point de compétence. Cet effet ne peut se déclencher à nouveau qu'après 4 tours."
+    },
+    "615546": {
+        "id": "615546",
+        "name": "Marché haussier régressif",
+        "desc": "Lorsqu'un personnage entre en combat, ce dernier obtient 12 cumuls d'Esprit combatif.",
+        "enhanced_desc": "Lorsqu'un personnage entre en combat, ce dernier obtient 18 cumuls d'Esprit combatif."
     },
     "615550": {
         "id": "615550",
@@ -2141,6 +2177,12 @@
         "desc": "Les DGT d'attaque de suivi des personnages ignorent 20% de la DÉF de la cible ennemie.",
         "enhanced_desc": "Les DGT d'attaque de suivi des personnages ignorent 27% de la DÉF de la cible ennemie."
     },
+    "615646": {
+        "id": "615646",
+        "name": "Le dernier des Taraka",
+        "desc": "Augmente les DGT d'Arrière-goût infligés par les personnages de 70%.",
+        "enhanced_desc": "Augmente les DGT d'Arrière-goût infligés par les personnages de 105%."
+    },
     "615650": {
         "id": "615650",
         "name": "Regardez ces fous",
@@ -2240,8 +2282,8 @@
     "615743": {
         "id": "615743",
         "name": "Tissu cérébral apparent",
-        "desc": "30% des DGT initiaux infligés par l'ATQ normale sont appliqués à une cible adjacente aléatoire.",
-        "enhanced_desc": "Les ATQ normales infligent 35% des DGT initiaux aux cibles adjacentes."
+        "desc": "Les ATQ normales des personnages infligent en plus des DGT équivalents à 30% des DGT initiaux à une cible adjacente aléatoire.",
+        "enhanced_desc": "Les ATQ normales des personnages infligent 35% des DGT initiaux aux cibles adjacentes."
     },
     "615744": {
         "id": "615744",
@@ -2254,6 +2296,12 @@
         "name": "Catalyseur",
         "desc": "Lorsqu'un personnage utilise sa compétence et que la compétence ne déclenche pas d'attaque, les DGT infligés par tous les alliés augmentent de 20% pendant 1 tour. Cet effet peut être cumulé jusqu'à 3 fois.",
         "enhanced_desc": "Lorsqu'un personnage utilise sa compétence et que la compétence ne déclenche pas d'attaque, les DGT infligés par tous les alliés augmentent de 30% pendant 1 tour. Cet effet peut être cumulé jusqu'à 3 fois."
+    },
+    "615746": {
+        "id": "615746",
+        "name": "Bloqueur d'amine",
+        "desc": "Lorsqu'une cible ennemie subit des DGT de Spores, diminue sa DÉF de 1%, jusqu'à un maximum de 15 cumuls.",
+        "enhanced_desc": "Lorsqu'une cible ennemie subit des DGT de Spores, diminue sa DÉF de 1%, jusqu'à un maximum de 20 cumuls."
     },
     "615750": {
         "id": "615750",
@@ -2369,6 +2417,12 @@
         "desc": "Lorsqu'un personnage utilise son ultime pour attaquer des ennemis en état de Rupture de faiblesse, l'action des ennemis est retardée de 16%. À chaque fois que la cible ennemie subit une Rupture de faiblesse, cet effet peut être activé jusqu'à 3 fois.",
         "enhanced_desc": "Lorsqu'un personnage utilise son ultime pour attaquer des ennemis en état de Rupture de faiblesse, l'action des ennemis est retardée de 24%. À chaque fois que la cible ennemie subit une Rupture de faiblesse, cet effet peut être activé jusqu'à 3 fois."
     },
+    "615846": {
+        "id": "615846",
+        "name": "Coordination : Noyau de résonance",
+        "desc": "Après que des personnages ont utilisé Cerveau dans une cuve pour charger leur ultime, leur ATQ augmente de 60%, pendant 2 tours.",
+        "enhanced_desc": "Après que des personnages ont utilisé Cerveau dans une cuve pour charger leur ultime, leur ATQ augmente de 90%, pendant 2 tours."
+    },
     "615850": {
         "id": "615850",
         "name": "Trône des engrenages engagés",
@@ -2444,7 +2498,7 @@
     "670010": {
         "id": "670010",
         "name": "Restaurateur de ville",
-        "desc": "Un Noyau de comète apparaît dans l'ordre d'action : à chacune de ses actions, il absorbe les boucliers de tous les alliés, réduisant leur valeur à 1 et transforme les valeurs absorbées en son propre bouclier. Puis, il inflige des DGT physiques équivalents à 2500% de cette valeur à tous les ennemis, avec 75% de chances de base d'infliger Gelé aux ennemis pendant 1 tour. Le bouclier du Noyau de comète est consommé en premier lorsqu'un personnage subit des DGT. Lorsqu'un personnage inflige des DGT de Séisme, 50% du bouclier du Noyau de comète est considéré comme le bouclier du personnage.",
+        "desc": "Noyau de comète apparaît dans l'ordre d'action. À chacune de ses actions, il absorbe les boucliers de tous les alliés, réduisant leur valeur à 1 et transforme les valeurs absorbées en son propre bouclier. Puis, il inflige des DGT physiques équivalents à 2500% de la valeur de son bouclier plus 1000%les DGT de base à tous les ennemis, avec 75% de chances de base d'infliger Gelé aux ennemis pendant 1 tour(s). Le bouclier du Noyau de comète est épuisé en premier lorsqu'un personnage subit des DGT. Lorsque des DGT de Séisme sont déclenchés, 70% du bouclier du Noyau de comète est considéré comme le bouclier du personnage.",
         "enhanced_desc": ""
     },
     "670140": {
@@ -2453,46 +2507,76 @@
         "desc": "Il y a 100% de chances de base pour les cibles ennemies qui entrent en combat de subir Dissociation pendant 1 tour. Les ennemis affectés par Dissociation résistent à tous les DGT, mais tous les DGT critiques et les DGT de rupture qu'ils subissent sont enregistrés. Lorsque l'effet est dissipé, un montant fixe de DGT critiques équivalent à 150% de la valeur enregistrée est infligé à tous les ennemis. L'effet Dissociation est immédiatement dissipé lorsque la valeur enregistrée atteint 50% des PV max de la cible.",
         "enhanced_desc": ""
     },
+    "670150": {
+        "id": "670150",
+        "name": "Mausolée des cicatrices",
+        "desc": "« Oubli » apparaît dans l'ordre d'action. À chaque fois qu'un allié inflige 10 points de réduction de robustesse, ce dernier voit son action avancée de 3%. Lors de l'action d'Oubli, inflige des DGT de glace équivalents à 2000% des DGT de base et inflige 20 points de réduction de robustesse à tous les ennemis, avec 150% de chances de base d'appliquer l'état Dissociation aux cibles, pour une durée de 1 tour. Cet état augmente les DGT subis de 60% pour une durée de 2 tours.",
+        "enhanced_desc": ""
+    },
     "670280": {
         "id": "670280",
         "name": "Institut d'autodétermination",
-        "desc": "Lorsque Suspicion atteint 99 cumuls, l'effet est consommé et se transforme en 1 cumul d'Auto-négation, ce qui augmente les dégâts sur la durée infligés par l'assaillant de 70%. Chaque cumul augmente les DGT sur la durée de 10%, cumulable jusqu'à #10[i] fois. Les ennemis subissent des dégâts de foudre sur la durée au début de leur tour, et les cibles adjacentes subissent des dégâts de foudre sur la durée équivalents à 20% du multiplicateur de DGT initial. À partir de 2 cumuls, régénère 20% de Cerveau dans une cuve au début du tour pour un personnage aléatoire. À partir de 3 cumuls, régénère 10% de Cerveau dans une cuve pour tous les alliés au début du tour.",
+        "desc": "Lorsque Suspicion atteint 99 cumuls, l'effet est consommé et se transforme en 1 cumul d'Auto-négation, ce qui augmente les dégâts sur la durée infligés par les assaillants de cette unité de 70%. Chaque cumul augmente les DGT sur la durée infligés de 10%, cumulable jusqu'à #10[i] fois. Les ennemis subissent des dégâts de foudre sur la durée équivalents à 135% des DGT de base au début de leur tour, et les cibles adjacentes subissent des dégâts de foudre sur la durée équivalents à 20% du multiplicateur de DGT initial. À partir de 2 cumuls, régénère 20% de Cerveau dans une cuve au début du tour pour un personnage aléatoire. À partir de 3 cumuls, régénère 10% de Cerveau dans une cuve pour tous les alliés au début du tour.",
         "enhanced_desc": ""
     },
     "670350": {
         "id": "670350",
         "name": "Borissien",
-        "desc": "Une Fleur de l'annihilation apparaît dans l'ordre d'action. Lorsque la Goutte de rosée se brise, la Fleur de l'annihilation se charge à hauteur de 550% de la charge de la Goutte de rosée. Lorsque la Fleur de l'annihilation agit, elle inflige des DGT de feu à tous les ennemis en fonction de la valeur de la charge. Chaque cumul d'Esprit combatif que possède l'équipe augmente les DGT de 1.5%.",
+        "desc": "Fleur de l'annihilation apparaît dans l'ordre d'action. Lorsque la Goutte de rosée se brise, la Fleur de l'annihilation se charge à hauteur de 600% de la charge de la Goutte de rosée. Lorsque la Fleur de l'annihilation agit, elle inflige des DGT de feu équivalents à sa valeur de Charge + 1200% des DGT de base à tous les ennemis. Chaque cumul d'Esprit combatif possédé par l'équipe augmente les DGT de 1.5%.",
+        "enhanced_desc": ""
+    },
+    "670430": {
+        "id": "670430",
+        "name": "Messie bionique",
+        "desc": "Lorsque Fibres n'est appliqué à aucune cible, inflige l'effet à des cibles aléatoires après l'attaque d'un personnage. Lorsqu'une cible avec Fibres subit un total de 8 attaques ou est éliminée, la cible subit des DGT de foudre équivalents à 4500% des DGT de base, les cibles adjacentes subissent des DGT équivalents à 3000% des DGT de base, et les PV max de tous les alliés augmentent de 80%, pour une durée de 3 tours. Si 1 seule cible ennemie est attaquée, il est considéré que 2 attaques ont été lancées.",
         "enhanced_desc": ""
     },
     "670470": {
         "id": "670470",
         "name": "Chevalier en fusion",
-        "desc": "Après avoir vaincu une cible ennemie ou infligé une Rupture de faiblesse à un ennemi élite, le personnage tire un nombre de Flèches de lumière équivalent à 5 plus le nombre de cumuls d'Amélioration critique sur des ennemis aléatoires. Chaque Flèche de lumière inflige des DGT additionnels du type du personnage et applique 1 spore unique à la cible attaquée. Les spores peuvent se cumuler jusqu'à 99 fois tant que l'effet est actif.",
+        "desc": "Chaque fois que l'équipe obtient 9 cumul(s) d'Amélioration critique ou élimine la cible ennemie, tire 10 flèches de lumière sur des cibles aléatoires. Chaque flèche de lumière inflige des DGT de vent équivalents à 400% des DGT de base et applique 1 Spore à la cible attaquée, en plus d'infliger 1 frappe de DGT de Cassure de Spore. Durant cette période, le nombre de cumuls de Spores maximum passent à 99.",
         "enhanced_desc": ""
     },
     "670500": {
         "id": "670500",
         "name": "Garde de la navigation",
-        "desc": "Après qu'un personnage a infligé des DGT de rupture, il inflige un montant fixe de DGT additionnels équivalent à 100% des DGT initiaux après l'attaque. Lorsque l'effet Esprit combatif d'un personnage atteint plus de 30 cumuls, il gagne un bouclier équivalent à 50% de ses PV max pendant 2 tours. Le personnage consomme 20 cumuls d'Esprit combatif après avoir infligé des DGT à la robustesse à tous les ennemis.",
+        "desc": "Après qu'un personnage a infligé des DGT de rupture, inflige un montant fixe de DGT supplémentaires équivalent à 100% des DGT originaux après l'attaque. Lorsque l'Esprit combatif d'un personnage est supérieur à 30 cumul(s), il gagne une valeur de bouclier équivalente à 50% de ses PV max, pendant 2 tour(s). De plus, inflige des DGT équivalents à 1200% des DGT de base et 15 de réduction de robustesse à tous les ennemis, et consomme 20 cumul(s) d'Esprit combatif.",
+        "enhanced_desc": ""
+    },
+    "670580": {
+        "id": "670580",
+        "name": "Érudit de l'Annihilation",
+        "desc": "Lorsqu'un personnage est attaqué, lui accorde 2 Formule(s) d'extinction. Après avoir lancé un contre, lui accorde 1 Formule(s) d'extinction. Lorsque des personnages cumulent 6 Formules d'extinction, supprime toutes les Formules d'extinction et augmente les DGT d'ultime infligés de 150% jusqu'à la fin du tour, en plus d'infliger des DGT additionnels équivalents à 650% de l'ATQ du personnage à tous les ennemis. Ces DGT sont considérés comme des DGT d'ultime.",
         "enhanced_desc": ""
     },
     "670630": {
         "id": "670630",
         "name": "Médecin conseiller",
-        "desc": "Les DGT infligés par Goutte de rosée sont considérés comme étant des DGT d'attaque de suivi. Après que Goutte de rosée se déclenche parce qu'un personnage a lancé une attaque de suivi ou a utilisé une attaque, il y a 12% de chances fixes à chaque fois de provoquer l'effet suivant : Goutte de rosée est chargée à 80% de son maximum et inflige des DGT équivalents à 1/2/3/4 fois de la charge de Goutte de rosée avec une chance fixe de 15%/50%/30%/5%.",
+        "desc": "Les DGT infligés par Goutte de rosée sont considérés comme étant des DGT d'attaque de suivi. Après que Goutte de rosée se déclenche parce qu'un personnage a lancé une attaque de suivi ou a utilisé une attaque, il y a 16% de chances fixes à chaque fois de provoquer l'effet suivant : Goutte de rosée est chargée à 80% de son maximum et inflige des DGT équivalents à 1/2/3/4 fois de la charge de Goutte de rosée avec une chance fixe de 10%/40%/40%/10%.",
+        "enhanced_desc": ""
+    },
+    "670640": {
+        "id": "670640",
+        "name": "Voleur fantôme",
+        "desc": "« Préavis » apparaît dans l'ordre d'action. Lorsqu'un personnage déclenche une attaque de suivi, son action est avancée de 5%. Lorsque Préavis agit, l'action du premier personnage dans la composition d'équipe est avancée de 100%. Après que ce personnage a utilisé une attaque, inflige 10 frappes de DGT d'Arrière-goût équivalents à 40% de l'ATQ du personnage, jusqu'à un maximum de 4 attaques. De plus, le multiplicateur de DGT d'Arrière-goût des alliés augmente à hauteur de 100% du multiplicateur initial, et un compte à rebours avec 100 de VIT apparaît dans l'ordre d'action. L'effet dure jusqu'au début du tour du compte à rebours.",
         "enhanced_desc": ""
     },
     "670720": {
         "id": "670720",
         "name": "Enfant de la calamité",
-        "desc": "Les cibles ennemies obtiennent Trou de ver lorsqu'elles entrent en combat : Trou de ver enregistre toutes les spores accumulées par le porteur. Après avoir accumulé 18 spores, les spores infligent des DGT quantiques à tous les ennemis. Pour chaque malus subi par les ennemis, les DGT infligés augmentent de 10%, jusqu'à 100%. Toutes les spores sont ensuite réinitialisées.",
+        "desc": "Les cibles ennemies obtiennent Trou de ver lorsqu'elles entrent en combat. Trou de ver enregistre le nombre de spores accumulées par le porteur. Après avoir accumulé 18 spores, inflige des DGT quantiques équivalents à 1800% des DGT de base à tous les ennemis. Pour chaque malus subi par les ennemis, ces DGT augmentent de 10%, jusqu'à une augmentation de 100%. Toutes les spores sont ensuite supprimées.",
         "enhanced_desc": ""
     },
     "670860": {
         "id": "670860",
         "name": "Érudit inutile",
-        "desc": "Après que l'équipe a utilisé un total de 6 ultimes sans être sous l'effet Surcadençage, obtient l'effet Surcadençage : après avoir attaqué avec un ultime, inflige des DGT d'Arrière-goût équivalents à 80% de l'ATQ de l'assaillant 1 fois. Après avoir utilisé un ultime, l'état prend fin. Le premier personnage de la formation active son ultime, charge Cerveau dans une cuve à hauteur de 200% et utilise son ultime 3 fois avant que le statut ne termine.",
+        "desc": "Après que l'équipe a utilisé un total de 6 ultimes sans être sous l'effet Surcadençage, obtient l'effet Surcadençage : après avoir attaqué avec un ultime, inflige des DGT d'Arrière-goût équivalents à 100% de l'ATQ de l'assaillant 3 fois. Après avoir utilisé un ultime, l'état prend fin. Le premier personnage de la formation active son ultime, charge Cerveau dans une cuve à hauteur de 200% et utilise son ultime 3 fois avant que le statut ne termine.",
+        "enhanced_desc": ""
+    },
+    "670870": {
+        "id": "670870",
+        "name": "Agrégateur",
+        "desc": "Lorsque les personnages alliés ont utilisé leurs ultimes 2 fois, inflige 2 instances de DGT de vent équivalents à 400% des DGT de base à un ennemi aléatoire et lui applique 1 spore. Ces DGT infligent des DGT équivalents à 30% des DGT initiaux aux ennemis adjacents. À chaque activation de cet effet, augmente le nombre d'instances de 1 pour ce combat et augmente les DGT d'ultime infligés par les personnages de 5%, cumulable jusqu'à 20 fois.",
         "enhanced_desc": ""
     },
     "671020": {
@@ -2507,10 +2591,22 @@
         "desc": "Lorsqu'un personnage inflige des DGT de Séisme, chaque personnage dont les PV sont au max augmente le multiplicateur de DGT de Séisme actuel à hauteur de 35% du multiplicateur initial.",
         "enhanced_desc": ""
     },
+    "671080": {
+        "id": "671080",
+        "name": "Correspondance de civilisation",
+        "desc": "Lorsqu'un personnage utilise son ultime, il gagne un bouclier capable d'absorber des DGT équivalents à 30% de ses PV max, pendant 3 tours. Après avoir infligé des DGT d'ultime avec une attaque, inflige des DGT de Séisme équivalents à 600% de la valeur de bouclier actuelle du personnage lors de l'attaque.",
+        "enhanced_desc": ""
+    },
     "671130": {
         "id": "671130",
         "name": "Médecin de la mémoire",
-        "desc": "Après qu'un personnage a lancé une attaque, Goutte de rosée inflige des DGT de Goutte de rosée supplémentaires équivalents à 200% du multiplicateur de DGT de Goutte de rosée initial à toutes les cibles ennemies gelées 1 fois. Chaque cible ennemie gelée augmente le multiplicateur de DGT de 25%.",
+        "desc": "Après qu'un personnage a lancé une attaque, Goutte de rosée inflige des DGT de Goutte de rosée supplémentaires équivalents à 250% du multiplicateur de DGT de Goutte de rosée initial à toutes les cibles ennemies gelées 1 fois. Chaque cible ennemie gelée augmente le multiplicateur de DGT de 25%.",
+        "enhanced_desc": ""
+    },
+    "671170": {
+        "id": "671170",
+        "name": "Créature mémorielle errante",
+        "desc": "Augmente les DGT d'ATQ normale infligés par les personnages de 160%. Lors de l'utilisation de l'ATQ normale pour attaquer, les ennemis en état de Rupture de faiblesse sont considérés comme gelés.",
         "enhanced_desc": ""
     },
     "671180": {
@@ -2525,10 +2621,16 @@
         "desc": "Lorsqu'une cible ennemie devient gelée, tous les dégâts sur la durée actuellement actifs sur la cible infligent immédiatement des DGT équivalents à 180% des DGT initiaux. Chaque dégât sur la durée actif inflige 1 cumul de Suspicion.",
         "enhanced_desc": ""
     },
+    "671230": {
+        "id": "671230",
+        "name": "Refus de la mort",
+        "desc": "Augmente les dégâts sur la durée infligés par les personnages de 160%. Lorsqu'un personnage applique un malus à une cible ennemie, augmente les PV max de ce dernier de 2% jusqu'à un max de 20 cumuls, pour une durée de 2 tours.",
+        "enhanced_desc": ""
+    },
     "671260": {
         "id": "671260",
         "name": "Bouffon d'Anatta",
-        "desc": "Lorsqu'un personnage lance une attaque de suivi, il y a 100% de chances de base d'appliquer 1 malus aléatoire sur la cible attaquée, qui dure pendant 2 tours. Le malus aléatoire inclut : réduction des DGT infligés de 15.0%, réduction de la DÉF de 30.0% et réduction de la VIT de 20.0%.",
+        "desc": "Lorsqu'un personnage lance une attaque de suivi, il y a 150% de chances de base d'appliquer 1 malus aléatoire sur la cible attaquée, qui dure pendant 2 tours. Le malus aléatoire inclut : réduction des DGT infligés de 15.0%, réduction de la DÉF de 30.0% et réduction de la VIT de 20.0%.",
         "enhanced_desc": ""
     },
     "671340": {
@@ -2537,28 +2639,46 @@
         "desc": "Lorsque Goutte de rosée se charge, il y a 1% de chances fixes d'augmenter la valeur de chargement pour chaque 1 % de chances de coup critique du personnage. Le montant augmenté est équivalent à 50% des DGT critiques du personnage.",
         "enhanced_desc": ""
     },
+    "671360": {
+        "id": "671360",
+        "name": "Fanatique de la mort",
+        "desc": "Les PV max des personnages augmentent de 40%. Après avoir restauré des PV équivalents à 200% des PV max, les DGT infligés par le multiplicateur de DGT d'Arrière-goût augmentent de 100% du multiplicateur de DGT d'origine.",
+        "enhanced_desc": ""
+    },
     "671370": {
         "id": "671370",
         "name": "Viscorpus",
-        "desc": "Augmente la limite maximale de Goutte de rosée de 75%. Lorsqu'un personnage brise Goutte de rosée en utilisant son ATQ normale, restaure 35% de la charge de cette Goutte de rosée.",
+        "desc": "Augmente la limite maximale de Goutte de rosée de 100%. Lorsqu'un personnage brise Goutte de rosée en utilisant son ATQ normale, restaure 35% de la charge de cette Goutte de rosée.",
         "enhanced_desc": ""
     },
     "671400": {
         "id": "671400",
         "name": "Dispositif de secours post-catastrophe",
-        "desc": "Lorsqu'un personnage perd de la valeur de bouclier, augmente sa VIT de 12% pendant 2 tours. Peut se cumuler jusqu'à 3 fois. Au début du tour suivant d'un personnage, gagne 2 cumuls d'Amélioration critique.",
+        "desc": "Lorsqu'une cible ennemie lance une attaque pour réduire la valeur de bouclier des personnages, augmente la VIT de tous les alliés de 35% pendant 2 tours, et accorde 2 cumuls d'Amélioration critique.",
+        "enhanced_desc": ""
+    },
+    "671450": {
+        "id": "671450",
+        "name": "Patio de l'homogénéité",
+        "desc": "Lorsqu'un ennemi attaque alors qu'un personnage bénéficie d'Amélioration critique, augmente les DGT subis par la cible ennemie de 40%, pour une durée de 2 tours. D'autre part, l'action des personnages avec Amélioration critique est avancée. Chaque cumul d'Amélioration critique avance l'action des personnages de 5%.",
         "enhanced_desc": ""
     },
     "671460": {
         "id": "671460",
         "name": "Chasseur de primes",
-        "desc": "Lorsqu'un personnage inflige des DGT critiques, il a 50% de chances fixes d'infliger des DGT critiques supplémentaires équivalents à un montant fixe (situé entre 1 et 100 %) des DGT initiaux 1 fois. Ces DGT sont considérés comme des DGT d'attaque de suivi.",
+        "desc": "Lorsque l'attaque d'un personnage inflige des DGT critiques, il a 65% de chances fixes d'infliger des DGT critiques supplémentaires équivalents à un montant fixe (situé entre 1 et 100 %) des DGT initiaux 1 fois. Ces DGT sont considérés comme des DGT d'attaque de suivi.",
+        "enhanced_desc": ""
+    },
+    "671500": {
+        "id": "671500",
+        "name": "Auxiliaire pré-combat",
+        "desc": "L'effet de Rupture des personnages augmente de 100%. Après avoir infligé une Rupture de faiblesse à un ennemi lors d'une attaque, les personnages gagnent un bouclier qui peut absorber les DGT équivalent à 100% de leurs PV max, durant 1 tour, inflige ensuite des DGT de Séisme équivalents à 1000% de la valeur de bouclier actuelle à la cible après une attaque.",
         "enhanced_desc": ""
     },
     "671510": {
         "id": "671510",
         "name": "Voleur de mémoire",
-        "desc": "Lorsqu'un personnage utilise une attaque qui inflige des DGT d'ultime, il consomme ses PV à hauteur de 20% de ses PV actuels. Après cette attaque, il y a 50% de chances de base d'infliger Gelé à la cible de l'attaque, pour une durée de 1 tour. Chaque cumul d'Esprit combatif augmente les chances d'appliquer des effets du personnage de 2%.",
+        "desc": "Lorsqu'un personnage utilise une attaque qui inflige des DGT d'ultime, il consomme ses PV à hauteur de 5% de ses PV actuels. Après cette attaque, il y a 50% de chances de base d'infliger Gelé à la cible de l'attaque, pour une durée de 1 tour. Chaque cumul d'Esprit combatif augmente les chances d'appliquer des effets du personnage de 2%.",
         "enhanced_desc": ""
     },
     "671520": {
@@ -2567,10 +2687,16 @@
         "desc": "Après qu'un personnage a attaqué un ennemi en état de Rupture de faiblesse, convertit la réduction de robustesse de l'attaque en 1 instance de 100% de DGT de rupture extrême. À 30 cumuls d'Esprit combatif, inflige 100% de DGT de rupture extrême supplémentaires provoqués par cet effet.",
         "enhanced_desc": ""
     },
+    "671610": {
+        "id": "671610",
+        "name": "Artiste du souvenir",
+        "desc": "Arrière-goût a 3% de chances de base de geler les cibles ennemies qui ne souffrent pas déjà de cet état pendant 1 tour. Cet effet peut être appliqué jusqu'à 5 fois par attaque. Augmente le multiplicateur de DGT d'Arrière-goût infligés aux cibles gelées à hauteur de 150% du multiplicateur initial.",
+        "enhanced_desc": ""
+    },
     "671650": {
         "id": "671650",
         "name": "Maître des feux d'artifice",
-        "desc": "Après qu'un personnage a lancé une attaque de suivi, inflige des DGT d'Arrière-goût à la cible ennemie attaquée. Ces DGT sont équivalents à 500% du total de PV que le personnage a déjà perdus 1 fois. Puis, efface les changements de PV accumulés. Les changements de PV peuvent être accumulés jusqu'à 160% des PV max du personnage.",
+        "desc": "Les DGT d'attaque de suivi des personnages augmentent de 50%. Après qu'un personnage a lancé une attaque de suivi, inflige 1 instance de DGT d'Arrière-goût à la cible ennemie attaquée. Ces DGT sont équivalents à 500% du total de PV que le personnage a déjà perdus + les PV qu'il a restaurés. Puis, efface les changements de PV accumulés. Les changements de PV peuvent être accumulés jusqu'à 200% des PV max du personnage.",
         "enhanced_desc": ""
     },
     "671670": {
@@ -2585,16 +2711,28 @@
         "desc": "Lorsqu'un personnage obtient un bouclier, 2 cibles ennemies aléatoires gagnent 1 spore. Augmente le multiplicateur de DGT de Spore de 75% du multiplicateur initial.",
         "enhanced_desc": ""
     },
+    "671740": {
+        "id": "671740",
+        "name": "Employé diabolique",
+        "desc": "Lorsqu'un personnage utilise une attaque, applique Spores à des cibles ennemies aléatoires parmi celles attaquées. Lorsque les alliés agissent 1 / 2 / 3 fois consécutives ou plus, le nombre de Spores appliquées passe à 2 / 4 / 6.",
+        "enhanced_desc": ""
+    },
     "671780": {
         "id": "671780",
         "name": "Trompeur de calamité",
-        "desc": "Augmente le nombre maximum de spores de 3. Lorsqu'un personnage utilise une attaque qui inflige des DGT d'ultime et si des spores de la cible attaquée éclatent, inflige des DGT d'ultime supplémentaires équivalents à 200% de l'ATQ du personnage à la cible. Chaque spore que cette attaque éclate, augmente le multiplicateur de DGT de 30%.",
+        "desc": "Augmente le nombre maximum de spores de 3. Lorsqu'un personnage utilise une attaque qui inflige des DGT d'ultime et si des spores de la cible attaquée éclatent, inflige des DGT d'ultime supplémentaires équivalents à 250% de l'ATQ du personnage à la cible. Chaque spore que cette attaque éclate, augmente le multiplicateur de DGT de 30%.",
+        "enhanced_desc": ""
+    },
+    "671820": {
+        "id": "671820",
+        "name": "Constructeur de blocs",
+        "desc": "Lorsqu'un personnage lance une attaque, chaque malus dont souffre la cible attaquée augmente l'ATQ du personnage de 3%, cumulable jusqu'à 99 fois. À la fin du tour, perd 10 cumuls de cette augmentation d'ATQ.",
         "enhanced_desc": ""
     },
     "671840": {
         "id": "671840",
         "name": "Garde au cœur d'argent",
-        "desc": "Lorsqu'un personnage élimine un ennemi ou lui inflige une Rupture de faiblesse, charge Cerveau dans une cuve de 25% et régénère un montant d'énergie équivalent à 10% de l'énergie max. Si la cible est un ennemi élite, régénère un montant d'énergie supplémentaire équivalent à 40% de l'énergie max.",
+        "desc": "Lorsqu'un personnage inflige une Rupture de faiblesse à un ennemi, charge Cerveau dans une cuve de 25% et régénère un montant d'énergie équivalent à 10% de l'énergie max. Après avoir vaincu la cible, régénère un montant d'énergie équivalent à 60% de l'énergie max.",
         "enhanced_desc": ""
     },
     "671850": {
@@ -2609,10 +2747,16 @@
         "desc": "Si un personnage attaque et inflige Gelé à une cible ennemie, tous les alliés gagnent un bouclier équivalent à 25% de leurs PV max respectifs qui dure 3 tours. Chaque cible ennemie gelée lors de cette attaque augmente la valeur de bouclier obtenue de 5% de ses PV max respectifs.",
         "enhanced_desc": ""
     },
+    "672030": {
+        "id": "672030",
+        "name": "Purificateur planétaire",
+        "desc": "Augmente la valeur de bouclier accordée aux personnages de 30%. Après épuisement du bouclier, restaure des PV équivalents à 25% des PV max.",
+        "enhanced_desc": ""
+    },
     "672050": {
         "id": "672050",
         "name": "Insubmersible",
-        "desc": "Lorsqu'un personnage reçoit un bouclier, la valeur de bouclier augmente de 1.0% pour chaque tranche de 1 % de différence entre ses PV max et ses PV actuels.",
+        "desc": "La valeur de bouclier reçue par un personnage augmente de 20%. Pour chaque tranche de 1 % de différence entre ses PV max et ses PV actuels, la valeur de bouclier augmente en plus de 0.8%.",
         "enhanced_desc": ""
     },
     "672060": {
@@ -2624,13 +2768,19 @@
     "672100": {
         "id": "672100",
         "name": "Érudit à la chandelle",
-        "desc": "Lorsqu'un personnage subit un coup fatal, ses PV passent à 1 et il obtient un bouclier équivalent à 50% de ses PV max avant d'entrer dans un état Gelé impossible à dissiper et qui dure 3 tours. Tant qu'il est dans cet état, ses PV ne peuvent pas être restaurés, et le fait de subir à nouveau un coup fatal dissipe cet état et met le personnage à terre.",
+        "desc": "Augmente les DGT critiques du personnage de 50%. Lorsqu'un personnage subit un coup fatal, ses PV passent à 1 et il obtient un bouclier équivalent à 100% de ses PV max avant d'entrer dans un état Gelé impossible à dissiper et qui dure 1 tours. Pendant la durée de cet état, ses PV ne peuvent pas être restaurés, et l'équipe peut déclencher cet effet jusqu'à 3 fois. Augmente les DGT critiques des personnages de 50% si le nombre de déclenchements n'est pas épuisé.",
+        "enhanced_desc": ""
+    },
+    "672140": {
+        "id": "672140",
+        "name": "Évaluateur de cognition",
+        "desc": "Après que des personnages attaquent une cible ennemie non élite, avec un pourcentage de PV actuel inférieur à 50%, il y a 150% de chances de base de leur infliger l'état Dissociation, durant 1 tour(s), et inflige un montant fixe de DGT critiques équivalent à leurs PV actuels.",
         "enhanced_desc": ""
     },
     "672160": {
         "id": "672160",
         "name": "Biographe",
-        "desc": "Après qu'un personnage a attaqué une cible gelée, inflige des DGT d'Arrière-goût équivalents à 180% de l'ATQ du personnage à la cible 1 fois.",
+        "desc": "Après qu'un personnage a attaqué une cible gelée, inflige des DGT d'Arrière-goût équivalents à 240% de l'ATQ du personnage à la cible 1 fois.",
         "enhanced_desc": ""
     },
     "672180": {
@@ -2649,6 +2799,12 @@
         "id": "672240",
         "name": "Adorateur de péchés",
         "desc": "Les dégâts sur la durée des personnages peuvent provoquer des coups critiques. Les DGT critiques des dégâts sur la durée ne peuvent pas dépasser 100%.",
+        "enhanced_desc": ""
+    },
+    "672250": {
+        "id": "672250",
+        "name": "Sauveur",
+        "desc": "Lorsqu'une cible ennemie subit des DGT à la robustesse lors d'une attaque, il y a 100% de chances de base que Brûlure lui soit appliquée et subisse des DGT de feu équivalents à 120% des DGT de feu de base au début de son tour, pendant 2 tours.",
         "enhanced_desc": ""
     },
     "672280": {
@@ -2675,6 +2831,12 @@
         "desc": "Augmente la restauration de PV du personnage de 35%. Il y a 50% de chances fixes de récupérer 1 point de compétence après avoir soigné des alliés. Cet effet ne peut être déclenché qu'1 seule fois par action de personnage.",
         "enhanced_desc": ""
     },
+    "672371": {
+        "id": "672371",
+        "name": "Arbre du débarras",
+        "desc": "Augmente les soins prodigués par les personnages de 30%. Applique 1 Spore à une cible ennemie aléatoire après avoir prodigué des soins à une cible alliée.",
+        "enhanced_desc": ""
+    },
     "672400": {
         "id": "672400",
         "name": "Tireur d'élite interstellaire",
@@ -2691,6 +2853,18 @@
         "id": "672430",
         "name": "Pacifiste",
         "desc": "Au début du tour d'un personnage, chaque cumul d'Amélioration critique qu'il possède lui rend un montant de PV équivalent à 5% de ses PV max, et rend aux alliés un montant de PV équivalent à 2% de leurs PV max respectifs.",
+        "enhanced_desc": ""
+    },
+    "672480": {
+        "id": "672480",
+        "name": "Récidiviste",
+        "desc": "Augmente les DGT critiques de 8% pour chaque cumul d'Amélioration critique. Lorsqu'un personnage utilise son ultime, hérite de cette limite de cumuls et reçoit 2 cumuls d'Amélioration critique.",
+        "enhanced_desc": ""
+    },
+    "672510": {
+        "id": "672510",
+        "name": "Fossoyeur",
+        "desc": "Lorsqu'un personnage inflige une Rupture de faiblesse à une cible ennemie, il y a 120% de chances de base d'appliquer l'effet Gelé pendant 1 tour. Si cet ennemi est déjà gelé, inflige 1 instance de DGT de rupture supplémentaires équivalents à 200% des DGT de rupture qui auraient été infligés cette fois.",
         "enhanced_desc": ""
     },
     "672520": {
@@ -2711,10 +2885,16 @@
         "desc": "Les DGT d'ultime infligés par les personnages augmentent de 60%. Chaque 1 % de PV perdu par un personnage charge Cerveau dans une cuve de 0.5%.",
         "enhanced_desc": ""
     },
+    "672600": {
+        "id": "672600",
+        "name": "Magicien du champ de bataille",
+        "desc": "Lorsqu'un personnage lance une attaque, lui accorde un bouclier équivalent à 3% des PV max du personnage pour chaque instance de DGT d'Arrière-goût infligés par cette attaque. La valeur du bouclier ne peut pas excéder 36% des PV max du personnage et dure 1 tour.",
+        "enhanced_desc": ""
+    },
     "672620": {
         "id": "672620",
         "name": "Chevalier des sucreries",
-        "desc": "Les DGT d'Arrière-goût infligés par les personnages appliquent une réduction de robustesse qui correspond à leur type. Si cet effet inflige une Rupture de faiblesse à l'ennemi, il déclenche l'effet de Rupture de faiblesse du type de l'assaillant.",
+        "desc": "Les DGT d'Arrière-goût infligés par les personnages peuvent ignorer la faiblesse de type et réduire2.5 de la robustesse des cibles ennemies. Cet effet peut être déclenché contre chaque cible ennemie jusqu'à 7 fois en une seule attaque.",
         "enhanced_desc": ""
     },
     "672630": {
@@ -2732,7 +2912,7 @@
     "672710": {
         "id": "672710",
         "name": "Ravageur fantôme",
-        "desc": "Réduit la RÉS aux effets des ennemis de 10% pour chaque cumul de Spore qu'ils subissent.",
+        "desc": "Les DGT de Spore subis par les cibles ennemies augmentent de 35%. Réduit la RÉS aux effets des ennemis de 10% pour chaque cumul de Spore possédé.",
         "enhanced_desc": ""
     },
     "672720": {
@@ -2741,16 +2921,28 @@
         "desc": "Augmente le multiplicateur de DGT de Spore de 60% du multiplicateur initial. Lorsque les spores éclatent, le multiplicateur de DGT augmente de 3% du multiplicateur initial supplémentaire pour chaque malus dont souffre la cible ennemie.",
         "enhanced_desc": ""
     },
+    "672721": {
+        "id": "672721",
+        "name": "Employé pacifiste",
+        "desc": "Lorsqu'un personnage consomme des points de compétence ou que la limite de points de compétence est dépassée, il y a 150% de chances de base d'infliger un malus aléatoire à des cibles ennemies aléatoires, lesquels durent pendant 2 tours. Le malus aléatoire inclut : réduction des DGT infligés de 15.0%, réduction de la RÉS aux effets de 20.0% ou réduction des chances d'appliquer des effets de 30.0%.",
+        "enhanced_desc": ""
+    },
     "672750": {
         "id": "672750",
         "name": "Ravageur d'étoiles",
-        "desc": "Lorsqu'un personnage utilise une ATQ normale et que son pourcentage de PV est supérieur ou égal à 50%, il consomme un montant de PV équivalent à 5% de ses PV max et récupère 1 point de compétence supplémentaire.",
+        "desc": "Les DGT des ATQ normales des personnages augmentent de 50%. Lorsqu'un personnage utilise une ATQ normale et que son pourcentage de PV est supérieur ou égal à 50%, il consomme un montant de PV équivalent à 5% de ses PV max et récupère 1 point de compétence supplémentaire.",
         "enhanced_desc": ""
     },
     "672840": {
         "id": "672840",
         "name": "Écrivain",
         "desc": "Après qu'un personnage inflige des DGT d'ultime avec une attaque, pour chaque cible ennemie touchée, il inflige des DGT d'ultime équivalents à 100% de son ATQ à la cible ennemie dont les PV max sont les plus élevés.",
+        "enhanced_desc": ""
+    },
+    "672850": {
+        "id": "672850",
+        "name": "Collecteur d'étoiles",
+        "desc": "Lorsqu'un personnage utilise son ultime, accorde 3 cumul(s) d'Esprit combatif et augmente la VIT de 25% et l'ATQ de 20% pendant 2 tours.",
         "enhanced_desc": ""
     },
     "672860": {

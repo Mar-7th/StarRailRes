@@ -3046,6 +3046,70 @@
             ]
         ]
     },
+    "21047": {
+        "id": "21047",
+        "skill": "Concealment",
+        "desc": "Meningkatkan #1[i]% Break Effect pengguna. Setelah memasuki pertempuran atau mengakibatkan Break DMG, SPD akan meningkat #2[i]%, berlangsung selama #3[i] giliran. Efek ini hanya dapat dipicu 1 kali setiap giliran.",
+        "params": [
+            [
+                0.28,
+                0.08,
+                2
+            ],
+            [
+                0.35,
+                0.09,
+                2
+            ],
+            [
+                0.42,
+                0.1,
+                2
+            ],
+            [
+                0.49,
+                0.11,
+                2
+            ],
+            [
+                0.56,
+                0.12,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.28
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.35
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.42
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.49
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.56
+                }
+            ]
+        ]
+    },
     "22000": {
         "id": "22000",
         "skill": "Quick on the Draw",
@@ -5418,6 +5482,144 @@
                 {
                     "type": "CriticalDamageBase",
                     "value": 0.6
+                }
+            ]
+        ]
+    },
+    "23031": {
+        "id": "23031",
+        "skill": "Intimidation",
+        "desc": "Meningkatkan #1[f1]% CRIT Rate pengguna. Saat pengguna melancarkan Serangan Lanjutan, akan memperoleh 1 lapis \"Luminflux\", dapat ditumpuk hingga #3[i] lapis. Setiap lapis \"Luminflux\" akan membuat Ultimate DMG yang diakibatkan pengguna mengabaikan #2[i]% DEF target. Saat giliran pengguna berakhir, akan menghapus 1 lapis \"Luminflux\".",
+        "params": [
+            [
+                0.15,
+                0.27,
+                2
+            ],
+            [
+                0.175,
+                0.3,
+                2
+            ],
+            [
+                0.2,
+                0.33,
+                2
+            ],
+            [
+                0.225,
+                0.36,
+                2
+            ],
+            [
+                0.25,
+                0.39,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.15
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.175
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.2
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.225
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.25
+                }
+            ]
+        ]
+    },
+    "23032": {
+        "id": "23032",
+        "skill": "Contentment",
+        "desc": "Meningkatkan #1[i]% Break Effect pengguna. Setelah pengguna melancarkan Ultimate untuk menyerang target musuh, akan membuat target musuh tersebut memasuki status \"Woefree\" selama #5[i] giliran. DMG yang diterima target musuh yang berstatus \"Woefree\" akan meningkat #2[i]%. Jika Break Effect pengguna saat ini lebih dari atau sama dengan #3[i]%, maka efek peningkatan DMG yang diterimanya akan meningkat ekstra #4[i]%.",
+        "params": [
+            [
+                0.6,
+                0.1,
+                1.5,
+                0.08,
+                2
+            ],
+            [
+                0.7,
+                0.12,
+                1.5,
+                0.1,
+                2
+            ],
+            [
+                0.8,
+                0.14,
+                1.5,
+                0.12,
+                2
+            ],
+            [
+                0.9,
+                0.16,
+                1.5,
+                0.14,
+                2
+            ],
+            [
+                1,
+                0.18,
+                1.5,
+                0.16,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.6
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.7
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.8
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.9
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 1
                 }
             ]
         ]

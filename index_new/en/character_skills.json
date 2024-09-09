@@ -170,7 +170,7 @@
         "type_text": "Ultimate",
         "effect": "AoEAttack",
         "effect_text": "AoE",
-        "simple_desc": "Deals Ice DMG to all enemies, with a chance to apply the Freeze effect",
+        "simple_desc": "Deals Ice DMG to all enemies, with a chance of Freezing them.",
         "desc": "Deals Ice DMG equal to #1[i]% of March 7th's ATK to all enemies. Hit enemies have a #2[i]% base chance to be Frozen for #3[i] turn(s).\nWhile Frozen, enemies cannot take action and will receive Additional Ice DMG equal to #4[i]% of March 7th's ATK at the beginning of each turn.",
         "params": [
             [
@@ -606,8 +606,8 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "When becoming the target of an ally's ability, their next attack's Wind RES PEN increases. This effect can be triggered again after 2 turns.",
-        "desc": "When Dan Heng is the target of an ally's ability, his next attack's Wind RES PEN increases by #1[i]%. This effect can be triggered again after #2[i] turn(s).",
+        "simple_desc": "When this unit becomes the target of an ally's ability, this unit's next attack's Wind RES PEN increases. This effect can be triggered again after 2 turns.",
+        "desc": "When Dan Heng becomes the target of an ally's ability, his next attack's Wind RES PEN increases by #1[i]%. This effect can be triggered again after #2[i] turn(s).",
         "params": [
             [
                 0.18,
@@ -995,8 +995,8 @@
         "type_text": "Technique",
         "effect": "Impair",
         "effect_text": "Impair",
-        "simple_desc": "Creates a special dimension. After entering combat with enemies in the dimension, there is a high chance to increase Fire DMG taken by enemies.",
-        "desc": "After using Technique, creates a special dimension that lasts for #4[i] second(s). After entering battle with enemies in the special dimension, there is a #1[i]% base chance to increase Fire DMG taken by enemies by #2[i]% for #3[i] turn(s). Only 1 dimension created by allies can exist at the same time.",
+        "simple_desc": "Creates a Special Dimension. After entering combat with enemies in the dimension, there is a high chance to increase Fire DMG taken by enemies.",
+        "desc": "After using Technique, creates a Special Dimension that lasts for #4[i] second(s). After entering battle with enemies in the Special Dimension, there is a #1[i]% base chance to increase Fire DMG taken by enemies by #2[i]% for #3[i] turn(s). Only 1 dimension created by allies can exist at the same time.",
         "params": [
             [
                 1,
@@ -1342,8 +1342,8 @@
         "type_text": "Technique",
         "effect": "Impair",
         "effect_text": "Impair",
-        "simple_desc": "Creates a special dimension. Enemies in this dimension have their Movement SPD reduced. After entering combat with enemies in the dimension, there is a high chance for the enemies to become Imprisoned.",
-        "desc": "After using Welt's Technique, create a special dimension that lasts for #4[i] second(s). Enemies in this special dimension have their Movement SPD reduced by #5[i]%. After entering battle with enemies in the special dimension, there is a #1[i]% base chance to Imprison the enemies for 1 turn.\nImprisoned enemies have their actions delayed by #2[i]% and SPD reduced by #3[i]%. Only 1 dimension created by allies can exist at the same time.",
+        "simple_desc": "Creates a Special Dimension. Enemies in this dimension have their movement speed reduced. After entering combat with enemies in the dimension, there is a high chance for the enemies to become Imprisoned.",
+        "desc": "After using Welt's Technique, create a Special Dimension that lasts for #4[i] second(s). Enemies in this Special Dimension have their movement speed reduced by #5[i]%. After entering battle with enemies in the Special Dimension, there is a #1[i]% base chance to Imprison the enemies for 1 turn.\nImprisoned enemies have their actions delayed by #2[i]% and SPD reduced by #3[i]%. Only 1 dimension created by allies can exist at the same time.",
         "params": [
             [
                 1,
@@ -2037,7 +2037,7 @@
         "type_text": "Talent",
         "effect": "Impair",
         "effect_text": "Impair",
-        "simple_desc": "After each attack, there is a chance of inflicting the attacked enemy with 1 random Bug.",
+        "simple_desc": "After this unit attacks, there is a chance of implanting the attacked enemy with 1 random Bug.",
         "desc": "Silver Wolf can create three types of Bugs: Reduce ATK by #1[f1]%, reduce DEF by #2[f1]%, and reduce SPD by #3[f1]%.\nEvery time Silver Wolf attacks, she has a #4[i]% base chance to implant a random Bug that lasts for #5[i] turn(s) in an enemy target.",
         "params": [
             [
@@ -2381,8 +2381,8 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "Gain DMG bonus based on percent of HP lost.",
-        "desc": "Increases Arlan's DMG for every percent of HP below his Max HP, up to a max of #1[i]% more DMG.",
+        "simple_desc": "Gain DMG bonus based on currently missing HP percentage.",
+        "desc": "Based on Arlan's current missing HP percentage, gains DMG bonus, up to a maximum increase of #1[i]% DMG dealt by Arlan.",
         "params": [
             [
                 0.36
@@ -2964,7 +2964,7 @@
         "type_text": "Talent",
         "effect": "AoEAttack",
         "effect_text": "AoE",
-        "simple_desc": "",
+        "simple_desc": "When any ally's attack reduces the Enemy target's current HP percentage to 50% or lower, Herta immediately launches follow-up attack, dealing minor Ice DMG to all Enemy units.",
         "desc": "When an ally's attack causes an enemy's HP percentage to fall to #1[i]% or lower, Herta will launch a follow-up attack, dealing Ice DMG equal to #2[i]% of Herta's ATK to all enemies.",
         "params": [
             [
@@ -3053,7 +3053,7 @@
         "type_text": "Technique",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "",
+        "simple_desc": "After using Technique, increases this unit's ATK at the start of the next battle.",
         "desc": "After using her Technique, Herta's ATK increases by #1[i]% for #2[i] turn(s) at the beginning of the next battle.",
         "params": [
             [
@@ -3219,7 +3219,7 @@
         "type_text": "Ultimate",
         "effect": "Support",
         "effect_text": "Support",
-        "simple_desc": "Increases ATK and CRIT DMG of all allies",
+        "simple_desc": "Increases ATK and CRIT DMG of all allies.",
         "desc": "Increases the ATK of all allies by #1[i]%, and increases their CRIT DMG equal to #2[f1]% of Bronya's CRIT DMG plus #3[f1]% for #4[i] turn(s).",
         "params": [
             [
@@ -3549,8 +3549,8 @@
         "type_text": "Ultimate",
         "effect": "SingleAttack",
         "effect_text": "Single Target",
-        "simple_desc": "Enters the buffed state and deals massive Quantum DMG to a single enemy.",
-        "desc": "Seele enters the buffed state and deals Quantum DMG equal to #1[i]% of her ATK to a single enemy.",
+        "simple_desc": "Enters the Amplification state and deals massive Quantum DMG to a single enemy.",
+        "desc": "Seele enters the Amplification state and deals Quantum DMG equal to #1[i]% of her ATK to a single enemy.",
         "params": [
             [
                 2.55
@@ -3609,8 +3609,8 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "Use Basic ATK, Skill, and Ultimate to defeat enemies, gain extra turns, and enter a buffed state. When in a buffed state, DMG dealt is increased.",
-        "desc": "Enters the buffed state upon defeating an enemy with Basic ATK, Skill, or Ultimate, and receives an extra turn. While in the buffed state, the DMG of Seele's attacks increases by #1[i]% for #2[i] turn(s).\nEnemies defeated in the extra turn provided by \"Resurgence\" will not trigger another \"Resurgence.\"",
+        "simple_desc": "When defeating enemy targets with Basic ATK, Skill, or Ultimate, gains an extra turn and enters the Amplification state. While in Amplification, increases the DMG dealt by this unit.",
+        "desc": "Enters the Amplification state upon defeating an enemy with Basic ATK, Skill, or Ultimate, and receives an extra turn. While in the Amplification state, the DMG of Seele's attacks increases by #1[i]% for #2[i] turn(s).\nEnemies defeated in the extra turn provided by \"Resurgence\" will not trigger another \"Resurgence.\"",
         "params": [
             [
                 0.4,
@@ -3698,8 +3698,8 @@
         "type_text": "Technique",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "Enter Stealth mode. After attacking an enemy and entering battle, enter the buffed state.",
-        "desc": "After using her Technique, Seele gains Stealth for #1[i] second(s). While Stealth is active, Seele cannot be detected by enemies. And when entering battle by attacking enemies, Seele will immediately enter the buffed state.",
+        "simple_desc": "Enter Stealth mode. After attacking an enemy and entering battle, enters the Amplification state.",
+        "desc": "After using her Technique, Seele gains Stealth for #1[i] second(s). While Stealth is active, Seele cannot be detected by enemies. And when entering battle by attacking enemies, Seele will immediately enter the Amplification state.",
         "params": [
             [
                 20
@@ -4616,7 +4616,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "When healing allies with low HP, increases Outgoing Healing. This effect also works on continuous healing.",
+        "simple_desc": "When healing allies with low HP percentage, increases Outgoing Healing. This effect also works on continuous healing.",
         "desc": "When healing allies with HP percentage at #1[i]% or lower, increases Natasha's Outgoing Healing by #2[i]%. This effect also works on continuous healing.",
         "params": [
             [
@@ -7387,7 +7387,7 @@
         "type_text": "Technique",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "Summons Numby to tag along in a Maze. Numby will automatically search for Basic Treasures and Trotters nearby. Using Technique will regenerate Energy for Topaz after Numby's first attack in the next battle.",
+        "simple_desc": "Summons Numby to tag along in a map. Numby will automatically search for Basic Treasures and Trotters nearby. Using Technique will regenerate Energy for Topaz after Numby's first attack in the next battle.",
         "desc": "Summons Numby when Topaz enters the overworld. Numby will automatically search for Basic Treasures and Trotters within a set radius.\nUsing her Technique will regenerate #1[i] Energy for Topaz after Numby's first attack in the next battle.\nIf Topaz is still in the team after using her Technique and defeating overworld enemies, a small bonus amount of credits will be added to the earned credits. A maximum of #2[i] bonus credits can be received per calendar day.\nAfter using her Technique and defeating enemies in Simulated Universe or Divergent Universe, additionally receive a small amount of Cosmic Fragments with a small chance to obtain 1 random Curio.",
         "params": [
             [
@@ -9848,7 +9848,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "Basic Attack additionally deals minor DMG, and the Toughness Reduction of this Basic Attack is increased. This effect can be triggered again after 1 turn have passed.",
+        "simple_desc": "Basic Attack additionally deals minor DMG, and the Toughness Reduction of this Basic Attack is increased. This effect can be triggered again after 1 turn has passed.",
         "desc": "Basic ATK additionally deals Imaginary DMG equal to #1[i]% of Yukong's ATK, and increases the Toughness Reduction of this attack by #2[i]%. This effect can be triggered again after #3[i] turn(s).",
         "params": [
             [
@@ -9952,8 +9952,8 @@
         "type_text": "Technique",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "Increases Movement Speed. After attacking an enemy and entering battle, receive 2 stacks of Roaring Bowstrings.",
-        "desc": "After using her Technique, Yukong enters Sprint mode for #1[i] seconds. In Sprint mode, her Movement SPD increases by #2[i]%, and Yukong gains #3[i] stack(s) of \"Roaring Bowstrings\" when she enters battle by attacking enemies.",
+        "simple_desc": "This unit's movement speed increases. After attacking an enemy and entering battle, gains 2 stacks of Roaring Bowstrings.",
+        "desc": "After using her Technique, Yukong enters Sprint mode for #1[i] seconds. In Sprint mode, her movement speed increases by #2[i]%, and Yukong gains #3[i] stack(s) of \"Roaring Bowstrings\" when she enters battle by attacking enemies.",
         "params": [
             [
                 20,
@@ -10194,8 +10194,8 @@
         "type_text": "Talent",
         "effect": "Restore",
         "effect_text": "Restore",
-        "simple_desc": "While Fu Xuan is still active in battle, the DMG taken by all team members is reduced.\nWhen her HP is low, automatically restores her own HP based on the percentage of HP already lost. This effect can have up to 2 trigger counts at any given time.",
-        "desc": "While Fu Xuan is still active in battle, Misfortune Avoidance is applied to the entire team. With Misfortune Avoidance, allies take #1[f1]% less DMG.\nWhen Fu Xuan's current HP falls to #2[i]% of her Max HP or less, HP Restore will be triggered for Fu Xuan, restoring her HP by #3[i]% of the amount of HP she is currently missing. This effect cannot be triggered if she receives a killing blow. This effect has 1 trigger count by default and can hold up to a maximum of 2 trigger counts.",
+        "simple_desc": "While Fu Xuan is still active in battle, the DMG taken by all team members is reduced.\nWhen her HP is low, automatically restores her own HP based on the HP percentage already lost. This effect can have up to 2 trigger counts at any given time.",
+        "desc": "While Fu Xuan is still active in battle, Misfortune Avoidance is applied to the entire team. With Misfortune Avoidance, allies take #1[f1]% less DMG.\nWhen Fu Xuan's current HP percentage falls to #2[i]% of her Max HP or less, HP Restore will be triggered for Fu Xuan, restoring her HP by #3[i]% of the amount of HP she is currently missing. This effect cannot be triggered if she receives a killing blow. This effect has 1 trigger count by default and can hold up to a maximum of 2 trigger counts.",
         "params": [
             [
                 0.1,
@@ -10658,8 +10658,8 @@
         "type_text": "Technique",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "After this character uses Technique, at the start of the next battle, increases the DMG dealt by this character to enemy targets whose HP is 50% or higher.",
-        "desc": "After using his Technique, at the start of the next battle, Yanqing deals #2[i]% more DMG for #3[i] turn(s) to enemies whose current HP is #1[i]% or higher.",
+        "simple_desc": "After this character uses Technique, at the start of the next battle, increases the DMG dealt by this character to enemy targets whose HP percentage is 50% or higher.",
+        "desc": "After using his Technique, at the start of the next battle, Yanqing deals #2[i]% more DMG for #3[i] turn(s) to enemies whose current HP percentage is #1[i]% or higher.",
         "params": [
             [
                 0.5,
@@ -11859,8 +11859,8 @@
         "type_text": "Technique",
         "effect": "Impair",
         "effect_text": "Impair",
-        "simple_desc": "Creates a special dimension around the character. Enemies within this dimension will become Frozen. After entering combat with enemies in the dimension, this character regenerates Energy and obtains 1 stack of Syzygy with a high chance to Freeze enemies.",
-        "desc": "After using this Technique, creates a special dimension around Jingliu that lasts for #3[i] seconds, and all enemies in this special dimension will become Frozen. After entering combat with enemies in the special dimension, Jingliu immediately regenerates #6[i] Energy and obtains #1[i] stack(s) of Syzygy, with a #2[i]% base chance of Freezing enemy targets for #4[i] turn(s). While Frozen, enemy targets cannot take action, and receive Ice Additional DMG equal to #5[i]% of Jingliu's ATK at the start of every turn. Only 1 dimension created by allies can exist at the same time.",
+        "simple_desc": "Creates a Special Dimension around the character. Enemies within this dimension will become Frozen. After entering combat with enemies in the dimension, this character regenerates Energy and obtains 1 stack of Syzygy with a high chance to Freeze enemies.",
+        "desc": "After using this Technique, creates a Special Dimension around Jingliu that lasts for #3[i] seconds, and all enemies in this Special Dimension will become Frozen. After entering combat with enemies in the Special Dimension, Jingliu immediately regenerates #6[i] Energy and obtains #1[i] stack(s) of Syzygy, with a #2[i]% base chance of Freezing enemy targets for #4[i] turn(s). While Frozen, enemy targets cannot take action, and receive Ice Additional DMG equal to #5[i]% of Jingliu's ATK at the start of every turn. Only 1 dimension created by allies can exist at the same time.",
         "params": [
             [
                 1,
@@ -13353,7 +13353,7 @@
         "effect": "Restore",
         "effect_text": "Restore",
         "simple_desc": "Huohuo gains Divine Provision after using her Skill. If Huohuo possesses Divine Provision when an ally's turn starts or when an ally uses Ultimate, restores the ally's HP. At the same time, every ally with low HP receives healing once. When Divine Provision is triggered to heal an ally, dispel 1 debuff from that ally.",
-        "desc": "After using her Skill, Huohuo gains Divine Provision, lasting for #1[i] turn(s). This duration decreases by 1 turn at the start of Huohuo's every turn. If Huohuo has Divine Provision when an ally's turn starts or when an ally uses their Ultimate, restores HP for that ally by an amount equal to #3[f1]% of Huohuo's Max HP plus #5[i]. At the same time, every ally with #6[i]% HP or lower receives healing once.\nWhen Divine Provision is triggered to heal an ally, dispel #2[i] debuff(s) from that ally. This effect can be triggered up to #7[i] time(s). Using the skill again resets the effect's trigger count.",
+        "desc": "After using her Skill, Huohuo gains Divine Provision, lasting for #1[i] turn(s). This duration decreases by 1 turn at the start of Huohuo's every turn. If Huohuo has Divine Provision when an ally's turn starts or when an ally uses their Ultimate, restores HP for that ally by an amount equal to #3[f1]% of Huohuo's Max HP plus #5[i]. At the same time, every ally with #6[i]% HP percentage or lower receives healing once.\nWhen Divine Provision is triggered to heal an ally, dispel #2[i] debuff(s) from that ally. This effect can be triggered up to #7[i] time(s). Using the skill again resets the effect's trigger count.",
         "params": [
             [
                 2,
@@ -13516,7 +13516,7 @@
         "type_text": "Technique",
         "effect": "Impair",
         "effect_text": "Impair",
-        "simple_desc": "Causes surrounding enemies to become Horror-Struck. After entering battle with enemies afflicted with Horror-Struck, there is a high chance applying ATK reduction on the enemy targets.",
+        "simple_desc": "Causes surrounding enemies to become Horror-Struck. After entering battle with enemies afflicted with Horror-Struck, there is a high chance of reducing the ATK of the enemy targets.",
         "desc": "Huohuo terrorizes surrounding enemies, afflicting Horror-Struck on them. Enemies in Horror-Struck will flee away from Huohuo for #4[i] second(s). When entering battle with enemies in Horror-Struck, there is a #1[i]% base chance of reducing every single enemy's ATK by #2[i]% for #3[i] turn(s).",
         "params": [
             [
@@ -13938,8 +13938,8 @@
         "type_text": "Technique",
         "effect": "Impair",
         "effect_text": "Impair",
-        "simple_desc": "Creates a special dimension. After entering combat with enemies in this dimension, deals minor Fire DMG to all enemies, with a high chance of applying 1 \"Ashen Roast\" stack.",
-        "desc": "After using Technique, creates a special dimension that lasts for #2[i] second(s). After entering combat with enemies in this special dimension, deals Fire DMG equal to #1[i]% of Jiaoqiu's ATK to all enemies, with a #3[i]% base chance of applying 1 \"Ashen Roast\" stack. Only 1 dimension created by allies can exist at the same time.",
+        "simple_desc": "Creates a Special Dimension. After entering combat with enemies in this dimension, deals minor Fire DMG to all enemies, with a high chance of applying 1 \"Ashen Roast\" stack.",
+        "desc": "After using Technique, creates a Special Dimension that lasts for #2[i] second(s). After entering combat with enemies in this Special Dimension, deals Fire DMG equal to #1[i]% of Jiaoqiu's ATK to all enemies, with a #3[i]% base chance of applying 1 \"Ashen Roast\" stack. Only 1 dimension created by allies can exist at the same time.",
         "params": [
             [
                 1,
@@ -13948,6 +13948,549 @@
             ]
         ],
         "icon": "icon/skill/1218_technique.png"
+    },
+    "122001": {
+        "id": "122001",
+        "name": "Boltsunder",
+        "max_level": 9,
+        "element": "Wind",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Deals minor Wind DMG to a single enemy.",
+        "desc": "Deals Wind DMG equal to #1[i]% of Feixiao's ATK to a single target enemy.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1220_basic_atk.png"
+    },
+    "122002": {
+        "id": "122002",
+        "name": "Waraxe",
+        "max_level": 15,
+        "element": "Wind",
+        "type": "BPSkill",
+        "type_text": "Skill",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Deals Wind DMG to an enemy, and additionally launches Talent's follow-up attack 1 time.",
+        "desc": "Deals Wind DMG equal to #1[i]% of Feixiao's ATK to a target enemy. Then, immediately launches 1 instance of Talent's follow-up attack against the target.",
+        "params": [
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ],
+            [
+                1.4
+            ],
+            [
+                1.5
+            ],
+            [
+                1.625
+            ],
+            [
+                1.75
+            ],
+            [
+                1.875
+            ],
+            [
+                2
+            ],
+            [
+                2.1
+            ],
+            [
+                2.2
+            ],
+            [
+                2.3
+            ],
+            [
+                2.4
+            ],
+            [
+                2.5
+            ]
+        ],
+        "icon": "icon/skill/1220_skill.png"
+    },
+    "122003": {
+        "id": "122003",
+        "name": "Terrasplit",
+        "max_level": 15,
+        "element": "Wind",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "During the Ultimate, can ignore Weakness Type to reduce enemy Toughness. When the target is not Weakness Broken, Feixiao's Weakness Break Efficiency increases.\nLaunches \"Boltsunder Blitz\" or \"Waraxe Skyward\" on a single enemy 6 time(s). Deals Wind DMG at the end.",
+        "desc": "Deals Wind DMG to a single target enemy, up to #4[i]% of Feixiao's ATK. During this time, can ignore Weakness Type to reduce the target's Toughness. When the target is not Weakness Broken, Feixiao's Weakness Break Efficiency increases by #2[i]%.\nDuring the attack, Feixiao first launches \"Boltsunder Blitz\" or \"Waraxe Skyward\" on the target, for a total of #3[i] time(s).\nAt the end, deals Wind DMG equal to #1[i]% of Feixiao's ATK to the target.",
+        "params": [
+            [
+                0.96,
+                1,
+                6,
+                4.02
+            ],
+            [
+                1.024,
+                1,
+                6,
+                4.318
+            ],
+            [
+                1.088,
+                1,
+                6,
+                4.616
+            ],
+            [
+                1.152,
+                1,
+                6,
+                4.914
+            ],
+            [
+                1.216,
+                1,
+                6,
+                5.212
+            ],
+            [
+                1.28,
+                1,
+                6,
+                5.51
+            ],
+            [
+                1.36,
+                1,
+                6,
+                5.8825
+            ],
+            [
+                1.44,
+                1,
+                6,
+                6.255
+            ],
+            [
+                1.52,
+                1,
+                6,
+                6.6275
+            ],
+            [
+                1.6,
+                1,
+                6,
+                7
+            ],
+            [
+                1.664,
+                1,
+                6,
+                7.298
+            ],
+            [
+                1.728,
+                1,
+                6,
+                7.596
+            ],
+            [
+                1.792,
+                1,
+                6,
+                7.894
+            ],
+            [
+                1.856,
+                1,
+                6,
+                8.192
+            ],
+            [
+                1.92,
+                1,
+                6,
+                8.49
+            ]
+        ],
+        "icon": "icon/skill/1220_ultimate.png"
+    },
+    "122004": {
+        "id": "122004",
+        "name": "Thunderhunt",
+        "max_level": 15,
+        "element": "Wind",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Can activate Ultimate when \"Flying Aureus\" reaches 6 points, accumulating up to 12 points. For every 2 attacks by ally targets, Feixiao gains \"Flying Aureus\".\nAfter teammates attack, Feixiao launches follow-up attack against the primary target, dealing Wind DMG. This effect can only trigger once per turn. When using this attack, increases DMG dealt by this unit.",
+        "desc": "Can activate Ultimate when \"Flying Aureus\" reaches #3[i] points, accumulating up to #4[i] points. Feixiao gains 1 point of \"Flying Aureus\" for every #2[i] attacks by ally targets. Feixiao's Ultimate attacks do not count towards this number.\nAfter Feixiao's teammates attack an enemy target, Feixiao immediately launches follow-up attack against the primary target, dealing Wind DMG equal to #1[i]% of Feixiao's ATK. If there is no primary target available to attack, Feixiao attacks a single random enemy instead. This effect can only trigger once per turn and the trigger count resets at the start of Feixiao's turn. When using this attack, increases DMG dealt by this unit by #5[i]%, lasting for #6[i] turn(s).",
+        "params": [
+            [
+                0.55,
+                2,
+                6,
+                12,
+                0.3,
+                2
+            ],
+            [
+                0.605,
+                2,
+                6,
+                12,
+                0.33,
+                2
+            ],
+            [
+                0.66,
+                2,
+                6,
+                12,
+                0.36,
+                2
+            ],
+            [
+                0.715,
+                2,
+                6,
+                12,
+                0.39,
+                2
+            ],
+            [
+                0.77,
+                2,
+                6,
+                12,
+                0.42,
+                2
+            ],
+            [
+                0.825,
+                2,
+                6,
+                12,
+                0.45,
+                2
+            ],
+            [
+                0.8938,
+                2,
+                6,
+                12,
+                0.4875,
+                2
+            ],
+            [
+                0.9625,
+                2,
+                6,
+                12,
+                0.525,
+                2
+            ],
+            [
+                1.0312,
+                2,
+                6,
+                12,
+                0.5625,
+                2
+            ],
+            [
+                1.1,
+                2,
+                6,
+                12,
+                0.6,
+                2
+            ],
+            [
+                1.155,
+                2,
+                6,
+                12,
+                0.63,
+                2
+            ],
+            [
+                1.21,
+                2,
+                6,
+                12,
+                0.66,
+                2
+            ],
+            [
+                1.265,
+                2,
+                6,
+                12,
+                0.69,
+                2
+            ],
+            [
+                1.32,
+                2,
+                6,
+                12,
+                0.72,
+                2
+            ],
+            [
+                1.375,
+                2,
+                6,
+                12,
+                0.75,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1220_talent.png"
+    },
+    "122006": {
+        "id": "122006",
+        "name": "Attack",
+        "max_level": 1,
+        "element": "Wind",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Attacks an enemy, and when the battle starts, reduces their Toughness of the corresponding Type.",
+        "params": [],
+        "icon": "icon/skill/1220_basic_atk.png"
+    },
+    "122007": {
+        "id": "122007",
+        "name": "Stormborn",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Enhance",
+        "effect_text": "Enhance",
+        "simple_desc": "Enters the \"Onrush\" state. Continuously pulls in enemies and movement speed increases. Gains \"Flying Aureus\" after entering battle.\nWhile in \"Onrush,\" can actively attack all pulled enemies. At the start of every wave, deals Wind DMG to all enemies. This DMG is guaranteed to CRIT. The more enemies are pulled in, the higher the DMG multiplier becomes.",
+        "desc": "After using Technique, enters the \"Onrush\" state, lasting for #1[i] seconds. While in \"Onrush,\" pulls in enemies within a certain range, and increases this unit's movement speed by #2[i]%. After entering battle, gains #4[i] point(s) of \"Flying Aureus.\"\nWhile in \"Onrush,\" actively attacking will start battle with all pulled enemies. After entering battle, deals Wind DMG equal to #3[i]% of Feixiao's ATK to all enemies at the start of each wave. This DMG is guaranteed to CRIT. If more than 1 enemy is pulled in, increases the multiplier of this DMG by #5[i]% for each additional enemy pulled in, up to a maximum of #6[i]%.",
+        "params": [
+            [
+                20,
+                0.5,
+                2,
+                1,
+                1,
+                10
+            ]
+        ],
+        "icon": "icon/skill/1220_technique.png"
+    },
+    "122008": {
+        "id": "122008",
+        "name": "Boltsunder Blitz",
+        "max_level": 15,
+        "element": "Wind",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Deals minor Wind DMG to a single enemy and increases the DMG multiplier against targets that are Weakness Broken.",
+        "desc": "Deals Wind DMG equal to #1[i]% of Feixiao's ATK to the chosen target. If the target is Weakness Broken, the DMG multiplier increases by #2[i]%.",
+        "params": [
+            [
+                0.36,
+                0.15
+            ],
+            [
+                0.384,
+                0.165
+            ],
+            [
+                0.408,
+                0.18
+            ],
+            [
+                0.432,
+                0.195
+            ],
+            [
+                0.456,
+                0.21
+            ],
+            [
+                0.48,
+                0.225
+            ],
+            [
+                0.51,
+                0.2437
+            ],
+            [
+                0.54,
+                0.2625
+            ],
+            [
+                0.57,
+                0.2812
+            ],
+            [
+                0.6,
+                0.3
+            ],
+            [
+                0.624,
+                0.315
+            ],
+            [
+                0.648,
+                0.33
+            ],
+            [
+                0.672,
+                0.345
+            ],
+            [
+                0.696,
+                0.36
+            ],
+            [
+                0.72,
+                0.375
+            ]
+        ],
+        "icon": "icon/skill/1220_ultimate.png"
+    },
+    "122009": {
+        "id": "122009",
+        "name": "Waraxe Skyward",
+        "max_level": 15,
+        "element": "Wind",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Deals minor Wind DMG to a single enemy and increases the DMG multiplier against targets that are not Weakness Broken.",
+        "desc": "Deals Wind DMG equal to #1[i]% of Feixiao's ATK to the chosen target. If the target is not Weakness Broken, the DMG multiplier increases by #2[i]%.",
+        "params": [
+            [
+                0.36,
+                0.15
+            ],
+            [
+                0.384,
+                0.165
+            ],
+            [
+                0.408,
+                0.18
+            ],
+            [
+                0.432,
+                0.195
+            ],
+            [
+                0.456,
+                0.21
+            ],
+            [
+                0.48,
+                0.225
+            ],
+            [
+                0.51,
+                0.2437
+            ],
+            [
+                0.54,
+                0.2625
+            ],
+            [
+                0.57,
+                0.2812
+            ],
+            [
+                0.6,
+                0.3
+            ],
+            [
+                0.624,
+                0.315
+            ],
+            [
+                0.648,
+                0.33
+            ],
+            [
+                0.672,
+                0.345
+            ],
+            [
+                0.696,
+                0.36
+            ],
+            [
+                0.72,
+                0.375
+            ]
+        ],
+        "icon": "icon/skill/1220_ultimate.png"
+    },
+    "122014": {
+        "id": "122014",
+        "name": "Terrasplit",
+        "max_level": 15,
+        "element": "Wind",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "",
+        "desc": "",
+        "params": [],
+        "icon": "icon/skill/1220_ultimate.png"
     },
     "122101": {
         "id": "122101",
@@ -14105,7 +14648,7 @@
         "type_text": "Ultimate",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "Enters \"Parry\" and taunts all enemies. When attacked during this period, triggers powerful Counter and deals Physical DMG to the attacker and adjacent targets. Then, deals minor Physical DMG to a single enemy that bounces 6 times. If no Counter is triggered during the Parry state, deals Physical DMG to a random enemy target and adjacent targets when Parry ends.",
+        "simple_desc": "Enters \"Parry\" and taunts all enemies. When attacked during this period, triggers powerful Counter and deals Physical DMG to the attacker and adjacent targets. Then, deals minor Physical DMG to a single enemy that bounces 6 times. If no Counter is triggered while Parry is active, deals Physical DMG to a random enemy target and adjacent targets when Parry ends.",
         "desc": "Consumes #8[i] Energy. Yunli gains Parry and Taunts all enemies, lasting until the end of the next ally's or enemy's turn. Increases the CRIT DMG dealt by Yunli's next Counter by #2[i]%. When triggering the Counter effect from Talent, launches the Counter \"Intuit: Cull\" instead and removes the Parry effect. If no Counter is triggered while Parry is active, Yunli will immediately launch the Counter \"Intuit: Slash\" on a random enemy target.\n\"Intuit: Slash\": Deals Physical DMG equal to #1[i]% of Yunli's ATK to the target, and deals Physical DMG equal to #6[i]% of Yunli's ATK to adjacent targets.\n\"Intuit: Cull\": Deals Physical DMG equal to #1[i]% of Yunli's ATK to the target, and deals Physical DMG equal to #6[i]% of Yunli's ATK to adjacent targets. Then, additionally deals #4[i] instances of DMG, each dealing Physical DMG equal to #7[i]% of Yunli's ATK to a random single enemy.\nWhen Yunli deals DMG via this ability, it's considered as dealing Ultimate DMG.",
         "params": [
             [
@@ -14384,6 +14927,786 @@
         ],
         "icon": "icon/skill/1221_technique.png"
     },
+    "122201": {
+        "id": "122201",
+        "name": "Votive Incense",
+        "max_level": 9,
+        "element": "Fire",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Deals minor Fire DMG to a single enemy.",
+        "desc": "Deals Fire DMG equal to #1[i]% of Lingsha's ATK to a single target enemy.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1222_basic_atk.png"
+    },
+    "122202": {
+        "id": "122202",
+        "name": "Smoke and Splendor",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "BPSkill",
+        "type_text": "Skill",
+        "effect": "AoEAttack",
+        "effect_text": "AoE",
+        "simple_desc": "Deals minor Fire DMG to all enemies and, at the same time, restores HP for all allies. Fuyuan's action advances.",
+        "desc": "Deals Fire DMG equal to #1[i]% of Lingsha's ATK to all enemies and at the same time, restores HP equal to #2[f1]% of Lingsha's ATK plus #3[i] for all allies. Fuyuan's action advances by #4[i]%.",
+        "params": [
+            [
+                0.4,
+                0.1,
+                105,
+                0.2
+            ],
+            [
+                0.44,
+                0.105,
+                168,
+                0.2
+            ],
+            [
+                0.48,
+                0.11,
+                215.25,
+                0.2
+            ],
+            [
+                0.52,
+                0.115,
+                262.5,
+                0.2
+            ],
+            [
+                0.56,
+                0.12,
+                294,
+                0.2
+            ],
+            [
+                0.6,
+                0.124,
+                325.5,
+                0.2
+            ],
+            [
+                0.65,
+                0.128,
+                349.125,
+                0.2
+            ],
+            [
+                0.7,
+                0.132,
+                372.75,
+                0.2
+            ],
+            [
+                0.75,
+                0.136,
+                396.375,
+                0.2
+            ],
+            [
+                0.8,
+                0.14,
+                420,
+                0.2
+            ],
+            [
+                0.84,
+                0.144,
+                443.625,
+                0.2
+            ],
+            [
+                0.88,
+                0.148,
+                467.25,
+                0.2
+            ],
+            [
+                0.92,
+                0.152,
+                490.875,
+                0.2
+            ],
+            [
+                0.96,
+                0.156,
+                514.5,
+                0.2
+            ],
+            [
+                1,
+                0.16,
+                538.125,
+                0.2
+            ]
+        ],
+        "icon": "icon/skill/1222_skill.png"
+    },
+    "122203": {
+        "id": "122203",
+        "name": "Dripping Mistscape",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "AoEAttack",
+        "effect_text": "AoE",
+        "simple_desc": "Increases Break DMG taken by all enemies, deals Fire DMG to all enemies, and at the same time, restores HP for all allies. Fuyuan's action advances.",
+        "desc": "Inflicts \"Befog\" on all enemies. While in \"Befog,\" targets receive #4[i]% increased Break DMG, lasting for #5[i] turn(s).\nDeals Fire DMG equal to #1[i]% of Lingsha's ATK to all enemies, and at the same time restores HP equal to #2[f1]% of Lingsha's ATK plus #3[i] for all allies. Fuyuan's action advances by #6[i]%.",
+        "params": [
+            [
+                0.9,
+                0.08,
+                90,
+                0.15,
+                2,
+                1
+            ],
+            [
+                0.96,
+                0.085,
+                144,
+                0.16,
+                2,
+                1
+            ],
+            [
+                1.02,
+                0.09,
+                184.5,
+                0.17,
+                2,
+                1
+            ],
+            [
+                1.08,
+                0.095,
+                225,
+                0.18,
+                2,
+                1
+            ],
+            [
+                1.14,
+                0.1,
+                252,
+                0.19,
+                2,
+                1
+            ],
+            [
+                1.2,
+                0.104,
+                279,
+                0.2,
+                2,
+                1
+            ],
+            [
+                1.275,
+                0.108,
+                299.25,
+                0.2125,
+                2,
+                1
+            ],
+            [
+                1.35,
+                0.112,
+                319.5,
+                0.225,
+                2,
+                1
+            ],
+            [
+                1.425,
+                0.116,
+                339.75,
+                0.2375,
+                2,
+                1
+            ],
+            [
+                1.5,
+                0.12,
+                360,
+                0.25,
+                2,
+                1
+            ],
+            [
+                1.56,
+                0.124,
+                380.25,
+                0.26,
+                2,
+                1
+            ],
+            [
+                1.62,
+                0.128,
+                400.5,
+                0.27,
+                2,
+                1
+            ],
+            [
+                1.68,
+                0.132,
+                420.75,
+                0.28,
+                2,
+                1
+            ],
+            [
+                1.74,
+                0.136,
+                441,
+                0.29,
+                2,
+                1
+            ],
+            [
+                1.8,
+                0.14,
+                461.25,
+                0.3,
+                2,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1222_ultimate.png"
+    },
+    "122204": {
+        "id": "122204",
+        "name": "Mistdance Manifest",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "AoEAttack",
+        "effect_text": "AoE",
+        "simple_desc": "Using Skill summons Fuyuan: When taking action, launches follow-up attack and deals minor Fire DMG to all enemies. Additionally deals minor Fire DMG to a single random enemy, prioritizing targets with both Toughness greater than 0 and Fire Weakness. Dispels 1 debuff from all allies, and restores HP.\nUsing Skill repeatedly will increase Fuyuan's action count.",
+        "desc": "When using Skill, summons Fuyuan, with an initial SPD of #1[i] and an initial action count of #7[i].\nWhen taking action, Fuyuan launches follow-up attack, dealing Fire DMG equal to #2[i]% of Lingsha's ATK to all enemies. Additionally deals Fire DMG equal to #8[i]% of Lingsha's ATK to a single random enemy, and this DMG prioritizes targets that have both Toughness greater than 0 and Fire Weakness. Dispels #6[i] debuff(s) from all allies and restores HP equal to #3[f1]% of Lingsha's ATK plus #4[i].\nFuyuan's action count can accumulate up to #5[i]. When the action count reaches 0 or when Lingsha is knocked down, Fuyuan disappears.\nWhile Fuyuan is on the field, using Skill can increase Fuyuan's action count by #7[i].",
+        "params": [
+            [
+                90,
+                0.375,
+                0.08,
+                90,
+                5,
+                1,
+                3,
+                0.375
+            ],
+            [
+                90,
+                0.4125,
+                0.085,
+                144,
+                5,
+                1,
+                3,
+                0.4125
+            ],
+            [
+                90,
+                0.45,
+                0.09,
+                184.5,
+                5,
+                1,
+                3,
+                0.45
+            ],
+            [
+                90,
+                0.4875,
+                0.095,
+                225,
+                5,
+                1,
+                3,
+                0.4875
+            ],
+            [
+                90,
+                0.525,
+                0.1,
+                252,
+                5,
+                1,
+                3,
+                0.525
+            ],
+            [
+                90,
+                0.5625,
+                0.104,
+                279,
+                5,
+                1,
+                3,
+                0.5625
+            ],
+            [
+                90,
+                0.6094,
+                0.108,
+                299.25,
+                5,
+                1,
+                3,
+                0.6094
+            ],
+            [
+                90,
+                0.6562,
+                0.112,
+                319.5,
+                5,
+                1,
+                3,
+                0.6562
+            ],
+            [
+                90,
+                0.7031,
+                0.116,
+                339.75,
+                5,
+                1,
+                3,
+                0.7031
+            ],
+            [
+                90,
+                0.75,
+                0.12,
+                360,
+                5,
+                1,
+                3,
+                0.75
+            ],
+            [
+                90,
+                0.7875,
+                0.124,
+                380.25,
+                5,
+                1,
+                3,
+                0.7875
+            ],
+            [
+                90,
+                0.825,
+                0.128,
+                400.5,
+                5,
+                1,
+                3,
+                0.825
+            ],
+            [
+                90,
+                0.8625,
+                0.132,
+                420.75,
+                5,
+                1,
+                3,
+                0.8625
+            ],
+            [
+                90,
+                0.9,
+                0.136,
+                441,
+                5,
+                1,
+                3,
+                0.9
+            ],
+            [
+                90,
+                0.9375,
+                0.14,
+                461.25,
+                5,
+                1,
+                3,
+                0.9375
+            ]
+        ],
+        "icon": "icon/skill/1222_talent.png"
+    },
+    "122206": {
+        "id": "122206",
+        "name": "Attack",
+        "max_level": 1,
+        "element": "Fire",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "",
+        "desc": "Attacks an enemy, and when the battle starts, reduces their Toughness of the corresponding Type.",
+        "params": [],
+        "icon": "icon/skill/1222_basic_atk.png"
+    },
+    "122207": {
+        "id": "122207",
+        "name": "Wisps of Aurora",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Support",
+        "effect_text": "Support",
+        "simple_desc": "After using Technique, immediately summons Fuyuan at the start of the next battle and increases Break DMG taken by all enemies.",
+        "desc": "After using Technique, immediately summons Fuyuan at the start of the next battle and inflicts \"Befog\" on all enemies, lasting for #1[i] turn(s).",
+        "params": [
+            [
+                2
+            ]
+        ],
+        "icon": "icon/skill/1222_technique.png"
+    },
+    "122301": {
+        "id": "122301",
+        "name": "Hurlthorn",
+        "max_level": 9,
+        "element": "Thunder",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Deals minor Lightning DMG to a single enemy.",
+        "desc": "Deals Lightning DMG equal to #1[i]% of Moze's ATK to a single target enemy.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1223_basic_atk.png"
+    },
+    "122302": {
+        "id": "122302",
+        "name": "Fleetwinged Raid",
+        "max_level": 15,
+        "element": "Thunder",
+        "type": "BPSkill",
+        "type_text": "Skill",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Marks a single enemy as \"Prey\" and deals Lightning DMG to it. Gains 9 points of Charge.",
+        "desc": "Marks a designated single enemy target as \"Prey\" and deals to it Lightning DMG equal to #1[i]% of Moze's ATK, and gains #2[i] points of Charge.\nWhen there are no other characters on the field that are capable of combat, Moze cannot use his Skill and dispels the enemy's \"Prey\" state.",
+        "params": [
+            [
+                0.75,
+                9
+            ],
+            [
+                0.825,
+                9
+            ],
+            [
+                0.9,
+                9
+            ],
+            [
+                0.975,
+                9
+            ],
+            [
+                1.05,
+                9
+            ],
+            [
+                1.125,
+                9
+            ],
+            [
+                1.2188,
+                9
+            ],
+            [
+                1.3125,
+                9
+            ],
+            [
+                1.4062,
+                9
+            ],
+            [
+                1.5,
+                9
+            ],
+            [
+                1.575,
+                9
+            ],
+            [
+                1.65,
+                9
+            ],
+            [
+                1.725,
+                9
+            ],
+            [
+                1.8,
+                9
+            ],
+            [
+                1.875,
+                9
+            ]
+        ],
+        "icon": "icon/skill/1223_skill.png"
+    },
+    "122303": {
+        "id": "122303",
+        "name": "Dash In, Gash Out",
+        "max_level": 15,
+        "element": "Thunder",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Deals Lightning DMG to a single enemy, and launches Talent's follow-up attack.",
+        "desc": "Deals Lightning DMG equal to #1[i]% of Moze's ATK to a single target enemy, and launches the Talent's follow-up attack against this target. If the target is defeated before this follow-up attack is used, then launches the follow-up attack against a random single enemy instead.",
+        "params": [
+            [
+                1.62
+            ],
+            [
+                1.728
+            ],
+            [
+                1.836
+            ],
+            [
+                1.944
+            ],
+            [
+                2.052
+            ],
+            [
+                2.16
+            ],
+            [
+                2.295
+            ],
+            [
+                2.43
+            ],
+            [
+                2.565
+            ],
+            [
+                2.7
+            ],
+            [
+                2.808
+            ],
+            [
+                2.916
+            ],
+            [
+                3.024
+            ],
+            [
+                3.132
+            ],
+            [
+                3.24
+            ]
+        ],
+        "icon": "icon/skill/1223_ultimate.png"
+    },
+    "122304": {
+        "id": "122304",
+        "name": "Cascading Featherblade",
+        "max_level": 15,
+        "element": "Thunder",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "When \"Prey\" exists on the field, Moze will enter the Departed state.\nAfter allies attack \"Prey,\" Moze deals Lightning Additional DMG and consumes 1 Charge point. For every 3 point(s) of Charge consumed, Moze launches  follow-up attack on \"Prey,\" dealing Lightning DMG. When Charge is 0, dispels the target's \"Prey\" state.",
+        "desc": "When \"Prey\" exists on the field, Moze will enter the Departed state.\nAfter allies attack \"Prey,\" Moze will additionally deal 1 instance of Lightning Additional DMG equal to #1[i]% of his ATK and consumes 1 point of Charge. For every #2[i] point(s) of Charge consumed, Moze launches 1 follow-up attack to \"Prey,\" dealing Lightning DMG equal to #3[i]% of his ATK. When Charge reaches 0, dispels the target's \"Prey\" state and resets the tally of Charge points required to launch follow-up attack. Talent's follow-up attack does not consume Charge.",
+        "params": [
+            [
+                0.15,
+                3,
+                0.8
+            ],
+            [
+                0.165,
+                3,
+                0.88
+            ],
+            [
+                0.18,
+                3,
+                0.96
+            ],
+            [
+                0.195,
+                3,
+                1.04
+            ],
+            [
+                0.21,
+                3,
+                1.12
+            ],
+            [
+                0.225,
+                3,
+                1.2
+            ],
+            [
+                0.2437,
+                3,
+                1.3
+            ],
+            [
+                0.2625,
+                3,
+                1.4
+            ],
+            [
+                0.2812,
+                3,
+                1.5
+            ],
+            [
+                0.3,
+                3,
+                1.6
+            ],
+            [
+                0.315,
+                3,
+                1.68
+            ],
+            [
+                0.33,
+                3,
+                1.76
+            ],
+            [
+                0.345,
+                3,
+                1.84
+            ],
+            [
+                0.36,
+                3,
+                1.92
+            ],
+            [
+                0.375,
+                3,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1223_talent.png"
+    },
+    "122306": {
+        "id": "122306",
+        "name": "Attack",
+        "max_level": 1,
+        "element": "Thunder",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Attacks an enemy, and when the battle starts, reduces their Toughness of the corresponding Type.",
+        "params": [],
+        "icon": "icon/skill/1223_basic_atk.png"
+    },
+    "122307": {
+        "id": "122307",
+        "name": "Bated Wings",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Enhance",
+        "effect_text": "Enhance",
+        "simple_desc": "Enters the Stealth state. Attacking enemies to enter combat while in Stealth increases DMG.",
+        "desc": "After using Technique, enters the Stealth state for #1[i] second(s). While in Stealth, Moze is undetectable by enemies. If Moze attacks enemies to enter combat while in Stealth, increases DMG by #2[i]%, lasting for #3[i] turn(s).",
+        "params": [
+            [
+                20,
+                0.3,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1223_technique.png"
+    },
     "122401": {
         "id": "122401",
         "name": "My Sword Zaps Demons",
@@ -14394,7 +15717,7 @@
         "effect": "SingleAttack",
         "effect_text": "Single Target",
         "simple_desc": "Deals minor Imaginary DMG to a single enemy and gains 1 point(s) of Charge.",
-        "desc": "Deals Imaginary DMG equal to #1[i]% of March 7th's ATK to a single enemy and gains #2[i] point(s) of Charge.",
+        "desc": "Deals Imaginary DMG equal to #1[i]% of March 7th's ATK to a single target enemy and gains #2[i] point(s) of Charge.",
         "params": [
             [
                 0.5,
@@ -14445,7 +15768,7 @@
         "effect": "Support",
         "effect_text": "Support",
         "simple_desc": "Makes a single ally become Shifu. When using Basic ATK or dealing Enhanced Basic ATK's DMG, triggers the corresponding effect based on the Shifu's Path:\nErudition, Destruction, The Hunt: Deals Additional DMG based on Shifu's Type.\nHarmony, Nihility, Preservation, Abundance: Toughness Reduction increases.",
-        "desc": "Designates a single ally (excluding this unit) as Shifu and increases Shifu's SPD by #1[f1]%. Only the most recent target of March 7th's Skill is considered as Shifu.\nWhen using Basic ATK or dealing 1 hit of Enhanced Basic ATK's DMG, triggers the corresponding effect based on the specific Path of Shifu:\nErudition, Destruction, The Hunt: Deals Additional DMG (DMG Type based on Shifu's Combat Type) equal to #2[i]% of March 7th's ATK.\nHarmony, Nihility, Preservation, Abundance: Increases the Toughness Reduction of this instance of DMG by #3[i]%.",
+        "desc": "Designates a single ally (excluding this unit) as Shifu and increases Shifu's SPD by #1[f1]%. Only the most recent target of March 7th's Skill is considered as Shifu.\n\nWhenever using Basic ATK or dealing 1 hit of Enhanced Basic ATK's DMG, triggers the corresponding effect if Shifu with the specified Path is present on the field:\nErudition, Destruction, The Hunt: Deals Additional DMG (DMG Type based on Shifu's Combat Type) equal to #2[i]% of March 7th's ATK.\nHarmony, Nihility, Preservation, Abundance: Increases the Toughness Reduction of this instance of DMG by #3[i]%.",
         "params": [
             [
                 0.06,
@@ -14624,7 +15947,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "After Shifu uses an attack or Ultimate, March 7th gains Charge. When reaching 7 points of Charge, March 7th immediately takes action, and increases the DMG she deals. Basic ATK gets Enhanced.",
+        "simple_desc": "After Shifu uses an attack or Ultimate, March 7th gains Charge. When reaching 7 points of Charge, March 7th immediately takes action and increases the DMG she deals. Basic ATK gets Enhanced.",
         "desc": "After Shifu uses an attack or Ultimate, March 7th gains up to 1 point of Charge each time.\nUpon reaching #1[i] or more points of Charge, March 7th immediately takes action and increases the DMG she deals by #2[i]%. Her Basic ATK gets Enhanced, and her Skill cannot be used. After using Enhanced Basic ATK, consumes #1[i] point(s) of Charge. Charge is capped at #3[i] points.",
         "params": [
             [
@@ -14748,7 +16071,7 @@
         "effect": "SingleAttack",
         "effect_text": "Single Target",
         "simple_desc": "Deals Imaginary DMG to a single enemy, dealing 3 hits initially. There is a chance to additionally deal up to 3 hit(s).",
-        "desc": "Initially, deals #4[i] hits, each causing Imaginary DMG equal to #1[i]% of March 7th's ATK to a single target enemy. After dealing the final hit, there is a #2[i]% fixed chance to deal 1 extra hit, up to a max of #3[i] extra hit(s). Energy regenerated from using Enhanced Basic ATK does not increase with the number of hits.\nEnhanced Basic ATK cannot recover Skill Points.",
+        "desc": "Initially, deals #4[i] hits, each causing Imaginary DMG equal to #1[i]% of March 7th's ATK to a single target enemy. Whenever dealing the final hit, there is a #2[i]% fixed chance to deal 1 additional hit of DMG, up to a max of #3[i] additional hit(s). Energy regenerated from using Enhanced Basic ATK does not increase with the number of hits.\nEnhanced Basic ATK cannot recover Skill Points.",
         "params": [
             [
                 0.4,
@@ -15609,7 +16932,7 @@
         "type_text": "Skill",
         "effect": "Support",
         "effect_text": "Support",
-        "simple_desc": "After using her Skill, Ruan Mei gains Overtone. When Ruan Mei has Overtone, increase all allies' DMG and Weakness Break efficiency.",
+        "simple_desc": "After using her Skill, Ruan Mei gains Overtone. When Ruan Mei has Overtone, increase all allies' DMG and Weakness Break Efficiency.",
         "desc": "After using her Skill, Ruan Mei gains Overtone, lasting for #3[i] turn(s). This duration decreases by 1 at the start of Ruan Mei's every turn. When Ruan Mei has Overtone, all allies' DMG increases by #1[f1]% and Weakness Break Efficiency increases by #2[i]%.",
         "params": [
             [
@@ -16617,8 +17940,8 @@
         "type_text": "Technique",
         "effect": "Impair",
         "effect_text": "Impair",
-        "simple_desc": "Creates a special dimension. Enemies within the dimension are Taunted. After entering battle with enemies in this dimension, there is a high chance to reduce SPD of enemy targets.",
-        "desc": "After using Technique, creates a special dimension that Taunts nearby enemies, lasting for #1[i] second(s). After entering battle with enemies in this special dimension, there is a #2[i]% base chance to reduce each single enemy target's SPD by #3[i]% for #4[i] turn(s). Only 1 dimension created by allies can exist at the same time.",
+        "simple_desc": "Creates a Special Dimension. Enemies within the dimension are Taunted. After entering battle with enemies in this dimension, there is a high chance to reduce SPD of enemy targets.",
+        "desc": "After using Technique, creates a Special Dimension that Taunts nearby enemies, lasting for #1[i] second(s). After entering battle with enemies in this Special Dimension, there is a #2[i]% base chance to reduce each single enemy target's SPD by #3[i]% for #4[i] turn(s). Only 1 dimension created by allies can exist at the same time.",
         "params": [
             [
                 10,
@@ -18572,8 +19895,8 @@
         "type_text": "Technique",
         "effect": "Support",
         "effect_text": "Support",
-        "simple_desc": "Creates a special dimension around the character. Enemies within this dimension will not attack Robin. After entering battle while the dimension is active, Robin additionally regenerates 5 Energy at the start of each wave.",
-        "desc": "After using Technique, creates a special dimension around the character that lasts for #1[i] seconds. Enemies within this dimension will not attack Robin and will follow Robin while the dimension is active. After entering battle while the dimension is active, Robin regenerates #2[i] Energy at the start of each wave. Only 1 dimension created by allies can exist at the same time.",
+        "simple_desc": "Creates a Special Dimension around the character. Enemies within this dimension will not attack Robin. After entering battle while the dimension is active, Robin additionally regenerates 5 Energy at the start of each wave.",
+        "desc": "After using Technique, creates a Special Dimension around the character that lasts for #1[i] seconds. Enemies within this dimension will not attack Robin and will follow Robin while the dimension is active. After entering battle while the dimension is active, Robin regenerates #2[i] Energy at the start of each wave. Only 1 dimension created by allies can exist at the same time.",
         "params": [
             [
                 15,
@@ -18738,8 +20061,8 @@
         "type_text": "Ultimate",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "Enters the Complete Combustion state. Advances this unit's Action by 100%. Gains Enhanced Basic ATK and Enhanced Skill. Increases this unit's SPD, Weakness Break efficiency, and the Break DMG received by the enemy targets, lasting until the countdown ends.",
-        "desc": "Enters the Complete Combustion state, advances this unit's Action by 100%, and gains Enhanced Basic ATK and Enhanced Skill. While in Complete Combustion, increases SPD by #3[i], and when using the Enhanced Basic ATK or Enhanced Skill, increases this unit's Weakness Break efficiency by #2[i]% and the Break DMG dealt by SAM to the enemy targets by #1[f1]%, lasting until this current attack ends.\nA countdown timer for the Complete Combustion state appears on the Action Order. When the countdown timer's turn starts, SAM exits the Complete Combustion state. The countdown timer has a fixed SPD of #4[i].\nSAM cannot use Ultimate while in Complete Combustion.",
+        "simple_desc": "Enters the Complete Combustion state. Advances this unit's Action by 100%. Gains Enhanced Basic ATK and Enhanced Skill. Increases this unit's SPD, Weakness Break Efficiency, and the Break DMG received by the enemy targets, lasting until the countdown ends.",
+        "desc": "Enters the Complete Combustion state, advances this unit's Action by 100%, and gains Enhanced Basic ATK and Enhanced Skill. While in Complete Combustion, increases SPD by #3[i], and when using the Enhanced Basic ATK or Enhanced Skill, increases this unit's Weakness Break Efficiency by #2[i]% and the Break DMG dealt by SAM to the enemy targets by #1[f1]%, lasting until this current attack ends.\nA countdown timer for the Complete Combustion state appears on the Action Order. When the countdown timer's turn starts, SAM exits the Complete Combustion state. The countdown timer has a fixed SPD of #4[i].\nSAM cannot use Ultimate while in Complete Combustion.",
         "params": [
             [
                 0.1,
@@ -18843,7 +20166,7 @@
         "type_text": "Talent",
         "effect": "Defence",
         "effect_text": "Defense",
-        "simple_desc": "The lower the HP, the less DMG received. During the Complete Combustion, the DMG Reduction remains at its maximum effect, and the Effect RES increases. If Energy is lower than 50% when the battle starts, regenerates Energy to 50%. Once Energy is regenerated to its maximum, dispels all debuffs on this unit.",
+        "simple_desc": "The lower the HP, the less DMG received. During the Complete Combustion state, the DMG Reduction effect remains at its maximum extent and Effect RES is increased. If Energy is lower than 50% when the battle starts, regenerates Energy to 50%. Once Energy is regenerated to its maximum, dispels all debuffs on this unit.",
         "desc": "The lower the HP, the less DMG received. When HP is #3[i]% or lower, the DMG Reduction reaches its maximum effect, reducing up to #1[i]%. During the Complete Combustion, the DMG Reduction remains at its maximum effect, and the Effect RES increases by #4[i]%.\nIf Energy is lower than #2[i]% when the battle starts, regenerates Energy to #2[i]%. Once Energy is regenerated to its maximum, dispels all debuffs on this unit.",
         "params": [
             [
@@ -19225,7 +20548,7 @@
         "type_text": "Skill",
         "effect": "Blast",
         "effect_text": "Blast",
-        "simple_desc": "Deals Ice DMG to an enemy and minor Ice DMG to enemies adjacent to them. In addition, increases Misha's next Ultimate's Hit Per Action.",
+        "simple_desc": "Deals Ice DMG to an enemy and minor Ice DMG to enemies adjacent to them. In addition, increases Misha's next Ultimate's Hits Per Action.",
         "desc": "Increases the Hits Per Action for Misha's next Ultimate by #3[i] hit(s). Deals Ice DMG equal to #1[i]% of Misha's ATK to a single target enemy, and Ice DMG equal to #2[i]% of Misha's ATK to adjacent targets.",
         "params": [
             [
@@ -19524,8 +20847,8 @@
         "type_text": "Technique",
         "effect": "Impair",
         "effect_text": "Impair",
-        "simple_desc": "Creates a special dimension that stops all enemies within. Upon entering battle against enemies within the dimension, Misha's next Ultimate deals more Hits Per Action.",
-        "desc": "After using the Technique, creates a special dimension that lasts for #1[i] seconds. Enemies caught in the special dimension are inflicted with Dream Prison and stop all their actions. Upon entering battle against enemies afflicted with Dream Prison, increases the Hits Per Action for Misha's next Ultimate by #2[i] hit(s). Only 1 dimension created by allies can exist at the same time.",
+        "simple_desc": "Creates a Special Dimension that stops all enemies within. Upon entering battle against enemies within the dimension, Misha's next Ultimate deals more Hits Per Action.",
+        "desc": "After using the Technique, creates a Special Dimension that lasts for #1[i] seconds. Enemies caught in the Special Dimension are inflicted with Dream Prison and stop all their actions. Upon entering battle against enemies afflicted with Dream Prison, increases the Hits Per Action for Misha's next Ultimate by #2[i] hit(s). Only 1 dimension created by allies can exist at the same time.",
         "params": [
             [
                 15,
@@ -19594,7 +20917,7 @@
         "type_text": "Skill",
         "effect": "Support",
         "effect_text": "Support",
-        "simple_desc": "Makes a single ally become the Debt Collector and increases their SPD. After the Debt Collector attacks, they deal minor Additional Quantum DMG to each enemy target hit and consume their own HP. When Jade becomes the Debt Collector, she cannot gain the SPD boost effect, and her attacks do not consume HP.",
+        "simple_desc": "Makes a single ally become the Debt Collector and increases their SPD. After the Debt Collector attacks, deals minor Additional Quantum DMG to each enemy target hit and consume the Collector's own HP. When Jade becomes the Debt Collector, she cannot gain the SPD boost effect, and her attacks do not consume her HP.",
         "desc": "Makes a single target ally become the Debt Collector and increases their SPD by #1[i], lasting for #4[i] turn(s).\nAfter the Debt Collector attacks, deals 1 instance of Additional Quantum DMG equal to #3[i]% of Jade's ATK to each enemy target hit, and consumes the Debt Collector's HP by an amount equal to #2[i]% of their Max HP. If the current HP is insufficient, reduces HP to 1.\nIf Jade becomes the Debt Collector, she cannot gain the SPD boost effect, and her attacks do not consume HP.\nWhen the Debt Collector exists on the field, Jade cannot use her Skill. At the start of Jade's every turn, the Debt Collector's duration decreases by 1 turn.",
         "params": [
             [
@@ -19699,7 +21022,7 @@
         "type_text": "Ultimate",
         "effect": "AoEAttack",
         "effect_text": "AoE",
-        "simple_desc": "Deals Quantum DMG to all enemies and gains increased the multiplier for follow-up attack DMG.",
+        "simple_desc": "Deals Quantum DMG to all enemies and this unit's follow-up attack DMG multiplier increases.",
         "desc": "Deals Quantum DMG equal to #3[i]% of Jade's ATK to all enemies. At the same time, Jade enhances her Talent's follow-up attack, increasing its DMG multiplier by #1[i]%. This enhancement can take effect #2[i] time(s).",
         "params": [
             [
@@ -20566,7 +21889,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "",
+        "simple_desc": "Every time this unit breaks an Enemy target's Weakness, ATK increases.",
         "desc": "Each time after this character inflicts Weakness Break on an enemy, ATK increases by #1[i]%. This effect stacks up to #2[i] time(s).",
         "params": [
             [
@@ -20655,7 +21978,7 @@
         "type_text": "Technique",
         "effect": "Restore",
         "effect_text": "Restore",
-        "simple_desc": "",
+        "simple_desc": "After using Technique, immediately restores HP for team.",
         "desc": "Immediately heals all allies for #1[i]% of their respective Max HP after using this Technique.",
         "params": [
             [
@@ -21000,7 +22323,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "",
+        "simple_desc": "Every time this unit breaks an Enemy target's Weakness, ATK increases.",
         "desc": "Each time after this character inflicts Weakness Break on an enemy, ATK increases by #1[i]%. This effect stacks up to #2[i] time(s).",
         "params": [
             [
@@ -21089,7 +22412,7 @@
         "type_text": "Technique",
         "effect": "Restore",
         "effect_text": "Restore",
-        "simple_desc": "",
+        "simple_desc": "After using Technique, immediately restores HP for team.",
         "desc": "Immediately heals all allies for #1[i]% of their respective Max HP after using this Technique.",
         "params": [
             [
@@ -21374,7 +22697,7 @@
         "type_text": "Ultimate",
         "effect": "AoEAttack",
         "effect_text": "AoE",
-        "simple_desc": "Deals Fire DMG to all enemies and enhances the next Basic ATK.",
+        "simple_desc": "Deals Fire DMG to all enemies and enhances this unit's next Basic ATK.",
         "desc": "Deals Fire DMG equal to #1[i]% of the Trailblazer's ATK plus #2[i]% of the Trailblazer's DEF to all enemies. The next Basic ATK will be automatically enhanced and does not cost Magma Will.",
         "params": [
             [
@@ -21449,7 +22772,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "",
+        "simple_desc": "When attacked, stacks \"Magma Will\". When \"Magma Will\" is at no fewer than 4 stacks, Basic ATK gets enhanced. After using Basic ATK, Skill, or Ultimate, provides a Shield for team.",
         "desc": "Each time the Trailblazer is hit, they gain 1 stack of Magma Will for a max of #3[i] stack(s).\nWhen Magma Will has no fewer than 4 stacks, the Trailblazer's Basic ATK becomes enhanced, dealing DMG to a single enemy and enemies adjacent to it.\nWhen the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all allies that absorbs DMG equal to #1[f1]% of the Trailblazer's DEF plus #4[i]. The Shield lasts for #2[i] turn(s).",
         "params": [
             [
@@ -21568,7 +22891,7 @@
         "type_text": "Technique",
         "effect": "Defence",
         "effect_text": "Defense",
-        "simple_desc": "",
+        "simple_desc": "After using Technique, provides a Shield for this unit at the start of the next battle.",
         "desc": "After using Technique, at the start of the next battle, gains a Shield that absorbs DMG equal to #1[i]% of the Trailblazer's DEF plus #2[i] for #3[i] turn(s).",
         "params": [
             [
@@ -21771,7 +23094,7 @@
         "type_text": "Ultimate",
         "effect": "AoEAttack",
         "effect_text": "AoE",
-        "simple_desc": "Deals Fire DMG to all enemies and enhances the next Basic ATK.",
+        "simple_desc": "Deals Fire DMG to all enemies and enhances this unit's next Basic ATK.",
         "desc": "Deals Fire DMG equal to #1[i]% of the Trailblazer's ATK plus #2[i]% of the Trailblazer's DEF to all enemies. The next Basic ATK will be automatically enhanced and does not cost Magma Will.",
         "params": [
             [
@@ -21846,7 +23169,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "",
+        "simple_desc": "When attacked, stacks \"Magma Will\". When \"Magma Will\" is at no fewer than 4 stacks, Basic ATK gets enhanced. After using Basic ATK, Skill, or Ultimate, provides a Shield for team.",
         "desc": "Each time the Trailblazer is hit, they gain 1 stack of Magma Will for a max of #3[i] stack(s).\nWhen Magma Will has no fewer than 4 stacks, the Trailblazer's Basic ATK becomes enhanced, dealing DMG to a single enemy and enemies adjacent to it.\nWhen the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all allies that absorbs DMG equal to #1[f1]% of the Trailblazer's DEF plus #4[i]. The Shield lasts for #2[i] turn(s).",
         "params": [
             [
@@ -21965,7 +23288,7 @@
         "type_text": "Technique",
         "effect": "Defence",
         "effect_text": "Defense",
-        "simple_desc": "",
+        "simple_desc": "After using Technique, provides a Shield for this unit at the start of the next battle.",
         "desc": "After using Technique, at the start of the next battle, gains a Shield that absorbs DMG equal to #1[i]% of the Trailblazer's DEF plus #2[i] for #3[i] turn(s).",
         "params": [
             [
@@ -22153,7 +23476,7 @@
         "type_text": "Ultimate",
         "effect": "Support",
         "effect_text": "Support",
-        "simple_desc": "Grants all allies the Backup Dancer effect. Allies with Backup Dancer have their Break Effect increased and additionally deals Super Break DMG 1 time when they attack enemy targets that are Weakness Broken.",
+        "simple_desc": "Grants all allies the Backup Dancer effect. Allies with Backup Dancer have their Break Effect increased and additionally deal Super Break DMG 1 time when they attack enemy targets that are Weakness Broken.",
         "desc": "Grants all allies the Backup Dancer effect, lasting for #1[i] turn(s). This duration decreases by 1 at the start of Trailblazer's every turn. Allies with the Backup Dancer effect have their Break Effect increased by #3[i]%. And when they attack enemy targets that are in the Weakness Broken state, the Toughness Reduction of the attack will be converted into 1 instance of Super Break DMG.",
         "params": [
             [
@@ -22453,7 +23776,7 @@
         "type_text": "Ultimate",
         "effect": "Support",
         "effect_text": "Support",
-        "simple_desc": "Grants all allies the Backup Dancer effect. Allies with Backup Dancer have their Break Effect increased and additionally deals Super Break DMG 1 time when they attack enemy targets that are Weakness Broken.",
+        "simple_desc": "Grants all allies the Backup Dancer effect. Allies with Backup Dancer have their Break Effect increased and additionally deal Super Break DMG 1 time when they attack enemy targets that are Weakness Broken.",
         "desc": "Grants all allies the Backup Dancer effect, lasting for #1[i] turn(s). This duration decreases by 1 at the start of Trailblazer's every turn. Allies with the Backup Dancer effect have their Break Effect increased by #3[i]%. And when they attack enemy targets that are in the Weakness Broken state, the Toughness Reduction of the attack will be converted into 1 instance of Super Break DMG.",
         "params": [
             [

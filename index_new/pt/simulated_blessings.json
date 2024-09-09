@@ -38,7 +38,7 @@
     "612026": {
         "id": "612026",
         "name": "Interação de Ressonância: Resfriamento Reverso",
-        "desc": "Ao usar Ressonância do Caminho, estende a duração do Escudo por 2 rodada(s) em personagens cujos PV estejam abaixo de 50% dos seus PV máximos. Para cada personagem afetado por isso, a Ressonância do Caminho atual causa 20% a mais de Dano.",
+        "desc": "Ao usar Ressonância do Caminho, estende a duração do Escudo por 2 rodada(s) em personagens cujos PV atuais estejam abaixo de 50% dos seus PV máximos. Para cada personagem afetado por isso, o uso da Ressonância do Caminho atual causa 20% a mais de Dano.",
         "enhanced_desc": ""
     },
     "612027": {
@@ -278,8 +278,8 @@
     "612152": {
         "id": "612152",
         "name": "Experiência: Memória Perdida",
-        "desc": "Quando os ataques reduzem o PV de um inimigo a um ponto inferior a 50% pela primeira vez nessa batalha, há 70% de chance-base de Congelar o inimigo por 1 rodada(s).",
-        "enhanced_desc": "Quando os ataques reduzem o PV de um inimigo a um ponto inferior a 50% pela primeira vez nessa batalha, há 100% de chance-base de Congelar o inimigo por 1 rodada(s)."
+        "desc": "Quando os ataques reduzem a porcentagem dos PV de um inimigo a um ponto inferior a 50% pela primeira vez nessa batalha, há 70% de chance-base de Congelar o inimigo por 1 rodada(s).",
+        "enhanced_desc": "Quando os ataques reduzem a porcentagem dos PV de um inimigo a um ponto inferior a 50% pela primeira vez nessa batalha, há 100% de chance-base de Congelar o inimigo por 1 rodada(s)."
     },
     "612153": {
         "id": "612153",
@@ -398,8 +398,8 @@
     "612243": {
         "id": "612243",
         "name": "Noite Além da Pira",
-        "desc": "Aumenta a eficiência da Quebra de Fraqueza em 30%.",
-        "enhanced_desc": "Aumenta a eficiência da Quebra de Fraqueza em 45%."
+        "desc": "Aumenta a eficiência da Quebra de Fraqueza dos personagens em 30%.",
+        "enhanced_desc": "Aumenta a eficiência da Quebra de Fraqueza dos personagens em 45%."
     },
     "612244": {
         "id": "612244",
@@ -800,7 +800,7 @@
     "612523": {
         "id": "612523",
         "name": "Formação da Ressonância: Horizonte de Eventos",
-        "desc": "Quando um aliado cujo PV atual está abaixo de 35% é atacado, libera automaticamente 1 Ressonância do Caminho sem consumir Energia. Este efeito pode ser acionado até no máximo #10[i] vez(es) em uma única batalha e não pode ser acionado múltiplas vezes pelo mesmo ataque.",
+        "desc": "Quando um aliado cuja porcentagem dos PV atuais está abaixo de 35% é atacado, libera automaticamente 1 Ressonância do Caminho sem consumir Energia. Este efeito pode ser acionado até no máximo #10[i] vez(es) em uma única batalha e não pode ser acionado múltiplas vezes pelo mesmo ataque.",
         "enhanced_desc": ""
     },
     "612524": {
@@ -830,8 +830,8 @@
     "612530": {
         "id": "612530",
         "name": "Equação Antimatéria Não Reversível",
-        "desc": "Se o PV atual de um personagem estiver abaixo de 50%, considera-se que tenha 16 acúmulos extras de Bravura.",
-        "enhanced_desc": "Se o PV atual de um personagem estiver abaixo de 50%, considera-se que tenha 20 acúmulos extras de Bravura. Para cada 10% PV adicional perdido, ganha 2 acúmulo(s) extra(s) de Bravura."
+        "desc": "Se a porcentagem dos PV atuais de um personagem estiver abaixo de 50%, considera-se que tenha 16 acúmulos extras de Bravura.",
+        "enhanced_desc": "Se a porcentagem dos PV atual de um personagem estiver abaixo de 50%, considera-se que tenha 20 acúmulos extras de Bravura. Para cada 10% PV adicional perdido, ganha 2 acúmulo(s) extra(s) de Bravura."
     },
     "612531": {
         "id": "612531",
@@ -872,14 +872,14 @@
     "612544": {
         "id": "612544",
         "name": "Chama Destrutiva",
-        "desc": "Quando o PV de um personagem for inferior a 50%, causa 40% de Dano aumentado.",
-        "enhanced_desc": "Quando o PV de um personagem for inferior a 50%, causa 50% de Dano aumentado. Quando PV for inferior a 35%, o Dano causado aumenta mais 20%."
+        "desc": "Quando a porcentagem dos PV de um personagem for inferior a 50%, causa 40% de Dano aumentado.",
+        "enhanced_desc": "Quando a porcentagem dos PV de um personagem for inferior a 50%, causa 50% de Dano aumentado. Quando PV for inferior a 35%, o Dano causado aumenta mais 20%."
     },
     "612545": {
         "id": "612545",
         "name": "Centelha Disciplinar",
-        "desc": "Se o PV de um personagem for inferior a 35% após ser atacado ou perder PV, restaura seu PV em 12% de seus PV máximos.",
-        "enhanced_desc": "Se o PV de um personagem for inferior a 35% após ser atacado ou perder PV, restaura seu PV em 12% de seus PV máximos. Quanto menor o PV atual, mais PV será restaurado dessa maneira, mas não mais do que 20%."
+        "desc": "Se a porcentagem dos PV de um personagem for inferior a 35% após ser atacado ou perder PV, restaura seu PV em 12% de seus PV máximos.",
+        "enhanced_desc": "Se a porcentagem dos PV de um personagem for inferior a 35% após ser atacado ou perder PV, restaura seu PV em 12% de seus PV máximos. Quanto menor o PV atual, mais PV será restaurado dessa maneira, mas não mais do que 20%."
     },
     "612546": {
         "id": "612546",
@@ -920,8 +920,8 @@
     "612555": {
         "id": "612555",
         "name": "Satélite Sentinela",
-        "desc": "Quando os PV de um personagem forem inferiores a 50%, ele ganha um Escudo que pode absorver Dano igual a 20% de seus PV máximos por 2 rodada(s). Este efeito pode ser ativado apenas 1 vez(es) por cada personagem por batalha.",
-        "enhanced_desc": "Quando os PV de um personagem forem inferiores a 50%, ele ganha um Escudo que pode absorver Dano igual a 30% de seus PV máximos por 2 rodada(s). Este efeito pode ser ativado apenas 1 vez(es) por cada personagem por batalha."
+        "desc": "Quando a porcentagem dos PV de um personagem for inferior a 50%, ele ganha um Escudo que pode absorver Dano igual a 20% de seus PV máximos por 2 rodada(s). Este efeito pode ser ativado apenas 1 vez(es) por cada personagem por batalha.",
+        "enhanced_desc": "Quando a porcentagem dos PV de um personagem for inferior a 50%, ele ganha um Escudo que pode absorver Dano igual a 30% de seus PV máximos por 2 rodada(s). Este efeito pode ser ativado apenas 1 vez(es) por cada personagem por batalha."
     },
     "612556": {
         "id": "612556",
@@ -1172,8 +1172,8 @@
     "612742": {
         "id": "612742",
         "name": "Cavidade Metabólica",
-        "desc": "Para cada Esporo que explode, cura o personagem com os PV mais baixos em 10% dos seus PV máximos.",
-        "enhanced_desc": "Para cada Esporo que os inimigos possuam, reduz o Dano recebido por todos os aliados em 0.8%. Após os Esporos explodirem, cura o aliado com os PV mais baixos em 12% dos seus PV máximos."
+        "desc": "Para cada Esporo que explode, cura o personagem com a porcentagem dos PV mais baixa em 10% dos seus PV máximos.",
+        "enhanced_desc": "Para cada Esporo que os inimigos possuam, reduz o Dano recebido por todos os aliados em 0.8%. Após os Esporos explodirem, cura o aliado com a porcentagem dos PV mais baixa em 12% dos seus PV máximos."
     },
     "612743": {
         "id": "612743",
@@ -1184,8 +1184,8 @@
     "612744": {
         "id": "612744",
         "name": "Massa Cerebral Exposta",
-        "desc": "O Dano causado pelo ATQ Básico causará Dano igual a 30% do Dano original a um alvo adjacente aleatório.",
-        "enhanced_desc": "O Dano causado pelo ATQ Básico causará Dano igual a 35% do Dano original a alvos adjacentes."
+        "desc": "O Dano causado pelo ATQ Básico dos personagens causará Dano igual a 30% do Dano original a um alvo adjacente aleatório.",
+        "enhanced_desc": "O Dano causado pelo ATQ Básico dos personagens causará Dano igual a 35% do Dano original a alvos adjacentes."
     },
     "612745": {
         "id": "612745",
@@ -1457,6 +1457,12 @@
         "desc": "Quando um personagem providencia Escudos para um aliado, ambas as unidades aumentam seu Dano causado em 20%, acumulando até 5 vez(es), durando por 1 rodada(s).",
         "enhanced_desc": "Quando um personagem providencia Escudos para um aliado, ambas as unidades aumentam seu Dano causado em 30%, acumulando até 5 vez(es), durando por 1 rodada(s)."
     },
+    "615046": {
+        "id": "615046",
+        "name": "Construção Interestelar: Cubo de Inversão",
+        "desc": "Aumenta a Chance de CRIT do Dano de Terremoto causado por personagens em 20% e o Dano CRIT em 50%.",
+        "enhanced_desc": "Aumenta a Chance de CRIT do Dano de Terremoto causado por personagens em 30% e o Dano CRIT em 75%."
+    },
     "615050": {
         "id": "615050",
         "name": "Construção: Montagem",
@@ -1571,6 +1577,12 @@
         "desc": "Ao entrar em batalha, há uma chance-base de 150% de todos os inimigos sofrerem Congelamento por 1 rodada(s).",
         "enhanced_desc": "No início da batalha, há uma chance-base de 150% de todos os inimigos sofrerem Congelamento e terem sua VEL reduzida em 30% por 1 rodada(s)."
     },
+    "615146": {
+        "id": "615146",
+        "name": "Experiência Suprema: Cinismo",
+        "desc": "Após os aliados usarem um ataque, há uma chance-base de 40% de infligir o estado de Dissociação no(s) alvo(s) atacado(s). Esse efeito pode ser ativado um máximo de 1 vez(es) por inimigo-alvo por batalha.",
+        "enhanced_desc": "Após os aliados usarem um ataque, há uma chance-base de 60% de infligir o estado de Dissociação no(s) alvo(s) atacado(s). Esse efeito pode ser ativado um máximo de 1 vez(es) por inimigo-alvo por batalha."
+    },
     "615150": {
         "id": "615150",
         "name": "Experiência: Ruína Crônica",
@@ -1586,8 +1598,8 @@
     "615152": {
         "id": "615152",
         "name": "Experiência: Memória Perdida",
-        "desc": "Quando os ataques reduzem os PV de um inimigo a um ponto inferior a 50% pela primeira vez nessa batalha, há 70% de chance-base de aplicar Congelamento ao inimigo por 1 rodada(s).",
-        "enhanced_desc": "Quando os ataques reduzem os PV de um inimigo a um ponto inferior a 50% pela primeira vez nessa batalha, há 100% de chance-base de aplicar Congelamento ao inimigo por 1 rodada(s)."
+        "desc": "Quando os ataques reduzem a porcentagem dos PV de um inimigo a um ponto inferior a 50% pela primeira vez nessa batalha, há 70% de chance-base de Congelar o inimigo por 1 rodada(s).",
+        "enhanced_desc": "Quando os ataques reduzem a porcentagem dos PV de um inimigo a um ponto inferior a 50% pela primeira vez nessa batalha, há 100% de chance-base de Congelar o inimigo por 1 rodada(s)."
     },
     "615153": {
         "id": "615153",
@@ -1670,8 +1682,8 @@
     "615243": {
         "id": "615243",
         "name": "Noite Além da Pira",
-        "desc": "Aumenta a eficiência da Quebra de Fraqueza em 30%.",
-        "enhanced_desc": "Aumenta a eficiência da Quebra de Fraqueza em 45%."
+        "desc": "Aumenta a eficiência da Quebra de Fraqueza dos personagens em 30%.",
+        "enhanced_desc": "Aumenta a eficiência da Quebra de Fraqueza dos personagens em 45%."
     },
     "615244": {
         "id": "615244",
@@ -1684,6 +1696,12 @@
         "name": "Tudo é Possível",
         "desc": "Se um inimigo é atacado enquanto está sob Dano Contínuo, um Dano Contínuo aleatório é ativado, causando Dano igual a 100% do Dano Contínuo.",
         "enhanced_desc": "Se um inimigo é atacado enquanto está sob Dano Contínuo, um Dano Contínuo aleatório é ativado, causando Dano igual a 150% do Dano Contínuo."
+    },
+    "615246": {
+        "id": "615246",
+        "name": "Caminho Pela Floresta",
+        "desc": "Quando os inimigos-alvo entram em combate, eles recebem 30 acúmulo(s) de Suspeita.",
+        "enhanced_desc": "Quando os inimigos-alvo entram em combate, eles recebem 45 acúmulo(s) de Suspeita."
     },
     "615250": {
         "id": "615250",
@@ -1799,6 +1817,12 @@
         "desc": "Ao receber cura de um aliado, os personagens recuperam PV extras equivalentes a 30% da quantidade de PV curados.",
         "enhanced_desc": "Ao receber cura de um aliado, os personagens recuperam PV extras equivalentes a 45% da quantidade de PV curados."
     },
+    "615346": {
+        "id": "615346",
+        "name": "Oferenda da Carne Incinerada",
+        "desc": "O Dano de Orvalho causado por personagens aumenta a Chance de CRIT em 20% e o Dano CRIT em 50%.",
+        "enhanced_desc": "O Dano de Orvalho causado por personagens aumenta a Chance de CRIT em 30% e o Dano CRIT em 75%."
+    },
     "615350": {
         "id": "615350",
         "name": "Chuva de Dharma",
@@ -1814,8 +1838,8 @@
     "615352": {
         "id": "615352",
         "name": "Vida Estendida",
-        "desc": "Quando um personagem tem seus PV reduzidos abaixo de 50% pela primeira vez em batalha, ele restaura seus PV até 30% dos seus PV máximos.",
-        "enhanced_desc": "Quando um personagem tem seus PV reduzidos abaixo de 50% pela primeira vez em batalha, ele restaura seus PV até 45% dos seus PV máximos."
+        "desc": "Quando um personagem tem a porcentagem dos PV reduzida a abaixo de 50% pela primeira vez em batalha, ele restaura seus PV até 30% dos seus PV máximos.",
+        "enhanced_desc": "Quando um personagem tem a porcentagem dos PV reduzida a abaixo de 50% pela primeira vez em batalha, ele restaura seus PV até 45% dos seus PV máximos."
     },
     "615353": {
         "id": "615353",
@@ -1913,6 +1937,12 @@
         "desc": "Quando um personagem derrota um inimigo, restaura os PV de todos os aliados em 30% de seus PV máximos e aumenta seu ATQ em 25%, durando por 2 rodada(s).",
         "enhanced_desc": "Quando um personagem derrota um inimigo, restaura os PV de todos os aliados em 45% de seus PV máximos e aumenta seu ATQ em 45%, durando por 2 rodada(s)."
     },
+    "615446": {
+        "id": "615446",
+        "name": "Guerra do Expurgo da Praga",
+        "desc": "Se um personagem possuir 4 acúmulo(s) ou mais de Bônus Crítico no começo da sua rodada, sua VEL aumenta em 24%, durando por 2 rodada(s).",
+        "enhanced_desc": "Se um personagem possuir 4 acúmulo(s) ou mais de Bônus Crítico no começo da sua rodada, sua VEL aumenta em 36%, durando por 2 rodada(s)."
+    },
     "615450": {
         "id": "615450",
         "name": "Arco Vermelho e Flecha Branca",
@@ -1994,8 +2024,8 @@
     "615540": {
         "id": "615540",
         "name": "Ressonância Catastrófica",
-        "desc": "Quando os personagens com Bravura usam seu ATQ Básico/Perícia/Perícia Suprema para causar Dano, aumenta o Dano recebido pelos inimigos em 10%. Quando o Bravura chega em mais de 10 acúmulos, aumenta adicionalmente o Dano de Quebra recebido pelos inimigos em 30%.",
-        "enhanced_desc": "Quando os personagens com Bravura usam seu ATQ Básico/Perícia/Perícia Suprema para causar Dano, aumenta o Dano recebido pelos inimigos em 15%. Quando o Bravura chega em mais de 10 acúmulos, aumenta adicionalmente o Dano de Quebra recebido pelos inimigos em 45%."
+        "desc": "Quando os personagens com Bravura usam seu ATQ Básico/Perícia/Perícia Suprema para causar Dano, aumenta o Dano recebido pelos inimigos em 10%. Quando a Bravura chega em mais de 10 acúmulos, aumenta adicionalmente o Dano de Quebra recebido pelos inimigos em 30%.",
+        "enhanced_desc": "Quando os personagens com Bravura usam seu ATQ Básico/Perícia/Perícia Suprema para causar Dano, aumenta o Dano recebido pelos inimigos em 15%. Quando a Bravura chega em mais de 10 acúmulos, aumenta adicionalmente o Dano de Quebra recebido pelos inimigos em 45%."
     },
     "615541": {
         "id": "615541",
@@ -2006,26 +2036,32 @@
     "615542": {
         "id": "615542",
         "name": "Maré da Devastação",
-        "desc": "Após um personagem perder PV ou se curar, da próxima vez que atacar um inimigo com Quebra de Fraqueza, converte a Redução de Tenacidade do ataque em 1 caso de 70% de Super Dano de Quebra.",
-        "enhanced_desc": "Após um personagem perder PV ou se curar, da próxima vez que atacar um inimigo com Quebra de Fraqueza, converte a Redução de Tenacidade do ataque em 1 caso de 105% de Super Dano de Quebra."
+        "desc": "Após um personagem perder ou curar a si mesmo em 40% dos PVs acumulados, da próxima vez que atacar um inimigo afligido com Quebra de Fraqueza, converte a Redução de Tenacidade do ataque em 1 instância de 70% de Super Dano de Quebra.",
+        "enhanced_desc": "Após um personagem perder ou curar a si mesmo em 40% dos PVs acumulados, da próxima vez que atacar um inimigo afligido com Quebra de Fraqueza, converte a Redução de Tenacidade do ataque em 1 instância de 105% de Super Dano de Quebra."
     },
     "615543": {
         "id": "615543",
         "name": "Implosão Decadente",
-        "desc": "Após um personagem perder PV ou se curar, aumenta a PEN de RES a Todos os Tipos em 10% e aumenta adicionalmente o Dano de Quebra causado 20% até o início de sua próxima rodada.",
-        "enhanced_desc": "Após um personagem perder PV ou se curar, aumenta a PEN de RES a Todos os Tipos em 15% e aumenta adicionalmente o Dano de Quebra causado 30% até o início de sua próxima rodada."
+        "desc": "Após um personagem perder PV ou se curar em um total de 40%, aumenta a PEN de RES a Todos os Tipos dele em 10%, o que aumenta adicionalmente o Super Dano de Quebra causado em 20%.",
+        "enhanced_desc": "Após um personagem perder PV ou se curar em um total de 40%, aumenta a PEN de RES a Todos os Tipos dele em 15%, o que aumenta adicionalmente o Super Dano de Quebra causado em 30%."
     },
     "615544": {
         "id": "615544",
         "name": "Centelha Disciplinar",
-        "desc": "Se os PV de um personagem forem inferiores a 35% após ser atacado ou perder PV, restaura seus PV em 12% de seus PV máximos.",
-        "enhanced_desc": "Se os PV de um personagem forem inferiores a 35% após ser atacado ou perder PV, restaura seus PV em 12% de seus PV máximos. Quanto menores os PV atuais, mais PV serão restaurados dessa maneira, mas não mais do que 20%."
+        "desc": "Se a porcentagem dos PV de um personagem for inferior a 35% após ser atacado ou perder PV, restaura seu PV em 12% de seus PV máximos.",
+        "enhanced_desc": "Se a porcentagem dos PV de um personagem for inferior a 35% após ser atacado ou perder PV, restaura seu PV em 12% de seus PV máximos. Quanto menor o PV atual, mais PV será restaurado dessa maneira, mas não mais do que 20%."
     },
     "615545": {
         "id": "615545",
         "name": "Pulso Subversivo",
         "desc": "Quando a porcentagem de PV de um personagem cai abaixo de 50%, restaura uma certa quantidade de Energia igual a 50% da Energia máxima do personagem. Este efeito só pode ser acionado novamente após 4 rodada(s).",
         "enhanced_desc": "Quando a porcentagem de PV de um personagem cai abaixo de 60%, restaura uma certa quantidade de Energia igual a 50% da Energia máxima do personagem e 1 Ponto(s) de Perícia. Este efeito só pode ser acionado novamente após 4 rodada(s)."
+    },
+    "615546": {
+        "id": "615546",
+        "name": "Mercado Regressivo",
+        "desc": "Quando um personagem entrar em combate, ganha 12 acúmulo(s) de Bravura.",
+        "enhanced_desc": "Quando um personagem entrar em combate, ganha 18 acúmulo(s) de Bravura."
     },
     "615550": {
         "id": "615550",
@@ -2060,8 +2096,8 @@
     "615555": {
         "id": "615555",
         "name": "Satélite Sentinela",
-        "desc": "Quando os PV de um personagem forem inferiores a 50%, ele ganha um Escudo que pode absorver Dano igual a 20% de seus PV máximos por 2 rodada(s). Este efeito pode ser ativado apenas 1 vez(es) por cada personagem por batalha.",
-        "enhanced_desc": "Quando os PV de um personagem forem inferiores a 50%, ele ganha um Escudo que pode absorver Dano igual a 30% de seus PV máximos por 2 rodada(s). Este efeito pode ser ativado apenas 1 vez(es) por cada personagem por batalha."
+        "desc": "Quando a porcentagem dos PV de um personagem for inferior a 50%, ele ganha um Escudo que pode absorver Dano igual a 20% de seus PV máximos por 2 rodada(s). Este efeito pode ser ativado apenas 1 vez(es) por cada personagem por batalha.",
+        "enhanced_desc": "Quando a porcentagem dos PV de um personagem for inferior a 50%, ele ganha um Escudo que pode absorver Dano igual a 30% de seus PV máximos por 2 rodada(s). Este efeito pode ser ativado apenas 1 vez(es) por cada personagem por batalha."
     },
     "615556": {
         "id": "615556",
@@ -2140,6 +2176,12 @@
         "name": "O Peixe que Descobriu o Fogo",
         "desc": "O Dano de Ataque Extra dos personagens ignora 20% da DEF do alvo.",
         "enhanced_desc": "O Dano de Ataque Extra dos personagens ignora 27% da DEF do alvo."
+    },
+    "615646": {
+        "id": "615646",
+        "name": "\"Último dos Taraka\"",
+        "desc": "O Dano de Sabor Residual causado pelos personagens é aumentado em 70%.",
+        "enhanced_desc": "O Dano de Sabor Residual causado pelos personagens é aumentado em 105%."
     },
     "615650": {
         "id": "615650",
@@ -2240,8 +2282,8 @@
     "615743": {
         "id": "615743",
         "name": "Massa Cerebral Exposta",
-        "desc": "O Dano causado pelo ATQ Básico causará Dano igual a 30% do Dano original a um alvo adjacente aleatório.",
-        "enhanced_desc": "O Dano causado pelo ATQ Básico causará Dano igual a 35% do Dano original a alvos adjacentes."
+        "desc": "O Dano causado pelo ATQ Básico dos personagens causará Dano igual a 30% do Dano original a um alvo adjacente aleatório.",
+        "enhanced_desc": "O Dano causado pelo ATQ Básico dos personagens causará Dano igual a 35% do Dano original a alvos adjacentes."
     },
     "615744": {
         "id": "615744",
@@ -2254,6 +2296,12 @@
         "name": "Catalisador",
         "desc": "Após um personagem usar sua Perícia e se a Perícia não realizar um ataque, o Dano causado por todos os aliados aumenta em 20% por 1 rodada(s). Este efeito pode acumular até 3 vez(es).",
         "enhanced_desc": "Após um personagem usar sua Perícia e se a Perícia não realizar um ataque, o Dano causado por todos os aliados aumenta em 30% por 1 rodada(s). Este efeito pode acumular até 3 vez(es)."
+    },
+    "615746": {
+        "id": "615746",
+        "name": "Bloqueador de Amina",
+        "desc": "Após os inimigos-alvo receberem Dano de Esporos, sua DEF diminui em 1%. Esse efeito pode atingir um máximo de 15 acúmulo(s).",
+        "enhanced_desc": "Após os inimigos-alvo receberem Dano de Esporos, sua DEF diminui em 1%. Esse efeito pode atingir um máximo de 20 acúmulo(s)."
     },
     "615750": {
         "id": "615750",
@@ -2369,6 +2417,12 @@
         "desc": "Quando os personagens usam suas Perícias Supremas para atacar inimigos com Quebra de Fraqueza, a ação do inimigo é atrasada em 16%. Sempre que o inimigo-alvo é afligido por Quebra de Fraqueza, este efeito pode ser ativado até 3 vezes.",
         "enhanced_desc": "Quando os personagens usam suas Perícias Supremas para atacar inimigos com Quebra de Fraqueza, a ação do inimigo é atrasada em 24%. Sempre que o inimigo-alvo é afligido por Quebra de Fraqueza, este efeito pode ser ativado até 3 vezes."
     },
+    "615846": {
+        "id": "615846",
+        "name": "Coordenação: Núcleo de Ressonância",
+        "desc": "Depois que os personagens utilizarem Cérebro In Vitro para usar a Perícia Suprema, seu ATQ aumenta em 60%, durando por 2 rodada(s).",
+        "enhanced_desc": "Depois que os personagens utilizarem Cérebro In Vitro para usar a Perícia Suprema, seu ATQ aumenta em 90%, durando por 2 rodada(s)."
+    },
     "615850": {
         "id": "615850",
         "name": "Trono de Engrenagens Engajadas",
@@ -2444,7 +2498,7 @@
     "670010": {
         "id": "670010",
         "name": "Revitalizador da Cidade",
-        "desc": "O Núcleo de Cometa aparece na Ordem de Ação. Cada vez que ele tem sua rodada, absorve os Escudos de todos os aliados, reduzindo seus valores a 1 e convertendo os valores absorvidos em seu próprio Escudo. Depois, causa Dano Físico igual a 2500% deste valor a todos os inimigos, com uma chance-base de 75% de causar Congelamento aos inimigos por 1 rodada(s). Quando os personagens tomam Dano, o Escudo do Núcleo de Cometa será consumido primeiro. Quando os personagens causam Dano de Terremoto, 50% do Escudo do Núcleo de Cometa será considerado como o Escudo do personagem.",
+        "desc": "O Núcleo de Cometa aparece na Ordem de Ação. Cada vez que ele realiza uma ação, absorve os Escudos de todos os aliados, reduzindo seus valores a 1 e convertendo os valores absorvidos em seu próprio Escudo. Depois, causa Dano Físico igual a 2500% do valor deste Escudo + 1000% de Dano base a todos os inimigos, com uma chance-base de 75% de causar Congelamento aos inimigos por 1 rodada(s). Quando os personagens recebem Dano, o Escudo do Núcleo de Cometa será consumido primeiro. Quando o Dano de Terremoto é ativado, 70% do Escudo do Núcleo de Cometa será considerado como o Escudo do personagem.",
         "enhanced_desc": ""
     },
     "670140": {
@@ -2453,46 +2507,76 @@
         "desc": "Quando inimigos-alvo entram em combate, há uma chance-base de 100% de serem infligidos com Dissociação com duração de 1 rodada(s). Inimigos no estado de Dissociação resistirão a todo Dano, todo Dano CRIT recebido e Dano de Quebra são acumulados. Quando a Dissociação é desfeita, causa adicionalmente uma quantidade de Dano CRIT igual a 150% do valor acumulado a todos os inimigos. Quando o valor acumulado atingir 50% dos PV máximos do alvo, a Dissociação será imediatamente desfeita.",
         "enhanced_desc": ""
     },
+    "670150": {
+        "id": "670150",
+        "name": "Mausoléu das Feridas",
+        "desc": "Esquecimento aparece na Ordem de Ação: para cada 10 de Redução de Tenacidade causada por um aliado, a ação do aliado é Avançada Adiante em 3%. Quando Esquecimento age, causa Dano de Gelo igual a 2000% do Dano base e causa 20 de Redução de Tenacidade a todos os inimigos, com uma chance-base de 150% de infligir o estado de Dissociação nos alvos, durando por 1 rodada(s). O estado aumenta o Dano recebido em 60%, durando por 2 rodada(s).",
+        "enhanced_desc": ""
+    },
     "670280": {
         "id": "670280",
         "name": "Instituto de Auto-Provas",
-        "desc": "Após Suspeita atingir 99 acúmulos, ela será consumida e transformada em 1 acúmulo de Auto-Negação: aumenta o Dano Contínuo causado pelo atacante em 70%. Cada acúmulo aumenta adicionalmente ela em 10%, acumulando até #10[i] vez(es). No início da rodada de um inimigo, eles recebem Dano de Raio Contínuo e fazem com que os alvos adjacentes recebam Dano de Raio Contínuo igual a 20% do multiplicador de Dano original. Em 2 acúmulos ou mais: no início da rodada, regenera 20% de Cérebro In Vitro para um personagem aleatório. Em 3 acúmulos ou mais: no início da rodada, regenera 10% de Cérebro In Vitro para todos os aliados.",
+        "desc": "Após Suspeita atingir 99 acúmulos, ela será consumida e transformada em 1 acúmulo de Auto-Negação: aumenta o Dano Contínuo causado pelos atacantes a esta unidade em 70%. Cada acúmulo aumenta adicionalmente o Dano Contínuo causado em 10%, acumulando até #10[i] vez(es). No início da rodada de um inimigo, ele recebe Dano de Raio Contínuo igual a 135% do Dano base e faz com que os alvos adjacentes recebam Dano de Raio Contínuo igual a 20% do multiplicador de Dano original. Em 2 acúmulos ou mais: no início da rodada, regenera 20% de Cérebro In Vitro para um personagem aleatório. Em 3 acúmulos ou mais: no início da rodada, regenera 10% de Cérebro In Vitro para todos os aliados.",
         "enhanced_desc": ""
     },
     "670350": {
         "id": "670350",
         "name": "Borisin",
-        "desc": "A Flor da Aniquilação aparece na Ordem de Ação. Quando o Orvalho é quebrado, ele carregará a Flor da Aniquilação em 550% da carga do Orvalho. Quando a Flor da Aniquilação age, ela causa Dano de Fogo a todos os inimigos com base no valor da carga. Cada acúmulo de Bravura possuído pela equipe aumentará o Dano adicionalmente em 1.5%.",
+        "desc": "A Flor da Aniquilação aparece na Ordem de Ação. Quando o Orvalho é quebrado, ele carregará a Flor da Aniquilação em 600% da carga do Orvalho. Quando a Flor da Aniquilação age, ela causa o valor de Carga + 1200% do Dano base como Dano de Fogo a todos os inimigos. Cada acúmulo de Bravura possuído pela equipe aumentará o Dano adicionalmente em 1.5%.",
+        "enhanced_desc": ""
+    },
+    "670430": {
+        "id": "670430",
+        "name": "Salvador Biônico",
+        "desc": "Quando nenhum inimigo-alvo possuir Fibra, Fibra será aplicada aleatoriamente aos alvos atacados após os personagens usarem um ataque. Após os alvos com Fibra receberem um total de 8 ataques ou serem abatidos, o alvo recebe um Dano de Raio igual a 4500% do Dano base e alvos adjacentes recebem Dano igual a 3000% do Dano base, e os PV máximos de todos os aliados aumentam em 80%, durando por 3 rodada(s). Se apenas 1 inimigo-alvo for atacado, então 2 ataques são considerados como utilizados.",
         "enhanced_desc": ""
     },
     "670470": {
         "id": "670470",
         "name": "Cavaleiro Derretido",
-        "desc": "Após derrotar um inimigo-alvo ou causar Quebra de Fraqueza em um Inimigo de Elite, o personagem disparará uma quantidade de Flechas Luminosas igual a 5 + número de acúmulos de Bônus Crítico para atacar inimigos aleatórios. Cada Flecha Luminosa causa Dano Adicional do Tipo do personagem e aplica 1 único Esporo no alvo atacado. Enquanto este efeito estiver ativo, os Esporos podem acumular até 99 vezes.",
+        "desc": "Cada vez que a equipe obtém 9 acúmulo(s) de Bônus Crítico ou derrota o inimigo-alvo, dispara 10 Flecha(s) Luminosa(s) para atingir alvos aleatórios. Cada Flecha Luminosa causa Dano de Vento igual a 400% do Dano base e aplica 1 Esporo ao alvo atacado, além de aplicar 1 instância de Dano explosivo de Esporo. Durante esse tempo, o número máximo de acúmulos de Esporo será 99.",
         "enhanced_desc": ""
     },
     "670500": {
         "id": "670500",
         "name": "Velejador Guardião",
-        "desc": "Após um personagem causar Dano de Quebra, causa uma certa quantidade de Dano Adicional igual a 100% do Dano original após o ataque. Quando a Bravura do personagem chega em mais que 30 acúmulo(s), ele obtém um Escudo igual a 50% dos seus PV máximos, durando por 2 rodada(s). Após causar Dano de Redução de Tenacidade a todos os inimigos, consome 20 acúmulo(s) de Bravura.",
+        "desc": "Após um personagem causar Dano de Quebra, causa uma certa quantidade de Dano Adicional igual a 100% do Dano original após o ataque. Quando a Bravura do personagem é maior que 30 acúmulo(s), ele obtém um Escudo igual a 50% dos seus PV máximos, durando por 2 rodada(s). Além disso, causa Dano igual a 1200% do Dano base, Redução de Tenacidade de 15 a todos os inimigos e consome 20 acúmulo(s) de Bravura.",
+        "enhanced_desc": ""
+    },
+    "670580": {
+        "id": "670580",
+        "name": "Erudito da Aniquilação",
+        "desc": "Após os personagens serem atacados, eles recebem 2 Forma(s) da Aniquilação. Após realizar um Contra-Ataque, recebem 1 Forma(s) da Aniquilação. Quando um personagem possuir 6 Forma(s) da Aniquilação, todas as Formas da Aniquilação são removidas e o Dano causado pela Perícia Suprema é aumentado em 150% até o fim da rodada, além de causar Dano Adicional igual a 650% do ATQ do personagem a todos os inimigos. Esse Dano é considerado Dano de Perícia Suprema.",
         "enhanced_desc": ""
     },
     "670630": {
         "id": "670630",
         "name": "Médico Conselheiro",
-        "desc": "O Dano causado por Orvalho é considerado Dano de Ataque Extra. Após uma explosão de Orvalho vinda de um personagem realizando um Ataque Extra ou um ataque, há uma chance fixa de 12% de acionar o seguinte efeito: Carga de Orvalho em 80% do seu máximo e causando Dano igual a 1/2/3/4 vez(es) da Carga do Orvalho com uma chance fixa de 15%/50%/30%/5%.",
+        "desc": "O Dano causado por Orvalho é considerado Dano de Ataque Extra. Após uma explosão de Orvalho vinda de um personagem realizando um Ataque Extra ou um ataque, há uma chance fixa de 16% de acionar o seguinte efeito: Carga de Orvalho em 80% do seu máximo e causando Dano igual a 1/2/3/4 vez(es) da Carga do Orvalho com uma chance fixa de 10%/40%/40%/10%.",
+        "enhanced_desc": ""
+    },
+    "670640": {
+        "id": "670640",
+        "name": "Ladrão Fantasma",
+        "desc": "Cartão de Visita aparece na Ordem de Ação: após os personagens realizarem um Ataque Extra, a ação deles é Avançada Adiante em 5%. Ao agir, a ação do primeiro personagem na formação é Avançada Adiante em 100%. Após esse personagem usar um ataque, inflige 10 instância(s) de Dano de Sabor Residual igual a 40% do ATQ do personagem, com efeito em no máximo 4 ataques. O multiplicador de Dano de Sabor Residual dos aliados aumenta em 100% do multiplicador original, e uma contagem regressiva com 100 de VEL aparece na Ordem de Ação. Os efeitos duram até o início da rodada da contagem regressiva.",
         "enhanced_desc": ""
     },
     "670720": {
         "id": "670720",
         "name": "Herdeiros da Calamidade",
-        "desc": "O inimigo-alvo obtém Cavidade ao entrar na batalha: a Cavidade registrará todos os Esporos acumulados pelo portador. Após acumular 18 Esporos, eles causarão Dano Quântico a todos os inimigos. Para cada penalidade que o inimigo possui, o Dano causado aumenta em 10%, no máximo até 100%. Em seguida, os Esporos acumulados desaparecem.",
+        "desc": "O inimigo-alvo obtém Cavidade ao entrar na batalha: a Cavidade registrará todos os Esporos acumulados pelo portador. Após acumular 18 Esporos, causa Dano Quântico a todos os inimigos igual a 1800% do Dano base. Para cada penalidade que o inimigo possui, esse Dano aumenta em 10%, até um aumento máximo de 100%. Em seguida, a contagem de esporos acumulados é zerada.",
         "enhanced_desc": ""
     },
     "670860": {
         "id": "670860",
         "name": "Erudito Inútil",
-        "desc": "Depois que a equipe usa um total de 6 Perícia(s) Suprema(s) enquanto não está sob o efeito de Sobrecarga, ganha Sobrecarga: Após atacar com uma Perícia Suprema, causa Dano de Sabor Residual igual a 80% do ATQ do atacante 1 vez(es). Após usar uma Perícia Suprema, este status terminará. O primeiro personagem na Formação da Equipe ativa sua Perícia Suprema, Carrega Cérebro In Vitro em 200% e usa a Perícia Suprema 3 vezes antes que o status termine para eles.",
+        "desc": "Depois que a equipe usa um total de 6 Perícia(s) Suprema(s) enquanto não está sob o efeito de Sobrecarga, ganha Sobrecarga: Após atacar com uma Perícia Suprema, causa Dano de Sabor Residual igual a 100% do ATQ do atacante 3 vez(es). Após usar uma Perícia Suprema, este status terminará. O primeiro personagem na Formação da Equipe ativa sua Perícia Suprema, Carrega Cérebro In Vitro em 200% e usa a Perícia Suprema 3 vez(es) antes que o status termine.",
+        "enhanced_desc": ""
+    },
+    "670870": {
+        "id": "670870",
+        "name": "Agregador",
+        "desc": "Após os aliados usarem suas Perícias Supremas um total de 2 vezes, causa 2 instâncias de Dano de Vento igual a 400% do Dano base a um inimigo aleatório e aplica 1 Esporo(s) a ele. O Dano causado aos inimigos adjacentes será igual a 30% do Dano original. Sempre que esse efeito for ativado, o número de instâncias na batalha aumenta em 1 e o Dano de Perícia Suprema causado pelos personagens aumenta em 5%, até um máximo de 20 vezes.",
         "enhanced_desc": ""
     },
     "671020": {
@@ -2507,10 +2591,22 @@
         "desc": "Quando os personagens causam Dano de Terremoto, todo personagem com os PV no máximo irá aumentar o multiplicador de Dano de Terremoto atual em 35% do multiplicador original.",
         "enhanced_desc": ""
     },
+    "671080": {
+        "id": "671080",
+        "name": "Correspondentes Civilizacionais",
+        "desc": "Quando personagens usam suas Perícias Supremas, eles ganham um Escudo que pode negar Dano igual a 30% dos seus PV máximos, durando por 3 rodada(s). Após causar Dano de Perícia Suprema com um ataque, causa Dano de Terremoto adicional igual a 600% do efeito atual de Escudo do personagem aos alvos atacados.",
+        "enhanced_desc": ""
+    },
     "671130": {
         "id": "671130",
         "name": "Doutor de Memória",
-        "desc": "Após um personagem realizar um ataque, Orvalho causará adicionalmente Dano de Orvalho 1 vez igual a 200% do multiplicador de Dano original do Orvalho a todos os inimigos-alvo com Congelamento. Cada inimigo-alvo com Congelamento aumentará adicionalmente o multiplicador de Dano em 25%.",
+        "desc": "Após um personagem realizar um ataque, Orvalho causará adicionalmente Dano de Orvalho 1 vez igual a 250% do multiplicador de Dano original do Orvalho a todos os inimigos-alvo com Congelamento. Cada inimigo-alvo com Congelamento aumentará adicionalmente o multiplicador de Dano em 25%.",
+        "enhanced_desc": ""
+    },
+    "671170": {
+        "id": "671170",
+        "name": "Mimema Peregrino",
+        "desc": "Aumenta o Dano causado pelo ATQ Básico dos personagens em 160%. Ao usar um ATQ Básico para desferir um ataque, os inimigos em estado de Quebra de Fraqueza são considerados sob Congelamento.",
         "enhanced_desc": ""
     },
     "671180": {
@@ -2525,10 +2621,16 @@
         "desc": "Quando um inimigo-alvo sofre Congelamento, faz com que todas as fontes de Dano Contínuo no alvo causem Dano imediatamente igual a 180% do Dano original. Cada fonte de Dano Contínuo ativa aplicará 1 acúmulo de Suspeita.",
         "enhanced_desc": ""
     },
+    "671230": {
+        "id": "671230",
+        "name": "Negador da Morte",
+        "desc": "Aumenta o Dano Contínuo dos personagens em 160%. Após aplicar uma penalidade nos inimigos-alvo, aumenta os PV máximos do personagem em 2% até um máximo de 20 acúmulo(s), durando por 2 rodada(s).",
+        "enhanced_desc": ""
+    },
     "671260": {
         "id": "671260",
         "name": "Bobo da Corte de Anatta",
-        "desc": "Quando o personagem realiza um Ataque Extra, há uma chance-base de 100% de aplicar 1 penalidade aleatória no alvo atacado, durando por 2 rodada(s). As penalidades aleatórias incluem: Redução de Dano Infligido em 15.0%, redução de DEF em 30.0%, e redução de VEL em 20.0%.",
+        "desc": "Quando o personagem realiza um Ataque Extra, há uma chance-base de 150% de aplicar 1 penalidade aleatória no alvo atacado, durando por 2 rodada(s). As penalidades aleatórias incluem: Redução de Dano Infligido em 15.0%, redução de DEF em 30.0%, e redução de VEL em 20.0%.",
         "enhanced_desc": ""
     },
     "671340": {
@@ -2537,28 +2639,46 @@
         "desc": "Quando Orvalho Carrega, para cada 1% de Chance de CRIT que o personagem possui, há uma chance fixa de 1% de aumentar o valor da Carga. A proporção aumentada equivale a 50% do Dano CRIT do personagem.",
         "enhanced_desc": ""
     },
+    "671360": {
+        "id": "671360",
+        "name": "Amante da Morte",
+        "desc": "Os PV máximos dos personagens aumentam em 40%. Após restaurar PV igual a 200% dos PV máximos, o multiplicador de Dano do Dano de Sabor Residual causado aumenta em 100% do multiplicador de Dano original.",
+        "enhanced_desc": ""
+    },
     "671370": {
         "id": "671370",
         "name": "Viscorpus",
-        "desc": "Aumenta o limite máximo de Orvalho em 75%. Quando o personagem quebra o Orvalho com seu ATQ Básico, restaura 35% da Carga de Orvalho.",
+        "desc": "Aumenta o limite máximo de Orvalho em 100%. Quando o personagem quebra o Orvalho com seu ATQ Básico, restaura 35% da Carga de Orvalho.",
         "enhanced_desc": ""
     },
     "671400": {
         "id": "671400",
         "name": "Mecanismo Pausa-Desastre",
-        "desc": "Quando um personagem perde qualquer Escudo por completo, aumenta sua VEL em 12%, durando por 2 rodada(s) e acumulando até 3 vez(es). No início da rodada de um personagem, ele recebe 2 acúmulo(s) de Bônus Crítico.",
+        "desc": "Depois que inimigos-alvo usam um ataque para reduzir o Escudo dos personagens, aumenta a VEL de todos os aliados em 35%, durando por 2 rodada(s), e então ganha 2 acúmulo(s) de Bônus Crítico.",
+        "enhanced_desc": ""
+    },
+    "671450": {
+        "id": "671450",
+        "name": "Corte da Homogeneidade",
+        "desc": "Quando um inimigo-alvo atacar, se houver algum personagem que possua Bônus Crítico, o Dano recebido pelo inimigo-alvo é aumentado em 40%, durando por 2 rodada(s). Enquanto isso, personagens com Bônus Crítico têm a ação Avançada Adiante. Cada acúmulo de Bônus Crítico faz com que a ação do personagem seja Avançada Adiante em 5%.",
         "enhanced_desc": ""
     },
     "671460": {
         "id": "671460",
         "name": "Caçador de Recompensas",
-        "desc": "Quando um personagem causa Dano CRIT, há uma chance fixa de 50% de adicionalmente causar Dano CRIT igual a uma certa quantidade (1-100%) do Dano original por 1 vez(es). Este Dano é considerado como Dano de Ataque Extra.",
+        "desc": "Quando um ataque de um personagem causa Dano CRIT, há uma chance fixa de 65% de causar adicionalmente Dano CRIT igual a uma certa quantidade (1-100%) do Dano original por 1 vez(es). Este Dano é considerado como Dano de Ataque Extra.",
+        "enhanced_desc": ""
+    },
+    "671500": {
+        "id": "671500",
+        "name": "Cuidador de Pré-Batalha",
+        "desc": "O Efeito de Quebra dos personagens aumenta em 100%. Quando infligir Quebra de Fraqueza a um inimigo com um ataque, os personagens que atacam ganham um Escudo que pode absorver Dano igual a 100% de seus PV máximos, durando por 1 rodada(s), e então causa Dano de Terremoto igual a 1000% do efeito de Escudo atual ao alvo depois de um ataque.",
         "enhanced_desc": ""
     },
     "671510": {
         "id": "671510",
         "name": "Furta-Memórias",
-        "desc": "Quando um personagem usa um ataque que causa Dano de Perícia Suprema, consome seus PV igual a 20% dos seus PV atuais. Após este ataque, há uma chance-base de 50% de infligir Congelamento no alvo do ataque, durando por 1 rodada(s). Cada acúmulo de Bravura aumenta a Taxa de Acerto de Efeito em 2%.",
+        "desc": "Quando um personagem usa um ataque que causa Dano de Perícia Suprema, consome seus PV igual a 5% dos seus PV atuais. Após este ataque, há uma chance-base de 50% de infligir Congelamento no alvo do ataque, durando por 1 rodada(s). Cada acúmulo de Bravura aumenta a Taxa de Acerto de Efeito em 2%.",
         "enhanced_desc": ""
     },
     "671520": {
@@ -2567,10 +2687,16 @@
         "desc": "Após um personagem atacar um inimigo com Quebra de Fraqueza, converte a Redução de Tenacidade do ataque em 1 uso de 100% Super Dano de Quebra. Após acumular 30 acúmulo(s) de Bravura, causa adicionalmente 100% de Super Dano de Quebra infligido por este efeito.",
         "enhanced_desc": ""
     },
+    "671610": {
+        "id": "671610",
+        "name": "Artista da Recordação",
+        "desc": "Sabor Residual tem uma chance-base de 3% de fazer com que os inimigos-alvo que não estão afligidos com Congelamento sejam afligidos por Congelamento, durando por 1 rodada(s). Cada ataque faz com que esse efeito seja calculado por um máximo de 5 vez(es). Aumenta o Multiplicador de Dano de Sabor Residual contra inimigos afligidos com Congelamento em 150% do multiplicador original.",
+        "enhanced_desc": ""
+    },
     "671650": {
         "id": "671650",
         "name": "Mestre dos Fogos de Artifício",
-        "desc": "Após um personagem realizar um Ataque Extra, causa Dano de Sabor Residual ao inimigo-alvo igual a 500% do total de PV que o personagem já perdeu 1 vez. Então, reinicia os PV alterados acumulados. A alteração de PV pode acumular até 160% dos PV máximos do personagem.",
+        "desc": "O Dano do Ataque Extra causado pelos personagens aumenta em 50%. Após um personagem realizar um Ataque Extra, causa 1 instância de Dano de Sabor Residual ao inimigo-alvo atacado igual a 500% do total dos PV que o personagem perdeu + os PV restaurados. Então, a contagem dos PV utilizados para este cálculo é reiniciada. A alteração de PV pode acumular até 200% dos PV máximos do personagem.",
         "enhanced_desc": ""
     },
     "671670": {
@@ -2585,16 +2711,28 @@
         "desc": "Quando um personagem ganha um Escudo, faz com que 2 inimigo(s)-alvo aleatório(s) ganhe(m) 1 Esporo. O multiplicador de Dano do Esporo aumenta em 75% do multiplicador original.",
         "enhanced_desc": ""
     },
+    "671740": {
+        "id": "671740",
+        "name": "Trabalhador Diabólico",
+        "desc": "Após um personagem usar um ataque, aplica Esporos aos inimigos-alvo que foram aleatoriamente atacados. Quando os aliados realizarem ações consecutivas 1 / 2 / 3 vez(es) ou mais, o número de Esporos adicionados se torna 2 / 4 / 6.",
+        "enhanced_desc": ""
+    },
     "671780": {
         "id": "671780",
         "name": "Ardiloso da Calamidade",
-        "desc": "Aumenta o máximo de Esporos em 3. Depois que um personagem usa um ataque que causa Dano de Perícia Suprema e se o Esporo do alvo atacado explodir, causa adicionalmente Dano de Perícia Suprema igual a 200% do ATQ do personagem ao alvo. Cada Esporo explodido por este ataque aumenta este multiplicador de Dano em 30%.",
+        "desc": "Aumenta o máximo de Esporos em 3. Depois que um personagem usa um ataque que causa Dano de Perícia Suprema e se o Esporo do alvo atacado explodir, causa adicionalmente Dano de Perícia Suprema igual a 250% do ATQ do personagem ao alvo. Cada Esporo explodido por este ataque aumenta este multiplicador de Dano em 30%.",
+        "enhanced_desc": ""
+    },
+    "671820": {
+        "id": "671820",
+        "name": "Construtor de Blocos",
+        "desc": "Após um personagem usar um ataque, cada Penalidade ativa nos alvos atacados aumenta o ATQ do personagem em 3% até um máximo de 99 acúmulo(s). Quando a rodada termina, perde 10 acúmulos desse Bônus de ATQ.",
         "enhanced_desc": ""
     },
     "671840": {
         "id": "671840",
         "name": "Guardas do Coração de Prata",
-        "desc": "Quando um personagem derrota um inimigo ou causa Quebra de Fraqueza, carrega o Cérebro In Vitro em 25% e regenera Energia igual a 10% da Energia máxima. Se o alvo é um Inimigo de Elite, regenera Energia adicionalmente igual a 40% da Energia máxima.",
+        "desc": "Quando um personagem causa Quebra de Fraqueza a um inimigo, carrega o Cérebro In Vitro em 25% e regenera Energia igual a 10% da Energia máxima. Após derrotar o alvo, regenera Energia adicionalmente igual a 60% da Energia máxima.",
         "enhanced_desc": ""
     },
     "671850": {
@@ -2609,10 +2747,16 @@
         "desc": "Se um personagem ataca e inflige Congelamento em um inimigo-alvo, então todos os aliados ganham um Escudo igual a 25% de seus respectivos PV máximos, durando por 3 rodada(s). Cada inimigo-alvo com Congelamento durante este ataque irá aumentar o efeito de Escudo obtido em 5% dos seus respectivos PV máximos.",
         "enhanced_desc": ""
     },
+    "672030": {
+        "id": "672030",
+        "name": "Purificador Planetário",
+        "desc": "Aumenta o efeito de Escudo obtido pelos personagens em 30%. Após perder o Escudo, restaura PV igual a 25% de seus PV máximos.",
+        "enhanced_desc": ""
+    },
     "672050": {
         "id": "672050",
         "name": "Inafundável",
-        "desc": "Quando um personagem recebe um Escudo, para cada 1% de PV que for diferente entre os PV máximos do personagem e os PV atuais, o efeito do Escudo aumenta em 1.0%.",
+        "desc": "O efeito de Escudo que um personagem recebe aumenta em 20%, para cada 1% de PV que for diferente entre os PV máximos do personagem e os PV atuais, o efeito do Escudo aumenta adicionalmente em 0.8%.",
         "enhanced_desc": ""
     },
     "672060": {
@@ -2624,13 +2768,19 @@
     "672100": {
         "id": "672100",
         "name": "Acadêmico de Velas",
-        "desc": "Quando um personagem leva Dano fatal, seus PV se tornarão 1, e ele obterá um Escudo igual a 50% dos seus PV máximos antes de entrar num estado de Congelamento que não pode ser desfeito, durando por 3 rodada(s). Enquanto está nesse estado, seus PV não podem ser restaurados, e tomar Dano fatal novamente irá desfazer esse estado e derrubar o personagem.",
+        "desc": "Aumenta o Dano CRIT do personagem em 50%. Quando um personagem recebe Dano fatal, ele fica com 1 PV e recebe um Escudo igual a 100% dos seus PV máximos antes de entrar num estado de Congelamento que não pode ser removido, durando por 1 rodada(s). Enquanto nesse estado, seus PV não podem ser restaurados e a equipe pode ativar esse efeito no máximo 3 vez(es). Antes que as ativações sejam completamente consumidas, aumenta o Dano CRIT dos personagens em 50%.",
+        "enhanced_desc": ""
+    },
+    "672140": {
+        "id": "672140",
+        "name": "Revisor de Cognição",
+        "desc": "Depois que os personagens atacam um inimigo que não seja de Elite com menos de 50% de sua porcentagem atual de PV, há uma chance-base de 150% de infligir o estado de Dissociação nele, com duração de 1 rodada(s), e causar uma quantidade fixa de Dano CRIT igual aos PV atuais dele.",
         "enhanced_desc": ""
     },
     "672160": {
         "id": "672160",
         "name": "Biógrafo",
-        "desc": "Após um personagem atacar um alvo com Congelamento, causa Dano de Sabor Residual 1 vez igual a 180% do ATQ do personagem ao alvo.",
+        "desc": "Após um personagem atacar um alvo com Congelamento, causa Dano de Sabor Residual 1 vez igual a 240% do ATQ do personagem ao alvo.",
         "enhanced_desc": ""
     },
     "672180": {
@@ -2649,6 +2799,12 @@
         "id": "672240",
         "name": "Sedento por Pecado",
         "desc": "O Dano Contínuo causado pelos personagens pode ter Acertos CRIT. Ao causar Dano Contínuo, o Dano CRIT não pode exceder 100%.",
+        "enhanced_desc": ""
+    },
+    "672250": {
+        "id": "672250",
+        "name": "Livrador",
+        "desc": "Quando os inimigos-alvo recebem Dano de Redução de Tenacidade durante um ataque, eles têm uma chance-base de 100% de serem infligidos com Queimadura e de receber Dano de Fogo igual a 120% do Dano base no começo de suas rodadas por 2 rodada(s).",
         "enhanced_desc": ""
     },
     "672280": {
@@ -2672,7 +2828,13 @@
     "672370": {
         "id": "672370",
         "name": "Simbionte",
-        "desc": "Aumenta a restauração de PV do personagem em 35%. Após curar aliados, há uma chance fixa de 50% de recuperar 1 Ponto de Perícia. Este efeito pode ser ativado 1 vez por ação do personagem.",
+        "desc": "Aumenta a restauração de PV do personagem em 35%. Após fornecer cura para aliados, há uma chance fixa de 50% de recuperar 1 Ponto de Perícia. Este efeito pode ser ativado 1 vez por ação do personagem.",
+        "enhanced_desc": ""
+    },
+    "672371": {
+        "id": "672371",
+        "name": "Árvore do Descarte",
+        "desc": "Aumenta a Cura Realizada do personagem em 30%. Após realizar a cura para um alvo aliado, inflige 1 Esporo(s) a um inimigo-alvo aleatório.",
         "enhanced_desc": ""
     },
     "672400": {
@@ -2693,6 +2855,18 @@
         "desc": "Quando começa a rodada de um personagem, cada acúmulo de Bônus Crítico recupera seus PV equivalentes a 5% de seus PV máximos e restaura PV aos aliados igual a 2% dos seus respectivos PV máximos.",
         "enhanced_desc": ""
     },
+    "672480": {
+        "id": "672480",
+        "name": "Ensaiador",
+        "desc": "Aumenta o Dano CRIT em 8% para cada acúmulo de Bônus Crítico. Quando um personagem usa sua Perícia Suprema, herda esse acúmulo máximo e recebe 2 acúmulo(s) de Bônus Crítico.",
+        "enhanced_desc": ""
+    },
+    "672510": {
+        "id": "672510",
+        "name": "Coveiro",
+        "desc": "Após um personagem causar Quebra de Fraqueza nos inimigos-alvo, há uma chance-base de 120% de infligir Congelamento, durando por 1 rodada(s). Se o inimigo-alvo já estiver afligido com Congelamento, então causa 1 instância de Dano de Quebra adicional igual a 200% do Dano de Quebra que seria causado desta vez.",
+        "enhanced_desc": ""
+    },
     "672520": {
         "id": "672520",
         "name": "Caminhante das Brasas",
@@ -2711,10 +2885,16 @@
         "desc": "O Dano de Perícia Suprema causado pelos personagens aumenta em 60%. A cada 1% de PV que um personagem perder providencia Carga de Cérebro In Vitro em 0.5%.",
         "enhanced_desc": ""
     },
+    "672600": {
+        "id": "672600",
+        "name": "Mago do Campo de Batalha",
+        "desc": "Após os personagens atacarem, recebe um Escudo igual a 3% dos PV máximos do personagem para cada instância de Dano causado por Sabor Residual neste ataque. O Escudo não pode exceder 36% dos PV máximos do personagem e dura por 1 rodada(s).",
+        "enhanced_desc": ""
+    },
     "672620": {
         "id": "672620",
         "name": "Cavaleiro de Doces",
-        "desc": "O Dano de Sabor Residual dos personagens aplica Redução de Tenacidade do Tipo correspondente. Se este efeito causar Quebra de Fraqueza a um inimigo, aciona o efeito de Quebra de Fraqueza do Tipo do atacante.",
+        "desc": "O Dano de Sabor Residual causado pelos personagens pode ignorar o Tipo de Fraqueza e reduzir 2.5 da Tenacidade dos inimigos-alvo. Em um único ataque, este efeito pode ser ativado contra cada inimigo-alvo até um máximo de 7 vez(es).",
         "enhanced_desc": ""
     },
     "672630": {
@@ -2732,7 +2912,7 @@
     "672710": {
         "id": "672710",
         "name": "Trabalhador Fantasma",
-        "desc": "Reduz a RES a Efeito de inimigos em 10% para cada acúmulo de Esporo que eles possuírem.",
+        "desc": "O Dano de Esporo recebido pelos inimigos-alvo aumenta em 35%. Reduz a RES a Efeito dos inimigos em 10% para cada acúmulo de Esporo que eles possuam.",
         "enhanced_desc": ""
     },
     "672720": {
@@ -2741,16 +2921,28 @@
         "desc": "Aumenta o multiplicador de Dano de Esporo em 60% do multiplicador original. Quando os Esporos explodem, o multiplicador de Dano aumenta adicionalmente em 3% do multiplicador original para cada penalidade que o inimigo-alvo tem.",
         "enhanced_desc": ""
     },
+    "672721": {
+        "id": "672721",
+        "name": "Trabalhador Pacifista",
+        "desc": "Toda vez que os personagens consumirem Pontos de Perícia ou possuírem excesso de Pontos de Perícia, há uma chance-base de 150% em infligir uma Penalidade aleatória em inimigos-alvo aleatórios, durando por 2 rodada(s). As Penalidades aleatórias incluem: Redução do Dano causado em 15.0%, redução do Efeito de RES em 20.0%, ou redução da Taxa de Acerto de Efeito em 30.0%.",
+        "enhanced_desc": ""
+    },
     "672750": {
         "id": "672750",
         "name": "Trabalhador Esmaga-Estrelas",
-        "desc": "Quando um personagem usa um ATQ Básico e sua porcentagem de PV é maior ou igual a 50%, consome PV igual a 5% de seus PV máximos e adicionalmente recupera 1 Ponto de Perícia.",
+        "desc": "O Dano do ATQ Básico dos personagens aumenta em 50%. Quando um personagem usa um ATQ Básico e sua porcentagem de PV é maior ou igual a 50%, consome PV igual a 5% de seus PV máximos e adicionalmente recupera 1 Ponto de Perícia.",
         "enhanced_desc": ""
     },
     "672840": {
         "id": "672840",
         "name": "Escrevente",
         "desc": "Após um personagem atacar e causar Dano de Perícia Suprema, para cada inimigo-alvo atingido, causa Dano de Perícia Suprema igual a 100% do ATQ do personagem ao inimigo-alvo com os PV máximos mais altos.",
+        "enhanced_desc": ""
+    },
+    "672850": {
+        "id": "672850",
+        "name": "Coletor de Estrelas",
+        "desc": "Quando os personagens usam suas Perícias Supremas, ganham 3 acúmulo(s) de Bravura e aumentam a VEL em 25% e o ATQ em 20%, durando por 2 rodada(s).",
         "enhanced_desc": ""
     },
     "672860": {

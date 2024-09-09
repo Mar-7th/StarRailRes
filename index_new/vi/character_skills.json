@@ -2964,7 +2964,7 @@
         "type_text": "Thiên Phú",
         "effect": "AoEAttack",
         "effect_text": "Đánh Lan",
-        "simple_desc": "",
+        "simple_desc": "Khi đòn tấn công của mục tiêu bất kỳ phe ta khiến phần trăm HP hiện tại của mục tiêu phe địch nhỏ hơn hoặc bằng 50%, Herta sẽ lập tức phát động Đòn Đánh Theo Sau, gây lượng nhỏ Sát Thương Băng cho toàn thể phe địch.",
         "desc": "Khi đòn tấn công của mục tiêu bất kỳ phe ta khiến phần trăm HP hiện tại của kẻ địch nhỏ hơn hoặc bằng #1[i]%, thì Herta sẽ phát động Đòn Đánh Theo Sau, gây cho toàn phe địch Sát Thương Băng bằng #2[i]% Tấn Công của Herta.",
         "params": [
             [
@@ -3053,7 +3053,7 @@
         "type_text": "Bí Kỹ",
         "effect": "Enhance",
         "effect_text": "Cường Hóa",
-        "simple_desc": "",
+        "simple_desc": "Sau khi dùng Bí Kỹ, khi bắt đầu lần chiến đấu tiếp theo, sẽ tăng Tấn Công của bản thân.",
         "desc": "Sau khi dùng Bí Kỹ, Tấn Công của Herta khi bắt đầu lần chiến đấu tiếp theo tăng #1[i]%, duy trì #2[i] hiệp.",
         "params": [
             [
@@ -13949,6 +13949,549 @@
         ],
         "icon": "icon/skill/1218_technique.png"
     },
+    "122001": {
+        "id": "122001",
+        "name": "Chém Tách Chớp Nhoáng",
+        "max_level": 9,
+        "element": "Wind",
+        "type": "Normal",
+        "type_text": "Tấn Công Thường",
+        "effect": "SingleAttack",
+        "effect_text": "Đánh Đơn",
+        "simple_desc": "Gây lượng nhỏ Sát Thương Phong cho 1 kẻ địch.",
+        "desc": "Gây Sát Thương Phong cho 1 kẻ địch chỉ định bằng #1[i]% Tấn Công của Feixiao.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1220_basic_atk.png"
+    },
+    "122002": {
+        "id": "122002",
+        "name": "Rìu Chiến Xuyên Kích",
+        "max_level": 15,
+        "element": "Wind",
+        "type": "BPSkill",
+        "type_text": "Chiến Kỹ",
+        "effect": "SingleAttack",
+        "effect_text": "Đánh Đơn",
+        "simple_desc": "Gây Sát Thương Phong cho 1 kẻ địch, sau đó kích hoạt thêm 1 lần Đòn Đánh Theo Sau của Thiên Phú.",
+        "desc": "Gây Sát Thương Phong cho 1 kẻ địch chỉ định bằng #1[i]% Tấn Công của Feixiao, sau đó lập tức phát động thêm 1 lần Đòn Đánh Theo Sau của Thiên Phú lên mục tiêu này.",
+        "params": [
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ],
+            [
+                1.4
+            ],
+            [
+                1.5
+            ],
+            [
+                1.625
+            ],
+            [
+                1.75
+            ],
+            [
+                1.875
+            ],
+            [
+                2
+            ],
+            [
+                2.1
+            ],
+            [
+                2.2
+            ],
+            [
+                2.3
+            ],
+            [
+                2.4
+            ],
+            [
+                2.5
+            ]
+        ],
+        "icon": "icon/skill/1220_skill.png"
+    },
+    "122003": {
+        "id": "122003",
+        "name": "Trảm Phá Đại Địa",
+        "max_level": 15,
+        "element": "Wind",
+        "type": "Ultra",
+        "type_text": "Tuyệt Kỹ",
+        "effect": "SingleAttack",
+        "effect_text": "Đánh Đơn",
+        "simple_desc": "Trong thời gian Tuyệt Kỹ, có thể bỏ qua Thuộc Tính Điểm Yếu làm giảm Sức Bền của phe địch, khi mục tiêu chưa bị Phá Vỡ Điểm Yếu, Hiệu Suất Phá Vỡ Điểm Yếu của Feixiao tăng.\nPhát động 6 lần Vũ Điệu Lưỡi Đao Chớp Nhoáng hoặc Chém Tách Trời Xanh lên 1 kẻ địch, cuối cùng gây Sát Thương Phong.",
+        "desc": "Gây Sát Thương Phong tối đa bằng #4[i]% Tấn Công của Feixao cho 1 kẻ địch chỉ định, trong thời gian đó có thể bỏ qua Điểm Yếu làm giảm Sức Bền của mục tiêu. Khi mục tiêu trong trạng thái Phá Vỡ Điểm Yếu, Hiệu Suất Phá Vỡ Điểm Yếu của Feixiao tăng #2[i]%.\nTrong đó, Feixiao sẽ phát động Vũ Điệu Lưỡi Đao Chớp Nhoáng hoặc Chém Tách Trời Xanh lên mục tiêu này trước, tổng cộng #3[i] lần. Cuối cùng gây Sát Thương Phong bằng #1[i]% Tấn Công của Feixiao lên mục tiêu này.",
+        "params": [
+            [
+                0.96,
+                1,
+                6,
+                4.02
+            ],
+            [
+                1.024,
+                1,
+                6,
+                4.318
+            ],
+            [
+                1.088,
+                1,
+                6,
+                4.616
+            ],
+            [
+                1.152,
+                1,
+                6,
+                4.914
+            ],
+            [
+                1.216,
+                1,
+                6,
+                5.212
+            ],
+            [
+                1.28,
+                1,
+                6,
+                5.51
+            ],
+            [
+                1.36,
+                1,
+                6,
+                5.8825
+            ],
+            [
+                1.44,
+                1,
+                6,
+                6.255
+            ],
+            [
+                1.52,
+                1,
+                6,
+                6.6275
+            ],
+            [
+                1.6,
+                1,
+                6,
+                7
+            ],
+            [
+                1.664,
+                1,
+                6,
+                7.298
+            ],
+            [
+                1.728,
+                1,
+                6,
+                7.596
+            ],
+            [
+                1.792,
+                1,
+                6,
+                7.894
+            ],
+            [
+                1.856,
+                1,
+                6,
+                8.192
+            ],
+            [
+                1.92,
+                1,
+                6,
+                8.49
+            ]
+        ],
+        "icon": "icon/skill/1220_ultimate.png"
+    },
+    "122004": {
+        "id": "122004",
+        "name": "Sấm Sét Săn Lùng",
+        "max_level": 15,
+        "element": "Wind",
+        "type": "Talent",
+        "type_text": "Thiên Phú",
+        "effect": "SingleAttack",
+        "effect_text": "Đánh Đơn",
+        "simple_desc": "Khi Phi Hoàng đạt 6 điểm có thể kích hoạt Tuyệt Kỹ, tối đa tích lũy 12 điểm. Mục tiêu phe ta cứ thi triển 2 lần tấn công, thì Feixiao sẽ nhận được Phi Hoàng.\nSau khi đồng đội thi triển tấn công, Feixiao sẽ phát động Đòn Đánh Theo Sau lên mục tiêu chính, gây Sát Thương Phong. Hiệu quả này mỗi hiệp tối đa kích hoạt 1 lần, khi phát động đòn tấn công này sẽ khiến sát thương bản thân gây ra tăng.",
+        "desc": "Khi Phi Hoàng đạt #3[i] điểm có thể kích hoạt Tuyệt Kỹ, tối đa tích lũy #4[i] điểm. Mục tiêu phe ta mỗi #2[i] lần thi triển tấn công, Feixiao sẽ nhận được 1 điểm Phi Hoàng, tấn công từ Tuyệt Kỹ của Feixiao không tính vào số lần.\nSau khi đồng đội của Feixiao thi triển đòn tấn công lên mục tiêu phe địch, Feixiao sẽ lập tức phát động Đòn Đánh Theo Sau lên mục tiêu chính, gây Sát Thương Phong bằng #1[i]% Tấn Công của Feixiao. Nếu không tồn tại mục tiêu chính có thể tấn công, thì sẽ tấn công 1 kẻ địch bất kỳ. Hiệu ứng này mỗi hiệp tối đa kích hoạt 1 lần, khi hiệp của Feixiao bắt đầu sẽ làm mới số lần kích hoạt. Khi phát động đòn tấn công này sẽ khiến sát thương bản thân gây ra tăng #5[i]%, duy trì #6[i] hiệp.",
+        "params": [
+            [
+                0.55,
+                2,
+                6,
+                12,
+                0.3,
+                2
+            ],
+            [
+                0.605,
+                2,
+                6,
+                12,
+                0.33,
+                2
+            ],
+            [
+                0.66,
+                2,
+                6,
+                12,
+                0.36,
+                2
+            ],
+            [
+                0.715,
+                2,
+                6,
+                12,
+                0.39,
+                2
+            ],
+            [
+                0.77,
+                2,
+                6,
+                12,
+                0.42,
+                2
+            ],
+            [
+                0.825,
+                2,
+                6,
+                12,
+                0.45,
+                2
+            ],
+            [
+                0.8938,
+                2,
+                6,
+                12,
+                0.4875,
+                2
+            ],
+            [
+                0.9625,
+                2,
+                6,
+                12,
+                0.525,
+                2
+            ],
+            [
+                1.0312,
+                2,
+                6,
+                12,
+                0.5625,
+                2
+            ],
+            [
+                1.1,
+                2,
+                6,
+                12,
+                0.6,
+                2
+            ],
+            [
+                1.155,
+                2,
+                6,
+                12,
+                0.63,
+                2
+            ],
+            [
+                1.21,
+                2,
+                6,
+                12,
+                0.66,
+                2
+            ],
+            [
+                1.265,
+                2,
+                6,
+                12,
+                0.69,
+                2
+            ],
+            [
+                1.32,
+                2,
+                6,
+                12,
+                0.72,
+                2
+            ],
+            [
+                1.375,
+                2,
+                6,
+                12,
+                0.75,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1220_talent.png"
+    },
+    "122006": {
+        "id": "122006",
+        "name": "Tấn Công",
+        "max_level": 1,
+        "element": "Wind",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Tấn công kẻ địch, sau khi vào chiến đấu sẽ làm suy yếu Sức Bền thuộc tính tương ứng của mục tiêu phe địch.",
+        "params": [],
+        "icon": "icon/skill/1220_basic_atk.png"
+    },
+    "122007": {
+        "id": "122007",
+        "name": "Hóa Thân Bão Tố",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Bí Kỹ",
+        "effect": "Enhance",
+        "effect_text": "Cường Hóa",
+        "simple_desc": "Vào trạng thái Khí Thế Vây Hãm, duy trì lôi kéo kẻ địch và tăng tốc độ di chuyển, sau khi vào chiến đấu sẽ nhận được Phi Hoàng.\nTrong trạng thái Khí Thế Vây Hãm có thể chủ động tấn công tất cả kẻ địch bị lôi kéo, khi bắt đầu mỗi đợt, gây sát thương Phong cho toàn phe địch, sát thương này chắc chắn bạo kích. Lôi kéo càng nhiều kẻ địch, Bội Số Sát Thương càng cao.",
+        "desc": "Sau khi dùng Bí Kỹ sẽ vào trạng thái Khí Thế Vây Hãm duy trì #1[i] giây. Khi trong trạng thái Khí Thế Vây Hãm sẽ lôi kéo kẻ địch trong phạm vi nhất định, và Tốc Độ của bản thân tăng #2[i]%, sau khi vào chiến đấu sẽ nhận được #4[i] điểm Phi Hoàng.\nTrong trạng thái Khí Thế Vây Hãm, chủ động tấn công sẽ khiến tất cả kẻ địch bị lôi kéo vào chiến đấu. Sau khi vào chiến đấu, khi bắt đầu mỗi đợt, sẽ gây sát thương Phong bằng #3[i]% Tấn Công của Feixiao cho toàn thể phe địch, sát thương này chắc chắn bạo kích. Nếu lôi kéo nhiều hơn 1 kẻ địch, thì với mỗi 1 kẻ địch bị lôi kéo thêm, bội số của sát thương này sẽ tăng #5[i]%, tối đa tăng đến #6[i]%.",
+        "params": [
+            [
+                20,
+                0.5,
+                2,
+                1,
+                1,
+                10
+            ]
+        ],
+        "icon": "icon/skill/1220_technique.png"
+    },
+    "122008": {
+        "id": "122008",
+        "name": "Vũ Điệu Lưỡi Đao Chớp Nhoáng",
+        "max_level": 15,
+        "element": "Wind",
+        "type": "Ultra",
+        "type_text": "Tuyệt Kỹ",
+        "effect": "SingleAttack",
+        "effect_text": "Đánh Đơn",
+        "simple_desc": "Gây lượng nhỏ sát thương Phong cho 1 kẻ địch, tăng Bội Số Sát Thương đối với mục tiêu bị Phá Vỡ Điểm Yếu.",
+        "desc": "Gây sát thương Phong bằng #1[i]% Tấn Công của Feixiao cho mục tiêu được chọn. Nếu mục tiêu trong trạng thái Phá Vỡ Điểm Yếu thì Bội Số Sát Thương sẽ tăng #2[i]%.",
+        "params": [
+            [
+                0.36,
+                0.15
+            ],
+            [
+                0.384,
+                0.165
+            ],
+            [
+                0.408,
+                0.18
+            ],
+            [
+                0.432,
+                0.195
+            ],
+            [
+                0.456,
+                0.21
+            ],
+            [
+                0.48,
+                0.225
+            ],
+            [
+                0.51,
+                0.2437
+            ],
+            [
+                0.54,
+                0.2625
+            ],
+            [
+                0.57,
+                0.2812
+            ],
+            [
+                0.6,
+                0.3
+            ],
+            [
+                0.624,
+                0.315
+            ],
+            [
+                0.648,
+                0.33
+            ],
+            [
+                0.672,
+                0.345
+            ],
+            [
+                0.696,
+                0.36
+            ],
+            [
+                0.72,
+                0.375
+            ]
+        ],
+        "icon": "icon/skill/1220_ultimate.png"
+    },
+    "122009": {
+        "id": "122009",
+        "name": "Chém Tách Trời Xanh",
+        "max_level": 15,
+        "element": "Wind",
+        "type": "Ultra",
+        "type_text": "Tuyệt Kỹ",
+        "effect": "SingleAttack",
+        "effect_text": "Đánh Đơn",
+        "simple_desc": "Gây lượng nhỏ sát thương Phong cho 1 kẻ địch, tăng Bội Số Sát Thương đối với mục tiêu chưa bị Phá Vỡ Điểm Yếu.",
+        "desc": "Gây sát thương Phong bằng #1[i]% Tấn Công của Feixiao cho mục tiêu được chọn. Nếu mục tiêu không trong trạng thái Phá Vỡ Điểm Yếu thì Bội Số Sát Thương sẽ tăng #2[i]%.",
+        "params": [
+            [
+                0.36,
+                0.15
+            ],
+            [
+                0.384,
+                0.165
+            ],
+            [
+                0.408,
+                0.18
+            ],
+            [
+                0.432,
+                0.195
+            ],
+            [
+                0.456,
+                0.21
+            ],
+            [
+                0.48,
+                0.225
+            ],
+            [
+                0.51,
+                0.2437
+            ],
+            [
+                0.54,
+                0.2625
+            ],
+            [
+                0.57,
+                0.2812
+            ],
+            [
+                0.6,
+                0.3
+            ],
+            [
+                0.624,
+                0.315
+            ],
+            [
+                0.648,
+                0.33
+            ],
+            [
+                0.672,
+                0.345
+            ],
+            [
+                0.696,
+                0.36
+            ],
+            [
+                0.72,
+                0.375
+            ]
+        ],
+        "icon": "icon/skill/1220_ultimate.png"
+    },
+    "122014": {
+        "id": "122014",
+        "name": "Trảm Phá Đại Địa",
+        "max_level": 15,
+        "element": "Wind",
+        "type": "Ultra",
+        "type_text": "Tuyệt Kỹ",
+        "effect": "SingleAttack",
+        "effect_text": "Đánh Đơn",
+        "simple_desc": "",
+        "desc": "",
+        "params": [],
+        "icon": "icon/skill/1220_ultimate.png"
+    },
     "122101": {
         "id": "122101",
         "name": "Đảo Gió Xoay Trời",
@@ -14384,6 +14927,786 @@
         ],
         "icon": "icon/skill/1221_technique.png"
     },
+    "122201": {
+        "id": "122201",
+        "name": "Dâng Hương",
+        "max_level": 9,
+        "element": "Fire",
+        "type": "Normal",
+        "type_text": "Tấn Công Thường",
+        "effect": "SingleAttack",
+        "effect_text": "Đánh Đơn",
+        "simple_desc": "Gây lượng nhỏ Sát Thương Hỏa cho 1 kẻ địch.",
+        "desc": "Gây Sát Thương Hỏa bằng #1[i]% Tấn Công của Lingsha cho 1 kẻ địch chỉ định.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1222_basic_atk.png"
+    },
+    "122202": {
+        "id": "122202",
+        "name": "Khói Sương Óng Ánh",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "BPSkill",
+        "type_text": "Chiến Kỹ",
+        "effect": "AoEAttack",
+        "effect_text": "Đánh Lan",
+        "simple_desc": "Gây lượng nhỏ Sát Thương Hỏa cho toàn thể phe địch, đồng thời hồi HP cho toàn thể phe ta, khiến Fuyuan Ưu Tiên Hành Động.",
+        "desc": "Gây Sát Thương Hỏa bằng #1[i]% Tấn Công của Lingsha cho toàn thể phe địch, đồng thời giúp toàn thể phe ta hồi HP bằng #2[f1]% Tấn Công của Lingsha +#3[i], khiến Fuyuan Ưu Tiên Hành Động #4[i]%.",
+        "params": [
+            [
+                0.4,
+                0.1,
+                105,
+                0.2
+            ],
+            [
+                0.44,
+                0.105,
+                168,
+                0.2
+            ],
+            [
+                0.48,
+                0.11,
+                215.25,
+                0.2
+            ],
+            [
+                0.52,
+                0.115,
+                262.5,
+                0.2
+            ],
+            [
+                0.56,
+                0.12,
+                294,
+                0.2
+            ],
+            [
+                0.6,
+                0.124,
+                325.5,
+                0.2
+            ],
+            [
+                0.65,
+                0.128,
+                349.125,
+                0.2
+            ],
+            [
+                0.7,
+                0.132,
+                372.75,
+                0.2
+            ],
+            [
+                0.75,
+                0.136,
+                396.375,
+                0.2
+            ],
+            [
+                0.8,
+                0.14,
+                420,
+                0.2
+            ],
+            [
+                0.84,
+                0.144,
+                443.625,
+                0.2
+            ],
+            [
+                0.88,
+                0.148,
+                467.25,
+                0.2
+            ],
+            [
+                0.92,
+                0.152,
+                490.875,
+                0.2
+            ],
+            [
+                0.96,
+                0.156,
+                514.5,
+                0.2
+            ],
+            [
+                1,
+                0.16,
+                538.125,
+                0.2
+            ]
+        ],
+        "icon": "icon/skill/1222_skill.png"
+    },
+    "122203": {
+        "id": "122203",
+        "name": "Ráng Chiều Che Nghiêng",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "Ultra",
+        "type_text": "Tuyệt Kỹ",
+        "effect": "AoEAttack",
+        "effect_text": "Đánh Lan",
+        "simple_desc": "Tăng Sát Thương Phá Vỡ toàn thể phe địch phải chịu, gây Sát Thương Hỏa cho toàn thể phe địch, đồng thời hồi HP cho toàn thể phe ta, khiến Fuyuan Ưu Tiên Hành Động.",
+        "desc": "Khiến toàn thể phe địch rơi vào trạng thái Say Men, trong trạng thái Say Men, Sát Thương Phá Vỡ mục tiêu phải chịu tăng #4[i]%, duy trì #5[i] hiệp.\nGây Sát Thương Hỏa bằng #1[i]% Tấn Công của Lingsha cho toàn thể phe địch, đồng thời hồi HP bằng #2[f1]% Tấn Công của Lingsha +#3[i] cho toàn thể phe ta, khiến Fuyuan Ưu Tiên Hành Động #6[i]%.",
+        "params": [
+            [
+                0.9,
+                0.08,
+                90,
+                0.15,
+                2,
+                1
+            ],
+            [
+                0.96,
+                0.085,
+                144,
+                0.16,
+                2,
+                1
+            ],
+            [
+                1.02,
+                0.09,
+                184.5,
+                0.17,
+                2,
+                1
+            ],
+            [
+                1.08,
+                0.095,
+                225,
+                0.18,
+                2,
+                1
+            ],
+            [
+                1.14,
+                0.1,
+                252,
+                0.19,
+                2,
+                1
+            ],
+            [
+                1.2,
+                0.104,
+                279,
+                0.2,
+                2,
+                1
+            ],
+            [
+                1.275,
+                0.108,
+                299.25,
+                0.2125,
+                2,
+                1
+            ],
+            [
+                1.35,
+                0.112,
+                319.5,
+                0.225,
+                2,
+                1
+            ],
+            [
+                1.425,
+                0.116,
+                339.75,
+                0.2375,
+                2,
+                1
+            ],
+            [
+                1.5,
+                0.12,
+                360,
+                0.25,
+                2,
+                1
+            ],
+            [
+                1.56,
+                0.124,
+                380.25,
+                0.26,
+                2,
+                1
+            ],
+            [
+                1.62,
+                0.128,
+                400.5,
+                0.27,
+                2,
+                1
+            ],
+            [
+                1.68,
+                0.132,
+                420.75,
+                0.28,
+                2,
+                1
+            ],
+            [
+                1.74,
+                0.136,
+                441,
+                0.29,
+                2,
+                1
+            ],
+            [
+                1.8,
+                0.14,
+                461.25,
+                0.3,
+                2,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1222_ultimate.png"
+    },
+    "122204": {
+        "id": "122204",
+        "name": "Khói Sương Nghiêng Ngả, Khí Trời Hóa Sinh",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "Talent",
+        "type_text": "Thiên Phú",
+        "effect": "AoEAttack",
+        "effect_text": "Đánh Lan",
+        "simple_desc": "Thi triển Chiến Kỹ triệu hồi Fuyuan: Khi hành động sẽ phát động Đòn Đánh Theo Sau, gây lượng nhỏ Sát Thương Hỏa cho toàn bộ kẻ địch. Gây thêm lượng nhỏ Sát Thương Hỏa cho 1 kẻ địch ngẫu nhiên, ưu tiên chọn mục tiêu có Sức Bền lớn hơn 0 và có Điểm Yếu Hỏa. Giải trừ 1 Hiệu Ứng Xấu của toàn bộ phe ta và hồi HP.\nThi triển Chiến Kỹ lặp lại sẽ tăng số lần hành động của Fuyuan.",
+        "desc": "Khi thi triển Chiến Kỹ sẽ triệu hồi Fuyuan, Fuyuan ban đầu có #1[i] điểm Tốc Độ và #7[i] lần hành động.\nKhi Fuyuan hành động sẽ phát động Đòn Đánh Theo Sau, gây Sát Thương Hỏa bằng #2[i]% Tấn Công của Lingsha cho toàn thể phe địch. Gây thêm Sát Thương Hỏa bằng #8[i]% Tấn Công của Lingsha cho 1 kẻ địch ngẫu nhiên, lần sát thương này ưu tiên chọn mục tiêu có Sức Bền lớn hơn 0 và có Điểm Yếu Hỏa. Giải trừ #6[i] Hiệu Ứng Xấu cho toàn thể phe ta, đồng thời hồi HP bằng #3[f1]% Tấn Công của Lingsha +#4[i].\nFuyuan tối đa tích lũy #5[i] lần hành động, khi số lần bằng 0 hoặc Lingsha vào trạng thái không thể chiến đấu, thì Fuyuan sẽ biến mất.\nKhi Fuyuan ở trong trận, thi triển Chiến Kỹ sẽ tăng #7[i] lần hành động của Fuyuan.",
+        "params": [
+            [
+                90,
+                0.375,
+                0.08,
+                90,
+                5,
+                1,
+                3,
+                0.375
+            ],
+            [
+                90,
+                0.4125,
+                0.085,
+                144,
+                5,
+                1,
+                3,
+                0.4125
+            ],
+            [
+                90,
+                0.45,
+                0.09,
+                184.5,
+                5,
+                1,
+                3,
+                0.45
+            ],
+            [
+                90,
+                0.4875,
+                0.095,
+                225,
+                5,
+                1,
+                3,
+                0.4875
+            ],
+            [
+                90,
+                0.525,
+                0.1,
+                252,
+                5,
+                1,
+                3,
+                0.525
+            ],
+            [
+                90,
+                0.5625,
+                0.104,
+                279,
+                5,
+                1,
+                3,
+                0.5625
+            ],
+            [
+                90,
+                0.6094,
+                0.108,
+                299.25,
+                5,
+                1,
+                3,
+                0.6094
+            ],
+            [
+                90,
+                0.6562,
+                0.112,
+                319.5,
+                5,
+                1,
+                3,
+                0.6562
+            ],
+            [
+                90,
+                0.7031,
+                0.116,
+                339.75,
+                5,
+                1,
+                3,
+                0.7031
+            ],
+            [
+                90,
+                0.75,
+                0.12,
+                360,
+                5,
+                1,
+                3,
+                0.75
+            ],
+            [
+                90,
+                0.7875,
+                0.124,
+                380.25,
+                5,
+                1,
+                3,
+                0.7875
+            ],
+            [
+                90,
+                0.825,
+                0.128,
+                400.5,
+                5,
+                1,
+                3,
+                0.825
+            ],
+            [
+                90,
+                0.8625,
+                0.132,
+                420.75,
+                5,
+                1,
+                3,
+                0.8625
+            ],
+            [
+                90,
+                0.9,
+                0.136,
+                441,
+                5,
+                1,
+                3,
+                0.9
+            ],
+            [
+                90,
+                0.9375,
+                0.14,
+                461.25,
+                5,
+                1,
+                3,
+                0.9375
+            ]
+        ],
+        "icon": "icon/skill/1222_talent.png"
+    },
+    "122206": {
+        "id": "122206",
+        "name": "Tấn Công",
+        "max_level": 1,
+        "element": "Fire",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "SingleAttack",
+        "effect_text": "Đánh Đơn",
+        "simple_desc": "",
+        "desc": "Tấn công kẻ địch, sau khi vào chiến đấu sẽ làm suy yếu Sức Bền thuộc tính tương ứng của mục tiêu phe địch.",
+        "params": [],
+        "icon": "icon/skill/1222_basic_atk.png"
+    },
+    "122207": {
+        "id": "122207",
+        "name": "Lưu Thúy Tản Vân",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Bí Kỹ",
+        "effect": "Support",
+        "effect_text": "Hỗ Trợ",
+        "simple_desc": "Dùng Bí Kỹ, khi bắt đầu lần chiến đấu tiếp theo, lập tức triệu hồi Fuyuan và khiến toàn thể phe địch tăng Sát Thương Phá Vỡ phải chịu.",
+        "desc": "Sau khi dùng Bí Kỹ, khi bắt đầu lần chiến đấu tiếp theo, lập tức triệu hồi Fuyuan, đồng thời khiến toàn thể phe địch rơi vào trạng thái Say Men, duy trì #1[i] hiệp.",
+        "params": [
+            [
+                2
+            ]
+        ],
+        "icon": "icon/skill/1222_technique.png"
+    },
+    "122301": {
+        "id": "122301",
+        "name": "Phi Đao",
+        "max_level": 9,
+        "element": "Thunder",
+        "type": "Normal",
+        "type_text": "Tấn Công Thường",
+        "effect": "SingleAttack",
+        "effect_text": "Đánh Đơn",
+        "simple_desc": "Gây lượng nhỏ Sát Thương Lôi cho 1 kẻ địch.",
+        "desc": "Gây Sát Thương Lôi bằng #1[i]% Tấn Công của Moze cho 1 kẻ địch chỉ định.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1223_basic_atk.png"
+    },
+    "122302": {
+        "id": "122302",
+        "name": "Đột Kích Lướt Gió",
+        "max_level": 15,
+        "element": "Thunder",
+        "type": "BPSkill",
+        "type_text": "Chiến Kỹ",
+        "effect": "SingleAttack",
+        "effect_text": "Đánh Đơn",
+        "simple_desc": "Khiến 1 kẻ địch trở thành Con Mồi, gây Sát Thương Lôi cho kẻ đó, đồng thời nhận 9 điểm Nạp Năng Lượng.",
+        "desc": "Khiến 1 kẻ địch chỉ định trở thành Con Mồi, gây Sát Thương Lôi bằng #1[i]% Tấn Công của Moze, đồng thời nhận #2[i] điểm Nạp Năng Lượng.\nKhi trong trận không có nhân vật khác có thể chiến đấu, Moze sẽ không thể sử dụng Chiến Kỹ, và giải trừ trạng thái Con Mồi của kẻ địch.",
+        "params": [
+            [
+                0.75,
+                9
+            ],
+            [
+                0.825,
+                9
+            ],
+            [
+                0.9,
+                9
+            ],
+            [
+                0.975,
+                9
+            ],
+            [
+                1.05,
+                9
+            ],
+            [
+                1.125,
+                9
+            ],
+            [
+                1.2188,
+                9
+            ],
+            [
+                1.3125,
+                9
+            ],
+            [
+                1.4062,
+                9
+            ],
+            [
+                1.5,
+                9
+            ],
+            [
+                1.575,
+                9
+            ],
+            [
+                1.65,
+                9
+            ],
+            [
+                1.725,
+                9
+            ],
+            [
+                1.8,
+                9
+            ],
+            [
+                1.875,
+                9
+            ]
+        ],
+        "icon": "icon/skill/1223_skill.png"
+    },
+    "122303": {
+        "id": "122303",
+        "name": "Dao Lạnh Vô Tình",
+        "max_level": 15,
+        "element": "Thunder",
+        "type": "Ultra",
+        "type_text": "Tuyệt Kỹ",
+        "effect": "SingleAttack",
+        "effect_text": "Đánh Đơn",
+        "simple_desc": "Gây Sát Thương Lôi cho 1 kẻ địch, đồng thời phát động Đòn Đánh Theo Sau của Thiên Phú.",
+        "desc": "Gây Sát Thương Lôi bằng #1[i]% Tấn Công của Moze cho 1 kẻ địch chỉ định, đồng thời phát động Đòn Đánh Theo Sau của Thiên Phú lên mục tiêu này. Nếu trước lần thi triển Đòn Đánh Theo Sau này, mục tiêu bị tiêu diệt, thì sẽ phát động Đòn Đánh Theo Sau lên 1 kẻ địch ngẫu nhiên.",
+        "params": [
+            [
+                1.62
+            ],
+            [
+                1.728
+            ],
+            [
+                1.836
+            ],
+            [
+                1.944
+            ],
+            [
+                2.052
+            ],
+            [
+                2.16
+            ],
+            [
+                2.295
+            ],
+            [
+                2.43
+            ],
+            [
+                2.565
+            ],
+            [
+                2.7
+            ],
+            [
+                2.808
+            ],
+            [
+                2.916
+            ],
+            [
+                3.024
+            ],
+            [
+                3.132
+            ],
+            [
+                3.24
+            ]
+        ],
+        "icon": "icon/skill/1223_ultimate.png"
+    },
+    "122304": {
+        "id": "122304",
+        "name": "Thu Cánh Tung Đao",
+        "max_level": 15,
+        "element": "Thunder",
+        "type": "Talent",
+        "type_text": "Thiên Phú",
+        "effect": "SingleAttack",
+        "effect_text": "Đánh Đơn",
+        "simple_desc": "Khi trong trận có Con Mồi, Moze sẽ vào trạng thái Rời Trận.\nSau khi mục tiêu phe ta tấn công Con Mồi, Moze sẽ gây Sát Thương Lôi Kèm Theo, đồng thời tiêu hao 1 điểm Nạp Năng Lượng. Mỗi khi tiêu hao 3 điểm Nạp Năng Lượng, Moze sẽ phát động Đòn Đánh Theo Sau lên Con Mồi, gây Sát Thương Lôi. Khi Nạp Năng Lượng bằng 0, sẽ giải trừ trạng thái Con Mồi của mục tiêu.",
+        "desc": "Khi trong trận có Con Mồi, Moze sẽ vào trạng thái Rời Trận.\nSau khi mục tiêu phe ta tấn công Con Mồi, Moze sẽ gây thêm 1 lần Sát Thương Lôi kèm theo bằng #1[i]% Tấn Công của bản thân, đồng thời tiêu hao 1 điểm Nạp Năng Lượng. Mỗi lần tiêu hao #2[i] điểm Nạp Năng Lượng, Moze sẽ phát động 1 lần Đòn Đánh Theo Sau lên Con Mồi, gây Sát Thương Lôi bằng #3[i]% Tấn Công của bản thân. Khi Nạp Năng Lượng bằng 0, sẽ giải trừ trạng thái Con Mồi của mục tiêu, đồng thời làm mới số điểm Nạp Năng Lượng cần để phát động Đòn Đánh Theo Sau. Đòn Đánh Theo Sau của Thiên Phú sẽ không tiêu hao Nạp Năng Lượng.",
+        "params": [
+            [
+                0.15,
+                3,
+                0.8
+            ],
+            [
+                0.165,
+                3,
+                0.88
+            ],
+            [
+                0.18,
+                3,
+                0.96
+            ],
+            [
+                0.195,
+                3,
+                1.04
+            ],
+            [
+                0.21,
+                3,
+                1.12
+            ],
+            [
+                0.225,
+                3,
+                1.2
+            ],
+            [
+                0.2437,
+                3,
+                1.3
+            ],
+            [
+                0.2625,
+                3,
+                1.4
+            ],
+            [
+                0.2812,
+                3,
+                1.5
+            ],
+            [
+                0.3,
+                3,
+                1.6
+            ],
+            [
+                0.315,
+                3,
+                1.68
+            ],
+            [
+                0.33,
+                3,
+                1.76
+            ],
+            [
+                0.345,
+                3,
+                1.84
+            ],
+            [
+                0.36,
+                3,
+                1.92
+            ],
+            [
+                0.375,
+                3,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1223_talent.png"
+    },
+    "122306": {
+        "id": "122306",
+        "name": "Tấn Công",
+        "max_level": 1,
+        "element": "Thunder",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Tấn công kẻ địch, sau khi vào chiến đấu sẽ làm suy yếu Sức Bền thuộc tính tương ứng của mục tiêu phe địch.",
+        "params": [],
+        "icon": "icon/skill/1223_basic_atk.png"
+    },
+    "122307": {
+        "id": "122307",
+        "name": "Đôi Cánh Ẩn Hình",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Bí Kỹ",
+        "effect": "Enhance",
+        "effect_text": "Cường Hóa",
+        "simple_desc": "Vào trạng thái Tàng Hình. Khi tấn công kẻ địch trong trạng thái Tàng Hình để vào chiến đấu, sát thương sẽ tăng.",
+        "desc": "Sau khi dùng Bí Kỹ sẽ vào trạng thái Tàng Hình duy trì #1[i] giây. Trong trạng thái Tàng Hình sẽ không bị kẻ địch phát hiện, khi Moze trong trạng thái Tàng Hình tấn công kẻ địch để vào chiến đấu, sát thương sẽ tăng #2[i]%, duy trì #3[i] hiệp.",
+        "params": [
+            [
+                20,
+                0.3,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1223_technique.png"
+    },
     "122401": {
         "id": "122401",
         "name": "Lưu Ly Kiếm Thanh Tẩy Yêu Tà",
@@ -14535,7 +15858,7 @@
         "effect": "SingleAttack",
         "effect_text": "Đánh Đơn",
         "simple_desc": "Gây Sát Thương Số Ảo cho 1 kẻ địch, đồng thời tăng số đòn và xác suất gây sát thương của Tấn Công Thường Cường Hóa ở lần tiếp theo.",
-        "desc": "Gây Sát Thương Số Ảo bằng #1[i]% tấn công của March 7th cho 1 kẻ địch chỉ định.\nKhiến số đòn đánh trong một lượt ban đầu của lần Cường Hóa Tấn Công Thường tiếp theo tăng #2[i] đòn, tăng #3[i]% xác suất cố định gây thêm sát thương.",
+        "desc": "Gây Sát Thương Số Ảo bằng #1[i]% tấn công của March 7th cho 1 kẻ địch chỉ định.\nKhiến số đòn đánh trong một lượt ban đầu của lần Tấn Công Thường Cường Hóa tiếp theo tăng #2[i] đòn, tăng #3[i]% xác suất cố định gây thêm sát thương.",
         "params": [
             [
                 1.44,
@@ -20566,7 +21889,7 @@
         "type_text": "Thiên Phú",
         "effect": "Enhance",
         "effect_text": "Cường Hóa",
-        "simple_desc": "",
+        "simple_desc": "Sau mỗi lần Phá Vỡ Điểm Yếu của mục tiêu phe địch, Tấn Công sẽ tăng.",
         "desc": "Sau mỗi lần Phá Vỡ Điểm Yếu của mục tiêu địch, Tấn Công sẽ tăng #1[i]%, hiệu ứng này tối đa cộng dồn #2[i] tầng.",
         "params": [
             [
@@ -20655,7 +21978,7 @@
         "type_text": "Bí Kỹ",
         "effect": "Restore",
         "effect_text": "Hồi Phục",
-        "simple_desc": "",
+        "simple_desc": "Sau khi dùng Bí Kỹ sẽ lập tức hồi HP cho toàn bộ phe ta.",
         "desc": "Sau khi dùng Bí Kỹ sẽ hồi ngay HP cho toàn thể phe ta tương đương #1[i]% Giới Hạn HP của mỗi người.",
         "params": [
             [
@@ -21000,7 +22323,7 @@
         "type_text": "Thiên Phú",
         "effect": "Enhance",
         "effect_text": "Cường Hóa",
-        "simple_desc": "",
+        "simple_desc": "Sau mỗi lần Phá Vỡ Điểm Yếu của mục tiêu phe địch, Tấn Công sẽ tăng.",
         "desc": "Sau mỗi lần Phá Vỡ Điểm Yếu của mục tiêu địch, Tấn Công sẽ tăng #1[i]%, hiệu ứng này tối đa cộng dồn #2[i] tầng.",
         "params": [
             [
@@ -21089,7 +22412,7 @@
         "type_text": "Bí Kỹ",
         "effect": "Restore",
         "effect_text": "Hồi Phục",
-        "simple_desc": "",
+        "simple_desc": "Sau khi dùng Bí Kỹ sẽ lập tức hồi HP cho toàn bộ phe ta.",
         "desc": "Sau khi dùng Bí Kỹ sẽ hồi ngay HP cho toàn thể phe ta tương đương #1[i]% Giới Hạn HP của mỗi người.",
         "params": [
             [
@@ -21449,7 +22772,7 @@
         "type_text": "Thiên Phú",
         "effect": "Enhance",
         "effect_text": "Cường Hóa",
-        "simple_desc": "",
+        "simple_desc": "Khi bị tấn công sẽ cộng dồn Ý Chí Sục Sôi, khi Ý Chí Sục Sôi không dưới 4 tầng, Tấn Công Thường sẽ được cường hóa. Sau khi thi triển Tấn Công Thường, Chiến Kỹ, Tuyệt Kỹ sẽ cung cấp Khiên cho toàn bộ phe ta.",
         "desc": "Mỗi khi bị tấn công 1 lần sẽ cộng 1 tầng \"Ý Chí Sục Sôi\", tối đa cộng dồn #3[i] tầng.\nKhi số tầng \"Ý Chí Sục Sôi\" không dưới 4, Tấn Công Thường sẽ được cường hóa, gây sát thương cho 1 kẻ địch chỉ định và mục tiêu lân cận kẻ đó.\nSau khi Nhà Khai Phá thi triển Tấn Công Thường, Chiến Kỹ, Tuyệt Kỹ, sẽ cung cấp Khiên cho toàn phe ta để triệt tiêu sát thương bằng #1[f1]% Phòng Thủ của Nhà Khai Phá +#4[i], duy trì #2[i] hiệp.",
         "params": [
             [
@@ -21568,7 +22891,7 @@
         "type_text": "Bí Kỹ",
         "effect": "Defence",
         "effect_text": "Phòng Thủ",
-        "simple_desc": "",
+        "simple_desc": "Sau khi dùng Bí Kỹ, khi bắt đầu lần chiến đấu tiếp theo sẽ cung cấp Khiên cho bản thân.",
         "desc": "Sau khi dùng Bí Kỹ, khi bắt đầu lần chiến đấu tiếp theo sẽ tạo Khiên cho bản thân giúp triệt tiêu sát thương tương đương #1[i]% Phòng Thủ của Nhà Khai Phá +#2[i], duy trì #3[i] hiệp.",
         "params": [
             [
@@ -21846,7 +23169,7 @@
         "type_text": "Thiên Phú",
         "effect": "Enhance",
         "effect_text": "Cường Hóa",
-        "simple_desc": "",
+        "simple_desc": "Khi bị tấn công sẽ cộng dồn Ý Chí Sục Sôi, khi Ý Chí Sục Sôi không dưới 4 tầng, Tấn Công Thường sẽ được cường hóa. Sau khi thi triển Tấn Công Thường, Chiến Kỹ, Tuyệt Kỹ sẽ cung cấp Khiên cho toàn bộ phe ta.",
         "desc": "Mỗi khi bị tấn công 1 lần sẽ cộng 1 tầng \"Ý Chí Sục Sôi\", tối đa cộng dồn #3[i] tầng.\nKhi số tầng \"Ý Chí Sục Sôi\" không dưới 4, Tấn Công Thường sẽ được cường hóa, gây sát thương cho 1 kẻ địch chỉ định và mục tiêu lân cận kẻ đó.\nSau khi Nhà Khai Phá thi triển Tấn Công Thường, Chiến Kỹ, Tuyệt Kỹ, sẽ cung cấp Khiên cho toàn phe ta để triệt tiêu sát thương bằng #1[f1]% Phòng Thủ của Nhà Khai Phá +#4[i], duy trì #2[i] hiệp.",
         "params": [
             [
@@ -21965,7 +23288,7 @@
         "type_text": "Bí Kỹ",
         "effect": "Defence",
         "effect_text": "Phòng Thủ",
-        "simple_desc": "",
+        "simple_desc": "Sau khi dùng Bí Kỹ, khi bắt đầu lần chiến đấu tiếp theo sẽ cung cấp Khiên cho bản thân.",
         "desc": "Sau khi dùng Bí Kỹ, khi bắt đầu lần chiến đấu tiếp theo sẽ tạo Khiên cho bản thân giúp triệt tiêu sát thương tương đương #1[i]% Phòng Thủ của Nhà Khai Phá +#2[i], duy trì #3[i] hiệp.",
         "params": [
             [

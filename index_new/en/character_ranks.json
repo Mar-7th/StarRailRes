@@ -615,7 +615,7 @@
         "id": "100801",
         "name": "To the Bitter End",
         "rank": 1,
-        "desc": "When HP is lower than or equal to 50% of Max HP, increases DMG dealt by Skill by 10%.",
+        "desc": "When HP percentage is lower than or equal to 50% of Max HP, increases DMG dealt by Skill by 10%.",
         "materials": [
             {
                 "id": "11008",
@@ -703,7 +703,7 @@
         "id": "100806",
         "name": "Self-Sacrifice",
         "rank": 6,
-        "desc": "When HP drops to 50% or below, Ultimate deals 20% more DMG. And the DMG multiplier for adjacent targets is raised to the same level as that for the primary target.",
+        "desc": "When the current HP percentage drops to 50% or below, Ultimate deals 20% more DMG, and the DMG multiplier for adjacent targets is raised to the same level as that for the primary target.",
         "materials": [
             {
                 "id": "11008",
@@ -1343,7 +1343,7 @@
         "id": "110502",
         "name": "Clinical Research",
         "rank": 2,
-        "desc": "When Natasha uses her Ultimate, grant continuous healing for 1 turn(s) to allies whose HP is at 30% or lower. And at the beginning of their turn, their HP is restored by an amount equal to 6% of Natasha's Max HP plus 160.",
+        "desc": "When Natasha uses her Ultimate, grant continuous healing for 1 turn(s) to allies whose HP percentage is at 30% or lower. And at the beginning of their turn, their HP is restored by an amount equal to 6% of Natasha's Max HP plus 160.",
         "materials": [
             {
                 "id": "11105",
@@ -1843,7 +1843,7 @@
         "id": "111001",
         "name": "Morning of Snow Hike",
         "rank": 1,
-        "desc": "When healing allies with HP equal to or lower than 50%, Lynx's Outgoing Healing increases by 20%. This effect also works on continuous healing.",
+        "desc": "When healing allies with HP percentage equal to or lower than 50%, Lynx's Outgoing Healing increases by 20%. This effect also works on continuous healing.",
         "materials": [
             {
                 "id": "11110",
@@ -2375,7 +2375,7 @@
         "id": "120302",
         "name": "Bestowal From the Pure",
         "rank": 2,
-        "desc": "When his Skill is triggered, if the target ally's HP is lower than 50%, Luocha's Outgoing Healing increases by 30%. If the target ally's HP is at 50% or higher, the ally receives a Shield that can absorb DMG equal to 18% of Luocha's ATK plus 240, lasting for 2 turns.",
+        "desc": "When his Skill is triggered, if the target ally's HP percentage is lower than 50%, Luocha's Outgoing Healing increases by 30%. If the target ally's HP percentage is at 50% or higher, the ally receives a Shield that can absorb DMG equal to 18% of Luocha's ATK plus 240, lasting for 2 turns.",
         "materials": [
             {
                 "id": "11203",
@@ -2616,7 +2616,7 @@
         "id": "120504",
         "name": "Rejected by Death, Infected With Life",
         "rank": 4,
-        "desc": "When Blade's current HP drops to 50% or lower of his Max HP, increases his Max HP by 20%. Stacks up to 2 time(s).",
+        "desc": "When Blade's current HP percentage drops to 50% or lower of his Max HP, increases his Max HP by 20%. Stacks up to 2 time(s).",
         "materials": [
             {
                 "id": "11205",
@@ -3809,7 +3809,7 @@
         "id": "121801",
         "name": "Pentapathic Transference",
         "rank": 1,
-        "desc": "Allies deal 40% increased DMG to enemy targets afflicted with Ashen Roast. Whenever inflicting Ashen Roast on an enemy target via triggering the Talent's effect, additionally increases the number of Ashen Roast applied this time by 1.",
+        "desc": "Allies deal 40% increased DMG to enemy targets afflicted with Ashen Roast. Whenever inflicting Ashen Roast on an enemy target via triggering the Talent's effect, additionally increases the number of \"Ashen Roast\" stacks applied this time by 1.",
         "materials": [
             {
                 "id": "11218",
@@ -3823,7 +3823,7 @@
         "id": "121802",
         "name": "From Savor Comes Suffer",
         "rank": 2,
-        "desc": "When an enemy target is afflicted with Ashen Roast, increases the multiplier for the Fire DoT dealt by Ashen Roast to the target by 300%.",
+        "desc": "When an enemy target is afflicted with Ashen Roast, increases the multiplier for the Fire DoT dealt by Ashen Roast to this target by 300%.",
         "materials": [
             {
                 "id": "11218",
@@ -3906,6 +3906,120 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1218_rank6.png"
+    },
+    "122001": {
+        "id": "122001",
+        "name": "Skyward I Quell",
+        "rank": 1,
+        "desc": "After launching \"Boltsunder Blitz\" or \"Waraxe Skyward,\" additionally increases the Ultimate DMG dealt by Feixiao by an amount equal to 10% of the original DMG, stacking up to 5 time(s) and lasting until the end of the Ultimate action.",
+        "materials": [
+            {
+                "id": "11220",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1220_rank1.png"
+    },
+    "122002": {
+        "id": "122002",
+        "name": "Moonward I Wish",
+        "rank": 2,
+        "desc": "In the Talent's effect, for every 1 instance of follow-up attack launched by ally targets, Feixiao gains 1 point of \"Flying Aureus.\" This effect can trigger up to 6 time(s) per turn.",
+        "materials": [
+            {
+                "id": "11220",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1220_rank2.png"
+    },
+    "122003": {
+        "id": "122003",
+        "name": "Starward I Bode",
+        "rank": 3,
+        "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "materials": [
+            {
+                "id": "11220",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "122003",
+                "num": 2
+            },
+            {
+                "id": "122001",
+                "num": 1
+            },
+            {
+                "id": "122008",
+                "num": 2
+            },
+            {
+                "id": "122009",
+                "num": 2
+            },
+            {
+                "id": "122014",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1220_skill.png"
+    },
+    "122004": {
+        "id": "122004",
+        "name": "Stormward I Hear",
+        "rank": 4,
+        "desc": "The follow-up attack from Talent has its Toughness Reduction increased by 100%, and when it launches, increases this unit's SPD by 8%, lasting for 2 turn(s).",
+        "materials": [
+            {
+                "id": "11220",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1220_rank4.png"
+    },
+    "122005": {
+        "id": "122005",
+        "name": "Heavenward I Leap",
+        "rank": 5,
+        "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+        "materials": [
+            {
+                "id": "11220",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "122002",
+                "num": 2
+            },
+            {
+                "id": "122004",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1220_ultimate.png"
+    },
+    "122006": {
+        "id": "122006",
+        "name": "Homeward I Near",
+        "rank": 6,
+        "desc": "Increases the All-Type RES PEN of Ultimate DMG dealt by Feixiao by 20%. Talent's follow-up attack DMG is considered as Ultimate DMG at the same time, and its DMG multiplier increases by 140%.",
+        "materials": [
+            {
+                "id": "11220",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1220_rank6.png"
     },
     "122101": {
         "id": "122101",
@@ -4008,6 +4122,210 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1221_rank6.png"
+    },
+    "122201": {
+        "id": "122201",
+        "name": "Bloom on Vileward Bouquet",
+        "rank": 1,
+        "desc": "Lingsha's Weakness Break Efficiency increases by 50%. When an enemy unit's Weakness is Broken, reduces their DEF by 20%.",
+        "materials": [
+            {
+                "id": "11222",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1222_rank1.png"
+    },
+    "122202": {
+        "id": "122202",
+        "name": "Leisure in Carmine Smokeveil",
+        "rank": 2,
+        "desc": "When using Ultimate, increases all allies' Break Effect by 40%, lasting for 3 turn(s).",
+        "materials": [
+            {
+                "id": "11222",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1222_rank2.png"
+    },
+    "122203": {
+        "id": "122203",
+        "name": "Shine of Floral Wick",
+        "rank": 3,
+        "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+        "materials": [
+            {
+                "id": "11222",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "122203",
+                "num": 2
+            },
+            {
+                "id": "122204",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1222_skill.png"
+    },
+    "122204": {
+        "id": "122204",
+        "name": "Redolence from Canopied Banquet",
+        "rank": 4,
+        "desc": "When Fuyuan takes action, restores HP equal to 40% of Lingsha's ATK for the ally whose current HP is the lowest.",
+        "materials": [
+            {
+                "id": "11222",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1222_rank4.png"
+    },
+    "122205": {
+        "id": "122205",
+        "name": "Poise Atop Twists and Turns",
+        "rank": 5,
+        "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "materials": [
+            {
+                "id": "11222",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "122202",
+                "num": 2
+            },
+            {
+                "id": "122201",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1222_ultimate.png"
+    },
+    "122206": {
+        "id": "122206",
+        "name": "Arcadia Under Deep Seclusion",
+        "rank": 6,
+        "desc": "While Fuyuan is on the field, reduces all enemies' All-Type RES by 20%. When Fuyuan attacks, additionally deals 4 instance(s) of DMG, with each instance dealing both Fire DMG equal to 50% of Lingsha's ATK and a Toughness Reduction of 5 to a single random enemy. This prioritizes targets with both Toughness greater than 0 and Fire Weakness.",
+        "materials": [
+            {
+                "id": "11222",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1222_rank6.png"
+    },
+    "122301": {
+        "id": "122301",
+        "name": "Oathkeeper",
+        "rank": 1,
+        "desc": "After entering battle, Moze regenerates 20 Energy. Each time the Additional DMG from his Talent is triggered, Moze regenerates 2 Energy.",
+        "materials": [
+            {
+                "id": "11223",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1223_rank1.png"
+    },
+    "122302": {
+        "id": "122302",
+        "name": "Wrathbearer",
+        "rank": 2,
+        "desc": "When all allies deal DMG to the enemy target marked as \"Prey,\" increases CRIT DMG by 40%.",
+        "materials": [
+            {
+                "id": "11223",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1223_rank2.png"
+    },
+    "122303": {
+        "id": "122303",
+        "name": "Deathchaser",
+        "rank": 3,
+        "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+        "materials": [
+            {
+                "id": "11223",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "122303",
+                "num": 2
+            },
+            {
+                "id": "122304",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1223_skill.png"
+    },
+    "122304": {
+        "id": "122304",
+        "name": "Heathprowler",
+        "rank": 4,
+        "desc": "When using Ultimate, increases the DMG dealt by Moze by 30.0%, lasting for 2 turn(s).",
+        "materials": [
+            {
+                "id": "11223",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1223_rank4.png"
+    },
+    "122305": {
+        "id": "122305",
+        "name": "Truthbender",
+        "rank": 5,
+        "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "materials": [
+            {
+                "id": "11223",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "122302",
+                "num": 2
+            },
+            {
+                "id": "122301",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1223_ultimate.png"
+    },
+    "122306": {
+        "id": "122306",
+        "name": "Faithbinder",
+        "rank": 6,
+        "desc": "Increases the DMG multiplier of the Talent's follow-up attack by 25%.",
+        "materials": [
+            {
+                "id": "11223",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1223_rank6.png"
     },
     "122401": {
         "id": "122401",
@@ -5157,7 +5475,7 @@
         "id": "131006",
         "name": "In Finalized Morrow, I Full Bloom",
         "rank": 6,
-        "desc": "While in Complete Combustion, increases SAM's Fire RES PEN by 20%. When using the Enhanced Basic ATK or Enhanced Skill, increases the Weakness Break efficiency by 50%.",
+        "desc": "While in Complete Combustion, increases SAM's Fire RES PEN by 20%. When using the Enhanced Basic ATK or Enhanced Skill, increases the Weakness Break Efficiency by 50%.",
         "materials": [
             {
                 "id": "11310",

@@ -295,7 +295,7 @@
         "id": "100306",
         "name": "Trailblaze!",
         "rank": 6,
-        "desc": "Ultimate mengakibatkan 2 kali DMG tambahan pada musuh secara acak, masing-masing mengakibatkan Fire DMG sebesar 40% dari DMG awal.",
+        "desc": "Ultimate mengakibatkan 2 kali tambahan DMG pada musuh secara acak, masing-masing mengakibatkan Fire DMG sebesar 40% dari DMG aslinya.",
         "materials": [
             {
                 "id": "11003",
@@ -1686,7 +1686,7 @@
         "id": "110804",
         "name": "The Deeper the Love, the Stronger the Hate",
         "rank": 4,
-        "desc": "Saat Skill mengenai target musuh yang jumlah lapisan status Wind Shear-nya lebih dari atau sama dengan 5 lapis, status Wind Shear yang dimilikinya saat itu akan segera mengakibatkan DMG sebesar 8% DMG Wind Shear.",
+        "desc": "Saat Skill mengenai target musuh yang jumlah lapisan status Wind Shear-nya lebih dari atau sama dengan 5 lapis, maka status Wind Shear yang dimilikinya saat ini akan segera mengakibatkan DMG sebesar 8% dari DMG aslinya.",
         "materials": [
             {
                 "id": "11108",
@@ -2037,7 +2037,7 @@
         "id": "111106",
         "name": "A Champion's Applause",
         "rank": 6,
-        "desc": "Setelah \"Rising Uppercut\" dari Enhanced Basic Attack mengenai target musuh berstatus Bleed, maka setiap 1 serangan \"Direct Punch\" yang dilancarkan Enhanced Basic Attack kali ini akan membuat status Bleed musuh segera menghasilkan 1 kali DMG sebesar 8% DMG awal Bleed.",
+        "desc": "Setelah \"Rising Uppercut\" dari Enhanced Basic Attack mengenai target musuh berstatus Bleed, maka setiap 1 serangan \"Direct Punch\" yang dilancarkan Enhanced Basic Attack kali ini akan membuat status Bleed musuh segera menghasilkan 1 kali DMG sebesar 8% dari DMG aslinya.",
         "materials": [
             {
                 "id": "11111",
@@ -3907,6 +3907,120 @@
         "level_up_skills": [],
         "icon": "icon/skill/1218_rank6.png"
     },
+    "122001": {
+        "id": "122001",
+        "name": "Skyward I Quell",
+        "rank": 1,
+        "desc": "Setelah melancarkan \"Boltsunder Blitz\" atau \"Waraxe Skyward\", Ultimate DMG yang diakibatkan Feixiao akan meningkat ekstra, peningkatannya adalah sebesar 10% dari DMG aslinya. Efek ini maksimal dapat ditumpuk hingga 5 lapis, dan berlangsung hingga aksi Ultimate berakhir.",
+        "materials": [
+            {
+                "id": "11220",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1220_rank1.png"
+    },
+    "122002": {
+        "id": "122002",
+        "name": "Moonward I Wish",
+        "rank": 2,
+        "desc": "Pada efek Talent, setiap kali rekan tim melancarkan 1 kali Serangan Lanjutan akan membuat Feixiao memperoleh 1 poin \"Flying Aureus\". Efek ini maksimal dapat dipicu 6 kali setiap giliran.",
+        "materials": [
+            {
+                "id": "11220",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1220_rank2.png"
+    },
+    "122003": {
+        "id": "122003",
+        "name": "Starward I Bode",
+        "rank": 3,
+        "desc": "Level Ultimate +2, maksimal Lv. 15. Level Basic Attack +1, maksimal Lv. 10.",
+        "materials": [
+            {
+                "id": "11220",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "122003",
+                "num": 2
+            },
+            {
+                "id": "122001",
+                "num": 1
+            },
+            {
+                "id": "122008",
+                "num": 2
+            },
+            {
+                "id": "122009",
+                "num": 2
+            },
+            {
+                "id": "122014",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1220_skill.png"
+    },
+    "122004": {
+        "id": "122004",
+        "name": "Stormward I Hear",
+        "rank": 4,
+        "desc": "Pengurangan Toughness dari Serangan Lanjutan Talent meningkat 100%, dan saat melancarkannya, SPD diri sendiri akan meningkat 8% selama 2 giliran.",
+        "materials": [
+            {
+                "id": "11220",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1220_rank4.png"
+    },
+    "122005": {
+        "id": "122005",
+        "name": "Heavenward I Leap",
+        "rank": 5,
+        "desc": "Level Skill +2, maksimal Lv. 15. Level Talent +2, maksimal Lv. 15.",
+        "materials": [
+            {
+                "id": "11220",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "122002",
+                "num": 2
+            },
+            {
+                "id": "122004",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1220_ultimate.png"
+    },
+    "122006": {
+        "id": "122006",
+        "name": "Homeward I Near",
+        "rank": 6,
+        "desc": "RES PEN Seluruh Tipe dari Ultimate DMG yang diakibatkan Feixiao meningkat 20%. DMG Serangan Lanjutan yang diakibatkan Talent akan dianggap sebagai Ultimate DMG, dan DMG Multiplier-nya meningkat 140%.",
+        "materials": [
+            {
+                "id": "11220",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1220_rank6.png"
+    },
     "122101": {
         "id": "122101",
         "name": "Weathered Blade Does Not Sully",
@@ -4008,6 +4122,210 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1221_rank6.png"
+    },
+    "122201": {
+        "id": "122201",
+        "name": "Bloom on Vileward Bouquet",
+        "rank": 1,
+        "desc": "Weakness Break Efficiency Lingsha meningkat 50%. Saat ada unit musuh yang terkena Weakness Break, DEF musuh tersebut akan berkurang 20%.",
+        "materials": [
+            {
+                "id": "11222",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1222_rank1.png"
+    },
+    "122202": {
+        "id": "122202",
+        "name": "Leisure in Carmine Smokeveil",
+        "rank": 2,
+        "desc": "Saat melancarkan Ultimate, Break Effect seluruh rekan tim meningkat 40%, berlangsung selama 3 giliran.",
+        "materials": [
+            {
+                "id": "11222",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1222_rank2.png"
+    },
+    "122203": {
+        "id": "122203",
+        "name": "Shine of Floral Wick",
+        "rank": 3,
+        "desc": "Level Ultimate +2, maksimal Lv. 15. Level Talent +2, maksimal Lv. 15.",
+        "materials": [
+            {
+                "id": "11222",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "122203",
+                "num": 2
+            },
+            {
+                "id": "122204",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1222_skill.png"
+    },
+    "122204": {
+        "id": "122204",
+        "name": "Redolence from Canopied Banquet",
+        "rank": 4,
+        "desc": "Saat \"Fuyuan\" beraksi, akan memulihkan HP rekan tim yang HP-nya saat ini paling rendah sebesar 40% ATK Lingsha.",
+        "materials": [
+            {
+                "id": "11222",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1222_rank4.png"
+    },
+    "122205": {
+        "id": "122205",
+        "name": "Poise Atop Twists and Turns",
+        "rank": 5,
+        "desc": "Level Skill +2, maksimal Lv. 15. Level Basic Attack +1, maksimal Lv. 10.",
+        "materials": [
+            {
+                "id": "11222",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "122202",
+                "num": 2
+            },
+            {
+                "id": "122201",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1222_ultimate.png"
+    },
+    "122206": {
+        "id": "122206",
+        "name": "Arcadia Under Deep Seclusion",
+        "rank": 6,
+        "desc": "Saat \"Fuyuan\" berada di medan pertempuran, RES Seluruh Tipe milik seluruh musuh berkurang 20%. Saat \"Fuyuan\" menyerang, akan mengakibatkan ekstra 4 kali DMG, yang setiap DMG-nya akan mengakibatkan Fire DMG sebesar 50% ATK Lingsha dan Pengurangan Toughness sebesar 5 pada musuh acak, memprioritaskan target yang Toughness-nya lebih dari 0 dan memiliki Fire Weakness.",
+        "materials": [
+            {
+                "id": "11222",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1222_rank6.png"
+    },
+    "122301": {
+        "id": "122301",
+        "name": "Oathkeeper",
+        "rank": 1,
+        "desc": "Setelah memasuki pertempuran, Moze akan memulihkan 20 poin Energy. Setiap memicu 1 kali DMG Tambahan dari Talent miliknya, Moze akan memulihkan 2 poin Energy.",
+        "materials": [
+            {
+                "id": "11223",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1223_rank1.png"
+    },
+    "122302": {
+        "id": "122302",
+        "name": "Wrathbearer",
+        "rank": 2,
+        "desc": "Saat rekan tim mengakibatkan DMG pada target musuh yang menjadi \"Prey\", CRIT DMG akan meningkat 40%.",
+        "materials": [
+            {
+                "id": "11223",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1223_rank2.png"
+    },
+    "122303": {
+        "id": "122303",
+        "name": "Deathchaser",
+        "rank": 3,
+        "desc": "Level Ultimate +2, maksimal Lv. 15. Level Talent +2, maksimal Lv. 15.",
+        "materials": [
+            {
+                "id": "11223",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "122303",
+                "num": 2
+            },
+            {
+                "id": "122304",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1223_skill.png"
+    },
+    "122304": {
+        "id": "122304",
+        "name": "Heathprowler",
+        "rank": 4,
+        "desc": "Saat melancarkan Ultimate, DMG yang diakibatkan Moze meningkat 30.0%, berlangsung selama 2 giliran.",
+        "materials": [
+            {
+                "id": "11223",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1223_rank4.png"
+    },
+    "122305": {
+        "id": "122305",
+        "name": "Truthbender",
+        "rank": 5,
+        "desc": "Level Skill +2, maksimal Lv. 15. Level Basic Attack +1, maksimal Lv. 10.",
+        "materials": [
+            {
+                "id": "11223",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "122302",
+                "num": 2
+            },
+            {
+                "id": "122301",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1223_ultimate.png"
+    },
+    "122306": {
+        "id": "122306",
+        "name": "Faithbinder",
+        "rank": 6,
+        "desc": "DMG Multiplier Serangan Lanjutan dari Talent meningkat 25%.",
+        "materials": [
+            {
+                "id": "11223",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1223_rank6.png"
     },
     "122401": {
         "id": "122401",
@@ -5467,7 +5785,7 @@
         "id": "131506",
         "name": "Crowbar Hotel's Raccoon",
         "rank": 6,
-        "desc": "Saat memicu Break DMG yang diakibatkan Talent, akan mengakibatkan Break DMG tambahan pada target sebesar 40% dari DMG Multiplier awal, dan mengakibatkan Break DMG tambahan pada musuh di sekitar target sebesar 70% dari DMG Multiplier awal.",
+        "desc": "Saat memicu Break DMG yang diakibatkan Talent, akan mengakibatkan Break DMG tambahan pada target sebesar 40% dari DMG Multiplier aslinya, dan mengakibatkan Break DMG tambahan pada musuh di sekitar target sebesar 70% dari DMG Multiplier aslinya.",
         "materials": [
             {
                 "id": "11315",

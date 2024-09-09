@@ -3046,6 +3046,70 @@
             ]
         ]
     },
+    "21047": {
+        "id": "21047",
+        "skill": "隱匿",
+        "desc": "使裝備者的擊破特攻提高#1[i]%。進入戰鬥時或造成擊破傷害後，速度提高#2[i]%，持續#3[i]回合，該效果每回合只可觸發1次。",
+        "params": [
+            [
+                0.28,
+                0.08,
+                2
+            ],
+            [
+                0.35,
+                0.09,
+                2
+            ],
+            [
+                0.42,
+                0.1,
+                2
+            ],
+            [
+                0.49,
+                0.11,
+                2
+            ],
+            [
+                0.56,
+                0.12,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.28
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.35
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.42
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.49
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.56
+                }
+            ]
+        ]
+    },
     "22000": {
         "id": "22000",
         "skill": "眼疾手快",
@@ -5418,6 +5482,144 @@
                 {
                     "type": "CriticalDamageBase",
                     "value": 0.6
+                }
+            ]
+        ]
+    },
+    "23031": {
+        "id": "23031",
+        "skill": "震懾",
+        "desc": "使裝備者的暴擊率提高#1[f1]%。裝備者發動追加攻擊時，獲得1層【流光】，最多疊加#3[i]層。每層【流光】使裝備者造成的終結技傷害無視目標#2[i]%的防禦力。裝備者回合結束時，移除1層【流光】。",
+        "params": [
+            [
+                0.15,
+                0.27,
+                2
+            ],
+            [
+                0.175,
+                0.3,
+                2
+            ],
+            [
+                0.2,
+                0.33,
+                2
+            ],
+            [
+                0.225,
+                0.36,
+                2
+            ],
+            [
+                0.25,
+                0.39,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.15
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.175
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.2
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.225
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.25
+                }
+            ]
+        ]
+    },
+    "23032": {
+        "id": "23032",
+        "skill": "安心",
+        "desc": "使裝備者擊破特攻提高#1[i]%。裝備者施放終結技攻擊敵方目標後，使其陷入【忘憂】狀態，持續#5[i]回合，【忘憂】狀態下的敵方目標受到的傷害提高#2[i]%，若裝備者目前擊破特攻大於等於#3[i]%，受到的傷害提高效果額外提高#4[i]%。",
+        "params": [
+            [
+                0.6,
+                0.1,
+                1.5,
+                0.08,
+                2
+            ],
+            [
+                0.7,
+                0.12,
+                1.5,
+                0.1,
+                2
+            ],
+            [
+                0.8,
+                0.14,
+                1.5,
+                0.12,
+                2
+            ],
+            [
+                0.9,
+                0.16,
+                1.5,
+                0.14,
+                2
+            ],
+            [
+                1,
+                0.18,
+                1.5,
+                0.16,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.6
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.7
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.8
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.9
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 1
                 }
             ]
         ]

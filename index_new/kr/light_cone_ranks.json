@@ -3046,6 +3046,70 @@
             ]
         ]
     },
+    "21047": {
+        "id": "21047",
+        "skill": "은닉",
+        "desc": "장착한 캐릭터의 격파 특수효과가 #1[i]% 증가한다. 전투 진입 시 또는 격파 피해를 가한 후 속도가 #2[i]% 증가한다, 지속 시간: #3[i]턴, 해당 효과는 턴마다 1회만 발동할 수 있다",
+        "params": [
+            [
+                0.28,
+                0.08,
+                2
+            ],
+            [
+                0.35,
+                0.09,
+                2
+            ],
+            [
+                0.42,
+                0.1,
+                2
+            ],
+            [
+                0.49,
+                0.11,
+                2
+            ],
+            [
+                0.56,
+                0.12,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.28
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.35
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.42
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.49
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.56
+                }
+            ]
+        ]
+    },
     "22000": {
         "id": "22000",
         "skill": "빠른 눈썰미",
@@ -5418,6 +5482,144 @@
                 {
                     "type": "CriticalDamageBase",
                     "value": 0.6
+                }
+            ]
+        ]
+    },
+    "23031": {
+        "id": "23031",
+        "skill": "진섭",
+        "desc": "장착한 캐릭터의 치명타 확률이 #1[f1]% 증가한다. 장착한 캐릭터가 추가 공격 발동 시 [유광]을 1스택 획득한다, 최대 중첩수: #3[i]스택. [유광] 1스택마다 장착한 캐릭터가 가하는 필살기 피해가 목표의 방어력을 #2[i]% 무시한다. 장착한 캐릭터의 턴 종료 시 [유광]이 1스택 해제된다",
+        "params": [
+            [
+                0.15,
+                0.27,
+                2
+            ],
+            [
+                0.175,
+                0.3,
+                2
+            ],
+            [
+                0.2,
+                0.33,
+                2
+            ],
+            [
+                0.225,
+                0.36,
+                2
+            ],
+            [
+                0.25,
+                0.39,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.15
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.175
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.2
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.225
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.25
+                }
+            ]
+        ]
+    },
+    "23032": {
+        "id": "23032",
+        "skill": "안심",
+        "desc": "장착한 캐릭터의 격파 특수효과가 #1[i]% 증가한다. 장착한 캐릭터가 필살기를 발동하여 적 공격 후 해당 적을 [망우] 상태에 빠트린다, 지속 시간: #5[i]턴. [망우] 상태의 적은 받는 피해가 #2[i]% 증가하고, 장착한 캐릭터의 현재 격파 특수효과가 #3[i]% 이상이면 받는 피해 증가 효과가 추가로 #4[i]% 증가한다",
+        "params": [
+            [
+                0.6,
+                0.1,
+                1.5,
+                0.08,
+                2
+            ],
+            [
+                0.7,
+                0.12,
+                1.5,
+                0.1,
+                2
+            ],
+            [
+                0.8,
+                0.14,
+                1.5,
+                0.12,
+                2
+            ],
+            [
+                0.9,
+                0.16,
+                1.5,
+                0.14,
+                2
+            ],
+            [
+                1,
+                0.18,
+                1.5,
+                0.16,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.6
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.7
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.8
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.9
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 1
                 }
             ]
         ]

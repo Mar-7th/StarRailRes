@@ -364,7 +364,7 @@
         "type_text": "Technique",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "Engage le combat contre les ennemis avec de fortes chances d'infliger Gelé à un ennemi aléatoire en début de combat.",
+        "simple_desc": "Engage le combat contre les ennemis avec de fortes chances d'appliquer Gelé à un ennemi aléatoire en début de combat.",
         "desc": "Engage immédiatement le combat contre les ennemis. Il y a #1[i]% de chances de base de geler un ennemi aléatoire pendant #2[i] tour après être entré en combat.\nUn ennemi gelé ne peut pas agir et subit des DGT de glace additionnels équivalents à #3[i]% de l'ATQ de March 7th au début de chaque tour.",
         "params": [
             [
@@ -606,8 +606,8 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Renforcement",
-        "simple_desc": "Lorsqu'il est la cible de la capacité d'un allié, la PÉN de RÉS de vent de sa prochaine attaque augmente. Cet effet peut se déclencher à nouveau après 2 tours.",
-        "desc": "Lorsque Dan Heng est la cible de la capacité d'un allié, la PÉN de RÉS de vent de sa prochaine attaque augmente de #1[i]%. Cet effet peut se déclencher à nouveau après #2[i] tours.",
+        "simple_desc": "Lorsque cette unité devient la cible de la capacité d'un allié, la PÉN de RÉS de vent de sa prochaine attaque augmente. Cet effet peut se déclencher à nouveau après 2 tours.",
+        "desc": "Lorsque Dan Heng devient la cible de la capacité d'un allié, la PÉN de RÉS de vent de sa prochaine attaque augmente de #1[i]%. Cet effet peut se déclencher à nouveau après #2[i] tours.",
         "params": [
             [
                 0.18,
@@ -1342,7 +1342,7 @@
         "type_text": "Technique",
         "effect": "Impair",
         "effect_text": "Incapacitation",
-        "simple_desc": "Crée une dimension spéciale. La vitesse de déplacement des ennemis à l'intérieur de la dimension est réduite. Il y a de fortes chances d'infliger Emprisonné aux ennemis lorsque le combat est engagé avec des ennemis de la dimension.",
+        "simple_desc": "Crée une dimension spéciale. La vitesse de déplacement des ennemis à l'intérieur de la dimension est réduite. Il y a de fortes chances d'appliquer Emprisonné aux ennemis lorsque le combat est engagé avec des ennemis de la dimension.",
         "desc": "Crée une dimension spéciale qui dure #4[i] secondes. Les ennemis dans cette dimension spéciale voient leur vitesse de déplacement réduite de #5[i]%. Il y a #1[i]% de chances de base d'emprisonner les ennemis pour 1 tour après être entré en combat avec des ennemis dans la dimension spéciale.\nLes ennemis emprisonnés voient leur action retardée de #2[i]% et leur VIT réduite de #3[i]%. Il ne peut exister qu'1 dimension créée par les alliés à la fois.",
         "params": [
             [
@@ -2037,7 +2037,7 @@
         "type_text": "Talent",
         "effect": "Impair",
         "effect_text": "Incapacitation",
-        "simple_desc": "Après chaque attaque, il y a une chance d'implanter 1 Bug aléatoire à l'ennemi attaqué.",
+        "simple_desc": "Après que cette unité a attaqué, il y a une chance d'implanter 1 Bug aléatoire à l'ennemi attaqué.",
         "desc": "Louve d'argent peut créer trois types de Bugs : une réduction d'ATQ de #1[f1]%, une réduction de DÉF de #2[f1]% ou une réduction de VIT de #3[f1]%.\nChaque fois que Louve d'argent attaque, elle a #4[i]% de chances de base d'implanter un Bug aléatoire qui dure #5[i] tours aux cibles attaquées.",
         "params": [
             [
@@ -2381,8 +2381,8 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Renforcement",
-        "simple_desc": "Obtient un bonus de DGT en fonction du pourcentage de PV perdus.",
-        "desc": "Augmente les DGT d'Arlan pour chaque pourcentage de PV en dessous de ses PV max, jusqu'à un maximum de #1[i]% de DGT supplémentaires.",
+        "simple_desc": "Obtient un bonus de DGT en fonction du pourcentage de PV actuels manquants.",
+        "desc": "Obtient un bonus de DGT selon le pourcentage de PV actuels manquants à Arlan, jusqu'à une augmentation maximum de #1[i]% des DGT infligés par Arlan.",
         "params": [
             [
                 0.36
@@ -2964,7 +2964,7 @@
         "type_text": "Talent",
         "effect": "AoEAttack",
         "effect_text": "ZdE",
-        "simple_desc": "",
+        "simple_desc": "Lorsque l'attaque d'un allié réduit le pourcentage de PV actuels de la cible ennemie à 50% ou moins, Herta lance immédiatement une attaque de suivi, qui inflige des DGT de glace mineurs à tous les ennemis.",
         "desc": "Lorsque l'attaque d'un allié réduit le pourcentage de PV d'un ennemi à #1[i]% ou moins, Herta lance une attaque de suivi qui inflige des DGT de glace équivalents à #2[i]% de son ATQ à tous les ennemis.",
         "params": [
             [
@@ -3053,7 +3053,7 @@
         "type_text": "Technique",
         "effect": "Enhance",
         "effect_text": "Renforcement",
-        "simple_desc": "",
+        "simple_desc": "après avoir utilisé la technique, augmente l'ATQ de cette unité au début du combat suivant.",
         "desc": "Après utilisation de sa technique, l'ATQ de Herta augmente de #1[i]% pendant #2[i] tours au début du combat suivant.",
         "params": [
             [
@@ -3609,7 +3609,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Renforcement",
-        "simple_desc": "Utilise l'ATQ normale, la compétence et l'ultime pour éliminer les ennemis, gagner des tours supplémentaires et entrer dans l'état amélioré. Les DGT infligés augmentent dans l'état amélioré.",
+        "simple_desc": "Gagne un tour supplémentaire et entre dans l'état amélioré en vainquant des ennemis via l'attaque normale, la compétence ou l'ultime. Dans l'état amélioré, augmente les DGT infligés par cette unité.",
         "desc": "Lorsqu'elle élimine un ennemi avec son ATQ normale, sa compétence ou son ultime, Seele entre dans l'état amélioré et bénéficie d'un tour supplémentaire. Lorsqu'elle est dans l'état amélioré, les DGT de ses attaques augmentent de #1[i]% pendant #2[i] tour.\nLes ennemis vaincus pendant le tour supplémentaire accordé par « Résurgence » ne déclenchent pas « Résurgence » à nouveau.",
         "params": [
             [
@@ -4616,7 +4616,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Renforcement",
-        "simple_desc": "Augmente les soins prodigués aux alliés dont les PV sont bas. Cet effet affecte également les soins continus.",
+        "simple_desc": "Augmente les soins prodigués aux alliés dont le pourcentage de PV est bas. Cet effet affecte également les soins continus.",
         "desc": "Lorsque Natasha soigne des alliés dont le pourcentage de PV est inférieur ou égal à #1[i]%, les soins qu'elle prodigue augmentent de #2[i]%. Cet effet fonctionne également sur les soins continus.",
         "params": [
             [
@@ -4705,7 +4705,7 @@
         "type_text": "Technique",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "Engage le combat contre les ennemis. Inflige des DGT physiques mineurs à un ennemi unique aléatoire, avec de fortes chances d'infliger Affaiblissement à toutes les cibles ennemies après être entré en combat.",
+        "simple_desc": "Engage le combat contre les ennemis. Inflige des DGT physiques mineurs à un ennemi unique aléatoire, avec de fortes chances d'appliquer Affaiblissement à toutes les cibles ennemies après être entré en combat.",
         "desc": "Engage immédiatement le combat contre les ennemis. Inflige des DGT physiques équivalents à #4[i]% de l'ATQ de Natasha à un ennemi aléatoire après être entré en combat, avec #1[i]% de chances de base d'affaiblir tous les ennemis.\nLes ennemis affaiblis infligent #2[i]% de DGT en moins aux alliés pendant #3[i] tour.",
         "params": [
             [
@@ -6991,7 +6991,7 @@
         "type_text": "Technique",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "Attaque les ennemis. Inflige des DGT physiques mineurs à un ennemi unique aléatoire après être entré en combat, avec de fortes chances d'infliger Saignement à la cible. Puis gagne 1 cumul de Soif de combat.",
+        "simple_desc": "Attaque les ennemis. Inflige des DGT physiques mineurs à un ennemi unique aléatoire après être entré en combat, avec de fortes chances d'appliquer Saignement à la cible. Puis gagne 1 cumul de Soif de combat.",
         "desc": "Engage immédiatement le combat contre les ennemis. Luka inflige des DGT physiques équivalents à #1[i]% de son ATQ à un ennemi aléatoire en entrant en combat, avec #2[i]% de chances de base de lui infliger l'effet Saignement de sa compétence, à la suite de quoi Luka obtient un cumul supplémentaire de Soif de combat.",
         "params": [
             [
@@ -7387,7 +7387,7 @@
         "type_text": "Technique",
         "effect": "Enhance",
         "effect_text": "Renforcement",
-        "simple_desc": "Invoque Compti à vos côtés lorsque vous êtes en exploration. Compti cherche automatiquement les coffres de base et Magorets à proximité. L'utilisation de la technique permet à Topaz de régénérer des points d'énergie lors de la première attaque de Compti au prochain combat.",
+        "simple_desc": "Invoque Compti à vos côtés sur la carte. Compti cherche automatiquement les coffres de base et Magorets à proximité. L'utilisation de la technique permet à Topaz de régénérer des points d'énergie lors de la première attaque de Compti au prochain combat.",
         "desc": "Topaz invoque Compti lorsqu'elle est en exploration. Compti cherche automatiquement les coffres de base et les Magorets dans un rayon défini.\nLa technique de Topaz lui permet de régénérer #1[i] points d'énergie après la première attaque de Compti au cours du combat suivant.\nSi Topaz fait toujours partie de l'équipe après avoir utilisé sa technique et vaincu des ennemis en phase d'exploration, vous recevez un petit bonus de crédits. Vous pouvez recevoir un maximum de #2[i] crédits bonus par jour calendaire.\nVous obtenez une petite quantité de fragments cosmiques supplémentaires, et avez une faible chance d'obtenir 1 bizarrerie aléatoire après avoir utilisé sa technique et avoir vaincu des ennemis dans l'Univers simulé ou parallèle.",
         "params": [
             [
@@ -9952,7 +9952,7 @@
         "type_text": "Technique",
         "effect": "Enhance",
         "effect_text": "Renforcement",
-        "simple_desc": "Augmente la vitesse de déplacement. Reçoit 2 cumuls de Rugissement des cordes après être entré en combat en attaquant un ennemi.",
+        "simple_desc": "La vitesse de déplacement de cette unité augmente. Reçoit 2 cumuls de Rugissement des cordes après être entré en combat en attaquant un ennemi.",
         "desc": "Après utilisation de la technique, Yukong entre en mode Sprint pendant #1[i] secondes. En mode Sprint, la vitesse de déplacement augmente de #2[i]% et Yukong obtient #3[i] cumuls de « Rugissement des cordes » lorsqu'elle entre en combat en attaquant des ennemis.",
         "params": [
             [
@@ -10194,7 +10194,7 @@
         "type_text": "Talent",
         "effect": "Restore",
         "effect_text": "Restauration",
-        "simple_desc": "Tant que Fu Xuan n'est pas à terre, les DGT subis par tous les membres de l'équipe sont réduits.\nSi les PV de Fu Xuan sont faibles, elle restaure automatiquement ses propres PV en fonction du pourcentage de PV perdus. Cet effet peut être déclenché 2 fois au maximum.",
+        "simple_desc": "Tant que Fu Xuan n'est pas à terre, les DGT subis par tous les membres de l'équipe sont réduits.\nSi les PV de Fu Xuan sont faibles, elle restaure automatiquement ses propres PV en fonction du pourcentage de PV déjà perdus. Cet effet peut être déclenché 2 fois au maximum à n'importe quel moment.",
         "desc": "Tant que Fu Xuan n'a pas été mise à terre, Évitement d'infortune s'applique à toute l'équipe. Lorsqu'ils bénéficient d'Évitement d'infortune, les alliés subissent #1[f1]% de DGT en moins.\nLa restauration de PV de Fu Xuan se déclenche lorsque ses PV tombent à #2[i]% de ses PV max ou moins. Cela lui permet de récupérer #3[i]% de ses PV manquants. Cet effet ne peut pas être déclenché en cas de coup fatal. Il est disponible 1 fois par défaut, et peut passer à 2 fois au maximum.",
         "params": [
             [
@@ -13939,7 +13939,7 @@
         "effect": "Impair",
         "effect_text": "Incapacitation",
         "simple_desc": "Crée une dimension spéciale. Inflige des DGT de feu mineurs à tous les ennemis et a de fortes chances d'appliquer 1 cumul de Charbons ardents après être entré en combat avec des ennemis dans cette dimension.",
-        "desc": "Crée une dimension spéciale qui dure #2[i] secondes après avoir utilisé la technique. Inflige des DGT de feu équivalents à #1[i]% de l'ATQ de Jiaoqiu à tous les ennemis, avec #3[i]% de chances de base d'appliquer 1 cumul de Charbons ardents après être entré en combat avec des ennemis dans cette dimension. Il ne peut exister qu'1 dimension créée par les alliés à la fois.",
+        "desc": "Crée une dimension spéciale qui dure #2[i] secondes après avoir utilisé la technique. Inflige des DGT de feu équivalents à #1[i]% de l'ATQ de Jiaoqiu à tous les ennemis, avec #3[i]% de chances de base d'appliquer 1 cumul de Charbons ardents après être entré en combat avec des ennemis dans cette dimension spéciale. Il ne peut exister qu'1 dimension créée par les alliés à la fois.",
         "params": [
             [
                 1,
@@ -13948,6 +13948,549 @@
             ]
         ],
         "icon": "icon/skill/1218_technique.png"
+    },
+    "122001": {
+        "id": "122001",
+        "name": "Éclair tonitruant",
+        "max_level": 9,
+        "element": "Wind",
+        "type": "Normal",
+        "type_text": "ATQ normale",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "Inflige des DGT de vent mineurs à un ennemi unique.",
+        "desc": "Inflige des DGT de vent équivalents à #1[i]% de l'ATQ de Feixiao à une cible ennemie unique.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1220_basic_atk.png"
+    },
+    "122002": {
+        "id": "122002",
+        "name": "Hache de guerre",
+        "max_level": 15,
+        "element": "Wind",
+        "type": "BPSkill",
+        "type_text": "Compétence",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "Inflige des DGT de vent à un ennemi, et déclenche l'attaque de suivi du talent 1 fois.",
+        "desc": "Inflige des DGT de vent équivalents à #1[i]% de l'ATQ de Feixiao à une cible ennemie, puis lance immédiatement 1 instance de l'attaque de suivi du talent contre la cible.",
+        "params": [
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ],
+            [
+                1.4
+            ],
+            [
+                1.5
+            ],
+            [
+                1.625
+            ],
+            [
+                1.75
+            ],
+            [
+                1.875
+            ],
+            [
+                2
+            ],
+            [
+                2.1
+            ],
+            [
+                2.2
+            ],
+            [
+                2.3
+            ],
+            [
+                2.4
+            ],
+            [
+                2.5
+            ]
+        ],
+        "icon": "icon/skill/1220_skill.png"
+    },
+    "122003": {
+        "id": "122003",
+        "name": "Fracture du monde",
+        "max_level": 15,
+        "element": "Wind",
+        "type": "Ultra",
+        "type_text": "Ultime",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "L'ultime permet d'ignorer les types de faiblesses de l'ennemi pour réduire sa robustesse. Si la cible n'est pas en état de Rupture de faiblesse, l'efficacité de Rupture de faiblesse de Feixiao augmente. \nLance Éclair tonitruant des étoiles ou Hache de guerre céleste sur un ennemi unique 6 fois et inflige des DGT de vent à la fin.",
+        "desc": "Inflige des DGT de vent équivalents à #4[i]% de l'ATQ de Feixiao à une cible ennemie unique, en ignorant ses types de faiblesses pour réduire sa robustesse. Si la cible n'est pas en état de Rupture de faiblesse, l'efficacité de Rupture de faiblesse de Feixiao augmente de #2[i]%.\nDurant l'attaque, Feixiao déclenche d'abord Éclair tonitruant des étoiles ou Hache de guerre céleste #3[i] fois sur la cible.\nPuis elle inflige des DGT de vent équivalents à #1[i]% de son ATQ à la cible.",
+        "params": [
+            [
+                0.96,
+                1,
+                6,
+                4.02
+            ],
+            [
+                1.024,
+                1,
+                6,
+                4.318
+            ],
+            [
+                1.088,
+                1,
+                6,
+                4.616
+            ],
+            [
+                1.152,
+                1,
+                6,
+                4.914
+            ],
+            [
+                1.216,
+                1,
+                6,
+                5.212
+            ],
+            [
+                1.28,
+                1,
+                6,
+                5.51
+            ],
+            [
+                1.36,
+                1,
+                6,
+                5.8825
+            ],
+            [
+                1.44,
+                1,
+                6,
+                6.255
+            ],
+            [
+                1.52,
+                1,
+                6,
+                6.6275
+            ],
+            [
+                1.6,
+                1,
+                6,
+                7
+            ],
+            [
+                1.664,
+                1,
+                6,
+                7.298
+            ],
+            [
+                1.728,
+                1,
+                6,
+                7.596
+            ],
+            [
+                1.792,
+                1,
+                6,
+                7.894
+            ],
+            [
+                1.856,
+                1,
+                6,
+                8.192
+            ],
+            [
+                1.92,
+                1,
+                6,
+                8.49
+            ]
+        ],
+        "icon": "icon/skill/1220_ultimate.png"
+    },
+    "122004": {
+        "id": "122004",
+        "name": "Traque-tonnerre",
+        "max_level": 15,
+        "element": "Wind",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "Feixiao peut activer son ultime à partir de 6 points de Chimère volante, le cumul maximum de points étant de 12. Feixiao obtient Chimère volante toutes les 2 attaques par des cibles alliées.\nFeixiao lance une attaque de suivi sur la cible principale après l'attaque d'un coéquipier, infligeant des DGT de vent. Cet effet ne peut être déclenché qu'une fois par tour et les DGT infligés par Feixiao augmentent lorsqu'elle utilise cette attaque.",
+        "desc": "Feixiao peut activer son ultime à partir de #3[i] points de Chimère volante, le cumul maximum de points étant de #4[i]. Feixiao obtient 1 point de Chimère volante toutes les #2[i] attaques par des cibles alliées, les attaques de l'ultime de Feixiao n'étant pas prises en compte.\nAprès qu'un coéquipier a attaqué une cible ennemie, Feixiao lance immédiatement une attaque de suivi sur la cible principale, infligeant des DGT de vent équivalents à #1[i]% de l'ATQ de Feixiao. S'il n'y a pas de cible principale à attaquer, Feixiao attaque un ennemi unique aléatoire à la place. Cet effet ne peut être déclenché qu'une fois par tour et le nombre de déclenchements se réinitialise au début du tour de Feixiao. Les DGT infligés par Feixiao augmentent de #5[i]% pendant #6[i] tours lorsqu'elle utilise cette attaque.",
+        "params": [
+            [
+                0.55,
+                2,
+                6,
+                12,
+                0.3,
+                2
+            ],
+            [
+                0.605,
+                2,
+                6,
+                12,
+                0.33,
+                2
+            ],
+            [
+                0.66,
+                2,
+                6,
+                12,
+                0.36,
+                2
+            ],
+            [
+                0.715,
+                2,
+                6,
+                12,
+                0.39,
+                2
+            ],
+            [
+                0.77,
+                2,
+                6,
+                12,
+                0.42,
+                2
+            ],
+            [
+                0.825,
+                2,
+                6,
+                12,
+                0.45,
+                2
+            ],
+            [
+                0.8938,
+                2,
+                6,
+                12,
+                0.4875,
+                2
+            ],
+            [
+                0.9625,
+                2,
+                6,
+                12,
+                0.525,
+                2
+            ],
+            [
+                1.0312,
+                2,
+                6,
+                12,
+                0.5625,
+                2
+            ],
+            [
+                1.1,
+                2,
+                6,
+                12,
+                0.6,
+                2
+            ],
+            [
+                1.155,
+                2,
+                6,
+                12,
+                0.63,
+                2
+            ],
+            [
+                1.21,
+                2,
+                6,
+                12,
+                0.66,
+                2
+            ],
+            [
+                1.265,
+                2,
+                6,
+                12,
+                0.69,
+                2
+            ],
+            [
+                1.32,
+                2,
+                6,
+                12,
+                0.72,
+                2
+            ],
+            [
+                1.375,
+                2,
+                6,
+                12,
+                0.75,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1220_talent.png"
+    },
+    "122006": {
+        "id": "122006",
+        "name": "Attaque",
+        "max_level": 1,
+        "element": "Wind",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
+        "params": [],
+        "icon": "icon/skill/1220_basic_atk.png"
+    },
+    "122007": {
+        "id": "122007",
+        "name": "Manifestation de tempête",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Enhance",
+        "effect_text": "Renforcement",
+        "simple_desc": "Entre en état de Charge intrépide. Attire les ennemis en continu et augmente la vitesse de déplacement. Obtient Chimère volante après être entré en combat.\nLe personnage peut attaquer activement tous les ennemis attirés lorsqu'il est en état de Charge intrépide. Inflige des DGT de vent qui sont garantis d'être des DGT critiques à tous les ennemis au début de chaque vague. Plus il y a d'ennemis attirés, plus le multiplicateur de DGT est élevé.",
+        "desc": "Après avoir utilisé la technique, le personnage entre dans l'état Charge intrépide pendant #1[i] secondes. Dans cet état, le personnage attire les ennemis à une certaine distance et sa vitesse de déplacement augmente de #2[i]%. Obtient #4[i] point de Chimère volante après être entré en combat.\nAttaquer de manière active en état de Charge intrépide engage le combat avec tous les ennemis attirés. Inflige des DGT de vent équivalents à #3[i]% de l'ATQ de Feixiao à tous les ennemis au début de chaque vague après être entré en combat. Ces DGT sont garantis d'être des DGT critiques. S'il y a plus d'1 ennemi attiré, le multiplicateur de ces DGT augmente de #5[i]% pour chaque ennemi supplémentaire attiré, jusqu'à un maximum de #6[i]%.",
+        "params": [
+            [
+                20,
+                0.5,
+                2,
+                1,
+                1,
+                10
+            ]
+        ],
+        "icon": "icon/skill/1220_technique.png"
+    },
+    "122008": {
+        "id": "122008",
+        "name": "Éclair tonitruant des étoiles",
+        "max_level": 15,
+        "element": "Wind",
+        "type": "Ultra",
+        "type_text": "Ultime",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "Inflige des DGT de vent mineurs à un ennemi unique et augmente le multiplicateur de DGT contre les cibles qui subissent une Rupture de faiblesse.",
+        "desc": "Inflige des DGT de vent équivalents à #1[i]% de l'ATQ de Feixiao à une cible sélectionnée. Si la cible subit une Rupture de faiblesse, le multiplicateur de DGT augmente de #2[i]%.",
+        "params": [
+            [
+                0.36,
+                0.15
+            ],
+            [
+                0.384,
+                0.165
+            ],
+            [
+                0.408,
+                0.18
+            ],
+            [
+                0.432,
+                0.195
+            ],
+            [
+                0.456,
+                0.21
+            ],
+            [
+                0.48,
+                0.225
+            ],
+            [
+                0.51,
+                0.2437
+            ],
+            [
+                0.54,
+                0.2625
+            ],
+            [
+                0.57,
+                0.2812
+            ],
+            [
+                0.6,
+                0.3
+            ],
+            [
+                0.624,
+                0.315
+            ],
+            [
+                0.648,
+                0.33
+            ],
+            [
+                0.672,
+                0.345
+            ],
+            [
+                0.696,
+                0.36
+            ],
+            [
+                0.72,
+                0.375
+            ]
+        ],
+        "icon": "icon/skill/1220_ultimate.png"
+    },
+    "122009": {
+        "id": "122009",
+        "name": "Hache de guerre céleste",
+        "max_level": 15,
+        "element": "Wind",
+        "type": "Ultra",
+        "type_text": "Ultime",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "Inflige des DGT de vent mineurs à un ennemi unique et augmente le multiplicateur de DGT contre les ennemis qui ne subissent pas de Rupture de faiblesse.",
+        "desc": "Inflige des DGT de vent équivalents à #1[i]% de l'ATQ de Feixiao à une cible sélectionnée. Si la cible n'est pas en état de Rupture de faiblesse, le multiplicateur de DGT augmente de #2[i]%.",
+        "params": [
+            [
+                0.36,
+                0.15
+            ],
+            [
+                0.384,
+                0.165
+            ],
+            [
+                0.408,
+                0.18
+            ],
+            [
+                0.432,
+                0.195
+            ],
+            [
+                0.456,
+                0.21
+            ],
+            [
+                0.48,
+                0.225
+            ],
+            [
+                0.51,
+                0.2437
+            ],
+            [
+                0.54,
+                0.2625
+            ],
+            [
+                0.57,
+                0.2812
+            ],
+            [
+                0.6,
+                0.3
+            ],
+            [
+                0.624,
+                0.315
+            ],
+            [
+                0.648,
+                0.33
+            ],
+            [
+                0.672,
+                0.345
+            ],
+            [
+                0.696,
+                0.36
+            ],
+            [
+                0.72,
+                0.375
+            ]
+        ],
+        "icon": "icon/skill/1220_ultimate.png"
+    },
+    "122014": {
+        "id": "122014",
+        "name": "Fracture du monde",
+        "max_level": 15,
+        "element": "Wind",
+        "type": "Ultra",
+        "type_text": "Ultime",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "",
+        "desc": "",
+        "params": [],
+        "icon": "icon/skill/1220_ultimate.png"
     },
     "122101": {
         "id": "122101",
@@ -14105,7 +14648,7 @@
         "type_text": "Ultime",
         "effect": "Enhance",
         "effect_text": "Renforcement",
-        "simple_desc": "Entre en état de Parade et provoque tous les ennemis, déclenchant un puissant contre lorsqu'elle est attaquée pendant cette période. Le contre inflige des DGT physiques à l'assaillant et aux cibles adjacentes, puis inflige des DGT physiques mineurs à un ennemi unique qui rebondissent 6 fois. Si aucun contre n'est déclenché pendant l'état Parade, inflige des DGT physiques à une cible ennemie aléatoire et aux cibles adjacentes à la fin de l'état.",
+        "simple_desc": "Entre en état de Parade et provoque tous les ennemis, déclenchant un puissant contre lorsqu'elle est attaquée pendant cette période. Le contre inflige des DGT physiques à l'assaillant et aux cibles adjacentes, puis inflige des DGT physiques mineurs à un ennemi unique qui rebondissent 6 fois. Si aucun contre n'est déclenché alors que Parade est actif, inflige des DGT physiques à une cible ennemie aléatoire et aux cibles adjacentes à la fin de l'état.",
         "desc": "Consomme #8[i] points d'énergie. Yunli obtient l'effet Parade et provoque tous les ennemis. Dure jusqu'à la fin du prochain tour allié ou ennemi et augmente les DGT critiques infligés par le prochain contre de Yunli de #2[i]%. Lorsque l'effet de contre du talent se déclenche dans l'état Parade, il est converti en contre Sens de l'éradication et supprime l'état Parade. Si aucun contre n'est déclenché dans l'état Parade, Yunli lance immédiatement le contre Sens de l'entaille sur une cible ennemie aléatoire à la fin de l'état Parade.\nSens de l'entaille : Inflige des DGT physiques équivalents à #1[i]% de l'ATQ de Yunli à la cible et des DGT physiques équivalents à #6[i]% de l'ATQ de Yunli aux cibles adjacentes.\nSens de l'éradication : Inflige des DGT physiques équivalents à #1[i]% de l'ATQ de Yunli à la cible et des DGT physiques équivalents à #6[i]% de l'ATQ de Yunli aux cibles adjacentes. Puis, inflige #4[i] instances de DGT supplémentaires, chacune infligeant des DGT physiques équivalents à #7[i]% de l'ATQ de Yunli à une cible ennemie unique aléatoire.\nLes DGT que Yunli inflige via cette capacité sont considérés comme des DGT d'ultime.",
         "params": [
             [
@@ -14384,6 +14927,786 @@
         ],
         "icon": "icon/skill/1221_technique.png"
     },
+    "122201": {
+        "id": "122201",
+        "name": "Encens sacré",
+        "max_level": 9,
+        "element": "Fire",
+        "type": "Normal",
+        "type_text": "ATQ normale",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "Inflige des DGT de feu mineurs à un ennemi unique.",
+        "desc": "Inflige des DGT de feu équivalents à #1[i]% de l'ATQ de Lingsha à une cible ennemie unique.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1222_basic_atk.png"
+    },
+    "122202": {
+        "id": "122202",
+        "name": "Vapeurs incandescentes",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "BPSkill",
+        "type_text": "Compétence",
+        "effect": "AoEAttack",
+        "effect_text": "ZdE",
+        "simple_desc": "Inflige des DGT de feu mineurs à tous les ennemis tout en restaurant des PV à tous les alliés. D'autre part, avance l'action de Fuyuan.",
+        "desc": "Inflige des DGT de feu équivalents à #1[i]% de l'ATQ de Lingsha à tous les ennemis, tout en restaurant un montant de PV équivalent à #2[f1]% de l'ATQ de Lingsha + #3[i] à tous les alliés. D'autre part, avance l'action de Fuyuan de #4[i]%.",
+        "params": [
+            [
+                0.4,
+                0.1,
+                105,
+                0.2
+            ],
+            [
+                0.44,
+                0.105,
+                168,
+                0.2
+            ],
+            [
+                0.48,
+                0.11,
+                215.25,
+                0.2
+            ],
+            [
+                0.52,
+                0.115,
+                262.5,
+                0.2
+            ],
+            [
+                0.56,
+                0.12,
+                294,
+                0.2
+            ],
+            [
+                0.6,
+                0.124,
+                325.5,
+                0.2
+            ],
+            [
+                0.65,
+                0.128,
+                349.125,
+                0.2
+            ],
+            [
+                0.7,
+                0.132,
+                372.75,
+                0.2
+            ],
+            [
+                0.75,
+                0.136,
+                396.375,
+                0.2
+            ],
+            [
+                0.8,
+                0.14,
+                420,
+                0.2
+            ],
+            [
+                0.84,
+                0.144,
+                443.625,
+                0.2
+            ],
+            [
+                0.88,
+                0.148,
+                467.25,
+                0.2
+            ],
+            [
+                0.92,
+                0.152,
+                490.875,
+                0.2
+            ],
+            [
+                0.96,
+                0.156,
+                514.5,
+                0.2
+            ],
+            [
+                1,
+                0.16,
+                538.125,
+                0.2
+            ]
+        ],
+        "icon": "icon/skill/1222_skill.png"
+    },
+    "122203": {
+        "id": "122203",
+        "name": "Voile des brumes évanescentes",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "Ultra",
+        "type_text": "Ultime",
+        "effect": "AoEAttack",
+        "effect_text": "ZdE",
+        "simple_desc": "Augmente les DGT de rupture subis par tous les ennemis, et leur inflige des DGT de feu, tout en restaurant des PV à tous les alliés. D'autre part, avance l'action de Fuyuan.",
+        "desc": "Applique Embrumé à tous les ennemis. Les cibles affectées par Embrumé subissent #4[i]% de DGT de rupture supplémentaires pendant #5[i] tours.\nInflige des DGT de feu équivalents à #1[i]% de l'ATQ de Lingsha à tous les ennemis tout en restaurant un montant de PV équivalent à #2[f1]% de l'ATQ de Lingsha + #3[i] à tous les alliés.  D'autre part, avance l'action de Fuyuan de #6[i]%.",
+        "params": [
+            [
+                0.9,
+                0.08,
+                90,
+                0.15,
+                2,
+                1
+            ],
+            [
+                0.96,
+                0.085,
+                144,
+                0.16,
+                2,
+                1
+            ],
+            [
+                1.02,
+                0.09,
+                184.5,
+                0.17,
+                2,
+                1
+            ],
+            [
+                1.08,
+                0.095,
+                225,
+                0.18,
+                2,
+                1
+            ],
+            [
+                1.14,
+                0.1,
+                252,
+                0.19,
+                2,
+                1
+            ],
+            [
+                1.2,
+                0.104,
+                279,
+                0.2,
+                2,
+                1
+            ],
+            [
+                1.275,
+                0.108,
+                299.25,
+                0.2125,
+                2,
+                1
+            ],
+            [
+                1.35,
+                0.112,
+                319.5,
+                0.225,
+                2,
+                1
+            ],
+            [
+                1.425,
+                0.116,
+                339.75,
+                0.2375,
+                2,
+                1
+            ],
+            [
+                1.5,
+                0.12,
+                360,
+                0.25,
+                2,
+                1
+            ],
+            [
+                1.56,
+                0.124,
+                380.25,
+                0.26,
+                2,
+                1
+            ],
+            [
+                1.62,
+                0.128,
+                400.5,
+                0.27,
+                2,
+                1
+            ],
+            [
+                1.68,
+                0.132,
+                420.75,
+                0.28,
+                2,
+                1
+            ],
+            [
+                1.74,
+                0.136,
+                441,
+                0.29,
+                2,
+                1
+            ],
+            [
+                1.8,
+                0.14,
+                461.25,
+                0.3,
+                2,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1222_ultimate.png"
+    },
+    "122204": {
+        "id": "122204",
+        "name": "Danse nébuleuse",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "AoEAttack",
+        "effect_text": "ZdE",
+        "simple_desc": "Utiliser la compétence invoque Fuyuan. Lors de son action, Fuyuan lance une attaque de suivi et inflige des DGT de feu mineurs à tous les ennemis. D'autre part, inflige des DGT de feu mineurs à un ennemi unique aléatoire, en priorisant les cibles dont la robustesse est supérieure à 0 et qui ont une Faiblesse au feu. Dissipe 1 malus à tous les alliés et restaure des PV.\nUtiliser la compétence de façon répétée augmente le nombre d'actions de Fuyuan.",
+        "desc": "Lors de l'utilisation de la compétence, invoque Fuyuan, dont la VIT de départ est de #1[i] et le nombre d'actions initial est de #7[i].\nLors de son action, Fuyuan lance une attaque de suivi qui inflige des DGT de feu équivalents à #2[i]% de l'ATQ de Lingsha à tous les ennemis. D'autre part, inflige des DGT de feu équivalents à #8[i]% de l'ATQ de Lingsha à un ennemi unique aléatoire, cette instance de DGT priorisant les cibles dont la robustesse est supérieure à 0 et qui ont une Faiblesse au feu. Dissipe #6[i] malus sur les alliés et restaure un montant de PV équivalent à #3[f1]% de l'ATQ de Lingsha + #4[i].\nFuyuan peut cumuler jusqu'à #5[i] actions. Fuyuan disparaît lorsque son nombre d'actions tombe à 0 ou que Lingsha est à terre.\nLorsque Fuyuan est sur le champ de bataille, utiliser la compétence augmente le nombre d'actions de Fuyuan de #7[i].",
+        "params": [
+            [
+                90,
+                0.375,
+                0.08,
+                90,
+                5,
+                1,
+                3,
+                0.375
+            ],
+            [
+                90,
+                0.4125,
+                0.085,
+                144,
+                5,
+                1,
+                3,
+                0.4125
+            ],
+            [
+                90,
+                0.45,
+                0.09,
+                184.5,
+                5,
+                1,
+                3,
+                0.45
+            ],
+            [
+                90,
+                0.4875,
+                0.095,
+                225,
+                5,
+                1,
+                3,
+                0.4875
+            ],
+            [
+                90,
+                0.525,
+                0.1,
+                252,
+                5,
+                1,
+                3,
+                0.525
+            ],
+            [
+                90,
+                0.5625,
+                0.104,
+                279,
+                5,
+                1,
+                3,
+                0.5625
+            ],
+            [
+                90,
+                0.6094,
+                0.108,
+                299.25,
+                5,
+                1,
+                3,
+                0.6094
+            ],
+            [
+                90,
+                0.6562,
+                0.112,
+                319.5,
+                5,
+                1,
+                3,
+                0.6562
+            ],
+            [
+                90,
+                0.7031,
+                0.116,
+                339.75,
+                5,
+                1,
+                3,
+                0.7031
+            ],
+            [
+                90,
+                0.75,
+                0.12,
+                360,
+                5,
+                1,
+                3,
+                0.75
+            ],
+            [
+                90,
+                0.7875,
+                0.124,
+                380.25,
+                5,
+                1,
+                3,
+                0.7875
+            ],
+            [
+                90,
+                0.825,
+                0.128,
+                400.5,
+                5,
+                1,
+                3,
+                0.825
+            ],
+            [
+                90,
+                0.8625,
+                0.132,
+                420.75,
+                5,
+                1,
+                3,
+                0.8625
+            ],
+            [
+                90,
+                0.9,
+                0.136,
+                441,
+                5,
+                1,
+                3,
+                0.9
+            ],
+            [
+                90,
+                0.9375,
+                0.14,
+                461.25,
+                5,
+                1,
+                3,
+                0.9375
+            ]
+        ],
+        "icon": "icon/skill/1222_talent.png"
+    },
+    "122206": {
+        "id": "122206",
+        "name": "Attaque",
+        "max_level": 1,
+        "element": "Fire",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
+        "params": [],
+        "icon": "icon/skill/1222_basic_atk.png"
+    },
+    "122207": {
+        "id": "122207",
+        "name": "Effluves de l'aurore",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Support",
+        "effect_text": "Soutien",
+        "simple_desc": "Invoque immédiatement Fuyuan au début du prochain combat après avoir utilisé la technique, et augmente les DGT de rupture subis par tous les ennemis.",
+        "desc": "Invoque immédiatement Fuyuan au début du prochain combat après avoir utilisé la technique, et inflige Embrumé à tous les ennemis pendant #1[i] tours.",
+        "params": [
+            [
+                2
+            ]
+        ],
+        "icon": "icon/skill/1222_technique.png"
+    },
+    "122301": {
+        "id": "122301",
+        "name": "Dague volante",
+        "max_level": 9,
+        "element": "Thunder",
+        "type": "Normal",
+        "type_text": "ATQ normale",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "Inflige des DGT de foudre mineurs à un ennemi unique.",
+        "desc": "Inflige des DGT de foudre équivalents à #1[i]% de l'ATQ de Moze à une cible ennemie unique.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1223_basic_atk.png"
+    },
+    "122302": {
+        "id": "122302",
+        "name": "Frappe de l'aigle",
+        "max_level": 15,
+        "element": "Thunder",
+        "type": "BPSkill",
+        "type_text": "Compétence",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "Désigne un ennemi unique comme Proie et lui inflige des DGT de foudre. Gagne 9 points de charge.",
+        "desc": "Désigne une cible ennemie unique comme Proie et lui inflige des DGT de foudre équivalents à #1[i]% de l'ATQ de Moze. D'autre part, gagne #2[i] points de charge.\nLorsqu'il n'y a aucun autre personnage sur le champ de bataille en état de combattre, Moze ne peut pas utiliser sa compétence et dissipe l'état Proie de l'ennemi.",
+        "params": [
+            [
+                0.75,
+                9
+            ],
+            [
+                0.825,
+                9
+            ],
+            [
+                0.9,
+                9
+            ],
+            [
+                0.975,
+                9
+            ],
+            [
+                1.05,
+                9
+            ],
+            [
+                1.125,
+                9
+            ],
+            [
+                1.2188,
+                9
+            ],
+            [
+                1.3125,
+                9
+            ],
+            [
+                1.4062,
+                9
+            ],
+            [
+                1.5,
+                9
+            ],
+            [
+                1.575,
+                9
+            ],
+            [
+                1.65,
+                9
+            ],
+            [
+                1.725,
+                9
+            ],
+            [
+                1.8,
+                9
+            ],
+            [
+                1.875,
+                9
+            ]
+        ],
+        "icon": "icon/skill/1223_skill.png"
+    },
+    "122303": {
+        "id": "122303",
+        "name": "Perforation des ténèbres",
+        "max_level": 15,
+        "element": "Thunder",
+        "type": "Ultra",
+        "type_text": "Ultime",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "Inflige des DGT de foudre à un ennemi unique, et déclenche l'attaque de suivi du talent.",
+        "desc": "Inflige des DGT de foudre équivalents à #1[i]% de l'ATQ de Moze à une cible ennemie unique et déclenche l'attaque de suivi de son talent sur cette cible. Si la cible est vaincue avant que l'attaque de suivi ne soit utilisée, lance l'attaque de suivi sur un ennemi unique aléatoire à la place.",
+        "params": [
+            [
+                1.62
+            ],
+            [
+                1.728
+            ],
+            [
+                1.836
+            ],
+            [
+                1.944
+            ],
+            [
+                2.052
+            ],
+            [
+                2.16
+            ],
+            [
+                2.295
+            ],
+            [
+                2.43
+            ],
+            [
+                2.565
+            ],
+            [
+                2.7
+            ],
+            [
+                2.808
+            ],
+            [
+                2.916
+            ],
+            [
+                3.024
+            ],
+            [
+                3.132
+            ],
+            [
+                3.24
+            ]
+        ],
+        "icon": "icon/skill/1223_ultimate.png"
+    },
+    "122304": {
+        "id": "122304",
+        "name": "Assaut des plumes",
+        "max_level": 15,
+        "element": "Thunder",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "Moze entre dans l'état Retrait lorsqu'il y a une Proie sur le champ de bataille.\nLorsque les alliés attaquent la Proie, Moze inflige des DGT de foudre additionnels et consomme 1 point de charge. Moze lance une attaque de suivi sur la Proie tous les 3 points de charge consommés, ce qui inflige des DGT de foudre. L'état Proie de la cible est dissipé lorsque la charge tombe à 0.",
+        "desc": "Moze entre dans l'état Retrait lorsqu'il y a une Proie sur le champ de bataille.\nLorsque les alliés attaquent la Proie, Moze inflige également 1 instance de DGT de foudre additionnels équivalents à #1[i]% de son ATQ et il consomme 1 point de charge. Moze lance 1 attaque de suivi sur la Proie tous les #2[i] points de charge consommés, ce qui inflige des DGT de foudre équivalents à #3[i]% de son ATQ. L'état Proie de la cible est dissipé lorsque la charge tombe à 0 et le nombre de points de charge nécessaires pour lancer l'attaque de suivi est réinitialisé. L'attaque de suivi du talent ne consomme pas de point de charge.",
+        "params": [
+            [
+                0.15,
+                3,
+                0.8
+            ],
+            [
+                0.165,
+                3,
+                0.88
+            ],
+            [
+                0.18,
+                3,
+                0.96
+            ],
+            [
+                0.195,
+                3,
+                1.04
+            ],
+            [
+                0.21,
+                3,
+                1.12
+            ],
+            [
+                0.225,
+                3,
+                1.2
+            ],
+            [
+                0.2437,
+                3,
+                1.3
+            ],
+            [
+                0.2625,
+                3,
+                1.4
+            ],
+            [
+                0.2812,
+                3,
+                1.5
+            ],
+            [
+                0.3,
+                3,
+                1.6
+            ],
+            [
+                0.315,
+                3,
+                1.68
+            ],
+            [
+                0.33,
+                3,
+                1.76
+            ],
+            [
+                0.345,
+                3,
+                1.84
+            ],
+            [
+                0.36,
+                3,
+                1.92
+            ],
+            [
+                0.375,
+                3,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1223_talent.png"
+    },
+    "122306": {
+        "id": "122306",
+        "name": "Attaque",
+        "max_level": 1,
+        "element": "Thunder",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
+        "params": [],
+        "icon": "icon/skill/1223_basic_atk.png"
+    },
+    "122307": {
+        "id": "122307",
+        "name": "Vol obscur",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Enhance",
+        "effect_text": "Renforcement",
+        "simple_desc": "Entre en état de Furtivité. Les DGT infligés augmentent après être entré en combat en attaquant un ennemi en état de Furtivité.",
+        "desc": "Après avoir utilisé sa technique, Moze entre en état de Furtivité pendant #1[i] secondes. Lorsque Moze est en état de Furtivité, il ne peut pas être détecté par les ennemis. Si Moze engage le combat en attaquant des ennemis en état de Furtivité, ses DGT augmentent de #2[i]% pendant #3[i] tours.",
+        "params": [
+            [
+                20,
+                0.3,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1223_technique.png"
+    },
     "122401": {
         "id": "122401",
         "name": "Lame tueuse de démons",
@@ -14394,7 +15717,7 @@
         "effect": "SingleAttack",
         "effect_text": "Cible unique",
         "simple_desc": "Inflige des DGT imaginaires mineurs à un ennemi unique et obtient 1 point de charge.",
-        "desc": "Inflige des DGT imaginaires équivalents à #1[i]% de l'ATQ de March 7th à un ennemi unique et obtient #2[i] point de charge.",
+        "desc": "Inflige des DGT imaginaires équivalents à #1[i]% de l'ATQ de March 7th à une cible ennemie unique et obtient #2[i] point de charge.",
         "params": [
             [
                 0.5,
@@ -14445,7 +15768,7 @@
         "effect": "Support",
         "effect_text": "Soutien",
         "simple_desc": "Désigne un allié unique comme « Maître ». Chaque fois que March utilise son ATQ normale ou qu'elle inflige des DGT avec son ATQ normale renforcée, elle déclenche un effet qui correspond à la Voie du Maître :\nÉrudition, Destruction, Chasse : Inflige des DGT additionnels en fonction du type du Maître.\nHarmonie, Nihilité, Préservation, Abondance : Augmente la réduction de robustesse.",
-        "desc": "Désigne un allié unique (à l'exception de ce personnage) comme Maître et augmente sa VIT de #1[f1]%. Seule la dernière cible de la compétence de March 7th est considérée comme son « Maître ».\nChaque fois que March 7th utilise son ATQ normale ou qu'elle inflige des DGT avec 1 frappe de son ATQ normale renforcée, elle déclenche l'effet correspondant en fonction de la Voie du Maître :\nÉrudition, Destruction, Chasse : Inflige des DGT additionnels (dont le type correspond au type de combat du Maître) équivalents à #2[i]% de l'ATQ de March 7th.\nHarmonie, Nihilité, Préservation, Abondance : Augmente la réduction de robustesse de cette instance de DGT de #3[i]%.",
+        "desc": "Désigne un allié unique (à l'exception de ce personnage) comme Maître et augmente sa VIT de #1[f1]%. Seule la dernière cible de la compétence de March 7th est considérée comme son « Maître ».\n\nChaque fois que March 7th utilise son ATQ normale ou qu'elle inflige des DGT avec 1 frappe de son ATQ normale renforcée, elle déclenche l'effet correspondant en fonction de la Voie du Maître présent sur le champ de bataille :\nÉrudition, Destruction, Chasse : Inflige des DGT additionnels (du type du Maître) équivalents à #2[i]% de l'ATQ de March 7th.\nHarmonie, Nihilité, Préservation, Abondance : Augmente la réduction de robustesse de cette instance de DGT de #3[i]%.",
         "params": [
             [
                 0.06,
@@ -16618,7 +17941,7 @@
         "effect": "Impair",
         "effect_text": "Incapacitation",
         "simple_desc": "Crée une dimension spéciale. Les ennemis dans la dimension subissent l'effet Provocation. Il y a de fortes chances de réduire la VIT des cibles ennemies après être entré en combat avec des ennemis dans cette dimension.",
-        "desc": "Crée une dimension spéciale qui provoque les ennemis proches pendant #1[i] secondes après avoir utilisé la technique. Il y a #2[i]% de chances de base de réduire la VIT des ennemis de #3[i]% pendant #4[i] tours en engageant le combat avec des ennemis dans la dimension. Il ne peut exister qu'1 dimension créée par les alliés à la fois.",
+        "desc": "Crée une dimension spéciale qui provoque les ennemis proches pendant #1[i] secondes après avoir utilisé la technique. Il y a #2[i]% de chances de base de réduire la VIT des ennemis de #3[i]% pendant #4[i] tours en engageant le combat avec des ennemis dans la dimension spéciale. Il ne peut exister qu'1 dimension créée par les alliés à la fois.",
         "params": [
             [
                 10,
@@ -19525,7 +20848,7 @@
         "effect": "Impair",
         "effect_text": "Incapacitation",
         "simple_desc": "Crée une dimension spéciale qui arrête tous les ennemis qui s'y trouvent. Le prochain ultime de Micha inflige plus de frappes par action après être entré en combat contre des ennemis à l'intérieur de la dimension.",
-        "desc": "Crée une dimension spéciale qui dure #1[i] secondes après avoir utilisé la technique. Les ennemis pris dans la dimension sont affectés par Prison onirique et arrêtent toutes leurs actions. Le nombre de frappes par action du prochain ultime de Micha augmente de #2[i] lorsqu'il entre en combat contre des ennemis affectés par Prison onirique. Il ne peut exister qu'1 dimension créée par les alliés à la fois.",
+        "desc": "Crée une dimension spéciale qui dure #1[i] secondes après avoir utilisé la technique. Les ennemis pris dans la dimension spéciale sont affectés par Prison onirique et arrêtent toutes leurs actions. Le nombre de frappes par action du prochain ultime de Micha augmente de #2[i] lorsqu'il entre en combat contre des ennemis affectés par Prison onirique. Il ne peut exister qu'1 dimension créée par les alliés à la fois.",
         "params": [
             [
                 15,
@@ -19594,7 +20917,7 @@
         "type_text": "Compétence",
         "effect": "Support",
         "effect_text": "Soutien",
-        "simple_desc": "Transforme un allié en Agent de recouvrement de dettes et augmente sa VIT. Lorsque l'Agent de recouvrement de dettes attaque, il inflige des DGT quantiques additionnels mineurs à chaque cible ennemie touchée et consomme ses propres PV. Lorsque Jade devient Agent de recouvrement de dettes, elle ne bénéficie pas de l'effet d'augmentation de VIT, et ses attaques ne consomment pas de PV.",
+        "simple_desc": "Transforme un allié en Agent de recouvrement de dettes et augmente sa VIT. Lorsque l'Agent de recouvrement de dettes attaque, il inflige des DGT quantiques additionnels mineurs à chaque cible ennemie touchée et il consomme ses propres PV. Lorsque Jade devient Agent de recouvrement de dettes, elle ne bénéficie pas de l'effet d'augmentation de VIT, et ses attaques ne consomment pas de PV.",
         "desc": "Transforme une cible alliée unique en Agent de recouvrement de dettes et augmente sa VIT de #1[i] pendant #4[i] tours.\nLorsque l'Agent de recouvrement de dettes attaque, inflige 1 instance de DGT quantiques additionnels équivalents à #3[i]% de l'ATQ de Jade à chaque cible ennemie touchée et consomme une partie des PV de l'Agent de recouvrement de dettes à hauteur de #2[i]% de ses PV max. Si ses PV actuels sont insuffisants, ils sont réduits à 1.\nLorsque Jade devient Agent de recouvrement de dettes, elle ne bénéficie pas de l'effet d'augmentation de VIT, et ses attaques ne consomment pas de PV.\nJade ne peut pas utiliser sa compétence lorsqu'il y a un Agent de recouvrement de dettes sur le champ de bataille. La durée de l'effet Agent de recouvrement de dettes diminue de 1 au début de chaque tour de Jade.",
         "params": [
             [
@@ -19699,7 +21022,7 @@
         "type_text": "Ultime",
         "effect": "AoEAttack",
         "effect_text": "ZdE",
-        "simple_desc": "Inflige des DGT quantiques à tous les ennemis et augmente le multiplicateur de DGT d'attaque de suivi.",
+        "simple_desc": "Inflige des DGT quantiques à tous les ennemis et le multiplicateur de DGT d'attaque de suivi de cette unité augmente.",
         "desc": "Inflige des DGT quantiques équivalents à #3[i]% de l'ATQ de Jade à tous les ennemis. D'autre part, renforce l'attaque de suivi du talent de Jade en augmentant son multiplicateur de DGT de #1[i]%. Ce renforcement peut prendre effet #2[i] fois.",
         "params": [
             [
@@ -20566,7 +21889,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Renforcement",
-        "simple_desc": "",
+        "simple_desc": "Chaque fois que cette unité fait subir une Rupture de faiblesse à un ennemi, l'ATQ augmente.",
         "desc": "L'ATQ augmente de #1[i]% à chaque fois que le personnage fait subir une Rupture de faiblesse à un ennemi. Effet cumulable jusqu'à #2[i] fois.",
         "params": [
             [
@@ -20655,7 +21978,7 @@
         "type_text": "Technique",
         "effect": "Restore",
         "effect_text": "Restauration",
-        "simple_desc": "",
+        "simple_desc": "Restaure immédiatement des PV pour l'équipe après avoir utilisé la technique.",
         "desc": "Soigne immédiatement tous les alliés à hauteur de #1[i]% de leurs PV max respectifs après utilisation de cette technique.",
         "params": [
             [
@@ -21000,7 +22323,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Renforcement",
-        "simple_desc": "",
+        "simple_desc": "Chaque fois que cette unité fait subir une Rupture de faiblesse à un ennemi, l'ATQ augmente.",
         "desc": "L'ATQ augmente de #1[i]% à chaque fois que le personnage fait subir une Rupture de faiblesse à un ennemi. Effet cumulable jusqu'à #2[i] fois.",
         "params": [
             [
@@ -21089,7 +22412,7 @@
         "type_text": "Technique",
         "effect": "Restore",
         "effect_text": "Restauration",
-        "simple_desc": "",
+        "simple_desc": "Restaure immédiatement des PV pour l'équipe après avoir utilisé la technique.",
         "desc": "Soigne immédiatement tous les alliés à hauteur de #1[i]% de leurs PV max respectifs après utilisation de cette technique.",
         "params": [
             [
@@ -21374,7 +22697,7 @@
         "type_text": "Ultime",
         "effect": "AoEAttack",
         "effect_text": "ZdE",
-        "simple_desc": "Inflige des DGT de feu à tous les ennemis et renforce la prochaine ATQ normale.",
+        "simple_desc": "Inflige des DGT de feu à tous les ennemis et renforce la prochaine ATQ normale de cette unité.",
         "desc": "Inflige des DGT de feu équivalents à #1[i]% de l'ATQ {M#du pionnier}{F#de la pionnière} + #2[i]% de sa DÉF à tous les ennemis. La prochaine ATQ normale est automatiquement renforcée et ne coûte pas de Volonté du magma.",
         "params": [
             [
@@ -21449,7 +22772,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Renforcement",
-        "simple_desc": "",
+        "simple_desc": "Cumule de la Volonté du magma lorsque l'unité subit une attaque. Lorsque Volonté du magma atteint au moins 4 cumuls, l'ATQ normale devientrenforcée. Accorde un bouclier à l'équipe après avoir utilisé l'ATQ normale, la compétence ou l'ultime.",
         "desc": "Chaque fois que {M#le pionnier}{F#la pionnière} est {M#touché}{F#touchée}, {M#il}{F#elle} obtient 1 cumul de Volonté du magma pour un maximum de #3[i] cumuls.\nLorsque Volonté du magma atteint au moins 4 cumuls, l'ATQ normale {M#du pionnier}{F#de la pionnière} est renforcée, infligeant des DGT à un ennemi unique et aux ennemis adjacents.\nLorsque {M#le pionnier}{F#la pionnière} utilise l'ATQ normale, la compétence ou l'ultime, {M#il}{F#elle} accorde un bouclier qui absorbe des DGT équivalents à #1[f1]% de sa propre DÉF + #4[i] à tous les alliés. Le bouclier dure #2[i] tours.",
         "params": [
             [
@@ -21568,7 +22891,7 @@
         "type_text": "Technique",
         "effect": "Defence",
         "effect_text": "Défense",
-        "simple_desc": "",
+        "simple_desc": "Après avoir utilisé la technique, fournit un bouclier à cette unité au début du prochain combat.",
         "desc": "Après utilisation de la technique, gagne un bouclier qui absorbe des DGT équivalents à #1[i]% de la DÉF {M#du pionnier}{F#de la pionnière} + #2[i] pendant #3[i] tour au début du combat suivant.",
         "params": [
             [
@@ -21771,7 +23094,7 @@
         "type_text": "Ultime",
         "effect": "AoEAttack",
         "effect_text": "ZdE",
-        "simple_desc": "Inflige des DGT de feu à tous les ennemis et renforce la prochaine ATQ normale.",
+        "simple_desc": "Inflige des DGT de feu à tous les ennemis et renforce la prochaine ATQ normale de cette unité.",
         "desc": "Inflige des DGT de feu équivalents à #1[i]% de l'ATQ {M#du pionnier}{F#de la pionnière} + #2[i]% de sa DÉF à tous les ennemis. La prochaine ATQ normale est automatiquement renforcée et ne coûte pas de Volonté du magma.",
         "params": [
             [
@@ -21846,7 +23169,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Renforcement",
-        "simple_desc": "",
+        "simple_desc": "Cumule de la Volonté du magma lorsque l'unité subit une attaque. Lorsque Volonté du magma atteint au moins 4 cumuls, l'ATQ normale devientrenforcée. Accorde un bouclier à l'équipe après avoir utilisé l'ATQ normale, la compétence ou l'ultime.",
         "desc": "Chaque fois que {M#le pionnier}{F#la pionnière} est {M#touché}{F#touchée}, {M#il}{F#elle} obtient 1 cumul de Volonté du magma pour un maximum de #3[i] cumuls.\nLorsque Volonté du magma atteint au moins 4 cumuls, l'ATQ normale {M#du pionnier}{F#de la pionnière} est renforcée, infligeant des DGT à un ennemi unique et aux ennemis adjacents.\nLorsque {M#le pionnier}{F#la pionnière} utilise l'ATQ normale, la compétence ou l'ultime, {M#il}{F#elle} accorde un bouclier qui absorbe des DGT équivalents à #1[f1]% de sa propre DÉF + #4[i] à tous les alliés. Le bouclier dure #2[i] tours.",
         "params": [
             [
@@ -21965,7 +23288,7 @@
         "type_text": "Technique",
         "effect": "Defence",
         "effect_text": "Défense",
-        "simple_desc": "",
+        "simple_desc": "Après avoir utilisé la technique, fournit un bouclier à cette unité au début du prochain combat.",
         "desc": "Après utilisation de la technique, gagne un bouclier qui absorbe des DGT équivalents à #1[i]% de la DÉF {M#du pionnier}{F#de la pionnière} + #2[i] pendant #3[i] tour au début du combat suivant.",
         "params": [
             [

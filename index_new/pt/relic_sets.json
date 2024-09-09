@@ -104,7 +104,7 @@
         "name": "Guarda da Neve Uivante",
         "desc": [
             "Reduz o Dano recebido em 8%.",
-            "No início da rodada, se os PV do usuário forem iguais ou inferiores a 50%, restaura PV igual a 8% de seus PV máximos e regenera 5 de Energia."
+            "No início da rodada, se a porcentagem dos PV do usuário for igual ou inferior a 50%, restaura PV igual a 8% de seus PV máximos e regenera 5 de Energia."
         ],
         "properties": [
             [],
@@ -275,7 +275,7 @@
         "name": "Grão-Duque em Brasas",
         "desc": [
             "Aumenta o Dano causado pelos Ataques Extras em 20%.",
-            "Quando o usuário usa Ataques Extras, aumenta o ATQ do usuário em 6% a cada vez que o Ataque Extra causa Dano. Este efeito pode ser acumulado até o máximo de 8 vez(es) e dura por 3 rodada(s). Este efeito é removido da próxima vez que o usuário utilizar um Ataque Extra."
+            "Quando o usuário usa um Ataque Extra, aumenta o ATQ do usuário em 6% a cada vez que o Ataque Extra causa Dano. Este efeito pode ser chegar até um máximo de 8 acúmulo(s) e dura por 3 rodada(s). Este efeito é removido na próxima vez que o usuário utilizar um Ataque Extra."
         ],
         "properties": [
             [],
@@ -626,7 +626,7 @@
         "id": "315",
         "name": "Duran, Dinastia dos Lobos Errantes",
         "desc": [
-            "Quando um aliado utilizam um Ataque Extra, o usuário recebe 1 acúmulo de Mérito, acumulando até 5 vez(es). Cada acúmulo de Mérito aumenta o Dano causado pelos Ataques Extras do usuário em 5%. Quando há 5 acúmulos, aumenta adicionalmente o Dano CRIT do usuário em 25%."
+            "Quando um aliado utiliza um Ataque Extra, o usuário recebe 1 acúmulo de Mérito, acumulando até 5 vez(es). Cada acúmulo de Mérito aumenta o Dano causado pelos Ataques Extras do usuário em 5%. Com 5 acúmulos, aumenta adicionalmente o Dano CRIT do usuário em 25%."
         ],
         "properties": [
             []
@@ -649,6 +649,40 @@
             ]
         ],
         "icon": "icon/relic/316.png",
+        "guide_overview": []
+    },
+    "317": {
+        "id": "317",
+        "name": "Lushaka, os Mares Submersos",
+        "desc": [
+            "Aumenta a Taxa de Regeneração de Energia do usuário em 5%. Se o usuário não for o primeiro personagem na Formação de Equipe, então aumenta o ATQ do primeiro personagem na Formação de Equipe em 12%."
+        ],
+        "properties": [
+            [
+                {
+                    "type": "SPRatioBase",
+                    "value": 0.05
+                }
+            ]
+        ],
+        "icon": "icon/relic/317.png",
+        "guide_overview": []
+    },
+    "318": {
+        "id": "318",
+        "name": "O Maravilhoso Parque Bananalândia",
+        "desc": [
+            "Aumenta o Dano CRIT do usuário em 16%. Quando um alvo invocado pelo usuário está em campo, o Dano CRIT aumenta adicionalmente em 32%."
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.16
+                }
+            ]
+        ],
+        "icon": "icon/relic/318.png",
         "guide_overview": []
     }
 }

@@ -170,8 +170,8 @@
         "type_text": "Perícia Suprema",
         "effect": "AoEAttack",
         "effect_text": "Área",
-        "simple_desc": "Causa Dano de Gelo a todos os inimigos, com uma chance de aplicar o efeito de Congelamento",
-        "desc": "Causa Dano de Gelo igual a #1[i]% do ATQ de 7 de Março a todos os inimigos. Ao serem atingidos, os inimigos têm #2[i]% de chance-base de sofrer Congelamento por #3[i] rodada(s).\nDurante o Congelamento, os inimigos não podem agir e recebem Dano de Gelo Adicional igual a #4[i]% do ATQ de 7 de Março no início de cada rodada.",
+        "simple_desc": "Causa Dano de Gelo a todos os inimigos, com uma chance de aplicar o efeito de Congelamento a eles.",
+        "desc": "Causa Dano de Gelo igual a #1[i]% do ATQ de 7 de Março a todos os inimigos. Ao serem atingidos, os inimigos têm uma chance-base de #2[i]% de sofrer Congelamento por #3[i] rodada(s).\nDurante o Congelamento, os inimigos não podem agir e recebem Dano de Gelo Adicional igual a #4[i]% do ATQ de 7 de Março no início de cada rodada.",
         "params": [
             [
                 0.9,
@@ -606,7 +606,7 @@
         "type_text": "Talento",
         "effect": "Enhance",
         "effect_text": "Aprimoramento",
-        "simple_desc": "Ao se tornar o alvo de uma habilidade de um aliado, a PEN de RES a Vento de seu próximo ataque aumenta. Este efeito pode ser ativado novamente depois de 2 rodadas.",
+        "simple_desc": "Quando esta unidade se torna o alvo de uma habilidade de um aliado, a PEN de RES a Vento do próximo ataque dessa unidade aumenta. Este efeito pode ser ativado novamente depois de 2 rodadas.",
         "desc": "Quando Dan Heng é alvo da habilidade de um aliado, a PEN de RES a Vento de seu próximo ataque recebe um aumento de #1[i]%. Este efeito pode ser ativado novamente depois de #2[i] rodada(s).",
         "params": [
             [
@@ -2037,7 +2037,7 @@
         "type_text": "Talento",
         "effect": "Impair",
         "effect_text": "Incapacitação",
-        "simple_desc": "Após cada ataque, existe a chance de infligir 1 Erro aleatório no inimigo atacado.",
+        "simple_desc": "Após esta unidade atacar, existe a chance de infligir 1 Erro aleatório no inimigo atacado.",
         "desc": "Loba Prateada pode criar três tipos de Erros: reduzir em #1[f1]% o ATQ, reduzir em #2[f1]% a DEF e reduzir em #3[f1]% a VEL.\nSempre que Loba Prateada ataca, ela tem uma chance-base de #4[i]% de implantar a um inimigo-alvo um Erro aleatório que dura #5[i] rodada(s).",
         "params": [
             [
@@ -2381,8 +2381,8 @@
         "type_text": "Talento",
         "effect": "Enhance",
         "effect_text": "Aprimoramento",
-        "simple_desc": "Ganha bônus de Dano baseado na porcentagem de PV perdidos.",
-        "desc": "Aumenta o Dano de Arlan com base na porcentagem de PV reduzidos de seus PV máximos, até um máximo de #1[i]% a mais de Dano.",
+        "simple_desc": "Ganha bônus de Dano baseado na porcentagem atual de PV perdidos.",
+        "desc": "Com base na porcentagem atual de PV perdidos de Arlan, ganha um bônus de Dano, até um aumento máximo de #1[i]% no Dano causado por Arlan.",
         "params": [
             [
                 0.36
@@ -2964,7 +2964,7 @@
         "type_text": "Talento",
         "effect": "AoEAttack",
         "effect_text": "Área",
-        "simple_desc": "",
+        "simple_desc": "Quando o ataque de qualquer aliado reduz a porcentagem dos PV do inimigo-alvo para 50% ou menos, Herta imediatamente desfere Ataque Extra, causando Dano de Gelo leve a todas as unidades inimigas.",
         "desc": "Quando um ataque de um aliado reduzir os PV de um inimigo a #1[i]% ou menos, Herta usa um Ataque Extra, causando #2[i]% do ATQ de Herta como Dano de Gelo a todos os inimigos.",
         "params": [
             [
@@ -3053,7 +3053,7 @@
         "type_text": "Técnica",
         "effect": "Enhance",
         "effect_text": "Aprimoramento",
-        "simple_desc": "",
+        "simple_desc": "Depois de usar a Técnica, aumenta o ATQ desta unidade no início da próxima batalha.",
         "desc": "Após usar sua Técnica, no início da próxima batalha o ATQ de Herta aumenta em #1[i]% por #2[i] rodada(s).",
         "params": [
             [
@@ -3219,7 +3219,7 @@
         "type_text": "Perícia Suprema",
         "effect": "Support",
         "effect_text": "Suporte",
-        "simple_desc": "Aumenta o ATQ e o Dano CRIT de todos os aliados",
+        "simple_desc": "Aumenta o ATQ e o Dano CRIT de todos os aliados.",
         "desc": "Aumenta o ATQ de todos os aliados em #1[i]% e aumenta o Dano CRIT em #2[f1]% do Dano CRIT de Bronya mais #3[f1]% por #4[i] rodada(s).",
         "params": [
             [
@@ -3549,8 +3549,8 @@
         "type_text": "Perícia Suprema",
         "effect": "SingleAttack",
         "effect_text": "Alvo Único",
-        "simple_desc": "Entra no modo melhorado e causa Dano Quântico massivo a um único inimigo.",
-        "desc": "Seele entra no modo melhorado e causa Dano Quântico igual a #1[i]% do ATQ dela a um único inimigo.",
+        "simple_desc": "Entra no modo Amplificação e causa Dano Quântico massivo a um único inimigo.",
+        "desc": "Seele entra no modo Amplificação e causa Dano Quântico igual a #1[i]% do ATQ dela a um único inimigo.",
         "params": [
             [
                 2.55
@@ -3609,8 +3609,8 @@
         "type_text": "Talento",
         "effect": "Enhance",
         "effect_text": "Aprimoramento",
-        "simple_desc": "Usa ATQ Básico, Perícia ou Perícia Suprema para derrotar inimigos, ganha rodadas extras, e entra no modo melhorado. Quando estiver no modo melhorado, o Dano causado é aumentado.",
-        "desc": "Entra no modo melhorado ao derrotar um inimigo com ATQ Básico, Perícia ou Perícia Suprema, e recebe uma rodada extra. Enquanto estiver nesse modo, o Dano dos ataques de Seele aumenta em #1[i]% por #2[i] rodada(s).\nInimigos derrotados durante a rodada extra concedida pelo efeito de \"Ressurgimento\" não ativarão outro \"Ressurgimento\".",
+        "simple_desc": "Ao derrotar inimigos-alvo com um ATQ Básico, Perícia ou Perícia Suprema, ganha uma rodada extra e entra no estado de Amplificação. Enquanto estiver em Amplificação, o Dano causado por esta unidade é aumentado.",
+        "desc": "Entra no modo Amplificação ao derrotar um inimigo com ATQ Básico, Perícia ou Perícia Suprema, e recebe uma rodada extra. Enquanto estiver nesse modo, o Dano dos ataques de Seele aumenta em #1[i]% por #2[i] rodada(s).\nInimigos derrotados durante a rodada extra concedida pelo efeito de \"Ressurgimento\" não ativarão outro \"Ressurgimento\".",
         "params": [
             [
                 0.4,
@@ -3698,8 +3698,8 @@
         "type_text": "Técnica",
         "effect": "Enhance",
         "effect_text": "Aprimoramento",
-        "simple_desc": "Entra no modo de Furtividade. Após atacar um inimigo e entrar em batalha, entra no modo melhorado.",
-        "desc": "Após usar a sua Técnica, Seele ganha Furtividade por #1[i]s. Enquanto o efeito de Furtividade estiver ativo, Seele não pode ser detectada por inimigos. Ao entrar em uma batalha atacando inimigos, Seele entrará no modo melhorado imediatamente.",
+        "simple_desc": "Entra no modo de Furtividade. Após atacar um inimigo e entrar em batalha, entra no modo Amplificação.",
+        "desc": "Após usar a sua Técnica, Seele ganha Furtividade por #1[i]s. Enquanto o efeito de Furtividade estiver ativo, Seele não pode ser detectada por inimigos. Ao entrar em uma batalha atacando inimigos, Seele entrará no modo Amplificação imediatamente.",
         "params": [
             [
                 20
@@ -4616,7 +4616,7 @@
         "type_text": "Talento",
         "effect": "Enhance",
         "effect_text": "Aprimoramento",
-        "simple_desc": "Ao curar aliados com PV baixos, aumenta a Cura Realizada. Esse efeito também funciona em curas contínuas.",
+        "simple_desc": "Ao curar aliados com porcentagem dos PV baixa, aumenta a Cura Realizada. Esse efeito também funciona em curas contínuas.",
         "desc": "Ao curar aliados com PV iguais ou abaixo de #1[i]%, aumenta a Cura Realizada de Natasha em #2[i]%. Este efeito também funciona na cura contínua.",
         "params": [
             [
@@ -7387,7 +7387,7 @@
         "type_text": "Técnica",
         "effect": "Enhance",
         "effect_text": "Aprimoramento",
-        "simple_desc": "Invoca Dinheirinho para acompanhar em um Labirinto. Dinheirinho procurará automaticamente por Tesouros Básicos e Cofrinhos por perto. Usar a Técnica regenerará a Energia de Topaz após o primeiro ataque de Dinheirinho na próxima batalha.",
+        "simple_desc": "Invoca Dinheirinho para acompanhar em um mapa. Dinheirinho procurará automaticamente por Tesouros Básicos e Cofrinhos por perto. Usar a Técnica regenerará a Energia de Topaz após o primeiro ataque de Dinheirinho na próxima batalha.",
         "desc": "Invoca Dinheirinho quando Topaz entra no mapa. Dinheirinho buscará automaticamente por Tesouros Básicos e Cofrinhos dentro de um certo alcance.\nUsar sua Técnica regenera #1[i] de Energia para Topaz após o primeiro ataque de Dinheirinho na próxima batalha.\nSe Topaz ainda estiver no time quando os inimigos do mapa forem derrotados, uma pequena quantidade de créditos adicionais será adicionada aos créditos obtidos. Um máximo de #2[i] de créditos adicionais podem ser recebidos a cada dia do calendário.\nApós usar sua Técnica e derrotar inimigos no Universo Simulado ou no Universo Divergente, recebe adicionalmente uma pequena quantidade de Fragmentos Cósmicos com uma pequena chance de obter 1 Curio aleatória.",
         "params": [
             [
@@ -9848,7 +9848,7 @@
         "type_text": "Talento",
         "effect": "Enhance",
         "effect_text": "Aprimoramento",
-        "simple_desc": "O Ataque Básico adicionalmente causa Dano leve, e o Dano de Redução de Tenacidade do seu ATQ Básico é aumentada. Esse efeito pode ser ativado novamente após 1 rodada passar.",
+        "simple_desc": "O ATQ Básico adicionalmente causa Dano leve, e o Dano de Redução de Tenacidade do seu ATQ Básico é aumentada. Esse efeito pode ser ativado novamente após 1 rodada passar.",
         "desc": "O ATQ Básico causa adicionalmente Dano Imaginário igual a #1[i]% do ATQ de Yukong, e aumenta a Redução de Tenacidade deste ataque em #2[i]%. Este efeito pode ser ativado novamente após #3[i] rodada(s).",
         "params": [
             [
@@ -9952,7 +9952,7 @@
         "type_text": "Técnica",
         "effect": "Enhance",
         "effect_text": "Aprimoramento",
-        "simple_desc": "Aumenta a VEL de Movimento. Após atacar um inimigo e entrar na batalha, recebe 2 acúmulos de \"Arco Estrondoso\".",
+        "simple_desc": "Aumenta a VEL de Movimento da unidade. Após atacar um inimigo e entrar na batalha, recebe 2 acúmulos de \"Arco Estrondoso\".",
         "desc": "Após usar sua Técnica, Yukong entra no modo Corrida por #1[i] segundos. Enquanto estiver no modo Corrida, a VEL de Movimento aumenta em #2[i]%, e Yukong recebe #3[i] acúmulo(s) do \"Arco Estrondoso\" ao entrar em batalha atacando inimigos.",
         "params": [
             [
@@ -10195,7 +10195,7 @@
         "effect": "Restore",
         "effect_text": "Restauração",
         "simple_desc": "Enquanto Fu Xuan estiver ativa em batalha, o Dano recebido pela equipe inteira é reduzido.\nQuando os PV dela estiverem baixos, ela automaticamente restaura seus próprios PV com base na porcentagem de PV já perdidos. Este efeito pode ter até 2 contagens de ativação em qualquer momento.",
-        "desc": "Enquanto Fu Xuan estiver ativa em combate, a \"Prevenção de Infortúnio\" é aplicada a toda a equipe. Enquanto estiverem com Prevenção de Infortúnio, os aliados recebem #1[f1]% a menos de Dano.\nQuando os PV atuais de Fu Xuan caírem para #2[i]% ou menos dos seus PV máximos, a Restauração de PV será ativada para Fu Xuan, recuperando os PV dela em #3[i]% da quantidade de PV perdida no momento. Este efeito não pode ser ativado se ela receber um golpe fatal. Este efeito possui 1 contagem de ativação por padrão, e pode possuir um máximo de 2 contagens de ativação.",
+        "desc": "Enquanto Fu Xuan estiver ativa em combate, a \"Prevenção de Infortúnio\" é aplicada a toda a equipe. Enquanto estiverem com Prevenção de Infortúnio, os aliados recebem #1[f1]% a menos de Dano.\nQuando a porcentagem dos PV atuais de Fu Xuan caírem para #2[i]% ou menos dos seus PV máximos, a Restauração de PV será ativada para Fu Xuan, recuperando os PV dela em #3[i]% da quantidade de PV perdida no momento. Este efeito não pode ser ativado se ela receber um golpe fatal. Este efeito possui 1 contagem de ativação por padrão, e pode possuir um máximo de 2 contagens de ativação.",
         "params": [
             [
                 0.1,
@@ -10659,7 +10659,7 @@
         "effect": "Enhance",
         "effect_text": "Aprimoramento",
         "simple_desc": "Depois que este personagem usa sua Técnica, no início da próxima batalha, aumenta o Dano causado por este personagem a inimigos-alvo com PV em 50% ou mais.",
-        "desc": "Após usar sua Técnica, no início da próxima batalha, Yanqing causa #2[i]% a mais de Dano por #3[i] rodada(s) a inimigos que, no momento, têm PV igual ou superior a #1[i]%.",
+        "desc": "Após usar sua Técnica, no início da próxima batalha, Yanqing causa #2[i]% a mais de Dano por #3[i] rodada(s) a inimigos que, no momento, têm a porcentagem dos PV igual ou superior a #1[i]%.",
         "params": [
             [
                 0.5,
@@ -13353,7 +13353,7 @@
         "effect": "Restore",
         "effect_text": "Restauração",
         "simple_desc": "Huohuo ganha Provisão Divina depois de usar sua Perícia. Se Huohuo possuir Vida Sacrificada no início da rodada de um aliado ou quando um aliado usa sua Perícia Suprema, restaura os PV do aliado. Ao mesmo tempo, todos os aliados com PV baixos recebem uma cura. Quando Provisão Divina é ativada para curar um aliado, remove 1 penalidade daquele aliado.",
-        "desc": "Após usar sua Perícia, Huohuo ganha Provisão Divina, durando por #1[i] rodada(s). Esta duração diminui por 1 rodada no início de cada rodada de Huohuo. Se Huohuo tiver Provisão Divina quando a rodada de um aliado começa ou quando um aliado utiliza sua Perícia Suprema, restaura PV para aquele aliado em uma quantidade igual a #3[f1]% dos PV máximos de Huohuo + #5[i]. Ao mesmo tempo, cada aliado com #6[i]% de PV ou menos é curado uma vez.\nQuando Provisão Divina é ativada para curar um aliado, remove #2[i] penalidade(s) daquele aliado. Este efeito pode ser ativado até um máximo de #7[i] vez(es). Usar a habilidade novamente reinicia o efeito da contagem de ativação.",
+        "desc": "Após usar sua Perícia, Huohuo ganha Provisão Divina, durando por #1[i] rodada(s). Esta duração diminui por 1 rodada no início de cada rodada de Huohuo. Se Huohuo tiver Provisão Divina quando a rodada de um aliado começa ou quando um aliado utiliza sua Perícia Suprema, restaura PV para aquele aliado em uma quantidade igual a #3[f1]% dos PV máximos de Huohuo + #5[i]. Ao mesmo tempo, cada aliado com #6[i]% da porcentagem dos PV ou menos é curado uma vez.\nQuando Provisão Divina é ativada para curar um aliado, remove #2[i] penalidade(s) daquele aliado. Este efeito pode ser ativado até um máximo de #7[i] vez(es). Usar a habilidade novamente reinicia o efeito da contagem de ativação.",
         "params": [
             [
                 2,
@@ -13670,7 +13670,7 @@
         "effect": "AoEAttack",
         "effect_text": "Área",
         "simple_desc": "Define o número de acúmulos de \"Assado Acinzentado\" nos inimigos-alvo para o maior número de acúmulos de \"Assado Acinzentado\" presente no campo de batalha no momento. Então, ativa um Campo e causa Dano de Fogo a todos os inimigos. Enquanto estiverem dentro do Campo, inimigos-alvo recebem mais Dano de Perícia Suprema, com uma chance de serem afligidos com 1 acúmulo de Assado Acinzentado ao agir.",
-        "desc": "Define o número de acúmulos de Assado Acinzentado nos inimigos-alvo para o maior número de acúmulos de Assado Acinzentado presente no campo de batalha no momento. Então, ativa um Campo e causa Dano de Fogo igual a #1[i]% do ATQ de Jiaoqiu a todos os inimigos.\nEnquanto estiverem dentro do campo, inimigos-alvo recebem #3[f1]% a mais de Dano de Perícia Suprema, com uma chance-base de #2[i]% de serem infligidos com 1 acúmulo de Assado Acinzentado ao agir. Enquanto o Campo existir, este efeito pode acionar até #5[i] vez(es). E para cada inimigo-alvo, ele só pode ser acionado uma vez por rodada. Essa contagem de ativação reinicia toda vez que Jiaoqiu utiliza sua Perícia Suprema.\nO Campo dura por #4[i] rodada(s), e sua duração diminui em 1 no início de toda rodada desta unidade. Se Jiaoqiu for derrubado, o Campo também será desfeito.",
+        "desc": "Define o número de acúmulos de Assado Acinzentado nos inimigos-alvo para o maior número de acúmulos de Assado Acinzentado presente no campo de batalha no momento. Então, ativa um Campo e causa Dano de Fogo igual a #1[i]% do ATQ de Jiaoqiu a todos os inimigos.\nEnquanto estiverem dentro do campo, inimigos-alvo recebem #3[f1]% a mais de Dano de Perícia Suprema, com uma chance-base de #2[i]% de serem infligidos com 1 acúmulo de Assado Acinzentado ao agir. Enquanto o Campo estiver ativo, este efeito pode acionar até #5[i] vez(es). E para cada inimigo-alvo, ele só pode ser acionado uma vez por rodada. Essa contagem de ativação reinicia toda vez que Jiaoqiu utiliza sua Perícia Suprema.\nO Campo dura por #4[i] rodada(s), e sua duração diminui em 1 no início de toda rodada desta unidade. Se Jiaoqiu for derrubado, o Campo também será desfeito.",
         "params": [
             [
                 0.6,
@@ -13949,6 +13949,549 @@
         ],
         "icon": "icon/skill/1218_technique.png"
     },
+    "122001": {
+        "id": "122001",
+        "name": "Trovão Descendente",
+        "max_level": 9,
+        "element": "Wind",
+        "type": "Normal",
+        "type_text": "ATQ Básico",
+        "effect": "SingleAttack",
+        "effect_text": "Alvo Único",
+        "simple_desc": "Causa Dano de Vento leve a um único inimigo.",
+        "desc": "Causa Dano de Vento igual a #1[i]% do ATQ de Feixiao a um único inimigo-alvo.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1220_basic_atk.png"
+    },
+    "122002": {
+        "id": "122002",
+        "name": "Fissura do Machado",
+        "max_level": 15,
+        "element": "Wind",
+        "type": "BPSkill",
+        "type_text": "Perícia",
+        "effect": "SingleAttack",
+        "effect_text": "Alvo Único",
+        "simple_desc": "Causa Dano de Vento a um inimigo, e utiliza adicionalmente o Ataque Extra do Talento 1 vez.",
+        "desc": "Causa Dano de Vento igual a #1[i]% do ATQ de Feixiao a um inimigo-alvo. Então, imediatamente desfere 1 instância do Ataque Extra do Talento contra o alvo.",
+        "params": [
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ],
+            [
+                1.4
+            ],
+            [
+                1.5
+            ],
+            [
+                1.625
+            ],
+            [
+                1.75
+            ],
+            [
+                1.875
+            ],
+            [
+                2
+            ],
+            [
+                2.1
+            ],
+            [
+                2.2
+            ],
+            [
+                2.3
+            ],
+            [
+                2.4
+            ],
+            [
+                2.5
+            ]
+        ],
+        "icon": "icon/skill/1220_skill.png"
+    },
+    "122003": {
+        "id": "122003",
+        "name": "Rompeterra",
+        "max_level": 15,
+        "element": "Wind",
+        "type": "Ultra",
+        "type_text": "Perícia Suprema",
+        "effect": "SingleAttack",
+        "effect_text": "Alvo Único",
+        "simple_desc": "Durante a Perícia Suprema, pode ignorar o Tipo de Fraqueza para reduzir a Tenacidade do inimigo. Quando o alvo não estiver infligido com Quebra de Fraqueza, a Eficiência de Quebra de Fraqueza de Feixiao aumenta.\nUtiliza Trovão Descendente ou Fissura do Machado Celestial em um único inimigo 6 vez(es). Causa Dano de Vento no final.",
+        "desc": "Causa Dano de Vento em um único inimigo-alvo igual a #4[i]% do ATQ de Feixiao. Durante este período, pode ignorar o Tipo de Fraqueza para reduzir a Tenacidade do alvo. Se o alvo não estiver afetado com Quebra de Fraqueza, a Eficiência de Quebra de Fraqueza de Feixiao aumenta em #2[i]%.\nDurante o ataque, Feixiao primeiro usa Trovão Descendente ou Fissura do Machado Celestial no alvo, por um total de #3[i] vez(es).\nFinalmente, causa Dano de Vento igual a #1[i]% do ATQ de Feixiao ao alvo.",
+        "params": [
+            [
+                0.96,
+                1,
+                6,
+                4.02
+            ],
+            [
+                1.024,
+                1,
+                6,
+                4.318
+            ],
+            [
+                1.088,
+                1,
+                6,
+                4.616
+            ],
+            [
+                1.152,
+                1,
+                6,
+                4.914
+            ],
+            [
+                1.216,
+                1,
+                6,
+                5.212
+            ],
+            [
+                1.28,
+                1,
+                6,
+                5.51
+            ],
+            [
+                1.36,
+                1,
+                6,
+                5.8825
+            ],
+            [
+                1.44,
+                1,
+                6,
+                6.255
+            ],
+            [
+                1.52,
+                1,
+                6,
+                6.6275
+            ],
+            [
+                1.6,
+                1,
+                6,
+                7
+            ],
+            [
+                1.664,
+                1,
+                6,
+                7.298
+            ],
+            [
+                1.728,
+                1,
+                6,
+                7.596
+            ],
+            [
+                1.792,
+                1,
+                6,
+                7.894
+            ],
+            [
+                1.856,
+                1,
+                6,
+                8.192
+            ],
+            [
+                1.92,
+                1,
+                6,
+                8.49
+            ]
+        ],
+        "icon": "icon/skill/1220_ultimate.png"
+    },
+    "122004": {
+        "id": "122004",
+        "name": "Caça aos Trovões",
+        "max_level": 15,
+        "element": "Wind",
+        "type": "Talent",
+        "type_text": "Talento",
+        "effect": "SingleAttack",
+        "effect_text": "Alvo Único",
+        "simple_desc": "A Perícia Suprema pode ser ativada quando \"Aureus Voador\" atingir 6 pontos, acumulando até um máximo de 12 pontos. Para cada 2 ataques utilizados considerando todos os aliados-alvo, Feixiao ganha \"Aureus Voador\".\nDepois que companheiros de equipe usarem um ataque, Feixiao desfere umAtaque Extra contra o alvo principal, causando Dano de Vento. Este efeito pode ser ativado 1 vez por rodada. Ao utilizar esse ataque, aumenta o Dano causado por esta unidade.",
+        "desc": "A Perícia Suprema pode ser ativada quando \"Aureus Voador\" chegar a #3[i] ponto(s), acumulando até um máximo de #4[i] ponto(s). Feixiao ganha 1 ponto de \"Aureus Voador\" para cada #2[i] ataques utilizados pelos aliados-alvo. Ataques da Perícia Suprema de Feixiao não são considerados nessa contagem.\nDepois que os companheiros de equipe de Feixiao atacam um inimigo-alvo, Feixiao desfere imediatamente um Ataque Extra contra o alvo principal, causando Dano de Vento igual a #1[i]% do ATQ de Feixiao. Se nenhum alvo principal estiver disponível para ser atacado, Feixiao ataca um único inimigo aleatório. Esse efeito só pode ser ativado uma vez por rodada e a contagem de ativação é reiniciada no início da rodada de Feixiao. Ao utilizar esse ataque, aumenta o Dano causado por esta unidade em #5[i]%, durando por #6[i] rodada(s).",
+        "params": [
+            [
+                0.55,
+                2,
+                6,
+                12,
+                0.3,
+                2
+            ],
+            [
+                0.605,
+                2,
+                6,
+                12,
+                0.33,
+                2
+            ],
+            [
+                0.66,
+                2,
+                6,
+                12,
+                0.36,
+                2
+            ],
+            [
+                0.715,
+                2,
+                6,
+                12,
+                0.39,
+                2
+            ],
+            [
+                0.77,
+                2,
+                6,
+                12,
+                0.42,
+                2
+            ],
+            [
+                0.825,
+                2,
+                6,
+                12,
+                0.45,
+                2
+            ],
+            [
+                0.8938,
+                2,
+                6,
+                12,
+                0.4875,
+                2
+            ],
+            [
+                0.9625,
+                2,
+                6,
+                12,
+                0.525,
+                2
+            ],
+            [
+                1.0312,
+                2,
+                6,
+                12,
+                0.5625,
+                2
+            ],
+            [
+                1.1,
+                2,
+                6,
+                12,
+                0.6,
+                2
+            ],
+            [
+                1.155,
+                2,
+                6,
+                12,
+                0.63,
+                2
+            ],
+            [
+                1.21,
+                2,
+                6,
+                12,
+                0.66,
+                2
+            ],
+            [
+                1.265,
+                2,
+                6,
+                12,
+                0.69,
+                2
+            ],
+            [
+                1.32,
+                2,
+                6,
+                12,
+                0.72,
+                2
+            ],
+            [
+                1.375,
+                2,
+                6,
+                12,
+                0.75,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1220_talent.png"
+    },
+    "122006": {
+        "id": "122006",
+        "name": "Ataque",
+        "max_level": 1,
+        "element": "Wind",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
+        "params": [],
+        "icon": "icon/skill/1220_basic_atk.png"
+    },
+    "122007": {
+        "id": "122007",
+        "name": "Advinda da Tempestade",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Técnica",
+        "effect": "Enhance",
+        "effect_text": "Aprimoramento",
+        "simple_desc": "Entra no estado de \"Investida\". Puxa continuamente inimigos e a velocidade de movimento aumenta. Ganha \"Aureus Voador\" depois de entrar em batalha.\nEnquanto estiver em \"Investida\", pode atacar ativamente todos os inimigos puxados. No início de cada onda, causa Dano de Vento a todos os inimigos. Este Dano tem CRIT garantido. Quanto mais inimigos forem puxados, maior será o Multiplicador de Dano.",
+        "desc": "Após usar a Técnica, entra no estado de \"Investida\", durando por #1[i] segundo(s). Enquanto estiver em \"Investida\", puxa os inimigos dentro de um certo alcance e aumenta a velocidade de movimento desta unidade em #2[i]%. Após entrar em batalha, ganha #4[i] ponto(s) de \"Aureus Voador\"\nEnquanto estiver em \"Investida\", realizar um ataque iniciará uma batalha contra todos os inimigos puxados. Após entrar em batalha, causa Dano de Vento igual a #3[i]% do ATQ de Feixiao a todos os inimigos no início de cada onda. O CRIT desse Dano é garantido. Se mais de 1 inimigo for puxado, aumenta o multiplicador desse Dano em #5[i]% para cada inimigo adicional puxado, até um máximo de #6[i]%.",
+        "params": [
+            [
+                20,
+                0.5,
+                2,
+                1,
+                1,
+                10
+            ]
+        ],
+        "icon": "icon/skill/1220_technique.png"
+    },
+    "122008": {
+        "id": "122008",
+        "name": "Trovão Descendente",
+        "max_level": 15,
+        "element": "Wind",
+        "type": "Ultra",
+        "type_text": "Perícia Suprema",
+        "effect": "SingleAttack",
+        "effect_text": "Alvo Único",
+        "simple_desc": "Causa Dano de Vento leve a um único inimigo e aumenta o Multiplicador de Dano contra alvos afligidos com Quebra de Fraqueza.",
+        "desc": "Causa Dano de Vento igual a #1[i]% do ATQ de Feixiao a um único alvo. Se o alvo estiver com Quebra de Fraqueza, o Multiplicador de Dano aumenta em #2[i]%.",
+        "params": [
+            [
+                0.36,
+                0.15
+            ],
+            [
+                0.384,
+                0.165
+            ],
+            [
+                0.408,
+                0.18
+            ],
+            [
+                0.432,
+                0.195
+            ],
+            [
+                0.456,
+                0.21
+            ],
+            [
+                0.48,
+                0.225
+            ],
+            [
+                0.51,
+                0.2437
+            ],
+            [
+                0.54,
+                0.2625
+            ],
+            [
+                0.57,
+                0.2812
+            ],
+            [
+                0.6,
+                0.3
+            ],
+            [
+                0.624,
+                0.315
+            ],
+            [
+                0.648,
+                0.33
+            ],
+            [
+                0.672,
+                0.345
+            ],
+            [
+                0.696,
+                0.36
+            ],
+            [
+                0.72,
+                0.375
+            ]
+        ],
+        "icon": "icon/skill/1220_ultimate.png"
+    },
+    "122009": {
+        "id": "122009",
+        "name": "Fissura do Machado Celestial",
+        "max_level": 15,
+        "element": "Wind",
+        "type": "Ultra",
+        "type_text": "Perícia Suprema",
+        "effect": "SingleAttack",
+        "effect_text": "Alvo Único",
+        "simple_desc": "Causa Dano de Vento leve a um único inimigo e aumenta o Multiplicador de Dano de ataques contra inimigos que não estão afligidos com Quebra de Fraqueza.",
+        "desc": "Causa Dano de Vento igual a #1[i]% do ATQ de Feixiao a um único inimigo. Se o inimigo-alvo não estiver afligida com Quebra de Fraqueza, o Multiplicador de Dano aumenta em #2[i]%.",
+        "params": [
+            [
+                0.36,
+                0.15
+            ],
+            [
+                0.384,
+                0.165
+            ],
+            [
+                0.408,
+                0.18
+            ],
+            [
+                0.432,
+                0.195
+            ],
+            [
+                0.456,
+                0.21
+            ],
+            [
+                0.48,
+                0.225
+            ],
+            [
+                0.51,
+                0.2437
+            ],
+            [
+                0.54,
+                0.2625
+            ],
+            [
+                0.57,
+                0.2812
+            ],
+            [
+                0.6,
+                0.3
+            ],
+            [
+                0.624,
+                0.315
+            ],
+            [
+                0.648,
+                0.33
+            ],
+            [
+                0.672,
+                0.345
+            ],
+            [
+                0.696,
+                0.36
+            ],
+            [
+                0.72,
+                0.375
+            ]
+        ],
+        "icon": "icon/skill/1220_ultimate.png"
+    },
+    "122014": {
+        "id": "122014",
+        "name": "Rompeterra",
+        "max_level": 15,
+        "element": "Wind",
+        "type": "Ultra",
+        "type_text": "Perícia Suprema",
+        "effect": "SingleAttack",
+        "effect_text": "Alvo Único",
+        "simple_desc": "",
+        "desc": "",
+        "params": [],
+        "icon": "icon/skill/1220_ultimate.png"
+    },
     "122101": {
         "id": "122101",
         "name": "Salto dos Ventos Rodopiantes",
@@ -14106,7 +14649,7 @@
         "effect": "Enhance",
         "effect_text": "Aprimoramento",
         "simple_desc": "Entra em \"Apara\" e provoca todos os inimigos. Ao atacar durante este período, ativa um Contra-Ataque poderoso e causa Dano Físico ao atacante e alvos adjacentes. Então, causa Dano Físico leve a um único inimigo-alvo que ricocheteia 6 vezes. Se nenhum Contra-Ataque for acionado durante o estado de Apara, causa Dano Físico a um inimigo-alvo aleatório e alvos adjacentes quando Apara acaba.",
-        "desc": "Consome #8[i] de Energia. Yunli ganha Apara e aplica Provocação em todos os inimigos, durando até o final da próxima rodada de um aliado ou um inimigo. Aumenta o Dano CRIT do próximo Contra-Ataque de Yunli em #2[i]%. Ao ativar o efeito de Contra-Ataque do Talento, desfere o inimigo Contra-Ataque \"Intuito: Abatedora\" ao invés disso e remove o efeito de Apara. Se nenhum Contra-Ataque for ativado enquanto Apara estiver ativa, Yunli realizará imediatamente um Contra-Ataque \"Intuito: Corte\" em um inimigo-alvo aleatório.\n\"Intuito: Corte\": causa Dano Físico ao alvo igual a #1[i]% do ATQ de Yunli, e causa Dano Físico a alvos adjacentes igual a #6[i]% do ATQ de Yunli.\n\"Intuito: Abatedora\": causa Dano Físico igual a #1[i]% do ATQ de Yunli ao alvo, e causa Dano Físico igual a #6[i]% do ATQ de Yunli a alvos adjacentes. Então, adicionalmente, causa #4[i] ocorrências de Dano, com cada vez causando Dano Físico igual a #7[i]% do ATQ de Yunli a um único inimigo-alvo aleatório.\nQuando Yunli causa Dano através desta habilidade, esse Dano será considerado Dano de Perícia Suprema.",
+        "desc": "Consome #8[i] de Energia. Yunli ganha Apara e aplica Provocação em todos os inimigos, durando até o final da próxima rodada de um aliado ou um inimigo. Aumenta o Dano CRIT do próximo Contra-Ataque de Yunli em #2[i]%. Ao ativar o efeito de Contra-Ataque do Talento, desfere Contra-Ataque \"Intuito: Abatedora\" ao invés disso e remove o efeito de Apara. Se nenhum Contra-Ataque for ativado enquanto Apara estiver ativa, Yunli realizará imediatamente um Contra-Ataque \"Intuito: Corte\" em um inimigo-alvo aleatório.\n\"Intuito: Corte\": causa Dano Físico ao alvo igual a #1[i]% do ATQ de Yunli, e causa Dano Físico a alvos adjacentes igual a #6[i]% do ATQ de Yunli.\n\"Intuito: Abatedora\": causa Dano Físico igual a #1[i]% do ATQ de Yunli ao alvo, e causa Dano Físico igual a #6[i]% do ATQ de Yunli a alvos adjacentes. Então, adicionalmente, causa #4[i] ocorrências de Dano, com cada vez causando Dano Físico igual a #7[i]% do ATQ de Yunli a um único inimigo-alvo aleatório.\nQuando Yunli causa Dano através desta habilidade, esse Dano será considerado Dano de Perícia Suprema.",
         "params": [
             [
                 1.32,
@@ -14384,6 +14927,786 @@
         ],
         "icon": "icon/skill/1221_technique.png"
     },
+    "122201": {
+        "id": "122201",
+        "name": "Incenso de Votos",
+        "max_level": 9,
+        "element": "Fire",
+        "type": "Normal",
+        "type_text": "ATQ Básico",
+        "effect": "SingleAttack",
+        "effect_text": "Alvo Único",
+        "simple_desc": "Causa Dano de Fogo leve a um único inimigo.",
+        "desc": "Causa Dano de Fogo igual a #1[i]% do ATQ de Lingsha a um único inimigo-alvo.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1222_basic_atk.png"
+    },
+    "122202": {
+        "id": "122202",
+        "name": "Fumaça e Esplendor",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "BPSkill",
+        "type_text": "Perícia",
+        "effect": "AoEAttack",
+        "effect_text": "Área",
+        "simple_desc": "Causa Dano de Fogo leve a todos os inimigos e, ao mesmo tempo, restaura PV para todos os aliados. A ação de Fuyuan é Avançada Adiante.",
+        "desc": "Causa Dano de Fogo igual a #1[i]% do ATQ de Lingsha a todos os inimigos ao mesmo tempo, restaura PV igual a #2[f1]% do ATQ de Lingsha + #3[i] para todos os aliados e a ação de Fuyuan é Avançada Adiante em #4[i]%.",
+        "params": [
+            [
+                0.4,
+                0.1,
+                105,
+                0.2
+            ],
+            [
+                0.44,
+                0.105,
+                168,
+                0.2
+            ],
+            [
+                0.48,
+                0.11,
+                215.25,
+                0.2
+            ],
+            [
+                0.52,
+                0.115,
+                262.5,
+                0.2
+            ],
+            [
+                0.56,
+                0.12,
+                294,
+                0.2
+            ],
+            [
+                0.6,
+                0.124,
+                325.5,
+                0.2
+            ],
+            [
+                0.65,
+                0.128,
+                349.125,
+                0.2
+            ],
+            [
+                0.7,
+                0.132,
+                372.75,
+                0.2
+            ],
+            [
+                0.75,
+                0.136,
+                396.375,
+                0.2
+            ],
+            [
+                0.8,
+                0.14,
+                420,
+                0.2
+            ],
+            [
+                0.84,
+                0.144,
+                443.625,
+                0.2
+            ],
+            [
+                0.88,
+                0.148,
+                467.25,
+                0.2
+            ],
+            [
+                0.92,
+                0.152,
+                490.875,
+                0.2
+            ],
+            [
+                0.96,
+                0.156,
+                514.5,
+                0.2
+            ],
+            [
+                1,
+                0.16,
+                538.125,
+                0.2
+            ]
+        ],
+        "icon": "icon/skill/1222_skill.png"
+    },
+    "122203": {
+        "id": "122203",
+        "name": "Respingos Enevoados",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "Ultra",
+        "type_text": "Perícia Suprema",
+        "effect": "AoEAttack",
+        "effect_text": "Área",
+        "simple_desc": "Aumenta o Dano de Quebra recebido por todos os inimigos, causa Dano de Fogo a todos os inimigos ao mesmo tempo, restaura os PV de todos os aliados e a ação de Fuyuan é Avançada Adiante.",
+        "desc": "Inflige \"Obscurecimento\" a todos os inimigos. Enquanto em \"Obscurecimento\", os alvos recebem #4[i]% a mais de Dano de Quebra, durando por #5[i] rodada(s).\nCausa Dano de Fogo igual a #1[i]% do ATQ de Lingsha a todos os inimigos e, ao mesmo tempo, restaura PV igual a #2[f1]% do ATQ de Lingsha + #3[i] para todos os aliados. A ação de Fuyuan é Avançada Adiante em #6[i]%.",
+        "params": [
+            [
+                0.9,
+                0.08,
+                90,
+                0.15,
+                2,
+                1
+            ],
+            [
+                0.96,
+                0.085,
+                144,
+                0.16,
+                2,
+                1
+            ],
+            [
+                1.02,
+                0.09,
+                184.5,
+                0.17,
+                2,
+                1
+            ],
+            [
+                1.08,
+                0.095,
+                225,
+                0.18,
+                2,
+                1
+            ],
+            [
+                1.14,
+                0.1,
+                252,
+                0.19,
+                2,
+                1
+            ],
+            [
+                1.2,
+                0.104,
+                279,
+                0.2,
+                2,
+                1
+            ],
+            [
+                1.275,
+                0.108,
+                299.25,
+                0.2125,
+                2,
+                1
+            ],
+            [
+                1.35,
+                0.112,
+                319.5,
+                0.225,
+                2,
+                1
+            ],
+            [
+                1.425,
+                0.116,
+                339.75,
+                0.2375,
+                2,
+                1
+            ],
+            [
+                1.5,
+                0.12,
+                360,
+                0.25,
+                2,
+                1
+            ],
+            [
+                1.56,
+                0.124,
+                380.25,
+                0.26,
+                2,
+                1
+            ],
+            [
+                1.62,
+                0.128,
+                400.5,
+                0.27,
+                2,
+                1
+            ],
+            [
+                1.68,
+                0.132,
+                420.75,
+                0.28,
+                2,
+                1
+            ],
+            [
+                1.74,
+                0.136,
+                441,
+                0.29,
+                2,
+                1
+            ],
+            [
+                1.8,
+                0.14,
+                461.25,
+                0.3,
+                2,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1222_ultimate.png"
+    },
+    "122204": {
+        "id": "122204",
+        "name": "Manifesto da Dança da Névoa",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "Talent",
+        "type_text": "Talento",
+        "effect": "AoEAttack",
+        "effect_text": "Área",
+        "simple_desc": "Usar a Perícia invoca Fuyuan: Ao realizar uma ação, desfere um Ataque Extra e causa Dano de Fogo leve a todos os inimigos. Além disso, causa Dano de Fogo leve a um único inimigo aleatório, priorizando alvos que possuam Tenacidade maior que 0 e Fraqueza contra Fogo. Remove 1 penalidade de todos os aliados e restaura os PV deles.\nUsar a Perícia repetidamente aumentará o contador de ação de Fuyuan.",
+        "desc": "Ao usar a Perícia, invoca Fuyuan, com uma VEL inicial de #1[i] e um contador de ação inicial de #7[i]. Ao realizar uma ação, Fuyuan desfere um Ataque Extra, causando Dano de Fogo igual a #2[i]% do ATQ de Lingsha a todos os inimigos. Além disso, causa Dano de Fogo igual a #8[i]% do ATQ de Lingsha a um único inimigo aleatório, e esse Dano prioriza alvos que possuam Tenacidade maior que 0 e Fraqueza contra Fogo. Remove #6[i] penalidade(s) de todos os aliados e restaura PV igual a #3[f1]% do ATQ de Lingsha mais #4[i]. O contador de ação de Fuyuan pode acumular até #5[i]. Quando o contador de ação chegar a 0 ou quando Lingsha for derrubada, Fuyuan desaparece. Enquanto Fuyuan estiver no campo, usar a Perícia pode aumentar o contador de ação de Fuyuan em #7[i].",
+        "params": [
+            [
+                90,
+                0.375,
+                0.08,
+                90,
+                5,
+                1,
+                3,
+                0.375
+            ],
+            [
+                90,
+                0.4125,
+                0.085,
+                144,
+                5,
+                1,
+                3,
+                0.4125
+            ],
+            [
+                90,
+                0.45,
+                0.09,
+                184.5,
+                5,
+                1,
+                3,
+                0.45
+            ],
+            [
+                90,
+                0.4875,
+                0.095,
+                225,
+                5,
+                1,
+                3,
+                0.4875
+            ],
+            [
+                90,
+                0.525,
+                0.1,
+                252,
+                5,
+                1,
+                3,
+                0.525
+            ],
+            [
+                90,
+                0.5625,
+                0.104,
+                279,
+                5,
+                1,
+                3,
+                0.5625
+            ],
+            [
+                90,
+                0.6094,
+                0.108,
+                299.25,
+                5,
+                1,
+                3,
+                0.6094
+            ],
+            [
+                90,
+                0.6562,
+                0.112,
+                319.5,
+                5,
+                1,
+                3,
+                0.6562
+            ],
+            [
+                90,
+                0.7031,
+                0.116,
+                339.75,
+                5,
+                1,
+                3,
+                0.7031
+            ],
+            [
+                90,
+                0.75,
+                0.12,
+                360,
+                5,
+                1,
+                3,
+                0.75
+            ],
+            [
+                90,
+                0.7875,
+                0.124,
+                380.25,
+                5,
+                1,
+                3,
+                0.7875
+            ],
+            [
+                90,
+                0.825,
+                0.128,
+                400.5,
+                5,
+                1,
+                3,
+                0.825
+            ],
+            [
+                90,
+                0.8625,
+                0.132,
+                420.75,
+                5,
+                1,
+                3,
+                0.8625
+            ],
+            [
+                90,
+                0.9,
+                0.136,
+                441,
+                5,
+                1,
+                3,
+                0.9
+            ],
+            [
+                90,
+                0.9375,
+                0.14,
+                461.25,
+                5,
+                1,
+                3,
+                0.9375
+            ]
+        ],
+        "icon": "icon/skill/1222_talent.png"
+    },
+    "122206": {
+        "id": "122206",
+        "name": "Ataque",
+        "max_level": 1,
+        "element": "Fire",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "SingleAttack",
+        "effect_text": "Alvo Único",
+        "simple_desc": "",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
+        "params": [],
+        "icon": "icon/skill/1222_basic_atk.png"
+    },
+    "122207": {
+        "id": "122207",
+        "name": "Chamas de Aurora",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Técnica",
+        "effect": "Support",
+        "effect_text": "Suporte",
+        "simple_desc": "Após usar a Técnica, invoca Fuyuan imediatamente no começo da próxima batalha e aumenta o Dano de Quebra recebido por todos os inimigos.",
+        "desc": "Após usar a Técnica, invoca Fuyuan imediatamente no começo da próxima batalha e inflige \"Obscurecimento\" em todos os inimigos, durando por #1[i] rodada(s).",
+        "params": [
+            [
+                2
+            ]
+        ],
+        "icon": "icon/skill/1222_technique.png"
+    },
+    "122301": {
+        "id": "122301",
+        "name": "Atirar Espinhos",
+        "max_level": 9,
+        "element": "Thunder",
+        "type": "Normal",
+        "type_text": "ATQ Básico",
+        "effect": "SingleAttack",
+        "effect_text": "Alvo Único",
+        "simple_desc": "Causa Dano de Raio leve a um único inimigo.",
+        "desc": "Causa Dano de Raio igual a #1[i]% do ATQ de Moze a um único inimigo-alvo.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1223_basic_atk.png"
+    },
+    "122302": {
+        "id": "122302",
+        "name": "Invasão Alada Veloz",
+        "max_level": 15,
+        "element": "Thunder",
+        "type": "BPSkill",
+        "type_text": "Perícia",
+        "effect": "SingleAttack",
+        "effect_text": "Alvo Único",
+        "simple_desc": "Marca um único inimigo como \"Presa\" e causa Dano de Raio a ele. Ganha 9 ponto(s) de Carga.",
+        "desc": "Marca um único inimigo-alvo como Presa e causa Dano de Raio a ele igual a #1[i]% do ATQ de Moze, e ganha #2[i] pontos de Carga.\nQuando não houver mais personagens no campo de batalha capazes de lutar, Moze não pode usar sua Perícia e o estado de Presa do inimigo é removido.",
+        "params": [
+            [
+                0.75,
+                9
+            ],
+            [
+                0.825,
+                9
+            ],
+            [
+                0.9,
+                9
+            ],
+            [
+                0.975,
+                9
+            ],
+            [
+                1.05,
+                9
+            ],
+            [
+                1.125,
+                9
+            ],
+            [
+                1.2188,
+                9
+            ],
+            [
+                1.3125,
+                9
+            ],
+            [
+                1.4062,
+                9
+            ],
+            [
+                1.5,
+                9
+            ],
+            [
+                1.575,
+                9
+            ],
+            [
+                1.65,
+                9
+            ],
+            [
+                1.725,
+                9
+            ],
+            [
+                1.8,
+                9
+            ],
+            [
+                1.875,
+                9
+            ]
+        ],
+        "icon": "icon/skill/1223_skill.png"
+    },
+    "122303": {
+        "id": "122303",
+        "name": "Invadir, Fugir",
+        "max_level": 15,
+        "element": "Thunder",
+        "type": "Ultra",
+        "type_text": "Perícia Suprema",
+        "effect": "SingleAttack",
+        "effect_text": "Alvo Único",
+        "simple_desc": "Causa Dano de Raio a um único inimigo e utiliza o Ataque Extra do Talento.",
+        "desc": "Causa Dano de Raio igual a #1[i]% do ATQ de Moze a um único inimigo-alvo e utiliza o Ataque Extra do Talento contra esse alvo. Se o alvo for derrotado antes deste Ataque Extra ser utilizado, então desfere o Ataque Extra contra um único inimigo aleatório ao invés disso.",
+        "params": [
+            [
+                1.62
+            ],
+            [
+                1.728
+            ],
+            [
+                1.836
+            ],
+            [
+                1.944
+            ],
+            [
+                2.052
+            ],
+            [
+                2.16
+            ],
+            [
+                2.295
+            ],
+            [
+                2.43
+            ],
+            [
+                2.565
+            ],
+            [
+                2.7
+            ],
+            [
+                2.808
+            ],
+            [
+                2.916
+            ],
+            [
+                3.024
+            ],
+            [
+                3.132
+            ],
+            [
+                3.24
+            ]
+        ],
+        "icon": "icon/skill/1223_ultimate.png"
+    },
+    "122304": {
+        "id": "122304",
+        "name": "Cascata de Lâminas Emplumadas",
+        "max_level": 15,
+        "element": "Thunder",
+        "type": "Talent",
+        "type_text": "Talento",
+        "effect": "SingleAttack",
+        "effect_text": "Alvo Único",
+        "simple_desc": "Enquanto houver uma \"Presa\" no campo, Moze entrará no estado de Partida.\nDepois que aliados atacam a \"Presa\", Moze causa Dano Adicional de Raio e consome 1 ponto de Carga. Para cada 3 ponto(s) de Carga consumido(s), Moze utiliza Ataque Extra conta a \"Presa\", causando Dano de Raio. Quando a Carga está em 0, remove o estado de \"Presa\" do alvo.",
+        "desc": "Enquanto houver uma \"Presa\" no campo, Moze entrará no estado de Partida.\nApós os aliados atacarem a \"Presa\", Moze causa adicionalmente 1 instância de Dano de Raio Adicional igual a #1[i]% do seu ATQ e consome 1 ponto de Carga. Para cada #2[i] ponto(s) de Carga consumido(s), Moze utiliza 1 Ataque Extra contra a \"Presa\", causando Dano de Raio igual a #3[i]% do ATQ de Moze. Quando a Carga chega a 0, remove o estado de \"Presa\" do alvo e reinicia a contagem de pontos de Carga necessários para utilizar o Ataque Extra. O Ataque Extra do Talento não consome Carga.",
+        "params": [
+            [
+                0.15,
+                3,
+                0.8
+            ],
+            [
+                0.165,
+                3,
+                0.88
+            ],
+            [
+                0.18,
+                3,
+                0.96
+            ],
+            [
+                0.195,
+                3,
+                1.04
+            ],
+            [
+                0.21,
+                3,
+                1.12
+            ],
+            [
+                0.225,
+                3,
+                1.2
+            ],
+            [
+                0.2437,
+                3,
+                1.3
+            ],
+            [
+                0.2625,
+                3,
+                1.4
+            ],
+            [
+                0.2812,
+                3,
+                1.5
+            ],
+            [
+                0.3,
+                3,
+                1.6
+            ],
+            [
+                0.315,
+                3,
+                1.68
+            ],
+            [
+                0.33,
+                3,
+                1.76
+            ],
+            [
+                0.345,
+                3,
+                1.84
+            ],
+            [
+                0.36,
+                3,
+                1.92
+            ],
+            [
+                0.375,
+                3,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1223_talent.png"
+    },
+    "122306": {
+        "id": "122306",
+        "name": "Ataque",
+        "max_level": 1,
+        "element": "Thunder",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
+        "params": [],
+        "icon": "icon/skill/1223_basic_atk.png"
+    },
+    "122307": {
+        "id": "122307",
+        "name": "Asas Abatidas",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Técnica",
+        "effect": "Enhance",
+        "effect_text": "Aprimoramento",
+        "simple_desc": "Entra no estado de Furtividade. Atacar inimigos para iniciar o combate enquanto no modo de Furtividade aumenta o Dano.",
+        "desc": "Após usar a Técnica, entra no estado de Furtividade por #1[i] segundo(s). Enquanto estiver em Furtividade, Moze é indetectável pelos inimigos. Se Moze atacar inimigos para entrar em combate enquanto no estado de Furtividade, aumenta o Dano em #2[i]%, durando por #3[i] rodada(s).",
+        "params": [
+            [
+                20,
+                0.3,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1223_technique.png"
+    },
     "122401": {
         "id": "122401",
         "name": "Minha Espada Eletrocuta Demônios",
@@ -14394,7 +15717,7 @@
         "effect": "SingleAttack",
         "effect_text": "Alvo Único",
         "simple_desc": "Causa Dano Imaginário leve a um único inimigo e ganha 1 ponto(s) de Carga.",
-        "desc": "Causa Dano Imaginário igual a #1[i]% do ATQ de 7 de Março a um único inimigo e ganha #2[i] ponto(s) de Carga.",
+        "desc": "Causa Dano Imaginário igual a #1[i]% do ATQ de 7 de Março a um único inimigo-alvo e ganha #2[i] ponto(s) de Carga.",
         "params": [
             [
                 0.5,
@@ -14445,7 +15768,7 @@
         "effect": "Support",
         "effect_text": "Suporte",
         "simple_desc": "Faz com que um único aliado se torne Shifu. Ao utilizar ATQ Básico ou causar Dano de ATQ Básico Aprimorado, aciona o efeito correspondente ao Caminho do Shifu:\nA Erudição, A Destruição, A Caça: causa Dano Adicional com base no Tipo do Shifu.\nA Harmonia, A Inexistência, A Preservação, A Abundância: a Redução de Tenacidade aumenta.",
-        "desc": "Define um único aliado (excluindo esta unidade) como o Shifu e aumenta a VEL do Shifu em #1[f1]%. Apenas o alvo mais recente da Perícia de 7 de Março será considerado seu \"Shifu\".\nAo usar um ATQ Básico ou ao aplicar 1 golpe de seu ATQ Básico Aprimorado que cause Dano, ativa os seguintes efeitos com base no Caminho específico do Shifu:\nA Erudição, A Destruição, A Caça: adicionalmente causa Dano Adicional (Tipo de Dano baseado no Tipo de Dano do Shifu) igual a #2[i]% do ATQ de 7 de Março.\nA Harmonia, A Inexistência, A Preservação, A Abundância: aumenta a Redução de Tenacidade para esse Dano em #3[i]%.",
+        "desc": "Designa um único aliado (excluindo esta unidade) como Shifu e aumenta a VEL do Shifu em #1[f1]%. Apenas o alvo mais recente da Perícia de 7 de Março será considerado como Shifu.\n\nSempre que usar um ATQ Básico ou aplicar 1 golpe de Dano do ATQ Básico Aprimorado, ativa o efeito correspondente se um Shifu com o Caminho especificado estiver presente no campo:\nA Erudição, A Destruição, A Caça: causa Dano Adicional (Tipo de Dano baseado no Tipo de Combate do Shifu) igual a #2[i]% do ATQ de 7 de Março.\nA Harmonia, A Inexistência, A Preservação, A Abundância: aumenta a Redução de Tenacidade dessa instância de Dano em #3[i]%.",
         "params": [
             [
                 0.06,
@@ -14748,7 +16071,7 @@
         "effect": "SingleAttack",
         "effect_text": "Alvo Único",
         "simple_desc": "Causa Dano Imaginário a um único inimigo, realizando inicialmente 3 golpes. Há uma chance de causar até 3 golpe(s) adicionalmente.",
-        "desc": "Este ataque causa Dano #4[i] vez(es) inicialmente. Cada golpe contra o inimigo-alvo causa Dano Imaginário igual a #1[i]% do ATQ de 7 de Março. Após realizar o golpe final, há uma chance fixa de #2[i]% de realizar 1 golpe extra, até um máximo de #3[i] golpe(s) extra(s). A Energia regenerada ao utilizar o ATQ Básico Aprimorado não aumenta com o número de Golpes por Ação.\nO ATQ Básico Aprimorado não pode recuperar Pontos de Perícia.",
+        "desc": "Este ataque causa Dano #4[i] vez(es) inicialmente. Cada golpe contra o inimigo-alvo causa Dano Imaginário igual a #1[i]% do ATQ de 7 de Março. Toda vez que realizar o golpe final, há uma chance fixa de #2[i]% de realizar 1 golpe extra, até um máximo de #3[i] golpe(s) extra(s). A Energia regenerada ao utilizar o ATQ Básico Aprimorado não aumenta com o número de Golpes por Ação.\nO ATQ Básico Aprimorado não pode recuperar Pontos de Perícia.",
         "params": [
             [
                 0.4,
@@ -18843,7 +20166,7 @@
         "type_text": "Talento",
         "effect": "Defence",
         "effect_text": "Defesa",
-        "simple_desc": "Quanto menores os PV, menor o Dano recebido. Durante a Combustão Completa, a redução de Dano permanece em seu efeito máximo, e a RES a Efeitos aumenta. Se a Energia estiver abaixo de 50% quando a batalha começar, a Energia será regenerada até 50%. Quando a energia for regenerada ao máximo, todas as penalidades desta unidade serão dissipadas.",
+        "simple_desc": "Quanto menores os PV, menor o Dano recebido. Durante o estado de Combustão Completa, o efeito de redução de Dano permanece em sua duração máxima, e a RES a Efeitos aumenta. Se a Energia estiver abaixo de 50% quando a batalha começar, a Energia será regenerada até 50%. Quando a energia for regenerada ao máximo, todas as penalidades desta unidade serão dissipadas.",
         "desc": "Quanto menores os PV, menor o Dano recebido. Quando os PV estiverem em #3[i]% ou menos, a Redução de Dano alcança seu efeito máximo, reduzindo até #1[i]%. Durante a Combustão Completa, a Redução de Dano permanece em seu efeito máximo, e a RES a Efeitos aumenta em #4[i]%.\nSe a Energia estiver abaixo de #2[i]% quando a batalha começar, a Energia será regenerada até #2[i]%. Quando a Energia for regenerada ao máximo, todas as penalidades desta unidade serão dissipadas.",
         "params": [
             [
@@ -19699,7 +21022,7 @@
         "type_text": "Perícia Suprema",
         "effect": "AoEAttack",
         "effect_text": "Área",
-        "simple_desc": "Causa Dano Quântico a todos os inimigos e ganha Multiplicador de Dano de Ataque Extra.",
+        "simple_desc": "Causa Dano Quântico a todos os inimigos e o Multiplicador de Dano de Ataque Extra desta unidade aumenta.",
         "desc": "Causa Dano Quântico igual a #3[i]% do ATQ de Jade a todos os inimigos. Ao mesmo tempo, Jade aprimora o Ataque Extra do seu Talento, aumentando o multiplicador de Dano do Ataque Extra em #1[i]%. Esse efeito de aprimoramento pode ser ativado #2[i] vez(es).",
         "params": [
             [
@@ -20566,7 +21889,7 @@
         "type_text": "Talento",
         "effect": "Enhance",
         "effect_text": "Aprimoramento",
-        "simple_desc": "",
+        "simple_desc": "Toda vez que essa unidade causa Quebra de Fraqueza a um inimigo-alvo, o ATQ aumenta.",
         "desc": "Sempre depois que este personagem inflige uma Quebra de Fraqueza a um inimigo, o ATQ aumenta em #1[i]%. Este efeito pode acumular até #2[i] vez(es).",
         "params": [
             [
@@ -20655,7 +21978,7 @@
         "type_text": "Técnica",
         "effect": "Restore",
         "effect_text": "Restauração",
-        "simple_desc": "",
+        "simple_desc": "Após usar a Técnica, imediatamente restaura PV para a equipe.",
         "desc": "Imediatamente cura todos os aliados em #1[i]% de seus PV máximos depois de usar esta Técnica.",
         "params": [
             [
@@ -21000,7 +22323,7 @@
         "type_text": "Talento",
         "effect": "Enhance",
         "effect_text": "Aprimoramento",
-        "simple_desc": "",
+        "simple_desc": "Toda vez que essa unidade causa Quebra de Fraqueza a um inimigo-alvo, o ATQ aumenta.",
         "desc": "Sempre depois que este personagem inflige uma Quebra de Fraqueza a um inimigo, o ATQ aumenta em #1[i]%. Este efeito pode acumular até #2[i] vez(es).",
         "params": [
             [
@@ -21089,7 +22412,7 @@
         "type_text": "Técnica",
         "effect": "Restore",
         "effect_text": "Restauração",
-        "simple_desc": "",
+        "simple_desc": "Após usar a Técnica, imediatamente restaura PV para a equipe.",
         "desc": "Imediatamente cura todos os aliados em #1[i]% de seus PV máximos depois de usar esta Técnica.",
         "params": [
             [
@@ -21374,7 +22697,7 @@
         "type_text": "Perícia Suprema",
         "effect": "AoEAttack",
         "effect_text": "Área",
-        "simple_desc": "Causa Dano de Fogo a todos os inimigos e aprimora o próximo ATQ Básico.",
+        "simple_desc": "Causa Dano de Fogo a todos os inimigos e aprimora o próximo ATQ Básico desta unidade.",
         "desc": "Causa Dano de Fogo igual a #1[i]% do ATQ {F#da Desbravadora}{M#do Desbravador} mais #2[i]% da DEF {F#da Desbravadora}{M#do Desbravador} a todos os inimigos. O próximo ATQ Básico será automaticamente aprimorado e não custará Vontade de Magma.",
         "params": [
             [
@@ -21449,7 +22772,7 @@
         "type_text": "Talento",
         "effect": "Enhance",
         "effect_text": "Aprimoramento",
-        "simple_desc": "",
+        "simple_desc": "Ao receber um ataque, acumula \"Vontade de Magma\". Quando \"Vontade de Magma\" possuir ao menos 4 acúmulos, o ATQ Básico é aprimorado. Após usar o ATQ Básico, a Perícia ou a Perícia Suprema, fornece um Escudo para a Equipe.",
         "desc": "Sempre que {F#a Desbravadora}{M#o Desbravador} sofre um golpe, ganha 1 acúmulo de Vontade de Magma até #3[i] vez(es).\nQuando Vontade de Magma tiver pelo menos 4 acúmulos, o ATQ Básico {F#da Desbravadora}{M#do Desbravador} é aprimorado, causando Dano a um único inimigo e aos inimigos adjacentes a ele.\nQuando {F#a Desbravadora}{M#o Desbravador} usar ATQ Básico, Perícia ou Perícia Suprema, um Escudo que absorve Dano igual a #1[f1]% da DEF {F#da Desbravadora}{M#do Desbravador} + #4[i] será concedido a todos os aliados. O Escudo dura #2[i] rodada(s).",
         "params": [
             [
@@ -21568,7 +22891,7 @@
         "type_text": "Técnica",
         "effect": "Defence",
         "effect_text": "Defesa",
-        "simple_desc": "",
+        "simple_desc": "Depois de usar a Técnica, concede um Escudo para esta unidade no início da próxima batalha.",
         "desc": "Após usar Técnica, no início da próxima batalha, ganha um Escudo que absorve Dano igual a #1[i]% da DEF {F#da Desbravadora}{M#do Desbravador} mais #2[i] por #3[i] rodada(s).",
         "params": [
             [
@@ -21771,7 +23094,7 @@
         "type_text": "Perícia Suprema",
         "effect": "AoEAttack",
         "effect_text": "Área",
-        "simple_desc": "Causa Dano de Fogo a todos os inimigos e aprimora o próximo ATQ Básico.",
+        "simple_desc": "Causa Dano de Fogo a todos os inimigos e aprimora o próximo ATQ Básico desta unidade.",
         "desc": "Causa Dano de Fogo igual a #1[i]% do ATQ {F#da Desbravadora}{M#do Desbravador} mais #2[i]% da DEF {F#da Desbravadora}{M#do Desbravador} a todos os inimigos. O próximo ATQ Básico será automaticamente aprimorado e não custará Vontade de Magma.",
         "params": [
             [
@@ -21846,7 +23169,7 @@
         "type_text": "Talento",
         "effect": "Enhance",
         "effect_text": "Aprimoramento",
-        "simple_desc": "",
+        "simple_desc": "Ao receber um ataque, acumula \"Vontade de Magma\". Quando \"Vontade de Magma\" possuir ao menos 4 acúmulos, o ATQ Básico é aprimorado. Após usar o ATQ Básico, a Perícia ou a Perícia Suprema, fornece um Escudo para a Equipe.",
         "desc": "Sempre que {F#a Desbravadora}{M#o Desbravador} sofre um golpe, ganha 1 acúmulo de Vontade de Magma até #3[i] vez(es).\nQuando Vontade de Magma tiver pelo menos 4 acúmulos, o ATQ Básico {F#da Desbravadora}{M#do Desbravador} é aprimorado, causando Dano a um único inimigo e aos inimigos adjacentes a ele.\nQuando {F#a Desbravadora}{M#o Desbravador} usar ATQ Básico, Perícia ou Perícia Suprema, um Escudo que absorve Dano igual a #1[f1]% da DEF {F#da Desbravadora}{M#do Desbravador} + #4[i] será concedido a todos os aliados. O Escudo dura #2[i] rodada(s).",
         "params": [
             [
@@ -21965,7 +23288,7 @@
         "type_text": "Técnica",
         "effect": "Defence",
         "effect_text": "Defesa",
-        "simple_desc": "",
+        "simple_desc": "Depois de usar a Técnica, concede um Escudo para esta unidade no início da próxima batalha.",
         "desc": "Após usar Técnica, no início da próxima batalha, ganha um Escudo que absorve Dano igual a #1[i]% da DEF {F#da Desbravadora}{M#do Desbravador} mais #2[i] por #3[i] rodada(s).",
         "params": [
             [

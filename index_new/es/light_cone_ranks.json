@@ -3046,6 +3046,70 @@
             ]
         ]
     },
+    "21047": {
+        "id": "21047",
+        "skill": "Ocultación",
+        "desc": "El efecto de Ruptura del portador aumenta en un #1[i]%. Al entrar en combate o al infligir Daño de Ruptura, la VEL aumenta en un #2[i]% durante #3[i] turnos. Este efecto solo se puede activar 1 vez por turno.",
+        "params": [
+            [
+                0.28,
+                0.08,
+                2
+            ],
+            [
+                0.35,
+                0.09,
+                2
+            ],
+            [
+                0.42,
+                0.1,
+                2
+            ],
+            [
+                0.49,
+                0.11,
+                2
+            ],
+            [
+                0.56,
+                0.12,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.28
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.35
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.42
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.49
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.56
+                }
+            ]
+        ]
+    },
     "22000": {
         "id": "22000",
         "skill": "Mano rápida",
@@ -5418,6 +5482,144 @@
                 {
                     "type": "CriticalDamageBase",
                     "value": 0.6
+                }
+            ]
+        ]
+    },
+    "23031": {
+        "id": "23031",
+        "skill": "Intimidación",
+        "desc": "La Prob. CRIT del portador aumenta en un #1[f1]%. Cuando el portador lanza un ataque adicional, obtiene 1 acumulación de Resplandor. Se puede acumular hasta #3[i] veces. Por cada acumulación de Resplandor, el daño de habilidad definitiva que inflige el portador ignora un #2[i]% de la DEF del objetivo. Cuando termina el turno del portador, se elimina 1 acumulación de Resplandor.",
+        "params": [
+            [
+                0.15,
+                0.27,
+                2
+            ],
+            [
+                0.175,
+                0.3,
+                2
+            ],
+            [
+                0.2,
+                0.33,
+                2
+            ],
+            [
+                0.225,
+                0.36,
+                2
+            ],
+            [
+                0.25,
+                0.39,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.15
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.175
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.2
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.225
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.25
+                }
+            ]
+        ]
+    },
+    "23032": {
+        "id": "23032",
+        "skill": "Alivio",
+        "desc": "El efecto de Ruptura del portador aumenta en un #1[i]%. Los enemigos a los que ataca el portador con su habilidad definitiva entran en el estado de Imperturbable durante #5[i] turnos después de ser atacados. El daño que reciben los objetivos afectados con Imperturbable aumenta en un #2[i]%. Si el efecto de Ruptura actual del portador es igual o superior al #3[i]%, este daño aumenta en un #4[i]% adicional.",
+        "params": [
+            [
+                0.6,
+                0.1,
+                1.5,
+                0.08,
+                2
+            ],
+            [
+                0.7,
+                0.12,
+                1.5,
+                0.1,
+                2
+            ],
+            [
+                0.8,
+                0.14,
+                1.5,
+                0.12,
+                2
+            ],
+            [
+                0.9,
+                0.16,
+                1.5,
+                0.14,
+                2
+            ],
+            [
+                1,
+                0.18,
+                1.5,
+                0.16,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.6
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.7
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.8
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.9
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 1
                 }
             ]
         ]

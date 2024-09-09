@@ -65,7 +65,7 @@
     "20002": {
         "id": "20002",
         "skill": "Havoc",
-        "desc": "The wearer's Basic ATK and Skill deals #1[i]% more DMG.",
+        "desc": "The wearer's Basic ATK and Skill deal #1[i]% more DMG.",
         "params": [
             [
                 0.2
@@ -94,7 +94,7 @@
     "20003": {
         "id": "20003",
         "skill": "Stasis",
-        "desc": "Increases the wearer's DEF by #1[i]%. If the wearer's current HP is lower than #2[i]%, increases their DEF by a further #3[i]%.",
+        "desc": "Increases the wearer's DEF by #1[i]%. If the wearer's current HP percentage is lower than #2[i]%, increases their DEF by a further #3[i]%.",
         "params": [
             [
                 0.16,
@@ -526,7 +526,7 @@
     "20016": {
         "id": "20016",
         "skill": "Legion",
-        "desc": "If the wearer's current HP is lower than #1[i]%, CRIT Rate increases by #2[i]%.",
+        "desc": "If the wearer's current HP percentage is lower than #1[i]%, CRIT Rate increases by #2[i]%.",
         "params": [
             [
                 0.8,
@@ -985,7 +985,7 @@
     "21006": {
         "id": "21006",
         "skill": "The Maiden in the Painting",
-        "desc": "Increases DMG dealt by the wearer's follow-up attacks by #1[i]%. If the current HP of the target enemy is below or equal to #2[i]%, increases DMG dealt by follow-up attacks by an extra #3[i]%.",
+        "desc": "Increases DMG dealt by the wearer's follow-up attacks by #1[i]%. If the current HP percentage of the target enemy is below or equal to #2[i]%, increases DMG dealt by follow-up attacks by an extra #3[i]%.",
         "params": [
             [
                 0.24,
@@ -3046,6 +3046,70 @@
             ]
         ]
     },
+    "21047": {
+        "id": "21047",
+        "skill": "Concealment",
+        "desc": "Increases the wearer's Break Effect by #1[i]%. When entering battle or after dealing Break DMG, increases SPD by #2[i]%, lasting for #3[i] turn(s). This effect can only trigger once per turn.",
+        "params": [
+            [
+                0.28,
+                0.08,
+                2
+            ],
+            [
+                0.35,
+                0.09,
+                2
+            ],
+            [
+                0.42,
+                0.1,
+                2
+            ],
+            [
+                0.49,
+                0.11,
+                2
+            ],
+            [
+                0.56,
+                0.12,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.28
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.35
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.42
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.49
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.56
+                }
+            ]
+        ]
+    },
     "22000": {
         "id": "22000",
         "skill": "Quick on the Draw",
@@ -3817,7 +3881,7 @@
     "23009": {
         "id": "23009",
         "skill": "Unfulfilled Yearning",
-        "desc": "Increases the wearer's CRIT rate by #1[i]% and increases their Max HP by #2[i]%. When the wearer is attacked or consumes their own HP, their DMG increases by #3[i]%. This effect is removed after the wearer uses an attack.",
+        "desc": "Increases the wearer's CRIT Rate by #1[i]% and increases their Max HP by #2[i]%. When the wearer is attacked or consumes their own HP, their DMG increases by #3[i]%. This effect is removed after the wearer uses an attack.",
         "params": [
             [
                 0.18,
@@ -4059,7 +4123,7 @@
     "23012": {
         "id": "23012",
         "skill": "Sweet Dreams",
-        "desc": "Increases the wearer's CRIT DMG by #1[i]%. When the wearer's Basic ATK or Skill does not result in a CRIT Hit, increases their CRIT Rate by #2[i]%, lasting for #3[i] turn(s). This effect can only trigger once every #4[i] turn(s).",
+        "desc": "Increases the wearer's CRIT DMG by #1[i]%. When the wearer's Basic ATK or Skill DMG does not result in a CRIT Hit, increases their CRIT Rate by #2[i]%, lasting for #3[i] turn(s). This effect can only trigger once every #4[i] turn(s).",
         "params": [
             [
                 0.3,
@@ -5277,7 +5341,7 @@
     "23029": {
         "id": "23029",
         "skill": "Worldly Affairs Leave No Mark",
-        "desc": "Increases the wearer's Effect Hit Rate by #1[i]%. After the wearer uses Basic ATK, Skill, or Ultimate to attack an enemy target, there is a #2[i]% base chance to inflict \"Unarmored\" on the target. While in the Unarmored state, the enemy target receives #3[i]% increased DMG, lasting for #4[i] turn(s). If the target is under a DoT state inflicted by the wearer, there is a #5[i]% base chance to upgrade the \"Unarmored\" state inflicted by the wearer to the \"Cornered\" state, which additionally increases the DMG the target enemy receives by #6[i]%, lasting for #4[i] turn(s). During this period, the wearer cannot inflict \"Unarmored\" on the target.",
+        "desc": "Increases the wearer's Effect Hit Rate by #1[i]%. After the wearer uses Basic ATK, Skill, or Ultimate to attack an enemy target, there is a #2[i]% base chance to inflict \"Unarmored\" on the target. While in the Unarmored state, the enemy target receives #3[i]% increased DMG, lasting for #4[i] turn(s). If the target is under a DoT state inflicted by the wearer, there is a #5[i]% base chance to upgrade the \"Unarmored\" state inflicted by the wearer to the \"Cornered\" state, which additionally increases the DMG the enemy target receives by #6[i]%, lasting for #4[i] turn(s). During this period, the wearer cannot inflict \"Unarmored\" on the target.",
         "params": [
             [
                 0.6,
@@ -5422,6 +5486,144 @@
             ]
         ]
     },
+    "23031": {
+        "id": "23031",
+        "skill": "Intimidation",
+        "desc": "Increases the wearer's CRIT Rate by #1[f1]%. When the wearer launches a follow-up attack, gains 1 stack of \"Luminflux,\" stacking up to #3[i] time(s). Each stack of \"Luminflux\" enables the Ultimate DMG dealt by the wearer to ignore #2[i]% of the target's DEF. When the wearer's turn ends, removes 1 stack of \"Luminflux.\"",
+        "params": [
+            [
+                0.15,
+                0.27,
+                2
+            ],
+            [
+                0.175,
+                0.3,
+                2
+            ],
+            [
+                0.2,
+                0.33,
+                2
+            ],
+            [
+                0.225,
+                0.36,
+                2
+            ],
+            [
+                0.25,
+                0.39,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.15
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.175
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.2
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.225
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.25
+                }
+            ]
+        ]
+    },
+    "23032": {
+        "id": "23032",
+        "skill": "Contentment",
+        "desc": "Increases the wearer's Break Effect by #1[i]%. After the wearer uses Ultimate to attack enemy targets, inflicts the targets with the \"Woefree\" state, lasting for #5[i] turn(s). While in \"Woefree,\" enemy targets take #2[i]% increased DMG. The effect of increasing DMG taken is additionally boosted by #4[i]% if the wearer's current Break Effect is #3[i]% or higher.",
+        "params": [
+            [
+                0.6,
+                0.1,
+                1.5,
+                0.08,
+                2
+            ],
+            [
+                0.7,
+                0.12,
+                1.5,
+                0.1,
+                2
+            ],
+            [
+                0.8,
+                0.14,
+                1.5,
+                0.12,
+                2
+            ],
+            [
+                0.9,
+                0.16,
+                1.5,
+                0.14,
+                2
+            ],
+            [
+                1,
+                0.18,
+                1.5,
+                0.16,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.6
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.7
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.8
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.9
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 1
+                }
+            ]
+        ]
+    },
     "24000": {
         "id": "24000",
         "skill": "Moth to Flames",
@@ -5469,7 +5671,7 @@
     "24001": {
         "id": "24001",
         "skill": "Chase",
-        "desc": "Increases the wearer's CRIT rate by #1[i]%, and increases their CRIT rate against enemies with HP less than or equal to #2[i]% by an extra #3[i]%. When the wearer defeats an enemy, their ATK is increased by #4[i]% for #5[i] turn(s).",
+        "desc": "Increases the wearer's CRIT rate by #1[i]%, and increases their CRIT rate against enemies with HP percentage less than or equal to #2[i]% by an extra #3[i]%. When the wearer defeats an enemy, their ATK is increased by #4[i]% for #5[i] turn(s).",
         "params": [
             [
                 0.08,

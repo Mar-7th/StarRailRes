@@ -65,7 +65,7 @@
     "20002": {
         "id": "20002",
         "skill": "Devastação",
-        "desc": "Aumenta o ATQ Básico e o Dano de Perícia do usuário em #1[i]%.",
+        "desc": "Aumenta o Dano do ATQ Básico e o Dano da Perícia do usuário em #1[i]%.",
         "params": [
             [
                 0.2
@@ -94,7 +94,7 @@
     "20003": {
         "id": "20003",
         "skill": "Estase",
-        "desc": "Aumenta a DEF do usuário em #1[i]%. Se o PV atual do usuário for inferior a #2[i]%, aumenta sua DEF em mais #3[i]%.",
+        "desc": "Aumenta a DEF do usuário em #1[i]%. Se a porcentagem dos PV atuais do usuário for inferior a #2[i]%, aumenta sua DEF em mais #3[i]%.",
         "params": [
             [
                 0.16,
@@ -526,7 +526,7 @@
     "20016": {
         "id": "20016",
         "skill": "Legião",
-        "desc": "Se o PV atual do usuário for inferior a #1[i]%, Chance de CRIT aumenta em #2[i]%.",
+        "desc": "Se a porcentagem dos PV atuais do usuário for inferior a #1[i]%, Chance de CRIT aumenta em #2[i]%.",
         "params": [
             [
                 0.8,
@@ -560,7 +560,7 @@
     "20017": {
         "id": "20017",
         "skill": "CPI",
-        "desc": "Ao Quebrar a Fraqueza de um inimigo-alvo, o usuário restaura PV em #1[i]% de seus PV máximos.",
+        "desc": "Ao aplicar Quebra de Fraqueza contra um inimigo-alvo, o usuário restaura PV em #1[i]% de seus PV máximos.",
         "params": [
             [
                 0.12
@@ -985,7 +985,7 @@
     "21006": {
         "id": "21006",
         "skill": "A Donzela no Retrato",
-        "desc": "Aumenta em #1[i]% o Dano causado por Ataques Extras do usuário. Se os PV atuais do inimigo-alvo estiverem abaixo ou iguais a #2[i]% dos PV máximos, aumenta em mais #3[i]% o Dano causado por Ataques Extras.",
+        "desc": "Aumenta em #1[i]% o Dano causado por Ataques Extras do usuário. Se a porcentagem dos PV atuais do inimigo-alvo estiver abaixo ou igual a #2[i]% dos PV máximos, aumenta em mais #3[i]% o Dano causado por Ataques Extras.",
         "params": [
             [
                 0.24,
@@ -3046,6 +3046,70 @@
             ]
         ]
     },
+    "21047": {
+        "id": "21047",
+        "skill": "Ocultação",
+        "desc": "Aumenta o Efeito de Quebra do usuário em #1[i]%. Ao entrar em batalha ou após causar Dano de Quebra, aumenta a VEL em #2[i]%, durando por #3[i] rodada(s). Este efeito só pode ser ativado 1 vez por rodada.",
+        "params": [
+            [
+                0.28,
+                0.08,
+                2
+            ],
+            [
+                0.35,
+                0.09,
+                2
+            ],
+            [
+                0.42,
+                0.1,
+                2
+            ],
+            [
+                0.49,
+                0.11,
+                2
+            ],
+            [
+                0.56,
+                0.12,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.28
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.35
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.42
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.49
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.56
+                }
+            ]
+        ]
+    },
     "22000": {
         "id": "22000",
         "skill": "Rápido no Gatilho",
@@ -4355,7 +4419,7 @@
     "23016": {
         "id": "23016",
         "skill": "Um De Cada Vez",
-        "desc": "Aumenta o Chance de CRIT do usuário em #1[i]% e aumenta o Dano causado pelo Ataque Extra em #2[i]%. Após o usuário utilizar um Ataque Extra, aplica o estado de Domesticação ao alvo, acumulando até #4[i] vez(es). Quando os aliados atingem inimigos-alvo sob o estado de Domesticação, cada acúmulo de Domesticação aumenta o Dano CRIT causado em #3[i]%.",
+        "desc": "Aumenta a Chance de CRIT do usuário em #1[i]% e aumenta o Dano causado pelo Ataque Extra em #2[i]%. Após o usuário utilizar um Ataque Extra, aplica o estado de Domesticação ao alvo, acumulando até #4[i] vez(es). Quando os aliados atingem inimigos-alvo sob o estado de Domesticação, cada acúmulo de Domesticação aumenta o Dano CRIT causado em #3[i]%.",
         "params": [
             [
                 0.18,
@@ -5356,7 +5420,7 @@
     "23030": {
         "id": "23030",
         "skill": "Profundamente Absorvido",
-        "desc": "Aumenta bastante a chance do usuário ser atacado e aumenta o Dano CRIT em #1[i]%. Após o usuário utilizar Perícia Suprema, ele recebe 1 acúmulo de Dança do Fogo, durando por 2 rodadas e atingindo até #2[i] acúmulos. Cada acúmulo de Dança do Fogo aumenta o Dano causado pelo Ataque Extra do usuário em #3[i]%.",
+        "desc": "Aumenta bastante a chance do usuário ser atacado e aumenta o Dano CRIT em #1[i]%. Após o usuário utilizar a Perícia Suprema, ele recebe 1 acúmulo de Dança do Fogo, durando por 2 rodadas e atingindo até #2[i] acúmulos. Cada acúmulo de Dança do Fogo aumenta o Dano causado pelo Ataque Extra do usuário em #3[i]%.",
         "params": [
             [
                 0.36,
@@ -5422,6 +5486,144 @@
             ]
         ]
     },
+    "23031": {
+        "id": "23031",
+        "skill": "Intimidação",
+        "desc": "Aumenta a Chance de CRIT do usuário em #1[f1]%. Quando o usuário utiliza um Ataque Extra, ganha 1 acúmulo de \"Luminiflux\", acumulando até um máximo de #3[i] vez(es). Cada acúmulo de \"Luminiflux\" permite que o Dano de Perícia Suprema causado pelo usuário ignore #2[i]% da DEF do alvo. Quando a rodada do usuário termina, remove 1 acúmulo de \"Luminiflux\".",
+        "params": [
+            [
+                0.15,
+                0.27,
+                2
+            ],
+            [
+                0.175,
+                0.3,
+                2
+            ],
+            [
+                0.2,
+                0.33,
+                2
+            ],
+            [
+                0.225,
+                0.36,
+                2
+            ],
+            [
+                0.25,
+                0.39,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.15
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.175
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.2
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.225
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.25
+                }
+            ]
+        ]
+    },
+    "23032": {
+        "id": "23032",
+        "skill": "Contentamento",
+        "desc": "Aumenta o Efeito de Quebra do usuário em #1[i]%. Após o usuário utilizar a Perícia Suprema para atacar inimigos-alvo, inflige o(s) alvo(s) com o estado de \"Infortúnio\", durando por #5[i] rodada(s). Enquanto estiverem no estado de \"Infortúnio\", inimigos-alvo recebem #2[i]% a mais de Dano. O efeito de aumento de Dano recebido é adicionalmente aumentado em #4[i]% se o Efeito de Quebra atual do usuário for #3[i]% ou maior.",
+        "params": [
+            [
+                0.6,
+                0.1,
+                1.5,
+                0.08,
+                2
+            ],
+            [
+                0.7,
+                0.12,
+                1.5,
+                0.1,
+                2
+            ],
+            [
+                0.8,
+                0.14,
+                1.5,
+                0.12,
+                2
+            ],
+            [
+                0.9,
+                0.16,
+                1.5,
+                0.14,
+                2
+            ],
+            [
+                1,
+                0.18,
+                1.5,
+                0.16,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.6
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.7
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.8
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.9
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 1
+                }
+            ]
+        ]
+    },
     "24000": {
         "id": "24000",
         "skill": "Mariposa às Chamas",
@@ -5469,7 +5671,7 @@
     "24001": {
         "id": "24001",
         "skill": "Perseguição",
-        "desc": "Aumenta em #1[i]% a Chance de CRIT do usuário e aumenta a Chance de CRIT contra inimigos com PV iguais ou inferiores a #2[i]% em #3[i]% extra. Quando o usuário derrota um inimigo, o seu ATQ é aumentado em #4[i]% por #5[i] rodada(s).",
+        "desc": "Aumenta em #1[i]% a Chance de CRIT do usuário e aumenta a Chance de CRIT contra inimigos com a porcentagem dos PV igual ou inferior a #2[i]% em #3[i]% extra. Quando o usuário derrota um inimigo, o seu ATQ é aumentado em #4[i]% por #5[i] rodada(s).",
         "params": [
             [
                 0.08,

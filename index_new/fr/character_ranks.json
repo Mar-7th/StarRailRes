@@ -615,7 +615,7 @@
         "id": "100801",
         "name": "Jusqu'au-boutiste",
         "rank": 1,
-        "desc": "Lorsque les PV du personnage sont inférieurs ou égaux à 50 % de ses PV max, augmente les DGT infligés par la compétence de 10%.",
+        "desc": "Lorsque le pourcentage de PV du personnage est inférieur ou égal à 50 % de ses PV max, augmente les DGT infligés par la compétence de 10%.",
         "materials": [
             {
                 "id": "11008",
@@ -703,7 +703,7 @@
         "id": "100806",
         "name": "Abnégation",
         "rank": 6,
-        "desc": "Lorsque les PV du personnage sont inférieurs ou égaux à 50 % de ses PV max, l'ultime inflige 20% de DGT supplémentaires. Le multiplicateur de DGT de la cible principale s'applique également aux ennemis adjacents.",
+        "desc": "Lorsque le pourcentage de PV actuels du personnage est inférieur ou égal à 50 % de ses PV max, l'ultime inflige 20% de DGT supplémentaires, et le multiplicateur de DGT de la cible principale s'applique également aux ennemis adjacents.",
         "materials": [
             {
                 "id": "11008",
@@ -3897,7 +3897,7 @@
         "id": "121806",
         "name": "Feu des neufs transformations",
         "rank": 6,
-        "desc": "Lorsqu'une cible ennemie est éliminée, ses cumuls de Charbons ardents accumulés sont transférés à l'ennemi ayant le moins de cumuls de Charbons ardents sur le champ de bataille. La limite de cumuls de Charbons ardents passe à 9. Chaque cumul de Charbons ardents réduit toutes les RÉS de type de la cible de 3%.",
+        "desc": "Lorsqu'une cible ennemie est éliminée, ses cumuls de Charbons ardents sont transférés à l'ennemi ayant le moins de cumuls de Charbons ardents sur le champ de bataille. La limite de cumuls de Charbons ardents passe à 9. Chaque cumul de Charbons ardents réduit toutes les RÉS de type de la cible de 3%.",
         "materials": [
             {
                 "id": "11218",
@@ -3906,6 +3906,120 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1218_rank6.png"
+    },
+    "122001": {
+        "id": "122001",
+        "name": "Apaisement des cieux",
+        "rank": 1,
+        "desc": "Après avoir lancé Éclair tonitruant des étoiles ou Hache de guerre céleste, les DGT d'ultime infligés par Feixiao augmentent d'un montant équivalent à 10% des DGT initiaux. Cet effet est cumulable jusqu'à 5 fois et dure jusqu'à la fin de l'action de l'ultime.",
+        "materials": [
+            {
+                "id": "11220",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1220_rank1.png"
+    },
+    "122002": {
+        "id": "122002",
+        "name": "Prière à la Lune",
+        "rank": 2,
+        "desc": "Dans l'effet du talent, chaque fois qu'une cible alliée déclenche 1 instance de l'attaque de suivi, Feixiao obtient 1 point de Chimère volante. Cet effet peut se déclencher jusqu'à 6 fois par tour.",
+        "materials": [
+            {
+                "id": "11220",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1220_rank2.png"
+    },
+    "122003": {
+        "id": "122003",
+        "name": "Étoile de prospérité",
+        "rank": 3,
+        "desc": "Niv. de l'ultime +2, jusqu'au Niv. 15 maximum.\\nNiv. de l'ATQ normale +1, jusqu'au Niv. 10 maximum.",
+        "materials": [
+            {
+                "id": "11220",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "122003",
+                "num": 2
+            },
+            {
+                "id": "122001",
+                "num": 1
+            },
+            {
+                "id": "122008",
+                "num": 2
+            },
+            {
+                "id": "122009",
+                "num": 2
+            },
+            {
+                "id": "122014",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1220_skill.png"
+    },
+    "122004": {
+        "id": "122004",
+        "name": "Chant de la tempête",
+        "rank": 4,
+        "desc": "La réduction de robustesse de l'attaque de suivi du talent augmente de 100%, et la VIT du personnage augmente de 8% pendant 2 tours lorsqu'elle se déclenche.",
+        "materials": [
+            {
+                "id": "11220",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1220_rank4.png"
+    },
+    "122005": {
+        "id": "122005",
+        "name": "Ascension céleste",
+        "rank": 5,
+        "desc": "Niv. de la compétence +2, jusqu'au Niv. 15 maximum.\\nNiv. du talent +2, jusqu'au Niv. 15 maximum.",
+        "materials": [
+            {
+                "id": "11220",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "122002",
+                "num": 2
+            },
+            {
+                "id": "122004",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1220_ultimate.png"
+    },
+    "122006": {
+        "id": "122006",
+        "name": "Retour à la terre ancestrale",
+        "rank": 6,
+        "desc": "Augmente la PÉN de RÉS à tous les types des DGT d'ultime infligés par Feixiao de 20%. Les DGT de l'attaque de suivi du talent sont également considérés comme des DGT d'ultime, et son multiplicateur de DGT augmente de 140%.",
+        "materials": [
+            {
+                "id": "11220",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1220_rank6.png"
     },
     "122101": {
         "id": "122101",
@@ -4008,6 +4122,210 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1221_rank6.png"
+    },
+    "122201": {
+        "id": "122201",
+        "name": "Fumée destructrice",
+        "rank": 1,
+        "desc": "L'efficacité de Rupture de faiblesse de Lingsha augmente de 50%. Lorsqu'une unité ennemie subit une Rupture de faiblesse, sa DÉF est réduite de 20%.",
+        "materials": [
+            {
+                "id": "11222",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1222_rank1.png"
+    },
+    "122202": {
+        "id": "122202",
+        "name": "Volutes écarlates",
+        "rank": 2,
+        "desc": "L'effet de Rupture de tous les alliés augmente de 40% pendant 3 tours lors de l'utilisation de l'ultime.",
+        "materials": [
+            {
+                "id": "11222",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1222_rank2.png"
+    },
+    "122203": {
+        "id": "122203",
+        "name": "Mèche parfumée",
+        "rank": 3,
+        "desc": "Niv. de l'ultime +2, jusqu'au Niv. 15 maximum.\\nNiv. du talent +2, jusqu'au Niv. 15 maximum.",
+        "materials": [
+            {
+                "id": "11222",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "122203",
+                "num": 2
+            },
+            {
+                "id": "122204",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1222_skill.png"
+    },
+    "122204": {
+        "id": "122204",
+        "name": "Senteurs feutrées",
+        "rank": 4,
+        "desc": "Lors de l'action de Fuyuan, restaure un montant de PV équivalent à 40% de l'ATQ de Lingsha à l'allié ayant les PV les plus bas actuellement.",
+        "materials": [
+            {
+                "id": "11222",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1222_rank4.png"
+    },
+    "122205": {
+        "id": "122205",
+        "name": "Plénitude intérieure",
+        "rank": 5,
+        "desc": "Niv. de la compétence +2, jusqu'au Niv. 15 maximum.\\nNiv. de l'ATQ normale +1, jusqu'au Niv. 10 maximum.",
+        "materials": [
+            {
+                "id": "11222",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "122202",
+                "num": 2
+            },
+            {
+                "id": "122201",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1222_ultimate.png"
+    },
+    "122206": {
+        "id": "122206",
+        "name": "Paradis de l'isolement",
+        "rank": 6,
+        "desc": "Réduit toutes les RÉS de type de tous les ennemis de 20% lorsque Fuyuan est sur le champ de bataille. Fuyuan inflige 4 instances de DGT supplémentaires lors de son attaque, chacune infligeant des DGT de feu équivalents à 50% de l'ATQ de Lingsha et réduisant la robustesse d'un ennemi unique aléatoire de 5. Les cibles dont la robustesse est supérieure à 0 et qui ont une Faiblesse au feu sont touchées en priorité.",
+        "materials": [
+            {
+                "id": "11222",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1222_rank6.png"
+    },
+    "122301": {
+        "id": "122301",
+        "name": "Gardien du serment",
+        "rank": 1,
+        "desc": "Moze gagne 20 points d'énergie après être entré en combat et 2 points d'énergie chaque fois que les DGT additionnels de son talent sont déclenchés.",
+        "materials": [
+            {
+                "id": "11223",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1223_rank1.png"
+    },
+    "122302": {
+        "id": "122302",
+        "name": "Héraut du châtiment",
+        "rank": 2,
+        "desc": "Augmente de 40% les DGT critiques lorsque tous les alliés infligent des DGT à une cible ennemie marquée comme Proie.",
+        "materials": [
+            {
+                "id": "11223",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1223_rank2.png"
+    },
+    "122303": {
+        "id": "122303",
+        "name": "Justicier implacable",
+        "rank": 3,
+        "desc": "Niv. de l'ultime +2, jusqu'au Niv. 15 maximum.\\nNiv. du talent +2, jusqu'au Niv. 15 maximum.",
+        "materials": [
+            {
+                "id": "11223",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "122303",
+                "num": 2
+            },
+            {
+                "id": "122304",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1223_skill.png"
+    },
+    "122304": {
+        "id": "122304",
+        "name": "Rôdeur des ombres",
+        "rank": 4,
+        "desc": "Les DGT infligés par Moze augmentent de 30.0% pendant 2 tours lors de l'utilisation de l'ultime.",
+        "materials": [
+            {
+                "id": "11223",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1223_rank4.png"
+    },
+    "122305": {
+        "id": "122305",
+        "name": "Manipulateur de vérité",
+        "rank": 5,
+        "desc": "Niv. de la compétence +2, jusqu'au Niv. 15 maximum.\\nNiv. de l'ATQ normale +1, jusqu'au Niv. 10 maximum.",
+        "materials": [
+            {
+                "id": "11223",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "122302",
+                "num": 2
+            },
+            {
+                "id": "122301",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1223_ultimate.png"
+    },
+    "122306": {
+        "id": "122306",
+        "name": "Rassembleur de loyauté",
+        "rank": 6,
+        "desc": "Le multiplicateur de DGT de l'attaque de suivi du talent augmente de 25%.",
+        "materials": [
+            {
+                "id": "11223",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1223_rank6.png"
     },
     "122401": {
         "id": "122401",

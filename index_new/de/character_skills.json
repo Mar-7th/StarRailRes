@@ -2964,7 +2964,7 @@
         "type_text": "Talent",
         "effect": "AoEAttack",
         "effect_text": "Flächenangriff",
-        "simple_desc": "",
+        "simple_desc": "Wenn der LP-Prozentsatz eines Gegners durch den Angriff eines Verbündeten auf 50% fällt, führt Herta sofort einen Folgeangriff aus, der allen Gegnern geringen Eis-SCH zufügt.",
         "desc": "Wenn der LP-Prozentsatz eines Gegners durch den Angriff eines Verbündeten auf #1[i]% oder weniger fallen, führt Herta einen Folgeangriff aus, der allen Gegnern Eis-SCH in Höhe von #2[i]% von Hertas ANG zufügt.",
         "params": [
             [
@@ -3053,7 +3053,7 @@
         "type_text": "Technik",
         "effect": "Enhance",
         "effect_text": "Verstärkung",
-        "simple_desc": "",
+        "simple_desc": "Nach dem Einsatz der Technik wird der ANG dieser Einheit zu Beginn des nächsten Kampfes erhöht.",
         "desc": "Erhöht nach dem Einsatz der Technik Hertas ANG zu Beginn des nächstes Kampfes für #2[i] Rd. um #1[i]%.",
         "params": [
             [
@@ -13949,6 +13949,549 @@
         ],
         "icon": "icon/skill/1218_technique.png"
     },
+    "122001": {
+        "id": "122001",
+        "name": "Schneidender Blitz",
+        "max_level": 9,
+        "element": "Wind",
+        "type": "Normal",
+        "type_text": "Standardangriff",
+        "effect": "SingleAttack",
+        "effect_text": "Einzelangriff",
+        "simple_desc": "Fügt einem Gegner geringen Wind-SCH zu.",
+        "desc": "Fügt einem anvisierten Gegner Wind-SCH in Höhe von #1[i]% von Feixiaos ANG zu.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1220_basic_atk.png"
+    },
+    "122002": {
+        "id": "122002",
+        "name": "Spaltender Hieb",
+        "max_level": 15,
+        "element": "Wind",
+        "type": "BPSkill",
+        "type_text": "Fertigkeit",
+        "effect": "SingleAttack",
+        "effect_text": "Einzelangriff",
+        "simple_desc": "Fügt einem Gegner Wind-SCH zu und startet zusätzlich 1-mal den Folgeangriff des Talents.",
+        "desc": "Fügt einem anvisierten Gegner Wind-SCH in Höhe von #1[i]% von Feixiaos ANG zu und startet zusätzlich sofort 1-mal den Folgeangriff des Talents auf das Ziel.",
+        "params": [
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ],
+            [
+                1.4
+            ],
+            [
+                1.5
+            ],
+            [
+                1.625
+            ],
+            [
+                1.75
+            ],
+            [
+                1.875
+            ],
+            [
+                2
+            ],
+            [
+                2.1
+            ],
+            [
+                2.2
+            ],
+            [
+                2.3
+            ],
+            [
+                2.4
+            ],
+            [
+                2.5
+            ]
+        ],
+        "icon": "icon/skill/1220_skill.png"
+    },
+    "122003": {
+        "id": "122003",
+        "name": "Zertrümmern der Ungebändigten",
+        "max_level": 15,
+        "element": "Wind",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "SingleAttack",
+        "effect_text": "Einzelangriff",
+        "simple_desc": "Während des Ultimates wird der WDS des Gegners unabhängig vom Schwächetyp reduziert. Solange das Ziel sich nicht im Schwächebruch befindet, wird Feixiaos Schwächebruch-Effizienz erhöht.\nSetzt gegen einen Gegner 6-mal „Schneidender Blitz im Tanz“ oder „Spaltender Hieb gen Himmel“ ein und verursacht schließlich Wind-SCH.",
+        "desc": "Fügt einem anvisierten Gegner Wind-SCH in Höhe von #4[i]% von Feixiaos ANG zu und reduziert seinen WDS unabhängig vom Schwächetyp. Solange das Ziel sich nicht im Schwächebruch befindet, wird Feixiaos Schwächebruch-Effizienz um #2[i]% erhöht.\nFeixiao setzt zunächst #3[i]-mal „Schneidender Blitz im Tanz“ oder „Spaltender Hieb gen Himmel“ ein. Schließlich fügt sie dem Ziel Wind-SCH in Höhe von #1[i]% ihres ANG zu.",
+        "params": [
+            [
+                0.96,
+                1,
+                6,
+                4.02
+            ],
+            [
+                1.024,
+                1,
+                6,
+                4.318
+            ],
+            [
+                1.088,
+                1,
+                6,
+                4.616
+            ],
+            [
+                1.152,
+                1,
+                6,
+                4.914
+            ],
+            [
+                1.216,
+                1,
+                6,
+                5.212
+            ],
+            [
+                1.28,
+                1,
+                6,
+                5.51
+            ],
+            [
+                1.36,
+                1,
+                6,
+                5.8825
+            ],
+            [
+                1.44,
+                1,
+                6,
+                6.255
+            ],
+            [
+                1.52,
+                1,
+                6,
+                6.6275
+            ],
+            [
+                1.6,
+                1,
+                6,
+                7
+            ],
+            [
+                1.664,
+                1,
+                6,
+                7.298
+            ],
+            [
+                1.728,
+                1,
+                6,
+                7.596
+            ],
+            [
+                1.792,
+                1,
+                6,
+                7.894
+            ],
+            [
+                1.856,
+                1,
+                6,
+                8.192
+            ],
+            [
+                1.92,
+                1,
+                6,
+                8.49
+            ]
+        ],
+        "icon": "icon/skill/1220_ultimate.png"
+    },
+    "122004": {
+        "id": "122004",
+        "name": "Donnerjagd",
+        "max_level": 15,
+        "element": "Wind",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "SingleAttack",
+        "effect_text": "Einzelangriff",
+        "simple_desc": "Wenn „Fliegender Aureus“ 6 Pkt. erreicht, kann der Ultimate aktiviert werden, bis zu 12 Pkt. Feixiao erhält Fliegender Aureus nach je 2 Angriffen von Verbündeten.\nNachdem ihre Teammitglieder angegriffen haben, startet Feixiao einen Folgeangriff auf das Hauptziel, der Wind-SCH verursacht. Dieser Effekt kann nur 1-mal pro Runde ausgelöst werden. Beim Einsatz dieses Angriffs wird Feixiaos verursachter SCH erhöht.",
+        "desc": "Wenn „Fliegender Aureus“ #3[i] Pkt. erreicht, kann der Ultimate aktiviert werden, bis zu #4[i] Pkt. Für je #2[i] Angriffe von Verbündeten erhält Feixiao 1 Pkt. Fliegender Aureus. Feixiaos Ultimate wird nicht mitberechnet.\nNachdem ihre Teammitglieder Gegner angegriffen haben, startet Feixiao sofort einen Folgeangriff auf das Hauptziel, der Wind-SCH in Höhe von #1[i]% von Feixiaos ANG verursacht. Wenn kein Hauptziel zum Angriff vorhanden ist, wird ein zufälliger Gegner angegriffen. Dieser Effekt kann nur 1-mal pro Runde ausgelöst werden. Zu Beginn von Feixiaos Runde wird die Auslösungsanzahl zurückgesetzt. Beim Einsatz dieses Angriffs wird Feixiaos verursachter SCH für #6[i] Rd. um #5[i]% erhöht.",
+        "params": [
+            [
+                0.55,
+                2,
+                6,
+                12,
+                0.3,
+                2
+            ],
+            [
+                0.605,
+                2,
+                6,
+                12,
+                0.33,
+                2
+            ],
+            [
+                0.66,
+                2,
+                6,
+                12,
+                0.36,
+                2
+            ],
+            [
+                0.715,
+                2,
+                6,
+                12,
+                0.39,
+                2
+            ],
+            [
+                0.77,
+                2,
+                6,
+                12,
+                0.42,
+                2
+            ],
+            [
+                0.825,
+                2,
+                6,
+                12,
+                0.45,
+                2
+            ],
+            [
+                0.8938,
+                2,
+                6,
+                12,
+                0.4875,
+                2
+            ],
+            [
+                0.9625,
+                2,
+                6,
+                12,
+                0.525,
+                2
+            ],
+            [
+                1.0312,
+                2,
+                6,
+                12,
+                0.5625,
+                2
+            ],
+            [
+                1.1,
+                2,
+                6,
+                12,
+                0.6,
+                2
+            ],
+            [
+                1.155,
+                2,
+                6,
+                12,
+                0.63,
+                2
+            ],
+            [
+                1.21,
+                2,
+                6,
+                12,
+                0.66,
+                2
+            ],
+            [
+                1.265,
+                2,
+                6,
+                12,
+                0.69,
+                2
+            ],
+            [
+                1.32,
+                2,
+                6,
+                12,
+                0.72,
+                2
+            ],
+            [
+                1.375,
+                2,
+                6,
+                12,
+                0.75,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1220_talent.png"
+    },
+    "122006": {
+        "id": "122006",
+        "name": "Angriff",
+        "max_level": 1,
+        "element": "Wind",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Greift den Gegner an und schwächt nach Kampfeintritt den WDS des Ziels gegen den entsprechenden Typ.",
+        "params": [],
+        "icon": "icon/skill/1220_basic_atk.png"
+    },
+    "122007": {
+        "id": "122007",
+        "name": "Corpus des Sturms",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technik",
+        "effect": "Enhance",
+        "effect_text": "Verstärkung",
+        "simple_desc": "Tritt in den Status „Angestürmt“ ein, was Gegner fortlaufend mitzieht und die eigene Bewegungs-GES erhöht. Erhält nach Kampfeintritt „Fliegender Aureus“.\nIm Status Angestürmt können alle mitgezogenen Gegner angegriffen werden. Zu Beginn jeder Kampfwelle wird allen Gegnern Wind-SCH zugefügt. Dieser SCH ist garantiert ein kritischer Treffer. Je mehr Gegner mitgezogen werden, desto höher ist der SCH-Multiplikator.",
+        "desc": "Tritt nach dem Einsatz der Technik für #1[i] Sek. in den Status „Angestürmt“ ein. Dieser Status zieht Gegner innerhalb einer bestimmten Reichweite mit und erhöht die eigene Bewegungs-GES um #2[i]%. Erhält nach Kampfeintritt #4[i] Pkt. „Fliegender Aureus“.\nIm Status Angestürmt treten bei aktiven Angriffen alle durch den Effekt mitgezogenen Gegner in den Kampf ein. Nach Kampfeintritt wird zu Beginn jeder Kampfwelle allen Gegnern Wind-SCH in Höhe von #3[i]% von Feixiaos ANG zugefügt. Dieser SCH ist garantiert ein kritischer Treffer. Wenn mehr als 1 Gegner mitgezogenen werden, wird der SCH-Multiplikator für jeden zusätzlichen mitgezogenen Gegner um #5[i]% erhöht, bis zu #6[i]%.",
+        "params": [
+            [
+                20,
+                0.5,
+                2,
+                1,
+                1,
+                10
+            ]
+        ],
+        "icon": "icon/skill/1220_technique.png"
+    },
+    "122008": {
+        "id": "122008",
+        "name": "Schneidender Blitz im Tanz",
+        "max_level": 15,
+        "element": "Wind",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "SingleAttack",
+        "effect_text": "Einzelangriff",
+        "simple_desc": "Fügt einem Gegner geringen Wind-SCH zu. Befindet das Ziel sich im Schwächebruch, wird der SCH-Multiplikator erhöht.",
+        "desc": "Fügt dem ausgewählten Ziel Wind-SCH in Höhe von #1[i]% von Feixiaos ANG zu. Befindet das Ziel sich im Schwächebruch, wird der SCH-Multiplikator um #2[i]% erhöht.",
+        "params": [
+            [
+                0.36,
+                0.15
+            ],
+            [
+                0.384,
+                0.165
+            ],
+            [
+                0.408,
+                0.18
+            ],
+            [
+                0.432,
+                0.195
+            ],
+            [
+                0.456,
+                0.21
+            ],
+            [
+                0.48,
+                0.225
+            ],
+            [
+                0.51,
+                0.2437
+            ],
+            [
+                0.54,
+                0.2625
+            ],
+            [
+                0.57,
+                0.2812
+            ],
+            [
+                0.6,
+                0.3
+            ],
+            [
+                0.624,
+                0.315
+            ],
+            [
+                0.648,
+                0.33
+            ],
+            [
+                0.672,
+                0.345
+            ],
+            [
+                0.696,
+                0.36
+            ],
+            [
+                0.72,
+                0.375
+            ]
+        ],
+        "icon": "icon/skill/1220_ultimate.png"
+    },
+    "122009": {
+        "id": "122009",
+        "name": "Spaltender Hieb gen Himmel",
+        "max_level": 15,
+        "element": "Wind",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "SingleAttack",
+        "effect_text": "Einzelangriff",
+        "simple_desc": "Fügt einem Gegner geringen Wind-SCH zu. Befindet das Ziel sich nicht im Schwächebruch, wird der SCH-Multiplikator erhöht.",
+        "desc": "Fügt dem ausgewählten Ziel Wind-SCH in Höhe von #1[i]% von Feixiaos ANG zu. Befindet das Ziel sich nicht im Schwächebruch, wird der SCH-Multiplikator um #2[i]% erhöht.",
+        "params": [
+            [
+                0.36,
+                0.15
+            ],
+            [
+                0.384,
+                0.165
+            ],
+            [
+                0.408,
+                0.18
+            ],
+            [
+                0.432,
+                0.195
+            ],
+            [
+                0.456,
+                0.21
+            ],
+            [
+                0.48,
+                0.225
+            ],
+            [
+                0.51,
+                0.2437
+            ],
+            [
+                0.54,
+                0.2625
+            ],
+            [
+                0.57,
+                0.2812
+            ],
+            [
+                0.6,
+                0.3
+            ],
+            [
+                0.624,
+                0.315
+            ],
+            [
+                0.648,
+                0.33
+            ],
+            [
+                0.672,
+                0.345
+            ],
+            [
+                0.696,
+                0.36
+            ],
+            [
+                0.72,
+                0.375
+            ]
+        ],
+        "icon": "icon/skill/1220_ultimate.png"
+    },
+    "122014": {
+        "id": "122014",
+        "name": "Zertrümmern der Ungebändigten",
+        "max_level": 15,
+        "element": "Wind",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "SingleAttack",
+        "effect_text": "Einzelangriff",
+        "simple_desc": "",
+        "desc": "",
+        "params": [],
+        "icon": "icon/skill/1220_ultimate.png"
+    },
     "122101": {
         "id": "122101",
         "name": "Windumkehr in der Sonne",
@@ -14000,7 +14543,7 @@
         "type_text": "Fertigkeit",
         "effect": "Blast",
         "effect_text": "Ausdehnung",
-        "simple_desc": "Stellt die eigene LP wieder her und fügt einem Gegner sowie angrenzenden Einheiten geringen physischen SCH zu.",
+        "simple_desc": "Stellt die eigenen LP wieder her und fügt einem Gegner sowie angrenzenden Einheiten geringen physischen SCH zu.",
         "desc": "Stellt LP in Höhe von #3[f1]% von Yunlis ANG plus #4[i] wieder her. Fügt einem anvisierten Gegner physischen SCH in Höhe von #1[i]% von Yunlis ANG und angrenzenden Einheiten physischen SCH in Höhe von #2[i]% von Yunlis ANG zu.",
         "params": [
             [
@@ -14384,6 +14927,786 @@
         ],
         "icon": "icon/skill/1221_technique.png"
     },
+    "122201": {
+        "id": "122201",
+        "name": "Entzündeter Duft",
+        "max_level": 9,
+        "element": "Fire",
+        "type": "Normal",
+        "type_text": "Standardangriff",
+        "effect": "SingleAttack",
+        "effect_text": "Einzelangriff",
+        "simple_desc": "Fügt einem Gegner geringen Feuer-SCH zu.",
+        "desc": "Fügt einem anvisierten Gegner Feuer-SCH in Höhe von #1[i]% von Lingshas ANG zu.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1222_basic_atk.png"
+    },
+    "122202": {
+        "id": "122202",
+        "name": "Schillernder Dunst",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "BPSkill",
+        "type_text": "Fertigkeit",
+        "effect": "AoEAttack",
+        "effect_text": "Flächenangriff",
+        "simple_desc": "Fügt allen Gegnern geringen Feuer-SCH zu, stellt gleichzeitig bei allen Verbündeten LP wieder her und die Aktion von Fuyuan wird vorgezogen.",
+        "desc": "Fügt allen Gegnern Feuer-SCH in Höhe von #1[i]% von Lingshas ANG zu und stellt gleichzeitig bei allen Verbündeten LP in Höhe von #2[f1]% von Lingshas ANG plus #3[i] wieder her. Die Aktion von Fuyuan wird um #4[i]% vorgezogen.",
+        "params": [
+            [
+                0.4,
+                0.1,
+                105,
+                0.2
+            ],
+            [
+                0.44,
+                0.105,
+                168,
+                0.2
+            ],
+            [
+                0.48,
+                0.11,
+                215.25,
+                0.2
+            ],
+            [
+                0.52,
+                0.115,
+                262.5,
+                0.2
+            ],
+            [
+                0.56,
+                0.12,
+                294,
+                0.2
+            ],
+            [
+                0.6,
+                0.124,
+                325.5,
+                0.2
+            ],
+            [
+                0.65,
+                0.128,
+                349.125,
+                0.2
+            ],
+            [
+                0.7,
+                0.132,
+                372.75,
+                0.2
+            ],
+            [
+                0.75,
+                0.136,
+                396.375,
+                0.2
+            ],
+            [
+                0.8,
+                0.14,
+                420,
+                0.2
+            ],
+            [
+                0.84,
+                0.144,
+                443.625,
+                0.2
+            ],
+            [
+                0.88,
+                0.148,
+                467.25,
+                0.2
+            ],
+            [
+                0.92,
+                0.152,
+                490.875,
+                0.2
+            ],
+            [
+                0.96,
+                0.156,
+                514.5,
+                0.2
+            ],
+            [
+                1,
+                0.16,
+                538.125,
+                0.2
+            ]
+        ],
+        "icon": "icon/skill/1222_skill.png"
+    },
+    "122203": {
+        "id": "122203",
+        "name": "Nebellandschaft",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "AoEAttack",
+        "effect_text": "Flächenangriff",
+        "simple_desc": "Erhöht den erlittenen Bruch-SCH aller Gegner. Fügt allen Gegnern Feuer-SCH zu und stellt gleichzeitig bei allen Verbündeten LP wieder her. Die Aktion von Fuyuan wird vorgezogen.",
+        "desc": "Verursacht bei allen Gegnern „Benebelt“. Gegner im Status Benebelt erleiden für #5[i] Rd. #4[i]% mehr Bruch-SCH.\nFügt allen Gegnern Feuer-SCH in Höhe von #1[i]% von Lingshas ANG zu und stellt gleichzeitig bei allen Verbündeten LP in Höhe von #2[f1]% von Lingshas ANG plus #3[i] wieder her. Die Aktion von Fuyuan wird um #6[i]% vorgezogen.",
+        "params": [
+            [
+                0.9,
+                0.08,
+                90,
+                0.15,
+                2,
+                1
+            ],
+            [
+                0.96,
+                0.085,
+                144,
+                0.16,
+                2,
+                1
+            ],
+            [
+                1.02,
+                0.09,
+                184.5,
+                0.17,
+                2,
+                1
+            ],
+            [
+                1.08,
+                0.095,
+                225,
+                0.18,
+                2,
+                1
+            ],
+            [
+                1.14,
+                0.1,
+                252,
+                0.19,
+                2,
+                1
+            ],
+            [
+                1.2,
+                0.104,
+                279,
+                0.2,
+                2,
+                1
+            ],
+            [
+                1.275,
+                0.108,
+                299.25,
+                0.2125,
+                2,
+                1
+            ],
+            [
+                1.35,
+                0.112,
+                319.5,
+                0.225,
+                2,
+                1
+            ],
+            [
+                1.425,
+                0.116,
+                339.75,
+                0.2375,
+                2,
+                1
+            ],
+            [
+                1.5,
+                0.12,
+                360,
+                0.25,
+                2,
+                1
+            ],
+            [
+                1.56,
+                0.124,
+                380.25,
+                0.26,
+                2,
+                1
+            ],
+            [
+                1.62,
+                0.128,
+                400.5,
+                0.27,
+                2,
+                1
+            ],
+            [
+                1.68,
+                0.132,
+                420.75,
+                0.28,
+                2,
+                1
+            ],
+            [
+                1.74,
+                0.136,
+                441,
+                0.29,
+                2,
+                1
+            ],
+            [
+                1.8,
+                0.14,
+                461.25,
+                0.3,
+                2,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1222_ultimate.png"
+    },
+    "122204": {
+        "id": "122204",
+        "name": "Nebulöses Manifest",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "AoEAttack",
+        "effect_text": "Flächenangriff",
+        "simple_desc": "Beschwört Fuyuan durch Einsatz der Fertigkeit: Bei Fuyuans Aktion führt es Folgeangriff aus, der allen Gegnern geringen Feuer-SCH zufügt. Fügt zusätzlich einem zufälligen Gegner geringen Feuer-SCH zu, wobei Ziele mit Feuer-Schwäche und einem WDS von über 0 vorrangig getroffen werden. Entfernt 1 Debuff von allen Verbündeten und stellt bei ihnen LP wieder her.\nBeim wiederholten Einsatz der Fertigkeit wird die Aktionsanzahl von Fuyuan erhöht.",
+        "desc": "Beschwört beim Einsatz der Fertigkeit Fuyuan. Fuyuan hat anfänglich eine GES von #1[i] Pkt. und eine Aktionsanzahl von #7[i].\nBei Fuyuans Aktion führt es einen Folgeangriff aus, der allen Gegnern Feuer-SCH in Höhe von #2[i]% von Lingshas ANG zufügt. Fügt zusätzlich einem zufälligen Gegner Feuer-SCH in Höhe von #8[i]% von Lingshas ANG zu, wobei dieser SCH vorrangig bei Zielen mit Feuer-Schwäche und einem WDS von über 0 verursacht wird. Entfernt #6[i] Debuff(s) von allen Verbündeten und stellt bei ihnen LP in Höhe von #3[f1]% von Lingshas ANG plus #4[i] wieder her.\nFuyuan kann bis zu #5[i] Aktionen akkumulieren. Wenn die Aktionsanzahl auf 0 sinkt oder Lingsha handlungsunfähig wird, verschwindet Fuyuan.\nWenn Fuyuan auf dem Feld ist, erhöht der Einsatz der Fertigkeit seine Aktionsanzahl um #7[i].",
+        "params": [
+            [
+                90,
+                0.375,
+                0.08,
+                90,
+                5,
+                1,
+                3,
+                0.375
+            ],
+            [
+                90,
+                0.4125,
+                0.085,
+                144,
+                5,
+                1,
+                3,
+                0.4125
+            ],
+            [
+                90,
+                0.45,
+                0.09,
+                184.5,
+                5,
+                1,
+                3,
+                0.45
+            ],
+            [
+                90,
+                0.4875,
+                0.095,
+                225,
+                5,
+                1,
+                3,
+                0.4875
+            ],
+            [
+                90,
+                0.525,
+                0.1,
+                252,
+                5,
+                1,
+                3,
+                0.525
+            ],
+            [
+                90,
+                0.5625,
+                0.104,
+                279,
+                5,
+                1,
+                3,
+                0.5625
+            ],
+            [
+                90,
+                0.6094,
+                0.108,
+                299.25,
+                5,
+                1,
+                3,
+                0.6094
+            ],
+            [
+                90,
+                0.6562,
+                0.112,
+                319.5,
+                5,
+                1,
+                3,
+                0.6562
+            ],
+            [
+                90,
+                0.7031,
+                0.116,
+                339.75,
+                5,
+                1,
+                3,
+                0.7031
+            ],
+            [
+                90,
+                0.75,
+                0.12,
+                360,
+                5,
+                1,
+                3,
+                0.75
+            ],
+            [
+                90,
+                0.7875,
+                0.124,
+                380.25,
+                5,
+                1,
+                3,
+                0.7875
+            ],
+            [
+                90,
+                0.825,
+                0.128,
+                400.5,
+                5,
+                1,
+                3,
+                0.825
+            ],
+            [
+                90,
+                0.8625,
+                0.132,
+                420.75,
+                5,
+                1,
+                3,
+                0.8625
+            ],
+            [
+                90,
+                0.9,
+                0.136,
+                441,
+                5,
+                1,
+                3,
+                0.9
+            ],
+            [
+                90,
+                0.9375,
+                0.14,
+                461.25,
+                5,
+                1,
+                3,
+                0.9375
+            ]
+        ],
+        "icon": "icon/skill/1222_talent.png"
+    },
+    "122206": {
+        "id": "122206",
+        "name": "Angriff",
+        "max_level": 1,
+        "element": "Fire",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "SingleAttack",
+        "effect_text": "Einzelangriff",
+        "simple_desc": "",
+        "desc": "Greift den Gegner an und schwächt nach Kampfeintritt den WDS des Ziels gegen den entsprechenden Typ.",
+        "params": [],
+        "icon": "icon/skill/1222_basic_atk.png"
+    },
+    "122207": {
+        "id": "122207",
+        "name": "Flüsternder Smaragd",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technik",
+        "effect": "Support",
+        "effect_text": "Unterstützung",
+        "simple_desc": "Beschwört nach dem Einsatz der Technik zu Beginn des nächsten Kampfes sofort Fuyuan und erhöht den erlittenen Bruch-SCH aller Gegner.",
+        "desc": "Beschwört nach dem Einsatz der Technik zu Beginn des nächsten Kampfes sofort Fuyuan und belegt alle Gegner für #1[i] Rd. mit „Benebelt“.",
+        "params": [
+            [
+                2
+            ]
+        ],
+        "icon": "icon/skill/1222_technique.png"
+    },
+    "122301": {
+        "id": "122301",
+        "name": "Fliegende Säge",
+        "max_level": 9,
+        "element": "Thunder",
+        "type": "Normal",
+        "type_text": "Standardangriff",
+        "effect": "SingleAttack",
+        "effect_text": "Einzelangriff",
+        "simple_desc": "Fügt einem Gegner geringen Blitz-SCH zu.",
+        "desc": "Fügt einem anvisierten Gegner Blitz-SCH in Höhe von #1[i]% von Mozes ANG zu.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1223_basic_atk.png"
+    },
+    "122302": {
+        "id": "122302",
+        "name": "Federschneller Angriff",
+        "max_level": 15,
+        "element": "Thunder",
+        "type": "BPSkill",
+        "type_text": "Fertigkeit",
+        "effect": "SingleAttack",
+        "effect_text": "Einzelangriff",
+        "simple_desc": "Markiert einen Gegner als Beute und fügt ihm Blitz-SCH zu. Erhält 9 Pkt. Aufladung.",
+        "desc": "Markiert einen anvisierten Gegner als Beute und fügt ihm Blitz-SCH in Höhe von #1[i]% von Mozes ANG zu. Erhält #2[i] Pkt. Aufladung.\nWenn sich keine anderen handlungsfähigen Figuren auf dem Feld befinden, kann Moze seine Fertigkeit nicht einsetzen und der Status Beute wird vom Gegner entfernt.",
+        "params": [
+            [
+                0.75,
+                9
+            ],
+            [
+                0.825,
+                9
+            ],
+            [
+                0.9,
+                9
+            ],
+            [
+                0.975,
+                9
+            ],
+            [
+                1.05,
+                9
+            ],
+            [
+                1.125,
+                9
+            ],
+            [
+                1.2188,
+                9
+            ],
+            [
+                1.3125,
+                9
+            ],
+            [
+                1.4062,
+                9
+            ],
+            [
+                1.5,
+                9
+            ],
+            [
+                1.575,
+                9
+            ],
+            [
+                1.65,
+                9
+            ],
+            [
+                1.725,
+                9
+            ],
+            [
+                1.8,
+                9
+            ],
+            [
+                1.875,
+                9
+            ]
+        ],
+        "icon": "icon/skill/1223_skill.png"
+    },
+    "122303": {
+        "id": "122303",
+        "name": "Spitze Schatten verborgener Klingen",
+        "max_level": 15,
+        "element": "Thunder",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "SingleAttack",
+        "effect_text": "Einzelangriff",
+        "simple_desc": "Fügt einem Gegner Blitz-SCH zu und startet den Folgeangriff des Talents.",
+        "desc": "Fügt einem anvisierten Gegner Blitz-SCH in Höhe von #1[i]% von Mozes ANG zu und startet einen Folgeangriff seines Talents auf dieses Ziel. Wenn das Ziel vor dem Einsatz dieses Folgeangriffs besiegt wird, wird der Folgeangriff auf einen zufälligen Gegner ausgeübt.",
+        "params": [
+            [
+                1.62
+            ],
+            [
+                1.728
+            ],
+            [
+                1.836
+            ],
+            [
+                1.944
+            ],
+            [
+                2.052
+            ],
+            [
+                2.16
+            ],
+            [
+                2.295
+            ],
+            [
+                2.43
+            ],
+            [
+                2.565
+            ],
+            [
+                2.7
+            ],
+            [
+                2.808
+            ],
+            [
+                2.916
+            ],
+            [
+                3.024
+            ],
+            [
+                3.132
+            ],
+            [
+                3.24
+            ]
+        ],
+        "icon": "icon/skill/1223_ultimate.png"
+    },
+    "122304": {
+        "id": "122304",
+        "name": "Federstich im Sturzflug",
+        "max_level": 15,
+        "element": "Thunder",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "SingleAttack",
+        "effect_text": "Einzelangriff",
+        "simple_desc": "Wenn sich „Beute“ auf dem Feld befindet, tritt Moze in den Status Abgang ein.\nNachdem ein Verbündeter die Beute angegriffen hat, verursacht Moze zusätzlichen Blitz-SCH und verbraucht 1 Pkt. Aufladung. Für je 3 Pkt. verbrauchte Aufladung startet Moze einen Folgeangriff auf die Beute, der Blitz-SCH verursacht. Wenn die Aufladung 0 erreicht, wird der Status Beute vom Ziel entfernt.",
+        "desc": "Wenn sich „Beute“ auf dem Feld befindet, tritt Moze in den Status Abgang ein.\nNachdem ein Verbündeter die Beute angegriffen hat, verursacht Moze 1-mal zusätzlichen Blitz-SCH in Höhe von #1[i]% seines ANG und verbraucht 1 Pkt. Aufladung. Für je #2[i] Pkt. verbrauchte Aufladung startet Moze 1-mal einen Folgeangriff auf die Beute, der Blitz-SCH in Höhe von #3[i]% seines ANG verursacht. Wenn die Aufladung 0 erreicht, wird der Status Beute vom Ziel entfernt und der Zähler für die zum Folgeangriff benötigte Aufladung zurückgesetzt. Der Folgeangriff des Talents verbraucht keine Aufladung.",
+        "params": [
+            [
+                0.15,
+                3,
+                0.8
+            ],
+            [
+                0.165,
+                3,
+                0.88
+            ],
+            [
+                0.18,
+                3,
+                0.96
+            ],
+            [
+                0.195,
+                3,
+                1.04
+            ],
+            [
+                0.21,
+                3,
+                1.12
+            ],
+            [
+                0.225,
+                3,
+                1.2
+            ],
+            [
+                0.2437,
+                3,
+                1.3
+            ],
+            [
+                0.2625,
+                3,
+                1.4
+            ],
+            [
+                0.2812,
+                3,
+                1.5
+            ],
+            [
+                0.3,
+                3,
+                1.6
+            ],
+            [
+                0.315,
+                3,
+                1.68
+            ],
+            [
+                0.33,
+                3,
+                1.76
+            ],
+            [
+                0.345,
+                3,
+                1.84
+            ],
+            [
+                0.36,
+                3,
+                1.92
+            ],
+            [
+                0.375,
+                3,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1223_talent.png"
+    },
+    "122306": {
+        "id": "122306",
+        "name": "Angriff",
+        "max_level": 1,
+        "element": "Thunder",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Greift den Gegner an und schwächt nach Kampfeintritt den WDS des Ziels gegen den entsprechenden Typ.",
+        "params": [],
+        "icon": "icon/skill/1223_basic_atk.png"
+    },
+    "122307": {
+        "id": "122307",
+        "name": "Unsichtbare Flügel",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technik",
+        "effect": "Enhance",
+        "effect_text": "Verstärkung",
+        "simple_desc": "Tritt in den Status Tarnung ein. Wenn in diesem Status durch Angriff auf den Gegner ein Kampf eingeleitet wird, wird der verursachte SCH erhöht.",
+        "desc": "Nach dem Einsatz der Technik erhält Moze für #1[i] Sek. Tarnung. Während Tarnung aktiv ist, ist Moze für Gegner unsichtbar. Wenn er in diesem Status durch Angriffe auf Gegner einen Kampf einleitet, wird sein verursachter SCH für #3[i] Rd. um #2[i]% erhöht.",
+        "params": [
+            [
+                20,
+                0.3,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1223_technique.png"
+    },
     "122401": {
         "id": "122401",
         "name": "Kristallschwert der Geisteraustreibung",
@@ -14625,7 +15948,7 @@
         "effect": "Enhance",
         "effect_text": "Verstärkung",
         "simple_desc": "Nachdem der Meister einen Angriff oder seinen Ultimate eingesetzt hat, erhält 7. März eine Aufladung. Wenn die Aufladung 7 Pkt. erreicht, führt 7. März sofort eine Aktion aus, wobei ihr verursachter SCH erhöht und ihr Standardangriff verstärkt wird.",
-        "desc": "Nachdem der Meister einen Angriff oder seinen Ultimate eingesetzt hat, erhält 7. März jedes Mal bis zu 1 Pkt. Aufladung.\nWenn die Aufladung #1[i] Pkt. oder mehr erreicht, führt 7. März sofort eine Aktion aus, wobei ihr verursachter SCH um #2[i]% erhöht wird. Außerdem wird ihr Standardangriff verstärkt und ihre Fertigkeit kann nicht verwendet werden. Verbraucht nach dem Einsatz ihres verstärkten Standardangriffs #1[i] Pkt. Aufladung, bis zu #3[i] Pkt.",
+        "desc": "Nachdem der Meister einen Angriff oder seinen Ultimate eingesetzt hat, erhält 7. März jedes Mal bis zu 1 Pkt. Aufladung.\nWenn die Aufladung #1[i] Pkt. oder mehr erreicht, führt 7. März sofort eine Aktion aus, wobei ihr verursachter SCH um #2[i]% erhöht wird. Außerdem wird ihr Standardangriff verstärkt und ihre Fertigkeit kann nicht verwendet werden. Verbraucht nach dem Einsatz ihres verstärkten Standardangriffs #1[i] Pkt. Aufladung. Die Aufladung ist auf #3[i] Pkt. begrenzt.",
         "params": [
             [
                 7,
@@ -20566,7 +21889,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Verstärkung",
-        "simple_desc": "",
+        "simple_desc": "Jedes Mal, wenn die Schwäche eines Gegners gebrochen wird, wird der ANG erhöht.",
         "desc": "Jedes Mal, wenn die Schwäche eines Gegners gebrochen wird, wird der ANG um #1[i]% erhöht. Dieser Effekt ist bis zu #2[i]-fach stapelbar.",
         "params": [
             [
@@ -20655,7 +21978,7 @@
         "type_text": "Technik",
         "effect": "Restore",
         "effect_text": "Wiederherstellung",
-        "simple_desc": "",
+        "simple_desc": "Nach dem Einsatz der Technik wird bei allen Verbündeten LP wiederhergestellt.",
         "desc": "Stellt unmittelbar nach dem Einsatz der Technik allen Verbündeten #1[i]% ihrer max. LP wieder her.",
         "params": [
             [
@@ -21000,7 +22323,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Verstärkung",
-        "simple_desc": "",
+        "simple_desc": "Jedes Mal, wenn die Schwäche eines Gegners gebrochen wird, wird der ANG erhöht.",
         "desc": "Jedes Mal, wenn die Schwäche eines Gegners gebrochen wird, wird der ANG um #1[i]% erhöht. Dieser Effekt ist bis zu #2[i]-fach stapelbar.",
         "params": [
             [
@@ -21089,7 +22412,7 @@
         "type_text": "Technik",
         "effect": "Restore",
         "effect_text": "Wiederherstellung",
-        "simple_desc": "",
+        "simple_desc": "Nach dem Einsatz der Technik wird bei allen Verbündeten LP wiederhergestellt.",
         "desc": "Stellt unmittelbar nach dem Einsatz der Technik allen Verbündeten #1[i]% ihrer max. LP wieder her.",
         "params": [
             [
@@ -21449,7 +22772,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Verstärkung",
-        "simple_desc": "",
+        "simple_desc": "Bei erlittenen Angriffen wird „Magma-Wille“ gestapelt. Bei nicht weniger als 4 Stapelungen Magma-Wille wird der Standardangriff verstärkt. Nach dem Einsatz von Standardangriff, Fertigkeit oder Ultimate wird allen Verbündeten ein Schild gewährt.",
         "desc": "Wenn {M#der Trailblazer}{F#die Trailblazerin} angegriffen wird, erhält {F#sie}{M#er} 1 Stapelung „Magma-Wille“, bis zu max. #3[i]-fach stapelbar.\nAb 4 Stapelungen Magma-Willen wird der Standardangriff verstärkt und fügt einem anvisierten Gegner sowie angrenzenden Zielen SCH zu.\n{M#Der Trailblazer}{F#Die Trailblazerin} gewährt allen Verbündeten einen Schild, nachdem {F#sie}{M#er} den Standardangriff, die Fertigkeit oder den Ultimate eingesetzt hat, der SCH in Höhe von #1[f1]% von der VTD {M#des Trailblazers}{F#der Trailblazerin} plus #4[i] für #2[i] Rd. blockieren kann.",
         "params": [
             [
@@ -21568,7 +22891,7 @@
         "type_text": "Technik",
         "effect": "Defence",
         "effect_text": "Verteidigung",
-        "simple_desc": "",
+        "simple_desc": "Nach dem Einsatz der Technik wird dieser Einheit zu Beginn des nächsten Kampfes ein Schild verliehen.",
         "desc": "Erhält nach dem Einsatz der Technik und zu Beginn des nächsten Kampfes einen Schild, der SCH in Höhe von #1[i]% von der VTD {M#des Trailblazers}{F#der Trailblazerin} plus #2[i] für #3[i] Rd. blockieren kann.",
         "params": [
             [
@@ -21846,7 +23169,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Verstärkung",
-        "simple_desc": "",
+        "simple_desc": "Bei erlittenen Angriffen wird „Magma-Wille“ gestapelt. Bei nicht weniger als 4 Stapelungen Magma-Wille wird der Standardangriff verstärkt. Nach dem Einsatz von Standardangriff, Fertigkeit oder Ultimate wird allen Verbündeten ein Schild gewährt.",
         "desc": "Wenn {M#der Trailblazer}{F#die Trailblazerin} angegriffen wird, erhält {F#sie}{M#er} 1 Stapelung „Magma-Wille“, bis zu max. #3[i]-fach stapelbar.\nAb 4 Stapelungen Magma-Willen wird der Standardangriff verstärkt und fügt einem anvisierten Gegner sowie angrenzenden Zielen SCH zu.\n{M#Der Trailblazer}{F#Die Trailblazerin} gewährt allen Verbündeten einen Schild, nachdem {F#sie}{M#er} den Standardangriff, die Fertigkeit oder den Ultimate eingesetzt hat, der SCH in Höhe von #1[f1]% von der VTD {M#des Trailblazers}{F#der Trailblazerin} plus #4[i] für #2[i] Rd. blockieren kann.",
         "params": [
             [
@@ -21965,7 +23288,7 @@
         "type_text": "Technik",
         "effect": "Defence",
         "effect_text": "Verteidigung",
-        "simple_desc": "",
+        "simple_desc": "Nach dem Einsatz der Technik wird dieser Einheit zu Beginn des nächsten Kampfes ein Schild verliehen.",
         "desc": "Erhält nach dem Einsatz der Technik und zu Beginn des nächsten Kampfes einen Schild, der SCH in Höhe von #1[i]% von der VTD {M#des Trailblazers}{F#der Trailblazerin} plus #2[i] für #3[i] Rd. blockieren kann.",
         "params": [
             [
