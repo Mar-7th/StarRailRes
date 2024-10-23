@@ -906,7 +906,7 @@
         "type_text": "Talent",
         "effect": "AoEAttack",
         "effect_text": "ZdE",
-        "simple_desc": "Obtient un point de Charge lorsqu'un ennemi subit une Rupture de faiblesse.\nLorsque la Charge est complète, après une attaque alliée, Himeko lance immédiatement une attaque de suivi qui inflige des DGT de feu à tous les ennemis, en consommant tous les points de Charge.\nGagne 1 point de Charge au début de chaque combat.",
+        "simple_desc": "Obtient de la Charge en début de combat ou lorsqu'une unité ennemie subit une Rupture de faiblesse.\nLorsqu'une cible alliée attaque et que la Charge est complète, Himeko lance une attaque de suivi qui inflige des DGT de feu à tous les ennemis, en consommant tous les points de Charge.",
         "desc": "Lorsqu'un ennemi subit une Rupture de faiblesse, Himeko obtient 1 point de Charge (#2[i] points max).\nSi la Charge de Himeko est au maximum lorsqu'un allié attaque, Himeko effectue immédiatement 1 attaque de suivi et inflige des DGT de feu équivalents à #1[i]% de son ATQ à tous les ennemis, consommant tous les points de Charge.\nHimeko obtient 1 point de Charge en début de combat.",
         "params": [
             [
@@ -3053,7 +3053,7 @@
         "type_text": "Technique",
         "effect": "Enhance",
         "effect_text": "Renforcement",
-        "simple_desc": "après avoir utilisé la technique, augmente l'ATQ de cette unité au début du combat suivant.",
+        "simple_desc": "Augmente l'ATQ de cette unité au début du prochain combat après avoir utilisé la technique.",
         "desc": "Après utilisation de sa technique, l'ATQ de Herta augmente de #1[i]% pendant #2[i] tours au début du combat suivant.",
         "params": [
             [
@@ -3758,7 +3758,7 @@
         "type_text": "Compétence",
         "effect": "Blast",
         "effect_text": "Propagation",
-        "simple_desc": "Inflige des DGT de foudre à un ennemi et aux cibles adjacentes, avec de fortes chances de provoquer Stupéfaction.",
+        "simple_desc": "Inflige des DGT de foudre à un ennemi et des DGT de foudre mineurs aux cibles adjacentes, avec de fortes chances d'appliquer Stupéfaction à la cible.",
         "desc": "Inflige des DGT de foudre équivalents à #1[i]% de l'ATQ de Serval à un ennemi unique et des DGT de foudre équivalents à #2[i]% de l'ATQ de Serval aux ennemis adjacents, avec #3[i]% de chances de base de stupéfier les ennemis touchés pendant #4[i] tours.\nLes ennemis stupéfiés subissent des dégâts de foudre sur la durée équivalents à #5[i]% de l'ATQ de Serval au début de chaque tour.",
         "params": [
             [
@@ -6060,7 +6060,7 @@
         "type_text": "Technique",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "Attaque l'ennemi. Inflige des DGT de feu à un ennemi unique aléatoire, avec de fortes chances d'appliquer Brûlure à toutes les cibles ennemies après être entré en combat.",
+        "simple_desc": "Engage le combat contre les ennemis. Inflige des DGT de feu mineurs à un ennemi aléatoire après être entré en combat, avec de fortes chances d'infliger l'effet Brûlure à chaque ennemi.",
         "desc": "Engage immédiatement le combat contre les ennemis. Hook inflige des DGT de feu équivalents à #4[i]% de son ATQ à un ennemi aléatoire en entrant en combat. D'autre part, il y a #1[i]% de chances de base d'infliger Brûlure à tous les ennemis pendant #3[i] tours.\nLes ennemis affectés par l'état Brûlure subissent des dégâts de feu sur la durée équivalents à #2[i]% de l'ATQ de Hook au début de chaque tour.",
         "params": [
             [
@@ -7283,7 +7283,7 @@
         "type_text": "Talent",
         "effect": "SingleAttack",
         "effect_text": "Cible unique",
-        "simple_desc": "Invoque Compti en début de combat. Compti inflige des attaques de suivi à la cible de Reconnaissance de dette lorsqu'il effectue une action. L'action de Compti est avancée lorsque les ennemis avec Reconnaissance de dette subissent des DGT de la part d'attaques de suivi.",
+        "simple_desc": "Invoque Compti en début de combat. Lorsque Compti agit, il lance une attaque de suivi à la cible de Reconnaissance de dette, ce qui lui inflige des DGT de feu.\nL'action de Compti est avancée lorsqu'un ennemi avec Reconnaissance de dette subit une attaque de suivi.",
         "desc": "Invoque Compti en début de combat. Compti a une VIT de #1[i] par défaut. Lorsque Compti effectue une action, il lance des attaques de suivi sur la cible de Reconnaissance de dette, lui infligeant des DGT de feu équivalents à #2[i]% de l'ATQ de Topaz.\nL'action de Compti avance de #3[i]% lorsque les ennemis victimes de Reconnaissance de dette subissent des attaques de suivi de la part des alliés. L'action de Compti ne peut pas être avancée au cours de son propre tour.\nCompti disparaît quand Topaz tombe à terre.",
         "params": [
             [
@@ -8617,7 +8617,7 @@
         "type_text": "Talent",
         "effect": "Bounce",
         "effect_text": "Rebond",
-        "simple_desc": "Invoque le Seigneur de la foudre au début du combat. Le Seigneur de la foudre inflige des DGT de foudre mineurs automatiquement à une cible ennemie aléatoire et aux ennemis adjacents.",
+        "simple_desc": "Invoque le Seigneur de la foudre en début de combat. Lorsque le Seigneur de la foudre agit, il lance une attaque de suivi qui inflige automatiquement des DGT de foudre mineurs à un ennemi aléatoire et aux cibles adjacentes.",
         "desc": "Invoque le Seigneur de la foudre en début de combat. Le Seigneur de la foudre dispose d'une VIT de base de #1[i] et d'un nombre de frappes par action de base de #4[i]. Lorsque le Seigneur de la foudre agit, ses frappes sont considérées comme des attaques de suivi, chacune infligeant des DGT de foudre équivalents à #2[i]% de l'ATQ de Jing Yuan à un ennemi unique aléatoire, et les ennemis adjacents subissent également des DGT de foudre équivalents à #5[i]% des DGT infligés à la cible ennemie principale.\nLe nombre de frappes par action du Seigneur de la foudre peut atteindre un maximum de #6[i]. Chaque fois que le nombre de frappes par action du Seigneur de la foudre augmente de 1, sa VIT augmente de #3[i]. Une fois l'action du Seigneur de la foudre terminée, sa VIT et son nombre de frappes par action retrouvent leurs valeurs de base.\nLorsque Jing Yuan est à terre, le Seigneur de la foudre disparaît.\nLorsque Jing Yuan est affecté par un malus de contrôle, le Seigneur de la foudre ne peut plus agir.",
         "params": [
             [
@@ -9081,7 +9081,7 @@
         "type_text": "Talent",
         "effect": "AoEAttack",
         "effect_text": "ZdE",
-        "simple_desc": "Chaque fois que Blade perd des PV, il gagne 1 cumul de Charge. Lorsque le nombre de cumuls de Charge est au maximum, Blade inflige immédiatement des DGT de vent à tous les ennemis et restaure des PV, consommant tous les cumuls de Charge.",
+        "simple_desc": "Lorsque les PV de Blade diminuent, il gagne 1 cumul de Charge. Lorsque la Charge est au maximum, il lance une attaque de suivi, ce qui inflige des DGT de vent à tous les ennemis, restaure des PV et consomme toutes les Charges.",
         "desc": "Chaque fois que Blade subit des DGT ou consomme ses PV, il gagne 1 cumul de Charge, jusqu'à un maximum de 5 cumuls. Blade ne peut gagner qu'1 cumul de Charge au maximum pour chaque attaque qu'il subit.\nLorsque le nombre de cumuls de Charge atteint son maximum, il lance immédiatement une attaque de suivi sur tous les ennemis, infligeant des DGT de vent équivalents à #2[i]% de son ATQ + #4[i]% de ses PV max. Blade restaure également #3[i]% de ses PV max. Toutes les Charges sont consommées après avoir déclenché l'attaque de suivi.",
         "params": [
             [
@@ -10014,8 +10014,8 @@
         "type_text": "Compétence",
         "effect": "Defence",
         "effect_text": "Défense",
-        "simple_desc": "Active Matrice de prémonition. Les DGT subis par les alliés de Fu Xuan lui sont transférés. D'autre part, augmente les chances de coup critique et les PV max de tous les alliés.",
-        "desc": "Active Matrice de prémonition, ce qui permet aux autres membres de l'équipe de Fu Xuan de lui transférer #1[i]% des DGT qu'ils subissent (avant que ces DGT ne soient atténués par d'éventuels boucliers) pendant #3[i] tours.\nLorsqu'ils sont affectés par Matrice de prémonition, tous les membres de l'équipe bénéficient de l'effet Connaissance, qui augmente leurs PV max respectifs à hauteur de #4[f1]% des PV max de Fu Xuan, et leurs chances de coup critique de #5[f1]%.\nMatrice de prémonition se dissipe lorsque Fu Xuan est à terre.",
+        "simple_desc": "Active Matrice de prémonition. Les DGT subis par les coéquipiers de Fu Xuan lui sont transférés. D'autre part, augmente les chances de coup critique et les PV max de tous les alliés.",
+        "desc": "Active Matrice de prémonition, ce qui permet aux coéquipiers de Fu Xuan de lui transférer #1[i]% des DGT qu'ils subissent (avant que ces DGT ne soient atténués par d'éventuels boucliers) pendant #3[i] tours.\nLorsqu'elles sont affectées par Matrice de prémonition, toutes les cibles alliées bénéficient de l'effet Connaissance, qui augmente leurs PV max respectifs à hauteur de #4[f1]% des PV max de Fu Xuan, et leurs chances de coup critique de #5[f1]%.\nMatrice de prémonition se dissipe lorsque Fu Xuan est à terre.",
         "params": [
             [
                 0.65,
@@ -11321,8 +11321,8 @@
         "type_text": "Talent",
         "effect": "Restore",
         "effect_text": "Restauration",
-        "simple_desc": "Les alliés qui bénéficient de Revigoration regagnent des PV après avoir été attaqués.\nLorsqu'un allié subit un coup fatal, Bailu lui restaure immédiatement des PV. Cet effet ne peut être déclenché qu'1 seule fois par combat.",
-        "desc": "Lorsqu'un allié qui bénéficie de Revigoration est touché, restaure ses PV à hauteur de #1[f1]% des PV max de Bailu + #2[i]. Cet effet peut se déclencher #5[i] fois.\nQuand un allié subit un coup fatal, il ne tombe pas à terre, mais Bailu le soigne immédiatement à hauteur de #3[f1]% de ses propres PV max + #4[i]. Cet effet peut être déclenché 1 fois par combat.",
+        "simple_desc": "Les cibles alliées qui bénéficient de Revigoration regagnent des PV après avoir été attaquées.\nLorsqu'un coéquipier subit un coup fatal, Bailu lui restaure immédiatement des PV. Cet effet ne peut être déclenché qu'1 seule fois par combat.",
+        "desc": "Lorsqu'une cible alliée qui bénéficie de Revigoration est touchée, restaure ses PV à hauteur de #1[f1]% des PV max de Bailu + #2[i]. Cet effet peut se déclencher #5[i] fois.\nQuand un coéquipier de Bailu subit un coup fatal, il ne tombe pas à terre, mais Bailu le soigne immédiatement à hauteur de #3[f1]% de ses propres PV max + #4[i]. Cet effet peut être déclenché 1 fois par combat.",
         "params": [
             [
                 0.036,
@@ -11695,8 +11695,8 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Renforcement",
-        "simple_desc": "Lorsque Jingliu possède 2 cumuls de Syzygie, elle entre en état de Migration spectrale, ce qui avance son action de 100 %, augmente ses chances de coup critique et renforce sa compétence. Utiliser une attaque dans cet état consomme les PV de tous les autres alliés et augmente l'ATQ de Jingliu en fonction du total de PV consommés. Jingliu sort de l'état Migration spectrale lorsque les cumuls de Syzygie tombent à 0.",
-        "desc": "Lorsque Jingliu possède #5[i] cumuls de Syzygie, elle entre en état de Migration spectrale, ce qui avance son action de #6[i]% et augmente ses chances de coup critique de #7[i]%. La compétence de Jingliu Éclair transcendant est alors renforcée pour se transformer en Reflet de lune sur rivière glacée, et devient la seule capacité disponible en combat. Lorsque Jingliu utilise une attaque dans l'état Migration spectrale, elle consomme #2[i]% des PV max respectifs des alliés (les PV des alliés ne peuvent pas être réduits en dessous de 1). L'ATQ de Jingliu augmente à hauteur de #3[i]% du total de PV consommés chez tous les alliés lors de cette attaque, sans excéder #4[i]% de son ATQ de base, jusqu'à la fin de l'attaque en cours. Jingliu ne peut pas entrer à nouveau dans l'état Migration spectrale jusqu'à ce que l'état Migration spectrale actuel se termine. Syzygie peut se cumuler jusqu'à 3 fois. Jingliu sort de l'état Migration spectrale lorsque les cumuls de Syzygie tombent à 0.",
+        "simple_desc": "Lorsque Jingliu possède 2 cumuls de Syzygie, elle entre en état de Migration spectrale, ce qui avance son action de 100 %, augmente ses chances de coup critique et renforce sa compétence. Utiliser une attaque dans cet état consomme les PV de tous les autres coéquipiers et augmente l'ATQ de Jingliu en fonction du total de PV consommés. Jingliu sort de l'état Migration spectrale lorsque les cumuls de Syzygie tombent à 0.",
+        "desc": "Lorsque Jingliu possède #5[i] cumuls de Syzygie, elle entre en état de Migration spectrale, ce qui avance son action de #6[i]% et augmente ses chances de coup critique de #7[i]%. La compétence de Jingliu Éclair transcendant est alors renforcée pour se transformer en Reflet de lune sur rivière glacée, et devient la seule capacité disponible en combat. Lorsque Jingliu utilise une attaque dans l'état Migration spectrale, elle consomme #2[i]% des PV max respectifs des coéquipiers (les PV des coéquipiers ne peuvent pas être réduits en dessous de 1). L'ATQ de Jingliu augmente à hauteur de #3[i]% du total de PV consommés chez tous les alliés lors de cette attaque, sans excéder #4[i]% de son ATQ de base, jusqu'à la fin de l'attaque en cours. Jingliu ne peut pas entrer à nouveau dans l'état Migration spectrale jusqu'à ce que l'état Migration spectrale actuel se termine. Syzygie peut se cumuler jusqu'à 3 fois. Jingliu sort de l'état Migration spectrale lorsque les cumuls de Syzygie tombent à 0.",
         "params": [
             [
                 0.3,
@@ -13262,8 +13262,8 @@
         "type_text": "Ultime",
         "effect": "Support",
         "effect_text": "Soutien",
-        "simple_desc": "Régénère des points d'énergie pour tous les alliés, hormis Huohuo, et augmente leur ATQ.",
-        "desc": "Régénère des points d'énergie pour tous les alliés, hormis Huohuo, à hauteur de #1[f1]% de leur énergie max respective. Augmente aussi leur ATQ de #2[f1]% pendant #3[i] tours.",
+        "simple_desc": "Régénère des points d'énergie pour tous les coéquipiers, hormis Huohuo, et augmente leur ATQ.",
+        "desc": "Régénère des points d'énergie pour tous les coéquipiers (à l'exception de cette unité), hormis Huohuo, à hauteur de #1[f1]% de leur énergie max respective. Augmente aussi leur ATQ de #2[f1]% pendant #3[i] tours.",
         "params": [
             [
                 0.15,
@@ -14001,7 +14001,7 @@
         "effect": "SingleAttack",
         "effect_text": "Cible unique",
         "simple_desc": "Inflige des DGT de vent à un ennemi, et déclenche l'attaque de suivi du talent 1 fois.",
-        "desc": "Inflige des DGT de vent équivalents à #1[i]% de l'ATQ de Feixiao à une cible ennemie, puis lance immédiatement 1 instance de l'attaque de suivi du talent contre la cible.",
+        "desc": "Inflige des DGT de vent équivalents à #1[i]% de l'ATQ de Feixiao à une cible ennemie unique, puis lance immédiatement 1 instance supplémentaire de l'attaque de suivi du talent contre la cible.",
         "params": [
             [
                 1
@@ -14061,7 +14061,7 @@
         "effect": "SingleAttack",
         "effect_text": "Cible unique",
         "simple_desc": "L'ultime permet d'ignorer les types de faiblesses de l'ennemi pour réduire sa robustesse. Si la cible n'est pas en état de Rupture de faiblesse, l'efficacité de Rupture de faiblesse de Feixiao augmente. \nLance Éclair tonitruant des étoiles ou Hache de guerre céleste sur un ennemi unique 6 fois et inflige des DGT de vent à la fin.",
-        "desc": "Inflige des DGT de vent équivalents à #4[i]% de l'ATQ de Feixiao à une cible ennemie unique, en ignorant ses types de faiblesses pour réduire sa robustesse. Si la cible n'est pas en état de Rupture de faiblesse, l'efficacité de Rupture de faiblesse de Feixiao augmente de #2[i]%.\nDurant l'attaque, Feixiao déclenche d'abord Éclair tonitruant des étoiles ou Hache de guerre céleste #3[i] fois sur la cible.\nPuis elle inflige des DGT de vent équivalents à #1[i]% de son ATQ à la cible.",
+        "desc": "Inflige des DGT de vent équivalents à #4[i]% de l'ATQ de Feixiao à une cible ennemie unique, en ignorant ses types de faiblesses pour réduire sa robustesse. Si la cible n'est pas en état de Rupture de faiblesse, l'efficacité de Rupture de faiblesse de Feixiao augmente de #2[i]%.\nDurant l'attaque, Feixiao déclenche d'abord Éclair tonitruant des étoiles ou Hache de guerre céleste #3[i] fois sur la cible.\nPuis, elle inflige des DGT de vent équivalents à #1[i]% de son ATQ à la cible.",
         "params": [
             [
                 0.96,
@@ -14412,7 +14412,7 @@
         "type_text": "Ultime",
         "effect": "SingleAttack",
         "effect_text": "Cible unique",
-        "simple_desc": "Inflige des DGT de vent mineurs à un ennemi unique et augmente le multiplicateur de DGT contre les ennemis qui ne subissent pas de Rupture de faiblesse.",
+        "simple_desc": "Inflige des DGT de vent mineurs à un ennemi unique et augmente le multiplicateur de DGT contre les cibles qui ne subissent pas de Rupture de faiblesse.",
         "desc": "Inflige des DGT de vent équivalents à #1[i]% de l'ATQ de Feixiao à une cible sélectionnée. Si la cible n'est pas en état de Rupture de faiblesse, le multiplicateur de DGT augmente de #2[i]%.",
         "params": [
             [
@@ -14487,9 +14487,100 @@
         "type_text": "Ultime",
         "effect": "SingleAttack",
         "effect_text": "Cible unique",
-        "simple_desc": "",
+        "simple_desc": "L'ultime permet d'ignorer les types de faiblesses de l'ennemi pour réduire sa robustesse. Si la cible n'est pas en état de Rupture de faiblesse, l'efficacité de Rupture de faiblesse de Feixiao augmente. \nLance Éclair tonitruant des étoiles ou Hache de guerre céleste sur un ennemi unique 6 fois et inflige des DGT de vent à la fin.",
         "desc": "",
-        "params": [],
+        "params": [
+            [
+                0.96,
+                1,
+                6,
+                4.02
+            ],
+            [
+                1.024,
+                1,
+                6,
+                4.318
+            ],
+            [
+                1.088,
+                1,
+                6,
+                4.616
+            ],
+            [
+                1.152,
+                1,
+                6,
+                4.914
+            ],
+            [
+                1.216,
+                1,
+                6,
+                5.212
+            ],
+            [
+                1.28,
+                1,
+                6,
+                5.51
+            ],
+            [
+                1.36,
+                1,
+                6,
+                5.8825
+            ],
+            [
+                1.44,
+                1,
+                6,
+                6.255
+            ],
+            [
+                1.52,
+                1,
+                6,
+                6.6275
+            ],
+            [
+                1.6,
+                1,
+                6,
+                7
+            ],
+            [
+                1.664,
+                1,
+                6,
+                7.298
+            ],
+            [
+                1.728,
+                1,
+                6,
+                7.596
+            ],
+            [
+                1.792,
+                1,
+                6,
+                7.894
+            ],
+            [
+                1.856,
+                1,
+                6,
+                8.192
+            ],
+            [
+                1.92,
+                1,
+                6,
+                8.49
+            ]
+        ],
         "icon": "icon/skill/1220_ultimate.png"
     },
     "122101": {
@@ -14543,7 +14634,7 @@
         "type_text": "Compétence",
         "effect": "Blast",
         "effect_text": "Propagation",
-        "simple_desc": "Restaure des PV au personnage et inflige des DGT physiques mineurs à un ennemi unique et aux cibles adjacentes.",
+        "simple_desc": "Restaure des PV à cette unité. Inflige des DGT physiques à un ennemi et des DGT physiques mineurs aux cibles adjacentes.",
         "desc": "Restaure des PV équivalents à #3[f1]% de l'ATQ de Yunli + #4[i], et inflige des DGT physiques équivalents à #1[i]% de l'ATQ de Yunli à une cible ennemie unique et des DGT physiques équivalents à #2[i]% de l'ATQ de Yunli aux cibles adjacentes.",
         "params": [
             [
@@ -14813,7 +14904,7 @@
         "type_text": "Talent",
         "effect": "Blast",
         "effect_text": "Propagation",
-        "simple_desc": "Quand Yunli est attaquée par une cible ennemie, elle régénère de l'énergie supplémentaire et lance immédiatement un contre sur l'assaillant et les cibles adjacentes.",
+        "simple_desc": "Quand Yunli est attaquée par une cible ennemie, elle régénère de l'énergie supplémentaire et lance immédiatement un contre, ce qui inflige des DGT physiques à l'assaillant et des DGT physiques mineurs aux cibles adjacentes.",
         "desc": "Quand Yunli est attaquée par une cible ennemie, elle régénère #3[i] points d'énergie et lance immédiatement un contre sur l'assaillant, ce qui lui inflige des DGT physiques équivalents à #1[i]% de l'ATQ de Yunli et inflige des DGT physiques équivalents à #2[i]% de l'ATQ de Yunli aux cibles adjacentes.\nContre une cible ennemie aléatoire s'il n'y a aucune cible immédiate à contrer.",
         "params": [
             [
@@ -15219,7 +15310,7 @@
         "effect": "AoEAttack",
         "effect_text": "ZdE",
         "simple_desc": "Utiliser la compétence invoque Fuyuan. Lors de son action, Fuyuan lance une attaque de suivi et inflige des DGT de feu mineurs à tous les ennemis. D'autre part, inflige des DGT de feu mineurs à un ennemi unique aléatoire, en priorisant les cibles dont la robustesse est supérieure à 0 et qui ont une Faiblesse au feu. Dissipe 1 malus à tous les alliés et restaure des PV.\nUtiliser la compétence de façon répétée augmente le nombre d'actions de Fuyuan.",
-        "desc": "Lors de l'utilisation de la compétence, invoque Fuyuan, dont la VIT de départ est de #1[i] et le nombre d'actions initial est de #7[i].\nLors de son action, Fuyuan lance une attaque de suivi qui inflige des DGT de feu équivalents à #2[i]% de l'ATQ de Lingsha à tous les ennemis. D'autre part, inflige des DGT de feu équivalents à #8[i]% de l'ATQ de Lingsha à un ennemi unique aléatoire, cette instance de DGT priorisant les cibles dont la robustesse est supérieure à 0 et qui ont une Faiblesse au feu. Dissipe #6[i] malus sur les alliés et restaure un montant de PV équivalent à #3[f1]% de l'ATQ de Lingsha + #4[i].\nFuyuan peut cumuler jusqu'à #5[i] actions. Fuyuan disparaît lorsque son nombre d'actions tombe à 0 ou que Lingsha est à terre.\nLorsque Fuyuan est sur le champ de bataille, utiliser la compétence augmente le nombre d'actions de Fuyuan de #7[i].",
+        "desc": "Lors de l'utilisation de la compétence, invoque Fuyuan, dont la VIT de départ est de #1[i] et le nombre d'actions initial est de #7[i].\nLors de son action, Fuyuan lance une attaque de suivi qui inflige des DGT de feu équivalents à #2[i]% de l'ATQ de Lingsha à tous les ennemis. D'autre part, inflige des DGT de feu équivalents à #8[i]% de l'ATQ de Lingsha à un ennemi unique aléatoire, cette instance de DGT priorisant les cibles dont la robustesse est supérieure à 0 et qui ont une Faiblesse au feu. Dissipe #6[i] malus sur tous les alliés et restaure un montant de PV équivalent à #3[f1]% de l'ATQ de Lingsha + #4[i].\nFuyuan peut cumuler jusqu'à #5[i] actions. Fuyuan disparaît lorsque son nombre d'actions tombe à 0 ou que Lingsha est à terre.\nLorsque Fuyuan est sur le champ de bataille, utiliser la compétence augmente le nombre d'actions de Fuyuan de #7[i].",
         "params": [
             [
                 90,
@@ -15697,7 +15788,7 @@
         "effect": "Enhance",
         "effect_text": "Renforcement",
         "simple_desc": "Entre en état de Furtivité. Les DGT infligés augmentent après être entré en combat en attaquant un ennemi en état de Furtivité.",
-        "desc": "Après avoir utilisé sa technique, Moze entre en état de Furtivité pendant #1[i] secondes. Lorsque Moze est en état de Furtivité, il ne peut pas être détecté par les ennemis. Si Moze engage le combat en attaquant des ennemis en état de Furtivité, ses DGT augmentent de #2[i]% pendant #3[i] tours.",
+        "desc": "Après avoir utilisé la technique, Moze entre en état de Furtivité pendant #1[i] secondes. Lorsque Moze est en état de Furtivité, il ne peut pas être détecté par les ennemis. Si Moze engage le combat en attaquant des ennemis en état de Furtivité, ses DGT augmentent de #2[i]% pendant #3[i] tours.",
         "params": [
             [
                 20,
@@ -16051,8 +16142,8 @@
         "type_text": "Technique",
         "effect": "Enhance",
         "effect_text": "Renforcement",
-        "simple_desc": "March 7th obtient une charge pour le prochain combat chaque fois qu'un allié autre qu'elle utilise sa technique. Lorsque March 7th utilise sa technique, elle régénère des points d'énergie au début du prochain combat.",
-        "desc": "Lorsque March 7th fait partie de l'équipe, elle obtient 1 point de charge pour le prochain combat à chaque fois qu'un allié autre qu'elle utilise sa technique, jusqu'à un maximum de #1[i] points.\nLorsque March 7th utilise sa technique, elle régénère #2[i] points d'énergie au début du prochain combat.",
+        "simple_desc": "March 7th obtient une charge pour le prochain combat chaque fois qu'un coéquipier autre qu'elle utilise sa technique. Lorsque March 7th utilise sa technique, elle régénère des points d'énergie au début du prochain combat.",
+        "desc": "Lorsque March 7th fait partie de l'équipe, elle obtient 1 point de charge pour le prochain combat à chaque fois qu'un coéquipier autre qu'elle utilise sa technique, jusqu'à un maximum de #1[i] points.\nLorsque March 7th utilise sa technique, elle régénère #2[i] points d'énergie au début du prochain combat.",
         "params": [
             [
                 3,
@@ -17142,8 +17233,8 @@
         "type_text": "Talent",
         "effect": "Support",
         "effect_text": "Soutien",
-        "simple_desc": "Augmente la VIT de tous les alliés (à l'exception de ce personnage). Infliger une Rupture de faiblesse à une cible ennemie lui inflige des DGT de rupture de glace supplémentaires.",
-        "desc": "Augmente la VIT de toute l'équipe de #1[f1]% (à l'exception de ce personnage). Lorsqu'un allié inflige une Rupture de faiblesse à une cible ennemie, Ruan Mei inflige des DGT de rupture équivalents à #2[f1]% de ses propres DGT de rupture de glace à cette cible.",
+        "simple_desc": "Augmente la VIT de tous les coéquipiers (à l'exception de cette unité). Infliger une Rupture de faiblesse à une cible ennemie lui inflige des DGT de rupture de glace supplémentaires.",
+        "desc": "Augmente la VIT de tous les coéquipiers de #1[f1]% (à l'exception de cette unité). Lorsqu'un allié inflige une Rupture de faiblesse à une cible ennemie, Ruan Mei inflige des DGT de rupture équivalents à #2[f1]% de ses propres DGT de rupture de glace à cette cible.",
         "params": [
             [
                 0.08,
@@ -17836,7 +17927,7 @@
         "type_text": "Talent",
         "effect": "SingleAttack",
         "effect_text": "Cible unique",
-        "simple_desc": "Lors de l'utilisation de la compétence, il y a une chance de lancer une attaque de suivi contre la cible 1 fois.",
+        "simple_desc": "Il y a une chance de lancer 1 attaque de suivi sur la cible, qui inflige des DGT imaginaires lors de l'utilisation de la compétence.",
         "desc": "Dr Ratio a #2[i]% de chances fixes de déclencher 1 attaque de suivi contre sa cible lorsqu'il utilise sa compétence, lui infligeant des DGT imaginaires équivalents à #1[i]% de l'ATQ de Dr Ratio. Les chances fixes de déclencher l'attaque de suivi augmentent de #3[i]% pour chaque malus appliqué à la cible ennemie. L'attaque de suivi est lancée sur un autre ennemi aléatoire si la cible ennemie est vaincue avant que l'attaque de suivi ne soit déclenchée.",
         "params": [
             [
@@ -19672,7 +19763,7 @@
         "effect": "Support",
         "effect_text": "Soutien",
         "simple_desc": "Entre dans l'état Concerto, ce qui augmente l'ATQ de tous les alliés et permet à tous les coéquipiers d'agir immédiatement. Robin inflige des DGT physiques additionnels après une attaque. Lorsque Robin est dans l'état Concerto, elle est immunisée aux malus de contrôle. Pendant toute la durée de cet état, Robin ne peut ni agir ni jouer son tour jusqu'à la fin du compte à rebours.",
-        "desc": "Robin entre dans l'état Concerto, et permet à tous les alliés d'attaquer immédiatement.\nLorsque Robin est dans l'état Concerto, l'attaque de tous les alliés augmente à hauteur de #1[f1]% de l'ATQ de Robin + #3[i]. D'autre part, après chaque attaque d'un allié, Robin inflige des DGT physiques additionnels équivalents à #4[i]% de son ATQ 1 fois, avec des chances de coup critique fixées à #5[i]% et des DGT critiques fixés à #6[i]%.\nLorsque Robin est dans l'état Concerto, elle devient immunisée aux malus de contrôle et ne peut ni agir ni jouer son tour tant que l'état Concerto n'est pas terminé.\nUn compte à rebours pour Concerto s'affiche dans la barre d'ordre d'action. Lorsque ce compte à rebours débute, Robin quitte l'état Concerto et agit immédiatement. Le compte à rebours a sa propre VIT fixe qui est de #2[i].",
+        "desc": "Robin entre dans l'état Concerto, et permet à tous les alliés d'attaquer immédiatement.\nLorsque Robin est dans l'état Concerto, l'attaque de tous les alliés augmente à hauteur de #1[f1]% de l'ATQ de Robin + #3[i]. D'autre part, après chaque attaque d'une cible alliée, Robin inflige des DGT physiques additionnels équivalents à #4[i]% de son ATQ 1 fois, avec des chances de coup critique fixées à #5[i]% et des DGT critiques fixés à #6[i]%.\nLorsque Robin est dans l'état Concerto, elle devient immunisée aux malus de contrôle et ne peut ni agir ni jouer son tour tant que l'état Concerto n'est pas terminé.\nUn compte à rebours pour Concerto s'affiche dans la barre d'ordre d'action. Lorsque ce compte à rebours débute, Robin quitte l'état Concerto et agit immédiatement. Le compte à rebours a sa propre VIT fixe qui est de #2[i].",
         "params": [
             [
                 0.152,
@@ -19806,7 +19897,7 @@
         "type_text": "Talent",
         "effect": "Support",
         "effect_text": "Soutien",
-        "simple_desc": "Augmente les DGT critiques de tous les alliés, et Robin régénère de l'énergie lorsqu'un allié attaque un ennemi.",
+        "simple_desc": "Augmente les DGT critiques de tous les personnages alliés. Lorsqu'une cible alliée attaque un ennemi, Robin régénère des points d'énergie.",
         "desc": "Augmente les DGT critiques de tous les alliés de #1[f1]%. D'autre part, Robin régénère #2[i] points d'énergie lorsqu'un allié attaque une cible ennemie.",
         "params": [
             [
@@ -21398,7 +21489,7 @@
         "type_text": "Ultime",
         "effect": "SingleAttack",
         "effect_text": "Cible unique",
-        "simple_desc": "Applique une Faiblesse physique à un ennemi unique et lui inflige une quantité massive de DGT physiques, tout en retardant son action.",
+        "simple_desc": "Applique une Faiblesse physique à un ennemi et lui inflige une quantité massive de DGT physiques, tout en retardant son action.",
         "desc": "Applique une Faiblesse physique à une cible ennemie unique pour #3[i] tours.\nInflige des DGT physiques équivalents à #1[i]% de l'ATQ du Fossoyeur à la cible et retarde son action de #2[i]%.",
         "params": [
             [
@@ -21687,6 +21778,656 @@
             ]
         ],
         "icon": "icon/skill/1315_basic_atk.png"
+    },
+    "131701": {
+        "id": "131701",
+        "name": "Ninjutsu : Élévation",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "ATQ normale",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "Inflige des DGT imaginaires mineurs à un ennemi désigné.",
+        "desc": "Inflige des DGT imaginaires équivalents à #1[i]% de l'ATQ de Rappa à un ennemi désigné.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1317_basic_atk.png"
+    },
+    "131702": {
+        "id": "131702",
+        "name": "Frappe ninja : Résolution profonde",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "BPSkill",
+        "type_text": "Compétence",
+        "effect": "AoEAttack",
+        "effect_text": "ZdE",
+        "simple_desc": "Inflige des DGT imaginaires à tous les ennemis.",
+        "desc": "Inflige des DGT imaginaires équivalents à #1[i]% de l'ATQ de Rappa à tous les ennemis.",
+        "params": [
+            [
+                0.6
+            ],
+            [
+                0.66
+            ],
+            [
+                0.72
+            ],
+            [
+                0.78
+            ],
+            [
+                0.84
+            ],
+            [
+                0.9
+            ],
+            [
+                0.975
+            ],
+            [
+                1.05
+            ],
+            [
+                1.125
+            ],
+            [
+                1.2
+            ],
+            [
+                1.26
+            ],
+            [
+                1.32
+            ],
+            [
+                1.38
+            ],
+            [
+                1.44
+            ],
+            [
+                1.5
+            ]
+        ],
+        "icon": "icon/skill/1317_skill.png"
+    },
+    "131703": {
+        "id": "131703",
+        "name": "Nindô suprême de l'Amour profond",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Ultra",
+        "type_text": "Ultime",
+        "effect": "Enhance",
+        "effect_text": "Renforcement",
+        "simple_desc": "Entre dans la forme du sceau, gagne un tour supplémentaire, obtient 3 points d'encre chromatique et augmente l'efficacité de Rupture de faiblesse et l'effet de Rupture.\nLorsque Rappa est dans la forme du sceau, son ATQ normale devient renforcée. Chaque utilisation de l'ATQ normale renforcée consomme 1 point d'encre chromatique. Rappa quitte la forme du sceau lorsqu'elle a utilisé tous les points d'encre chromatique.",
+        "desc": "Entre dans la forme du sceau, gagne immédiatement 1 tour supplémentaire, obtient #3[i] points d'encre chromatique et augmente l'efficacité de Rupture de faiblesse de #1[i]% et l'effet de Rupture de #2[i]%.\nLorsque Rappa est dans la forme du sceau, son ATQ normale devient renforcée, mais elle ne peut pas utiliser sa compétence et son ultime. Chaque utilisation de l'ATQ normale renforcée consomme 1 point d'encre chromatique. Rappa quitte la forme du sceau lorsqu'elle a utilisé tous les points d'encre chromatique.",
+        "params": [
+            [
+                0.5,
+                0.1,
+                3
+            ],
+            [
+                0.5,
+                0.12,
+                3
+            ],
+            [
+                0.5,
+                0.14,
+                3
+            ],
+            [
+                0.5,
+                0.16,
+                3
+            ],
+            [
+                0.5,
+                0.18,
+                3
+            ],
+            [
+                0.5,
+                0.2,
+                3
+            ],
+            [
+                0.5,
+                0.225,
+                3
+            ],
+            [
+                0.5,
+                0.25,
+                3
+            ],
+            [
+                0.5,
+                0.275,
+                3
+            ],
+            [
+                0.5,
+                0.3,
+                3
+            ],
+            [
+                0.5,
+                0.32,
+                3
+            ],
+            [
+                0.5,
+                0.34,
+                3
+            ],
+            [
+                0.5,
+                0.36,
+                3
+            ],
+            [
+                0.5,
+                0.38,
+                3
+            ],
+            [
+                0.5,
+                0.4,
+                3
+            ]
+        ],
+        "icon": "icon/skill/1317_ultimate.png"
+    },
+    "131704": {
+        "id": "131704",
+        "name": "Technique ninja : Jauge d'endurance",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Enhance",
+        "effect_text": "Renforcement",
+        "simple_desc": "Rappa obtient 1 point de charge chaque fois qu'une cible ennemie subit une Rupture de faiblesse. Lors du déclenchement de la troisième frappe de Ningu : Lame de pétale d'exorcisme, inflige des DGT de rupture imaginaires supplémentaires à tous les ennemis. Ces DGT ignorent le type de faiblesse pour réduire la robustesse et consomment tous les points de charge pour augmenter le multiplicateur de DGT de rupture et la réduction de robustesse.",
+        "desc": "Rappa obtient 1 point de charge chaque fois qu'une cible ennemie subit une Rupture de faiblesse, jusqu'à un maximum de #1[i] points. La prochaine fois que Rappa lance la troisième frappe de Ningu : Lame de pétale d'exorcisme, elle inflige des DGT de rupture équivalents à #3[i]% de ses DGT de rupture imaginaires à tous les ennemis. Ces DGT ignorent le type de faiblesse et réduisent la robustesse de #4[i]. Tous les points de charge sont consommés. Chaque point de charge augmente le multiplicateur des DGT de rupture de #5[i]%et la réduction de robustesse pouvant ignorer le type de faiblesse de #6[i].\nEn cas de Rupture de faiblesse, c'est l'effet de Rupture de faiblesse imaginaire qui s'applique.",
+        "params": [
+            [
+                10,
+                0,
+                0.3,
+                2,
+                0.25,
+                1
+            ],
+            [
+                10,
+                0,
+                0.33,
+                2,
+                0.275,
+                1
+            ],
+            [
+                10,
+                0,
+                0.36,
+                2,
+                0.3,
+                1
+            ],
+            [
+                10,
+                0,
+                0.39,
+                2,
+                0.325,
+                1
+            ],
+            [
+                10,
+                0,
+                0.42,
+                2,
+                0.35,
+                1
+            ],
+            [
+                10,
+                0,
+                0.45,
+                2,
+                0.375,
+                1
+            ],
+            [
+                10,
+                0,
+                0.4875,
+                2,
+                0.4062,
+                1
+            ],
+            [
+                10,
+                0,
+                0.525,
+                2,
+                0.4375,
+                1
+            ],
+            [
+                10,
+                0,
+                0.5625,
+                2,
+                0.4688,
+                1
+            ],
+            [
+                10,
+                0,
+                0.6,
+                2,
+                0.5,
+                1
+            ],
+            [
+                10,
+                0,
+                0.63,
+                2,
+                0.525,
+                1
+            ],
+            [
+                10,
+                0,
+                0.66,
+                2,
+                0.55,
+                1
+            ],
+            [
+                10,
+                0,
+                0.69,
+                2,
+                0.575,
+                1
+            ],
+            [
+                10,
+                0,
+                0.72,
+                2,
+                0.6,
+                1
+            ],
+            [
+                10,
+                0,
+                0.75,
+                2,
+                0.625,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1317_talent.png"
+    },
+    "131706": {
+        "id": "131706",
+        "name": "Attaque",
+        "max_level": 1,
+        "element": "Imaginary",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
+        "params": [],
+        "icon": "icon/skill/1317_basic_atk.png"
+    },
+    "131707": {
+        "id": "131707",
+        "name": "Glissade ninja : Boing Boing",
+        "max_level": 1,
+        "element": "Imaginary",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Enhance",
+        "effect_text": "Renforcement",
+        "simple_desc": "Entre dans l'état Graffiti. Se déplace rapidement vers l'avant sur une distance fixe et attaque tous les ennemis touchés. Après être entré en combat en attaquant des ennemis, réduit la robustesse de toutes les cibles ennemies quels que soient leurs types de faiblesses et inflige des DGT de rupture imaginaires à chaque cible ennemie ainsi qu'aux cibles adjacentes. D'autre part, cette unité régénère des points d'énergie.",
+        "desc": "Après avoir utilisé la technique, entre dans l'état Graffiti pendant #1[i] secondes. Dans cet état, avance rapidement sur une distance fixe et attaque tous les ennemis touchés. Bloque toutes les attaques ennemies pendant ce déplacement rapide. Utiliser une attaque dans l'état Graffiti permet de mettre fin au déplacement plus tôt. Après être entré en combat en attaquant des ennemis, leur inflige #5[i] points de robustesse quelles que soient leurs Faiblesses, inflige également des DGT de rupture équivalents à #2[i]% des DGT de rupture imaginaires de Rappa à chaque cible ennemie et des DGT de rupture équivalents à #3[i]% des DGT de rupture imaginaires de Rappa aux cibles adjacentes. D'autre part, Rappa régénère #4[i] points d'énergie.",
+        "params": [
+            [
+                20,
+                2,
+                1.8,
+                10,
+                30
+            ]
+        ],
+        "icon": "icon/skill/1317_technique.png"
+    },
+    "131708": {
+        "id": "131708",
+        "name": "Ningu : Lame de pétale d'exorcisme",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "ATQ normale",
+        "effect": "Blast",
+        "effect_text": "Propagation",
+        "simple_desc": "Inflige des DGT imaginaires mineurs à un ennemi désigné ainsi qu'aux cibles adjacentes. La robustesse des ennemis peut être réduite même s'ils n'ont pas de Faiblesse imaginaire.",
+        "desc": "",
+        "params": [
+            [
+                0.6,
+                0.3,
+                0.6,
+                0.5
+            ],
+            [
+                0.68,
+                0.34,
+                0.68,
+                0.5
+            ],
+            [
+                0.76,
+                0.38,
+                0.76,
+                0.5
+            ],
+            [
+                0.84,
+                0.42,
+                0.84,
+                0.5
+            ],
+            [
+                0.92,
+                0.46,
+                0.92,
+                0.5
+            ],
+            [
+                1,
+                0.5,
+                1,
+                0.5
+            ],
+            [
+                1.08,
+                0.54,
+                1.08,
+                0.5
+            ],
+            [
+                1.16,
+                0.58,
+                1.16,
+                0.5
+            ],
+            [
+                1.24,
+                0.62,
+                1.24,
+                0.5
+            ]
+        ],
+        "icon": "icon/skill/1317_basic_atk.png"
+    },
+    "131710": {
+        "id": "131710",
+        "name": "Ningu : Lame de pétale d'exorcisme",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "ATQ normale",
+        "effect": "Blast",
+        "effect_text": "Propagation",
+        "simple_desc": "Inflige des DGT imaginaires mineurs à un ennemi désigné ainsi qu'aux cibles adjacentes. La robustesse des ennemis peut être réduite même s'ils n'ont pas de Faiblesse imaginaire.",
+        "desc": "",
+        "params": [
+            [
+                0.6,
+                0.3
+            ],
+            [
+                0.68,
+                0.34
+            ],
+            [
+                0.76,
+                0.38
+            ],
+            [
+                0.84,
+                0.42
+            ],
+            [
+                0.92,
+                0.46
+            ],
+            [
+                1,
+                0.5
+            ],
+            [
+                1.08,
+                0.54
+            ],
+            [
+                1.16,
+                0.58
+            ],
+            [
+                1.24,
+                0.62
+            ]
+        ],
+        "icon": "icon/skill/1317_basic_atk.png"
+    },
+    "131712": {
+        "id": "131712",
+        "name": "Ningu : Lame de pétale d'exorcisme",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "ATQ normale",
+        "effect": "AoEAttack",
+        "effect_text": "ZdE",
+        "simple_desc": "Inflige des DGT imaginaires mineurs à tous les ennemis. La robustesse des ennemis peut être réduite même s'ils n'ont pas de Faiblesse imaginaire.",
+        "desc": "",
+        "params": [
+            [
+                0.6
+            ],
+            [
+                0.68
+            ],
+            [
+                0.76
+            ],
+            [
+                0.84
+            ],
+            [
+                0.92
+            ],
+            [
+                1
+            ],
+            [
+                1.08
+            ],
+            [
+                1.16
+            ],
+            [
+                1.24
+            ]
+        ],
+        "icon": "icon/skill/1317_basic_atk.png"
+    },
+    "131714": {
+        "id": "131714",
+        "name": "",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Ultra",
+        "type_text": "Ultime",
+        "effect": "Blast",
+        "effect_text": "Propagation",
+        "simple_desc": "",
+        "desc": "",
+        "params": [],
+        "icon": "icon/skill/1317_ultimate.png"
+    },
+    "131715": {
+        "id": "131715",
+        "name": "",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Ultra",
+        "type_text": "Ultime",
+        "effect": "Blast",
+        "effect_text": "Propagation",
+        "simple_desc": "",
+        "desc": "",
+        "params": [],
+        "icon": "icon/skill/1317_ultimate.png"
+    },
+    "131716": {
+        "id": "131716",
+        "name": "",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Ultra",
+        "type_text": "Ultime",
+        "effect": "AoEAttack",
+        "effect_text": "ZdE",
+        "simple_desc": "",
+        "desc": "",
+        "params": [],
+        "icon": "icon/skill/1317_ultimate.png"
+    },
+    "131717": {
+        "id": "131717",
+        "name": "",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Ultra",
+        "type_text": "Ultime",
+        "effect": "Blast",
+        "effect_text": "Propagation",
+        "simple_desc": "",
+        "desc": "",
+        "params": [],
+        "icon": "icon/skill/1317_ultimate.png"
+    },
+    "131718": {
+        "id": "131718",
+        "name": "Ningu : Lame de pétale d'exorcisme",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "Résonance de la Voie",
+        "effect": "Blast",
+        "effect_text": "Propagation",
+        "simple_desc": "Les deux premières frappes infligent des DGT imaginaires mineurs à un ennemi désigné ainsi qu'aux cibles adjacentes. La troisième inflige des DGT imaginaires mineurs à tous les ennemis. La robustesse des ennemis peut être réduite même s'ils n'ont pas de Faiblesse imaginaire.",
+        "desc": "Active Ningu : Lame de pétale d'exorcisme. Les 2 premières frappes infligent des DGT imaginaires équivalents à #1[i]% de l'ATQ de Rappa à un ennemi désigné et des DGT imaginaires équivalents à #2[i]% de l'ATQ de Rappa aux cibles adjacentes. La 3e frappe inflige des DGT imaginaires équivalents à #3[i]% de l'ATQ de Rappa à tous les ennemis.\nL'ATQ normale renforcée ne permet pas de récupérer de points de compétence. Il est également possible d'infliger une réduction de robustesse équivalente à #4[i]% de la valeur initiale de réduction de robustesse aux cibles ennemies qui n'ont pas de Faiblesse imaginaire. Déclenche l'effet de Rupture de faiblesse imaginaire en cas de Rupture de faiblesse.",
+        "params": [
+            [
+                0.6,
+                0.3,
+                0.6,
+                0.5
+            ],
+            [
+                0.68,
+                0.34,
+                0.68,
+                0.5
+            ],
+            [
+                0.76,
+                0.38,
+                0.76,
+                0.5
+            ],
+            [
+                0.84,
+                0.42,
+                0.84,
+                0.5
+            ],
+            [
+                0.92,
+                0.46,
+                0.92,
+                0.5
+            ],
+            [
+                1,
+                0.5,
+                1,
+                0.5
+            ],
+            [
+                1.08,
+                0.54,
+                1.08,
+                0.5
+            ],
+            [
+                1.16,
+                0.58,
+                1.16,
+                0.5
+            ],
+            [
+                1.24,
+                0.62,
+                1.24,
+                0.5
+            ]
+        ],
+        "icon": "icon/skill/1317_basic_atk.png"
     },
     "800101": {
         "id": "800101",

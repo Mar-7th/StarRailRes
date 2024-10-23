@@ -4127,7 +4127,7 @@
         "id": "122201",
         "name": "{RUBY_B#はじゃ}破邪{RUBY_E#}の{RUBY_B#かお}香{RUBY_E#}り",
         "rank": 1,
-        "desc": "霊砂の弱点撃破効率+50%。敵を弱点撃破した時、その敵の防御力-20%。",
+        "desc": "霊砂の弱点撃破効率+50%。敵が弱点撃破される時、その敵の防御力-20%。",
         "materials": [
             {
                 "id": "11222",
@@ -4661,7 +4661,7 @@
     },
     "130302": {
         "id": "130302",
-        "name": "{RUBY_B#とおり}通{RUBY_E#}りし{RUBY_B#すすき}芒{RUBY_E#}の{RUBY_B#みち}道{RUBY_E#}",
+        "name": "{RUBY_B#とお}通{RUBY_E#}りし{RUBY_B#すすき}芒{RUBY_E#}の{RUBY_B#みち}道{RUBY_E#}",
         "rank": 2,
         "desc": "ルアン・メェイがフィールド上にいる場合、弱点撃破状態の敵に対する味方全体の攻撃力+40%。",
         "materials": [
@@ -5794,6 +5794,124 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1315_rank6.png"
+    },
+    "131701": {
+        "id": "131701",
+        "name": "{RUBY_B#トコヨ}常世{RUBY_E#}ノ{RUBY_B#ミチ}道{RUBY_E#}、\\n{RUBY_B#サンズ}三途{RUBY_E#}ニ{RUBY_B#ロクモンセンナ}六文銭無{RUBY_E#}シ",
+        "rank": 1,
+        "desc": "必殺技を発動し「結印」状態となっている間、乱破が与えるダメージは敵の防御力を15%無視する。また、「結印」状態が終了した後、EPを20回復する。",
+        "materials": [
+            {
+                "id": "11317",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1317_rank1.png"
+    },
+    "131702": {
+        "id": "131702",
+        "name": "{RUBY_B#ハイク}俳句{RUBY_E#}ノ{RUBY_B#アンキ}暗記{RUBY_E#}、\\n{RUBY_B#ユウシキ}有識{RUBY_E#}ニ{RUBY_B#ケイゲナ}罣礙無{RUBY_E#}シ",
+        "rank": 2,
+        "desc": "指定した敵単体に対する、強化通常攻撃の1、2段目の削靭値+50%。",
+        "materials": [
+            {
+                "id": "11317",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1317_rank2.png"
+    },
+    "131703": {
+        "id": "131703",
+        "name": "{RUBY_B#ガラン}伽藍{RUBY_E#}ノ{RUBY_B#ドウ}堂{RUBY_E#}、\\n{RUBY_B#ムゲンゴク}無間獄{RUBY_E#}ニ{RUBY_B#ショウホウナ}正法無{RUBY_E#}シ",
+        "rank": 3,
+        "desc": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+        "materials": [
+            {
+                "id": "11317",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "131702",
+                "num": 2
+            },
+            {
+                "id": "131704",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1317_skill.png"
+    },
+    "131704": {
+        "id": "131704",
+        "name": "{RUBY_B#ケイネンレッカ}経年劣化{RUBY_E#}、\\n{RUBY_B#ニンキョウ}任侠{RUBY_E#}ニ{RUBY_B#ニンギナ}忍義無{RUBY_E#}シ",
+        "rank": 4,
+        "desc": "「結印」状態の間、味方全体の速度+12%。",
+        "materials": [
+            {
+                "id": "11317",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1317_rank4.png"
+    },
+    "131705": {
+        "id": "131705",
+        "name": "{RUBY_B#イッシンフラン}一心不乱{RUBY_E#}、\\n{RUBY_B#メイゲン}鳴弦{RUBY_E#}ニ{RUBY_B#アダヤナ}徒矢無{RUBY_E#}シ",
+        "rank": 5,
+        "desc": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+        "materials": [
+            {
+                "id": "11317",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "131703",
+                "num": 2
+            },
+            {
+                "id": "131701",
+                "num": 1
+            },
+            {
+                "id": "131708",
+                "num": 1
+            },
+            {
+                "id": "131710",
+                "num": 1
+            },
+            {
+                "id": "131712",
+                "num": 1
+            },
+            {
+                "id": "131718",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1317_ultimate.png"
+    },
+    "131706": {
+        "id": "131706",
+        "name": "{RUBY_B#ハジャケンショウ}破邪顕正{RUBY_E#}、\\n{RUBY_B#アクト}悪徒{RUBY_E#}ニ{RUBY_B#ジヒナ}慈悲無{RUBY_E#}シ",
+        "rank": 6,
+        "desc": "天賦の効果で獲得できるチャージを戦闘開始時に5獲得し、さらに上限を+5する。また、「忍具・降魔の花弁」の3段目の攻撃を行った後、チャージ+5。",
+        "materials": [
+            {
+                "id": "11317",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1317_rank6.png"
     },
     "800101": {
         "id": "800101",

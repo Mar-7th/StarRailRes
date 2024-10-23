@@ -3110,6 +3110,70 @@
             ]
         ]
     },
+    "21048": {
+        "id": "21048",
+        "skill": "学院式剪接",
+        "desc": "使装备者的速度提高#1[i]%，攻击处于弱点击破状态下的敌方目标后，恢复#2[f1]点能量，该效果每回合最多触发#3[i]次。",
+        "params": [
+            [
+                0.08,
+                3,
+                2
+            ],
+            [
+                0.09,
+                3.5,
+                2
+            ],
+            [
+                0.1,
+                4,
+                2
+            ],
+            [
+                0.11,
+                4.5,
+                2
+            ],
+            [
+                0.12,
+                5,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "SpeedAddedRatio",
+                    "value": 0.08
+                }
+            ],
+            [
+                {
+                    "type": "SpeedAddedRatio",
+                    "value": 0.09
+                }
+            ],
+            [
+                {
+                    "type": "SpeedAddedRatio",
+                    "value": 0.1
+                }
+            ],
+            [
+                {
+                    "type": "SpeedAddedRatio",
+                    "value": 0.11
+                }
+            ],
+            [
+                {
+                    "type": "SpeedAddedRatio",
+                    "value": 0.12
+                }
+            ]
+        ]
+    },
     "22000": {
         "id": "22000",
         "skill": "眼疾手快",
@@ -3293,6 +3357,70 @@
                 {
                     "type": "AttackAddedRatio",
                     "value": 0.32
+                }
+            ]
+        ]
+    },
+    "22003": {
+        "id": "22003",
+        "skill": "开演！",
+        "desc": "使装备者的生命上限提高#1[i]%，损失或回复自身生命值后，暴击伤害提高#2[i]%，持续#3[i]回合，该效果每回合只可触发1次。",
+        "params": [
+            [
+                0.12,
+                0.18,
+                2
+            ],
+            [
+                0.15,
+                0.225,
+                2
+            ],
+            [
+                0.18,
+                0.27,
+                2
+            ],
+            [
+                0.21,
+                0.315,
+                2
+            ],
+            [
+                0.24,
+                0.36,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.12
+                }
+            ],
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.15
+                }
+            ],
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.18
+                }
+            ],
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.21
+                }
+            ],
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.24
                 }
             ]
         ]
@@ -5589,6 +5717,70 @@
                 1.5,
                 0.16,
                 2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.6
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.7
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.8
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.9
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 1
+                }
+            ]
+        ]
+    },
+    "23033": {
+        "id": "23033",
+        "skill": "除邪",
+        "desc": "使装备者的击破特攻提高#1[i]%。进入战斗时立即恢复#2[f1]点能量，且装备者施放终结技后获得【雷遁】，施放2次普攻后，装备者行动提前#3[i]%，并移除【雷遁】。装备者施放终结技后会重置【雷遁】。",
+        "params": [
+            [
+                0.6,
+                30,
+                0.5
+            ],
+            [
+                0.7,
+                32.5,
+                0.55
+            ],
+            [
+                0.8,
+                35,
+                0.6
+            ],
+            [
+                0.9,
+                37.5,
+                0.65
+            ],
+            [
+                1,
+                40,
+                0.7
             ]
         ],
         "properties": [

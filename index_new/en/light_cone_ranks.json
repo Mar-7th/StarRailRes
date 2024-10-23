@@ -3110,6 +3110,70 @@
             ]
         ]
     },
+    "21048": {
+        "id": "21048",
+        "skill": "Academy-Style Edit",
+        "desc": "Increases the wearer's SPD by #1[i]%. After attacking enemy targets that are Weakness Broken, regenerates #2[f1] Energy. This effect can trigger up to #3[i] time(s) per turn.",
+        "params": [
+            [
+                0.08,
+                3,
+                2
+            ],
+            [
+                0.09,
+                3.5,
+                2
+            ],
+            [
+                0.1,
+                4,
+                2
+            ],
+            [
+                0.11,
+                4.5,
+                2
+            ],
+            [
+                0.12,
+                5,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "SpeedAddedRatio",
+                    "value": 0.08
+                }
+            ],
+            [
+                {
+                    "type": "SpeedAddedRatio",
+                    "value": 0.09
+                }
+            ],
+            [
+                {
+                    "type": "SpeedAddedRatio",
+                    "value": 0.1
+                }
+            ],
+            [
+                {
+                    "type": "SpeedAddedRatio",
+                    "value": 0.11
+                }
+            ],
+            [
+                {
+                    "type": "SpeedAddedRatio",
+                    "value": 0.12
+                }
+            ]
+        ]
+    },
     "22000": {
         "id": "22000",
         "skill": "Quick on the Draw",
@@ -3293,6 +3357,70 @@
                 {
                     "type": "AttackAddedRatio",
                     "value": 0.32
+                }
+            ]
+        ]
+    },
+    "22003": {
+        "id": "22003",
+        "skill": "Curtains Up!",
+        "desc": "Increases the wearer's Max HP by #1[i]%. When losing or restoring this unit's HP, increases CRIT DMG by #2[i]%, lasting for #3[i] turn(s). This effect can only trigger once per turn.",
+        "params": [
+            [
+                0.12,
+                0.18,
+                2
+            ],
+            [
+                0.15,
+                0.225,
+                2
+            ],
+            [
+                0.18,
+                0.27,
+                2
+            ],
+            [
+                0.21,
+                0.315,
+                2
+            ],
+            [
+                0.24,
+                0.36,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.12
+                }
+            ],
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.15
+                }
+            ],
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.18
+                }
+            ],
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.21
+                }
+            ],
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.24
                 }
             ]
         ]
@@ -4276,7 +4404,7 @@
     "23014": {
         "id": "23014",
         "skill": "With This Evening Jade",
-        "desc": "Increases the wearer's CRIT DMG by #1[i]%. When an ally (excluding the wearer) gets attacked or loses HP, the wearer gains 1 stack of Eclipse, up to a max of #2[i] stack(s). Each stack of Eclipse increases the DMG of the wearer's next attack by #3[f1]%. When #2[i] stack(s) are reached, additionally enables that attack to ignore #4[i]% of the enemy's DEF. This effect will be removed after the wearer uses an attack.",
+        "desc": "Increases the wearer's CRIT DMG by #1[i]%. When a teammate gets attacked or loses HP, the wearer gains 1 stack of Eclipse, up to a max of #2[i] stack(s). Each stack of Eclipse increases the DMG of the wearer's next attack by #3[f1]%. When #2[i] stack(s) are reached, additionally enables that attack to ignore #4[i]% of the enemy's DEF. This effect will be removed after the wearer uses an attack.",
         "params": [
             [
                 0.2,
@@ -4779,7 +4907,7 @@
     "23021": {
         "id": "23021",
         "skill": "Capriciousness",
-        "desc": "Increases the wearer's CRIT DMG by #1[i]%. At the start of the battle, the wearer gains Mask, lasting for #6[i] turn(s). While the wearer has Mask, the wearer's allies have their CRIT Rate increased by #5[i]% and their CRIT DMG increased by #2[i]%. For every 1 Skill Point the wearer recovers (including Skill Points that exceed the limit), they gain 1 stack of Radiant Flame. And when the wearer has #4[i] stacks of Radiant Flame, all the stacks are removed, and they gain Mask, lasting for #3[i] turn(s).",
+        "desc": "Increases the wearer's CRIT DMG by #1[i]%. At the start of the battle, the wearer gains Mask, lasting for #6[i] turn(s). While the wearer has Mask, the wearer's teammates have their CRIT Rate increased by #5[i]% and their CRIT DMG increased by #2[i]%. For every 1 Skill Point the wearer recovers (including Skill Points that exceed the limit), they gain 1 stack of Radiant Flame. And when the wearer has #4[i] stacks of Radiant Flame, all the stacks are removed, and they gain Mask, lasting for #3[i] turn(s).",
         "params": [
             [
                 0.32,
@@ -5589,6 +5717,70 @@
                 1.5,
                 0.16,
                 2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.6
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.7
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.8
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.9
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 1
+                }
+            ]
+        ]
+    },
+    "23033": {
+        "id": "23033",
+        "skill": "Exorcism",
+        "desc": "Increases the wearer's Break Effect by #1[i]%. When entering battle, immediately regenerates #2[f1] Energy. After the wearer uses Ultimate, obtains \"Raiton.\" After using 2 Basic ATKs, advances the wearer's action by #3[i]% and removes \"Raiton.\" After the wearer uses Ultimate, resets \"Raiton.\"",
+        "params": [
+            [
+                0.6,
+                30,
+                0.5
+            ],
+            [
+                0.7,
+                32.5,
+                0.55
+            ],
+            [
+                0.8,
+                35,
+                0.6
+            ],
+            [
+                0.9,
+                37.5,
+                0.65
+            ],
+            [
+                1,
+                40,
+                0.7
             ]
         ],
         "properties": [

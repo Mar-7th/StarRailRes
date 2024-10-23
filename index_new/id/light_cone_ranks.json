@@ -1210,7 +1210,7 @@
     "21011": {
         "id": "21011",
         "skill": "Departure",
-        "desc": "Setelah memasuki pertempuran, saat rekan dalam tim mengakibatkan DMG yang sama dengan tipe pengguna, DMG yang diakibatkan akan meningkat #1[i]%.",
+        "desc": "Setelah memasuki pertempuran, saat rekan tim mengakibatkan DMG yang Tipenya sama dengan Tipe pengguna, DMG yang diakibatkan akan meningkat #1[i]%.",
         "params": [
             [
                 0.12
@@ -2631,7 +2631,7 @@
     "21040": {
         "id": "21040",
         "skill": "Stratagem",
-        "desc": "Meningkatkan #1[i]% ATK pengguna. Setelah pengguna melancarkan serangan, jika jumlah target musuh yang terkena serangan (yang memiliki Tipe Weakness yang sama dengan Tipe Serangan pengguna) tidak kurang dari 2 musuh, maka CRIT DMG pengguna meningkat #2[i]% selama #3[i] giliran.",
+        "desc": "Meningkatkan #1[i]% ATK pengguna. Setelah pengguna melancarkan serangan, jika jumlah target musuh yang terkena serangan (yang memiliki Tipe Weakness yang sama dengan Tipe pengguna) tidak kurang dari 2 musuh, maka CRIT DMG pengguna meningkat #2[i]% selama #3[i] giliran.",
         "params": [
             [
                 0.16,
@@ -3110,6 +3110,70 @@
             ]
         ]
     },
+    "21048": {
+        "id": "21048",
+        "skill": "Academy-Style Edit",
+        "desc": "Meningkatkan #1[i]% SPD pengguna. Setelah menyerang target musuh yang berstatus Weakness Break, akan memulihkan #2[f1] Energy. Efek ini dapat dipicu hingga #3[i] kali di setiap giliran.",
+        "params": [
+            [
+                0.08,
+                3,
+                2
+            ],
+            [
+                0.09,
+                3.5,
+                2
+            ],
+            [
+                0.1,
+                4,
+                2
+            ],
+            [
+                0.11,
+                4.5,
+                2
+            ],
+            [
+                0.12,
+                5,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "SpeedAddedRatio",
+                    "value": 0.08
+                }
+            ],
+            [
+                {
+                    "type": "SpeedAddedRatio",
+                    "value": 0.09
+                }
+            ],
+            [
+                {
+                    "type": "SpeedAddedRatio",
+                    "value": 0.1
+                }
+            ],
+            [
+                {
+                    "type": "SpeedAddedRatio",
+                    "value": 0.11
+                }
+            ],
+            [
+                {
+                    "type": "SpeedAddedRatio",
+                    "value": 0.12
+                }
+            ]
+        ]
+    },
     "22000": {
         "id": "22000",
         "skill": "Quick on the Draw",
@@ -3293,6 +3357,70 @@
                 {
                     "type": "AttackAddedRatio",
                     "value": 0.32
+                }
+            ]
+        ]
+    },
+    "22003": {
+        "id": "22003",
+        "skill": "Curtains Up!",
+        "desc": "Meningkatkan #1[i]% Max HP pengguna. Setelah pengguna kehilangan HP atau memulihkan HP dirinya, CRIT DMG akan meningkat #2[i]% selama #3[i] giliran. Efek ini hanya dapat dipicu 1 kali di setiap giliran.",
+        "params": [
+            [
+                0.12,
+                0.18,
+                2
+            ],
+            [
+                0.15,
+                0.225,
+                2
+            ],
+            [
+                0.18,
+                0.27,
+                2
+            ],
+            [
+                0.21,
+                0.315,
+                2
+            ],
+            [
+                0.24,
+                0.36,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.12
+                }
+            ],
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.15
+                }
+            ],
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.18
+                }
+            ],
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.21
+                }
+            ],
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.24
                 }
             ]
         ]
@@ -5589,6 +5717,70 @@
                 1.5,
                 0.16,
                 2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.6
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.7
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.8
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.9
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 1
+                }
+            ]
+        ]
+    },
+    "23033": {
+        "id": "23033",
+        "skill": "Exorcism",
+        "desc": "Meningkatkan #1[i]% Break Effect pengguna. Saat memasuki pertempuran, akan segera memulihkan #2[f1] Energy. Setelah pengguna melancarkan Ultimate, akan memperoleh \"Raiton\": Setelah melancarkan 2 kali Basic Attack, akan mendahulukan aksi pengguna sebesar #3[i]%, lalu menghapus \"Raiton\". Setelah pengguna melancarkan Ultimate, akan mereset \"Raiton\".",
+        "params": [
+            [
+                0.6,
+                30,
+                0.5
+            ],
+            [
+                0.7,
+                32.5,
+                0.55
+            ],
+            [
+                0.8,
+                35,
+                0.6
+            ],
+            [
+                0.9,
+                37.5,
+                0.65
+            ],
+            [
+                1,
+                40,
+                0.7
             ]
         ],
         "properties": [

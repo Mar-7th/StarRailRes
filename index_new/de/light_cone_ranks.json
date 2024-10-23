@@ -838,7 +838,7 @@
     "21003": {
         "id": "21003",
         "skill": "Aufzeichnung",
-        "desc": "Erhöht den ANG des Trägers um #1[i]%. Befinden sich 2 oder weniger Gegner auf dem Feld, wird die KRIT-Rate des Trägers um #2[i]% erhöht.",
+        "desc": "Erhöht den ANG des Trägers um #1[i]%. Befinden sich 2 oder weniger Gegner auf dem Kampffeld, wird die KRIT-Rate des Trägers um #2[i]% erhöht.",
         "params": [
             [
                 0.16,
@@ -2808,7 +2808,7 @@
     "21043": {
         "id": "21043",
         "skill": "Inspirieren",
-        "desc": "Erhöht die VTD des Trägers um #1[i]%. Für jede Figur auf dem Feld, die einen Schild trägt, wird der verursachte SCH des Trägers um #2[i]% erhöht.",
+        "desc": "Erhöht die VTD des Trägers um #1[i]%. Für jede Figur auf dem Kampffeld, die einen Schild trägt, wird der verursachte SCH des Trägers um #2[i]% erhöht.",
         "params": [
             [
                 0.16,
@@ -3110,6 +3110,70 @@
             ]
         ]
     },
+    "21048": {
+        "id": "21048",
+        "skill": "Akademischer Schnitt",
+        "desc": "Erhöht die GES des Trägers um #1[i]%. Stellt nach Angriffen auf Gegner mit Schwächebruch #2[f1] Pkt. Energie wieder her. Dieser Effekt kann bis zu #3[i]-mal pro Runde ausgelöst werden.",
+        "params": [
+            [
+                0.08,
+                3,
+                2
+            ],
+            [
+                0.09,
+                3.5,
+                2
+            ],
+            [
+                0.1,
+                4,
+                2
+            ],
+            [
+                0.11,
+                4.5,
+                2
+            ],
+            [
+                0.12,
+                5,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "SpeedAddedRatio",
+                    "value": 0.08
+                }
+            ],
+            [
+                {
+                    "type": "SpeedAddedRatio",
+                    "value": 0.09
+                }
+            ],
+            [
+                {
+                    "type": "SpeedAddedRatio",
+                    "value": 0.1
+                }
+            ],
+            [
+                {
+                    "type": "SpeedAddedRatio",
+                    "value": 0.11
+                }
+            ],
+            [
+                {
+                    "type": "SpeedAddedRatio",
+                    "value": 0.12
+                }
+            ]
+        ]
+    },
     "22000": {
         "id": "22000",
         "skill": "Flinke Hände",
@@ -3297,10 +3361,74 @@
             ]
         ]
     },
+    "22003": {
+        "id": "22003",
+        "skill": "Vorhang auf!",
+        "desc": "Erhöht die max. LP des Trägers um #1[i]%. Nachdem der Träger LP verloren oder wiederhergestellt hat, wird sein KRIT-SCH für #3[i] Rd. um #2[i]% erhöht. Dieser Effekt kann nur 1-mal pro Runde ausgelöst werden.",
+        "params": [
+            [
+                0.12,
+                0.18,
+                2
+            ],
+            [
+                0.15,
+                0.225,
+                2
+            ],
+            [
+                0.18,
+                0.27,
+                2
+            ],
+            [
+                0.21,
+                0.315,
+                2
+            ],
+            [
+                0.24,
+                0.36,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.12
+                }
+            ],
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.15
+                }
+            ],
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.18
+                }
+            ],
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.21
+                }
+            ],
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.24
+                }
+            ]
+        ]
+    },
     "23000": {
         "id": "23000",
         "skill": "Meteoritenschwarm",
-        "desc": "Erhöht für jeden Gegner auf dem Feld den ANG des Trägers jeweils um #2[f1]%. Dieser Effekt ist bis zu 5-mal stapelbar. Wenn die Schwäche eines Gegners gebrochen wird, wird der durch den Träger verursachte SCH für 1 Rd. um #1[i]% erhöht.",
+        "desc": "Erhöht für jeden Gegner auf dem Kampffeld den ANG des Trägers jeweils um #2[f1]%. Dieser Effekt ist bis zu 5-mal stapelbar. Wenn die Schwäche eines Gegners gebrochen wird, wird der durch den Träger verursachte SCH für 1 Rd. um #1[i]% erhöht.",
         "params": [
             [
                 0.3,
@@ -5553,7 +5681,7 @@
     "23032": {
         "id": "23032",
         "skill": "Erleichterung",
-        "desc": "Erhöht den Brucheffekt des Trägers um #1[i]%. Wenn der Träger einen Gegner mit seinem Ultimate angreift, wird das Ziel für #5[i] Rd. mit „Sorglos“ belegt. Der erlittene SCH von Gegnern mit „Sorglos“ wird um #2[i]% erhöht. Wenn der aktuelle Brucheffekt des Trägers #3[i]% oder mehr beträgt, wird der erlittene SCH zusätzlich um #4[i]% erhöht.",
+        "desc": "Erhöht den Brucheffekt des Trägers um #1[i]%. Nachdem der Träger einen Gegner mit seinem Ultimate angegriffen hat, wird das Ziel für #5[i] Rd. mit „Sorglos“ belegt. Der erlittene SCH von Gegnern mit „Sorglos“ wird um #2[i]% erhöht. Der Effekt dieser SCH-Erhöhung wird zusätzlich um #4[i]% erhöht, wenn der aktuelle Brucheffekt des Trägers #3[i]% oder mehr beträgt.",
         "params": [
             [
                 0.6,
@@ -5589,6 +5717,70 @@
                 1.5,
                 0.16,
                 2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.6
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.7
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.8
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.9
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 1
+                }
+            ]
+        ]
+    },
+    "23033": {
+        "id": "23033",
+        "skill": "Exorzismus",
+        "desc": "Erhöht den Brucheffekt des Trägers um #1[i]%. Stellt beim Kampfeintritt sofort #2[f1] Pkt. Energie wieder her. Nach dem Einsatz des Ultimates erhält der Träger „Raiton“. Nachdem er 2-mal seinen Standardangriff eingesetzt hat, wird seine Aktion um #3[i]% vorgezogen und Raiton entfernt. Nach dem Einsatz des Ultimates wird Raiton zurückgesetzt.",
+        "params": [
+            [
+                0.6,
+                30,
+                0.5
+            ],
+            [
+                0.7,
+                32.5,
+                0.55
+            ],
+            [
+                0.8,
+                35,
+                0.6
+            ],
+            [
+                0.9,
+                37.5,
+                0.65
+            ],
+            [
+                1,
+                40,
+                0.7
             ]
         ],
         "properties": [

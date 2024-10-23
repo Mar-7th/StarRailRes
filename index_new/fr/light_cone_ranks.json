@@ -3110,6 +3110,70 @@
             ]
         ]
     },
+    "21048": {
+        "id": "21048",
+        "skill": "Montage de style académique",
+        "desc": "Augmente la VIT du porteur de #1[i]%. Après avoir attaqué des cibles ennemies en état de Rupture de faiblesse, régénère #2[f1] points d'énergie. Cet effet peut s'activer #3[i] fois par tour.",
+        "params": [
+            [
+                0.08,
+                3,
+                2
+            ],
+            [
+                0.09,
+                3.5,
+                2
+            ],
+            [
+                0.1,
+                4,
+                2
+            ],
+            [
+                0.11,
+                4.5,
+                2
+            ],
+            [
+                0.12,
+                5,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "SpeedAddedRatio",
+                    "value": 0.08
+                }
+            ],
+            [
+                {
+                    "type": "SpeedAddedRatio",
+                    "value": 0.09
+                }
+            ],
+            [
+                {
+                    "type": "SpeedAddedRatio",
+                    "value": 0.1
+                }
+            ],
+            [
+                {
+                    "type": "SpeedAddedRatio",
+                    "value": 0.11
+                }
+            ],
+            [
+                {
+                    "type": "SpeedAddedRatio",
+                    "value": 0.12
+                }
+            ]
+        ]
+    },
     "22000": {
         "id": "22000",
         "skill": "Pioche éclair",
@@ -3293,6 +3357,70 @@
                 {
                     "type": "AttackAddedRatio",
                     "value": 0.32
+                }
+            ]
+        ]
+    },
+    "22003": {
+        "id": "22003",
+        "skill": "Lever de rideau",
+        "desc": "Augmente les PV max du porteur de #1[i]%. Lorsque le porteur perd ou récupère des PV, augmente les DGT critiques de #2[i]% pendant #3[i] tours. Cet effet ne peut se déclencher qu'une fois par tour.",
+        "params": [
+            [
+                0.12,
+                0.18,
+                2
+            ],
+            [
+                0.15,
+                0.225,
+                2
+            ],
+            [
+                0.18,
+                0.27,
+                2
+            ],
+            [
+                0.21,
+                0.315,
+                2
+            ],
+            [
+                0.24,
+                0.36,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.12
+                }
+            ],
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.15
+                }
+            ],
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.18
+                }
+            ],
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.21
+                }
+            ],
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.24
                 }
             ]
         ]
@@ -4276,7 +4404,7 @@
     "23014": {
         "id": "23014",
         "skill": "Avec ce jade du soir",
-        "desc": "Augmente les DGT critiques du porteur de #1[i]%. Le porteur gagne 1 cumul d'Éclipse chaque fois qu'un allié est attaqué ou perd des PV, jusqu'à un maximum de #2[i] cumuls. Chaque cumul d'Éclipse augmente les DGT de la prochaine attaque du porteur de #3[f1]%. À #2[i] cumuls, l'attaque ignore également #4[i]% de la DÉF de l'ennemi. L'effet disparaît chaque fois que le porteur utilise une attaque.",
+        "desc": "Augmente les DGT critiques du porteur de #1[i]%. Le porteur gagne 1 cumul d'Éclipse chaque fois qu'un coéquipier est attaqué ou perd des PV, jusqu'à un maximum de #2[i] cumuls. Chaque cumul d'Éclipse augmente les DGT de la prochaine attaque du porteur de #3[f1]%. À #2[i] cumuls, l'attaque ignore également #4[i]% de la DÉF de l'ennemi. L'effet disparaît chaque fois que le porteur utilise une attaque.",
         "params": [
             [
                 0.2,
@@ -4779,7 +4907,7 @@
     "23021": {
         "id": "23021",
         "skill": "Caprices",
-        "desc": "Augmente les DGT critiques du porteur de #1[i]%. Le porteur obtient l'effet Masque pendant #6[i] tours en début de combat. Tant que le porteur bénéficie de Masque, ses alliés voient leurs chances de coup critique augmenter de #5[i]% et leurs DGT critiques de #2[i]%. Chaque fois que le porteur régénère 1 point de compétence (y compris des points de compétence au-delà de la limite), il gagne 1 cumul de Flamme radieuse. À #4[i] cumuls de Flamme radieuse, il perd tous les cumuls et gagne Masque. Dure #3[i] tours.",
+        "desc": "Augmente les DGT critiques du porteur de #1[i]%. Le porteur obtient l'effet Masque pendant #6[i] tours en début de combat. Tant que le porteur bénéficie de Masque, ses coéquipiers voient leurs chances de coup critique augmenter de #5[i]% et leurs DGT critiques de #2[i]%. Chaque fois que le porteur régénère 1 point de compétence (y compris des points de compétence au-delà de la limite), il gagne 1 cumul de Flamme radieuse. À #4[i] cumuls de Flamme radieuse, il perd tous les cumuls et gagne Masque. Dure #3[i] tours.",
         "params": [
             [
                 0.32,
@@ -5589,6 +5717,70 @@
                 1.5,
                 0.16,
                 2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.6
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.7
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.8
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.9
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 1
+                }
+            ]
+        ]
+    },
+    "23033": {
+        "id": "23033",
+        "skill": "Exorcisme",
+        "desc": "Augmente l'effet de Rupture du porteur de #1[i]%. Régénère immédiatement #2[f1] points d'énergie en entrant en combat. Le porteur obtient l'effet Raijin après avoir utilisé son ultime. Après avoir utilisé 2 ATQ normales, avance l'action du porteur de #3[i]% et supprime l'effet Raijin. Réinitialise Raijin après utilisation de l'ultime.",
+        "params": [
+            [
+                0.6,
+                30,
+                0.5
+            ],
+            [
+                0.7,
+                32.5,
+                0.55
+            ],
+            [
+                0.8,
+                35,
+                0.6
+            ],
+            [
+                0.9,
+                37.5,
+                0.65
+            ],
+            [
+                1,
+                40,
+                0.7
             ]
         ],
         "properties": [

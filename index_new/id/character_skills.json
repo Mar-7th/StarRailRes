@@ -906,7 +906,7 @@
         "type_text": "Talent",
         "effect": "AoEAttack",
         "effect_text": "AoE",
-        "simple_desc": "Mendapatkan Charge saat ada musuh yang terkena Weakness Break.\nJika Charge penuh setelah rekan tim menyerang, akan segera memicu Serangan Lanjutan yang mengakibatkan Fire DMG pada seluruh musuh dan mengonsumsi semua poin Charge.\nMemperoleh 1 Charge saat pertempuran dimulai.",
+        "simple_desc": "Memperoleh Charge saat pertempuran dimulai dan saat ada musuh yang terkena Weakness Break.\nJika Charge penuh setelah rekan tim menyerang, akan melancarkan Serangan Lanjutan yang mengakibatkan Fire DMG pada seluruh musuh dan mengonsumsi semua poin Charge.",
         "desc": "Saat ada target musuh yang terkena Weakness Break, Himeko akan memperoleh 1 Charge, maksimal #2[i].\nJika rekan tim melancarkan serangan saat Charge Himeko sudah penuh, Himeko akan segera melancarkan 1 Serangan Lanjutan yang mengakibatkan Fire DMG sebesar #1[i]% ATK Himeko pada seluruh musuh dan semua poin Charge akan terkonsumsi.\nMemperoleh 1 Charge pada saat pertempuran dimulai.",
         "params": [
             [
@@ -1783,7 +1783,7 @@
         "effect": "SingleAttack",
         "effect_text": "Single Target",
         "simple_desc": "Berpeluang besar untuk memberikan Weakness tambahan pada 1 musuh dan mengakibatkan Quantum DMG pada musuh tersebut.",
-        "desc": "Memiliki #2[i]% peluang dasar untuk memberikan 1 Weakness tambahan dengan Tipe yang sama dengan salah satu rekan tim secara acak pada 1 target musuh dan mengurangi #4[i]% DMG RES target musuh terhadap Tipe serangan tersebut selama #3[i] giliran. Jika Weakness yang ditambahkan adalah Weakness yang sudah dimiliki oleh target musuh, maka tidak akan memicu pengurangan DMG RES terhadap Tipe serangan tersebut.\nSatu target musuh hanya dapat menerima 1 Weakness dari Silver Wolf. Saat Silver Wolf menambah Weakness lagi pada target musuh yang sama, maka hanya Weakness terbaru yang akan dipertahankan.\nMemiliki #5[i]% peluang dasar untuk memberi tambahan pengurangan DMG RES seluruh tipe pada target sebesar #6[f1]% selama #7[i] giliran.\nMengakibatkan Quantum DMG pada target tersebut sebesar #1[i]% ATK Silver Wolf.",
+        "desc": "Memiliki #2[i]% peluang dasar untuk memberikan 1 Weakness tambahan dengan Tipe yang sama dengan salah satu rekan tim secara acak pada 1 target musuh dan mengurangi #4[i]% DMG RES target musuh terhadap Tipe tersebut selama #3[i] giliran. Jika Weakness yang ditambahkan adalah Weakness yang sudah dimiliki oleh target musuh, maka tidak akan memicu pengurangan DMG RES terhadap Tipe tersebut.\nSatu target musuh hanya dapat menerima 1 Weakness dari Silver Wolf. Saat Silver Wolf menambah Weakness lagi pada target musuh yang sama, maka hanya Weakness terbaru yang akan dipertahankan.\nMemiliki #5[i]% peluang dasar untuk memberi tambahan pengurangan DMG RES seluruh tipe pada target sebesar #6[f1]% selama #7[i] giliran.\nMengakibatkan Quantum DMG pada target tersebut sebesar #1[i]% ATK Silver Wolf.",
         "params": [
             [
                 0.98,
@@ -3549,8 +3549,8 @@
         "type_text": "Ultimate",
         "effect": "SingleAttack",
         "effect_text": "Single Target",
-        "simple_desc": "Memasuki status Buff dan mengakibatkan Quantum DMG dalam jumlah besar pada 1 musuh.",
-        "desc": "Langsung memasuki status Buff dan mengakibatkan Quantum DMG sebesar #1[i]% ATK Seele pada 1 target musuh.",
+        "simple_desc": "Memasuki status Amplifikasi dan mengakibatkan Quantum DMG dalam jumlah besar pada 1 musuh.",
+        "desc": "Langsung memasuki status Amplifikasi dan mengakibatkan Quantum DMG sebesar #1[i]% ATK Seele pada 1 target musuh.",
         "params": [
             [
                 2.55
@@ -3609,8 +3609,8 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "Saat mengalahkan target musuh dengan melancarkan Basic Attack, Skill, atau Ultimate, akan memperoleh giliran tambahan dan memasuki status Buff. DMG yang diakibatkan dalam status Buff akan meningkat.",
-        "desc": "Saat mengalahkan target musuh dengan Basic Attack, Skill, atau Ultimate, Seele akan segera mendapatkan 1 giliran tambahan dan akan memasuki status Buff. Saat berada dalam status Buff, DMG Seele meningkat #1[i]% selama #2[i] giliran.\nJika Seele mengalahkan musuh lagi pada saat giliran tambahan yang diperoleh dari Talent \"Resurgence\", maka efek Talent ini tidak akan terpicu lagi.",
+        "simple_desc": "Saat mengalahkan target musuh dengan melancarkan Basic Attack, Skill, atau Ultimate, akan memperoleh giliran tambahan dan memasuki status Amplifikasi. DMG yang diakibatkan dalam status Amplifikasi akan meningkat.",
+        "desc": "Saat mengalahkan target musuh dengan Basic Attack, Skill, atau Ultimate, Seele akan segera mendapatkan 1 giliran tambahan dan akan memasuki status Buff. Saat berada dalam status Amplifikasi, DMG Seele meningkat #1[i]% selama #2[i] giliran.\nJika Seele mengalahkan musuh lagi pada saat giliran tambahan yang diperoleh dari Talent \"Resurgence\", maka efek Talent ini tidak akan terpicu lagi.",
         "params": [
             [
                 0.4,
@@ -3698,8 +3698,8 @@
         "type_text": "Technique",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "Memasuki status Stealth. Setelah menyerang musuh dan memasuki pertempuran, akan langsung memasuki status Buff.",
-        "desc": "Setelah menggunakan Technique, Seele akan memasuki status Stealth selama #1[i] detik. Selama berada dalam status Stealth, Seele tidak akan terdeteksi musuh. Jika memulai pertempuran dengan cara menyerang musuh, Seele akan segera memasuki status Buff.",
+        "simple_desc": "Memasuki status Stealth. Setelah menyerang musuh dan memasuki pertempuran, akan langsung memasuki status Amplifikasi.",
+        "desc": "Setelah menggunakan Technique, Seele akan memasuki status Stealth selama #1[i] detik. Selama berada dalam status Stealth, Seele tidak akan terdeteksi musuh. Jika memulai pertempuran dengan cara menyerang musuh, Seele akan segera memasuki status Amplifikasi.",
         "params": [
             [
                 20
@@ -3758,7 +3758,7 @@
         "type_text": "Skill",
         "effect": "Blast",
         "effect_text": "Blast",
-        "simple_desc": "Mengakibatkan Lightning DMG dalam jumlah kecil terhadap 1 musuh dan target di sekitarnya, dan berpeluang besar menambahkan status Shock pada target.",
+        "simple_desc": "Mengakibatkan Lightning DMG pada 1 musuh dan Lightning DMG dalam jumlah kecil pada target di sekitarnya. Berpeluang besar untuk menambahkan status Shock pada target.",
         "desc": "Mengakibatkan Lightning DMG sebesar #1[i]% ATK Serval pada 1 target musuh, dan di saat bersamaan mengakibatkan Lightning DMG sebesar #2[i]% ATK Serval pada musuh di sekitar target. Selain itu, target musuh yang terkena serangan memiliki #3[i]% peluang dasar untuk memasuki status Shock selama #4[i] giliran.\nSelama dalam status Shock, target musuh akan menerima Lightning DoT sebesar #5[i]% ATK Serval setiap gilirannya dimulai.",
         "params": [
             [
@@ -6060,7 +6060,7 @@
         "type_text": "Technique",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "Menyerang musuh dan mengakibatkan Fire DMG pada musuh secara acak, dan berpeluang besar untuk membuat setiap target musuh memasuki status Burn.",
+        "simple_desc": "Menyerang musuh dan mengakibatkan Fire DMG dalam jumlah kecil pada musuh acak, serta berpeluang besar untuk membuat setiap target musuh memasuki status Burn.",
         "desc": "Segera menyerang musuh. Setelah memasuki pertempuran, mengakibatkan Fire DMG sebesar #4[i]% ATK Hook pada musuh secara acak. Di saat yang bersamaan, setiap target memiliki #1[i]% peluang dasar untuk memasuki status Burn selama #3[i] giliran.\nTarget musuh dengan status Burn akan menerima Fire DoT sebesar #2[i]% ATK Hook setiap kali gilirannya dimulai.",
         "params": [
             [
@@ -7283,7 +7283,7 @@
         "type_text": "Talent",
         "effect": "SingleAttack",
         "effect_text": "Single Target",
-        "simple_desc": "Memanggil Numby saat pertempuran dimulai. Saat Numby beraksi, ia akan melancarkan Serangan Lanjutan pada 1 musuh yang berstatus \"Proof of Debt\". Saat musuh dengan \"Proof of Debt\" terkena Serangan Lanjutan, aksi Numby akan didahulukan.",
+        "simple_desc": "Memanggil Numby saat pertempuran dimulai. Saat Numby beraksi, ia akan melancarkan Serangan Lanjutan pada target berstatus \"Proof of Debt\", mengakibatkan Fire DMG.\nSaat musuh berstatus \"Proof of Debt\" terkena Serangan Lanjutan, aksi Numby akan didahulukan.",
         "desc": "Memanggil Numby saat pertempuran dimulai. Numby memiliki #1[i] SPD dasar. Saat beraksi, Numby akan melancarkan Serangan Lanjutan pada 1 musuh yang berstatus \"Proof of Debt\", mengakibatkan Fire DMG sebesar #2[i]% ATK Topaz.\nSaat target musuh berstatus \"Proof of Debt\" terkena Serangan Lanjutan dari rekan tim, aksi Numby akan didahulukan sebesar #3[i]%. Saat dalam giliran Numby sendiri, efek pendahuluan aksi tidak dapat dipicu.\nSaat Topaz gugur, Numby akan menghilang.",
         "params": [
             [
@@ -8617,7 +8617,7 @@
         "type_text": "Talent",
         "effect": "Bounce",
         "effect_text": "Bounce",
-        "simple_desc": "Memanggil Lightning-Lord saat pertempuran dimulai. Lightning-Lord akan secara otomatis menyerang dan mengakibatkan Lightning DMG dalam jumlah kecil pada 1 musuh secara acak dan target di sekitarnya.",
+        "simple_desc": "Memanggil Lightning-Lord saat pertempuran dimulai. Saat \"Lightning-Lord\" beraksi, akan melancarkan Serangan Lanjutan, secara otomatis mengakibatkan Lightning DMG dalam jumlah kecil pada 1 musuh secara acak dan target di sekitarnya.",
         "desc": "Memanggil Lightning-Lord saat pertempuran dimulai. Lightning-Lord memiliki #1[i] SPD dasar dan #4[i] Hits Per Action, setiap serangannya dihitung sebagai Serangan Lanjutan. Setiap serangan Lightning-Lord akan mengakibatkan Lightning DMG sebesar #2[i]% ATK Jing Yuan pada 1 musuh secara acak, serta mengakibatkan Lightning DMG pada target di sekitarnya sebesar #5[i]% dari Lightning DMG yang diakibatkan pada target utama.\nMaksimal Hits Per Action milik Lightning-Lord adalah #6[i], dan setiap kali Hits Per Action milik Lightning-Lord bertambah 1, SPD-nya akan meningkat #3[i]. Setelah aksinya berakhir, Hits Per Action dan SPD-nya akan kembali seperti semula.\nSaat Jing Yuan gugur, Lightning-Lord akan menghilang.\nSaat Jing Yuan terkena Crowd Control Debuff, Lightning-Lord juga tidak dapat beraksi.",
         "params": [
             [
@@ -9081,7 +9081,7 @@
         "type_text": "Talent",
         "effect": "AoEAttack",
         "effect_text": "AoE",
-        "simple_desc": "Saat HP Blade berkurang, Blade akan memperoleh 1 lapis Charge. Saat Charge ditumpuk hingga batas maksimum, Blade akan segera mengakibatkan Wind DMG pada seluruh musuh dan memulihkan HP, kemudian mengonsumsi seluruh Charge.",
+        "simple_desc": "Saat HP Blade berkurang, akan memperoleh 1 lapis Charge. Saat Charge mencapai batas maksimal, akan melancarkan Serangan Lanjutan yang mengakibatkan Wind DMG pada seluruh musuh, memulihkan HP, dan mengonsumsi semua Charge.",
         "desc": "Saat Blade terkena serangan atau mengonsumsi HP-nya, dia akan mendapatkan 1 lapis Charge, maksimal 5 lapis. Setiap kali Blade terkena serangan, Blade hanya bisa mendapatkan 1 lapis Charge efek ini.\nSetelah jumlah Charge mencapai batas maksimal, Blade akan segera melancarkan 1 kali Serangan Lanjutan yang mengakibatkan Wind DMG sebesar #2[i]% ATK Blade + #4[i]% Max HP Blade pada seluruh musuh. Di saat yang bersamaan, akan memulihkan HP Blade sebesar #3[i]% Max HP-nya. Setelah Serangan Lanjutan ini dilancarkan, semua lapisan Charge akan dihapus.",
         "params": [
             [
@@ -14487,9 +14487,100 @@
         "type_text": "Ultimate",
         "effect": "SingleAttack",
         "effect_text": "Single Target",
-        "simple_desc": "",
+        "simple_desc": "Selama Ultimate berlangsung, dapat mengurangi Toughness musuh tanpa memedulikan tipe Weakness-nya. Jika target tidak berstatus Weakness Break, maka Weakness Break Efficiency Feixiao akan meningkat.\nMelancarkan 6 kali \"Boltsunder Blitz\" atau \"Waraxe Skyward\" pada 1 musuh, lalu terakhir mengakibatkan Wind DMG.",
         "desc": "",
-        "params": [],
+        "params": [
+            [
+                0.96,
+                1,
+                6,
+                4.02
+            ],
+            [
+                1.024,
+                1,
+                6,
+                4.318
+            ],
+            [
+                1.088,
+                1,
+                6,
+                4.616
+            ],
+            [
+                1.152,
+                1,
+                6,
+                4.914
+            ],
+            [
+                1.216,
+                1,
+                6,
+                5.212
+            ],
+            [
+                1.28,
+                1,
+                6,
+                5.51
+            ],
+            [
+                1.36,
+                1,
+                6,
+                5.8825
+            ],
+            [
+                1.44,
+                1,
+                6,
+                6.255
+            ],
+            [
+                1.52,
+                1,
+                6,
+                6.6275
+            ],
+            [
+                1.6,
+                1,
+                6,
+                7
+            ],
+            [
+                1.664,
+                1,
+                6,
+                7.298
+            ],
+            [
+                1.728,
+                1,
+                6,
+                7.596
+            ],
+            [
+                1.792,
+                1,
+                6,
+                7.894
+            ],
+            [
+                1.856,
+                1,
+                6,
+                8.192
+            ],
+            [
+                1.92,
+                1,
+                6,
+                8.49
+            ]
+        ],
         "icon": "icon/skill/1220_ultimate.png"
     },
     "122101": {
@@ -14543,7 +14634,7 @@
         "type_text": "Skill",
         "effect": "Blast",
         "effect_text": "Blast",
-        "simple_desc": "Memulihkan HP diri sendiri, dan mengakibatkan Physical DMG dalam jumlah kecil pada 1 musuh dan target di sekitarnya.",
+        "simple_desc": "Memulihkan HP diri sendiri dan mengakibatkan Physical DMG pada 1 musuh, serta mengakibatkan Physical DMG dalam jumlah kecil pada target di sekitarnya.",
         "desc": "Memulihkan HP sebesar #3[f1]% ATK Yunli + #4[i], dan mengakibatkan Physical DMG sebesar #1[i]% ATK Yunli pada 1 musuh yang ditargetkan, serta mengakibatkan Physical DMG sebesar #2[i]% ATK Yunli pada musuh di sekitar target.",
         "params": [
             [
@@ -14813,7 +14904,7 @@
         "type_text": "Talent",
         "effect": "Blast",
         "effect_text": "Blast",
-        "simple_desc": "Saat Yunli terkena serangan dari target musuh, akan memulihkan Energy tambahan dan segera melancarkan Serangan Balasan pada penyerang dan target di sekitarnya.",
+        "simple_desc": "Saat Yunli diserang oleh target musuh, akan memulihkan ekstra Energy dan segera melancarkan Serangan Balasan, mengakibatkan Physical DMG pada penyerang dan Physical DMG dalam jumlah kecil pada target di sekitarnya.",
         "desc": "Saat setelah Yunli terkena serangan dari target musuh, akan memulihkan #3[i] Energy tambahan dan segera melancarkan Serangan Balasan pada penyerang, mengakibatkan Physical DMG sebesar #1[i]% ATK Yunli pada penyerang dan mengakibatkan Physical DMG sebesar #2[i]% pada target di sekitarnya.\nJika target Serangan Balasan tidak ada, maka akan melancarkan Serangan Balasan pada target musuh acak.",
         "params": [
             [
@@ -17232,7 +17323,7 @@
         "effect": "Enhance",
         "effect_text": "Enhance",
         "simple_desc": "Saat memasuki pertempuran berikutnya, akan otomatis memicu Skill sebanyak 1 kali. Setelah melancarkan Technique, saat menyerang musuh di Simulated Universe atau Divergent Universe, akan selalu dianggap menyerang Weakness saat memasuki pertempuran, dan serangan kali ini akan mengurangi Toughness musuh tanpa memedulikan tipe Weakness-nya. Untuk setiap 1 Blessing yang dimiliki, Pengurangan Toughness akan meningkat dan jika serangan ini mengakibatkan Weakness Break, maka akan mengakibatkan Break DMG tambahan.",
-        "desc": "Setelah menggunakan Technique, akan memperoleh \"Silken Serenade\". Saat pertempuran berikutnya dimulai, akan otomatis memicu Skill dirinya sebanyak #1[i] kali, dan pemicuan kali ini tidak akan mengonsumsi Poin Skill.\nSaat Ruan Mei memiliki \"Silken Serenade\" di Simulated Universe atau Divergent Universe, saat rekan tim menyerang musuh secara aktif, akan selalu dianggap menyerang Weakness saat memasuki pertempuran, dan serangan kali ini akan mengurangi Toughness seluruh musuh tanpa memedulikan tipe Weakness-nya. Saat mengakibatkan Weakness Break, akan memicu efek Weakness Break yang sesuai dengan Tipe Serangan penyerang. Untuk setiap 1 Blessing yang dimiliki, Pengurangan Toughness dari serangan kali ini akan meningkat ekstra #2[i]%. Jika serangan ini mengakibatkan Weakness Break, maka akan mengakibatkan Break DMG tambahan sebesar #3[i]% Ice Break DMG Ruan Mei pada target musuh tersebut. Berlaku untuk maksimal #4[i] Blessing.",
+        "desc": "Setelah menggunakan Technique, akan memperoleh \"Silken Serenade\". Saat pertempuran berikutnya dimulai, akan otomatis memicu Skill dirinya sebanyak #1[i] kali, dan pemicuan kali ini tidak akan mengonsumsi Poin Skill.\nSaat Ruan Mei memiliki \"Silken Serenade\" di Simulated Universe atau Divergent Universe, saat rekan tim menyerang musuh secara aktif, akan selalu dianggap menyerang Weakness saat memasuki pertempuran, dan serangan kali ini akan mengurangi Toughness seluruh musuh tanpa memedulikan tipe Weakness-nya. Saat mengakibatkan Weakness Break, akan memicu efek Weakness Break yang sesuai dengan Tipe penyerang. Untuk setiap 1 Blessing yang dimiliki, Pengurangan Toughness dari serangan kali ini akan meningkat ekstra #2[i]%. Jika serangan ini mengakibatkan Weakness Break, maka akan mengakibatkan Break DMG tambahan sebesar #3[i]% Ice Break DMG Ruan Mei pada target musuh tersebut. Berlaku untuk maksimal #4[i] Blessing.",
         "params": [
             [
                 1,
@@ -17836,7 +17927,7 @@
         "type_text": "Talent",
         "effect": "SingleAttack",
         "effect_text": "Single Target",
-        "simple_desc": "Saat melancarkan Skill, ada peluang untuk melancarkan 1 kali Serangan Lanjutan pada target tersebut.",
+        "simple_desc": "Saat melancarkan Skill, ada peluang untuk melancarkan 1 kali Serangan Lanjutan pada target, mengakibatkan Imaginary DMG.",
         "desc": "Saat melancarkan Skill, ada #2[i]% peluang tetap untuk melancarkan 1 kali Serangan Lanjutan pada target tersebut, yang mengakibatkan Imaginary DMG sebesar #1[i]% ATK Dr. Ratio. Untuk setiap 1 efek Debuff yang dimiliki target, akan meningkatkan #3[i]% peluang tetap pelancaran Serangan Lanjutan. Jika target dikalahkan sebelum Serangan Lanjutan dilancarkan, maka akan melancarkan Serangan Lanjutan pada satu musuh secara acak.",
         "params": [
             [
@@ -21398,7 +21489,7 @@
         "type_text": "Ultimate",
         "effect": "SingleAttack",
         "effect_text": "Single Target",
-        "simple_desc": "Menambahkan Physical Weakness pada 1 musuh dan mengakibatkan Physical DMG dalam jumlah besar pada musuh tersebut serta menunda aksinya.",
+        "simple_desc": "Menambahkan Physical Weakness pada 1 musuh dan mengakibatkan Physical DMG dalam jumlah besar pada musuh tersebut, serta menunda aksinya.",
         "desc": "Menambahkan Physical Weakness pada 1 musuh yang ditargetkan, berlangsung selama #3[i] giliran.\nMengakibatkan Physical DMG sebesar #1[i]% ATK Boothill pada target tersebut dan menunda aksinya sebesar #2[i]%.",
         "params": [
             [
@@ -21687,6 +21778,656 @@
             ]
         ],
         "icon": "icon/skill/1315_basic_atk.png"
+    },
+    "131701": {
+        "id": "131701",
+        "name": "Ninjutsu: Rise Above Tumbles",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Mengakibatkan Imaginary DMG dalam jumlah kecil pada 1 musuh yang ditargetkan.",
+        "desc": "Mengakibatkan Imaginary DMG sebesar #1[i]% ATK Rappa pada 1 musuh yang ditargetkan.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1317_basic_atk.png"
+    },
+    "131702": {
+        "id": "131702",
+        "name": "Ninja Strike: Rooted Resolute",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "BPSkill",
+        "type_text": "Skill",
+        "effect": "AoEAttack",
+        "effect_text": "AoE",
+        "simple_desc": "Mengakibatkan Imaginary DMG pada seluruh musuh.",
+        "desc": "Mengakibatkan Imaginary DMG sebesar #1[i]% ATK Rappa pada seluruh musuh.",
+        "params": [
+            [
+                0.6
+            ],
+            [
+                0.66
+            ],
+            [
+                0.72
+            ],
+            [
+                0.78
+            ],
+            [
+                0.84
+            ],
+            [
+                0.9
+            ],
+            [
+                0.975
+            ],
+            [
+                1.05
+            ],
+            [
+                1.125
+            ],
+            [
+                1.2
+            ],
+            [
+                1.26
+            ],
+            [
+                1.32
+            ],
+            [
+                1.38
+            ],
+            [
+                1.44
+            ],
+            [
+                1.5
+            ]
+        ],
+        "icon": "icon/skill/1317_skill.png"
+    },
+    "131703": {
+        "id": "131703",
+        "name": "Nindō Supreme: Aishiteru",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "Enhance",
+        "effect_text": "Enhance",
+        "simple_desc": "Memasuki status \"Sealform\", memperoleh Giliran Tambahan, memperoleh 3 poin \"Chroma Ink\", serta meningkatkan Weakness Break Efficiency dan Break Effect.\nSaat berstatus \"Sealform\", akan memperoleh Enhanced Basic Attack. Setelah melancarkan Enhanced Basic Attack, akan mengonsumsi 1 poin \"Chroma Ink\". Setelah \"Chroma Ink\" terkonsumsi habis, akan keluar dari status \"Sealform\".",
+        "desc": "Memasuki status \"Sealform\", segera memperoleh 1 Giliran Tambahan, memperoleh #3[i] poin \"Chroma Ink\", meningkatkan #1[i]% Weakness Break Efficiency, dan meningkatkan #2[i]% Break Effect.\nSaat berstatus \"Sealform\", akan memperoleh Enhanced Basic Attack dan tidak bisa melancarkan Skill dan Ultimate. Setelah melancarkan Enhanced Basic Attack, akan mengonsumsi 1 poin \"Chroma Ink\". Setelah \"Chroma Ink\" terkonsumsi habis, akan keluar dari status \"Sealform\".",
+        "params": [
+            [
+                0.5,
+                0.1,
+                3
+            ],
+            [
+                0.5,
+                0.12,
+                3
+            ],
+            [
+                0.5,
+                0.14,
+                3
+            ],
+            [
+                0.5,
+                0.16,
+                3
+            ],
+            [
+                0.5,
+                0.18,
+                3
+            ],
+            [
+                0.5,
+                0.2,
+                3
+            ],
+            [
+                0.5,
+                0.225,
+                3
+            ],
+            [
+                0.5,
+                0.25,
+                3
+            ],
+            [
+                0.5,
+                0.275,
+                3
+            ],
+            [
+                0.5,
+                0.3,
+                3
+            ],
+            [
+                0.5,
+                0.32,
+                3
+            ],
+            [
+                0.5,
+                0.34,
+                3
+            ],
+            [
+                0.5,
+                0.36,
+                3
+            ],
+            [
+                0.5,
+                0.38,
+                3
+            ],
+            [
+                0.5,
+                0.4,
+                3
+            ]
+        ],
+        "icon": "icon/skill/1317_ultimate.png"
+    },
+    "131704": {
+        "id": "131704",
+        "name": "Ninja Tech: Endurance Gauge",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Enhance",
+        "effect_text": "Enhance",
+        "simple_desc": "Saat target musuh terkena Weakness Break, Rappa akan memperoleh 1 poin Charge. Saat melancarkan Hit ke-3 dari \"Ningu: Demonbane Petalblade\", akan mengakibatkan Imaginary Break DMG tambahan pada seluruh musuh. DMG tersebut dapat mengurangi Toughness tanpa memedulikan Tipe Weakness, serta akan mengonsumsi seluruh poin Charge dan meningkatkan Break DMG Multiplier dan Pengurangan Toughness kali ini.",
+        "desc": "Setiap saat target musuh terkena Weakness Break, Rappa akan memperoleh 1 poin Charge, maksimal dapat memiliki #1[i] poin Charge. Saat Rappa melancarkan Hit ke-3 dari \"Ningu: Demonbane Petalblade\" di kali berikutnya, akan mengakibatkan Break DMG tambahan pada seluruh musuh sebesar #3[i]% Imaginary Break DMG Rappa. DMG tersebut dapat mengurangi #4[i] Toughness tanpa memedulikan Tipe Weakness, serta akan mengonsumsi seluruh poin Charge. Setiap poin Charge dapat meningkatkan #5[i]% Break DMG Multiplier kali ini, dan meningkatkan #6[i] Pengurangan Toughness yang tidak memedulikan Tipe Weakness.\nSaat mengakibatkan Weakness Break, akan memicu efek Imaginary Weakness Break.",
+        "params": [
+            [
+                10,
+                0,
+                0.3,
+                2,
+                0.25,
+                1
+            ],
+            [
+                10,
+                0,
+                0.33,
+                2,
+                0.275,
+                1
+            ],
+            [
+                10,
+                0,
+                0.36,
+                2,
+                0.3,
+                1
+            ],
+            [
+                10,
+                0,
+                0.39,
+                2,
+                0.325,
+                1
+            ],
+            [
+                10,
+                0,
+                0.42,
+                2,
+                0.35,
+                1
+            ],
+            [
+                10,
+                0,
+                0.45,
+                2,
+                0.375,
+                1
+            ],
+            [
+                10,
+                0,
+                0.4875,
+                2,
+                0.4062,
+                1
+            ],
+            [
+                10,
+                0,
+                0.525,
+                2,
+                0.4375,
+                1
+            ],
+            [
+                10,
+                0,
+                0.5625,
+                2,
+                0.4688,
+                1
+            ],
+            [
+                10,
+                0,
+                0.6,
+                2,
+                0.5,
+                1
+            ],
+            [
+                10,
+                0,
+                0.63,
+                2,
+                0.525,
+                1
+            ],
+            [
+                10,
+                0,
+                0.66,
+                2,
+                0.55,
+                1
+            ],
+            [
+                10,
+                0,
+                0.69,
+                2,
+                0.575,
+                1
+            ],
+            [
+                10,
+                0,
+                0.72,
+                2,
+                0.6,
+                1
+            ],
+            [
+                10,
+                0,
+                0.75,
+                2,
+                0.625,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1317_talent.png"
+    },
+    "131706": {
+        "id": "131706",
+        "name": "Attack",
+        "max_level": 1,
+        "element": "Imaginary",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Setelah menyerang musuh dan memasuki pertempuran, akan mengurangi Toughness target musuh sesuai dengan Tipenya.",
+        "params": [],
+        "icon": "icon/skill/1317_basic_atk.png"
+    },
+    "131707": {
+        "id": "131707",
+        "name": "Ninja Dash: By Leaps and Bounds",
+        "max_level": 1,
+        "element": "Imaginary",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Enhance",
+        "effect_text": "Enhance",
+        "simple_desc": "Memasuki status \"Graffiti\" dan dapat melaju dengan cepat sejauh jarak tertentu, serta menyerang musuh yang tersentuh. Setelah menyerang musuh untuk memasuki pertempuran, akan mengurangi Toughness tanpa memedulikan Tipe Weakness dan mengakibatkan Imaginary Break DMG pada setiap target musuh, serta mengakibatkan Imaginary Break DMG pada target di sekitarnya. Di saat yang bersamaan, Rappa akan memperoleh Energy.",
+        "desc": "Setelah menggunakan Technique, akan memasuki status \"Graffiti\" selama #1[i] detik. Saat berstatus \"Graffiti\", dapat melaju dengan cepat sejauh jarak tertentu dan menyerang musuh yang tersentuh. Saat sedang melaju dengan cepat, dapat menahan semua serangan musuh. Melancarkan serangan saat berstatus \"Graffiti\" akan mengakhiri durasi status lebih awal. Setelah secara aktif menyerang musuh untuk memasuki pertempuran, akan mengurangi #5[i]Toughness tanpa memedulikan Tipe Weakness dan mengakibatkan Break DMG sebesar #2[i]% Imaginary Break DMG Rappa pada setiap target musuh, serta mengakibatkan Break DMG sebesar #3[i]% Imaginary Break DMG Rappa pada target di sekitarnya. Di saat yang bersamaan, Rappa akan memperoleh #4[i] Energy.",
+        "params": [
+            [
+                20,
+                2,
+                1.8,
+                10,
+                30
+            ]
+        ],
+        "icon": "icon/skill/1317_technique.png"
+    },
+    "131708": {
+        "id": "131708",
+        "name": "Ningu: Demonbane Petalblade",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "Blast",
+        "effect_text": "Blast",
+        "simple_desc": "Mengakibatkan Imaginary DMG dalam jumlah kecil pada 1 musuh yang ditargetkan, serta mengakibatkan Imaginary DMG dalam jumlah kecil pada target di sekitarnya. Menyerang musuh yang tidak memiliki Imaginary Weakness tetap dapat mengurangi Toughness-nya.",
+        "desc": "",
+        "params": [
+            [
+                0.6,
+                0.3,
+                0.6,
+                0.5
+            ],
+            [
+                0.68,
+                0.34,
+                0.68,
+                0.5
+            ],
+            [
+                0.76,
+                0.38,
+                0.76,
+                0.5
+            ],
+            [
+                0.84,
+                0.42,
+                0.84,
+                0.5
+            ],
+            [
+                0.92,
+                0.46,
+                0.92,
+                0.5
+            ],
+            [
+                1,
+                0.5,
+                1,
+                0.5
+            ],
+            [
+                1.08,
+                0.54,
+                1.08,
+                0.5
+            ],
+            [
+                1.16,
+                0.58,
+                1.16,
+                0.5
+            ],
+            [
+                1.24,
+                0.62,
+                1.24,
+                0.5
+            ]
+        ],
+        "icon": "icon/skill/1317_basic_atk.png"
+    },
+    "131710": {
+        "id": "131710",
+        "name": "Ningu: Demonbane Petalblade",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "Blast",
+        "effect_text": "Blast",
+        "simple_desc": "Mengakibatkan Imaginary DMG dalam jumlah kecil pada 1 musuh yang ditargetkan, serta mengakibatkan Imaginary DMG dalam jumlah kecil pada target di sekitarnya. Menyerang musuh yang tidak memiliki Imaginary Weakness juga tetap dapat mengurangi Toughness-nya.",
+        "desc": "",
+        "params": [
+            [
+                0.6,
+                0.3
+            ],
+            [
+                0.68,
+                0.34
+            ],
+            [
+                0.76,
+                0.38
+            ],
+            [
+                0.84,
+                0.42
+            ],
+            [
+                0.92,
+                0.46
+            ],
+            [
+                1,
+                0.5
+            ],
+            [
+                1.08,
+                0.54
+            ],
+            [
+                1.16,
+                0.58
+            ],
+            [
+                1.24,
+                0.62
+            ]
+        ],
+        "icon": "icon/skill/1317_basic_atk.png"
+    },
+    "131712": {
+        "id": "131712",
+        "name": "Ningu: Demonbane Petalblade",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "AoEAttack",
+        "effect_text": "AoE",
+        "simple_desc": "Mengakibatkan Imaginary DMG dalam jumlah kecil pada seluruh musuh. Menyerang musuh yang tidak memiliki Imaginary Weakness juga tetap dapat mengurangi Toughness-nya.",
+        "desc": "",
+        "params": [
+            [
+                0.6
+            ],
+            [
+                0.68
+            ],
+            [
+                0.76
+            ],
+            [
+                0.84
+            ],
+            [
+                0.92
+            ],
+            [
+                1
+            ],
+            [
+                1.08
+            ],
+            [
+                1.16
+            ],
+            [
+                1.24
+            ]
+        ],
+        "icon": "icon/skill/1317_basic_atk.png"
+    },
+    "131714": {
+        "id": "131714",
+        "name": "",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "Blast",
+        "effect_text": "Blast",
+        "simple_desc": "",
+        "desc": "",
+        "params": [],
+        "icon": "icon/skill/1317_ultimate.png"
+    },
+    "131715": {
+        "id": "131715",
+        "name": "",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "Blast",
+        "effect_text": "Blast",
+        "simple_desc": "",
+        "desc": "",
+        "params": [],
+        "icon": "icon/skill/1317_ultimate.png"
+    },
+    "131716": {
+        "id": "131716",
+        "name": "",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "AoEAttack",
+        "effect_text": "AoE",
+        "simple_desc": "",
+        "desc": "",
+        "params": [],
+        "icon": "icon/skill/1317_ultimate.png"
+    },
+    "131717": {
+        "id": "131717",
+        "name": "",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "Blast",
+        "effect_text": "Blast",
+        "simple_desc": "",
+        "desc": "",
+        "params": [],
+        "icon": "icon/skill/1317_ultimate.png"
+    },
+    "131718": {
+        "id": "131718",
+        "name": "Ningu: Demonbane Petalblade",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "Path Resonance",
+        "effect": "Blast",
+        "effect_text": "Blast",
+        "simple_desc": "2 Hit serangan pertama mengakibatkan Imaginary DMG dalam jumlah kecil pada 1 musuh yang ditargetkan, serta mengakibatkan Imaginary DMG dalam jumlah kecil pada target di sekitarnya. Hit ke-3 akan mengakibatkan Imaginary DMG dalam jumlah kecil pada seluruh musuh. Menyerang musuh yang tidak memiliki Imaginary Weakness tetap dapat mengurangi Toughness-nya.",
+        "desc": "Melancarkan \"Ningu: Demonbane Petalblade\". 2 Hit serangan pertama akan mengakibatkan Imaginary DMG sebesar #1[i]% ATK Rappa pada 1 musuh yang ditargetkan, serta mengakibatkan Imaginary DMG sebesar #2[i]% ATK Rappa pada target di sekitarnya. Hit ke-3 akan mengakibatkan Imaginary DMG sebesar #3[i]% ATK Rappa pada seluruh musuh.\nEnhanced Basic Attack tidak dapat memulihkan Poin Skill, dan tetap dapat mengurangi Toughness saat menyerang musuh yang tidak memiliki Imaginary Weakness, efeknya adalah sebesar #4[i]% dari Pengurangan Toughness aslinya. Saat mengakibatkan Weakness Break, akan memicu efek Imaginary Weakness Break.",
+        "params": [
+            [
+                0.6,
+                0.3,
+                0.6,
+                0.5
+            ],
+            [
+                0.68,
+                0.34,
+                0.68,
+                0.5
+            ],
+            [
+                0.76,
+                0.38,
+                0.76,
+                0.5
+            ],
+            [
+                0.84,
+                0.42,
+                0.84,
+                0.5
+            ],
+            [
+                0.92,
+                0.46,
+                0.92,
+                0.5
+            ],
+            [
+                1,
+                0.5,
+                1,
+                0.5
+            ],
+            [
+                1.08,
+                0.54,
+                1.08,
+                0.5
+            ],
+            [
+                1.16,
+                0.58,
+                1.16,
+                0.5
+            ],
+            [
+                1.24,
+                0.62,
+                1.24,
+                0.5
+            ]
+        ],
+        "icon": "icon/skill/1317_basic_atk.png"
     },
     "800101": {
         "id": "800101",

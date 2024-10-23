@@ -906,7 +906,7 @@
         "type_text": "Talento",
         "effect": "AoEAttack",
         "effect_text": "ATQ AdE",
-        "simple_desc": "Cuando se rompe la Debilidad del enemigo, consigue una carga.\nDespués de que un aliado ataque, si ha acumulado el máximo de cargas, lanza inmediatamente un ataque adicional que inflige Daño de Fuego a todos los enemigos y consume todas sus cargas.\nAl comenzar la batalla obtiene 1 carga.",
+        "simple_desc": "Al comenzar la batalla o cuando se rompe la Debilidad del enemigo, consigue carga.\nDespués de que un objetivo aliado ataque, si ha acumulado el máximo de cargas, lanza un ataque adicional que inflige Daño de Fuego a todos los enemigos y consume todas sus cargas.",
         "desc": "Cuando se rompe la Debilidad de un enemigo, Himeko consigue una carga (hasta un máximo de #2[i]).\nDespués de que un aliado ataque, si Himeko ha acumulado el máximo de cargas, lanza inmediatamente un ataque adicional que inflige a todos los enemigos un Daño de Fuego equivalente al #1[i]% del ATQ de Himeko y consume todas sus cargas.\nAl comenzar la batalla obtiene 1 carga.",
         "params": [
             [
@@ -3758,7 +3758,7 @@
         "type_text": "Habilidad básica",
         "effect": "Blast",
         "effect_text": "Ráfaga",
-        "simple_desc": "Inflige una pequeña cantidad de Daño de Rayo a un objetivo y a los enemigos adyacentes. Gran probabilidad de afectar con Electrocución a los enemigos golpeados.",
+        "simple_desc": "Inflige una pequeña cantidad de Daño de Rayo a un enemigo y a los objetivos adyacentes. Gran probabilidad de afectar con Electrocución a los enemigos golpeados.",
         "desc": "Serval inflige un #1[i]% de su ATQ como Daño de Rayo a un enemigo y un #2[i]% de su ATQ como Daño de Rayo a los enemigos adyacentes. Además, tiene una probabilidad base del #3[i]% de afectar con Electrocución a los enemigos atacados durante #4[i] turnos.\nLos enemigos electrocutados reciben un Daño de Rayo con el tiempo equivalente al #5[i]% del ATQ de Serval al comienzo de cada turno.",
         "params": [
             [
@@ -6060,7 +6060,7 @@
         "type_text": "Técnica",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "Ataca inmediatamente al enemigo y entra en combate. Inflige Daño de Fuego a un enemigo al azar y tiene una gran probabilidad de afectar con Quemadura a cada enemigo.",
+        "simple_desc": "Ataca inmediatamente al enemigo y entra en combate. Inflige una pequeña cantidad de Daño de Fuego a un enemigo al azar y tiene una gran probabilidad de afectar con Quemadura a cada enemigo.",
         "desc": "Ataca inmediatamente al enemigo y entra en combate. Inflige un #4[i]% del ATQ de Hook como Daño de Fuego a un enemigo al azar. Además, cada enemigo tiene un #1[i]% de probabilidad base de ser afectado por Quemadura durante #3[i] turnos.\nLos enemigos quemados reciben un Daño de Fuego con el tiempo equivalente al #2[i]% del ATQ de Hook al comienzo de cada turno.",
         "params": [
             [
@@ -7283,7 +7283,7 @@
         "type_text": "Talento",
         "effect": "SingleAttack",
         "effect_text": "ATQ individual",
-        "simple_desc": "Invoca a Conti al principio de la batalla. Cuando Conti realiza una acción, lanza un ataque adicional a un enemigo afectado por Certificado de deuda. Cuando un enemigo afectado por Certificado de deuda recibe un ataque adicional, la acción de Conti se adelanta.",
+        "simple_desc": "Invoca a Conti al principio de la batalla. Cuando Conti realiza una acción, lanza un ataque adicional que inflige Daño de Fuego a un objetivo afectado por Certificado de deuda.\nCuando un enemigo afectado por Certificado de deuda recibe un ataque adicional, la acción de Conti se adelanta.",
         "desc": "Invoca a Conti al principio de la batalla. Conti tiene #1[i] pts. de VEL por defecto. Al realizar una acción, Conti lanza un ataque adicional e inflige un #2[i]% del ATQ de Topaz como Daño de Fuego a un enemigo afectado por Certificado de deuda.\nCuando el enemigo afectado por Certificado de deuda recibe un ataque adicional de un aliado, la acción de Conti se adelanta un #3[i]%. El efecto de adelanto de la acción no se puede activar durante el turno de Conti.\nCuando Topaz es derrotada, Conti desaparece.",
         "params": [
             [
@@ -8617,7 +8617,7 @@
         "type_text": "Talento",
         "effect": "Bounce",
         "effect_text": "Rebote",
-        "simple_desc": "Invoca al caballero divino al comenzar la batalla. El caballero divino inflige una pequeña cantidad de Daño de Rayo automáticamente a un enemigo al azar y a los enemigos adyacentes.",
+        "simple_desc": "Invoca al caballero divino al comenzar la batalla. Al actuar, el caballero divino lanza un ataque adicional que inflige una pequeña cantidad de Daño de Rayo automáticamente a un enemigo al azar y a los objetivos adyacentes.",
         "desc": "Invoca al caballero divino al comenzar la batalla. El caballero divino tiene inicialmente #1[i] pts. de VEL y #4[i] golpes por acción. Los golpes que inflige durante su acción se consideran ataques adicionales. Cada golpe inflige un #2[i]% del ATQ de Jing Yuan como Daño de Rayo a un enemigo aleatorio, y los enemigos adyacentes reciben un Daño de Rayo equivalente al #5[i]% del que recibe el objetivo principal.\nEl caballero divino puede acumular #6[i] golpes por acción como máximo. Cada vez que sus golpes por acción se incrementan en 1, su VEL aumenta en #3[i] pts. Cuando finaliza su acción, su VEL y sus golpes por acción regresan al valor original.\nCuando Jing Yuan es derrotado, el caballero divino desaparece.\nCuando Jing Yuan está afectado por estados negativos de Control, el caballero divino tampoco puede realizar ninguna acción.",
         "params": [
             [
@@ -9081,7 +9081,7 @@
         "type_text": "Talento",
         "effect": "AoEAttack",
         "effect_text": "ATQ AdE",
-        "simple_desc": "Cuando Blade pierde PV, obtiene 1 acumulación de carga. Cuando las acumulaciones llegan al máximo, inflige inmediatamente Daño de Viento a todos los enemigos y recupera PV, lo que consume todas las acumulaciones.",
+        "simple_desc": "Cuando Blade pierde PV, obtiene 1 acumulación de carga. Cuando la carga llega al máximo, lanza un ataque adicional que inflige Daño de Viento a todos los enemigos y recupera PV, lo que consume todas las acumulaciones.",
         "desc": "Cuando Blade recibe daño o consume PV, obtiene 1 acumulación de carga, hasta un máximo de 5 acumulaciones. Cada vez que recibe un ataque obtiene 1 acumulación como máximo gracias a este efecto.\nCuando las acumulaciones llegan al máximo, lanza un ataque adicional a todos los enemigos que inflige un Daño de Viento equivalente al #2[i]% del ATQ de Blade + #4[i]% de sus PV máx. Además, Blade regenera el #3[i]% de sus PV máx. Tras lanzar el ataque adicional se consumen todas las acumulaciones de carga.",
         "params": [
             [
@@ -14487,9 +14487,100 @@
         "type_text": "Habilidad definitiva",
         "effect": "SingleAttack",
         "effect_text": "ATQ individual",
-        "simple_desc": "",
+        "simple_desc": "Durante la habilidad definitiva, reduce la Firmeza del enemigo ignorando sus tipos de Debilidad. Si el objetivo no tiene Ruptura de Debilidad, la eficiencia de la Ruptura de Debilidad de Feixiao aumenta.\nLanza 6 veces Danza de cortes relámpago o Aluvión de hachazos hendedores a un enemigo, y por último inflige Daño de Viento.",
         "desc": "",
-        "params": [],
+        "params": [
+            [
+                0.96,
+                1,
+                6,
+                4.02
+            ],
+            [
+                1.024,
+                1,
+                6,
+                4.318
+            ],
+            [
+                1.088,
+                1,
+                6,
+                4.616
+            ],
+            [
+                1.152,
+                1,
+                6,
+                4.914
+            ],
+            [
+                1.216,
+                1,
+                6,
+                5.212
+            ],
+            [
+                1.28,
+                1,
+                6,
+                5.51
+            ],
+            [
+                1.36,
+                1,
+                6,
+                5.8825
+            ],
+            [
+                1.44,
+                1,
+                6,
+                6.255
+            ],
+            [
+                1.52,
+                1,
+                6,
+                6.6275
+            ],
+            [
+                1.6,
+                1,
+                6,
+                7
+            ],
+            [
+                1.664,
+                1,
+                6,
+                7.298
+            ],
+            [
+                1.728,
+                1,
+                6,
+                7.596
+            ],
+            [
+                1.792,
+                1,
+                6,
+                7.894
+            ],
+            [
+                1.856,
+                1,
+                6,
+                8.192
+            ],
+            [
+                1.92,
+                1,
+                6,
+                8.49
+            ]
+        ],
         "icon": "icon/skill/1220_ultimate.png"
     },
     "122101": {
@@ -14543,7 +14634,7 @@
         "type_text": "Habilidad básica",
         "effect": "Blast",
         "effect_text": "Ráfaga",
-        "simple_desc": "Regenera sus propios PV e inflige una pequeña cantidad de Daño Físico a un enemigo y a los enemigos adyacentes.",
+        "simple_desc": "Regenera sus propios PV e inflige Daño Físico a un enemigo y una pequeña cantidad de Daño Físico a los objetivos adyacentes.",
         "desc": "Yunli regenera una cantidad de PV equivalente al #3[f1]% de su ATQ + #4[i] e inflige un #1[i]% de su ATQ como Daño Físico a un enemigo y un #2[i]% de su ATQ como Daño Físico a los enemigos adyacentes.",
         "params": [
             [
@@ -14813,7 +14904,7 @@
         "type_text": "Talento",
         "effect": "Blast",
         "effect_text": "Ráfaga",
-        "simple_desc": "Cuando Yunli recibe un ataque enemigo, recupera energía adicional y lanza inmediatamente un contraataque contra dicho enemigo y los objetivos adyacentes.",
+        "simple_desc": "Cuando Yunli recibe un ataque enemigo, recupera pts. de energía adicionales y lanza inmediatamente un contraataque que inflige Daño Físico al atacante y una pequeña cantidad de Daño Físico a los objetivos adyacentes.",
         "desc": "Cuando Yunli recibe un ataque enemigo, recupera #3[i] pts. de energía adicionales y lanza inmediatamente un contraataque contra dicho enemigo y le inflige un #1[i]% de su ATQ como Daño Físico. También inflige un #2[i]% de su ATQ como Daño Físico a los enemigos adyacentes.\nSi no existe el objetivo del contraataque, contraataca a un objetivo enemigo al azar.",
         "params": [
             [
@@ -17836,7 +17927,7 @@
         "type_text": "Talento",
         "effect": "SingleAttack",
         "effect_text": "ATQ individual",
-        "simple_desc": "Al usar su habilidad básica, hay una probabilidad de lanzar un ataque adicional contra el objetivo.",
+        "simple_desc": "Al lanzar la habilidad básica, tiene una probabilidad de lanzar 1 ataque adicional que inflige Daño Imaginario contra el objetivo.",
         "desc": "Al usar su habilidad básica, el Dr. Ratio tiene una probabilidad fija del #2[i]% de lanzar un ataque adicional contra el objetivo e infligir un Daño Imaginario equivalente al #1[i]% de su ATQ. Por cada estado negativo que tenga el objetivo, la probabilidad fija de lanzar el ataque adicional aumenta en un #3[i]%. Si el objetivo es derrotado antes de que se lance el ataque adicional, el ataque adicional se dirige contra otro enemigo al azar.",
         "params": [
             [
@@ -19806,7 +19897,7 @@
         "type_text": "Talento",
         "effect": "Support",
         "effect_text": "Apoyo",
-        "simple_desc": "Aumenta el Daño CRIT de todos los aliados. Después de que un aliado ataque a un enemigo, Robin recupera energía adicional.",
+        "simple_desc": "Aumenta el Daño CRIT de todos los aliados. Después de que un objetivo aliado ataque a un enemigo, Robin recupera energía adicional.",
         "desc": "Aumenta el Daño CRIT de todos los aliados en un #1[f1]%. Después de que un aliado ataque a un enemigo, Robin recupera #2[i] pts. de energía adicionales.",
         "params": [
             [
@@ -21398,7 +21489,7 @@
         "type_text": "Habilidad definitiva",
         "effect": "SingleAttack",
         "effect_text": "ATQ individual",
-        "simple_desc": "Aplica Debilidad Física a un enemigo. Además, inflige gran cantidad de Daño Físico y retrasa la acción del enemigo.",
+        "simple_desc": "Implanta Debilidad Física a un enemigo. Además, inflige gran cantidad de Daño Físico y retrasa la acción del enemigo.",
         "desc": "Aplica Debilidad Física a un enemigo durante #3[i] turnos.\nAdemás, inflige al enemigo un Daño Físico equivalente al #1[i]% del ATQ de Boothill y retrasa su acción en un #2[i]%.",
         "params": [
             [
@@ -21687,6 +21778,656 @@
             ]
         ],
         "icon": "icon/skill/1315_basic_atk.png"
+    },
+    "131701": {
+        "id": "131701",
+        "name": "Ninjutsu: Alzarse tras tropezar",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "ATQ básico",
+        "effect": "SingleAttack",
+        "effect_text": "ATQ individual",
+        "simple_desc": "Inflige una pequeña cantidad de Daño Imaginario a un enemigo.",
+        "desc": "Inflige un #1[i]% del ATQ de Rappa como Daño Imaginario a un enemigo.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1317_basic_atk.png"
+    },
+    "131702": {
+        "id": "131702",
+        "name": "Corte ninja: Voluntad inquebrantable",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "BPSkill",
+        "type_text": "Habilidad básica",
+        "effect": "AoEAttack",
+        "effect_text": "ATQ AdE",
+        "simple_desc": "Inflige Daño Imaginario a todos los enemigos.",
+        "desc": "Inflige un #1[i]% del ATQ de Rappa como Daño Imaginario a todos los enemigos.",
+        "params": [
+            [
+                0.6
+            ],
+            [
+                0.66
+            ],
+            [
+                0.72
+            ],
+            [
+                0.78
+            ],
+            [
+                0.84
+            ],
+            [
+                0.9
+            ],
+            [
+                0.975
+            ],
+            [
+                1.05
+            ],
+            [
+                1.125
+            ],
+            [
+                1.2
+            ],
+            [
+                1.26
+            ],
+            [
+                1.32
+            ],
+            [
+                1.38
+            ],
+            [
+                1.44
+            ],
+            [
+                1.5
+            ]
+        ],
+        "icon": "icon/skill/1317_skill.png"
+    },
+    "131703": {
+        "id": "131703",
+        "name": "Vía del ninja suprema: Aishiteru",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Ultra",
+        "type_text": "Habilidad definitiva",
+        "effect": "Enhance",
+        "effect_text": "Potenciación",
+        "simple_desc": "Entra en el estado de Forma de sello y obtiene un turno adicional y 3 puntos de Tinta cromática. Además, aumenta su eficiencia de la Ruptura de Debilidad y su efecto de Ruptura.\nEn el estado de Forma de sello, su ATQ básico se potencia. Tras lanzar el ATQ básico potenciado, consume 1 punto de Tinta cromática, y sale del estado de Forma de sello cuando los gasta todos.",
+        "desc": "Entra en el estado de Forma de sello y obtiene inmediatamente 1 turno adicional y #3[i] pts. de Tinta cromática. Además, su eficiencia de la Ruptura de Debilidad y su efecto de Ruptura aumentan en un #1[i]% y un #2[i]% respectivamente.\nEn el estado de Sello, su ATQ básico se potencia y no puede lanzar la habilidad básica ni la habilidad definitiva. Tras lanzar un ATQ básico potenciado, consume 1 pt. de Tinta cromática, y sale del estado de Forma de sello cuando los gasta todos.",
+        "params": [
+            [
+                0.5,
+                0.1,
+                3
+            ],
+            [
+                0.5,
+                0.12,
+                3
+            ],
+            [
+                0.5,
+                0.14,
+                3
+            ],
+            [
+                0.5,
+                0.16,
+                3
+            ],
+            [
+                0.5,
+                0.18,
+                3
+            ],
+            [
+                0.5,
+                0.2,
+                3
+            ],
+            [
+                0.5,
+                0.225,
+                3
+            ],
+            [
+                0.5,
+                0.25,
+                3
+            ],
+            [
+                0.5,
+                0.275,
+                3
+            ],
+            [
+                0.5,
+                0.3,
+                3
+            ],
+            [
+                0.5,
+                0.32,
+                3
+            ],
+            [
+                0.5,
+                0.34,
+                3
+            ],
+            [
+                0.5,
+                0.36,
+                3
+            ],
+            [
+                0.5,
+                0.38,
+                3
+            ],
+            [
+                0.5,
+                0.4,
+                3
+            ]
+        ],
+        "icon": "icon/skill/1317_ultimate.png"
+    },
+    "131704": {
+        "id": "131704",
+        "name": "Tecnología ninja: Bolsa resistométrica",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Talent",
+        "type_text": "Talento",
+        "effect": "Enhance",
+        "effect_text": "Potenciación",
+        "simple_desc": "Cuando se rompe la Debilidad de un enemigo, Rappa obtiene 1 pt. de carga. Cuando lanza el tercer golpe de Instrumento ninja: Estrella matademonios, inflige adicionalmente a todos los enemigos Daño de Ruptura Imaginario que reduce la Firmeza ignorando los tipos de Debilidad. Además, consume todos los pts. de carga, con lo que el multiplicador del Daño de Ruptura y la Reducción de Firmeza de este golpe aumentan.",
+        "desc": "Cuando se rompe la Debilidad de un enemigo, Rappa obtiene 1 pt. de carga, hasta un máximo de #1[i]. La siguiente vez que Rappa lance el tercer golpe de Instrumento ninja: Estrella matademonios, inflige adicionalmente un Daño de Ruptura equivalente al #3[i]% del Daño de Ruptura Imaginario de Rappa a todos los enemigos y les reduce #4[i] pts. de Firmeza ignorando sus tipos de Debilidad, y consume todos los pts. de carga. Por cada pt. de carga, el multiplicador del Daño de Ruptura de este golpe aumenta en un #5[i]% y la Reducción de Firmeza que ignora los tipos de Debilidad aumenta en #6[i] punto.\nAl causar Ruptura de Debilidad, se activa el efecto de Ruptura de Debilidad Imaginaria.",
+        "params": [
+            [
+                10,
+                0,
+                0.3,
+                2,
+                0.25,
+                1
+            ],
+            [
+                10,
+                0,
+                0.33,
+                2,
+                0.275,
+                1
+            ],
+            [
+                10,
+                0,
+                0.36,
+                2,
+                0.3,
+                1
+            ],
+            [
+                10,
+                0,
+                0.39,
+                2,
+                0.325,
+                1
+            ],
+            [
+                10,
+                0,
+                0.42,
+                2,
+                0.35,
+                1
+            ],
+            [
+                10,
+                0,
+                0.45,
+                2,
+                0.375,
+                1
+            ],
+            [
+                10,
+                0,
+                0.4875,
+                2,
+                0.4062,
+                1
+            ],
+            [
+                10,
+                0,
+                0.525,
+                2,
+                0.4375,
+                1
+            ],
+            [
+                10,
+                0,
+                0.5625,
+                2,
+                0.4688,
+                1
+            ],
+            [
+                10,
+                0,
+                0.6,
+                2,
+                0.5,
+                1
+            ],
+            [
+                10,
+                0,
+                0.63,
+                2,
+                0.525,
+                1
+            ],
+            [
+                10,
+                0,
+                0.66,
+                2,
+                0.55,
+                1
+            ],
+            [
+                10,
+                0,
+                0.69,
+                2,
+                0.575,
+                1
+            ],
+            [
+                10,
+                0,
+                0.72,
+                2,
+                0.6,
+                1
+            ],
+            [
+                10,
+                0,
+                0.75,
+                2,
+                0.625,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1317_talent.png"
+    },
+    "131706": {
+        "id": "131706",
+        "name": "Ataque",
+        "max_level": 1,
+        "element": "Imaginary",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Ataca a un enemigo y, tras entrar en combate, reduce la Firmeza del tipo correspondiente del enemigo.",
+        "params": [],
+        "icon": "icon/skill/1317_basic_atk.png"
+    },
+    "131707": {
+        "id": "131707",
+        "name": "Paso ninja: ¡Ahí te quedas!",
+        "max_level": 1,
+        "element": "Imaginary",
+        "type": "Maze",
+        "type_text": "Técnica",
+        "effect": "Enhance",
+        "effect_text": "Potenciación",
+        "simple_desc": "Entra en el estado de Grafiti, avanza rápidamente una cierta distancia y ataca a los enemigos con los que entra en contacto. Tras atacar al enemigo y entrar en combate, reduce la Firmeza ignorando los tipos de Debilidad a cada enemigo, e inflige Daño de Ruptura Imaginario a los enemigos y a los objetivos adyacentes. Además, recupera energía.",
+        "desc": "Tras usar la técnica, entra en el estado de Grafiti durante #1[i] segundos. En este estado, avanza rápidamente una cierta distancia y ataca a los enemigos con los que entra en contacto. Mientras avanza, bloquea todos los ataques de los enemigos. El estado de Grafiti se puede interrumpir lanzando un ataque. Al entrar en combate tras atacar al enemigo, reduce #5[i] pts. de Firmeza a cada enemigo ignorando sus tipos de Debilidad. Además, Rappa inflige un Daño de Ruptura equivalente al #2[i]% y al #3[i]% de su Daño de Ruptura Imaginario a los enemigos y a los objetivos adyacentes respectivamente, y recupera #4[i] pts. de energía.",
+        "params": [
+            [
+                20,
+                2,
+                1.8,
+                10,
+                30
+            ]
+        ],
+        "icon": "icon/skill/1317_technique.png"
+    },
+    "131708": {
+        "id": "131708",
+        "name": "Instrumento ninja: Estrella matademonios",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "ATQ básico",
+        "effect": "Blast",
+        "effect_text": "Ráfaga",
+        "simple_desc": "Inflige una pequeña cantidad de Daño Imaginario a un enemigo y una pequeña cantidad de Daño Imaginario a los objetivos adyacentes. Este ataque también puede reducir la Firmeza de los enemigos que no tengan Debilidad Imaginaria.",
+        "desc": "",
+        "params": [
+            [
+                0.6,
+                0.3,
+                0.6,
+                0.5
+            ],
+            [
+                0.68,
+                0.34,
+                0.68,
+                0.5
+            ],
+            [
+                0.76,
+                0.38,
+                0.76,
+                0.5
+            ],
+            [
+                0.84,
+                0.42,
+                0.84,
+                0.5
+            ],
+            [
+                0.92,
+                0.46,
+                0.92,
+                0.5
+            ],
+            [
+                1,
+                0.5,
+                1,
+                0.5
+            ],
+            [
+                1.08,
+                0.54,
+                1.08,
+                0.5
+            ],
+            [
+                1.16,
+                0.58,
+                1.16,
+                0.5
+            ],
+            [
+                1.24,
+                0.62,
+                1.24,
+                0.5
+            ]
+        ],
+        "icon": "icon/skill/1317_basic_atk.png"
+    },
+    "131710": {
+        "id": "131710",
+        "name": "Instrumento ninja: Estrella matademonios",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "ATQ básico",
+        "effect": "Blast",
+        "effect_text": "Ráfaga",
+        "simple_desc": "Inflige una pequeña cantidad de Daño Imaginario a un enemigo y una pequeña cantidad de Daño Imaginario a los objetivos adyacentes. Este ataque también puede reducir la Firmeza de los enemigos que no tengan Debilidad Imaginaria.",
+        "desc": "",
+        "params": [
+            [
+                0.6,
+                0.3
+            ],
+            [
+                0.68,
+                0.34
+            ],
+            [
+                0.76,
+                0.38
+            ],
+            [
+                0.84,
+                0.42
+            ],
+            [
+                0.92,
+                0.46
+            ],
+            [
+                1,
+                0.5
+            ],
+            [
+                1.08,
+                0.54
+            ],
+            [
+                1.16,
+                0.58
+            ],
+            [
+                1.24,
+                0.62
+            ]
+        ],
+        "icon": "icon/skill/1317_basic_atk.png"
+    },
+    "131712": {
+        "id": "131712",
+        "name": "Instrumento ninja: Estrella matademonios",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "ATQ básico",
+        "effect": "AoEAttack",
+        "effect_text": "ATQ AdE",
+        "simple_desc": "Inflige una pequeña cantidad de Daño Imaginario a todos los enemigos. Este ataque también puede reducir la Firmeza de los enemigos que no tengan Debilidad Imaginaria.",
+        "desc": "",
+        "params": [
+            [
+                0.6
+            ],
+            [
+                0.68
+            ],
+            [
+                0.76
+            ],
+            [
+                0.84
+            ],
+            [
+                0.92
+            ],
+            [
+                1
+            ],
+            [
+                1.08
+            ],
+            [
+                1.16
+            ],
+            [
+                1.24
+            ]
+        ],
+        "icon": "icon/skill/1317_basic_atk.png"
+    },
+    "131714": {
+        "id": "131714",
+        "name": "",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Ultra",
+        "type_text": "Habilidad definitiva",
+        "effect": "Blast",
+        "effect_text": "Ráfaga",
+        "simple_desc": "",
+        "desc": "",
+        "params": [],
+        "icon": "icon/skill/1317_ultimate.png"
+    },
+    "131715": {
+        "id": "131715",
+        "name": "",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Ultra",
+        "type_text": "Habilidad definitiva",
+        "effect": "Blast",
+        "effect_text": "Ráfaga",
+        "simple_desc": "",
+        "desc": "",
+        "params": [],
+        "icon": "icon/skill/1317_ultimate.png"
+    },
+    "131716": {
+        "id": "131716",
+        "name": "",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Ultra",
+        "type_text": "Habilidad definitiva",
+        "effect": "AoEAttack",
+        "effect_text": "ATQ AdE",
+        "simple_desc": "",
+        "desc": "",
+        "params": [],
+        "icon": "icon/skill/1317_ultimate.png"
+    },
+    "131717": {
+        "id": "131717",
+        "name": "",
+        "max_level": 15,
+        "element": "Imaginary",
+        "type": "Ultra",
+        "type_text": "Habilidad definitiva",
+        "effect": "Blast",
+        "effect_text": "Ráfaga",
+        "simple_desc": "",
+        "desc": "",
+        "params": [],
+        "icon": "icon/skill/1317_ultimate.png"
+    },
+    "131718": {
+        "id": "131718",
+        "name": "Instrumento ninja: Estrella matademonios",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "Resonancia de Vía",
+        "effect": "Blast",
+        "effect_text": "Ráfaga",
+        "simple_desc": "Los 2 primeros golpes infligen una pequeña cantidad de Daño Imaginario a un enemigo y una pequeña cantidad de Daño Imaginario a los objetivos adyacentes. El tercer golpe inflige una pequeña cantidad de Daño Imaginario a todos los enemigos. Este ataque también puede reducir la Firmeza de los enemigos que no tengan Debilidad Imaginaria.",
+        "desc": "Lanza Instrumento ninja: Estrella matademonios. Los 2 primeros golpes infligen un Daño Imaginario equivalente al #1[i]% y al #2[i]% del ATQ de Rappa a un enemigo determinado y a los objetivos adyacentes respectivamente, y el tercer golpe inflige un #3[i]% del ATQ de Rappa como Daño Imaginario a todos los enemigos.\nEl ATQ básico potenciado no recupera pts. de habilidad básica. Este ataque también puede reducir la Firmeza de los enemigos que no tengan Debilidad Imaginaria en un #4[i]% de la Reducción de Firmeza original. Al romper la Debilidad, se activa el efecto de Ruptura de Debilidad Imaginaria.",
+        "params": [
+            [
+                0.6,
+                0.3,
+                0.6,
+                0.5
+            ],
+            [
+                0.68,
+                0.34,
+                0.68,
+                0.5
+            ],
+            [
+                0.76,
+                0.38,
+                0.76,
+                0.5
+            ],
+            [
+                0.84,
+                0.42,
+                0.84,
+                0.5
+            ],
+            [
+                0.92,
+                0.46,
+                0.92,
+                0.5
+            ],
+            [
+                1,
+                0.5,
+                1,
+                0.5
+            ],
+            [
+                1.08,
+                0.54,
+                1.08,
+                0.5
+            ],
+            [
+                1.16,
+                0.58,
+                1.16,
+                0.5
+            ],
+            [
+                1.24,
+                0.62,
+                1.24,
+                0.5
+            ]
+        ],
+        "icon": "icon/skill/1317_basic_atk.png"
     },
     "800101": {
         "id": "800101",

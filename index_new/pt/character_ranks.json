@@ -3974,7 +3974,7 @@
         "id": "122004",
         "name": "À Tempestade Eu Ouço",
         "rank": 4,
-        "desc": "O Ataque Extra do Talento tem sua Redução de Tenacidade aumentada em 100%, e ao ser desferido, aumenta a VEL desta unidade em 8%, com duração de 2 rodada(s).",
+        "desc": "A Redução de Tenacidade do Ataque Extra do Talento aumenta em 100% e, quando ativado, aumenta a VEL desta unidade em 8%, durando por 2 rodada(s).",
         "materials": [
             {
                 "id": "11220",
@@ -4127,7 +4127,7 @@
         "id": "122201",
         "name": "Floreio no Buquê do Vilarejo",
         "rank": 1,
-        "desc": "A Eficiência de Quebra de Fraqueza de Lingsha aumenta em 50%. Quando uma unidade inimiga é afligida com Quebra de Fraqueza, sua defesa é reduzida em 20%.",
+        "desc": "A Eficiência de Quebra de Fraqueza de Lingsha aumenta em 50%. Quando uma unidade inimiga é afligida com Quebra de Fraqueza, sua DEF é reduzida em 20%.",
         "materials": [
             {
                 "id": "11222",
@@ -4215,7 +4215,7 @@
         "id": "122206",
         "name": "Arcádia Sob Profunda Reclusão",
         "rank": 6,
-        "desc": "Enquanto Fuyuan estiver no campo, reduz a RES a Todos os Tipos de todos os inimigos em 20%. Quando Fuyuan ataca, desfere adicionalmente 4 instância(s) de Dano, com cada instância causando Dano de Fogo igual a 50% do ATQ de Lingsha e uma Redução de Tenacidade de 5 a um único inimigo aleatório. Isso prioriza alvos que possuam Tenacidade maior que 0 e Fraqueza contra Fogo.",
+        "desc": "Enquanto \"Fuyuan\" estiver no campo, reduz a RES a Todos os Tipos de todas as unidades inimigas em 20%. Quando \"Fuyuan\" ataca, desfere adicionalmente 4 instância(s) de Dano, com cada instância causando Dano de Fogo igual a 50% do ATQ de Lingsha e uma Redução de Tenacidade de 5 a uma unidade inimiga aleatória. Isso prioriza alvos com Tenacidade maior que 0 e Fraqueza contra Fogo.",
         "materials": [
             {
                 "id": "11222",
@@ -5794,6 +5794,124 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1315_rank6.png"
+    },
+    "131701": {
+        "id": "131701",
+        "name": "O Fantasma Está de Volta Sem o Tíquete",
+        "rank": 1,
+        "desc": "Durante o estado de \"Selaforma\" ativado ao usar a Perícia Suprema, o dano causado por Rappa ignora 15% da DEF dos alvos. Após sair do estado de \"Selaforma\", regenera 20 de Energia.",
+        "materials": [
+            {
+                "id": "11317",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1317_rank1.png"
+    },
+    "131702": {
+        "id": "131702",
+        "name": "Livre É a Mente Iluminada por Haikus",
+        "rank": 2,
+        "desc": "Os 2 primeiros golpes do ATQ Básico Aprimorado têm sua Redução de Tenacidade contra o inimigo designado aumentada em 50%.",
+        "materials": [
+            {
+                "id": "11317",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1317_rank2.png"
+    },
+    "131703": {
+        "id": "131703",
+        "name": "Muitos São os Templos Que Não Protegem",
+        "rank": 3,
+        "desc": "Nv. da Perícia +2, até no máximo Nv. 15.\\nNv. do Talento +2, até no máximo Nv. 15.",
+        "materials": [
+            {
+                "id": "11317",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "131702",
+                "num": 2
+            },
+            {
+                "id": "131704",
+                "num": 2
+            }
+        ],
+        "icon": "icon/skill/1317_skill.png"
+    },
+    "131704": {
+        "id": "131704",
+        "name": "Perdida no Nindô Devorado pelo Tempo",
+        "rank": 4,
+        "desc": "Enquanto está no estado de \"Selaforma\", aumenta a VEL de todas as unidades aliadas em 12%.",
+        "materials": [
+            {
+                "id": "11317",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1317_rank4.png"
+    },
+    "131705": {
+        "id": "131705",
+        "name": "Firme É a Vigia Com Flechas Sem Fim",
+        "rank": 5,
+        "desc": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
+        "materials": [
+            {
+                "id": "11317",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [
+            {
+                "id": "131703",
+                "num": 2
+            },
+            {
+                "id": "131701",
+                "num": 1
+            },
+            {
+                "id": "131708",
+                "num": 1
+            },
+            {
+                "id": "131710",
+                "num": 1
+            },
+            {
+                "id": "131712",
+                "num": 1
+            },
+            {
+                "id": "131718",
+                "num": 1
+            }
+        ],
+        "icon": "icon/skill/1317_ultimate.png"
+    },
+    "131706": {
+        "id": "131706",
+        "name": "Justa É a Ira Que Não Poupa Nenhum Mal",
+        "rank": 6,
+        "desc": "No início da batalha, Rappa ganha 5 ponto(s) de Carga do seu Talento, cujo limite máximo é de 5 ponto(s). Após lançar o terceiro golpe de \"Ningu: Florilâmina Exorcista\" ganha 5 ponto(s) de Carga.",
+        "materials": [
+            {
+                "id": "11317",
+                "num": 1
+            }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1317_rank6.png"
     },
     "800101": {
         "id": "800101",

@@ -3110,6 +3110,70 @@
             ]
         ]
     },
+    "21048": {
+        "id": "21048",
+        "skill": "Edição Acadêmica",
+        "desc": "Aumenta a VEL do usuário em #1[i]%. Após atacar inimigos-alvo afligidos com Quebra de Fraqueza, regenera #2[f1] de Energia. Este efeito pode ser ativado até #3[i] vez(es) por rodada.",
+        "params": [
+            [
+                0.08,
+                3,
+                2
+            ],
+            [
+                0.09,
+                3.5,
+                2
+            ],
+            [
+                0.1,
+                4,
+                2
+            ],
+            [
+                0.11,
+                4.5,
+                2
+            ],
+            [
+                0.12,
+                5,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "SpeedAddedRatio",
+                    "value": 0.08
+                }
+            ],
+            [
+                {
+                    "type": "SpeedAddedRatio",
+                    "value": 0.09
+                }
+            ],
+            [
+                {
+                    "type": "SpeedAddedRatio",
+                    "value": 0.1
+                }
+            ],
+            [
+                {
+                    "type": "SpeedAddedRatio",
+                    "value": 0.11
+                }
+            ],
+            [
+                {
+                    "type": "SpeedAddedRatio",
+                    "value": 0.12
+                }
+            ]
+        ]
+    },
     "22000": {
         "id": "22000",
         "skill": "Rápido no Gatilho",
@@ -3293,6 +3357,70 @@
                 {
                     "type": "AttackAddedRatio",
                     "value": 0.32
+                }
+            ]
+        ]
+    },
+    "22003": {
+        "id": "22003",
+        "skill": "Ação!",
+        "desc": "Aumenta os PV máximos do usuário em #1[i]%. Ao perder ou restaurar PV desta unidade, aumenta o Dano CRIT em #2[i]%, durando por #3[i] rodada(s). Este efeito só pode ser ativado 1 vez por rodada.",
+        "params": [
+            [
+                0.12,
+                0.18,
+                2
+            ],
+            [
+                0.15,
+                0.225,
+                2
+            ],
+            [
+                0.18,
+                0.27,
+                2
+            ],
+            [
+                0.21,
+                0.315,
+                2
+            ],
+            [
+                0.24,
+                0.36,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.12
+                }
+            ],
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.15
+                }
+            ],
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.18
+                }
+            ],
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.21
+                }
+            ],
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.24
                 }
             ]
         ]
@@ -4276,7 +4404,7 @@
     "23014": {
         "id": "23014",
         "skill": "Com Este Jade Vespertino",
-        "desc": "Aumenta o Dano CRIT do usuário em #1[i]%. Quando um aliado (excluindo o usuário) é atacado ou perde PV, o usuário ganha 1 acúmulo de Eclipse, até um máximo de #2[i] acúmulo(s). Cada acúmulo de Eclipse aumenta o Dano do próximo ataque do usuário em #3[f1]%. Ao alcançar #2[i] acúmulo(s), permite adicionalmente que este ataque ignore #4[i]% da DEF do inimigo. Este efeito será removido depois que o usuário utilizar um ataque.",
+        "desc": "Aumenta o Dano CRIT do usuário em #1[i]%. Quando um aliado é atacado ou perde PV, o usuário ganha 1 acúmulo de Eclipse, até um máximo de #2[i] acúmulo(s). Cada acúmulo de Eclipse aumenta o Dano do próximo ataque do usuário em #3[f1]%. Ao alcançar #2[i] acúmulo(s), permite adicionalmente que este ataque ignore #4[i]% da DEF do inimigo. Este efeito será removido depois que o usuário utilizar um ataque.",
         "params": [
             [
                 0.2,
@@ -5341,7 +5469,7 @@
     "23029": {
         "id": "23029",
         "skill": "Assuntos Mundanos Não Deixam Marcas",
-        "desc": "Aumenta a Taxa de Acerto de Efeito do usuário em #1[i]%. Após o usuário utilizar um ATQ Básico, Perícia ou Perícia Suprema para atacar um inimigo-alvo, existe uma chance-base de #2[i]% de infligir o estado de \"Desprotegido\". Enquanto estiver no estado de Desprotegido, o inimigo-alvo recebe #3[i]% a mais de Dano, durando por #4[i] rodada(s). Se o alvo está sob um estado de Dano Contínuo infligido pelo usuário, há uma chance-base de #5[i]% de melhorar o estado de \"Desprotegido\" infligido pelo usuário para um estado de \"Encurralado\", que aumenta adicionalmente o Dano recebido pelo inimigo-alvo em #6[i]%, durando por #4[i] rodada(s). Durante esse período, o usuário pode infligir \"Desprotegido\" no alvo.",
+        "desc": "Aumenta a Taxa de Acerto de Efeito do usuário em #1[i]%. Após o usuário utilizar um ATQ Básico, Perícia ou Perícia Suprema para atacar um inimigo-alvo, existe uma chance-base de #2[i]% de infligir o estado de \"Desprotegido\". Enquanto estiver no estado de Desprotegido, o inimigo-alvo recebe #3[i]% a mais de Dano, durando por #4[i] rodada(s). Se o alvo está sob um estado de Dano Contínuo infligido pelo usuário, há uma chance-base de #5[i]% de melhorar o estado de \"Desprotegido\" infligido pelo usuário para um estado de \"Encurralado\", que aumenta adicionalmente o Dano recebido pelo inimigo-alvo em #6[i]%, durando por #4[i] rodada(s). Durante esse período, o usuário não pode infligir \"Desprotegido\" no alvo.",
         "params": [
             [
                 0.6,
@@ -5589,6 +5717,70 @@
                 1.5,
                 0.16,
                 2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.6
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.7
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.8
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.9
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 1
+                }
+            ]
+        ]
+    },
+    "23033": {
+        "id": "23033",
+        "skill": "Exorcismo",
+        "desc": "Aumenta o Efeito de Quebra do usuário em #1[i]%. Ao entrar em batalha, regenera imediatamente #2[f1] de Energia. Após o usuário utilizar a Perícia Suprema, obtém \"Raiton\". Após usar 2 ATQs Básicos, Avança Adiante a ação do usuário em #3[i]% e remove \"Raiton\". Após o usuário usar a Perícia Suprema, \"Raiton\" é redefinido.",
+        "params": [
+            [
+                0.6,
+                30,
+                0.5
+            ],
+            [
+                0.7,
+                32.5,
+                0.55
+            ],
+            [
+                0.8,
+                35,
+                0.6
+            ],
+            [
+                0.9,
+                37.5,
+                0.65
+            ],
+            [
+                1,
+                40,
+                0.7
             ]
         ],
         "properties": [

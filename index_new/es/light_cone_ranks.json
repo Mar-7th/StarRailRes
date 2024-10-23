@@ -3049,7 +3049,7 @@
     "21047": {
         "id": "21047",
         "skill": "Ocultación",
-        "desc": "El efecto de Ruptura del portador aumenta en un #1[i]%. Al entrar en combate o al infligir Daño de Ruptura, la VEL aumenta en un #2[i]% durante #3[i] turnos. Este efecto solo se puede activar 1 vez por turno.",
+        "desc": "El efecto de Ruptura del portador aumenta en un #1[i]%. Al entrar en combate o tras infligir Daño de Ruptura, la VEL aumenta en un #2[i]% durante #3[i] turnos. Este efecto solo se puede activar 1 vez por turno.",
         "params": [
             [
                 0.28,
@@ -3106,6 +3106,70 @@
                 {
                     "type": "BreakDamageAddedRatioBase",
                     "value": 0.56
+                }
+            ]
+        ]
+    },
+    "21048": {
+        "id": "21048",
+        "skill": "Montaje de estilo académico",
+        "desc": "La VEL del portador aumenta en un #1[i]%. Al atacar a un enemigo con Ruptura de Debilidad, recupera #2[f1] pts. de energía. Este efecto solo se puede activar #3[i] veces en cada turno.",
+        "params": [
+            [
+                0.08,
+                3,
+                2
+            ],
+            [
+                0.09,
+                3.5,
+                2
+            ],
+            [
+                0.1,
+                4,
+                2
+            ],
+            [
+                0.11,
+                4.5,
+                2
+            ],
+            [
+                0.12,
+                5,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "SpeedAddedRatio",
+                    "value": 0.08
+                }
+            ],
+            [
+                {
+                    "type": "SpeedAddedRatio",
+                    "value": 0.09
+                }
+            ],
+            [
+                {
+                    "type": "SpeedAddedRatio",
+                    "value": 0.1
+                }
+            ],
+            [
+                {
+                    "type": "SpeedAddedRatio",
+                    "value": 0.11
+                }
+            ],
+            [
+                {
+                    "type": "SpeedAddedRatio",
+                    "value": 0.12
                 }
             ]
         ]
@@ -3293,6 +3357,70 @@
                 {
                     "type": "AttackAddedRatio",
                     "value": 0.32
+                }
+            ]
+        ]
+    },
+    "22003": {
+        "id": "22003",
+        "skill": "Empieza el espectáculo",
+        "desc": "Aumenta los PV máx. del portador en un #1[i]%. Al perder o regenerar sus propios PV, el Daño CRIT aumenta en un #2[i]% durante #3[i] turnos. Este efecto solo se puede activar 1 vez por turno.",
+        "params": [
+            [
+                0.12,
+                0.18,
+                2
+            ],
+            [
+                0.15,
+                0.225,
+                2
+            ],
+            [
+                0.18,
+                0.27,
+                2
+            ],
+            [
+                0.21,
+                0.315,
+                2
+            ],
+            [
+                0.24,
+                0.36,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.12
+                }
+            ],
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.15
+                }
+            ],
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.18
+                }
+            ],
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.21
+                }
+            ],
+            [
+                {
+                    "type": "HPAddedRatio",
+                    "value": 0.24
                 }
             ]
         ]
@@ -5589,6 +5717,70 @@
                 1.5,
                 0.16,
                 2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.6
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.7
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.8
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.9
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 1
+                }
+            ]
+        ]
+    },
+    "23033": {
+        "id": "23033",
+        "skill": "Exorcismo",
+        "desc": "El efecto de Ruptura del portador aumenta en un #1[i]%. Al entrar en combate, recupera inmediatamente #2[f1] pts. de energía. Tras lanzar la habilidad definitiva, el portador obtiene Elemento Rayo. Tras lanzar 2 veces el ATQ básico, la acción del portador se adelanta un #3[i]% y Elemento Rayo se disipa. Elemento Rayo se restablece después de que el portador lance la habilidad definitiva.",
+        "params": [
+            [
+                0.6,
+                30,
+                0.5
+            ],
+            [
+                0.7,
+                32.5,
+                0.55
+            ],
+            [
+                0.8,
+                35,
+                0.6
+            ],
+            [
+                0.9,
+                37.5,
+                0.65
+            ],
+            [
+                1,
+                40,
+                0.7
             ]
         ],
         "properties": [
