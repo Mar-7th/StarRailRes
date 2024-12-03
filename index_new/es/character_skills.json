@@ -11064,7 +11064,7 @@
         "type_text": "Técnica",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "Tras atacar a un enemigo y entrar en combate, inflige una pequeña cantidad de Daño de Fuego a un enemigo y le aplica Beso ardiente. Rebota 4 veces en total.",
+        "simple_desc": "Tras atacar a un enemigo y entrar en combate, inflige una pequeña cantidad de Daño de Fuego a un enemigo y tiene una gran probabilidad de aplicarle Beso ardiente. Se dispara 4 veces en total.",
         "desc": "Ataca inmediatamente al enemigo y entra en combate. Inflige daño #2[i] veces y cada vez inflige un #1[i]% del ATQ de Guinaifen como Daño de Fuego a un enemigo al azar. Además, tiene una probabilidad base del #3[i]% de afectar con Beso ardiente al objetivo.",
         "params": [
             [
@@ -12997,7 +12997,7 @@
         "type_text": "Talento",
         "effect": "Support",
         "effect_text": "Apoyo",
-        "simple_desc": "Los aliados infligen más daño a los enemigos afectados por Lastre.",
+        "simple_desc": "Cuando un aliado usa el ATQ básico, la habilidad básica o la habilidad definitiva contra un enemigo afectado por Lastre, el daño que inflige aumenta.",
         "desc": "Cuando un aliado usa el ATQ básico, la habilidad básica o la habilidad definitiva contra un enemigo afectado por Lastre, el daño que inflige aumenta en un #1[i]% durante #2[i] turnos.",
         "params": [
             [
@@ -13789,7 +13789,7 @@
         "type_text": "Talento",
         "effect": "Impair",
         "effect_text": "Alteración",
-        "simple_desc": "Tras atacar, tiene una gran probabilidad de aplicar 1 acumulación de Asado al rescoldo al objetivo. El daño que recibe el enemigo aumenta y se considera que también es afectado con Quemadura.",
+        "simple_desc": "Tras golpear al enemigo con el ATQ básico, la habilidad básica o la habilidad definitiva, tiene una gran probabilidad de aplicar 1 acumulación de Asado al rescoldo al objetivo. El daño que recibe el enemigo aumenta y se considera que también es afectado con Quemadura.",
         "desc": "Después de que Jiaoqiu golpee a un enemigo con el ATQ básico, la habilidad básica o la habilidad definitiva, tiene una probabilidad base del #1[i]% de aplicarle 1 acumulación de Asado al rescoldo. Con 1 acumulación, el daño que recibe el enemigo aumenta en un #2[f1]%, y cada acumulación posterior aumenta el daño que recibe en un #3[f1]%.\nAsado al rescoldo se puede acumular hasta #4[i] veces y dura #5[i] turnos.\nCuando un enemigo está en el estado de Asado al rescoldo, se considera que también está afectado con Quemadura. Al comienzo de cada turno, recibe un #6[i]% del ATQ de Jiaoqiu como Daño de Fuego con el tiempo.",
         "params": [
             [
@@ -14301,7 +14301,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Ataca a un enemigo y, tras entrar en combate, reduce la Firmeza del tipo correspondiente del enemigo.",
+        "desc": "Ataca a un enemigo y, tras entrar en combate, consume la Firmeza del tipo correspondiente del enemigo.",
         "params": [],
         "icon": "icon/skill/1220_basic_atk.png"
     },
@@ -15475,7 +15475,7 @@
         "effect": "SingleAttack",
         "effect_text": "ATQ individual",
         "simple_desc": "",
-        "desc": "Ataca a un enemigo y, tras entrar en combate, reduce la Firmeza del tipo correspondiente del enemigo.",
+        "desc": "Ataca a un enemigo y, tras entrar en combate, consume la Firmeza del tipo correspondiente del enemigo.",
         "params": [],
         "icon": "icon/skill/1222_basic_atk.png"
     },
@@ -15774,7 +15774,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Ataca a un enemigo y, tras entrar en combate, reduce la Firmeza del tipo correspondiente del enemigo.",
+        "desc": "Ataca a un enemigo y, tras entrar en combate, consume la Firmeza del tipo correspondiente del enemigo.",
         "params": [],
         "icon": "icon/skill/1223_basic_atk.png"
     },
@@ -16221,6 +16221,404 @@
         ],
         "icon": "icon/skill/1224_basic_atk.png"
     },
+    "122501": {
+        "id": "122501",
+        "name": "Estela radiante",
+        "max_level": 9,
+        "element": "Fire",
+        "type": "Normal",
+        "type_text": "ATQ básico",
+        "effect": "SingleAttack",
+        "effect_text": "ATQ individual",
+        "simple_desc": "Inflige una pequeña cantidad de Daño de Fuego a un enemigo.",
+        "desc": "Inflige un #1[i]% del ATQ de Fugue como Daño de Fuego a un enemigo.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1225_basic_atk.png"
+    },
+    "122502": {
+        "id": "122502",
+        "name": "Dicha de la virtud",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Habilidad básica",
+        "effect": "Support",
+        "effect_text": "Apoyo",
+        "simple_desc": "Otorga Plegaria raposiana a un aliado: su efecto de Ruptura aumenta y también puede reducir la Firmeza de los enemigos que no tengan Debilidad de su mismo tipo.\nFugue entra en el estado de Llama tórrida: su ATQ básico se potencia. Cuando un aliado con Plegaria raposiana ataca, Fugue tiene una gran probabilidad de reducir la DEF de los objetivos enemigos.",
+        "desc": "Otorga Plegaria raposiana a un aliado y entra en el estado Llama tórrida durante #1[i] turnos. Cada vez que comienza el turno de Fugue, la duración se reduce en 1 turno. Plegaria raposiana solo surte efecto sobre el último objetivo de la habilidad básica de Fugue.\nEl efecto de Ruptura del aliado con Plegaria raposiana aumenta en un #2[i]%. Además, también puede reducir la Firmeza de los enemigos que no tengan Debilidad de su mismo tipo en un #6[i]% de la Reducción de Firmeza original. Esto no puede acumularse con otros efectos que permiten reducir la Firmeza ignorando los tipos de Debilidad.\nCuando está en el estado de Llama tórrida, el ATQ básico de Fugue se potencia. Cada vez que el aliado con Plegaria raposiana ataca, Fugue tiene una probabilidad base del #3[i]% de reducir la DEF del enemigo atacado en un #4[i]% durante #5[i] turnos.",
+        "params": [
+            [
+                3,
+                0.15,
+                1,
+                0.08,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.165,
+                1,
+                0.09,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.18,
+                1,
+                0.1,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.195,
+                1,
+                0.11,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.21,
+                1,
+                0.12,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.225,
+                1,
+                0.13,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.2437,
+                1,
+                0.1425,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.2625,
+                1,
+                0.155,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.2812,
+                1,
+                0.1675,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.3,
+                1,
+                0.18,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.315,
+                1,
+                0.19,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.33,
+                1,
+                0.2,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.345,
+                1,
+                0.21,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.36,
+                1,
+                0.22,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.375,
+                1,
+                0.23,
+                2,
+                0.5
+            ]
+        ],
+        "icon": "icon/skill/1225_skill.png"
+    },
+    "122503": {
+        "id": "122503",
+        "name": "Refulgencia iluminadora",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "Ultra",
+        "type_text": "Habilidad definitiva",
+        "effect": "AoEAttack",
+        "effect_text": "ATQ AdE",
+        "simple_desc": "Inflige Daño de Fuego a todos los enemigos. Este ataque ignora los tipos de Debilidad y reduce la Firmeza de todos los enemigos.",
+        "desc": "Inflige un Daño de Fuego equivalente al #1[i]% del ATQ de Fugue a todos los enemigos. Este ataque ignora los tipos de Debilidad y reduce la Firmeza de todos los enemigos. Al romper la Debilidad, activa el efecto de Ruptura de Debilidad de Fuego.",
+        "params": [
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ],
+            [
+                1.4
+            ],
+            [
+                1.5
+            ],
+            [
+                1.625
+            ],
+            [
+                1.75
+            ],
+            [
+                1.875
+            ],
+            [
+                2
+            ],
+            [
+                2.1
+            ],
+            [
+                2.2
+            ],
+            [
+                2.3
+            ],
+            [
+                2.4
+            ],
+            [
+                2.5
+            ]
+        ],
+        "icon": "icon/skill/1225_ultimate.png"
+    },
+    "122504": {
+        "id": "122504",
+        "name": "Integridad afortunada",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "Talent",
+        "type_text": "Talento",
+        "effect": "Impair",
+        "effect_text": "Alteración",
+        "simple_desc": "Cuando Fugue está en el campo de batalla, los enemigos reciben adicionalmente Brillo nubeígneo. Cuando Brillo nubeígneo se reduce a 0, vuelven a recibir Daño de Ruptura de Debilidad. Después de que un aliado ataque a un objetivo con Ruptura de Debilidad, le inflige adicionalmente Daño de Ultrarruptura.",
+        "desc": "Cuando Fugue está en el campo de batalla, los enemigos reciben adicionalmente un Brillo nubeígneo equivalente al #2[i]% de su Firmeza máxima. Cuando su Firmeza inicial se reduce hasta 0, se puede seguir reduciendo Brillo nubeígneo. Cuando Brillo nubeígneo se reduce hasta 0, vuelven a recibir Daño de Ruptura de Debilidad.\nDespués de que los aliados ataquen a enemigos con Ruptura de Debilidad cuando Fugue está en el campo de batalla, la reducción de Firmeza de este ataque se convierte en un #1[i]% de Daño de Ultrarruptura.",
+        "params": [
+            [
+                0.5,
+                0.4
+            ],
+            [
+                0.55,
+                0.4
+            ],
+            [
+                0.6,
+                0.4
+            ],
+            [
+                0.65,
+                0.4
+            ],
+            [
+                0.7,
+                0.4
+            ],
+            [
+                0.75,
+                0.4
+            ],
+            [
+                0.8125,
+                0.4
+            ],
+            [
+                0.875,
+                0.4
+            ],
+            [
+                0.9375,
+                0.4
+            ],
+            [
+                1,
+                0.4
+            ],
+            [
+                1.05,
+                0.4
+            ],
+            [
+                1.1,
+                0.4
+            ],
+            [
+                1.15,
+                0.4
+            ],
+            [
+                1.2,
+                0.4
+            ],
+            [
+                1.25,
+                0.4
+            ]
+        ],
+        "icon": "icon/skill/1225_talent.png"
+    },
+    "122506": {
+        "id": "122506",
+        "name": "Ataque",
+        "max_level": 1,
+        "element": "Fire",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Ataca a un enemigo y, tras entrar en combate, consume la Firmeza del tipo correspondiente del enemigo.",
+        "params": [],
+        "icon": "icon/skill/1225_basic_atk.png"
+    },
+    "122507": {
+        "id": "122507",
+        "name": "Brillo perspicaz",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Técnica",
+        "effect": "Impair",
+        "effect_text": "Alteración",
+        "simple_desc": "Afecta con Mareo a los enemigos que estén dentro de una zona determinada. Tras atacar a enemigos mareados y entrar en combate, la acción de Fugue se adelanta y tiene una gran probabilidad de afectar a cada uno de los objetivos enemigos con un estado de DEF reducida similar al de la habilidad básica de Fugue.",
+        "desc": "Tras usar la técnica, afecta con Mareo a los enemigos que estén dentro de una zona determinada durante #1[i] s. Los enemigos mareados no atacan activamente a los aliados.\nTras atacar a enemigos mareados y entrar en combate, la acción de Fugue se adelanta un #4[i]% y tiene un #2[i]% de probabilidad base de afectar a cada uno de los objetivos enemigos con un estado de DEF reducida similar al de la habilidad básica de Fugue durante #3[i] turnos.",
+        "params": [
+            [
+                10,
+                1,
+                2,
+                0.4
+            ]
+        ],
+        "icon": "icon/skill/1225_technique.png"
+    },
+    "122508": {
+        "id": "122508",
+        "name": "Caricia ardiente",
+        "max_level": 9,
+        "element": "Fire",
+        "type": "Normal",
+        "type_text": "ATQ básico",
+        "effect": "Blast",
+        "effect_text": "Ráfaga",
+        "simple_desc": "Inflige una pequeña cantidad de Daño de Fuego a un enemigo y una pequeña cantidad de Daño de Fuego a los objetivos adyacentes.",
+        "desc": "Inflige un #1[i]% del ATQ de Fugue como Daño de Fuego a un enemigo y un #2[i]% del ATQ de Fugue como Daño de Fuego a los objetivos adyacentes.",
+        "params": [
+            [
+                0.5,
+                0.25
+            ],
+            [
+                0.6,
+                0.3
+            ],
+            [
+                0.7,
+                0.35
+            ],
+            [
+                0.8,
+                0.4
+            ],
+            [
+                0.9,
+                0.45
+            ],
+            [
+                1,
+                0.5
+            ],
+            [
+                1.1,
+                0.55
+            ],
+            [
+                1.2,
+                0.6
+            ],
+            [
+                1.3,
+                0.65
+            ]
+        ],
+        "icon": "icon/skill/1225_basic_atk.png"
+    },
     "130101": {
         "id": "130101",
         "name": "Tarifa de descorche",
@@ -16407,7 +16805,7 @@
         "type_text": "Talento",
         "effect": "Restore",
         "effect_text": "Regeneración",
-        "simple_desc": "Melopea aumenta el Daño de Ruptura que reciben los objetivos. Cada vez que un objetivo con Melopea recibe el ataque de un aliado, el atacante regenera PV.",
+        "simple_desc": "Melopea aumenta el Daño de Ruptura que reciben los objetivos. Cada vez que un objetivo con Melopea recibe el ataque de un personaje aliado, el atacante regenera PV.",
         "desc": "Melopea aumenta el Daño de Ruptura que reciben los objetivos en un #1[f1]%. Cada vez que un objetivo afectado por Melopea recibe el ataque de un aliado, el atacante regenera #2[i] PV.",
         "params": [
             [
@@ -20948,6 +21346,366 @@
         ],
         "icon": "icon/skill/1312_technique.png"
     },
+    "131301": {
+        "id": "131301",
+        "name": "Admonición resplandeciente",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "ATQ básico",
+        "effect": "SingleAttack",
+        "effect_text": "ATQ individual",
+        "simple_desc": "Inflige una pequeña cantidad de Daño Imaginario a un enemigo.",
+        "desc": "Inflige un #1[i]% del ATQ de Sunday como Daño Imaginario a un enemigo.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1313_basic_atk.png"
+    },
+    "131302": {
+        "id": "131302",
+        "name": "Concesión del papel y los ritos",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Habilidad básica",
+        "effect": "Support",
+        "effect_text": "Apoyo",
+        "simple_desc": "Hace que un personaje aliado y su invocación actúen inmediatamente y aumenta el daño que infligen. Si el objetivo tiene una invocación, el efecto de aumento del daño infligido se incrementa adicionalmente.\nRecupera 1 pt. de habilidad básica tras lanzar la habilidad básica sobre el aliado con Beatitud.\nSi Sunday lanza esta habilidad a personajes de la Vía de la Armonía, el efecto de acción inmediata no se activa.",
+        "desc": "Hace que un personaje aliado y su invocación actúen inmediatamente y aumenta en un #2[i]% el daño que infligen. Si el objetivo tiene una invocación, el efecto de aumento de daño se incrementa en un #4[i]% adicional. Dura #3[i] turnos.\nRecupera 1 pt. de habilidad básica tras lanzar la habilidad básica sobre el aliado con Beatitud.\nSi Sunday lanza esta habilidad a personajes de la Vía de la Armonía, el efecto de acción inmediata no se activa.",
+        "params": [
+            [
+                1,
+                0.15,
+                2,
+                0.25
+            ],
+            [
+                1,
+                0.165,
+                2,
+                0.275
+            ],
+            [
+                1,
+                0.18,
+                2,
+                0.3
+            ],
+            [
+                1,
+                0.195,
+                2,
+                0.325
+            ],
+            [
+                1,
+                0.21,
+                2,
+                0.35
+            ],
+            [
+                1,
+                0.225,
+                2,
+                0.375
+            ],
+            [
+                1,
+                0.2437,
+                2,
+                0.4062
+            ],
+            [
+                1,
+                0.2625,
+                2,
+                0.4375
+            ],
+            [
+                1,
+                0.2812,
+                2,
+                0.4688
+            ],
+            [
+                1,
+                0.3,
+                2,
+                0.5
+            ],
+            [
+                1,
+                0.315,
+                2,
+                0.525
+            ],
+            [
+                1,
+                0.33,
+                2,
+                0.55
+            ],
+            [
+                1,
+                0.345,
+                2,
+                0.575
+            ],
+            [
+                1,
+                0.36,
+                2,
+                0.6
+            ],
+            [
+                1,
+                0.375,
+                2,
+                0.625
+            ]
+        ],
+        "icon": "icon/skill/1313_skill.png"
+    },
+    "131303": {
+        "id": "131303",
+        "name": "Elogio de caricias y cicatrices",
+        "max_level": 15,
+        "element": "",
+        "type": "Ultra",
+        "type_text": "Habilidad definitiva",
+        "effect": "Support",
+        "effect_text": "Apoyo",
+        "simple_desc": "Recupera la energía de un personaje aliado y aplica Beatitud a ese aliado y a su invocación. Aumenta el Daño CRIT de los aliados con Beatitud.",
+        "desc": "Recupera un #1[f1]% de la energía máxima de un personaje aliado y aplica Beatitud a ese aliado y a su invocación. El Daño CRIT de los aliados con Beatitud aumenta en una cantidad equivalente al #2[f1]% del Daño CRIT de Sunday + #4[f1]%.\nLa duración del estado de Beatitud se reduce en 1 turno al comienzo de cada turno de Sunday. Dura un total de #3[i] turnos y solo tiene efecto en el último objetivo de la habilidad definitiva (sin incluir a Sunday). Cuando Sunday es derrotado, el efecto de Beatitud se disipa.",
+        "params": [
+            [
+                0.2,
+                0.12,
+                3,
+                0.08
+            ],
+            [
+                0.2,
+                0.138,
+                3,
+                0.084
+            ],
+            [
+                0.2,
+                0.156,
+                3,
+                0.088
+            ],
+            [
+                0.2,
+                0.174,
+                3,
+                0.092
+            ],
+            [
+                0.2,
+                0.192,
+                3,
+                0.096
+            ],
+            [
+                0.2,
+                0.21,
+                3,
+                0.1
+            ],
+            [
+                0.2,
+                0.2325,
+                3,
+                0.105
+            ],
+            [
+                0.2,
+                0.255,
+                3,
+                0.11
+            ],
+            [
+                0.2,
+                0.2775,
+                3,
+                0.115
+            ],
+            [
+                0.2,
+                0.3,
+                3,
+                0.12
+            ],
+            [
+                0.2,
+                0.318,
+                3,
+                0.124
+            ],
+            [
+                0.2,
+                0.336,
+                3,
+                0.128
+            ],
+            [
+                0.2,
+                0.354,
+                3,
+                0.132
+            ],
+            [
+                0.2,
+                0.372,
+                3,
+                0.136
+            ],
+            [
+                0.2,
+                0.39,
+                3,
+                0.14
+            ]
+        ],
+        "icon": "icon/skill/1313_ultimate.png"
+    },
+    "131304": {
+        "id": "131304",
+        "name": "Cuerpo de la confesión",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talento",
+        "effect": "Support",
+        "effect_text": "Apoyo",
+        "simple_desc": "Al lanzar la habilidad básica, la Prob. CRIT del objetivo aumenta.",
+        "desc": "Al lanzar la habilidad básica, la Prob. CRIT del objetivo aumenta en un #1[f1]%. Dura #2[i] turnos.",
+        "params": [
+            [
+                0.1,
+                3
+            ],
+            [
+                0.11,
+                3
+            ],
+            [
+                0.12,
+                3
+            ],
+            [
+                0.13,
+                3
+            ],
+            [
+                0.14,
+                3
+            ],
+            [
+                0.15,
+                3
+            ],
+            [
+                0.1625,
+                3
+            ],
+            [
+                0.175,
+                3
+            ],
+            [
+                0.1875,
+                3
+            ],
+            [
+                0.2,
+                3
+            ],
+            [
+                0.21,
+                3
+            ],
+            [
+                0.22,
+                3
+            ],
+            [
+                0.23,
+                3
+            ],
+            [
+                0.24,
+                3
+            ],
+            [
+                0.25,
+                3
+            ]
+        ],
+        "icon": "icon/skill/1313_talent.png"
+    },
+    "131306": {
+        "id": "131306",
+        "name": "Ataque",
+        "max_level": 1,
+        "element": "Imaginary",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Ataca a un enemigo y, tras entrar en combate, consume la Firmeza del tipo correspondiente del enemigo.",
+        "params": [],
+        "icon": "icon/skill/1313_basic_atk.png"
+    },
+    "131307": {
+        "id": "131307",
+        "name": "Misterios gloriosos",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Técnica",
+        "effect": "Support",
+        "effect_text": "Apoyo",
+        "simple_desc": "Tras usar la técnica, la primera vez que Sunday lance una habilidad sobre un aliado en la siguiente batalla, el daño que inflige el objetivo aumenta.",
+        "desc": "Tras usar la técnica, la primera vez que Sunday lance una habilidad sobre un aliado en la siguiente batalla, el daño que inflige el objetivo aumenta en un #1[i]% durante #2[i] turnos.",
+        "params": [
+            [
+                0.5,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1313_technique.png"
+    },
     "131401": {
         "id": "131401",
         "name": "Flagelo de la opulencia",
@@ -21113,7 +21871,7 @@
         "type_text": "Habilidad definitiva",
         "effect": "AoEAttack",
         "effect_text": "ATQ AdE",
-        "simple_desc": "Inflige Daño Cuántico a todos los enemigos y aumenta el multiplicador del daño de ataque adicional.",
+        "simple_desc": "Inflige Daño Cuántico a todos los enemigos y aumenta el multiplicador del daño de ataque adicional de su talento.",
         "desc": "Inflige un #3[i]% del ATQ de Jade como Daño Cuántico a todos los enemigos. Además, potencia el ataque adicional del talento de Jade. El multiplicador del daño que infligen los ataques adicionales aumenta en un #1[i]%. El efecto de potenciación se puede activar #2[i] veces.",
         "params": [
             [
@@ -22116,7 +22874,7 @@
         "effect": "MazeAttack",
         "effect_text": "",
         "simple_desc": "",
-        "desc": "Ataca a un enemigo y, tras entrar en combate, reduce la Firmeza del tipo correspondiente del enemigo.",
+        "desc": "Ataca a un enemigo y, tras entrar en combate, consume la Firmeza del tipo correspondiente del enemigo.",
         "params": [],
         "icon": "icon/skill/1317_basic_atk.png"
     },
@@ -22366,7 +23124,7 @@
         "max_level": 9,
         "element": "Imaginary",
         "type": "Normal",
-        "type_text": "Resonancia de Vía",
+        "type_text": "ATQ básico",
         "effect": "Blast",
         "effect_text": "Ráfaga",
         "simple_desc": "Los 2 primeros golpes infligen una pequeña cantidad de Daño Imaginario a un enemigo y una pequeña cantidad de Daño Imaginario a los objetivos adyacentes. El tercer golpe inflige una pequeña cantidad de Daño Imaginario a todos los enemigos. Este ataque también puede reducir la Firmeza de los enemigos que no tengan Debilidad Imaginaria.",

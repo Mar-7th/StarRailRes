@@ -4616,7 +4616,7 @@
     "23017": {
         "id": "23017",
         "skill": "On respire profondément",
-        "desc": "Augmente le taux de régénération d'énergie du porteur de #1[i]%. Lorsqu'un allié utilise son ultime, le porteur restaure #2[i]% des PV max de l'allié qui a le moins de PV en pourcentage. Quand le porteur prodigue des soins à l'allié, augmente l'ATQ de l'allié soigné de #3[f1]%. Cet effet peut être cumulé jusqu'à #4[i] fois et dure #5[i] tours.",
+        "desc": "Augmente le taux de régénération d'énergie du porteur de #1[i]%. Lorsqu'un allié utilise son ultime, le porteur restaure #2[i]% des PV max de l'allié dont le pourcentage de PV est le plus bas. Quand le porteur prodigue des soins à un allié, il augmente l'ATQ de l'allié soigné de #3[f1]%. Cet effet peut être cumulé jusqu'à #4[i] fois et dure #5[i] tours.",
         "params": [
             [
                 0.12,
@@ -5781,6 +5781,129 @@
                 1,
                 40,
                 0.7
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.6
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.7
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.8
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.9
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 1
+                }
+            ]
+        ]
+    },
+    "23034": {
+        "id": "23034",
+        "skill": "Nouveau départ",
+        "desc": "Lorsque le porteur utilise sa compétence ou son ultime sur un personnage allié, il régénère #1[f1] points d'énergie et la cible de la capacité reçoit 1 cumul d'Hymne pour #4[i] tours, cumulable jusqu'à #3[i] fois. Chaque cumul d'Hymne augmente les DGT infligés par son bénéficiaire de #2[i]%. Après que le porteur a utilisé #5[i] fois sa compétence ou son ultime sur un personnage allié, il récupère 1 point de compétence.",
+        "params": [
+            [
+                6,
+                0.15,
+                3,
+                3,
+                2
+            ],
+            [
+                6.5,
+                0.1725,
+                3,
+                3,
+                2
+            ],
+            [
+                7,
+                0.195,
+                3,
+                3,
+                2
+            ],
+            [
+                7.5,
+                0.2175,
+                3,
+                3,
+                2
+            ],
+            [
+                8,
+                0.24,
+                3,
+                3,
+                2
+            ]
+        ],
+        "properties": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    "23035": {
+        "id": "23035",
+        "skill": "Renaissance",
+        "desc": "Augmente l'effet de Rupture du porteur de #1[i]%. Lorsqu'une cible ennemie subit une Rupture de faiblesse, il y a #2[i]% de chances de base de lui infliger l'état Incinération, ce qui augmente les DGT de rupture qu'elle subit de #3[i]%. Dure #4[i] tours. Cet effet peut être cumulé jusqu'à #5[i] fois.",
+        "params": [
+            [
+                0.6,
+                1,
+                0.18,
+                2,
+                2
+            ],
+            [
+                0.7,
+                1,
+                0.21,
+                2,
+                2
+            ],
+            [
+                0.8,
+                1,
+                0.24,
+                2,
+                2
+            ],
+            [
+                0.9,
+                1,
+                0.27,
+                2,
+                2
+            ],
+            [
+                1,
+                1,
+                0.3,
+                2,
+                2
             ]
         ],
         "properties": [

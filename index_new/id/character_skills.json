@@ -5745,7 +5745,7 @@
         "effect": "Impair",
         "effect_text": "Impair",
         "simple_desc": "Membuat musuh dalam jangkauan tertentu memasuki status Blind dan berpeluang besar untuk menunda aksi setiap target musuh setelah memasuki pertempuran.",
-        "desc": "Setelah menggunakan Technique, musuh dalam jangkauan tertentu akan terkena status Blind selama #1[i] detik. Musuh yang terkena status Blind tidak akan bisa mendeteksi timmu.\nJika menyerang musuh yang terkena status Blind, akan ada #2[i]% peluang tetap untuk menunda #3[i]% aksi seluruh musuh saat memasuki pertempuran.",
+        "desc": "Setelah menggunakan Technique, musuh dalam jangkauan tertentu akan terkena status Blind selama #1[i] detik. Musuh yang terkena status Blind tidak akan bisa mendeteksi rekan tim.\nJika menyerang musuh yang terkena status Blind, akan ada #2[i]% peluang tetap untuk menunda #3[i]% aksi setiap target musuh saat memasuki pertempuran.",
         "params": [
             [
                 10,
@@ -11064,7 +11064,7 @@
         "type_text": "Technique",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "Setelah menyerang musuh dan memasuki pertempuran, mengakibatkan Fire DMG dalam jumlah kecil pada 1 musuh, dan memberikan status \"Firekiss\". Total Bounce 4 kali.",
+        "simple_desc": "Setelah menyerang musuh dan memasuki pertempuran, mengakibatkan Fire DMG dalam jumlah kecil pada 1 musuh, dan berpeluang besar memberikan status \"Firekiss\". Total Bounce 4 kali.",
         "desc": "Segera menyerang musuh. Setelah memasuki pertempuran, mengakibatkan #2[i] kali DMG yang masing-masing mengakibatkan Fire DMG sebesar #1[i]% ATK Guinaifen pada musuh secara acak, serta memiliki #3[i]% Peluang Dasar untuk membuat target memasuki status \"Firekiss\".",
         "params": [
             [
@@ -12997,7 +12997,7 @@
         "type_text": "Talent",
         "effect": "Support",
         "effect_text": "Support",
-        "simple_desc": "Saat rekan tim melancarkan serangan pada target musuh berstatus \"Burden\", DMG yang diakibatkan akan meningkat.",
+        "simple_desc": "Saat rekan tim melancarkan Basic Attack, Skill, atau Ultimate pada target musuh berstatus \"Burden\", DMG yang diakibatkan akan meningkat.",
         "desc": "Saat rekan tim melancarkan Basic Attack, Skill, atau Ultimate pada target musuh berstatus \"Burden\", DMG yang diakibatkan akan meningkat #1[i]% selama #2[i] giliran.",
         "params": [
             [
@@ -13789,7 +13789,7 @@
         "type_text": "Talent",
         "effect": "Impair",
         "effect_text": "Impair",
-        "simple_desc": "Setelah menyerang, berpeluang besar untuk menambahkan 1 lapis \"Ashen Roast\" pada target, membuat DMG yang diterima musuh meningkat, dan juga akan dianggap memasuki status Burn.",
+        "simple_desc": "Saat Basic Attack, Skill atau Ultimate mengenai musuh, berpeluang besar untuk menambahkan 1 lapis \"Ashen Roast\" pada target, membuat DMG yang diterima musuh meningkat, dan musuh juga akan dianggap memasuki status Burn.",
         "desc": "Saat Jiaoqiu menggunakan Basic Attack, Skill, atau Ultimate untuk menyerang musuh, memiliki #1[i]% peluang dasar untuk menambahkan 1 lapis \"Ashen Roast\" pada target. Pada saat lapisan \"Ashen Roast\" berjumlah 1 lapis, akan meningkatkan DMG yang diterima musuh sebesar #2[f1]%. Setelah itu, setiap menumpuk 1 lapis akan meningkatkan #3[f1]% DMG yang diterima musuh.\n\"Ashen Roast\" maksimal dapat ditumpuk hingga #4[i] lapis, dan berlangsung selama #5[i] giliran.\nSaat target musuh berada dalam status \"Ashen Roast\", musuh tersebut juga akan dianggap memasuki status Burn. Setiap saat giliran musuh tersebut dimulai, ia akan menerima Fire DoT sebesar #6[i]% ATK Jiaoqiu.",
         "params": [
             [
@@ -16220,6 +16220,404 @@
             ]
         ],
         "icon": "icon/skill/1224_basic_atk.png"
+    },
+    "122501": {
+        "id": "122501",
+        "name": "Radiant Streak",
+        "max_level": 9,
+        "element": "Fire",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Mengakibatkan Fire DMG dalam jumlah kecil pada 1 musuh.",
+        "desc": "Mengakibatkan Fire DMG sebesar #1[i]% ATK Fugue pada 1 musuh yang ditargetkan.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1225_basic_atk.png"
+    },
+    "122502": {
+        "id": "122502",
+        "name": "Virtue Beckons Bliss",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Skill",
+        "effect": "Support",
+        "effect_text": "Support",
+        "simple_desc": "Memberikan \"Foxian Prayer\" pada 1 rekan tim, meningkatkan Break Effect, dan membuat menyerang musuh tanpa Tipe Weakness yang sesuai juga dapat mengurangi Toughness musuh.\nMembuat Fugue memasuki status \"Torrid Scorch\" dan memperkuat Basic Attack-nya. Saat rekan tim yang memiliki \"Foxian Prayer\" menyerang, Fugue berpeluang besar mengurangi DEF target musuh.",
+        "desc": "Memberikan \"Foxian Prayer\" pada 1 rekan tim yang ditargetkan, serta membuat Fugue memasuki status \"Torrid Scorch\", berlangsung selama #1[i] giliran. Durasi akan berkurang 1 setiap kali giliran Fugue dimulai, dan \"Foxian Prayer\" hanya akan efektif pada target terbaru dari pelancaran Skill Fugue.\nBreak Effect rekan tim yang memiliki \"Foxian Prayer\" akan meningkat #2[i]%. Menyerang musuh tanpa Tipe Weakness yang sesuai juga dapat mengurangi Toughness musuh, dengan efek Pengurangan Toughness-nya adalah sebesar #6[i]% dari Pengurangan Toughness aslinya. Efek ini tidak dapat ditumpuk dengan efek Pengurangan Toughness lain yang mengabaikan Tipe Weakness.\nSaat berada dalam status \"Torrid Scorch\", Basic Attack Fugue akan diperkuat. Setiap kali rekan tim yang memiliki \"Foxian Prayer\" melancarkan serangan, Fugue memiliki #3[i]% peluang dasar untuk mengurangi #4[i]% DEF target musuh yang terkena serangan, berlangsung selama #5[i] giliran.",
+        "params": [
+            [
+                3,
+                0.15,
+                1,
+                0.08,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.165,
+                1,
+                0.09,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.18,
+                1,
+                0.1,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.195,
+                1,
+                0.11,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.21,
+                1,
+                0.12,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.225,
+                1,
+                0.13,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.2437,
+                1,
+                0.1425,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.2625,
+                1,
+                0.155,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.2812,
+                1,
+                0.1675,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.3,
+                1,
+                0.18,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.315,
+                1,
+                0.19,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.33,
+                1,
+                0.2,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.345,
+                1,
+                0.21,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.36,
+                1,
+                0.22,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.375,
+                1,
+                0.23,
+                2,
+                0.5
+            ]
+        ],
+        "icon": "icon/skill/1225_skill.png"
+    },
+    "122503": {
+        "id": "122503",
+        "name": "Solar Splendor Shines Upon All",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "AoEAttack",
+        "effect_text": "AoE",
+        "simple_desc": "Mengakibatkan Fire DMG pada seluruh musuh. Serangan kali ini akan mengabaikan Tipe Weakness untuk mengurangi Toughness seluruh musuh.",
+        "desc": "Mengakibatkan Fire DMG sebesar #1[i]% ATK Fugue pada seluruh musuh. Serangan kali ini akan mengabaikan Tipe Weakness untuk mengurangi Toughness seluruh musuh. Saat memicu Weakness Break, akan memicu efek Fire Weakness Break.",
+        "params": [
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ],
+            [
+                1.4
+            ],
+            [
+                1.5
+            ],
+            [
+                1.625
+            ],
+            [
+                1.75
+            ],
+            [
+                1.875
+            ],
+            [
+                2
+            ],
+            [
+                2.1
+            ],
+            [
+                2.2
+            ],
+            [
+                2.3
+            ],
+            [
+                2.4
+            ],
+            [
+                2.5
+            ]
+        ],
+        "icon": "icon/skill/1225_ultimate.png"
+    },
+    "122504": {
+        "id": "122504",
+        "name": "Fortune Follows Where Virtue Spreads",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Impair",
+        "effect_text": "Impair",
+        "simple_desc": "Saat Fugue berada di medan pertempuran, target musuh akan memperoleh \"Cloudflame Luster\". Saat \"Cloudflame Luster\" dikurangi hingga 0, target musuh akan menerima Weakness Break DMG sekali lagi. Setelah rekan tim menyerang target musuh yang berada dalam status Weakness Break, akan mengakibatkan Super Break DMG pada target tersebut.",
+        "desc": "Saat Fugue berada di medan pertempuran, target musuh akan memperoleh \"Cloudflame Luster\" sebesar #2[i]% Max Toughness dirinya. Saat Toughness awal dikurangi hingga 0, dapat lanjut mengurangi \"Cloudflame Luster\", dan saat \"Cloudflame Luster\" dikurangi hingga 0, target musuh akan menerima Weakness Break DMG sekali lagi.\nSaat Fugue berada di medan pertempuran, setelah rekan tim menyerang target musuh yang berstatus Weakness Break, nilai Pengurangan Toughness pada serangan ini akan dikonversi menjadi 1 kali #1[i]% Super Break DMG.",
+        "params": [
+            [
+                0.5,
+                0.4
+            ],
+            [
+                0.55,
+                0.4
+            ],
+            [
+                0.6,
+                0.4
+            ],
+            [
+                0.65,
+                0.4
+            ],
+            [
+                0.7,
+                0.4
+            ],
+            [
+                0.75,
+                0.4
+            ],
+            [
+                0.8125,
+                0.4
+            ],
+            [
+                0.875,
+                0.4
+            ],
+            [
+                0.9375,
+                0.4
+            ],
+            [
+                1,
+                0.4
+            ],
+            [
+                1.05,
+                0.4
+            ],
+            [
+                1.1,
+                0.4
+            ],
+            [
+                1.15,
+                0.4
+            ],
+            [
+                1.2,
+                0.4
+            ],
+            [
+                1.25,
+                0.4
+            ]
+        ],
+        "icon": "icon/skill/1225_talent.png"
+    },
+    "122506": {
+        "id": "122506",
+        "name": "Attack",
+        "max_level": 1,
+        "element": "Fire",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Setelah menyerang musuh dan memasuki pertempuran, akan mengurangi Toughness target musuh sesuai dengan tipe Toughness-nya.",
+        "params": [],
+        "icon": "icon/skill/1225_basic_atk.png"
+    },
+    "122507": {
+        "id": "122507",
+        "name": "Percipient Shine",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Impair",
+        "effect_text": "Impair",
+        "simple_desc": "Membuat musuh dalam jangkauan tertentu memasuki status Daze. Jika menyerang musuh yang berstatus Daze, aksi Fugue akan didahulukan saat memasuki pertempuran, serta berpeluang besar untuk membuat setiap target musuh memasuki status Pengurangan DEF yang sama dengan Skill Fugue.",
+        "desc": "Setelah melancarkan Technique, musuh dalam jangkauan tertentu akan memasuki status Daze selama #1[i] detik. Musuh yang berstatus Daze tidak akan secara aktif menyerang rekan tim.\nJika secara aktif menyerang musuh yang berstatus Daze, maka setelah memasuki pertempuran, aksi Fugue akan didahulukan sebesar #4[i]%, serta memiliki #2[i]% peluang dasar untuk membuat setiap target musuh memasuki status Pengurangan DEF yang sama dengan Skill Fugue, berlangsung selama #3[i] giliran.",
+        "params": [
+            [
+                10,
+                1,
+                2,
+                0.4
+            ]
+        ],
+        "icon": "icon/skill/1225_technique.png"
+    },
+    "122508": {
+        "id": "122508",
+        "name": "Fiery Caress",
+        "max_level": 9,
+        "element": "Fire",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "Blast",
+        "effect_text": "Blast",
+        "simple_desc": "Mengakibatkan Fire DMG dalam jumlah kecil pada 1 target musuh dan Fire DMG dalam jumlah kecil pada musuh di sekitar target.",
+        "desc": "Mengakibatkan Fire DMG sebesar #1[i]% ATK Fugue pada 1 musuh yang ditargetkan, dan mengakibatkan Fire DMG sebesar #2[i]% ATK Fugue pada musuh di sekitar target.",
+        "params": [
+            [
+                0.5,
+                0.25
+            ],
+            [
+                0.6,
+                0.3
+            ],
+            [
+                0.7,
+                0.35
+            ],
+            [
+                0.8,
+                0.4
+            ],
+            [
+                0.9,
+                0.45
+            ],
+            [
+                1,
+                0.5
+            ],
+            [
+                1.1,
+                0.55
+            ],
+            [
+                1.2,
+                0.6
+            ],
+            [
+                1.3,
+                0.65
+            ]
+        ],
+        "icon": "icon/skill/1225_basic_atk.png"
     },
     "130101": {
         "id": "130101",
@@ -20948,6 +21346,366 @@
         ],
         "icon": "icon/skill/1312_technique.png"
     },
+    "131301": {
+        "id": "131301",
+        "name": "Gleaming Admonition",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Mengakibatkan Imaginary DMG dalam jumlah kecil pada 1 musuh yang ditargetkan.",
+        "desc": "Mengakibatkan Imaginary DMG sebesar #1[i]% ATK Sunday pada 1 musuh yang ditargetkan.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1313_basic_atk.png"
+    },
+    "131302": {
+        "id": "131302",
+        "name": "Benison of Paper and Rites",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Skill",
+        "effect": "Support",
+        "effect_text": "Support",
+        "simple_desc": "Membuat 1 karakter tim yang ditargetkan dan objek panggilannya segera beraksi, serta meningkatkan DMG yang diakibatkannya. Jika target memiliki objek panggilan, maka efek peningkatan DMG yang diakibatkannya akan meningkat ekstra.\nSetelah melancarkan Skill pada \"The Beatified\", akan memulihkan 1 Poin Skill.\nSaat Sunday melancarkan kemampuan ini pada karakter Path \"Harmony\", efek \"segera beraksi\" tidak akan terpicu.",
+        "desc": "Membuat 1 karakter tim yang ditargetkan dan objek panggilannya segera beraksi, serta meningkatkan #2[i]% DMG yang diakibatkannya. Jika target memiliki objek panggilan, maka efek peningkatan DMG yang diakibatkannya akan meningkat ekstra #4[i]%, berlangsung selama #3[i] giliran.\nSetelah melancarkan Skill pada \"The Beatified\", akan memulihkan 1 Poin Skill.\nSaat Sunday melancarkan kemampuan ini pada karakter Path \"Harmony\", efek \"segera beraksi\" tidak akan terpicu.",
+        "params": [
+            [
+                1,
+                0.15,
+                2,
+                0.25
+            ],
+            [
+                1,
+                0.165,
+                2,
+                0.275
+            ],
+            [
+                1,
+                0.18,
+                2,
+                0.3
+            ],
+            [
+                1,
+                0.195,
+                2,
+                0.325
+            ],
+            [
+                1,
+                0.21,
+                2,
+                0.35
+            ],
+            [
+                1,
+                0.225,
+                2,
+                0.375
+            ],
+            [
+                1,
+                0.2437,
+                2,
+                0.4062
+            ],
+            [
+                1,
+                0.2625,
+                2,
+                0.4375
+            ],
+            [
+                1,
+                0.2812,
+                2,
+                0.4688
+            ],
+            [
+                1,
+                0.3,
+                2,
+                0.5
+            ],
+            [
+                1,
+                0.315,
+                2,
+                0.525
+            ],
+            [
+                1,
+                0.33,
+                2,
+                0.55
+            ],
+            [
+                1,
+                0.345,
+                2,
+                0.575
+            ],
+            [
+                1,
+                0.36,
+                2,
+                0.6
+            ],
+            [
+                1,
+                0.375,
+                2,
+                0.625
+            ]
+        ],
+        "icon": "icon/skill/1313_skill.png"
+    },
+    "131303": {
+        "id": "131303",
+        "name": "Ode to Caress and Cicatrix",
+        "max_level": 15,
+        "element": "",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "Support",
+        "effect_text": "Support",
+        "simple_desc": "Memulihkan Energy 1 karakter tim yang ditargetkan, serta membuat karakter tersebut dan objek panggilannya menjadi \"The Beatified\". Meningkatkan CRIT DMG \"The Beatified\".",
+        "desc": "Memulihkan Energy 1 karakter tim yang ditargetkan sebesar #1[f1]% Max Energy, serta membuat target dan objek panggilan miliknya menjadi \"The Beatified\". Meningkatkan CRIT DMG \"The Beatified\", peningkatannya adalah sebesar #2[f1]% dari CRIT DMG Sunday + #4[f1]%.\nSetiap kali giliran Sunday dimulai, durasi status \"The Beatified\" akan berkurang 1, berlangsung selama #3[i] giliran. Efek ini hanya akan efektif pada target terbaru dari pelancaran Ultimate Sunday (selain Sunday sendiri). Saat Sunday gugur, efek \"The Beatified\" juga akan dihapus.",
+        "params": [
+            [
+                0.2,
+                0.12,
+                3,
+                0.08
+            ],
+            [
+                0.2,
+                0.138,
+                3,
+                0.084
+            ],
+            [
+                0.2,
+                0.156,
+                3,
+                0.088
+            ],
+            [
+                0.2,
+                0.174,
+                3,
+                0.092
+            ],
+            [
+                0.2,
+                0.192,
+                3,
+                0.096
+            ],
+            [
+                0.2,
+                0.21,
+                3,
+                0.1
+            ],
+            [
+                0.2,
+                0.2325,
+                3,
+                0.105
+            ],
+            [
+                0.2,
+                0.255,
+                3,
+                0.11
+            ],
+            [
+                0.2,
+                0.2775,
+                3,
+                0.115
+            ],
+            [
+                0.2,
+                0.3,
+                3,
+                0.12
+            ],
+            [
+                0.2,
+                0.318,
+                3,
+                0.124
+            ],
+            [
+                0.2,
+                0.336,
+                3,
+                0.128
+            ],
+            [
+                0.2,
+                0.354,
+                3,
+                0.132
+            ],
+            [
+                0.2,
+                0.372,
+                3,
+                0.136
+            ],
+            [
+                0.2,
+                0.39,
+                3,
+                0.14
+            ]
+        ],
+        "icon": "icon/skill/1313_ultimate.png"
+    },
+    "131304": {
+        "id": "131304",
+        "name": "The Sorrowing Body",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Support",
+        "effect_text": "Support",
+        "simple_desc": "Saat melancarkan Skill, akan meningkatkan CRIT Rate target.",
+        "desc": "Saat melancarkan Skill, akan meningkatkan #1[f1]% CRIT Rate target selama #2[i] giliran.",
+        "params": [
+            [
+                0.1,
+                3
+            ],
+            [
+                0.11,
+                3
+            ],
+            [
+                0.12,
+                3
+            ],
+            [
+                0.13,
+                3
+            ],
+            [
+                0.14,
+                3
+            ],
+            [
+                0.15,
+                3
+            ],
+            [
+                0.1625,
+                3
+            ],
+            [
+                0.175,
+                3
+            ],
+            [
+                0.1875,
+                3
+            ],
+            [
+                0.2,
+                3
+            ],
+            [
+                0.21,
+                3
+            ],
+            [
+                0.22,
+                3
+            ],
+            [
+                0.23,
+                3
+            ],
+            [
+                0.24,
+                3
+            ],
+            [
+                0.25,
+                3
+            ]
+        ],
+        "icon": "icon/skill/1313_talent.png"
+    },
+    "131306": {
+        "id": "131306",
+        "name": "Attack",
+        "max_level": 1,
+        "element": "Imaginary",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Setelah menyerang musuh dan memasuki pertempuran, akan mengurangi Toughness target musuh sesuai dengan tipe Toughness-nya.",
+        "params": [],
+        "icon": "icon/skill/1313_basic_atk.png"
+    },
+    "131307": {
+        "id": "131307",
+        "name": "The Glorious Mysteries",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Support",
+        "effect_text": "Support",
+        "simple_desc": "Setelah menggunakan Technique, pada pertempuran selanjutnya saat Sunday pertama kali melancarkan kemampuan pada rekan tim, DMG yang diakibatkan target akan meningkat.",
+        "desc": "Setelah menggunakan Technique, pada pertempuran selanjutnya saat Sunday pertama kali melancarkan kemampuan pada rekan tim, DMG yang diakibatkan target akan meningkat #1[i]%, berlangsung selama #2[i] giliran.",
+        "params": [
+            [
+                0.5,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1313_technique.png"
+    },
     "131401": {
         "id": "131401",
         "name": "Lash of Riches",
@@ -21113,7 +21871,7 @@
         "type_text": "Ultimate",
         "effect": "AoEAttack",
         "effect_text": "AoE",
-        "simple_desc": "Mengakibatkan Quantum DMG pada seluruh musuh, dan membuat dirinya memperoleh peningkatan DMG Multiplier Serangan Lanjutan.",
+        "simple_desc": "Mengakibatkan Quantum DMG pada seluruh musuh, dan membuat DMG Multiplier Serangan Lanjutan dari Talent memperoleh peningkatan.",
         "desc": "Mengakibatkan Quantum DMG sebesar #3[i]% ATK Jade pada seluruh musuh. Pada saat bersamaan, Serangan Lanjutan dari Talent Jade memperoleh penguatan, DMG Multiplier yang diakibatkan oleh Serangan Lanjutan meningkat #1[i]%. Efek penguatan berlaku sebanyak #2[i] kali.",
         "params": [
             [
@@ -21981,7 +22739,7 @@
         "effect": "Enhance",
         "effect_text": "Enhance",
         "simple_desc": "Saat target musuh terkena Weakness Break, Rappa akan memperoleh 1 poin Charge. Saat melancarkan Hit ke-3 dari \"Ningu: Demonbane Petalblade\", akan mengakibatkan Imaginary Break DMG tambahan pada seluruh musuh. DMG tersebut dapat mengurangi Toughness tanpa memedulikan Tipe Weakness, serta akan mengonsumsi seluruh poin Charge dan meningkatkan Break DMG Multiplier dan Pengurangan Toughness kali ini.",
-        "desc": "Setiap saat target musuh terkena Weakness Break, Rappa akan memperoleh 1 poin Charge, maksimal dapat memiliki #1[i] poin Charge. Saat Rappa melancarkan Hit ke-3 dari \"Ningu: Demonbane Petalblade\" di kali berikutnya, akan mengakibatkan Break DMG tambahan pada seluruh musuh sebesar #3[i]% Imaginary Break DMG Rappa. DMG tersebut dapat mengurangi #4[i] Toughness tanpa memedulikan Tipe Weakness, serta akan mengonsumsi seluruh poin Charge. Setiap poin Charge dapat meningkatkan #5[i]% Break DMG Multiplier kali ini, dan meningkatkan #6[i] Pengurangan Toughness yang tidak memedulikan Tipe Weakness.\nSaat mengakibatkan Weakness Break, akan memicu efek Imaginary Weakness Break.",
+        "desc": "Setiap saat target musuh terkena Weakness Break, Rappa akan memperoleh 1 poin Charge, maksimal dapat memiliki #1[i] poin Charge. Saat Rappa melancarkan Hit ke-3 dari \"Ningu: Demonbane Petalblade\" di kali berikutnya, akan mengakibatkan Break DMG tambahan pada seluruh musuh sebesar #3[i]% Imaginary Break DMG Rappa. DMG tersebut dapat mengurangi #4[i] Toughness tanpa memedulikan Tipe Weakness, serta akan mengonsumsi seluruh poin Charge. Setiap poin Charge dapat meningkatkan #5[i]% Break DMG Multiplier kali ini, dan meningkatkan Pengurangan Toughness yang tidak memedulikan Tipe Weakness sebesar #6[i].\nSaat mengakibatkan Weakness Break, akan memicu efek Imaginary Weakness Break.",
         "params": [
             [
                 10,
@@ -22130,7 +22888,7 @@
         "effect": "Enhance",
         "effect_text": "Enhance",
         "simple_desc": "Memasuki status \"Graffiti\" dan dapat melaju dengan cepat sejauh jarak tertentu, serta menyerang musuh yang tersentuh. Setelah menyerang musuh untuk memasuki pertempuran, akan mengurangi Toughness tanpa memedulikan Tipe Weakness dan mengakibatkan Imaginary Break DMG pada setiap target musuh, serta mengakibatkan Imaginary Break DMG pada target di sekitarnya. Di saat yang bersamaan, Rappa akan memperoleh Energy.",
-        "desc": "Setelah menggunakan Technique, akan memasuki status \"Graffiti\" selama #1[i] detik. Saat berstatus \"Graffiti\", dapat melaju dengan cepat sejauh jarak tertentu dan menyerang musuh yang tersentuh. Saat sedang melaju dengan cepat, dapat menahan semua serangan musuh. Melancarkan serangan saat berstatus \"Graffiti\" akan mengakhiri durasi status lebih awal. Setelah secara aktif menyerang musuh untuk memasuki pertempuran, akan mengurangi #5[i]Toughness tanpa memedulikan Tipe Weakness dan mengakibatkan Break DMG sebesar #2[i]% Imaginary Break DMG Rappa pada setiap target musuh, serta mengakibatkan Break DMG sebesar #3[i]% Imaginary Break DMG Rappa pada target di sekitarnya. Di saat yang bersamaan, Rappa akan memperoleh #4[i] Energy.",
+        "desc": "Setelah menggunakan Technique, akan memasuki status \"Graffiti\" selama #1[i] detik. Saat berstatus \"Graffiti\", dapat melaju dengan cepat sejauh jarak tertentu dan menyerang musuh yang tersentuh. Saat sedang melaju dengan cepat, dapat menahan semua serangan musuh. Melancarkan serangan saat berstatus \"Graffiti\" akan mengakhiri durasi status lebih awal. Setelah secara aktif menyerang musuh untuk memasuki pertempuran, akan mengurangi #5[i] Toughness tanpa memedulikan Tipe Weakness dan mengakibatkan Break DMG sebesar #2[i]% Imaginary Break DMG Rappa pada setiap target musuh, serta mengakibatkan Break DMG sebesar #3[i]% Imaginary Break DMG Rappa pada target di sekitarnya. Di saat yang bersamaan, Rappa akan memperoleh #4[i] Energy.",
         "params": [
             [
                 20,
@@ -22366,7 +23124,7 @@
         "max_level": 9,
         "element": "Imaginary",
         "type": "Normal",
-        "type_text": "Path Resonance",
+        "type_text": "Basic ATK",
         "effect": "Blast",
         "effect_text": "Blast",
         "simple_desc": "2 Hit serangan pertama mengakibatkan Imaginary DMG dalam jumlah kecil pada 1 musuh yang ditargetkan, serta mengakibatkan Imaginary DMG dalam jumlah kecil pada target di sekitarnya. Hit ke-3 akan mengakibatkan Imaginary DMG dalam jumlah kecil pada seluruh musuh. Menyerang musuh yang tidak memiliki Imaginary Weakness tetap dapat mengurangi Toughness-nya.",

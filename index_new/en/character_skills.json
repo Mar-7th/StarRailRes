@@ -5745,7 +5745,7 @@
         "effect": "Impair",
         "effect_text": "Impair",
         "simple_desc": "Enemies in a set area are Blinded. When initiating battle against a Blinded enemy, there is a high chance to delay all enemies' actions.",
-        "desc": "After Sampo uses his Technique, enemies in a set area are inflicted with Blind for #1[i] second(s). Blinded enemies cannot detect your team.\nWhen initiating combat against a Blinded enemy, there is a #2[i]% fixed chance to delay all enemies' action by #3[i]%.",
+        "desc": "After Sampo uses his Technique, enemies in a set area are afflicted with Blind for #1[i] second(s). Blinded enemies cannot detect ally targets.\nWhen initiating combat against a Blinded enemy, there is a #2[i]% fixed chance to delay all enemies' action by #3[i]%.",
         "params": [
             [
                 10,
@@ -11064,7 +11064,7 @@
         "type_text": "Technique",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "Attacks the enemy. After entering battle, deals minor Fire DMG to a single target while applying Firekiss, with a total of 4 Bounces.",
+        "simple_desc": "Attacks the enemy. After entering battle, deals minor Fire DMG to one enemy target with a high chance of applying Firekiss, with a total of 4 Bounces.",
         "desc": "Immediately attacks the enemy. After entering battle, deals DMG for #2[i] time(s), dealing Fire DMG equal to #1[i]% of Guinaifen's ATK to a random single enemy target each time, with a #3[i]% base chance of inflicting Firekiss on them.",
         "params": [
             [
@@ -12997,7 +12997,7 @@
         "type_text": "Talent",
         "effect": "Support",
         "effect_text": "Support",
-        "simple_desc": "Ally deals more DMG when attacking enemies inflicted with Burden.",
+        "simple_desc": "When an ally target uses a Basic ATK, Skill, or Ultimate on an enemy target inflicted with \"Burden,\" the DMG dealt increases.",
         "desc": "When an ally uses a Basic ATK, Skill, or Ultimate on an enemy inflicted with Burden, the DMG dealt increases by #1[i]%, lasting for #2[i] turn(s).",
         "params": [
             [
@@ -13789,7 +13789,7 @@
         "type_text": "Talent",
         "effect": "Impair",
         "effect_text": "Impair",
-        "simple_desc": "After attacking, there is a high chance to inflict 1 stack of Ashen Roast on the target, causing the enemy to take increased DMG and also be considered as Burned at the same time.",
+        "simple_desc": "When attacking with Basic ATK, Skill, or Ultimate, there is a high chance to inflict 1 stack of \"Ashen Roast\" on the target, causing the enemy to take increased DMG and also be considered as Burned at the same time.",
         "desc": "When Jiaoqiu hits an enemy with Basic ATK, Skill or Ultimate, there is a #1[i]% base chance to inflict 1 stack of Ashen Roast on them. At 1 stack, increases DMG received by the enemy by #2[f1]%. Then, each subsequent stack increases this by #3[f1]%.\nAshen Roast is capped at #4[i] stack(s) and lasts for #5[i] turn(s).\nWhen an enemy target is afflicted with Ashen Roast, they are also considered as being Burned at the same time, taking Fire DoT equal to #6[i]% of Jiaoqiu's ATK at the start of each turn.",
         "params": [
             [
@@ -16221,6 +16221,404 @@
         ],
         "icon": "icon/skill/1224_basic_atk.png"
     },
+    "122501": {
+        "id": "122501",
+        "name": "Radiant Streak",
+        "max_level": 9,
+        "element": "Fire",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Deals minor Fire DMG to one enemy.",
+        "desc": "Deals Fire DMG equal to #1[i]% of Fugue's ATK to one designated enemy.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1225_basic_atk.png"
+    },
+    "122502": {
+        "id": "122502",
+        "name": "Virtue Beckons Bliss",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Skill",
+        "effect": "Support",
+        "effect_text": "Support",
+        "simple_desc": "Grants one ally \"Foxian Prayer\", which increases Break Effect, and enables to reduce Toughness when attacking enemies that don't have the corresponding Weakness Type.\nMakes this unit enter the \"Torrid Scorch\" state, enhancing Basic ATK. When ally units with \"Foxian Prayer\" attack, Fugue has a high chance to reduce the enemy target's DEF.",
+        "desc": "Grants one designated ally \"Foxian Prayer\". Enters the \"Torrid Scorch\" state, lasting for #1[i] turn(s). The duration reduces by 1 at the start of Fugue's every turn. \"Foxian Prayer\" only takes effect on the most recent target of Fugue's Skill.\nThe ally target with \"Foxian Prayer\" increases their Break Effect by #2[i]% and can also reduce Toughness even when attacking enemies that don't have the corresponding Weakness Type, with the effect equivalent to #6[i]% of the original Toughness Reduction value. This cannot stack with other Toughness Reduction effects that also ignore Weakness Type.\nWhile in the \"Torrid Scorch\" state, Fugue enhances her Basic ATK. Every time an ally target with \"Foxian Prayer\" attacks, Fugue has a #3[i]% base chance to reduce the attacked enemy target's DEF by #4[i]%, lasting for #5[i] turn(s).",
+        "params": [
+            [
+                3,
+                0.15,
+                1,
+                0.08,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.165,
+                1,
+                0.09,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.18,
+                1,
+                0.1,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.195,
+                1,
+                0.11,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.21,
+                1,
+                0.12,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.225,
+                1,
+                0.13,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.2437,
+                1,
+                0.1425,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.2625,
+                1,
+                0.155,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.2812,
+                1,
+                0.1675,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.3,
+                1,
+                0.18,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.315,
+                1,
+                0.19,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.33,
+                1,
+                0.2,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.345,
+                1,
+                0.21,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.36,
+                1,
+                0.22,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.375,
+                1,
+                0.23,
+                2,
+                0.5
+            ]
+        ],
+        "icon": "icon/skill/1225_skill.png"
+    },
+    "122503": {
+        "id": "122503",
+        "name": "Solar Splendor Shines Upon All",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "AoEAttack",
+        "effect_text": "AoE",
+        "simple_desc": "Deals Fire DMG to all enemies. This attack ignores Weakness Type to reduce all enemies' Toughness.",
+        "desc": "Deals Fire DMG equal to #1[i]% of Fugue's ATK to all enemies. This attack ignores Weakness Type to reduce all enemies' Toughness. And when breaking Weakness, triggers the Fire Weakness Break effect.",
+        "params": [
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ],
+            [
+                1.4
+            ],
+            [
+                1.5
+            ],
+            [
+                1.625
+            ],
+            [
+                1.75
+            ],
+            [
+                1.875
+            ],
+            [
+                2
+            ],
+            [
+                2.1
+            ],
+            [
+                2.2
+            ],
+            [
+                2.3
+            ],
+            [
+                2.4
+            ],
+            [
+                2.5
+            ]
+        ],
+        "icon": "icon/skill/1225_ultimate.png"
+    },
+    "122504": {
+        "id": "122504",
+        "name": "Fortune Follows Where Virtue Spreads",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Impair",
+        "effect_text": "Impair",
+        "simple_desc": "While Fugue is on the field, enemy targets will get additionally afflicted with \"Cloudflame Luster.\" When \"Cloudflame Luster\" is reduced to 0, the enemy will take Weakness Break DMG again. After allies attack Weakness Broken enemy targets, additionally deals Super Break DMG.",
+        "desc": "While Fugue is on the field, enemy targets will get additionally afflicted with \"Cloudflame Luster,\" equal to #2[i]% of their Max Toughness. When the initial Toughness is reduced to 0, \"Cloudflame Luster\" can be further reduced. When \"Cloudflame Luster\" is reduced to 0, the enemy will receive Weakness Break DMG again.\nWhile Fugue is on the field and after allies attack Weakness Broken enemy targets, converts the Toughness Reduction of this attack into 1 instance of #1[i]% Super Break DMG.",
+        "params": [
+            [
+                0.5,
+                0.4
+            ],
+            [
+                0.55,
+                0.4
+            ],
+            [
+                0.6,
+                0.4
+            ],
+            [
+                0.65,
+                0.4
+            ],
+            [
+                0.7,
+                0.4
+            ],
+            [
+                0.75,
+                0.4
+            ],
+            [
+                0.8125,
+                0.4
+            ],
+            [
+                0.875,
+                0.4
+            ],
+            [
+                0.9375,
+                0.4
+            ],
+            [
+                1,
+                0.4
+            ],
+            [
+                1.05,
+                0.4
+            ],
+            [
+                1.1,
+                0.4
+            ],
+            [
+                1.15,
+                0.4
+            ],
+            [
+                1.2,
+                0.4
+            ],
+            [
+                1.25,
+                0.4
+            ]
+        ],
+        "icon": "icon/skill/1225_talent.png"
+    },
+    "122506": {
+        "id": "122506",
+        "name": "Attack",
+        "max_level": 1,
+        "element": "Fire",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Attacks an enemy, and when the battle starts, reduces their Toughness of the corresponding Type.",
+        "params": [],
+        "icon": "icon/skill/1225_basic_atk.png"
+    },
+    "122507": {
+        "id": "122507",
+        "name": "Percipient Shine",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Impair",
+        "effect_text": "Impair",
+        "simple_desc": "Inflicts Daze on enemies within a certain area. After entering battle via attacking Dazed enemies, Fugue's action advances, with a high chance to inflict each enemy target with the same DEF Reduction state as that applied by Fugue's Skill.",
+        "desc": "After using Technique, inflicts Daze on enemies within a certain area, lasting for #1[i] second(s). While Dazed, enemies will not actively attack ally targets.\nAfter entering battle via actively attacking Dazed enemies, Fugue's action advances by #4[i]%, with a #2[i]% base chance to inflict each enemy target with the same DEF Reduction state as that applied by Fugue's Skill, lasting for #3[i] turn(s).",
+        "params": [
+            [
+                10,
+                1,
+                2,
+                0.4
+            ]
+        ],
+        "icon": "icon/skill/1225_technique.png"
+    },
+    "122508": {
+        "id": "122508",
+        "name": "Fiery Caress",
+        "max_level": 9,
+        "element": "Fire",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "Blast",
+        "effect_text": "Blast",
+        "simple_desc": "Deals minor Fire DMG to one enemy and minor Fire DMG to adjacent targets.",
+        "desc": "Deals Fire DMG equal to #1[i]% of Fugue's ATK to one designated enemy and Fire DMG equal to #2[i]% of Fugue's ATK to adjacent targets.",
+        "params": [
+            [
+                0.5,
+                0.25
+            ],
+            [
+                0.6,
+                0.3
+            ],
+            [
+                0.7,
+                0.35
+            ],
+            [
+                0.8,
+                0.4
+            ],
+            [
+                0.9,
+                0.45
+            ],
+            [
+                1,
+                0.5
+            ],
+            [
+                1.1,
+                0.55
+            ],
+            [
+                1.2,
+                0.6
+            ],
+            [
+                1.3,
+                0.65
+            ]
+        ],
+        "icon": "icon/skill/1225_basic_atk.png"
+    },
     "130101": {
         "id": "130101",
         "name": "Corkage Fee",
@@ -16407,7 +16805,7 @@
         "type_text": "Talent",
         "effect": "Restore",
         "effect_text": "Restore",
-        "simple_desc": "The Besotted state makes targets receive more Break DMG. Every time the target gets attacked by an ally, the attacker's HP is restored.",
+        "simple_desc": "The Besotted state makes targets receive more Break DMG. Every time the target gets attacked by an ally character, the attacker's HP is restored.",
         "desc": "The Besotted state makes targets receive #1[f1]% more Break DMG. Every time a Besotted target gets attacked by an ally, the attacking ally's HP is restored by #2[i].",
         "params": [
             [
@@ -20948,6 +21346,366 @@
         ],
         "icon": "icon/skill/1312_technique.png"
     },
+    "131301": {
+        "id": "131301",
+        "name": "Gleaming Admonition",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Deals minor Imaginary DMG to one designated enemy.",
+        "desc": "Deals Imaginary DMG equal to #1[i]% of Sunday's ATK to one designated enemy.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1313_basic_atk.png"
+    },
+    "131302": {
+        "id": "131302",
+        "name": "Benison of Paper and Rites",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Skill",
+        "effect": "Support",
+        "effect_text": "Support",
+        "simple_desc": "Enables one designated ally character and their summon to immediately take action, and increases their DMG dealt. If the target has a summon, then the dealt DMG increase is further boosted.\nAfter using Skill on The Beatified, recovers 1 Skill Point.\nWhen Sunday uses this ability on characters following the Path of Harmony, cannot trigger the \"immediate action\" effect.",
+        "desc": "Enables one designated ally character and their summon to immediately take action, and increases their DMG dealt by #2[i]%. If the target has a summon, then the dealt DMG increase is further boosted by an additional #4[i]%, lasting for #3[i] turn(s).\nAfter using Skill on The Beatified, recovers 1 Skill Point.\nWhen Sunday uses this ability on characters following the Path of Harmony, cannot trigger the \"immediate action\" effect.",
+        "params": [
+            [
+                1,
+                0.15,
+                2,
+                0.25
+            ],
+            [
+                1,
+                0.165,
+                2,
+                0.275
+            ],
+            [
+                1,
+                0.18,
+                2,
+                0.3
+            ],
+            [
+                1,
+                0.195,
+                2,
+                0.325
+            ],
+            [
+                1,
+                0.21,
+                2,
+                0.35
+            ],
+            [
+                1,
+                0.225,
+                2,
+                0.375
+            ],
+            [
+                1,
+                0.2437,
+                2,
+                0.4062
+            ],
+            [
+                1,
+                0.2625,
+                2,
+                0.4375
+            ],
+            [
+                1,
+                0.2812,
+                2,
+                0.4688
+            ],
+            [
+                1,
+                0.3,
+                2,
+                0.5
+            ],
+            [
+                1,
+                0.315,
+                2,
+                0.525
+            ],
+            [
+                1,
+                0.33,
+                2,
+                0.55
+            ],
+            [
+                1,
+                0.345,
+                2,
+                0.575
+            ],
+            [
+                1,
+                0.36,
+                2,
+                0.6
+            ],
+            [
+                1,
+                0.375,
+                2,
+                0.625
+            ]
+        ],
+        "icon": "icon/skill/1313_skill.png"
+    },
+    "131303": {
+        "id": "131303",
+        "name": "Ode to Caress and Cicatrix",
+        "max_level": 15,
+        "element": "",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "Support",
+        "effect_text": "Support",
+        "simple_desc": "Regenerates Energy for one designated ally character and turns the target and their summon into \"The Beatified.\" \"The Beatified\" increases their CRIT DMG.",
+        "desc": "Regenerates Energy by #1[f1]% of Max Energy for one designated ally character, and turns the target and their summon into \"The Beatified.\" \"The Beatified\" have their CRIT DMG increased by an amount equal to #2[f1]% of Sunday's CRIT DMG plus #4[f1]%.\nAt the start of Sunday's each turn, the duration of \"The Beatified\" decreases by 1 turn, lasting for a total of #3[i] turn(s). And it only takes effect on the most recent target of the Ultimate (excluding Sunday himself). When Sunday is knocked down, \"The Beatified\" will also be dispelled.",
+        "params": [
+            [
+                0.2,
+                0.12,
+                3,
+                0.08
+            ],
+            [
+                0.2,
+                0.138,
+                3,
+                0.084
+            ],
+            [
+                0.2,
+                0.156,
+                3,
+                0.088
+            ],
+            [
+                0.2,
+                0.174,
+                3,
+                0.092
+            ],
+            [
+                0.2,
+                0.192,
+                3,
+                0.096
+            ],
+            [
+                0.2,
+                0.21,
+                3,
+                0.1
+            ],
+            [
+                0.2,
+                0.2325,
+                3,
+                0.105
+            ],
+            [
+                0.2,
+                0.255,
+                3,
+                0.11
+            ],
+            [
+                0.2,
+                0.2775,
+                3,
+                0.115
+            ],
+            [
+                0.2,
+                0.3,
+                3,
+                0.12
+            ],
+            [
+                0.2,
+                0.318,
+                3,
+                0.124
+            ],
+            [
+                0.2,
+                0.336,
+                3,
+                0.128
+            ],
+            [
+                0.2,
+                0.354,
+                3,
+                0.132
+            ],
+            [
+                0.2,
+                0.372,
+                3,
+                0.136
+            ],
+            [
+                0.2,
+                0.39,
+                3,
+                0.14
+            ]
+        ],
+        "icon": "icon/skill/1313_ultimate.png"
+    },
+    "131304": {
+        "id": "131304",
+        "name": "The Sorrowing Body",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Support",
+        "effect_text": "Support",
+        "simple_desc": "When using Skill, increases the target's CRIT Rate.",
+        "desc": "When using Skill, increases the target's CRIT Rate by #1[f1]%, lasting for #2[i] turn(s).",
+        "params": [
+            [
+                0.1,
+                3
+            ],
+            [
+                0.11,
+                3
+            ],
+            [
+                0.12,
+                3
+            ],
+            [
+                0.13,
+                3
+            ],
+            [
+                0.14,
+                3
+            ],
+            [
+                0.15,
+                3
+            ],
+            [
+                0.1625,
+                3
+            ],
+            [
+                0.175,
+                3
+            ],
+            [
+                0.1875,
+                3
+            ],
+            [
+                0.2,
+                3
+            ],
+            [
+                0.21,
+                3
+            ],
+            [
+                0.22,
+                3
+            ],
+            [
+                0.23,
+                3
+            ],
+            [
+                0.24,
+                3
+            ],
+            [
+                0.25,
+                3
+            ]
+        ],
+        "icon": "icon/skill/1313_talent.png"
+    },
+    "131306": {
+        "id": "131306",
+        "name": "Attack",
+        "max_level": 1,
+        "element": "Imaginary",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Attacks an enemy, and when the battle starts, reduces their Toughness of the corresponding Type.",
+        "params": [],
+        "icon": "icon/skill/1313_basic_atk.png"
+    },
+    "131307": {
+        "id": "131307",
+        "name": "The Glorious Mysteries",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Support",
+        "effect_text": "Support",
+        "simple_desc": "After this Technique is used, the first time Sunday uses an ability on an ally target in the next battle, the target's DMG dealt increases.",
+        "desc": "After this Technique is used, the first time Sunday uses an ability on an ally target in the next battle, the target's DMG dealt increases by #1[i]%, lasting for #2[i] turn(s).",
+        "params": [
+            [
+                0.5,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1313_technique.png"
+    },
     "131401": {
         "id": "131401",
         "name": "Lash of Riches",
@@ -21113,7 +21871,7 @@
         "type_text": "Ultimate",
         "effect": "AoEAttack",
         "effect_text": "AoE",
-        "simple_desc": "Deals Quantum DMG to all enemies and this unit's follow-up attack DMG multiplier increases.",
+        "simple_desc": "Deals Quantum DMG to all enemy units, and this unit's Talent's Follow-up ATK DMG multiplier increases.",
         "desc": "Deals Quantum DMG equal to #3[i]% of Jade's ATK to all enemies. At the same time, Jade enhances her Talent's follow-up attack, increasing its DMG multiplier by #1[i]%. This enhancement can take effect #2[i] time(s).",
         "params": [
             [
@@ -21890,7 +22648,7 @@
         "type_text": "Ultimate",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "Enters the \"Sealform\" state, gains an extra turn, obtains 3 points of \"Chroma Ink,\" and increases Weakness Break Efficiency and Break Effect.\nWhile in the \"Sealform\" state, gains Enhanced Basic ATK. After using Enhanced Basic ATK, consumes 1 point of \"Chroma Ink.\" When \"Chroma Ink\" is depleted, exit the \"Sealform\" state.",
+        "simple_desc": "Enters the \"Sealform\" state, gains an extra turn, obtains 3 points of \"Chroma Ink,\" and increases Weakness Break Efficiency and Break Effect.\nWhile in the \"Sealform\" state, gains Enhanced Basic ATK. After using Enhanced Basic ATK, consumes 1 point of \"Chroma Ink.\" When \"Chroma Ink\" is depleted, exits the \"Sealform\" state.",
         "desc": "Enters the \"Sealform\" state, immediately gains 1 extra turn, obtains #3[i] points of \"Chroma Ink,\" and increases Weakness Break Efficiency by #1[i]% and Break Effect by #2[i]%.\nWhile in the \"Sealform\" state, Basic ATK is enhanced, and Skill and Ultimate cannot be used. After using Enhanced Basic ATK, consumes 1 point of \"Chroma Ink.\" When \"Chroma Ink\" is depleted, exits the \"Sealform\" state.",
         "params": [
             [
@@ -22151,7 +22909,7 @@
         "type_text": "Basic ATK",
         "effect": "Blast",
         "effect_text": "Blast",
-        "simple_desc": "Deals minor Imaginary DMG to one designated enemy and minor Imaginary DMG to adjacent targets. Attacking enemies without Imaginary Weakness can still reduce their Toughness.",
+        "simple_desc": "Deals minor Imaginary DMG to one designated enemy and minor Imaginary DMG to adjacent targets. Attacking enemies without Imaginary Weakness can also reduce their Toughness.",
         "desc": "",
         "params": [
             [
@@ -22220,7 +22978,7 @@
         "type_text": "Basic ATK",
         "effect": "Blast",
         "effect_text": "Blast",
-        "simple_desc": "Deals minor Imaginary DMG to one designated enemy and minor Imaginary DMG to adjacent targets. Attacking enemies without Imaginary Weakness can still reduce their Toughness.",
+        "simple_desc": "Deals minor Imaginary DMG to one designated enemy and minor Imaginary DMG to adjacent targets. Attacking enemies without Imaginary Weakness can also reduce their Toughness.",
         "desc": "",
         "params": [
             [
@@ -22366,11 +23124,11 @@
         "max_level": 9,
         "element": "Imaginary",
         "type": "Normal",
-        "type_text": "Path Resonance",
+        "type_text": "Basic ATK",
         "effect": "Blast",
         "effect_text": "Blast",
-        "simple_desc": "The first 2 hits deal minor Imaginary DMG to one designated enemy and minor Imaginary DMG to adjacent targets. The third hit deals minor Imaginary DMG to all enemies. Attacking enemies without Imaginary Weakness can still reduce their Toughness.",
-        "desc": "Launches \"Ningu: Demonbane Petalblade.\" The first 2 hits deal Imaginary DMG equal to #1[i]% of Rappa's ATK to one designated enemy and Imaginary DMG equal to #2[i]% of Rappa's ATK to adjacent targets, and the 3rd hit deals Imaginary DMG equal to #3[i]% of Rappa's ATK to all enemies.\nEnhanced Basic ATK will not recover Skill Points. Attacking enemies that don't have Imaginary Weakness can still reduce Toughness, whose effect is equal to #4[i]% of the original Toughness Reduction. When Breaking Weakness, triggers the Imaginary Weakness Break effect.",
+        "simple_desc": "The first 2 hits deal minor Imaginary DMG to one designated enemy and minor Imaginary DMG to adjacent targets. The third hit deals minor Imaginary DMG to all enemies. Attacking enemies without Imaginary Weakness can also reduce their Toughness.",
+        "desc": "Launches \"Ningu: Demonbane Petalblade.\" The first 2 hits deal Imaginary DMG equal to #1[i]% of Rappa's ATK to one designated enemy and Imaginary DMG equal to #2[i]% of Rappa's ATK to adjacent targets, and the 3rd hit deals Imaginary DMG equal to #3[i]% of Rappa's ATK to all enemies.\nEnhanced Basic ATK will not recover Skill Points. Attacking enemies that don't have Imaginary Weakness can also reduce Toughness, whose effect is equal to #4[i]% of the original Toughness Reduction. When Breaking Weakness, triggers the Imaginary Weakness Break effect.",
         "params": [
             [
                 0.6,
@@ -23513,7 +24271,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "When attacked, stacks \"Magma Will\". When \"Magma Will\" is at no fewer than 4 stacks, Basic ATK gets enhanced. After using Basic ATK, Skill, or Ultimate, provides a Shield for team.",
+        "simple_desc": "When attacked, stacks \"Magma Will.\" When \"Magma Will\" is at no fewer than 4 stacks, Basic ATK gets enhanced. After using Basic ATK, Skill, or Ultimate, provides a Shield for team.",
         "desc": "Each time the Trailblazer is hit, they gain 1 stack of Magma Will for a max of #3[i] stack(s).\nWhen Magma Will has no fewer than 4 stacks, the Trailblazer's Basic ATK becomes enhanced, dealing DMG to a single enemy and enemies adjacent to it.\nWhen the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all allies that absorbs DMG equal to #1[f1]% of the Trailblazer's DEF plus #4[i]. The Shield lasts for #2[i] turn(s).",
         "params": [
             [
@@ -23910,7 +24668,7 @@
         "type_text": "Talent",
         "effect": "Enhance",
         "effect_text": "Enhance",
-        "simple_desc": "When attacked, stacks \"Magma Will\". When \"Magma Will\" is at no fewer than 4 stacks, Basic ATK gets enhanced. After using Basic ATK, Skill, or Ultimate, provides a Shield for team.",
+        "simple_desc": "When attacked, stacks \"Magma Will.\" When \"Magma Will\" is at no fewer than 4 stacks, Basic ATK gets enhanced. After using Basic ATK, Skill, or Ultimate, provides a Shield for team.",
         "desc": "Each time the Trailblazer is hit, they gain 1 stack of Magma Will for a max of #3[i] stack(s).\nWhen Magma Will has no fewer than 4 stacks, the Trailblazer's Basic ATK becomes enhanced, dealing DMG to a single enemy and enemies adjacent to it.\nWhen the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all allies that absorbs DMG equal to #1[f1]% of the Trailblazer's DEF plus #4[i]. The Shield lasts for #2[i] turn(s).",
         "params": [
             [

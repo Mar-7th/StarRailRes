@@ -5745,7 +5745,7 @@
         "effect": "Impair",
         "effect_text": "Incapacitation",
         "simple_desc": "Les ennemis dans une zone définie sont Aveuglés. En engageant le combat contre des ennemis Aveuglés, il y a de fortes chances de retarder leurs actions.",
-        "desc": "Après utilisation de la technique de Sampo, les ennemis situés dans une zone définie subissent Aveuglement pendant #1[i] secondes. Les ennemis aveuglés ne peuvent pas détecter votre équipe.\nLorsqu'un combat est lancé contre un ennemi aveuglé, il y a #2[i]% de chances fixes de retarder l'action de tous les ennemis de #3[i]%.",
+        "desc": "Après utilisation de la technique de Sampo, les ennemis situés dans une zone définie subissent Aveuglement pendant #1[i] secondes. Les ennemis aveuglés ne peuvent pas détecter l'équipe alliée.\nLorsqu'un combat est lancé contre un ennemi aveuglé, il y a #2[i]% de chances fixes de retarder l'action de tous les ennemis de #3[i]%.",
         "params": [
             [
                 10,
@@ -11064,7 +11064,7 @@
         "type_text": "Technique",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "Engage le combat contre les ennemis. Inflige des DGT de feu mineurs à une cible à la fois tout en appliquant Baiser enflammé pour un total de 4 rebonds après être entré en combat.",
+        "simple_desc": "Engage le combat contre les ennemis. Inflige des DGT de feu mineurs à une cible ennemie en entrant en combat, avec de fortes chances d'appliquer Baiser enflammé pour un total de 4 rebonds.",
         "desc": "Engage immédiatement le combat contre les ennemis. Inflige #2[i] fois des DGT de feu équivalents à #1[i]% de l'ATQ de Guinaifen à une cible ennemie aléatoire à chaque fois, avec #3[i]% de chances de base d'infliger Baiser enflammé.",
         "params": [
             [
@@ -12997,7 +12997,7 @@
         "type_text": "Talent",
         "effect": "Support",
         "effect_text": "Soutien",
-        "simple_desc": "Les alliés infligent davantage de DGT lorsqu'ils attaquent des ennemis affectés par Fardeau.",
+        "simple_desc": "Lorsqu'une cible alliée utilise une ATQ normale, une compétence ou un ultime sur une cible ennemie affectée par Fardeau, les DGT infligés augmentent.",
         "desc": "Lorsqu'un allié utilise une ATQ normale, une compétence ou un ultime sur un ennemi affecté par Fardeau, ses DGT augmentent de #1[i]% pendant #2[i] tours.",
         "params": [
             [
@@ -13789,7 +13789,7 @@
         "type_text": "Talent",
         "effect": "Impair",
         "effect_text": "Incapacitation",
-        "simple_desc": "Jiaoqiu a de fortes chances d'appliquer 1 cumul de Charbons ardents après avoir attaqué une cible, ce qui augmente les DGT qu'elle subit et la considère comme subissant l'état Brûlure.",
+        "simple_desc": "Lors d'une attaque avec l'ATQ normale, la compétence ou l'ultime, il y a de fortes chances d'infliger 1 cumul de Charbons ardents à la cible, ce qui augmente les DGT qu'elle subit et la considère comme subissant l'état Brûlure.",
         "desc": "Chaque fois que Jiaoqiu touche un ennemi avec son ATQ normale, sa compétence ou son ultime, il a #1[i]% de chances de base de lui appliquer 1 cumul de Charbons ardents. À 1 cumul, les DGT subis par l'ennemi augmentent de #2[f1]%, puis chaque cumul supplémentaire augmente les DGT subis de #3[f1]%.\nCharbons ardents peut se cumuler jusqu'à #4[i] fois et dure #5[i] tours.\nLorsqu'une cible ennemie est dans l'état Charbons ardents, elle est également considérée en état de Brûlure et elle subit des dégâts de feu sur la durée équivalents à #6[i]% de l'ATQ de Jiaoqiu au début de chaque tour.",
         "params": [
             [
@@ -16221,6 +16221,404 @@
         ],
         "icon": "icon/skill/1224_basic_atk.png"
     },
+    "122501": {
+        "id": "122501",
+        "name": "Radiance dardante",
+        "max_level": 9,
+        "element": "Fire",
+        "type": "Normal",
+        "type_text": "ATQ normale",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "Inflige des DGT de feu mineurs à un ennemi.",
+        "desc": "Inflige des DGT de feu équivalents à #1[i]% de l'ATQ de Pérégrine à un ennemi désigné.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1225_basic_atk.png"
+    },
+    "122502": {
+        "id": "122502",
+        "name": "Félicité méritée",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Compétence",
+        "effect": "Support",
+        "effect_text": "Soutien",
+        "simple_desc": "Accorde Prière foxienne à un allié, ce qui augmente son effet de Rupture et permet aux attaques de réduire la robustesse des ennemis qui n'ont pas le type de faiblesse correspondant.\nFait entrer Pérégrine dans l'état Brûlure ardente, ce qui renforce son ATQ normale. Pérégrine a de fortes chances de réduire la DÉF de la cible ennemie lorsque l'unité alliée qui bénéficie de Prière foxienne attaque.",
+        "desc": "Accorde Prière foxienne à un allié désigné et fait entrer Pérégrine dans l'état Brûlure ardente pendant #1[i] tours. La durée de cet état est réduite de 1 au début de chaque tour de Pérégrine. Prière foxienne prend effet uniquement sur la cible la plus récente de la compétence de Pérégrine.\nL'effet de Rupture de la cible alliée qui bénéficie de Prière foxienne augmente de #2[i]% et elle peut infliger une réduction de robustesse lorsqu'elle attaque des ennemis qui n'ont pas le type de faiblesse correspondant, avec un effet équivalent à #6[i]% de la réduction de robustesse initiale. Cet effet ne peut pas être cumulé avec d'autres effets de réduction de robustesse qui ignorent les Faiblesses.\nDans l'état Brûlure ardente, l'ATQ normale de Pérégrine est renforcée. Lorsque la cible alliée qui bénéficie de Prière foxienne attaque, Pérégrine a #3[i]% de chances de base de réduire la DÉF de la cible ennemie attaquée de #4[i]% pendant #5[i] tours.",
+        "params": [
+            [
+                3,
+                0.15,
+                1,
+                0.08,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.165,
+                1,
+                0.09,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.18,
+                1,
+                0.1,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.195,
+                1,
+                0.11,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.21,
+                1,
+                0.12,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.225,
+                1,
+                0.13,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.2437,
+                1,
+                0.1425,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.2625,
+                1,
+                0.155,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.2812,
+                1,
+                0.1675,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.3,
+                1,
+                0.18,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.315,
+                1,
+                0.19,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.33,
+                1,
+                0.2,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.345,
+                1,
+                0.21,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.36,
+                1,
+                0.22,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.375,
+                1,
+                0.23,
+                2,
+                0.5
+            ]
+        ],
+        "icon": "icon/skill/1225_skill.png"
+    },
+    "122503": {
+        "id": "122503",
+        "name": "Splendeur solaire éblouissante",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "Ultra",
+        "type_text": "Ultime",
+        "effect": "AoEAttack",
+        "effect_text": "ZdE",
+        "simple_desc": "Inflige des DGT de feu à tous les ennemis. Cette attaque ignore les types de faiblesse et réduit la robustesse de tous les ennemis.",
+        "desc": "Inflige des DGT de feu équivalents à #1[i]% de l'ATQ de Pérégrine à tous les ennemis. Cette attaque ignore les types de faiblesse et réduit la robustesse de tous les ennemis. Déclenche l'effet de Rupture de faiblesse de feu lorsqu'un ennemi subit une Rupture de faiblesse.",
+        "params": [
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ],
+            [
+                1.4
+            ],
+            [
+                1.5
+            ],
+            [
+                1.625
+            ],
+            [
+                1.75
+            ],
+            [
+                1.875
+            ],
+            [
+                2
+            ],
+            [
+                2.1
+            ],
+            [
+                2.2
+            ],
+            [
+                2.3
+            ],
+            [
+                2.4
+            ],
+            [
+                2.5
+            ]
+        ],
+        "icon": "icon/skill/1225_ultimate.png"
+    },
+    "122504": {
+        "id": "122504",
+        "name": "Vertu mère de fortune",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Impair",
+        "effect_text": "Incapacitation",
+        "simple_desc": "Lorsque Pérégrine est sur le champ de bataille, les cibles ennemies se voient appliquer l'effet supplémentaire Marque de feu des nuages. Lorsque la Marque de feu des nuages tombe à 0, l'ennemi subit à nouveau des DGT de rupture de faiblesse. Lorsque des alliés attaquent une cible ennemie en état de Rupture de faiblesse, ils lui infligent également des DGT de rupture extrême.",
+        "desc": "Lorsque Pérégrine est sur le champ de bataille, les cibles ennemies se voient appliquer l'effet supplémentaire Marque de feu des nuages qui équivaut à #2[i]% de leur robustesse max. Quand la robustesse initiale est réduite à 0, la Marque de feu des nuages peut continuer à être réduite à 0, auquel cas les cibles ennemies subissent à nouveau des DGT de rupture de faiblesse.\nLorsque Pérégrine est sur le champ de bataille, chaque fois que des alliés attaquent des cibles ennemies en état de Rupture de faiblesse, la réduction de robustesse de cette attaque est convertie en 1 instance de #1[i]% de DGT de rupture extrême.",
+        "params": [
+            [
+                0.5,
+                0.4
+            ],
+            [
+                0.55,
+                0.4
+            ],
+            [
+                0.6,
+                0.4
+            ],
+            [
+                0.65,
+                0.4
+            ],
+            [
+                0.7,
+                0.4
+            ],
+            [
+                0.75,
+                0.4
+            ],
+            [
+                0.8125,
+                0.4
+            ],
+            [
+                0.875,
+                0.4
+            ],
+            [
+                0.9375,
+                0.4
+            ],
+            [
+                1,
+                0.4
+            ],
+            [
+                1.05,
+                0.4
+            ],
+            [
+                1.1,
+                0.4
+            ],
+            [
+                1.15,
+                0.4
+            ],
+            [
+                1.2,
+                0.4
+            ],
+            [
+                1.25,
+                0.4
+            ]
+        ],
+        "icon": "icon/skill/1225_talent.png"
+    },
+    "122506": {
+        "id": "122506",
+        "name": "Attaque",
+        "max_level": 1,
+        "element": "Fire",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
+        "params": [],
+        "icon": "icon/skill/1225_basic_atk.png"
+    },
+    "122507": {
+        "id": "122507",
+        "name": "Éclat étourdissant",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Impair",
+        "effect_text": "Incapacitation",
+        "simple_desc": "Inflige Hébété aux ennemis dans une zone définie. Lorsque vous entrez en combat en attaquant des ennemis hébétés, l'action de Pérégrine est avancée et elle a de fortes chances d'infliger la même réduction de DÉF que celle appliquée par sa compétence à chaque cible ennemie.",
+        "desc": "Après avoir utilisé la technique, inflige Hébété aux ennemis dans une zone définie pendant #1[i] secondes. Les ennemis hébétés n'attaquent pas activement les cibles alliées.\nLorsque vous entrez en combat en attaquant activement des ennemis hébétés, l'action de Pérégrine est avancée de #4[i]%, avec #2[i]% de chances de base d'infliger à chaque cible ennemie la même réduction de DÉF que celle appliquée par sa compétence pendant #3[i] tours.",
+        "params": [
+            [
+                10,
+                1,
+                2,
+                0.4
+            ]
+        ],
+        "icon": "icon/skill/1225_technique.png"
+    },
+    "122508": {
+        "id": "122508",
+        "name": "Caresses de flammes",
+        "max_level": 9,
+        "element": "Fire",
+        "type": "Normal",
+        "type_text": "ATQ normale",
+        "effect": "Blast",
+        "effect_text": "Propagation",
+        "simple_desc": "Inflige des DGT de feu mineurs à un ennemi et des DGT de feu mineurs aux cibles adjacentes.",
+        "desc": "Inflige des DGT de feu équivalents à #1[i]% de l'ATQ de Pérégrine à un ennemi désigné et des DGT de feu équivalents à #2[i]% de son ATQ aux cibles adjacentes.",
+        "params": [
+            [
+                0.5,
+                0.25
+            ],
+            [
+                0.6,
+                0.3
+            ],
+            [
+                0.7,
+                0.35
+            ],
+            [
+                0.8,
+                0.4
+            ],
+            [
+                0.9,
+                0.45
+            ],
+            [
+                1,
+                0.5
+            ],
+            [
+                1.1,
+                0.55
+            ],
+            [
+                1.2,
+                0.6
+            ],
+            [
+                1.3,
+                0.65
+            ]
+        ],
+        "icon": "icon/skill/1225_basic_atk.png"
+    },
     "130101": {
         "id": "130101",
         "name": "Coup de pompe",
@@ -16407,7 +16805,7 @@
         "type_text": "Talent",
         "effect": "Restore",
         "effect_text": "Restauration",
-        "simple_desc": "L'effet Ivresse augmente les DGT de rupture que subissent les cibles et chaque fois qu'une cible se fait attaquer par un allié, l'assaillant récupère des PV.",
+        "simple_desc": "L'effet Ivresse augmente les DGT de rupture que subissent les cibles et chaque fois qu'une cible se fait attaquer par un personnage allié, l'assaillant récupère des PV.",
         "desc": "L'effet Ivresse augmente de #1[f1]% les DGT de rupture subis par les cibles. Chaque fois qu'une cible affectée par Ivresse est attaquée par un allié, l'assaillant récupère #2[i] PV.",
         "params": [
             [
@@ -20948,6 +21346,366 @@
         ],
         "icon": "icon/skill/1312_technique.png"
     },
+    "131301": {
+        "id": "131301",
+        "name": "Admonestation éblouissante",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "ATQ normale",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "Inflige des DGT imaginaires mineurs à un ennemi désigné.",
+        "desc": "Inflige des DGT imaginaires équivalents à #1[i]% de l'ATQ de Sunday à un ennemi désigné.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1313_basic_atk.png"
+    },
+    "131302": {
+        "id": "131302",
+        "name": "Bénédiction des écritures",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Compétence",
+        "effect": "Support",
+        "effect_text": "Soutien",
+        "simple_desc": "Permet à un personnage allié désigné et à son invocation d'agir immédiatement, tout en augmentant les DGT qu'ils infligent. L'effet d'augmentation de DGT est plus important si la cible a une invocation.\nRécupère 1 point de compétence après avoir utilisé la compétence sur le Béatifié.\nLorsque Sunday utilise cette capacité sur un personnage de la Voie de l'Harmonie, l'effet d'action immédiate n'est pas déclenché.",
+        "desc": "Permet à un personnage allié désigné et à son invocation d'agir immédiatement, tout en augmentant les DGT qu'ils infligent de #2[i]%. L'effet d'augmentation de DGT augmente de #4[i]% supplémentaires si la cible a une invocation. Cet effet dure #3[i] tours.\nRécupère 1 point de compétence après avoir utilisé cette capacité sur le Béatifié.\nLorsque Sunday utilise cette capacité sur un personnage de la Voie de l'Harmonie, l'effet d'action immédiate n'est pas déclenché.",
+        "params": [
+            [
+                1,
+                0.15,
+                2,
+                0.25
+            ],
+            [
+                1,
+                0.165,
+                2,
+                0.275
+            ],
+            [
+                1,
+                0.18,
+                2,
+                0.3
+            ],
+            [
+                1,
+                0.195,
+                2,
+                0.325
+            ],
+            [
+                1,
+                0.21,
+                2,
+                0.35
+            ],
+            [
+                1,
+                0.225,
+                2,
+                0.375
+            ],
+            [
+                1,
+                0.2437,
+                2,
+                0.4062
+            ],
+            [
+                1,
+                0.2625,
+                2,
+                0.4375
+            ],
+            [
+                1,
+                0.2812,
+                2,
+                0.4688
+            ],
+            [
+                1,
+                0.3,
+                2,
+                0.5
+            ],
+            [
+                1,
+                0.315,
+                2,
+                0.525
+            ],
+            [
+                1,
+                0.33,
+                2,
+                0.55
+            ],
+            [
+                1,
+                0.345,
+                2,
+                0.575
+            ],
+            [
+                1,
+                0.36,
+                2,
+                0.6
+            ],
+            [
+                1,
+                0.375,
+                2,
+                0.625
+            ]
+        ],
+        "icon": "icon/skill/1313_skill.png"
+    },
+    "131303": {
+        "id": "131303",
+        "name": "Ode à la légèreté et aux cicatrices",
+        "max_level": 15,
+        "element": "",
+        "type": "Ultra",
+        "type_text": "Ultime",
+        "effect": "Support",
+        "effect_text": "Soutien",
+        "simple_desc": "Permet de restaurer de l'énergie à un personnage allié désigné et lui accorde ainsi qu'à son invocation le statut Béatifié. Les Béatifiés voient leur DGT critiques augmenter.",
+        "desc": "Restaure de l'énergie à hauteur de #1[f1]% de son énergie max à un personnage allié désigné et lui accorde ainsi qu'à son invocation le statut Béatifié. Les DGT critiques des Béatifiés augmentent d'un montant équivalent à #2[f1]% des DGT critiques de Sunday + #4[f1]%.\nLa durée de l'effet Béatifié diminue de 1 tour au début de chaque tour de Sunday. Cet effet dure #3[i] tours en tout et ne s'applique qu'à la dernière cible de l'ultime (ne peut pas s'appliquer à Sunday). L'effet Béatifié est dissipé lorsque Sunday est à terre.",
+        "params": [
+            [
+                0.2,
+                0.12,
+                3,
+                0.08
+            ],
+            [
+                0.2,
+                0.138,
+                3,
+                0.084
+            ],
+            [
+                0.2,
+                0.156,
+                3,
+                0.088
+            ],
+            [
+                0.2,
+                0.174,
+                3,
+                0.092
+            ],
+            [
+                0.2,
+                0.192,
+                3,
+                0.096
+            ],
+            [
+                0.2,
+                0.21,
+                3,
+                0.1
+            ],
+            [
+                0.2,
+                0.2325,
+                3,
+                0.105
+            ],
+            [
+                0.2,
+                0.255,
+                3,
+                0.11
+            ],
+            [
+                0.2,
+                0.2775,
+                3,
+                0.115
+            ],
+            [
+                0.2,
+                0.3,
+                3,
+                0.12
+            ],
+            [
+                0.2,
+                0.318,
+                3,
+                0.124
+            ],
+            [
+                0.2,
+                0.336,
+                3,
+                0.128
+            ],
+            [
+                0.2,
+                0.354,
+                3,
+                0.132
+            ],
+            [
+                0.2,
+                0.372,
+                3,
+                0.136
+            ],
+            [
+                0.2,
+                0.39,
+                3,
+                0.14
+            ]
+        ],
+        "icon": "icon/skill/1313_ultimate.png"
+    },
+    "131304": {
+        "id": "131304",
+        "name": "Confessions du corps",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Support",
+        "effect_text": "Soutien",
+        "simple_desc": "Augmente les chances de coup critique de la cible lors de l'utilisation de la compétence.",
+        "desc": "Lors de l'utilisation de la compétence, les chances de coup critique de la cible augmentent de #1[f1]% pendant #2[i] tours.",
+        "params": [
+            [
+                0.1,
+                3
+            ],
+            [
+                0.11,
+                3
+            ],
+            [
+                0.12,
+                3
+            ],
+            [
+                0.13,
+                3
+            ],
+            [
+                0.14,
+                3
+            ],
+            [
+                0.15,
+                3
+            ],
+            [
+                0.1625,
+                3
+            ],
+            [
+                0.175,
+                3
+            ],
+            [
+                0.1875,
+                3
+            ],
+            [
+                0.2,
+                3
+            ],
+            [
+                0.21,
+                3
+            ],
+            [
+                0.22,
+                3
+            ],
+            [
+                0.23,
+                3
+            ],
+            [
+                0.24,
+                3
+            ],
+            [
+                0.25,
+                3
+            ]
+        ],
+        "icon": "icon/skill/1313_talent.png"
+    },
+    "131306": {
+        "id": "131306",
+        "name": "Attaque",
+        "max_level": 1,
+        "element": "Imaginary",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
+        "params": [],
+        "icon": "icon/skill/1313_basic_atk.png"
+    },
+    "131307": {
+        "id": "131307",
+        "name": "Mystères de la gloire",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Support",
+        "effect_text": "Soutien",
+        "simple_desc": "Après utilisation de cette technique, la première fois que Sunday utilise une capacité sur une cible alliée au cours du prochain combat, les DGT infligés par cette cible augmentent.",
+        "desc": "La première fois que Sunday utilise une capacité sur une cible alliée au cours du prochain combat, les DGT infligés par cette cible augmentent de #1[i]% pendant #2[i] tours.",
+        "params": [
+            [
+                0.5,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1313_technique.png"
+    },
     "131401": {
         "id": "131401",
         "name": "Revers de fortune",
@@ -21113,7 +21871,7 @@
         "type_text": "Ultime",
         "effect": "AoEAttack",
         "effect_text": "ZdE",
-        "simple_desc": "Inflige des DGT quantiques à tous les ennemis et le multiplicateur de DGT d'attaque de suivi de cette unité augmente.",
+        "simple_desc": "Inflige des DGT quantiques à toutes les unités ennemies et le multiplicateur de DGT de l'ATQ de suivi du talent de cette unité augmente.",
         "desc": "Inflige des DGT quantiques équivalents à #3[i]% de l'ATQ de Jade à tous les ennemis. D'autre part, renforce l'attaque de suivi du talent de Jade en augmentant son multiplicateur de DGT de #1[i]%. Ce renforcement peut prendre effet #2[i] fois.",
         "params": [
             [
@@ -21981,7 +22739,7 @@
         "effect": "Enhance",
         "effect_text": "Renforcement",
         "simple_desc": "Rappa obtient 1 point de charge chaque fois qu'une cible ennemie subit une Rupture de faiblesse. Lors du déclenchement de la troisième frappe de Ningu : Lame de pétale d'exorcisme, inflige des DGT de rupture imaginaires supplémentaires à tous les ennemis. Ces DGT ignorent le type de faiblesse pour réduire la robustesse et consomment tous les points de charge pour augmenter le multiplicateur de DGT de rupture et la réduction de robustesse.",
-        "desc": "Rappa obtient 1 point de charge chaque fois qu'une cible ennemie subit une Rupture de faiblesse, jusqu'à un maximum de #1[i] points. La prochaine fois que Rappa lance la troisième frappe de Ningu : Lame de pétale d'exorcisme, elle inflige des DGT de rupture équivalents à #3[i]% de ses DGT de rupture imaginaires à tous les ennemis. Ces DGT ignorent le type de faiblesse et réduisent la robustesse de #4[i]. Tous les points de charge sont consommés. Chaque point de charge augmente le multiplicateur des DGT de rupture de #5[i]%et la réduction de robustesse pouvant ignorer le type de faiblesse de #6[i].\nEn cas de Rupture de faiblesse, c'est l'effet de Rupture de faiblesse imaginaire qui s'applique.",
+        "desc": "Rappa obtient 1 point de charge chaque fois qu'une cible ennemie subit une Rupture de faiblesse, jusqu'à un maximum de #1[i] points. La prochaine fois que Rappa lance la troisième frappe de Ningu : Lame de pétale d'exorcisme, elle inflige des DGT de rupture équivalents à #3[i]% de ses DGT de rupture imaginaires à tous les ennemis. Ces DGT ignorent le type de faiblesse et réduisent la robustesse de #4[i]. Tous les points de charge sont consommés. Chaque point de charge augmente le multiplicateur des DGT de rupture de #5[i]% et la réduction de robustesse pouvant ignorer le type de faiblesse de #6[i].\nEn cas de Rupture de faiblesse, c'est l'effet de Rupture de faiblesse imaginaire qui s'applique.",
         "params": [
             [
                 10,
@@ -22366,10 +23124,10 @@
         "max_level": 9,
         "element": "Imaginary",
         "type": "Normal",
-        "type_text": "Résonance de la Voie",
+        "type_text": "ATQ normale",
         "effect": "Blast",
         "effect_text": "Propagation",
-        "simple_desc": "Les deux premières frappes infligent des DGT imaginaires mineurs à un ennemi désigné ainsi qu'aux cibles adjacentes. La troisième inflige des DGT imaginaires mineurs à tous les ennemis. La robustesse des ennemis peut être réduite même s'ils n'ont pas de Faiblesse imaginaire.",
+        "simple_desc": "Les deux premières frappes infligent des DGT imaginaires mineurs à un ennemi désigné ainsi qu'aux cibles adjacentes. La troisième frappe inflige des DGT imaginaires mineurs à tous les ennemis. La robustesse des ennemis peut être réduite même s'ils n'ont pas de Faiblesse imaginaire.",
         "desc": "Active Ningu : Lame de pétale d'exorcisme. Les 2 premières frappes infligent des DGT imaginaires équivalents à #1[i]% de l'ATQ de Rappa à un ennemi désigné et des DGT imaginaires équivalents à #2[i]% de l'ATQ de Rappa aux cibles adjacentes. La 3e frappe inflige des DGT imaginaires équivalents à #3[i]% de l'ATQ de Rappa à tous les ennemis.\nL'ATQ normale renforcée ne permet pas de récupérer de points de compétence. Il est également possible d'infliger une réduction de robustesse équivalente à #4[i]% de la valeur initiale de réduction de robustesse aux cibles ennemies qui n'ont pas de Faiblesse imaginaire. Déclenche l'effet de Rupture de faiblesse imaginaire en cas de Rupture de faiblesse.",
         "params": [
             [

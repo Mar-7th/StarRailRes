@@ -5745,7 +5745,7 @@
         "effect": "Impair",
         "effect_text": "Incapacitação",
         "simple_desc": "Inimigos em uma determinada área recebem Cegueira. Ao iniciar uma batalha contra um inimigo com Cegueira, existe uma alta chance de atrasar todas as ações inimigas.",
-        "desc": "Após usar a Técnica de Sampo, inflige Cegueira em inimigos em uma área definida por #1[i] segundos. Inimigos com Cegueira não conseguem detectar sua equipe.\nAo iniciar o combate contra um inimigo com Cegueira, há #2[i]% de chance fixa de atrasar as ações de todos os inimigos em #3[i]%.",
+        "desc": "Após usar a Técnica de Sampo, inflige \"Cegueira\" em inimigos em uma área definida por #1[i] segundos. Inimigos com \"Cegueira\" não conseguem detectar alvos aliados.\nAo iniciar o combate contra um inimigo com \"Cegueira\", há #2[i]% de chance fixa de atrasar as ações de todos os inimigos em #3[i]%.",
         "params": [
             [
                 10,
@@ -11064,7 +11064,7 @@
         "type_text": "Técnica",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "Ataca o inimigo. Depois de entrar em batalha, causa Dano de Fogo leve a um único alvo e aplica Beijo de Fogo, rebatendo um total de 4 vezes.",
+        "simple_desc": "Ataca o inimigo. Depois de entrar em batalha, causa Dano de Fogo leve a um inimigo-alvo com altas chances de aplicar \"Beijo de Fogo\", com um total de 4 Rebotes.",
         "desc": "Ataca o inimigo imediatamente. Depois de entrar na batalha, causa Dano #2[i] vez(es), causando #1[i]% do ATQ de Guinaifen como Dano de Fogo a um único inimigo-alvo aleatório a cada vez, com uma chance-base de #3[i]% de infligir Beijo de Fogo a ele.",
         "params": [
             [
@@ -12997,7 +12997,7 @@
         "type_text": "Talento",
         "effect": "Support",
         "effect_text": "Suporte",
-        "simple_desc": "Aliados causam mais Dano ao atacar inimigos infligidos com Fardo.",
+        "simple_desc": "Quando um aliado alvo usa um ATQ Básico, uma Perícia ou uma Perícia Suprema em um inimigo-alvo afligido com \"Fardo\", o Dano causado aumenta.",
         "desc": "Quando um aliado usa um ATQ Básico, uma Perícia ou uma Perícia Suprema em um inimigo afligido com Fardo, o Dano causado aumenta em #1[i]% durando por #2[i] rodada(s).",
         "params": [
             [
@@ -13789,7 +13789,7 @@
         "type_text": "Talento",
         "effect": "Impair",
         "effect_text": "Incapacitação",
-        "simple_desc": "Após atacar, há uma chance alta de infligir 1 acúmulo de Assado Acinzentado no alvo, fazendo com que o inimigo receba Dano aumentado e também seja considerado com efeito de Queimadura ao mesmo tempo.",
+        "simple_desc": "Ao atacar com um ATQ Básico, Perícia ou Perícia Suprema, há uma chance alta de infligir 1 acúmulo de \"Assado Acinzentado\" no alvo, fazendo com que o inimigo receba Dano aumentado e também seja considerado com efeito de \"Queimadura\" ao mesmo tempo.",
         "desc": "Quando Jiaoqiu atinge um inimigo com um ATQ Básico, Perícia ou Perícia Suprema, há uma chance-base de #1[i]% de infligir 1 acúmulo de Assado Acinzentado a ele. Com 1 acúmulo, aumenta o Dano recebido pelo inimigo em #2[f1]%. Então, cada acúmulo subsequente aumenta esse Dano em #3[f1]%.\nAssado Acinzentado tem um limite de #4[i] acúmulo(s) e dura por #5[i] rodada(s).\nQuando o inimigo-alvo é afligido com Assado Acinzentado, ele também é considerado como se estivesse afligido com o efeito de Queimadura, recebendo Dano de Fogo Contínuo igual a #6[i]% do ATQ de Jiaoqiu no início de cada rodada.",
         "params": [
             [
@@ -16221,6 +16221,404 @@
         ],
         "icon": "icon/skill/1224_basic_atk.png"
     },
+    "122501": {
+        "id": "122501",
+        "name": "Feixe Radiante",
+        "max_level": 9,
+        "element": "Fire",
+        "type": "Normal",
+        "type_text": "ATQ Básico",
+        "effect": "SingleAttack",
+        "effect_text": "Alvo Único",
+        "simple_desc": "Causa Dano de Fogo leve a um inimigo.",
+        "desc": "Causa Dano de Fogo igual a #1[i]% do ATQ de Fugue a uma unidade inimiga designada.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1225_basic_atk.png"
+    },
+    "122502": {
+        "id": "122502",
+        "name": "A Virtude Traz Felicidade",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Perícia",
+        "effect": "Support",
+        "effect_text": "Suporte",
+        "simple_desc": "Concede a um aliado a \"Prece Vulpe\", que aumenta o Efeito de Quebra e permite reduzir a Tenacidade ao atacar inimigos que não possuem o Tipo de Fraqueza correspondente.\nFaz com que esta unidade entre no estado de \"Abrasamento Tórrido\", fortalecendo o ATQ Básico. Quando aliados com \"Prece Vulpe\" atacam, Fugue tem uma alta chance de reduzir a DEF do inimigo-alvo.",
+        "desc": "Concede a um aliado designado a \"Prece Vulpe\". Entra no estado de \"Abrasamento Tórrido\", que dura #1[i] rodada(s). A duração é reduzida em 1 no início de cada rodada de Fugue. A \"Prece Vulpe\" só tem efeito no alvo mais recente da Perícia de Fugue.\nO aliado-alvo com \"Prece Vulpe\" aumenta seu Efeito de Quebra em #2[i]% e também pode reduzir a Tenacidade ao atacar inimigos que não possuem o Tipo de Fraqueza correspondente, com um efeito equivalente a #6[i]% do valor original de Redução de Tenacidade. Isso não acumula com outros efeitos de Redução de Tenacidade que também ignoram Tipo de Fraqueza.\nEnquanto está no estado de \"Abrasamento Tórrido\", Fugue aprimora seu ATQ Básico. Sempre que um aliado com \"Prece Vulpe\" ataca, Fugue tem uma chance-base de #3[i]% de reduzir a DEF do inimigo-alvo atacado em #4[i]%, com duração de #5[i] rodada(s).",
+        "params": [
+            [
+                3,
+                0.15,
+                1,
+                0.08,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.165,
+                1,
+                0.09,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.18,
+                1,
+                0.1,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.195,
+                1,
+                0.11,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.21,
+                1,
+                0.12,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.225,
+                1,
+                0.13,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.2437,
+                1,
+                0.1425,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.2625,
+                1,
+                0.155,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.2812,
+                1,
+                0.1675,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.3,
+                1,
+                0.18,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.315,
+                1,
+                0.19,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.33,
+                1,
+                0.2,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.345,
+                1,
+                0.21,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.36,
+                1,
+                0.22,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.375,
+                1,
+                0.23,
+                2,
+                0.5
+            ]
+        ],
+        "icon": "icon/skill/1225_skill.png"
+    },
+    "122503": {
+        "id": "122503",
+        "name": "O Esplendor Solar Brilha Sobre Todos Nós",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "Ultra",
+        "type_text": "Perícia Suprema",
+        "effect": "AoEAttack",
+        "effect_text": "Área",
+        "simple_desc": "Causa Dano de Fogo a todos os inimigos. Esse ataque ignora o Tipo de Fraqueza para causar Redução de Tenacidade a todos os inimigos.",
+        "desc": "Causa Dano de Fogo equivalente a #1[i]% do ATQ de Fugue a todos os inimigos. Este ataque ignora o Tipo de Fraqueza para reduzir a Tenacidade de todos os inimigos. Ao quebrar uma Fraqueza, ativa o efeito de Quebra de Fraqueza de Fogo.",
+        "params": [
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ],
+            [
+                1.4
+            ],
+            [
+                1.5
+            ],
+            [
+                1.625
+            ],
+            [
+                1.75
+            ],
+            [
+                1.875
+            ],
+            [
+                2
+            ],
+            [
+                2.1
+            ],
+            [
+                2.2
+            ],
+            [
+                2.3
+            ],
+            [
+                2.4
+            ],
+            [
+                2.5
+            ]
+        ],
+        "icon": "icon/skill/1225_ultimate.png"
+    },
+    "122504": {
+        "id": "122504",
+        "name": "A Sorte Segue o Caminho da Virtude",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "Talent",
+        "type_text": "Talento",
+        "effect": "Impair",
+        "effect_text": "Incapacitação",
+        "simple_desc": "Enquanto Fugue está em campo, os inimigos-alvo são adicionalmente afligidos com \"Bruma Abrasante\".. Quando a \"Bruma Abrasante\" é reduzida a 0, o inimigo receberá um Dano de Quebra de Fraqueza novamente. Após um aliado atacar inimigos-alvo infligidos com Quebra de Fraqueza, adicionalmente causa Super Dano de Quebra.",
+        "desc": "Enquanto Fugue estiver em campo, os inimigos-alvo serão adicionalmente afetados por \"Bruma Abrasante\", equivalente a #2[i]% de sua Tenacidade Máxima. Quando a Tenacidade inicial for reduzida a 0, a \"Bruma Abrasante\" pode ser ainda mais reduzida. Ao chegar a 0, o inimigo receberá novamente Dano de Quebra de Fraqueza.\nEnquanto Fugue estiver em campo, após os aliados atacarem inimigos com Quebra de Fraqueza, a Redução de Tenacidade desse ataque será convertida em 1 instancia de #1[i]% de Super Dano de Quebra.",
+        "params": [
+            [
+                0.5,
+                0.4
+            ],
+            [
+                0.55,
+                0.4
+            ],
+            [
+                0.6,
+                0.4
+            ],
+            [
+                0.65,
+                0.4
+            ],
+            [
+                0.7,
+                0.4
+            ],
+            [
+                0.75,
+                0.4
+            ],
+            [
+                0.8125,
+                0.4
+            ],
+            [
+                0.875,
+                0.4
+            ],
+            [
+                0.9375,
+                0.4
+            ],
+            [
+                1,
+                0.4
+            ],
+            [
+                1.05,
+                0.4
+            ],
+            [
+                1.1,
+                0.4
+            ],
+            [
+                1.15,
+                0.4
+            ],
+            [
+                1.2,
+                0.4
+            ],
+            [
+                1.25,
+                0.4
+            ]
+        ],
+        "icon": "icon/skill/1225_talent.png"
+    },
+    "122506": {
+        "id": "122506",
+        "name": "Ataque",
+        "max_level": 1,
+        "element": "Fire",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
+        "params": [],
+        "icon": "icon/skill/1225_basic_atk.png"
+    },
+    "122507": {
+        "id": "122507",
+        "name": "Brilho Perceptivo",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Técnica",
+        "effect": "Impair",
+        "effect_text": "Incapacitação",
+        "simple_desc": "Inflige \"Confusão\" aos inimigos dentro de uma certa área. Após entrar em combate ao atacar inimigos no estado de \"Confusão\", a ação de Fugue é Avançada Adiante, com altas chances de infligir a cada inimigo-alvo o mesmo estado de Redução de DEF aplicado pela Perícia de Fugue.",
+        "desc": "Após usar a Técnica, inflige \"Confusão\" aos inimigos dentro de uma certa área que dura por #1[i] segundo(s). Enquanto os inimigos estão em estado de \"Confusão\", eles não atacarão ativamente aliados-alvo.\nApós entrar em combate ao atacar ativamente inimigos afligidos com \"Confusão\", a ação de Fugue é Avançada Adiante em #4[i]%, com uma chance-base de #2[i]% de infligir cada inimigo-alvo com o mesmo estado de Redução de DEF aplicado pela Perícia de Fugue, durando por #3[i] rodada(s).",
+        "params": [
+            [
+                10,
+                1,
+                2,
+                0.4
+            ]
+        ],
+        "icon": "icon/skill/1225_technique.png"
+    },
+    "122508": {
+        "id": "122508",
+        "name": "Carícia Incandescente",
+        "max_level": 9,
+        "element": "Fire",
+        "type": "Normal",
+        "type_text": "ATQ Básico",
+        "effect": "Blast",
+        "effect_text": "Explosão",
+        "simple_desc": "Causa Dano de Fogo leve a um único inimigo e Dano de Fogo leve a inimigos adjacentes a ele.",
+        "desc": "Causa Dano de Fogo igual a #1[i]% do ATQ de Fugue a um inimigo designado e #2[i]% do ATQ de Fugue como Dano de Fogo aos inimigos adjacentes.",
+        "params": [
+            [
+                0.5,
+                0.25
+            ],
+            [
+                0.6,
+                0.3
+            ],
+            [
+                0.7,
+                0.35
+            ],
+            [
+                0.8,
+                0.4
+            ],
+            [
+                0.9,
+                0.45
+            ],
+            [
+                1,
+                0.5
+            ],
+            [
+                1.1,
+                0.55
+            ],
+            [
+                1.2,
+                0.6
+            ],
+            [
+                1.3,
+                0.65
+            ]
+        ],
+        "icon": "icon/skill/1225_basic_atk.png"
+    },
     "130101": {
         "id": "130101",
         "name": "Taxa de Rolha",
@@ -16407,7 +16805,7 @@
         "type_text": "Talento",
         "effect": "Restore",
         "effect_text": "Restauração",
-        "simple_desc": "O estado de Inebriação faz com que alvos recebam mais Dano de Quebra. Sempre que o alvo é atacado por um aliado, os PV do atacante são restaurados.",
+        "simple_desc": "O estado de \"Inebriação\" faz com que alvos recebam mais Dano de Quebra. Sempre que o alvo é atacado por um personagem aliado, os PV do atacante são restaurados.",
         "desc": "O estado de Inebriação faz com que alvos recebam #1[f1]% a mais de Dano de Quebra. Sempre que um alvo com Inebriação é atacado por um aliado, os PV do atacante são curados em #2[i].",
         "params": [
             [
@@ -20948,6 +21346,366 @@
         ],
         "icon": "icon/skill/1312_technique.png"
     },
+    "131301": {
+        "id": "131301",
+        "name": "Admoestação Brilhante",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "ATQ Básico",
+        "effect": "SingleAttack",
+        "effect_text": "Alvo Único",
+        "simple_desc": "Causa Dano Imaginário leve a uma unidade inimiga designada.",
+        "desc": "Causa Dano Imaginário igual a #1[i]% do ATQ de Sunday a uma unidade inimiga designada.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1313_basic_atk.png"
+    },
+    "131302": {
+        "id": "131302",
+        "name": "Bênção de Papéis e Ritos",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Perícia",
+        "effect": "Support",
+        "effect_text": "Suporte",
+        "simple_desc": "Permite que um personagem aliado designado e sua invocação atuem imediatamente, além de aumentar o Dano causado por ambos. Se o alvo tiver uma invocação, o bônus de Dano também será aumentado.\nApós usar a Perícia em O Beatificado, recupera 1 Ponto de Perícia.\nQuando Sunday utiliza essa habilidade em personagens que seguem o Caminho da Harmonia, o efeito de \"ação imediata\" não pode ser ativado.",
+        "desc": "Permite que um personagem aliado designado e sua invocação atuem imediatamente, aumentando o Dano causado em #2[i]%. Se o alvo tiver uma invocação, o bônus de Dano adicional aumenta em #4[i]%, durando #3[i] rodada(s).\nApós usar a Perícia em O Beatificado, recupera 1 Ponto de Perícia.\nQuando Sunday utiliza essa habilidade em personagens que seguem o Caminho da Harmonia, o efeito de \"ação imediata\" não pode ser ativado.",
+        "params": [
+            [
+                1,
+                0.15,
+                2,
+                0.25
+            ],
+            [
+                1,
+                0.165,
+                2,
+                0.275
+            ],
+            [
+                1,
+                0.18,
+                2,
+                0.3
+            ],
+            [
+                1,
+                0.195,
+                2,
+                0.325
+            ],
+            [
+                1,
+                0.21,
+                2,
+                0.35
+            ],
+            [
+                1,
+                0.225,
+                2,
+                0.375
+            ],
+            [
+                1,
+                0.2437,
+                2,
+                0.4062
+            ],
+            [
+                1,
+                0.2625,
+                2,
+                0.4375
+            ],
+            [
+                1,
+                0.2812,
+                2,
+                0.4688
+            ],
+            [
+                1,
+                0.3,
+                2,
+                0.5
+            ],
+            [
+                1,
+                0.315,
+                2,
+                0.525
+            ],
+            [
+                1,
+                0.33,
+                2,
+                0.55
+            ],
+            [
+                1,
+                0.345,
+                2,
+                0.575
+            ],
+            [
+                1,
+                0.36,
+                2,
+                0.6
+            ],
+            [
+                1,
+                0.375,
+                2,
+                0.625
+            ]
+        ],
+        "icon": "icon/skill/1313_skill.png"
+    },
+    "131303": {
+        "id": "131303",
+        "name": "Ode ao Afago e à Cicatrix",
+        "max_level": 15,
+        "element": "",
+        "type": "Ultra",
+        "type_text": "Perícia Suprema",
+        "effect": "Support",
+        "effect_text": "Suporte",
+        "simple_desc": "Regenera Energia para um personagem aliado designado e transforma o alvo e sua invocação em \"O Beatificado\". \"O Beatificado\" aumenta o Dano CRIT.",
+        "desc": "Regenera Energia em #1[f1]% da Energia máxima de um personagem aliado designado e transforma o alvo e sua invocação em \"O Beatificado\". \"O Beatificado\" recebe aumento de Dano CRIT em uma quantidade igual a #2[f1]% do Dano CRIT de Sunday + #4[f1]%.\nNo início de cada rodada de Sunday, a duração do estado \"O Beatificado\" é reduzida em 1 rodada, durando por um total de #3[i] rodada(s). E ela só entra em efeito no alvo mais recente da Perícia Suprema (exceto pelo próprio Sunday). Quando Sunday é derrubado, \"O Beatificado\" também será dissipado.",
+        "params": [
+            [
+                0.2,
+                0.12,
+                3,
+                0.08
+            ],
+            [
+                0.2,
+                0.138,
+                3,
+                0.084
+            ],
+            [
+                0.2,
+                0.156,
+                3,
+                0.088
+            ],
+            [
+                0.2,
+                0.174,
+                3,
+                0.092
+            ],
+            [
+                0.2,
+                0.192,
+                3,
+                0.096
+            ],
+            [
+                0.2,
+                0.21,
+                3,
+                0.1
+            ],
+            [
+                0.2,
+                0.2325,
+                3,
+                0.105
+            ],
+            [
+                0.2,
+                0.255,
+                3,
+                0.11
+            ],
+            [
+                0.2,
+                0.2775,
+                3,
+                0.115
+            ],
+            [
+                0.2,
+                0.3,
+                3,
+                0.12
+            ],
+            [
+                0.2,
+                0.318,
+                3,
+                0.124
+            ],
+            [
+                0.2,
+                0.336,
+                3,
+                0.128
+            ],
+            [
+                0.2,
+                0.354,
+                3,
+                0.132
+            ],
+            [
+                0.2,
+                0.372,
+                3,
+                0.136
+            ],
+            [
+                0.2,
+                0.39,
+                3,
+                0.14
+            ]
+        ],
+        "icon": "icon/skill/1313_ultimate.png"
+    },
+    "131304": {
+        "id": "131304",
+        "name": "O Corpo em Sofrimento",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talento",
+        "effect": "Support",
+        "effect_text": "Suporte",
+        "simple_desc": "Ao utilizar a Perícia, aumenta a Chance de CRIT do alvo.",
+        "desc": "Ao utilizar a Perícia, aumenta a Chance de CRIT do alvo em #1[f1]%, durando por #2[i] rodada(s).",
+        "params": [
+            [
+                0.1,
+                3
+            ],
+            [
+                0.11,
+                3
+            ],
+            [
+                0.12,
+                3
+            ],
+            [
+                0.13,
+                3
+            ],
+            [
+                0.14,
+                3
+            ],
+            [
+                0.15,
+                3
+            ],
+            [
+                0.1625,
+                3
+            ],
+            [
+                0.175,
+                3
+            ],
+            [
+                0.1875,
+                3
+            ],
+            [
+                0.2,
+                3
+            ],
+            [
+                0.21,
+                3
+            ],
+            [
+                0.22,
+                3
+            ],
+            [
+                0.23,
+                3
+            ],
+            [
+                0.24,
+                3
+            ],
+            [
+                0.25,
+                3
+            ]
+        ],
+        "icon": "icon/skill/1313_talent.png"
+    },
+    "131306": {
+        "id": "131306",
+        "name": "Ataque",
+        "max_level": 1,
+        "element": "Imaginary",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
+        "params": [],
+        "icon": "icon/skill/1313_basic_atk.png"
+    },
+    "131307": {
+        "id": "131307",
+        "name": "Os Mistérios Gloriosos",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Técnica",
+        "effect": "Support",
+        "effect_text": "Suporte",
+        "simple_desc": "Após esta Técnica ser usada, da primeira vez que Sunday usar uma habilidade em um aliado-alvo na próxima batalha, o Dano causado pelo alvo aumenta.",
+        "desc": "Da primeira vez que Sunday usar uma habilidade em um aliado-alvo na próxima batalha, o Dano causado aumenta em #1[i]%, com duração de #2[i] rodada(s).",
+        "params": [
+            [
+                0.5,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1313_technique.png"
+    },
     "131401": {
         "id": "131401",
         "name": "Chicote de Riquezas",
@@ -21113,7 +21871,7 @@
         "type_text": "Perícia Suprema",
         "effect": "AoEAttack",
         "effect_text": "Área",
-        "simple_desc": "Causa Dano Quântico a todos os inimigos e o Multiplicador de Dano de Ataque Extra desta unidade aumenta.",
+        "simple_desc": "Causa Dano Quântico a todas as unidades inimigas e o Multiplicador de Dano de Ataque Extra do Talento desta unidade aumenta.",
         "desc": "Causa Dano Quântico igual a #3[i]% do ATQ de Jade a todos os inimigos. Ao mesmo tempo, Jade aprimora o Ataque Extra do seu Talento, aumentando o multiplicador de Dano do Ataque Extra em #1[i]%. Esse efeito de aprimoramento pode ser ativado #2[i] vez(es).",
         "params": [
             [
@@ -22366,7 +23124,7 @@
         "max_level": 9,
         "element": "Imaginary",
         "type": "Normal",
-        "type_text": "Ressonância do Caminho",
+        "type_text": "ATQ Básico",
         "effect": "Blast",
         "effect_text": "Explosão",
         "simple_desc": "Os primeiros 2 golpes causam Dano Imaginário leve a uma unidade inimiga designada e Dano Imaginário leve aos alvos adjacentes. O terceiro golpe causa Dano Imaginário leve a todos os inimigos. Atacar inimigos sem Fraqueza contra Imaginário ainda pode reduzir a Tenacidade deles.",

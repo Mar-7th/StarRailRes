@@ -2060,8 +2060,8 @@
     "615546": {
         "id": "615546",
         "name": "Mercado al alza regresivo",
-        "desc": "Cuando un personaje entra en combate, obtiene 12 acumulaciones de Coraje.",
-        "enhanced_desc": "Cuando un personaje entra en combate, obtiene 18 acumulaciones de Coraje."
+        "desc": "Cuando un personaje entra en combate, obtiene 12 acumulaciones de Espíritu combativo.",
+        "enhanced_desc": "Cuando un personaje entra en combate, obtiene 18 acumulaciones de Espíritu combativo."
     },
     "615550": {
         "id": "615550",
@@ -2498,7 +2498,13 @@
     "670010": {
         "id": "670010",
         "name": "Especialista en restauración urbana",
-        "desc": "En el orden de acción aparecerá un Núcleo de cometa. Cada vez que realiza una acción, absorbe los escudos de todos los aliados hasta reducirlos a 1 pt. y convierte los valores absorbidos en su propio valor de escudo. Además, inflige un Daño Físico equivalente al 2500% + 1000% del daño base a todos los enemigos, y tiene una probabilidad base del 75% de afectar a los enemigos con Congelación durante 1 turno(s). Cuando el personaje recibe daño, consume primero el valor de escudo del Núcleo de cometa, y cuando inflige daño de Sismo, el 70% del valor de escudo de Núcleo de cometa se considera como escudo del personaje.",
+        "desc": "En el orden de acción aparecerá un Núcleo de cometa. Cada vez que realiza una acción, absorbe los escudos de todos los aliados hasta reducirlos a 1 pt. y convierte los valores absorbidos en su propio valor de escudo. Además, inflige un Daño Físico equivalente al 2500% + 1000% del daño base a todos los enemigos, y tiene una probabilidad base del 100% de afectar a los enemigos con Congelación durante 1 turno(s). Cuando el personaje recibe daño, consume primero el valor de escudo del Núcleo de cometa, y cuando inflige daño de Sismo, el 80% del valor de escudo de Núcleo de cometa se considera como escudo del personaje.",
+        "enhanced_desc": ""
+    },
+    "670060": {
+        "id": "670060",
+        "name": "Coloso desalmado",
+        "desc": "El daño de Sismo se considera daño de ataque adicional. Después de que un personaje lance un ataque adicional, todos los aliados obtienen 1 acumulación de Componente mecánico, hasta un máximo de 77. Después de que un personaje con escudo reciba un ataque, este consume todas sus acumulaciones de Componente mecánico e inflige al objetivo atacado un daño de Sismo de un tipo al azar equivalente al 177% del efecto de escudo actual 7 veces. Por cada acumulación consumida, este daño aumenta en un 7%.",
         "enhanced_desc": ""
     },
     "670140": {
@@ -2513,10 +2519,22 @@
         "desc": "En el orden de acción se muestra Olvido: la acción de un objetivo aliado se adelanta en un 3% por cada 10 pts. de Reducción de Firmeza real que cause. Cuando Olvido actúa, inflige un Daño de Hielo equivalente al 2000% del daño base a todos los enemigos y les reduce 20 pts. de Firmeza. Tiene una probabilidad base del 150% de afectar con Disociación a los objetivos durante 1 turno(s), y el daño recibido aumenta en un 60% durante 2 turno(s).",
         "enhanced_desc": ""
     },
+    "670210": {
+        "id": "670210",
+        "name": "Rastreador relativo",
+        "desc": "Cuando un enemigo está afectado por Sospecha, Congelación o un estado de Daño con el tiempo, hay una probabilidad base del 150% de que ese estado se extienda a los objetivos adyacentes. Si no hay objetivos adyacentes, se extiende a sí mismo. Cada efecto solo puede extenderse a cada objetivo 1 vez durante una misma acción. Cuando un estado se extiende 20 veces a un enemigo o este es eliminado, ese objetivo y los objetivos adyacentes reciben un 1200% del daño base como Daño de Hielo y tienen un 60% de probabilidad base de congelarse durante 1 turno(s).",
+        "enhanced_desc": ""
+    },
     "670280": {
         "id": "670280",
         "name": "Sociedad Autodidacta",
         "desc": "Cuando Sospecha llega a 99 acumulaciones, se consume y se convierte en 1 acumulación de Autonegación: el Daño con el tiempo que inflige el atacante aumenta en un 70%. Cada acumulación aumenta adicionalmente este Daño con el tiempo en un 10%, hasta un máximo de #10[i] acumulaciones. Cuando comienza el turno del enemigo, recibe Daño de Rayo con el tiempo equivalente al 135% del daño base, y los objetivos adyacentes reciben un Daño de Rayo con el tiempo equivalente al 20% del multiplicador de daño original. Cuando las acumulaciones son iguales o superiores a 2: al comenzar el turno, 1 personaje al azar recupera un 20% del Cerebro en una cubeta. Cuando las acumulaciones son superiores o iguales a 3: al comenzar el turno, todos los aliados recuperan un 10% del Cerebro en una cubeta.",
+        "enhanced_desc": ""
+    },
+    "670320": {
+        "id": "670320",
+        "name": "Herborista",
+        "desc": "Cuando un enemigo entra en combate, es afectado con Elixir total: cuando se rompe Gota de rocío, carga un 5% del Elixir total del objetivo atacado, hasta un máximo del 100% de los PV máx. del personaje. Cuando comienza el turno del objetivo enemigo, consume la carga y recibe un Daño de Viento con el tiempo equivalente al 200% del daño base, y todos los aliados regeneran un 5% de sus PV máx. Por cada cantidad de carga equivalente al 1% de los PV máx. del personaje, el daño aumenta en un 8% y la regeneración de PV aumenta en un 4%.",
         "enhanced_desc": ""
     },
     "670350": {
@@ -2546,7 +2564,7 @@
     "670580": {
         "id": "670580",
         "name": "Erudito de la extinción",
-        "desc": "Después de que un personaje reciba un ataque, obtiene 2 Fórmula(s) de extinción. Tras lanzar un contraataque, obtiene 1 Fórmula(s) de extinción. Cuando posee 6 Fórmula(s) de extinción, se consumen todas y aumenta el daño de habilidad definitiva infligido en un 150% hasta el final del turno. Además, inflige un daño adicional equivalente al 650% del ATQ a todos los enemigos. Este daño adicional se considera como daño de habilidad definitiva.",
+        "desc": "Después de que un personaje reciba un ataque, obtiene 2 Fórmula(s) de extinción. Tras lanzar un contraataque, obtiene 1 Fórmula(s) de extinción. Cuando posee 6 Fórmula(s) de extinción, se consumen todas y aumenta el daño de habilidad definitiva infligido en un 150% durante 2 turno(s). Además, inflige un daño adicional equivalente al 650% del ATQ a todos los enemigos. Este daño adicional se considera como daño de habilidad definitiva.",
         "enhanced_desc": ""
     },
     "670630": {
@@ -2561,10 +2579,16 @@
         "desc": "En el orden de acción aparece una Carta de Advertencia: después de que un personaje lance un ataque adicional, su acción se adelanta un 5%. Al actuar, la acción del primer personaje de la formación se adelanta en un 100%. Después de atacar, inflige un daño de Regusto equivalente al 40% de su ATQ 10 veces, hasta un máximo de 4 ataques. El multiplicador de daño de Regusto de todos los aliados aumenta en un 100% del multiplicador original, y en el orden de acción aparece una cuenta regresiva de VEL igual a 100. El efecto continúa hasta que comience el turno de la cuenta regresiva.",
         "enhanced_desc": ""
     },
+    "670700": {
+        "id": "670700",
+        "name": "Gusano formaestrellas",
+        "desc": "El daño de ATQ básico y el daño de habilidad básica que recibe el enemigo aumenta en un 100%. En el orden de acción aparece Hueva de insecto: cuando un aliado recupera o consume pts. de habilidad básica, incrementa en 1 los golpes por acción de su siguiente ataque. Al comenzar el turno, cada golpe por acción inflige a un enemigo al azar un 500% del daño base como Daño de Viento y todos los aliados obtienen un escudo por un 3% de los PV máx. Los golpes por acción de Hueva de insecto no pueden ser menos de 10.",
+        "enhanced_desc": ""
+    },
     "670720": {
         "id": "670720",
         "name": "Progenie nutredesastres",
-        "desc": "Cuando un enemigo entra en combate, obtiene Pozo de perforación. El Pozo de perforación registra todas las Esporas acumuladas por el poseedor y, cuando acumula 18 en total, inflige un Daño Cuántico equivalente al 1800% del daño base a todos los enemigos. Por cada estado negativo, ese daño aumenta en un 10%, hasta un máximo del 100%. Después, la cantidad registrada se reinicia.",
+        "desc": "Cuando un enemigo entra en combate, obtiene Pozo de perforación. El Pozo de perforación registra todas las Esporas acumuladas por el poseedor y, cuando acumula 18 en total, inflige un Daño Cuántico equivalente al 2200% del daño base a todos los enemigos. Por cada estado negativo, ese daño aumenta en un 10%, hasta un máximo del 100%. Después, la cantidad registrada se reinicia.",
         "enhanced_desc": ""
     },
     "670860": {
@@ -2576,7 +2600,7 @@
     "670870": {
         "id": "670870",
         "name": "Agregador",
-        "desc": "Después de que todos los aliados hayan lanzado la habilidad definitiva 2 veces, se inflige 2 vez(es) un Daño de Viento equivalente al 400% del daño base a un enemigo al azar, y se le aplica 1 Espora(s). Este daño inflige un daño equivalente al 30% del daño original a las unidades adyacentes. Cada vez que se activa este efecto, las veces que se inflige daño aumentan en 1 durante esta batalla y aumenta el daño de habilidad definitiva que infligen los personajes en un 5%. Puede acumularse como máximo 20 veces.",
+        "desc": "Después de que todos los aliados hayan lanzado la habilidad definitiva 2 veces, se inflige 2 vez(es) un Daño de Viento equivalente al 400% del daño base a un enemigo al azar, y se le aplica 1 Espora(s). Este daño inflige un daño equivalente al 30% del daño original a las unidades adyacentes. Cada vez que se activa este efecto, las veces que se inflige daño aumentan en 1 durante esta batalla y aumenta el daño de habilidad definitiva que infligen los personajes en un 7%. Puede acumularse como máximo 20 veces.",
         "enhanced_desc": ""
     },
     "671020": {
@@ -2591,22 +2615,34 @@
         "desc": "Cuando el personaje inflige daño de Sismo, el multiplicador de daño de Sismo actual aumenta en un 35% del multiplicador original por cada personaje que tenga sus PV al máximo.",
         "enhanced_desc": ""
     },
+    "671060": {
+        "id": "671060",
+        "name": "Defensor emocional",
+        "desc": "El daño de ataque adicional que reciben los enemigos aumenta en un 60%. Después de que un personaje elimine a un enemigo, todos los aliados pueden resistir todos los tipos de daño, excepto el Daño con el tiempo. Este efecto dura 2 turno(s) y se disipa después de recibir un ataque.",
+        "enhanced_desc": ""
+    },
     "671080": {
         "id": "671080",
         "name": "Correspondencia civilizada",
         "desc": "Cuando un personaje lanza la habilidad definitiva, obtiene un escudo capaz de absorber un daño equivalente al 30% de sus PV máx. durante 3 turno(s). Tras lanzar un ataque e infligir daño de habilidad definitiva, inflige un daño de Sismo equivalente al 600% del efecto de escudo actual a los objetivos atacados.",
         "enhanced_desc": ""
     },
+    "671120": {
+        "id": "671120",
+        "name": "Escritor",
+        "desc": "Cuando el enemigo está congelado, lo afecta con 10 acumulación(es) de Sospecha. Tras recibir Daño con el tiempo, hay un 20% de probabilidad base de que el objetivo se congele durante 1 turno(s). Cada enemigo solo puede congelarse de esta manera una vez cada 2 turno(s).",
+        "enhanced_desc": ""
+    },
     "671130": {
         "id": "671130",
         "name": "Médic{F#a}{M#o} de recuerdos",
-        "desc": "Después de que el personaje ataque, Gota de rocío inflige 1 vez adicional un daño de Gota de rocío equivalente al 250% del multiplicador de daño original de Gota de rocío a todos los enemigos afectados con Congelación. Por cada enemigo congelado, el multiplicador de daño aumenta adicionalmente en un 25%.",
+        "desc": "La recuperación de energía de Gota de rocío aumenta en un 50%. Después de que un personaje ataque, Gota de rocío inflige 1 vez un daño de Gota de rocío equivalente al 250% del multiplicador de daño original de Gota de rocío a los enemigos en el campo de batalla que estén afectados con Congelación.",
         "enhanced_desc": ""
     },
     "671170": {
         "id": "671170",
         "name": "Meme errante",
-        "desc": "El daño de ATQ básico que infligen los personajes aumenta en un 160%. Al lanzar un ATQ básico, los enemigos con Ruptura de Debilidad se consideran afectados por Congelación.",
+        "desc": "El daño de ATQ básico que infligen los personajes aumenta en un 200%. Al lanzar un ATQ básico, los enemigos con Ruptura de Debilidad se consideran afectados por Congelación.",
         "enhanced_desc": ""
     },
     "671180": {
@@ -2627,6 +2663,12 @@
         "desc": "El Daño con el tiempo que inflige el personaje aumenta en un 160%. Tras aplicar un estado negativo a un enemigo, sus PV máx. aumentan en un 2%. Se puede acumular hasta 20 veces y dura 2 turno(s).",
         "enhanced_desc": ""
     },
+    "671240": {
+        "id": "671240",
+        "name": "Reemplazo de venganza",
+        "desc": "Después de que un personaje lance un ataque, afecta al objetivo atacado con 3 acumulación(es) de Sospecha. El efecto de Vulnerabilidad que otorga Sospecha aumenta en un 20%. Cuando un personaje golpea a un enemigo afectado por Sospecha, el Daño CRIT que inflige el personaje aumenta según en un 80% de la cantidad de Vulnerabilidad de Sospecha.",
+        "enhanced_desc": ""
+    },
     "671260": {
         "id": "671260",
         "name": "Buf{F#ona}{M#ón} de Anatta",
@@ -2637,6 +2679,12 @@
         "id": "671340",
         "name": "Foraster{F#a}{M#o} inmortal",
         "desc": "Al recargar Gota de rocío, hay una probabilidad fija del 1% de aumentar la recarga en una cantidad equivalente al 50% del Daño CRIT del personaje por cada 1% de Prob. CRIT que tenga el personaje.",
+        "enhanced_desc": ""
+    },
+    "671350": {
+        "id": "671350",
+        "name": "Pirotécnico",
+        "desc": "Los PV máx. del personaje aumentan en un 50%. Por cada 10 pts. de Reducción de Firmeza real, Gota de rocío de todos los aliados se carga un 3%. Al atacar a enemigos con Ruptura de Debilidad, Gota de rocío de todos los aliados se carga un 6%.",
         "enhanced_desc": ""
     },
     "671360": {
@@ -2655,6 +2703,12 @@
         "id": "671400",
         "name": "Mecanismo de contención de desastres",
         "desc": "Después de que un enemigo reduzca el escudo de los personajes al atacar, la VEL de todos los aliados aumenta en un 35% durante 2 turno(s) y obtienen 2 acumulación(es) de Empujón crítico.",
+        "enhanced_desc": ""
+    },
+    "671410": {
+        "id": "671410",
+        "name": "Árbitro imaginario",
+        "desc": "Por cada 1% de efecto de acción adelantada real que reciba el personaje, el daño que inflige en el siguiente turno aumenta en un 2%, hasta un máximo del 100% de acción adelantada. Si el enemigo está congelado, este efecto aumenta su daño de forma adicional en un 50%.",
         "enhanced_desc": ""
     },
     "671450": {
@@ -2687,10 +2741,16 @@
         "desc": "Después de que el personaje ataque a un objetivo con Ruptura de Debilidad, la Reducción de Firmeza de este ataque se convierte 1 vez en un 100% del Daño de Ultrarruptura. Tras obtener 30 acumulaciones de Espíritu combativo, este efecto inflige adicionalmente un 100% del Daño de Ultrarruptura.",
         "enhanced_desc": ""
     },
+    "671570": {
+        "id": "671570",
+        "name": "Autotraidor",
+        "desc": "Cuando un personaje rompe la Debilidad de un enemigo, recupera 2 pt(s). de habilidad básica. En función de las acumulaciones totales de Coraje que tengan todos los aliados, el Daño de Ruptura que infligen todos los aliados aumenta en un 2% por cada 5 acumulaciones de Coraje.",
+        "enhanced_desc": ""
+    },
     "671610": {
         "id": "671610",
         "name": "Artista reminiscente",
-        "desc": "Regusto tiene una probabilidad base del 3% de afectar con Congelación a los objetivos enemigos que no estén congelados durante 1 turno(s). Este efecto se puede activar hasta 5 vez(es) con cada ataque. El multiplicador del daño que Regusto inflige a los enemigos congelados aumenta en un 150% del multiplicador original.",
+        "desc": "Regusto tiene una probabilidad base del 4% de afectar con Congelación a los enemigos que no estén congelados durante 1 turno(s). Este efecto se puede activar hasta 5 vez(es) por cada enemigo atacado. El multiplicador del daño que Regusto inflige a los enemigos congelados aumenta en un 150% del multiplicador original.",
         "enhanced_desc": ""
     },
     "671650": {
@@ -2705,22 +2765,40 @@
         "desc": "El límite máximo de Esporas aumenta en 5. Después de que el personaje lance un ataque adicional, el objetivo obtiene 3 Esporas.",
         "enhanced_desc": ""
     },
+    "671680": {
+        "id": "671680",
+        "name": "Estratega fanático",
+        "desc": "El Daño CRIT que inflige el ataque adicional de los personajes aumenta en un 100%. Cuando un personaje lanza la habilidad definitiva mediante Cerebro en una cubeta e inflige daño al enemigo, se considera como un ataque adicional.",
+        "enhanced_desc": ""
+    },
     "671700": {
         "id": "671700",
         "name": "Obrer{F#a}{M#o} nutredesastres",
         "desc": "Cuando el personaje obtiene un escudo, hace que 2 enemigos al azar obtengan 1 Espora. El multiplicador de daño de las Esporas aumenta en un 75% del multiplicador original.",
         "enhanced_desc": ""
     },
+    "671730": {
+        "id": "671730",
+        "name": "Vestigios de la catástrofe",
+        "desc": "Cada vez que se consume o se excede 1 pt. de habilidad básica, todos los aliados obtienen 1 acumulación de Ligamaza, hasta un máximo de 10 acumulaciones. Cuando un personaje lanza un ataque, consume todas sus acumulaciones de Ligamaza e inflige un daño adicional equivalente al 80% de sus PV máx. por cada acumulación consumida. Este daño se considera daño de ATQ básico.",
+        "enhanced_desc": ""
+    },
     "671740": {
         "id": "671740",
         "name": "Obrero diabólico",
-        "desc": "Después de que un personaje ataque, se añaden Esporas en un enemigo al azar. Cuando los aliados realizan acciones consecutivas 1/2/3 vez(es) o más, la cantidad de Esporas añadidas pasa a ser 2/4/6.",
+        "desc": "Después de que un personaje ataque, se añaden Esporas en un enemigo al azar. Cuando los aliados realizan acciones consecutivas 1/2/3 vez(es) o más, la cantidad de Esporas añadidas pasa a ser 4/5/6.",
         "enhanced_desc": ""
     },
     "671780": {
         "id": "671780",
         "name": "Obrer{F#a}{M#o} confundemundos",
         "desc": "El límite máximo de Esporas aumenta en 3. Después de que el aliado inflija daño de habilidad definitiva al atacar, si hace estallar las Esporas que tiene un objetivo, inflige adicionalmente 1 vez un 250% de su ATQ como daño de habilidad definitiva a dicho objetivo. El multiplicador de este daño aumenta en un 30% por cada Espora que estalle con este ataque.",
+        "enhanced_desc": ""
+    },
+    "671800": {
+        "id": "671800",
+        "name": "Protección de la ecología astral",
+        "desc": "El daño de habilidad definitiva que reciben los enemigos aumenta en un 75%. Cuando un personaje con escudo recibe un ataque, carga el Cerebro en una cubeta en un 12%.",
         "enhanced_desc": ""
     },
     "671820": {
@@ -2745,6 +2823,12 @@
         "id": "672010",
         "name": "Escriba arquitect{F#a}{M#o}",
         "desc": "Si después de que el personaje ataque al enemigo, este queda afectado con Congelación, todos los aliados obtienen un escudo equivalente al 25% de sus PV máx. durante 3 turnos. El efecto de escudo obtenido aumenta un 5% por cada enemigo que quede congelado con este ataque.",
+        "enhanced_desc": ""
+    },
+    "672020": {
+        "id": "672020",
+        "name": "Guardián de tumbas",
+        "desc": "La RES a efecto del personaje aumenta en un 25% y el daño de Sismo infligido aumenta en un 50%. Al resistir un estado negativo, inflige al objetivo un daño de Sismo equivalente al 400% del efecto de escudo actual.",
         "enhanced_desc": ""
     },
     "672030": {
@@ -2777,6 +2861,12 @@
         "desc": "Después de que el personaje ataque a un enemigo no de élite cuyo porcentaje de PV actual esté por debajo del 50%, hay una probabilidad base del 150% de afectarlo con Disociación durante 1 turno(s), e inflige a dicho objetivo una cantidad fija de Daño CRIT equivalente a sus PV actuales.",
         "enhanced_desc": ""
     },
+    "672150": {
+        "id": "672150",
+        "name": "Purificador",
+        "desc": "Cuando los PV actuales del enemigo son superiores al 60% de sus PV máx., la duración del estado de Congelación aumenta en 1 turno. El daño que reciben los enemigos congelados aumenta en un 30%.",
+        "enhanced_desc": ""
+    },
     "672160": {
         "id": "672160",
         "name": "Biógraf{F#a}{M#o}",
@@ -2793,6 +2883,12 @@
         "id": "672200",
         "name": "Guardia nocturn{F#a}{M#o}",
         "desc": "El enemigo es afectado con Sangrado al entrar en combate. En el estado de Sangrado, el enemigo pierde un 10% de sus PV máx. como Daño Físico con el tiempo al principio de cada turno. Este daño no puede exceder un 650% de la suma del efecto de escudo de todos los aliados.",
+        "enhanced_desc": ""
+    },
+    "672230": {
+        "id": "672230",
+        "name": "Doctores del Caos",
+        "desc": "El Daño con el tiempo que inflige el personaje aumenta en un 50%. Cuando un enemigo entra en combate, es afectado por Percepción y recibe un Daño de Fuego con el tiempo equivalente al 300% de los PV máx. de todos los aliados al inicio del turno.",
         "enhanced_desc": ""
     },
     "672240": {
@@ -2816,13 +2912,19 @@
     "672340": {
         "id": "672340",
         "name": "Tejealas",
-        "desc": "Cuando un enemigo es derrotado, la recuperación de energía de Gota de rocío aumenta en un 10%. Puede acumularse hasta 10. Además, todos los aliados regeneran un 50% de sus PV máx.",
+        "desc": "Cuando un enemigo es derrotado, la recuperación de energía de Gota de rocío aumenta en un 20%. Puede acumularse hasta 4. Además, todos los aliados regeneran un 50% de sus PV máx.",
         "enhanced_desc": ""
     },
     "672350": {
         "id": "672350",
         "name": "Houyhnhnm",
         "desc": "Por cada acumulación de Espíritu combativo que tenga el personaje, la curación recibida aumenta en un 2%.",
+        "enhanced_desc": ""
+    },
+    "672360": {
+        "id": "672360",
+        "name": "Sanación peculiar",
+        "desc": "El límite máximo de Gota de rocío aumenta en 50%. Después de que un personaje lance un ataque adicional, el personaje con menor porcentaje de PV regenera un 10% de sus PV máx.",
         "enhanced_desc": ""
     },
     "672370": {
@@ -2834,7 +2936,7 @@
     "672371": {
         "id": "672371",
         "name": "Árbol del abandono",
-        "desc": "Aumenta la curación realizada del personaje en un 30%. Tras realizar una curación a un objetivo aliado, un enemigo al azar obtiene 1 Espora(s).",
+        "desc": "Aumenta la curación realizada del personaje en un 30%. Tras realizar una curación a un objetivo aliado, un enemigo al azar obtiene 2 Espora(s).",
         "enhanced_desc": ""
     },
     "672400": {
@@ -2853,6 +2955,12 @@
         "id": "672430",
         "name": "Pacifista",
         "desc": "Al comenzar su turno, el personaje regenera un 5% de sus PV máx. y los demás aliados regeneran un 2% de sus PV máx. por cada acumulación de Empujón crítico que tenga el personaje.",
+        "enhanced_desc": ""
+    },
+    "672470": {
+        "id": "672470",
+        "name": "Caminante descarriado",
+        "desc": "El Daño CRIT del ATQ básico y de la habilidad básica del personaje aumenta en un 100%. Las acumulaciones en exceso de Empujón crítico se vuelven a obtener al comienzo del turno del personaje.",
         "enhanced_desc": ""
     },
     "672480": {
@@ -2877,6 +2985,12 @@
         "id": "672530",
         "name": "Piróman{F#a}{M#o}",
         "desc": "Por cada acumulación de Espíritu combativo que tenga el personaje, sus PV máx. aumentan en un 6%, pero el máximo de PV que puede regenerar se reduce en un 80% de los PV máx. adicionales.",
+        "enhanced_desc": ""
+    },
+    "672540": {
+        "id": "672540",
+        "name": "Trazado de la arena",
+        "desc": "La eficiencia de la Ruptura de Debilidad de los personajes aumenta en un 20%. Tras romper la Debilidad de un enemigo, la VEL aumenta en un 25% durante 3 turno(s).",
         "enhanced_desc": ""
     },
     "672580": {
@@ -2909,6 +3023,18 @@
         "desc": "El daño de ataque adicional que inflige el personaje aumenta en un 50%. Después de lanzar un ataque adicional, tiene una probabilidad fija del 100% de recuperar 1 pt. de habilidad básica.",
         "enhanced_desc": ""
     },
+    "672680": {
+        "id": "672680",
+        "name": "Vocalista de la creación",
+        "desc": "Cuando un personaje lanza su habilidad definitiva, el siguiente ataque inflige al enemigo un daño de Regusto equivalente al 150% del ATQ del personaje 2 veces.",
+        "enhanced_desc": ""
+    },
+    "672700": {
+        "id": "672700",
+        "name": "Vestigios de fantasmas",
+        "desc": "El daño de ATQ básico y el daño de habilidad básica que infligen los personajes aumenta en un 60%. Cuando estallan las Esporas, el daño infligido aumenta en una cantidad equivalente al 100% del Escudo colectivo de todos los aliados.",
+        "enhanced_desc": ""
+    },
     "672710": {
         "id": "672710",
         "name": "Obrer{F#a}{M#o} fantasma",
@@ -2930,7 +3056,13 @@
     "672750": {
         "id": "672750",
         "name": "Obrer{F#a}{M#o} trituraestrellas",
-        "desc": "El daño de ATQ básico que inflige el personaje aumenta en un 50%. Si el porcentaje de PV del personaje es igual o superior al 50% cuando lanza el ATQ básico, consume un 5% de sus PV máx. y recupera 1 pt. de habilidad básica.",
+        "desc": "El daño de ATQ básico que inflige el personaje aumenta en un 80%. Si el porcentaje de PV del personaje es igual o superior al 50% cuando lanza el ATQ básico, consume un 5% de sus PV máx. y recupera 1 pt. de habilidad básica.",
+        "enhanced_desc": ""
+    },
+    "672810": {
+        "id": "672810",
+        "name": "Inspector candelógrafo",
+        "desc": "Cuando un personaje lanza su habilidad definitiva, por cada 10 pts. de energía consumidos, el ATQ aumenta en un 4% y el acierto de efecto aumenta en un 2%. Se puede acumular hasta 20 veces y dura 2 turno(s). Cada vez que se lanza una habilidad definitiva, se considera que consume al menos 80 pts. de energía.",
         "enhanced_desc": ""
     },
     "672840": {
@@ -2954,7 +3086,7 @@
     "672870": {
         "id": "672870",
         "name": "Kolchian{F#a}{M#o}",
-        "desc": "Por cada pt. de habilidad básica que consume el personaje, el daño de habilidad definitiva que inflige aumenta en un 45%, hasta un máximo del 135%. Dura hasta después de lanzar la habilidad definitiva.",
+        "desc": "Por cada pt. de habilidad básica que consume el personaje, el daño de habilidad definitiva que inflige aumenta en un 65%, hasta un máximo del 130%. Dura hasta después de lanzar la habilidad definitiva.",
         "enhanced_desc": ""
     }
 }

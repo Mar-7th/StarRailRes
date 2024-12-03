@@ -5816,6 +5816,129 @@
             ]
         ]
     },
+    "23034": {
+        "id": "23034",
+        "skill": "Erneute Abreise",
+        "desc": "Nachdem der Träger eine Fertigkeit oder einen Ultimate auf einen Verbündeten angewendet hat, stellt er #1[f1] Pkt. Energie wieder her und das Ziel erhält für #4[i] Rd. 1 Stapelung „Heilige Hymne“, was den verursachten SCH um #2[i]% erhöht. Dieser Effekt ist bis zu #3[i]-fach stapelbar. Nachdem Fertigkeit oder Ultimate des Trägers #5[i]-mal auf Verbündete angewendet wurde, wird 1 Fertigkeitspunkt wiederhergestellt.",
+        "params": [
+            [
+                6,
+                0.15,
+                3,
+                3,
+                2
+            ],
+            [
+                6.5,
+                0.1725,
+                3,
+                3,
+                2
+            ],
+            [
+                7,
+                0.195,
+                3,
+                3,
+                2
+            ],
+            [
+                7.5,
+                0.2175,
+                3,
+                3,
+                2
+            ],
+            [
+                8,
+                0.24,
+                3,
+                3,
+                2
+            ]
+        ],
+        "properties": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    "23035": {
+        "id": "23035",
+        "skill": "Wiedergeburt",
+        "desc": "Erhöht den Brucheffekt des Trägers um #1[i]%. Wenn ein Gegner Schwächebruch erleidet, besteht eine Grundchance von #2[i]%, ihn für #4[i] Rd. mit „Lichterloh“ zu belegen, was den erlittenen Bruch-SCH um #3[i]% erhöht. Dieser Effekt ist bis zu #5[i]-fach stapelbar.",
+        "params": [
+            [
+                0.6,
+                1,
+                0.18,
+                2,
+                2
+            ],
+            [
+                0.7,
+                1,
+                0.21,
+                2,
+                2
+            ],
+            [
+                0.8,
+                1,
+                0.24,
+                2,
+                2
+            ],
+            [
+                0.9,
+                1,
+                0.27,
+                2,
+                2
+            ],
+            [
+                1,
+                1,
+                0.3,
+                2,
+                2
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.6
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.7
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.8
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.9
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 1
+                }
+            ]
+        ]
+    },
     "24000": {
         "id": "24000",
         "skill": "Wie Motten ins Licht",
@@ -6080,7 +6203,7 @@
     "24004": {
         "id": "24004",
         "skill": "Gedanken ohne Grenzen",
-        "desc": "Erhöht den ANG des Trägers um #1[i]%. Nach einem Angriff wird der ANG für jedes getroffene Ziel zusätzlich um #2[i]% erhöht. Dieser Effekt ist bis zu 5-fach stapelbar und dauert bis zum nächsten Angriff. Wenn #3[i] oder mehr Gegner getroffen werden, wird die GES dieser Einheit für #5[i] Rd. um #4[i]% erhöht.",
+        "desc": "Erhöht den ANG des Trägers um #1[i]%. Nach einem Angriff wird der ANG für jedes getroffene Ziel zusätzlich um #2[i]% erhöht. Dieser Effekt ist bis zu 5-mal stapelbar und dauert bis zum nächsten Angriff. Wenn #3[i] oder mehr Gegner getroffen werden, wird die GES dieser Einheit für #5[i] Rd. um #4[i]% erhöht.",
         "params": [
             [
                 0.08,

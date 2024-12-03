@@ -5745,7 +5745,7 @@
         "effect": "Impair",
         "effect_text": "Beeinträchtigung",
         "simple_desc": "Gegner in einem bestimmten Gebiet werden geblendet. Beim Kämpfen gegen einen geblendeten Gegner besteht eine hohe Chance, nach Kampfeintritt die Aktionen aller Gegner zu verzögern.",
-        "desc": "Nach dem Einsatz der Technik werden Gegner in einem bestimmten Bereich #1[i] s lang geblendet. Die Verbündeten sind für geblendete Gegner unsichtbar.\nGreift man einen geblendeten Gegner aktiv an, besteht eine Grundchance von #2[i]%, die Aktionen aller Gegner um #3[i]% zu verzögern.",
+        "desc": "Nach dem Einsatz der Technik werden Gegner in einem bestimmten Bereich #1[i] Sek. lang geblendet. Die Verbündeten sind für geblendete Gegner unsichtbar.\nNach Kampfeintritt mit einem aktiven Angriff auf von Blenden betroffene Gegner besteht eine Grundchance von #2[i]%, die Aktionen aller Gegner um #3[i]% zu verzögern.",
         "params": [
             [
                 10,
@@ -11064,7 +11064,7 @@
         "type_text": "Technik",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "Greift den Gegner an. Fügt nach Kampfeintritt einem Gegner geringen Feuer-SCH zu und verursacht „Feuer spucken“. Dieser Angriff prallt 4-mal ab.",
+        "simple_desc": "Greift den Gegner an. Fügt nach Kampfeintritt einem Gegner geringen Feuer-SCH zu und verursacht mit hoher Chance „Feuer spucken“. Dieser Angriff prallt 4-mal ab.",
         "desc": "Greift den Gegner unmittelbar an. Verursacht nach Kampfeintritt #2[i]-mal SCH, wobei jedes Mal einem zufälligen Gegner Feuer-SCH in Höhe von #1[i]% von Guinaifens ANG zugefügt wird und eine Grundchance von #3[i]% besteht, „Feuer spucken“ bei ihm zu verursachen.",
         "params": [
             [
@@ -12997,7 +12997,7 @@
         "type_text": "Talent",
         "effect": "Support",
         "effect_text": "Unterstützung",
-        "simple_desc": "Verbündete fügen Gegnern, die mit „Aufbürden“ belegt wurden, mehr SCH zu.",
+        "simple_desc": "Wenn ein Verbündeter einen Standardangriff, eine Fertigkeit oder einen Ultimate gegen einen Gegner einsetzt, der mit „Aufbürden“ belegt ist, wird der zugefügte SCH erhöht.",
         "desc": "Wenn ein Verbündeter einen Standardangriff, eine Fertigkeit oder einen Ultimate gegen einen Gegner einsetzt, der mit „Aufbürden“ belegt ist, wird der zugefügte SCH für #2[i] Rd. um #1[i]% erhöht.",
         "params": [
             [
@@ -13789,7 +13789,7 @@
         "type_text": "Talent",
         "effect": "Impair",
         "effect_text": "Beeinträchtigung",
-        "simple_desc": "Nach einem Angriff besteht eine hohe Chance, das Ziel mit 1 Stapelung „Aschenbrennen“ zu belegen, wodurch der Gegner mehr SCH erleidet und gleichzeitig als im Status Brennen betrachtet wird.",
+        "simple_desc": "Nach einem Angriff durch Standardangriff, Fertigkeit oder Ultimate besteht eine hohe Chance, das Ziel mit 1 Stapelung „Aschenbrennen“ zu belegen, wodurch der Gegner mehr SCH erleidet und gleichzeitig als im Status Brennen betrachtet wird.",
         "desc": "Wenn Jiaoqiu Gegner mit Standardangriff, Fertigkeit oder Ultimate angreift, besteht eine Grundchance von #1[i]%, sie mit 1 Stapelung „Aschenbrennen“ zu belegen. Bei 1 Stapelung wird der erlittene SCH des Gegners um #2[f1]% erhöht, und jede Stapelung danach erhöht ihn um #3[f1]%.\nAschenbrennen ist bis zu #4[i]-fach stapelbar und hält #5[i] Rd. an.\nWenn der Gegner sich im Status Aschenbrennen befindet, wird er gleichzeitig als im Status Brennen angesehen und erleidet zu Beginn jeder Runde Feuer-DoT in Höhe von #6[i]% von Jiaoqius ANG.",
         "params": [
             [
@@ -16220,6 +16220,404 @@
             ]
         ],
         "icon": "icon/skill/1224_basic_atk.png"
+    },
+    "122501": {
+        "id": "122501",
+        "name": "Strahlender Schweif",
+        "max_level": 9,
+        "element": "Fire",
+        "type": "Normal",
+        "type_text": "Standardangriff",
+        "effect": "SingleAttack",
+        "effect_text": "Einzelangriff",
+        "simple_desc": "Fügt einem Gegner geringen Feuer-SCH zu.",
+        "desc": "Fügt einem anvisierten Gegner Feuer-SCH in Höhe von #1[i]% von Fugues ANG zu.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1225_basic_atk.png"
+    },
+    "122502": {
+        "id": "122502",
+        "name": "Verdiente Glückseligkeit",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Fertigkeit",
+        "effect": "Support",
+        "effect_text": "Unterstützung",
+        "simple_desc": "Verleiht einem Verbündeten „Fuchsgebet“, erhöht den Brucheffekt und bewirkt, dass Angriffe auf Gegner den WDS unabhängig vom Schwächetyp reduzieren können.\nDiese Einheit tritt in den Status „Flammend“ ein, wodurch der Standardangriff verstärkt wird. Wenn Verbündete mit „Fuchsgebet“ angreifen, hat Fugue eine hohe Chance, die VTD des Gegners zu reduzieren.",
+        "desc": "Verleiht einem anvisierten Verbündeten „Fuchsgebet“ und tritt selbst für #1[i] Rd. in den Status „Flammend“ ein. Die Dauer dieses Status wird jeweils zu Beginn von Fugues Runde um 1 verringert. Fuchsgebet wirkt nur auf das letzte Ziel der Fertigkeit von Fugue.\nDer Brucheffekt von Verbündeten mit Fuchsgebet wird um #2[i]% erhöht. Angriffe auf Gegner können den WDS unabhängig vom Schwächetyp reduzieren, wobei der Effekt #6[i]% des ursprünglichen WDS-Reduzierungswerts entspricht und nicht mit anderen Effekten, die WDS unabhängig vom Schwächetyp reduzieren, gestapelt werden kann.\nIm Status „Flammend“ wird Fugues Standardangriff verstärkt. Nach jedem Angriff von Verbündeten mit „Fuchsgebet“ hat Fugue eine Grundchance von #3[i]%, die VTD des Angriffsziels für #5[i] Rd. um #4[i]% zu reduzieren.",
+        "params": [
+            [
+                3,
+                0.15,
+                1,
+                0.08,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.165,
+                1,
+                0.09,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.18,
+                1,
+                0.1,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.195,
+                1,
+                0.11,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.21,
+                1,
+                0.12,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.225,
+                1,
+                0.13,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.2437,
+                1,
+                0.1425,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.2625,
+                1,
+                0.155,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.2812,
+                1,
+                0.1675,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.3,
+                1,
+                0.18,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.315,
+                1,
+                0.19,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.33,
+                1,
+                0.2,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.345,
+                1,
+                0.21,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.36,
+                1,
+                0.22,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.375,
+                1,
+                0.23,
+                2,
+                0.5
+            ]
+        ],
+        "icon": "icon/skill/1225_skill.png"
+    },
+    "122503": {
+        "id": "122503",
+        "name": "Sonnenpracht scheint auf alle",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "AoEAttack",
+        "effect_text": "Flächenangriff",
+        "simple_desc": "Fügt allen Gegnern Feuer-SCH zu. Dieser Angriff verringert unabhängig vom Schwächetyp den WDS aller Gegner.",
+        "desc": "Fügt allen Gegnern Feuer-SCH in Höhe von #1[i]% von Fugues ANG zu. Dieser Angriff verringert unabhängig vom Schwächetyp den WDS aller Gegner. Wenn Gegner Schwächebruch erleiden, wird der Effekt Schwächebruch: Feuer ausgelöst.",
+        "params": [
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ],
+            [
+                1.4
+            ],
+            [
+                1.5
+            ],
+            [
+                1.625
+            ],
+            [
+                1.75
+            ],
+            [
+                1.875
+            ],
+            [
+                2
+            ],
+            [
+                2.1
+            ],
+            [
+                2.2
+            ],
+            [
+                2.3
+            ],
+            [
+                2.4
+            ],
+            [
+                2.5
+            ]
+        ],
+        "icon": "icon/skill/1225_ultimate.png"
+    },
+    "122504": {
+        "id": "122504",
+        "name": "Reichlich Güte verbreitet Tugend",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Impair",
+        "effect_text": "Beeinträchtigung",
+        "simple_desc": "Wenn sich Fugue auf dem Kampffeld befindet, werden Gegner zusätzlich mit „Wolkenflammen“ belegt. Wenn Wolkenflammen auf 0 reduziert wird, erleiden die Gegner einen zusätzlichen Schwächebruch-SCH. Nachdem ein Verbündeter Gegner mit Schwächebruch angegriffen hat, wird zusätzlich Super-Bruch-SCH verursacht.",
+        "desc": "Wenn sich Fugue auf dem Kampffeld befindet, werden Gegner zusätzlich mit „Wolkenflammen“ in Höhe von #2[i]% ihres max. WDS belegt. Wenn der anfängliche WDS auf 0 reduziert wird, kann Wolkenflammen weiter bis auf 0 reduziert werden, woraufhin der Gegner einen zusätzlichen Schwächebruch-SCH erleidet.\nWenn sich Fugue auf dem Kampffeld befindet und nachdem ein Verbündeter einen Gegner mit Schwächebruch angegriffen hat, wird der WDS-Reduzierungswert dieses Angriffs 1-mal in #1[i]% Super-Bruch-SCH umgewandelt.",
+        "params": [
+            [
+                0.5,
+                0.4
+            ],
+            [
+                0.55,
+                0.4
+            ],
+            [
+                0.6,
+                0.4
+            ],
+            [
+                0.65,
+                0.4
+            ],
+            [
+                0.7,
+                0.4
+            ],
+            [
+                0.75,
+                0.4
+            ],
+            [
+                0.8125,
+                0.4
+            ],
+            [
+                0.875,
+                0.4
+            ],
+            [
+                0.9375,
+                0.4
+            ],
+            [
+                1,
+                0.4
+            ],
+            [
+                1.05,
+                0.4
+            ],
+            [
+                1.1,
+                0.4
+            ],
+            [
+                1.15,
+                0.4
+            ],
+            [
+                1.2,
+                0.4
+            ],
+            [
+                1.25,
+                0.4
+            ]
+        ],
+        "icon": "icon/skill/1225_talent.png"
+    },
+    "122506": {
+        "id": "122506",
+        "name": "Angriff",
+        "max_level": 1,
+        "element": "Fire",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Greift den Gegner an und schwächt nach Kampfeintritt den WDS des Ziels gegen den entsprechenden Typ.",
+        "params": [],
+        "icon": "icon/skill/1225_basic_atk.png"
+    },
+    "122507": {
+        "id": "122507",
+        "name": "Hell und klar",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technik",
+        "effect": "Impair",
+        "effect_text": "Beeinträchtigung",
+        "simple_desc": "Belegt Gegner in einem bestimmten Bereich mit Schwindel. Nach Kampfeintritt mit einem Angriff auf von Schwindel betroffenen Gegnern wird Fugues Aktion vorgezogen, wobei eine hohe Chance besteht, jeden Gegner mit dem Status von VTD-Reduktion, der dem von Fugues Fertigkeit entspricht, zu belegen.",
+        "desc": "Belegt nach dem Einsatz der Technik Gegner in einem bestimmten Bereich für #1[i] Sek. mit Schwindel. Von Schwindel betroffene Gegner greifen Verbündete nicht aktiv an.\nNach Kampfeintritt mit einem aktiven Angriff auf von Schwindel betroffene Gegner wird Fugues Aktion um #4[i]% vorgezogen, wobei eine Grundchance von #2[i]% besteht, jeden Gegner für #3[i] Rd. mit dem Status von VTD-Reduktion, der dem von Fugues Fertigkeit entspricht, zu belegen.",
+        "params": [
+            [
+                10,
+                1,
+                2,
+                0.4
+            ]
+        ],
+        "icon": "icon/skill/1225_technique.png"
+    },
+    "122508": {
+        "id": "122508",
+        "name": "Sanfte Flammen",
+        "max_level": 9,
+        "element": "Fire",
+        "type": "Normal",
+        "type_text": "Standardangriff",
+        "effect": "Blast",
+        "effect_text": "Ausdehnung",
+        "simple_desc": "Fügt einem Gegner und angrenzenden Einheiten geringen Feuer-SCH zu.",
+        "desc": "Fügt einem anvisierten Gegner Feuer-SCH in Höhe von #1[i]% von Fugues ANG zu und fügt angrenzenden Einheiten Feuer-SCH in Höhe von #2[i]% von Fugues ANG zu.",
+        "params": [
+            [
+                0.5,
+                0.25
+            ],
+            [
+                0.6,
+                0.3
+            ],
+            [
+                0.7,
+                0.35
+            ],
+            [
+                0.8,
+                0.4
+            ],
+            [
+                0.9,
+                0.45
+            ],
+            [
+                1,
+                0.5
+            ],
+            [
+                1.1,
+                0.55
+            ],
+            [
+                1.2,
+                0.6
+            ],
+            [
+                1.3,
+                0.65
+            ]
+        ],
+        "icon": "icon/skill/1225_basic_atk.png"
     },
     "130101": {
         "id": "130101",
@@ -20948,6 +21346,366 @@
         ],
         "icon": "icon/skill/1312_technique.png"
     },
+    "131301": {
+        "id": "131301",
+        "name": "Funkelnde Ermahnung",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "Standardangriff",
+        "effect": "SingleAttack",
+        "effect_text": "Einzelangriff",
+        "simple_desc": "Fügt einem anvisierten Gegner geringen imaginären SCH zu.",
+        "desc": "Fügt einem anvisierten Gegner imaginären SCH in Höhe von #1[i]% von Sonntags ANG zu.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1313_basic_atk.png"
+    },
+    "131302": {
+        "id": "131302",
+        "name": "Segen aus Papier und Ritualen",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Fertigkeit",
+        "effect": "Support",
+        "effect_text": "Unterstützung",
+        "simple_desc": "Lässt einen anvisierten Verbündeten und sein beschworenes Objekt sofort eine Aktion ausführen und erhöht ihren verursachten SCH. Wenn das Ziel ein beschworenes Objekt besitzt, wird diese SCH-Erhöhung zusätzlich erhöht. \nStellt nach der Anwendung der Fertigkeit auf die „Geheiligten“ 1 Fertigkeitspunkt wieder her.\nWenn Sonntag diese Fähigkeit auf Figuren anwendet, die dem Pfad der Harmonie folgen, kann der Effekt des sofortigen Aktionsvorzugs nicht ausgelöst werden.",
+        "desc": "Lässt einen anvisierten Verbündeten und sein beschworenes Objekt sofort eine Aktion ausführen und erhöht ihren verursachten SCH um #2[i]%. Wenn das Ziel ein beschworenes Objekt besitzt, wird diese SCH-Erhöhung zusätzlich für #3[i] Rd. um #4[i]% erhöht. \nStellt nach der Anwendung der Fertigkeit auf die „Geheiligten“ 1 Fertigkeitspunkt wieder her.\nWenn Sonntag diese Fähigkeit auf Figuren anwendet, die dem Pfad der Harmonie folgen, kann der Effekt des sofortigen Aktionsvorzugs nicht ausgelöst werden.",
+        "params": [
+            [
+                1,
+                0.15,
+                2,
+                0.25
+            ],
+            [
+                1,
+                0.165,
+                2,
+                0.275
+            ],
+            [
+                1,
+                0.18,
+                2,
+                0.3
+            ],
+            [
+                1,
+                0.195,
+                2,
+                0.325
+            ],
+            [
+                1,
+                0.21,
+                2,
+                0.35
+            ],
+            [
+                1,
+                0.225,
+                2,
+                0.375
+            ],
+            [
+                1,
+                0.2437,
+                2,
+                0.4062
+            ],
+            [
+                1,
+                0.2625,
+                2,
+                0.4375
+            ],
+            [
+                1,
+                0.2812,
+                2,
+                0.4688
+            ],
+            [
+                1,
+                0.3,
+                2,
+                0.5
+            ],
+            [
+                1,
+                0.315,
+                2,
+                0.525
+            ],
+            [
+                1,
+                0.33,
+                2,
+                0.55
+            ],
+            [
+                1,
+                0.345,
+                2,
+                0.575
+            ],
+            [
+                1,
+                0.36,
+                2,
+                0.6
+            ],
+            [
+                1,
+                0.375,
+                2,
+                0.625
+            ]
+        ],
+        "icon": "icon/skill/1313_skill.png"
+    },
+    "131303": {
+        "id": "131303",
+        "name": "Gelobt sei die Sanftheit und die Narbe",
+        "max_level": 15,
+        "element": "",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "Support",
+        "effect_text": "Unterstützung",
+        "simple_desc": "Stellt bei einem anvisierten Verbündeten Energie wieder her und lässt ihm sowie sein beschworenes Objekt zu „Geheiligten“ werden. Erhöht den KRIT-SCH von den Geheiligten.",
+        "desc": "Stellt bei einem anvisierten Verbündeten Energie in Höhe von #1[f1]% der max. Energie wieder her und lässt ihm sowie sein beschworenes Objekt zu „Geheiligten“ werden. Der KRIT-SCH der Geheiligten wird um #2[f1]% von Sonntags KRIT-SCH plus #4[f1]% erhöht.\nZu Beginn von Sonntags Runde wird die Dauer der Geheiligten jeweils um 1 verringert. Dieser Effekt hält insgesamt #3[i] Rd. an und wirkt nur beim letzten Ziel des Ultimates (Sonntag ausgeschlossen). Wenn Sonntag handlungsunfähig wird, wird der Effekt „Geheiligter“ aufgehoben.",
+        "params": [
+            [
+                0.2,
+                0.12,
+                3,
+                0.08
+            ],
+            [
+                0.2,
+                0.138,
+                3,
+                0.084
+            ],
+            [
+                0.2,
+                0.156,
+                3,
+                0.088
+            ],
+            [
+                0.2,
+                0.174,
+                3,
+                0.092
+            ],
+            [
+                0.2,
+                0.192,
+                3,
+                0.096
+            ],
+            [
+                0.2,
+                0.21,
+                3,
+                0.1
+            ],
+            [
+                0.2,
+                0.2325,
+                3,
+                0.105
+            ],
+            [
+                0.2,
+                0.255,
+                3,
+                0.11
+            ],
+            [
+                0.2,
+                0.2775,
+                3,
+                0.115
+            ],
+            [
+                0.2,
+                0.3,
+                3,
+                0.12
+            ],
+            [
+                0.2,
+                0.318,
+                3,
+                0.124
+            ],
+            [
+                0.2,
+                0.336,
+                3,
+                0.128
+            ],
+            [
+                0.2,
+                0.354,
+                3,
+                0.132
+            ],
+            [
+                0.2,
+                0.372,
+                3,
+                0.136
+            ],
+            [
+                0.2,
+                0.39,
+                3,
+                0.14
+            ]
+        ],
+        "icon": "icon/skill/1313_ultimate.png"
+    },
+    "131304": {
+        "id": "131304",
+        "name": "Körper des Beichters",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Support",
+        "effect_text": "Unterstützung",
+        "simple_desc": "Erhöht beim Einsatz der Fertigkeit die KRIT-Rate des Ziels.",
+        "desc": "Erhöht beim Einsatz der Fertigkeit die KRIT-Rate des Ziels für #2[i] Rd. um #1[f1]%.",
+        "params": [
+            [
+                0.1,
+                3
+            ],
+            [
+                0.11,
+                3
+            ],
+            [
+                0.12,
+                3
+            ],
+            [
+                0.13,
+                3
+            ],
+            [
+                0.14,
+                3
+            ],
+            [
+                0.15,
+                3
+            ],
+            [
+                0.1625,
+                3
+            ],
+            [
+                0.175,
+                3
+            ],
+            [
+                0.1875,
+                3
+            ],
+            [
+                0.2,
+                3
+            ],
+            [
+                0.21,
+                3
+            ],
+            [
+                0.22,
+                3
+            ],
+            [
+                0.23,
+                3
+            ],
+            [
+                0.24,
+                3
+            ],
+            [
+                0.25,
+                3
+            ]
+        ],
+        "icon": "icon/skill/1313_talent.png"
+    },
+    "131306": {
+        "id": "131306",
+        "name": "Angriff",
+        "max_level": 1,
+        "element": "Imaginary",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Greift den Gegner an und schwächt nach Kampfeintritt den WDS des Ziels gegen den entsprechenden Typ.",
+        "params": [],
+        "icon": "icon/skill/1313_basic_atk.png"
+    },
+    "131307": {
+        "id": "131307",
+        "name": "Die glorreichen Geheimnisse",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technik",
+        "effect": "Support",
+        "effect_text": "Unterstützung",
+        "simple_desc": "Wenn Sonntag nach dem Einsatz der Technik im nächsten Kampf zum ersten Mal auf einen Verbündeten eine Fähigkeit anwendet, wird der verursachte SCH des Ziels erhöht.",
+        "desc": "Wenn Sonntag nach dem Einsatz der Technik im nächsten Kampf zum ersten Mal auf einen Verbündeten eine Fähigkeit anwendet, wird der verursachte SCH des Ziels für #2[i] Rd. um #1[i]% erhöht.",
+        "params": [
+            [
+                0.5,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1313_technique.png"
+    },
     "131401": {
         "id": "131401",
         "name": "Peitsche des Reichtums",
@@ -21113,7 +21871,7 @@
         "type_text": "Ultimate",
         "effect": "AoEAttack",
         "effect_text": "Flächenangriff",
-        "simple_desc": "Fügt allen Gegnern Quanten-SCH zu und erhält einen erhöhten SCH-Multiplikator für Folgeangriffe.",
+        "simple_desc": "Fügt allen Gegnern Quanten-SCH zu und erhöht den SCH-Multiplikator für Folgeangriffe des Talents.",
         "desc": "Fügt allen Gegnern Quanten-SCH in Höhe von #3[i]% von Jades ANG zu. Verstärkt gleichzeitig den Folgeangriff von Jades Talent, indem sein SCH-Multiplikator um #1[i]% erhöht wird. Der Verstärkungseffekt kann #2[i]-mal wirksam werden.",
         "params": [
             [
@@ -22129,7 +22887,7 @@
         "type_text": "Technik",
         "effect": "Enhance",
         "effect_text": "Verstärkung",
-        "simple_desc": "Tritt in den Status „Graffiti“ ein. Bewegt sich eine bestimmte Strecke schnell vorwärts und greift alle berührten Gegner an. Nachdem durch Angriff auf Gegner ein Kampf eingeleitet wurde, wird jedem Gegner  WDS-Reduzierung unabhängig vom Schwächetyp zugefügt. Verursacht außerdem bei ihnen sowie angrenzenden Einheiten imaginären Bruch-SCH. Gleichzeitig stellt diese Einheit Energie wieder her.",
+        "simple_desc": "Tritt in den Status „Graffiti“ ein. Bewegt sich eine bestimmte Strecke schnell vorwärts und greift alle berührten Gegner an. Nachdem durch Angriff auf Gegner ein Kampf eingeleitet wurde, wird jedem Gegner WDS-Reduzierung unabhängig vom Schwächetyp zugefügt. Verursacht außerdem bei ihnen sowie angrenzenden Einheiten imaginären Bruch-SCH. Gleichzeitig stellt diese Einheit Energie wieder her.",
         "desc": "Tritt nach dem Einsatz der Technik für #1[i] Sek. in den Status „Graffiti“ ein. Bewegt sich eine bestimmte Strecke schnell vorwärts, greift alle berührten Gegner an und blockt dabei alle eingehenden Angriffe ab. Im Status Graffiti können Angriffe die Dauer vorzeitig beenden. Nachdem durch einen Angriff auf Gegner aktiv ein Kampf eingeleitet wurde, werden jedem Gegner #5[i] Pkt. WDS-Reduzierung unabhängig vom Schwächetyp zugefügt. Außerdem wird bei ihnen Bruch-SCH in Höhe von #2[i]% des imaginären Bruch-SCH von Rappa sowie bei angrenzenden Einheiten Bruch-SCH in Höhe von #3[i]% des imaginären Bruch-SCH von Rappa verursacht. Gleichzeitig stellt diese Einheit #4[i] Pkt. Energie wieder her.",
         "params": [
             [
@@ -22366,7 +23124,7 @@
         "max_level": 9,
         "element": "Imaginary",
         "type": "Normal",
-        "type_text": "Pfadresonanz",
+        "type_text": "Standardangriff",
         "effect": "Blast",
         "effect_text": "Ausdehnung",
         "simple_desc": "Die ersten 2 Treffer fügen einem anvisierten Gegner und angrenzenden Einheiten geringen imaginären SCH zu. Der dritte Treffer fügt allen Gegnern geringen imaginären SCH zu. Angriffe auf Gegner ohne imaginäre Schwäche können ebenfalls WDS reduzieren.",

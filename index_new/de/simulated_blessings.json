@@ -44,7 +44,7 @@
     "612027": {
         "id": "612027",
         "name": "Resonanzkreuzung: Versetzter Aufstieg",
-        "desc": "Der Einsatz von Ultimates erhöht die physische WDS-DUR der nächsten Pfadresonanz um 8%, bis zu 8-fach stapelbar.",
+        "desc": "Der Einsatz von Ultimates erhöht die physische WDS-DUR der nächsten Pfadresonanz um 8%, bis zu 8-mal stapelbar.",
         "enhanced_desc": ""
     },
     "612030": {
@@ -2498,7 +2498,13 @@
     "670010": {
         "id": "670010",
         "name": "Stadtrestaurator",
-        "desc": "„Kometenkern“ erscheint in der Aktionsreihenfolge. Bei jeder Aktion absorbiert er die Schilde aller Verbündeten, wobei die Schildmenge auf 1 reduziert wird, verwandelt sie in seine eigene Schildmenge und verursacht bei allen Gegnern physischen SCH in Höhe von 2500% der absorbierten Schildmenge + 1000% des Basis-SCH. Es besteht eine Grundchance von 75%, Gegner für 1 Rd. einzufrieren. Wenn Figuren SCH erleiden, wird die Schildmenge des Kometenkerns zuerst verbraucht. Wenn Beben-SCH verursacht wird, werden 70% der Schildmenge von Kometenkern als Schild der Figur angesehen.",
+        "desc": "„Kometenkern“ erscheint in der Aktionsreihenfolge. Bei jeder Aktion absorbiert er die Schilde aller Verbündeten, wobei die Schildmenge auf 1 reduziert wird, verwandelt sie in seine eigene Schildmenge und verursacht bei allen Gegnern physischen SCH in Höhe von 2500% der absorbierten Schildmenge + 1000% des Basis-SCH. Es besteht eine Grundchance von 100%, Gegner für 1 Rd. einzufrieren. Wenn Figuren SCH erleiden, wird die Schildmenge des Kometenkerns zuerst verbraucht. Wenn Beben-SCH verursacht wird, werden 80% der Schildmenge von Kometenkern als Schild der Figur angesehen.",
+        "enhanced_desc": ""
+    },
+    "670060": {
+        "id": "670060",
+        "name": "Herzloser Riese",
+        "desc": "Beben-SCH wird als Folgeangriff-SCH betrachtet. Nachdem eine Figur einen Folgeangriff gestartet hat, erhalten alle Verbündeten 1 Stapelung „Mechanisches Teil“, bis zu 77 Stapelungen. Nachdem eine Figur mit Schild angegriffen wurde, werden alle Stapelungen von Mechanisches Teil dieser Einheit verbraucht und 7-mal Beben-SCH eines zufälligen Typs in Höhe von 177% der aktuellen Schildmenge verursacht. Für jede verbrauchte Stapelung wird dieser SCH um 7% erhöht.",
         "enhanced_desc": ""
     },
     "670140": {
@@ -2513,10 +2519,22 @@
         "desc": "„Vergessenheit“ erscheint in der Aktionsreihenfolge. Für je 10 Pkt. von einem Verbündeten verursachte tatsächliche WDS-Reduzierung wird dessen Aktion um 3% vorgezogen. Wenn „Vergessenheit“ eine Aktion ausführt, verursacht sie Eis-SCH mit einem Basis-SCH von 2000%, fügt allen Gegnern 20 Pkt. WDS-Reduzierung zu und belegt sie mit einer Grundchance von 150% für 1 Rd. mit Dissoziation. Erlittener SCH wird für 2 Rd. um 60% erhöht.",
         "enhanced_desc": ""
     },
+    "670210": {
+        "id": "670210",
+        "name": "Relativer Nachzeichner",
+        "desc": "Wenn ein Gegner mit Verdacht, Gefroren oder DoT-Status belegt ist, besteht eine Grundchance von 150%, diese Status auf angrenzende Einheiten auszudehnen. Sind keine angrenzenden Einheiten vorhanden, wird der Status auf das ursprüngliche Ziel ausgedehnt. Jeder Status kann auf ein Ziel nur 1-mal pro Aktion ausgedehnt werden. Jedes Mal, wenn ein Gegner 20-mal eine Ausdehnung erlitten hat, oder besiegt wird, erleiden er und angrenzende Einheiten Eis-SCH in Höhe von 1200% des Basis-SCH, wobei eine Grundchance von 60% besteht, die Ziele für 1 Rd. einzufrieren.",
+        "enhanced_desc": ""
+    },
     "670280": {
         "id": "670280",
         "name": "Institut für Selbstzertifikation",
         "desc": "Wenn Verdacht 99 Stapelungen erreicht, werden diese verbraucht und zu 1 Stapelung „Selbstverleugnung“ umgewandelt: Erhöht den vom Angreifer an der Einheit verursachten DoT um 70%. Jede Stapelung erhöht ihn zusätzlich um 10%, bis zu #10[i] Stapelungen. Der Gegner erleidet zu Beginn seiner Runde Blitz-DoT in Höhe von 135% des Basis-SCH und angrenzende Einheiten erleiden Blitz-DoT in Höhe von 20% des ursprünglichen SCH-Multiplikators. Bei 2 oder mehr Stapelungen: Stellt zu Beginn der Runde für 1 zufällige Figur 20% von Gehirn im Tank wieder her. Bei 3 oder mehr Stapelungen: Stellt zu Beginn der Runde für alle Verbündeten 10% von Gehirn im Tank wieder her.",
+        "enhanced_desc": ""
+    },
+    "670320": {
+        "id": "670320",
+        "name": "Kräutersammler",
+        "desc": "Beim Kampfeintritt erhalten Gegner „Allheilmittel“: Wenn Tautropfen bricht, wird Allheilmittel des Angriffsziels um 5% aufgeladen, bis zu 100% der Gesamtsumme der max. LP aller Figuren. Zu Beginn der Runde des Gegners wird Aufladung verbraucht, er erleidet Wind-DoT in Höhe von 200% des Basis-SCH und alle Verbündeten stellen LP in Höhe von 5% der max. LP wieder her. Für je 1 % Aufladung, die der Gesamtsumme der max. LP aller Verbündeten entspricht, wird dieser SCH um 8% und die wiederhergestellten LP um 4% erhöht.",
         "enhanced_desc": ""
     },
     "670350": {
@@ -2546,7 +2564,7 @@
     "670580": {
         "id": "670580",
         "name": "Gelehrter der Auslöschung",
-        "desc": "Nachdem eine Figur getroffen wurde, erhält sie 2 Auslöschungsformel(n); nach dem Einsatz eines Konters erhält sie 1 Auslöschungsformel(n). Wenn die Figur 6 Auslöschungsformeln besitzt, werden alle Auslöschungsformeln entfernt und der Ultimate-SCH bis zum Ende der Runde um 150% erhöht. Fügt außerdem allen Gegnern zusätzlichen SCH in Höhe von 650% des ANG der Figur zu. Dieser SCH wird als Ultimate-SCH angesehen.",
+        "desc": "Nachdem eine Figur getroffen wurde, erhält sie 2 Auslöschungsformel(n); nach dem Einsatz eines Konters erhält sie 1 Auslöschungsformel(n). Wenn die Figur 6 Auslöschungsformeln besitzt, werden alle Auslöschungsformeln entfernt und der Ultimate-SCH für 2 Rd. um 150% erhöht. Fügt außerdem allen Gegnern zusätzlichen SCH in Höhe von 650% des ANG der Figur zu. Dieser SCH wird als Ultimate-SCH angesehen.",
         "enhanced_desc": ""
     },
     "670630": {
@@ -2561,10 +2579,16 @@
         "desc": "In der Aktionsreihenfolge wird eine „Visitenkarte“ angezeigt: Nachdem eine Figur einen Folgeangriff ausgelöst hat, wird ihre Aktion um 5% vorgezogen. Während der Aktion wird die Aktion der ersten Figur in der Teamformation um 100% vorgezogen. Nach einem Angriff wird 10-mal Nachgeschmack-SCH in Höhe von 40% des ANG der Figur verursacht. Dieser Effekt kann bis zu 4-mal ausgelöst werden. Der SCH-Multiplikator des Nachgeschmack-SCH aller Verbündeten werden um 100% des ursprünglichen SCH-Multiplikators erhöht. Außerdem erscheint ein Countdown mit einer GES von 100 in der Aktionsreihenfolge. Der Effekt dauert bis zum Beginn der Runde dieses Countdowns an.",
         "enhanced_desc": ""
     },
+    "670700": {
+        "id": "670700",
+        "name": "Sternwickler-Wurm",
+        "desc": "Erhöht den von Gegnern erlittenen Standardangriff- und Fertigkeits-SCH um 100%. „Schwarm-Erben“ erscheint in der Aktionsreihenfolge: Wenn Verbündete Fertigkeitspunkte erhalten oder verbrauchen, erhalten sie für ihren nächsten Angriff 1 zusätzlichen Treffer. Zu Beginn einer Runde fügen sie für jeden Treffer einem zufälligen Gegner Wind-SCH in Höhe von 500% des Basis-SCH zu und gewähren allen Verbündeten einen Schild in Höhe von 3% der max. LP. Die Trefferzahl von Schwarm-Erben beträgt mindestens 10.",
+        "enhanced_desc": ""
+    },
     "670720": {
         "id": "670720",
         "name": "Kind des Unheils",
-        "desc": "Gegner erhalten beim Kampfeintritt „Aushöhlung“: Aushöhlung zeichnet die Anzahl von Sporen auf, mit denen die betroffene Einheit belegt ist. Wenn 18 Sporen angesammelt sind, fügen sie allen Gegnern Quanten-SCH in Höhe von 1800% des Basis-SCH zu. Für jeden Debuff wird dieser SCH um 10% erhöht, bis zu 100%. Dann wird die aufgezeichnete Anzahl zurückgesetzt.",
+        "desc": "Gegner erhalten beim Kampfeintritt „Aushöhlung“: Aushöhlung zeichnet die Anzahl von Sporen auf, mit denen die betroffene Einheit belegt ist. Wenn 18 Sporen angesammelt sind, fügen sie allen Gegnern Quanten-SCH in Höhe von 2200% des Basis-SCH zu. Für jeden Debuff wird dieser SCH um 10% erhöht, bis zu 100%. Dann wird die aufgezeichnete Anzahl zurückgesetzt.",
         "enhanced_desc": ""
     },
     "670860": {
@@ -2576,7 +2600,7 @@
     "670870": {
         "id": "670870",
         "name": "Aggregator",
-        "desc": "Nachdem alle Verbündeten insgesamt 2-mal ihre Ultimates eingesetzt haben, erleidet ein zufälliger Gegner 2 Treffer, die jeweils Wind-SCH in Höhe von 400% des Basis-SCH verursachen, und wird mit 1 Spore belegt. Außerdem erleiden angrenzende Einheiten SCH in Höhe von 30% des ursprünglichen SCH. Jedes Mal, wenn dieser Effekt ausgelöst wird, wird die Trefferzahl in diesem Kampf um 1 und der von Figuren verursachte Ultimate-SCH um 5% erhöht. Dieser Effekt ist bis zu 20-fach stapelbar.",
+        "desc": "Nachdem alle Verbündeten insgesamt 2-mal ihre Ultimates eingesetzt haben, erleidet ein zufälliger Gegner 2 Treffer, die jeweils Wind-SCH in Höhe von 400% des Basis-SCH verursachen, und wird mit 1 Spore belegt. Außerdem erleiden angrenzende Einheiten SCH in Höhe von 30% des ursprünglichen SCH. Jedes Mal, wenn dieser Effekt ausgelöst wird, wird die Trefferzahl in diesem Kampf um 1 und der von Figuren verursachte Ultimate-SCH um 7% erhöht. Dieser Effekt ist bis zu 20-mal stapelbar.",
         "enhanced_desc": ""
     },
     "671020": {
@@ -2591,22 +2615,34 @@
         "desc": "Wenn Figuren Beben-SCH verursachen, wird für jede Figur mit max. LP der aktuelle Multiplikator von Beben-SCH um 35% des ursprünglichen Multiplikators erhöht.",
         "enhanced_desc": ""
     },
+    "671060": {
+        "id": "671060",
+        "name": "Sentimentale Wache",
+        "desc": "Erhöht den von Gegnern erlittenen Folgeangriff-SCH um 60%. Wenn ein Gegner von einer Figur besiegt wird, wird für alle Verbündeten aller eingehender SCH außer DoT widerstanden. Dieser Effekt wird nach einem erlittenen Angriff entfernt und hält 2 Rd. an.",
+        "enhanced_desc": ""
+    },
     "671080": {
         "id": "671080",
         "name": "Korrespondenzlehrer für Zivilisation",
         "desc": "Wenn eine Figur ihren Ultimate einsetzt, erhält sie für 3 Rd. einen Schild, der SCH in Höhe von 30% ihrer max. LP absorbiert. Nachdem die Figur durch einen Angriff Ultimate-SCH verursacht, wird dem Ziel Beben-SCH in Höhe von 600% der aktuellen Schildmenge der Figur zugefügt.",
         "enhanced_desc": ""
     },
+    "671120": {
+        "id": "671120",
+        "name": "Schriftsteller",
+        "desc": "Wenn ein Gegner eingefroren wird, wird er mit 10 Stapelung(en) Verdacht belegt. Nachdem er DoT erlitten hat, besteht eine Grundchance von 20%, dass er für 1 Rd. eingefroren wird. Jeder Gegner kann auf diese Art nur 1-mal pro 2 Rd. eingefroren werden.",
+        "enhanced_desc": ""
+    },
     "671130": {
         "id": "671130",
         "name": "Arzt des Gedächtnisses",
-        "desc": "Nachdem eine Figur angegriffen hat, verursacht Tautropfen bei allen eingefrorenen Gegnern 1-mal zusätzlich Tautropfen-SCH in Höhe von 250% des ursprünglichen SCH-Multiplikators. Für jeden eingefrorenen Gegner wird der SCH-Multiplikator zusätzlich um 25% erhöht.",
+        "desc": "Erhöht die Aufladeeffizienz von Tautropfen um 50%. Nachdem eine Figur angegriffen hat, verursacht Tautropfen 1-mal zusätzlichen SCH in Höhe von 250% des ursprünglichen SCH-Multiplikators von Tautropfen bei allen eingefrorenen Gegnern auf dem Feld.",
         "enhanced_desc": ""
     },
     "671170": {
         "id": "671170",
         "name": "Gemächliches Mem",
-        "desc": "Erhöht den von Figuren verursachten Standardangriff-SCH um 160%. Wenn die Figur einen Standardangriff ausführt, werden Gegner mit Schwächebruch als Gefroren angesehen.",
+        "desc": "Erhöht den von Figuren verursachten Standardangriff-SCH um 200%. Wenn die Figur einen Standardangriff ausführt, werden Gegner mit Schwächebruch als Gefroren angesehen.",
         "enhanced_desc": ""
     },
     "671180": {
@@ -2627,6 +2663,12 @@
         "desc": "Erhöht den von Figuren verursachten DoT um 160%. Nachdem eine Figur einem Gegner Debuff zugefügt hat, werden ihre max. LP um 2% erhöht. Dieser Effekt ist bis zu 20-fach stapelbar und hält für 2 Rd. an.",
         "enhanced_desc": ""
     },
+    "671240": {
+        "id": "671240",
+        "name": "Stellvertreter der Vergeltung",
+        "desc": "Nachdem eine Figur einen Angriff ausgeführt hat, wird das Ziel mit 3 Stapelung(en) Verdacht belegt. Die durch Verdacht verliehene Anfälligkeit wird um 20% erhöht. Wenn Figuren Gegner mit Verdacht treffen, wird basierend auf 80% der Stapelzahl von Verdacht ihr verursachter KRIT-SCH erhöht.",
+        "enhanced_desc": ""
+    },
     "671260": {
         "id": "671260",
         "name": "Possenreißer von Anatta",
@@ -2637,6 +2679,12 @@
         "id": "671340",
         "name": "Unsterblicher Fremder",
         "desc": "Wenn Tautropfen aufgeladen wird, besteht für je 1 % der KRIT-Rate der Figur eine feste Chance von 1%, dass der Aufladungswert erhöht wird. Der Prozentsatz der Erhöhung beträgt 50% des KRIT-SCH der Figur.",
+        "enhanced_desc": ""
+    },
+    "671350": {
+        "id": "671350",
+        "name": "Feuermeister",
+        "desc": "Erhöht die max. LP von Figuren um 50%. Für je 10 Pkt. verursachter tatsächlichen WDS-Reduzierung wird der Tautropfen aller Verbündeten um 3% aufgeladen. Wenn Gegner mit Schwächebruch angegriffen werden, wird der Tautropfen aller Verbündeten um 6% aufgeladen.",
         "enhanced_desc": ""
     },
     "671360": {
@@ -2655,6 +2703,12 @@
         "id": "671400",
         "name": "Mechanismus zur Katastrophenverhütung",
         "desc": "Nachdem ein Gegner den Schild einer Figur durch einen Angriff reduziert hat, wird die GES aller Verbündeten für 2 Rd. um 35% erhöht und sie erhalten 2 Stapelungen Kritischer Boost.",
+        "enhanced_desc": ""
+    },
+    "671410": {
+        "id": "671410",
+        "name": "Erfundener Richter",
+        "desc": "Für je 1% erhaltenen echten Aktionsvorzug der Figuren wird der verursachte SCH in der nächsten Runde um 2% erhöht. Bis zu 100% Aktionsvorzug wird gezählt. Bei gefrorenen Gegnern wird dieser Effekt zusätzlich um 50% erhöht.",
         "enhanced_desc": ""
     },
     "671450": {
@@ -2687,10 +2741,16 @@
         "desc": "Nachdem Figuren Gegner mit Schwächebruch angegriffen haben, wird der WDS-Reduzierungswert dieses Angriffs 1-mal in 100% des Super-Bruch-SCH umgewandelt. Nach Erhalt von 30 Stapelungen Kampfgeist wird zusätzlich 100% des Super-Bruch-SCH von diesem Effekt verursacht.",
         "enhanced_desc": ""
     },
+    "671570": {
+        "id": "671570",
+        "name": "Selbstverräter",
+        "desc": "Wenn eine Figur einem Gegner Schwächebruch zufügt, stellt sie 2 Fertigkeitspunkt(e) wieder her. Basierend auf der Gesamtzahl der Stapelungen von Kampfgeist aller Verbündeten wird für je 5 Stapelung(en) Kampfgeist der verursachte Bruch-SCH aller Verbündeten um 2% erhöht.",
+        "enhanced_desc": ""
+    },
     "671610": {
         "id": "671610",
         "name": "Erinnerung eines Künstlers",
-        "desc": "Nachgeschmack hat eine Grundchance von 3%, zuvor nicht eingefrorene Gegner für 1 Rd. einzufrieren. Dieser Effekt kann bei jedem Angriff bis zu 5-mal wirksam sein. Erhöht den SCH-Multiplikator von Nachgeschmack auf eingefrorene Gegner um 150% des ursprünglichen SCH-Multiplikators.",
+        "desc": "Nachgeschmack hat eine Grundchance von 4%, zuvor nicht eingefrorene Gegner für 1 Rd. einzufrieren. Dieser Effekt kann bei jedem Angriff auf jeden Gegner bis zu 5-mal wirksam sein. Erhöht den SCH-Multiplikator von Nachgeschmack auf eingefrorene Gegner um 150% des ursprünglichen SCH-Multiplikators.",
         "enhanced_desc": ""
     },
     "671650": {
@@ -2705,22 +2765,40 @@
         "desc": "Erhöht die max. Anzahl an Sporen auf 5. Nachdem eine Figur einen Folgeangriff gestartet hat, wird das Ziel mit 3 Sporen belegt.",
         "enhanced_desc": ""
     },
+    "671680": {
+        "id": "671680",
+        "name": "Taktik-Fanatiker",
+        "desc": "Erhöht den durch Folgeangriffe der Figuren verursachten KRIT-SCH um 100%. Ultimates, die mit Gehirn im Tank eingesetzt werden und Gegnern SCH zufügen, werden als Folgeangriffe betrachtet.",
+        "enhanced_desc": ""
+    },
     "671700": {
         "id": "671700",
         "name": "Drohne des Unheils",
         "desc": "Wenn eine Figur einen Schild erhält, wird bei 2 zufälligen Gegnern 1 Spore verursacht. Erhöht den SCH-Multiplikator von Sporen um 75% des ursprünglichen Multiplikators.",
         "enhanced_desc": ""
     },
+    "671730": {
+        "id": "671730",
+        "name": "Überreste des Unheils",
+        "desc": "Jedes Mal, wenn 1 Fertigkeitspunkt verbraucht wird oder überschüssig ist, erhalten alle Verbündeten 1 Stapelung „Honigtau“, bis zu 10 Stapelung(en). Nachdem eine Figur einen Angriff ausgeführt hat, werden alle ihre Stapelungen von Honigtau verbraucht. Für jede verbrauchte Stapelung verursacht sie zusätzlichen SCH in Höhe von 80% der max. LP. Dieser Angriff wird als Standardangriff-SCH betrachtet.",
+        "enhanced_desc": ""
+    },
     "671740": {
         "id": "671740",
         "name": "Drohendes Unheil",
-        "desc": "Nachdem eine Figur einen Angriff ausgeführt hat, wird ein zufälliges angegriffenes Ziel mit Sporen belegt. Wenn Verbündete 1/2/3-mal oder mehr hintereinander eine Aktion ausführen, wird die hinzugefügte Anzahl von Sporen zu 2/4/6.",
+        "desc": "Nachdem eine Figur einen Angriff ausgeführt hat, wird ein zufälliges angegriffenes Ziel mit Sporen belegt. Wenn Verbündete 1/2/3-mal oder mehr hintereinander eine Aktion ausführen, wird die hinzugefügte Anzahl von Sporen zu 4/5/6.",
         "enhanced_desc": ""
     },
     "671780": {
         "id": "671780",
         "name": "Drohne der Täuschung",
         "desc": "Erhöht die max. Anzahl an Sporen um 3. Nachdem eine Figur mit einem Angriff Ultimate-SCH verursacht hat und die Sporen des angegriffenen Ziels sich gesprengt haben, erleidet es zusätzlich Ultimate-SCH in Höhe von 250% des ANG der Figur. Jede Spore, die sich bei diesem Angriff gesprengt hat, erhöht den SCH-Multiplikator um 30%.",
+        "enhanced_desc": ""
+    },
+    "671800": {
+        "id": "671800",
+        "name": "Pflegearbeiter der Astralökologie",
+        "desc": "Erhöht den von Gegnern erlittenen Ultimate-SCH um 75%. Wenn Figuren mit Schild angegriffen werden, wird Gehirn im Tank um 12% aufgeladen.",
         "enhanced_desc": ""
     },
     "671820": {
@@ -2745,6 +2823,12 @@
         "id": "672010",
         "name": "Architektenhistoriker",
         "desc": "Wenn eine Figur angreift und einen Gegner einfriert, erhalten alle Verbündeten für 3 Rd. einen Schild in Höhe von 25% ihrer max. LP. Für jeden eingefrorenen Gegner bei diesem Angriff wird die erhaltene Schildmenge um 5% ihrer max. LP erhöht.",
+        "enhanced_desc": ""
+    },
+    "672020": {
+        "id": "672020",
+        "name": "Hüter des Mausoleums",
+        "desc": "Erhöht den Effekt-WDS von Figuren um 25% und ihren verursachten Beben-SCH um 50%. Beim Abwehren von erlittenen Debuffs wird dem Ziel Beben-SCH in Höhe von 400% der aktuellen Schildmenge zugefügt.",
         "enhanced_desc": ""
     },
     "672030": {
@@ -2777,6 +2861,12 @@
         "desc": "Wenn Figuren einen Nicht-Elitegegner mit aktuellem LP-Prozentsatz von weniger als 50% angreifen, besteht eine Grundchance von 150%, bei ihm für 1 Rd. Dissoziation zu verursachen und ihm eine bestimmte Menge KRIT-SCH in Höhe seiner aktuellen LP zuzufügen.",
         "enhanced_desc": ""
     },
+    "672150": {
+        "id": "672150",
+        "name": "Reinigender",
+        "desc": "Wenn die aktuellen LP von Gegnern 60% ihrer max. LP übersteigen, wird die Dauer von Gefroren bei ihnen um 1 Rd. verlängert. Erhöht den von eingefrorenen Gegnern erlittenen SCH um 30%.",
+        "enhanced_desc": ""
+    },
     "672160": {
         "id": "672160",
         "name": "Biograf",
@@ -2793,6 +2883,12 @@
         "id": "672200",
         "name": "Nachtwache",
         "desc": "Gegner werden beim Kampfeintritt mit Bluten belegt. Im Status Bluten erleiden sie zu Beginn jeder Runde physischen DoT in Höhe von 10% ihrer max. LP. Dieser SCH kann 650% der gesamten Schildmenge aller Verbündeten nicht überschreiten.",
+        "enhanced_desc": ""
+    },
+    "672230": {
+        "id": "672230",
+        "name": "Doktoren des Chaos",
+        "desc": "Erhöht den von Figuren verursachten DoT um 50%. Gegner werden beim Kampfeintritt mit „Beobachtung“ belegt. Zu Beginn der Runde erleiden sie Feuer-DoT in Höhe von 300% der gesamten max. LP aller Verbündeten.",
         "enhanced_desc": ""
     },
     "672240": {
@@ -2816,13 +2912,19 @@
     "672340": {
         "id": "672340",
         "name": "Flügelschwinger",
-        "desc": "Wenn ein Gegner besiegt wird, wird die Aufladeeffizienz von Tautropfen um 10% erhöht. Dieser Effekt ist bis zu 10-fach stapelbar. Außerdem werden bei allen Verbündeten LP in Höhe von 50% ihrer max. LP wiederhergestellt.",
+        "desc": "Wenn ein Gegner besiegt wird, wird die Aufladeeffizienz von Tautropfen um 20% erhöht. Dieser Effekt ist bis zu 4-fach stapelbar. Außerdem werden bei allen Verbündeten LP in Höhe von 50% ihrer max. LP wiederhergestellt.",
         "enhanced_desc": ""
     },
     "672350": {
         "id": "672350",
         "name": "Houyhnhnm",
         "desc": "Jede Stapelung Kampfgeist, die eine Figur besitzt, erhöht ihre LP-Wiederherstellung um 2%.",
+        "enhanced_desc": ""
+    },
+    "672360": {
+        "id": "672360",
+        "name": "Merkwürdiger Mediziner",
+        "desc": "Erhöht die Obergrenze von Tautropfen um 50%. Stellt nach dem Ausführen von Folgeangriffen bei der Figur mit dem niedrigsten LP-Prozentsatz LP in Höhe von 10% ihrer max. LP wieder her.",
         "enhanced_desc": ""
     },
     "672370": {
@@ -2834,7 +2936,7 @@
     "672371": {
         "id": "672371",
         "name": "Baum des Verderbens",
-        "desc": "Erhöht die bewirkte Heilung von Figuren um 30%. Nachdem sie Verbündete geheilt haben, wird ein zufälliger Gegner mit 1 Spore(n) belegt.",
+        "desc": "Erhöht die bewirkte Heilung von Figuren um 30%. Nachdem sie Verbündete geheilt haben, wird ein zufälliger Gegner mit 2 Spore(n) belegt.",
         "enhanced_desc": ""
     },
     "672400": {
@@ -2853,6 +2955,12 @@
         "id": "672430",
         "name": "Pazifist",
         "desc": "Wenn die Runde einer Figur beginnt, stellt jede Stapelung Kritischer Boost bei ihr LP in Höhe von 5% ihrer max. LP und bei Teammitgliedern LP in Höhe von 2% ihrer max. LP wieder her.",
+        "enhanced_desc": ""
+    },
+    "672470": {
+        "id": "672470",
+        "name": "Umherstreifender Wanderer",
+        "desc": "Erhöht den Standardangriff- und Fertigkeits-KRIT-SCH von Figuren um 100%. Überschüssige Stapelungen Kritischer Boost werden zu Beginn der Runde einer Figur erneut erhalten.",
         "enhanced_desc": ""
     },
     "672480": {
@@ -2877,6 +2985,12 @@
         "id": "672530",
         "name": "Pyromane",
         "desc": "Jede Stapelung Kampfgeist erhöht die max. LP der Figur um 6%, aber die max. wiederherstellbaren LP werden um 80% dieses Werts reduziert.",
+        "enhanced_desc": ""
+    },
+    "672540": {
+        "id": "672540",
+        "name": "Stromaufwärts mit dem Sand",
+        "desc": "Erhöht die Schwächebruch-Effizienz der Figuren um 20%. Nach dem Verursachen von Schwächebruch wird ihre GES für 3 Rd. um 25% erhöht.",
         "enhanced_desc": ""
     },
     "672580": {
@@ -2909,6 +3023,18 @@
         "desc": "Erhöht den von Figuren verursachten Folgeangriff-SCH um 50%. Nachdem eine Figur einen Folgeangriff ausgeführt hat, besteht eine feste Chance von 100%, dass 1 Fertigkeitspunkt wiederhergestellt wird.",
         "enhanced_desc": ""
     },
+    "672680": {
+        "id": "672680",
+        "name": "Schöpfungssänger",
+        "desc": "Nachdem Figuren ihren Ultimate eingesetzt haben, wird 2-mal Nachgeschmack-SCH in Höhe von 150% des ANG der Figur nach dem nächsten Angriff verursacht.",
+        "enhanced_desc": ""
+    },
+    "672700": {
+        "id": "672700",
+        "name": "Überreste des Phantoms",
+        "desc": "Erhöht den von Figuren verursachten Standardangriff- und Fertigkeits-SCH um 60%. Wenn Sporen platzen, wird der verursachte SCH um 100% der gesamten Schildmenge aller Verbündeten erhöht.",
+        "enhanced_desc": ""
+    },
     "672710": {
         "id": "672710",
         "name": "Drohne des Phantoms",
@@ -2930,7 +3056,13 @@
     "672750": {
         "id": "672750",
         "name": "Drohne des Sternenbrechers",
-        "desc": "Erhöht den von Figuren verursachten Standardangriff-SCH um 50%. Wenn eine Figur ihren Standardangriff einsetzt und ihr LP-Prozentsatz 50% oder mehr beträgt, werden LP in Höhe von 5% ihrer max. LP verbraucht und 1 zusätzlicher Fertigkeitspunkt wiederhergestellt.",
+        "desc": "Erhöht den von Figuren verursachten Standardangriff-SCH um 80%. Wenn eine Figur ihren Standardangriff einsetzt und ihr LP-Prozentsatz 50% oder mehr beträgt, werden LP in Höhe von 5% ihrer max. LP verbraucht und 1 zusätzlicher Fertigkeitspunkt wiederhergestellt.",
+        "enhanced_desc": ""
+    },
+    "672810": {
+        "id": "672810",
+        "name": "Candelagraph-Kontrolleur",
+        "desc": "Wenn Figuren ihren Ultimate einsetzen, wird für je 10 Pkt. verbrauchter Energie ihr ANG um 4% und ihre Effekt-Trefferrate um 2% erhöht. Dieser Effekt ist bis zu 20-fach stapelbar und hält 2 Rd. an. Jeder Einsatz des Ultimates wird als mindestens 80 Pkt. verbrauchte Energie betrachtet.",
         "enhanced_desc": ""
     },
     "672840": {
@@ -2954,7 +3086,7 @@
     "672870": {
         "id": "672870",
         "name": "Kolchis",
-        "desc": "Mit jedem Fertigkeitspunkt, den eine Figur verbraucht, wird ihr verursachter Ultimate-SCH um 45% erhöht, bis zu 135%. Dieser Effekt hält bis nach dem Einsatz des Ultimates an.",
+        "desc": "Mit jedem Fertigkeitspunkt, den eine Figur verbraucht, wird ihr verursachter Ultimate-SCH um 65% erhöht, bis zu 130%. Dieser Effekt hält bis nach dem Einsatz des Ultimates an.",
         "enhanced_desc": ""
     }
 }

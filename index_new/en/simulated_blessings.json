@@ -541,7 +541,7 @@
     },
     "612341": {
         "id": "612341",
-        "name": "Mortals of the Buddha-Field",
+        "name": "The Blessed Many",
         "desc": "When a character's HP is full, increases the Charging Efficiency for Dewdrop by 80%.",
         "enhanced_desc": "When a character's HP is full, increases the Charging Efficiency for Dewdrop by 120%."
     },
@@ -2498,7 +2498,13 @@
     "670010": {
         "id": "670010",
         "name": "City Restorer",
-        "desc": "Comet Nucleus appears in the Action Order: Each time it takes a turn, absorbs all allies' Shields, reducing their values to 1, and turning the absorbed values into its own Shield. Then, it deals Physical DMG equal to 2500% of its Shield value plus 1000% base DMG to all enemies, with a 75% base chance to Freeze enemies for 1 turn(s). When characters take damage, Comet Nucleus's Shield will be consumed first. When Quake DMG is triggered, 70% of Comet Nucleus's Shield will be considered as the character's Shield.",
+        "desc": "Comet Nucleus appears in the Action Order: Each time it takes a turn, absorbs all allies' Shields, reducing their values to 1, and turning the absorbed values into its own Shield. Then, it deals Physical DMG equal to 2500% of its Shield value plus 1000% base DMG to all enemies, with a 100% base chance to Freeze enemies for 1 turn(s). When characters take damage, Comet Nucleus's Shield will be consumed first. When Quake DMG is triggered, 80% of Comet Nucleus's Shield will be considered as the character's Shield.",
+        "enhanced_desc": ""
+    },
+    "670060": {
+        "id": "670060",
+        "name": "Heartless Giant",
+        "desc": "\"Quake\" DMG is considered as Follow-up ATK DMG. After a character launches Follow-up ATKs, all allies gain 1 \"Mechacore Component\" stack, up to 77 stack(s). After a character with a Shield is attacked, consumes all of their \"Mechacore Component\" to deal 7 instances(s) of random-Type \"Quake\" DMG equal to 177% of the current Shield Effect. Every stack consumed increases this DMG by 7%.",
         "enhanced_desc": ""
     },
     "670140": {
@@ -2513,10 +2519,22 @@
         "desc": "Oblivion appears in the Action Order: For every 10 actual Toughness Reduction dealt by an ally, the ally's action Advances Forward by 3%. When Oblivion takes action, deals Ice DMG equal to 2000% base DMG and deals 20 Toughness Reduction to all enemies, with a 150% base chance to inflict the Dissociation state on the targets, lasting for 1 turn(s). The state increases DMG taken by 60%, lasting for 2 turn(s).",
         "enhanced_desc": ""
     },
+    "670210": {
+        "id": "670210",
+        "name": "Relative Tracer",
+        "desc": "When an enemy target is afflicted with \"Suspicion,\" Freeze, or DoT states, there is a 150% base chance of Blasting the state to adjacent targets. When there are no adjacent targets, the state is Blasted to the original target. Each state can only be Blasted by the same target once in a single action. When one enemy target has Blasted a total of 20 time(s) or is defeated, deals Ice DMG equal to 1200% base DMG to that target and adjacent targets, with a 60% base chance to inflict Frozen that lasts for 1 turn(s).",
+        "enhanced_desc": ""
+    },
     "670280": {
         "id": "670280",
         "name": "Self-Proof Institute",
         "desc": "After Suspicion reaches 99 stacks, it will be consumed and turned into 1 stack of Self-Negation: Increases DoT dealt by attackers to this unit by 70%. Each stack additionally increases DoT dealt by 10%, stacking up to #10[i] time(s). At the start of an enemy's turn, they take Lightning DoT equal to 135% of base DMG and cause adjacent targets to take Lightning DoT equal to 20% of the original DMG multiplier. At 2 or more stacks: At the start of the turn, regenerates 20% of Brain in a Vat for a random character. At 3 or more stacks: At the start of the turn, regenerates 10% of Brain in a Vat for all allies.",
+        "enhanced_desc": ""
+    },
+    "670320": {
+        "id": "670320",
+        "name": "Herb Plucker",
+        "desc": "Inflicts \"Panacea\" on enemy targets when they enter battle: When \"Dewdrop\" breaks, charges the attacked target's \"Panacea\" by 5% of the Dewdrop's charge, up to 100% of the sum of all characters' Max HP. At the start of the enemy target's turn, consumes the Charge value, deals Wind DoT equal to 200% base DMG, and restores all allies' HP by 5% of Max HP. For every Charge value that equals 1% of the sum of all characters' Max HP, increases this DMG by 8% and the restored HP amount by 4%.",
         "enhanced_desc": ""
     },
     "670350": {
@@ -2546,7 +2564,7 @@
     "670580": {
         "id": "670580",
         "name": "Annihilation Scholar",
-        "desc": "After characters are attacked, receives 2 Annihilation Form(s). After launching a Counter, receives 1 Annihilation Form(s). When a character possesses 6 Annihilation Form(s), removes all Annihilation Forms from them and increases their Ultimate DMG dealt by 150% until the end of the turn, as well as dealing Additional DMG equal to 650% of the character's ATK to all enemies. This DMG is considered as Ultimate DMG.",
+        "desc": "After characters are attacked, receives 2 Annihilation Form(s). After launching a Counter, receives 1 Annihilation Form(s). When a character possesses 6 Annihilation Form(s), removes all Annihilation Forms from them and increases their Ultimate DMG dealt by 150% for 2 turn(s), as well as dealing Additional DMG equal to 650% of the character's ATK to all enemies. This DMG is considered as Ultimate DMG.",
         "enhanced_desc": ""
     },
     "670630": {
@@ -2561,10 +2579,16 @@
         "desc": "Calling Card appears in the Action Order: After characters launch a follow-up attack, their action advances by 5%. When taking action, advances the action of the first character in the lineup by 100%. After this character uses an attack, deals 10 instance(s) of Aftertaste DMG equal to 40% of the character's ATK, taking effect over a max of 4 attacks. Allies' Aftertaste DMG multiplier increases by 100% of the original multiplier, and a countdown with 100 SPD appears in the Action Order. The effects last until the countdown's turn begins.",
         "enhanced_desc": ""
     },
+    "670700": {
+        "id": "670700",
+        "name": "Star-Molding Worm",
+        "desc": "Basic ATK and Skill DMG taken by enemy targets increase by 100%. \"Hivespawn\" appears on the Action Order: when ally targets gain or consume Skill Points, \"Hivespawn\" gains 1 Hits Per Action for the next attack. At the start of the turn, \"Hivespawn\" deals Wind DMG equal to 500% base DMG to one random enemy for each Hit Per Action, and grants a Shield equal to 3% of respective Max HP for all allies. \"Hivespawn\"'s Hits Per Action will not be less than 10.",
+        "enhanced_desc": ""
+    },
     "670720": {
         "id": "670720",
         "name": "Child of Calamity",
-        "desc": "Enemy target obtains Borehole when entering battle: Borehole will record all Spores numbers accumulated by the holder. After accumulating 18 Spores, deals Quantum DMG to all enemies equal to 1800% of base DMG. For every debuff the enemy has, this DMG increases by 10%, up to an increase of 100%. Then, the accumulated spore count is cleared.",
+        "desc": "Enemy target obtains Borehole when entering battle: Borehole will record all Spores numbers accumulated by the holder. After accumulating 18 Spores, deals Quantum DMG to all enemies equal to 2200% of base DMG. For every debuff the enemy has, this DMG increases by 10%, up to an increase of 100%. Then, the accumulated spore count is cleared.",
         "enhanced_desc": ""
     },
     "670860": {
@@ -2576,7 +2600,7 @@
     "670870": {
         "id": "670870",
         "name": "Aggregator",
-        "desc": "After allies use their Ultimates a total of 2 times, deals 2 instances of Wind DMG equal to 400% of base DMG to a random enemy and applies 1 Spore(s) to it. This DMG will deal DMG equal to 30% of the original DMG to adjacent enemies. Every time this effect is triggered, increases the number of instances in this battle by 1 and increases the Ultimate DMG dealt by characters by 5%, to a maximum of 20 times.",
+        "desc": "After allies use their Ultimates a total of 2 times, deals 2 instances of Wind DMG equal to 400% of base DMG to a random enemy and applies 1 Spore(s) to it. This DMG will deal DMG equal to 30% of the original DMG to adjacent enemies. Every time this effect is triggered, increases the number of instances in this battle by 1 and increases the Ultimate DMG dealt by characters by 7%, to a maximum of 20 times.",
         "enhanced_desc": ""
     },
     "671020": {
@@ -2591,22 +2615,34 @@
         "desc": "When characters deal Quake DMG, every character at Max HP will increase the current Quake DMG multiplier by 35% of the original multiplier.",
         "enhanced_desc": ""
     },
+    "671060": {
+        "id": "671060",
+        "name": "Sentimental Guardian",
+        "desc": "The Follow-up ATK DMG taken by enemy target increases by 60%. After the character defeats the enemy target, all allies will nullify all DMG received except for DoT. This effect is removed after allies are attacked, lasting for 2 turn(s).",
+        "enhanced_desc": ""
+    },
     "671080": {
         "id": "671080",
         "name": "Civilization Correspondent",
         "desc": "When characters use their Ultimate, they gain a Shield that can offset DMG equal to 30% of their Max HP, lasting for 3 turn(s). After dealing Ultimate DMG with an attack, deals Quake DMG equal to 600% of the character's current Shield Effect to the attacked targets.",
         "enhanced_desc": ""
     },
+    "671120": {
+        "id": "671120",
+        "name": "Bookwriter",
+        "desc": "When enemy targets are Frozen, inflicts 10 stack(s) of \"Suspicion.\" After suffering DoT, there is a 20% base chance the target will enter the Frozen state for 1 turn(s). Every enemy target can only enter the Frozen state through this method 1 time every 2 turn(s).",
+        "enhanced_desc": ""
+    },
     "671130": {
         "id": "671130",
         "name": "Memory Doctor",
-        "desc": "After a character launches an attack, Dewdrop will additionally deal Dewdrop DMG 1 time equal to 250% of the original Dewdrop DMG multiplier to all Frozen enemy targets. Every Frozen enemy target additionally increases the DMG multiplier by 25%.",
+        "desc": "\"Dewdrop\"'s Charging Efficiency increases by 50%. After a character launches an attack, \"Dewdrop\" will additionally deal \"Dewdrop\" DMG 1 time equal to 250% of the original \"Dewdrop\" DMG multiplier to all Frozen enemy targets.",
         "enhanced_desc": ""
     },
     "671170": {
         "id": "671170",
         "name": "Wandering Meme",
-        "desc": "Increases characters' Basic ATK DMG dealt by 160%. When using Basic ATK to launch an attack, enemies in the Weakness Broken state will be considered Frozen.",
+        "desc": "Increases characters' Basic ATK DMG dealt by 200%. When using Basic ATK to launch an attack, enemies in the Weakness Broken state will be considered Frozen.",
         "enhanced_desc": ""
     },
     "671180": {
@@ -2627,6 +2663,12 @@
         "desc": "Increases characters' DoT dealt by 160%. After applying a debuff on enemy targets, increases the character's Max HP by 2% to a maximum of 20 stack(s), lasting for 2 turn(s).",
         "enhanced_desc": ""
     },
+    "671240": {
+        "id": "671240",
+        "name": "Executor of Vengeance",
+        "desc": "After a character uses an attack, inflicts 3 stack(s) of \"Suspicion\" on the attacked target. Increases Vulnerability provided by \"Suspicion\" by 20%. When characters hit enemy targets afflicted with \"Suspicion,\" increase CRIT DMG dealt based on 80% of the Vulnerability provided by \"Suspicion.\"",
+        "enhanced_desc": ""
+    },
     "671260": {
         "id": "671260",
         "name": "Jester of Anatta",
@@ -2637,6 +2679,12 @@
         "id": "671340",
         "name": "Eternal Stranger",
         "desc": "When Dewdrop Charges, for every 1% of CRIT Rate the character has, there is a 1% fixed chance to increase the Charge value. The increased ratio equals to 50% of the character's CRIT DMG.",
+        "enhanced_desc": ""
+    },
+    "671350": {
+        "id": "671350",
+        "name": "Pyromancer",
+        "desc": "Characters' Max HP increases by 50%. For every 10 of actual Toughness Reduction dealt, Charges all allies' \"Dewdrop\" by 3%. When attacking Weakness Broken enemy targets, charges all allies' \"Dewdrop\" by 6%.",
         "enhanced_desc": ""
     },
     "671360": {
@@ -2655,6 +2703,12 @@
         "id": "671400",
         "name": "Disaster-Halting Mechanism",
         "desc": "After enemy targets use an attack to reduce characters' Shields, increases all allies' SPD by 35%, lasting for 2 turn(s), then gains 2 stack(s) of Critical Boost.",
+        "enhanced_desc": ""
+    },
+    "671410": {
+        "id": "671410",
+        "name": "Fiction's Arbiter",
+        "desc": "Increases DMG dealt in the next turn by 2% for each 1% actual action advance effect the character receives, up to a max of 100% action advance. This effect is additionally increased against Frozen enemy targets by 50%.",
         "enhanced_desc": ""
     },
     "671450": {
@@ -2687,10 +2741,16 @@
         "desc": "After a character attacks a Weakness Broken enemy, converts the Toughness Reduction of the attack into 1 instance of 100% Super Break DMG. After accumulating 30 stack(s) of Grit, additionally deals 100% Super Break DMG caused by this effect.",
         "enhanced_desc": ""
     },
+    "671570": {
+        "id": "671570",
+        "name": "Self-Betrayer",
+        "desc": "When a character Breaks an enemy target's Weakness, recovers 2 Skill Point(s). Based on the total number of Grit stacks on all allies, for every 5 stack(s) of \"Grit,\" increases all allies' Break DMG dealt by 2%.",
+        "enhanced_desc": ""
+    },
     "671610": {
         "id": "671610",
         "name": "Reminiscence Artist",
-        "desc": "Aftertaste has a 3% base chance of causing enemy targets that are not Frozen to become Frozen, lasting for 1 turn(s). Each attack can cause this effect to be calculated for a max of 5 time(s). Increases the DMG multiplier of Aftertaste against Frozen enemies by 150% of the original multiplier.",
+        "desc": "\"Aftertaste\" has a 4% base chance of causing enemy targets that are not Frozen to become Frozen, lasting for 1 turn(s). Each attack against each enemy target can cause this effect to be calculated for a max of 5 time(s). Increases the DMG multiplier of \"Aftertaste\" against Frozen enemies by 150% of the original multiplier.",
         "enhanced_desc": ""
     },
     "671650": {
@@ -2705,22 +2765,40 @@
         "desc": "Increases max Spores to 5. After characters launch a follow-up attack, apply 3 Spore(s) to the target.",
         "enhanced_desc": ""
     },
+    "671680": {
+        "id": "671680",
+        "name": "Maniacal Chess Player",
+        "desc": "Increase CRIT DMG dealt by characters' Follow-up ATKs by 100%. When using \"Brain in a Vat\" to launch Ultimate and deal DMG to enemy targets, it is considered as a Follow-up ATK.",
+        "enhanced_desc": ""
+    },
     "671700": {
         "id": "671700",
         "name": "Calamity Worker",
         "desc": "When a character gains a Shield, causes 2 random enemy target(s) to gain 1 Spore. Spore's DMG multiplier increases by 75% of the original multiplier.",
         "enhanced_desc": ""
     },
+    "671730": {
+        "id": "671730",
+        "name": "Calamity Remnant",
+        "desc": "Each time 1 Skill Point is consumed or overflowed, all allies gain 1 stack of \"Honeydew,\" up to 10 stack(s). After a character uses an attack, they consume all their \"Honeydew\" stacks. For each stack consumed, deals Additional DMG equal to 80% Max HP. This attack is considered as Basic ATK DMG.",
+        "enhanced_desc": ""
+    },
     "671740": {
         "id": "671740",
         "name": "Diabolical Worker",
-        "desc": "After a character uses an attack, apply Spores to random enemy targets that were attacked. When allies take consecutive action for 1 / 2 / 3 times or more, the added number of Spores becomes 2 / 4 / 6.",
+        "desc": "After a character uses an attack, apply Spores to random enemy targets that were attacked. When allies take consecutive action for 1 / 2 / 3 times or more, the added number of Spores becomes 4 / 5 / 6.",
         "enhanced_desc": ""
     },
     "671780": {
         "id": "671780",
         "name": "Deceiver Worker",
         "desc": "Increases max Spores by 3. After a character uses an attack that deals Ultimate DMG and if the attacked target's Spore bursts, then additionally deals Ultimate DMG equal to 250% of the character's ATK to the target. Every Spore burst by this attack increases this DMG multiplier by 30%.",
+        "enhanced_desc": ""
+    },
+    "671800": {
+        "id": "671800",
+        "name": "Astral Ecology Care Worker",
+        "desc": "Increases Ultimate DMG taken by enemy targets by 75%. Charges \"Brain in a Vat\" by 12% when Shielded characters are attacked.",
         "enhanced_desc": ""
     },
     "671820": {
@@ -2745,6 +2823,12 @@
         "id": "672010",
         "name": "Architect Scribe",
         "desc": "If a character attacks and inflicts Freeze on an enemy target, then all allies gain a Shield equal to 25% of their respective Max HP, lasting for 3 turn(s). Every enemy target Frozen during this attack will increase the obtained Shield Effect by 5% of their respective Max HP.",
+        "enhanced_desc": ""
+    },
+    "672020": {
+        "id": "672020",
+        "name": "Tomb Keeper",
+        "desc": "Characters' Effect RES increases by 25% and \"Quake\" DMG dealt increases by 50%. When resisting debuffs inflicted on them, deals Quake DMG equal to 400% of the current Shield Effect to the target.",
         "enhanced_desc": ""
     },
     "672030": {
@@ -2777,6 +2861,12 @@
         "desc": "After characters attack a non-Elite enemy target with less than 50% current HP percentage, there is a 150% base chance to inflict the Dissociation state on them, lasting for 1 turn(s), and deals a set amount of CRIT DMG equal to their current HP.",
         "enhanced_desc": ""
     },
+    "672150": {
+        "id": "672150",
+        "name": "Purifier",
+        "desc": "When enemy target's current HP is greater than 60% of Max HP, their duration of being Frozen increases by 1 turn. DMG received by Frozen enemy targets increases by 30%.",
+        "enhanced_desc": ""
+    },
     "672160": {
         "id": "672160",
         "name": "Biographer",
@@ -2793,6 +2883,12 @@
         "id": "672200",
         "name": "Night Watch",
         "desc": "When the enemy target enters battle, they are inflicted with the Bleed effect. While Bleeding, they will take Physical DoT equal to 10% of their Max HP at the start of their turn. This DMG cannot exceed 650% of all allies' total Shield Effect.",
+        "enhanced_desc": ""
+    },
+    "672230": {
+        "id": "672230",
+        "name": "Doctor of Chaos",
+        "desc": "Increases DoT dealt by characters by 50%. When enemy targets enter battle, they become afflicted with the \"Observed\" state and receive Fire DoT equal to 300% of the total Max HP of all allies at the start of the turn.",
         "enhanced_desc": ""
     },
     "672240": {
@@ -2816,13 +2912,19 @@
     "672340": {
         "id": "672340",
         "name": "Wingweaver",
-        "desc": "When an enemy target is defeated, increase the Charging Efficiency of Dewdrop by 10% up to a maximum of 10 stack(s). Also restores HP for all allies equal to 50% of their respective Max HP.",
+        "desc": "When an enemy target is defeated, increase the Charging Efficiency of Dewdrop by 20% up to a maximum of 4 stack(s). Also restores HP for all allies equal to 50% of their respective Max HP.",
         "enhanced_desc": ""
     },
     "672350": {
         "id": "672350",
         "name": "Houyhnhnm",
         "desc": "Every stack of Grit a character has will increase their Incoming Healing by 2%.",
+        "enhanced_desc": ""
+    },
+    "672360": {
+        "id": "672360",
+        "name": "Peculiar Physician",
+        "desc": "Increases maximum limit of \"Dewdrop\" by 50%. After characters launch Follow-up ATKs, restores HP equal to 10% of Max HP to the character with the lowest current HP percentage.",
         "enhanced_desc": ""
     },
     "672370": {
@@ -2834,7 +2936,7 @@
     "672371": {
         "id": "672371",
         "name": "Tree of Discard",
-        "desc": "Increases characters' Outgoing Healing by 30%. After providing healing to an allied target, inflicts 1 Spore(s) to a random enemy target.",
+        "desc": "Increases characters' Outgoing Healing by 30%. After providing healing to an allied target, inflicts 2 Spore(s) to a random enemy target.",
         "enhanced_desc": ""
     },
     "672400": {
@@ -2853,6 +2955,12 @@
         "id": "672430",
         "name": "Pacifist",
         "desc": "When a character's turn begins, every stack of Critical Boost they have will restore their HP equal to 5% of their Max HP, and restore HP to teammates equal to 2% of their respective Max HP.",
+        "enhanced_desc": ""
+    },
+    "672470": {
+        "id": "672470",
+        "name": "Departing Wanderer",
+        "desc": "Increases characters' Basic ATK and Skill CRIT DMG dealt by 100%. The excess \"Critical Boost\" stacks will be regained at the start of the character's turn.",
         "enhanced_desc": ""
     },
     "672480": {
@@ -2877,6 +2985,12 @@
         "id": "672530",
         "name": "Pyromaniac",
         "desc": "Each stack of Grit increases the character's Max HP by 6%, but Maximum Restorable HP will be reduced to 80% of the additional Max HP.",
+        "enhanced_desc": ""
+    },
+    "672540": {
+        "id": "672540",
+        "name": "Sand Retrograder",
+        "desc": "Increases characters' Weakness Break Efficiency by 20%. After Weakness Breaking an enemy target, increases SPD by 25%, lasting for 3 turn(s).",
         "enhanced_desc": ""
     },
     "672580": {
@@ -2909,6 +3023,18 @@
         "desc": "Increases the follow-up attack DMG dealt by characters by 50%. After launching a follow-up attack, there is a 100% fixed chance to recover 1 Skill Point.",
         "enhanced_desc": ""
     },
+    "672680": {
+        "id": "672680",
+        "name": "Creation Vocalist",
+        "desc": "After characters use their Ultimate, then after their next attack, deals 2 instance(s) of \"Aftertaste\" DMG to the attacked target, with each instance equal to 150% of the character's ATK.",
+        "enhanced_desc": ""
+    },
+    "672700": {
+        "id": "672700",
+        "name": "Phantom Larva",
+        "desc": "Increases Basic ATK and Skill DMG dealt by characters by 60%. When \"Spores\" burst, the DMG dealt increases by 100% of the total Collective Shield effect.",
+        "enhanced_desc": ""
+    },
     "672710": {
         "id": "672710",
         "name": "Phantom Worker",
@@ -2930,7 +3056,13 @@
     "672750": {
         "id": "672750",
         "name": "Starcrusher Worker",
-        "desc": "The characters' Basic ATK DMG increases by 50%. When a character uses a Basic ATK and their HP percentage is larger than or equal to 50%, consumes HP equal to 5% of their Max HP and additionally recovers 1 Skill Point.",
+        "desc": "The characters' Basic ATK DMG increases by 80%. When a character uses a Basic ATK and their HP percentage is larger than or equal to 50%, consumes HP equal to 5% of their Max HP and additionally recovers 1 Skill Point.",
+        "enhanced_desc": ""
+    },
+    "672810": {
+        "id": "672810",
+        "name": "Candelagraph Inspector",
+        "desc": "When characters use their Ultimate, for each 10 Energy consumed, increases ATK by 4% and Effect Hit Rate by 2%. This effect can stack up to 20 times, lasting for 2 turn(s). Each time an Ultimate is used, it will be considered as having consumed at least 80 Energy.",
         "enhanced_desc": ""
     },
     "672840": {
@@ -2954,7 +3086,7 @@
     "672870": {
         "id": "672870",
         "name": "Kolchis",
-        "desc": "For every 1 Skill Point consumed by characters, increases their Ultimate DMG dealt by 45%, up to a max of 135% and lasting until after using the Ultimate.",
+        "desc": "For every 1 Skill Point consumed by characters, increases their Ultimate DMG dealt by 65%, up to a max of 130% and lasting until after using the Ultimate.",
         "enhanced_desc": ""
     }
 }

@@ -5745,7 +5745,7 @@
         "effect": "Impair",
         "effect_text": "Quấy Nhiễu",
         "simple_desc": "Khiến kẻ địch trong khu vực nhất định rơi vào trạng thái Mù. Tấn công kẻ địch trong trạng thái Mù, vào chiến đấu sẽ có xác suất lớn khiến mỗi một kẻ địch trì hoãn hành động.",
-        "desc": "Sau khi dùng Bí Kỹ sẽ khiến kẻ địch trong khu vực nhất định rơi vào trạng thái Mù #1[i] giây, kẻ địch ở trạng thái Mù không thể phát hiện mục tiêu phe ta.\nNếu chủ động tấn công kẻ địch rơi vào trạng thái Mù thì khi vào chiến đấu sẽ có #2[i]% xác suất cố định khiến mỗi kẻ địch Trì Hoãn Hành Động #3[i]%.",
+        "desc": "Sau khi dùng Bí Kỹ sẽ khiến kẻ địch trong khu vực nhất định rơi vào trạng thái Mù #1[i] giây, kẻ địch ở trạng thái Mù không thể phát hiện mục tiêu phe ta.\nNếu chủ động tấn công kẻ địch rơi vào trạng thái Mù thì khi vào chiến đấu sẽ có #2[i]% xác suất cố định khiến mỗi một mục tiêu phe địch Trì Hoãn Hành Động #3[i]%.",
         "params": [
             [
                 10,
@@ -11064,7 +11064,7 @@
         "type_text": "Bí Kỹ",
         "effect": "MazeAttack",
         "effect_text": "",
-        "simple_desc": "Tấn công kẻ địch. Sau khi vào chiến đấu, gây một lượng nhỏ Sát Thương Hỏa lên 1 kẻ địch đồng thời thi triển trạng thái \"Nuốt Lửa\", tổng cộng Nảy Bật 4 lần.",
+        "simple_desc": "Tấn công kẻ địch. Sau khi vào chiến đấu, gây một lượng nhỏ Sát Thương Hỏa lên 1 kẻ địch đồng thời có xác suất lớn thi triển trạng thái \"Nuốt Lửa\", tổng cộng Nảy Bật 4 lần.",
         "desc": "Tấn công kẻ địch ngay lập tức, sau khi vào trận sẽ gây #2[i] lần sát thương, mỗi lần sát thương sẽ gây cho 1 kẻ địch ngẫu nhiên Sát Thương Hỏa bằng #1[i]% tấn công của Guinaifen và có #3[i]% xác suất cơ bản khiến mục tiêu rơi vào trạng thái Nuốt Lửa.",
         "params": [
             [
@@ -12997,7 +12997,7 @@
         "type_text": "Thiên Phú",
         "effect": "Support",
         "effect_text": "Hỗ Trợ",
-        "simple_desc": "Khi mục tiêu phe ta tấn công kẻ địch ở trạng thái \"Sức Nặng\", sẽ tăng sát thương gây ra.",
+        "simple_desc": "Khi mục tiêu phe ta thi triển Tấn Công Thường, Chiến Kỹ, Tuyệt Kỹ lên mục tiêu phe địch ở trạng thái \"Sức Nặng\", sát thương gây ra tăng.",
         "desc": "Khi mục tiêu phe ta thi triển Tấn Công Thường, Chiến Kỹ, Tuyệt Kỹ lên kẻ địch ở trạng thái \"Sức Nặng\", sát thương gây ra tăng #1[i]%, duy trì #2[i] hiệp.",
         "params": [
             [
@@ -13789,7 +13789,7 @@
         "type_text": "Thiên Phú",
         "effect": "Impair",
         "effect_text": "Quấy Nhiễu",
-        "simple_desc": "Sau khi tấn công sẽ có xác suất lớn thi triển 1 tầng Nướng Tro lên mục tiêu, tăng sát thương kẻ địch phải chịu, và sẽ bị xem là đồng thời rơi vào trạng thái Thiêu Đốt.",
+        "simple_desc": "Khi thi triển Tấn Công Thường, Chiến Kỹ, Tuyệt Kỹ đánh trúng kẻ địch, sẽ có xác suất lớn thi triển 1 tầng Nướng Tro lên mục tiêu, tăng sát thương kẻ địch phải chịu, và sẽ bị xem là đồng thời rơi vào trạng thái Thiêu Đốt.",
         "desc": "Khi Jiaoqiu đánh trúng kẻ địch bằng Tấn Công Thường, Chiến Kỹ và Tuyệt Kỹ, có #1[i]% xác suất cơ bản gắn kèm 1 tầng Nướng Tro lên kẻ địch đó, tầng 1 sẽ khiến sát thương phải chịu của địch tăng #2[f1]%, sau đó cứ cộng dồn 1 tầng sẽ tăng #3[f1]%.\nNướng Tro cộng dồn tối đa #4[i] tầng, duy trì #5[i] hiệp.\nKhi kẻ địch ở trạng thái Nướng Tro cũng sẽ bị xem là đồng thời rơi vào trạng thái Thiêu Đốt, khi bắt đầu mỗi hiệp sẽ chịu Sát Thương Hỏa Duy Trì bằng #6[i]% Tấn Công của Jiaoqiu.",
         "params": [
             [
@@ -16220,6 +16220,404 @@
             ]
         ],
         "icon": "icon/skill/1224_basic_atk.png"
+    },
+    "122501": {
+        "id": "122501",
+        "name": "Vệt Đuôi Rực Rỡ",
+        "max_level": 9,
+        "element": "Fire",
+        "type": "Normal",
+        "type_text": "Tấn Công Thường",
+        "effect": "SingleAttack",
+        "effect_text": "Đánh Đơn",
+        "simple_desc": "Gây lượng nhỏ Sát Thương Hỏa cho 1 kẻ địch.",
+        "desc": "Gây Sát Thương Hỏa bằng #1[i]% Tấn Công của Fugue cho 1 kẻ địch chỉ định.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1225_basic_atk.png"
+    },
+    "122502": {
+        "id": "122502",
+        "name": "Đức Hạnh Chân Chính, Phước Báu Sâu Dày",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Chiến Kỹ",
+        "effect": "Support",
+        "effect_text": "Hỗ Trợ",
+        "simple_desc": "Khiến 1 đồng đội nhận Khẩn Nguyện Hồ Ly, tăng Tấn Công Kích Phá, đồng thời tấn công kẻ địch không có điểm yếu thuộc tính tương ứng cũng có thể làm giảm Sức Bền.\nKhiến bản thân vào trạng thái Rực Lửa, Tấn Công Thường được cường hóa. Khi đơn vị phe ta có Khẩn Nguyện Hồ Ly tấn công, Fugue có xác suất lớn khiến phòng thủ của mục tiêu phe địch giảm.",
+        "desc": "Khiến 1 đồng đội chỉ định nhận Khẩn Nguyện Hồ Ly và khiến bản thân vào trạng thái Rực Lửa, duy trì #1[i] hiệp, mỗi khi Fugue bắt đầu hiệp sẽ giảm 1 hiệp duy trì, hơn nữa Khẩn Nguyện Hồ Ly chỉ có hiệu lực với mục tiêu mà Fugue thi triển Chiến Kỹ mới nhất.\nMục tiêu phe ta có Khẩn Nguyện Hồ Ly sẽ tăng #2[i]% Tấn Công Kích Phá, tấn công kẻ địch không có điểm yếu thuộc tính tương ứng cũng có thể làm giảm Sức Bền, hiệu ứng bằng #6[i]% điểm Giảm Sức Bền gốc, không thể cộng dồn với các hiệu ứng Giảm Sức Bền bỏ qua thuộc tính điểm yếu khác.\nKhi ở trạng thái Rực Lửa, Tấn Công Thường của Fugue được cường hóa. Mỗi lần mục tiêu phe ta có Khẩn Nguyện Hồ Ly tấn công, Fugue sẽ có #3[i]% xác suất cơ bản khiến mục tiêu phe địch bị tấn công giảm #4[i]% Phòng Thủ, duy trì #5[i] hiệp.",
+        "params": [
+            [
+                3,
+                0.15,
+                1,
+                0.08,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.165,
+                1,
+                0.09,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.18,
+                1,
+                0.1,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.195,
+                1,
+                0.11,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.21,
+                1,
+                0.12,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.225,
+                1,
+                0.13,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.2437,
+                1,
+                0.1425,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.2625,
+                1,
+                0.155,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.2812,
+                1,
+                0.1675,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.3,
+                1,
+                0.18,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.315,
+                1,
+                0.19,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.33,
+                1,
+                0.2,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.345,
+                1,
+                0.21,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.36,
+                1,
+                0.22,
+                2,
+                0.5
+            ],
+            [
+                3,
+                0.375,
+                1,
+                0.23,
+                2,
+                0.5
+            ]
+        ],
+        "icon": "icon/skill/1225_skill.png"
+    },
+    "122503": {
+        "id": "122503",
+        "name": "Ánh Dương Chiếu Thế, Li Hỏa Che Trời",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "Ultra",
+        "type_text": "Tuyệt Kỹ",
+        "effect": "AoEAttack",
+        "effect_text": "Đánh Lan",
+        "simple_desc": "Gây Sát Thương Hỏa cho toàn bộ kẻ địch, lần tấn công này bỏ qua các thuộc tính Điểm Yếu và làm giảm Sức Bền của toàn bộ kẻ địch.",
+        "desc": "Gây Sát Thương Hỏa bằng #1[i]% Tấn Công của Fugue cho toàn bộ phe địch, lần tấn công này bỏ qua các thuộc tính Điểm Yếu và làm giảm Sức Bền của toàn bộ phe địch, khi phá vỡ điểm yếu, sẽ kích hoạt hiệu ứng Phá Vỡ Điểm Yếu thuộc tính Hỏa.",
+        "params": [
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ],
+            [
+                1.4
+            ],
+            [
+                1.5
+            ],
+            [
+                1.625
+            ],
+            [
+                1.75
+            ],
+            [
+                1.875
+            ],
+            [
+                2
+            ],
+            [
+                2.1
+            ],
+            [
+                2.2
+            ],
+            [
+                2.3
+            ],
+            [
+                2.4
+            ],
+            [
+                2.5
+            ]
+        ],
+        "icon": "icon/skill/1225_ultimate.png"
+    },
+    "122504": {
+        "id": "122504",
+        "name": "Việc Thiện Tích Đức, Phúc Khí Dồi Dào",
+        "max_level": 15,
+        "element": "Fire",
+        "type": "Talent",
+        "type_text": "Thiên Phú",
+        "effect": "Impair",
+        "effect_text": "Quấy Nhiễu",
+        "simple_desc": "Khi Fugue trong trận, mục tiêu phe địch sẽ được gắn thêm Vân Hỏa Chiêu, khi Vân Hỏa Chiêu bị giảm còn 0 sẽ chịu sát thương phá vỡ điểm yếu lần nữa. Sau khi phe ta tấn công mục tiêu phe địch ở trạng thái Phá Vỡ Điểm Yếu sẽ gây thêm Siêu Sát Thương Phá Vỡ.",
+        "desc": "Khi Fugue trong trận, mục tiêu phe địch sẽ được gắn thêm Vân Hỏa Chiêu bằng #2[i]% giới hạn Sức Bền của bản thân, khi Sức Bền ban đầu giảm còn 0 sẽ tiếp tục giảm Vân Hỏa Chiêu, khi Vân Hỏa Chiêu giảm còn 0 sẽ chịu sát thương Phá Vỡ Điểm Yếu lần nữa.\nKhi Fugue trong trận, sau khi phe ta tấn công mục tiêu phe địch ở trạng thái Phá Vỡ Điểm Yếu, sẽ chuyển hóa điểm Giảm Sức Bền của lần tấn công này thành 1 lần Siêu Sát Thương Phá Vỡ #1[i]%.",
+        "params": [
+            [
+                0.5,
+                0.4
+            ],
+            [
+                0.55,
+                0.4
+            ],
+            [
+                0.6,
+                0.4
+            ],
+            [
+                0.65,
+                0.4
+            ],
+            [
+                0.7,
+                0.4
+            ],
+            [
+                0.75,
+                0.4
+            ],
+            [
+                0.8125,
+                0.4
+            ],
+            [
+                0.875,
+                0.4
+            ],
+            [
+                0.9375,
+                0.4
+            ],
+            [
+                1,
+                0.4
+            ],
+            [
+                1.05,
+                0.4
+            ],
+            [
+                1.1,
+                0.4
+            ],
+            [
+                1.15,
+                0.4
+            ],
+            [
+                1.2,
+                0.4
+            ],
+            [
+                1.25,
+                0.4
+            ]
+        ],
+        "icon": "icon/skill/1225_talent.png"
+    },
+    "122506": {
+        "id": "122506",
+        "name": "Tấn Công",
+        "max_level": 1,
+        "element": "Fire",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Tấn công kẻ địch, sau khi vào chiến đấu sẽ làm giảm Sức Bền thuộc tính tương ứng của mục tiêu phe địch.",
+        "params": [],
+        "icon": "icon/skill/1225_basic_atk.png"
+    },
+    "122507": {
+        "id": "122507",
+        "name": "Quán Chiếu Đại Địa",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Bí Kỹ",
+        "effect": "Impair",
+        "effect_text": "Quấy Nhiễu",
+        "simple_desc": "Khiến kẻ địch trong khu vực nhất định rơi vào trạng thái Choáng. Tấn công kẻ địch ở trạng thái Choáng để vào chiến đấu, thì Fugue sẽ Ưu Tiên Hành Động đồng thời có xác suất lớn khiến mỗi 1 mục tiêu địch rơi vào trạng thái giảm phòng thủ giống với Chiến Kỹ của Fugue.",
+        "desc": "Sau khi dùng Bí Kỹ sẽ khiến kẻ địch trong khu vực nhất định rơi vào trạng thái Choáng #1[i] giây, kẻ địch bị Choáng sẽ không chủ động tấn công mục tiêu phe ta.\nNếu chủ động tấn công kẻ địch rơi vào trạng thái Choáng, thì sau khi vào chiến đấu, Fugue sẽ Ưu Tiên Hành Động #4[i]%, đồng thời có #2[i]% xác suất cơ bản khiến mỗi 1 mục tiêu phe địch rơi vào trạng thái giảm phòng thủ giống với Chiến Kỹ của Fugue, duy trì #3[i] hiệp.",
+        "params": [
+            [
+                10,
+                1,
+                2,
+                0.4
+            ]
+        ],
+        "icon": "icon/skill/1225_technique.png"
+    },
+    "122508": {
+        "id": "122508",
+        "name": "Ngọn Lửa Bùng Cháy",
+        "max_level": 9,
+        "element": "Fire",
+        "type": "Normal",
+        "type_text": "Tấn Công Thường",
+        "effect": "Blast",
+        "effect_text": "Khuếch Tán",
+        "simple_desc": "Gây lượng nhỏ Sát Thương Hỏa cho 1 kẻ địch, gây lượng nhỏ Sát Thương Hỏa cho mục tiêu lân cận.",
+        "desc": "Gây Sát Thương Hỏa cho 1 kẻ địch chỉ định tương đương #1[i]% Tấn Công của Fugue, gây Sát Thương Hỏa cho mục tiêu lân cận tương đương #2[i]% Tấn Công của Fugue.",
+        "params": [
+            [
+                0.5,
+                0.25
+            ],
+            [
+                0.6,
+                0.3
+            ],
+            [
+                0.7,
+                0.35
+            ],
+            [
+                0.8,
+                0.4
+            ],
+            [
+                0.9,
+                0.45
+            ],
+            [
+                1,
+                0.5
+            ],
+            [
+                1.1,
+                0.55
+            ],
+            [
+                1.2,
+                0.6
+            ],
+            [
+                1.3,
+                0.65
+            ]
+        ],
+        "icon": "icon/skill/1225_basic_atk.png"
     },
     "130101": {
         "id": "130101",
@@ -20948,6 +21346,366 @@
         ],
         "icon": "icon/skill/1312_technique.png"
     },
+    "131301": {
+        "id": "131301",
+        "name": "Lời Khuyên Can Lấp Lánh",
+        "max_level": 9,
+        "element": "Imaginary",
+        "type": "Normal",
+        "type_text": "Tấn Công Thường",
+        "effect": "SingleAttack",
+        "effect_text": "Đánh Đơn",
+        "simple_desc": "Gây lượng nhỏ Sát Thương Số Ảo cho 1 kẻ địch chỉ định.",
+        "desc": "Gây Sát Thương Số Ảo cho 1 kẻ địch chỉ định tương đương #1[i]% Tấn Công của Sunday.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/1313_basic_atk.png"
+    },
+    "131302": {
+        "id": "131302",
+        "name": "Sự Ban Ơn Của Giấy Và Nghi Thức",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Chiến Kỹ",
+        "effect": "Support",
+        "effect_text": "Hỗ Trợ",
+        "simple_desc": "Khiến 1 nhân vật chỉ định phe ta và vật triệu hồi của nhân vật đó lập tức hành động, đồng thời tăng sát thương họ gây ra, nếu mục tiêu có vật triệu hồi, sẽ tăng thêm hiệu ứng Tăng Sát Thương gây ra.\nSau khi thi triển Chiến Kỹ lên Chân Phước sẽ hồi 1 điểm Chiến Kỹ.\nKhi Sunday thi triển kỹ năng này lên nhân vật vận mệnh Hòa Hợp, sẽ không thể kích hoạt hiệu ứng lập tức hành động.",
+        "desc": "Khiến 1 nhân vật chỉ định phe ta và vật triệu hồi của nhân vật đó lập tức hành động, đồng thời tăng #2[i]% sát thương họ gây ra, nếu mục tiêu có vật triệu hồi, sẽ tăng thêm #4[i]% hiệu ứng Tăng Sát Thương gây ra, duy trì #3[i] hiệp.\nSau khi thi triển Chiến Kỹ lên Chân Phước sẽ hồi 1 điểm Chiến Kỹ.\nKhi Sunday thi triển kỹ năng này lên nhân vật vận mệnh Hòa Hợp, sẽ không thể kích hoạt hiệu ứng lập tức hành động.",
+        "params": [
+            [
+                1,
+                0.15,
+                2,
+                0.25
+            ],
+            [
+                1,
+                0.165,
+                2,
+                0.275
+            ],
+            [
+                1,
+                0.18,
+                2,
+                0.3
+            ],
+            [
+                1,
+                0.195,
+                2,
+                0.325
+            ],
+            [
+                1,
+                0.21,
+                2,
+                0.35
+            ],
+            [
+                1,
+                0.225,
+                2,
+                0.375
+            ],
+            [
+                1,
+                0.2437,
+                2,
+                0.4062
+            ],
+            [
+                1,
+                0.2625,
+                2,
+                0.4375
+            ],
+            [
+                1,
+                0.2812,
+                2,
+                0.4688
+            ],
+            [
+                1,
+                0.3,
+                2,
+                0.5
+            ],
+            [
+                1,
+                0.315,
+                2,
+                0.525
+            ],
+            [
+                1,
+                0.33,
+                2,
+                0.55
+            ],
+            [
+                1,
+                0.345,
+                2,
+                0.575
+            ],
+            [
+                1,
+                0.36,
+                2,
+                0.6
+            ],
+            [
+                1,
+                0.375,
+                2,
+                0.625
+            ]
+        ],
+        "icon": "icon/skill/1313_skill.png"
+    },
+    "131303": {
+        "id": "131303",
+        "name": "Lời Ca Tụng Sự Vuốt Ve Và Vết Sẹo",
+        "max_level": 15,
+        "element": "",
+        "type": "Ultra",
+        "type_text": "Tuyệt Kỹ",
+        "effect": "Support",
+        "effect_text": "Hỗ Trợ",
+        "simple_desc": "Hồi Năng Lượng cho 1 nhân vật chỉ định phe ta, đồng thời khiến mục tiêu và vật triệu hồi trở thành Chân Phước, tăng Sát Thương Bạo Kích của Chân Phước.",
+        "desc": "Hồi năng lượng bằng #1[f1]% giới hạn năng lượng cho 1 nhân vật chỉ định phe ta, đồng thời khiến mục tiêu và vật triệu hồi của mục tiêu đó trở thành Chân Phước, tăng Sát Thương Bạo Kích của Chân Phước, trị số tăng bằng #2[f1]% sát thương bạo kích của Sunday +#4[f1]%.\nMỗi khi hiệp của Sunday bắt đầu, thì số hiệp duy trì của trạng thái Chân Phước giảm 1, tổng cộng duy trì #3[i] hiệp. Hơn nữa chỉ có hiệu lực với mục tiêu thi triển Tuyệt Kỹ mới nhất (ngoài bản thân Sunday). Khi Sunday rơi vào trạng thái không thể chiến đấu, hiệu ứng Chân Phước cũng sẽ bị giải trừ.",
+        "params": [
+            [
+                0.2,
+                0.12,
+                3,
+                0.08
+            ],
+            [
+                0.2,
+                0.138,
+                3,
+                0.084
+            ],
+            [
+                0.2,
+                0.156,
+                3,
+                0.088
+            ],
+            [
+                0.2,
+                0.174,
+                3,
+                0.092
+            ],
+            [
+                0.2,
+                0.192,
+                3,
+                0.096
+            ],
+            [
+                0.2,
+                0.21,
+                3,
+                0.1
+            ],
+            [
+                0.2,
+                0.2325,
+                3,
+                0.105
+            ],
+            [
+                0.2,
+                0.255,
+                3,
+                0.11
+            ],
+            [
+                0.2,
+                0.2775,
+                3,
+                0.115
+            ],
+            [
+                0.2,
+                0.3,
+                3,
+                0.12
+            ],
+            [
+                0.2,
+                0.318,
+                3,
+                0.124
+            ],
+            [
+                0.2,
+                0.336,
+                3,
+                0.128
+            ],
+            [
+                0.2,
+                0.354,
+                3,
+                0.132
+            ],
+            [
+                0.2,
+                0.372,
+                3,
+                0.136
+            ],
+            [
+                0.2,
+                0.39,
+                3,
+                0.14
+            ]
+        ],
+        "icon": "icon/skill/1313_ultimate.png"
+    },
+    "131304": {
+        "id": "131304",
+        "name": "Thân Xác Thổ Lộ",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Thiên Phú",
+        "effect": "Support",
+        "effect_text": "Hỗ Trợ",
+        "simple_desc": "Khi thi triển Chiến Kỹ sẽ tăng Tỷ Lệ Bạo Kích của mục tiêu.",
+        "desc": "Khi thi triển Chiến Kỹ sẽ tăng #1[f1]% Tỷ Lệ Bạo Kích của mục tiêu, duy trì #2[i] hiệp.",
+        "params": [
+            [
+                0.1,
+                3
+            ],
+            [
+                0.11,
+                3
+            ],
+            [
+                0.12,
+                3
+            ],
+            [
+                0.13,
+                3
+            ],
+            [
+                0.14,
+                3
+            ],
+            [
+                0.15,
+                3
+            ],
+            [
+                0.1625,
+                3
+            ],
+            [
+                0.175,
+                3
+            ],
+            [
+                0.1875,
+                3
+            ],
+            [
+                0.2,
+                3
+            ],
+            [
+                0.21,
+                3
+            ],
+            [
+                0.22,
+                3
+            ],
+            [
+                0.23,
+                3
+            ],
+            [
+                0.24,
+                3
+            ],
+            [
+                0.25,
+                3
+            ]
+        ],
+        "icon": "icon/skill/1313_talent.png"
+    },
+    "131306": {
+        "id": "131306",
+        "name": "Tấn Công",
+        "max_level": 1,
+        "element": "Imaginary",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Tấn công kẻ địch, sau khi vào chiến đấu sẽ làm giảm Sức Bền thuộc tính tương ứng của mục tiêu phe địch.",
+        "params": [],
+        "icon": "icon/skill/1313_basic_atk.png"
+    },
+    "131307": {
+        "id": "131307",
+        "name": "Bí Mật Phồn Vinh",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Bí Kỹ",
+        "effect": "Support",
+        "effect_text": "Hỗ Trợ",
+        "simple_desc": "Sau khi dùng Bí Kỹ, lần chiến đấu tiếp theo khi Sunday lần đầu tiên thi triển kỹ năng lên mục tiêu phe ta, sẽ khiến sát thương mục tiêu gây ra tăng.",
+        "desc": "Sau khi dùng Bí Kỹ, lần chiến đấu tiếp theo khi Sunday lần đầu tiên thi triển kỹ năng lên mục tiêu phe ta, sẽ khiến sát thương mục tiêu gây ra tăng #1[i]%, duy trì #2[i] hiệp.",
+        "params": [
+            [
+                0.5,
+                2
+            ]
+        ],
+        "icon": "icon/skill/1313_technique.png"
+    },
     "131401": {
         "id": "131401",
         "name": "Cú Quất Tiền Tài",
@@ -21113,7 +21871,7 @@
         "type_text": "Tuyệt Kỹ",
         "effect": "AoEAttack",
         "effect_text": "Đánh Lan",
-        "simple_desc": "Gây Sát Thương Lượng Tử cho toàn phe địch, khiến bản thân nhận tăng Bội Số Sát Thương Đòn Đánh Theo Sau.",
+        "simple_desc": "Gây Sát Thương Lượng Tử cho toàn phe địch, tăng Bội Số Sát Thương của Đòn Đánh Theo Sau từ Thiên Phú của bản thân.",
         "desc": "Gây Sát Thương Lượng Tử bằng #3[i]% Tấn Công của Jade cho toàn phe địch. Đồng thời khiến Đòn Đánh Theo Sau từ Thiên Phú của Jade được cường hóa, Bội Số Sát Thương của Đòn Đánh Theo Sau gây ra tăng #1[i]%. Hiệu Ứng Cường Hóa chỉ có hiệu lực #2[i] lần.",
         "params": [
             [
@@ -22130,7 +22888,7 @@
         "effect": "Enhance",
         "effect_text": "Cường Hóa",
         "simple_desc": "Vào trạng thái Graffiti, di chuyển nhanh về phía trước một đoạn và tấn công kẻ địch tiếp xúc. Sau khi tấn công kẻ địch để vào trận, sẽ gây Giảm Sức Bền bỏ qua Thuộc Tính Điểm Yếu cho mỗi mục tiêu phe địch và Sát Thương Phá Vỡ thuộc tính Số Ảo, đồng thời gây Sát Thương Phá Vỡ thuộc tính Số Ảo cho mục tiêu lân cận kẻ đó, khiến bản thân nhận Năng Lượng.",
-        "desc": "Sau khi sử dụng Bí Kỹ vào trạng thái Graffiti trong #1[i] giây. Ở trạng thái Graffiti sẽ di chuyển nhanh về phía trước một đoạn và tấn công kẻ địch tiếp xúc. Trong quá trình di chuyển nhanh, có thể đỡ tất cả tấn công của kẻ địch. Thi triển tấn công ở trạng thái Graffiti có thể kết thúc sớm thời gian duy trì. Sau khi chủ động tấn công kẻ địch vào chiến đấu, gây #5[i] điểm Giảm Sức Bền bỏ qua Thuộc Tính Điểm Yếu cho mỗi mục tiêu phe địch, đồng thời gây Sát Thương Phá Vỡ tương đương với #2[i]% Sát Thương Phá Vỡ thuộc tính Số Ảo của Rappa, và gây Sát Thương Phá Vỡ tương đương với #3[i]% Sát Thương Phá Vỡ thuộc tính Số Ảo của Rappa cho mục tiêu lân cận kẻ đó. Đồng thời khiến bản thân nhận #4[i] điểm Năng Lượng.",
+        "desc": "Sau khi sử dụng Bí Kỹ sẽ vào trạng thái Graffiti trong #1[i] giây liên tục. Ở trạng thái Graffiti sẽ di chuyển nhanh về phía trước một đoạn và tấn công kẻ địch tiếp xúc. Trong quá trình di chuyển nhanh, có thể đỡ tất cả tấn công của kẻ địch. Thi triển tấn công ở trạng thái Graffiti có thể kết thúc sớm thời gian duy trì. Sau khi chủ động tấn công kẻ địch vào chiến đấu, gây #5[i] điểm Giảm Sức Bền bỏ qua Thuộc Tính Điểm Yếu cho mỗi mục tiêu phe địch, đồng thời gây Sát Thương Phá Vỡ tương đương với #2[i]% Sát Thương Phá Vỡ thuộc tính Số Ảo của Rappa, và gây Sát Thương Phá Vỡ tương đương với #3[i]% Sát Thương Phá Vỡ thuộc tính Số Ảo của Rappa cho mục tiêu lân cận kẻ đó. Đồng thời khiến bản thân nhận #4[i] điểm Năng Lượng.",
         "params": [
             [
                 20,
@@ -22366,7 +23124,7 @@
         "max_level": 9,
         "element": "Imaginary",
         "type": "Normal",
-        "type_text": "Tiếng Vọng Vận Mệnh",
+        "type_text": "Tấn Công Thường",
         "effect": "Blast",
         "effect_text": "Khuếch Tán",
         "simple_desc": "2 đòn tấn công đầu tiên sẽ gây lượng nhỏ Sát Thương Số Ảo cho 1 kẻ địch chỉ định, và gây lượng nhỏ Sát Thương Số Ảo cho mục tiêu lân cận kẻ đó. Đòn tấn công thứ 3 sẽ gây lượng nhỏ Sát Thương Số Ảo cho toàn bộ kẻ địch. Tấn công kẻ địch không có điểm yếu Số Ảo cũng có thể làm giảm Sức Bền.",
