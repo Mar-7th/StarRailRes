@@ -683,6 +683,74 @@
             []
         ]
     },
+    "20021": {
+        "id": "20021",
+        "skill": "Embellecimiento",
+        "desc": "La primera vez que el portador invoca a un mnemoduende, recupera #1[i] pt. de habilidad básica y #2[i] pts. de energía.",
+        "params": [
+            [
+                1,
+                12
+            ],
+            [
+                1,
+                14
+            ],
+            [
+                1,
+                16
+            ],
+            [
+                1,
+                18
+            ],
+            [
+                1,
+                20
+            ]
+        ],
+        "properties": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    "20022": {
+        "id": "20022",
+        "skill": "Sopor",
+        "desc": "Cuando comienza el turno del mnemoduende, tanto el portador como el mnemoduende obtienen 1 acumulación de Conmemoración. Cada acumulación aumenta el daño infligido en un #1[i]%. Conmemoración se puede acumular hasta #2[i] veces. Cuando el mnemoduende es eliminado, se disipa Conmemoración del portador y del mnemoduende.",
+        "params": [
+            [
+                0.08,
+                4
+            ],
+            [
+                0.09,
+                4
+            ],
+            [
+                0.1,
+                4
+            ],
+            [
+                0.11,
+                4
+            ],
+            [
+                0.12,
+                4
+            ]
+        ],
+        "properties": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
     "21000": {
         "id": "21000",
         "skill": "Curación mutua",
@@ -2744,7 +2812,7 @@
     "21042": {
         "id": "21042",
         "skill": "Legado",
-        "desc": "El efecto de Ruptura del portador aumenta en un #1[i]%. Cuando el portador usa su habilidad definitiva, la Prob. CRIT aumenta en un #2[i]% durante #3[i] turno(s).",
+        "desc": "El efecto de Ruptura del portador aumenta en un #1[i]%. Cuando el portador lanza la habilidad definitiva, la Prob. CRIT aumenta en un #2[i]% durante #3[i] turnos.",
         "params": [
             [
                 0.28,
@@ -3170,6 +3238,193 @@
                 {
                     "type": "SpeedAddedRatio",
                     "value": 0.12
+                }
+            ]
+        ]
+    },
+    "21050": {
+        "id": "21050",
+        "skill": "Golpe final",
+        "desc": "El Daño CRIT del portador aumenta en un #1[i]%. Cuando el mnemoduende del portador lanza una habilidad a un aliado, el daño que infligen todos los aliados aumenta en un #2[i]% durante #3[i] turnos.",
+        "params": [
+            [
+                0.12,
+                0.08,
+                3
+            ],
+            [
+                0.15,
+                0.1,
+                3
+            ],
+            [
+                0.18,
+                0.12,
+                3
+            ],
+            [
+                0.21,
+                0.14,
+                3
+            ],
+            [
+                0.24,
+                0.16,
+                3
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.12
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.15
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.18
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.21
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.24
+                }
+            ]
+        ]
+    },
+    "21051": {
+        "id": "21051",
+        "skill": "Felicidades",
+        "desc": "El ATQ del portador aumenta en un #1[i]%. Después de que el portador lance su habilidad definitiva, el daño de ATQ básico que infligen el portador y el mnemoduende aumenta en un #2[i]% durante #3[i] turnos.",
+        "params": [
+            [
+                0.16,
+                0.2,
+                3
+            ],
+            [
+                0.2,
+                0.25,
+                3
+            ],
+            [
+                0.24,
+                0.3,
+                3
+            ],
+            [
+                0.28,
+                0.35,
+                3
+            ],
+            [
+                0.32,
+                0.4,
+                3
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.16
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.2
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.24
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.28
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.32
+                }
+            ]
+        ]
+    },
+    "21052": {
+        "id": "21052",
+        "skill": "¡Ven a entrenar!",
+        "desc": "La Prob. CRIT del portador aumenta en un #1[i]%. Cuando el mnemoduende del portador está en la batalla, el daño que infligen el portador y el mnemoduende aumenta en un #2[i]%.",
+        "params": [
+            [
+                0.12,
+                0.24
+            ],
+            [
+                0.14,
+                0.27
+            ],
+            [
+                0.16,
+                0.3
+            ],
+            [
+                0.18,
+                0.33
+            ],
+            [
+                0.2,
+                0.36
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.12
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.14
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.16
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.18
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.2
                 }
             ]
         ]
@@ -5935,6 +6190,149 @@
                 {
                     "type": "BreakDamageAddedRatioBase",
                     "value": 1
+                }
+            ]
+        ]
+    },
+    "23036": {
+        "id": "23036",
+        "skill": "Creación",
+        "desc": "La VEL base del portador aumenta en #1[i] pts. Después de que el portador y su mnemoduende ataquen, el portador obtiene una acumulación de Bordado. Cada acumulación de Bordado aumenta el Daño CRIT del portador y de su mnemoduende en un #4[f1]%. Se puede acumular hasta #2[i] veces. Cuando las acumulaciones llegan al límite, cada acumulación de Bordado aumenta el daño de ATQ básico infligido en un #3[f1]% adicional.",
+        "params": [
+            [
+                12,
+                6,
+                0.09,
+                0.09
+            ],
+            [
+                14,
+                6,
+                0.105,
+                0.105
+            ],
+            [
+                16,
+                6,
+                0.12,
+                0.12
+            ],
+            [
+                18,
+                6,
+                0.135,
+                0.135
+            ],
+            [
+                20,
+                6,
+                0.15,
+                0.15
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "BaseSpeed",
+                    "value": 12
+                }
+            ],
+            [
+                {
+                    "type": "BaseSpeed",
+                    "value": 14
+                }
+            ],
+            [
+                {
+                    "type": "BaseSpeed",
+                    "value": 16
+                }
+            ],
+            [
+                {
+                    "type": "BaseSpeed",
+                    "value": 18
+                }
+            ],
+            [
+                {
+                    "type": "BaseSpeed",
+                    "value": 20
+                }
+            ]
+        ]
+    },
+    "23037": {
+        "id": "23037",
+        "skill": "Juego mental",
+        "desc": "La Prob. CRIT del portador aumenta en un #1[i]%. Cuando el portador lanza la habilidad definitiva, el daño de habilidad básica y habilidad definitiva que inflige aumenta en un #4[i]% durante #5[i] turnos. Si el portador consume #3[i] pts. de energía o más al lanzar la habilidad definitiva, recupera 1 pt. de habilidad básica.",
+        "params": [
+            [
+                0.12,
+                2,
+                140,
+                0.6,
+                3
+            ],
+            [
+                0.14,
+                2,
+                140,
+                0.7,
+                3
+            ],
+            [
+                0.16,
+                2,
+                140,
+                0.8,
+                3
+            ],
+            [
+                0.18,
+                2,
+                140,
+                0.9,
+                3
+            ],
+            [
+                0.2,
+                2,
+                140,
+                1,
+                3
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.12
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.14
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.16
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.18
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.2
                 }
             ]
         ]

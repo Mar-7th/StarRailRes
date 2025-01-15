@@ -996,7 +996,7 @@
         "effect": "Impair",
         "effect_text": "Incapacitation",
         "simple_desc": "Crée une dimension spéciale. Il y a de fortes chances d'augmenter les DGT de feu subis par les ennemis lorsque le combat est engagé avec des ennemis de la dimension.",
-        "desc": "Crée une dimension spéciale qui dure #4[i] secondes. Il y a #1[i]% de chances de base d'augmenter les DGT de feu subis par les ennemis de #2[i]% pendant #3[i] tours après être entré en combat avec des ennemis dans la dimension spéciale. Il ne peut exister qu'1 dimension créée par les alliés à la fois.",
+        "desc": "Crée une dimension spéciale qui dure #4[i] secondes. Il y a #1[i]% de chances de base d'augmenter les DGT de feu subis par les ennemis de #2[i]% pendant #3[i] tours après être entré en combat avec des ennemis dans la dimension spéciale. Il ne peut exister qu'1 effet de dimension créé par les alliés à la fois.",
         "params": [
             [
                 1,
@@ -1343,7 +1343,7 @@
         "effect": "Impair",
         "effect_text": "Incapacitation",
         "simple_desc": "Crée une dimension spéciale. La vitesse de déplacement des ennemis à l'intérieur de la dimension est réduite. Il y a de fortes chances d'appliquer Emprisonné aux ennemis lorsque le combat est engagé avec des ennemis de la dimension.",
-        "desc": "Crée une dimension spéciale qui dure #4[i] secondes. Les ennemis dans cette dimension spéciale voient leur vitesse de déplacement réduite de #5[i]%. Il y a #1[i]% de chances de base d'emprisonner les ennemis pour 1 tour après être entré en combat avec des ennemis dans la dimension spéciale.\nLes ennemis emprisonnés voient leur action retardée de #2[i]% et leur VIT réduite de #3[i]%. Il ne peut exister qu'1 dimension créée par les alliés à la fois.",
+        "desc": "Crée une dimension spéciale qui dure #4[i] secondes. Les ennemis dans cette dimension spéciale voient leur vitesse de déplacement réduite de #5[i]%. Il y a #1[i]% de chances de base d'emprisonner les ennemis pour 1 tour après être entré en combat avec des ennemis dans la dimension spéciale.\nLes ennemis emprisonnés voient leur action retardée de #2[i]% et leur VIT réduite de #3[i]%. Il ne peut exister qu'1 effet de dimension créé par les alliés à la fois.",
         "params": [
             [
                 1,
@@ -4769,7 +4769,7 @@
         "effect": "SingleAttack",
         "effect_text": "Cible unique",
         "simple_desc": "Dissipe 1 bonus d'une cible ennemie unique, et inflige des DGT de glace à la cible ennemie.",
-        "desc": "Supprime #2[i] bonus et inflige des DGT de glace équivalents à #1[i]% de l'ATQ de Pela à une cible ennemie unique.",
+        "desc": "Supprime #2[i] bonus et inflige des DGT de glace équivalents à #1[i]% de l'ATQ de Pela à une cible ennemie désigné.",
         "params": [
             [
                 1.05,
@@ -11860,7 +11860,7 @@
         "effect": "Impair",
         "effect_text": "Incapacitation",
         "simple_desc": "Crée une dimension spéciale autour du personnage. Les ennemis qui s'y trouvent sont gelés. Le personnage génère de l'énergie et obtient 1 cumul de Syzygie avec de fortes chances d'appliquer Gelé aux ennemis lorsque le combat est engagé avec des ennemis de la dimension.",
-        "desc": "Crée une dimension spéciale autour de Jingliu qui dure #3[i] secondes. Tous les ennemis dans cette dimension spéciale sont gelés. Jingliu génère immédiatement #6[i] points d'énergie et obtient #1[i] cumul de Syzygie, avec #2[i]% de chances de base de geler les cibles ennemies pendant #4[i] tours lorsque le combat est engagé avec des ennemis de la dimension spéciale. Les cibles ennemies gelées ne peuvent pas agir et subissent des DGT de glace additionnels équivalents à #5[i]% de l'ATQ de Jingliu au début de chaque tour. Il ne peut exister qu'1 dimension créée par les alliés à la fois.",
+        "desc": "Crée une dimension spéciale autour de Jingliu qui dure #3[i] secondes. Tous les ennemis dans cette dimension spéciale sont gelés. Jingliu génère immédiatement #6[i] points d'énergie et obtient #1[i] cumul de Syzygie, avec #2[i]% de chances de base de geler les cibles ennemies pendant #4[i] tours lorsque le combat est engagé avec des ennemis de la dimension spéciale. Les cibles ennemies gelées ne peuvent pas agir et subissent des DGT de glace additionnels équivalents à #5[i]% de l'ATQ de Jingliu au début de chaque tour. Il ne peut exister qu'1 effet de dimension créé par les alliés à la fois.",
         "params": [
             [
                 1,
@@ -15858,8 +15858,8 @@
         "type_text": "Compétence",
         "effect": "Support",
         "effect_text": "Soutien",
-        "simple_desc": "Désigne un allié unique comme « Maître ». Chaque fois que March utilise son ATQ normale ou qu'elle inflige des DGT avec son ATQ normale renforcée, elle déclenche un effet qui correspond à la Voie du Maître :\nÉrudition, Destruction, Chasse : Inflige des DGT additionnels en fonction du type du Maître.\nHarmonie, Nihilité, Préservation, Abondance : Augmente la réduction de robustesse.",
-        "desc": "Désigne un allié unique (à l'exception de ce personnage) comme Maître et augmente sa VIT de #1[f1]%. Seule la dernière cible de la compétence de March 7th est considérée comme son « Maître ».\n\nChaque fois que March 7th utilise son ATQ normale ou qu'elle inflige des DGT avec 1 frappe de son ATQ normale renforcée, elle déclenche l'effet correspondant en fonction de la Voie du Maître présent sur le champ de bataille :\nÉrudition, Destruction, Chasse : Inflige des DGT additionnels (du type du Maître) équivalents à #2[i]% de l'ATQ de March 7th.\nHarmonie, Nihilité, Préservation, Abondance : Augmente la réduction de robustesse de cette instance de DGT de #3[i]%.",
+        "simple_desc": "Désigne un allié unique comme « Maître ». Chaque fois que March utilise son ATQ normale ou qu'elle inflige des DGT avec son ATQ normale renforcée, elle déclenche un effet qui correspond à la Voie du Maître :\nÉrudition, Destruction, Chasse, Souvenir : Inflige des DGT additionnels en fonction du type du Maître.\nHarmonie, Nihilité, Préservation, Abondance : Augmente la réduction de robustesse.",
+        "desc": "Désigne un allié unique (à l'exception de ce personnage) comme Maître et augmente sa VIT de #1[f1]%. Seule la dernière cible de la compétence de March 7th est considérée comme son « Maître ».\n\nChaque fois que March 7th utilise son ATQ normale ou qu'elle inflige des DGT avec 1 frappe de son ATQ normale renforcée, elle déclenche l'effet correspondant en fonction de la Voie du Maître présent sur le champ de bataille :\nÉrudition, Destruction, Chasse, Souvenir : Inflige des DGT additionnels (du type du Maître) équivalents à #2[i]% de l'ATQ de March 7th.\nHarmonie, Nihilité, Préservation, Abondance : Augmente la réduction de robustesse de cette instance de DGT de #3[i]%.",
         "params": [
             [
                 0.06,
@@ -18430,7 +18430,7 @@
         "effect": "Impair",
         "effect_text": "Incapacitation",
         "simple_desc": "Crée une dimension spéciale. Les ennemis dans la dimension subissent l'effet Provocation. Il y a de fortes chances de réduire la VIT des cibles ennemies après être entré en combat avec des ennemis dans cette dimension.",
-        "desc": "Crée une dimension spéciale qui provoque les ennemis proches pendant #1[i] secondes après avoir utilisé la technique. Il y a #2[i]% de chances de base de réduire la VIT des ennemis de #3[i]% pendant #4[i] tours en engageant le combat avec des ennemis dans la dimension spéciale. Il ne peut exister qu'1 dimension créée par les alliés à la fois.",
+        "desc": "Crée une dimension spéciale qui provoque les ennemis proches pendant #1[i] secondes après avoir utilisé la technique. Il y a #2[i]% de chances de base de réduire la VIT des ennemis de #3[i]% pendant #4[i] tours en engageant le combat avec des ennemis dans la dimension spéciale. Il ne peut exister qu'1 effet de dimension créé par les alliés à la fois.",
         "params": [
             [
                 10,
@@ -20385,7 +20385,7 @@
         "effect": "Support",
         "effect_text": "Soutien",
         "simple_desc": "Crée une dimension spéciale autour du personnage. Les ennemis qui se trouvent dans cette dimension n'attaquent pas Robin. Robin régénère 5 points d'énergie supplémentaires au début de chaque vague lorsque le combat est engagé alors que la dimension est active.",
-        "desc": "Crée une dimension spéciale autour du personnage qui dure #1[i] secondes après avoir utilisé la technique. Les ennemis qui s'y trouvent n'attaquent pas Robin et la suivent tant que la dimension est active. Robin régénère #2[i] points d'énergie au début de chaque vague lorsque le combat est engagé alors que la dimension est active. Il ne peut exister qu'1 dimension créée par les alliés à la fois.",
+        "desc": "Crée une dimension spéciale autour du personnage qui dure #1[i] secondes après avoir utilisé la technique. Les ennemis qui s'y trouvent n'attaquent pas Robin et la suivent tant que la dimension est active. Robin régénère #2[i] points d'énergie au début de chaque vague lorsque le combat est engagé alors que la dimension est active. Il ne peut exister qu'1 effet de dimension créé par les alliés à la fois.",
         "params": [
             [
                 15,
@@ -21337,7 +21337,7 @@
         "effect": "Impair",
         "effect_text": "Incapacitation",
         "simple_desc": "Crée une dimension spéciale qui arrête tous les ennemis qui s'y trouvent. Le prochain ultime de Micha inflige plus de frappes par action après être entré en combat contre des ennemis à l'intérieur de la dimension.",
-        "desc": "Crée une dimension spéciale qui dure #1[i] secondes après avoir utilisé la technique. Les ennemis pris dans la dimension spéciale sont affectés par Prison onirique et arrêtent toutes leurs actions. Le nombre de frappes par action du prochain ultime de Micha augmente de #2[i] lorsqu'il entre en combat contre des ennemis affectés par Prison onirique. Il ne peut exister qu'1 dimension créée par les alliés à la fois.",
+        "desc": "Crée une dimension spéciale qui dure #1[i] secondes après avoir utilisé la technique. Les ennemis pris dans la dimension spéciale sont affectés par Prison onirique et arrêtent toutes leurs actions. Le nombre de frappes par action du prochain ultime de Micha augmente de #2[i] lorsqu'il entre en combat contre des ennemis affectés par Prison onirique. Il ne peut exister qu'1 effet de dimension créé par les alliés à la fois.",
         "params": [
             [
                 15,
@@ -21696,8 +21696,8 @@
         "type_text": "Technique",
         "effect": "Support",
         "effect_text": "Soutien",
-        "simple_desc": "Après utilisation de cette technique, la première fois que Sunday utilise une capacité sur une cible alliée au cours du prochain combat, les DGT infligés par cette cible augmentent.",
-        "desc": "La première fois que Sunday utilise une capacité sur une cible alliée au cours du prochain combat, les DGT infligés par cette cible augmentent de #1[i]% pendant #2[i] tours.",
+        "simple_desc": "Après avoir utilisé cette technique, la première fois que Sunday utilise une capacité sur une cible alliée au cours du prochain combat, les DGT infligés par cette cible augmentent.",
+        "desc": "Après avoir utilisé cette technique, la première fois que Sunday utilise une capacité sur une cible alliée au cours du prochain combat, les DGT infligés par cette cible augmentent de #1[i]% pendant #2[i] tours.",
         "params": [
             [
                 0.5,
@@ -23186,6 +23186,1156 @@
             ]
         ],
         "icon": "icon/skill/1317_basic_atk.png"
+    },
+    "140101": {
+        "id": "140101",
+        "name": "Ça rentre dans le crâne ?",
+        "max_level": 9,
+        "element": "Ice",
+        "type": "Normal",
+        "type_text": "ATQ normale",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "Inflige des DGT de glace mineurs à une cible ennemie désignée.",
+        "desc": "Inflige des DGT de glace équivalents à #1[i]% de l'ATQ de la Grande Herta à une cible ennemie désignée.",
+        "params": [
+            [
+                0.5,
+                3,
+                1,
+                0.3
+            ],
+            [
+                0.6,
+                3,
+                1,
+                0.3
+            ],
+            [
+                0.7,
+                3,
+                1,
+                0.3
+            ],
+            [
+                0.8,
+                3,
+                1,
+                0.3
+            ],
+            [
+                0.9,
+                3,
+                1,
+                0.3
+            ],
+            [
+                1,
+                3,
+                1,
+                0.3
+            ],
+            [
+                1.1,
+                3,
+                1,
+                0.3
+            ],
+            [
+                1.2,
+                3,
+                1,
+                0.3
+            ],
+            [
+                1.3,
+                3,
+                1,
+                0.3
+            ]
+        ],
+        "icon": "icon/skill/1401_basic_atk.png"
+    },
+    "140102": {
+        "id": "140102",
+        "name": "Aux portes de la connaissance",
+        "max_level": 15,
+        "element": "Ice",
+        "type": "BPSkill",
+        "type_text": "Compétence",
+        "effect": "Blast",
+        "effect_text": "Propagation",
+        "simple_desc": "Inflige des DGT à un ennemi désigné. Inflige des DGT répétés 2 fois aux cibles touchées par cette instance de la compétence et à leurs cibles adjacentes respectives.",
+        "desc": "Inflige des DGT de glace équivalents à #1[i]% de l'ATQ de la Grande Herta à un ennemi désigné tout en appliquant #2[i] cumul d'Interprétation. Inflige également des DGT de glace équivalents à #1[i]% de l'ATQ de la Grande Herta répétés 2 fois aux cibles touchées par cette instance de la compétence et à leurs cibles adjacentes respectives.",
+        "params": [
+            [
+                0.35,
+                1
+            ],
+            [
+                0.385,
+                1
+            ],
+            [
+                0.42,
+                1
+            ],
+            [
+                0.455,
+                1
+            ],
+            [
+                0.49,
+                1
+            ],
+            [
+                0.525,
+                1
+            ],
+            [
+                0.5687,
+                1
+            ],
+            [
+                0.6125,
+                1
+            ],
+            [
+                0.6562,
+                1
+            ],
+            [
+                0.7,
+                1
+            ],
+            [
+                0.735,
+                1
+            ],
+            [
+                0.77,
+                1
+            ],
+            [
+                0.805,
+                1
+            ],
+            [
+                0.84,
+                1
+            ],
+            [
+                0.875,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1401_skill.png"
+    },
+    "140103": {
+        "id": "140103",
+        "name": "Je t'avais bien dit que c'était de la magie",
+        "max_level": 15,
+        "element": "Ice",
+        "type": "Ultra",
+        "type_text": "Ultime",
+        "effect": "AoEAttack",
+        "effect_text": "ZdE",
+        "simple_desc": "Réorganise le nombre de cumuls d'Interprétation sur tous les ennemis, en transférant les nombres de cumuls les plus élevés en priorité aux cibles de niveau élite ou supérieur. Puis, inflige des DGT de glace à tous les ennemis. Renforce la compétence et permet d'agir immédiatement après utilisation.",
+        "desc": "Réorganise le nombre de cumuls d'Interprétation sur tous les ennemis, en transférant les nombres de cumuls les plus élevés en priorité aux cibles de niveau élite ou supérieur. Puis, inflige des DGT de glace équivalents à #1[i]% de l'ATQ de la Grande Herta à tous les ennemis. Lors de l'utilisation de l'ultime, l'ATQ de la Grande Herta augmente de #4[i]% pendant #5[i] tours. La Grande Herta agit immédiatement et obtient 1 cumul d'Inspiration après utilisation de l'ultime. Inspiration peut être cumulé jusqu'à #6[i] fois. La compétence est renforcée en « Écoutez bien » sous l'effet Inspiration.",
+        "params": [
+            [
+                1,
+                2,
+                1,
+                0.4,
+                3,
+                4
+            ],
+            [
+                1.1,
+                2,
+                1,
+                0.44,
+                3,
+                4
+            ],
+            [
+                1.2,
+                2,
+                1,
+                0.48,
+                3,
+                4
+            ],
+            [
+                1.3,
+                2,
+                1,
+                0.52,
+                3,
+                4
+            ],
+            [
+                1.4,
+                2,
+                1,
+                0.56,
+                3,
+                4
+            ],
+            [
+                1.5,
+                2,
+                1,
+                0.6,
+                3,
+                4
+            ],
+            [
+                1.625,
+                2,
+                1,
+                0.65,
+                3,
+                4
+            ],
+            [
+                1.75,
+                2,
+                1,
+                0.7,
+                3,
+                4
+            ],
+            [
+                1.875,
+                2,
+                1,
+                0.75,
+                3,
+                4
+            ],
+            [
+                2,
+                2,
+                1,
+                0.8,
+                3,
+                4
+            ],
+            [
+                2.1,
+                2,
+                1,
+                0.84,
+                3,
+                4
+            ],
+            [
+                2.2,
+                2,
+                1,
+                0.88,
+                3,
+                4
+            ],
+            [
+                2.3,
+                2,
+                1,
+                0.92,
+                3,
+                4
+            ],
+            [
+                2.4,
+                2,
+                1,
+                0.96,
+                3,
+                4
+            ],
+            [
+                2.5,
+                2,
+                1,
+                1,
+                3,
+                4
+            ]
+        ],
+        "icon": "icon/skill/1401_ultimate.png"
+    },
+    "140104": {
+        "id": "140104",
+        "name": "Donne-moi ça",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Enhance",
+        "effect_text": "Renforcement",
+        "simple_desc": "La compétence renforcée augmente les DGT infligés en fonction des cumuls d'Interprétation de la cible.",
+        "desc": "Lorsque des cibles ennemies entrent en combat, la Grande Herta leur applique 1 cumul d'Interprétation. Au début de chaque vague, applique #6[i] cumuls d'Interprétation à une cible ennemie aléatoire, en donnant la priorité aux cibles ennemies de niveau élite ou supérieur. Lorsque la cible principale de la compétence renforcée a Interprétation, le multiplicateur des DGT infligés augmente, chaque cumul accordant une augmentation de #1[f1]%/#2[f1]% sur la cible principale/les autres cibles respectivement. Si 2 personnages ou plus suivent la Voie de l'Érudition dans l'équipe, chaque cumul accorde une augmentation supplémentaire de #1[f1]%/#2[f1]% sur la cible principale/les autres cibles respectivement. Interprétation peut se cumuler jusqu'à #3[i] fois. Le nombre de cumuls d'Interprétation sur la cible principale est réinitialisé à 1 lors de l'utilisation de la compétence renforcée. Lorsqu'une cible ennemie quitte le combat ou est vaincue par une unité, ses cumuls d'Interprétation sont transférés en priorité aux cibles de niveau élite ou supérieur.",
+        "params": [
+            [
+                0.04,
+                0.02,
+                42,
+                1,
+                42,
+                25
+            ],
+            [
+                0.044,
+                0.022,
+                42,
+                1,
+                42,
+                25
+            ],
+            [
+                0.048,
+                0.024,
+                42,
+                1,
+                42,
+                25
+            ],
+            [
+                0.052,
+                0.026,
+                42,
+                1,
+                42,
+                25
+            ],
+            [
+                0.056,
+                0.028,
+                42,
+                1,
+                42,
+                25
+            ],
+            [
+                0.06,
+                0.03,
+                42,
+                1,
+                42,
+                25
+            ],
+            [
+                0.065,
+                0.0325,
+                42,
+                1,
+                42,
+                25
+            ],
+            [
+                0.07,
+                0.035,
+                42,
+                1,
+                42,
+                25
+            ],
+            [
+                0.075,
+                0.0375,
+                42,
+                1,
+                42,
+                25
+            ],
+            [
+                0.08,
+                0.04,
+                42,
+                1,
+                42,
+                25
+            ],
+            [
+                0.084,
+                0.042,
+                42,
+                1,
+                42,
+                25
+            ],
+            [
+                0.088,
+                0.044,
+                42,
+                1,
+                42,
+                25
+            ],
+            [
+                0.092,
+                0.046,
+                42,
+                1,
+                42,
+                25
+            ],
+            [
+                0.096,
+                0.048,
+                42,
+                1,
+                42,
+                25
+            ],
+            [
+                0.1,
+                0.05,
+                42,
+                1,
+                42,
+                25
+            ]
+        ],
+        "icon": "icon/skill/1401_talent.png"
+    },
+    "140106": {
+        "id": "140106",
+        "name": "Attaque",
+        "max_level": 1,
+        "element": "Ice",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
+        "params": [],
+        "icon": "icon/skill/1401_basic_atk.png"
+    },
+    "140107": {
+        "id": "140107",
+        "name": "Voyons voir ce qu'il y a de beau",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Enhance",
+        "effect_text": "Renforcement",
+        "simple_desc": "Après utilisation de la technique, marque l'emplacement de plusieurs coffres de base et augmente l'ATQ de la Grande Herta au début du combat suivant.\nInflige des DGT réels massifs à tous les ennemis au début de chaque vague après être entrée en combat après avoir utilisé la technique dans l'Univers simulé ou l'Univers parallèle.",
+        "desc": "Après utilisation de la technique, l'ATQ de la Grande Herta augmente de #1[i]% pendant #2[i] tours au début du prochain combat.\nS'il y a des coffres de base sur la carte actuelle, l'utilisation de la technique marque l'emplacement de #3[i] coffres de base au maximum.\nLa Grande Herta inflige des DGT réels équivalents à #4[i]% des PV max de la cible aux cibles ennemies de niveau inférieur au niveau élite, et des DGT réels équivalents à #5[i]% des PV max de la cible aux cibles ennemies de niveau élite ou supérieur après être entrée en combat en utilisant la technique dans l'Univers simulé ou l'Univers parallèle.",
+        "params": [
+            [
+                0.6,
+                2,
+                3,
+                0.99,
+                0.3,
+                25
+            ]
+        ],
+        "icon": "icon/skill/1401_technique.png"
+    },
+    "140109": {
+        "id": "140109",
+        "name": "Écoutez bien",
+        "max_level": 15,
+        "element": "Ice",
+        "type": "BPSkill",
+        "type_text": "Compétence",
+        "effect": "AoEAttack",
+        "effect_text": "ZdE",
+        "simple_desc": "Inflige des DGT à un ennemi désigné. Puis, inflige des DGT répétés 2 fois à la cible touchée par cette instance de la compétence et aux cibles adjacentes. Enfin, inflige des DGT à tous les ennemis.",
+        "desc": "Consomme 1 cumul d'Inspiration. Inflige des DGT de glace équivalents à #1[i]% de l'ATQ de la Grande Herta à un ennemi désigné et applique #2[i] cumul d'Interprétation. Puis, inflige des DGT de glace équivalents à #1[i]% de l'ATQ de la Grande Herta répétés 2 fois à la cible touchée par cette instance de la compétence et aux cibles adjacentes. Enfin, inflige des DGT de glace équivalents à #3[i]% de l'ATQ de la Grande Herta à tous les ennemis.",
+        "params": [
+            [
+                0.4,
+                1,
+                0.2
+            ],
+            [
+                0.44,
+                1,
+                0.22
+            ],
+            [
+                0.48,
+                1,
+                0.24
+            ],
+            [
+                0.52,
+                1,
+                0.26
+            ],
+            [
+                0.56,
+                1,
+                0.28
+            ],
+            [
+                0.6,
+                1,
+                0.3
+            ],
+            [
+                0.65,
+                1,
+                0.325
+            ],
+            [
+                0.7,
+                1,
+                0.35
+            ],
+            [
+                0.75,
+                1,
+                0.375
+            ],
+            [
+                0.8,
+                1,
+                0.4
+            ],
+            [
+                0.84,
+                1,
+                0.42
+            ],
+            [
+                0.88,
+                1,
+                0.44
+            ],
+            [
+                0.92,
+                1,
+                0.46
+            ],
+            [
+                0.96,
+                1,
+                0.48
+            ],
+            [
+                1,
+                1,
+                0.5
+            ]
+        ],
+        "icon": "icon/skill/1401_skill.png"
+    },
+    "140201": {
+        "id": "140201",
+        "name": "Déluge d'épée",
+        "max_level": 9,
+        "element": "Thunder",
+        "type": "Normal",
+        "type_text": "ATQ normale",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "Inflige des DGT de foudre mineurs à un ennemi unique.",
+        "desc": "Inflige des DGT de foudre équivalents à #1[i]% de l'ATQ d'Aglaé à un ennemi désigné.",
+        "params": [
+            [
+                0.5,
+                1
+            ],
+            [
+                0.6,
+                1
+            ],
+            [
+                0.7,
+                1
+            ],
+            [
+                0.8,
+                1
+            ],
+            [
+                0.9,
+                1
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1.1,
+                1
+            ],
+            [
+                1.2,
+                1
+            ],
+            [
+                1.3,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1402_basic_atk.png"
+    },
+    "140202": {
+        "id": "140202",
+        "name": "Élève-toi, renommée exaltée",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Compétence",
+        "effect": "Summon",
+        "effect_text": "Invocation",
+        "simple_desc": "Restaure des PV à la Costumière. Si la Costumière est absente, invoque le mnémesprit de la Costumière et lui permet d'agir immédiatement.",
+        "desc": "Restaure des PV équivalents à  de ses PV max à la Costumière. Si la Costumière est absente, invoque le mnémesprit de la Costumière et lui permet d'agir immédiatement.",
+        "params": [
+            [
+                0.25,
+                0,
+                5
+            ],
+            [
+                0.275,
+                0,
+                5
+            ],
+            [
+                0.3,
+                0,
+                5
+            ],
+            [
+                0.325,
+                0,
+                5
+            ],
+            [
+                0.35,
+                0,
+                5
+            ],
+            [
+                0.375,
+                0,
+                5
+            ],
+            [
+                0.4062,
+                0,
+                5
+            ],
+            [
+                0.4375,
+                0,
+                5
+            ],
+            [
+                0.4688,
+                0,
+                5
+            ],
+            [
+                0.5,
+                0,
+                5
+            ],
+            [
+                0.525,
+                0,
+                5
+            ],
+            [
+                0.55,
+                0,
+                5
+            ],
+            [
+                0.575,
+                0,
+                5
+            ],
+            [
+                0.6,
+                0,
+                5
+            ],
+            [
+                0.625,
+                0,
+                5
+            ]
+        ],
+        "icon": "icon/skill/1402_skill.png"
+    },
+    "140203": {
+        "id": "140203",
+        "name": "Danse, tisseuse de la destinée",
+        "max_level": 15,
+        "element": "",
+        "type": "Ultra",
+        "type_text": "Ultime",
+        "effect": "Enhance",
+        "effect_text": "Renforcement",
+        "simple_desc": "Invoque le mnémesprit de la Costumière, ce qui permet à Aglaé d'entrer dans l'état Posture de suprémacie, d'agir immédiatement et de bénéficier de l'ATQ normale renforcée.",
+        "desc": "Invoque le mnémesprit de la Costumière. Si la Costumière est déjà sur le champ de bataille, restaure ses PV au max. Aglaé entre dans l'état Posture de suprémacie et agit immédiatement.\nDans l'état Posture de suprémacie, Aglaé bénéficie des cumuls d'augmentation de VIT du talent du mnémesprit de la Costumière, chaque cumul augmentant sa VIT de #1[f1]%. Renforce l'ATQ normale en « Entaille de mille baisers » et ne peut pas utiliser la compétence. La Costumière est immunisée contre les malus de contrôle.\nUn compte à rebours apparaît dans l'ordre d'action, avec une VIT de #4[i]. Utiliser l'ultime à nouveau lorsque le compte à rebours se trouve dans l'ordre d'action réinitialise le compte à rebours. La Costumière s'autodétruit au début du tour du compte à rebours. L'état Posture de suprémacie d'Aglaé est dissipé lorsque la Costumière disparaît.",
+        "params": [
+            [
+                0.1,
+                0,
+                0,
+                100,
+                0,
+                0
+            ],
+            [
+                0.105,
+                0,
+                0,
+                100,
+                0,
+                0
+            ],
+            [
+                0.11,
+                0,
+                0,
+                100,
+                0,
+                0
+            ],
+            [
+                0.115,
+                0,
+                0,
+                100,
+                0,
+                0
+            ],
+            [
+                0.12,
+                0,
+                0,
+                100,
+                0,
+                0
+            ],
+            [
+                0.125,
+                0,
+                0,
+                100,
+                0,
+                0
+            ],
+            [
+                0.1313,
+                0,
+                0,
+                100,
+                0,
+                0
+            ],
+            [
+                0.1375,
+                0,
+                0,
+                100,
+                0,
+                0
+            ],
+            [
+                0.1437,
+                0,
+                0,
+                100,
+                0,
+                0
+            ],
+            [
+                0.15,
+                0,
+                0,
+                100,
+                0,
+                0
+            ],
+            [
+                0.155,
+                0,
+                0,
+                100,
+                0,
+                0
+            ],
+            [
+                0.16,
+                0,
+                0,
+                100,
+                0,
+                0
+            ],
+            [
+                0.165,
+                0,
+                0,
+                100,
+                0,
+                0
+            ],
+            [
+                0.17,
+                0,
+                0,
+                100,
+                0,
+                0
+            ],
+            [
+                0.175,
+                0,
+                0,
+                100,
+                0,
+                0
+            ]
+        ],
+        "icon": "icon/skill/1402_ultimate.png"
+    },
+    "140204": {
+        "id": "140204",
+        "name": "Doigts de la rose dorée",
+        "max_level": 15,
+        "element": "Thunder",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Enhance",
+        "effect_text": "Renforcement",
+        "simple_desc": "Lorsque la Costumière est sur le champ de bataille, les attaques d'Aglaé appliquent Point de couture à la cible. L'ennemi dans l'état Point de couture subit des DGT additionnels mineurs de foudre lorsqu'il est attaqué.",
+        "desc": "La Costumière possède initialement une VIT équivalente à #4[i]% de la VIT d'Aglaé et des PV max équivalents à #5[i]% des PV max d'Aglaé + #6[i]. Lorsque la Costumière est sur le champ de bataille, les attaques d'Aglaé appliquent Point de couture à la cible. L'ennemi dans l'état Point de couture subit des DGT additionnels de foudre équivalents à #1[i]% de l'ATQ d'Aglaé lorsqu'il est attaqué. Point de couture ne s'applique qu'à la cible la plus récente.",
+        "params": [
+            [
+                0.12,
+                0,
+                0,
+                0.35,
+                0.44,
+                180
+            ],
+            [
+                0.138,
+                0,
+                0,
+                0.35,
+                0.4675,
+                247.5
+            ],
+            [
+                0.156,
+                0,
+                0,
+                0.35,
+                0.495,
+                315
+            ],
+            [
+                0.174,
+                0,
+                0,
+                0.35,
+                0.5225,
+                382.5
+            ],
+            [
+                0.192,
+                0,
+                0,
+                0.35,
+                0.55,
+                450
+            ],
+            [
+                0.21,
+                0,
+                0,
+                0.35,
+                0.572,
+                504
+            ],
+            [
+                0.2325,
+                0,
+                0,
+                0.35,
+                0.594,
+                558
+            ],
+            [
+                0.255,
+                0,
+                0,
+                0.35,
+                0.616,
+                612
+            ],
+            [
+                0.2775,
+                0,
+                0,
+                0.35,
+                0.638,
+                666
+            ],
+            [
+                0.3,
+                0,
+                0,
+                0.35,
+                0.66,
+                720
+            ],
+            [
+                0.318,
+                0,
+                0,
+                0.35,
+                0.682,
+                774
+            ],
+            [
+                0.336,
+                0,
+                0,
+                0.35,
+                0.704,
+                828
+            ],
+            [
+                0.354,
+                0,
+                0,
+                0.35,
+                0.726,
+                882
+            ],
+            [
+                0.372,
+                0,
+                0,
+                0.35,
+                0.748,
+                936
+            ],
+            [
+                0.39,
+                0,
+                0,
+                0.35,
+                0.77,
+                990
+            ]
+        ],
+        "icon": "icon/skill/1402_talent.png"
+    },
+    "140206": {
+        "id": "140206",
+        "name": "Attaque",
+        "max_level": 1,
+        "element": "Thunder",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
+        "params": [],
+        "icon": "icon/skill/1402_basic_atk.png"
+    },
+    "140207": {
+        "id": "140207",
+        "name": "Déchirure étoilée",
+        "max_level": 1,
+        "element": "Thunder",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "Invoque le mnémesprit de la Costumière et lance une ATQ conjointe vers l'avant. Régénère de l'énergie, inflige des DGT de foudre mineurs à tous les ennemis, puis applique Point de couture à une cible ennemie aléatoire après être entré en combat.",
+        "desc": "Invoque le mnémesprit de la Costumière et lance une ATQ conjointe vers l'avant. Régénère #2[i] points d'énergie, inflige des DGT de foudre équivalents à #1[i]% de l'ATQ d'Aglaé à toutes les cibles ennemies, puis applique Point de couture à une cible ennemie aléatoire après être entré en combat.",
+        "params": [
+            [
+                1,
+                30
+            ]
+        ],
+        "icon": "icon/skill/1402_technique.png"
+    },
+    "140208": {
+        "id": "140208",
+        "name": "Entaille de mille baisers",
+        "max_level": 9,
+        "element": "Thunder",
+        "type": "Normal",
+        "type_text": "ATQ normale",
+        "effect": "Blast",
+        "effect_text": "Propagation",
+        "simple_desc": "Aglaé et la Costumière lancent une ATQ conjointe sur la cible, infligeant des DGT de foudre à un ennemi et des DGT de foudre mineurs aux cibles adjacentes.",
+        "desc": "Aglaé et la Costumière lancent une ATQ conjointe sur la cible, infligeant respectivement des DGT de foudre équivalents à #1[f1]% de l'ATQ d'Aglaé et à #3[f1]% de l'ATQ de la Costumière à la cible. Inflige également des DGT de foudre équivalents à #2[i]% de l'ATQ d'Aglaé et à #4[i]% de l'ATQ de la Costumière aux cibles adjacentes.\n« Entaille de mille baisers » ne permet pas de récupérer de point de compétence.",
+        "params": [
+            [
+                1,
+                0.45,
+                1,
+                0.45
+            ],
+            [
+                1.2,
+                0.54,
+                1.2,
+                0.54
+            ],
+            [
+                1.4,
+                0.63,
+                1.4,
+                0.63
+            ],
+            [
+                1.6,
+                0.72,
+                1.6,
+                0.72
+            ],
+            [
+                1.8,
+                0.81,
+                1.8,
+                0.81
+            ],
+            [
+                2,
+                0.9,
+                2,
+                0.9
+            ],
+            [
+                2.2,
+                0.99,
+                2.2,
+                0.99
+            ],
+            [
+                2.4,
+                1.08,
+                2.4,
+                1.08
+            ],
+            [
+                2.6,
+                1.17,
+                2.6,
+                1.17
+            ],
+            [
+                1.4,
+                0.56,
+                1.4,
+                0.56
+            ],
+            [
+                1.4,
+                0.56,
+                1.4,
+                0.56
+            ],
+            [
+                1.4,
+                0.56,
+                1.4,
+                0.56
+            ],
+            [
+                1.4,
+                0.56,
+                1.4,
+                0.56
+            ],
+            [
+                1.4,
+                0.56,
+                1.4,
+                0.56
+            ],
+            [
+                1.4,
+                0.56,
+                1.4,
+                0.56
+            ]
+        ],
+        "icon": "icon/skill/1402_basic_atk.png"
+    },
+    "140209": {
+        "id": "140209",
+        "name": "Élève-toi, renommée exaltée",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Compétence",
+        "effect": "Restore",
+        "effect_text": "Restauration",
+        "simple_desc": "Restaure des PV à la Costumière. Si la Costumière est absente, invoque le mnémesprit de la Costumière et lui permet d'agir immédiatement.",
+        "desc": "",
+        "params": [
+            [
+                0.25
+            ],
+            [
+                0.275
+            ],
+            [
+                0.3
+            ],
+            [
+                0.325
+            ],
+            [
+                0.35
+            ],
+            [
+                0.375
+            ],
+            [
+                0.4062
+            ],
+            [
+                0.4375
+            ],
+            [
+                0.4688
+            ],
+            [
+                0.5
+            ],
+            [
+                0.525
+            ],
+            [
+                0.55
+            ],
+            [
+                0.575
+            ],
+            [
+                0.6
+            ],
+            [
+                0.625
+            ]
+        ],
+        "icon": "icon/skill/1402_skill.png"
     },
     "800101": {
         "id": "800101",
@@ -25448,5 +26598,695 @@
             ]
         ],
         "icon": "icon/skill/8006_technique.png"
+    },
+    "800701": {
+        "id": "800701",
+        "name": "Je m'en charge !",
+        "max_level": 9,
+        "element": "Ice",
+        "type": "Normal",
+        "type_text": "ATQ normale",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "Inflige des DGT de glace mineurs à un ennemi.",
+        "desc": "Inflige des DGT de glace équivalents à #1[i]% de l'ATQ {M#du pionnier}{F#de la pionnière} à un ennemi désigné.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/8007_basic_atk.png"
+    },
+    "800702": {
+        "id": "800702",
+        "name": "Je te choisis !",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Compétence",
+        "effect": "Summon",
+        "effect_text": "Invocation",
+        "simple_desc": "Invoque le mnémesprit Mem. Si Mem est déjà sur le champ de bataille, lui permet de récupérer des PV et de gagner de la charge.",
+        "desc": "Invoque le mnémesprit Mem. Si Mem est déjà sur le champ de bataille, lui permet de récupérer des PV à hauteur de #1[i]% de ses PV max et de gagner #2[i]% de charge.",
+        "params": [
+            [
+                0.3,
+                0.1
+            ],
+            [
+                0.33,
+                0.1
+            ],
+            [
+                0.36,
+                0.1
+            ],
+            [
+                0.39,
+                0.1
+            ],
+            [
+                0.42,
+                0.1
+            ],
+            [
+                0.45,
+                0.1
+            ],
+            [
+                0.4875,
+                0.1
+            ],
+            [
+                0.525,
+                0.1
+            ],
+            [
+                0.5625,
+                0.1
+            ],
+            [
+                0.6,
+                0.1
+            ],
+            [
+                0.63,
+                0.1
+            ],
+            [
+                0.66,
+                0.1
+            ],
+            [
+                0.69,
+                0.1
+            ],
+            [
+                0.72,
+                0.1
+            ],
+            [
+                0.75,
+                0.1
+            ]
+        ],
+        "icon": "icon/skill/8007_skill.png"
+    },
+    "800703": {
+        "id": "800703",
+        "name": "En avant, Mem !",
+        "max_level": 15,
+        "element": "Ice",
+        "type": "Ultra",
+        "type_text": "Ultime",
+        "effect": "AoEAttack",
+        "effect_text": "ZdE",
+        "simple_desc": "Invoque le mnémesprit Mem. Permet à Mem de gagner de la charge, puis d'infliger des DGT massifs de glace à tous les ennemis.",
+        "desc": "Invoque le mnémesprit Mem. Permet à Mem de gagner #2[i]% de charge, puis d'infliger des DGT de glace équivalents à #1[i]% de son ATQ à tous les ennemis.",
+        "params": [
+            [
+                1.2,
+                0.4
+            ],
+            [
+                1.32,
+                0.4
+            ],
+            [
+                1.44,
+                0.4
+            ],
+            [
+                1.56,
+                0.4
+            ],
+            [
+                1.68,
+                0.4
+            ],
+            [
+                1.8,
+                0.4
+            ],
+            [
+                1.95,
+                0.4
+            ],
+            [
+                2.1,
+                0.4
+            ],
+            [
+                2.25,
+                0.4
+            ],
+            [
+                2.4,
+                0.4
+            ],
+            [
+                2.52,
+                0.4
+            ],
+            [
+                2.64,
+                0.4
+            ],
+            [
+                2.76,
+                0.4
+            ],
+            [
+                2.88,
+                0.4
+            ],
+            [
+                3,
+                0.4
+            ]
+        ],
+        "icon": "icon/skill/8007_ultimate.png"
+    },
+    "800704": {
+        "id": "800704",
+        "name": "Compagnon tout-puissant",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Enhance",
+        "effect_text": "Renforcement",
+        "simple_desc": "Chaque fois qu'un certain montant d'énergie est régénéré par tous les alliés, Mem gagne de la charge.",
+        "desc": "Le mnémesprit Mem débute avec #1[i] de VIT et des PV max équivalents à #2[i]% des PV max {M#du pionnier}{F#de la pionnière} + #4[i]. Tous les #3[i] points d'énergie régénérés par tous les alliés au total, la charge de Mem augmente de 1 %.",
+        "params": [
+            [
+                130,
+                0.5,
+                10,
+                400
+            ],
+            [
+                130,
+                0.53,
+                10,
+                424
+            ],
+            [
+                130,
+                0.56,
+                10,
+                448
+            ],
+            [
+                130,
+                0.59,
+                10,
+                472
+            ],
+            [
+                130,
+                0.62,
+                10,
+                496
+            ],
+            [
+                130,
+                0.65,
+                10,
+                520
+            ],
+            [
+                130,
+                0.6875,
+                10,
+                550
+            ],
+            [
+                130,
+                0.725,
+                10,
+                580
+            ],
+            [
+                130,
+                0.7625,
+                10,
+                610
+            ],
+            [
+                130,
+                0.8,
+                10,
+                640
+            ],
+            [
+                130,
+                0.83,
+                10,
+                664
+            ],
+            [
+                130,
+                0.86,
+                10,
+                688
+            ],
+            [
+                130,
+                0.89,
+                10,
+                712
+            ],
+            [
+                130,
+                0.92,
+                10,
+                736
+            ],
+            [
+                130,
+                0.95,
+                10,
+                760
+            ]
+        ],
+        "icon": "icon/skill/8007_talent.png"
+    },
+    "800706": {
+        "id": "800706",
+        "name": "Attaque",
+        "max_level": 1,
+        "element": "Ice",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
+        "params": [],
+        "icon": "icon/skill/8007_basic_atk.png"
+    },
+    "800707": {
+        "id": "800707",
+        "name": "Réveil des souvenirs",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Impair",
+        "effect_text": "Incapacitation",
+        "simple_desc": "Crée une dimension spéciale dans laquelle les ennemis cessent toute action. Lorsque vous engagez le combat contre un ennemi présent dans cette dimension, l'action de tous les ennemis est retardée et tous les ennemis subissent des DGT de glace mineurs.",
+        "desc": "Crée une dimension spéciale qui dure #1[i] secondes après avoir utilisé la technique. Les ennemis situés dans la dimension spéciale sont affectés par Temps figé, les empêchant de réaliser toute action.\nLorsque vous engagez le combat contre un ennemi affecté par l'effet Temps figé, l'action de tous les ennemis est retardée de #2[i]%, puis tous les ennemis subissent des DGT de glace équivalents à #3[i]% de l'ATQ {M#du pionnier}{F#de la pionnière}.\nIl ne peut exister qu'1 effet de dimension créé par les alliés à la fois.",
+        "params": [
+            [
+                10,
+                0.5,
+                1
+            ]
+        ],
+        "icon": "icon/skill/8007_technique.png"
+    },
+    "800709": {
+        "id": "800709",
+        "name": "Je te choisis !",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Compétence",
+        "effect": "Restore",
+        "effect_text": "Restauration",
+        "simple_desc": "Invoque le mnémesprit Mem. Si Mem est déjà sur le champ de bataille, lui permet de récupérer des PV et de gagner de la charge.",
+        "desc": "",
+        "params": [],
+        "icon": "icon/skill/8007_skill.png"
+    },
+    "800801": {
+        "id": "800801",
+        "name": "Je m'en charge !",
+        "max_level": 9,
+        "element": "Ice",
+        "type": "Normal",
+        "type_text": "ATQ normale",
+        "effect": "SingleAttack",
+        "effect_text": "Cible unique",
+        "simple_desc": "Inflige des DGT de glace mineurs à un ennemi.",
+        "desc": "Inflige des DGT de glace équivalents à #1[i]% de l'ATQ {M#du pionnier}{F#de la pionnière} à un ennemi désigné.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/8008_basic_atk.png"
+    },
+    "800802": {
+        "id": "800802",
+        "name": "Je te choisis !",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Compétence",
+        "effect": "Summon",
+        "effect_text": "Invocation",
+        "simple_desc": "Invoque le mnémesprit Mem. Si Mem est déjà sur le champ de bataille, lui permet de récupérer des PV et de gagner de la charge.",
+        "desc": "Invoque le mnémesprit Mem. Si Mem est déjà sur le champ de bataille, lui permet de récupérer des PV à hauteur de #1[i]% de ses PV max et de gagner #2[i]% de charge.",
+        "params": [
+            [
+                0.3,
+                0.1
+            ],
+            [
+                0.33,
+                0.1
+            ],
+            [
+                0.36,
+                0.1
+            ],
+            [
+                0.39,
+                0.1
+            ],
+            [
+                0.42,
+                0.1
+            ],
+            [
+                0.45,
+                0.1
+            ],
+            [
+                0.4875,
+                0.1
+            ],
+            [
+                0.525,
+                0.1
+            ],
+            [
+                0.5625,
+                0.1
+            ],
+            [
+                0.6,
+                0.1
+            ],
+            [
+                0.63,
+                0.1
+            ],
+            [
+                0.66,
+                0.1
+            ],
+            [
+                0.69,
+                0.1
+            ],
+            [
+                0.72,
+                0.1
+            ],
+            [
+                0.75,
+                0.1
+            ]
+        ],
+        "icon": "icon/skill/8008_skill.png"
+    },
+    "800803": {
+        "id": "800803",
+        "name": "En avant, Mem !",
+        "max_level": 15,
+        "element": "Ice",
+        "type": "Ultra",
+        "type_text": "Ultime",
+        "effect": "AoEAttack",
+        "effect_text": "ZdE",
+        "simple_desc": "Invoque le mnémesprit Mem. Permet à Mem de gagner de la charge, puis d'infliger des DGT massifs de glace à tous les ennemis.",
+        "desc": "Invoque le mnémesprit Mem. Permet à Mem de gagner #2[i]% de charge, puis d'infliger des DGT de glace équivalents à #1[i]% de son ATQ à tous les ennemis.",
+        "params": [
+            [
+                1.2,
+                0.4
+            ],
+            [
+                1.32,
+                0.4
+            ],
+            [
+                1.44,
+                0.4
+            ],
+            [
+                1.56,
+                0.4
+            ],
+            [
+                1.68,
+                0.4
+            ],
+            [
+                1.8,
+                0.4
+            ],
+            [
+                1.95,
+                0.4
+            ],
+            [
+                2.1,
+                0.4
+            ],
+            [
+                2.25,
+                0.4
+            ],
+            [
+                2.4,
+                0.4
+            ],
+            [
+                2.52,
+                0.4
+            ],
+            [
+                2.64,
+                0.4
+            ],
+            [
+                2.76,
+                0.4
+            ],
+            [
+                2.88,
+                0.4
+            ],
+            [
+                3,
+                0.4
+            ]
+        ],
+        "icon": "icon/skill/8008_ultimate.png"
+    },
+    "800804": {
+        "id": "800804",
+        "name": "Compagnon tout-puissant",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Enhance",
+        "effect_text": "Renforcement",
+        "simple_desc": "Chaque fois qu'un certain montant d'énergie est régénéré par tous les alliés, Mem gagne de la charge.",
+        "desc": "Le mnémesprit Mem débute avec #1[i] de VIT et des PV max équivalents à #2[i]% des PV max {M#du pionnier}{F#de la pionnière} + #4[i]. Tous les #3[i] points d'énergie régénérés par tous les alliés au total, la charge de Mem augmente de 1 %.",
+        "params": [
+            [
+                130,
+                0.5,
+                10,
+                400
+            ],
+            [
+                130,
+                0.53,
+                10,
+                424
+            ],
+            [
+                130,
+                0.56,
+                10,
+                448
+            ],
+            [
+                130,
+                0.59,
+                10,
+                472
+            ],
+            [
+                130,
+                0.62,
+                10,
+                496
+            ],
+            [
+                130,
+                0.65,
+                10,
+                520
+            ],
+            [
+                130,
+                0.6875,
+                10,
+                550
+            ],
+            [
+                130,
+                0.725,
+                10,
+                580
+            ],
+            [
+                130,
+                0.7625,
+                10,
+                610
+            ],
+            [
+                130,
+                0.8,
+                10,
+                640
+            ],
+            [
+                130,
+                0.83,
+                10,
+                664
+            ],
+            [
+                130,
+                0.86,
+                10,
+                688
+            ],
+            [
+                130,
+                0.89,
+                10,
+                712
+            ],
+            [
+                130,
+                0.92,
+                10,
+                736
+            ],
+            [
+                130,
+                0.95,
+                10,
+                760
+            ]
+        ],
+        "icon": "icon/skill/8008_talent.png"
+    },
+    "800806": {
+        "id": "800806",
+        "name": "Attaque",
+        "max_level": 1,
+        "element": "Ice",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
+        "params": [],
+        "icon": "icon/skill/8008_basic_atk.png"
+    },
+    "800807": {
+        "id": "800807",
+        "name": "Réveil des souvenirs",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Impair",
+        "effect_text": "Incapacitation",
+        "simple_desc": "Crée une dimension spéciale dans laquelle les ennemis cessent toute action. Lorsque vous engagez le combat contre un ennemi présent dans cette dimension, l'action de tous les ennemis est retardée et tous les ennemis subissent des DGT de glace mineurs.",
+        "desc": "Crée une dimension spéciale qui dure #1[i] secondes après avoir utilisé la technique. Les ennemis situés dans la dimension spéciale sont affectés par Temps figé, les empêchant de réaliser toute action.\nLorsque vous engagez le combat contre un ennemi affecté par l'effet Temps figé, l'action de tous les ennemis est retardée de #2[i]%, puis tous les ennemis subissent des DGT de glace équivalents à #3[i]% de l'ATQ {M#du pionnier}{F#de la pionnière}.\nIl ne peut exister qu'1 effet de dimension créé par les alliés à la fois.",
+        "params": [
+            [
+                10,
+                0.5,
+                1
+            ]
+        ],
+        "icon": "icon/skill/8008_technique.png"
+    },
+    "800809": {
+        "id": "800809",
+        "name": "Je te choisis !",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Compétence",
+        "effect": "Restore",
+        "effect_text": "Restauration",
+        "simple_desc": "Invoque le mnémesprit Mem. Si Mem est déjà sur le champ de bataille, lui permet de récupérer des PV et de gagner de la charge.",
+        "desc": "",
+        "params": [],
+        "icon": "icon/skill/8008_skill.png"
     }
 }

@@ -996,7 +996,7 @@
         "effect": "Impair",
         "effect_text": "Impair",
         "simple_desc": "Creates a Special Dimension. After entering combat with enemies in the dimension, there is a high chance to increase Fire DMG taken by enemies.",
-        "desc": "After using Technique, creates a Special Dimension that lasts for #4[i] second(s). After entering battle with enemies in the Special Dimension, there is a #1[i]% base chance to increase Fire DMG taken by enemies by #2[i]% for #3[i] turn(s). Only 1 dimension created by allies can exist at the same time.",
+        "desc": "After using Technique, creates a Special Dimension that lasts for #4[i] second(s). After entering battle with enemies in the Special Dimension, there is a #1[i]% base chance to increase Fire DMG taken by enemies by #2[i]% for #3[i] turn(s). Only 1 Dimension Effect created by allies can exist at the same time.",
         "params": [
             [
                 1,
@@ -1343,7 +1343,7 @@
         "effect": "Impair",
         "effect_text": "Impair",
         "simple_desc": "Creates a Special Dimension. Enemies in this dimension have their movement speed reduced. After entering combat with enemies in the dimension, there is a high chance for the enemies to become Imprisoned.",
-        "desc": "After using Welt's Technique, create a Special Dimension that lasts for #4[i] second(s). Enemies in this Special Dimension have their movement speed reduced by #5[i]%. After entering battle with enemies in the Special Dimension, there is a #1[i]% base chance to Imprison the enemies for 1 turn.\nImprisoned enemies have their actions delayed by #2[i]% and SPD reduced by #3[i]%. Only 1 dimension created by allies can exist at the same time.",
+        "desc": "After using Welt's Technique, create a Special Dimension that lasts for #4[i] second(s). Enemies in this Special Dimension have their movement speed reduced by #5[i]%. After entering battle with enemies in the Special Dimension, there is a #1[i]% base chance to Imprison the enemies for 1 turn.\nImprisoned enemies have their actions delayed by #2[i]% and SPD reduced by #3[i]%. Only 1 Dimension Effect created by allies can exist at the same time.",
         "params": [
             [
                 1,
@@ -4769,7 +4769,7 @@
         "effect": "SingleAttack",
         "effect_text": "Single Target",
         "simple_desc": "Dispels 1 buff from a single enemy target, and deals Ice DMG to the target enemy.",
-        "desc": "Removes #2[i] buff(s) and deals Ice DMG equal to #1[i]% of Pela's ATK to a single target enemy.",
+        "desc": "Removes #2[i] buff(s) and deals Ice DMG equal to #1[i]% of Pela's ATK to one designated target enemy.",
         "params": [
             [
                 1.05,
@@ -11860,7 +11860,7 @@
         "effect": "Impair",
         "effect_text": "Impair",
         "simple_desc": "Creates a Special Dimension around the character. Enemies within this dimension will become Frozen. After entering combat with enemies in the dimension, this character regenerates Energy and obtains 1 stack of Syzygy with a high chance to Freeze enemies.",
-        "desc": "After using this Technique, creates a Special Dimension around Jingliu that lasts for #3[i] seconds, and all enemies in this Special Dimension will become Frozen. After entering combat with enemies in the Special Dimension, Jingliu immediately regenerates #6[i] Energy and obtains #1[i] stack(s) of Syzygy, with a #2[i]% base chance of Freezing enemy targets for #4[i] turn(s). While Frozen, enemy targets cannot take action, and receive Ice Additional DMG equal to #5[i]% of Jingliu's ATK at the start of every turn. Only 1 dimension created by allies can exist at the same time.",
+        "desc": "After using this Technique, creates a Special Dimension around Jingliu that lasts for #3[i] seconds, and all enemies in this Special Dimension will become Frozen. After entering combat with enemies in the Special Dimension, Jingliu immediately regenerates #6[i] Energy and obtains #1[i] stack(s) of Syzygy, with a #2[i]% base chance of Freezing enemy targets for #4[i] turn(s). While Frozen, enemy targets cannot take action, and receive Ice Additional DMG equal to #5[i]% of Jingliu's ATK at the start of every turn. Only 1 Dimension Effect created by allies can exist at the same time.",
         "params": [
             [
                 1,
@@ -15858,8 +15858,8 @@
         "type_text": "Skill",
         "effect": "Support",
         "effect_text": "Support",
-        "simple_desc": "Makes a single ally become Shifu. When using Basic ATK or dealing Enhanced Basic ATK's DMG, triggers the corresponding effect based on the Shifu's Path:\nErudition, Destruction, The Hunt: Deals Additional DMG based on Shifu's Type.\nHarmony, Nihility, Preservation, Abundance: Toughness Reduction increases.",
-        "desc": "Designates a single ally (excluding this unit) as Shifu and increases Shifu's SPD by #1[f1]%. Only the most recent target of March 7th's Skill is considered as Shifu.\n\nWhenever using Basic ATK or dealing 1 hit of Enhanced Basic ATK's DMG, triggers the corresponding effect if Shifu with the specified Path is present on the field:\nErudition, Destruction, The Hunt: Deals Additional DMG (DMG Type based on Shifu's Combat Type) equal to #2[i]% of March 7th's ATK.\nHarmony, Nihility, Preservation, Abundance: Increases the Toughness Reduction of this instance of DMG by #3[i]%.",
+        "simple_desc": "Makes a single ally become \"Shifu.\" When using Basic ATK or dealing Enhanced Basic ATK's DMG, triggers the corresponding effect based on the \"Shifu\"'s Path:\nErudition, Destruction, The Hunt, Remembrance: Deals Additional DMG based on Shifu's Type.\nHarmony, Nihility, Preservation, Abundance: Toughness Reduction increases.",
+        "desc": "Designates a single ally (excluding this unit) as \"Shifu\" and increases \"Shifu\"'s SPD by #1[f1]%. Only the most recent target of March 7th's Skill is considered as \"Shifu.\"\n\nWhenever using Basic ATK or dealing 1 hit of Enhanced Basic ATK's DMG, triggers the corresponding effect if \"Shifu\" with the specified Path is present on the field:\nErudition, Destruction, The Hunt, Remembrance: Deals Additional DMG (DMG Type based on \"Shifu\"'s Combat Type) equal to #2[i]% of March 7th's ATK.\nHarmony, Nihility, Preservation, Abundance: Increases the Toughness Reduction of this instance of DMG by #3[i]%.",
         "params": [
             [
                 0.06,
@@ -16468,7 +16468,7 @@
         "effect": "Impair",
         "effect_text": "Impair",
         "simple_desc": "While Fugue is on the field, enemy targets will get additionally afflicted with \"Cloudflame Luster.\" When \"Cloudflame Luster\" is reduced to 0, the enemy will take Weakness Break DMG again. After allies attack Weakness Broken enemy targets, additionally deals Super Break DMG.",
-        "desc": "While Fugue is on the field, enemy targets will get additionally afflicted with \"Cloudflame Luster,\" equal to #2[i]% of their Max Toughness. When the initial Toughness is reduced to 0, \"Cloudflame Luster\" can be further reduced. When \"Cloudflame Luster\" is reduced to 0, the enemy will receive Weakness Break DMG again.\nWhile Fugue is on the field and after allies attack Weakness Broken enemy targets, converts the Toughness Reduction of this attack into 1 instance of #1[i]% Super Break DMG.",
+        "desc": "While Fugue is on the field, enemy targets will get additionally afflicted with \"Cloudflame Luster,\" equal to #2[i]% of their Max Toughness. When the initial Toughness is reduced to 0, \"Cloudflame Luster\" can continue to be reduced. When \"Cloudflame Luster\" is reduced to 0, the enemy will receive Weakness Break DMG again.\nWhile Fugue is on the field and after allies attack Weakness Broken enemy targets, converts the Toughness Reduction of this attack into 1 instance of #1[i]% Super Break DMG.",
         "params": [
             [
                 0.5,
@@ -18430,7 +18430,7 @@
         "effect": "Impair",
         "effect_text": "Impair",
         "simple_desc": "Creates a Special Dimension. Enemies within the dimension are Taunted. After entering battle with enemies in this dimension, there is a high chance to reduce SPD of enemy targets.",
-        "desc": "After using Technique, creates a Special Dimension that Taunts nearby enemies, lasting for #1[i] second(s). After entering battle with enemies in this Special Dimension, there is a #2[i]% base chance to reduce each single enemy target's SPD by #3[i]% for #4[i] turn(s). Only 1 dimension created by allies can exist at the same time.",
+        "desc": "After using Technique, creates a Special Dimension that Taunts nearby enemies, lasting for #1[i] second(s). After entering battle with enemies in this Special Dimension, there is a #2[i]% base chance to reduce each single enemy target's SPD by #3[i]% for #4[i] turn(s). Only 1 Dimension Effect created by allies can exist at the same time.",
         "params": [
             [
                 10,
@@ -20385,7 +20385,7 @@
         "effect": "Support",
         "effect_text": "Support",
         "simple_desc": "Creates a Special Dimension around the character. Enemies within this dimension will not attack Robin. After entering battle while the dimension is active, Robin additionally regenerates 5 Energy at the start of each wave.",
-        "desc": "After using Technique, creates a Special Dimension around the character that lasts for #1[i] seconds. Enemies within this dimension will not attack Robin and will follow Robin while the dimension is active. After entering battle while the dimension is active, Robin regenerates #2[i] Energy at the start of each wave. Only 1 dimension created by allies can exist at the same time.",
+        "desc": "After using Technique, creates a Special Dimension around the character that lasts for #1[i] seconds. Enemies within this dimension will not attack Robin and will follow Robin while the dimension is active. After entering battle while the dimension is active, Robin regenerates #2[i] Energy at the start of each wave. Only 1 Dimension Effect created by allies can exist at the same time.",
         "params": [
             [
                 15,
@@ -21337,7 +21337,7 @@
         "effect": "Impair",
         "effect_text": "Impair",
         "simple_desc": "Creates a Special Dimension that stops all enemies within. Upon entering battle against enemies within the dimension, Misha's next Ultimate deals more Hits Per Action.",
-        "desc": "After using the Technique, creates a Special Dimension that lasts for #1[i] seconds. Enemies caught in the Special Dimension are inflicted with Dream Prison and stop all their actions. Upon entering battle against enemies afflicted with Dream Prison, increases the Hits Per Action for Misha's next Ultimate by #2[i] hit(s). Only 1 dimension created by allies can exist at the same time.",
+        "desc": "After using the Technique, creates a Special Dimension that lasts for #1[i] seconds. Enemies caught in the Special Dimension are inflicted with Dream Prison and stop all their actions. Upon entering battle against enemies afflicted with Dream Prison, increases the Hits Per Action for Misha's next Ultimate by #2[i] hit(s). Only 1 Dimension Effect created by allies can exist at the same time.",
         "params": [
             [
                 15,
@@ -23186,6 +23186,1156 @@
             ]
         ],
         "icon": "icon/skill/1317_basic_atk.png"
+    },
+    "140101": {
+        "id": "140101",
+        "name": "Did You Get It",
+        "max_level": 9,
+        "element": "Ice",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Deals minor Ice DMG to one designated enemy target.",
+        "desc": "Deals Ice DMG equal to #1[i]% of The Herta's ATK to one designated enemy target.",
+        "params": [
+            [
+                0.5,
+                3,
+                1,
+                0.3
+            ],
+            [
+                0.6,
+                3,
+                1,
+                0.3
+            ],
+            [
+                0.7,
+                3,
+                1,
+                0.3
+            ],
+            [
+                0.8,
+                3,
+                1,
+                0.3
+            ],
+            [
+                0.9,
+                3,
+                1,
+                0.3
+            ],
+            [
+                1,
+                3,
+                1,
+                0.3
+            ],
+            [
+                1.1,
+                3,
+                1,
+                0.3
+            ],
+            [
+                1.2,
+                3,
+                1,
+                0.3
+            ],
+            [
+                1.3,
+                3,
+                1,
+                0.3
+            ]
+        ],
+        "icon": "icon/skill/1401_basic_atk.png"
+    },
+    "140102": {
+        "id": "140102",
+        "name": "Big Brain Energy",
+        "max_level": 15,
+        "element": "Ice",
+        "type": "BPSkill",
+        "type_text": "Skill",
+        "effect": "Blast",
+        "effect_text": "Blast",
+        "simple_desc": "Deals DMG to one designated enemy. Deals DMG to the targets hit by this instance of Skill and their respective adjacent targets, repeating 2 times.",
+        "desc": "Deals Ice DMG equal to #1[i]% of The Herta's ATK to one designated enemy, and inflicts #2[i] stack(s) of \"Interpretation.\" Deals Ice DMG equal to #1[i]% of The Herta's ATK to the targets hit by this instance of Skill and their respective adjacent targets. This effect can repeat 2 times.",
+        "params": [
+            [
+                0.35,
+                1
+            ],
+            [
+                0.385,
+                1
+            ],
+            [
+                0.42,
+                1
+            ],
+            [
+                0.455,
+                1
+            ],
+            [
+                0.49,
+                1
+            ],
+            [
+                0.525,
+                1
+            ],
+            [
+                0.5687,
+                1
+            ],
+            [
+                0.6125,
+                1
+            ],
+            [
+                0.6562,
+                1
+            ],
+            [
+                0.7,
+                1
+            ],
+            [
+                0.735,
+                1
+            ],
+            [
+                0.77,
+                1
+            ],
+            [
+                0.805,
+                1
+            ],
+            [
+                0.84,
+                1
+            ],
+            [
+                0.875,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1401_skill.png"
+    },
+    "140103": {
+        "id": "140103",
+        "name": "Told Ya! Magic Happens",
+        "max_level": 15,
+        "element": "Ice",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "AoEAttack",
+        "effect_text": "AoE",
+        "simple_desc": "Rearranges the number of \"Interpretation\" stacks on all enemies, prioritizing the transfer of a higher number of \"Interpretation\" stacks to Elite-level targets and above. Then, deals Ice DMG to all enemies. After use, enhances Skill and immediately takes action.",
+        "desc": "Rearranges the number of \"Interpretation\" stacks on all enemies, prioritizing the transfer of a higher number of \"Interpretation\" stacks to Elite-level targets and above. Then, deals Ice DMG equal to #1[i]% The Herta's ATK to all enemies. When using Ultimate, increases The Herta's ATK by #4[i]%, lasting for #5[i] turn(s). After using the Ultimate, The Herta immediately takes action and gains 1 stack of \"Inspiration.\" \"Inspiration\" can stack up to #6[i] time(s). While having \"Inspiration,\" enhances Skill to \"Hear Me Out.\"",
+        "params": [
+            [
+                1,
+                2,
+                1,
+                0.4,
+                3,
+                4
+            ],
+            [
+                1.1,
+                2,
+                1,
+                0.44,
+                3,
+                4
+            ],
+            [
+                1.2,
+                2,
+                1,
+                0.48,
+                3,
+                4
+            ],
+            [
+                1.3,
+                2,
+                1,
+                0.52,
+                3,
+                4
+            ],
+            [
+                1.4,
+                2,
+                1,
+                0.56,
+                3,
+                4
+            ],
+            [
+                1.5,
+                2,
+                1,
+                0.6,
+                3,
+                4
+            ],
+            [
+                1.625,
+                2,
+                1,
+                0.65,
+                3,
+                4
+            ],
+            [
+                1.75,
+                2,
+                1,
+                0.7,
+                3,
+                4
+            ],
+            [
+                1.875,
+                2,
+                1,
+                0.75,
+                3,
+                4
+            ],
+            [
+                2,
+                2,
+                1,
+                0.8,
+                3,
+                4
+            ],
+            [
+                2.1,
+                2,
+                1,
+                0.84,
+                3,
+                4
+            ],
+            [
+                2.2,
+                2,
+                1,
+                0.88,
+                3,
+                4
+            ],
+            [
+                2.3,
+                2,
+                1,
+                0.92,
+                3,
+                4
+            ],
+            [
+                2.4,
+                2,
+                1,
+                0.96,
+                3,
+                4
+            ],
+            [
+                2.5,
+                2,
+                1,
+                1,
+                3,
+                4
+            ]
+        ],
+        "icon": "icon/skill/1401_ultimate.png"
+    },
+    "140104": {
+        "id": "140104",
+        "name": "Hand Them Over",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Enhance",
+        "effect_text": "Enhance",
+        "simple_desc": "Enhanced Skill increases DMG dealt based on the target's \"Interpretation\" stacks.",
+        "desc": "When enemy targets enter battle, The Herta inflicts 1 stack of \"Interpretation\" on them. At the start of each wave, applies #6[i] stack(s) of \"Interpretation\" to a random enemy target, prioritizing Elite enemy targets or higher. When the Enhanced Skill's primary target has \"Interpretation,\" the multiplier for the DMG dealt increases, with each stack granting an increase of #1[f1]%/#2[f1]% on the primary target/other targets respectively. If 2 or more characters follow the Path of Erudition in the team, each stack grants an additional increase of #1[f1]%/#2[f1]% on the primary target/other targets respectively. \"Interpretation\" can stack up to #3[i] time(s). When using the Enhanced Skill, resets the number of \"Interpretation\" stacks on the primary target to 1. After the enemy target leaves the battle or gets defeated by any unit, \"Interpretation\" will be transferred, prioritizing the transfer to Elite-level targets and above.",
+        "params": [
+            [
+                0.04,
+                0.02,
+                42,
+                1,
+                42,
+                25
+            ],
+            [
+                0.044,
+                0.022,
+                42,
+                1,
+                42,
+                25
+            ],
+            [
+                0.048,
+                0.024,
+                42,
+                1,
+                42,
+                25
+            ],
+            [
+                0.052,
+                0.026,
+                42,
+                1,
+                42,
+                25
+            ],
+            [
+                0.056,
+                0.028,
+                42,
+                1,
+                42,
+                25
+            ],
+            [
+                0.06,
+                0.03,
+                42,
+                1,
+                42,
+                25
+            ],
+            [
+                0.065,
+                0.0325,
+                42,
+                1,
+                42,
+                25
+            ],
+            [
+                0.07,
+                0.035,
+                42,
+                1,
+                42,
+                25
+            ],
+            [
+                0.075,
+                0.0375,
+                42,
+                1,
+                42,
+                25
+            ],
+            [
+                0.08,
+                0.04,
+                42,
+                1,
+                42,
+                25
+            ],
+            [
+                0.084,
+                0.042,
+                42,
+                1,
+                42,
+                25
+            ],
+            [
+                0.088,
+                0.044,
+                42,
+                1,
+                42,
+                25
+            ],
+            [
+                0.092,
+                0.046,
+                42,
+                1,
+                42,
+                25
+            ],
+            [
+                0.096,
+                0.048,
+                42,
+                1,
+                42,
+                25
+            ],
+            [
+                0.1,
+                0.05,
+                42,
+                1,
+                42,
+                25
+            ]
+        ],
+        "icon": "icon/skill/1401_talent.png"
+    },
+    "140106": {
+        "id": "140106",
+        "name": "Attack",
+        "max_level": 1,
+        "element": "Ice",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Attacks an enemy, and when the battle starts, reduces their Toughness of the corresponding Type.",
+        "params": [],
+        "icon": "icon/skill/1401_basic_atk.png"
+    },
+    "140107": {
+        "id": "140107",
+        "name": "Vibe Checker",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Enhance",
+        "effect_text": "Enhance",
+        "simple_desc": "After using Technique, several Basic Treasures' locations will be marked, and The Herta's ATK increases at the start of the next battle.\nAfter entering battle by using Technique in Simulated Universe or Divergent Universe, deals massive True DMG to all enemies at the start of each wave.",
+        "desc": "After using Technique, The Herta's ATK increases by #1[i]% at the start of the next battle, lasting for #2[i] turn(s).\nIf there are Basic Treasures in this current map, using Technique will mark up to #3[i] Basic Treasures' locations.\nAfter entering battle by using Technique in Simulated Universe or Divergent Universe, deals True DMG equal to #4[i]% of the target's Max HP to enemy targets lower than Elite-level, and True DMG equal to #5[i]% of the target's Max HP to enemy targets at Elite-level and above.",
+        "params": [
+            [
+                0.6,
+                2,
+                3,
+                0.99,
+                0.3,
+                25
+            ]
+        ],
+        "icon": "icon/skill/1401_technique.png"
+    },
+    "140109": {
+        "id": "140109",
+        "name": "Hear Me Out",
+        "max_level": 15,
+        "element": "Ice",
+        "type": "BPSkill",
+        "type_text": "Skill",
+        "effect": "AoEAttack",
+        "effect_text": "AoE",
+        "simple_desc": "Deals DMG to one designated enemy. Deals DMG to the target hit by this instance of Skill and their adjacent targets, repeating 2 times. After that, deals DMG to all enemies.",
+        "desc": "Consumes 1 stack of \"Inspiration.\" Deals Ice DMG equal to #1[i]% of The Herta's ATK to one designated enemy and inflicts #2[i] stack(s) of \"Interpretation.\" Deals Ice DMG equal to #1[i]% of The Herta's ATK to the target hit by this instance of Skill and adjacent targets, repeating 2 times. Finally, deals Ice DMG equal to #3[i]% of The Herta's ATK to all enemies.",
+        "params": [
+            [
+                0.4,
+                1,
+                0.2
+            ],
+            [
+                0.44,
+                1,
+                0.22
+            ],
+            [
+                0.48,
+                1,
+                0.24
+            ],
+            [
+                0.52,
+                1,
+                0.26
+            ],
+            [
+                0.56,
+                1,
+                0.28
+            ],
+            [
+                0.6,
+                1,
+                0.3
+            ],
+            [
+                0.65,
+                1,
+                0.325
+            ],
+            [
+                0.7,
+                1,
+                0.35
+            ],
+            [
+                0.75,
+                1,
+                0.375
+            ],
+            [
+                0.8,
+                1,
+                0.4
+            ],
+            [
+                0.84,
+                1,
+                0.42
+            ],
+            [
+                0.88,
+                1,
+                0.44
+            ],
+            [
+                0.92,
+                1,
+                0.46
+            ],
+            [
+                0.96,
+                1,
+                0.48
+            ],
+            [
+                1,
+                1,
+                0.5
+            ]
+        ],
+        "icon": "icon/skill/1401_skill.png"
+    },
+    "140201": {
+        "id": "140201",
+        "name": "Thorned Nectar",
+        "max_level": 9,
+        "element": "Thunder",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Deals minor Lightning DMG to a single enemy.",
+        "desc": "Deals Lightning DMG equal to #1[i]% of Aglaea's ATK to one designated enemy.",
+        "params": [
+            [
+                0.5,
+                1
+            ],
+            [
+                0.6,
+                1
+            ],
+            [
+                0.7,
+                1
+            ],
+            [
+                0.8,
+                1
+            ],
+            [
+                0.9,
+                1
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1.1,
+                1
+            ],
+            [
+                1.2,
+                1
+            ],
+            [
+                1.3,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1402_basic_atk.png"
+    },
+    "140202": {
+        "id": "140202",
+        "name": "Rise, Exalted Renown",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Skill",
+        "effect": "Summon",
+        "effect_text": "Summon",
+        "simple_desc": "Restores HP for Garmentmaker. If Garmentmaker is absent, summons the memosprite Garmentmaker and this unit immediately takes action.",
+        "desc": "Restores HP to Garmentmaker by #1[i]% of its Max HP. If Garmentmaker is absent, summons the memosprite Garmentmaker and this unit immediately takes action.",
+        "params": [
+            [
+                0.25,
+                0,
+                5
+            ],
+            [
+                0.275,
+                0,
+                5
+            ],
+            [
+                0.3,
+                0,
+                5
+            ],
+            [
+                0.325,
+                0,
+                5
+            ],
+            [
+                0.35,
+                0,
+                5
+            ],
+            [
+                0.375,
+                0,
+                5
+            ],
+            [
+                0.4062,
+                0,
+                5
+            ],
+            [
+                0.4375,
+                0,
+                5
+            ],
+            [
+                0.4688,
+                0,
+                5
+            ],
+            [
+                0.5,
+                0,
+                5
+            ],
+            [
+                0.525,
+                0,
+                5
+            ],
+            [
+                0.55,
+                0,
+                5
+            ],
+            [
+                0.575,
+                0,
+                5
+            ],
+            [
+                0.6,
+                0,
+                5
+            ],
+            [
+                0.625,
+                0,
+                5
+            ]
+        ],
+        "icon": "icon/skill/1402_skill.png"
+    },
+    "140203": {
+        "id": "140203",
+        "name": "Dance, Destined Weaveress",
+        "max_level": 15,
+        "element": "",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "Enhance",
+        "effect_text": "Enhance",
+        "simple_desc": "Summons the memosprite Garmentmaker, enabling Aglaea to enter the \"Supreme Stance\" state, immediately take action, and gain Enhanced Basic ATK.",
+        "desc": "Summons the memosprite Garmentmaker. If Garmentmaker is already on the field, then restores its HP to max. Aglaea enters the \"Supreme Stance\" state and immediately takes action.\nWhile in the \"Supreme Stance\" state, Aglaea gains the SPD Boost stacks from Garmentmaker's Memosprite Talent, with each stack increasing her SPD by #1[f1]%. Enhances Basic ATK to \"Slash by a Thousandfold Kiss,\" and cannot use Skill. Garmentmaker is immune to Crowd Control debuffs.\nA countdown appears on the Action Order, with its own SPD set at #4[i]. Using Ultimate again when the countdown is on the Action Order will reset the countdown. When the countdown's turn starts, Garmentmaker self-destructs. When Garmentmaker disappears, Aglaea's \"Supreme Stance\" state is dispelled.",
+        "params": [
+            [
+                0.1,
+                0,
+                0,
+                100,
+                0,
+                0
+            ],
+            [
+                0.105,
+                0,
+                0,
+                100,
+                0,
+                0
+            ],
+            [
+                0.11,
+                0,
+                0,
+                100,
+                0,
+                0
+            ],
+            [
+                0.115,
+                0,
+                0,
+                100,
+                0,
+                0
+            ],
+            [
+                0.12,
+                0,
+                0,
+                100,
+                0,
+                0
+            ],
+            [
+                0.125,
+                0,
+                0,
+                100,
+                0,
+                0
+            ],
+            [
+                0.1313,
+                0,
+                0,
+                100,
+                0,
+                0
+            ],
+            [
+                0.1375,
+                0,
+                0,
+                100,
+                0,
+                0
+            ],
+            [
+                0.1437,
+                0,
+                0,
+                100,
+                0,
+                0
+            ],
+            [
+                0.15,
+                0,
+                0,
+                100,
+                0,
+                0
+            ],
+            [
+                0.155,
+                0,
+                0,
+                100,
+                0,
+                0
+            ],
+            [
+                0.16,
+                0,
+                0,
+                100,
+                0,
+                0
+            ],
+            [
+                0.165,
+                0,
+                0,
+                100,
+                0,
+                0
+            ],
+            [
+                0.17,
+                0,
+                0,
+                100,
+                0,
+                0
+            ],
+            [
+                0.175,
+                0,
+                0,
+                100,
+                0,
+                0
+            ]
+        ],
+        "icon": "icon/skill/1402_ultimate.png"
+    },
+    "140204": {
+        "id": "140204",
+        "name": "Rosy-Fingered",
+        "max_level": 15,
+        "element": "Thunder",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Enhance",
+        "effect_text": "Enhance",
+        "simple_desc": "While Garmentmaker is on the field, Aglaea's attacks inflict the target with the \"Seam Stitch\" state. After attacking enemies in the \"Seam Stitch\" state, further deals a minor Lightning Additional DMG.",
+        "desc": "The memosprite Garmentmaker has an initial SPD equal to #4[i]% of Aglaea's SPD and a Max HP equal to #5[i]% of Aglaea's Max HP plus #6[i]. While Garmentmaker is on the field, Aglaea's attacks inflict the target with the \"Seam Stitch\" state. After attacking enemies in the \"Seam Stitch\" state, further deals Lightning Additional DMG equal to #1[i]% of Aglaea's ATK. \"Seam Stitch\" only takes effect on the most recently inflicted target.",
+        "params": [
+            [
+                0.12,
+                0,
+                0,
+                0.35,
+                0.44,
+                180
+            ],
+            [
+                0.138,
+                0,
+                0,
+                0.35,
+                0.4675,
+                247.5
+            ],
+            [
+                0.156,
+                0,
+                0,
+                0.35,
+                0.495,
+                315
+            ],
+            [
+                0.174,
+                0,
+                0,
+                0.35,
+                0.5225,
+                382.5
+            ],
+            [
+                0.192,
+                0,
+                0,
+                0.35,
+                0.55,
+                450
+            ],
+            [
+                0.21,
+                0,
+                0,
+                0.35,
+                0.572,
+                504
+            ],
+            [
+                0.2325,
+                0,
+                0,
+                0.35,
+                0.594,
+                558
+            ],
+            [
+                0.255,
+                0,
+                0,
+                0.35,
+                0.616,
+                612
+            ],
+            [
+                0.2775,
+                0,
+                0,
+                0.35,
+                0.638,
+                666
+            ],
+            [
+                0.3,
+                0,
+                0,
+                0.35,
+                0.66,
+                720
+            ],
+            [
+                0.318,
+                0,
+                0,
+                0.35,
+                0.682,
+                774
+            ],
+            [
+                0.336,
+                0,
+                0,
+                0.35,
+                0.704,
+                828
+            ],
+            [
+                0.354,
+                0,
+                0,
+                0.35,
+                0.726,
+                882
+            ],
+            [
+                0.372,
+                0,
+                0,
+                0.35,
+                0.748,
+                936
+            ],
+            [
+                0.39,
+                0,
+                0,
+                0.35,
+                0.77,
+                990
+            ]
+        ],
+        "icon": "icon/skill/1402_talent.png"
+    },
+    "140206": {
+        "id": "140206",
+        "name": "Attack",
+        "max_level": 1,
+        "element": "Thunder",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Attacks an enemy, and when the battle starts, reduces their Toughness of the corresponding Type.",
+        "params": [],
+        "icon": "icon/skill/1402_basic_atk.png"
+    },
+    "140207": {
+        "id": "140207",
+        "name": "Meteoric Sunder",
+        "max_level": 1,
+        "element": "Thunder",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "Summons the memosprite Garmentmaker and launches a forward joint attack. After entering battle, regenerates Energy and deals minor Lightning DMG to all enemies. Then, randomly inflicts the \"Seam Stitch\" state to a random enemy target.",
+        "desc": "Summons the memosprite Garmentmaker and launches a forward joint attack. After entering battle, regenerates #2[i] Energy and deals Lightning DMG equal to #1[i]% of Aglaea's ATK to all enemy targets. Then, randomly inflicts the \"Seam Stitch\" state to a random enemy target.",
+        "params": [
+            [
+                1,
+                30
+            ]
+        ],
+        "icon": "icon/skill/1402_technique.png"
+    },
+    "140208": {
+        "id": "140208",
+        "name": "Slash by a Thousandfold Kiss",
+        "max_level": 9,
+        "element": "Thunder",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "Blast",
+        "effect_text": "Blast",
+        "simple_desc": "Aglaea and Garmentmaker launch a Joint ATK on the target. Deals Lightning DMG to one enemy and minor Lightning DMG to adjacent targets.",
+        "desc": "Aglaea and Garmentmaker launch a Joint ATK on the target, respectively dealing Lightning DMG equal to #1[f1]% of Aglaea's ATK and #3[f1]% of Garmentmaker's ATK to the target. Also, deal Lightning DMG equal to #2[i]% of Aglaea's ATK and #4[i]% of Garmentmaker's ATK to adjacent targets.\n\"Slash by a Thousandfold Kiss\" cannot recover Skill Points.",
+        "params": [
+            [
+                1,
+                0.45,
+                1,
+                0.45
+            ],
+            [
+                1.2,
+                0.54,
+                1.2,
+                0.54
+            ],
+            [
+                1.4,
+                0.63,
+                1.4,
+                0.63
+            ],
+            [
+                1.6,
+                0.72,
+                1.6,
+                0.72
+            ],
+            [
+                1.8,
+                0.81,
+                1.8,
+                0.81
+            ],
+            [
+                2,
+                0.9,
+                2,
+                0.9
+            ],
+            [
+                2.2,
+                0.99,
+                2.2,
+                0.99
+            ],
+            [
+                2.4,
+                1.08,
+                2.4,
+                1.08
+            ],
+            [
+                2.6,
+                1.17,
+                2.6,
+                1.17
+            ],
+            [
+                1.4,
+                0.56,
+                1.4,
+                0.56
+            ],
+            [
+                1.4,
+                0.56,
+                1.4,
+                0.56
+            ],
+            [
+                1.4,
+                0.56,
+                1.4,
+                0.56
+            ],
+            [
+                1.4,
+                0.56,
+                1.4,
+                0.56
+            ],
+            [
+                1.4,
+                0.56,
+                1.4,
+                0.56
+            ],
+            [
+                1.4,
+                0.56,
+                1.4,
+                0.56
+            ]
+        ],
+        "icon": "icon/skill/1402_basic_atk.png"
+    },
+    "140209": {
+        "id": "140209",
+        "name": "Rise, Exalted Renown",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Skill",
+        "effect": "Restore",
+        "effect_text": "Restore",
+        "simple_desc": "Restores HP for Garmentmaker. If Garmentmaker is absent, summons the memosprite Garmentmaker and this unit immediately takes action.",
+        "desc": "",
+        "params": [
+            [
+                0.25
+            ],
+            [
+                0.275
+            ],
+            [
+                0.3
+            ],
+            [
+                0.325
+            ],
+            [
+                0.35
+            ],
+            [
+                0.375
+            ],
+            [
+                0.4062
+            ],
+            [
+                0.4375
+            ],
+            [
+                0.4688
+            ],
+            [
+                0.5
+            ],
+            [
+                0.525
+            ],
+            [
+                0.55
+            ],
+            [
+                0.575
+            ],
+            [
+                0.6
+            ],
+            [
+                0.625
+            ]
+        ],
+        "icon": "icon/skill/1402_skill.png"
     },
     "800101": {
         "id": "800101",
@@ -25448,5 +26598,695 @@
             ]
         ],
         "icon": "icon/skill/8006_technique.png"
+    },
+    "800701": {
+        "id": "800701",
+        "name": "Leave It to Me!",
+        "max_level": 9,
+        "element": "Ice",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Deals minor Ice DMG to one enemy.",
+        "desc": "Deals Ice DMG equal to #1[i]% of Trailblazer's ATK to one designated enemy.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/8007_basic_atk.png"
+    },
+    "800702": {
+        "id": "800702",
+        "name": "I Choose You!",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Skill",
+        "effect": "Summon",
+        "effect_text": "Summon",
+        "simple_desc": "Summons the memosprite Mem. If Mem is already on the field, restores Mem's HP, and grants Mem Charge.",
+        "desc": "Summons the memosprite Mem. If Mem is already on the field, restores Mem's HP by an amount equal to #1[i]% of Mem's Max HP, and grants Mem #2[i]% Charge.",
+        "params": [
+            [
+                0.3,
+                0.1
+            ],
+            [
+                0.33,
+                0.1
+            ],
+            [
+                0.36,
+                0.1
+            ],
+            [
+                0.39,
+                0.1
+            ],
+            [
+                0.42,
+                0.1
+            ],
+            [
+                0.45,
+                0.1
+            ],
+            [
+                0.4875,
+                0.1
+            ],
+            [
+                0.525,
+                0.1
+            ],
+            [
+                0.5625,
+                0.1
+            ],
+            [
+                0.6,
+                0.1
+            ],
+            [
+                0.63,
+                0.1
+            ],
+            [
+                0.66,
+                0.1
+            ],
+            [
+                0.69,
+                0.1
+            ],
+            [
+                0.72,
+                0.1
+            ],
+            [
+                0.75,
+                0.1
+            ]
+        ],
+        "icon": "icon/skill/8007_skill.png"
+    },
+    "800703": {
+        "id": "800703",
+        "name": "Together, Mem!",
+        "max_level": 15,
+        "element": "Ice",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "AoEAttack",
+        "effect_text": "AoE",
+        "simple_desc": "Summons memosprite Mem. Grants Mem Charge, then enables Mem to deal massive Ice DMG to all enemies.",
+        "desc": "Summons memosprite Mem. Grants Mem #2[i]% Charge, then enables Mem to deal Ice DMG equal to #1[i]% of Mem's ATK to all enemies.",
+        "params": [
+            [
+                1.2,
+                0.4
+            ],
+            [
+                1.32,
+                0.4
+            ],
+            [
+                1.44,
+                0.4
+            ],
+            [
+                1.56,
+                0.4
+            ],
+            [
+                1.68,
+                0.4
+            ],
+            [
+                1.8,
+                0.4
+            ],
+            [
+                1.95,
+                0.4
+            ],
+            [
+                2.1,
+                0.4
+            ],
+            [
+                2.25,
+                0.4
+            ],
+            [
+                2.4,
+                0.4
+            ],
+            [
+                2.52,
+                0.4
+            ],
+            [
+                2.64,
+                0.4
+            ],
+            [
+                2.76,
+                0.4
+            ],
+            [
+                2.88,
+                0.4
+            ],
+            [
+                3,
+                0.4
+            ]
+        ],
+        "icon": "icon/skill/8007_ultimate.png"
+    },
+    "800704": {
+        "id": "800704",
+        "name": "Almighty Companion",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Enhance",
+        "effect_text": "Enhance",
+        "simple_desc": "Every time a certain amount of Energy is regenerated by all allies, Mem gains Charge.",
+        "desc": "Memosprite Mem has an initial SPD of #1[i] and Max HP equal to #2[i]% of Trailblazer's Max HP plus #4[i]. For every #3[i] Energy regenerated by all allies in total, Mem gains 1% Charge.",
+        "params": [
+            [
+                130,
+                0.5,
+                10,
+                400
+            ],
+            [
+                130,
+                0.53,
+                10,
+                424
+            ],
+            [
+                130,
+                0.56,
+                10,
+                448
+            ],
+            [
+                130,
+                0.59,
+                10,
+                472
+            ],
+            [
+                130,
+                0.62,
+                10,
+                496
+            ],
+            [
+                130,
+                0.65,
+                10,
+                520
+            ],
+            [
+                130,
+                0.6875,
+                10,
+                550
+            ],
+            [
+                130,
+                0.725,
+                10,
+                580
+            ],
+            [
+                130,
+                0.7625,
+                10,
+                610
+            ],
+            [
+                130,
+                0.8,
+                10,
+                640
+            ],
+            [
+                130,
+                0.83,
+                10,
+                664
+            ],
+            [
+                130,
+                0.86,
+                10,
+                688
+            ],
+            [
+                130,
+                0.89,
+                10,
+                712
+            ],
+            [
+                130,
+                0.92,
+                10,
+                736
+            ],
+            [
+                130,
+                0.95,
+                10,
+                760
+            ]
+        ],
+        "icon": "icon/skill/8007_talent.png"
+    },
+    "800706": {
+        "id": "800706",
+        "name": "Attack",
+        "max_level": 1,
+        "element": "Ice",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Attacks an enemy, and when the battle starts, reduces their Toughness of the corresponding Type.",
+        "params": [],
+        "icon": "icon/skill/8007_basic_atk.png"
+    },
+    "800707": {
+        "id": "800707",
+        "name": "Memories Back as Echoes",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Impair",
+        "effect_text": "Impair",
+        "simple_desc": "Creates a Special Dimension. Enemies in the dimension cease actions. When entering combat against enemies in the dimension, delays the action of all enemies and deals minor Ice DMG to all enemies.",
+        "desc": "After using Technique, creates a Special Dimension that lasts for #1[i] second(s). Enemies within the Special Dimension are placed in a Time Stop state, halting all their actions.\nAfter entering battle against enemies afflicted with the Time Stop state, delays the action of all enemies by #2[i]%, and then deals Ice DMG to all enemies equal to #3[i]% of Trailblazer's ATK.\nOnly 1 Dimension Effect created by allies can exist at the same time.",
+        "params": [
+            [
+                10,
+                0.5,
+                1
+            ]
+        ],
+        "icon": "icon/skill/8007_technique.png"
+    },
+    "800709": {
+        "id": "800709",
+        "name": "I Choose You!",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Skill",
+        "effect": "Restore",
+        "effect_text": "Restore",
+        "simple_desc": "Summons the memosprite Mem. If Mem is already on the field, restores Mem's HP, and grants Mem Charge.",
+        "desc": "",
+        "params": [],
+        "icon": "icon/skill/8007_skill.png"
+    },
+    "800801": {
+        "id": "800801",
+        "name": "Leave It to Me!",
+        "max_level": 9,
+        "element": "Ice",
+        "type": "Normal",
+        "type_text": "Basic ATK",
+        "effect": "SingleAttack",
+        "effect_text": "Single Target",
+        "simple_desc": "Deals minor Ice DMG to one enemy.",
+        "desc": "Deals Ice DMG equal to #1[i]% of Trailblazer's ATK to one designated enemy.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.6
+            ],
+            [
+                0.7
+            ],
+            [
+                0.8
+            ],
+            [
+                0.9
+            ],
+            [
+                1
+            ],
+            [
+                1.1
+            ],
+            [
+                1.2
+            ],
+            [
+                1.3
+            ]
+        ],
+        "icon": "icon/skill/8008_basic_atk.png"
+    },
+    "800802": {
+        "id": "800802",
+        "name": "I Choose You!",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Skill",
+        "effect": "Summon",
+        "effect_text": "Summon",
+        "simple_desc": "Summons the memosprite Mem. If Mem is already on the field, restores Mem's HP, and grants Mem Charge.",
+        "desc": "Summons the memosprite Mem. If Mem is already on the field, restores Mem's HP by an amount equal to #1[i]% of Mem's Max HP, and grants Mem #2[i]% Charge.",
+        "params": [
+            [
+                0.3,
+                0.1
+            ],
+            [
+                0.33,
+                0.1
+            ],
+            [
+                0.36,
+                0.1
+            ],
+            [
+                0.39,
+                0.1
+            ],
+            [
+                0.42,
+                0.1
+            ],
+            [
+                0.45,
+                0.1
+            ],
+            [
+                0.4875,
+                0.1
+            ],
+            [
+                0.525,
+                0.1
+            ],
+            [
+                0.5625,
+                0.1
+            ],
+            [
+                0.6,
+                0.1
+            ],
+            [
+                0.63,
+                0.1
+            ],
+            [
+                0.66,
+                0.1
+            ],
+            [
+                0.69,
+                0.1
+            ],
+            [
+                0.72,
+                0.1
+            ],
+            [
+                0.75,
+                0.1
+            ]
+        ],
+        "icon": "icon/skill/8008_skill.png"
+    },
+    "800803": {
+        "id": "800803",
+        "name": "Together, Mem!",
+        "max_level": 15,
+        "element": "Ice",
+        "type": "Ultra",
+        "type_text": "Ultimate",
+        "effect": "AoEAttack",
+        "effect_text": "AoE",
+        "simple_desc": "Summons memosprite Mem. Grants Mem Charge, then enables Mem to deal massive Ice DMG to all enemies.",
+        "desc": "Summons memosprite Mem. Grants Mem #2[i]% Charge, then enables Mem to deal Ice DMG equal to #1[i]% of Mem's ATK to all enemies.",
+        "params": [
+            [
+                1.2,
+                0.4
+            ],
+            [
+                1.32,
+                0.4
+            ],
+            [
+                1.44,
+                0.4
+            ],
+            [
+                1.56,
+                0.4
+            ],
+            [
+                1.68,
+                0.4
+            ],
+            [
+                1.8,
+                0.4
+            ],
+            [
+                1.95,
+                0.4
+            ],
+            [
+                2.1,
+                0.4
+            ],
+            [
+                2.25,
+                0.4
+            ],
+            [
+                2.4,
+                0.4
+            ],
+            [
+                2.52,
+                0.4
+            ],
+            [
+                2.64,
+                0.4
+            ],
+            [
+                2.76,
+                0.4
+            ],
+            [
+                2.88,
+                0.4
+            ],
+            [
+                3,
+                0.4
+            ]
+        ],
+        "icon": "icon/skill/8008_ultimate.png"
+    },
+    "800804": {
+        "id": "800804",
+        "name": "Almighty Companion",
+        "max_level": 15,
+        "element": "",
+        "type": "Talent",
+        "type_text": "Talent",
+        "effect": "Enhance",
+        "effect_text": "Enhance",
+        "simple_desc": "Every time a certain amount of Energy is regenerated by all allies, Mem gains Charge.",
+        "desc": "Memosprite Mem has an initial SPD of #1[i] and Max HP equal to #2[i]% of Trailblazer's Max HP plus #4[i]. For every #3[i] Energy regenerated by all allies in total, Mem gains 1% Charge.",
+        "params": [
+            [
+                130,
+                0.5,
+                10,
+                400
+            ],
+            [
+                130,
+                0.53,
+                10,
+                424
+            ],
+            [
+                130,
+                0.56,
+                10,
+                448
+            ],
+            [
+                130,
+                0.59,
+                10,
+                472
+            ],
+            [
+                130,
+                0.62,
+                10,
+                496
+            ],
+            [
+                130,
+                0.65,
+                10,
+                520
+            ],
+            [
+                130,
+                0.6875,
+                10,
+                550
+            ],
+            [
+                130,
+                0.725,
+                10,
+                580
+            ],
+            [
+                130,
+                0.7625,
+                10,
+                610
+            ],
+            [
+                130,
+                0.8,
+                10,
+                640
+            ],
+            [
+                130,
+                0.83,
+                10,
+                664
+            ],
+            [
+                130,
+                0.86,
+                10,
+                688
+            ],
+            [
+                130,
+                0.89,
+                10,
+                712
+            ],
+            [
+                130,
+                0.92,
+                10,
+                736
+            ],
+            [
+                130,
+                0.95,
+                10,
+                760
+            ]
+        ],
+        "icon": "icon/skill/8008_talent.png"
+    },
+    "800806": {
+        "id": "800806",
+        "name": "Attack",
+        "max_level": 1,
+        "element": "Ice",
+        "type": "MazeNormal",
+        "type_text": "",
+        "effect": "MazeAttack",
+        "effect_text": "",
+        "simple_desc": "",
+        "desc": "Attacks an enemy, and when the battle starts, reduces their Toughness of the corresponding Type.",
+        "params": [],
+        "icon": "icon/skill/8008_basic_atk.png"
+    },
+    "800807": {
+        "id": "800807",
+        "name": "Memories Back as Echoes",
+        "max_level": 1,
+        "element": "",
+        "type": "Maze",
+        "type_text": "Technique",
+        "effect": "Impair",
+        "effect_text": "Impair",
+        "simple_desc": "Creates a Special Dimension. Enemies in the dimension cease actions. When entering combat against enemies in the dimension, delays the action of all enemies and deals minor Ice DMG to all enemies.",
+        "desc": "After using Technique, creates a Special Dimension that lasts for #1[i] second(s). Enemies within the Special Dimension are placed in a Time Stop state, halting all their actions.\nAfter entering battle against enemies afflicted with the Time Stop state, delays the action of all enemies by #2[i]%, and then deals Ice DMG to all enemies equal to #3[i]% of Trailblazer's ATK.\nOnly 1 Dimension Effect created by allies can exist at the same time.",
+        "params": [
+            [
+                10,
+                0.5,
+                1
+            ]
+        ],
+        "icon": "icon/skill/8008_technique.png"
+    },
+    "800809": {
+        "id": "800809",
+        "name": "I Choose You!",
+        "max_level": 15,
+        "element": "",
+        "type": "BPSkill",
+        "type_text": "Skill",
+        "effect": "Restore",
+        "effect_text": "Restore",
+        "simple_desc": "Summons the memosprite Mem. If Mem is already on the field, restores Mem's HP, and grants Mem Charge.",
+        "desc": "",
+        "params": [],
+        "icon": "icon/skill/8008_skill.png"
     }
 }

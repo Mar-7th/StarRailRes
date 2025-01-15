@@ -683,6 +683,74 @@
             []
         ]
     },
+    "20021": {
+        "id": "20021",
+        "skill": "Embellissement",
+        "desc": "Lorsque le porteur invoque un mnémesprit pour la première fois en combat, récupère #1[i] point de compétence et régénère #2[i] points d'énergie pour cette unité.",
+        "params": [
+            [
+                1,
+                12
+            ],
+            [
+                1,
+                14
+            ],
+            [
+                1,
+                16
+            ],
+            [
+                1,
+                18
+            ],
+            [
+                1,
+                20
+            ]
+        ],
+        "properties": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    "20022": {
+        "id": "20022",
+        "skill": "Sommeil",
+        "desc": "Au début du tour du mnémesprit, accorde 1 cumul de Commémoration au porteur et au mnémesprit. Chaque cumul de Commémoration augmente les DGT infligés de #1[i]%, cumulable jusqu'à #2[i] fois. L'effet Commémoration est supprimé pour le porteur et le mnémesprit lorsque le mnémesprit disparaît.",
+        "params": [
+            [
+                0.08,
+                4
+            ],
+            [
+                0.09,
+                4
+            ],
+            [
+                0.1,
+                4
+            ],
+            [
+                0.11,
+                4
+            ],
+            [
+                0.12,
+                4
+            ]
+        ],
+        "properties": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
     "21000": {
         "id": "21000",
         "skill": "Guérison mutuelle",
@@ -3170,6 +3238,193 @@
                 {
                     "type": "SpeedAddedRatio",
                     "value": 0.12
+                }
+            ]
+        ]
+    },
+    "21050": {
+        "id": "21050",
+        "skill": "Coup de grâce",
+        "desc": "Augmente les DGT critiques du porteur de #1[i]%. Lorsque le mnémesprit du porteur utilise une compétence sur une cible alliée, augmente les DGT infligés par toutes les cibles alliées de #2[i]% pendant #3[i] tours.",
+        "params": [
+            [
+                0.12,
+                0.08,
+                3
+            ],
+            [
+                0.15,
+                0.1,
+                3
+            ],
+            [
+                0.18,
+                0.12,
+                3
+            ],
+            [
+                0.21,
+                0.14,
+                3
+            ],
+            [
+                0.24,
+                0.16,
+                3
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.12
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.15
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.18
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.21
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.24
+                }
+            ]
+        ]
+    },
+    "21051": {
+        "id": "21051",
+        "skill": "Félicitations",
+        "desc": "Augmente l'ATQ du porteur de #1[i]%. Après que le porteur a utilisé son ultime, augmente également les DGT d'ATQ normale du porteur et de son mnémesprit de #2[i]% pendant #3[i] tours.",
+        "params": [
+            [
+                0.16,
+                0.2,
+                3
+            ],
+            [
+                0.2,
+                0.25,
+                3
+            ],
+            [
+                0.24,
+                0.3,
+                3
+            ],
+            [
+                0.28,
+                0.35,
+                3
+            ],
+            [
+                0.32,
+                0.4,
+                3
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.16
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.2
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.24
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.28
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.32
+                }
+            ]
+        ]
+    },
+    "21052": {
+        "id": "21052",
+        "skill": "À l'entraînement !",
+        "desc": "Augmente les chances de coup critique du porteur de #1[i]%. Lorsque le mnémesprit du porteur est sur le champ de bataille, augmente les DGT infligés par le porteur et son mnémesprit de #2[i]%.",
+        "params": [
+            [
+                0.12,
+                0.24
+            ],
+            [
+                0.14,
+                0.27
+            ],
+            [
+                0.16,
+                0.3
+            ],
+            [
+                0.18,
+                0.33
+            ],
+            [
+                0.2,
+                0.36
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.12
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.14
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.16
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.18
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.2
                 }
             ]
         ]
@@ -5935,6 +6190,149 @@
                 {
                     "type": "BreakDamageAddedRatioBase",
                     "value": 1
+                }
+            ]
+        ]
+    },
+    "23036": {
+        "id": "23036",
+        "skill": "Conception",
+        "desc": "Augmente la VIT du porteur de #1[i]. Gagne 1 cumul de Tapisserie après chaque attaque du porteur et de son mnémesprit. Chaque cumul de Tapisserie augmente les DGT critiques du porteur et de son mnémesprit de #4[f1]%, cumulable jusqu'à #2[i] fois. Après avoir atteint la limite de cumuls, chaque cumul de Tapisserie augmente les DGT infligés par l'ATQ normale de #3[f1]% supplémentaires.",
+        "params": [
+            [
+                12,
+                6,
+                0.09,
+                0.09
+            ],
+            [
+                14,
+                6,
+                0.105,
+                0.105
+            ],
+            [
+                16,
+                6,
+                0.12,
+                0.12
+            ],
+            [
+                18,
+                6,
+                0.135,
+                0.135
+            ],
+            [
+                20,
+                6,
+                0.15,
+                0.15
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "BaseSpeed",
+                    "value": 12
+                }
+            ],
+            [
+                {
+                    "type": "BaseSpeed",
+                    "value": 14
+                }
+            ],
+            [
+                {
+                    "type": "BaseSpeed",
+                    "value": 16
+                }
+            ],
+            [
+                {
+                    "type": "BaseSpeed",
+                    "value": 18
+                }
+            ],
+            [
+                {
+                    "type": "BaseSpeed",
+                    "value": 20
+                }
+            ]
+        ]
+    },
+    "23037": {
+        "id": "23037",
+        "skill": "Jeu de réflexion",
+        "desc": "Augmente les chances de coup critique du porteur de #1[i]%. Augmente les DGT infligés par la compétence et l'ultime du porteur de #4[i]% pendant #5[i] tours lorsque le porteur utilise son ultime. Après l'utilisation de l'ultime, si un minimum de #3[i] points d'énergie ont été consommés, récupère 1 point de compétence.",
+        "params": [
+            [
+                0.12,
+                2,
+                140,
+                0.6,
+                3
+            ],
+            [
+                0.14,
+                2,
+                140,
+                0.7,
+                3
+            ],
+            [
+                0.16,
+                2,
+                140,
+                0.8,
+                3
+            ],
+            [
+                0.18,
+                2,
+                140,
+                0.9,
+                3
+            ],
+            [
+                0.2,
+                2,
+                140,
+                1,
+                3
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.12
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.14
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.16
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.18
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.2
                 }
             ]
         ]

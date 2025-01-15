@@ -218,7 +218,7 @@
         "name": "Andarilho do Deserto da Bandidagem",
         "desc": [
             "Aumenta o Dano Imaginário em 10%.",
-            "Ao atacar inimigos com penalidades, a Chance de CRIT do usuário aumenta em 10%, e seu Dano CRIT aumenta em 20% contra inimigos Aprisionados."
+            "Ao causar Dano a inimigos-alvo afligidos com penalidades, o usuário tem sua Chance de CRIT aumentada em 10%. E quando ele causa Dano a inimigos-alvo afligidos com Aprisionamento, sua Chance de CRIT aumenta em 20%."
         ],
         "properties": [
             [
@@ -420,6 +420,49 @@
             []
         ],
         "icon": "icon/relic/122.png",
+        "guide_overview": []
+    },
+    "123": {
+        "id": "123",
+        "name": "Herói da Melodia Triunfante",
+        "desc": [
+            "Aumenta o ATQ em 12%.",
+            "Enquanto o Memoespírito do usuário está em campo, aumenta a VEL do usuário em 6%. Quando o Memoespírito do usuário ataca, aumenta o Dano CRIT do usuário e do Memoespírito em 30% por 2 rodada(s)."
+        ],
+        "properties": [
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.12
+                }
+            ],
+            []
+        ],
+        "icon": "icon/relic/123.png",
+        "guide_overview": []
+    },
+    "124": {
+        "id": "124",
+        "name": "Poetisa do Colapso Enlutada",
+        "desc": [
+            "Aumenta o Dano Quântico causado em 10%.",
+            "Reduz a VEL do usuário em 8%. Antes de entrar em batalha, se a VEL do usuário estiver abaixo de 110/95, aumenta a Chance de CRIT do usuário em 20%/32%. Este efeito também se aplica no Memoespírito do usuário."
+        ],
+        "properties": [
+            [
+                {
+                    "type": "QuantumAddedRatio",
+                    "value": 0.1
+                }
+            ],
+            [
+                {
+                    "type": "SpeedAddedRatio",
+                    "value": -0.08
+                }
+            ]
+        ],
+        "icon": "icon/relic/124.png",
         "guide_overview": []
     },
     "301": {

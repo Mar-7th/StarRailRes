@@ -683,6 +683,74 @@
             []
         ]
     },
+    "20021": {
+        "id": "20021",
+        "skill": "Beautify",
+        "desc": "When the wearer summons memosprite for the first time in battle, recovers #1[i] Skill Point(s) and regenerates #2[i] Energy for this unit.",
+        "params": [
+            [
+                1,
+                12
+            ],
+            [
+                1,
+                14
+            ],
+            [
+                1,
+                16
+            ],
+            [
+                1,
+                18
+            ],
+            [
+                1,
+                20
+            ]
+        ],
+        "properties": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    "20022": {
+        "id": "20022",
+        "skill": "Going to Sleep",
+        "desc": "When memosprite's turn starts, the wearer and the memosprite each gain 1 stack of \"Commemoration.\" Each stack increases DMG dealt by #1[i]%, stacking up to #2[i] time(s). \"Commemoration\" is removed from the wearer and the memosprite when the memosprite disappears.",
+        "params": [
+            [
+                0.08,
+                4
+            ],
+            [
+                0.09,
+                4
+            ],
+            [
+                0.1,
+                4
+            ],
+            [
+                0.11,
+                4
+            ],
+            [
+                0.12,
+                4
+            ]
+        ],
+        "properties": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
     "21000": {
         "id": "21000",
         "skill": "Mutual Healing",
@@ -1396,7 +1464,7 @@
     "21015": {
         "id": "21015",
         "skill": "Glance Back",
-        "desc": "When the wearer hits an enemy and if the hit enemy is not already Ensnared, then there is a #1[i]% base chance to Ensnare the hit enemy. Ensnared enemies' DEF decreases by #2[i]% for #3[i] turn(s).",
+        "desc": "When the wearer hits an enemy and if the hit enemy is not already \"Ensnared,\" then there is a #1[i]% base chance to \"Ensnare\" the hit enemy. \"Ensnared\" enemies' DEF decreases by #2[i]% for #3[i] turn(s).",
         "params": [
             [
                 0.6,
@@ -3170,6 +3238,193 @@
                 {
                     "type": "SpeedAddedRatio",
                     "value": 0.12
+                }
+            ]
+        ]
+    },
+    "21050": {
+        "id": "21050",
+        "skill": "Final Hit",
+        "desc": "Increases the wearer's CRIT DMG by #1[i]%. When the wearer's memosprite uses an ability on any ally target, increases all ally targets' DMG dealt by #2[i]%, lasting for #3[i] turn(s).",
+        "params": [
+            [
+                0.12,
+                0.08,
+                3
+            ],
+            [
+                0.15,
+                0.1,
+                3
+            ],
+            [
+                0.18,
+                0.12,
+                3
+            ],
+            [
+                0.21,
+                0.14,
+                3
+            ],
+            [
+                0.24,
+                0.16,
+                3
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.12
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.15
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.18
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.21
+                }
+            ],
+            [
+                {
+                    "type": "CriticalDamageBase",
+                    "value": 0.24
+                }
+            ]
+        ]
+    },
+    "21051": {
+        "id": "21051",
+        "skill": "Congratulations",
+        "desc": "Increases the wearer's ATK by #1[i]%. After the wearer uses their Ultimate, additionally increases the wearer and their memosprite's Basic ATK DMG dealt by #2[i]% for #3[i] turn(s).",
+        "params": [
+            [
+                0.16,
+                0.2,
+                3
+            ],
+            [
+                0.2,
+                0.25,
+                3
+            ],
+            [
+                0.24,
+                0.3,
+                3
+            ],
+            [
+                0.28,
+                0.35,
+                3
+            ],
+            [
+                0.32,
+                0.4,
+                3
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.16
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.2
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.24
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.28
+                }
+            ],
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.32
+                }
+            ]
+        ]
+    },
+    "21052": {
+        "id": "21052",
+        "skill": "Come Train!",
+        "desc": "Increases the wearer's CRIT Rate by #1[i]%. When the wearer's memosprite is on the field, increases the wearer and their memosprite's DMG dealt by #2[i]%.",
+        "params": [
+            [
+                0.12,
+                0.24
+            ],
+            [
+                0.14,
+                0.27
+            ],
+            [
+                0.16,
+                0.3
+            ],
+            [
+                0.18,
+                0.33
+            ],
+            [
+                0.2,
+                0.36
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.12
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.14
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.16
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.18
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.2
                 }
             ]
         ]
@@ -5935,6 +6190,149 @@
                 {
                     "type": "BreakDamageAddedRatioBase",
                     "value": 1
+                }
+            ]
+        ]
+    },
+    "23036": {
+        "id": "23036",
+        "skill": "Establishment",
+        "desc": "Increases the wearer's base SPD by #1[i]. After the wearer and the wearer's memosprite attacks, the wearer gains 1 stack of \"Brocade.\" Each stack of \"Brocade\" increases the wearer and their memosprite's CRIT DMG by #4[f1]%, stacking up to #2[i] time(s). When reaching maximum stacks, each \"Brocade\" stack will additionally increase Basic ATK DMG dealt by #3[f1]%.",
+        "params": [
+            [
+                12,
+                6,
+                0.09,
+                0.09
+            ],
+            [
+                14,
+                6,
+                0.105,
+                0.105
+            ],
+            [
+                16,
+                6,
+                0.12,
+                0.12
+            ],
+            [
+                18,
+                6,
+                0.135,
+                0.135
+            ],
+            [
+                20,
+                6,
+                0.15,
+                0.15
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "BaseSpeed",
+                    "value": 12
+                }
+            ],
+            [
+                {
+                    "type": "BaseSpeed",
+                    "value": 14
+                }
+            ],
+            [
+                {
+                    "type": "BaseSpeed",
+                    "value": 16
+                }
+            ],
+            [
+                {
+                    "type": "BaseSpeed",
+                    "value": 18
+                }
+            ],
+            [
+                {
+                    "type": "BaseSpeed",
+                    "value": 20
+                }
+            ]
+        ]
+    },
+    "23037": {
+        "id": "23037",
+        "skill": "Mind Game",
+        "desc": "Increases the wearer's CRIT Rate by #1[i]%. When the wearer uses their Ultimate, increases DMG dealt by the wearer's Skill and Ultimate by #4[i]%, lasting for #5[i] turn(s). After the wearer uses their Ultimate, if this Ultimate consumed #3[i] or more Energy, recovers 1 Skill Point.",
+        "params": [
+            [
+                0.12,
+                2,
+                140,
+                0.6,
+                3
+            ],
+            [
+                0.14,
+                2,
+                140,
+                0.7,
+                3
+            ],
+            [
+                0.16,
+                2,
+                140,
+                0.8,
+                3
+            ],
+            [
+                0.18,
+                2,
+                140,
+                0.9,
+                3
+            ],
+            [
+                0.2,
+                2,
+                140,
+                1,
+                3
+            ]
+        ],
+        "properties": [
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.12
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.14
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.16
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.18
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.2
                 }
             ]
         ]

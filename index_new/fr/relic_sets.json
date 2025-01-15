@@ -218,7 +218,7 @@
         "name": "Ferrailleur du désert des bandits",
         "desc": [
             "Augmente les DGT imaginaires de 10%.",
-            "Les chances de coup critique du porteur augmentent de 10% contre les ennemis subissant des malus, et ses DGT critiques augmentent de 20% contre les ennemis emprisonnés."
+            "Les chances de coup critique du porteur augmentent de 10% quand celui-ci inflige des DGT aux cibles ennemies subissant des malus, et ses DGT critiques augmentent de 20% quand il inflige des DGT aux cibles ennemies emprisonnées."
         ],
         "properties": [
             [
@@ -420,6 +420,49 @@
             []
         ],
         "icon": "icon/relic/122.png",
+        "guide_overview": []
+    },
+    "123": {
+        "id": "123",
+        "name": "Héros de la chanson triomphale",
+        "desc": [
+            "Augmente l'ATQ de 12%.",
+            "Augmente la VIT du porteur de 6% tant que son mnémesprit est sur le champ de bataille. Lorsque le mnémesprit attaque, ses DGT critiques ainsi que ceux du porteur augmentent de 30% pendant 2 tours."
+        ],
+        "properties": [
+            [
+                {
+                    "type": "AttackAddedRatio",
+                    "value": 0.12
+                }
+            ],
+            []
+        ],
+        "icon": "icon/relic/123.png",
+        "guide_overview": []
+    },
+    "124": {
+        "id": "124",
+        "name": "Poétesse du déclin funèbre",
+        "desc": [
+            "Augmente les DGT quantiques infligés de 10%.",
+            "Réduit la VIT du porteur de 8%. Si sa VIT est inférieure à 110/95 en entrant en combat, ses chances de coup critique augmentent de 20%/32%. Cet effet s'applique également au mnémesprit du porteur."
+        ],
+        "properties": [
+            [
+                {
+                    "type": "QuantumAddedRatio",
+                    "value": 0.1
+                }
+            ],
+            [
+                {
+                    "type": "SpeedAddedRatio",
+                    "value": -0.08
+                }
+            ]
+        ],
+        "icon": "icon/relic/124.png",
         "guide_overview": []
     },
     "301": {
