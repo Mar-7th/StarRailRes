@@ -27288,5 +27288,700 @@
         "desc": "",
         "params": [],
         "icon": "icon/skill/8008_skill.png"
+    },
+    "1140201": {
+        "id": "1140201",
+        "name": "Armadilha de Espinhos",
+        "max_level": 10,
+        "element": "Thunder",
+        "type": "MemospriteSkill",
+        "type_text": "Perícia do Memoespírito",
+        "effect": "Blast",
+        "effect_text": "Explosão",
+        "simple_desc": "Causa Dano de Raio leve a um inimigo-alvo e a unidades adjacentes.",
+        "desc": "Causa Dano de Raio equivalente a #1[i]% do ATQ a um inimigo e Dano de Raio equivalente a #2[i]% do ATQ a alvos adjacentes.",
+        "params": [
+            [
+                0.55,
+                0.33,
+                1
+            ],
+            [
+                0.66,
+                0.396,
+                1
+            ],
+            [
+                0.77,
+                0.462,
+                1
+            ],
+            [
+                0.88,
+                0.528,
+                1
+            ],
+            [
+                0.99,
+                0.594,
+                1
+            ],
+            [
+                1.1,
+                0.66,
+                1
+            ],
+            [
+                1.21,
+                0.726,
+                1
+            ],
+            [
+                1.32,
+                0.792,
+                1
+            ],
+            [
+                1.43,
+                0.858,
+                1
+            ],
+            [
+                1.54,
+                0.924,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1402_memosprite_skill.png"
+    },
+    "1140203": {
+        "id": "1140203",
+        "name": "Um Corpo Feito de Lágrimas",
+        "max_level": 10,
+        "element": "",
+        "type": "MemospriteTalent",
+        "type_text": "Talento do Memoespírito",
+        "effect": "Enhance",
+        "effect_text": "Aprimoramento",
+        "simple_desc": "Após atacar um inimigo afligido com \"Costura Vinculante\", aumenta a VEL desta unidade. Durante a ação, usa ataques automaticamente, priorizando inimigos no estado de \"Costura Vinculante\".",
+        "desc": "Após atacar um inimigo afetado por \"Costura Vinculante\", aumenta a VEL desta unidade em #1[i], acumulando até #3[i] vez(es). Durante a rodada da Confeccionadora, usa automaticamente \"Armadilha de Espinhos\", priorizando inimigos no estado de \"Costura Vinculante\".",
+        "params": [
+            [
+                44,
+                3,
+                6
+            ],
+            [
+                46.2,
+                3,
+                6
+            ],
+            [
+                48.4,
+                3,
+                6
+            ],
+            [
+                50.6,
+                3,
+                6
+            ],
+            [
+                52.8,
+                3,
+                6
+            ],
+            [
+                55,
+                3,
+                6
+            ],
+            [
+                57.2,
+                3,
+                6
+            ],
+            [
+                59.4,
+                3,
+                6
+            ],
+            [
+                61.6,
+                3,
+                6
+            ],
+            [
+                63.8,
+                3,
+                6
+            ]
+        ],
+        "icon": "icon/skill/1402_memosprite_talent.png"
+    },
+    "1140205": {
+        "id": "1140205",
+        "name": "O Verão Acelerado",
+        "max_level": 10,
+        "element": "",
+        "type": "MemospriteTalent",
+        "type_text": "Talento do Memoespírito",
+        "effect": "Enhance",
+        "effect_text": "Aprimoramento",
+        "simple_desc": "Ao ser invocada, a ação dessa unidade é Avançada Adiante.",
+        "desc": "Quando a Confeccionadora é invocada, a ação dessa unidade é Avançada Adiante em #1[i]%.",
+        "params": [
+            [
+                1
+            ],
+            [
+                1
+            ],
+            [
+                1
+            ],
+            [
+                1
+            ],
+            [
+                1
+            ],
+            [
+                1
+            ],
+            [
+                1
+            ],
+            [
+                1
+            ],
+            [
+                1
+            ],
+            [
+                1
+            ]
+        ],
+        "icon": "icon/skill/1402_memosprite_talent.png"
+    },
+    "1140206": {
+        "id": "1140206",
+        "name": "Florescer da Grama Seca",
+        "max_level": 10,
+        "element": "",
+        "type": "MemospriteTalent",
+        "type_text": "Talento do Memoespírito",
+        "effect": "Enhance",
+        "effect_text": "Aprimoramento",
+        "simple_desc": "Regenera Energia para Aglaea ao desaparecer.",
+        "desc": "Quando a Confeccionadora desaparece, regenera #1[i] de Energia para Aglaea.",
+        "params": [
+            [
+                20
+            ],
+            [
+                20
+            ],
+            [
+                20
+            ],
+            [
+                20
+            ],
+            [
+                20
+            ],
+            [
+                20
+            ],
+            [
+                20
+            ],
+            [
+                20
+            ],
+            [
+                20
+            ],
+            [
+                20
+            ]
+        ],
+        "icon": "icon/skill/1402_memosprite_talent.png"
+    },
+    "1800701": {
+        "id": "1800701",
+        "name": "Malvadões! Treta!",
+        "max_level": 10,
+        "element": "Ice",
+        "type": "MemospriteSkill",
+        "type_text": "Perícia do Memoespírito",
+        "effect": "AoEAttack",
+        "effect_text": "Área",
+        "simple_desc": "Causa Dano de Gelo leve Ricocheteia por um total de 4 vez(es). Causa Dano de Gelo leve a todos os inimigos no fim.",
+        "desc": "Causa #2[i] instância(s) de Dano, com cada instância causando Dano de Gelo igual a #1[f1]% do ATQ de Mem a um inimigo aleatório. Por fim, causa Dano de Gelo igual a #3[i]% do ATQ de Mem a todos os inimigos.",
+        "params": [
+            [
+                0.18,
+                4,
+                0.45
+            ],
+            [
+                0.216,
+                4,
+                0.54
+            ],
+            [
+                0.252,
+                4,
+                0.63
+            ],
+            [
+                0.288,
+                4,
+                0.72
+            ],
+            [
+                0.324,
+                4,
+                0.81
+            ],
+            [
+                0.36,
+                4,
+                0.9
+            ],
+            [
+                0.396,
+                4,
+                0.99
+            ],
+            [
+                0.432,
+                4,
+                1.08
+            ],
+            [
+                0.468,
+                4,
+                1.17
+            ],
+            [
+                0.504,
+                4,
+                1.26
+            ],
+            [
+                0.18,
+                4,
+                0.45
+            ],
+            [
+                0.216,
+                4,
+                0.54
+            ],
+            [
+                0.252,
+                4,
+                0.63
+            ],
+            [
+                0.288,
+                4,
+                0.72
+            ],
+            [
+                0.324,
+                4,
+                0.81
+            ],
+            [
+                0.36,
+                4,
+                0.9
+            ],
+            [
+                0.396,
+                4,
+                0.99
+            ],
+            [
+                0.432,
+                4,
+                1.08
+            ],
+            [
+                0.468,
+                4,
+                1.17
+            ],
+            [
+                0.504,
+                4,
+                1.26
+            ]
+        ],
+        "icon": "icon/skill/8007_memosprite_skill.png"
+    },
+    "1800703": {
+        "id": "1800703",
+        "name": "Amigos! Juntos!",
+        "max_level": 10,
+        "element": "",
+        "type": "MemospriteTalent",
+        "type_text": "Talento do Memoespírito",
+        "effect": "Support",
+        "effect_text": "Suporte",
+        "simple_desc": "Aumenta o Dano CRIT de todos os aliados.\nDurante a ação, usa ataques automaticamente. Se a Carga chegar a 100%, age imediatamente e pode usar uma nova habilidade: Avança Adiante a ação de um aliado e causa Dano Verdadeiro.",
+        "desc": "Aumenta o Dano CRIT de todos os aliados em #1[f1]% do Dano CRIT de Mem + #2[f1]%.\nSe a Carga ainda não tiver chegado a 100%, Mem usa \"Malvadões! Treta!\" automaticamente durante a ação. Quando a Carga chega a 100%, Mem age imediatamente e pode selecionar uma unidade-aliada para utilizar \"Deixa! Eu Ajudar Você!\" na próxima ação.",
+        "params": [
+            [
+                0.06,
+                0.12
+            ],
+            [
+                0.072,
+                0.144
+            ],
+            [
+                0.084,
+                0.168
+            ],
+            [
+                0.096,
+                0.192
+            ],
+            [
+                0.108,
+                0.216
+            ],
+            [
+                0.12,
+                0.24
+            ],
+            [
+                0.132,
+                0.264
+            ],
+            [
+                0.144,
+                0.288
+            ],
+            [
+                0.156,
+                0.312
+            ],
+            [
+                0.168,
+                0.336
+            ],
+            [
+                0.06,
+                0.12
+            ],
+            [
+                0.072,
+                0.144
+            ],
+            [
+                0.084,
+                0.168
+            ],
+            [
+                0.096,
+                0.192
+            ],
+            [
+                0.108,
+                0.216
+            ],
+            [
+                0.12,
+                0.24
+            ],
+            [
+                0.132,
+                0.264
+            ],
+            [
+                0.144,
+                0.288
+            ],
+            [
+                0.156,
+                0.312
+            ],
+            [
+                0.168,
+                0.336
+            ]
+        ],
+        "icon": "icon/skill/8007_memosprite_talent.png"
+    },
+    "1800705": {
+        "id": "1800705",
+        "name": "Vai, Mem, Vai!",
+        "max_level": 10,
+        "element": "",
+        "type": "MemospriteTalent",
+        "type_text": "Talento do Memoespírito",
+        "effect": "Enhance",
+        "effect_text": "Aprimoramento",
+        "simple_desc": "Ao ser invocada, ganha Carga imediatamente.",
+        "desc": "Quando Mem é invocada imediatamente ganha #1[i]% de Carga.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ]
+        ],
+        "icon": "icon/skill/8007_memosprite_talent.png"
+    },
+    "1800706": {
+        "id": "1800706",
+        "name": "Sem... Arrependimentos",
+        "max_level": 10,
+        "element": "",
+        "type": "MemospriteTalent",
+        "type_text": "Talento do Memoespírito",
+        "effect": "Enhance",
+        "effect_text": "Aprimoramento",
+        "simple_desc": "Ao desaparecer, Avança Adiante a ação {F#da Desbravadora}{M#do Desbravador}.",
+        "desc": "Quando Mem desaparece, a ação {F#da}{M#do} Desbravador{F#a} é Avançada Adiante em #1[i]%.",
+        "params": [
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ]
+        ],
+        "icon": "icon/skill/8007_memosprite_talent.png"
+    },
+    "1800707": {
+        "id": "1800707",
+        "name": "Deixa! Eu Ajudar Você!",
+        "max_level": 10,
+        "element": "",
+        "type": "MemospriteSkill",
+        "type_text": "Perícia do Memoespírito",
+        "effect": "Support",
+        "effect_text": "Suporte",
+        "simple_desc": "A ação de um aliado é Avançada Adiante e concede \"Suporte da Mem\": causa adicionalmente Dano Verdadeiro depois de causar Dano.",
+        "desc": "Avança Adiante a ação de um aliado designado em #3[i]% e concede a ele \"Suporte da Mem\", com duração de #2[i] rodada(s).\nA cada 1 instância de Dano causado pelo alvo que possui \"Suporte da Mem\", causa adicionalmente 1 instância de Dano Verdadeiro igual a #1[i]% do Dano original.\nAo usar esta habilidade nesta unidade, o efeito de Avançar Adiante da ação não pode ser ativado.",
+        "params": [
+            [
+                0.18,
+                3,
+                1
+            ],
+            [
+                0.2,
+                3,
+                1
+            ],
+            [
+                0.22,
+                3,
+                1
+            ],
+            [
+                0.24,
+                3,
+                1
+            ],
+            [
+                0.26,
+                3,
+                1
+            ],
+            [
+                0.28,
+                3,
+                1
+            ],
+            [
+                0.3,
+                3,
+                1
+            ],
+            [
+                0.32,
+                3,
+                1
+            ],
+            [
+                0.34,
+                3,
+                1
+            ],
+            [
+                0.36,
+                3,
+                1
+            ],
+            [
+                0.18,
+                3,
+                1
+            ],
+            [
+                0.2,
+                3,
+                1
+            ],
+            [
+                0.22,
+                3,
+                1
+            ],
+            [
+                0.24,
+                3,
+                1
+            ],
+            [
+                0.26,
+                3,
+                1
+            ],
+            [
+                0.28,
+                3,
+                1
+            ],
+            [
+                0.3,
+                3,
+                1
+            ],
+            [
+                0.32,
+                3,
+                1
+            ],
+            [
+                0.34,
+                3,
+                1
+            ],
+            [
+                0.36,
+                3,
+                1
+            ]
+        ],
+        "icon": "icon/skill/8007_memosprite_skill.png"
     }
 }

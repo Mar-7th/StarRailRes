@@ -27288,5 +27288,700 @@
         "desc": "",
         "params": [],
         "icon": "icon/skill/8008_skill.png"
+    },
+    "1140201": {
+        "id": "1140201",
+        "name": "Thorned Snare",
+        "max_level": 10,
+        "element": "Thunder",
+        "type": "MemospriteSkill",
+        "type_text": "Skill Memosprite",
+        "effect": "Blast",
+        "effect_text": "Blast",
+        "simple_desc": "Mengakibatkan Lightning DMG dalam jumlah kecil pada 1 musuh dan target di sekitarnya.",
+        "desc": "Mengakibatkan Lightning DMG sebesar #1[i]% ATK pada 1 musuh, dan mengakibatkan Lightning DMG sebesar #2[i]% ATK pada target di sekitarnya.",
+        "params": [
+            [
+                0.55,
+                0.33,
+                1
+            ],
+            [
+                0.66,
+                0.396,
+                1
+            ],
+            [
+                0.77,
+                0.462,
+                1
+            ],
+            [
+                0.88,
+                0.528,
+                1
+            ],
+            [
+                0.99,
+                0.594,
+                1
+            ],
+            [
+                1.1,
+                0.66,
+                1
+            ],
+            [
+                1.21,
+                0.726,
+                1
+            ],
+            [
+                1.32,
+                0.792,
+                1
+            ],
+            [
+                1.43,
+                0.858,
+                1
+            ],
+            [
+                1.54,
+                0.924,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1402_memosprite_skill.png"
+    },
+    "1140203": {
+        "id": "1140203",
+        "name": "A Body Brewed by Tears",
+        "max_level": 10,
+        "element": "",
+        "type": "MemospriteTalent",
+        "type_text": "Talent Memosprite",
+        "effect": "Enhance",
+        "effect_text": "Enhance",
+        "simple_desc": "Setelah menyerang musuh berstatus \"Seam Stitch\", SPD unit ini akan meningkat. Saat beraksi akan melancarkan serangan secara otomatis, dan memprioritaskan untuk menyerang musuh berstatus \"Seam Stitch\".",
+        "desc": "Setelah menyerang musuh berstatus \"Seam Stitch\", SPD unit ini akan meningkat #1[i] poin, efek ini maksimal dapat ditumpuk hingga #3[i] lapis. Saat Garmentmaker beraksi, ia akan melancarkan \"Thorned Snare\" secara otomatis, dan memprioritaskan untuk menyerang musuh yang berstatus \"Seam Stitch\".",
+        "params": [
+            [
+                44,
+                3,
+                6
+            ],
+            [
+                46.2,
+                3,
+                6
+            ],
+            [
+                48.4,
+                3,
+                6
+            ],
+            [
+                50.6,
+                3,
+                6
+            ],
+            [
+                52.8,
+                3,
+                6
+            ],
+            [
+                55,
+                3,
+                6
+            ],
+            [
+                57.2,
+                3,
+                6
+            ],
+            [
+                59.4,
+                3,
+                6
+            ],
+            [
+                61.6,
+                3,
+                6
+            ],
+            [
+                63.8,
+                3,
+                6
+            ]
+        ],
+        "icon": "icon/skill/1402_memosprite_talent.png"
+    },
+    "1140205": {
+        "id": "1140205",
+        "name": "The Speeding Summer",
+        "max_level": 10,
+        "element": "",
+        "type": "MemospriteTalent",
+        "type_text": "Talent Memosprite",
+        "effect": "Enhance",
+        "effect_text": "Enhance",
+        "simple_desc": "Saat dipanggil, unit ini akan mengalami Pendahuluan Aksi.",
+        "desc": "Saat Garmentmaker dipanggil, unit ini akan mengalami Pendahuluan Aksi sebesar #1[i]%.",
+        "params": [
+            [
+                1
+            ],
+            [
+                1
+            ],
+            [
+                1
+            ],
+            [
+                1
+            ],
+            [
+                1
+            ],
+            [
+                1
+            ],
+            [
+                1
+            ],
+            [
+                1
+            ],
+            [
+                1
+            ],
+            [
+                1
+            ]
+        ],
+        "icon": "icon/skill/1402_memosprite_talent.png"
+    },
+    "1140206": {
+        "id": "1140206",
+        "name": "Bloom of Drying Grass",
+        "max_level": 10,
+        "element": "",
+        "type": "MemospriteTalent",
+        "type_text": "Talent Memosprite",
+        "effect": "Enhance",
+        "effect_text": "Enhance",
+        "simple_desc": "Saat menghilang, akan memulihkan Energy untuk Aglaea.",
+        "desc": "Saat Garmentmaker menghilang, akan memulihkan #1[i] Energy untuk Aglaea.",
+        "params": [
+            [
+                20
+            ],
+            [
+                20
+            ],
+            [
+                20
+            ],
+            [
+                20
+            ],
+            [
+                20
+            ],
+            [
+                20
+            ],
+            [
+                20
+            ],
+            [
+                20
+            ],
+            [
+                20
+            ],
+            [
+                20
+            ]
+        ],
+        "icon": "icon/skill/1402_memosprite_talent.png"
+    },
+    "1800701": {
+        "id": "1800701",
+        "name": "Baddies! Trouble!",
+        "max_level": 10,
+        "element": "Ice",
+        "type": "MemospriteSkill",
+        "type_text": "Skill Memosprite",
+        "effect": "AoEAttack",
+        "effect_text": "AoE",
+        "simple_desc": "Mengakibatkan Ice DMG dalam jumlah kecil, total Bounce 4 kali. Terakhir, mengakibatkan Ice DMG dalam jumlah kecil pada seluruh musuh.",
+        "desc": "Mengakibatkan #2[i] kali DMG, setiap kalinya akan mengakibatkan Ice DMG sebesar #1[f1]% ATK Mem pada 1 musuh acak. Terakhir, mengakibatkan Ice DMG sebesar #3[i]% ATK Mem pada seluruh musuh.",
+        "params": [
+            [
+                0.18,
+                4,
+                0.45
+            ],
+            [
+                0.216,
+                4,
+                0.54
+            ],
+            [
+                0.252,
+                4,
+                0.63
+            ],
+            [
+                0.288,
+                4,
+                0.72
+            ],
+            [
+                0.324,
+                4,
+                0.81
+            ],
+            [
+                0.36,
+                4,
+                0.9
+            ],
+            [
+                0.396,
+                4,
+                0.99
+            ],
+            [
+                0.432,
+                4,
+                1.08
+            ],
+            [
+                0.468,
+                4,
+                1.17
+            ],
+            [
+                0.504,
+                4,
+                1.26
+            ],
+            [
+                0.18,
+                4,
+                0.45
+            ],
+            [
+                0.216,
+                4,
+                0.54
+            ],
+            [
+                0.252,
+                4,
+                0.63
+            ],
+            [
+                0.288,
+                4,
+                0.72
+            ],
+            [
+                0.324,
+                4,
+                0.81
+            ],
+            [
+                0.36,
+                4,
+                0.9
+            ],
+            [
+                0.396,
+                4,
+                0.99
+            ],
+            [
+                0.432,
+                4,
+                1.08
+            ],
+            [
+                0.468,
+                4,
+                1.17
+            ],
+            [
+                0.504,
+                4,
+                1.26
+            ]
+        ],
+        "icon": "icon/skill/8007_memosprite_skill.png"
+    },
+    "1800703": {
+        "id": "1800703",
+        "name": "Friends! Together!",
+        "max_level": 10,
+        "element": "",
+        "type": "MemospriteTalent",
+        "type_text": "Talent Memosprite",
+        "effect": "Support",
+        "effect_text": "Support",
+        "simple_desc": "Meningkatkan CRIT DMG seluruh rekan tim.\nSaat beraksi, akan melancarkan serangan secara otomatis. Jika Charge mencapai 100%, Mem akan segera beraksi dan melancarkan kemampuan baru: membuat 1 rekan tim mengalami Pendahuluan Aksi dan mengakibatkan True DMG.",
+        "desc": "Meningkatkan CRIT DMG seluruh rekan tim sebesar #1[f1]% CRIT DMG Mem + #2[f1]%.\nJika Charge belum mencapai 100%, saat Mem beraksi akan secara otomatis melancarkan \"Baddies! Trouble!\". Saat Charge mencapai 100%, Mem akan segera beraksi. Di aksi berikutnya, Mem dapat memilih 1 rekan tim dan melancarkan \"Lemme! Help You!\".",
+        "params": [
+            [
+                0.06,
+                0.12
+            ],
+            [
+                0.072,
+                0.144
+            ],
+            [
+                0.084,
+                0.168
+            ],
+            [
+                0.096,
+                0.192
+            ],
+            [
+                0.108,
+                0.216
+            ],
+            [
+                0.12,
+                0.24
+            ],
+            [
+                0.132,
+                0.264
+            ],
+            [
+                0.144,
+                0.288
+            ],
+            [
+                0.156,
+                0.312
+            ],
+            [
+                0.168,
+                0.336
+            ],
+            [
+                0.06,
+                0.12
+            ],
+            [
+                0.072,
+                0.144
+            ],
+            [
+                0.084,
+                0.168
+            ],
+            [
+                0.096,
+                0.192
+            ],
+            [
+                0.108,
+                0.216
+            ],
+            [
+                0.12,
+                0.24
+            ],
+            [
+                0.132,
+                0.264
+            ],
+            [
+                0.144,
+                0.288
+            ],
+            [
+                0.156,
+                0.312
+            ],
+            [
+                0.168,
+                0.336
+            ]
+        ],
+        "icon": "icon/skill/8007_memosprite_talent.png"
+    },
+    "1800705": {
+        "id": "1800705",
+        "name": "Go, Mem, Go!",
+        "max_level": 10,
+        "element": "",
+        "type": "MemospriteTalent",
+        "type_text": "Talent Memosprite",
+        "effect": "Enhance",
+        "effect_text": "Enhance",
+        "simple_desc": "Saat dipanggil, akan segera memperoleh Charge.",
+        "desc": "Saat Mem dipanggil, segera memperoleh #1[i]% Charge.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ]
+        ],
+        "icon": "icon/skill/8007_memosprite_talent.png"
+    },
+    "1800706": {
+        "id": "1800706",
+        "name": "No... Regrets",
+        "max_level": 10,
+        "element": "",
+        "type": "MemospriteTalent",
+        "type_text": "Talent Memosprite",
+        "effect": "Enhance",
+        "effect_text": "Enhance",
+        "simple_desc": "Saat menghilang, Trailblazer akan mengalami Pendahuluan Aksi.",
+        "desc": "Saat Mem menghilang, Trailblazer akan mengalami Pendahuluan Aksi sebesar #1[i]%.",
+        "params": [
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ]
+        ],
+        "icon": "icon/skill/8007_memosprite_talent.png"
+    },
+    "1800707": {
+        "id": "1800707",
+        "name": "Lemme! Help You!",
+        "max_level": 10,
+        "element": "",
+        "type": "MemospriteSkill",
+        "type_text": "Skill Memosprite",
+        "effect": "Support",
+        "effect_text": "Support",
+        "simple_desc": "Membuat 1 rekan tim mengalami Pendahuluan Aksi dan menambahkan \"Mem's Support\": Setelah mengakibatkan DMG, akan mengakibatkan tambahan True DMG.",
+        "desc": "Membuat 1 rekan tim yang ditargetkan mengalami Pendahuluan Aksi sebesar #3[i]% dan menambahkan \"Mem's Support\" selama #2[i] giliran.\nSetiap kali target yang memiliki \"Mem's Support\" mengakibatkan 1 kali DMG, akan mengakibatkan tambahan 1 kali True DMG sebesar #1[i]% dari DMG aslinya.\nSaat melancarkan kemampuan ini pada diri sendiri, efek Pendahuluan Aksi tidak dapat dipicu.",
+        "params": [
+            [
+                0.18,
+                3,
+                1
+            ],
+            [
+                0.2,
+                3,
+                1
+            ],
+            [
+                0.22,
+                3,
+                1
+            ],
+            [
+                0.24,
+                3,
+                1
+            ],
+            [
+                0.26,
+                3,
+                1
+            ],
+            [
+                0.28,
+                3,
+                1
+            ],
+            [
+                0.3,
+                3,
+                1
+            ],
+            [
+                0.32,
+                3,
+                1
+            ],
+            [
+                0.34,
+                3,
+                1
+            ],
+            [
+                0.36,
+                3,
+                1
+            ],
+            [
+                0.18,
+                3,
+                1
+            ],
+            [
+                0.2,
+                3,
+                1
+            ],
+            [
+                0.22,
+                3,
+                1
+            ],
+            [
+                0.24,
+                3,
+                1
+            ],
+            [
+                0.26,
+                3,
+                1
+            ],
+            [
+                0.28,
+                3,
+                1
+            ],
+            [
+                0.3,
+                3,
+                1
+            ],
+            [
+                0.32,
+                3,
+                1
+            ],
+            [
+                0.34,
+                3,
+                1
+            ],
+            [
+                0.36,
+                3,
+                1
+            ]
+        ],
+        "icon": "icon/skill/8007_memosprite_skill.png"
     }
 }

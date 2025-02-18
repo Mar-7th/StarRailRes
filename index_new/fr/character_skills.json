@@ -27288,5 +27288,700 @@
         "desc": "",
         "params": [],
         "icon": "icon/skill/8008_skill.png"
+    },
+    "1140201": {
+        "id": "1140201",
+        "name": "Piège de couture",
+        "max_level": 10,
+        "element": "Thunder",
+        "type": "MemospriteSkill",
+        "type_text": "Compétence du mnémesprit",
+        "effect": "Blast",
+        "effect_text": "Propagation",
+        "simple_desc": "Inflige des DGT de foudre mineurs à une cible ennemie et aux cibles adjacentes.",
+        "desc": "Inflige des DGT de foudre équivalents à #1[i]% de l'ATQ à un ennemi et des DGT de foudre équivalents à #2[i]% de l'ATQ aux cibles adjacentes.",
+        "params": [
+            [
+                0.55,
+                0.33,
+                1
+            ],
+            [
+                0.66,
+                0.396,
+                1
+            ],
+            [
+                0.77,
+                0.462,
+                1
+            ],
+            [
+                0.88,
+                0.528,
+                1
+            ],
+            [
+                0.99,
+                0.594,
+                1
+            ],
+            [
+                1.1,
+                0.66,
+                1
+            ],
+            [
+                1.21,
+                0.726,
+                1
+            ],
+            [
+                1.32,
+                0.792,
+                1
+            ],
+            [
+                1.43,
+                0.858,
+                1
+            ],
+            [
+                1.54,
+                0.924,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1402_memosprite_skill.png"
+    },
+    "1140203": {
+        "id": "1140203",
+        "name": "Corps forgé par les larmes",
+        "max_level": 10,
+        "element": "",
+        "type": "MemospriteTalent",
+        "type_text": "Talent du mnémesprit",
+        "effect": "Enhance",
+        "effect_text": "Renforcement",
+        "simple_desc": "Augmente la VIT de cette unité après avoir attaqué un ennemi affecté par Point de couture. Lance automatiquement une attaque au cours de son tour, en donnant la priorité aux ennemis affectés par Point de couture.",
+        "desc": "Augmente la VIT de cette unité de #1[i] après avoir attaqué un ennemi affecté par Point de couture, cumulable jusqu'à #3[i] fois. La Costumière lance automatiquement Piège de couture au cours de son tour, en donnant la priorité aux ennemis affectés par Point de couture.",
+        "params": [
+            [
+                44,
+                3,
+                6
+            ],
+            [
+                46.2,
+                3,
+                6
+            ],
+            [
+                48.4,
+                3,
+                6
+            ],
+            [
+                50.6,
+                3,
+                6
+            ],
+            [
+                52.8,
+                3,
+                6
+            ],
+            [
+                55,
+                3,
+                6
+            ],
+            [
+                57.2,
+                3,
+                6
+            ],
+            [
+                59.4,
+                3,
+                6
+            ],
+            [
+                61.6,
+                3,
+                6
+            ],
+            [
+                63.8,
+                3,
+                6
+            ]
+        ],
+        "icon": "icon/skill/1402_memosprite_talent.png"
+    },
+    "1140205": {
+        "id": "1140205",
+        "name": "Été fulgurant",
+        "max_level": 10,
+        "element": "",
+        "type": "MemospriteTalent",
+        "type_text": "Talent du mnémesprit",
+        "effect": "Enhance",
+        "effect_text": "Renforcement",
+        "simple_desc": "L'action de cette unité est avancée lorsqu'elle est invoquée.",
+        "desc": "L'action de la Costumière est avancée de #1[i]% lorsqu'elle est invoquée.",
+        "params": [
+            [
+                1
+            ],
+            [
+                1
+            ],
+            [
+                1
+            ],
+            [
+                1
+            ],
+            [
+                1
+            ],
+            [
+                1
+            ],
+            [
+                1
+            ],
+            [
+                1
+            ],
+            [
+                1
+            ],
+            [
+                1
+            ]
+        ],
+        "icon": "icon/skill/1402_memosprite_talent.png"
+    },
+    "1140206": {
+        "id": "1140206",
+        "name": "Floraison de l'herbe fanée",
+        "max_level": 10,
+        "element": "",
+        "type": "MemospriteTalent",
+        "type_text": "Talent du mnémesprit",
+        "effect": "Enhance",
+        "effect_text": "Renforcement",
+        "simple_desc": "Régénère l'énergie d'Aglaé lors de sa disparition.",
+        "desc": "La Costumière régénère #1[i] points d'énergie pour Aglaé lorsqu'elle disparaît.",
+        "params": [
+            [
+                20
+            ],
+            [
+                20
+            ],
+            [
+                20
+            ],
+            [
+                20
+            ],
+            [
+                20
+            ],
+            [
+                20
+            ],
+            [
+                20
+            ],
+            [
+                20
+            ],
+            [
+                20
+            ],
+            [
+                20
+            ]
+        ],
+        "icon": "icon/skill/1402_memosprite_talent.png"
+    },
+    "1800701": {
+        "id": "1800701",
+        "name": "Du balais les méchants !",
+        "max_level": 10,
+        "element": "Ice",
+        "type": "MemospriteSkill",
+        "type_text": "Compétence du mnémesprit",
+        "effect": "AoEAttack",
+        "effect_text": "ZdE",
+        "simple_desc": "Inflige des DGT de glace mineurs qui rebondissent un total de4 fois. Inflige ensuite des DGT de glace mineurs à tous les ennemis.",
+        "desc": "Inflige #2[i] instances de DGT, chaque instance inflige des DGT de glace équivalents à #1[f1]% de l'ATQ de Mem à un ennemi aléatoire. Puis, inflige des DGT de glace équivalents à #3[i]% de l'ATQ de Mem à tous les ennemis.",
+        "params": [
+            [
+                0.18,
+                4,
+                0.45
+            ],
+            [
+                0.216,
+                4,
+                0.54
+            ],
+            [
+                0.252,
+                4,
+                0.63
+            ],
+            [
+                0.288,
+                4,
+                0.72
+            ],
+            [
+                0.324,
+                4,
+                0.81
+            ],
+            [
+                0.36,
+                4,
+                0.9
+            ],
+            [
+                0.396,
+                4,
+                0.99
+            ],
+            [
+                0.432,
+                4,
+                1.08
+            ],
+            [
+                0.468,
+                4,
+                1.17
+            ],
+            [
+                0.504,
+                4,
+                1.26
+            ],
+            [
+                0.18,
+                4,
+                0.45
+            ],
+            [
+                0.216,
+                4,
+                0.54
+            ],
+            [
+                0.252,
+                4,
+                0.63
+            ],
+            [
+                0.288,
+                4,
+                0.72
+            ],
+            [
+                0.324,
+                4,
+                0.81
+            ],
+            [
+                0.36,
+                4,
+                0.9
+            ],
+            [
+                0.396,
+                4,
+                0.99
+            ],
+            [
+                0.432,
+                4,
+                1.08
+            ],
+            [
+                0.468,
+                4,
+                1.17
+            ],
+            [
+                0.504,
+                4,
+                1.26
+            ]
+        ],
+        "icon": "icon/skill/8007_memosprite_skill.png"
+    },
+    "1800703": {
+        "id": "1800703",
+        "name": "Amis pour la vie !",
+        "max_level": 10,
+        "element": "",
+        "type": "MemospriteTalent",
+        "type_text": "Talent du mnémesprit",
+        "effect": "Support",
+        "effect_text": "Soutien",
+        "simple_desc": "Les DGT critiques de tous les alliés augmentent.\nLance automatiquement une attaque au cours de son action. Lorsque la charge atteint 100 %, agit immédiatement et peut utiliser une nouvelle attaque capacité : permet d'avancer l'action d'un allié et d'infliger des DGT réels.",
+        "desc": "Les DGT critiques de tous les alliés augmentent d'un montant équivalent à #1[f1]% des DGT critiques de Mem + #2[f1]%.\nLorsque la charge n'a pas encore atteint 100 %, Mem utilise automatiquement « Du balais les méchants ! » lors de son tour. Lorsque la charge atteint 100 %, Mem agit immédiatement et peut sélectionner une unité alliée pour utiliser « Laisse-moi t'aider ! » au cours de son prochain tour.",
+        "params": [
+            [
+                0.06,
+                0.12
+            ],
+            [
+                0.072,
+                0.144
+            ],
+            [
+                0.084,
+                0.168
+            ],
+            [
+                0.096,
+                0.192
+            ],
+            [
+                0.108,
+                0.216
+            ],
+            [
+                0.12,
+                0.24
+            ],
+            [
+                0.132,
+                0.264
+            ],
+            [
+                0.144,
+                0.288
+            ],
+            [
+                0.156,
+                0.312
+            ],
+            [
+                0.168,
+                0.336
+            ],
+            [
+                0.06,
+                0.12
+            ],
+            [
+                0.072,
+                0.144
+            ],
+            [
+                0.084,
+                0.168
+            ],
+            [
+                0.096,
+                0.192
+            ],
+            [
+                0.108,
+                0.216
+            ],
+            [
+                0.12,
+                0.24
+            ],
+            [
+                0.132,
+                0.264
+            ],
+            [
+                0.144,
+                0.288
+            ],
+            [
+                0.156,
+                0.312
+            ],
+            [
+                0.168,
+                0.336
+            ]
+        ],
+        "icon": "icon/skill/8007_memosprite_talent.png"
+    },
+    "1800705": {
+        "id": "1800705",
+        "name": "Allez, Mem, en avant !",
+        "max_level": 10,
+        "element": "",
+        "type": "MemospriteTalent",
+        "type_text": "Talent du mnémesprit",
+        "effect": "Enhance",
+        "effect_text": "Renforcement",
+        "simple_desc": "Gagne immédiatement de la charge lors de l'invocation.",
+        "desc": "Gagne immédiatement #1[i]% de charge lors de l'invocation de Mem.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ]
+        ],
+        "icon": "icon/skill/8007_memosprite_talent.png"
+    },
+    "1800706": {
+        "id": "1800706",
+        "name": "Aucun... regret",
+        "max_level": 10,
+        "element": "",
+        "type": "MemospriteTalent",
+        "type_text": "Talent du mnémesprit",
+        "effect": "Enhance",
+        "effect_text": "Renforcement",
+        "simple_desc": "Avance l'action {M#du pionnier}{F#la pionnière} après sa disparition.",
+        "desc": "Avance l'action {M#du pionnier}{F#de la pionnière} de #1[i]% lorsque Mem disparaît.",
+        "params": [
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ]
+        ],
+        "icon": "icon/skill/8007_memosprite_talent.png"
+    },
+    "1800707": {
+        "id": "1800707",
+        "name": "Laisse-moi t'aider !",
+        "max_level": 10,
+        "element": "",
+        "type": "MemospriteSkill",
+        "type_text": "Compétence du mnémesprit",
+        "effect": "Support",
+        "effect_text": "Soutien",
+        "simple_desc": "Avance l'action d'un allié et lui accorde « Soutien de Mem », ce qui permet d'infliger des DGT réels supplémentaires après avoir infligé des DGT.",
+        "desc": "Avance l'action d'un allié désigné de #3[i]% et lui accorde Soutien de Mem pendant #2[i] tours.\nPour chaque instance de DGT infligés par la cible avec Soutien de Mem, inflige également 1 instance de DGT réels équivalents à #1[i]% des DGT initiaux.\nL'effet d'avancement d'action ne peut pas être déclenché lorsque la capacité est utilisée sur cette unité.",
+        "params": [
+            [
+                0.18,
+                3,
+                1
+            ],
+            [
+                0.2,
+                3,
+                1
+            ],
+            [
+                0.22,
+                3,
+                1
+            ],
+            [
+                0.24,
+                3,
+                1
+            ],
+            [
+                0.26,
+                3,
+                1
+            ],
+            [
+                0.28,
+                3,
+                1
+            ],
+            [
+                0.3,
+                3,
+                1
+            ],
+            [
+                0.32,
+                3,
+                1
+            ],
+            [
+                0.34,
+                3,
+                1
+            ],
+            [
+                0.36,
+                3,
+                1
+            ],
+            [
+                0.18,
+                3,
+                1
+            ],
+            [
+                0.2,
+                3,
+                1
+            ],
+            [
+                0.22,
+                3,
+                1
+            ],
+            [
+                0.24,
+                3,
+                1
+            ],
+            [
+                0.26,
+                3,
+                1
+            ],
+            [
+                0.28,
+                3,
+                1
+            ],
+            [
+                0.3,
+                3,
+                1
+            ],
+            [
+                0.32,
+                3,
+                1
+            ],
+            [
+                0.34,
+                3,
+                1
+            ],
+            [
+                0.36,
+                3,
+                1
+            ]
+        ],
+        "icon": "icon/skill/8007_memosprite_skill.png"
     }
 }

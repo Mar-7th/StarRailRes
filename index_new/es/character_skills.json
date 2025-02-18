@@ -27288,5 +27288,700 @@
         "desc": "",
         "params": [],
         "icon": "icon/skill/8008_skill.png"
+    },
+    "1140201": {
+        "id": "1140201",
+        "name": "Trampa punzante",
+        "max_level": 10,
+        "element": "Thunder",
+        "type": "MemospriteSkill",
+        "type_text": "Habilidad del mnemoduende",
+        "effect": "Blast",
+        "effect_text": "Ráfaga",
+        "simple_desc": "Inflige una pequeña cantidad de Daño de Rayo a un enemigo y a los objetivos adyacentes.",
+        "desc": "Inflige un #1[i]% de su ATQ como Daño de Rayo a un enemigo y un #2[i]% de su ATQ como Daño de Rayo a los objetivos adyacentes.",
+        "params": [
+            [
+                0.55,
+                0.33,
+                1
+            ],
+            [
+                0.66,
+                0.396,
+                1
+            ],
+            [
+                0.77,
+                0.462,
+                1
+            ],
+            [
+                0.88,
+                0.528,
+                1
+            ],
+            [
+                0.99,
+                0.594,
+                1
+            ],
+            [
+                1.1,
+                0.66,
+                1
+            ],
+            [
+                1.21,
+                0.726,
+                1
+            ],
+            [
+                1.32,
+                0.792,
+                1
+            ],
+            [
+                1.43,
+                0.858,
+                1
+            ],
+            [
+                1.54,
+                0.924,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1402_memosprite_skill.png"
+    },
+    "1140203": {
+        "id": "1140203",
+        "name": "Cuerpo forjado de lágrimas",
+        "max_level": 10,
+        "element": "",
+        "type": "MemospriteTalent",
+        "type_text": "Talento del mnemoduende",
+        "effect": "Enhance",
+        "effect_text": "Potenciación",
+        "simple_desc": "Tras atacar a un enemigo en el estado de Hilván, su VEL aumenta. Cuando actúa, ataca automáticamente priorizando al enemigo en el estado de Hilván.",
+        "desc": "Tras atacar a un enemigo en el estado de Hilván, su VEL aumenta en #1[i] pts. Este efecto puede acumularse hasta #3[i] veces. Cuando el Sastre actúa, lanza automáticamente Trampa punzante, priorizando al enemigo en el estado de Hilván.",
+        "params": [
+            [
+                44,
+                3,
+                6
+            ],
+            [
+                46.2,
+                3,
+                6
+            ],
+            [
+                48.4,
+                3,
+                6
+            ],
+            [
+                50.6,
+                3,
+                6
+            ],
+            [
+                52.8,
+                3,
+                6
+            ],
+            [
+                55,
+                3,
+                6
+            ],
+            [
+                57.2,
+                3,
+                6
+            ],
+            [
+                59.4,
+                3,
+                6
+            ],
+            [
+                61.6,
+                3,
+                6
+            ],
+            [
+                63.8,
+                3,
+                6
+            ]
+        ],
+        "icon": "icon/skill/1402_memosprite_talent.png"
+    },
+    "1140205": {
+        "id": "1140205",
+        "name": "Estío fugaz",
+        "max_level": 10,
+        "element": "",
+        "type": "MemospriteTalent",
+        "type_text": "Talento del mnemoduende",
+        "effect": "Enhance",
+        "effect_text": "Potenciación",
+        "simple_desc": "Cuando es invocado, su acción se adelanta.",
+        "desc": "Cuando el Sastre es invocado, su acción se adelanta un #1[i]%.",
+        "params": [
+            [
+                1
+            ],
+            [
+                1
+            ],
+            [
+                1
+            ],
+            [
+                1
+            ],
+            [
+                1
+            ],
+            [
+                1
+            ],
+            [
+                1
+            ],
+            [
+                1
+            ],
+            [
+                1
+            ],
+            [
+                1
+            ]
+        ],
+        "icon": "icon/skill/1402_memosprite_talent.png"
+    },
+    "1140206": {
+        "id": "1140206",
+        "name": "Profusión de hierbas secas",
+        "max_level": 10,
+        "element": "",
+        "type": "MemospriteTalent",
+        "type_text": "Talento del mnemoduende",
+        "effect": "Enhance",
+        "effect_text": "Potenciación",
+        "simple_desc": "Cuando desaparece, Aglaea recupera energía.",
+        "desc": "Cuando el Sastre desaparece, Aglaea recupera #1[i] pts. de energía.",
+        "params": [
+            [
+                20
+            ],
+            [
+                20
+            ],
+            [
+                20
+            ],
+            [
+                20
+            ],
+            [
+                20
+            ],
+            [
+                20
+            ],
+            [
+                20
+            ],
+            [
+                20
+            ],
+            [
+                20
+            ],
+            [
+                20
+            ]
+        ],
+        "icon": "icon/skill/1402_memosprite_talent.png"
+    },
+    "1800701": {
+        "id": "1800701",
+        "name": "¡Malos! ¡Problemas!",
+        "max_level": 10,
+        "element": "Ice",
+        "type": "MemospriteSkill",
+        "type_text": "Habilidad del mnemoduende",
+        "effect": "AoEAttack",
+        "effect_text": "ATQ AdE",
+        "simple_desc": "Inflige una pequeña cantidad de Daño de Hielo que se dispara 4 veces en total. Después inflige una pequeña cantidad de Daño de Hielo a todos los enemigos.",
+        "desc": "Inflige daño #2[i] veces. Cada vez inflige un #1[f1]% del ATQ de Mem como Daño de Hielo a un enemigo al azar. Después inflige un #3[i]% del ATQ de Mem como Daño de Hielo a todos los enemigos.",
+        "params": [
+            [
+                0.18,
+                4,
+                0.45
+            ],
+            [
+                0.216,
+                4,
+                0.54
+            ],
+            [
+                0.252,
+                4,
+                0.63
+            ],
+            [
+                0.288,
+                4,
+                0.72
+            ],
+            [
+                0.324,
+                4,
+                0.81
+            ],
+            [
+                0.36,
+                4,
+                0.9
+            ],
+            [
+                0.396,
+                4,
+                0.99
+            ],
+            [
+                0.432,
+                4,
+                1.08
+            ],
+            [
+                0.468,
+                4,
+                1.17
+            ],
+            [
+                0.504,
+                4,
+                1.26
+            ],
+            [
+                0.18,
+                4,
+                0.45
+            ],
+            [
+                0.216,
+                4,
+                0.54
+            ],
+            [
+                0.252,
+                4,
+                0.63
+            ],
+            [
+                0.288,
+                4,
+                0.72
+            ],
+            [
+                0.324,
+                4,
+                0.81
+            ],
+            [
+                0.36,
+                4,
+                0.9
+            ],
+            [
+                0.396,
+                4,
+                0.99
+            ],
+            [
+                0.432,
+                4,
+                1.08
+            ],
+            [
+                0.468,
+                4,
+                1.17
+            ],
+            [
+                0.504,
+                4,
+                1.26
+            ]
+        ],
+        "icon": "icon/skill/8007_memosprite_skill.png"
+    },
+    "1800703": {
+        "id": "1800703",
+        "name": "¡Amigui! ¡Vamos!",
+        "max_level": 10,
+        "element": "",
+        "type": "MemospriteTalent",
+        "type_text": "Talento del mnemoduende",
+        "effect": "Support",
+        "effect_text": "Apoyo",
+        "simple_desc": "Aumenta el Daño CRIT de todos los aliados.\nAl actuar, ataca inmediatamente. Cuando la carga alcanza el 100%, actúa inmediatamente y lanza una nueva habilidad que permite a un aliado adelantar su acción e infligir Daño verdadero.",
+        "desc": "Aumenta el Daño CRIT de todos los aliados en una cantidad equivalente al #1[f1]% del Daño CRIT de Mem + #2[f1]%.\nSi la carga no está al 100%, Mem lanza automáticamente \"¡Malos! ¡Problemas!\" al actuar. Cuando alcanza el 100%, Mem actúa inmediatamente y puede lanzar en su siguiente acción \"¡Yo! ¡Te ayudo!\" al aliado seleccionado.",
+        "params": [
+            [
+                0.06,
+                0.12
+            ],
+            [
+                0.072,
+                0.144
+            ],
+            [
+                0.084,
+                0.168
+            ],
+            [
+                0.096,
+                0.192
+            ],
+            [
+                0.108,
+                0.216
+            ],
+            [
+                0.12,
+                0.24
+            ],
+            [
+                0.132,
+                0.264
+            ],
+            [
+                0.144,
+                0.288
+            ],
+            [
+                0.156,
+                0.312
+            ],
+            [
+                0.168,
+                0.336
+            ],
+            [
+                0.06,
+                0.12
+            ],
+            [
+                0.072,
+                0.144
+            ],
+            [
+                0.084,
+                0.168
+            ],
+            [
+                0.096,
+                0.192
+            ],
+            [
+                0.108,
+                0.216
+            ],
+            [
+                0.12,
+                0.24
+            ],
+            [
+                0.132,
+                0.264
+            ],
+            [
+                0.144,
+                0.288
+            ],
+            [
+                0.156,
+                0.312
+            ],
+            [
+                0.168,
+                0.336
+            ]
+        ],
+        "icon": "icon/skill/8007_memosprite_talent.png"
+    },
+    "1800705": {
+        "id": "1800705",
+        "name": "¡Ánimo, Mem!",
+        "max_level": 10,
+        "element": "",
+        "type": "MemospriteTalent",
+        "type_text": "Talento del mnemoduende",
+        "effect": "Enhance",
+        "effect_text": "Potenciación",
+        "simple_desc": "Obtiene carga inmediatamente al ser invocada.",
+        "desc": "Cuando Mem es invocada, obtiene inmediatamente un #1[i]% de carga.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ]
+        ],
+        "icon": "icon/skill/8007_memosprite_talent.png"
+    },
+    "1800706": {
+        "id": "1800706",
+        "name": "Remordimientos... no.",
+        "max_level": 10,
+        "element": "",
+        "type": "MemospriteTalent",
+        "type_text": "Talento del mnemoduende",
+        "effect": "Enhance",
+        "effect_text": "Potenciación",
+        "simple_desc": "Al desaparecer, la acción {F#de la}{M#del} Trazacaminos se adelanta.",
+        "desc": "Cuando Mem desaparece, la acción {F#de la}{M#del} Trazacaminos se adelanta un #1[i]%.",
+        "params": [
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ]
+        ],
+        "icon": "icon/skill/8007_memosprite_talent.png"
+    },
+    "1800707": {
+        "id": "1800707",
+        "name": "¡Yo! ¡Te ayudo!",
+        "max_level": 10,
+        "element": "",
+        "type": "MemospriteSkill",
+        "type_text": "Habilidad del mnemoduende",
+        "effect": "Support",
+        "effect_text": "Apoyo",
+        "simple_desc": "Adelanta la acción de un aliado y le otorga Apoyo de Mem: inflige Daño verdadero de forma adicional después de infligir daño.",
+        "desc": "Adelanta la acción de un aliado un #3[i]% y le otorga Apoyo de Mem durante #2[i] turnos.\nCada vez que un objetivo con Apoyo de Mem inflige daño, inflige de forma adicional un Daño verdadero equivalente al #1[i]% del daño original.\nSi se lanza a sí misma esta habilidad, no se activará la acción adelantada.",
+        "params": [
+            [
+                0.18,
+                3,
+                1
+            ],
+            [
+                0.2,
+                3,
+                1
+            ],
+            [
+                0.22,
+                3,
+                1
+            ],
+            [
+                0.24,
+                3,
+                1
+            ],
+            [
+                0.26,
+                3,
+                1
+            ],
+            [
+                0.28,
+                3,
+                1
+            ],
+            [
+                0.3,
+                3,
+                1
+            ],
+            [
+                0.32,
+                3,
+                1
+            ],
+            [
+                0.34,
+                3,
+                1
+            ],
+            [
+                0.36,
+                3,
+                1
+            ],
+            [
+                0.18,
+                3,
+                1
+            ],
+            [
+                0.2,
+                3,
+                1
+            ],
+            [
+                0.22,
+                3,
+                1
+            ],
+            [
+                0.24,
+                3,
+                1
+            ],
+            [
+                0.26,
+                3,
+                1
+            ],
+            [
+                0.28,
+                3,
+                1
+            ],
+            [
+                0.3,
+                3,
+                1
+            ],
+            [
+                0.32,
+                3,
+                1
+            ],
+            [
+                0.34,
+                3,
+                1
+            ],
+            [
+                0.36,
+                3,
+                1
+            ]
+        ],
+        "icon": "icon/skill/8007_memosprite_skill.png"
     }
 }

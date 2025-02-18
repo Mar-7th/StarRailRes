@@ -27288,5 +27288,700 @@
         "desc": "",
         "params": [],
         "icon": "icon/skill/8008_skill.png"
+    },
+    "1140201": {
+        "id": "1140201",
+        "name": "Thorned Snare",
+        "max_level": 10,
+        "element": "Thunder",
+        "type": "MemospriteSkill",
+        "type_text": "Memosprite Skill",
+        "effect": "Blast",
+        "effect_text": "Blast",
+        "simple_desc": "Deals minor Lightning DMG to one enemy target and adjacent targets.",
+        "desc": "Deals Lightning DMG equal to #1[i]% ATK to one enemy and Lightning DMG equal to #2[i]% ATK to adjacent targets.",
+        "params": [
+            [
+                0.55,
+                0.33,
+                1
+            ],
+            [
+                0.66,
+                0.396,
+                1
+            ],
+            [
+                0.77,
+                0.462,
+                1
+            ],
+            [
+                0.88,
+                0.528,
+                1
+            ],
+            [
+                0.99,
+                0.594,
+                1
+            ],
+            [
+                1.1,
+                0.66,
+                1
+            ],
+            [
+                1.21,
+                0.726,
+                1
+            ],
+            [
+                1.32,
+                0.792,
+                1
+            ],
+            [
+                1.43,
+                0.858,
+                1
+            ],
+            [
+                1.54,
+                0.924,
+                1
+            ]
+        ],
+        "icon": "icon/skill/1402_memosprite_skill.png"
+    },
+    "1140203": {
+        "id": "1140203",
+        "name": "A Body Brewed by Tears",
+        "max_level": 10,
+        "element": "",
+        "type": "MemospriteTalent",
+        "type_text": "Memosprite Talent",
+        "effect": "Enhance",
+        "effect_text": "Enhance",
+        "simple_desc": "After attacking an enemy afflicted with \"Seam Stitch,\" increases this unit's SPD. During action, automatically uses attacks, prioritizing enemies under the \"Seam Stitch\" state.",
+        "desc": "After attacking an enemy afflicted with \"Seam Stitch,\" increases this unit's SPD by #1[i], stacking up to #3[i] time(s). During Garmentmaker's turn, automatically uses \"Thorned Snare,\" prioritizing enemies under the \"Seam Stitch\" state.",
+        "params": [
+            [
+                44,
+                3,
+                6
+            ],
+            [
+                46.2,
+                3,
+                6
+            ],
+            [
+                48.4,
+                3,
+                6
+            ],
+            [
+                50.6,
+                3,
+                6
+            ],
+            [
+                52.8,
+                3,
+                6
+            ],
+            [
+                55,
+                3,
+                6
+            ],
+            [
+                57.2,
+                3,
+                6
+            ],
+            [
+                59.4,
+                3,
+                6
+            ],
+            [
+                61.6,
+                3,
+                6
+            ],
+            [
+                63.8,
+                3,
+                6
+            ]
+        ],
+        "icon": "icon/skill/1402_memosprite_talent.png"
+    },
+    "1140205": {
+        "id": "1140205",
+        "name": "The Speeding Summer",
+        "max_level": 10,
+        "element": "",
+        "type": "MemospriteTalent",
+        "type_text": "Memosprite Talent",
+        "effect": "Enhance",
+        "effect_text": "Enhance",
+        "simple_desc": "When summoned, this unit's action advances.",
+        "desc": "When Garmentmaker is summoned, this unit's action advances by #1[i]%.",
+        "params": [
+            [
+                1
+            ],
+            [
+                1
+            ],
+            [
+                1
+            ],
+            [
+                1
+            ],
+            [
+                1
+            ],
+            [
+                1
+            ],
+            [
+                1
+            ],
+            [
+                1
+            ],
+            [
+                1
+            ],
+            [
+                1
+            ]
+        ],
+        "icon": "icon/skill/1402_memosprite_talent.png"
+    },
+    "1140206": {
+        "id": "1140206",
+        "name": "Bloom of Drying Grass",
+        "max_level": 10,
+        "element": "",
+        "type": "MemospriteTalent",
+        "type_text": "Memosprite Talent",
+        "effect": "Enhance",
+        "effect_text": "Enhance",
+        "simple_desc": "Regenerates Energy for Aglaea upon disappearing.",
+        "desc": "When Garmentmaker disappears, regenerates #1[i] Energy for Aglaea.",
+        "params": [
+            [
+                20
+            ],
+            [
+                20
+            ],
+            [
+                20
+            ],
+            [
+                20
+            ],
+            [
+                20
+            ],
+            [
+                20
+            ],
+            [
+                20
+            ],
+            [
+                20
+            ],
+            [
+                20
+            ],
+            [
+                20
+            ]
+        ],
+        "icon": "icon/skill/1402_memosprite_talent.png"
+    },
+    "1800701": {
+        "id": "1800701",
+        "name": "Baddies! Trouble!",
+        "max_level": 10,
+        "element": "Ice",
+        "type": "MemospriteSkill",
+        "type_text": "Memosprite Skill",
+        "effect": "AoEAttack",
+        "effect_text": "AoE",
+        "simple_desc": "Deals minor Ice DMG that Bounces a total of 4 time(s). Deals minor Ice DMG to all enemies at the end.",
+        "desc": "Deals #2[i] instance(s) of DMG, with each instance dealing Ice DMG equal to #1[f1]% of Mem's ATK to one random enemy. Finally, deals Ice DMG equal to #3[i]% of Mem's ATK to all enemies.",
+        "params": [
+            [
+                0.18,
+                4,
+                0.45
+            ],
+            [
+                0.216,
+                4,
+                0.54
+            ],
+            [
+                0.252,
+                4,
+                0.63
+            ],
+            [
+                0.288,
+                4,
+                0.72
+            ],
+            [
+                0.324,
+                4,
+                0.81
+            ],
+            [
+                0.36,
+                4,
+                0.9
+            ],
+            [
+                0.396,
+                4,
+                0.99
+            ],
+            [
+                0.432,
+                4,
+                1.08
+            ],
+            [
+                0.468,
+                4,
+                1.17
+            ],
+            [
+                0.504,
+                4,
+                1.26
+            ],
+            [
+                0.18,
+                4,
+                0.45
+            ],
+            [
+                0.216,
+                4,
+                0.54
+            ],
+            [
+                0.252,
+                4,
+                0.63
+            ],
+            [
+                0.288,
+                4,
+                0.72
+            ],
+            [
+                0.324,
+                4,
+                0.81
+            ],
+            [
+                0.36,
+                4,
+                0.9
+            ],
+            [
+                0.396,
+                4,
+                0.99
+            ],
+            [
+                0.432,
+                4,
+                1.08
+            ],
+            [
+                0.468,
+                4,
+                1.17
+            ],
+            [
+                0.504,
+                4,
+                1.26
+            ]
+        ],
+        "icon": "icon/skill/8007_memosprite_skill.png"
+    },
+    "1800703": {
+        "id": "1800703",
+        "name": "Friends! Together!",
+        "max_level": 10,
+        "element": "",
+        "type": "MemospriteTalent",
+        "type_text": "Memosprite Talent",
+        "effect": "Support",
+        "effect_text": "Support",
+        "simple_desc": "All allies' CRIT DMG increases.\nDuring action, automatically uses attacks. If the Charge reaches 100%, immediately takes action and can use new ability: Advances the action of one ally and deals True DMG.",
+        "desc": "All allies' CRIT DMG increases by #1[f1]% of Mem's CRIT DMG plus #2[f1]%.\nIf the Charge has yet to reach 100%, Mem automatically uses \"Baddies! Trouble!\" during action. When the Charge reaches 100%, Mem immediately takes action, and can select one ally unit to use \"Lemme! Help You!\" in the next action.",
+        "params": [
+            [
+                0.06,
+                0.12
+            ],
+            [
+                0.072,
+                0.144
+            ],
+            [
+                0.084,
+                0.168
+            ],
+            [
+                0.096,
+                0.192
+            ],
+            [
+                0.108,
+                0.216
+            ],
+            [
+                0.12,
+                0.24
+            ],
+            [
+                0.132,
+                0.264
+            ],
+            [
+                0.144,
+                0.288
+            ],
+            [
+                0.156,
+                0.312
+            ],
+            [
+                0.168,
+                0.336
+            ],
+            [
+                0.06,
+                0.12
+            ],
+            [
+                0.072,
+                0.144
+            ],
+            [
+                0.084,
+                0.168
+            ],
+            [
+                0.096,
+                0.192
+            ],
+            [
+                0.108,
+                0.216
+            ],
+            [
+                0.12,
+                0.24
+            ],
+            [
+                0.132,
+                0.264
+            ],
+            [
+                0.144,
+                0.288
+            ],
+            [
+                0.156,
+                0.312
+            ],
+            [
+                0.168,
+                0.336
+            ]
+        ],
+        "icon": "icon/skill/8007_memosprite_talent.png"
+    },
+    "1800705": {
+        "id": "1800705",
+        "name": "Go, Mem, Go!",
+        "max_level": 10,
+        "element": "",
+        "type": "MemospriteTalent",
+        "type_text": "Memosprite Talent",
+        "effect": "Enhance",
+        "effect_text": "Enhance",
+        "simple_desc": "When summoned, immediately gains Charge.",
+        "desc": "When Mem is summoned, immediately gains #1[i]% Charge.",
+        "params": [
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ]
+        ],
+        "icon": "icon/skill/8007_memosprite_talent.png"
+    },
+    "1800706": {
+        "id": "1800706",
+        "name": "No... Regrets",
+        "max_level": 10,
+        "element": "",
+        "type": "MemospriteTalent",
+        "type_text": "Memosprite Talent",
+        "effect": "Enhance",
+        "effect_text": "Enhance",
+        "simple_desc": "Upon disappearing, advances Trailblazer's action",
+        "desc": "When Mem disappears, advances Trailblazer's action by #1[i]%.",
+        "params": [
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ],
+            [
+                0.25
+            ]
+        ],
+        "icon": "icon/skill/8007_memosprite_talent.png"
+    },
+    "1800707": {
+        "id": "1800707",
+        "name": "Lemme! Help You!",
+        "max_level": 10,
+        "element": "",
+        "type": "MemospriteSkill",
+        "type_text": "Memosprite Skill",
+        "effect": "Support",
+        "effect_text": "Support",
+        "simple_desc": "Advances the action of one ally and grants \"Mem's Support\": Additionally deals True DMG after dealing DMG.",
+        "desc": "Advances the action of one designated ally by #3[i]% and grants them \"Mem's Support,\" lasting for #2[i] turn(s).\nFor every 1 instance of DMG dealt by the target that has \"Mem's Support,\" additionally deals 1 instance of True DMG equal to #1[i]% of the original DMG.\nWhen using this ability on this unit, cannot trigger the action advance effect.",
+        "params": [
+            [
+                0.18,
+                3,
+                1
+            ],
+            [
+                0.2,
+                3,
+                1
+            ],
+            [
+                0.22,
+                3,
+                1
+            ],
+            [
+                0.24,
+                3,
+                1
+            ],
+            [
+                0.26,
+                3,
+                1
+            ],
+            [
+                0.28,
+                3,
+                1
+            ],
+            [
+                0.3,
+                3,
+                1
+            ],
+            [
+                0.32,
+                3,
+                1
+            ],
+            [
+                0.34,
+                3,
+                1
+            ],
+            [
+                0.36,
+                3,
+                1
+            ],
+            [
+                0.18,
+                3,
+                1
+            ],
+            [
+                0.2,
+                3,
+                1
+            ],
+            [
+                0.22,
+                3,
+                1
+            ],
+            [
+                0.24,
+                3,
+                1
+            ],
+            [
+                0.26,
+                3,
+                1
+            ],
+            [
+                0.28,
+                3,
+                1
+            ],
+            [
+                0.3,
+                3,
+                1
+            ],
+            [
+                0.32,
+                3,
+                1
+            ],
+            [
+                0.34,
+                3,
+                1
+            ],
+            [
+                0.36,
+                3,
+                1
+            ]
+        ],
+        "icon": "icon/skill/8007_memosprite_skill.png"
     }
 }
