@@ -1699,7 +1699,7 @@
     "21051": {
         "id": "21051",
         "skill": "Chúc Mừng",
-        "desc": "Khiên Tấn Công của người trang bị tăng #1[i]%. Sau khi người trang bị thi triển Tuyệt Kỹ, khiến sát thương Tấn Công Thường mà người trang bị và Linh Hồn Ký Ức gây ra tăng #2[i]%, duy trì #3[i] hiệp.",
+        "desc": "Khiến Tấn Công của người trang bị tăng #1[i]%. Sau khi người trang bị thi triển Tuyệt Kỹ, khiến sát thương Tấn Công Thường mà người trang bị và Linh Hồn Ký Ức gây ra tăng #2[i]%, duy trì #3[i] hiệp.",
         "params": [
             [0.16, 0.2, 3],
             [0.2, 0.25, 3],
@@ -2952,6 +2952,69 @@
             ]
         ]
     },
+    "23038": {
+        "id": "23038",
+        "skill": "Khát Vọng",
+        "desc": "Khiến sát thương bạo kích của người trang bị tăng #1[i]%. Sau khi người trang bị thi triển Đòn Đánh Theo Sau sẽ hồi thêm #2[i] Năng Lượng và nhận Chỉ Dẫn, duy trì #3[i] hiệp. Khi người trang bị có Chỉ Dẫn, sát thương bạo kích của toàn bộ mục tiêu phe ta tăng #4[i]%. Khi vào chiến đấu, người trang bị hồi #5[i] Năng Lượng và nhận Chỉ Dẫn, duy trì #6[i] hiệp.",
+        "params": [
+            [0.36, 12, 2, 0.48, 21, 2],
+            [0.42, 12, 2, 0.6, 21, 2],
+            [0.48, 12, 2, 0.72, 21, 2],
+            [0.54, 12, 2, 0.84, 21, 2],
+            [0.6, 12, 2, 0.96, 21, 2]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalDamageBase", "value": 0.36 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.42 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.48 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.54 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.6 }
+            ]
+        ]
+    },
+    "23039": {
+        "id": "23039",
+        "skill": "Viễn Cảnh",
+        "desc": "Giới Hạn HP của người trang bị tăng #1[i]%, lượng trị liệu nhận được tăng #6[i]%, thi triển Chiến Kỹ hoặc Tuyệt Kỹ sẽ tiêu hao HP bằng #2[f1]% Giới Hạn HP của bản thân, đồng thời khiến sát thương lần tấn công này gây ra tăng #3[i]%, nếu lượng HP mà hiệu ứng này tiêu hao lớn hơn #4[i], thì sẽ khiến sát thương tăng thêm #5[i]%.\nNếu HP hiện tại không đủ, hiệu ứng này tối đa khiến HP hiện tại của người trang bị giảm đến 1.",
+        "params": [
+            [0.18, 0.06, 0.3, 500, 0.3, 0.2],
+            [0.21, 0.065, 0.35, 500, 0.35, 0.25],
+            [0.24, 0.07, 0.4, 500, 0.4, 0.3],
+            [0.27, 0.075, 0.45, 500, 0.45, 0.35],
+            [0.3, 0.08, 0.5, 500, 0.5, 0.4]
+        ],
+        "properties": [
+            [
+                { "type": "HPAddedRatio", "value": 0.18 },
+                { "type": "HealTakenRatio", "value": 0.2 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.21 },
+                { "type": "HealTakenRatio", "value": 0.25 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.24 },
+                { "type": "HealTakenRatio", "value": 0.3 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.27 },
+                { "type": "HealTakenRatio", "value": 0.35 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.3 },
+                { "type": "HealTakenRatio", "value": 0.4 }
+            ]
+        ]
+    },
     "24000": {
         "id": "24000",
         "skill": "Dập Lửa",
@@ -3084,6 +3147,35 @@
             ],
             [
                 { "type": "AttackAddedRatio", "value": 0.12 }
+            ]
+        ]
+    },
+    "24005": {
+        "id": "24005",
+        "skill": "Nhận",
+        "desc": "Khiến Tốc Độ của người trang bị tăng #1[f1]%. Sau khi người trang bị thi triển Chiến Kỹ, khiến sát thương toàn bộ phe ta gây ra tăng #2[i]%, duy trì #3[i] hiệp.",
+        "params": [
+            [0.06, 0.08, 3],
+            [0.075, 0.1, 3],
+            [0.09, 0.12, 3],
+            [0.105, 0.14, 3],
+            [0.12, 0.16, 3]
+        ],
+        "properties": [
+            [
+                { "type": "SpeedAddedRatio", "value": 0.06 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.075 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.09 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.105 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.12 }
             ]
         ]
     }

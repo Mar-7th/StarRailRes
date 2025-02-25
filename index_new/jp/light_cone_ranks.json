@@ -2952,6 +2952,69 @@
             ]
         ]
     },
+    "23038": {
+        "id": "23038",
+        "skill": "希望",
+        "desc": "装備キャラの会心ダメージ+#1[i]%。装備キャラが追加攻撃を行った後、さらにEPを#2[i]回復し、「啓示」を獲得する、#3[i]ターン継続。装備キャラが「啓示」を所持している場合、味方全体の会心ダメージ+#4[i]%。戦闘に入る時、装備キャラのEPが#5[i]回復し、「啓示」を獲得する、#6[i]ターン継続。",
+        "params": [
+            [0.36, 12, 2, 0.48, 21, 2],
+            [0.42, 12, 2, 0.6, 21, 2],
+            [0.48, 12, 2, 0.72, 21, 2],
+            [0.54, 12, 2, 0.84, 21, 2],
+            [0.6, 12, 2, 0.96, 21, 2]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalDamageBase", "value": 0.36 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.42 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.48 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.54 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.6 }
+            ]
+        ]
+    },
+    "23039": {
+        "id": "23039",
+        "skill": "遠望",
+        "desc": "装備キャラの最大HP+#1[i]%、受ける治癒量+#6[i]%。戦闘スキルまたは必殺技を発動する時、自身の最大HP#2[f1]%分のHPを消費し、その回の攻撃の与ダメージ+#3[i]%。この効果で消費したHPが#4[i]を超えると、さらに与ダメージ+#5[i]%。\n残りHPが足りない場合、この効果で装備キャラの残りHPが1になる。",
+        "params": [
+            [0.18, 0.06, 0.3, 500, 0.3, 0.2],
+            [0.21, 0.065, 0.35, 500, 0.35, 0.25],
+            [0.24, 0.07, 0.4, 500, 0.4, 0.3],
+            [0.27, 0.075, 0.45, 500, 0.45, 0.35],
+            [0.3, 0.08, 0.5, 500, 0.5, 0.4]
+        ],
+        "properties": [
+            [
+                { "type": "HPAddedRatio", "value": 0.18 },
+                { "type": "HealTakenRatio", "value": 0.2 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.21 },
+                { "type": "HealTakenRatio", "value": 0.25 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.24 },
+                { "type": "HealTakenRatio", "value": 0.3 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.27 },
+                { "type": "HealTakenRatio", "value": 0.35 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.3 },
+                { "type": "HealTakenRatio", "value": 0.4 }
+            ]
+        ]
+    },
     "24000": {
         "id": "24000",
         "skill": "火に飛び込む",
@@ -3084,6 +3147,35 @@
             ],
             [
                 { "type": "AttackAddedRatio", "value": 0.12 }
+            ]
+        ]
+    },
+    "24005": {
+        "id": "24005",
+        "skill": "徴収",
+        "desc": "装備キャラの速度+#1[f1]%。装備キャラが戦闘スキルを発動した後、味方全体の与ダメージ+#2[i]%、#3[i]ターン継続。",
+        "params": [
+            [0.06, 0.08, 3],
+            [0.075, 0.1, 3],
+            [0.09, 0.12, 3],
+            [0.105, 0.14, 3],
+            [0.12, 0.16, 3]
+        ],
+        "properties": [
+            [
+                { "type": "SpeedAddedRatio", "value": 0.06 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.075 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.09 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.105 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.12 }
             ]
         ]
     }

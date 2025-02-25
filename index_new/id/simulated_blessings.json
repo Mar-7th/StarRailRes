@@ -800,7 +800,7 @@
     "612523": {
         "id": "612523",
         "name": "Resonance Formation: Event Horizon",
-        "desc": "Saat Karakter yang persentase HP-nya saat ini kurang dari 35% terkena serangan, akan secara otomatis melancarkan 1 kali Path Resonance tanpa perlu mengonsumsi Energy. Efek ini dapat dipicu sebanyak #10[i] kali dalam 1 pertempuran, dan tidak dapat dipicu lebih dari sekali oleh serangan yang sama.",
+        "desc": "Saat Karakter yang persentase HP-nya saat ini kurang dari 35% terkena serangan, akan secara otomatis melancarkan 1 kali Path Resonance tanpa perlu mengonsumsi Energy. Efek ini dapat dipicu sebanyak 2 kali dalam 1 pertempuran, dan tidak dapat dipicu lebih dari sekali oleh serangan yang sama.",
         "enhanced_desc": ""
     },
     "612524": {
@@ -878,8 +878,8 @@
     "612545": {
         "id": "612545",
         "name": "Disciplinary Flicker",
-        "desc": "Setelah karakter terkena serangan atau mengonsumsi HP, jika HP karakter saat ini lebih rendah dari 35%, maka HP karakter akan dipulihkan sebesar 12% dari Max HP.",
-        "enhanced_desc": "Setelah karakter terkena serangan atau mengonsumsi HP, jika HP karakter saat ini lebih rendah dari 35%, maka HP karakter akan dipulihkan sebesar 12% dari Max HP. Semakin rendah HP karakter saat ini, semakin tinggi pemulihannya, tapi tidak bisa melebihi 20%."
+        "desc": "Setelah rekan tim terkena serangan atau mengonsumsi HP, jika HP rekan tim saat ini lebih rendah dari 35%, maka HP rekan tim akan dipulihkan sebesar 12% dari Max HP. Maksimal dapat memulihkan HP sebesar 36% Max HP dengan cara ini dalam satu kali aksi.",
+        "enhanced_desc": "Setelah rekan tim terkena serangan atau mengonsumsi HP, jika HP rekan tim saat ini lebih rendah dari 35%, maka HP rekan tim akan dipulihkan sebesar 20% dari Max HP. Maksimal dapat memulihkan HP sebesar 50% Max HP dengan cara ini dalam satu kali aksi."
     },
     "612546": {
         "id": "612546",
@@ -2426,10 +2426,1188 @@
         "desc": "Karakter tidak akan gugur saat terkena serangan mematikan. Konsumsi seluruh Energy dan memulihkan HP sebesar 50% dari persentase Energy yang dikonsumsi. Efek ini hanya dapat terpicu 1 kali dalam setiap pertempuran.",
         "enhanced_desc": "Karakter tidak akan gugur saat terkena serangan mematikan. Konsumsi seluruh Energy dan memulihkan HP sebesar 100% dari persentase Energy yang dikonsumsi. Efek ini hanya dapat terpicu 1 kali dalam setiap pertempuran."
     },
+    "616110": { "id": "616110", "name": "", "desc": "", "enhanced_desc": "" },
+    "616120": {
+        "id": "616120",
+        "name": "Time's Miracle",
+        "desc": "Konsumsi 100 Energy untuk melancarkan Kemampuan dan memicu Boundary Resonance dengan Path \"Remembrance\", mengakibatkan Ice DMG pada seluruh target musuh, dan berpeluang besar membuatnya memasuki status Frozen selama 1 giliran. Selama berstatus Frozen dari efek ini, akan menerima tambahan True DMG sebesar 8% Max HP setelah diserang oleh Memosprite. Setiap kali target musuh memasuki status Frozen ini, DMG ini maksimal dapat dipicu hingga 4 kali.",
+        "enhanced_desc": ""
+    },
+    "616130": {
+        "id": "616130",
+        "name": "Infallible Instinct",
+        "desc": "Saat karakter beraksi, akan membuat dirinya dan Memosprite miliknya memperoleh 1 lapis \"Obsession\". Saat Memosprite beraksi, akan membuat dirinya dan pemilik Memosprite-nya memperoleh 1 lapis \"Obsession\".",
+        "enhanced_desc": "Saat karakter beraksi, akan membuat dirinya dan Memosprite miliknya memperoleh 1 lapis \"Obsession\". Saat Memosprite beraksi, akan membuat dirinya dan pemilik Memosprite-nya memperoleh 2 lapis \"Obsession\"."
+    },
+    "616131": {
+        "id": "616131",
+        "name": "Unaging Memory",
+        "desc": "Setelah rekan tim melancarkan serangan, akan mengakibatkan DMG Tambahan berdasarkan jumlah total lapisan \"Obsession\" pada rekan tim, setiap lapisnya mengakibatkan DMG Tambahan sebesar 1% ATK.",
+        "enhanced_desc": "Setelah rekan tim melancarkan serangan, mengakibatkan DMG Tambahan berdasarkan jumlah total lapisan \"Obsession\" pada rekan tim, setiap lapisnya mengakibatkan DMG Tambahan sebesar 1.5% ATK."
+    },
+    "616132": {
+        "id": "616132",
+        "name": "Ever-Peaceful Dream",
+        "desc": "Setelah rekan tim memasuki pertempuran/Memosprite dipanggil: Setelah giliran pertama berakhir, aksi akan didahulukan 50% dan DMG yang diakibatkan akan meningkat 50%, berlangsung selama 4 giliran.",
+        "enhanced_desc": "Setelah rekan tim memasuki pertempuran/Memosprite dipanggil: Setelah giliran pertama berakhir, aksi akan didahulukan 75% dan DMG yang diakibatkan akan meningkat 75%, berlangsung selama 4 giliran."
+    },
+    "616140": {
+        "id": "616140",
+        "name": "Enlightenment: Cloudweave",
+        "desc": "Saat rekan tim terkena serangan, akan memperoleh 2 lapis \"Obsession\".",
+        "enhanced_desc": "Saat rekan tim terkena serangan, akan memperoleh 3 lapis \"Obsession\"."
+    },
+    "616141": {
+        "id": "616141",
+        "name": "Enlightenment: Ridgesew",
+        "desc": "Setelah rekan tim mengalahkan target musuh, akan memberikan 4 lapis \"Obsession\" pada seluruh rekan tim.",
+        "enhanced_desc": "Setelah rekan tim mengalahkan target musuh, akan memberikan 6 lapis \"Obsession\" pada seluruh rekan tim."
+    },
+    "616142": {
+        "id": "616142",
+        "name": "Enlightenment: Wavebind",
+        "desc": "Setelah rekan tim memasuki pertempuran/Memosprite dipanggil, akan memperoleh 6 lapis \"Obsession\".",
+        "enhanced_desc": "Setelah rekan tim memasuki pertempuran/Memosprite dipanggil, akan memperoleh 9 lapis \"Obsession\"."
+    },
+    "616143": {
+        "id": "616143",
+        "name": "Enlightenment: Eulogy of the Coast",
+        "desc": "Setiap lapis \"Obsession\" membuat DMG yang diakibatkan meningkat ekstra 0.3%.",
+        "enhanced_desc": "Setiap lapis \"Obsession\" membuat DMG yang diakibatkan meningkat ekstra 0.4%."
+    },
+    "616144": {
+        "id": "616144",
+        "name": "Enlightenment: Praise of the Abyss",
+        "desc": "Batas maksimal \"Obsession\" karakter meningkat 4 lapis.",
+        "enhanced_desc": "Batas maksimal \"Obsession\" karakter meningkat 6 lapis."
+    },
+    "616145": {
+        "id": "616145",
+        "name": "Enlightenment: Dawn Distilled",
+        "desc": "Setiap kali target musuh diserang oleh rekan tim yang berbeda, DMG yang diterimanya akan meningkat 4%, dapat ditumpuk hingga 6 lapis, dan berlangsung hingga giliran berakhir.",
+        "enhanced_desc": "Setiap kali target musuh diserang oleh rekan tim yang berbeda, DMG yang diterimanya akan meningkat 6%, dapat ditumpuk hingga 6 lapis, dan berlangsung hingga giliran berakhir."
+    },
+    "616146": {
+        "id": "616146",
+        "name": "Enlightenment: Sunset Melted",
+        "desc": "Setiap kali target musuh diserang oleh rekan tim yang berbeda, DMG yang diakibatkan akan berkurang 3%, dapat ditumpuk hingga 6 lapis, dan berlangsung hingga giliran berakhir.",
+        "enhanced_desc": "Setiap kali target musuh diserang oleh rekan tim yang berbeda, DMG yang diakibatkan akan berkurang 4%, dapat ditumpuk hingga 6 lapis, dan berlangsung hingga giliran berakhir."
+    },
+    "616150": {
+        "id": "616150",
+        "name": "Acuity: Warmth of Blades",
+        "desc": "ATK seluruh rekan tim +18%.",
+        "enhanced_desc": "ATK seluruh rekan tim +27%."
+    },
+    "616151": {
+        "id": "616151",
+        "name": "Acuity: Shape of Claws",
+        "desc": "DMG yang diakibatkan seluruh rekan tim +12%.",
+        "enhanced_desc": "DMG yang diakibatkan seluruh rekan tim +18%."
+    },
+    "616152": {
+        "id": "616152",
+        "name": "Acuity: Patterns of Conches",
+        "desc": "DEF seluruh rekan tim +16%.",
+        "enhanced_desc": "DEF seluruh rekan tim +24%."
+    },
+    "616153": {
+        "id": "616153",
+        "name": "Acuity: Stories of Monsoons",
+        "desc": "DMG yang diakibatkan seluruh rekan tim meningkat 10%, dan DMG yang diakibatkan Memosprite meningkat ekstra 4%.",
+        "enhanced_desc": "DMG yang diakibatkan seluruh rekan tim meningkat 15%, dan DMG yang diakibatkan Memosprite meningkat ekstra 6%."
+    },
+    "616154": {
+        "id": "616154",
+        "name": "Acuity: Stories of Boulders",
+        "desc": "DEF seluruh rekan tim meningkat 14%, dan DEF Memosprite meningkat ekstra 6%.",
+        "enhanced_desc": "DEF seluruh rekan tim meningkat 21%, dan DEF Memosprite meningkat ekstra 9%."
+    },
+    "616155": {
+        "id": "616155",
+        "name": "Acuity: Stories of Tides",
+        "desc": "Pemulihan HP seluruh rekan tim meningkat 10%, dan Pemulihan HP Memosprite meningkat ekstra 4%.",
+        "enhanced_desc": "Pemulihan HP seluruh rekan tim meningkat 15%, dan Pemulihan HP Memosprite meningkat ekstra 6%."
+    },
+    "616156": {
+        "id": "616156",
+        "name": "Acuity: Scarlet Bones and Crimson Leaves",
+        "desc": "Setelah Memosprite beraksi, CRIT Rate seluruh rekan tim akan meningkat 14%, berlangsung selama 2 giliran.",
+        "enhanced_desc": "Setelah Memosprite beraksi, CRIT Rate seluruh rekan tim akan meningkat 21%, berlangsung selama 2 giliran."
+    },
+    "616157": {
+        "id": "616157",
+        "name": "Acuity: White Hair and Pearls",
+        "desc": "Setelah Memosprite beraksi, CRIT DMG seluruh rekan tim akan meningkat 24%, berlangsung selama 2 giliran.",
+        "enhanced_desc": "Setelah Memosprite beraksi, CRIT DMG seluruh rekan tim akan meningkat 36%, berlangsung selama 2 giliran."
+    },
+    "616210": { "id": "616210", "name": "", "desc": "", "enhanced_desc": "" },
+    "616220": {
+        "id": "616220",
+        "name": "Death's Miracle",
+        "desc": "Konsumsi 100 Energy untuk melancarkan Kemampuan dan memicu Boundary Resonance dengan Path \"Nihility\". Membuat seluruh target musuh memasuki status Burn, Shock, Bleed, dan 2 lapis Wind Shear selama 3 giliran. Setelah terkena serangan karakter, akan membuat DoT di atas segera mengakibatkan DMG sebesar 25% dari DMG aslinya.",
+        "enhanced_desc": ""
+    },
+    "616230": {
+        "id": "616230",
+        "name": "La Communauté Inavouable",
+        "desc": "Saat target musuh terkena DoT, \"Murmur\" akan memperoleh nilai Charge sebesar 20% dari total ATK karakter tim.",
+        "enhanced_desc": "Saat target musuh terkena DoT, \"Murmur\" akan memperoleh nilai Charge sebesar 30% dari total ATK karakter tim."
+    },
+    "616231": {
+        "id": "616231",
+        "name": "De L'existence a L'existant",
+        "desc": "Setelah target musuh terkena serangan untuk pertama kalinya pada setiap giliran, \"Murmur\" akan menghasilkan DMG sebesar 160% dari DMG aslinya.",
+        "enhanced_desc": "Setelah target musuh terkena serangan untuk pertama kalinya pada setiap giliran, \"Murmur\" akan menghasilkan DMG sebesar 240% dari DMG aslinya."
+    },
+    "616232": {
+        "id": "616232",
+        "name": "Une Voix Venue D'ailleurs",
+        "desc": "Saat giliran target musuh dimulai, akan memicu ekstra 1 kali kalkulasi DoT, membuat seluruh status DoT yang dimilikinya saat ini untuk segera mengakibatkan DMG sebesar 90% dari DMG aslinya.",
+        "enhanced_desc": "Saat giliran target musuh dimulai, akan memicu ekstra 1 kali kalkulasi DoT, membuat seluruh status DoT yang dimilikinya saat ini untuk segera mengakibatkan DMG sebesar 135% dari DMG aslinya."
+    },
+    "616240": {
+        "id": "616240",
+        "name": "Enlightenment and Extinction",
+        "desc": "Saat giliran target musuh berakhir, \"Murmur\" akan memperoleh nilai Charge sebesar 40% dari total ATK karakter tim.",
+        "enhanced_desc": "Saat giliran target musuh berakhir, \"Murmur\" akan memperoleh nilai Charge sebesar 60% dari total ATK karakter tim."
+    },
+    "616241": {
+        "id": "616241",
+        "name": "Lacrimi și Sfinți",
+        "desc": "Setiap kali setelah target musuh menerima \"Murmur\" DMG, akan mengurangi 0.5% DMG yang diakibatkannya, maksimal berkurang hingga 16%.",
+        "enhanced_desc": "Setiap kali setelah target musuh menerima \"Murmur\" DMG, akan mengurangi 0.5% DMG yang diakibatkannya, maksimal berkurang hingga 24%."
+    },
+    "616242": {
+        "id": "616242",
+        "name": "Insomnia's Praise",
+        "desc": "\"Murmur\" DMG meningkat sebesar 30% dari DMG Multiplier aslinya.",
+        "enhanced_desc": "\"Murmur\" DMG meningkat sebesar 45% dari DMG Multiplier aslinya."
+    },
+    "616243": {
+        "id": "616243",
+        "name": "Pe Culmile Disperării",
+        "desc": "Batasan penghapusan \"Murmur\" meningkat 50%.",
+        "enhanced_desc": "Batasan penghapusan \"Murmur\" meningkat 75%."
+    },
+    "616244": {
+        "id": "616244",
+        "name": "L'Écriture du Désastre",
+        "desc": "Charging Efficiency \"Murmur\" saat memperoleh Charge meningkat 20%.",
+        "enhanced_desc": "Charging Efficiency \"Murmur\" saat memperoleh Charge meningkat 30%."
+    },
+    "616245": {
+        "id": "616245",
+        "name": "The Final Speaker",
+        "desc": "Setiap kali target musuh terkena 1 kali DoT, akan memulihkan HP seluruh rekan tim sebesar 1.0% Max HP masing-masing.",
+        "enhanced_desc": "Setiap kali target musuh terkena 1 kali DoT, akan memulihkan HP seluruh rekan tim sebesar 1.5% Max HP masing-masing."
+    },
+    "616246": {
+        "id": "616246",
+        "name": "Unclear Opinions",
+        "desc": "Setiap kali target musuh memasuki 1 status DoT, DMG yang diakibatkannya akan berkurang 3.0%, dapat ditumpuk hingga 4 lapis.",
+        "enhanced_desc": "Setiap kali target musuh memasuki 1 status DoT, DMG yang diakibatkannya akan berkurang 4.5%, dapat ditumpuk hingga 4 lapis."
+    },
+    "616250": {
+        "id": "616250",
+        "name": "La Métaphore Vive",
+        "desc": "DoT yang diakibatkan rekan tim +24%.",
+        "enhanced_desc": "DoT yang diakibatkan rekan tim +36%."
+    },
+    "616251": {
+        "id": "616251",
+        "name": "The Non-Existent",
+        "desc": "Effect Hit Rate rekan tim +24%.",
+        "enhanced_desc": "Effect Hit Rate rekan tim +36%."
+    },
+    "616252": {
+        "id": "616252",
+        "name": "Sygdommen til Døden",
+        "desc": "Effect RES target musuh -12%",
+        "enhanced_desc": "Effect RES target musuh -18%"
+    },
+    "616253": {
+        "id": "616253",
+        "name": "Sacrilegious",
+        "desc": "DoT yang diterima target musuh +10%.",
+        "enhanced_desc": "DoT yang diterima target musuh +15%."
+    },
+    "616254": {
+        "id": "616254",
+        "name": "L'Expérience Intérieure",
+        "desc": "Setelah rekan tim menambahkan status Debuff, ATK akan meningkat 24%, berlangsung selama 2 giliran.",
+        "enhanced_desc": "Setelah rekan tim menambahkan status Debuff, ATK akan meningkat 36%, berlangsung selama 2 giliran."
+    },
+    "616255": {
+        "id": "616255",
+        "name": "Soleil Noir",
+        "desc": "DMG yang diterima oleh target musuh yang berstatus DoT +8%.",
+        "enhanced_desc": "DMG yang diterima oleh target musuh yang berstatus DoT +12%."
+    },
+    "616256": {
+        "id": "616256",
+        "name": "Beyond Good & Evil",
+        "desc": "Setelah rekan tim menambahkan status Debuff, SPD akan meningkat 10%, berlangsung selama 3 giliran.",
+        "enhanced_desc": "Setelah rekan tim menambahkan status Debuff, SPD akan meningkat 15%, berlangsung selama 3 giliran."
+    },
+    "616257": {
+        "id": "616257",
+        "name": "Die Austreibung des Anderen",
+        "desc": "Setiap kali target musuh terkena 1 kali DoT, akan memulihkan 1.0 Energy rekan tim secara acak. Pada setiap giliran target musuh, maksimal dapat memicu efek ini sebanyak 20 kali.",
+        "enhanced_desc": "Setiap kali target musuh terkena 1 kali DoT, akan memulihkan 1.5 Energy rekan tim secara acak. Pada setiap giliran target musuh, maksimal dapat memicu efek ini sebanyak 20 kali."
+    },
+    "616410": { "id": "616410", "name": "", "desc": "", "enhanced_desc": "" },
+    "616420": {
+        "id": "616420",
+        "name": "Strife's Miracle",
+        "desc": "Konsumsi 100 Energy untuk melancarkan Kemampuan dan memicu Boundary Resonance dengan Path \"Hunt\", mengakibatkan Wind DMG pada seluruh target musuh, dan membuat aksi seluruh rekan tim didahulukan sebesar 100%. Max Energy Persamaan Batas ini adalah 200.",
+        "enhanced_desc": ""
+    },
+    "616430": {
+        "id": "616430",
+        "name": "Weapons Drawn, Paths Restless",
+        "desc": "Setelah rekan tim mengalahkan target musuh, aksinya akan didahulukan 100%. Dan saat giliran berikutnya dimulai, akan memperoleh 4 lapis efek \"Critical Boost\".",
+        "enhanced_desc": "SPD rekan tim meningkat 12%, setelah rekan tim mengalahkan target musuh, aksinya akan didahulukan 100%. Dan saat giliran berikutnya dimulai, akan memperoleh 6 lapis efek \"Critical Boost\"."
+    },
+    "616431": {
+        "id": "616431",
+        "name": "White Feathers Fly, A Sky of Stars Vanish",
+        "desc": "Saat rekan tim memiliki \"Critical Boost\", CRIT Rate akan meningkat 10%, dan untuk setiap 1% CRIT Rate yang berlebih, akan meningkatkan 2% CRIT DMG, CRIT DMG maksimal meningkat 180%.",
+        "enhanced_desc": "Saat rekan tim memiliki \"Critical Boost\", CRIT Rate akan meningkat 15%, dan untuk setiap 1% CRIT Rate yang berlebih, akan meningkatkan 2% CRIT DMG, CRIT DMG maksimal meningkat 270%."
+    },
+    "616432": {
+        "id": "616432",
+        "name": "A Myriad Chariots, A Trial of Courage",
+        "desc": "Setelah rekan tim mengakibatkan Weakness Break pada target musuh, aksi dirinya akan didahulukan 100%, serta meningkatkan 50% DMG yang diakibatkan serangan berikutnya.",
+        "enhanced_desc": "Setelah rekan tim mengakibatkan Weakness Break pada target musuh, aksi dirinya akan didahulukan 100%, serta meningkatkan 75% DMG yang diakibatkan. Efek peningkatan DMG ini dapat ditumpuk hingga 2 lapis, berlangsung hingga terkena serangan."
+    },
+    "616440": {
+        "id": "616440",
+        "name": "Stars Converge at Sword's Edge",
+        "desc": "Saat giliran rekan tim dimulai, akan memperoleh 1 lapis efek \"Critical Boost\".",
+        "enhanced_desc": "Saat giliran rekan tim dimulai, akan memperoleh 1 lapis efek \"Critical Boost\". Saat rekan tim yang sama beraksi secara beruntun, akan memperoleh 1 lapis efek \"Critical Boost\"."
+    },
+    "616441": {
+        "id": "616441",
+        "name": "The Crooked Path of Arrows",
+        "desc": "Setiap lapis efek \"Critical Boost\" meningkatkan ekstra 4% ATK. Saat rekan tim mana pun melancarkan Ultimate, rekan tersebut dapat mewarisi efek \"Critical Boost\"",
+        "enhanced_desc": "Setiap lapis efek \"Critical Boost\" meningkatkan ekstra 6% ATK. Saat rekan tim mana pun melancarkan Ultimate, rekan tersebut dapat mewarisi efek \"Critical Boost\""
+    },
+    "616442": {
+        "id": "616442",
+        "name": "Riders Surge in Chaos",
+        "desc": "Batas maksimal \"Critical Boost\" meningkat 2 lapis. Setelah terkena serangan, \"Critical Boost\" yang hilang tidak akan lebih dari 4 lapis.",
+        "enhanced_desc": "Batas maksimal \"Critical Boost\" meningkat 4 lapis. Setelah terkena serangan, \"Critical Boost\" yang hilang tidak akan lebih dari 4 lapis."
+    },
+    "616443": {
+        "id": "616443",
+        "name": "Broken but not Bent",
+        "desc": "Saat rekan tim memiliki lebih dari atau sama dengan 4 lapis \"Critical Boost\", DMG yang diterima seluruh rekan tim akan berkurang 16%.",
+        "enhanced_desc": "Saat rekan tim memiliki lebih dari atau sama dengan 4 lapis \"Critical Boost\", DMG yang diterima seluruh rekan tim akan berkurang 24%."
+    },
+    "616444": {
+        "id": "616444",
+        "name": "Radiance of Lightning's Edge",
+        "desc": "Saat giliran rekan tim dimulai, jika memiliki lebih dari atau sama dengan 4 lapis \"Critical Boost\", SPD akan meningkat 18%, berlangsung selama 2 giliran.",
+        "enhanced_desc": "Saat giliran rekan tim dimulai, jika memiliki lebih dari atau sama dengan 4 lapis \"Critical Boost\", SPD akan meningkat 27%, berlangsung selama 2 giliran."
+    },
+    "616445": {
+        "id": "616445",
+        "name": "The Archer's Trusted Bow",
+        "desc": "Saat rekan tim yang sama melakukan aksi secara beruntun, memiliki 40% peluang tetap untuk memulihkan 1 Poin Skill.",
+        "enhanced_desc": "Saat rekan tim yang sama melakukan aksi secara beruntun, memiliki 60% peluang tetap untuk memulihkan 1 Poin Skill."
+    },
+    "616446": {
+        "id": "616446",
+        "name": "Arrows Leap Like Meteors",
+        "desc": "SPD rekan tim meningkat 5%. Setelah setiap 12 giliran yang diselesaikan seluruh anggota tim, aksi rekan tim yang beraksi saat itu akan didahulukan 100%.",
+        "enhanced_desc": "SPD rekan tim meningkat 12%. Setelah setiap 12 giliran yang diselesaikan seluruh anggota tim, aksi rekan tim yang beraksi saat itu akan didahulukan 100%."
+    },
+    "616450": {
+        "id": "616450",
+        "name": "Aligned for Precision",
+        "desc": "SPD rekan tim +6%.",
+        "enhanced_desc": "SPD rekan tim +9%."
+    },
+    "616451": {
+        "id": "616451",
+        "name": "Strength to Overcome Hundreds",
+        "desc": "CRIT Rate rekan tim +11%.",
+        "enhanced_desc": "CRIT Rate rekan tim +16%."
+    },
+    "616452": {
+        "id": "616452",
+        "name": "Purpose Shines Clear",
+        "desc": "CRIT DMG rekan tim +20%.",
+        "enhanced_desc": "CRIT DMG rekan tim +30%."
+    },
+    "616453": {
+        "id": "616453",
+        "name": "Autumn Moon in the Sky",
+        "desc": "Setelah mengalahkan target musuh, memulihkan HP seluruh rekan tim sebesar 30% Max HP.",
+        "enhanced_desc": "Setelah mengalahkan target musuh, memulihkan HP seluruh rekan tim sebesar 45% Max HP."
+    },
+    "616454": {
+        "id": "616454",
+        "name": "A Flick of the Hand",
+        "desc": "Setelah mengalahkan target musuh, meningkatkan 6% ATK seluruh rekan tim. Efek ini dapat ditumpuk hingga 4 kali.",
+        "enhanced_desc": "Setelah mengalahkan target musuh, meningkatkan 9% ATK seluruh rekan tim. Efek ini dapat ditumpuk hingga 4 kali."
+    },
+    "616455": {
+        "id": "616455",
+        "name": "Arrow Shatters the Moon",
+        "desc": "Saat giliran rekan tim berakhir, akan mengalami Pendahuluan Aksi sebesar 6%.",
+        "enhanced_desc": "Saat giliran rekan tim berakhir, akan mengalami Pendahuluan Aksi sebesar 9%."
+    },
+    "616456": {
+        "id": "616456",
+        "name": "Thunder Upon the Wall",
+        "desc": "Saat giliran rekan tim dimulai, akan memulihkan 3 Energy.",
+        "enhanced_desc": "Saat giliran rekan tim dimulai, akan memulihkan 4 Energy."
+    },
+    "616457": {
+        "id": "616457",
+        "name": "Verdant Branch, Vermillion String",
+        "desc": "Setelah mengalahkan target musuh, meningkatkan 4% SPD seluruh rekan tim. Efek ini dapat ditumpuk hingga 2 kali.",
+        "enhanced_desc": "Setelah mengalahkan target musuh, meningkatkan 6% SPD seluruh rekan tim. Efek ini dapat ditumpuk hingga 2 kali."
+    },
+    "616510": { "id": "616510", "name": "", "desc": "", "enhanced_desc": "" },
+    "616520": {
+        "id": "616520",
+        "name": "Sky's Miracle",
+        "desc": "Konsumsi 100 Energy untuk melancarkan Kemampuan dan memicu Boundary Resonance dengan Path \"Destruction\", mengakibatkan Fire DMG pada seluruh target musuh, mengonsumsi HP seluruh rekan tim hingga 60%, dan membuat Max HP seluruh rekan tim meningkat 100%. Saat giliran dimulai, memulihkan 100% HP yang telah dikonsumsi, berlangsung selama 4 giliran.",
+        "enhanced_desc": ""
+    },
+    "616530": {
+        "id": "616530",
+        "name": "Faster-than-Light Surge",
+        "desc": "Charge Efficiency \"Blazar\" meningkat 20%. Saat giliran dimulai, rasio \"Blazar\" yang dihapus berubah menjadi 55%.",
+        "enhanced_desc": "Charge Efficiency \"Blazar\" meningkat 30%. Saat giliran dimulai, rasio \"Blazar\" yang dihapus berubah menjadi 50%."
+    },
+    "616531": {
+        "id": "616531",
+        "name": "Random Freepath Shockwave",
+        "desc": "Setelah rekan tim melancarkan serangan, akan mengakibatkan DMG Tambahan sebesar 30% \"Blazar\" pada target serangan.",
+        "enhanced_desc": "Setelah rekan tim melancarkan serangan, akan mengakibatkan DMG Tambahan sebesar 45% \"Blazar\" pada target serangan."
+    },
+    "616532": {
+        "id": "616532",
+        "name": "Hypersonic Cloud Medium",
+        "desc": "Saat terkena serangan, semua DMG yang diterima rekan tim akan terbagi ke seluruh rekan tim.",
+        "enhanced_desc": "DMG yang diterima rekan tim berkurang 15%. Saat terkena serangan, semua DMG yang diterima rekan tim akan terbagi ke seluruh rekan tim."
+    },
+    "616540": {
+        "id": "616540",
+        "name": "Compact Blaze",
+        "desc": "Saat rekan tim terkena serangan, DMG Multiplier \"Blazar\" akan meningkat sebesar 20% dari Multiplier aslinya, dapat ditumpuk hingga 2 kali, berlangsung selama 2 giliran.",
+        "enhanced_desc": "Saat rekan tim terkena serangan, DMG Multiplier \"Blazar\" akan meningkat sebesar 30% dari Multiplier aslinya, dapat ditumpuk hingga 2 kali, berlangsung selama 2 giliran."
+    },
+    "616541": {
+        "id": "616541",
+        "name": "Synchronous Radiation",
+        "desc": "20% dari kekuatan Shield yang diperoleh rekan tim juga dapat dikonversi menjadi \"Blazar\".",
+        "enhanced_desc": "30% dari kekuatan Shield yang diperoleh rekan tim juga dapat dikonversi menjadi \"Blazar\"."
+    },
+    "616542": {
+        "id": "616542",
+        "name": "Continuous Spectrum",
+        "desc": "20% dari Pemulihan HP yang berlebih juga dapat dikonversi menjadi \"Blazar\".",
+        "enhanced_desc": "30% dari Pemulihan HP yang berlebih juga dapat dikonversi menjadi \"Blazar\"."
+    },
+    "616543": {
+        "id": "616543",
+        "name": "Concealed Shadow Bands",
+        "desc": "Nilai Dasar \"Blazar\" meningkat sebesar 20% dari Max HP.",
+        "enhanced_desc": "Nilai Dasar \"Blazar\" meningkat sebesar 30% dari Max HP."
+    },
+    "616544": {
+        "id": "616544",
+        "name": "Cataclysmic Variable",
+        "desc": "CRIT Rate dari DMG yang diakibatkan \"Blazar\" meningkat 20%, CRIT DMG meningkat 50%.",
+        "enhanced_desc": "CRIT Rate dari DMG yang diakibatkan \"Blazar\" meningkat 30%, CRIT DMG meningkat 75%."
+    },
+    "616545": {
+        "id": "616545",
+        "name": "Forced Jump",
+        "desc": "Setelah rekan tim terkena serangan atau mengonsumsi HP, jika HP rekan tim saat ini lebih rendah dari 35%, maka HP rekan tim akan dipulihkan sebesar 12% dari Max HP. Maksimal dapat memulihkan HP sebesar 36% Max HP dengan cara ini dalam satu kali aksi.",
+        "enhanced_desc": "Setelah rekan tim terkena serangan atau mengonsumsi HP, jika HP rekan tim saat ini lebih rendah dari 35%, maka HP rekan tim akan dipulihkan sebesar 20% dari Max HP. Maksimal dapat memulihkan HP sebesar 50% Max HP dengan cara ini dalam satu kali aksi."
+    },
+    "616546": {
+        "id": "616546",
+        "name": "Radiative Decay",
+        "desc": "Saat persentase HP rekan tim lebih rendah dari 50%, DMG yang diterima berkurang 10%, dan Pemulihan HP meningkat 20%.",
+        "enhanced_desc": "Saat persentase HP rekan tim lebih rendah dari 50%, DMG yang diterima berkurang 15%, dan Pemulihan HP meningkat 30%."
+    },
+    "616550": {
+        "id": "616550",
+        "name": "Bipolar Jets",
+        "desc": "DMG yang diterima rekan tim -6%.",
+        "enhanced_desc": "DMG yang diterima rekan tim -9%."
+    },
+    "616551": {
+        "id": "616551",
+        "name": "Double-Segment Structure",
+        "desc": "Effect RES rekan tim +12%.",
+        "enhanced_desc": "Effect RES rekan tim +18%."
+    },
+    "616552": {
+        "id": "616552",
+        "name": "Contact Binary Stars",
+        "desc": "Max HP rekan tim +16%.",
+        "enhanced_desc": "Max HP rekan tim +24%."
+    },
+    "616553": {
+        "id": "616553",
+        "name": "Absolute Magnitude",
+        "desc": "Pemulihan HP rekan tim +12%.",
+        "enhanced_desc": "Pemulihan HP rekan tim +18%."
+    },
+    "616554": {
+        "id": "616554",
+        "name": "Standard Candle",
+        "desc": "Kekuatan Shield yang diperoleh rekan tim +12%.",
+        "enhanced_desc": "Kekuatan Shield yang diperoleh rekan tim +18%."
+    },
+    "616555": {
+        "id": "616555",
+        "name": "Mass Transfer Substar",
+        "desc": "Setelah HP atau kekuatan Shield rekan tim berkurang, Max HP akan meningkat 20%, berlangsung selama 2 giliran.",
+        "enhanced_desc": "Setelah HP atau kekuatan Shield rekan tim berkurang, Max HP akan meningkat 30%, berlangsung selama 2 giliran."
+    },
+    "616556": {
+        "id": "616556",
+        "name": "Eclipsing Binary",
+        "desc": "Setelah HP atau kekuatan Shield rekan tim berkurang, Effect RES akan meningkat 16%, berlangsung selama 2 giliran.",
+        "enhanced_desc": "Setelah HP atau kekuatan Shield rekan tim berkurang, Effect RES akan meningkat 24%, berlangsung selama 2 giliran."
+    },
+    "616557": {
+        "id": "616557",
+        "name": "Nova Burst",
+        "desc": "Karakter tidak akan gugur setelah menerima serangan mematikan, dan HP-nya saat ini akan segera dipulihkan sebesar 20% Max HP-nya. Efek ini hanya dapat dipicu 1 kali dalam 1 pertempuran.",
+        "enhanced_desc": "Karakter tidak akan gugur setelah menerima serangan mematikan, dan HP-nya saat ini akan segera dipulihkan sebesar 100% Max HP-nya. Efek ini hanya dapat dipicu 1 kali dalam 1 pertempuran."
+    },
+    "616610": { "id": "616610", "name": "", "desc": "", "enhanced_desc": "" },
+    "616620": {
+        "id": "616620",
+        "name": "Trickery's Miracle",
+        "desc": "Konsumsi 100 Energy untuk melancarkan Kemampuan dan memicu Boundary Resonance dengan Path \"Elation\", mengakibatkan 5 -10 kali Serangan Lanjutan dengan Tipe acak pada seluruh target musuh, serta membuat Basic Attack DMG/Skill DMG/Ultimate DMG seluruh rekan tim dianggap sebagai DMG Serangan Lanjutan selama 2 giliran.",
+        "enhanced_desc": ""
+    },
+    "616630": {
+        "id": "616630",
+        "name": "\"Licorice Pizza: Mint Shaved Ice\"",
+        "desc": "Setelah rekan tim melancarkan Serangan Lanjutan, akan mengakibatkan 1 kali \"Aftertaste\" DMG sebesar 50%  ATK penyerang pada target serangan. Saat mengakibatkan \"Aftertaste\" DMG, akan memicu tambahan 1 kali \"Aftertaste\" DMG dengan rasio sebesar 15%.",
+        "enhanced_desc": "Setelah rekan tim melancarkan Serangan Lanjutan, akan mengakibatkan 1 kali \"Aftertaste\" DMG sebesar 75%  ATK penyerang pada target serangan. Saat mengakibatkan \"Aftertaste\" DMG, akan memicu tambahan 1 kali \"Aftertaste\" DMG dengan rasio sebesar 20%."
+    },
+    "616631": {
+        "id": "616631",
+        "name": "\"Ocean Colonel: World of Yesterday\"",
+        "desc": "Setelah rekan tim melancarkan Ultimate, untuk 2 kali serangan berikutnya, akan mengakibatkan 1 kali \"Aftertaste\" DMG pada target musuh yang terkena serangan sebesar 100% ATK penyerang.",
+        "enhanced_desc": "Setelah rekan tim melancarkan Ultimate, untuk 2 kali serangan berikutnya, akan mengakibatkan 1 kali \"Aftertaste\" DMG pada target musuh yang terkena serangan sebesar 110% ATK penyerang. Ultimate kali ini juga akan memicu efek ini."
+    },
+    "616632": {
+        "id": "616632",
+        "name": "\"Sands of Sunrise: Solo Dance\"",
+        "desc": "Setelah rekan tim melancarkan Serangan Lanjutan pada target musuh, aksi target akan tertunda 25%. Pada setiap giliran target musuh, dapat terpicu hingga 2 kali.",
+        "enhanced_desc": "Setelah rekan tim melancarkan Serangan Lanjutan pada target musuh, aksi target akan tertunda 30%. Pada setiap giliran target musuh, dapat terpicu hingga 3 kali."
+    },
+    "616640": {
+        "id": "616640",
+        "name": "\"A Silent Month in a House\"",
+        "desc": "Setelah rekan tim menyerang target musuh yang berada dalam status Weakness Break, akan mengakibatkan 1 kali \"Aftertaste\" DMG sebesar 100% ATK penyerang.",
+        "enhanced_desc": "Setelah rekan tim menyerang target musuh yang berada dalam status Weakness Break, akan mengakibatkan 1 kali \"Aftertaste\" DMG sebesar 150% ATK penyerang."
+    },
+    "616641": {
+        "id": "616641",
+        "name": "\"Lieutenant Besotted with Caviar\"",
+        "desc": "Untuk setiap 1 jenis Tipe \"Aftertaste\" DMG yang diterima target musuh, ATK target akan berkurang 4%, berlangsung hingga akhir dari aksi target yang berikutnya.",
+        "enhanced_desc": "Untuk setiap 1 jenis Tipe \"Aftertaste\" DMG yang diterima target musuh, ATK target akan berkurang 6%, berlangsung hingga akhir dari aksi target yang berikutnya."
+    },
+    "616642": {
+        "id": "616642",
+        "name": "\"Your Cabinet is Beautiful, You Know\"",
+        "desc": "Untuk setiap 1 jenis Tipe \"Aftertaste\" DMG yang diterima target musuh, DMG yang diterimanya akan meningkat 3%, berlangsung hingga akhir aksi yang berikutnya.",
+        "enhanced_desc": "Untuk setiap 1 jenis Tipe \"Aftertaste\" DMG yang diterima target musuh, DMG yang diterimanya akan meningkat 4.5%, berlangsung hingga akhir aksi yang berikutnya."
+    },
+    "616643": {
+        "id": "616643",
+        "name": "\"Seed of a Fruit Strange and Divine\"",
+        "desc": "Saat rekan tim mengakibatkan \"Aftertaste\" DMG pada target musuh, meningkatkan 12% DMG yang diakibatkan rekan tersebut, dapat ditumpuk hingga 4 lapis, berlangsung hingga giliran berikutnya dimulai.",
+        "enhanced_desc": "Saat rekan tim mengakibatkan \"Aftertaste\" DMG pada target musuh, meningkatkan 12% DMG yang diakibatkan rekan tersebut, dapat ditumpuk hingga 6 lapis, berlangsung hingga giliran berikutnya dimulai."
+    },
+    "616644": {
+        "id": "616644",
+        "name": "\"Cry of the Cosmic Cat\"",
+        "desc": "\"Aftertaste\" DMG yang diakibatkan +70%.",
+        "enhanced_desc": "\"Aftertaste\" DMG yang diakibatkan +105%."
+    },
+    "616645": {
+        "id": "616645",
+        "name": "\"Simon in the Sea\"",
+        "desc": "DMG Serangan Lanjutan dan DMG Tambahan yang diakibatkan rekan tim akan mengabaikan 18% DEF target musuh.",
+        "enhanced_desc": "DMG Serangan Lanjutan dan DMG Tambahan yang diakibatkan rekan tim akan mengabaikan 24% DEF target musuh."
+    },
+    "616646": {
+        "id": "616646",
+        "name": "\"Long Day's Journey into Day\"",
+        "desc": "Saat rekan tim mengakibatkan DMG Serangan Lanjutan, Weakness Break Efficiency meningkat 35%.",
+        "enhanced_desc": "Saat rekan tim mengakibatkan DMG Serangan Lanjutan, Weakness Break Efficiency meningkat 50%."
+    },
+    "616650": {
+        "id": "616650",
+        "name": "\"Psychedelic Parking Lot\"",
+        "desc": "Meningkatkan 30% CRIT DMG dari DMG Serangan Lanjutan dan DMG Tambahan yang diakibatkan rekan tim.",
+        "enhanced_desc": "Meningkatkan 45% CRIT DMG dari DMG Serangan Lanjutan dan DMG Tambahan yang diakibatkan rekan tim."
+    },
+    "616651": {
+        "id": "616651",
+        "name": "\"Love Line\"",
+        "desc": "Setelah rekan tim melancarkan Serangan Lanjutan, ATK seluruh rekan tim akan meningkat 20%, berlangsung selama 2 giliran.",
+        "enhanced_desc": "Setelah rekan tim melancarkan Serangan Lanjutan, ATK seluruh rekan tim akan meningkat 30%, berlangsung selama 2 giliran."
+    },
+    "616652": {
+        "id": "616652",
+        "name": "\"Omega City\"",
+        "desc": "Meningkatkan 30% DMG Serangan Lanjutan dan DMG Tambahan yang diakibatkan rekan tim.",
+        "enhanced_desc": "Meningkatkan 45% DMG Serangan Lanjutan dan DMG Tambahan yang diakibatkan rekan tim."
+    },
+    "616653": {
+        "id": "616653",
+        "name": "\"Mr. Violence\"",
+        "desc": "Meningkatkan 18% CRIT Rate dari DMG Serangan Lanjutan dan DMG Tambahan yang diakibatkan rekan tim.",
+        "enhanced_desc": "Meningkatkan 27% CRIT Rate dari DMG Serangan Lanjutan dan DMG Tambahan yang diakibatkan rekan tim."
+    },
+    "616654": {
+        "id": "616654",
+        "name": "\"Forsaken Sanctuary\"",
+        "desc": "Setelah rekan tim melancarkan Serangan Lanjutan, akan memulihkan 4 Energy. Efek ini dapat terpicu hingga 1 kali di setiap giliran.",
+        "enhanced_desc": "Setelah rekan tim melancarkan Serangan Lanjutan, akan memulihkan 6 Energy. Efek ini dapat terpicu hingga 1 kali di setiap giliran."
+    },
+    "616655": {
+        "id": "616655",
+        "name": "\"Ashen Coins and Gold\"",
+        "desc": "Setelah rekan tim melancarkan Serangan Lanjutan, akan memulihkan HP-nya sebesar 10% Max HP dirinya.",
+        "enhanced_desc": "Setelah rekan tim melancarkan Serangan Lanjutan, akan memulihkan HP-nya sebesar 15% Max HP dirinya."
+    },
+    "616656": {
+        "id": "616656",
+        "name": "\"Reaper Comes Riding\"",
+        "desc": "Setelah rekan tim melancarkan Serangan Lanjutan, DEF seluruh rekan tim akan meningkat 20%, berlangsung selama 2 giliran.",
+        "enhanced_desc": "Setelah rekan tim melancarkan Serangan Lanjutan, DEF seluruh rekan tim akan meningkat 30%, berlangsung selama 2 giliran."
+    },
+    "616657": {
+        "id": "616657",
+        "name": "\"Cat Town\"",
+        "desc": "Setelah rekan tim melancarkan Serangan Lanjutan, SPD seluruh rekan tim akan meningkat 8%, berlangsung selama 2 giliran.",
+        "enhanced_desc": "Setelah rekan tim melancarkan Serangan Lanjutan, SPD seluruh rekan tim akan meningkat 12%, berlangsung selama 2 giliran."
+    },
+    "616710": { "id": "616710", "name": "", "desc": "", "enhanced_desc": "" },
+    "616720": {
+        "id": "616720",
+        "name": "Romance's Miracle",
+        "desc": "Konsumsi 100 Energy untuk melancarkan kemampuan dan memicu Boundary Resonance dengan Path \"Propagation\". Membuat 1 rekan tim yang ditargetkan segera beraksi, memulihkan 5 Poin Skill, serta memperoleh efek \"Levitation\". Setelah unit musuh mana pun dikalahkan oleh karakter yang memiliki efek \"Levitation\", akan memulihkan 50 Energy Persamaan Batas. Max Energy Persamaan Batas ini adalah 200.",
+        "enhanced_desc": ""
+    },
+    "616730": {
+        "id": "616730",
+        "name": "Müllerian Mimicry",
+        "desc": "Meningkatkan 50% ATK rekan tim. Setiap kali memperoleh atau mengonsumsi 1 Poin Skill, akan mengisi Charge \"Soul Chrysalis\" sebesar 6%.",
+        "enhanced_desc": "Meningkatkan 75% ATK rekan tim. Setiap kali memperoleh atau mengonsumsi 1 Poin Skill, akan mengisi Charge \"Soul Chrysalis\" sebesar 9%."
+    },
+    "616731": {
+        "id": "616731",
+        "name": "Ejecting Spores",
+        "desc": "Saat berada dalam status \"Butterfly Soul\", Basic Attack/Skill DMG yang diakibatkan rekan tim meningkat 40%, dan \"Butterfly Soul\" akan mengakibatkan tambahan 1 kali True DMG sebesar 15% dari DMG aslinya.",
+        "enhanced_desc": "Saat berada dalam status \"Butterfly Soul\", Basic Attack/Skill DMG yang diakibatkan rekan tim meningkat 80%, dan \"Butterfly Soul\" akan mengakibatkan tambahan 1 kali True DMG sebesar 15% dari DMG aslinya."
+    },
+    "616732": {
+        "id": "616732",
+        "name": "Broodwater Droplets",
+        "desc": "Setelah rekan tim mengonsumsi Poin Skill, CRIT DMG seluruh rekan tim akan meningkat 2%, dapat ditumpuk hingga 35 lapis. Setelah melancarkan Ultimate, konsumsi Poin Skill yang berikutnya akan dianggap mengonsumsi ekstra 1 Poin Skill.",
+        "enhanced_desc": "Setelah rekan tim mengonsumsi atau memperoleh Poin Skill, CRIT DMG seluruh rekan tim akan meningkat 3%, dapat ditumpuk hingga 35 lapis. Setelah melancarkan Ultimate, konsumsi atau perolehan Poin Skill yang berikutnya akan dianggap mengonsumsi atau memperoleh ekstra 1 Poin Skill."
+    },
+    "616740": {
+        "id": "616740",
+        "name": "Sporocarp",
+        "desc": "Setelah mengalahkan target musuh, akan mengisi Charge \"Soul Chrysalis\" sebesar 30%.",
+        "enhanced_desc": "Setelah mengalahkan target musuh, akan mengisi Charge \"Soul Chrysalis\" sebesar 45%."
+    },
+    "616741": {
+        "id": "616741",
+        "name": "Chitin Armor",
+        "desc": "Meningkatkan 30% ATK rekan tim. Saat memasuki pertempuran, akan mengisi Charge \"Soul Chrysalis\" sebesar ekstra 30%.",
+        "enhanced_desc": "Meningkatkan 50% ATK rekan tim. Saat memasuki pertempuran, akan mengisi Charge \"Soul Chrysalis\" sebesar ekstra 35%."
+    },
+    "616742": {
+        "id": "616742",
+        "name": "Free Cocoon",
+        "desc": "Saat \"Soul Chrysalis\" berubah menjadi \"Butterfly Soul\", akan memulihkan 60% HP dan meningkatkan 20% DMG yang diakibatkan dalam status ini.",
+        "enhanced_desc": "Saat \"Soul Chrysalis\" berubah menjadi \"Butterfly Soul\", akan memulihkan 100% HP dan meningkatkan 30% DMG yang diakibatkan dalam status ini."
+    },
+    "616743": {
+        "id": "616743",
+        "name": "Basidiospores",
+        "desc": "Saat berada dalam status \"Butterfly Soul\", RES PEN dari Basic Attack/Skill DMG meningkat 14%.",
+        "enhanced_desc": "Saat berada dalam status \"Butterfly Soul\", RES PEN dari Basic Attack/Skill DMG meningkat 21%."
+    },
+    "616744": {
+        "id": "616744",
+        "name": "Structural Hues",
+        "desc": "Saat berada dalam status \"Soul Chrysalis\", SPD meningkat 16%. Saat berada dalam status \"Butterfly Soul\", DMG yang diakibatkan dari Basic Attack/Skill DMG meningkat 50%.",
+        "enhanced_desc": "Saat berada dalam status \"Soul Chrysalis\", SPD meningkat 24%. Saat berada dalam status \"Butterfly Soul\", DMG yang diakibatkan dari Basic Attack/Skill DMG meningkat 75%."
+    },
+    "616745": {
+        "id": "616745",
+        "name": "Sensory Rods",
+        "desc": "Setiap 1 Poin Skill yang dikonsumsi rekan tim akan mengurangi 6% DMG yang diterima selama 2 giliran. Efek ini dapat ditumpuk hingga 2 lapis.",
+        "enhanced_desc": "Setiap 1 Poin Skill yang dikonsumsi rekan tim akan mengurangi 6% DMG yang diterima selama 2 giliran. Efek ini dapat ditumpuk hingga 3 lapis."
+    },
+    "616746": {
+        "id": "616746",
+        "name": "Splash Hex",
+        "desc": "Basic Attack/Skill DMG yang diakibatkan rekan tim akan mengakibatkan DMG pada target di sekitar sebesar 10% dari DMG aslinya.",
+        "enhanced_desc": "Basic Attack/Skill DMG yang diakibatkan rekan tim akan mengakibatkan DMG pada target di sekitar sebesar 15% dari DMG aslinya."
+    },
+    "616750": {
+        "id": "616750",
+        "name": "Mushroom Base",
+        "desc": "Saat rekan tim mengonsumsi Poin Skill, memiliki 20% peluang tetap untuk memulihkan 1 Poin Skill.",
+        "enhanced_desc": "Saat rekan tim mengonsumsi Poin Skill, memiliki 30% peluang tetap untuk memulihkan 1 Poin Skill."
+    },
+    "616751": {
+        "id": "616751",
+        "name": "Hanging Thread",
+        "desc": "DMG yang diakibatkan saat rekan tim melancarkan Basic Attack/Skill meningkat 30%.",
+        "enhanced_desc": "DMG yang diakibatkan saat rekan tim melancarkan Basic Attack/Skill meningkat 45%."
+    },
+    "616752": {
+        "id": "616752",
+        "name": "Eye Spots",
+        "desc": "CRIT DMG yang diakibatkan saat rekan tim melancarkan Basic Attack/Skill meningkat 30%.",
+        "enhanced_desc": "CRIT DMG yang diakibatkan saat rekan tim melancarkan Basic Attack/Skill meningkat 45%."
+    },
+    "616753": {
+        "id": "616753",
+        "name": "Dorsal Wings",
+        "desc": "CRIT Rate yang diakibatkan saat rekan tim melancarkan Basic Attack/Skill meningkat 16%.",
+        "enhanced_desc": "CRIT Rate yang diakibatkan saat rekan tim melancarkan Basic Attack/Skill meningkat 24%."
+    },
+    "616754": {
+        "id": "616754",
+        "name": "Thickened Walls",
+        "desc": "Saat rekan tim mengonsumsi Poin Skill, DEF akan meningkat 30%, berlangsung selama 1 giliran.",
+        "enhanced_desc": "Saat rekan tim mengonsumsi Poin Skill, DEF akan meningkat 45%, berlangsung selama 1 giliran."
+    },
+    "616755": {
+        "id": "616755",
+        "name": "Tarsal Segments",
+        "desc": "Saat rekan tim mengonsumsi Poin Skill, SPD akan meningkat 8%, berlangsung selama 2 giliran.",
+        "enhanced_desc": "Saat rekan tim mengonsumsi Poin Skill, SPD akan meningkat 12%, berlangsung selama 2 giliran."
+    },
+    "616756": {
+        "id": "616756",
+        "name": "Lip Bristles",
+        "desc": "Saat rekan tim mengonsumsi Poin Skill, akan memulihkan 2 Energy.",
+        "enhanced_desc": "Saat rekan tim mengonsumsi Poin Skill, akan memulihkan 3 Energy."
+    },
+    "616757": {
+        "id": "616757",
+        "name": "Budding Propagation",
+        "desc": "Saat rekan tim mengonsumsi Poin Skill, akan memulihkan HP sebesar 10% Max HP.",
+        "enhanced_desc": "Saat rekan tim mengonsumsi Poin Skill, akan memulihkan HP sebesar 15% Max HP."
+    },
+    "616810": { "id": "616810", "name": "", "desc": "", "enhanced_desc": "" },
+    "616820": {
+        "id": "616820",
+        "name": "Reason's Miracle",
+        "desc": "Konsumsi 100 Energy untuk melancarkan kemampuan dan memicu Boundary Resonance dengan Path \"Erudition\". Mengakibatkan Imaginary DMG dalam jumlah kecil pada seluruh target musuh, dan menghubungkan target musuh yang Max HP-nya paling tinggi dengan target musuh yang lain, membuat seluruh musuh memasuki status \"Central Link\", serta memulihkan Energy seluruh rekan tim sebesar 100% Max Energy.",
+        "enhanced_desc": ""
+    },
+    "616830": {
+        "id": "616830",
+        "name": "Hippocampus TR-303",
+        "desc": "Setelah rekan tim mengakibatkan Weakness Break pada target musuh, akan mengisi Energy \"Brain in a Vat\" sebesar 10%. Jika target musuh adalah musuh elite, maka akan mengisi Energy sebesar 40%.",
+        "enhanced_desc": "Saat memasuki pertempuran, akan mengisi 100% Energy untuk \"Brain in a Vat\". Setelah rekan tim mengakibatkan Weakness Break pada target musuh, akan mengisi 12% Energy untuk \"Brain in a Vat\". Jika target musuh adalah musuh elite, maka akan mengisi Energy sebesar 50%."
+    },
+    "616831": {
+        "id": "616831",
+        "name": "Accumbens Nucleus DBS-45",
+        "desc": "Saat rekan tim membuat target musuh terkena DMG mematikan, akan mengisi Energy \"Brain in a Vat\" sebesar 50%.",
+        "enhanced_desc": "Saat rekan tim membuat target musuh terkena DMG mematikan, akan mengisi 50% Energy \"Brain in a Vat\". Setiap kali setelah \"Brain in a Vat\" terisi penuh, SPD akan meningkat 20% selama 2 giliran."
+    },
+    "616832": {
+        "id": "616832",
+        "name": "Dark Matter ELO-536",
+        "desc": "RES PEN seluruh Tipe dari Ultimate DMG yang diakibatkan rekan tim meningkat 20%. Untuk setiap 1 target musuh yang berada di medan pertempuran, akan meningkatkan 3% RES PEN seluruh Tipe dari Ultimate DMG yang diakibatkan, berlangsung hingga setelah pelancaran Ultimate yang berikutnya.",
+        "enhanced_desc": "RES PEN seluruh Tipe dari Ultimate DMG yang diakibatkan rekan tim meningkat 25%. Untuk setiap 1 target musuh yang berada di medan pertempuran, akan meningkatkan 3% RES PEN seluruh Tipe dari Ultimate DMG yang diakibatkan, berlangsung hingga setelah pelancaran Ultimate yang berikutnya."
+    },
+    "616840": {
+        "id": "616840",
+        "name": "Restart: Terminal Nerve",
+        "desc": "Saat rekan tim memanfaatkan \"Brain in a Vat\" untuk melancarkan Ultimate, CRIT DMG meningkat 80%, efek peningkatan CRIT DMG berlangsung hingga kemampuan kali ini berakhir.",
+        "enhanced_desc": "Saat rekan tim memanfaatkan \"Brain in a Vat\" untuk melancarkan Ultimate, CRIT DMG meningkat 90%, efek peningkatan CRIT DMG berlangsung hingga serangan berikutnya berakhir."
+    },
+    "616841": {
+        "id": "616841",
+        "name": "Iterate: Cognitive Map",
+        "desc": "Setelah rekan tim memanfaatkan \"Brain in a Vat\" untuk melancarkan Ultimate, akan memperoleh Shield sebesar 36% Max HP, berlangsung selama 2 giliran.",
+        "enhanced_desc": "Setelah rekan tim memanfaatkan \"Brain in a Vat\" untuk melancarkan Ultimate, akan memperoleh Shield sebesar 45% Max HP, berlangsung selama 3 giliran."
+    },
+    "616842": {
+        "id": "616842",
+        "name": "Analyze: Procedural Memory",
+        "desc": "Saat rekan tim menggunakan \"Brain in a Vat\" untuk melancarkan Ultimate, DMG yang diakibatkan seluruh rekan tim akan meningkat 36%, berlangsung selama 2 giliran.",
+        "enhanced_desc": "Saat rekan tim menggunakan \"Brain in a Vat\" untuk melancarkan Ultimate, DMG yang diakibatkan seluruh rekan tim akan meningkat 54%, berlangsung selama 2 giliran."
+    },
+    "616843": {
+        "id": "616843",
+        "name": "Stabilize: Slow-Wave Sleep",
+        "desc": "Setelah rekan tim terkena serangan, akan mengisi Energy \"Brain in a Vat\" sebesar 6%.",
+        "enhanced_desc": "Setelah rekan tim terkena serangan, akan mengisi Energy \"Brain in a Vat\" sebesar 9%."
+    },
+    "616844": {
+        "id": "616844",
+        "name": "Derive: Cell Demarcation",
+        "desc": "Setelah rekan tim menggunakan \"Brain in a Vat\" untuk melancarkan Ultimate, ATK akan meningkat 60% selama 2 giliran.",
+        "enhanced_desc": "Setelah rekan tim menggunakan \"Brain in a Vat\" untuk melancarkan Ultimate, ATK akan meningkat 90% selama 2 giliran."
+    },
+    "616845": {
+        "id": "616845",
+        "name": "Execute: Enhanced Learning",
+        "desc": "Setelah rekan tim melancarkan Ultimate untuk menyerang target musuh berstatus Weakness Break, akan menunda aksi target sebesar 16%. Efek ini hanya dapat terpicu 3 kali untuk setiap kali setelah target musuh memasuki status Weakness Break.",
+        "enhanced_desc": "Setelah rekan tim melancarkan Ultimate untuk menyerang target musuh berstatus Weakness Break, akan menunda aksi target sebesar 24%. Efek ini hanya dapat terpicu 3 kali untuk setiap kali setelah target musuh memasuki status Weakness Break."
+    },
+    "616846": {
+        "id": "616846",
+        "name": "Open: Direct Pathway",
+        "desc": "Jika Kemampuan AoE ATK rekan tim hanya menyerang 1 target musuh, maka serangan kali ini akan mengakibatkan tambahan DMG Dalam Jumlah Tetap sebesar 40% dari DMG aslinya pada target musuh yang terkena serangan.",
+        "enhanced_desc": "Jika Kemampuan AoE ATK rekan tim hanya menyerang 1 target musuh, maka serangan kali ini akan mengakibatkan tambahan DMG Dalam Jumlah Tetap sebesar 60% dari DMG aslinya pada target musuh yang terkena serangan."
+    },
+    "616850": {
+        "id": "616850",
+        "name": "Shimmering Flag",
+        "desc": "Ultimate DMG yang diakibatkan rekan tim +18%.",
+        "enhanced_desc": "Ultimate DMG yang diakibatkan rekan tim +27%."
+    },
+    "616851": {
+        "id": "616851",
+        "name": "Solid-State Stored Armor",
+        "desc": "CRIT Rate dari Ultimate DMG yang diakibatkan rekan tim +18%.",
+        "enhanced_desc": "CRIT Rate dari Ultimate DMG yang diakibatkan rekan tim +27%."
+    },
+    "616852": {
+        "id": "616852",
+        "name": "Safely Redacted Border",
+        "desc": "CRIT DMG dari Ultimate DMG yang diakibatkan rekan tim +30%.",
+        "enhanced_desc": "CRIT DMG dari Ultimate DMG yang diakibatkan rekan tim +45%."
+    },
+    "616853": {
+        "id": "616853",
+        "name": "Packages Aligned by Partitions",
+        "desc": "Saat memasuki pertempuran, akan memulihkan Energy sebesar 30% Max Energy.",
+        "enhanced_desc": "Saat memasuki pertempuran, akan memulihkan Energy sebesar 45% Max Energy."
+    },
+    "616854": {
+        "id": "616854",
+        "name": "Route of Erased Macroblocks",
+        "desc": "Saat rekan tim melancarkan Ultimate, ATK akan meningkat 24%, berlangsung selama 2 giliran.",
+        "enhanced_desc": "Saat rekan tim melancarkan Ultimate, ATK akan meningkat 36%, berlangsung selama 2 giliran."
+    },
+    "616855": {
+        "id": "616855",
+        "name": "Lighthouse of Crystalline Resonance",
+        "desc": "Setelah rekan tim melancarkan Ultimate, Max HP akan meningkat 20%, berlangsung selama 2 giliran.",
+        "enhanced_desc": "Setelah rekan tim melancarkan Ultimate, Max HP akan meningkat 30%, berlangsung selama 2 giliran."
+    },
+    "616856": {
+        "id": "616856",
+        "name": "Optical Guiding Lens",
+        "desc": "Setelah rekan tim melancarkan Ultimate, akan memulihkan HP sebesar 20% Max HP.",
+        "enhanced_desc": "Setelah rekan tim melancarkan Ultimate, akan memulihkan HP sebesar 30% Max HP."
+    },
+    "616857": {
+        "id": "616857",
+        "name": "Sequentially Written Track",
+        "desc": "Karakter tidak akan gugur saat terkena serangan mematikan. Konsumsi seluruh Energy dan memulihkan HP sebesar 50% dari persentase Energy yang dikonsumsi. Efek ini hanya dapat terpicu 1 kali dalam setiap pertempuran.",
+        "enhanced_desc": "Karakter tidak akan gugur saat terkena serangan mematikan. Konsumsi seluruh Energy dan memulihkan HP sebesar 100% dari persentase Energy yang dikonsumsi. Efek ini hanya dapat terpicu 1 kali dalam setiap pertempuran."
+    },
+    "616910": { "id": "616910", "name": "", "desc": "", "enhanced_desc": "" },
+    "616920": {
+        "id": "616920",
+        "name": "Passage's Miracle",
+        "desc": "Konsumsi 100 Energy untuk melancarkan Kemampuan dan memicu Boundary Resonance dengan Path \"Harmony\", mengakibatkan Quantum DMG pada seluruh target musuh, dan mengakibatkan Weakness Break pada seluruh target musuh dengan Break Effect sebesar1000%. Saat mengakibatkan Weakness Break, akan memicu efek Weakness Break semua Tipe.",
+        "enhanced_desc": ""
+    },
+    "616930": {
+        "id": "616930",
+        "name": "First Movement: The Frog and the Knight",
+        "desc": "Setiap target musuh menerima 10 Pengurangan Toughness aktual, akan memasuki 1 lapis \"Harmonize\".",
+        "enhanced_desc": "Setiap target musuh menerima 10 Pengurangan Toughness aktual, akan memasuki 1 lapis \"Harmonize\". Pengurangan Toughness aktual yang diterima selama berstatus Weakness Break juga akan dihitung."
+    },
+    "616931": {
+        "id": "616931",
+        "name": "Second Movement: The Faun's Breakfast",
+        "desc": "Setelah rekan tim menyerang target musuh yang berada dalam status Weakness Break, akan memicu 1 kali efek \"Harmonize\" DMG dengan rasio sebesar 8%.",
+        "enhanced_desc": "Setelah rekan tim menyerang target musuh yang berada dalam status Weakness Break, akan memicu 1 kali efek \"Harmonize\" DMG dengan rasio sebesar 10%, dan DMG Multiplier \"Harmonize\" meningkat sebesar 20% dari Multiplier aslinya."
+    },
+    "616932": {
+        "id": "616932",
+        "name": "Third Movement: Rondo Form",
+        "desc": "Saat rekan tim mengakibatkan Weakness Break pada target musuh, akan memicu tambahan efek Weakness Break dari Tipe Weakness lain yang dimiliki target, dengan rasio sebesar 50%.",
+        "enhanced_desc": "Saat rekan tim mengakibatkan Weakness Break pada target musuh, akan memicu tambahan efek Weakness Break dari Tipe Weakness lain yang dimiliki target, dengan rasio sebesar 80%."
+    },
+    "616940": {
+        "id": "616940",
+        "name": "Common Practice Period",
+        "desc": "Setelah target musuh yang memiliki \"Harmonize\" dikalahkan, akan membuat 1 target acak di sekitarnya memperoleh \"Harmonize\" dari jumlah lapisan yang dimiliki target musuh.",
+        "enhanced_desc": "Setelah target musuh yang memiliki \"Harmonize\" dikalahkan, akan membuat 2 target acak di sekitarnya memperoleh \"Harmonize\" dari jumlah lapisan yang dimiliki target musuh."
+    },
+    "616941": {
+        "id": "616941",
+        "name": "Goblet of Dionysus",
+        "desc": "Setelah rekan tim menyerang target musuh yang berstatus Weakness Break, akan membuatnya memasuki1 lapis \"Harmonize\".",
+        "enhanced_desc": "Break Effect rekan tim meningkat 24%. Setelah rekan tim menyerang target musuh yang berstatus Weakness Break, akan membuatnya memasuki1 lapis \"Harmonize\"."
+    },
+    "616942": {
+        "id": "616942",
+        "name": "Coronal Pulse",
+        "desc": "Untuk setiap 1 lapis \"Harmonize\" yang dimiliki target musuh, Break DMG yang diterima meningkat 1.0%.",
+        "enhanced_desc": "Untuk setiap 1 lapis \"Harmonize\" yang dimiliki target musuh, Break DMG yang diterima meningkat 1.5%."
+    },
+    "616943": {
+        "id": "616943",
+        "name": "String Quartet",
+        "desc": "Saat \"Harmonize\" DMG terpicu, akan menghitung ekstra 5 lapis. Batas maksimal \"Harmonize\" meningkat 5 lapis.",
+        "enhanced_desc": "Saat \"Harmonize\" DMG terpicu, akan menghitung ekstra 6 lapis. Batas maksimal \"Harmonize\" meningkat 10 lapis."
+    },
+    "616944": {
+        "id": "616944",
+        "name": "Iambic Pentameter",
+        "desc": "DMG Multiplier \"Harmonize\" meningkat 30% dari Multiplier aslinya.",
+        "enhanced_desc": "DMG Multiplier \"Harmonize\" meningkat 45% dari Multiplier aslinya."
+    },
+    "616945": {
+        "id": "616945",
+        "name": "Basso Continuo",
+        "desc": "Saat rekan tim mengakibatkan Weakness Break pada target musuh, Pengurangan Toughness dari serangan kali ini akan dikonversi menjadi 1 kali 50% Super Break DMG.",
+        "enhanced_desc": "Saat rekan tim mengakibatkan Weakness Break pada target musuh, Pengurangan Toughness dari serangan kali ini akan dikonversi menjadi 1 kali 75% Super Break DMG."
+    },
+    "616946": {
+        "id": "616946",
+        "name": "Righteous Nome",
+        "desc": "Saat rekan tim mengakibatkan Weakness Break pada target musuh, memiliki 100% peluang dasar untuk membuat target memasuki status Frozen, berlangsung selama 1 giliran.",
+        "enhanced_desc": "Saat rekan tim mengakibatkan Weakness Break pada target musuh, memiliki 150% peluang dasar untuk membuat target memasuki status Frozen, berlangsung selama 1 giliran."
+    },
+    "616950": {
+        "id": "616950",
+        "name": "Stagnant Weave",
+        "desc": "Saat rekan tim mengakibatkan Weakness Break pada target musuh, aksi target akan tertunda 20%.",
+        "enhanced_desc": "Saat rekan tim mengakibatkan Weakness Break pada target musuh, aksi target akan tertunda 30%."
+    },
+    "616951": {
+        "id": "616951",
+        "name": "Original Declaration",
+        "desc": "Break DMG yang diakibatkan rekan tim meningkat 8%.",
+        "enhanced_desc": "Break DMG yang diakibatkan rekan tim meningkat 12%."
+    },
+    "616952": {
+        "id": "616952",
+        "name": "Serene Storm",
+        "desc": "Break Effect rekan tim meningkat 30%.",
+        "enhanced_desc": "Break Effect rekan tim meningkat 45%."
+    },
+    "616953": {
+        "id": "616953",
+        "name": "Linear Melody",
+        "desc": "Saat rekan tim mengakibatkan Weakness Break pada target musuh, SPD akan meningkat 12%, berlangsung selama 3 giliran.",
+        "enhanced_desc": "Saat rekan tim mengakibatkan Weakness Break pada target musuh, SPD akan meningkat 18%, berlangsung selama 3 giliran."
+    },
+    "616954": {
+        "id": "616954",
+        "name": "Cross Rhythm",
+        "desc": "Saat rekan tim mengakibatkan Weakness Break pada target musuh, Break Effect seluruh rekan tim meningkat 40%, berlangsung selama 3 giliran.",
+        "enhanced_desc": "Saat rekan tim mengakibatkan Weakness Break pada target musuh, Break Effect seluruh rekan tim meningkat 60%, berlangsung selama 3 giliran."
+    },
+    "616955": {
+        "id": "616955",
+        "name": "Free Tonality",
+        "desc": "Break DMG yang diterima target musuh +16%.",
+        "enhanced_desc": "Break DMG yang diterima target musuh +24%."
+    },
+    "616956": {
+        "id": "616956",
+        "name": "Duke of Omens",
+        "desc": "Mengurangi 15% DEF target musuh yang berstatus Weakness Break.",
+        "enhanced_desc": "Mengurangi 20% DEF target musuh yang berstatus Weakness Break."
+    },
+    "616957": {
+        "id": "616957",
+        "name": "Novel Motif",
+        "desc": "Saat rekan tim mengakibatkan Weakness Break pada target musuh, rekan tersebut akan memulihkan HP sebesar 24% Max HP dirinya.",
+        "enhanced_desc": "Saat rekan tim mengakibatkan Weakness Break pada target musuh, rekan tersebut akan memulihkan HP sebesar 36% Max HP dirinya."
+    },
     "619920": { "id": "619920", "name": "", "desc": "", "enhanced_desc": "" },
     "619921": { "id": "619921", "name": "", "desc": "", "enhanced_desc": "" },
     "619922": { "id": "619922", "name": "", "desc": "", "enhanced_desc": "" },
     "619923": { "id": "619923", "name": "", "desc": "", "enhanced_desc": "" },
+    "634000": {
+        "id": "634000",
+        "name": "0",
+        "desc": "Saat memasuki Siang hari, rekan tim akan memulihkan HP sebesar 30% Max HP dirinya. Saat Siang hari, ketika giliran rekan tim dimulai, memulihkan HP sebesar 5% Max HP dirinya. Pada Malam hari, Max HP seluruh rekan tim meningkat 0%, DMG final yang diakibatkan meningkat 30%, dan DMG final yang diakibatkan seluruh musuh meningkat 15%.",
+        "enhanced_desc": ""
+    },
+    "634010": {
+        "id": "634010",
+        "name": "Dreamlike Goldweaver",
+        "desc": "Pada siang hari, setelah seluruh rekan tim menyerang total sebanyak 8 kali, efek akan diaktifkan: SPD pada Siang hari meningkat 40%, direset setelah Siang/Malam berganti.",
+        "enhanced_desc": ""
+    },
+    "634011": {
+        "id": "634011",
+        "name": "Flawless Finery",
+        "desc": "Karunia ini dan efek peningkatannya juga berlaku di Malam hari dan tidak akan direset.",
+        "enhanced_desc": ""
+    },
+    "634012": {
+        "id": "634012",
+        "name": "Rondo Finery",
+        "desc": "Jumlah serangan yang diperlukan untuk mengaktifkan efek berkurang 6 kali. Saat diaktifkan, aksi seluruh rekan tim akan didahulukan 100%.",
+        "enhanced_desc": ""
+    },
+    "634013": {
+        "id": "634013",
+        "name": "Bloodstained Finery",
+        "desc": "Jumlah serangan yang diperlukan untuk mengaktifkan efek bertambah 8 kali. Saat diaktifkan, SPD meningkat ekstra 50%.",
+        "enhanced_desc": ""
+    },
+    "634016": {
+        "id": "634016",
+        "name": "Weave Threads of Romance",
+        "desc": "Rasio siang hari bertambah 25%. Setelah mengaktifkan efek ini, SPD rekan tim pada Siang hari meningkat ekstra 30%.",
+        "enhanced_desc": ""
+    },
+    "634017": {
+        "id": "634017",
+        "name": "Weave Threads of Beauty",
+        "desc": "Setelah efek diaktifkan, setiap setelah rekan tim melancarkan serangan pada Siang hari, akan membuat SPD rekan tersebut meningkat ekstra 2%, dapat ditumpuk hingga 60% dalam satu siklus Siang/Malam. Direset setelah berganti Siang/Malam berganti.",
+        "enhanced_desc": ""
+    },
+    "634018": {
+        "id": "634018",
+        "name": "Weave Threads of Fate",
+        "desc": "Setelah efek diaktifkan, final DMG dari suatu unit akan meningkat 20% untuk setiap 100 SPD yang dimiliki oleh dirinya.",
+        "enhanced_desc": ""
+    },
+    "634020": {
+        "id": "634020",
+        "name": "Connected Infinite Gates",
+        "desc": "Pada Siang hari, DMG final rekan tim meningkat 20%. Saat memasuki Siang hari, akan mengaktifkan Ultimate seluruh rekan tim.",
+        "enhanced_desc": ""
+    },
+    "634021": {
+        "id": "634021",
+        "name": "A Fairytale About Dawn",
+        "desc": "Rasio Siang hari bertambah 25%. DMG final yang diakibatkan rekan tim pada Siang hari akan meningkat ekstra 20%.",
+        "enhanced_desc": ""
+    },
+    "634022": {
+        "id": "634022",
+        "name": "A Fairytale About The Past",
+        "desc": "Pada Siang hari, setelah rekan tim mengalahkan target musuh, akan memulihkan Energy sebesar 50% Max Energy.",
+        "enhanced_desc": ""
+    },
+    "634023": {
+        "id": "634023",
+        "name": "A Fairytale About Us",
+        "desc": "Karunia ini dan efek peningkatannya juga berlaku di Malam hari dan tidak akan direset. Setelah malam abadi, saat Malam tiba, akan mengaktifkan Ultimate seluruh rekan tim.",
+        "enhanced_desc": ""
+    },
+    "634026": {
+        "id": "634026",
+        "name": "A Prophecy Bringing Strife",
+        "desc": "Rasio Siang hari bertambah 25%. DMG final yang diakibatkan rekan tim pada Siang hari akan meningkat ekstra 25%.",
+        "enhanced_desc": ""
+    },
+    "634027": {
+        "id": "634027",
+        "name": "A Prophecy Leaving Hope",
+        "desc": "Pada siang hari, untuk setiap 1 target musuh yang terserang oleh rekan tim, rekan tersebut akan memulihkan HP sebesar 6% Max HP saat giliran berikutnya dimulai, dapat ditumpuk hingga 10 kali.",
+        "enhanced_desc": ""
+    },
+    "634028": {
+        "id": "634028",
+        "name": "A Prophecy Continuing Myths",
+        "desc": "Pada Siang hari, setiap kali rekan tim melancarkan Ultimate, DMG final yang diakibatkan meningkat 4%, dapat ditumpuk hingga 60% dalam satu siklus Siang/Malam. Direset setelah Siang/Malam berganti.",
+        "enhanced_desc": ""
+    },
+    "634030": {
+        "id": "634030",
+        "name": "Meeting Death's Palm",
+        "desc": "Pada Malam hari, Max HP rekan tim meningkat 30%. Setelah HP berkurang, DMG final yang diakibatkan serangan berikutnya akan meningkat 50%.",
+        "enhanced_desc": ""
+    },
+    "634031": {
+        "id": "634031",
+        "name": "Fated to Decay",
+        "desc": "Rasio Malam hari bertambah 25%. Peningkatan DMG final setelah HP rekan tim berkurang akan meningkat ekstra 40%.",
+        "enhanced_desc": ""
+    },
+    "634032": {
+        "id": "634032",
+        "name": "Fated to Wither",
+        "desc": "Karunia ini dan efek peningkatannya juga berlaku di Siang hari dan tidak akan direset.",
+        "enhanced_desc": ""
+    },
+    "634033": {
+        "id": "634033",
+        "name": "Fated to Perish",
+        "desc": "Pada Malam hari, pemulihan HP yang tidak berlebih pada rekan tim juga akan dianggap sebagai pengurangan HP oleh Karunia ini dan efek peningkatannya.",
+        "enhanced_desc": ""
+    },
+    "634036": {
+        "id": "634036",
+        "name": "Blooms Before Unnamed Graves",
+        "desc": "Rasio Malam hari bertambah 25%. Max HP rekan tim pada Malam hari meningkat ekstra 45%.",
+        "enhanced_desc": ""
+    },
+    "634037": {
+        "id": "634037",
+        "name": "New Sprout on Dead Branch",
+        "desc": "Pada Malam hari, setiap 50% pengurangan HP yang diakumulasi rekan tim akan meningkatkan 5.0% Max HP, dapat ditumpuk hingga 65% dalam satu siklus Siang/Malam. Direset setelah Siang/Malam berganti.",
+        "enhanced_desc": ""
+    },
+    "634038": {
+        "id": "634038",
+        "name": "Butterflies on the Returning Road",
+        "desc": "Setiap setelah HP rekan tim berkurang, DMG final yang diakibatkan akan meningkat 2%, maksimal terpicu 1 kali dalam satu aksi, dapat ditumpuk hingga 60% dalam satu siklus Siang/Malam. Direset setelah Siang/Malam berganti.",
+        "enhanced_desc": ""
+    },
+    "634040": {
+        "id": "634040",
+        "name": "Crowned in Blood",
+        "desc": "Pada Malam hari, setelah akumulasi HP 1 rekan tim berkurang sebanyak 50%, efek ini akan diaktifkan: Saat giliran rekan tim berakhir, akan memulihkan HP sebesar 20% Max HP. DMG final pada Malam hari meningkat 25%. Direset setelah berganti Siang/Malam berganti.",
+        "enhanced_desc": ""
+    },
+    "634041": {
+        "id": "634041",
+        "name": "Lance of Divine Fury",
+        "desc": "Karunia ini dan efek peningkatannya juga berlaku di Siang hari dan tidak akan direset.",
+        "enhanced_desc": ""
+    },
+    "634042": {
+        "id": "634042",
+        "name": "Blade of Human Rage",
+        "desc": "Pengurangan persentase HP yang diperlukan untuk mengaktifkan efek meningkat 40%. Setelah mengaktifkan efek, DMG final yang diakibatkan rekan tim pada Malam hari akan meningkat ekstra 30%.",
+        "enhanced_desc": ""
+    },
+    "634043": {
+        "id": "634043",
+        "name": "Shield of Triumphant Return",
+        "desc": "Pengurangan persentase HP yang diperlukan untuk mengaktifkan efek berkurang 25%. Saat efek diaktifkan, akan memulihkan HP seluruh anggota tim sebesar 100% Max HP-nya, dan untuk 5 kali serangan berikutnya, akan memulihkan tambahan HP sebesar 30% Max HP-nya.",
+        "enhanced_desc": ""
+    },
+    "634046": {
+        "id": "634046",
+        "name": "Slay the Thousand Foes",
+        "desc": "Rasio Malam hari bertambah 25%. Setelah HP rekan tim berkurang pada Malam hari, DMG final yang diakibatkan serangan berikutnya akan meningkat ekstra 40%.",
+        "enhanced_desc": ""
+    },
+    "634047": {
+        "id": "634047",
+        "name": "Slay the Honorless Tyrant",
+        "desc": "Setelah efek diaktifkan, untuk setiap 10% HP yang berkurang pada Malam hari akan meningkatkan 1.0% Pemulihan HP dan meningkatkan 1.00% DMG final yang diakibatkan, maksimal dapat meningkatkan 40% Pemulihan HP dan 40% DMG final dalam satu siklus Siang/Malam. Direset setelah Siang/Malam berganti.",
+        "enhanced_desc": ""
+    },
+    "634048": {
+        "id": "634048",
+        "name": "Slay the Maddened God",
+        "desc": "Setelah mengaktifkan efek, Max HP rekan tim pada Malam hari akan meningkat sebesar 16% dari Max HP saat ini.",
+        "enhanced_desc": ""
+    },
+    "634050": {
+        "id": "634050",
+        "name": "Endless Feasting",
+        "desc": "Pada Siang hari, DMG final yang diterima target musuh meningkat 25%, dan membuat target musuh memasuki status \"Swan Song\": Setiap saat giliran dimulai, akan menerima Physical DMG Tambahan sebesar 400% DMG Dasar.",
+        "enhanced_desc": ""
+    },
+    "634051": {
+        "id": "634051",
+        "name": "Unending Carnival",
+        "desc": "Rasio siang hari bertambah 25%. DMG final yang diterima target musuh pada siang hari meningkat 20%.",
+        "enhanced_desc": ""
+    },
+    "634052": {
+        "id": "634052",
+        "name": "Unwaking Slumber",
+        "desc": "Pada Siang hari, setelah target musuh terkena serangan rekan tim, akan memicu 1 kali \"Swan Song\" DMG dengan rasio sebesar 100%.",
+        "enhanced_desc": ""
+    },
+    "634053": {
+        "id": "634053",
+        "name": "Heritage Poems",
+        "desc": "\"Swan Song\" dianggap sebagai \"Bleed\". DMG Multiplier \"Swan Song\" meningkat sebesar 100% dari Multiplier aslinya, dan akan mengakibatkan DoT setiap saat giliran dimulai",
+        "enhanced_desc": ""
+    },
+    "634056": {
+        "id": "634056",
+        "name": "The Besotted's Elegy",
+        "desc": "Rasio Siang hari bertambah 25%. DMG final yang diakibatkan rekan tim pada Siang hari meningkat 25%.",
+        "enhanced_desc": ""
+    },
+    "634057": {
+        "id": "634057",
+        "name": "The Sorrowful's Elegy",
+        "desc": "Pada Siang hari, setiap kali \"Swan Song\" mengakibatkan DMG, akan meningkatkan DMG-nya sebesar 5% dari Multiplier aslinya, dapat ditumpuk hingga 200% dalam satu siklus Siang/Malam. Direset setelah berganti Siang/Malam berganti.",
+        "enhanced_desc": ""
+    },
+    "634058": {
+        "id": "634058",
+        "name": "The Lost's Elegy",
+        "desc": "Setiap kali menerima DoT lain, akan memicu 1 kali \"Swan Song\" DMG dengan rasio sebesar 50%. Efek ini dapat dipicu 4 kali setiap kali beraksi.",
+        "enhanced_desc": ""
+    },
+    "634060": {
+        "id": "634060",
+        "name": "Phantom Strider",
+        "desc": "Mengalahkan musuh elite dalam pertempuran dapat memberikan ekstra 50 Cosmic Fragment. Efek ini dapat dipicu hingga 1 kali di setiap pertempuran. Pada Malam hari, DMG final yang diakibatkan pada musuh elite meningkat 30%, dan DMG yang diterima dari musuh elite berkurang 10%.",
+        "enhanced_desc": ""
+    },
+    "634061": {
+        "id": "634061",
+        "name": "Unblinking in Lies",
+        "desc": "Rasio Malam hari bertambah 25%. Pada Malam hari, Cosmic Fragment tambahan yang diperoleh dari mengalahkan musuh elite meningkat ekstra sebesar 35. Setelah berganti antara Siang/Malam untuk pertama kalinya, efek ini akan menghilang.",
+        "enhanced_desc": ""
+    },
+    "634062": {
+        "id": "634062",
+        "name": "Unflinching in Tricks",
+        "desc": "Saat memasuki pertempuran, jika memiliki lebih dari 500 Cosmic Fragment, DMG final yang diakibatkan rekan tim pada musuh elite akan meningkat ekstra 80% pada Malam hari.",
+        "enhanced_desc": ""
+    },
+    "634063": {
+        "id": "634063",
+        "name": "Perfect in Fraud",
+        "desc": "Pada efek dasar, jumlah perolehan Cosmic Fragment tambahan dari mengalahkan musuh elite meningkat 2 kali.",
+        "enhanced_desc": ""
+    },
+    "634066": {
+        "id": "634066",
+        "name": "Long Night Blesses Thieves",
+        "desc": "Rasio Malam hari bertambah 25%. Saat Malam hari, DMG final yang diakibatkan rekan tim pada musuh elite meningkat ekstra 40%.",
+        "enhanced_desc": ""
+    },
+    "634067": {
+        "id": "634067",
+        "name": "Sealed Vault Welcomes Traitors",
+        "desc": "Pada efek dasar, Cosmic Fragment yang diperoleh dari mengalahkan musuh elite meningkat 100.",
+        "enhanced_desc": ""
+    },
+    "634068": {
+        "id": "634068",
+        "name": "Even Lies Require Skill",
+        "desc": "Dalam Divergent Universe kali ini, untuk setiap 1 kali terpicunya efek perolehan Cosmic Fragment dari karunia ini, setelah melancarkan serangan akan mengakibatkan DMG Tambahan sebesar 40% ATK pada target serangan.",
+        "enhanced_desc": ""
+    },
     "670010": {
         "id": "670010",
         "name": "City Restorer",
@@ -2463,7 +3641,7 @@
     "670280": {
         "id": "670280",
         "name": "Self-Proof Institute",
-        "desc": "Setelah \"Suspicion\" mencapai 99 lapis, akan dikonsumsi dan berubah menjadi 1 lapis \"Self-Negation\": Meningkatkan 70% DoT yang diakibatkan penyerang, dan setiap lapisnya meningkatkan ekstra 10%, dapat ditumpuk hingga #10[i] lapis. Target musuh akan menerima Lightning DoT sebesar 135% DMG Dasar saat giliran target musuh dimulai, dan musuh di sekitar target akan menerima Lightning DoT sebesar 20% dari DMG Multiplier aslinya. Saat jumlah lapisan lebih dari atau sama dengan 2 lapis: Memulihkan 20% \"Brain in a Vat\" 1 rekan acak saat giliran dimulai. Saat jumlah lapisan lebih dari atau sama dengan 3 lapis: Memulihkan 10% \"Brain in a Vat\" seluruh rekan tim saat giliran dimulai.",
+        "desc": "Setelah \"Suspicion\" mencapai 99 lapis, akan dikonsumsi dan berubah menjadi 1 lapis \"Self-Negation\": Meningkatkan 70% DoT yang diakibatkan penyerang, dan setiap lapisnya meningkatkan ekstra 10%, dapat ditumpuk hingga 50 lapis. Target musuh akan menerima Lightning DoT sebesar 135% DMG Dasar saat giliran target musuh dimulai, dan musuh di sekitar target akan menerima Lightning DoT sebesar 20% dari DMG Multiplier aslinya. Saat jumlah lapisan lebih dari atau sama dengan 2 lapis: Memulihkan 20% \"Brain in a Vat\" 1 rekan acak saat giliran dimulai. Saat jumlah lapisan lebih dari atau sama dengan 3 lapis: Memulihkan 10% \"Brain in a Vat\" seluruh rekan tim saat giliran dimulai.",
         "enhanced_desc": ""
     },
     "670320": {
@@ -3022,6 +4200,438 @@
         "id": "672870",
         "name": "Kolchis",
         "desc": "Setiap kali karakter mengonsumsi 1 Poin Skill, Ultimate DMG yang diakibatkan meningkat 65%, maksimal meningkat hingga 130%, berlangsung hingga setelah pelancaran Ultimate.",
+        "enhanced_desc": ""
+    },
+    "673140": {
+        "id": "673140",
+        "name": "Oathkeeper",
+        "desc": "Saat setiap total 12 giliran berlalu bagi seluruh rekan tim, aksi dari karakter urutan pertama dalam lineup rekan tim dan Memosprite miliknya akan didahulukan 100%, dan untuk 1 giliran berikutnya, akan memperoleh 1 Giliran Tambahan setelah gilirannya berakhir. Setelah melancarkan serangan dalam Giliran Tambahan ini, akan mengakibatkan DMG Tambahan sebesar 600% ATK pada target serangan. Untuk setiap 1 lapis \"Obsession\" yang dimiliki rekan tim, DMG Multiplier ini akan meningkat sebesar 1% dari Multiplier aslinya.",
+        "enhanced_desc": ""
+    },
+    "673150": {
+        "id": "673150",
+        "name": "Elegy Priest",
+        "desc": "Hitung mundur \"Flower of Annihilation\" akan muncul di Susunan Aksi: Mencatat \"Blazar\" yang diperoleh rekan tim. Saat beraksi, akan mengakibatkan Fire DMG pada seluruh target musuh sebesar 5000% + 3000% dari nilai DMG Dasar yang dicatat, lalu menghapus nilai yang tercatat. Untuk setiap 1 lapis \"Obsession\" yang dimiliki rekan tim, SPD akan meningkat 1%. Saat rekan tim memasuki pertempuran/gugur/saat Memosprite dipanggil atau menghilang, akan mengisi Charge \"Blazar\" sebesar 25% Max HP seluruh rekan tim.",
+        "enhanced_desc": ""
+    },
+    "673210": {
+        "id": "673210",
+        "name": "Growth-Ring Carver",
+        "desc": "Saat target musuh memasuki status Frozen atau DoT, terdapat 150% peluang dasar untuk membuat efek terkait menyebar ke musuh di sekitarnya (jika tidak ada musuh di sekitar, akan menyebar ke dirinya sendiri). Dalam 1 aksi, 1 target yang sama hanya dapat menyebarkan efek yang sama sebanyak 1 kali. Setiap kali 1 target musuh menyebarkan sebanyak total 15 kali atau dikalahkan, akan membuat target dan musuh di sekitarnya terkena Ice DMG sebesar 2000% DMG Dasar. Untuk setiap 1 lapis \"Obsession\" yang dimiliki rekan tim, DMG meningkat 1%.",
+        "enhanced_desc": ""
+    },
+    "673280": {
+        "id": "673280",
+        "name": "Whispering Woods",
+        "desc": "Setelah rekan tim melancarkan total 5 kali Ultimate, \"Murmur\" akan mengakibatkan DMG sebesar 60% dari DMG Multiplier aslinya pada target di sekitar, lalu meningkatkan DMG yang diakibatkan \"Murmur\" sebesar ekstra 2% setelah setiap kali pelancaran Ultimate.",
+        "enhanced_desc": ""
+    },
+    "673420": {
+        "id": "673420",
+        "name": "Grey River's Representative",
+        "desc": "Setiap setelah seluruh rekan tim memperoleh 10 lapis \"Critical Boost\" atau mengalahkan target musuh, akan menembakkan 10 Lux Arrow untuk menyerang target musuh acak. Setiap Lux Arrow akan mengakibatkan Wind DMG sebesar 300% DMG Dasar. Setiap Lux Arrow akan membuat \"Murmur\" menghasilkan DMG sebesar 30% dari DMG aslinya, dan \"Murmur\" akan memperoleh Charge yang sama dengan 20% dari total ATK karakter tim.",
+        "enhanced_desc": ""
+    },
+    "673470": {
+        "id": "673470",
+        "name": "Beastkin",
+        "desc": "Saat tidak ada target musuh yang memiliki \"Beast Tongue\", setelah rekan tim melancarkan serangan, akan memberikan \"Beast Tongue\" pada target serangan acak. Setelah target yang memiliki \"Beast Tongue\" terkena 8 kali serangan atau dikalahkan, target tersebut akan menerima Lightning DMG sebesar 4000% DMG Dasar, dan target di sekitarnya akan menerima DMG sebesar 3000% DMG Dasar, serta meningkatkan 60% CRIT DMG seluruh rekan tim, dan SPD meningkat 20%, berlangsung selama 2 giliran. Jika memiliki status \"Butterfly Soul\", maka akan dianggap menyerang sebanyak ekstra 1 kali.",
+        "enhanced_desc": ""
+    },
+    "673560": {
+        "id": "673560",
+        "name": "Conflict Author",
+        "desc": "Saat rekan tim total sudah kehilangan HP sebesar 100% Max HP atau saat rekan tim pulih dari status gugur, akan mengakibatkan \"Aftertaste\" DMG sebesar 350% Max HP pada seluruh musuh. Saat giliran karakter dimulai, akan mengonsumsi 5% Max HP, dan nilai ini akan meningkat 5% setiap kali setelah efek ini terpicu. Saat karakter gugur untuk pertama kalinya, akan memulihkan HP saat ini hingga 100% Max HP, dan setelahnya tidak akan mengonsumsi HP lagi saat giliran dimulai.",
+        "enhanced_desc": ""
+    },
+    "673580": {
+        "id": "673580",
+        "name": "Sky Priest",
+        "desc": "Setelah rekan tim terkena serangan, akan memperoleh 2 \"Lightning Sacrifice\". Setelah karakter melancarkan Serangan Balasan, akan memperoleh 1 \"Lightning Sacrifice\". Saat memiliki 6 \"Lightning Sacrifice\", akan menghapus semua \"Lightning Sacrifice\" dan meningkatkan 180% Ultimate DMG yang diakibatkan selama 2 giliran, serta mengakibatkan DMG sebesar 200% \"Blazar\" DMG pada seluruh target musuh. DMG ini dianggap sebagai Ultimate DMG.",
+        "enhanced_desc": ""
+    },
+    "673640": {
+        "id": "673640",
+        "name": "Wounds of Plenty",
+        "desc": "\"Maddening Voice\" muncul di Susunan Aksi: Setelah rekan tim melancarkan Serangan Lanjutan, aksi \"Maddening Voice\" akan didahulukan sebesar 5%. Saat \"Maddening Voice\" beraksi, aksi rekan tim pertama dalam lineup tim akan didahulukan sebesar 100%, dan setelah menyerang akan mengakibatkan 10 kali \"Aftertaste\" DMG sebesar 30% ATK rekan tim, efektif hingga 4 serangan. DMG Multiplier \"Aftertaste\" yang diakibatkan seluruh rekan tim meningkat sebesar 100% dari Multiplier aslinya, dan pada Susunan Aksi akan muncul hitung mundur dengan SPD sebesar 150. Efek ini berlangsung hingga giliran hitung mundur dimulai.",
+        "enhanced_desc": ""
+    },
+    "673690": {
+        "id": "673690",
+        "name": "Tearless Garden",
+        "desc": "Serangan Lanjutan dapat mengabaikan Tipe Weakness untuk mengurangi ekstra 10.0 Toughness. Saat rekan tim mengakibatkan Weakness Break pada target musuh, akan mengakibatkan 2 kali \"Aftertaste\" DMG sebesar 150% ATK pada seluruh target musuh. Untuk setiap 1 poin dari Max Toughness target musuh, akan membuat DMG ini meningkat 1%.",
+        "enhanced_desc": ""
+    },
+    "673710": {
+        "id": "673710",
+        "name": "Home of Odes",
+        "desc": "Jumlah Charge yang diperlukan untuk \"Butterfly Soul\" meningkat 50%. Setelah memasuki status \"Butterfly Soul\", aksi seluruh rekan tim akan didahulukan 50%, dan True DMG Multiplier yang diakibatkan \"Butterfly Soul\" akan meningkat sebesar 50% dari Multiplier aslinya, dan untuk setiap 1 lapis \"Obsession\" yang dimiliki seluruh rekan tim, akan meningkat ekstra sebesar 1%.",
+        "enhanced_desc": ""
+    },
+    "673790": {
+        "id": "673790",
+        "name": "Cocoon Dressmaker",
+        "desc": "Saat memasuki status \"Butterfly Soul\", seluruh target musuh akan memasuki status \"Cocoon\": Tidak bisa beraksi selama 1 giliran, dan saat giliran dimulai, aksi akan ditunda 50% dan akan menerima Physical DMG sebesar 3500% DMG Dasar. Saat rekan tim berstatus \"Butterfly Soul\", target musuh akan kembali memasuki status \"Cocoon\" setiap 2 giliran, dan setelah terkena Weakness Break untuk pertama kalinya akan memulihkan 1 kali jumlah serangan \"Butterfly Soul\".",
+        "enhanced_desc": ""
+    },
+    "673860": {
+        "id": "673860",
+        "name": "Theater Puppet Maker",
+        "desc": "Setelah seluruh rekan tim melancarkan total 6 kali Ultimate saat tidak berstatus \"Overclock\", akan memperoleh status \"Overclock\": Setelah melancarkan Ultimate untuk menyerang, akan mengakibatkan \"Aftertaste\" DMG sebesar 130% ATK penyerang pada target serangan sebanyak 3 kali. Setelah melancarkan Ultimate, status ini akan berakhir. Ultimate karakter pertama dalam lineup tim akan diaktifkan dan akan mengisi Energy \"Brain in a Vat\" hingga 200%, dan akan keluar dari status ini setelah melancarkan 4 kali Ultimate.",
+        "enhanced_desc": ""
+    },
+    "673870": {
+        "id": "673870",
+        "name": "Caprism",
+        "desc": "Setelah seluruh rekan tim melancarkan total 2 kali Ultimate, akan mengakibatkan 2 Hit Wind DMG sebesar 600% DMG Dasar pada target musuh acak. DMG ini akan mengakibatkan DMG sebesar 30% dari DMG aslinya pada musuh di sekitar target. Setiap kali efek ini terpicu, jumlah Hit DMG dalam pertempuran ini akan bertambah 1, dan akan meningkatkan 12% Basic Attack/Skill/Ultimate DMG yang diakibatkan rekan tim, dapat ditumpuk hingga 15 lapis.",
+        "enhanced_desc": ""
+    },
+    "673920": {
+        "id": "673920",
+        "name": "Lazy Fingerjoint",
+        "desc": "Saat rekan tim mengakibatkan Weakness Break pada musuh, akan membuatnya memasuki 20 lapis \"Harmonize\". Setelah menyerang target musuh berstatus Weakness Break, DoT dan \"Harmonize\" yang diterima target tersebut akan segera menghasilkan DMG sebesar 24% dari DMG aslinya.",
+        "enhanced_desc": ""
+    },
+    "673950": {
+        "id": "673950",
+        "name": "Flame-Chase Alliance",
+        "desc": "Saat target musuh terkena Break DMG, akan menerima ekstra 3 kali DMG sebesar 35% dari batas max \"Harmonize\", dan memberi Charge \"Blazar\" pada seluruh rekan tim sebesar 25% Max HP masing-masing. Efek ini dapat dipicu oleh target musuh maksimal 1 kali di setiap giliran.",
+        "enhanced_desc": ""
+    },
+    "674140": {
+        "id": "674140",
+        "name": "History Investigator",
+        "desc": "Setelah rekan tim terkena serangan, SPD seluruh rekan tim akan meningkat 35%, berlangsung selama 2 giliran, serta memperoleh 2 lapis efek \"Critical Boost\". Saat Memosprite terkena serangan, tidak akan kehilangan \"Critical Boost\".",
+        "enhanced_desc": ""
+    },
+    "674160": {
+        "id": "674160",
+        "name": "Brewer of Bitter Memories",
+        "desc": "Setiap lapis \"Obsession\" akan meningkatkan ekstra 1.5% ATK dari seluruh rekan tim. Setelah karakter melancarkan serangan, serangan berikutnya dari Memosprite miliknya akan dianggap sebagai Serangan Lanjutan.",
+        "enhanced_desc": ""
+    },
+    "674190": {
+        "id": "674190",
+        "name": "Hearth Clan",
+        "desc": "Batas maksimal \"Obsession\" meningkat 4 lapis, dan untuk setiap lapis \"Obsession\" yang dimiliki seluruh anggota tim akan meningkatkan Max HP sebesar ekstra 0.4%. Saat mengakibatkan Weakness Break pada target musuh, seluruh rekan tim akan memperoleh 3 lapis \"Obsession\".",
+        "enhanced_desc": ""
+    },
+    "674240": {
+        "id": "674240",
+        "name": "Executor",
+        "desc": "DoT yang diterima target musuh dapat CRIT Hit. CRIT Rate/CRIT DMG adalah sebesar 20% dari total CRIT Rate/CRIT DMG karakter. CRIT DMG maksimal tidak melebihi 120%.",
+        "enhanced_desc": ""
+    },
+    "674260": {
+        "id": "674260",
+        "name": "One Buried At Sea",
+        "desc": "Batasan penghapusan \"Murmur\" meningkat 120%. Setelah rekan tim melancarkan Serangan Lanjutan, \"Murmur\" milik target serangan akan menghasilkan DMG sebesar 20% dari DMG aslinya.",
+        "enhanced_desc": ""
+    },
+    "674280": {
+        "id": "674280",
+        "name": "Book-Burning Bureaucrat",
+        "desc": "Ultimate DMG yang diakibatkan rekan tim meningkat 160%. Setelah melancarkan Ultimate, akan membuat \"Murmur\" yang dimiliki target serangan memperoleh Charge sebesar 10% dari Ultimate DMG kali ini, tidak lebih dari 300% dari total ATK karakter tim.",
+        "enhanced_desc": ""
+    },
+    "674410": {
+        "id": "674410",
+        "name": "Archer of Recollections",
+        "desc": "Batas maksimal \"Critical Boost\" meningkat 4 lapis. Setiap lapis \"Critical Boost\" akan membuat SPD meningkat 3%. Efek ini meningkat ekstra 2% untuk Memosprite.",
+        "enhanced_desc": ""
+    },
+    "674460": {
+        "id": "674460",
+        "name": "Roaming Troupe",
+        "desc": "Setelah rekan tim mengakibatkan CRIT DMG dengan melancarkan serangan, setelah menyerang akan mengakibatkan 1 kali True DMG sebesar 1% - 50% dari DMG aslinya. Jika serangannya adalah Serangan Lanjutan, maka akan mengakibatkan True DMG sebesar 1% - 70% dari DMG aslinya.",
+        "enhanced_desc": ""
+    },
+    "674470": {
+        "id": "674470",
+        "name": "Fowl-Hunting Golden Claw",
+        "desc": "Untuk setiap 1% efek Pendahuluan Aksi yang diperoleh rekan tim, akan meningkatkan 2% DMG yang diakibatkan pada giliran berikutnya, berlaku untuk maksimal 100%. Efek ini meningkat ekstra 30% pada target yang berstatus \"Butterfly Soul\".",
+        "enhanced_desc": ""
+    },
+    "674520": {
+        "id": "674520",
+        "name": "Ominous Flamespirit",
+        "desc": "Saat rekan tim mengakibatkan \"Blazar\" DMG, jika target musuh berstatus DoT, maka DMG Multiplier \"Blazar\" kali ini akan meningkat sebesar 60% dari Multiplier aslinya. Untuk setiap 1 jenis status DoT yang dimiliki, akan meningkat ekstra 15%.",
+        "enhanced_desc": ""
+    },
+    "674570": {
+        "id": "674570",
+        "name": "Coronal Phoenix",
+        "desc": "Charging Efficiency \"Blazar \" meningkat 50%. Setelah melancarkan Basic Attack/Skill untuk menyerang saat berstatus \"Butterfly Soul\", akan mengakibatkan 100% \"Blazar \" DMG pada target serangan.",
+        "enhanced_desc": ""
+    },
+    "674590": {
+        "id": "674590",
+        "name": "Kremnos Vanguards",
+        "desc": "Setelah rekan tim mengakibatkan Weakness Break pada target musuh, akan mengisi Charge \"Blazar\" sebesar 25% Max HP. Jika semua target musuh berada dalam status Weakness Break, \"Blazar\" tidak akan dihapus saat giliran rekan tim dimulai.",
+        "enhanced_desc": ""
+    },
+    "674620": {
+        "id": "674620",
+        "name": "Conspiracy Theorist",
+        "desc": "Setelah rekan tim melancarkan Serangan Lanjutan, terdapat 150% peluang dasar untuk membuat target serangan memasuki 1 efek Debuff acak selama 2 giliran. Efek Debuff acak termasuk: DMG yang diakibatkan -15.0%, DEF -30.0%, SPD -20.0%.",
+        "enhanced_desc": ""
+    },
+    "674650": {
+        "id": "674650",
+        "name": "Smiling Executioner",
+        "desc": "Setelah rekan tim melancarkan serangan, jika persentase HP-nya saat ini lebih dari 60%, maka akan mengonsumsi 5% Max HP dan mengakibatkan 1 kali \"Aftertaste\" DMG sebesar 120% dari Max HP-nya.",
+        "enhanced_desc": ""
+    },
+    "674680": {
+        "id": "674680",
+        "name": "Drunk Supervisor",
+        "desc": "CRIT DMG yang diakibatkan Serangan Lanjutan rekan tim meningkat 150%. Saat melancarkan Ultimate menggunakan \"Brain in a Vat\" untuk mengakibatkan DMG pada target musuh, akan dianggap sebagai melancarkan Serangan Lanjutan.",
+        "enhanced_desc": ""
+    },
+    "674710": {
+        "id": "674710",
+        "name": "Memory Seed Cultivator",
+        "desc": "True DMG Multiplier \"Butterfly Soul\" meningkat sebesar 60% dari Multiplier aslinya, jumlah serangan bertambah 4 kali. Setelah Memosprite melancarkan serangan, akan mengakibatkan True DMG \"Butterfly Soul\" dan mengonsumsi jumlah serangannya.",
+        "enhanced_desc": ""
+    },
+    "674780": {
+        "id": "674780",
+        "name": "Book-Weaving Divine Machine",
+        "desc": "Setelah rekan tim memasuki status \"Butterfly Soul\", Ultimate yang dilancarkan juga dapat mengakibatkan True DMG \"Butterfly Soul\", dan membuat jumlah serangan \"Butterfly Soul\" bertambah 2 kali. Setiap rekan tim dapat memicu efek ini maksimal 1 kali.",
+        "enhanced_desc": ""
+    },
+    "674790": {
+        "id": "674790",
+        "name": "Orphan Carehouse",
+        "desc": "Saat rekan tim mengakibatkan Weakness Break pada target musuh, akan memulihkan 1 Poin Skill. Setelah menggunakan Basic Attack atau Skill untuk melancarkan serangan, akan mengakibatkan ekstra Pengurangan Toughness sebesar 5 dan menambahkan 2 lapis \"Harmonize\".",
+        "enhanced_desc": ""
+    },
+    "674810": {
+        "id": "674810",
+        "name": "Erythrokeramism",
+        "desc": "Setelah Memosprite melancarkan serangan, akan mengisi Energy \"Brain in a Vat\" pemilik Memosprite-nya sebesar 8%. Saat pemilik Memosprite menggunakan \"Brain in a Vat\" untuk melancarkan Ultimate, DMG Memosprite miliknya akan meningkat 240%, berlangsung selama 4 giliran.",
+        "enhanced_desc": ""
+    },
+    "674840": {
+        "id": "674840",
+        "name": "Warring Scholar",
+        "desc": "Saat rekan tim mengakibatkan Weakness Break pada target musuh, akan mengisi Charge \"Brain in a Vat\" sebesar 20%, serta memulihkan Energy sebesar 10% Max Energy. Setelah mengalahkan target musuh, akan memulihkan Energy sebesar 60% Max Energy.",
+        "enhanced_desc": ""
+    },
+    "674850": {
+        "id": "674850",
+        "name": "Forbidden Knowledge's Martyr",
+        "desc": "Saat rekan tim melancarkan Ultimate, akan membuat seluruh rekan tim mengonsumsi HP sebesar 5% dari HP saat ini, dan meningkatkan DMG yang diakibatkan sebesar 30%, dapat ditumpuk hingga 4 lapis dan berlangsung selama 2 giliran.",
+        "enhanced_desc": ""
+    },
+    "674920": {
+        "id": "674920",
+        "name": "Wilting Patient",
+        "desc": "Saat target musuh menerima \"Harmonize\" DMG, akan menerima ekstra 1 kali \"Harmonize\" DMG sebesar 75% dari DMG aslinya. Untuk setiap 1 status Debuff yang dimilikinya, DMG ini akan meningkat ekstra 2%, maksimal meningkat 40%.",
+        "enhanced_desc": ""
+    },
+    "674950": {
+        "id": "674950",
+        "name": "Sym-Thanatos",
+        "desc": "Break Effect rekan tim meningkat 100%. Saat mengakibatkan Weakness Break pada target musuh dengan melancarkan serangan, akan memperoleh Shield yang dapat menahan DMG sebesar 30% Max HP diri sendiri, berlangsung selama 5 giliran, dan setelah menyerang akan mengakibatkan DMG Tambahan sebesar 300% dari \"Blazar\".",
+        "enhanced_desc": ""
+    },
+    "674970": {
+        "id": "674970",
+        "name": "Society of Charity",
+        "desc": "Setelah rekan tim menyerang target musuh yang berstatus Weakness Break, pengurangan nilai Toughness dari serangan kali ini akan diubah menjadi 1 kali 100% Super Break DMG. Saat berstatus \"Butterfly Soul\", efek ini akan mengakibatkan ekstra 100% Super Break DMG.",
+        "enhanced_desc": ""
+    },
+    "675140": {
+        "id": "675140",
+        "name": "Judge of the Nightveil",
+        "desc": "Saat Memosprite menghilang, SPD seluruh rekan tim akan meningkat 25%, CRIT DMG meningkat 100%, berlangsung selama 5 giliran.",
+        "enhanced_desc": ""
+    },
+    "675170": {
+        "id": "675170",
+        "name": "Life-Giving Sculptor",
+        "desc": "DMG yang diakibatkan Memosprite meningkat 80%. Setelah Memosprite melancarkan serangan, DMG yang diakibatkan oleh pelancaran Basic Attack/Skill yang berikutnya dari pemilik Memosprite akan meningkat 80%.",
+        "enhanced_desc": ""
+    },
+    "675180": {
+        "id": "675180",
+        "name": "Bard",
+        "desc": "Saat jumlah lapisan \"Obsession\" rekan tim lebih dari 70 lapis, Ultimate DMG akan meningkat 75%, dan DMG Memosprite meningkat 75%.",
+        "enhanced_desc": ""
+    },
+    "675190": {
+        "id": "675190",
+        "name": "Priest of Time",
+        "desc": "Saat rekan tim memiliki \"Obsession\", RES PEN Seluruh Tipe meningkat 15%. Setiap lapis \"Obsession\" akan membuat Break Effect seluruh rekan tim meningkat 0.5%.",
+        "enhanced_desc": ""
+    },
+    "675210": {
+        "id": "675210",
+        "name": "Passenger of River of Souls",
+        "desc": "DoT yang diakibatkan rekan tim meningkat 50%. Saat target musuh memasuki pertempuran, akan memasuki status \"Observed\". Saat giliran target musuh dimulai, akan menerima Fire DoT sebesar 75% DMG Dasar. Setiap 1 lapis \"Obsession\" yang dimiliki seluruh rekan tim akan meningkatkan 1% DMG tersebut.",
+        "enhanced_desc": ""
+    },
+    "675250": {
+        "id": "675250",
+        "name": "Grim Pilgrim",
+        "desc": "Target musuh akan memasuki status Bleed saat memasuki pertempuran. Saat berstatus Bleed, target musuh akan menerima Physical DoT sebesar 10% Max HP dirinya setiap saat gilirannya dimulai. DMG ini tidak dapat melebihi 200% dari total HP seluruh rekan tim.",
+        "enhanced_desc": ""
+    },
+    "675270": {
+        "id": "675270",
+        "name": "Bone Planter",
+        "desc": "Batasan penghapusan \"Murmur\" meningkat 80%. Setelah mengonsumsi Poin Skill, akan memberikan Charge \"Murmur\" sebesar 4% dari batasan penghapusan pada seluruh musuh.",
+        "enhanced_desc": ""
+    },
+    "675280": {
+        "id": "675280",
+        "name": "Society of Disappointment",
+        "desc": "Saat target musuh dikalahkan, untuk setiap 1 jenis dari status Burn, Shock, Bleed, Wind Shear yang dimilikinya, akan memulihkan 5.0 Energy seluruh rekan tim.",
+        "enhanced_desc": ""
+    },
+    "675420": {
+        "id": "675420",
+        "name": "Law's Arbitrators",
+        "desc": "Untuk setiap 1% Charge batasan penghapusan yang dimiliki Charge \"Murmur\", CRIT DMG yang diterima target musuh akan meningkat 1.0%, maksimal meningkat hingga 150%.",
+        "enhanced_desc": ""
+    },
+    "675450": {
+        "id": "675450",
+        "name": "Kremnos Traveler",
+        "desc": "Kekuatan Shield yang diperoleh rekan tim meningkat 30%. Setelah rekan tim terkena serangan, jika tidak menerima DMG dari serangan kali ini, maka rekan tim tersebut hanya akan kehilangan 1 lapis \"Critical Boost\".",
+        "enhanced_desc": ""
+    },
+    "675480": {
+        "id": "675480",
+        "name": "Hunter of Monstrous Beasts",
+        "desc": "Setiap lapis \"Critical Boost\" akan meningkatkan ekstra 8% CRIT DMG. Saat rekan tim melancarkan Ultimate, akan mewarisi dan memperoleh 2 lapis \"Critical Boost\".",
+        "enhanced_desc": ""
+    },
+    "675490": {
+        "id": "675490",
+        "name": "Cleaner",
+        "desc": "Saat rekan tim mengakibatkan DMG pada target musuh yang berstatus Weakness Break, setiap lapis \"Critical Boost\" akan meningkatkan ekstra 4% CRIT Rate, dan 30% CRIT DMG.",
+        "enhanced_desc": ""
+    },
+    "675520": {
+        "id": "675520",
+        "name": "Fang of Dying Sun",
+        "desc": "Effect RES rekan tim meningkat 20%, dan \"Blazar\" DMG yang diakibatkan meningkat 40%. Saat menahan efek Debuff yang diterima, akan mengakibatkan DMG Tambahan sebesar 60% \"Blazar\", dan DMG ini tidak dapat mengalahkan target musuh.",
+        "enhanced_desc": ""
+    },
+    "675540": {
+        "id": "675540",
+        "name": "Foolish Child of Golden Blood",
+        "desc": "Saat target musuh dikalahkan, akan membuat Charging Efficiency \"Blazar\" meningkat 18%, dapat ditumpuk hingga 3 lapis. Selain itu juga akan membuat seluruh rekan tim memulihkan HP sebesar 30% Max HP masing-masing.",
+        "enhanced_desc": ""
+    },
+    "675560": {
+        "id": "675560",
+        "name": "Red Moon's Messenger",
+        "desc": "Nilai Dasar \"Blazar\" meningkat 50%. Setelah rekan tim melancarkan Serangan Lanjutan, akan memulihkan HP rekan tim yang persentase HP-nya saat ini paling rendah, sebesar 10% Max HP dirinya.",
+        "enhanced_desc": ""
+    },
+    "675590": {
+        "id": "675590",
+        "name": "Skyblade's Legion",
+        "desc": "Kekuatan Shield yang diperoleh meningkat 30%. Setelah mengakibatkan Weakness Break pada target musuh, seluruh rekan tim akan memperoleh Shield sebesar 15% Max HP, berlangsung selama 2 giliran.",
+        "enhanced_desc": ""
+    },
+    "675650": {
+        "id": "675650",
+        "name": "Water Lyrist",
+        "desc": "Setelah rekan tim melancarkan Serangan Lanjutan, akan mengakibatkan \"Blazar\" DMG sebesar 70% pada target serangan.",
+        "enhanced_desc": ""
+    },
+    "675670": {
+        "id": "675670",
+        "name": "Wave-Chasing Siren",
+        "desc": "DMG Serangan Lanjutan yang diakibatkan rekan tim meningkat 75%. Setelah melancarkan Serangan Lanjutan, memiliki peluang tetap sebesar 30% untuk memulihkan 1 Poin Skill.",
+        "enhanced_desc": ""
+    },
+    "675680": {
+        "id": "675680",
+        "name": "Sophist of Gods",
+        "desc": "Setelah rekan tim melancarkan Ultimate, serangan yang berikutnya akan mengakibatkan 1 kali \"Aftertaste\" DMG pada target serangan sebesar 240% ATK.",
+        "enhanced_desc": ""
+    },
+    "675690": {
+        "id": "675690",
+        "name": "Boat of Intoxication",
+        "desc": "\"Aftertaste\" DMG yang diakibatkan rekan tim dapat mengabaikan Tipe Weakness dan mengurangi 1.0 Toughness target musuh. Dalam satu kali serangan, efek ini dapat dipicu maksimal 10 kali pada setiap target musuh.",
+        "enhanced_desc": ""
+    },
+    "675710": {
+        "id": "675710",
+        "name": "Creation Nymph",
+        "desc": "Setelah Memosprite melancarkan serangan, akan memberi \"Soul Chrysalis\" Charge sebesar 15%, dan memiliki 40% peluang untuk memulihkan 1 Poin Skill.",
+        "enhanced_desc": ""
+    },
+    "675720": {
+        "id": "675720",
+        "name": "Boulder Court",
+        "desc": "True DMG \"Butterfly Soul\" meningkat sebesar 35% dari Multiplier aslinya. Untuk setiap 1 efek Debuff yang dimiliki target musuh, akan meningkat ekstra sebesar 1% dari Multiplier aslinya.",
+        "enhanced_desc": ""
+    },
+    "675750": {
+        "id": "675750",
+        "name": "Golden Mysteries",
+        "desc": "Meningkatkan 80% Basic Attack/Skill DMG yang diakibatkan rekan tim. Saat melancarkan Basic Attack, jika persentase HP lebih dari atau sama dengan 50%, maka akan mengonsumsi HP sebesar 10% Max HP dan memulihkan 1 Poin Skill.",
+        "enhanced_desc": ""
+    },
+    "675760": {
+        "id": "675760",
+        "name": "Thief Musician",
+        "desc": "Untuk setiap 1 Poin Skill yang dikonsumsi rekan tim, akan membuat setelah serangan yang berikutnya mengakibatkan \"Aftertaste\" DMG sebesar 70% ATK pada target serangan, dapat ditumpuk hingga 3 lapis.",
+        "enhanced_desc": ""
+    },
+    "675810": {
+        "id": "675810",
+        "name": "Sand Scribe",
+        "desc": "Saat karakter melancarkan Ultimate, akan membuat karakter tersebut dan Memosprite miliknya memperoleh 2 lapis \"Obsession\", meningkatkan 15% SPD dan meningkatkan 70% ATK, berlangsung selama 3 giliran.",
+        "enhanced_desc": ""
+    },
+    "675840": {
+        "id": "675840",
+        "name": "Child of Spiral",
+        "desc": "Saat \"Brain in a Vat\" rekan tim mencapai 100%, ATK akan meningkat 80%. Setelah melancarkan serangan, akan mengakibatkan DMG Tambahan sebesar 80% ATK pada target musuh yang HP-nya tertinggi di antara target yang terserang, berlangsung selama 3 giliran.",
+        "enhanced_desc": ""
+    },
+    "675860": {
+        "id": "675860",
+        "name": "Lotophagism",
+        "desc": "Saat rekan tim melancarkan Ultimate, untuk setiap 50 Energy yang dikonsumsi, ATK akan meningkat 5%, dan membuat DMG Multiplier \"Aftertaste\" yang diakibatkan meningkat sebesar 2% dari Multiplier aslinya. Dapat ditumpuk hingga 20 lapis, berlangsung selama 3 giliran. Setiap kali saat melancarkan Ultimate, akan dianggap setidaknya mengonsumsi 80 Energy.",
+        "enhanced_desc": ""
+    },
+    "675870": {
+        "id": "675870",
+        "name": "White Dryad",
+        "desc": "Setiap kali rekan tim mengonsumsi 1 Poin Skill, Ultimate DMG yang diakibatkan akan meningkat 65%, maksimal meningkat hingga 130%, berlangsung hingga setelah pelancaran Ultimate.",
+        "enhanced_desc": ""
+    },
+    "675910": {
+        "id": "675910",
+        "name": "Court of Echoes",
+        "desc": "Setiap lapis \"Obsession\" akan membuat Break Effect meningkat 0.8%, dan Break Effect Memosprite meningkat ekstra 0.5%.",
+        "enhanced_desc": ""
+    },
+    "675920": {
+        "id": "675920",
+        "name": "Disoriented Hermit",
+        "desc": "Saat rekan tim melancarkan serangan untuk membuat target musuh memasuki status Debuff, akan menambahkan 1 lapis \"Harmonize\" pada target musuh. Jika target berstatus Weakness Break, maka penambahan jumlah lapisan yang diperolehnya akan menjadi dua kali lipat.",
+        "enhanced_desc": ""
+    },
+    "675940": {
+        "id": "675940",
+        "name": "Flame-Chase Envoy",
+        "desc": "Meningkatkan 20% Weakness Break Efficiency rekan tim. Setelah mengakibatkan Weakness Break pada target musuh, SPD akan meningkat 10%, ATK meningkat 30%, berlangsung selama 2 giliran.",
+        "enhanced_desc": ""
+    },
+    "675960": {
+        "id": "675960",
+        "name": "Dawn Troupe",
+        "desc": "DMG Multiplier \"Harmonize\" meningkat 50% dari Multiplier aslinya. Setelah rekan tim melancarkan Serangan Lanjutan, akan menambahkan 1 lapis \"Harmonize\" pada target.",
         "enhanced_desc": ""
     }
 }

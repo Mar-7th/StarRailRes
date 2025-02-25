@@ -411,7 +411,7 @@
     "20021": {
         "id": "20021",
         "skill": "Embelezar",
-        "desc": "Quando o usuário invocar o Memoespírito pela primeira vez em batalha, recupera #1[i] Ponto(s) de Perícia e regenera #2[i] de Energia desta unidade.",
+        "desc": "Quando o usuário invocar o Memoespírito pela primeira vez em batalha, recupera #1[i] Ponto(s) de Perícia e regenera #2[i] de Energia para esta unidade.",
         "params": [
             [1, 12],
             [1, 14],
@@ -430,7 +430,7 @@
     "20022": {
         "id": "20022",
         "skill": "Adormecendo",
-        "desc": "No início da rodada do Memoespírito, o usuário e o Memoespírito ganham 1 acúmulo de \"Comemoração\" cada. Cada acúmulo aumenta o Dano causado em #1[i]%, com um máximo de #2[i] acúmulo(s). \"Comemoração\" é removida do usuário e do Memoespírito quando o Memoespírito desaparece.",
+        "desc": "No início da rodada do Memoespírito, o usuário e o Memoespírito ganham 1 acúmulo de \"Comemoração\" cada. Cada acúmulo aumenta o Dano causado em #1[i]%, até um máximo de #2[i] vez(es). \"Comemoração\" é removida do usuário e do Memoespírito quando o Memoespírito desaparece.",
         "params": [
             [0.08, 4],
             [0.09, 4],
@@ -2926,7 +2926,7 @@
     "23037": {
         "id": "23037",
         "skill": "Jogo Mental",
-        "desc": "Aumenta a Chance de CRIT do usuário em #1[i]%. Quando o usuário usa sua Perícia Suprema, aumenta o Dano causado pela Perícia e pela Perícia Suprema do usuário em #4[i]%, durando por #5[i] rodada(s). Após o usuário usar sua Perícia Suprema, se essa Perícia Suprema consumiu #3[i] ou mais de Energia, recupera 1 Ponto de Perícia.",
+        "desc": "Aumenta a Chance de CRIT do usuário em #1[i]%. Quando o usuário usa sua Perícia Suprema, aumenta o Dano causado pela Perícia e pela Perícia Suprema do usuário em #4[i]%, durando por #5[i] rodada(s). Após o usuário usar sua Perícia Suprema, se essa Perícia Suprema consumir #3[i] ou mais de Energia, recupera 1 Ponto de Perícia.",
         "params": [
             [0.12, 2, 140, 0.6, 3],
             [0.14, 2, 140, 0.7, 3],
@@ -2952,6 +2952,69 @@
             ]
         ]
     },
+    "23038": {
+        "id": "23038",
+        "skill": "Aspiração",
+        "desc": "Aumenta o Dano CRIT do usuário em #1[i]%. Após o usuário realizar um Ataque Extra, regenera adicionalmente #2[i] de Energia e recebe \"Presságio\", que dura por #3[i] rodada(s). Enquanto o usuário estiver sob o efeito de \"Presságio\", o Dano CRIT de todos os aliados-alvo aumenta em #4[i]%. Ao entrar em combate, o usuário regenera #5[i] de Energia e recebe \"Presságio\", que dura por #6[i] rodada(s).",
+        "params": [
+            [0.36, 12, 2, 0.48, 21, 2],
+            [0.42, 12, 2, 0.6, 21, 2],
+            [0.48, 12, 2, 0.72, 21, 2],
+            [0.54, 12, 2, 0.84, 21, 2],
+            [0.6, 12, 2, 0.96, 21, 2]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalDamageBase", "value": 0.36 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.42 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.48 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.54 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.6 }
+            ]
+        ]
+    },
+    "23039": {
+        "id": "23039",
+        "skill": "Vista",
+        "desc": "Aumenta os PV máximos do usuário em #1[i]% e a Cura Recebida em #6[i]%. Ao usar a Perícia ou a Perícia Suprema, consome PV em um valor igual a #2[f1]% dos PV máximos do usuário e aumenta o Dano causado por este ataque em #3[i]%. Se os PV consumidos deste efeito forem maiores que #4[i], o Dano aumenta adicionalmente em #5[i]%.\nSe os PV atuais não forem suficientes, este efeito reduz os PV atuais do usuário para 1.",
+        "params": [
+            [0.18, 0.06, 0.3, 500, 0.3, 0.2],
+            [0.21, 0.065, 0.35, 500, 0.35, 0.25],
+            [0.24, 0.07, 0.4, 500, 0.4, 0.3],
+            [0.27, 0.075, 0.45, 500, 0.45, 0.35],
+            [0.3, 0.08, 0.5, 500, 0.5, 0.4]
+        ],
+        "properties": [
+            [
+                { "type": "HPAddedRatio", "value": 0.18 },
+                { "type": "HealTakenRatio", "value": 0.2 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.21 },
+                { "type": "HealTakenRatio", "value": 0.25 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.24 },
+                { "type": "HealTakenRatio", "value": 0.3 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.27 },
+                { "type": "HealTakenRatio", "value": 0.35 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.3 },
+                { "type": "HealTakenRatio", "value": 0.4 }
+            ]
+        ]
+    },
     "24000": {
         "id": "24000",
         "skill": "Mariposa às Chamas",
@@ -2974,7 +3037,7 @@
     "24001": {
         "id": "24001",
         "skill": "Perseguição",
-        "desc": "Aumenta em #1[i]% a Chance de CRIT do usuário e aumenta a Chance de CRIT contra inimigos com a porcentagem dos PV igual ou inferior a #2[i]% em #3[i]% extra. Quando o usuário derrota um inimigo, o seu ATQ é aumentado em #4[i]% por #5[i] rodada(s).",
+        "desc": "Aumenta em #1[i]% a Chance de CRIT do usuário e aumenta em #3[i]% adicionalmente a Chance de CRIT contra inimigos com a porcentagem de PV igual ou inferior a #2[i]%. Quando o usuário derrota um inimigo, seu ATQ é aumentado em #4[i]% por #5[i] rodada(s).",
         "params": [
             [0.08, 0.5, 0.08, 0.2, 2],
             [0.1, 0.5, 0.1, 0.25, 2],
@@ -3084,6 +3147,35 @@
             ],
             [
                 { "type": "AttackAddedRatio", "value": 0.12 }
+            ]
+        ]
+    },
+    "24005": {
+        "id": "24005",
+        "skill": "Recepção",
+        "desc": "Aumenta a VEL do usuário em #1[f1]%. Depois que o usuário usa a Perícia, aumenta o Dano causado por todos os aliados em #2[i]%, durando por #3[i] rodada(s).",
+        "params": [
+            [0.06, 0.08, 3],
+            [0.075, 0.1, 3],
+            [0.09, 0.12, 3],
+            [0.105, 0.14, 3],
+            [0.12, 0.16, 3]
+        ],
+        "properties": [
+            [
+                { "type": "SpeedAddedRatio", "value": 0.06 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.075 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.09 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.105 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.12 }
             ]
         ]
     }

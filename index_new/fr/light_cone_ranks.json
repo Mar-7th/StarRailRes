@@ -411,7 +411,7 @@
     "20021": {
         "id": "20021",
         "skill": "Embellissement",
-        "desc": "Lorsque le porteur invoque un mnémesprit pour la première fois en combat, récupère #1[i] point de compétence et régénère #2[i] points d'énergie pour cette unité.",
+        "desc": "Lorsque le porteur invoque un mnémesprit pour la première fois, il récupère #1[i] point de compétence et régénère #2[i] points d'énergie.",
         "params": [
             [1, 12],
             [1, 14],
@@ -603,7 +603,7 @@
     "21006": {
         "id": "21006",
         "skill": "La fille dans le tableau",
-        "desc": "Augmente les DGT infligés par l'attaque de suivi du porteur de #1[i]%. Si les PV de la cible ennemie sont inférieurs ou égaux à #2[i]%, les DGT infligés par l'attaque de suivi augmentent de #3[i]% supplémentaires.",
+        "desc": "Augmente les DGT infligés par l'ATQ de suivi du porteur de #1[i]%. Si les PV de la cible ennemie sont inférieurs ou égaux à #2[i]%, les DGT infligés par l'ATQ de suivi augmentent de #3[i]% supplémentaires.",
         "params": [
             [0.24, 0.5, 0.24],
             [0.3, 0.5, 0.3],
@@ -2153,7 +2153,7 @@
     "23010": {
         "id": "23010",
         "skill": "Longue nuit",
-        "desc": "Augmente les DGT critiques du porteur de #1[i]%. Augmente les DGT infligés par la compétence et l'ultime du porteur de #2[i]%. Après utilisation de sa compétence ou de son ultime, le porteur bénéficie de Somnus Corpus. Lors du déclenchement d'une attaque de suivi, Somnus Corpus se dissipe et les DGT infligés par l'attaque de suivi augmentent de #3[i]%.",
+        "desc": "Augmente les DGT critiques du porteur de #1[i]%. Augmente les DGT infligés par la compétence et l'ultime du porteur de #2[i]%. Après utilisation de sa compétence ou de son ultime, le porteur bénéficie de Somnus Corpus. Lors du déclenchement d'une ATQ de suivi, Somnus Corpus se dissipe et les DGT infligés par l'ATQ de suivi augmentent de #3[i]%.",
         "params": [
             [0.36, 0.18, 0.48],
             [0.42, 0.21, 0.56],
@@ -2337,7 +2337,7 @@
     "23016": {
         "id": "23016",
         "skill": "Un à la fois",
-        "desc": "Augmente les chances de coup critique du porteur de #1[i]% et les DGT infligés par ses attaques de suivi de #2[i]%. Lorsque le porteur déclenche une attaque de suivi, applique l'état Apprivoisement à la cible, cumulable jusqu'à #4[i] fois. Lorsque des alliés touchent des cibles ennemies affectées par Apprivoisement, chaque cumul d'Apprivoisement augmente les DGT critiques infligés de #3[i]%.",
+        "desc": "Augmente les chances de coup critique du porteur de #1[i]% et les DGT infligés par ses ATQ de suivi de #2[i]%. Lorsque le porteur déclenche une ATQ de suivi, applique l'état Apprivoisement à la cible, cumulable jusqu'à #4[i] fois. Lorsque des alliés touchent des cibles ennemies affectées par Apprivoisement, chaque cumul d'Apprivoisement augmente les DGT critiques infligés de #3[i]%.",
         "params": [
             [0.18, 0.3, 0.12, 2],
             [0.21, 0.35, 0.14, 2],
@@ -2453,7 +2453,7 @@
     "23020": {
         "id": "23020",
         "skill": "Entraînement mental",
-        "desc": "Augmente les DGT critiques du porteur de #1[i]%. Pour chaque malus subi par une cible ennemie, les DGT critiques du porteur augmentent de #2[i]% supplémentaires sur cette cible, jusqu'à un maximum de #3[i] cumuls. Lorsque le porteur attaque une cible avec son ultime, il bénéficie de l'effet Débat, ce qui augmente de #4[i]% les DGT qu'il inflige et permet à ses attaques de suivi d'ignorer #5[i]% de la DÉF de la cible. Cet effet dure #6[i] tours.",
+        "desc": "Augmente les DGT critiques du porteur de #1[i]%. Pour chaque malus subi par une cible ennemie, les DGT critiques du porteur augmentent de #2[i]% supplémentaires sur cette cible, jusqu'à un maximum de #3[i] cumuls. Lorsque le porteur attaque une cible avec son ultime, il bénéficie de l'effet Débat, ce qui augmente de #4[i]% les DGT qu'il inflige et permet à ses ATQ de suivi d'ignorer #5[i]% de la DÉF de la cible. Cet effet dure #6[i] tours.",
         "params": [
             [0.2, 0.08, 3, 0.36, 0.24, 2],
             [0.23, 0.09, 3, 0.42, 0.28, 2],
@@ -2540,7 +2540,7 @@
     "23023": {
         "id": "23023",
         "skill": "Le tout pour le tout",
-        "desc": "Augmente la DÉF du porteur de #1[i]%. Les DGT critiques du porteur augmentent de #2[i]% pendant #3[i] tours à chaque fois qu'il accorde un bouclier à un allié. Lorsque le porteur utilise une attaque de suivi pour attaquer un ennemi, il y a #4[i]% de chances de base d'augmenter les DGT subis par l'ennemi attaqué de #5[f1]% pendant #6[i] tours.",
+        "desc": "Augmente la DÉF du porteur de #1[i]%. Les DGT critiques du porteur augmentent de #2[i]% pendant #3[i] tours à chaque fois qu'il accorde un bouclier à un allié. Lorsque le porteur utilise une ATQ de suivi pour attaquer un ennemi, il y a #4[i]% de chances de base d'augmenter les DGT subis par l'ennemi attaqué de #5[f1]% pendant #6[i] tours.",
         "params": [
             [0.4, 0.4, 2, 1, 0.1, 2],
             [0.46, 0.46, 2, 1.15, 0.115, 2],
@@ -2675,7 +2675,7 @@
     "23028": {
         "id": "23028",
         "skill": "Promesse",
-        "desc": "Augmente les chances de coup critique du porteur de #1[i]%. Lorsque les DGT critiques du porteur sont supérieurs à #2[i]% en combat, pour chaque tranche de #3[i]% de DGT critiques supérieurs, les DGT infligés par ses attaques de suivi augmentent de #4[i]%. Cet effet peut être cumulé jusqu'à #5[i] fois. En début de combat ou après que le porteur a utilisé son ATQ normale, les DGT infligés par l'ultime et l'attaque de suivi ignorent #6[i]% de la DÉF de la cible, pour une durée de #7[i] tours.",
+        "desc": "Augmente les chances de coup critique du porteur de #1[i]%. Lorsque les DGT critiques du porteur sont supérieurs à #2[i]% en combat, pour chaque tranche de #3[i]% de DGT critiques supérieurs, les DGT infligés par ses ATQ de suivi augmentent de #4[i]%. Cet effet peut être cumulé jusqu'à #5[i] fois. En début de combat ou après que le porteur a utilisé son ATQ normale, les DGT infligés par l'ultime et l'ATQ de suivi ignorent #6[i]% de la DÉF de la cible, pour une durée de #7[i] tours.",
         "params": [
             [0.16, 1.2, 0.2, 0.12, 4, 0.2, 2],
             [0.19, 1.2, 0.2, 0.14, 4, 0.24, 2],
@@ -2733,7 +2733,7 @@
     "23030": {
         "id": "23030",
         "skill": "Fascination",
-        "desc": "Augmente considérablement les chances du porteur d'être attaqué ainsi que ses DGT critiques de #1[i]%. Le porteur obtient 1 cumul de Danse du feu après avoir utilisé son ultime. Danse du feu dure 2 tours et peut se cumuler jusqu'à #2[i] fois. Chaque cumul de Danse du feu augmente les DGT infligés par l'attaque de suivi du porteur de #3[i]%.",
+        "desc": "Augmente considérablement les chances du porteur d'être attaqué ainsi que ses DGT critiques de #1[i]%. Le porteur obtient 1 cumul de Danse du feu après avoir utilisé son ultime. Danse du feu dure 2 tours et peut se cumuler jusqu'à #2[i] fois. Chaque cumul de Danse du feu augmente les DGT infligés par l'ATQ de suivi du porteur de #3[i]%.",
         "params": [
             [0.36, 2, 0.36, 5],
             [0.42, 2, 0.42, 5],
@@ -2762,7 +2762,7 @@
     "23031": {
         "id": "23031",
         "skill": "Intimidation",
-        "desc": "Augmente les chances de coup critique du porteur de #1[f1]%. Lorsque le porteur lance une attaque de suivi, il gagne 1 cumul de Lumière vive jusqu'à un maximum de #3[i] fois. Chaque cumul de Lumière vive permet aux DGT d'ultime infligés par le porteur d'ignorer #2[i]% de la DÉF de la cible. Lorsque le tour du porteur se termine, supprime 1 cumul de Lumière vive.",
+        "desc": "Augmente les chances de coup critique du porteur de #1[f1]%. Lorsque le porteur lance une ATQ de suivi, il gagne 1 cumul de Lumière vive jusqu'à un maximum de #3[i] fois. Chaque cumul de Lumière vive permet aux DGT d'ultime infligés par le porteur d'ignorer #2[i]% de la DÉF de la cible. Lorsque le tour du porteur se termine, supprime 1 cumul de Lumière vive.",
         "params": [
             [0.15, 0.27, 2],
             [0.175, 0.3, 2],
@@ -2849,7 +2849,7 @@
     "23034": {
         "id": "23034",
         "skill": "Nouveau départ",
-        "desc": "Lorsque le porteur utilise sa compétence ou son ultime sur un personnage allié, il régénère #1[f1] points d'énergie et la cible de la capacité reçoit 1 cumul d'Hymne pour #4[i] tours, cumulable jusqu'à #3[i] fois. Chaque cumul d'Hymne augmente les DGT infligés par son bénéficiaire de #2[i]%. Après que le porteur a utilisé #5[i] fois sa compétence ou son ultime sur un personnage allié, il récupère 1 point de compétence.",
+        "desc": "Lorsque le porteur utilise sa compétence ou son ultime sur un personnage allié unique, il régénère #1[f1] points d'énergie et la cible de la capacité reçoit 1 cumul d'Hymne pour #4[i] tours, cumulable jusqu'à #3[i] fois. Chaque cumul d'Hymne augmente les DGT infligés par son bénéficiaire de #2[i]%. Après que le porteur a utilisé #5[i] fois sa compétence ou son ultime sur un personnage allié, il récupère 1 point de compétence.",
         "params": [
             [6, 0.15, 3, 3, 2],
             [6.5, 0.1725, 3, 3, 2],
@@ -2897,7 +2897,7 @@
     "23036": {
         "id": "23036",
         "skill": "Conception",
-        "desc": "Augmente la VIT du porteur de #1[i]. Gagne 1 cumul de Tapisserie après chaque attaque du porteur et de son mnémesprit. Chaque cumul de Tapisserie augmente les DGT critiques du porteur et de son mnémesprit de #4[f1]%, cumulable jusqu'à #2[i] fois. Après avoir atteint la limite de cumuls, chaque cumul de Tapisserie augmente les DGT infligés par l'ATQ normale de #3[f1]% supplémentaires.",
+        "desc": "Augmente la VIT de base du porteur de #1[i]. Le porteur gagne 1 cumul de Tapisserie après chaque attaque du porteur ou de son mnémesprit. Chaque cumul de Tapisserie augmente les DGT critiques du porteur et de son mnémesprit de #4[f1]%, cumulable jusqu'à #2[i] fois. Après avoir atteint la limite de cumuls, chaque cumul de Tapisserie augmente les DGT infligés par l'ATQ normale de #3[f1]% supplémentaires.",
         "params": [
             [12, 6, 0.09, 0.09],
             [14, 6, 0.105, 0.105],
@@ -2949,6 +2949,69 @@
             ],
             [
                 { "type": "CriticalChanceBase", "value": 0.2 }
+            ]
+        ]
+    },
+    "23038": {
+        "id": "23038",
+        "skill": "Aspiration",
+        "desc": "Les DGT critiques du porteur augmentent de #1[i]%. Après que le porteur lance une ATQ de suivi, il régénère #2[i] points d'énergie et obtient Présage pendant #3[i] tours. Lorsque le porteur bénéficie de Présage, les DGT critiques de toutes les cibles alliées augmentent de #4[i]%. Le porteur régénère #5[i] points d'énergie et obtient Présage pendant #6[i] tours lorsque vous engagez le combat.",
+        "params": [
+            [0.36, 12, 2, 0.48, 21, 2],
+            [0.42, 12, 2, 0.6, 21, 2],
+            [0.48, 12, 2, 0.72, 21, 2],
+            [0.54, 12, 2, 0.84, 21, 2],
+            [0.6, 12, 2, 0.96, 21, 2]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalDamageBase", "value": 0.36 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.42 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.48 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.54 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.6 }
+            ]
+        ]
+    },
+    "23039": {
+        "id": "23039",
+        "skill": "Contemplation",
+        "desc": "Augmente les PV max du porteur de #1[i]% et les soins reçus de #6[i]%. Lorsque le porteur utilise sa compétence ou son ultime, il consomme #2[f1]% de ses PV max, et les DGT infligés par cette attaque augmentent de #3[i]%. Si les PV consommés par cet effet sont supérieurs à #4[i], les DGT infligés par cette attaque augmentent de #5[i]% supplémentaires.\nSi les PV du porteur sont insuffisants, ils tombent à 1.",
+        "params": [
+            [0.18, 0.06, 0.3, 500, 0.3, 0.2],
+            [0.21, 0.065, 0.35, 500, 0.35, 0.25],
+            [0.24, 0.07, 0.4, 500, 0.4, 0.3],
+            [0.27, 0.075, 0.45, 500, 0.45, 0.35],
+            [0.3, 0.08, 0.5, 500, 0.5, 0.4]
+        ],
+        "properties": [
+            [
+                { "type": "HPAddedRatio", "value": 0.18 },
+                { "type": "HealTakenRatio", "value": 0.2 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.21 },
+                { "type": "HealTakenRatio", "value": 0.25 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.24 },
+                { "type": "HealTakenRatio", "value": 0.3 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.27 },
+                { "type": "HealTakenRatio", "value": 0.35 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.3 },
+                { "type": "HealTakenRatio", "value": 0.4 }
             ]
         ]
     },
@@ -3084,6 +3147,35 @@
             ],
             [
                 { "type": "AttackAddedRatio", "value": 0.12 }
+            ]
+        ]
+    },
+    "24005": {
+        "id": "24005",
+        "skill": "Réception",
+        "desc": "Augmente la VIT du porteur de #1[f1]%. Augmente les DGT infligés par tous les alliés de #2[i]% pendant #3[i] tours après que le porteur a utilisé sa compétence.",
+        "params": [
+            [0.06, 0.08, 3],
+            [0.075, 0.1, 3],
+            [0.09, 0.12, 3],
+            [0.105, 0.14, 3],
+            [0.12, 0.16, 3]
+        ],
+        "properties": [
+            [
+                { "type": "SpeedAddedRatio", "value": 0.06 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.075 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.09 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.105 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.12 }
             ]
         ]
     }

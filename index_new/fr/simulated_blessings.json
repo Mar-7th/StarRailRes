@@ -705,7 +705,7 @@
         "id": "612442",
         "name": "Arc de l'adepte",
         "desc": "Lorsqu'un allié utilise son ultime, il peut hériter d'Amélioration critique, et le nombre de cumuls d'Amélioration critique augmente de 1.",
-        "enhanced_desc": "Lorsqu'un allié utilise son ultime ou lance une attaque de suivi, il peut hériter d'Amélioration critique, et le nombre de cumuls d'Amélioration critique augmente de 1."
+        "enhanced_desc": "Lorsqu'un allié utilise son ultime ou lance une ATQ de suivi, il peut hériter d'Amélioration critique, et le nombre de cumuls d'Amélioration critique augmente de 1."
     },
     "612443": {
         "id": "612443",
@@ -800,7 +800,7 @@
     "612523": {
         "id": "612523",
         "name": "Formation de résonance : Horizon événementiel",
-        "desc": "Lorsqu'un allié dont le pourcentage de PV actuel est inférieur à 35% se fait attaquer, active automatiquement 1 Résonance de la Voie sans consommer d'énergie. Cet effet peut être déclenché jusqu'à un maximum de #10[i] fois lors d'un combat et ne peut pas être déclenché plusieurs fois par la même attaque.",
+        "desc": "Lorsqu'un allié dont le pourcentage de PV actuel est inférieur à 35% se fait attaquer, active automatiquement 1 Résonance de la Voie sans consommer d'énergie. Cet effet peut être déclenché jusqu'à un maximum de 2 fois lors d'un combat et ne peut pas être déclenché plusieurs fois par la même attaque.",
         "enhanced_desc": ""
     },
     "612524": {
@@ -812,7 +812,7 @@
     "612525": {
         "id": "612525",
         "name": "Combinaison de résonance : Âge zéro de la séquence principale",
-        "desc": "Lorsqu'un personnage lance une attaque de suivi, régénère 5% de l'énergie de la Résonance de la Voie. Si le pourcentage de PV du personnage est inférieur à 50%, régénère en plus 5% de l'énergie de la Résonance de la Voie.",
+        "desc": "Lorsqu'un personnage lance une ATQ de suivi, régénère 5% de l'énergie de la Résonance de la Voie. Si le pourcentage de PV du personnage est inférieur à 50%, régénère en plus 5% de l'énergie de la Résonance de la Voie.",
         "enhanced_desc": ""
     },
     "612526": {
@@ -878,8 +878,8 @@
     "612545": {
         "id": "612545",
         "name": "Lueur disciplinaire",
-        "desc": "Si les PV d'un personnage sont inférieurs à 35% après avoir été attaqué ou avoir perdu des PV, restaure ses PV à hauteur de 12% de ses PV max.",
-        "enhanced_desc": "Si les PV d'un personnage sont inférieurs à 35% après avoir été attaqué ou avoir perdu des PV, il récupère des PV à hauteur de 12% de ses PV max. Plus les PV actuels sont faibles, plus le montant de PV récupérés de cette façon sera important, jusqu'à un maximum de 20%."
+        "desc": "Si le pourcentage de PV actuel d'une cible alliée est inférieur à 35% après avoir été attaquée ou avoir consommé des PV, restaure ses PV à hauteur de 12% de ses PV max. Peut soigner jusqu'à 36% des PV max de cette manière en une seule action.",
+        "enhanced_desc": "Si le pourcentage de PV actuel d'une cible alliée est inférieur à 35% après avoir été attaquée ou avoir consommé des PV, restaure ses PV à hauteur de 20% de ses PV max. Peut soigner jusqu'à 50% des PV max de cette manière en une seule action."
     },
     "612546": {
         "id": "612546",
@@ -938,7 +938,7 @@
     "612620": {
         "id": "612620",
         "name": "Résonance de la Voie de l'Allégresse",
-        "desc": "Dépensez 100 points d'énergie pour utiliser cette capacité et entrer en résonance avec la Voie de l'Allégresse, ce qui inflige des DGT d'attaque de suivi d'un type aléatoire à tous les ennemis 3 à 5 fois.",
+        "desc": "Dépensez 100 points d'énergie pour utiliser cette capacité et entrer en résonance avec la Voie de l'Allégresse, ce qui inflige des DGT d'ATQ de suivi d'un type aléatoire à tous les ennemis 3 à 5 fois.",
         "enhanced_desc": ""
     },
     "612621": {
@@ -956,7 +956,7 @@
     "612623": {
         "id": "612623",
         "name": "Formation de résonance : Victoire immédiate",
-        "desc": "La Résonance de la Voie régénère 40% d'énergie en entrant en combat. Lorsqu'un personnage lance une attaque de suivi, la Résonance de la Voie régénère 5% d'énergie supplémentaires.",
+        "desc": "La Résonance de la Voie régénère 40% d'énergie en entrant en combat. Lorsqu'un personnage lance une ATQ de suivi, la Résonance de la Voie régénère 5% d'énergie supplémentaires.",
         "enhanced_desc": ""
     },
     "612624": {
@@ -986,20 +986,20 @@
     "612630": {
         "id": "612630",
         "name": "Harmonica auto : la nuit la plus blanche",
-        "desc": "Après avoir lancé une attaque de suivi, le personnage inflige des DGT d'Arrière-goût équivalents à 55% de son ATQ 1 à 3 fois.",
-        "enhanced_desc": "Après qu'un personnage a lancé une attaque de suivi, il inflige des DGT d'Arrière-goût équivalents à 60% de son ATQ 1 à 3 fois. D'autre part, augmente les DGT d'Arrière-goût de 35%."
+        "desc": "Après avoir lancé une ATQ de suivi, le personnage inflige des DGT d'Arrière-goût équivalents à 55% de son ATQ 1 à 3 fois.",
+        "enhanced_desc": "Après qu'un personnage a lancé une ATQ de suivi, il inflige des DGT d'Arrière-goût équivalents à 60% de son ATQ 1 à 3 fois. D'autre part, augmente les DGT d'Arrière-goût de 35%."
     },
     "612631": {
         "id": "612631",
         "name": "Abattoir n° 4 : Repose en paix",
-        "desc": "Lorsque les personnages lancent des attaques de suivi sur un ennemi, ils infligent des DGT d'Arrière-goût équivalents à 80% de leur ATQ à l'ennemi touché. Si l'ennemi est également sous le coup d'une Rupture de faiblesse, inflige des DGT 1 fois supplémentaire.",
-        "enhanced_desc": "Lorsque les personnages lancent des attaques de suivi sur un ennemi, ils infligent des DGT d'Arrière-goût équivalents à 80% de leur ATQ à l'ennemi touché. Si l'ennemi est également sous le coup d'une Rupture de faiblesse, inflige des DGT 2 fois supplémentaires."
+        "desc": "Lorsque les personnages lancent des ATQ de suivi sur un ennemi, ils infligent des DGT d'Arrière-goût équivalents à 80% de leur ATQ à l'ennemi touché. Si l'ennemi est également sous le coup d'une Rupture de faiblesse, inflige des DGT 1 fois supplémentaire.",
+        "enhanced_desc": "Lorsque les personnages lancent des ATQ de suivi sur un ennemi, ils infligent des DGT d'Arrière-goût équivalents à 80% de leur ATQ à l'ennemi touché. Si l'ennemi est également sous le coup d'une Rupture de faiblesse, inflige des DGT 2 fois supplémentaire."
     },
     "612632": {
         "id": "612632",
         "name": "Dîner du champion : jeu de ficelle",
-        "desc": "Les ultimes des personnages sont considérés comme des attaques de suivi. Augmente les DGT infligés par les attaques de suivi de 15%.",
-        "enhanced_desc": "Les ultimes des personnages sont considérés comme des attaques de suivi. Augmente les DGT infligés par les attaques de suivi de 55%."
+        "desc": "Les ultimes des personnages sont considérés comme des ATQ de suivi. Augmente les DGT infligés par les ATQ de suivi de 15%.",
+        "enhanced_desc": "Les ultimes des personnages sont considérés comme des ATQ de suivi. Augmente les DGT infligés par les ATQ de suivi de 55%."
     },
     "612640": {
         "id": "612640",
@@ -1022,74 +1022,74 @@
     "612643": {
         "id": "612643",
         "name": "L'albatros en peinture",
-        "desc": "Pour chaque ennemi touché par l'attaque de suivi d'un personnage, ce dernier inflige des DGT additionnels équivalents à 24% de son ATQ à tous les ennemis touchés.",
-        "enhanced_desc": "Pour chaque ennemi touché par l'attaque de suivi d'un personnage, ce dernier inflige des DGT additionnels équivalents à 36% de son ATQ à tous les ennemis touchés."
+        "desc": "Pour chaque ennemi touché par l'ATQ de suivi d'un personnage, ce dernier inflige des DGT additionnels équivalents à 24% de son ATQ à tous les ennemis touchés.",
+        "enhanced_desc": "Pour chaque ennemi touché par l'ATQ de suivi d'un personnage, ce dernier inflige des DGT additionnels équivalents à 36% de son ATQ à tous les ennemis touchés."
     },
     "612644": {
         "id": "612644",
         "name": "12 singes et des hommes en colère",
-        "desc": "Lorsqu'un personnage inflige des DGT d'attaque de suivi à une cible ennemie, les DGT d'attaque de suivi de cette attaque augmentent de 4%.",
-        "enhanced_desc": "Lorsqu'un personnage inflige des DGT d'attaque de suivi à une cible ennemie, les DGT d'attaque de suivi de cette attaque augmentent de 6%."
+        "desc": "Lorsqu'un personnage inflige des DGT d'ATQ de suivi à une cible ennemie, les DGT d'ATQ de suivi de cette attaque augmentent de 4%.",
+        "enhanced_desc": "Lorsqu'un personnage inflige des DGT d'ATQ de suivi à une cible ennemie, les DGT d'ATQ de suivi de cette attaque augmentent de 6%."
     },
     "612645": {
         "id": "612645",
         "name": "Arc-en-ciel gravitationnel d'Aiden",
-        "desc": "Quand un personnage lance des attaques de suivi sur des ennemis, l'action des ennemis est retardée de 12%.",
-        "enhanced_desc": "Quand des personnages lancent des attaques de suivi sur des ennemis, les actions des ennemis attaqués sont retardées de 12%, et il y a 10% de chances de base d'infliger Emprisonnement aux ennemis pendant 1 tour."
+        "desc": "Quand un personnage lance des ATQ de suivi sur des ennemis, l'action des ennemis est retardée de 12%.",
+        "enhanced_desc": "Quand des personnages lancent des ATQ de suivi sur des ennemis, les actions des ennemis attaqués sont retardées de 12%, et il y a 10% de chances de base d'infliger Emprisonnement aux ennemis pendant 1 tour."
     },
     "612646": {
         "id": "612646",
         "name": "Vingt-et-unième règle militaire",
-        "desc": "Quand un personnage lance une attaque de suivi, il y a 65% de chances fixes de récupérer 1 point de compétence.",
-        "enhanced_desc": "Quand un personnage lance une attaque de suivi, il y a 100% de chances fixes de récupérer 1 point de compétence."
+        "desc": "Quand un personnage lance une ATQ de suivi, il y a 65% de chances fixes de récupérer 1 point de compétence.",
+        "enhanced_desc": "Quand un personnage lance une ATQ de suivi, il y a 100% de chances fixes de récupérer 1 point de compétence."
     },
     "612650": {
         "id": "612650",
         "name": "Conduite exemplaire",
-        "desc": "Augmente les DGT d'attaque de suivi de 9% pour chaque bénédiction de l'Allégresse. Cet effet peut être cumulé jusqu'à 6 fois.",
-        "enhanced_desc": "Augmente les DGT d'attaque de suivi de 12% pour chaque bénédiction de l'Allégresse. Cet effet peut être cumulé jusqu'à 9 fois."
+        "desc": "Augmente les DGT d'ATQ de suivi de 9% pour chaque bénédiction de l'Allégresse. Cet effet peut être cumulé jusqu'à 6 fois.",
+        "enhanced_desc": "Augmente les DGT d'ATQ de suivi de 12% pour chaque bénédiction de l'Allégresse. Cet effet peut être cumulé jusqu'à 9 fois."
     },
     "612651": {
         "id": "612651",
         "name": "Plutôt nocif",
-        "desc": "Augmente l'efficacité de Rupture de faiblesse de 35% lorsqu'un personnage inflige des DGT d'attaque de suivi.",
-        "enhanced_desc": "Augmente l'efficacité de Rupture de faiblesse de 50% lorsqu'un personnage inflige des DGT d'attaque de suivi."
+        "desc": "Augmente l'efficacité de Rupture de faiblesse de 35% lorsqu'un personnage inflige des DGT d'ATQ de suivi.",
+        "enhanced_desc": "Augmente l'efficacité de Rupture de faiblesse de 50% lorsqu'un personnage inflige des DGT d'ATQ de suivi."
     },
     "612652": {
         "id": "612652",
         "name": "Suspiria",
-        "desc": "Augmente les DGT d'attaque de suivi de 26%.",
-        "enhanced_desc": "Augmente les DGT d'attaque de suivi des personnages de 39%."
+        "desc": "Augmente les DGT d'ATQ de suivi des personnages de 26%.",
+        "enhanced_desc": "Augmente les DGT d'ATQ de suivi des personnages de 39%."
     },
     "612653": {
         "id": "612653",
         "name": "Feu pâle",
-        "desc": "Augmente les chances de coup critique des DGT d'attaque de suivi des personnages de 26%.",
-        "enhanced_desc": "Augmente les chances de coup critique des DGT d'attaque de suivi des personnages de 39%."
+        "desc": "Augmente les chances de coup critique des DGT d'ATQ de suivi des personnages de 26%.",
+        "enhanced_desc": "Augmente les chances de coup critique des DGT d'ATQ de suivi des personnages de 39%."
     },
     "612654": {
         "id": "612654",
         "name": "Retour au phare",
-        "desc": "Lorsqu'un personnage inflige des DGT à un ennemi avec une attaque de suivi, augmente son taux de régénération d'énergie de 24%.",
-        "enhanced_desc": "Lorsqu'un personnage inflige des DGT à un ennemi avec une attaque de suivi, augmente son taux de régénération d'énergie de 36%."
+        "desc": "Lorsqu'un personnage inflige des DGT à un ennemi avec une ATQ de suivi, augmente son taux de régénération d'énergie de 24%.",
+        "enhanced_desc": "Lorsqu'un personnage inflige des DGT à un ennemi avec une ATQ de suivi, augmente son taux de régénération d'énergie de 36%."
     },
     "612655": {
         "id": "612655",
         "name": "Docteur de l'amour",
-        "desc": "Quand un personnage lance une attaque de suivi, restaure 10% de ses PV max.",
-        "enhanced_desc": "Quand un personnage lance une attaque de suivi, restaure 15% de ses PV max."
+        "desc": "Quand un personnage lance une ATQ de suivi, restaure 10% de ses PV max.",
+        "enhanced_desc": "Quand un personnage lance une ATQ de suivi, restaure 15% de ses PV max."
     },
     "612656": {
         "id": "612656",
         "name": "Âge de platine",
-        "desc": "Quand un personnage lance une attaque de suivi, augmente sa DÉF de 40% pendant 1 tour.",
-        "enhanced_desc": "Quand un personnage lance une attaque de suivi, augmente sa DÉF de 40% pendant 2 tours."
+        "desc": "Quand un personnage lance une ATQ de suivi, augmente sa DÉF de 40% pendant 1 tour.",
+        "enhanced_desc": "Quand un personnage lance une ATQ de suivi, augmente sa DÉF de 40% pendant 2 tour."
     },
     "612657": {
         "id": "612657",
         "name": "Comme une horloge",
-        "desc": "Quand un personnage lance une attaque de suivi, augmente la VIT de 16% pendant 1 tour.",
-        "enhanced_desc": "Quand un personnage lance une attaque de suivi, augmente la VIT de 16% pendant 2 tours."
+        "desc": "Quand un personnage lance une ATQ de suivi, augmente la VIT de 16% pendant 1 tour.",
+        "enhanced_desc": "Quand un personnage lance une ATQ de suivi, augmente la VIT de 16% pendant 2 tour."
     },
     "612720": {
         "id": "612720",
@@ -1274,7 +1274,7 @@
     "612826": {
         "id": "612826",
         "name": "Combinaison de résonance : Scanner complet",
-        "desc": "Lorsque des ennemis avec Résonance synaptique sont attaqués par des attaques de suivi, l'effet se déclenche une fois supplémentaire et ne consomme pas de déclenchement.",
+        "desc": "Lorsque des ennemis avec Résonance synaptique sont attaqués par des ATQ de suivi, l'effet se déclenche une fois supplémentaire et ne consomme pas de déclenchement.",
         "enhanced_desc": ""
     },
     "612827": {
@@ -1510,7 +1510,7 @@
     "615120": {
         "id": "615120",
         "name": "Jardin de la mémoire",
-        "desc": "Dépensez 100 points d'énergie pour utiliser la capacité et générer la Résonance avec la Voie du Souvenir, infligeant des DGT de glace à tous les ennemis avec de fortes chances de les geler pendant 2 tours.",
+        "desc": "Dépensez 100 points d'énergie pour utiliser cette capacité et générer la Résonance critique de la Voie du Souvenir, infligeant des DGT de glace à tous les ennemis avec de fortes chances de les geler pendant 2 tours.",
         "enhanced_desc": ""
     },
     "615130": {
@@ -1886,7 +1886,7 @@
         "id": "615441",
         "name": "Arc de l'adepte",
         "desc": "Lorsqu'un allié utilise son ultime, il peut hériter d'Amélioration critique, et le nombre de cumuls d'Amélioration critique augmente de 1.",
-        "enhanced_desc": "Lorsqu'un allié utilise son ultime ou lance une attaque de suivi, il peut hériter d'Amélioration critique, et le nombre de cumuls d'Amélioration critique augmente de 1."
+        "enhanced_desc": "Lorsqu'un allié utilise son ultime ou lance une ATQ de suivi, il peut hériter d'Amélioration critique, et le nombre de cumuls d'Amélioration critique augmente de 1."
     },
     "615442": {
         "id": "615442",
@@ -2085,26 +2085,26 @@
     "615620": {
         "id": "615620",
         "name": "Fous masqués",
-        "desc": "Dépensez 100 points d'énergie pour utiliser cette capacité et générer la Résonance critique de la Voie de l'Allégresse, ce qui inflige des DGT d'attaque de suivi de type aléatoire à tous les ennemis 5 à 10 fois. D'autre part, les DGT d'ATQ normale/de compétence/d'ultime de tous les alliés sont considérés comme des DGT d'attaque de suivi. Dure 1 tour.",
+        "desc": "Dépensez 100 points d'énergie pour utiliser cette capacité et générer la Résonance critique de la Voie de l'Allégresse, ce qui inflige des DGT d'ATQ de suivi de type aléatoire à tous les ennemis 5 à 10 fois. D'autre part, les DGT d'ATQ normale/de compétence/d'ultime de tous les alliés sont considérés comme des DGT d'ATQ de suivi. Dure 1 tour.",
         "enhanced_desc": ""
     },
     "615630": {
         "id": "615630",
         "name": "Vignoble : Contre la nuit",
-        "desc": "Chaque fois qu'un personnage utilise une attaque normale, une compétence ou un ultime, il inflige en plus des DGT d'Arrière-goût 1 fois, équivalents à 80% de son ATQ après la prochaine attaque de suivi. Ce statut peut infliger des DGT jusqu'à 5 fois.",
-        "enhanced_desc": "Chaque fois qu'un personnage utilise une attaque normale, une compétence ou un ultime, il inflige en plus des DGT d'Arrière-goût 1 fois, équivalents à 120% de son ATQ après la prochaine attaque de suivi. Ce statut peut infliger des DGT jusqu'à 5 fois."
+        "desc": "Chaque fois qu'un personnage utilise une attaque normale, une compétence ou un ultime, il inflige en plus des DGT d'Arrière-goût 1 fois, équivalents à 80% de son ATQ après la prochaine ATQ de suivi. Ce statut peut infliger des DGT jusqu'à 5 fois.",
+        "enhanced_desc": "Chaque fois qu'un personnage utilise une attaque normale, une compétence ou un ultime, il inflige en plus des DGT d'Arrière-goût 1 fois, équivalents à 120% de son ATQ après la prochaine ATQ de suivi. Ce statut peut infliger des DGT jusqu'à 5 fois."
     },
     "615631": {
         "id": "615631",
         "name": "Abattoir n° 4 : Repose en paix",
-        "desc": "Lorsqu'un personnage lance une attaque de suivi sur un ennemi, inflige des DGT d'Arrière-goût équivalents à 80% de son ATQ à l'ennemi touché. Si l'ennemi est également sous le coup d'une Rupture de faiblesse, inflige des DGT 1 fois supplémentaire.",
-        "enhanced_desc": "Lorsqu'un personnage lance une attaque de suivi sur un ennemi, inflige des DGT d'Arrière-goût équivalents à 80% de son ATQ à l'ennemi touché. Si l'ennemi est également sous le coup d'une Rupture de faiblesse, inflige des DGT 2 fois supplémentaires."
+        "desc": "Lorsque les personnages lancent des ATQ de suivi sur un ennemi, ils infligent des DGT d'Arrière-goût équivalents à 80% de leur ATQ à l'ennemi touché. Si l'ennemi est également sous le coup d'une Rupture de faiblesse, inflige des DGT 1 fois supplémentaire.",
+        "enhanced_desc": "Lorsque les personnages lancent des ATQ de suivi sur un ennemi, ils infligent des DGT d'Arrière-goût équivalents à 80% de leur ATQ à l'ennemi touché. Si l'ennemi est également sous le coup d'une Rupture de faiblesse, inflige des DGT 2 fois supplémentaire."
     },
     "615632": {
         "id": "615632",
         "name": "Invitation à la décapitation : Pleurs de la boîte noire",
-        "desc": "Lorsqu'un personnage lance une attaque de suivi sur un ennemi, l'action de cet ennemi est retardée de 25%. Cet effet peut être déclenché un maximum de 2 fois pour chaque tour de la cible ennemie.",
-        "enhanced_desc": "Lorsqu'un personnage lance une attaque de suivi sur un ennemi, l'action de cet ennemi est retardée de 25%. Cet effet peut être déclenché un maximum de 3 fois pour chaque tour de la cible ennemie."
+        "desc": "Lorsqu'un personnage lance une ATQ de suivi sur un ennemi, l'action de cet ennemi est retardée de 25%. Cet effet peut être déclenché un maximum de 2 fois pour chaque tour de la cible ennemie.",
+        "enhanced_desc": "Lorsqu'un personnage lance une ATQ de suivi sur un ennemi, l'action de cet ennemi est retardée de 25%. Cet effet peut être déclenché un maximum de 3 fois pour chaque tour de la cible ennemie."
     },
     "615640": {
         "id": "615640",
@@ -2121,26 +2121,26 @@
     "615642": {
         "id": "615642",
         "name": "L'albatros en peinture",
-        "desc": "Pour chaque ennemi touché par l'attaque de suivi d'un personnage, ce dernier inflige des DGT additionnels équivalents à 24% de son ATQ à tous les ennemis touchés.",
-        "enhanced_desc": "Pour chaque ennemi touché par l'attaque de suivi d'un personnage, ce dernier inflige des DGT additionnels équivalents à 36% de son ATQ à tous les ennemis touchés."
+        "desc": "Pour chaque ennemi touché par l'ATQ de suivi d'un personnage, ce dernier inflige des DGT additionnels équivalents à 24% de son ATQ à tous les ennemis touchés.",
+        "enhanced_desc": "Pour chaque ennemi touché par l'ATQ de suivi d'un personnage, ce dernier inflige des DGT additionnels équivalents à 36% de son ATQ à tous les ennemis touchés."
     },
     "615643": {
         "id": "615643",
         "name": "12 singes et des hommes en colère",
-        "desc": "Lorsqu'un personnage inflige des DGT d'attaque de suivi à un ennemi, augmente les DGT d'attaque de suivi de 4%. Cet effet est cumulable jusqu'à 24 fois, et dure jusqu'au début du prochain tour.",
-        "enhanced_desc": "Lorsqu'un personnage inflige des DGT d'attaque de suivi à un ennemi, augmente les DGT d'attaque de suivi de 5%. Cet effet est cumulable jusqu'à 30 fois, et dure jusqu'au début du prochain tour."
+        "desc": "Lorsqu'un personnage inflige des DGT d'ATQ de suivi à un ennemi, augmente les DGT d'ATQ de suivi de 4%. Cet effet est cumulable jusqu'à 24 fois, et dure jusqu'au début du prochain tour.",
+        "enhanced_desc": "Lorsqu'un personnage inflige des DGT d'ATQ de suivi à un ennemi, augmente les DGT d'ATQ de suivi de 5%. Cet effet est cumulable jusqu'à 30 fois, et dure jusqu'au début du prochain tour."
     },
     "615644": {
         "id": "615644",
         "name": "Égal de Fleming",
-        "desc": "Lorsqu'un personnage lance une attaque de suivi sur une cible ennemie, augmente les DGT subis par cette cible de 8% jusqu'à un maximum de 3 fois. Dure 1 tour.",
-        "enhanced_desc": "Lorsqu'un personnage lance une attaque de suivi sur une cible ennemie, augmente les DGT subis par cette cible de 12% jusqu'à un maximum de 3 fois. Dure 1 tour."
+        "desc": "Lorsqu'un personnage lance une ATQ de suivi sur une cible ennemie, augmente les DGT subis par cette cible de 8% jusqu'à un maximum de 3 fois. Dure 1 tour.",
+        "enhanced_desc": "Lorsqu'un personnage lance une ATQ de suivi sur une cible ennemie, augmente les DGT subis par cette cible de 12% jusqu'à un maximum de 3 fois. Dure 1 tour."
     },
     "615645": {
         "id": "615645",
         "name": "Un poisson a découvert le feu",
-        "desc": "Les DGT d'attaque de suivi des personnages ignorent 20% de la DÉF de la cible ennemie.",
-        "enhanced_desc": "Les DGT d'attaque de suivi des personnages ignorent 27% de la DÉF de la cible ennemie."
+        "desc": "Les DGT d'ATQ de suivi des personnages ignorent 20% de la DÉF de la cible ennemie.",
+        "enhanced_desc": "Les DGT d'ATQ de suivi des personnages ignorent 27% de la DÉF de la cible ennemie."
     },
     "615646": {
         "id": "615646",
@@ -2151,50 +2151,50 @@
     "615650": {
         "id": "615650",
         "name": "Regardez ces fous",
-        "desc": "Augmente les DGT critiques des attaques de suivi de 44%.",
-        "enhanced_desc": "Augmente les DGT critiques des attaques de suivi de 66%."
+        "desc": "Augmente les DGT critiques des ATQ de suivi de 44%.",
+        "enhanced_desc": "Augmente les DGT critiques des ATQ de suivi de 66%."
     },
     "615651": {
         "id": "615651",
         "name": "Plutôt nocif",
-        "desc": "Augmente l'efficacité de Rupture de faiblesse de 35% lorsqu'un personnage inflige des DGT d'attaque de suivi.",
-        "enhanced_desc": "Augmente l'efficacité de Rupture de faiblesse de 50% lorsqu'un personnage inflige des DGT d'attaque de suivi."
+        "desc": "Augmente l'efficacité de Rupture de faiblesse de 35% lorsqu'un personnage inflige des DGT d'ATQ de suivi.",
+        "enhanced_desc": "Augmente l'efficacité de Rupture de faiblesse de 50% lorsqu'un personnage inflige des DGT d'ATQ de suivi."
     },
     "615652": {
         "id": "615652",
         "name": "Suspiria",
-        "desc": "Augmente les DGT d'attaque de suivi des personnages de 26%.",
-        "enhanced_desc": "Augmente les DGT d'attaque de suivi des personnages de 39%."
+        "desc": "Augmente les DGT d'ATQ de suivi infligés par les personnages de 26%.",
+        "enhanced_desc": "Augmente les DGT d'ATQ de suivi infligés par les personnages de 39%."
     },
     "615653": {
         "id": "615653",
         "name": "Feu pâle",
-        "desc": "Augmente de 26% les chances de coup critique des DGT d'attaque de suivi des personnages.",
-        "enhanced_desc": "Augmente de 39% les chances de coup critique des DGT d'attaque de suivi des personnages."
+        "desc": "Augmente les chances de coup critique des DGT d'ATQ de suivi des personnages de 26%.",
+        "enhanced_desc": "Augmente les chances de coup critique des DGT d'ATQ de suivi des personnages de 39%."
     },
     "615654": {
         "id": "615654",
         "name": "Retour au phare",
-        "desc": "Lorsqu'un personnage lance une attaque de suivi, restaure 6 points d'énergie. Cet effet peut être déclenché jusqu'à 1 fois par tour.",
-        "enhanced_desc": "Lorsqu'un personnage lance une attaque de suivi, restaure 8 points d'énergie. Cet effet peut être déclenché jusqu'à 1 fois par tour."
+        "desc": "Lorsqu'un personnage lance une ATQ de suivi, restaure 6 points d'énergie. Cet effet peut être déclenché jusqu'à 1 fois par tour.",
+        "enhanced_desc": "Lorsqu'un personnage lance une ATQ de suivi, restaure 8 points d'énergie. Cet effet peut être déclenché jusqu'à 1 fois par tour."
     },
     "615655": {
         "id": "615655",
         "name": "Docteur de l'amour",
-        "desc": "Lorsqu'un personnage lance une attaque de suivi, restaure 10% de ses PV max.",
-        "enhanced_desc": "Lorsqu'un personnage lance une attaque de suivi, restaure 15% de ses PV max."
+        "desc": "Quand un personnage lance une ATQ de suivi, restaure 10% de ses PV max.",
+        "enhanced_desc": "Quand un personnage lance une ATQ de suivi, restaure 15% de ses PV max."
     },
     "615656": {
         "id": "615656",
         "name": "Âge de platine",
-        "desc": "Lorsqu'un personnage lance une attaque de suivi, augmente sa DÉF de 40% pendant 1 tour.",
-        "enhanced_desc": "Lorsqu'un personnage lance une attaque de suivi, augmente sa DÉF de 40% pendant 2 tours."
+        "desc": "Quand un personnage lance une ATQ de suivi, augmente sa DÉF de 40% pendant 1 tour.",
+        "enhanced_desc": "Quand un personnage lance une ATQ de suivi, augmente sa DÉF de 40% pendant 2 tour."
     },
     "615657": {
         "id": "615657",
         "name": "Comme une horloge",
-        "desc": "Lorsqu'un personnage lance une attaque de suivi, augmente la VIT de 16% pendant 1 tour.",
-        "enhanced_desc": "Lorsqu'un personnage lance une attaque de suivi, augmente la VIT de 16% pendant 2 tours."
+        "desc": "Quand un personnage lance une ATQ de suivi, augmente la VIT de 16% pendant 1 tour.",
+        "enhanced_desc": "Quand un personnage lance une ATQ de suivi, augmente la VIT de 16% pendant 2 tour."
     },
     "615710": { "id": "615710", "name": "", "desc": "", "enhanced_desc": "" },
     "615720": {
@@ -2426,10 +2426,1188 @@
         "desc": "Lorsqu'un personnage subit un coup fatal, il consomme la totalité de son énergie au lieu de tomber à terre, et récupère un montant de PV équivalent à 50% de l'énergie consommée. Cet effet ne peut être déclenché qu'une fois par combat pour toute l'équipe.",
         "enhanced_desc": "Lorsqu'un personnage subit un coup fatal, il consomme la totalité de son énergie au lieu de tomber à terre, et récupère un montant de PV équivalent à 100% de l'énergie consommée. Cet effet ne peut être déclenché qu'une fois par combat pour toute l'équipe."
     },
+    "616110": { "id": "616110", "name": "", "desc": "", "enhanced_desc": "" },
+    "616120": {
+        "id": "616120",
+        "name": "Miracle du Temps",
+        "desc": "Dépensez 100 points d'énergie pour utiliser cette capacité et générer la Résonance critique de la Voie du Souvenir, ce qui inflige des DGT de glace à toutes les cibles ennemies, avec de fortes chances de les geler pendant 1 tours. Après qu'une cible ennemie gêlée a été attaquée par un mnémesprit, elle subit également des DGT réels équivalents à 8% de ses PV max. Chaque cible ennemie avec l'effet Gelé peut subir cet effet jusqu'à 4 fois.",
+        "enhanced_desc": ""
+    },
+    "616130": {
+        "id": "616130",
+        "name": "Instinct infaillible",
+        "desc": "Lorsqu'un personnage agit, lui et son mnémesprit obtiennent 1 cumul(s) d'Obsession. Lorsqu'un mnémesprit agit, lui et son mnémomaître obtiennent 1 cumul(s) d'Obsession.",
+        "enhanced_desc": "Lorsqu'un personnage agit, lui et son mnémesprit obtiennent 1 cumul(s) d'Obsession. Lorsqu'un mnémesprit agit, lui et son mnémomaître obtiennent 2 cumul(s) d'Obsession."
+    },
+    "616131": {
+        "id": "616131",
+        "name": "Mémoire éternelle",
+        "desc": "Après qu'une cible alliée a utilisé une attaque, inflige des DGT additionnels équivalents à 1% de l'ATQ aux cibles attaquées pour chaque cumul total de l'effet Obsession des alliés.",
+        "enhanced_desc": "Après qu'une cible alliée a utilisé une attaque, inflige des DGT additionnels équivalents à 1.5% de l'ATQ aux cibles attaquées pour chaque cumul total de l'effet Obsession des alliés."
+    },
+    "616132": {
+        "id": "616132",
+        "name": "Rêve de paix éternelle",
+        "desc": "Après que des cibles alliées sont entrées en combat ou après qu'un mnémesprit est invoqué, avance son action de 50% après la fin de leur premier tour et augmente les DGT infligés de 50% pendant 4 tour(s).",
+        "enhanced_desc": "Après que des cibles alliées sont entrées en combat ou après qu'un mnémesprit est invoqué, avance son action de 75% après la fin de leur premier tour et augmente les DGT infligés de 75% pendant 4 tour(s)."
+    },
+    "616140": {
+        "id": "616140",
+        "name": "Illumination : Tisser les nuages",
+        "desc": "Lorsqu'une cible alliée est attaquée, gagne 2 cumul(s) d'Obsession.",
+        "enhanced_desc": "Lorsqu'une cible alliée est attaquée, gagne 3 cumul(s) d'Obsession."
+    },
+    "616141": {
+        "id": "616141",
+        "name": "Illumination : Recoudre les montagnes",
+        "desc": "Lorsqu'une cible alliée élimine une cible ennemie, tous les alliés gagnent 4 cumul(s) d'Obsession.",
+        "enhanced_desc": "Lorsqu'une cible alliée élimine une cible ennemie, tous les alliés gagnent 6 cumul(s) d'Obsession."
+    },
+    "616142": {
+        "id": "616142",
+        "name": "Illumination : Relier les vagues",
+        "desc": "Lorsqu'une cible alliée entre en combat ou qu'un mnémesprit est invoqué, gagne 6 cumul(s) d'Obsession.",
+        "enhanced_desc": "Lorsqu'une cible alliée entre en combat ou qu'un mnémesprit est invoqué, gagne 9 cumul(s) d'Obsession."
+    },
+    "616143": {
+        "id": "616143",
+        "name": "Illumination : Élégie des mers peu profondes",
+        "desc": "Chaque cumul d'Obsession augmente les DGT infligés de 0.3%.",
+        "enhanced_desc": "Chaque cumul d'Obsession augmente les DGT infligés de 0.4%."
+    },
+    "616144": {
+        "id": "616144",
+        "name": "Illumination : Éloge de l'abîme",
+        "desc": "La limite de cumuls d'Obsession d'un personnage augmente de 4.",
+        "enhanced_desc": "La limite de cumuls d'Obsession d'un personnage augmente de 6."
+    },
+    "616145": {
+        "id": "616145",
+        "name": "Illumination : Distillation de l'aube",
+        "desc": "Chaque fois qu'une cible ennemie est attaquée par une cible alliée différente, augmente les DGT subis par la cible ennemie de 4%. Cumulable jusqu'à 6 fois, et dure jusqu'à la fin du tour.",
+        "enhanced_desc": "Chaque fois qu'une cible ennemie est attaquée par une cible alliée différente, augmente les DGT subis par la cible ennemie de 6%. Cumulable jusqu'à 6 fois, et dure jusqu'à la fin du tour."
+    },
+    "616146": {
+        "id": "616146",
+        "name": "Illumination : Dissolution du crépuscule",
+        "desc": "Chaque fois qu'une cible ennemie est touchée par une cible alliée différente, diminue les DGT infligés par la cible ennemie de 3%. Cumulable jusqu'à 6 fois. Dure jusqu'à la fin du tour.",
+        "enhanced_desc": "Chaque fois qu'une cible ennemie est touchée par une cible alliée différente, diminue les DGT infligés par la cible ennemie de 4%. Cumulable jusqu'à 6 fois. Dure jusqu'à la fin du tour."
+    },
+    "616150": {
+        "id": "616150",
+        "name": "Perception : Chaleur de la lame",
+        "desc": "Augmente l'ATQ de toutes les cibles alliées de 18%.",
+        "enhanced_desc": "Augmente l'ATQ de toutes les cibles alliées de 27%."
+    },
+    "616151": {
+        "id": "616151",
+        "name": "Perception : Forme de griffe",
+        "desc": "Augmente les DGT infligés par toutes les cibles alliées de 12%.",
+        "enhanced_desc": "Augmente les DGT infligés par toutes les cibles alliées de 18%."
+    },
+    "616152": {
+        "id": "616152",
+        "name": "Perception : Motifs de conques",
+        "desc": "Augmente la DÉF de toutes les cibles alliées de 16%.",
+        "enhanced_desc": "Augmente la DÉF de toutes les cibles alliées de 24%."
+    },
+    "616153": {
+        "id": "616153",
+        "name": "Perception : Histoires de la mousson",
+        "desc": "Augmente les DGT infligés par toutes les cibles alliées de 10% et les DGT infligés par les mnémesprits de 4% supplémentaires.",
+        "enhanced_desc": "Augmente les DGT infligés par toutes les cibles alliées de 15% et les DGT infligés par les mnémesprits de 6% supplémentaires."
+    },
+    "616154": {
+        "id": "616154",
+        "name": "Perception : Histoires des rochers",
+        "desc": "Augmente la DÉF de toutes les cibles alliées de 14% et la DÉF des mnémesprits de 6% supplémentaires.",
+        "enhanced_desc": "Augmente la DÉF de toutes les cibles alliées de 21% et la DÉF des mnémesprits de 9% supplémentaires."
+    },
+    "616155": {
+        "id": "616155",
+        "name": "Perception : Histoires des marées",
+        "desc": "Augmente les soins reçus par toutes les cibles alliées de 10% et les soins reçus par les mnémesprits de 4% supplémentaires.",
+        "enhanced_desc": "Augmente les soins reçus par toutes les cibles alliées de 15% et les soins reçus par les mnémesprits de 6% supplémentaires."
+    },
+    "616156": {
+        "id": "616156",
+        "name": "Perception : Os écarlates et feuilles pourpres",
+        "desc": "Après l'action d'un mnémesprit, les chances de coup critique de toutes les cibles alliées augmentent de 14% pendant 2 tours.",
+        "enhanced_desc": "Après l'action d'un mnémesprit, les chances de coup critique de toutes les cibles alliées augmentent de 21% pendant 2 tours."
+    },
+    "616157": {
+        "id": "616157",
+        "name": "Perception : Cheveux blancs et perles",
+        "desc": "Après l'action d'un mnémesprit, les DGT critiques de toutes les cibles alliées augmentent de 24% pendant 2 tours.",
+        "enhanced_desc": "Après l'action d'un mnémesprit, les DGT critiques de toutes les cibles alliées augmentent de 36% pendant 2 tours."
+    },
+    "616210": { "id": "616210", "name": "", "desc": "", "enhanced_desc": "" },
+    "616220": {
+        "id": "616220",
+        "name": "Miracle de la Mort",
+        "desc": "Dépensez 100 points d'énergie pour utiliser cette capacité et générer la Résonance critique de la Voie de la Nihilité. Inflige l'effet Brûlure, Stupéfaction, Saignement ainsi que 2 cumuls de Faille du vent à toutes les cibles ennemies pendant 3 tours. Après avoir été attaqué par un personnage, les dégâts sur la durée ci-dessus infligent immédiatement des DGT équivalents à 25% des DGT initiaux.",
+        "enhanced_desc": ""
+    },
+    "616230": {
+        "id": "616230",
+        "name": "La Communauté inavouable",
+        "desc": "Lorsqu'une cible ennemie est affectée par des dégâts sur la durée, charge Murmure à hauteur de 20% de l'ATQ totale des personnages alliés.",
+        "enhanced_desc": "Lorsqu'une cible ennemie est affectée par des dégâts sur la durée, charge Murmure à hauteur de 30% de l'ATQ totale des personnages alliés."
+    },
+    "616231": {
+        "id": "616231",
+        "name": "De l'existence à l'existant",
+        "desc": "Après qu'une cible ennemie a été attaquée pour la première fois lors d'un tour, déclenche des DGT de Murmure équivalents à 160% des DGT initiaux.",
+        "enhanced_desc": "Après qu'une cible ennemie a été attaquée pour la première fois lors d'un tour, déclenche des DGT de Murmure équivalents à 240% des DGT initiaux."
+    },
+    "616232": {
+        "id": "616232",
+        "name": "Une voix venue d'ailleurs",
+        "desc": "Déclenche des calculs de dégâts sur la durée 1 fois supplémentaire au début du tour d'une cible ennemie, et chaque statut de dégâts sur la durée actuellement sur la cible inflige immédiatement des DGT équivalents à 90% des DGT initiaux.",
+        "enhanced_desc": "Déclenche des calculs de dégâts sur la durée 1 fois supplémentaire au début du tour d'une cible ennemie, et chaque statut de dégâts sur la durée actuellement sur la cible inflige immédiatement des DGT équivalents à 135% des DGT initiaux."
+    },
+    "616240": {
+        "id": "616240",
+        "name": "Lumières et extinction",
+        "desc": "Lorsque le tour d'une cible ennemie prend fin, charge Murmure à hauteur de 40% de l'ATQ totale des personnages alliés.",
+        "enhanced_desc": "Lorsque le tour d'une cible ennemie prend fin, charge Murmure à hauteur de 60% de l'ATQ totale des personnages alliés."
+    },
+    "616241": {
+        "id": "616241",
+        "name": "Des larmes et des saints",
+        "desc": "Chaque fois qu'une cible ennemie subit des DGT de Murmure, réduit les DGT qu'elle inflige de 0.5% jusqu'à une réduction maximale de 16%.",
+        "enhanced_desc": "Chaque fois qu'une cible ennemie subit des DGT de Murmure, réduit les DGT qu'elle inflige de 0.5% jusqu'à une réduction maximale de 24%."
+    },
+    "616242": {
+        "id": "616242",
+        "name": "Éloge de l'insomnie",
+        "desc": "Les DGT de Murmure augmentent d'un montant équivalent à 30% du multiplicateur de DGT initial.",
+        "enhanced_desc": "Les DGT de Murmure augmentent d'un montant équivalent à 45% du multiplicateur de DGT initial."
+    },
+    "616243": {
+        "id": "616243",
+        "name": "Au bord du désespoir",
+        "desc": "Augmente le seuil de suppression de Murmure de 50%.",
+        "enhanced_desc": "Augmente le seuil de suppression de Murmure de 75%."
+    },
+    "616244": {
+        "id": "616244",
+        "name": "L'Écriture du Désastre",
+        "desc": "L'efficacité de charge de Murmure augmente de 20% lors de l'obtention de charge.",
+        "enhanced_desc": "L'efficacité de charge de Murmure augmente de 30% lors de l'obtention de charge."
+    },
+    "616245": {
+        "id": "616245",
+        "name": "Le dernier à parler",
+        "desc": "Chaque fois qu'un ennemi subit des dégâts sur la durée, toutes les cibles alliées restaurent un montant de PV équivalent à 1.0% de leurs PV max respectifs.",
+        "enhanced_desc": "Chaque fois qu'un ennemi subit des dégâts sur la durée, toutes les cibles alliées restaurent un montant de PV équivalent à 1.5% de leurs PV max respectifs."
+    },
+    "616246": {
+        "id": "616246",
+        "name": "Opinions floues",
+        "desc": "Chaque fois qu'une cible ennemie est affectée par un état de dégâts sur la durée, les DGT qu'elle inflige diminuent de 3%. Cumulable jusqu'à 4 fois.",
+        "enhanced_desc": "Chaque fois qu'une cible ennemie est affectée par un état de dégâts sur la durée, les DGT qu'elle inflige diminuent de 4%. Cumulable jusqu'à 4 fois."
+    },
+    "616250": {
+        "id": "616250",
+        "name": "La Métaphore vive",
+        "desc": "Augmente les dégâts sur la durée infligés par les cibles alliées de 24%.",
+        "enhanced_desc": "Augmente les dégâts sur la durée infligés par les cibles alliées de 36%."
+    },
+    "616251": {
+        "id": "616251",
+        "name": "L'inexistant",
+        "desc": "Augmente les chances d'appliquer des effets des cibles alliées de 24%.",
+        "enhanced_desc": "Augmente les chances d'appliquer des effets des cibles alliées de 36%."
+    },
+    "616252": {
+        "id": "616252",
+        "name": "Malade jusqu'à la mort",
+        "desc": "Réduit la RÉS aux effets des cibles ennemies de 12%.",
+        "enhanced_desc": "Réduit la RÉS aux effets des cibles ennemies de 18%."
+    },
+    "616253": {
+        "id": "616253",
+        "name": "Sacrilège",
+        "desc": "Augmente les dégâts sur la durée subis par les cibles ennemies de 10%.",
+        "enhanced_desc": "Augmente les dégâts sur la durée subis par les cibles ennemies de 15%."
+    },
+    "616254": {
+        "id": "616254",
+        "name": "L'Expérience intérieure",
+        "desc": "Lorsqu'une cible alliée applique un malus, augmente son ATQ de 24% pendant 2 tours.",
+        "enhanced_desc": "Lorsqu'une cible alliée applique un malus, augmente son ATQ de 36% pendant 2 tours."
+    },
+    "616255": {
+        "id": "616255",
+        "name": "Soleil noir",
+        "desc": "Augmente les DGT subis par les cibles ennemies affectées par des dégâts sur la durée de 8%.",
+        "enhanced_desc": "Augmente les DGT subis par les cibles ennemies affectées par des dégâts sur la durée de 12%."
+    },
+    "616256": {
+        "id": "616256",
+        "name": "Par-delà le bien et le mal",
+        "desc": "Lorsqu'une cible alliée applique un malus, augmente sa VIT de 10% pendant 3 tours.",
+        "enhanced_desc": "Lorsqu'une cible alliée applique un malus, augmente sa VIT de 15% pendant 3 tours."
+    },
+    "616257": {
+        "id": "616257",
+        "name": "L'expulsion de l'autre",
+        "desc": "Chaque fois qu'une cible ennemie subit des dégâts sur la durée, une cible alliée aléatoire régénère 1.0 points d'énergie. Les cibles ennemies peuvent déclencher cet effet jusqu'à 20 fois par tour.",
+        "enhanced_desc": "Chaque fois qu'une cible ennemie subit des dégâts sur la durée, une cible alliée aléatoire régénère 1.5 points d'énergie. Les cibles ennemies peuvent déclencher cet effet jusqu'à 20 fois par tour."
+    },
+    "616410": { "id": "616410", "name": "", "desc": "", "enhanced_desc": "" },
+    "616420": {
+        "id": "616420",
+        "name": "Miracle du Conflit",
+        "desc": "Dépensez 100 points d'énergie pour utiliser cette capacité et générer la Résonance critique de la Voie de la Chasse, ce qui inflige des DGT de vent à toutes les cibles ennemies et avance l'action de tous les alliés de 100%, la limite d'énergie max étant à 200.",
+        "enhanced_desc": ""
+    },
+    "616430": {
+        "id": "616430",
+        "name": "Armes dégainées, chemins tumultueux",
+        "desc": "Lorsqu'une cible alliée élimine une cible ennemie, son action est avancée de 100 % et elle obtient 4 cumul(s) d'Amélioration critique au début du tour suivant.",
+        "enhanced_desc": "Augmente la VIT des cibles alliées de 12%. Lorsqu'une cible alliée élimine une cible ennemie, son action est avancée de 100 % et elle obtient 6 cumul(s) d'Amélioration critique au début du tour suivant."
+    },
+    "616431": {
+        "id": "616431",
+        "name": "Plumes blanches et étoiles éphémères",
+        "desc": "Lorsqu'une cible alliée bénéficie d'Amélioration critique, ses chances de coup critique augmentent de 10%. Pour chaque 1 % de chances de coup critique supplémentaires, les DGT critiques augmentent de 2%, jusqu'à un maximum de 180%.",
+        "enhanced_desc": "Lorsqu'une cible alliée bénéficie d'Amélioration critique, ses chances de coup critique augmentent de 15%. Pour chaque 1 % de chances de coup critique supplémentaires, les DGT critiques augmentent de 2%, jusqu'à un maximum de 270%."
+    },
+    "616432": {
+        "id": "616432",
+        "name": "Un millier de chariots, une épreuve de courage",
+        "desc": "Lorsqu'une cible alliée inflige une Rupture de faiblesse à une cible ennemie, son action est avancée de 100 % et les DGT infligés par sa prochaine attaque augmentent de 50%.",
+        "enhanced_desc": "Lorsqu'une cible alliée inflige une Rupture de faiblesse à une cible ennemie, son action est avancée de 100 % et les DGT infligés par sa prochaine attaque augmentent de 75%. L'augmentation de DGT se cumule jusqu'à 2 fois et dure jusqu'à ce que la cible alliée soit attaquée."
+    },
+    "616440": {
+        "id": "616440",
+        "name": "Étoiles convergentes à la pointe de la lame",
+        "desc": "Les cibles alliées obtiennent 1 cumul(s) d'Amélioration critique au début de leur tour.",
+        "enhanced_desc": "Les cibles alliées obtiennent #3[i] cumul(s) d'Amélioration critique au début de leur tour. Lorsque cette cible alliée agit à nouveau, elle obtient 1 cumul(s) d'Amélioration critique."
+    },
+    "616441": {
+        "id": "616441",
+        "name": "Chemin sinueux de la flèche",
+        "desc": "Augmente l'ATQ de 4% pour chaque cumul d'Amélioration critique. Lorsqu'une cible alliée utilise son ultime, elle peut hériter de cette Amélioration critique.",
+        "enhanced_desc": "Augmente l'ATQ de 6% pour chaque cumul d'Amélioration critique. Lorsqu'une cible alliée utilise son ultime, elle peut hériter de cette Amélioration critique."
+    },
+    "616442": {
+        "id": "616442",
+        "name": "Déferlement de cavaliers du chaos",
+        "desc": "Augmente le nombre maximum de cumuls d'Amélioration critique de 2. Le nombre de cumuls d'Amélioration critique perdus après qu'un personnage a été attaqué ne peut pas dépasser 4.",
+        "enhanced_desc": "Augmente le nombre maximum de cumuls d'Amélioration critique de 4. Le nombre de cumuls d'Amélioration critique perdus après qu'un personnage a été attaqué ne peut pas dépasser 4."
+    },
+    "616443": {
+        "id": "616443",
+        "name": "Rompu mais pas tordu",
+        "desc": "Lorsqu'une cible alliée a au moins 4 cumuls d'Amélioration critique, les DGT subis par cette cible alliée sont réduits de 16%.",
+        "enhanced_desc": "Lorsqu'une cible alliée a au moins 4 cumuls d'Amélioration critique, les DGT subis par cette cible alliée sont réduits de 24%."
+    },
+    "616444": {
+        "id": "616444",
+        "name": "Brillance de la lame d'éclair",
+        "desc": "Si une cible alliée possède au moins 4 cumuls d'Amélioration critique au début de son tour, sa VIT augmente de 18% pendant 2 tours.",
+        "enhanced_desc": "Si une cible alliée possède au moins 4 cumuls d'Amélioration critique au début de son tour, sa VIT augmente de 27% pendant 2 tours."
+    },
+    "616445": {
+        "id": "616445",
+        "name": "Arc fidèle de l'archer",
+        "desc": "Quand la même cible alliée agit plusieurs fois de suite, il y a 40% de chances fixes de récupérer 1 point de compétence.",
+        "enhanced_desc": "Quand la même cible alliée agit plusieurs fois de suite, il y a 60% de chances fixes de récupérer 1 point de compétence."
+    },
+    "616446": {
+        "id": "616446",
+        "name": "Flèche vive comme l'étoile filante",
+        "desc": "Augmente la VIT de toutes les cibles alliées de 5%. L'action de la cible alliée qui agit actuellement est avancée de 100 % tous les 12 tours.",
+        "enhanced_desc": "Augmente la VIT des cibles alliées de 12%. L'action de la cible alliée qui agit actuellement est avancée de 100 % tous les 12 tours de l'équipe entière."
+    },
+    "616450": {
+        "id": "616450",
+        "name": "Ajustement de précision",
+        "desc": "Augmente la VIT des cibles alliées de 6%.",
+        "enhanced_desc": "Augmente la VIT des cibles alliées de 9%."
+    },
+    "616451": {
+        "id": "616451",
+        "name": "La force de surmonter des centaines",
+        "desc": "Augmente les chances de coup critique des cibles alliées de 11%.",
+        "enhanced_desc": "Augmente les chances de coup critique des cibles alliées de 16%."
+    },
+    "616452": {
+        "id": "616452",
+        "name": "Le sens se précise",
+        "desc": "Augmente les DGT critiques des cibles alliées de 20%.",
+        "enhanced_desc": "Augmente les DGT critiques des cibles alliées de 30%."
+    },
+    "616453": {
+        "id": "616453",
+        "name": "Lune d'automne dans le ciel",
+        "desc": "Restaure un montant de PV équivalent à 30% des PV max respectifs à toutes les cibles alliées après avoir éliminé une cible ennemie.",
+        "enhanced_desc": "Restaure un montant de PV équivalent à 45% des PV max respectifs à toutes les cibles alliées après avoir éliminé une cible ennemie."
+    },
+    "616454": {
+        "id": "616454",
+        "name": "Une simple pression de la main",
+        "desc": "L'ATQ de tous les alliés augmente de 6% après avoir éliminé une cible ennemie. Cet effet peut être cumulé jusqu'à 4 fois.",
+        "enhanced_desc": "L'ATQ de tous les alliés augmente de 9% après avoir éliminé une cible ennemie. Cet effet peut être cumulé jusqu'à 4 fois."
+    },
+    "616455": {
+        "id": "616455",
+        "name": "Flèche brise-lune",
+        "desc": "Après la fin du tour d'une cible alliée, son action est avancée de 6%.",
+        "enhanced_desc": "Après la fin du tour d'une cible alliée, son action est avancée de 9%."
+    },
+    "616456": {
+        "id": "616456",
+        "name": "Tonnerre sur le mur",
+        "desc": "Au début de leur tour, les cibles alliées régénèrent 3 points d'énergie.",
+        "enhanced_desc": "Au début de leur tour, les cibles alliées régénèrent 4 points d'énergie."
+    },
+    "616457": {
+        "id": "616457",
+        "name": "Branche verdoyante et corde vermillon",
+        "desc": "La VIT de tous les alliés augmente de 4% après avoir éliminé une cible ennemie. Cet effet peut être cumulé jusqu'à 2 fois.",
+        "enhanced_desc": "La VIT de tous les alliés augmente de 6% après avoir éliminé une cible ennemie. Cet effet peut être cumulé jusqu'à 2 fois."
+    },
+    "616510": { "id": "616510", "name": "", "desc": "", "enhanced_desc": "" },
+    "616520": {
+        "id": "616520",
+        "name": "Miracle du Ciel",
+        "desc": "Dépensez 100 points d'énergie pour utiliser cette capacité et générer la Résonance critique de la Voie de la Destruction, ce qui inflige des DGT de feu à toutes les cibles ennemies. Cette capacité consomme les PV de tous les alliés à hauteur de 60% de leurs PV max respectifs, tout en augmentant les PV max de toutes les cibles alliées de 100%. Au début du tour, restaure 100% des PV consommés par l'unité qui agit. Cet effet dure 4 tours.",
+        "enhanced_desc": ""
+    },
+    "616530": {
+        "id": "616530",
+        "name": "Surcharge supralumineuse",
+        "desc": "Augmente l'efficacité de charge de Blazar de 20%. Au début du tour, change le pourcentage de Blazar retiré de 55%.",
+        "enhanced_desc": "Augmente l'efficacité de charge de Blazar de 30%. Au début du tour, change le pourcentage de Blazar retiré de 50%."
+    },
+    "616531": {
+        "id": "616531",
+        "name": "Onde de choc aléatoire",
+        "desc": "Après qu'une cible alliée a lancé une attaque, inflige des DGT additionnels équivalents à 30% de la valeur de Blazar aux cibles attaquées.",
+        "enhanced_desc": "Après qu'une cible alliée a lancé une attaque, inflige des DGT additionnels équivalents à 45% de la valeur de Blazar aux cibles attaquées."
+    },
+    "616532": {
+        "id": "616532",
+        "name": "Médium interstellaire ultrarapide",
+        "desc": "Lorsqu'une cible alliée est attaquée, les DGT subis sont répartis entre tous les alliés.",
+        "enhanced_desc": "Les cibles alliées subissent 15% moins de DGT. Lorsqu'une cible alliée est attaquée, les DGT qu'elle subit sont répartis entre tous les alliés."
+    },
+    "616540": {
+        "id": "616540",
+        "name": "Flamme compacte",
+        "desc": "Lorsqu'une cible alliée est attaquée, le multiplicateur de DGT de Blazar augmente de 20% de sa valeur initiale. Cet effet peut se cumuler jusqu'à 2 fois et dure 2 tours.",
+        "enhanced_desc": "Lorsqu'une cible alliée est attaquée, le multiplicateur de DGT de Blazar augmente de 30% de sa valeur initiale. Cet effet peut se cumuler jusqu'à 2 fois et dure 2 tours."
+    },
+    "616541": {
+        "id": "616541",
+        "name": "Rayonnement synchronisé",
+        "desc": "20% de la valeur de bouclier accordée peut être convertie en Blazar.",
+        "enhanced_desc": "30% de la valeur de bouclier accordée peut être convertie en Blazar."
+    },
+    "616542": {
+        "id": "616542",
+        "name": "Spectre continu",
+        "desc": "20% des soins reçus en excédent par les cibles alliées peuvent être convertis en Blazar.",
+        "enhanced_desc": "30% des soins reçus en excédent par les cibles alliées peuvent être convertis en Blazar."
+    },
+    "616543": {
+        "id": "616543",
+        "name": "Bande d'ombre dissimulée",
+        "desc": "Augmente la valeur de base de Blazar d'un montant équivalent à 20% des PV max.",
+        "enhanced_desc": "Augmente la valeur de base de Blazar d'un montant équivalent à 30% des PV max."
+    },
+    "616544": {
+        "id": "616544",
+        "name": "Variable cataclysmique",
+        "desc": "Les DGT infligés par Blazar bénéficient d'une augmentation des chances de coup critique de 20% et des DGT critiques de 50%.",
+        "enhanced_desc": "Les DGT infligés par Blazar bénéficient d'une augmentation des chances de coup critique de 30% et des DGT critiques de 75%."
+    },
+    "616545": {
+        "id": "616545",
+        "name": "Transition forcée",
+        "desc": "Si le pourcentage de PV actuel d'une cible alliée est inférieur à 35% après que celle-ci a été attaquée ou a consommé des PV, restaure ses PV à hauteur de 12% de ses PV max. Peut soigner jusqu'à 36% des PV max de cette manière en une seule action.",
+        "enhanced_desc": "Si le pourcentage de PV actuel d'une cible alliée est inférieur à 35% après avoir été attaquée ou avoir consommé des PV, restaure ses PV à hauteur de 20% de ses PV max. Peut soigner jusqu'à 50% des PV max de cette manière en une seule action."
+    },
+    "616546": {
+        "id": "616546",
+        "name": "Décroissance radioactive",
+        "desc": "Lorsque le pourcentage de PV d'une cible alliée est inférieur à 50 %, les DGT qu'elle subit diminuent de 10% et les soins qu'elle reçoit augmentent de 20%.",
+        "enhanced_desc": "Lorsque le pourcentage de PV d'une cible alliée est inférieur à 50 %, les DGT qu'elle subit diminuent de 15% et les soins qu'elle reçoit augmentent de 30%."
+    },
+    "616550": {
+        "id": "616550",
+        "name": "Jets bipolaires",
+        "desc": "Réduit les DGT subis par les cibles alliées de 6%.",
+        "enhanced_desc": "Réduit les DGT subis par les cibles alliées de 9%."
+    },
+    "616551": {
+        "id": "616551",
+        "name": "Structure à double segmentation",
+        "desc": "Augmente la RÉS aux effets des cibles alliées de 12%.",
+        "enhanced_desc": "Augmente la RÉS aux effets des cibles alliées de 18%."
+    },
+    "616552": {
+        "id": "616552",
+        "name": "Étoiles binaires en orbite",
+        "desc": "Augmente les PV max des cibles alliées de 16%.",
+        "enhanced_desc": "Augmente les PV max des cibles alliées de 24%."
+    },
+    "616553": {
+        "id": "616553",
+        "name": "Magnitude absolue",
+        "desc": "Augmente les soins reçus par les cibles alliées de 12%.",
+        "enhanced_desc": "Augmente les soins reçus par les cibles alliées de 18%."
+    },
+    "616554": {
+        "id": "616554",
+        "name": "Chandelle standard",
+        "desc": "Augmente la valeur de bouclier reçue par les cibles alliées de 12%.",
+        "enhanced_desc": "Augmente la valeur de bouclier reçue par les cibles alliées de 18%."
+    },
+    "616555": {
+        "id": "616555",
+        "name": "Transfert de masse",
+        "desc": "Après que les PV ou la valeur de bouclier d'une cible alliée est réduite, augmente ses PV max de 20% pendant 2 tours.",
+        "enhanced_desc": "Après que les PV ou la valeur de bouclier d'une cible alliée est réduite, augmente ses PV max de 30% pendant 2 tours."
+    },
+    "616556": {
+        "id": "616556",
+        "name": "Étoile binaire à éclipses",
+        "desc": "Après que les PV ou la valeur de bouclier d'une cible alliée est réduite, augmente sa RÉS aux effets de 16% pendant 2 tours.",
+        "enhanced_desc": "Après que les PV ou la valeur de bouclier d'une cible alliée est réduite, augmente sa RÉS aux effets de 24% pendant 2 tours."
+    },
+    "616557": {
+        "id": "616557",
+        "name": "Supernova",
+        "desc": "Au lieu de tomber à terre lorsqu'ils subissent un coup fatal, les personnages restaurent immédiatement 20% de leurs PV max. L'équipe ne peut déclencher cet effet que 1 fois par combat.",
+        "enhanced_desc": "Au lieu de tomber à terre lorsqu'ils subissent un coup fatal, les personnages restaurent immédiatement 100% de leurs PV max. L'équipe ne peut déclencher cet effet que 1 fois par combat."
+    },
+    "616610": { "id": "616610", "name": "", "desc": "", "enhanced_desc": "" },
+    "616620": {
+        "id": "616620",
+        "name": "Miracle de la Ruse",
+        "desc": "Dépensez 100 points d'énergie pour utiliser cette capacité et générer la Résonance critique de la Voie de l'Allégresse, ce qui inflige des DGT d'ATQ de suivi de type aléatoire à toutes les cibles ennemies 5 à 10 fois. D'autre part, les DGT d'ATQ normale, de compétence et d'ultime de tous les alliés sont considérés comme des DGT d'ATQ de suivi pendant 2 tours.",
+        "enhanced_desc": ""
+    },
+    "616630": {
+        "id": "616630",
+        "name": "Pizza à la réglisse et granité à la menthe",
+        "desc": "Après qu'une cible alliée a lancé une ATQ de suivi, inflige 1 fois des DGT d'Arrière-goût équivalents à 50% de l'ATQ de la cible alliée à la cible attaquée. Lorsque des DGT d'Arrière-goût sont infligés, déclenche une autre instance de DGT d'Arrière-goût à un ratio de 15%.",
+        "enhanced_desc": "Après qu'une cible alliée a lancé une ATQ de suivi, inflige 1 fois des DGT d'Arrière-goût équivalents à 75% de l'ATQ de l'assaillant à la cible attaquée. Lorsque des DGT d'Arrière-goût sont infligés, déclenche une autre instance de DGT d'Arrière-goût à un ratio de 20%."
+    },
+    "616631": {
+        "id": "616631",
+        "name": "Colonel de l'océan : Le monde d'hier",
+        "desc": "Après qu'une cible alliée a utilisé son ultime, ses 2 prochaines attaques infligent à la cible ennemie attaquée 1 fois des DGT d'Arrière-goût équivalents à 100% de son ATQ.",
+        "enhanced_desc": "Après qu'une cible alliée a utilisé son ultime, ses 2 prochaines attaques infligent à la cible ennemie attaquée 1 fois des DGT d'Arrière-goût équivalents à 110% de son ATQ. Cet ultime déclenche également cet effet."
+    },
+    "616632": {
+        "id": "616632",
+        "name": "Sables de l'aube : Danse en solo",
+        "desc": "Lorsqu'une cible alliée lance une ATQ de suivi sur une cible ennemie, l'action de la cible ennemie est retardée de 25%. Cet effet peut être déclenché un maximum de 2 fois par tour pour chaque cible ennemie.",
+        "enhanced_desc": "Lorsqu'une cible alliée lance une ATQ de suivi sur une cible ennemie, l'action de la cible ennemie est retardée de 30%. Cet effet peut être déclenché un maximum de 3 fois par tour pour chaque cible ennemie."
+    },
+    "616640": {
+        "id": "616640",
+        "name": "Un mois silencieux dans une maison",
+        "desc": "Après qu'une cible alliée a attaqué une cible ennemie en état de Rupture de faiblesse, inflige 1 fois à la cible ennemie attaquée des DGT d'Arrière-goût équivalents à 100% de l'ATQ de la cible alliée.",
+        "enhanced_desc": "Après qu'une cible alliée a attaqué une cible ennemie en état de Rupture de faiblesse, inflige 1 fois à la cible ennemie attaquée des DGT d'Arrière-goût équivalents à 150% de l'ATQ de la cible alliée."
+    },
+    "616641": {
+        "id": "616641",
+        "name": "Lieutenant obnubilé par le caviar",
+        "desc": "Chaque fois qu'une cible ennemie subit des DGT d'Arrière-goût d'un type élémentaire, son ATQ diminue de 4% jusqu'à la fin de sa prochaine action.",
+        "enhanced_desc": "Chaque fois qu'une cible ennemie subit des DGT d'Arrière-goût d'un type élémentaire, son ATQ diminue de 6% jusqu'à la fin de sa prochaine action."
+    },
+    "616642": {
+        "id": "616642",
+        "name": "Votre armoire est si belle, vous savez",
+        "desc": "Chaque fois qu'une cible ennemie subit des DGT d'Arrière-goût d'un type élémentaire, les DGT qu'elle subit augmentent de 3% jusqu'à la fin de sa prochaine action.",
+        "enhanced_desc": "Chaque fois qu'une cible ennemie subit des DGT d'Arrière-goût d'un type élémentaire, les DGT qu'elle subit augmentent de 4.5% jusqu'à la fin de sa prochaine action."
+    },
+    "616643": {
+        "id": "616643",
+        "name": "Graine d'un fruit étrange et divin",
+        "desc": "Lorsqu'une cible alliée inflige des DGT d'Arrière-goût à une cible ennemie, augmente les DGT de la cible alliée de 12%. Cet effet est cumulable jusqu'à 4 fois, et dure jusqu'au début du tour suivant.",
+        "enhanced_desc": "Lorsqu'une cible alliée inflige des DGT d'Arrière-goût à une cible ennemie, augmente les DGT de la cible alliée de 12%. Cet effet est cumulable jusqu'à 6 fois, et dure jusqu'au début du tour suivant."
+    },
+    "616644": {
+        "id": "616644",
+        "name": "Cri du chat cosmique",
+        "desc": "Augmente les DGT d'Arrière-goût infligés de 70%.",
+        "enhanced_desc": "Augmente les DGT d'Arrière-goût infligés de 105%."
+    },
+    "616645": {
+        "id": "616645",
+        "name": "Simon des mers",
+        "desc": "Les DGT d'ATQ de suivi et les DGT additionnels infligés par les cibles alliées ignorent 18% de la DÉF des cibles ennemies.",
+        "enhanced_desc": "Les DGT d'ATQ de suivi et les DGT additionnels infligés par les cibles alliées ignorent 24% de la DÉF des cibles ennemies."
+    },
+    "616646": {
+        "id": "616646",
+        "name": "Le Long Voyage vers le jour",
+        "desc": "L'efficacité de Rupture de faiblesse des cibles alliées augmente de 35% lorsqu'elles infligent des DGT d'ATQ de suivi.",
+        "enhanced_desc": "L'efficacité de Rupture de faiblesse des cibles alliées augmente de 50% lorsqu'elles infligent des DGT d'ATQ de suivi."
+    },
+    "616650": {
+        "id": "616650",
+        "name": "Parking psychédélique",
+        "desc": "Augmente les DGT critiques d'ATQ de suivi et les DGT additionnels infligés par les cibles alliées de 30%.",
+        "enhanced_desc": "Augmente les DGT critiques d'ATQ de suivi et les DGT additionnels infligés par les cibles alliées de 45%."
+    },
+    "616651": {
+        "id": "616651",
+        "name": "Ligne d'amour",
+        "desc": "Après qu'une cible alliée a lancé une ATQ de suivi, l'ATQ de toutes les cibles alliées augmente de 20% pendant 2 tours.",
+        "enhanced_desc": "Après qu'une cible alliée a lancé une ATQ de suivi, l'ATQ de toutes les cibles alliées augmente de 30% pendant 2 tours."
+    },
+    "616652": {
+        "id": "616652",
+        "name": "Oméga City",
+        "desc": "Augmente les DGT d'ATQ de suivi et les DGT additionnels infligés par les cibles alliées de 30%.",
+        "enhanced_desc": "Augmente les DGT d'ATQ de suivi et les DGT additionnels infligés par les cibles alliées de 45%."
+    },
+    "616653": {
+        "id": "616653",
+        "name": "Monsieur Violence",
+        "desc": "Augmente les chances de coup critique des DGT d'ATQ de suivi et les DGT additionnels infligés par les cibles alliées de 18%.",
+        "enhanced_desc": "Augmente les chances de coup critique des DGT d'ATQ de suivi et les DGT additionnels infligés par les cibles alliées de 27%."
+    },
+    "616654": {
+        "id": "616654",
+        "name": "Sanctuaire oublié",
+        "desc": "Après qu'une cible alliée a lancé une ATQ de suivi, régénère 4 de son énergie. Cet effet peut être déclenché jusqu'à 1 fois par tour.",
+        "enhanced_desc": "Après qu'une cible alliée a lancé une ATQ de suivi, régénère 6 de son énergie. Cet effet peut être déclenché jusqu'à 1 fois par tour."
+    },
+    "616655": {
+        "id": "616655",
+        "name": "Pièces dorées et poussières grises",
+        "desc": "Après qu'une cible alliée a lancé une ATQ de suivi, elle récupère un montant de PV équivalent à 10% de ses PV max.",
+        "enhanced_desc": "Après qu'une cible alliée a lancé une ATQ de suivi, elle récupère un montant de PV équivalent à 15% de ses PV max."
+    },
+    "616656": {
+        "id": "616656",
+        "name": "La faucheuse sur son cheval de guerre",
+        "desc": "Après qu'une cible alliée a lancé une ATQ de suivi, la DÉF de toutes les cibles alliées augmente de 20% pendant 2 tours.",
+        "enhanced_desc": "Après qu'une cible alliée a lancé une ATQ de suivi, la DÉF de toutes les cibles alliées augmente de 30% pendant 2 tours."
+    },
+    "616657": {
+        "id": "616657",
+        "name": "La ville des chats",
+        "desc": "Après qu'une cible alliée a lancé une ATQ de suivi, la VIT de toutes les cibles alliées augmente de 8% pendant 2 tours.",
+        "enhanced_desc": "Après qu'une cible alliée a lancé une ATQ de suivi, la VIT de toutes les cibles alliées augmente de 12% pendant 2 tours."
+    },
+    "616710": { "id": "616710", "name": "", "desc": "", "enhanced_desc": "" },
+    "616720": {
+        "id": "616720",
+        "name": "Miracle de la Romance",
+        "desc": "Dépensez 100 points d'énergie pour utiliser cette capacité et déclencher la Résonance critique de la Voie de la Propagation. Permet à un allié désigné d'agir immédiatement et lui fait récupérer 5 points de compétence. Gagne l'effet Lévitation. Lorsqu'une unité ennemie est éliminée par un personnage avec Lévitation, Équation critique régénère 50 points d'énergie, la limite d'énergie max étant à 200.",
+        "enhanced_desc": ""
+    },
+    "616730": {
+        "id": "616730",
+        "name": "Mimétisme müllérien",
+        "desc": "Augmente de 50% l'ATQ des cibles alliées. Chaque point de compétence gagné ou consommé charge Chrysalide d'âme à hauteur de 6%.",
+        "enhanced_desc": "Augmente de 75% l'ATQ des cibles alliées. Chaque point de compétence gagné ou consommé charge Chrysalide d'âme à hauteur de 9%."
+    },
+    "616731": {
+        "id": "616731",
+        "name": "Éjection de spores",
+        "desc": "Les DGT d'ATQ normale et de compétence augmentent de 40% dans l'état Âme de papillon. De plus, Âme de papillon inflige 1 instance de DGT réels supplémentaires équivalents à 15% des DGT initiaux.",
+        "enhanced_desc": "Les DGT d'ATQ normale et de compétence augmentent de 80% dans l'état Âme de papillon. De plus, Âme de papillon inflige 1 instance de DGT réels supplémentaires équivalents à 15% des DGT initiaux."
+    },
+    "616732": {
+        "id": "616732",
+        "name": "Goutte d'eau nourricière",
+        "desc": "Après qu'une cible alliée a consommé un point de compétence, les DGT critiques infligés par tous les alliés augmentent de 2%. Cumulable jusqu'à 35 fois. Après avoir utilisé un ultime, la prochaine consommation de point de compétence résulte dans la consommation d'1 point de compétence supplémentaire.",
+        "enhanced_desc": "Après qu'une cible alliée a consommé ou récupéré un point de compétence, les DGT critiques infligés par tous les alliés augmentent de 3%. Cumulable jusqu'à 35 fois. Après avoir utilisé un ultime, la prochaine consommation ou le prochain gain de point de compétence résulte dans la consommation ou le gain d'1 point de compétence supplémentaire."
+    },
+    "616740": {
+        "id": "616740",
+        "name": "Sporophore",
+        "desc": "Charge Chrysalide d'âme à hauteur de 30% après avoir éliminé une cible ennemie.",
+        "enhanced_desc": "Charge Chrysalide d'âme à hauteur de 45% après avoir éliminé une cible ennemie."
+    },
+    "616741": {
+        "id": "616741",
+        "name": "Armure de chitine",
+        "desc": "Augmente de 30% l'ATQ des cibles alliées. Charge Chrysalide d'âme de 30% supplémentaires en entrant en combat.",
+        "enhanced_desc": "Augmente de 35% l'ATQ des cibles alliées. Charge Chrysalide d'âme de 50% supplémentaires en entrant en combat."
+    },
+    "616742": {
+        "id": "616742",
+        "name": "Libération du cocon",
+        "desc": "Quand Chrysalide d'âme se transforme en Âme de papillon, restaure 60% des PV et augmente les DGT infligés dans cet état de 20%.",
+        "enhanced_desc": "Quand Chrysalide d'âme se transforme en Âme de papillon, restaure 100% des PV et augmente les DGT infligés dans cet état de 30%."
+    },
+    "616743": {
+        "id": "616743",
+        "name": "Basidiospores",
+        "desc": "La PÉN de RÉS des DGT d'ATQ normale et de compétence augmente de 14% dans l'état Âme de papillon.",
+        "enhanced_desc": "La PÉN de RÉS des DGT d'ATQ normale et de compétence augmente de 21% dans l'état Âme de papillon."
+    },
+    "616744": {
+        "id": "616744",
+        "name": "Iridescence structurelle",
+        "desc": "La VIT augmente de 16% dans l'état Chrysalide d'âme. Les DGT infligés par l'ATQ normale et la compétence augmentent de 50% dans l'état Âme de papillon.",
+        "enhanced_desc": "La VIT augmente de 24% dans l'état Chrysalide d'âme. Les DGT infligés par l'ATQ normale et la compétence augmentent de 75% dans l'état Âme de papillon."
+    },
+    "616745": {
+        "id": "616745",
+        "name": "Récepteurs sensibles",
+        "desc": "Pour chaque point de compétence consommé par une cible alliée, cette dernière subit 6% moins de DGT pendant 2 tours. Cet effet peut être cumulé jusqu'à 2 fois.",
+        "enhanced_desc": "Pour chaque point de compétence consommé par une cible alliée, cette dernière subit 6% moins de DGT pendant 2 tours. Cet effet peut être cumulé jusqu'à 3 fois."
+    },
+    "616746": {
+        "id": "616746",
+        "name": "Sortilège d'éclaboussure",
+        "desc": "L'ATQ normale/La compétence des cibles alliées infligent des DGT équivalents à 10% des DGT initiaux aux cibles adjacentes.",
+        "enhanced_desc": "L'ATQ normale/La compétence des cibles alliées infligent des DGT équivalents à 15% des DGT initiaux aux cibles adjacentes."
+    },
+    "616750": {
+        "id": "616750",
+        "name": "Sporange",
+        "desc": "Il y a 20% de chances fixes de régénérer 1 point de compétence après qu'une cible alliée a consommé des points de compétence.",
+        "enhanced_desc": "Il y a 30% de chances fixes de régénérer 1 point de compétence après qu'une cible alliée a consommé des points de compétence."
+    },
+    "616751": {
+        "id": "616751",
+        "name": "Rhizome",
+        "desc": "Augmente de 30% les DGT infligés lorsqu'une cible alliée utilise son ATQ normale ou sa compétence.",
+        "enhanced_desc": "Augmente de 45% les DGT infligés lorsqu'une cible alliée utilise son ATQ normale ou sa compétence."
+    },
+    "616752": {
+        "id": "616752",
+        "name": "Ocelles",
+        "desc": "Augmente de 30% les DGT critiques infligés lorsqu'une cible alliée utilise son ATQ normale ou sa compétence.",
+        "enhanced_desc": "Augmente de 45% les DGT critiques infligés lorsqu'une cible alliée utilise son ATQ normale ou sa compétence."
+    },
+    "616753": {
+        "id": "616753",
+        "name": "Ailes dorsales",
+        "desc": "Augmente de 16% les chances de coup critique lorsqu'une cible alliée utilise son ATQ normale ou sa compétence.",
+        "enhanced_desc": "Augmente de 24% les chances de coup critique lorsqu'une cible alliée utilise son ATQ normale ou sa compétence."
+    },
+    "616754": {
+        "id": "616754",
+        "name": "Murs épais",
+        "desc": "Après qu'une cible alliée a utilisé des points de compétence, sa DÉF augmente de 30% pendant 1 tours.",
+        "enhanced_desc": "Après qu'une cible alliée a utilisé des points de compétence, sa DÉF augmente de 45% pendant 1 tours."
+    },
+    "616755": {
+        "id": "616755",
+        "name": "Segments tarsaux",
+        "desc": "Après qu'une cible alliée a utilisé des points de compétence, sa VIT augmente de 8% pendant 2 tours.",
+        "enhanced_desc": "Après qu'une cible alliée a utilisé des points de compétence, sa VIT augmente de 12% pendant 2 tours."
+    },
+    "616756": {
+        "id": "616756",
+        "name": "Sensilles",
+        "desc": "Après qu'une cible alliée a utilisé des points de compétence, elle régénère 2 points d'énergie.",
+        "enhanced_desc": "Après qu'une cible alliée a utilisé des points de compétence, elle régénère 3 points d'énergie."
+    },
+    "616757": {
+        "id": "616757",
+        "name": "Propagation bourgeonnante",
+        "desc": "Après qu'une cible alliée a utilisé des points de compétence, elle restaure un montant de PV équivalent à 10% de ses PV max.",
+        "enhanced_desc": "Après qu'une cible alliée a utilisé des points de compétence, elle restaure un montant de PV équivalent à 15% de ses PV max."
+    },
+    "616810": { "id": "616810", "name": "", "desc": "", "enhanced_desc": "" },
+    "616820": {
+        "id": "616820",
+        "name": "Miracle de la Raison",
+        "desc": "Dépensez 100 points d'énergie pour utiliser cette capacité et générer la Résonance critique de la Voie de l'Érudition, ce qui inflige des DGT imaginaires mineurs à tous les ennemis. D'autre part, connecte l'ennemi ayant le montant de PV max le plus élevé aux autres ennemis, plaçant ainsi tous les ennemis dans l'état Lien central et tous les alliés régénèrent un montant d'énergie équivalent à 100% de leur énergie max.",
+        "enhanced_desc": ""
+    },
+    "616830": {
+        "id": "616830",
+        "name": "Hippocampe TR-303",
+        "desc": "Après qu'une cible alliée a infligé une Rupture de faiblesse à une cible ennemie, charge Cerveau dans une cuve à hauteur de 10%, ou de 40% s'il s'agit d'un ennemi élite.",
+        "enhanced_desc": "Charge Cerveau dans une cuve à hauteur de 100% en entrant en combat. Après qu'une cible alliée a infligé une Rupture de faiblesse à une cible ennemie, charge Cerveau dans une cuve à hauteur de 12%, ou de 50% s'il s'agit d'un ennemi élite."
+    },
+    "616831": {
+        "id": "616831",
+        "name": "Noyau accumbens DBS-45",
+        "desc": "Lorsqu'une cible alliée inflige un coup fatal à une cible ennemie, charge Cerveau dans une cuve à hauteur de 50%.",
+        "enhanced_desc": "Lorsqu'une cible alliée inflige un coup fatal à une cible ennemie, charge Cerveau dans une cuve à hauteur de 50%. Chaque fois que Cerveau dans une cuve est entièrement chargé, augmente la VIT de 20% pendant 2 tours."
+    },
+    "616832": {
+        "id": "616832",
+        "name": "Matière noire ELO-536",
+        "desc": "Augmente la PÉN de RÉS à tous les types des DGT d'ultime infligés par les cibles alliées de 20%. Pour chaque cible ennemie sur le champ de bataille, augmente la PÉN de RÉS à tous les types des prochains DGT d'ultime infligés de 3% supplémentaires. Cet effet dure jusqu'à la prochaine utilisation d'un ultime.",
+        "enhanced_desc": "Augmente la PÉN de RÉS à tous les types des DGT d'ultime infligés par les cibles alliées de 25%. Pour chaque cible ennemie sur le champ de bataille, augmente la PÉN de RÉS à tous les types des prochains DGT d'ultime infligés de 3% supplémentaires. Cet effet dure jusqu'à la prochaine utilisation d'un ultime."
+    },
+    "616840": {
+        "id": "616840",
+        "name": "Redémarrage : Nerf terminal",
+        "desc": "Lorsqu'une cible alliée utilise son ultime via Cerveau dans une cuve, augmente ses DGT critiques de 80%. Cet effet dure jusqu'à la fin de cette capacité.",
+        "enhanced_desc": "Lorsqu'une cible alliée utilise son ultime via Cerveau dans une cuve, augmente ses DGT critiques de 90%. Cet effet dure jusqu'à la fin de la prochaine attaque."
+    },
+    "616841": {
+        "id": "616841",
+        "name": "Itération : Carte cognitive",
+        "desc": "Après qu'une cible alliée a utilisé son ultime via Cerveau dans une cuve, elle gagne un bouclier d'une valeur équivalente à 36% de ses PV max pour 2 tours.",
+        "enhanced_desc": "Après qu'une cible alliée a utilisé son ultime via Cerveau dans une cuve, elle gagne un bouclier d'une valeur équivalente à 45% de ses PV max pour 3 tours."
+    },
+    "616842": {
+        "id": "616842",
+        "name": "Analyse : Mémoire procédurale",
+        "desc": "Lorsqu'une cible alliée utilise Cerveau dans une cuve pour lancer son ultime, les DGT infligés par tous les alliés augmentent de 36% pendant 2 tours.",
+        "enhanced_desc": "Lorsqu'une cible alliée utilise Cerveau dans une cuve pour lancer son ultime, les DGT infligés par tous les alliés augmentent de 54% pendant 2 tours."
+    },
+    "616843": {
+        "id": "616843",
+        "name": "Stabilisation : Long et profond sommeil",
+        "desc": "Lorsqu'une cible alliée subit une attaque, charge Cerveau dans une cuve à hauteur de 6%.",
+        "enhanced_desc": "Lorsqu'une cible alliée subit une attaque, charge Cerveau dans une cuve à hauteur de 9%."
+    },
+    "616844": {
+        "id": "616844",
+        "name": "Dérivation : Démarcation cellulaire",
+        "desc": "Après qu'une cible alliée a utilisé Cerveau dans une cuve pour lancer son ultime, son ATQ augmente de 60% pendant 2 tours.",
+        "enhanced_desc": "Après qu'une cible alliée a utilisé Cerveau dans une cuve pour lancer son ultime, son ATQ augmente de 90% pendant 2 tours."
+    },
+    "616845": {
+        "id": "616845",
+        "name": "Exécution : Apprentissage amélioré",
+        "desc": "Après qu'une cible alliée a utilisé son ultime pour attaquer un ennemi en état de Rupture de faiblesse, l'action de l'ennemi est retardée de 16%. Cet effet peut être déclenché jusqu'à 3 fois, à chaque fois qu'une cible ennemie subit une Rupture de faiblesse.",
+        "enhanced_desc": "Après qu'une cible alliée a utilisé son ultime pour attaquer un ennemi en état de Rupture de faiblesse, l'action de l'ennemi est retardée de 24%. Cet effet peut être déclenché jusqu'à 3 fois, à chaque fois qu'une cible ennemie subit une Rupture de faiblesse."
+    },
+    "616846": {
+        "id": "616846",
+        "name": "Ouverture : Voie directe",
+        "desc": "Si une cible alliée utilise une ATQ à ZdE pour attaquer 1 seule cible ennemie, cette ATQ inflige un montant fixe de DGT supplémentaires équivalent à 40% des DGT initiaux à la cible ennemie attaquée.",
+        "enhanced_desc": "Si une cible alliée utilise une ATQ à ZdE pour attaquer 1 seule cible ennemie, cette ATQ inflige un montant fixe de DGT supplémentaires équivalent à 60% des DGT initiaux à la cible ennemie attaquée."
+    },
+    "616850": {
+        "id": "616850",
+        "name": "Bannière scintillante",
+        "desc": "Augmente les DGT infligés par l'ultime des cibles alliées de 18%.",
+        "enhanced_desc": "Augmente les DGT infligés par l'ultime des cibles alliées de 27%."
+    },
+    "616851": {
+        "id": "616851",
+        "name": "Armure de stockage solide",
+        "desc": "Augmente les chances de coup critique des DGT d'ultime des cibles alliées de 18%.",
+        "enhanced_desc": "Augmente les chances de coup critique des DGT d'ultime des cibles alliées de 27%."
+    },
+    "616852": {
+        "id": "616852",
+        "name": "Frontière rédactionnellement sûre",
+        "desc": "Augmente les DGT critiques des ultimes des cibles alliées de 30%.",
+        "enhanced_desc": "Augmente les DGT critiques des ultimes des cibles alliées de 45%."
+    },
+    "616853": {
+        "id": "616853",
+        "name": "Paquets alignés par partition",
+        "desc": "Régénère une quantité d'énergie équivalente à 30% de l'énergie max en début de combat.",
+        "enhanced_desc": "Régénère une quantité d'énergie équivalente à 45% de l'énergie max en début de combat."
+    },
+    "616854": {
+        "id": "616854",
+        "name": "Route effacée par macrobloc",
+        "desc": "Lorsqu'une cible alliée utilise son ultime, son ATQ augmente de 24% pendant 2 tours.",
+        "enhanced_desc": "Lorsqu'une cible alliée utilise son ultime, son ATQ augmente de 36% pendant 2 tours."
+    },
+    "616855": {
+        "id": "616855",
+        "name": "Phare de résonance cristalline",
+        "desc": "Après qu'une cible alliée a utilisé son ultime, ses PV max augmentent de 20% pendant 2 tours.",
+        "enhanced_desc": "Après qu'une cible alliée a utilisé son ultime, ses PV max augmentent de 30% pendant 2 tours."
+    },
+    "616856": {
+        "id": "616856",
+        "name": "Lentille à guidage optique",
+        "desc": "Après qu'une cible alliée a utilisé son ultime, elle restaure un montant de PV équivalent à 20% de ses PV max.",
+        "enhanced_desc": "Après qu'une cible alliée a utilisé son ultime, elle restaure un montant de PV équivalent à 30% de ses PV max."
+    },
+    "616857": {
+        "id": "616857",
+        "name": "Piste d'écriture séquentielle",
+        "desc": "Lorsqu'un personnage subit un coup fatal, il consomme la totalité de son énergie au lieu de tomber à terre, et récupère un montant de PV équivalent à 50% de l'énergie consommée. Cet effet ne peut être déclenché qu'une fois par combat pour toute l'équipe.",
+        "enhanced_desc": "Lorsqu'un personnage subit un coup fatal, il consomme la totalité de son énergie au lieu de tomber à terre, et récupère un montant de PV équivalent à 100% de l'énergie consommée. Cet effet ne peut être déclenché qu'une fois par combat pour toute l'équipe."
+    },
+    "616910": { "id": "616910", "name": "", "desc": "", "enhanced_desc": "" },
+    "616920": {
+        "id": "616920",
+        "name": "Miracle du Passage",
+        "desc": "Dépensez 100 points d'énergie pour utiliser cette capacité et générer la Résonance critique de la Voie de l'Harmonie, ce qui inflige des DGT quantiques à toutes les cibles ennemies et leur inflige une Rupture de faiblesse à hauteur de 1000% de l'effet de Rupture. En cas de Rupture de faiblesse, déclenche tous les effets de Rupture de faiblesse de tous les types.",
+        "enhanced_desc": ""
+    },
+    "616930": {
+        "id": "616930",
+        "name": "Premier mouvement : La grenouille et le chevalier",
+        "desc": "Chaque fois qu'une cible ennemie subit une réduction réelle de 10 points de robustesse, lui applique 1 cumul d'Harmonisation.",
+        "enhanced_desc": "Chaque fois qu'une cible ennemie subit une réduction réelle de 10 points de robustesse, lui applique 1 cumul d'Harmonisation. Les réductions de robustesse réelles subies en cas de Rupture de faiblesse sont également prises en compte."
+    },
+    "616931": {
+        "id": "616931",
+        "name": "Deuxième mouvement : Le petit déjeuner du faune",
+        "desc": "Après qu'une cible alliée a attaqué une cible ennemie en état de Rupture de faiblesse, déclenche 1 fois des DGT d'Harmonisation avec un multiplicateur de 8%.",
+        "enhanced_desc": "Après qu'une cible alliée attaque une cible ennemie en état de Rupture de faiblesse, déclenche 1 fois des DGT d'Harmonisation à un ratio de 10% et augmente le multiplicateur de DGT d'Harmonisation de 20% du multiplicateur initial."
+    },
+    "616932": {
+        "id": "616932",
+        "name": "Troisième mouvement : Rondo",
+        "desc": "Lorsqu'une cible alliée inflige une Rupture de faiblesse à une cible ennemie, les effets de Rupture de faiblesse des autres types de Faiblesses que l'ennemi possède se déclenchent également avec un pourcentage de 50%.",
+        "enhanced_desc": "Lorsqu'une cible alliée inflige une Rupture de faiblesse à une cible ennemie, les effets de Rupture de faiblesse des autres types de Faiblesses que l'ennemi possède se déclenchent également avec un pourcentage de 80%."
+    },
+    "616940": {
+        "id": "616940",
+        "name": "Phase d'entraînement",
+        "desc": "Lorsqu'une cible ennemie avec Harmonisation est éliminée, 1 cible adjacente aléatoire gagne le même nombre de cumuls d'Harmonisation que la cible ennemie éliminée.",
+        "enhanced_desc": "Lorsqu'une cible ennemie avec Harmonisation est éliminée, 2 cibles adjacentes aléatoires gagnent le même nombre de cumuls d'Harmonisation que la cible ennemie éliminée."
+    },
+    "616941": {
+        "id": "616941",
+        "name": "Calice de Dionysos",
+        "desc": "Lorsqu'une cible alliée attaque une cible ennemie en état de Rupture de faiblesse, elle applique 1 cumul d'Harmonisation.",
+        "enhanced_desc": "Augmente l'effet de Rupture des cibles alliées de 24%. Après avoir attaqué une cible ennemie en état de Rupture de faiblesse, applique 1 cumul d'Harmonisation."
+    },
+    "616942": {
+        "id": "616942",
+        "name": "Palpitations de la couronne solaire",
+        "desc": "Pour chaque cumul d'Harmonisation possédé par une cible ennemie, augmente les DGT de rupture qu'elle subit de 1.0%.",
+        "enhanced_desc": "Pour chaque cumul d'Harmonisation possédé par une cible ennemie, augmente les DGT de rupture qu'elle subit de 1.5%."
+    },
+    "616943": {
+        "id": "616943",
+        "name": "Quatuor à cordes",
+        "desc": "Lorsque les DGT d'Harmonisation sont déclenchés, prend en compte 5 cumuls supplémentaires. Le nombre maximum de cumuls d'Harmonisation augmente de 5.",
+        "enhanced_desc": "Lorsque les DGT d'Harmonisation sont déclenchés, prend en compte 6 cumuls supplémentaires. Le nombre maximum de cumuls d'Harmonisation augmente de 10."
+    },
+    "616944": {
+        "id": "616944",
+        "name": "Pentamètre iambique",
+        "desc": "Augmente le multiplicateur de DGT d'Harmonisation à hauteur de 30% du multiplicateur initial.",
+        "enhanced_desc": "Augmente le multiplicateur de DGT d'Harmonisation à hauteur de 45% du multiplicateur initial."
+    },
+    "616945": {
+        "id": "616945",
+        "name": "Basse continue",
+        "desc": "Après qu'une cible alliée a attaqué une cible ennemie en état de Rupture de faiblesse, convertit la réduction de robustesse de cette attaque en 1 instance de 50% de DGT de rupture extrême.",
+        "enhanced_desc": "Après qu'une cible alliée a attaqué une cible ennemie en état de Rupture de faiblesse, convertit la réduction de robustesse de cette attaque en 1 instance de 75% de DGT de rupture extrême."
+    },
+    "616946": {
+        "id": "616946",
+        "name": "Gnome vertueux",
+        "desc": "Lorsqu'une cible alliée inflige une Rupture de faiblesse à une cible ennemie, il y a 100% de chances de base d'infliger l'effet Gelé à la cible attaquée pendant 1 tour.",
+        "enhanced_desc": "Lorsqu'une cible alliée inflige une Rupture de faiblesse à une cible ennemie, il y a 150% de chances de base d'infliger l'effet Gelé à la cible attaquée pendant 1 tour."
+    },
+    "616950": {
+        "id": "616950",
+        "name": "Tissage stagnant",
+        "desc": "Lorsqu'une cible alliée inflige une Rupture de faiblesse à une cible ennemie, l'action de la cible ennemie est retardée de 20%.",
+        "enhanced_desc": "Lorsqu'une cible alliée inflige une Rupture de faiblesse à une cible ennemie, l'action de la cible ennemie est retardée de 30%."
+    },
+    "616951": {
+        "id": "616951",
+        "name": "Déclaration originale",
+        "desc": "Augmente les DGT de rupture infligés par les cibles alliées de 8%.",
+        "enhanced_desc": "Augmente les DGT de rupture infligés par les cibles alliées de 12%."
+    },
+    "616952": {
+        "id": "616952",
+        "name": "Tempête sereine",
+        "desc": "Augmente l'effet de Rupture des cibles alliées de 30%.",
+        "enhanced_desc": "Augmente l'effet de Rupture des cibles alliées de 45%."
+    },
+    "616953": {
+        "id": "616953",
+        "name": "Mélodie linéaire",
+        "desc": "Lorsqu'une cible alliée inflige une Rupture de faiblesse à une cible ennemie, la VIT de l'assaillant augmente de 12% pendant 3 tours.",
+        "enhanced_desc": "Lorsqu'une cible alliée inflige une Rupture de faiblesse à une cible ennemie, la VIT de l'assaillant augmente de 18% pendant 3 tours."
+    },
+    "616954": {
+        "id": "616954",
+        "name": "Rythme croisé",
+        "desc": "Lorsqu'une cible alliée inflige une Rupture de faiblesse à une cible ennemie, l'effet de Rupture de toutes les cibles alliées augmente de 40% pendant 3 tours.",
+        "enhanced_desc": "Lorsqu'une cible alliée inflige une Rupture de faiblesse à une cible ennemie, l'effet de Rupture de toutes les cibles alliées augmente de 60% pendant 3 tours."
+    },
+    "616955": {
+        "id": "616955",
+        "name": "Atonalité",
+        "desc": "Augmente les DGT de rupture subis par les cibles ennemies de 16%.",
+        "enhanced_desc": "Augmente les DGT de rupture subis par les cibles ennemies de 24%."
+    },
+    "616956": {
+        "id": "616956",
+        "name": "Roi du destin",
+        "desc": "Réduit la DÉF des cibles ennemies en état de Rupture de faiblesse de 15%.",
+        "enhanced_desc": "Réduit la DÉF des cibles ennemies en état de Rupture de faiblesse de 20%."
+    },
+    "616957": {
+        "id": "616957",
+        "name": "Thème original",
+        "desc": "Lorsqu'une cible alliée inflige une Rupture de faiblesse à une cible ennemie, l'assaillant restaure un montant de PV équivalent à 24% de ses PV max.",
+        "enhanced_desc": "Lorsqu'une cible alliée inflige une Rupture de faiblesse à une cible ennemie, l'assaillant restaure un montant de PV équivalent à 36% de ses PV max."
+    },
     "619920": { "id": "619920", "name": "", "desc": "", "enhanced_desc": "" },
     "619921": { "id": "619921", "name": "", "desc": "", "enhanced_desc": "" },
     "619922": { "id": "619922", "name": "", "desc": "", "enhanced_desc": "" },
     "619923": { "id": "619923", "name": "", "desc": "", "enhanced_desc": "" },
+    "634000": {
+        "id": "634000",
+        "name": "0",
+        "desc": "Les cibles alliées restaurent un montant de PV équivalent à 30% de leurs PV max lors du passage au jour. Pendant le jour, elles restaurent un montant de PV équivalent à 5% de leurs PV max au début de leur tour. Pendant la nuit, les PV max de tous les alliés augmentent de 0%, les DGT finaux infligés par les alliés augmentent de 30% et les DGT finaux infligés par les ennemis augmentent de 15%.",
+        "enhanced_desc": ""
+    },
+    "634010": {
+        "id": "634010",
+        "name": "Tissage de fil d'or onirique",
+        "desc": "Après que les cibles alliées ont effectué 8 attaques au total pendant le jour, l'effet suivant se déclenche : la VIT de tous les alliés augmente de 40% pendant le jour. Cet effet se réinitialise à chaque passage entre le jour et la nuit.",
+        "enhanced_desc": ""
+    },
+    "634011": {
+        "id": "634011",
+        "name": "Parure impeccable",
+        "desc": "Cette Faveur et ses effets de renforcement sont également efficaces pendant la nuit et ne se réinitialisent pas.",
+        "enhanced_desc": ""
+    },
+    "634012": {
+        "id": "634012",
+        "name": "Parure tournoyante",
+        "desc": "Réduit le nombre d'attaques requis pour activer l'effet de 6. Une fois l'effet activé, avance l'action de toutes les cibles alliées de 100 %.",
+        "enhanced_desc": ""
+    },
+    "634013": {
+        "id": "634013",
+        "name": "Parure ensanglantée",
+        "desc": "Augmente le nombre d'attaques requis pour activer l'effet de 8. Une fois activé, augmente la VIT de 50% supplémentaires.",
+        "enhanced_desc": ""
+    },
+    "634016": {
+        "id": "634016",
+        "name": "Tissage des fils de la Romance",
+        "desc": "Augmente le ratio du jour de 25%. Après avoir activé cet effet, la VIT des cibles alliées augmente de 30% supplémentaires pendant le jour.",
+        "enhanced_desc": ""
+    },
+    "634017": {
+        "id": "634017",
+        "name": "Tissage des fils de la Beauté",
+        "desc": "Après avoir activé cet effet, à chaque fois qu'une cible alliée lance une attaque pendant le jour, sa VIT augmente de 2% supplémentaires. Cet effet peut se cumuler jusqu'à 60% chaque cycle jour/nuit. Cet effet se réinitialise à chaque passage entre le jour et la nuit.",
+        "enhanced_desc": ""
+    },
+    "634018": {
+        "id": "634018",
+        "name": "Tissage des fils du Destin",
+        "desc": "Après avoir activé cet effet, pour chaque 100 points de VIT qu'une unité possède, augmente les DGT finaux infligés par cette unité de 20.00% pendant le jour.",
+        "enhanced_desc": ""
+    },
+    "634020": {
+        "id": "634020",
+        "name": "Portes infinies connectées",
+        "desc": "Augmente les DGT finaux infligés par les cibles alliées de 20% pendant le jour. L'ultime de tous les alliés est activé lors du passage au jour.",
+        "enhanced_desc": ""
+    },
+    "634021": {
+        "id": "634021",
+        "name": "Un conte à propos de l'aube",
+        "desc": "Augmente le pourcentage de jour de 25% et augmente les DGT finaux infligés par les cibles alliées de 20% pendant le jour.",
+        "enhanced_desc": ""
+    },
+    "634022": {
+        "id": "634022",
+        "name": "Un conte à propos du passé",
+        "desc": "Lorsqu'une cible alliée élimine une cible ennemie pendant le jour, elle régénère des points d'énergie équivalents à 50% de son énergie max.",
+        "enhanced_desc": ""
+    },
+    "634023": {
+        "id": "634023",
+        "name": "Un conte à propos de nous",
+        "desc": "Cette Faveur et ses renforcements sont également efficaces pendant la nuit et ne se réinitialisent pas. Lors du passage à la nuit ou l'éternuitée, les ultimes de tous les alliés sont activés.",
+        "enhanced_desc": ""
+    },
+    "634026": {
+        "id": "634026",
+        "name": "Une prophétie qui sème le conflit",
+        "desc": "Augmente le pourcentage de jour de 25% et augmente les DGT finaux infligés par les cibles alliées de 25% pendant le jour.",
+        "enhanced_desc": ""
+    },
+    "634027": {
+        "id": "634027",
+        "name": "Une prophétie qui donne de l'espoir",
+        "desc": "Pour chaque cible ennemie attaquée par une cible alliée pendant le jour, cette unité restaure un montant de PV équivalent à 6% des PV max au début du prochain tour. Cumulable jusqu'à 10 fois.",
+        "enhanced_desc": ""
+    },
+    "634028": {
+        "id": "634028",
+        "name": "Une prophétie qui continue les mythes",
+        "desc": "Après qu'une cible alliée utilise un ultime pendant le jour, les DGT finaux infligés augmentent de 4.0%. Cet effet se réinitialise à chaque passage entre le jour et la nuit.",
+        "enhanced_desc": ""
+    },
+    "634030": {
+        "id": "634030",
+        "name": "Rencontre avec la main de la mort",
+        "desc": "Augmente les PV max des cibles alliées de 30% pendant la nuit. Les DGT infligés par la prochaine attaque augmentent de 50% après avoir perdu des PV.",
+        "enhanced_desc": ""
+    },
+    "634031": {
+        "id": "634031",
+        "name": "Décomposition destinée",
+        "desc": "Augmente le pourcentage de la nuit de 25%. Augmente les DGT finaux infligés par les alliés de 40% après que les PV d'une cible alliée ont été réduits.",
+        "enhanced_desc": ""
+    },
+    "634032": {
+        "id": "634032",
+        "name": "Flétrissement destiné",
+        "desc": "Cette Faveur et ses effets de renforcement sont également efficaces pendant le jour et ne se réinitialisent pas.",
+        "enhanced_desc": ""
+    },
+    "634033": {
+        "id": "634033",
+        "name": "Périssement destiné",
+        "desc": "Durant la nuit, cette Faveur et son renforcement considèreront aussi chaque non-débordement de soin sur une cible alliée comme une réduction de PV.",
+        "enhanced_desc": ""
+    },
+    "634036": {
+        "id": "634036",
+        "name": "Fleurs devant les tombes anonymes",
+        "desc": "Augmente le pourcentage de la nuit de 25% et augmente les PV max des cibles alliées de 45% supplémentaires pendant la nuit.",
+        "enhanced_desc": ""
+    },
+    "634037": {
+        "id": "634037",
+        "name": "Nouvelle pousse sur une branche morte",
+        "desc": "Pendant la nuit, pour chaque total de 50% de PV réduits d'une cible alliée, ses PV max augmentent de 5.0%. Peut être cumulé jusqu'à 65% chaque cycle jour/nuit. Cet effet se réinitialise à chaque passage entre le jour et la nuit.",
+        "enhanced_desc": ""
+    },
+    "634038": {
+        "id": "634038",
+        "name": "Papillons sur la route du retour",
+        "desc": "Chaque fois qu'une cible alliée perd des PV, les DGT finaux infligés par cette unité augmentent de 2%. Cet effet ne peut se déclencher qu'1 fois par action. Cet effet peut être cumulé jusqu'à 60% à chaque cycle jour/nuit. Cet effet se réinitialise à chaque passage entre le jour et la nuit.",
+        "enhanced_desc": ""
+    },
+    "634040": {
+        "id": "634040",
+        "name": "Couronné de sang",
+        "desc": "Pendant la nuit, lorsqu'une cible alliée a cumulé une perte de PV totale de 50%, l'effet suivant est activé : lorsque le tour d'un allié se termine, il récupère des PV équivalents à 20% de ses PV max. Les DGT finaux infligés pendant la nuit augmentent de 25%. Cet effet se réinitialise à chaque passage entre le jour et la nuit.",
+        "enhanced_desc": ""
+    },
+    "634041": {
+        "id": "634041",
+        "name": "Lance de la fureur divine",
+        "desc": "Cette Faveur et ses effets de renforcement sont également efficaces pendant le jour et ne se réinitialisent pas.",
+        "enhanced_desc": ""
+    },
+    "634042": {
+        "id": "634042",
+        "name": "Lame de la rancune humaine",
+        "desc": "Augmente le pourcentage de PV à réduire pour activer l'effet de 40%. Après avoir activé l'effet, augmente les DGT finaux infligés par les cibles alliées de 30% pendant la nuit.",
+        "enhanced_desc": ""
+    },
+    "634043": {
+        "id": "634043",
+        "name": "Bouclier du retour triomphal",
+        "desc": "Réduit le pourcentage de PV requis pour activer l'effet de 25%. Lors de l'activation de l'effet, tous les alliés récupèrent un montant de PV équivalent à 100% de ses PV max, et les 5 prochaines attaques restaurent un montant de PV équivalent à 30% de leurs PV max.",
+        "enhanced_desc": ""
+    },
+    "634046": {
+        "id": "634046",
+        "name": "Massacre de milliers d'ennemis",
+        "desc": "Augmente le pourcentage de la nuit de 25%. Pendant la nuit, après que les PV d'une cible alliée ont diminué, augmente les DGT finaux infligés par la prochaine attaque de 40%.",
+        "enhanced_desc": ""
+    },
+    "634047": {
+        "id": "634047",
+        "name": "Massacre du tyran sans honneur",
+        "desc": "Après avoir activé cet effet, pour chaque 10 % de PV réduits, les soins reçus augmentent de 1.0% et les DGT finaux infligés augmentent de 1.00% durant la nuit. Une augmentation maximum de 40% de soins reçus et de 40% de DGT finaux peut être accumulée chaque cycle jour/nuit. Cet effet se réinitialise à chaque passage entre le jour et la nuit.",
+        "enhanced_desc": ""
+    },
+    "634048": {
+        "id": "634048",
+        "name": "Massacre du dieu fou",
+        "desc": "Après avoir activé cet effet, les PV max des cibles alliées augmentent d'un montant équivalent à 16% de leurs PV max actuels pendant la nuit.",
+        "enhanced_desc": ""
+    },
+    "634050": {
+        "id": "634050",
+        "name": "Festin sans fin",
+        "desc": "Augmente les DGT finaux subis par les cibles ennemies de 25% pendant le jour, et applique Chant du cygne aux cibles ennemies, ce qui leur inflige des DGT supplémentaires de type physique équivalents à 400% de leur DGT de base au début de chaque tour.",
+        "enhanced_desc": ""
+    },
+    "634051": {
+        "id": "634051",
+        "name": "Carnaval sans fin",
+        "desc": "Augmente le pourcentage du jour de 25% et augmente les DGT finaux subis par les cibles ennemies de 20% pendant le jour.",
+        "enhanced_desc": ""
+    },
+    "634052": {
+        "id": "634052",
+        "name": "Sommeil éternel",
+        "desc": "Après qu'une cible ennemie a été attaquée par une cible alliée pendant le jour, elle subit 1 instance de DGT de Chant du cygne à un ratio de 100%.",
+        "enhanced_desc": ""
+    },
+    "634053": {
+        "id": "634053",
+        "name": "Poèmes partagés",
+        "desc": "L'état Chant du cygne est considéré comme un état de Saignement. Le multiplicateur de DGT de Chant du cygne augmente à hauteur de 100% du multiplicateur initial et inflige des dégâts sur la durée au début de chaque tour.",
+        "enhanced_desc": ""
+    },
+    "634056": {
+        "id": "634056",
+        "name": "Élégie des ivres",
+        "desc": "Augmente le ratio du jour de 25% et augmente les DGT finaux infligés par les cibles alliées de 25% pendant le jour.",
+        "enhanced_desc": ""
+    },
+    "634057": {
+        "id": "634057",
+        "name": "Élégie des endeuillés",
+        "desc": "Chaque fois que Chant du cygne inflige des DGT durant le jour, augmente ses DGT de 5% du multiplicateur initial. Cet effet peut se cumuler jusqu'à 200% à chaque cycle jour/nuit. Cet effet se réinitialise à chaque passage entre le jour et la nuit.",
+        "enhanced_desc": ""
+    },
+    "634058": {
+        "id": "634058",
+        "name": "Élégie des égarés",
+        "desc": "À chaque fois qu'une cible subit des dégâts sur la durée provenant d'une autre source, elle déclenche 1 fois des DGT de Chant du cygne équivalents à un ratio de 50%. Cet effet peut être déclenché jusqu'à 4 fois par action.",
+        "enhanced_desc": ""
+    },
+    "634060": {
+        "id": "634060",
+        "name": "Marcheur fantôme",
+        "desc": "Éliminer un ennemi élite en combat permet d'obtenir 50 fragments cosmiques supplémentaires. Cet effet peut se déclencher au maximum 1 fois par combat. Pendant la nuit, les dégâts finaux infligés aux ennemis élites augmentent de 30% et les DGT subis par les ennemis élites sont réduits de 10%.",
+        "enhanced_desc": ""
+    },
+    "634061": {
+        "id": "634061",
+        "name": "Mentir sans ciller",
+        "desc": "Augmente le pourcentage de la nuit de 25% et augmente la quantité de fragments cosmiques obtenus en éliminant des ennemis élites de 35 pendant la nuit. Cet effet disparaît lors du premier passage de la nuit au jour.",
+        "enhanced_desc": ""
+    },
+    "634062": {
+        "id": "634062",
+        "name": "Tromper sans flancher",
+        "desc": "Si vous avez plus de 500 fragments cosmiques lorsque vous engagez le combat, les DGT finaux infligés par les cibles alliées aux ennemis élites augmentent de 80% pendant la nuit.",
+        "enhanced_desc": ""
+    },
+    "634063": {
+        "id": "634063",
+        "name": "Voler sans laisser de trace",
+        "desc": "Pendant la durée de l'effet de base, le nombre de fois que vous pouvez gagner des fragments cosmiques après avoir éliminé un ennemi élite augmente de 2 fois.",
+        "enhanced_desc": ""
+    },
+    "634066": {
+        "id": "634066",
+        "name": "Les longues nuits favorisent les voleurs",
+        "desc": "Augmente le pourcentage de la nuit de 25% et augmente les DGT finaux infligés par les cibles alliées aux ennemis élites de 40% pendant la nuit.",
+        "enhanced_desc": ""
+    },
+    "634067": {
+        "id": "634067",
+        "name": "Une chambre forte difficile à protéger des traîtres",
+        "desc": "Pendant la durée de l'effet de base, augmente de 10000% le nombre de fragments cosmiques obtenus après avoir éliminé des ennemis élites.",
+        "enhanced_desc": ""
+    },
+    "634068": {
+        "id": "634068",
+        "name": "Même les mensonges demandent de la finesse",
+        "desc": "Dans l'Univers parallèle actuel, chaque fois que l'effet de la Faveur actuelle de gain de fragments cosmiques est déclenché, inflige des DGT additionnels équivalents à 40% de l'ATQ à la cible attaquée après avoir utilisé une attaque pendant la nuit.",
+        "enhanced_desc": ""
+    },
     "670010": {
         "id": "670010",
         "name": "Restaurateur de ville",
@@ -2463,7 +3641,7 @@
     "670280": {
         "id": "670280",
         "name": "Institut d'autodétermination",
-        "desc": "Lorsque Suspicion atteint 99 cumuls, l'effet est consommé et se transforme en 1 cumul d'Auto-négation, ce qui augmente les dégâts sur la durée infligés par les assaillants de cette unité de 70%. Chaque cumul augmente les DGT sur la durée infligés de 10%, cumulable jusqu'à #10[i] fois. Les ennemis subissent des dégâts de foudre sur la durée équivalents à 135% des DGT de base au début de leur tour, et les cibles adjacentes subissent des dégâts de foudre sur la durée équivalents à 20% du multiplicateur de DGT initial. À partir de 2 cumuls, régénère 20% de Cerveau dans une cuve au début du tour pour un personnage aléatoire. À partir de 3 cumuls, régénère 10% de Cerveau dans une cuve pour tous les alliés au début du tour.",
+        "desc": "Lorsque Suspicion atteint 99 cumuls, l'effet est consommé et se transforme en 1 cumul d'Auto-négation, ce qui augmente les dégâts sur la durée infligés par les assaillants de cette unité de 70%. Chaque cumul augmente les DGT sur la durée infligés de 10%, cumulable jusqu'à 50 fois. Les ennemis subissent des dégâts de foudre sur la durée équivalents à 135% des DGT de base au début de leur tour, et les cibles adjacentes subissent des dégâts de foudre sur la durée équivalents à 20% du multiplicateur de DGT initial. À partir de 2 cumuls, régénère 20% de Cerveau dans une cuve au début du tour pour un personnage aléatoire. À partir de 3 cumuls, régénère 10% de Cerveau dans une cuve pour tous les alliés au début du tour.",
         "enhanced_desc": ""
     },
     "670320": {
@@ -2505,13 +3683,13 @@
     "670630": {
         "id": "670630",
         "name": "Médecin conseiller",
-        "desc": "Les DGT infligés par Goutte de rosée sont considérés comme étant des DGT d'attaque de suivi. Après que Goutte de rosée se déclenche parce qu'un personnage a lancé une attaque de suivi ou a utilisé une attaque, il y a 16% de chances fixes à chaque fois de provoquer l'effet suivant : Goutte de rosée est chargée à 80% de son maximum et inflige des DGT équivalents à 1/2/3/4 fois de la charge de Goutte de rosée avec une chance fixe de 10%/40%/40%/10%.",
+        "desc": "Les DGT infligés par Goutte de rosée sont considérés comme étant des DGT d'ATQ de suivi. Après que Goutte de rosée se déclenche parce qu'un personnage a lancé une ATQ de suivi ou a utilisé une attaque, il y a 16% de chances fixes à chaque fois de provoquer l'effet suivant : Goutte de rosée est chargée à 80% de son maximum et inflige des DGT équivalents à 1/2/3/4 fois de la charge de Goutte de rosée avec une chance fixe de 10%/40%/40%/10%.",
         "enhanced_desc": ""
     },
     "670640": {
         "id": "670640",
         "name": "Voleur fantôme",
-        "desc": "« Préavis » apparaît dans l'ordre d'action. Lorsqu'un personnage déclenche une attaque de suivi, son action est avancée de 5%. Lorsque Préavis agit, l'action du premier personnage dans la composition d'équipe est avancée de 100%. Après que ce personnage a utilisé une attaque, inflige 10 frappes de DGT d'Arrière-goût équivalents à 40% de l'ATQ du personnage, jusqu'à un maximum de 4 attaques. De plus, le multiplicateur de DGT d'Arrière-goût des alliés augmente à hauteur de 100% du multiplicateur initial, et un compte à rebours avec 100 de VIT apparaît dans l'ordre d'action. L'effet dure jusqu'au début du tour du compte à rebours.",
+        "desc": "« Préavis » apparaît dans l'ordre d'action. Lorsqu'un personnage déclenche une ATQ de suivi, son action est avancée de 5%. Lorsque Préavis agit, l'action du premier personnage dans la composition d'équipe est avancée de 100%. Après que ce personnage a utilisé une attaque, inflige 10 frappes de DGT d'Arrière-goût équivalents à 40% de l'ATQ du personnage, jusqu'à un maximum de 4 attaques. De plus, le multiplicateur de DGT d'Arrière-goût des alliés augmente à hauteur de 100% du multiplicateur initial, et un compte à rebours avec 100 de VIT apparaît dans l'ordre d'action. L'effet dure jusqu'au début du tour du compte à rebours.",
         "enhanced_desc": ""
     },
     "670700": {
@@ -2607,7 +3785,7 @@
     "671260": {
         "id": "671260",
         "name": "Bouffon d'Anatta",
-        "desc": "Lorsqu'un personnage lance une attaque de suivi, il y a 150% de chances de base d'appliquer 1 malus aléatoire sur la cible attaquée, qui dure pendant 2 tours. Le malus aléatoire inclut : réduction des DGT infligés de 15.0%, réduction de la DÉF de 30.0% et réduction de la VIT de 20.0%.",
+        "desc": "Lorsqu'un personnage lance une ATQ de suivi, il y a 150% de chances de base d'appliquer 1 malus aléatoire sur la cible attaquée, qui dure pendant 2 tours. Le malus aléatoire inclut : réduction des DGT infligés de 15.0%, réduction de la DÉF de 30.0% et réduction de la VIT de 20.0%.",
         "enhanced_desc": ""
     },
     "671340": {
@@ -2655,7 +3833,7 @@
     "671460": {
         "id": "671460",
         "name": "Chasseur de primes",
-        "desc": "Lorsque l'attaque d'un personnage inflige des DGT critiques, il a 65% de chances fixes d'infliger des DGT critiques supplémentaires équivalents à un montant fixe (situé entre 1 et 100 %) des DGT initiaux 1 fois. Ces DGT sont considérés comme des DGT d'attaque de suivi.",
+        "desc": "Lorsque l'attaque d'un personnage inflige des DGT critiques, il a 65% de chances fixes d'infliger des DGT critiques supplémentaires équivalents à un montant fixe (situé entre 1 et 100 %) des DGT initiaux 1 fois. Ces DGT sont considérés comme des DGT d'ATQ de suivi.",
         "enhanced_desc": ""
     },
     "671500": {
@@ -2691,13 +3869,13 @@
     "671650": {
         "id": "671650",
         "name": "Maître des feux d'artifice",
-        "desc": "Les DGT d'attaque de suivi des personnages augmentent de 50%. Après qu'un personnage a lancé une attaque de suivi, inflige 1 instance de DGT d'Arrière-goût à la cible ennemie attaquée. Ces DGT sont équivalents à 500% du total de PV que le personnage a déjà perdus + les PV qu'il a restaurés. Puis, efface les changements de PV accumulés. Les changements de PV peuvent être accumulés jusqu'à 200% des PV max du personnage.",
+        "desc": "Les DGT d'ATQ de suivi des personnages augmentent de 50%. Après qu'un personnage a lancé une ATQ de suivi, inflige 1 instance de DGT d'Arrière-goût à la cible ennemie attaquée. Ces DGT sont équivalents à 500% du total de PV que le personnage a déjà perdus + les PV qu'il a restaurés. Puis, efface les changements de PV accumulés. Les changements de PV peuvent être accumulés jusqu'à 200% des PV max du personnage.",
         "enhanced_desc": ""
     },
     "671670": {
         "id": "671670",
         "name": "Esprit éthéré",
-        "desc": "Fait passer le nombre maximum de spores à 5. Après qu'un personnage lance une attaque de suivi, applique 3 spores à la cible.",
+        "desc": "Fait passer le nombre maximum de spores à 5. Après qu'un personnage lance une ATQ de suivi, applique 3 spores à la cible.",
         "enhanced_desc": ""
     },
     "671680": {
@@ -2781,7 +3959,7 @@
     "672060": {
         "id": "672060",
         "name": "Tisserêve",
-        "desc": "Lorsqu'un personnage lance une attaque de suivi, inflige des DGT de Séisme équivalents à 360% de la valeur de bouclier actuelle du personnage à la ou aux cibles attaquées.",
+        "desc": "Lorsqu'un personnage lance une ATQ de suivi, inflige des DGT de Séisme équivalents à 360% de la valeur de bouclier actuelle du personnage à la ou aux cibles attaquées.",
         "enhanced_desc": ""
     },
     "672100": {
@@ -2955,7 +4133,7 @@
     "672670": {
         "id": "672670",
         "name": "Marchand de ballons",
-        "desc": "Augmente les DGT d'attaque de suivi infligés par les personnages de 50%. Après avoir lancé une attaque de suivi, il y a 100% de chances fixes de récupérer 1 point de compétence.",
+        "desc": "Augmente les DGT d'ATQ de suivi infligés par les personnages de 50%. Après avoir lancé une ATQ de suivi, il y a 100% de chances fixes de récupérer 1 point de compétence.",
         "enhanced_desc": ""
     },
     "672680": {
@@ -3015,13 +4193,445 @@
     "672860": {
         "id": "672860",
         "name": "Réparateur",
-        "desc": "Augmente les DGT d'ultime des personnages de 60%. Après avoir déclenché une attaque de suivi, pour chaque cible ennemie touchée, le prochain ultime ignore 5% de la DÉF des cibles ennemies, cumulable jusqu'à 5 fois.",
+        "desc": "Augmente les DGT d'ultime des personnages de 60%. Après avoir déclenché une ATQ de suivi, pour chaque cible ennemie touchée, le prochain ultime ignore 5% de la DÉF des cibles ennemies, cumulable jusqu'à 5 fois.",
         "enhanced_desc": ""
     },
     "672870": {
         "id": "672870",
         "name": "Kolchis",
         "desc": "Chaque point de compétence consommé par les personnages augmente les DGT d'ultime de 65%, jusqu'à un maximum de 130%. Dure jusqu'à la fin de l'utilisation de l'ultime.",
+        "enhanced_desc": ""
+    },
+    "673140": {
+        "id": "673140",
+        "name": "Gardien du serment",
+        "desc": "Après le tour 12 (compté comme le nombre total de tours de tous les alliés), avance l'action du premier personnage de la formation et de son mnémesprit de 100 %. Lors des 1 tours suivants, ils bénéficient d'un tour supplémentaire à la fin de chaque tour. En attaquant pendant ces tours supplémentaires, inflige aux ennemis attaqués des DGT additionnels équivalents à 600% de l'ATQ de l'assaillant. Chaque cumul d'Obsession appliqué aux alliés augmente ces DGT de 1% du multiplicateur initial.",
+        "enhanced_desc": ""
+    },
+    "673150": {
+        "id": "673150",
+        "name": "Prêtre de l'élégie",
+        "desc": "Fleur de l'annihilation apparaît dans l'ordre d'action et enregistre la valeur de Blazar obtenue par les alliés. Lors de son action, Fleur de l'annihilation inflige des DGT de feu équivalents à 5000% de la valeur enregistrée + 3000% des DGT de base à toutes les cibles ennemies, puis réinitialise la valeur enregistrée. Sa VIT augmente de 1% pour chaque cumul d'Obsession que possèdent les alliés. Lorsqu'une cible alliée entre en combat ou est à terre, ou lorsqu'un mnémesprit est invoqué ou disparaît, les alliés obtiennent une charge de Blazar équivalente à 25% des PV max de toutes les cibles alliées.",
+        "enhanced_desc": ""
+    },
+    "673210": {
+        "id": "673210",
+        "name": "Artisan des anneaux de croissance",
+        "desc": "Lorsque des cibles ennemies se voient appliquer l'effet Gelé ou des dégâts sur la durée, il y a 150% de chances de base de propager cet effet aux unités adjacentes. Cet effet est propagé de nouveau à l'unité initiale s'il n'y a aucune cible adjacente. Une même cible ne peut recevoir qu'1 fois le même effet propagé au cours d'une même action. Lorsqu'une cible ennemie a reçu un total de 15 fois un effet propagé ou qu'elle est éliminée, inflige des DGT de glace équivalents à 2000% des DGT de base à cette cible et aux cibles adjacentes. Chaque cumul d'Obsession appliqué aux alliés augmente ces DGT de 1%.",
+        "enhanced_desc": ""
+    },
+    "673280": {
+        "id": "673280",
+        "name": "Bois des murmures",
+        "desc": "Après que les cibles alliées ont utilisé un total de 5 ultimes, Murmure inflige des DGT équivalents à 60%du multiplicateur de DGT initial aux cibles adjacentes. Ensuite, les DGT infligés par Murmure augmentent de 60% chaque fois qu'un ultime est utilisé.",
+        "enhanced_desc": ""
+    },
+    "673420": {
+        "id": "673420",
+        "name": "Agent de la rivière grise",
+        "desc": "À chaque fois que les alliés obtiennent 10 cumuls d'Amélioration critique ou qu'ils éliminent une cible ennemie, tire 10 Flèches de lumière pour attaquer des cibles ennemies aléatoires. Chaque Flèche de lumière inflige des DGT de vent équivalents à 300% des DGT de base. Chaque Flèche de lumière permet à Murmure d'infliger des DGT équivalents à 30% des DGT initiaux, et charge Murmure à hauteur de 20% de la somme des ATQ des personnages alliés.",
+        "enhanced_desc": ""
+    },
+    "673470": {
+        "id": "673470",
+        "name": "Créature bestiale",
+        "desc": "Lorsqu'il n'existe pas de cible ennemie avec Langage des bêtes, applique Langage des bêtes à une cible aléatoire attaquée après qu'une cible alliée a utilisé une attaque. Lorsqu'un ennemi avec Langage des bêtes a subi un total de 8 attaques ou a été éliminé, il subit des DGT de foudre équivalents à 4000% des DGT de base, et les cibles adjacentes subissent des DGT équivalents à 3000% des DGT de base. De plus, les DGT critiques de tous les alliés augmentent de 60%, et leur VIT de 20%, pendant 2 tours. Si les alliés sont dans l'état Âme de papillon, ils sont considérés comme ayant lancé 1 attaques supplémentaires.",
+        "enhanced_desc": ""
+    },
+    "673560": {
+        "id": "673560",
+        "name": "Auteur du conflit",
+        "desc": "Lorsqu'une cible alliée a perdu un total de PV équivalent à 100% de ses PV max ou qu'elle se rétablit après être tombée à terre, inflige à tous les ennemis des DGT d'Arrière-goût équivalents à 350% de ses PV max. Lorsque le tour d'un personnage commence, consomme des PV équivalents à 5% de ses PV max, et ce montant augmente de 5% chaque fois que cet effet se déclenche. Lorsqu'un personnage allié tombe à terre pour la première fois en combat, ses PV sont restaurés à hauteur de 100% de ses PV max, et ses PV ne sont plus consommés lorsque son tour commence.",
+        "enhanced_desc": ""
+    },
+    "673580": {
+        "id": "673580",
+        "name": "Prêtre du Ciel",
+        "desc": "Lorsqu'une cible alliée est attaquée, accorde 2 Sacrifice(s) radieux. Lorsqu'un contre est lancé, accorde 1 Sacrifice(s) radieux. Après avoir cumulé 6 Sacrifices radieux, tous les cumuls sont consommés pour augmenter les DGT d'ultime infligés de 180% pendant 2 tours, et infliger  200% de DGT de Blazar à tous les ennemis. Ces DGT sont considérés comme des DGT d'ultime.",
+        "enhanced_desc": ""
+    },
+    "673640": {
+        "id": "673640",
+        "name": "Blessure d'abondance",
+        "desc": "« Voix lancinante » apparaît dans l'ordre d'action. Après qu'une cible alliée a lancé une ATQ de suivi, son action est avancée de 5%. Lorsque Voix lancinante agit, l'action de la première cible alliée dans la composition d'équipe est avancée de 100%. Après que cette unité a utilisé une attaque, inflige 10 instances de DGT d'Arrière-goût équivalents à 30% de l'ATQ de la cible alliée, jusqu'à un maximum de 4 instances. De plus, le multiplicateur de DGT d'Arrière-goût de toutes les cibles alliées augmente à hauteur de 100% du multiplicateur initial, et un compte à rebours avec 150 de VIT apparaît dans l'ordre d'action. L'effet dure jusqu'au début du tour du compte à rebours.",
+        "enhanced_desc": ""
+    },
+    "673690": {
+        "id": "673690",
+        "name": "Jardin sans larmes",
+        "desc": "Les ATQ de suivi ignorent le type de faiblesse pour réduire la robustesse de 10.0 points supplémentaires. Lorsqu'une cible alliée inflige une Rupture de faiblesse à une cible ennemie, elle inflige à toutes les cibles ennemies 2 instances de DGT d'Arrière-goût équivalents à 150% de l'ATQ. Ces DGT augmentent à hauteur de 1% pour chaque point de robustesse max de l'ennemi.",
+        "enhanced_desc": ""
+    },
+    "673710": {
+        "id": "673710",
+        "name": "Maison des poèmes",
+        "desc": "La charge nécessaire pour activer Âme de papillon augmente de 50%. Après l'entrée dans l'état Âme de papillon, l'action de toutes les cibles alliées est avancée de 50% et le multiplicateur de DGT des DGT réels infligés par Âme de papillon augmente à hauteur de 50% du multiplicateur initial. D'autre part, chaque cumul d'Obsession appliqué à tous les alliés augmente ce multiplicateur de 1% supplémentaires.",
+        "enhanced_desc": ""
+    },
+    "673790": {
+        "id": "673790",
+        "name": "Fabricant de chrysalides",
+        "desc": "Lors de l'entrée dans l'état Âme de papillon, applique Cocon à toutes les cibles ennemies, ce qui les empêche d'agir lors du tour suivant, retarde leur action de 50% au début du tour, et leur inflige des DGT physiques équivalents à 3500% des DGT de base. Lorsque les alliés sont dans l'état Âme de papillon, les cibles ennemies se voient à nouveau appliquer Cocon tous les 2 tours et Âme de papillon récupère 1 cumuls d'attaque après la première fois qu'un ennemi subit une Rupture de faiblesse.",
+        "enhanced_desc": ""
+    },
+    "673860": {
+        "id": "673860",
+        "name": "Marionnettiste",
+        "desc": "Après que tous les alliés ont utilisé un total de 6 ultimes sans être sous l'effet « Surcadençage », obtient l'effet « Surcadençage » : après avoir attaqué avec un ultime, inflige 3 fois des DGT d'Arrière-goût équivalents à 130% de l'ATQ de l'assaillant aux cibles attaquées. Cet état prend fin après avoir utilisé un ultime. Le premier personnage de la formation à activer son ultime charge Cerveau dans une cuve à hauteur de 200%, et peut utiliser son ultime 4 fois avant que le statut ne se termine.",
+        "enhanced_desc": ""
+    },
+    "673870": {
+        "id": "673870",
+        "name": "Caprisme",
+        "desc": "Après que les alliés ont utilisé un total de 2 ultimes, inflige 2 instance(s) de DGT de vent équivalents à 600% des DGT de base à une cible ennemie aléatoire . Ces DGT appliquent des DGT équivalents à 30% des DGT initiaux aux unités adjacentes. Chaque fois que cet effet est déclenché, le nombre d'instances pour le reste du combat augmente de 1 et les DGT d'ATQ normale, de compétence et d'ultime infligés par les cibles alliées augmentent de 12%. Cet effet peut se cumuler jusqu'à 15 fois.",
+        "enhanced_desc": ""
+    },
+    "673920": {
+        "id": "673920",
+        "name": "Articulation de la paresse",
+        "desc": "Lorsqu'un allié inflige une Rupture de faiblesse à une cible ennemie, lui applique 20 cumuls d'Harmonisation. Après avoir attaqué une cible ennemie en état de Rupture de faiblesse, les cumuls Harmonisation et les dégâts sur la durée appliqués lui infligent immédiatement des DGT équivalents à 24% des DGT initiaux.",
+        "enhanced_desc": ""
+    },
+    "673950": {
+        "id": "673950",
+        "name": "Alliance des Chasseurs de flammes",
+        "desc": "Lorsqu'une cible ennemie subit des DGT de rupture, elle subit également 3 fois des DGT équivalents à 35% de la limite maximale d'Harmonisation. De plus, tous les alliés reçoivent une charge de Blazar à hauteur de 25% de leurs PV max respectifs. Cet effet ne peut être déclenché qu'1 fois par tour et par cible ennemie.",
+        "enhanced_desc": ""
+    },
+    "674140": {
+        "id": "674140",
+        "name": "Investigateur de l'histoire",
+        "desc": "Lorsqu'une cible alliée est attaquée, la VIT de toutes les cibles alliées augmente de 35% pendant 2 tours et elles obtiennent 2 cumuls d'Amélioration critique. L'état Amélioration critique n'est pas perdu lorsque les mnémesprits sont attaqués.",
+        "enhanced_desc": ""
+    },
+    "674160": {
+        "id": "674160",
+        "name": "Artisan des souvenirs amers",
+        "desc": "Chaque cumul d'Obsession augmente l'ATQ de toutes les cibles alliées de 1.5% supplémentaires. Après qu'un personnage a utilisé une attaque, la prochaine attaque de son mnémesprit est considérée comme une ATQ de suivi.",
+        "enhanced_desc": ""
+    },
+    "674190": {
+        "id": "674190",
+        "name": "Clan de la fournaise",
+        "desc": "Augmente le nombre maximal de cumuls d'Obsession des alliés de 4. Augmente les PV max de tous les alliés de 0.4% pour chaque cumul d'Obsession. Lorsqu'un ennemi subit une Rupture de faiblesse, tous les alliés obtiennent 3 cumuls d'Obsession.",
+        "enhanced_desc": ""
+    },
+    "674240": {
+        "id": "674240",
+        "name": "Exécuteur",
+        "desc": "Les dégâts sur la durée subis par les cibles ennemies peuvent être critiques. Les chances de coup critique/DGT critiques sont équivalents à 20% des chances de coup critique/DGT critiques du personnage. Les DGT critiques sont plafonnés à 120%.",
+        "enhanced_desc": ""
+    },
+    "674260": {
+        "id": "674260",
+        "name": "Enterreur marin",
+        "desc": "Augmente le seuil de suppression de Murmure de 120%. Après qu'une cible alliée a lancé une ATQ de suivi, Murmure inflige des DGT équivalents à 20% des DGT initiaux à la cible attaquée.",
+        "enhanced_desc": ""
+    },
+    "674280": {
+        "id": "674280",
+        "name": "Officier de censure",
+        "desc": "Les DGT d'ultime infligés par les cibles alliées augmentent de 160%. Après avoir utilisé un ultime, le Murmure de la cible attaquée obtient une charge équivalente à 10% de cette instance de DGT d'ultime. Cette augmentation ne peut pas excéder 300% de la somme des ATQ des personnages alliés.",
+        "enhanced_desc": ""
+    },
+    "674410": {
+        "id": "674410",
+        "name": "Archer des souvenirs",
+        "desc": "Augmente la limite de cumuls d'Amélioration critique de 4. Chaque cumul d'Amélioration critique augmente la VIT de 3% supplémentaires. Cet effet augmente de 2% supplémentaires pour les mnémesprits.",
+        "enhanced_desc": ""
+    },
+    "674460": {
+        "id": "674460",
+        "name": "Troupe itinérante",
+        "desc": "Après qu'une cible alliée a utilisé une attaque et infligé des DGT critiques, elle inflige 1 fois des DGT réels équivalents de 1 % à 50% des DGT initiaux après l'attaque. Si l'attaque était une ATQ de suivi, inflige des DGT réels équivalents de 1 % à 70% des DGT initiaux à la place.",
+        "enhanced_desc": ""
+    },
+    "674470": {
+        "id": "674470",
+        "name": "Griffe dorée du chasseur de couronne",
+        "desc": "À chaque fois que l'action des cibles alliées est avancée de 1 %, les DGT infligés lors du prochain tour augmentent de 2%, jusqu'à un maximum de 100%. Cet effet est majoré de 30% contre les cibles dans l'état Âme de papillon.",
+        "enhanced_desc": ""
+    },
+    "674520": {
+        "id": "674520",
+        "name": "Esprit de la flamme menaçante",
+        "desc": "Lorsqu'une cible alliée inflige des DGT de Blazar et que l'ennemi est affecté par un état de dégâts sur la durée, le multiplicateur de DGT de cette instance de Blazar augmente à hauteur de 60% du multiplicateur initial. Chaque type de dégâts sur la durée augmente ce multiplicateur de 15% supplémentaires.",
+        "enhanced_desc": ""
+    },
+    "674570": {
+        "id": "674570",
+        "name": "Phénix de la couronne solaire",
+        "desc": "Augmente l'efficacité de charge de Blazar de 50%. Lorsque l'état Âme de papillon est actif, utiliser l'ATQ normale ou la compétence pour lancer une attaque inflige 100% de DGT de Blazar à la cible.",
+        "enhanced_desc": ""
+    },
+    "674590": {
+        "id": "674590",
+        "name": "Avant-garde d'Acrokopis",
+        "desc": "Lorsqu'une cible alliée inflige une Rupture de faiblesse à une cible ennemie, charge Blazar à hauteur de 25% des PV max. Si toutes les cibles ennemies subissent une Rupture de faiblesse, Blazar n'est pas supprimé au début du tour des cibles alliées.",
+        "enhanced_desc": ""
+    },
+    "674620": {
+        "id": "674620",
+        "name": "Théoricien du complot",
+        "desc": "Après qu'une cible alliée a lancé une ATQ de suivi, il y a 150% de chances de base d'appliquer 1 malus aléatoire à la cible attaquée, pour une durée de 2 tours. Les malus aléatoires incluent : réduction des DGT infligés de 15.0%, réduction de la DÉF de 30.0% et réduction de la VIT de 20.0%.",
+        "enhanced_desc": ""
+    },
+    "674650": {
+        "id": "674650",
+        "name": "Bourreau souriant",
+        "desc": "Après qu'une cible alliée a utilisé une attaque, si ses PV sont supérieurs à 60%, elle consomme 5% de ses PV max et inflige 1 instance de DGT d'Arrière-goût équivalents à 120% de ses PV max.",
+        "enhanced_desc": ""
+    },
+    "674680": {
+        "id": "674680",
+        "name": "Superviseur ivre",
+        "desc": "Augmente les DGT critiques infligés par les ATQ de suivi des cibles alliées de 150%. Lors de l'utilisation de Cerveau dans une cuve pour lancer un ultime et infliger des DGT à des cibles ennemies, cet ultime est considéré comme une ATQ de suivi.",
+        "enhanced_desc": ""
+    },
+    "674710": {
+        "id": "674710",
+        "name": "Cultivateur de graines de mémoire",
+        "desc": "Le multiplicateur de DGT réels d'Âme de papillon augmente de 60% du multiplicateur initial, et le nombre d'attaques augmente de 4. Lorsqu'un mnémesprit utilise une attaque, il peut déclencher les DGT réels d'Âme de papillon et consommer son nombre d'attaques.",
+        "enhanced_desc": ""
+    },
+    "674780": {
+        "id": "674780",
+        "name": "Dispositif divin de fabrication de livres",
+        "desc": "Lorsqu'une cible alliée entre dans l'état Âme de papillon, l'ultime utilisé inflige également des DGT réels d'Âme de papillon et augmente le nombre d'attaques d'Âme de papillon de 2. Cet effet peut se déclencher jusqu'à 1 fois pour chaque allié.",
+        "enhanced_desc": ""
+    },
+    "674790": {
+        "id": "674790",
+        "name": "Orphelinat des délaissés",
+        "desc": "Récupère 1 point de compétence après avoir infligé une Rupture de faiblesse à une cible ennemie. Utiliser l'ATQ normale ou la compétences pour attaquer des cibles ennemies inflige 5 de réduction de robustesse supplémentaire et applique 2 cumuls d'Harmonisation.",
+        "enhanced_desc": ""
+    },
+    "674810": {
+        "id": "674810",
+        "name": "Érythrocéramisme",
+        "desc": "Lorsqu'un mnémesprit lance une attaque, charge le Cerveau dans une cuve de son mnémomaître de 8%. Lorsque le mnémomaître utilise Cerveau dans une cuve pour lancer son ultime, les DGT du mnémesprit augmentent de 240% pendant 4 tours.",
+        "enhanced_desc": ""
+    },
+    "674840": {
+        "id": "674840",
+        "name": "Savant guerrier",
+        "desc": "Lorsqu'une cible alliée inflige une Rupture de faiblesse à une cible ennemie, charge Cerveau dans une cuve de 20% et régénère un montant d'énergie équivalent à 10% de l'énergie max. Après avoir vaincu la cible, régénère un montant d'énergie équivalent à 60% de l'énergie max.",
+        "enhanced_desc": ""
+    },
+    "674850": {
+        "id": "674850",
+        "name": "Martyr du savoir interdit",
+        "desc": "Lorsqu'une cible alliée utilise un ultime, toutes les cibles alliées consomment des PV équivalents à 5% de leurs PV actuels et les DGT qu'ils infligent augmentent de 30% jusqu'à un max de 4 cumuls, pour une durée de 2 tours.",
+        "enhanced_desc": ""
+    },
+    "674920": {
+        "id": "674920",
+        "name": "Patient en déclin",
+        "desc": "Lorsqu'une cible ennemie subit des DGT d'Harmonisation, elle subit 1 instance de DGT d'Harmonisation supplémentaires équivalents à 75% des DGT initiaux. Chaque malus appliqué sur la cible augmente ces DGT de 2%, jusqu'à un maximum de 40%.",
+        "enhanced_desc": ""
+    },
+    "674950": {
+        "id": "674950",
+        "name": "Partageurs de mort",
+        "desc": "Augmente l'effet de Rupture des cibles alliées de 100%. Lorsqu'ils utilisent des attaques pour infliger une Rupture de faiblesse à une cible ennemie, les alliés obtiennent un bouclier qui absorbe des DGT équivalents à 30% de leurs PV max pendant 5 tours. D'autre part, inflige 300% de DGT de Blazar supplémentaires à la cible actuelle après une attaque.",
+        "enhanced_desc": ""
+    },
+    "674970": {
+        "id": "674970",
+        "name": "Société de charité",
+        "desc": "Après qu'une cible alliée a attaqué une cible ennemie en état de Rupture de faiblesse, convertit la réduction de robustesse de cette attaque en 1 instance de 100% de DGT de rupture extrême. Lorsque l'état Âme de papillon est actif, cet effet inflige 100% de DGT de rupture extrême supplémentaires.",
+        "enhanced_desc": ""
+    },
+    "675140": {
+        "id": "675140",
+        "name": "Juge du voile nocturne",
+        "desc": "Après qu'un mnémesprit disparaît, la VIT de toutes les cibles alliées augmente de 25%, et les DGT critiques augmentent de 100% pendant 5 tours.",
+        "enhanced_desc": ""
+    },
+    "675170": {
+        "id": "675170",
+        "name": "Sculpteur de vie",
+        "desc": "Augmente les DGT infligés par les mnémesprits de 80%. Lorsqu'un mnémesprit utilise une attaque, les DGT infligés par la prochaine ATQ normale/compétence du mnémomaître augmentent de 80%.",
+        "enhanced_desc": ""
+    },
+    "675180": {
+        "id": "675180",
+        "name": "Poète",
+        "desc": "Lorsque les alliés ont plus de 70 cumuls d'Obsession, augmente les DGT d'ultime de 75% et les DGT des mnémesprits de 75%.",
+        "enhanced_desc": ""
+    },
+    "675190": {
+        "id": "675190",
+        "name": "Prêtre du Temps",
+        "desc": "Lorsque les cibles alliées bénéficient d'Obsession, augmente leur PÉN de RÉS à tous les types de 15%. Chaque cumul d'Obsession augmente l'effet de Rupture de toutes les cibles alliées de 0.5%.",
+        "enhanced_desc": ""
+    },
+    "675210": {
+        "id": "675210",
+        "name": "Passager de la Rivière des âmes",
+        "desc": "Augmente les dégâts sur la durée infligés par les cibles alliées de 50%. Les cibles ennemies qui entrent en combat subissent l'état « Conscience ». Au début du tour, elles subissent des dégâts de feu sur la durée équivalents à 75% des DGT de base. Ces DGT augmentent de 1% pour chaque cumul d'Obsession appliqué à toutes les cibles alliées.",
+        "enhanced_desc": ""
+    },
+    "675250": {
+        "id": "675250",
+        "name": "Pèlerin lugubre",
+        "desc": "Lorsqu'une cible ennemie entre en combat, elle se voit infliger l'effet Saignement. Sous l'effet Saignement, elle subit des dégâts physiques sur la durée équivalents à 10% de ses PV max au début de son tour. Ces DGT ne peuvent pas dépasser 200% des PV totaux de toutes les cibles alliées.",
+        "enhanced_desc": ""
+    },
+    "675270": {
+        "id": "675270",
+        "name": "Semeur d'os",
+        "desc": "Augmente le seuil de suppression de Murmure de 80%. Après la consommation de point de compétence, charge Murmure pour tous les ennemis à hauteur de 4% du seuil de suppression.",
+        "enhanced_desc": ""
+    },
+    "675280": {
+        "id": "675280",
+        "name": "Société du Désespoir",
+        "desc": "Quand une cible ennemie est vaincue, tous les alliés récupèrent 5.0 points d'énergie pour chaque état Brûlure, Stupéfaction, Saignement ou Faille du vent appliqué à la cible éliminée.",
+        "enhanced_desc": ""
+    },
+    "675420": {
+        "id": "675420",
+        "name": "Arbitres de la loi",
+        "desc": "Augmente de 1.0% (jusqu'à 150%) les DGT critiques subis par les cibles ennemies chaque fois que la charge de Murmure atteint 1 % du seuil de suppression.",
+        "enhanced_desc": ""
+    },
+    "675450": {
+        "id": "675450",
+        "name": "Voyageur d'Acrokopis",
+        "desc": "Augmente la valeur de bouclier accordée aux alliés de 30%. Lorsqu'une cible alliée subit une attaque et qu'aucun DGT n'a été infligé, elle ne perd que 1 cumul(s) d'Amélioration critique.",
+        "enhanced_desc": ""
+    },
+    "675480": {
+        "id": "675480",
+        "name": "Chasseur de bêtes",
+        "desc": "Augmente les DGT critiques de 8% pour chaque cumul d'Amélioration critique. Lorsqu'une cible alliée utilise son ultime, hérite de cette limite de cumuls et reçoit 2 cumuls d'Amélioration critique.",
+        "enhanced_desc": ""
+    },
+    "675490": {
+        "id": "675490",
+        "name": "Purificateur",
+        "desc": "Lorsqu'une cible alliée inflige des DGT à une cible ennemie en état de Rupture de faiblesse, chaque cumul d'Amélioration critique augmente les chances de coup critique de 4% supplémentaires et les DGT critiques de 30%.",
+        "enhanced_desc": ""
+    },
+    "675520": {
+        "id": "675520",
+        "name": "Croc du soleil mourant",
+        "desc": "Augmente la RÉS aux effets de toutes les cibles alliées de 20% et les DGT infligés par Blazar de 40%. Lorsqu'un allié résiste à un malus, inflige à la cible des DGT supplémentaires équivalents à 60% des DGT de Blazar. Ces DGT ne peuvent pas vaincre les cibles ennemies.",
+        "enhanced_desc": ""
+    },
+    "675540": {
+        "id": "675540",
+        "name": "Enfant insensé du sang doré",
+        "desc": "Lorsqu'une cible ennemie est éliminée, augmente l'efficacité de charge de Blazar de 18% jusqu'à un maximum de 3 cumuls. Rend également à tous les alliés un montant de PV équivalent à 30% de leurs PV max respectifs.",
+        "enhanced_desc": ""
+    },
+    "675560": {
+        "id": "675560",
+        "name": "Messager de la lune rouge",
+        "desc": "Augmente la valeur de base de Blazar de 50%. Après qu'une cible alliée a lancé une ATQ de suivi, la cible alliée avec le pourcentage de PV le plus bas restaure un montant de PV équivalent à 10% de ses PV max.",
+        "enhanced_desc": ""
+    },
+    "675590": {
+        "id": "675590",
+        "name": "Légion de la lame céleste",
+        "desc": "Augmente la valeur de bouclier reçue de 30%. Après avoir infligé une Rupture de faiblesse à une cible ennemie, tous les alliés bénéficient un bouclier d'une valeur équivalente à 15% de leurs PV max respectifs pendant 2 tours.",
+        "enhanced_desc": ""
+    },
+    "675650": {
+        "id": "675650",
+        "name": "Lyriste de l'eau",
+        "desc": "Après qu'une cible alliée a lancé une ATQ de suivi, inflige 70% de DGT de Blazar aux cibles attaquées.",
+        "enhanced_desc": ""
+    },
+    "675670": {
+        "id": "675670",
+        "name": "Sirène chasseuse de vagues",
+        "desc": "Augmente les DGT d'ATQ de suivi infligés par les cibles alliées de 75%. Après avoir lancé une ATQ de suivi, il y a 30% de chances fixes de récupérer 1 point de compétence.",
+        "enhanced_desc": ""
+    },
+    "675680": {
+        "id": "675680",
+        "name": "Sophiste des dieux",
+        "desc": "Après qu'un allié a utilisé un ultime, inflige des DGT d'Arrière-goût équivalents à 240% de l'ATQ 1 fois à la cible lors de la prochaine attaque.",
+        "enhanced_desc": ""
+    },
+    "675690": {
+        "id": "675690",
+        "name": "Bateau de l'ivresse",
+        "desc": "Les DGT d'Arrière-goût infligés par les cibles alliées peuvent ignorer le type de faiblesse et réduire 1.0 de la robustesse des cibles ennemies. Cet effet peut être déclenché contre chaque cible ennemie jusqu'à 10 fois en une seule attaque.",
+        "enhanced_desc": ""
+    },
+    "675710": {
+        "id": "675710",
+        "name": "Réminide de la Création",
+        "desc": "Après l'attaque d'un mnémesprit, charge Chrysalide d'âme à hauteur de 15% avec 40% de chances de récupérer 1 point de compétence.",
+        "enhanced_desc": ""
+    },
+    "675720": {
+        "id": "675720",
+        "name": "Cour en pierre",
+        "desc": "Augmente le multiplicateur de DGT réels d'Âme de papillon de 35% du multiplicateur initial. Chaque malus appliqué à la cible ennemie augmente le multiplicateur de DGT de 1% du multiplicateur initial.",
+        "enhanced_desc": ""
+    },
+    "675750": {
+        "id": "675750",
+        "name": "Mystères d'or",
+        "desc": "Augmente les DGT infligés par les ATQ normales et les compétences des cibles alliées de 80%. Lorsqu'une cible alliée utilise une ATQ normale et que son pourcentage de PV est supérieur ou égal à 50%, il consomme un montant de PV équivalent à 10% de ses PV max et récupère 1 point de compétence supplémentaire.",
+        "enhanced_desc": ""
+    },
+    "675760": {
+        "id": "675760",
+        "name": "Musicien voleur",
+        "desc": "Pour chaque point de compétence consommé par une cible alliée, la prochaine attaque inflige des DGT d'Arrière-goût équivalents à 70% de l'ATQ à la cible, cumulable jusqu'à 3 fois.",
+        "enhanced_desc": ""
+    },
+    "675810": {
+        "id": "675810",
+        "name": "Scribe des sables",
+        "desc": "Lorsqu'un personnage utilise son ultime, lui accorde à lui et à son mnémesprit 2 cumuls d'Obsession et augmente la VIT de 15% et l'ATQ de 70% pendant 3 tours.",
+        "enhanced_desc": ""
+    },
+    "675840": {
+        "id": "675840",
+        "name": "Enfant de la spirale",
+        "desc": "Lorsque le Cerveau dans une cuve d'une cible alliée atteint 100 %, augmente son ATQ de 80%. Après avoir utilisé une attaque, inflige des DGT additionnels équivalents à 80% de l'ATQ à la cible ennemie ayant le plus de PV parmi les cibles attaquées pendant 3 tours.",
+        "enhanced_desc": ""
+    },
+    "675860": {
+        "id": "675860",
+        "name": "Lotophagisme",
+        "desc": "Lorsqu'une cible alliée utilise son ultime, pour chaque tranche de 50 points d'énergie consommée, augmente l'ATQ de 5% et le multiplicateur des DGT d'Arrière-goût de 2% du multiplicateur initial. Cet effet peut être cumulé jusqu'à 20 fois et dure 3 tours. Le total de points d'énergie consommés lors de l'utilisation d'un ultime est considéré comme s'élevant au minimum à 80.",
+        "enhanced_desc": ""
+    },
+    "675870": {
+        "id": "675870",
+        "name": "Fée de la forêt",
+        "desc": "Chaque point de compétence consommé par les cibles alliées augmente les DGT d'ultime de 65%, jusqu'à un maximum de 130%. Dure jusqu'à la fin de l'utilisation de l'ultime.",
+        "enhanced_desc": ""
+    },
+    "675910": {
+        "id": "675910",
+        "name": "Jardin des échos",
+        "desc": "Chaque cumul d'Obsession augmente l'effet de Rupture de 0.8%. L'effet de Rupture du mnémesprit augmente de 0.5% supplémentaires.",
+        "enhanced_desc": ""
+    },
+    "675920": {
+        "id": "675920",
+        "name": "Ermite désorienté",
+        "desc": "Quand une cible alliée utilise une attaque pour infliger un malus à une cible ennemie, applique 1 cumuls d'Harmonisation aux cibles ennemies. Si les cibles sont en état de Rupture de faiblesse, le nombre de cumuls appliqués est doublé.",
+        "enhanced_desc": ""
+    },
+    "675940": {
+        "id": "675940",
+        "name": "Messager de la Chasse aux flammes",
+        "desc": "Augmente l'efficacité de Rupture de faiblesse des cibles alliées de 20%. Augmente la VIT de 10% et l'ATQ de 30% après avoir infligé une Rupture de faiblesse à une cible ennemie, et ce pendant 2 tours.",
+        "enhanced_desc": ""
+    },
+    "675960": {
+        "id": "675960",
+        "name": "Compagnie de l'aube",
+        "desc": "Augmente le multiplicateur de DGT d'Harmonisation de 50%. Après qu'une cible alliée a lancé une ATQ de suivi, applique 1 cumul d'Harmonisation aux cibles attaquées.",
         "enhanced_desc": ""
     }
 }

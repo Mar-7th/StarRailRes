@@ -705,7 +705,7 @@
         "id": "612442",
         "name": "Adept's Bow",
         "desc": "When any ally uses their Ultimate, they can inherit Critical Boost, and the number of Critical Boost stacks increases by 1.",
-        "enhanced_desc": "When any ally uses their Ultimate or performs a follow-up attack, they can inherit Critical Boost, and the number of Critical Boost stacks increases by 1."
+        "enhanced_desc": "When any ally uses their Ultimate or performs a Follow-up ATK, they can inherit Critical Boost, and the number of Critical Boost stacks increases by 1."
     },
     "612443": {
         "id": "612443",
@@ -800,7 +800,7 @@
     "612523": {
         "id": "612523",
         "name": "Resonance Formation: Event Horizon",
-        "desc": "When an ally whose current HP percentage is below 35% gets attacked, automatically releases 1 Path Resonance without consuming Energy. This effect can be triggered up to a max of #10[i] time(s) in a single battle and cannot be triggered multiple times by the same attack.",
+        "desc": "When an ally whose current HP percentage is below 35% gets attacked, automatically releases 1 Path Resonance without consuming Energy. This effect can be triggered up to a max of 2 time(s) in a single battle and cannot be triggered multiple times by the same attack.",
         "enhanced_desc": ""
     },
     "612524": {
@@ -812,7 +812,7 @@
     "612525": {
         "id": "612525",
         "name": "Resonance Interplay: Zero Age Main Sequence",
-        "desc": "When a character launches a follow-up attack, regenerates 5% Energy for Path Resonance. If the character's current HP percentage is lower than 50%, additionally regenerates 5% Energy for Path Resonance.",
+        "desc": "When a character launches a Follow-up ATK, regenerates 5% Energy for Path Resonance. If the character's current HP percentage is lower than 50%, additionally regenerates 5% Energy for Path Resonance.",
         "enhanced_desc": ""
     },
     "612526": {
@@ -878,8 +878,8 @@
     "612545": {
         "id": "612545",
         "name": "Disciplinary Flicker",
-        "desc": "If a character's HP percentage is lower than 35% after being attacked or losing HP, restores their HP by 12% of their Max HP.",
-        "enhanced_desc": "If a character's HP percentage is lower than 35% after being attacked or losing HP, restores their HP by 12% of their Max HP. The lower the current HP is, the more HP will be restored this way, but no more than 20%."
+        "desc": "If an ally target's current HP percentage is lower than 35% after being attacked or consuming HP, restores their HP by 12% of their Max HP. This can restore HP equal to a maximum of 36% Max HP during a single action.",
+        "enhanced_desc": "If an ally target's current HP percentage is lower than 35% after being attacked or consuming HP, restores their HP by 20% of their Max HP. This can restore HP equal to a maximum of 50% Max HP during a single action."
     },
     "612546": {
         "id": "612546",
@@ -938,7 +938,7 @@
     "612620": {
         "id": "612620",
         "name": "Path Resonance: Elation",
-        "desc": "Can consume 100 points of Energy to use the ability and resonate with the Path of Elation, dealing follow-up attack DMG of a random Type to all enemies for 3 – 5 time(s).",
+        "desc": "Can consume 100 points of Energy to use the ability and resonate with the Path of Elation, dealing Follow-up ATK DMG of a random Type to all enemies for 3 – 5 time(s).",
         "enhanced_desc": ""
     },
     "612621": {
@@ -956,7 +956,7 @@
     "612623": {
         "id": "612623",
         "name": "Resonance Formation: Instant Win",
-        "desc": "When entering battle, Path Resonance regenerates 40% Energy. When a character launches a follow-up attack, Path Resonance additionally regenerates 5% Energy.",
+        "desc": "When entering battle, Path Resonance regenerates 40% Energy. When a character launches a Follow-up ATK, Path Resonance additionally regenerates 5% Energy.",
         "enhanced_desc": ""
     },
     "612624": {
@@ -986,20 +986,20 @@
     "612630": {
         "id": "612630",
         "name": "Auto-Harmonica: Whitest Night",
-        "desc": "After a character launches a follow-up attack, they deal Aftertaste DMG equal to 55% of their ATK for 1 to 3 time(s).",
-        "enhanced_desc": "After a character launches a follow-up attack, they deal Aftertaste DMG equal to 60% of their ATK for 1 – 3 time(s). Moreover, increases Aftertaste DMG by 35%."
+        "desc": "After a character launches a Follow-up ATK, they deal Aftertaste DMG equal to 55% of their ATK for 1 to 3 time(s).",
+        "enhanced_desc": "After a character launches a Follow-up ATK, they deal Aftertaste DMG equal to 60% of their ATK for 1 – 3 time(s). Moreover, increases Aftertaste DMG by 35%."
     },
     "612631": {
         "id": "612631",
         "name": "Slaughterhouse No. 4: Rest in Peace",
-        "desc": "When characters launch follow-up attacks to an enemy, deals Aftertaste DMG equal to 80% of their ATK to the enemy being hit. If the enemy also has their Weakness Broken, then deals DMG for 1 extra time(s).",
-        "enhanced_desc": "When characters launch follow-up attacks to an enemy, deals Aftertaste DMG equal to 80% of their ATK to the enemy being hit. If the enemy also has their Weakness Broken, then deals DMG for 2 extra time(s)."
+        "desc": "When characters launch Follow-up ATKs to an enemy, deals Aftertaste DMG equal to 80% of their ATK to the enemy being hit. If the enemy also has their Weakness Broken, then deals DMG for 1 extra time(s).",
+        "enhanced_desc": "When characters launch Follow-up ATKs to an enemy, deals Aftertaste DMG equal to 80% of their ATK to the enemy being hit. If the enemy also has their Weakness Broken, then deals DMG for 2 extra time(s)."
     },
     "612632": {
         "id": "612632",
         "name": "Champion's Dinner: Cat's Cradle",
-        "desc": "When a character uses Ultimate to deal DMG to an enemy target, it is considered as follow-up attack. Increases DMG dealt by follow-up attacks by 15%.",
-        "enhanced_desc": "When a character uses Ultimate to deal DMG to an enemy target, it is considered as follow-up attack. Increases DMG dealt by follow-up attacks by 55%."
+        "desc": "When a character uses Ultimate to deal DMG to an enemy target, it is considered as Follow-up ATK. Increases DMG dealt by Follow-up ATKs by 15%.",
+        "enhanced_desc": "When a character uses Ultimate to deal DMG to an enemy target, it is considered as Follow-up ATK. Increases DMG dealt by Follow-up ATKs by 55%."
     },
     "612640": {
         "id": "612640",
@@ -1022,74 +1022,74 @@
     "612643": {
         "id": "612643",
         "name": "The Painted Albatross",
-        "desc": "For each enemy hit by a character's follow-up attack, the character deals Additional DMG equal to 24% of their ATK to all enemies hit.",
-        "enhanced_desc": "For each enemy hit by a character's follow-up attack, the character deals Additional DMG equal to 36% of their ATK to all enemies hit."
+        "desc": "For each enemy hit by a character's Follow-up ATK, the character deals Additional DMG equal to 24% of their ATK to all enemies hit.",
+        "enhanced_desc": "For each enemy hit by a character's Follow-up ATK, the character deals Additional DMG equal to 36% of their ATK to all enemies hit."
     },
     "612644": {
         "id": "612644",
         "name": "12 Monkeys and Angry Men",
-        "desc": "When a character deals follow-up attack DMG to an enemy target, the follow-up attack DMG within this attack increases by 4%.",
-        "enhanced_desc": "When a character deals follow-up attack DMG to an enemy target, the follow-up attack DMG within this attack increases by 6%."
+        "desc": "When a character deals Follow-up ATK DMG to an enemy target, the Follow-up ATK DMG within this attack increases by 4%.",
+        "enhanced_desc": "When a character deals Follow-up ATK DMG to an enemy target, the Follow-up ATK DMG within this attack increases by 6%."
     },
     "612645": {
         "id": "612645",
         "name": "Aiden Gravitational Rainbow",
-        "desc": "When a character launches follow-up attacks on enemies, the enemies' action is delayed by 12%.",
-        "enhanced_desc": "When characters launch follow-up attacks on enemies, the attacked enemies' actions are delayed by 12%, and there is a 10% base chance to cause Imprisonment on the enemies, lasting for 1 turn(s)."
+        "desc": "When a character launches Follow-up ATKs on enemies, the enemies' action is delayed by 12%.",
+        "enhanced_desc": "When characters launch Follow-up ATKs on enemies, the attacked enemies' actions are delayed by 12%, and there is a 10% base chance to cause Imprisonment on the enemies, lasting for 1 turn(s)."
     },
     "612646": {
         "id": "612646",
         "name": "Twenty-First Military Rule",
-        "desc": "After a character launches follow-up attacks, there is a 65% fixed chance to recover 1 Skill Point.",
-        "enhanced_desc": "After a character launches follow-up attacks, there is a 100% fixed chance to recover 1 Skill Point."
+        "desc": "After a character launches Follow-up ATKs, there is a 65% fixed chance to recover 1 Skill Point.",
+        "enhanced_desc": "After a character launches Follow-up ATKs, there is a 100% fixed chance to recover 1 Skill Point."
     },
     "612650": {
         "id": "612650",
         "name": "Exemplary Conduct",
-        "desc": "For each Elation Blessing in possession, increases characters' follow-up attack DMG dealt by 9%. This effect can stack up to 6 time(s).",
-        "enhanced_desc": "For each Elation Blessing in possession, increases characters' follow-up attack DMG dealt by 12%. This effect can stack up to 9 time(s)."
+        "desc": "For each Elation Blessing in possession, increases characters' Follow-up ATK DMG dealt by 9%. This effect can stack up to 6 time(s).",
+        "enhanced_desc": "For each Elation Blessing in possession, increases characters' Follow-up ATK DMG dealt by 12%. This effect can stack up to 9 time(s)."
     },
     "612651": {
         "id": "612651",
         "name": "Mostly Harmful",
-        "desc": "The Weakness Break Efficiency increases by 35% when characters deal follow-up attack DMG.",
-        "enhanced_desc": "The Weakness Break Efficiency increases by 50% when characters deal follow-up attack DMG."
+        "desc": "The Weakness Break Efficiency increases by 35% when characters deal Follow-up ATK DMG.",
+        "enhanced_desc": "The Weakness Break Efficiency increases by 50% when characters deal Follow-up ATK DMG."
     },
     "612652": {
         "id": "612652",
         "name": "Suspiria",
-        "desc": "Increases characters' follow-up attack DMG dealt by 26%.",
-        "enhanced_desc": "Increases characters' follow-up attack DMG dealt by 39%."
+        "desc": "Increases characters' Follow-up ATK DMG dealt by 26%.",
+        "enhanced_desc": "Increases characters' Follow-up ATK DMG dealt by 39%."
     },
     "612653": {
         "id": "612653",
         "name": "Pale Fire",
-        "desc": "Increases the CRIT Rate for follow-up attack DMG dealt by characters by 26%.",
-        "enhanced_desc": "Increases the CRIT Rate for follow-up attack DMG dealt by characters by 39%."
+        "desc": "Increases the CRIT Rate for Follow-up ATK DMG dealt by characters by 26%.",
+        "enhanced_desc": "Increases the CRIT Rate for Follow-up ATK DMG dealt by characters by 39%."
     },
     "612654": {
         "id": "612654",
         "name": "Back to the Lighthouse",
-        "desc": "When a character deals DMG to an enemy with a follow-up attack, increases their Energy Regeneration Rate by 24%.",
-        "enhanced_desc": "When a character deals DMG to an enemy with a follow-up attack, increases their Energy Regeneration Rate by 36%."
+        "desc": "When a character deals DMG to an enemy with a Follow-up ATK, increases their Energy Regeneration Rate by 24%.",
+        "enhanced_desc": "When a character deals DMG to an enemy with a Follow-up ATK, increases their Energy Regeneration Rate by 36%."
     },
     "612655": {
         "id": "612655",
         "name": "Doctor of Love",
-        "desc": "After a character launches a follow-up attack, restores their HP by 10% of their Max HP.",
-        "enhanced_desc": "After a character launches a follow-up attack, restores their HP by 15% of their Max HP."
+        "desc": "After a character launches a Follow-up ATK, restores their HP by 10% of their Max HP.",
+        "enhanced_desc": "After a character launches a Follow-up ATK, restores their HP by 15% of their Max HP."
     },
     "612656": {
         "id": "612656",
         "name": "Platinum Age",
-        "desc": "After characters launch follow-up attacks, increase their DEF by 40% for 1 turn(s).",
-        "enhanced_desc": "After characters launch follow-up attacks, increase their DEF by 40% for 2 turn(s)."
+        "desc": "After characters launch Follow-up ATKs, increase their DEF by 40% for 1 turn(s).",
+        "enhanced_desc": "After characters launch Follow-up ATKs, increase their DEF by 40% for 2 turn(s)."
     },
     "612657": {
         "id": "612657",
         "name": "Clockwork Apple",
-        "desc": "After characters launch follow-up attacks, increases SPD by 16% for 1 turn(s).",
-        "enhanced_desc": "After characters launch follow-up attacks, increases SPD by 16% for 2 turn(s)."
+        "desc": "After characters launch Follow-up ATKs, increases SPD by 16% for 1 turn(s).",
+        "enhanced_desc": "After characters launch Follow-up ATKs, increases SPD by 16% for 2 turn(s)."
     },
     "612720": {
         "id": "612720",
@@ -1274,7 +1274,7 @@
     "612826": {
         "id": "612826",
         "name": "Resonance Interplay: Full Scan",
-        "desc": "When enemies with Synapse Resonance are attacked by follow-up attacks, the effect is additionally triggered 1 time and the available Synapse Resonance count is not reduced.",
+        "desc": "When enemies with Synapse Resonance are attacked by Follow-up ATKs, the effect is additionally triggered 1 time and the available Synapse Resonance count is not reduced.",
         "enhanced_desc": ""
     },
     "612827": {
@@ -1886,7 +1886,7 @@
         "id": "615441",
         "name": "Adept's Bow",
         "desc": "When any ally uses their Ultimate, they can inherit Critical Boost, and the number of Critical Boost stacks increases by 1.",
-        "enhanced_desc": "When any ally uses their Ultimate or performs a follow-up attack, they can inherit Critical Boost, and the number of Critical Boost stacks increases by 1."
+        "enhanced_desc": "When any ally uses their Ultimate or performs a Follow-up ATK, they can inherit Critical Boost, and the number of Critical Boost stacks increases by 1."
     },
     "615442": {
         "id": "615442",
@@ -2085,26 +2085,26 @@
     "615620": {
         "id": "615620",
         "name": "Masked Fools",
-        "desc": "Can consume 100 points of Energy to use the ability and achieve Boundary Resonance with the Path of Elation, dealing follow-up attack DMG of a random Type to all enemies for 5 – 10 time(s). And all allies' Basic ATK/Skill/Ultimate DMG are all considered as follow-up attack DMG, lasting for 1 turn(s).",
+        "desc": "Can consume 100 points of Energy to use the ability and achieve Boundary Resonance with the Path of Elation, dealing Follow-up ATK DMG of a random Type to all enemies for 5 – 10 time(s). And all allies' Basic ATK/Skill/Ultimate DMG are all considered as Follow-up ATK DMG, lasting for 1 turn(s).",
         "enhanced_desc": ""
     },
     "615630": {
         "id": "615630",
         "name": "Vineyard: Against the Night",
-        "desc": "Every time a character uses a Basic ATK / Skill / Ultimate, they will additionally deal Aftertaste DMG 1 time equal to 80% of their ATK after the next time a follow-up attack is launched. This status can deal DMG up to 5 time(s).",
-        "enhanced_desc": "Every time a character uses a Basic ATK / Skill / Ultimate, they will additionally deal Aftertaste DMG 1 time equal to 120% of their ATK after the next time a follow-up attack is launched. This status can deal DMG up to 5 time(s)."
+        "desc": "Every time a character uses a Basic ATK / Skill / Ultimate, they will additionally deal Aftertaste DMG 1 time equal to 80% of their ATK after the next time a Follow-up ATK is launched. This status can deal DMG up to 5 time(s).",
+        "enhanced_desc": "Every time a character uses a Basic ATK / Skill / Ultimate, they will additionally deal Aftertaste DMG 1 time equal to 120% of their ATK after the next time a Follow-up ATK is launched. This status can deal DMG up to 5 time(s)."
     },
     "615631": {
         "id": "615631",
         "name": "Slaughterhouse No. 4: Rest in Peace",
-        "desc": "When characters launch follow-up attacks to an enemy, deals Aftertaste DMG equal to 80% of their ATK to the enemy being hit. If the enemy also has their Weakness Broken, then deals DMG for 1 extra time(s).",
-        "enhanced_desc": "When characters launch follow-up attacks to an enemy, deals Aftertaste DMG equal to 80% of their ATK to the enemy being hit. If the enemy also has their Weakness Broken, then deals DMG for 2 extra time(s)."
+        "desc": "When characters launch Follow-up ATKs to an enemy, deals Aftertaste DMG equal to 80% of their ATK to the enemy being hit. If the enemy also has their Weakness Broken, then deals DMG for 1 extra time(s).",
+        "enhanced_desc": "When characters launch Follow-up ATKs to an enemy, deals Aftertaste DMG equal to 80% of their ATK to the enemy being hit. If the enemy also has their Weakness Broken, then deals DMG for 2 extra time(s)."
     },
     "615632": {
         "id": "615632",
         "name": "Invitation to a Beheading: Weeping Blackbox",
-        "desc": "When a character launches a follow-up attack on an enemy, the enemy's action is delayed by 25%. This can trigger a max of 2 time(s) per enemy target's turn.",
-        "enhanced_desc": "When a character launches a follow-up attack on an enemy, the enemy's action is delayed by 25%. This can trigger a max of 3 time(s) per enemy target's turn."
+        "desc": "When a character launches a Follow-up ATK on an enemy, the enemy's action is delayed by 25%. This can trigger a max of 2 time(s) per enemy target's turn.",
+        "enhanced_desc": "When a character launches a Follow-up ATK on an enemy, the enemy's action is delayed by 25%. This can trigger a max of 3 time(s) per enemy target's turn."
     },
     "615640": {
         "id": "615640",
@@ -2121,26 +2121,26 @@
     "615642": {
         "id": "615642",
         "name": "The Painted Albatross",
-        "desc": "For each enemy hit by a character's follow-up attack, the character deals Additional DMG equal to 24% of their ATK to all enemies hit.",
-        "enhanced_desc": "For each enemy hit by a character's follow-up attack, the character deals Additional DMG equal to 36% of their ATK to all enemies hit."
+        "desc": "For each enemy hit by a character's Follow-up ATK, the character deals Additional DMG equal to 24% of their ATK to all enemies hit.",
+        "enhanced_desc": "For each enemy hit by a character's Follow-up ATK, the character deals Additional DMG equal to 36% of their ATK to all enemies hit."
     },
     "615643": {
         "id": "615643",
         "name": "12 Monkeys and Angry Men",
-        "desc": "When a character deals follow-up attack DMG to an enemy target, increases follow-up attack DMG by 4%, stacking up to 24 time(s) and lasting until the start of the next turn.",
-        "enhanced_desc": "When a character deals follow-up attack DMG to an enemy target, increases follow-up attack DMG by 5%, stacking up to 30 time(s) and lasting until the start of the next turn."
+        "desc": "When a character deals Follow-up ATK DMG to an enemy target, increases Follow-up ATK DMG by 4%, stacking up to 24 time(s) and lasting until the start of the next turn.",
+        "enhanced_desc": "When a character deals Follow-up ATK DMG to an enemy target, increases Follow-up ATK DMG by 5%, stacking up to 30 time(s) and lasting until the start of the next turn."
     },
     "615644": {
         "id": "615644",
         "name": "As Good As Fleming",
-        "desc": "When a character uses a follow-up attack on an enemy target, increases DMG received by the target by 8% for a max of 3 time(s), lasting for 1 turn(s).",
-        "enhanced_desc": "When a character uses a follow-up attack on an enemy target, increases DMG received by the target by 12% for a max of 3 time(s), lasting for 1 turn(s)."
+        "desc": "When a character uses a Follow-up ATK on an enemy target, increases DMG received by the target by 8% for a max of 3 time(s), lasting for 1 turn(s).",
+        "enhanced_desc": "When a character uses a Follow-up ATK on an enemy target, increases DMG received by the target by 12% for a max of 3 time(s), lasting for 1 turn(s)."
     },
     "615645": {
         "id": "615645",
         "name": "A Fish Discovered Fire",
-        "desc": "Characters' follow-up attack DMG ignores 20% of the target's DEF.",
-        "enhanced_desc": "Characters' follow-up attack DMG ignores 27% of the target's DEF."
+        "desc": "Characters' Follow-up ATK DMG ignores 20% of the target's DEF.",
+        "enhanced_desc": "Characters' Follow-up ATK DMG ignores 27% of the target's DEF."
     },
     "615646": {
         "id": "615646",
@@ -2151,50 +2151,50 @@
     "615650": {
         "id": "615650",
         "name": "Behold Those Fools",
-        "desc": "Increases the CRIT DMG of follow-up attacks by 44%.",
-        "enhanced_desc": "Increases the CRIT DMG of follow-up attacks by 66%."
+        "desc": "Increases the CRIT DMG of Follow-up ATKs by 44%.",
+        "enhanced_desc": "Increases the CRIT DMG of Follow-up ATKs by 66%."
     },
     "615651": {
         "id": "615651",
         "name": "Mostly Harmful",
-        "desc": "The Weakness Break Efficiency increases by 35% when characters deal follow-up attack DMG.",
-        "enhanced_desc": "The Weakness Break Efficiency increases by 50% when characters deal follow-up attack DMG."
+        "desc": "The Weakness Break Efficiency increases by 35% when characters deal Follow-up ATK DMG.",
+        "enhanced_desc": "The Weakness Break Efficiency increases by 50% when characters deal Follow-up ATK DMG."
     },
     "615652": {
         "id": "615652",
         "name": "Suspiria",
-        "desc": "Increases characters' follow-up attack DMG dealt by 26%.",
-        "enhanced_desc": "Increases characters' follow-up attack DMG dealt by 39%."
+        "desc": "Increases characters' Follow-up ATK DMG dealt by 26%.",
+        "enhanced_desc": "Increases characters' Follow-up ATK DMG dealt by 39%."
     },
     "615653": {
         "id": "615653",
         "name": "Pale Fire",
-        "desc": "Increases the CRIT Rate for follow-up attack DMG dealt by characters by 26%.",
-        "enhanced_desc": "Increases the CRIT Rate for follow-up attack DMG dealt by characters by 39%."
+        "desc": "Increases the CRIT Rate for Follow-up ATK DMG dealt by characters by 26%.",
+        "enhanced_desc": "Increases the CRIT Rate for Follow-up ATK DMG dealt by characters by 39%."
     },
     "615654": {
         "id": "615654",
         "name": "Back to the Lighthouse",
-        "desc": "When characters use a follow-up attack, restore 6 Energy. This effect can be triggered up to 1 time(s) per turn.",
-        "enhanced_desc": "When characters use a follow-up attack, restore 8 Energy. This effect can be triggered up to 1 time(s) per turn."
+        "desc": "When characters use a Follow-up ATK, restore 6 Energy. This effect can be triggered up to 1 time(s) per turn.",
+        "enhanced_desc": "When characters use a Follow-up ATK, restore 8 Energy. This effect can be triggered up to 1 time(s) per turn."
     },
     "615655": {
         "id": "615655",
         "name": "Doctor of Love",
-        "desc": "After a character launches a follow-up attack, restores their HP by 10% of their Max HP.",
-        "enhanced_desc": "After a character launches a follow-up attack, restores their HP by 15% of their Max HP."
+        "desc": "After a character launches a Follow-up ATK, restores their HP by 10% of their Max HP.",
+        "enhanced_desc": "After a character launches a Follow-up ATK, restores their HP by 15% of their Max HP."
     },
     "615656": {
         "id": "615656",
         "name": "Platinum Age",
-        "desc": "After characters launch follow-up attacks, increase their DEF by 40% for 1 turn(s).",
-        "enhanced_desc": "After characters launch follow-up attacks, increase their DEF by 40% for 2 turn(s)."
+        "desc": "After characters launch Follow-up ATKs, increase their DEF by 40% for 1 turn(s).",
+        "enhanced_desc": "After characters launch Follow-up ATKs, increase their DEF by 40% for 2 turn(s)."
     },
     "615657": {
         "id": "615657",
         "name": "Clockwork Apple",
-        "desc": "After characters launch follow-up attacks, increases SPD by 16% for 1 turn(s).",
-        "enhanced_desc": "After characters launch follow-up attacks, increases SPD by 16% for 2 turn(s)."
+        "desc": "After characters launch Follow-up ATKs, increases SPD by 16% for 1 turn(s).",
+        "enhanced_desc": "After characters launch Follow-up ATKs, increases SPD by 16% for 2 turn(s)."
     },
     "615710": { "id": "615710", "name": "", "desc": "", "enhanced_desc": "" },
     "615720": {
@@ -2426,10 +2426,1188 @@
         "desc": "When struck with a killing blow, characters will not be knocked down and will instead consume all their Energy, then restore HP equal to 50% of the consumed Energy. This effect can only be triggered once per battle for the whole team.",
         "enhanced_desc": "When struck with a killing blow, characters will not be knocked down and will instead consume all their Energy, then restore HP equal to 100% of the consumed Energy. This effect can only be triggered once per battle for the whole team."
     },
+    "616110": { "id": "616110", "name": "", "desc": "", "enhanced_desc": "" },
+    "616120": {
+        "id": "616120",
+        "name": "Time's Miracle",
+        "desc": "Spend 100 points of Energy to use the ability and achieve Boundary Resonance with the Path of Remembrance, dealing Ice DMG to all enemy targets with a high chance of Freezing them for 1 turn(s). After being attacked by memosprite while under this Freeze effect, additionally take True DMG equal to 8% of Max HP. Every time the enemy target is afflicted with this Freeze state, this DMG can be triggered a maximum of 4 time(s).",
+        "enhanced_desc": ""
+    },
+    "616130": {
+        "id": "616130",
+        "name": "Infallible Instinct",
+        "desc": "When characters take action, both them and their memosprite gain 1 stack(s) of \"Obsession.\" When memosprites take action, both them and their memomaster gain 1 stack(s) of \"Obsession.\"",
+        "enhanced_desc": "When characters take action, both them and their memosprite gain 1 stack(s) of \"Obsession.\" When memosprites take action, both them and their memomaster gain 2 stack(s) of \"Obsession.\""
+    },
+    "616131": {
+        "id": "616131",
+        "name": "Unaging Memory",
+        "desc": "After an ally target uses an attack, deals Additional DMG equal to 1% of ATK to attacked target(s) for every stack of allies' total \"Obsession\" stacks.",
+        "enhanced_desc": "After an ally target uses an attack, deals Additional DMG equal to 1.5% of ATK to attacked target(s) for every stack of allies' total \"Obsession\" stacks."
+    },
+    "616132": {
+        "id": "616132",
+        "name": "Ever-Peaceful Dream",
+        "desc": "After ally targets enter battle or after a memosprite is summoned, advances their action by 50% after their first turn ends and increases their DMG dealt by 50% for 4 turn(s).",
+        "enhanced_desc": "After ally targets enter battle or after a memosprite is summoned, advances their action by 75% after their first turn ends and increases their DMG dealt by 75% for 4 turn(s)."
+    },
+    "616140": {
+        "id": "616140",
+        "name": "Enlightenment: Cloudweave",
+        "desc": "When an ally target is attacked, gain 2 stack(s) of \"Obsession.\"",
+        "enhanced_desc": "When an ally target is attacked, gain 3 stack(s) of \"Obsession.\""
+    },
+    "616141": {
+        "id": "616141",
+        "name": "Enlightenment: Ridgesew",
+        "desc": "After an ally target defeats any enemy target, all allies gain 4 stack(s) of \"Obsession.\"",
+        "enhanced_desc": "After an ally target defeats any enemy target, all allies gain 6 stack(s) of \"Obsession.\""
+    },
+    "616142": {
+        "id": "616142",
+        "name": "Enlightenment: Wavebind",
+        "desc": "After ally targets enter battle or after memosprites are summoned, they receive 6 stack(s) of \"Obsession.\"",
+        "enhanced_desc": "After ally targets enter battle or after memosprites are summoned, they receive 9 stack(s) of \"Obsession.\""
+    },
+    "616143": {
+        "id": "616143",
+        "name": "Enlightenment: Eulogy of the Coast",
+        "desc": "Each stack of \"Obsession\" additionally increases DMG dealt by 0.3%.",
+        "enhanced_desc": "Each stack of \"Obsession\" additionally increases DMG dealt by 0.4%."
+    },
+    "616144": {
+        "id": "616144",
+        "name": "Enlightenment: Praise of the Abyss",
+        "desc": "Characters' \"Obsession\" limit increases by 4 stack(s).",
+        "enhanced_desc": "Characters' \"Obsession\" limit increases by 6 stack(s)."
+    },
+    "616145": {
+        "id": "616145",
+        "name": "Enlightenment: Dawn Distilled",
+        "desc": "Every time an enemy target is attacked by different ally targets, increases their DMG taken by 4%, up to 6 stacks and lasting till the end of the turn.",
+        "enhanced_desc": "Every time an enemy target is attacked by different ally targets, increases their DMG taken by 6%, up to 6 stacks and lasting till the end of the turn."
+    },
+    "616146": {
+        "id": "616146",
+        "name": "Enlightenment: Sunset Melted",
+        "desc": "Every time an enemy target is hit by different ally targets, decreases their DMG dealt by 3% for up to 6 stacks, lasting till the end of the turn.",
+        "enhanced_desc": "Every time an enemy target is hit by different ally targets, decreases their DMG dealt by 4% for up to 6 stacks, lasting till the end of the turn."
+    },
+    "616150": {
+        "id": "616150",
+        "name": "Acuity: Warmth of Blades",
+        "desc": "Increases all ally targets' ATK by 18%.",
+        "enhanced_desc": "Increases all ally targets' ATK by 27%."
+    },
+    "616151": {
+        "id": "616151",
+        "name": "Acuity: Shape of Claws",
+        "desc": "Increases all ally targets' DMG dealt by 12%.",
+        "enhanced_desc": "Increases all ally targets' DMG dealt by 18%."
+    },
+    "616152": {
+        "id": "616152",
+        "name": "Acuity: Patterns of Conches",
+        "desc": "Increases all ally targets' DEF by 16%.",
+        "enhanced_desc": "Increases all ally targets' DEF by 24%."
+    },
+    "616153": {
+        "id": "616153",
+        "name": "Acuity: Stories of Monsoons",
+        "desc": "Increases all ally targets' DMG dealt by 10% and additionally increases memosprites' DMG dealt by 4%.",
+        "enhanced_desc": "Increases all ally targets' DMG dealt by 15% and additionally increases memosprites' DMG dealt by 6%."
+    },
+    "616154": {
+        "id": "616154",
+        "name": "Acuity: Stories of Boulders",
+        "desc": "Increases all ally targets' DEF by 14% and additionally increases memosprites' DEF by 6%.",
+        "enhanced_desc": "Increases all ally targets' DEF by 21% and additionally increases memosprites' DEF by 9%."
+    },
+    "616155": {
+        "id": "616155",
+        "name": "Acuity: Stories of Tides",
+        "desc": "Increases all ally targets' Incoming Healing by 10% and additionally increases memosprites' Incoming Healing by 4%.",
+        "enhanced_desc": "Increases all ally targets' Incoming Healing by 15% and additionally increases memosprites' Incoming Healing by 6%."
+    },
+    "616156": {
+        "id": "616156",
+        "name": "Acuity: Scarlet Bones and Crimson Leaves",
+        "desc": "After a memosprite takes action, increases all ally targets' CRIT Rate by 14% for 2 turn(s).",
+        "enhanced_desc": "After a memosprite takes action, increases all ally targets' CRIT Rate by 21% for 2 turn(s)."
+    },
+    "616157": {
+        "id": "616157",
+        "name": "Acuity: White Hair and Pearls",
+        "desc": "After a memosprite takes action, increases all ally targets' CRIT DMG by 24% for 2 turn(s).",
+        "enhanced_desc": "After a memosprite takes action, increases all ally targets' CRIT DMG by 36% for 2 turn(s)."
+    },
+    "616210": { "id": "616210", "name": "", "desc": "", "enhanced_desc": "" },
+    "616220": {
+        "id": "616220",
+        "name": "Death's Miracle",
+        "desc": "Spend 100 points of Energy to use the ability and achieve Boundary Resonance with the Path of Nihility. Inflicts Burn, Shock, Bleed, and 2 stacks of Wind Shear to all enemy targets, lasting for 3 turn(s). After being attacked by a character, the aforementioned DoTs immediately deal DMG equal to 25% of the original DMG.",
+        "enhanced_desc": ""
+    },
+    "616230": {
+        "id": "616230",
+        "name": "La Communauté Inavouable",
+        "desc": "When enemy target is afflicted with DoT, \"Murmur\" gains Charge equal to 20% of the sum of ally characters' ATK.",
+        "enhanced_desc": "When enemy target is afflicted with DoT, \"Murmur\" gains Charge equal to 30% of the sum of ally characters' ATK."
+    },
+    "616231": {
+        "id": "616231",
+        "name": "De L'existence a L'existant",
+        "desc": "After an enemy target is attacked for the first time in this turn, causes \"Murmur\" DMG equal to 160% of original DMG.",
+        "enhanced_desc": "After an enemy target is attacked for the first time in this turn, causes \"Murmur\" DMG equal to 240% of original DMG."
+    },
+    "616232": {
+        "id": "616232",
+        "name": "Une Voix Venue D'ailleurs",
+        "desc": "At the beginning of an enemy target's turn, additionally trigger extra DoT DMG calculations 1 time, and each DoT status currently on the target will immediately deal DMG equal to 90% of the original DMG.",
+        "enhanced_desc": "At the beginning of an enemy target's turn, additionally trigger extra DoT DMG calculations 1 time, and each DoT status currently on the target will immediately deal DMG equal to 135% of the original DMG."
+    },
+    "616240": {
+        "id": "616240",
+        "name": "Enlightenment and Extinction",
+        "desc": "When enemy target's turn ends, \"Murmur\" gains Charge equal to 40% of the sum of ally characters' ATK.",
+        "enhanced_desc": "When enemy target's turn ends, \"Murmur\" gains Charge equal to 60% of the sum of ally characters' ATK."
+    },
+    "616241": {
+        "id": "616241",
+        "name": "Lacrimi și Sfinți",
+        "desc": "Every time an enemy target takes \"Murmur\" DMG, decreases their DMG dealt by 0.5% to a max reduction of 16%.",
+        "enhanced_desc": "Every time an enemy target takes \"Murmur\" DMG, decreases their DMG dealt by 0.5% to a max reduction of 24%."
+    },
+    "616242": {
+        "id": "616242",
+        "name": "Insomnia's Praise",
+        "desc": "\"Murmur\" DMG increases by 30% of the original DMG multiplier.",
+        "enhanced_desc": "\"Murmur\" DMG increases by 45% of the original DMG multiplier."
+    },
+    "616243": {
+        "id": "616243",
+        "name": "Pe Culmile Disperării",
+        "desc": "Increases \"Murmur\" clear threshold by 50%.",
+        "enhanced_desc": "Increases \"Murmur\" clear threshold by 75%."
+    },
+    "616244": {
+        "id": "616244",
+        "name": "L'Écriture du Désastre",
+        "desc": "\"Murmur's\" Charging Efficiency when gaining Charge increases by 20%.",
+        "enhanced_desc": "\"Murmur's\" Charging Efficiency when gaining Charge increases by 30%."
+    },
+    "616245": {
+        "id": "616245",
+        "name": "The Final Speaker",
+        "desc": "Every time an enemy takes DMG from a DoT, all allies restore HP equal to 1.0% of their respective Max HP.",
+        "enhanced_desc": "Every time an enemy takes DMG from a DoT, all allies restore HP equal to 1.5% of their respective Max HP."
+    },
+    "616246": {
+        "id": "616246",
+        "name": "Unclear Opinions",
+        "desc": "Every time an enemy target becomes afflicted with a DoT status, decreases their DMG dealt by 3% for up to 4 stack(s).",
+        "enhanced_desc": "Every time an enemy target becomes afflicted with a DoT status, decreases their DMG dealt by 4% for up to 4 stack(s)."
+    },
+    "616250": {
+        "id": "616250",
+        "name": "La Métaphore Vive",
+        "desc": "Increases ally targets' DoT dealt by 24%.",
+        "enhanced_desc": "Increases ally targets' DoT dealt by 36%."
+    },
+    "616251": {
+        "id": "616251",
+        "name": "The Non-Existent",
+        "desc": "Increases ally targets' Effect Hit Rate by 24%.",
+        "enhanced_desc": "Increases ally targets' Effect Hit Rate by 36%."
+    },
+    "616252": {
+        "id": "616252",
+        "name": "Sygdommen til Døden",
+        "desc": "Decreases enemy targets' Effect RES by 12%.",
+        "enhanced_desc": "Decreases enemy targets' Effect RES by 18%."
+    },
+    "616253": {
+        "id": "616253",
+        "name": "Sacrilegious",
+        "desc": "Increases enemy targets' DoT taken by 10%.",
+        "enhanced_desc": "Increases enemy targets' DoT taken by 15%."
+    },
+    "616254": {
+        "id": "616254",
+        "name": "L'Expérience Intérieure",
+        "desc": "After any ally target applies a debuff, increases ATK by 24% for 2 turn(s).",
+        "enhanced_desc": "After any ally target applies a debuff, increases ATK by 36% for 2 turn(s)."
+    },
+    "616255": {
+        "id": "616255",
+        "name": "Soleil Noir",
+        "desc": "Increases DMG taken by enemy targets with any DoT status by 8%.",
+        "enhanced_desc": "Increases DMG taken by enemy targets with any DoT status by 12%."
+    },
+    "616256": {
+        "id": "616256",
+        "name": "Beyond Good & Evil",
+        "desc": "After any ally target applies a debuff, increases SPD by 10% for 3 turn(s).",
+        "enhanced_desc": "After any ally target applies a debuff, increases SPD by 15% for 3 turn(s)."
+    },
+    "616257": {
+        "id": "616257",
+        "name": "Die Austreibung des Anderen",
+        "desc": "Every time an enemy target receives a DoT, regenerates 1.0 Energy for a random ally target. Enemy targets can trigger this effect for a max of 20 time(s) in one turn.",
+        "enhanced_desc": "Every time an enemy target receives a DoT, regenerates 1.5 Energy for a random ally target. Enemy targets can trigger this effect for a max of 20 time(s) in one turn."
+    },
+    "616410": { "id": "616410", "name": "", "desc": "", "enhanced_desc": "" },
+    "616420": {
+        "id": "616420",
+        "name": "Strife's Miracle",
+        "desc": "Spends 100 points of Energy to use the ability and achieve Boundary Resonance with the Path of The Hunt, dealing Wind DMG to all enemy targets and advances all allies' actions by 100%, with the Max Energy being 200.",
+        "enhanced_desc": ""
+    },
+    "616430": {
+        "id": "616430",
+        "name": "Weapons Drawn, Paths Restless",
+        "desc": "After any ally target defeats any enemy target, advances the ally target's action by 100%. At the beginning of the next turn, the ally target gains 4 stack(s) of \"Critical Boost.\"",
+        "enhanced_desc": "Increases ally targets' SPD by 12%. After defeating any enemy target, advances the ally target's action by 100%, and this ally target gains 6 stack(s) of \"Critical Boost\" at the beginning of the next turn."
+    },
+    "616431": {
+        "id": "616431",
+        "name": "White Feathers Fly, A Sky of Stars Vanish",
+        "desc": "While an ally target has \"Critical Boost,\" their CRIT Rate increases by 10%. For every 1% of excess CRIT Rate, increases CRIT DMG by 2%, up to an increase of 180%.",
+        "enhanced_desc": "While an ally target has \"Critical Boost,\" their CRIT Rate increases by 15%. For every 1% of excess CRIT Rate, increases CRIT DMG by 2%, up to an increase of 270%."
+    },
+    "616432": {
+        "id": "616432",
+        "name": "A Myriad Chariots, A Trial of Courage",
+        "desc": "After any ally target Breaks an enemy target's Weakness, advances the ally target's action by 100% and increases the DMG dealt by their next attack by 50%.",
+        "enhanced_desc": "After any ally target Breaks an enemy target's Weakness, advances the ally target's action by 100% and increases their DMG dealt by 75%. The DMG Boost effect stacks up to 2 time(s) and lasts until they are attacked."
+    },
+    "616440": {
+        "id": "616440",
+        "name": "Stars Converge at Sword's Edge",
+        "desc": "When an ally target's turn begins, they gain 1 stack(s) of \"Critical Boost.\"",
+        "enhanced_desc": "When an ally target's turn begins, they gain 1 stack(s) of \"Critical Boost.\" When an ally target acts consecutively, they gain 1 stack(s) of \"Critical Boost.\""
+    },
+    "616441": {
+        "id": "616441",
+        "name": "The Crooked Path of Arrows",
+        "desc": "Each stack of \"Critical Boost\" additionally increases ATK by 4%. When any ally target uses their Ultimate, they can inherit this \"Critical Boost.\"",
+        "enhanced_desc": "Each stack of \"Critical Boost\" additionally increases ATK by 6%. When any ally target uses their Ultimate, they can inherit this \"Critical Boost.\""
+    },
+    "616442": {
+        "id": "616442",
+        "name": "Riders Surge in Chaos",
+        "desc": "Increases the maximum stack of \"Critical Boost\" by 2. After being attacked, the \"Critical Boost\" lost will not exceed 4 stack(s).",
+        "enhanced_desc": "Increases the maximum stack of \"Critical Boost\" by 4. After being attacked, the \"Critical Boost\" lost will not exceed 4 stack(s)."
+    },
+    "616443": {
+        "id": "616443",
+        "name": "Broken but not Bent",
+        "desc": "When an ally target has 4 stacks or higher of \"Critical Boost,\" decreases all ally target's DMG taken by 16%.",
+        "enhanced_desc": "When an ally target has 4 stacks or higher of \"Critical Boost,\" decreases all ally target's DMG taken by 24%."
+    },
+    "616444": {
+        "id": "616444",
+        "name": "Radiance of Lightning's Edge",
+        "desc": "If an ally target has 4 stack(s) or more of \"Critical Boost\" at the start of their turn, increases their SPD by 18% for 2 turn(s).",
+        "enhanced_desc": "If an ally target has 4 stack(s) or more of \"Critical Boost\" at the start of their turn, increases their SPD by 27% for 2 turn(s)."
+    },
+    "616445": {
+        "id": "616445",
+        "name": "The Archer's Trusted Bow",
+        "desc": "When the same ally target acts consecutively, there is a 40% fixed chance to recover 1 Skill Point.",
+        "enhanced_desc": "When the same ally target acts consecutively, there is a 60% fixed chance to recover 1 Skill Point."
+    },
+    "616446": {
+        "id": "616446",
+        "name": "Arrows Leap Like Meteors",
+        "desc": "Increases ally targets' SPD by 5%. After every 12 turn(s) spent by the entire team, the currently acting ally target's action advances by 100%.",
+        "enhanced_desc": "Increases ally targets' SPD by 12%. After every 12 turn(s) spent by the entire team, the currently acting ally target's action advances by 100%."
+    },
+    "616450": {
+        "id": "616450",
+        "name": "Aligned for Precision",
+        "desc": "Increases ally targets' SPD by 6%.",
+        "enhanced_desc": "Increases ally targets' SPD by 9%."
+    },
+    "616451": {
+        "id": "616451",
+        "name": "Strength to Overcome Hundreds",
+        "desc": "Increases ally targets' CRIT Rate by 11%.",
+        "enhanced_desc": "Increases ally targets' CRIT Rate by 16%."
+    },
+    "616452": {
+        "id": "616452",
+        "name": "Purpose Shines Clear",
+        "desc": "Increases ally targets' CRIT DMG by 20%.",
+        "enhanced_desc": "Increases ally targets' CRIT DMG by 30%."
+    },
+    "616453": {
+        "id": "616453",
+        "name": "Autumn Moon in the Sky",
+        "desc": "After defeating any enemy target, restores all ally targets' HP equal to 30% of their respective Max HP.",
+        "enhanced_desc": "After defeating any enemy targets, restores all ally targets' HP equal to 45% of their respective Max HP."
+    },
+    "616454": {
+        "id": "616454",
+        "name": "A Flick of the Hand",
+        "desc": "After defeating any enemy targets, increases all allies' ATK by 6%. This effect can stack up to 4 time(s).",
+        "enhanced_desc": "After defeating any enemy targets, increases all allies' ATK by 9%. This effect can stack up to 4 time(s)."
+    },
+    "616455": {
+        "id": "616455",
+        "name": "Arrow Shatters the Moon",
+        "desc": "At the end of an ally target's turn, advances their action by 6%.",
+        "enhanced_desc": "At the end of an ally target's turn, advances their action by 9%."
+    },
+    "616456": {
+        "id": "616456",
+        "name": "Thunder Upon the Wall",
+        "desc": "At the beginning of an ally target's turn, they regenerate 3 Energy.",
+        "enhanced_desc": "At the beginning of an ally target's turn, they regenerate 4 Energy."
+    },
+    "616457": {
+        "id": "616457",
+        "name": "Verdant Branch, Vermillion String",
+        "desc": "After defeating any enemy targets, increases all allies' SPD by 4%. This effect can stack up to 2 time(s).",
+        "enhanced_desc": "After defeating any enemy targets, increases all allies' SPD by 6%. This effect can stack up to 2 time(s)."
+    },
+    "616510": { "id": "616510", "name": "", "desc": "", "enhanced_desc": "" },
+    "616520": {
+        "id": "616520",
+        "name": "Sky's Miracle",
+        "desc": "Spends 100 points of Energy to use the ability and achieve Boundary Resonance with the Path of Destruction, dealing Fire DMG to all enemy targets, consumes all allies' HP until 60%, and increases all ally targets' Max HP by 100%. At the start of the turn, restore 100% of the acting unit's consumed HP, lasting for 4 turn(s).",
+        "enhanced_desc": ""
+    },
+    "616530": {
+        "id": "616530",
+        "name": "Faster-than-Light Surge",
+        "desc": "Increases \"Blazar\" Charging Efficiency by 20%. Alters the ratio of \"Blazar\" cleared at the start of the turn to 55%.",
+        "enhanced_desc": "Increases \"Blazar\" Charging Efficiency by 30%. Alters the ratio of \"Blazar\" cleared at the start of the turn to 50%."
+    },
+    "616531": {
+        "id": "616531",
+        "name": "Random Freepath Shockwave",
+        "desc": "After any ally target launches an ATK, deals Additional DMG equal to 30% of \"Blazar\" to the attacked targets.",
+        "enhanced_desc": "After any ally target launches an ATK, deals Additional DMG equal to 45% of \"Blazar\" to the attacked targets."
+    },
+    "616532": {
+        "id": "616532",
+        "name": "Hypersonic Cloud Medium",
+        "desc": "When any ally target is attacked, the DMG taken is Distributed among all allies.",
+        "enhanced_desc": "Decreases DMG taken by ally targets by 15%. When attacked, DMG taken by ally targets is Distributed among all allies."
+    },
+    "616540": {
+        "id": "616540",
+        "name": "Compact Blaze",
+        "desc": "When an ally target is attacked, \"Blazar\" DMG multiplier increases by 20% of the original multiplier, stacking up to 2 time(s) and lasting for 2 turn(s).",
+        "enhanced_desc": "When an ally target is attacked, \"Blazar\" DMG multiplier increases by 30% of the original multiplier, stacking up to 2 time(s) and lasting for 2 turn(s)."
+    },
+    "616541": {
+        "id": "616541",
+        "name": "Synchronous Radiation",
+        "desc": "20% of Shield Effect obtained by ally targets can be converted to \"Blazar.\"",
+        "enhanced_desc": "30% of Shield Effect obtained by ally targets can be converted to \"Blazar.\""
+    },
+    "616542": {
+        "id": "616542",
+        "name": "Continuous Spectrum",
+        "desc": "20% of Overflow Incoming Healing can be converted to \"Blazar.\"",
+        "enhanced_desc": "30% of Overflow Incoming Healing can be converted to \"Blazar.\""
+    },
+    "616543": {
+        "id": "616543",
+        "name": "Concealed Shadow Bands",
+        "desc": "Increases \"Blazar's\" Base Value by 20% of Max HP.",
+        "enhanced_desc": "Increases \"Blazar's\" Base Value by 30% of Max HP."
+    },
+    "616544": {
+        "id": "616544",
+        "name": "Cataclysmic Variable",
+        "desc": "Increases CRIT Rate of DMG dealt by \"Blazar\" by 20% and CRIT DMG by 50%.",
+        "enhanced_desc": "Increases CRIT Rate of DMG dealt by \"Blazar\" by 30% and CRIT DMG by 75%."
+    },
+    "616545": {
+        "id": "616545",
+        "name": "Forced Jump",
+        "desc": "If an ally target's current HP percentage is lower than 35% after being attacked or consuming HP, restores their HP by 12% of their Max HP. This can restore HP equal to a maximum of 36% Max HP during a single action.",
+        "enhanced_desc": "If an ally target's current HP percentage is lower than 35% after being attacked or consuming HP, restores their HP by 20% of their Max HP. This can restore HP equal to a maximum of 50% Max HP during a single action."
+    },
+    "616546": {
+        "id": "616546",
+        "name": "Radiative Decay",
+        "desc": "When ally targets' HP percentage is lower than 50%, decreases their DMG taken by 10% and increases Incoming Healing by 20%.",
+        "enhanced_desc": "When ally targets' HP percentage is lower than 50%, decreases their DMG taken by 15% and increases Incoming Healing by 30%."
+    },
+    "616550": {
+        "id": "616550",
+        "name": "Bipolar Jets",
+        "desc": "Decreases ally targets' DMG taken by 6%.",
+        "enhanced_desc": "Decreases ally targets' DMG taken by 9%."
+    },
+    "616551": {
+        "id": "616551",
+        "name": "Double-Segment Structure",
+        "desc": "Increases ally targets' Effect RES by 12%.",
+        "enhanced_desc": "Increases ally targets' Effect RES by 18%."
+    },
+    "616552": {
+        "id": "616552",
+        "name": "Contact Binary Stars",
+        "desc": "Increases ally targets' Max HP by 16%.",
+        "enhanced_desc": "Increases ally targets' Max HP by 24%."
+    },
+    "616553": {
+        "id": "616553",
+        "name": "Absolute Magnitude",
+        "desc": "Increases ally targets' Incoming Healing by 12%.",
+        "enhanced_desc": "Increases ally targets' Incoming Healing by 18%."
+    },
+    "616554": {
+        "id": "616554",
+        "name": "Standard Candle",
+        "desc": "Increases Shield effect received by ally targets by 12%.",
+        "enhanced_desc": "Increases Shield effect received by ally targets by 18%."
+    },
+    "616555": {
+        "id": "616555",
+        "name": "Mass Transfer Substar",
+        "desc": "After an ally target's HP or Shield Effect is reduced, increases their Max HP by 20% for 2 turn(s).",
+        "enhanced_desc": "After an ally target's HP or Shield Effect is reduced, increases their Max HP by 30% for 2 turn(s)."
+    },
+    "616556": {
+        "id": "616556",
+        "name": "Eclipsing Binary",
+        "desc": "After an ally target's HP or Shield Effect is reduced, increases their Effect RES by 16% for 2 turn(s).",
+        "enhanced_desc": "After an ally target's HP or Shield Effect is reduced, increases their Effect RES by 24% for 2 turn(s)."
+    },
+    "616557": {
+        "id": "616557",
+        "name": "Nova Burst",
+        "desc": "When struck with a killing blow, instead of becoming downed, characters immediately restore HP by 20% of their Max HP. The team can only trigger this effect 1 time(s) per battle.",
+        "enhanced_desc": "When struck with a killing blow, instead of becoming downed, characters immediately restore HP by 100% of their Max HP. The team can only trigger this effect 1 time(s) per battle."
+    },
+    "616610": { "id": "616610", "name": "", "desc": "", "enhanced_desc": "" },
+    "616620": {
+        "id": "616620",
+        "name": "Trickery's Miracle",
+        "desc": "Can consume 100 points of Energy to use the ability and achieve Boundary Resonance with the Path of Elation, dealing Follow-up ATK DMG of a random Type to all enemy targets for 5 – 10 time(s). All allies' Basic ATK / Skill / Ultimate DMG is considered as Follow-up ATK DMG for 2 turn(s).",
+        "enhanced_desc": ""
+    },
+    "616630": {
+        "id": "616630",
+        "name": "Licorice Pizza: Mint Shaved Ice",
+        "desc": "After an ally target launches a Follow-up ATK, deals 1 instance(s) of \"Aftertaste\" DMG to the attacked target equal to 50% of the attacker's ATK. When dealing \"Aftertaste\" DMG, additionally triggers 1 instance of \"Aftertaste\" DMG at a ratio of 15%.",
+        "enhanced_desc": "After an ally target launches a Follow-up ATK, deals 1 instance(s) of \"Aftertaste\" DMG to the attacked target equal to 75% of the attacker's ATK. When dealing \"Aftertaste\" DMG, additionally triggers 1 instance of \"Aftertaste\" DMG at a ratio of 20%."
+    },
+    "616631": {
+        "id": "616631",
+        "name": "Ocean Colonel: World of Yesterday",
+        "desc": "After an ally target uses Ultimate, for the next 2 attack(s), deals 1 instance(s) of \"Aftertaste\" DMG equal to 100% of the ally target's ATK to the attacked enemy target.",
+        "enhanced_desc": "After an ally target uses Ultimate, for the next 2 attack(s), deals 1 instance(s) of \"Aftertaste\" DMG equal to 110% of the ally target's ATK to the attacked enemy target. This instance of Ultimate will also trigger this effect."
+    },
+    "616632": {
+        "id": "616632",
+        "name": "Sands of Sunrise: Solo Dance",
+        "desc": "After an ally target launches a Follow-up ATK on any enemy target, the enemy target's action is delayed by 25%. This can trigger a max of 2 time(s) per turn per enemy target.",
+        "enhanced_desc": "After an ally target launches a Follow-up ATK on any enemy target, the enemy target's action is delayed by 30%. This can trigger a max of 3 time(s) per turn per enemy target."
+    },
+    "616640": {
+        "id": "616640",
+        "name": "A Silent Month in a House",
+        "desc": "After an ally target attacks a Weakness Broken enemy target, deals 1 instance(s) of \"Aftertaste\" DMG equal to 100% of the ally target's ATK to the attacked enemy target.",
+        "enhanced_desc": "After an ally target attacks a Weakness Broken enemy target, deals 1 instance(s) of \"Aftertaste\" DMG equal to 150% of the ally target's ATK to the attacked enemy target."
+    },
+    "616641": {
+        "id": "616641",
+        "name": "Lieutenant Besotted with Caviar",
+        "desc": "For every Type of \"Aftertaste\" DMG an enemy target takes, reduces their ATK by 4% until the end of their next action.",
+        "enhanced_desc": "For every Type of \"Aftertaste\" DMG an enemy target takes, reduces their ATK by 6% until the end of their next action."
+    },
+    "616642": {
+        "id": "616642",
+        "name": "Your Cabinet is Beautiful, You Know",
+        "desc": "For every Type of \"Aftertaste\" DMG an enemy target takes, increases their DMG taken by 3% until the end of their next action.",
+        "enhanced_desc": "For every Type of \"Aftertaste\" DMG an enemy target takes, increases their DMG taken by 4.5% until the end of their next action."
+    },
+    "616643": {
+        "id": "616643",
+        "name": "Seed of a Fruit Strange and Divine",
+        "desc": "When an ally target deals \"Aftertaste\" DMG to any enemy target, increases the ally target's DMG dealt by 12%, stacking up to 4 time(s) and lasting until the start of the next turn.",
+        "enhanced_desc": "When an ally target deals \"Aftertaste\" DMG to any enemy target, increases the ally target's DMG dealt by 12%, stacking up to 6 time(s) and lasting until the start of the next turn."
+    },
+    "616644": {
+        "id": "616644",
+        "name": "Cry of the Cosmic Cat",
+        "desc": "Increases \"Aftertaste\" DMG dealt by 70%.",
+        "enhanced_desc": "Increases \"Aftertaste\" DMG dealt by 105%."
+    },
+    "616645": {
+        "id": "616645",
+        "name": "Simon in the Sea",
+        "desc": "Ally targets' Follow-up ATK DMG and Additional DMG dealt ignore 18% of enemy targets' DEF.",
+        "enhanced_desc": "Ally targets' Follow-up ATK DMG and Additional DMG dealt ignore 24% of enemy targets' DEF."
+    },
+    "616646": {
+        "id": "616646",
+        "name": "Long Day's Journey into Day",
+        "desc": "When ally targets deal Follow-up ATK DMG, increases Weakness Break Efficiency by 35%.",
+        "enhanced_desc": "When ally targets deal Follow-up ATK DMG, increases Weakness Break Efficiency by 50%."
+    },
+    "616650": {
+        "id": "616650",
+        "name": "Psychedelic Parking Lot",
+        "desc": "Increases the CRIT DMG of ally targets' Follow-up ATK DMG and Additional DMG by 30%.",
+        "enhanced_desc": "Increases the CRIT DMG of ally targets' Follow-up ATK DMG and Additional DMG by 45%."
+    },
+    "616651": {
+        "id": "616651",
+        "name": "Love Line",
+        "desc": "After any ally target launches a Follow-up ATK, increases all ally targets' ATK by 20% for 2 turn(s).",
+        "enhanced_desc": "After any ally target launches a Follow-up ATK, increases all ally targets' ATK by 30% for 2 turn(s)."
+    },
+    "616652": {
+        "id": "616652",
+        "name": "Omega City",
+        "desc": "Increases ally targets' Follow-up ATK DMG and Additional DMG dealt by 30%.",
+        "enhanced_desc": "Increases ally targets' Follow-up ATK DMG and Additional DMG dealt by 45%."
+    },
+    "616653": {
+        "id": "616653",
+        "name": "Mr. Violence",
+        "desc": "Increases the CRIT Rate of ally targets' Follow-up ATK DMG and Additional DMG by 18%.",
+        "enhanced_desc": "Increases the CRIT Rate of ally targets' Follow-up ATK DMG and Additional DMG by 27%."
+    },
+    "616654": {
+        "id": "616654",
+        "name": "Forsaken Sanctuary",
+        "desc": "After any ally target launches a Follow-up ATK, restores 4 of their Energy. This effect can be triggered up to 1 time(s) per turn.",
+        "enhanced_desc": "After any ally target launches a Follow-up ATK, restores 6 of their Energy. This effect can be triggered up to 1 time(s) per turn."
+    },
+    "616655": {
+        "id": "616655",
+        "name": "Ashen Coins and Gold",
+        "desc": "After any ally target launches a Follow-up ATK, restores their HP by 10% of their Max HP.",
+        "enhanced_desc": "After any ally target launches a Follow-up ATK, restores their HP by 15% of their Max HP."
+    },
+    "616656": {
+        "id": "616656",
+        "name": "Reaper Comes Riding",
+        "desc": "After any ally target launches a Follow-up ATK, increases all ally targets' DEF by 20% for 2 turn(s).",
+        "enhanced_desc": "After any ally target launches a Follow-up ATK, increases all ally targets' DEF by 30% for 2 turn(s)."
+    },
+    "616657": {
+        "id": "616657",
+        "name": "Cat Town",
+        "desc": "After any ally target launches a Follow-up ATK, increases all ally targets' SPD by 8% for 2 turn(s).",
+        "enhanced_desc": "After any ally target launches a Follow-up ATK, increases all ally targets' SPD by 12% for 2 turn(s)."
+    },
+    "616710": { "id": "616710", "name": "", "desc": "", "enhanced_desc": "" },
+    "616720": {
+        "id": "616720",
+        "name": "Romance's Miracle",
+        "desc": "Spend 100 points of Energy to use this ability and trigger Boundary Resonance with the Path of Propagation. Causes one designated ally to immediately take action and recovers 5 Skill Point(s). Gains the \"Levitation\" effect. When any enemy unit is defeated by a character with \"Levitation,\" Boundary Equation regenerates 50 Energy, with the Max Energy set at 200.",
+        "enhanced_desc": ""
+    },
+    "616730": {
+        "id": "616730",
+        "name": "Müllerian Mimicry",
+        "desc": "Increases ally targets' ATK by 50%. Every Skill Point gained or consumed Charges \"Soul Chrysalis\" by 6%.",
+        "enhanced_desc": "Increases ally targets' ATK by 75%. Every Skill Point gained or consumed Charges \"Soul Chrysalis\" by 9%."
+    },
+    "616731": {
+        "id": "616731",
+        "name": "Ejecting Spores",
+        "desc": "While in the \"Butterfly Soul\" state, ally targets' Basic ATK/Skill DMG dealt increases by 40% and \"Butterfly Soul\" additionally deals 1 instance of True DMG equal to 15% of the original DMG.",
+        "enhanced_desc": "While in the \"Butterfly Soul\" state, ally targets' Basic ATK/Skill DMG dealt increases by 80% and \"Butterfly Soul\" additionally deals 1 instance of True DMG equal to 15% of the original DMG."
+    },
+    "616732": {
+        "id": "616732",
+        "name": "Broodwater Droplets",
+        "desc": "After any ally target consumes any Skill Point, increases all allies' CRIT DMG by 2%, stacking up to 35 time(s). After using Ultimate, the next time Skill Point is consumed, it will be considered as consuming 1 additional Skill Point.",
+        "enhanced_desc": "After any ally target consumes or gains any Skill Point, increases all allies' CRIT DMG by 3%, stacking up to 35 time(s). After using Ultimate, the next time Skill Point is consumed or gained, it will be considered as consuming or gaining 1 additional Skill Point."
+    },
+    "616740": {
+        "id": "616740",
+        "name": "Sporocarp",
+        "desc": "After defeating an enemy target, Charges \"Soul Chrysalis\" by 30%.",
+        "enhanced_desc": "After defeating an enemy target, Charges \"Soul Chrysalis\" by 45%."
+    },
+    "616741": {
+        "id": "616741",
+        "name": "Chitin Armor",
+        "desc": "Increases ally targets' ATK by 30%. When entering battle, additionally Charges \"Soul Chrysalis\" by 30%.",
+        "enhanced_desc": "Increases ally targets' ATK by 35%. When entering battle, additionally Charges \"Soul Chrysalis\" by 50%."
+    },
+    "616742": {
+        "id": "616742",
+        "name": "Free Cocoon",
+        "desc": "When \"Soul Chrysalis\" changes to \"Butterfly Soul,\" restores 60% HP and increases DMG dealt while in this state by 20%.",
+        "enhanced_desc": "When \"Soul Chrysalis\" changes to \"Butterfly Soul,\" restores 100% HP and increases DMG dealt while in this state by 30%."
+    },
+    "616743": {
+        "id": "616743",
+        "name": "Basidiospores",
+        "desc": "While in \"Butterfly Soul,\" increases Basic ATK / Skill DMG's RES PEN by 14%.",
+        "enhanced_desc": "While in \"Butterfly Soul,\" increases Basic ATK / Skill DMG's RES PEN by 21%."
+    },
+    "616744": {
+        "id": "616744",
+        "name": "Structural Hues",
+        "desc": "While in \"Soul Chrysalis,\" increases SPD by 16%. While in \"Butterfly Soul,\" increases DMG dealt by Basic ATK / Skill by 50%.",
+        "enhanced_desc": "While in \"Soul Chrysalis,\" increases SPD by 24%. While in \"Butterfly Soul,\" increases DMG dealt by Basic ATK / Skill by 75%."
+    },
+    "616745": {
+        "id": "616745",
+        "name": "Sensory Rods",
+        "desc": "For each Skill Point consumed by an ally target, their DMG taken reduces by 6% for 2 turn(s). This effect can be stacked up to 2 time(s).",
+        "enhanced_desc": "For each Skill Point consumed by an ally target, their DMG taken reduces by 6% for 2 turn(s). This effect can be stacked up to 3 time(s)."
+    },
+    "616746": {
+        "id": "616746",
+        "name": "Splash Hex",
+        "desc": "Basic ATK DMG/Skill DMG dealt by ally targets will deal DMG equal to 10% of the original DMG to adjacent targets.",
+        "enhanced_desc": "Basic ATK DMG/Skill DMG dealt by ally targets will deal DMG equal to 15% of the original DMG to adjacent targets."
+    },
+    "616750": {
+        "id": "616750",
+        "name": "Mushroom Base",
+        "desc": "When ally targets consume Skill Points, there is a 20% fixed chance of regenerating 1 Skill Point(s).",
+        "enhanced_desc": "When ally targets consume Skill Points, there is a 30% fixed chance of regenerating 1 Skill Point(s)."
+    },
+    "616751": {
+        "id": "616751",
+        "name": "Hanging Thread",
+        "desc": "Increases DMG dealt when any ally target uses Basic ATK or Skill by 30%.",
+        "enhanced_desc": "Increases DMG dealt when any ally target uses Basic ATK or Skill by 45%."
+    },
+    "616752": {
+        "id": "616752",
+        "name": "Eye Spots",
+        "desc": "Increases CRIT DMG dealt when any ally target uses Basic ATK or Skill by 30%.",
+        "enhanced_desc": "Increases CRIT DMG dealt when any ally target uses Basic ATK or Skill by 45%."
+    },
+    "616753": {
+        "id": "616753",
+        "name": "Dorsal Wings",
+        "desc": "Increases CRIT Rate when any ally target uses Basic ATK or Skill by 16%.",
+        "enhanced_desc": "Increases CRIT Rate when any ally target uses Basic ATK or Skill by 24%."
+    },
+    "616754": {
+        "id": "616754",
+        "name": "Thickened Walls",
+        "desc": "After any ally target consumes Skill Points, increases their DEF by 30% for 1 turn(s).",
+        "enhanced_desc": "After any ally target consumes Skill Points, increases their DEF by 45% for 1 turn(s)."
+    },
+    "616755": {
+        "id": "616755",
+        "name": "Tarsal Segments",
+        "desc": "After any ally target consumes Skill Points, increases their SPD by 8% for 2 turn(s).",
+        "enhanced_desc": "After any ally target consumes Skill Points, increases their SPD by 12% for 2 turn(s)."
+    },
+    "616756": {
+        "id": "616756",
+        "name": "Lip Bristles",
+        "desc": "When an ally target consumes any Skill Point, regenerates 2 Energy.",
+        "enhanced_desc": "When an ally target consumes any Skill Point, regenerates 3 Energy."
+    },
+    "616757": {
+        "id": "616757",
+        "name": "Budding Propagation",
+        "desc": "When an ally target consumes any Skill Point, restore HP equal to 10% of their Max HP.",
+        "enhanced_desc": "When an ally target consumes any Skill Point, restore HP equal to 15% of their Max HP."
+    },
+    "616810": { "id": "616810", "name": "", "desc": "", "enhanced_desc": "" },
+    "616820": {
+        "id": "616820",
+        "name": "Reason's Miracle",
+        "desc": "Spend 100 points of Energy to use the ability and achieve Boundary Resonance with the Path of Erudition. Deals minor Imaginary DMG to all enemy targets. Additionally, links the enemy with the highest Max HP with other enemies, inflicting \"Central Link\" on all enemies, and regenerating Energy equal to 100% of Max Energy to all allies.",
+        "enhanced_desc": ""
+    },
+    "616830": {
+        "id": "616830",
+        "name": "Hippocampus TR-303",
+        "desc": "After an ally target Breaks an enemy target's Weakness, Charges \"Brain in a Vat\" by 10%. If it is an Elite Enemy, then Charges 40%.",
+        "enhanced_desc": "When entering battle, charges \"Brain in a Vat\" by 100%. After an ally target Breaks an enemy target's Weakness, Charges \"Brain in a Vat\" by 12%. If it is an Elite Enemy, then Charges 50%."
+    },
+    "616831": {
+        "id": "616831",
+        "name": "Accumbens Nucleus DBS-45",
+        "desc": "When an ally target deals fatal damage to any enemy target, Charges \"Brain in a Vat\" by 50%.",
+        "enhanced_desc": "When an ally target deals fatal damage to any enemy target, Charges \"Brain in a Vat\" by 50%. Every time \"Brain in a Vat\" is fully Charged, SPD increases by 20% for 2 turn(s)."
+    },
+    "616832": {
+        "id": "616832",
+        "name": "Dark Matter ELO-536",
+        "desc": "Increases All-Type RES PEN for Ultimate DMG dealt by ally targets by 20%. For every enemy target on the field, the All-Type RES PEN for the Ultimate DMG dealt additionally increases by 3%. This effect lasts until the next time an Ultimate is used.",
+        "enhanced_desc": "Increases All-Type RES PEN for Ultimate DMG dealt by ally targets by 25%. For every enemy target on the field, the All-Type RES PEN for the Ultimate DMG dealt additionally increases by 3%. This effect lasts until the next time an Ultimate is used."
+    },
+    "616840": {
+        "id": "616840",
+        "name": "Restart: Terminal Nerve",
+        "desc": "When ally targets use their Ultimate via \"Brain in a Vat,\" increases their CRIT DMG by 80%, lasting until this ability ends.",
+        "enhanced_desc": "When ally target uses their Ultimate via \"Brain in a Vat,\" increases their CRIT DMG by 90%, lasting until the next attack ends."
+    },
+    "616841": {
+        "id": "616841",
+        "name": "Iterate: Cognitive Map",
+        "desc": "After an ally target uses their Ultimate via \"Brain in a Vat,\" they gain a Shield equal in strength to 36% of their Max HP, lasting for 2 turn(s).",
+        "enhanced_desc": "After an ally target uses their Ultimate via \"Brain in a Vat,\" they gain a Shield equal in strength to 45% of their Max HP, lasting for 3 turn(s)."
+    },
+    "616842": {
+        "id": "616842",
+        "name": "Analyze: Procedural Memory",
+        "desc": "When an ally target uses \"Brain in a Vat\" to use their Ultimate, increases all allies' DMG dealt by 36% for 2 turns.",
+        "enhanced_desc": "When an ally target uses \"Brain in a Vat\" to use their Ultimate, increases all allies' DMG dealt by 54% for 2 turns."
+    },
+    "616843": {
+        "id": "616843",
+        "name": "Stabilize: Slow-Wave Sleep",
+        "desc": "After ally targets are attacked, Charges \"Brain in a Vat\" by 6%.",
+        "enhanced_desc": "After ally targets are attacked, Charges \"Brain in a Vat\" by 9%."
+    },
+    "616844": {
+        "id": "616844",
+        "name": "Derive: Cell Demarcation",
+        "desc": "After an ally target uses \"Brain in a Vat\" to use their Ultimate, their ATK increases by 60% for 2 turn(s).",
+        "enhanced_desc": "After an ally target uses \"Brain in a Vat\" to use their Ultimate, their ATK increases by 90% for 2 turn(s)."
+    },
+    "616845": {
+        "id": "616845",
+        "name": "Execute: Enhanced Learning",
+        "desc": "After ally targets use their Ultimate to attack Weakness Broken enemies, delay the enemy's action by 16%. Every time the enemy target becomes Weakness Broken, this effect can be triggered up to 3 time(s).",
+        "enhanced_desc": "After ally targets use their Ultimate to attack Weakness Broken enemies, delay the enemy's action by 24%. Every time the enemy target becomes Weakness Broken, this effect can be triggered up to 3 time(s)."
+    },
+    "616846": {
+        "id": "616846",
+        "name": "Open: Direct Pathway",
+        "desc": "If an ally target's AoE ATK ability only attacks 1 enemy target, then this attack deals an additional set amount of DMG equal to 40% of the original DMG to the attacked enemy target.",
+        "enhanced_desc": "If an ally target's AoE ATK ability only attacks 1 enemy target, then this attack deals an additional set amount of DMG equal to 60% of the original DMG to the attacked enemy target."
+    },
+    "616850": {
+        "id": "616850",
+        "name": "Shimmering Flag",
+        "desc": "Increases ally targets' Ultimate DMG dealt by 18%.",
+        "enhanced_desc": "Increases ally targets' Ultimate DMG dealt by 27%."
+    },
+    "616851": {
+        "id": "616851",
+        "name": "Solid-State Stored Armor",
+        "desc": "Increases ally targets' Ultimate DMG CRIT Rate by 18%.",
+        "enhanced_desc": "Increases ally targets' Ultimate DMG CRIT Rate by 27%."
+    },
+    "616852": {
+        "id": "616852",
+        "name": "Safely Redacted Border",
+        "desc": "Increases ally targets' Ultimate DMG CRIT DMG by 30%.",
+        "enhanced_desc": "Increases ally targets' Ultimate DMG CRIT DMG by 45%."
+    },
+    "616853": {
+        "id": "616853",
+        "name": "Packages Aligned by Partitions",
+        "desc": "When entering battle, regenerates Energy equal to 30% of Max Energy.",
+        "enhanced_desc": "When entering battle, regenerates Energy equal to 45% of Max Energy."
+    },
+    "616854": {
+        "id": "616854",
+        "name": "Route of Erased Macroblocks",
+        "desc": "When an ally target uses their Ultimate, their ATK increases by 24% for 2 turn(s).",
+        "enhanced_desc": "When an ally target uses their Ultimate, their ATK increases by 36% for 2 turn(s)."
+    },
+    "616855": {
+        "id": "616855",
+        "name": "Lighthouse of Crystalline Resonance",
+        "desc": "After an ally target uses their Ultimate, their Max HP increases by 20% for 2 turn(s).",
+        "enhanced_desc": "After an ally target uses their Ultimate, their Max HP increases by 30% for 2 turn(s)."
+    },
+    "616856": {
+        "id": "616856",
+        "name": "Optical Guiding Lens",
+        "desc": "After ally targets use their Ultimate, they restore HP equal to 20% of their Max HP.",
+        "enhanced_desc": "After ally targets use their Ultimate, they restore HP equal to 30% of their Max HP."
+    },
+    "616857": {
+        "id": "616857",
+        "name": "Sequentially Written Track",
+        "desc": "When struck with a killing blow, characters will not be knocked down and will instead consume all their Energy, then restore HP equal to 50% of the consumed Energy. This effect can only be triggered once per battle for the whole team.",
+        "enhanced_desc": "When struck with a killing blow, characters will not be knocked down and will instead consume all their Energy, then restore HP equal to 100% of the consumed Energy. This effect can only be triggered once per battle for the whole team."
+    },
+    "616910": { "id": "616910", "name": "", "desc": "", "enhanced_desc": "" },
+    "616920": {
+        "id": "616920",
+        "name": "Passage's Miracle",
+        "desc": "Spends 100 points of Energy to use the ability and achieve Boundary Resonance with the Path of Harmony, dealing Quantum DMG to all enemy targets and Break their Weaknesses at 1000% Break Effect. When Weakness is Broken, triggers all Weakness Break effects from all Types.",
+        "enhanced_desc": ""
+    },
+    "616930": {
+        "id": "616930",
+        "name": "First Movement: The Frog and the Knight",
+        "desc": "Every time an enemy target takes 10 actual Toughness reduction, they become afflicted with 1 stack(s) of \"Harmonize.\"",
+        "enhanced_desc": "Every time an enemy target takes 10 actual Toughness reduction, they become afflicted with 1 stack(s) of \"Harmonize.\" Actual Toughness reduction received while Weakness Broken will also be taken into account."
+    },
+    "616931": {
+        "id": "616931",
+        "name": "Second Movement: The Faun's Breakfast",
+        "desc": "After any ally target attacks any Weakness Broken enemy targets, triggers 1 instance of \"Harmonize\" DMG in a 8% ratio.",
+        "enhanced_desc": "After any ally target attacks any Weakness Broken enemy targets, triggers 1 instance of \"Harmonize\" DMG with a ratio of 10%, increasing the \"Harmonize\" DMG multiplier by 20% of the original multiplier."
+    },
+    "616932": {
+        "id": "616932",
+        "name": "Third Movement: Rondo Form",
+        "desc": "When any ally target Breaks any enemy target's Weakness, the Weakness Break effects of other Type Weaknesses the enemy possesses are additionally triggered at a 50% ratio.",
+        "enhanced_desc": "When any ally target Breaks any enemy target's Weakness, the Weakness Break effects of other Type Weaknesses the enemy possesses are additionally triggered at a 80% ratio."
+    },
+    "616940": {
+        "id": "616940",
+        "name": "Common Practice Period",
+        "desc": "After an enemy target with \"Harmonize\" is defeated, causes 1 random adjacent targets to gain that enemy target's \"Harmonize\" stacks.",
+        "enhanced_desc": "After an enemy target with \"Harmonize\" is defeated, causes 2 random adjacent targets to gain that enemy target's \"Harmonize\" stacks."
+    },
+    "616941": {
+        "id": "616941",
+        "name": "Goblet of Dionysus",
+        "desc": "After any ally target attacks any Weakness Broken enemy targets, inflicts 1 stack(s) of \"Harmonize.\"",
+        "enhanced_desc": "Increases ally targets' Break Effect by 24%. After attacking any Weakness Broken enemy targets, inflicts 1 stack(s) of \"Harmonize.\""
+    },
+    "616942": {
+        "id": "616942",
+        "name": "Coronal Pulse",
+        "desc": "For each stack of \"Harmonize\" an enemy target has, increases their Break DMG taken by 1.0%.",
+        "enhanced_desc": "For each stack of \"Harmonize\" an enemy target has, increases their Break DMG taken by 1.5%."
+    },
+    "616943": {
+        "id": "616943",
+        "name": "String Quartet",
+        "desc": "When \"Harmonize\" DMG is triggered, additionally count 5 stack(s). Increases maximum \"Harmonize\" stacks by 5.",
+        "enhanced_desc": "When \"Harmonize\" DMG is triggered, additionally count 6 stack(s). Increases maximum \"Harmonize\" stacks by 10."
+    },
+    "616944": {
+        "id": "616944",
+        "name": "Iambic Pentameter",
+        "desc": "Increases the DMG multiplier of \"Harmonize\" by 30% of the original multiplier.",
+        "enhanced_desc": "Increases the DMG multiplier of \"Harmonize\" by 45% of the original multiplier."
+    },
+    "616945": {
+        "id": "616945",
+        "name": "Basso Continuo",
+        "desc": "After an ally target attacks a Weakness Broken enemy target, converts the Toughness Reduction of this attack into 1 instance of 50% Super Break DMG.",
+        "enhanced_desc": "After an ally target attacks a Weakness Broken enemy target, converts the Toughness Reduction of this attack into 1 instance of 75% Super Break DMG."
+    },
+    "616946": {
+        "id": "616946",
+        "name": "Righteous Nome",
+        "desc": "When an ally target Breaks an enemy target's Weakness, there is a 100% base chance to inflict Freeze on the attacked target, lasting for 1 turn(s).",
+        "enhanced_desc": "When an ally target Breaks an enemy target's Weakness, there is a 150% base chance to inflict Freeze on the attacked target, lasting for 1 turn(s)."
+    },
+    "616950": {
+        "id": "616950",
+        "name": "Stagnant Weave",
+        "desc": "When any ally target Breaks an enemy target's Weakness, delays the enemy target's action by 20%.",
+        "enhanced_desc": "When any ally target Breaks an enemy target's Weakness, delays the enemy target's action by 30%."
+    },
+    "616951": {
+        "id": "616951",
+        "name": "Original Declaration",
+        "desc": "Increases ally targets' Break DMG dealt by 8%.",
+        "enhanced_desc": "Increases ally targets' Break DMG dealt by 12%."
+    },
+    "616952": {
+        "id": "616952",
+        "name": "Serene Storm",
+        "desc": "Increases ally targets' Break Effect by 30%.",
+        "enhanced_desc": "Increases ally targets' Break Effect by 45%."
+    },
+    "616953": {
+        "id": "616953",
+        "name": "Linear Melody",
+        "desc": "When any ally target Breaks an enemy target's Weakness, increases the attacker's SPD by 12% for 3 turn(s).",
+        "enhanced_desc": "When any ally target Breaks an enemy target's Weakness, increases the attacker's SPD by 18% for 3 turn(s)."
+    },
+    "616954": {
+        "id": "616954",
+        "name": "Cross Rhythm",
+        "desc": "When any ally target Breaks an enemy target's Weakness, increases all ally targets' Break Effect by 40% for 3 turn(s).",
+        "enhanced_desc": "When any ally target Breaks an enemy target's Weakness, increases all ally targets' Break Effect by 60% for 3 turn(s)."
+    },
+    "616955": {
+        "id": "616955",
+        "name": "Free Tonality",
+        "desc": "Increases Break DMG taken by enemy targets by 16%.",
+        "enhanced_desc": "Increases Break DMG taken by enemy targets by 24%."
+    },
+    "616956": {
+        "id": "616956",
+        "name": "Duke of Omens",
+        "desc": "Decreases DEF of Weakness Broken enemy targets by 15%.",
+        "enhanced_desc": "Decreases DEF of Weakness Broken enemy targets by 20%."
+    },
+    "616957": {
+        "id": "616957",
+        "name": "Novel Motif",
+        "desc": "When ally targets Break any enemy target's Weakness, the attacker restores HP by 24% of their Max HP.",
+        "enhanced_desc": "When ally targets Break any enemy target's Weakness, the attacker restores HP by 36% of their Max HP."
+    },
     "619920": { "id": "619920", "name": "", "desc": "", "enhanced_desc": "" },
     "619921": { "id": "619921", "name": "", "desc": "", "enhanced_desc": "" },
     "619922": { "id": "619922", "name": "", "desc": "", "enhanced_desc": "" },
     "619923": { "id": "619923", "name": "", "desc": "", "enhanced_desc": "" },
+    "634000": {
+        "id": "634000",
+        "name": "0",
+        "desc": "When entering the Day, ally target's restores HP equal to 30% of their own Max HP. When ally target's turn starts during the Day, they restore HP equal to 5% of their own Max HP. During the Night, increases all allies' Max HP by 0%, final DMG dealt by 30%, and all enemies' final DMG dealt by 15%.",
+        "enhanced_desc": ""
+    },
+    "634010": {
+        "id": "634010",
+        "name": "Dreamlike Goldweaver",
+        "desc": "During the Day, after all ally targets perform 8 attacks in total, the following effect is activated: Increases SPD by 40% in the Day. Resets when Day/Night changes.",
+        "enhanced_desc": ""
+    },
+    "634011": {
+        "id": "634011",
+        "name": "Flawless Finery",
+        "desc": "This Boon and its enhancement effects are also effective at Night and will not be reset.",
+        "enhanced_desc": ""
+    },
+    "634012": {
+        "id": "634012",
+        "name": "Rondo Finery",
+        "desc": "Decreases the number of attacks needed to activate the effect by 6. When activated, advances all ally targets' actions by 100%.",
+        "enhanced_desc": ""
+    },
+    "634013": {
+        "id": "634013",
+        "name": "Bloodstained Finery",
+        "desc": "Increases the number of attacks needed to activate the effect by 8. When activated, increases SPD by an additional 50%.",
+        "enhanced_desc": ""
+    },
+    "634016": {
+        "id": "634016",
+        "name": "Weave Threads of Romance",
+        "desc": "Increases the Day ratio by 25%. After activating this effect, increases ally targets' SPD by an additional 30% during the Day.",
+        "enhanced_desc": ""
+    },
+    "634017": {
+        "id": "634017",
+        "name": "Weave Threads of Beauty",
+        "desc": "After activating the effect, each time an ally target uses an attack during the Day, additionally increases their SPD by 2%. This can stack up to 60% each Day/Night. Resets when Day/Night changes.",
+        "enhanced_desc": ""
+    },
+    "634018": {
+        "id": "634018",
+        "name": "Weave Threads of Fate",
+        "desc": "After activating the effect, increases a unit's final DMG dealt by 20% during the Day for every 100 SPD it has.",
+        "enhanced_desc": ""
+    },
+    "634020": {
+        "id": "634020",
+        "name": "Connected Infinite Gates",
+        "desc": "During the Day, increases ally targets' final DMG by 20%. When entering the Day, activates all allies' Ultimates.",
+        "enhanced_desc": ""
+    },
+    "634021": {
+        "id": "634021",
+        "name": "A Fairytale About Dawn",
+        "desc": "Increases the Day ratio by 25%. Increases ally targets' final DMG by an additional 20% during the Day.",
+        "enhanced_desc": ""
+    },
+    "634022": {
+        "id": "634022",
+        "name": "A Fairytale About The Past",
+        "desc": "After an ally target defeats an enemy target during the Day, regenerates Energy equal to 50% of Max Energy.",
+        "enhanced_desc": ""
+    },
+    "634023": {
+        "id": "634023",
+        "name": "A Fairytale About Us",
+        "desc": "This Boon and its enhancements also takes effect at Night and will not be reset. In Evernight and when Night descends, activates all allies' Ultimates.",
+        "enhanced_desc": ""
+    },
+    "634026": {
+        "id": "634026",
+        "name": "A Prophecy Bringing Strife",
+        "desc": "Increases the Day ratio by 25%. Increases ally targets' final DMG by an additional 25% during the Day.",
+        "enhanced_desc": ""
+    },
+    "634027": {
+        "id": "634027",
+        "name": "A Prophecy Leaving Hope",
+        "desc": "During the Day, for every 1 enemy target an ally target's attack hits, the attacker restores HP equal to 6% of Max HP when the next turn starts. Stacks up to 10 times.",
+        "enhanced_desc": ""
+    },
+    "634028": {
+        "id": "634028",
+        "name": "A Prophecy Continuing Myths",
+        "desc": "After an ally target uses Ultimate during the Day, increases the final DMG dealt by 4%. This can stack up to 60% each Day/Night. Resets when Day/Night changes.",
+        "enhanced_desc": ""
+    },
+    "634030": {
+        "id": "634030",
+        "name": "Meeting Death's Palm",
+        "desc": "During the Night, increases ally targets' Max HP by 30%. After HP is reduced, increases the next attack's final DMG dealt by 50%.",
+        "enhanced_desc": ""
+    },
+    "634031": {
+        "id": "634031",
+        "name": "Fated to Decay",
+        "desc": "Increases the Night ratio by 25%. After ally target's HP is reduced, additionally increases final DMG by 40%.",
+        "enhanced_desc": ""
+    },
+    "634032": {
+        "id": "634032",
+        "name": "Fated to Wither",
+        "desc": "This Boon and its enhancement effects are also effective during the Day and will not be reset.",
+        "enhanced_desc": ""
+    },
+    "634033": {
+        "id": "634033",
+        "name": "Fated to Perish",
+        "desc": "During the Night, this Boon and its enhancement will also consider any non-overflow healing of an ally target as HP reduction.",
+        "enhanced_desc": ""
+    },
+    "634036": {
+        "id": "634036",
+        "name": "Blooms Before Unnamed Graves",
+        "desc": "Increases the Night ratio by 25%. Increases ally targets' Max HP by an additional 45% during the Night.",
+        "enhanced_desc": ""
+    },
+    "634037": {
+        "id": "634037",
+        "name": "New Sprout on Dead Branch",
+        "desc": "During the Night, for every 50% HP in total reduced from an ally target, increases their Max HP by 5.0%. This can stack up to 65% each Day/Night. Resets when Day/Night changes.",
+        "enhanced_desc": ""
+    },
+    "634038": {
+        "id": "634038",
+        "name": "Butterflies on the Returning Road",
+        "desc": "Each time an ally target's HP is reduced, increases their final DMG dealt by 2%. Triggers up to 1 time in a single action. This can stack up to 60% each Day/Night. Resets when Day/Night changes.",
+        "enhanced_desc": ""
+    },
+    "634040": {
+        "id": "634040",
+        "name": "Crowned in Blood",
+        "desc": "During the Night, after an ally target's total HP is reduced by 50%, activate the following effect: When any allies' turn ends, they restore HP equal to 20% of Max HP. Increases final DMG by 25% during the Night. Resets when Day/Night changes.",
+        "enhanced_desc": ""
+    },
+    "634041": {
+        "id": "634041",
+        "name": "Lance of Divine Fury",
+        "desc": "This Boon and its enhancement effects are also effective during the Day and will not be reset.",
+        "enhanced_desc": ""
+    },
+    "634042": {
+        "id": "634042",
+        "name": "Blade of Human Rage",
+        "desc": "Increases the HP percentage reduction required to activate the effect by 40%. After activating effect, additionally increases ally targets' final DMG dealt by 30% during the Night.",
+        "enhanced_desc": ""
+    },
+    "634043": {
+        "id": "634043",
+        "name": "Shield of Triumphant Return",
+        "desc": "Decreases the HP percentage reduction required to activate the effect by 25%. When activating the effect, the entire team restores HP equal to 100% of their Max HP, and the next 5 attack(s) additionally restore HP equal to 30% of their Max HP.",
+        "enhanced_desc": ""
+    },
+    "634046": {
+        "id": "634046",
+        "name": "Slay the Thousand Foes",
+        "desc": "Increases Night ratio by 25%. After ally target's HP is reduced during the Night, additionally increases final DMG dealt by the next attack by 40%.",
+        "enhanced_desc": ""
+    },
+    "634047": {
+        "id": "634047",
+        "name": "Slay the Honorless Tyrant",
+        "desc": "After activating the effect, for every 10% HP reduced, increases Incoming Healing by 1.0% and final DMG dealt by 1.00% during the Night. A maximum increase of 40% Incoming Healing and 40% final DMG can be gained in each Day/Night. Resets when Day/Night changes.",
+        "enhanced_desc": ""
+    },
+    "634048": {
+        "id": "634048",
+        "name": "Slay the Maddened God",
+        "desc": "After activating effect, increases ally targets' Max HP equal to 16% of current Max HP during the Night.",
+        "enhanced_desc": ""
+    },
+    "634050": {
+        "id": "634050",
+        "name": "Endless Feasting",
+        "desc": "During the Day, increases enemy targets' final DMG taken by 25% and inflicts enemy targets with \"Swan Song\": At the start of each turn, take Physical Additional DMG equal to 400% base DMG.",
+        "enhanced_desc": ""
+    },
+    "634051": {
+        "id": "634051",
+        "name": "Unending Carnival",
+        "desc": "Increases the Day ratio by 25%. During the Day, increases enemy targets' final DMG taken by 20%.",
+        "enhanced_desc": ""
+    },
+    "634052": {
+        "id": "634052",
+        "name": "Unwaking Slumber",
+        "desc": "After enemy targets receive ally targets' attacks during the Day, triggers 1 instance of \"Swan Song\" DMG at a ratio of 100%.",
+        "enhanced_desc": ""
+    },
+    "634053": {
+        "id": "634053",
+        "name": "Unceasing Poems",
+        "desc": "\"Swan Song\" is considered as \"Bleed.\" Increases the DMG multiplier of \"Swan Song\" by 100% of the original multiplier, and deals DoT at the beginning of each turn.",
+        "enhanced_desc": ""
+    },
+    "634056": {
+        "id": "634056",
+        "name": "The Besotted's Elegy",
+        "desc": "Increases the Day ratio by 25%. During the Day, increases ally targets' final DMG dealt by 25%.",
+        "enhanced_desc": ""
+    },
+    "634057": {
+        "id": "634057",
+        "name": "The Sorrowful's Elegy",
+        "desc": "Each time \"Swan Song\" deals DMG during the Day, increases its DMG by 5% of the original multiplier. This can stack up to 200% each Day/Night. Resets when Day/Night changes.",
+        "enhanced_desc": ""
+    },
+    "634058": {
+        "id": "634058",
+        "name": "The Lost's Elegy",
+        "desc": "Each time other DoTs are received, triggers 1 instance of \"Swan Song\" DMG at a ratio of 50%. This triggers up to 4 time(s) in each action.",
+        "enhanced_desc": ""
+    },
+    "634060": {
+        "id": "634060",
+        "name": "Phantom Strider",
+        "desc": "Defeat Elite enemies in battle to earn 50 additional Cosmic Fragments. This effect triggers up to 1 time every battle. During the Night, increases final DMG dealt to Elite Enemies by 30% and reduces DMG taken from Elite Enemies by 10%.",
+        "enhanced_desc": ""
+    },
+    "634061": {
+        "id": "634061",
+        "name": "Unblinking in Lies",
+        "desc": "Increases Night ratio by 25%. During the Night, increases additional Cosmic Fragments earned from defeating Elite enemies by 35. The effect disappears during the first Day-Night change.",
+        "enhanced_desc": ""
+    },
+    "634062": {
+        "id": "634062",
+        "name": "Unflinching in Tricks",
+        "desc": "When entering battle and if you possess more than 500 Cosmic Fragments, additionally increases ally targets' final DMG dealt to Elite Enemies by 80% during the Night.",
+        "enhanced_desc": ""
+    },
+    "634063": {
+        "id": "634063",
+        "name": "Perfect in Fraud",
+        "desc": "In the Basic Effect, increases the number of times you can additionally gain Cosmic Fragments from defeating Elite enemies by 2 time(s).",
+        "enhanced_desc": ""
+    },
+    "634066": {
+        "id": "634066",
+        "name": "Long Night Blesses Thieves",
+        "desc": "Increases the Night ratio by 25%. During the Night, additionally increases final DMG dealt by ally targets to Elite enemies by 40%.",
+        "enhanced_desc": ""
+    },
+    "634067": {
+        "id": "634067",
+        "name": "Sealed Vault Welcomes Traitors",
+        "desc": "In Basic Effect, increases Cosmic Fragments gained by 100 when defeating Elite enemies.",
+        "enhanced_desc": ""
+    },
+    "634068": {
+        "id": "634068",
+        "name": "Even Lies Require Skill",
+        "desc": "In the current Divergent Universe run, for each time this Boon's effect of earning Cosmic Fragments is triggered, deals Additional DMG equal to 40% of ATK to the attacked target after using an attack during the Night.",
+        "enhanced_desc": ""
+    },
     "670010": {
         "id": "670010",
         "name": "City Restorer",
@@ -2463,7 +3641,7 @@
     "670280": {
         "id": "670280",
         "name": "Self-Proof Institute",
-        "desc": "After Suspicion reaches 99 stacks, it will be consumed and turned into 1 stack of Self-Negation: Increases DoT dealt by attackers to this unit by 70%. Each stack additionally increases DoT dealt by 10%, stacking up to #10[i] time(s). At the start of an enemy's turn, they take Lightning DoT equal to 135% of base DMG and cause adjacent targets to take Lightning DoT equal to 20% of the original DMG multiplier. At 2 or more stacks: At the start of the turn, regenerates 20% of Brain in a Vat for a random character. At 3 or more stacks: At the start of the turn, regenerates 10% of Brain in a Vat for all allies.",
+        "desc": "After Suspicion reaches 99 stacks, it will be consumed and turned into 1 stack of Self-Negation: Increases DoT dealt by attackers to this unit by 70%. Each stack additionally increases DoT dealt by 10%, stacking up to 50 time(s). At the start of an enemy's turn, they take Lightning DoT equal to 135% of base DMG and cause adjacent targets to take Lightning DoT equal to 20% of the original DMG multiplier. At 2 or more stacks: At the start of the turn, regenerates 20% of Brain in a Vat for a random character. At 3 or more stacks: At the start of the turn, regenerates 10% of Brain in a Vat for all allies.",
         "enhanced_desc": ""
     },
     "670320": {
@@ -2505,13 +3683,13 @@
     "670630": {
         "id": "670630",
         "name": "Advisor Physician",
-        "desc": "DMG dealt by Dewdrop is considered as follow-up attack DMG. After Dewdrop burst as a result of the character launching a follow-up attack or using an attack, there is a 16% fixed chance every time for them to trigger the following effect: Charge Dewdrop for 80% of its maximum, and deals DMG equal to 1/2/3/4 time(s) of Dewdrop's Charge with a 10%/40%/40%/10% fixed chance.",
+        "desc": "DMG dealt by Dewdrop is considered as Follow-up ATK DMG. After Dewdrop burst as a result of the character launching a Follow-up ATK or using an attack, there is a 16% fixed chance every time for them to trigger the following effect: Charge Dewdrop for 80% of its maximum, and deals DMG equal to 1/2/3/4 time(s) of Dewdrop's Charge with a 10%/40%/40%/10% fixed chance.",
         "enhanced_desc": ""
     },
     "670640": {
         "id": "670640",
         "name": "Phantom Thief",
-        "desc": "Calling Card appears in the Action Order: After characters launch a follow-up attack, their action advances by 5%. When taking action, advances the action of the first character in the lineup by 100%. After this character uses an attack, deals 10 instance(s) of Aftertaste DMG equal to 40% of the character's ATK, taking effect over a max of 4 attacks. Allies' Aftertaste DMG multiplier increases by 100% of the original multiplier, and a countdown with 100 SPD appears in the Action Order. The effects last until the countdown's turn begins.",
+        "desc": "Calling Card appears in the Action Order: After characters launch a Follow-up ATK, their action advances by 5%. When taking action, advances the action of the first character in the lineup by 100%. After this character uses an attack, deals 10 instance(s) of Aftertaste DMG equal to 40% of the character's ATK, taking effect over a max of 4 attacks. Allies' Aftertaste DMG multiplier increases by 100% of the original multiplier, and a countdown with 100 SPD appears in the Action Order. The effects last until the countdown's turn begins.",
         "enhanced_desc": ""
     },
     "670700": {
@@ -2607,7 +3785,7 @@
     "671260": {
         "id": "671260",
         "name": "Jester of Anatta",
-        "desc": "When a character launches a follow-up attack, there is a 150% base chance to apply 1 random debuff on the attacked target, lasting for 2 turn(s). The random debuffs include: Decrease DMG dealt by 15.0%, decrease DEF by 30.0%, and decrease SPD by 20.0%.",
+        "desc": "When a character launches a Follow-up ATK, there is a 150% base chance to apply 1 random debuff on the attacked target, lasting for 2 turn(s). The random debuffs include: Decrease DMG dealt by 15.0%, decrease DEF by 30.0%, and decrease SPD by 20.0%.",
         "enhanced_desc": ""
     },
     "671340": {
@@ -2655,7 +3833,7 @@
     "671460": {
         "id": "671460",
         "name": "Bounty Hunter",
-        "desc": "When a character's attack deals CRIT DMG, there is a 65% fixed chance to additionally deal a set amount of CRIT DMG equal to 1–100% of the original DMG for 1 time(s). This is considered as follow-up attack DMG.",
+        "desc": "When a character's attack deals CRIT DMG, there is a 65% fixed chance to additionally deal a set amount of CRIT DMG equal to 1–100% of the original DMG for 1 time(s). This is considered as Follow-up ATK DMG.",
         "enhanced_desc": ""
     },
     "671500": {
@@ -2691,13 +3869,13 @@
     "671650": {
         "id": "671650",
         "name": "Fireworks Master",
-        "desc": "Follow-up attack DMG dealt by characters increases by 50%. After a character launches a follow-up attack, deals to the attacked enemy target 1 instance of Aftertaste DMG equal to 500% of the total HP the character lost plus the HP they restored. Then, clears the accumulated HP changes. HP change is accumulated up to 200% of the character's Max HP.",
+        "desc": "Follow-up attack DMG dealt by characters increases by 50%. After a character launches a Follow-up ATK, deals to the attacked enemy target 1 instance of Aftertaste DMG equal to 500% of the total HP the character lost plus the HP they restored. Then, clears the accumulated HP changes. HP change is accumulated up to 200% of the character's Max HP.",
         "enhanced_desc": ""
     },
     "671670": {
         "id": "671670",
         "name": "Aether Phantom",
-        "desc": "Increases max Spores to 5. After characters launch a follow-up attack, apply 3 Spore(s) to the target.",
+        "desc": "Increases max Spores to 5. After characters launch a Follow-up ATK, apply 3 Spore(s) to the target.",
         "enhanced_desc": ""
     },
     "671680": {
@@ -2763,7 +3941,7 @@
     "672020": {
         "id": "672020",
         "name": "Tomb Keeper",
-        "desc": "Characters' Effect RES increases by 25% and \"Quake\" DMG dealt increases by 50%. When resisting debuffs inflicted on them, deals Quake DMG equal to 400% of the current Shield Effect to the target. This DMG cannot defeat the enemy target.",
+        "desc": "Characters' Effect RES increases by 25% and \"Quake\" DMG dealt increases by 50%. When resisting the inflicted debuffs, deals \"Quake\" DMG equal to 400% of the current Shield Effect to the target. This DMG cannot defeat the enemy target.",
         "enhanced_desc": ""
     },
     "672030": {
@@ -2955,7 +4133,7 @@
     "672670": {
         "id": "672670",
         "name": "Balloon Merchant",
-        "desc": "Increases the follow-up attack DMG dealt by characters by 50%. After launching a follow-up attack, there is a 100% fixed chance to recover 1 Skill Point.",
+        "desc": "Increases the Follow-up ATK DMG dealt by characters by 50%. After launching a Follow-up ATK, there is a 100% fixed chance to recover 1 Skill Point.",
         "enhanced_desc": ""
     },
     "672680": {
@@ -3015,13 +4193,445 @@
     "672860": {
         "id": "672860",
         "name": "Repairman",
-        "desc": "Ultimate DMG dealt by characters increases by 60%. After triggering a follow-up attack, every enemy target hit by the attack will make the next Ultimate ignore 5% of the enemy targets' DEF, stacking up to 5 time(s).",
+        "desc": "Ultimate DMG dealt by characters increases by 60%. After triggering a Follow-up ATK, every enemy target hit by the attack will make the next Ultimate ignore 5% of the enemy targets' DEF, stacking up to 5 time(s).",
         "enhanced_desc": ""
     },
     "672870": {
         "id": "672870",
         "name": "Kolchis",
         "desc": "For every 1 Skill Point consumed by characters, increases their Ultimate DMG dealt by 65%, up to a max of 130% and lasting until after using the Ultimate.",
+        "enhanced_desc": ""
+    },
+    "673140": {
+        "id": "673140",
+        "name": "Oathkeeper",
+        "desc": "After turn 12 (counted as the cumulative number of turns taken by all allies) ends, action advances the first character in the lineup and their memosprite by 100%. For the next 1 turn(s), grant them an extra turn at the end of the turn. After using an attack in this extra turn, deals Additional DMG equal to 600% of the attacker's ATK to the attacked target. Every stack of \"Obsession\" allies possess increases this DMG multiplier by 1% of the original multiplier.",
+        "enhanced_desc": ""
+    },
+    "673150": {
+        "id": "673150",
+        "name": "Elegy Priest",
+        "desc": "\"Flower of Annihilation\" appears in the Action Order: Records \"Blazar\" obtained by allies. When it takes action, deals Fire DMG equal to 5000% of the recorded value plus 3000% base DMG to all enemy targets, then clears the record. Increases its SPD by 1% for each \"Obsession\" stack that allies possess. When any ally target enters battle or is downed, or when any memosprite is summoned or disappears, Charges \"Blazar\" equal to 25% of Max HP for all ally targets.",
+        "enhanced_desc": ""
+    },
+    "673210": {
+        "id": "673210",
+        "name": "Growth-Ring Carver",
+        "desc": "When enemy targets become afflicted with Freeze or DoT status, there is a 150% base chance to Blast this effect to adjacent units. These effects are Blasted back to the original unit when no adjacent units are present. The same effect can only be Blasted 1 time per target per action. When one enemy target has Blasted effects a total of 15 times or when defeated, deals Ice DMG equal to 2000% base DMG to that target and adjacent targets. Every stack of \"Obsession\" allies possess increases this DMG by 1%.",
+        "enhanced_desc": ""
+    },
+    "673280": {
+        "id": "673280",
+        "name": "Whispering Woods",
+        "desc": "After ally targets use Ultimates 5 time(s) in total, \"Murmur\" deals DMG equal to 60% of the original DMG multiplier to adjacent targets. DMG dealt by \"Murmur\" then additionally increases by 2% every time an Ultimate is used.",
+        "enhanced_desc": ""
+    },
+    "673420": {
+        "id": "673420",
+        "name": "Gray River's Representative",
+        "desc": "After every 10 stack(s) of \"Critical Boost\" obtained by all allies or after defeating any enemy target, fires 10 Lux Arrow(s) to attack random enemy targets. Each Lux Arrow deals Wind DMG equal to 300% base DMG. Each Lux Arrow will cause \"Murmur\" to deal DMG equal to 30% of the original DMG, and cause \"Murmur\" to gain Charge equal to 20% of the total sum of ally characters' ATK.",
+        "enhanced_desc": ""
+    },
+    "673470": {
+        "id": "673470",
+        "name": "Beastkin",
+        "desc": "When no enemy targets on field have \"Beast Tongue,\" \"Beast Tongue\" is applied to random attacked target after ally targets use an attack. After enemies with \"Beast Tongue\" receive a total of 8 attack(s) or are defeated, they take Lightning DMG equal to 4000% base DMG, adjacent targets take DMG equal to 3000% base DMG, and all allies increase CRIT DMG by 60% and SPD by 20% for 2 turn(s). If in the \"Butterfly Soul\" state, then it is considered to additionally launching 1 attack(s).",
+        "enhanced_desc": ""
+    },
+    "673560": {
+        "id": "673560",
+        "name": "Conflict Author",
+        "desc": "When the total HP lost by ally targets is equal to 100% of their Max HP or after recovering from being downed, deals \"Aftertaste\" DMG equal to 350% of their Max HP to all enemies. When a character's turn starts, consumes HP equal to 5% of Max HP, increasing this value by 5% after every time this effect is triggered. When ally characters become downed for the first time in this battle, restore their current HP to 100% of their Max HP, and HP will no longer be consumed when their turn starts.",
+        "enhanced_desc": ""
+    },
+    "673580": {
+        "id": "673580",
+        "name": "Sky Priest",
+        "desc": "After ally targets are attacked, gain 2 \"Lightning Sacrifice(s).\" After they unleash a Counter, gain 1 \"Lightning Sacrifice(s).\" When they have 6 \"Lightning Sacrifice(s),\" \"Lightning Sacrifice\" is cleared to increase Ultimate DMG dealt by 180% for 2 turn(s) and deals 200% \"Blazar\" DMG to all enemy targets. This damage is considered as Ultimate DMG.",
+        "enhanced_desc": ""
+    },
+    "673640": {
+        "id": "673640",
+        "name": "Wounds of Plenty",
+        "desc": "\"Maddening Voice\" appears in the Action Order: After any ally target launches a Follow-up ATK, advances their action by 5%. When taking action, action advances the first ally target in the lineup by 100%. After that unit uses an attack, deals 10 instances(s) of \"Aftertaste\" DMG equal to 30% of the ally target's ATK, and up to 4 instances of attacks can take effect. Moreover, all ally targets' \"Aftertaste\" DMG dealt multiplier increases by 100% of the original multiplier, and a countdown with 150 SPD will appear in the Action Order. Effects will last until the countdown's turn begins.",
+        "enhanced_desc": ""
+    },
+    "673690": {
+        "id": "673690",
+        "name": "Tearless Garden",
+        "desc": "Follow-up ATK ignores Weakness Type to additionally reduce 10.0 Toughness. When ally targets Break enemy target Weakness, deals 2 instance(s) of \"Aftertaste\" DMG equal to 150% ATK to all enemy targets. Every point of Max Toughness the enemy target has increases this DMG by 1%.",
+        "enhanced_desc": ""
+    },
+    "673710": {
+        "id": "673710",
+        "name": "Home of Odes",
+        "desc": "The Charge required for \"Butterfly Soul\" increases by 50%. After entering the \"Butterfly Soul\" state, all ally targets' actions advance by 50% and the DMG multiplier of the True DMG dealt by \"Butterfly Soul\" increases by 50% of the original multiplier, additionally increasing by 1% for every stack of \"Obsession\" possessed by all allies.",
+        "enhanced_desc": ""
+    },
+    "673790": {
+        "id": "673790",
+        "name": "Cocoon Dressmaker",
+        "desc": "When entering the \"Butterfly Soul\" state, inflict \"Cocoon\" to all enemy targets. They cannot take action in the next turn, are action delayed by 50% at the start of the turn, and take Physical DMG equal to 3500% base DMG. While allies are in the \"Butterfly Soul\" state, enemy targets will become afflicted with \"Cocoon\" again every 2 turn(s), and \"Butterfly Soul\" recovers 1 attack count(s) after the first time enemy targets become Weakness Broken.",
+        "enhanced_desc": ""
+    },
+    "673860": {
+        "id": "673860",
+        "name": "Theater Puppet Maker",
+        "desc": "After all allies uses a total of 6 Ultimate(s) while not under the \"Overclock\" effect, gains \"Overclock\": After attacking with an Ultimate, deals 3 instance(s) of \"Aftertaste\" DMG equal to 130% of the attacker's ATK to attacked targets. After using an Ultimate, this status will end. The first character in the team lineup activates their Ultimate, Charges Brain in a Vat to 200%, and can use their Ultimate 4 times before the status ends for them.",
+        "enhanced_desc": ""
+    },
+    "673870": {
+        "id": "673870",
+        "name": "Caprism",
+        "desc": "After all allies use their Ultimates a total of 2 time(s), deals 2 instances of Wind DMG equal to 600% base DMG to a random enemy target. This DMG will deal DMG equal to 30% of the original DMG to adjacent units. Every time this effect is triggered, increases the number of instances by 1 in this battle and increases the Basic ATK / Skill / Ultimate DMG dealt by ally targets by 12%, to a maximum of 15 time(s).",
+        "enhanced_desc": ""
+    },
+    "673920": {
+        "id": "673920",
+        "name": "Lazy Fingerjoint",
+        "desc": "When an ally target breaks an enemy target's Weakness, afflict them with 20 stack(s) of \"Harmonize.\" After attacking Weakness Broken enemy targets, causes any DoT currently applied on it and \"Harmonize\" to immediately deal DMG equal to 24% of the original DMG.",
+        "enhanced_desc": ""
+    },
+    "673950": {
+        "id": "673950",
+        "name": "Flame-Chase Alliance",
+        "desc": "When enemy targets take Break DMG, they additionally take 3 instance(s) of DMG equal to 35% of \"Harmonize\" max limit, and charge all allies with \"Blazar\" equal to 25% of their respective Max Hp. This effect can only be triggered 1 time per turn by enemy targets.",
+        "enhanced_desc": ""
+    },
+    "674140": {
+        "id": "674140",
+        "name": "History Investigator",
+        "desc": "After ally targets are attacked, increases all ally targets' SPD by 35% for 2 turn(s) and gains 2 stack(s) of \"Critical Boost.\" \"Critical Boost\" will not be lost when memosprites are attacked.",
+        "enhanced_desc": ""
+    },
+    "674160": {
+        "id": "674160",
+        "name": "Brewer of Bitter Memories",
+        "desc": "Every stack of \"Obsession\" additionally increases all ally targets' ATK by 1.5%. After a character uses an attack, their memosprite's next attack is considered as a Follow-up ATK.",
+        "enhanced_desc": ""
+    },
+    "674190": {
+        "id": "674190",
+        "name": "Hearth Clan",
+        "desc": "Increases max \"Obsession\" stacks of allies by 4, and increases Max HP by an additional 0.4% for each \"Obsession\" stack for all allies. When breaking an enemy's Weakness, all allies gain 3 \"Obsession\" stacks.",
+        "enhanced_desc": ""
+    },
+    "674240": {
+        "id": "674240",
+        "name": "Executor",
+        "desc": "DoTs taken by enemy targets can CRIT. The CRIT Rate/CRIT DMG is equal to 20% of characters' total CRIT Rate/CRIT DMG, with CRIT DMG capped at 120%.",
+        "enhanced_desc": ""
+    },
+    "674260": {
+        "id": "674260",
+        "name": "One Buried At Sea",
+        "desc": "The clearing threshold of \"Murmur\" increases by 120%. After ally targets launch a Follow-up ATK, causes the \"Murmur\" on the attacked target to deal DMG equal to 20% of original DMG.",
+        "enhanced_desc": ""
+    },
+    "674280": {
+        "id": "674280",
+        "name": "Book-Burning Bureaucrat",
+        "desc": "Increases Ultimate DMG dealt by ally targets by 160%. After using Ultimate, causes the \"Murmur\" on the attacked target to gain Charge equal to 10% of this instance of Ultimate DMG. This increase cannot exceed 300% of the total sum of ally characters' ATK.",
+        "enhanced_desc": ""
+    },
+    "674410": {
+        "id": "674410",
+        "name": "Archer of Recollections",
+        "desc": "Increases the maximum stack of \"Critical Boost\" by 4. Every stack of \"Critical Boost\" additionally increases SPD by 3% and additionally increases memosprite SPD by 2%.",
+        "enhanced_desc": ""
+    },
+    "674460": {
+        "id": "674460",
+        "name": "Roaming Troupe",
+        "desc": "After any ally targets use an attack and deal CRIT DMG, deals 1 instance of True DMG equal to 1% ~ 50% of the original DMG after attacking. If the attack was a Follow-up ATK, deals True DMG equal to 1% ~ 70% of the original DMG instead",
+        "enhanced_desc": ""
+    },
+    "674470": {
+        "id": "674470",
+        "name": "Fowl-Hunting Golden Claw",
+        "desc": "For every 1% of action advance effect gained by ally targets, increases DMG dealt in the next turn by 2%, up to a max of 100%. This effect additionally increases by 30% against targets in the \"Butterfly Soul\" state.",
+        "enhanced_desc": ""
+    },
+    "674520": {
+        "id": "674520",
+        "name": "Ominous Flamespirit",
+        "desc": "When ally targets deal \"Blazar\" DMG and if the enemy target is in any DoT state, the DMG multiplier of this instance of \"Blazar\" increases by 60% of the original multiplier. Every DoT type additionally increases this multiplier by 15%.",
+        "enhanced_desc": ""
+    },
+    "674570": {
+        "id": "674570",
+        "name": "Coronal Phoenix",
+        "desc": "Increases \"Blazar\" Charging Efficiency by 50%. When \"Butterfly Soul\" state is active, using Basic ATK/Skills to perform attacks deals 100% \"Blazar\" DMG to the target.",
+        "enhanced_desc": ""
+    },
+    "674590": {
+        "id": "674590",
+        "name": "Kremnos Vanguards",
+        "desc": "When ally targets Break any enemy target's Weakness, Charge \"Blazar\" equal to 25% of Max HP. If all enemy targets are Weakness Broken, \"Blazar\" will not be cleared at the start of ally targets' turns.",
+        "enhanced_desc": ""
+    },
+    "674620": {
+        "id": "674620",
+        "name": "Conspiracy Theorist",
+        "desc": "After any ally target launches a Follow-up ATK, there is a 150% base chance to inflict 1 random debuff on the attacked target, lasting for 2 turn(s). The random debuffs include: Decrease DMG dealt by 15.0%, decrease DEF by 30.0%, and decrease SPD by 20.0%.",
+        "enhanced_desc": ""
+    },
+    "674650": {
+        "id": "674650",
+        "name": "Smiling Executioner",
+        "desc": "After any ally target uses an attack, if their HP percentage is greater than 60%, consume 5% Max HP and deals 1 instance of \"Aftertaste\" DMG equal to 120% of their Max HP.",
+        "enhanced_desc": ""
+    },
+    "674680": {
+        "id": "674680",
+        "name": "Drunk Supervisor",
+        "desc": "Increase CRIT DMG dealt by ally targets' Follow-up ATKs by 150%. When using \"Brain in a Vat\" to launch Ultimate and deal DMG to enemy targets, it is considered as a Follow-up ATK.",
+        "enhanced_desc": ""
+    },
+    "674710": {
+        "id": "674710",
+        "name": "Memory Seed Cultivator",
+        "desc": "The True DMG multiplier of \"Butterfly Soul\" increases by 60% of the original multiplier and increases attack count by 4. After a memosprite uses an attack, they can trigger the True DMG of \"Butterfly Soul\" and consume its attack count.",
+        "enhanced_desc": ""
+    },
+    "674780": {
+        "id": "674780",
+        "name": "Book-Weaving Divine Machine",
+        "desc": "When ally target enters \"Butterfly Soul\" state, used Ultimate also deals \"Butterfly Soul\"'s True DMG, and increases \"Butterfly Soul\"'s attack count by 2. This effect triggers up to 1 time for each ally.",
+        "enhanced_desc": ""
+    },
+    "674790": {
+        "id": "674790",
+        "name": "Orphan Carehouse",
+        "desc": "After breaking an enemy target's Weakness, recovers 1 Skill Points. Using Basic ATK and Skills to attack enemy targets inflicts 5 additional Toughness Reduction and applies 2 \"Harmonize\" stacks.",
+        "enhanced_desc": ""
+    },
+    "674810": {
+        "id": "674810",
+        "name": "Erythrokeramism",
+        "desc": "After a memosprite uses an attack, Charge their memomaster's \"Brain in a Vat\" by 8%. After the memomaster uses \"Brain in a Vat\" to use their Ultimate, increases the memosprite's DMG by 240% for 4 turn(s).",
+        "enhanced_desc": ""
+    },
+    "674840": {
+        "id": "674840",
+        "name": "Warring Scholar",
+        "desc": "When any ally target Breaks any enemy target's Weakness, Charges \"Brain in a Vat\" by 20% and regenerates Energy equal to 10% of Max Energy. After defeating any enemy target, regenerates Energy equal to 60% of Max Energy.",
+        "enhanced_desc": ""
+    },
+    "674850": {
+        "id": "674850",
+        "name": "Forbidden Knowledge's Martyr",
+        "desc": "When any ally target uses their Ultimate, consumes HP from all ally targets equal to 5% of their current HP and increases their DMG dealt by 30% to a max of 4 stack(s), lasting for 2 turn(s).",
+        "enhanced_desc": ""
+    },
+    "674920": {
+        "id": "674920",
+        "name": "Wilting Patient",
+        "desc": "When enemy targets take \"Harmonize\" DMG, additionally take 1 instance of \"Harmonize\" DMG equal to 75% of the original DMG. Every debuff currently on the target additionally increases this DMG by 2%, up to 40%.",
+        "enhanced_desc": ""
+    },
+    "674950": {
+        "id": "674950",
+        "name": "Sym-Thanatos",
+        "desc": "Increases ally target's Break Effect by 100%. When using attacks to Break enemy targets' Weaknesses, gain a shield that can offset DMG equal to 30% of their Max HP that lasts 5 turn(s). Also additionally deals 300% of \"Blazar\" DMG to the current target after an attack.",
+        "enhanced_desc": ""
+    },
+    "674970": {
+        "id": "674970",
+        "name": "Society of Charity",
+        "desc": "After any ally target attacks a Weakness Broken enemy target, converts the Toughness Reduction of this attack into 1 instance of 100% Super Break DMG. While in the \"Butterfly Soul\" state, this effect additionally deals 100% Super Break DMG.",
+        "enhanced_desc": ""
+    },
+    "675140": {
+        "id": "675140",
+        "name": "Judge of the Nightveil",
+        "desc": "When a memosprite disappears, increases all ally targets' SPD by 25% and CRIT DMG by 100% for 5 turn(s).",
+        "enhanced_desc": ""
+    },
+    "675170": {
+        "id": "675170",
+        "name": "Life-Giving Sculptor",
+        "desc": "Increases DMG dealt by memosprites by 80%. After a memosprite uses an attack, the DMG dealt by the memomaster's next Basic ATK/Skill increases by 80%.",
+        "enhanced_desc": ""
+    },
+    "675180": {
+        "id": "675180",
+        "name": "Bard",
+        "desc": "While allies' \"Obsession\" stacks exceed 70, increases Ultimate DMG by 75% and memosprite DMG by 75%.",
+        "enhanced_desc": ""
+    },
+    "675190": {
+        "id": "675190",
+        "name": "Priest of Time",
+        "desc": "While ally targets possess \"Obsession\" increases All-Type RES PEN by 15%. Every \"Obsession\" stack increases all ally targets' Break Effect by 0.5%.",
+        "enhanced_desc": ""
+    },
+    "675210": {
+        "id": "675210",
+        "name": "Passenger of River of Souls",
+        "desc": "Increases DoT dealt by ally targets by 50%. When enemy targets enter battle, they become afflicted with \"Observed.\" At the start of the turn, they take Fire DoT equal to 75% base DMG. This DMG increases by 1% for every stack of \"Obsession\" possessed by all ally targets.",
+        "enhanced_desc": ""
+    },
+    "675250": {
+        "id": "675250",
+        "name": "Grim Pilgrim",
+        "desc": "When enemy targets enter battle, they are inflicted with the Bleed effect. While Bleeding, they will take Physical DoT equal to 10% of their Max HP at the start of their turn. This DMG cannot exceed 200% of all ally targets' total HP.",
+        "enhanced_desc": ""
+    },
+    "675270": {
+        "id": "675270",
+        "name": "Bone Planter",
+        "desc": "The clearing threshold of \"Murmur\" increases by 80%. After consuming Skill Point(s), Charge \"Murmur\" for all enemies by 4% of the clearing threshold.",
+        "enhanced_desc": ""
+    },
+    "675280": {
+        "id": "675280",
+        "name": "Society of Disappointment",
+        "desc": "When any enemy targets are defeated, regenerates 5.0 Energy for all allies for every Burn, Shock, Bleed, or Wind Shear states they possess.",
+        "enhanced_desc": ""
+    },
+    "675420": {
+        "id": "675420",
+        "name": "Law's Arbitrators",
+        "desc": "For every \"Murmur\" Charge that equals to 1% of the clearing threshold, increases CRIT DMG taken by enemy targets by 1.0%, up to 150%.",
+        "enhanced_desc": ""
+    },
+    "675450": {
+        "id": "675450",
+        "name": "Kremnos Traveler",
+        "desc": "Increases Shield Effect gained by ally targets by 30%. After ally targets are attacked and if they did not take DMG in this attack, they will only lose 1 stack(s) of \"Critical Boost.\"",
+        "enhanced_desc": ""
+    },
+    "675480": {
+        "id": "675480",
+        "name": "Hunter of Monstrous Beasts",
+        "desc": "Increase CRIT DMG by 8% for each stack of \"Critical Boost.\" When an ally target uses their Ultimate, inherit this max stack number and receive 2 stack(s) of \"Critical Boost.\"",
+        "enhanced_desc": ""
+    },
+    "675490": {
+        "id": "675490",
+        "name": "Cleaner",
+        "desc": "When any ally target deals DMG to a Weakness Broken enemy target, each stack of \"Critical Boost\" additionally increases CRIT Rate by 4% and CRIT DMG by 30%.",
+        "enhanced_desc": ""
+    },
+    "675520": {
+        "id": "675520",
+        "name": "Fang of Dying Sun",
+        "desc": "Increases all ally targets' Effect RES by 20% and \"Blazar\" DMG dealt by 40%. When resisting debuffs, deals Additional DMG equal to 60% of \"Blazar\" to the target. This DMG cannot defeat enemy targets.",
+        "enhanced_desc": ""
+    },
+    "675540": {
+        "id": "675540",
+        "name": "Foolish Child of Golden Blood",
+        "desc": "When an enemy target is defeated, increase the Charging Efficiency of \"Blazar\" by 18% up to a maximum of 3 stack(s). Also, restores HP for all allies equal to 30% of their respective Max HP.",
+        "enhanced_desc": ""
+    },
+    "675560": {
+        "id": "675560",
+        "name": "Red Moon's Messenger",
+        "desc": "Increases \"Blazar\" Base Value by 50%. After any ally target launches a Follow-up ATK, the ally target with the lowest current HP percentage restores HP equal to 10% of their Max HP.",
+        "enhanced_desc": ""
+    },
+    "675590": {
+        "id": "675590",
+        "name": "Skyblade's Legion",
+        "desc": "Increases Shield Effect gained by 30%. After Breaking an enemy target's Weakness, all allies obtain a Shield equal to 15% of their Max HP for 2 turn(s).",
+        "enhanced_desc": ""
+    },
+    "675650": {
+        "id": "675650",
+        "name": "Water Lyrist",
+        "desc": "After any ally target launches a Follow-up ATK, deals 70% of \"Blazar\" DMG to the attacked targets.",
+        "enhanced_desc": ""
+    },
+    "675670": {
+        "id": "675670",
+        "name": "Wave-Chasing Siren",
+        "desc": "Increases the Follow-up ATK DMG dealt by ally targets by 75%. After launching a Follow-up ATK, there is a 30% fixed chance to recover 1 Skill Point.",
+        "enhanced_desc": ""
+    },
+    "675680": {
+        "id": "675680",
+        "name": "Sophist of Gods",
+        "desc": "After an ally uses an Ultimate, when using the next attack, deals \"Aftertaste\" DMG equal to 240% ATK 1 time(s) to the target.",
+        "enhanced_desc": ""
+    },
+    "675690": {
+        "id": "675690",
+        "name": "Boat of Intoxication",
+        "desc": "\"Aftertaste\" DMG dealt by ally targets can ignore Weakness Type and reduce 1.0 Toughness from enemy targets. In a single attack, this effect can be triggered against each enemy target up to 10 time(s).",
+        "enhanced_desc": ""
+    },
+    "675710": {
+        "id": "675710",
+        "name": "Creation Nymph",
+        "desc": "After a memosprite attacks, \"Soul Chrysalis\" Charges for 15% with a 40% chance to recover 1 Skill Point(s).",
+        "enhanced_desc": ""
+    },
+    "675720": {
+        "id": "675720",
+        "name": "Boulder Court",
+        "desc": "Increases the True DMG multiplier of \"Butterfly Soul\" by 35% of the original multiplier. Every debuff on the enemy target additionally increases this by 1% of the original multiplier.",
+        "enhanced_desc": ""
+    },
+    "675750": {
+        "id": "675750",
+        "name": "Golden Mysteries",
+        "desc": "Increases Basic ATK/Skill DMG dealt by ally targets' by 80%. When an ally uses a Basic ATK and their HP percentage is higher than or equal to 50%, consumes HP equal to 10% of their Max HP and additionally recovers 1 Skill Point.",
+        "enhanced_desc": ""
+    },
+    "675760": {
+        "id": "675760",
+        "name": "Thief Musician",
+        "desc": "For every Skill Point used by an ally target, the next attack applies \"Aftertaste\" DMG equal to 70% ATK to the target, stacking up to 3 time(s).",
+        "enhanced_desc": ""
+    },
+    "675810": {
+        "id": "675810",
+        "name": "Sand Scribe",
+        "desc": "When characters use Ultimate, gains 2 stack(s) of \"Obsession\" for themselves and their memosprite, increases SPD by 15%, and increases ATK by 70%, lasting for 3 turn(s).",
+        "enhanced_desc": ""
+    },
+    "675840": {
+        "id": "675840",
+        "name": "Child of Spiral",
+        "desc": "When an ally target's \"Brain in a Vat\" reaches 100%, increases their ATK by 80%. After using an attack, deals Additional DMG equal to 80% of ATK to the enemy target with the highest HP among the targets attacked, lasting for 3 turn(s).",
+        "enhanced_desc": ""
+    },
+    "675860": {
+        "id": "675860",
+        "name": "Lotophagism",
+        "desc": "When ally targets use their Ultimate, for each 50 Energy consumed, increases ATK by 5% and increases the DMG multiplier of \"Aftertaste\" dealt by 2% of the original multiplier. This effect can stack up to 20 times, lasting for 3 turn(s). Each time an Ultimate is used, it will be considered as having consumed at least 80 Energy.",
+        "enhanced_desc": ""
+    },
+    "675870": {
+        "id": "675870",
+        "name": "White Dryad",
+        "desc": "For every 1 Skill Point consumed by ally targets, increases Ultimate DMG dealt by 65%, up to a max of 130% and lasting until after using the Ultimate.",
+        "enhanced_desc": ""
+    },
+    "675910": {
+        "id": "675910",
+        "name": "Court of Echoes",
+        "desc": "Every stack of \"Obsession\" increases Break Effect by 0.8%. Memosprite's Break Effect additionally increases by 0.5%.",
+        "enhanced_desc": ""
+    },
+    "675920": {
+        "id": "675920",
+        "name": "Disoriented Hermit",
+        "desc": "When any ally target used an attack to inflict a debuff on enemy targets, apply 1 stack(s) of \"Harmonize\" to the enemy targets. If the targets are Weakness Broken, the applied stacks are doubled.",
+        "enhanced_desc": ""
+    },
+    "675940": {
+        "id": "675940",
+        "name": "Flame-Chase Envoy",
+        "desc": "Increases ally targets' Weakness Break Efficiency by 20%. After Weakness Breaking an enemy target, increases SPD by 10% and ATK by 30%, lasting for 2 turn(s).",
+        "enhanced_desc": ""
+    },
+    "675960": {
+        "id": "675960",
+        "name": "Dawn Troupe",
+        "desc": "Increases the DMG multiplier of \"Harmonize\" by 50%. After ally targets launch a Follow-up ATK, apply 1 stack(s) of \"Harmonize\" to attacked targets.",
         "enhanced_desc": ""
     }
 }
