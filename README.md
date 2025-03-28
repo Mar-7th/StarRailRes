@@ -1,8 +1,8 @@
 # StarRailRes
 
-Honkai: Star Rail game resources, can be used as a bot resource library.
+Honkai: Star Rail game resources.
 
-崩坏：星穹铁道游戏资源，可作为相关机器人资源库使用。
+崩坏：星穹铁道游戏资源。
 
 ## Overview
 
@@ -46,13 +46,5 @@ StarRailRes
 ```
 
 ## Links
-
-Guide images source:
-
-| Folder               | Author       | Link                                                                                             | Licence  |
-| -------------------- | ------------ | ------------------------------------------------------------------------------------------------ | -------- |
-| `guide/Nwflower`     | Nwflower     | [`Nwflower/star-rail-atlas`](https://github.com/Nwflower/star-rail-atlas)                        | AGPL-3.0 |
-| `guide/OriginMirror` | OriginMirror | [`初始镜像OriginMirror@米游社`](https://www.miyoushe.com/sr/accountCenter/postList?id=159117584) | Unknown  |
-| `guide/Gamer`        | 磁场 Wiki    | [`gamer.cn/xqtd`](https://www.gamer.cn/xqtd)                                                     | Unknown  |
 
 Game data source: [Dimbreath/StarRailData](https://github.com/Dimbreath/StarRailData)
