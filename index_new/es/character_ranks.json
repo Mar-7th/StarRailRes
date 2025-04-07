@@ -4500,7 +4500,7 @@
         "id": "140401",
         "name": "Espalda por el frío curtida",
         "rank": 1,
-        "desc": "El multiplicador de daño que Deicidio, ascenso divino inflige al objetivo principal aumenta en un 30%. Deicidio, ascenso divino pasa a infligir a todos los enemigos un Daño Imaginario equivalente al multiplicador de daño del objetivo principal.",
+        "desc": "El multiplicador del daño que Deicidio, ascenso divino inflige al objetivo principal aumenta en un 30%. Deicidio, ascenso divino pasa a infligir a todos los enemigos un Daño Imaginario equivalente al multiplicador de daño del objetivo principal.",
         "materials": [
             { "id": "11404", "num": 1 }
         ],
@@ -4563,12 +4563,163 @@
         "id": "140406",
         "name": "Montaña de sangre sedimentada",
         "rank": 6,
-        "desc": "Al entrar en combate, entra en el estado de Venganza de sangre y la carga necesaria para activar Deicidio, ascenso divino se reduce a 100 puntos.",
+        "desc": "Al entrar en combate, entra inmediatamente en el estado de Venganza de sangre y la carga necesaria para activar Deicidio, ascenso divino se reduce a 100 puntos.",
         "materials": [
             { "id": "11404", "num": 1 }
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1404_rank6.png"
+    },
+    "140501": {
+        "id": "140501",
+        "name": "Mago aislado por las estrellas",
+        "rank": 1,
+        "desc": "Recupera 1 pt. de habilidad básica tras lanzar la habilidad básica por primera vez. Cuando golpea a un enemigo con la habilidad básica, reduce la DEF del objetivo en un 16% durante 2 turnos.",
+        "materials": [
+            { "id": "11405", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1405_rank1.png"
+    },
+    "140502": {
+        "id": "140502",
+        "name": "Persona de la historia real",
+        "rank": 2,
+        "desc": "Cuando un enemigo entra en la batalla, se activa 1 vez el efecto de implantación de Debilidad del talento y la RES a todos los tipos de ese enemigo se reduce en un 20%.",
+        "materials": [
+            { "id": "11405", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1405_rank2.png"
+    },
+    "140503": {
+        "id": "140503",
+        "name": "Pupilas clavadas en el cosmos",
+        "rank": 3,
+        "desc": "Niv. de habilidad definitiva +2 (máximo: nivel 15). Niv. de ATQ básico +1 (máximo: nivel 10).",
+        "materials": [
+            { "id": "11405", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "140503", "num": 2 },
+            { "id": "140501", "num": 1 }
+        ],
+        "icon": "icon/skill/1405_ultimate.png"
+    },
+    "140504": {
+        "id": "140504",
+        "name": "Incandescencia despeñada",
+        "rank": 4,
+        "desc": "Al lanzar la habilidad básica, el ATQ aumenta en un 30% durante 2 turnos. Este efecto se puede acumular hasta 2 veces.",
+        "materials": [
+            { "id": "11405", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1405_rank4.png"
+    },
+    "140505": {
+        "id": "140505",
+        "name": "Simiente fuera del vórtice",
+        "rank": 5,
+        "desc": "Niv. de habilidad básica +2 (máximo: nivel 15). Niv. de talento +2 (máximo: nivel 15).",
+        "materials": [
+            { "id": "11405", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "140502", "num": 2 },
+            { "id": "140504", "num": 2 }
+        ],
+        "icon": "icon/skill/1405_skill.png"
+    },
+    "140506": {
+        "id": "140506",
+        "name": "El todo alberga el todo",
+        "rank": 6,
+        "desc": "El daño que inflige Anaxa es el 130% del daño original. Los dos efectos del Rastro \"Vacío necesario\" se activan directamente y ya no dependen de la cantidad de personajes de la Vía de la Erudición que haya en el equipo aliado.",
+        "materials": [
+            { "id": "11405", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1405_rank6.png"
+    },
+    "140701": {
+        "id": "140701",
+        "name": "Doncella nívea y recuerdos amortajados",
+        "rank": 1,
+        "desc": "Cuando los PV actuales del enemigo son iguales o inferiores al 80%/50% de sus PV máx., el daño que le infligen Garra ósea, abrazo del dragón lóbrego, Garras que rasgan la oscuridad, Aliento que prende las sombras y Alas que abaten las ruinas es un 120%/140% del daño original.",
+        "materials": [
+            { "id": "11407", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1407_rank1.png"
+    },
+    "140702": {
+        "id": "140702",
+        "name": "Coronación de flores aladas",
+        "rank": 2,
+        "desc": "Tras invocar al mnemoduende Dragón Caído, Castorice obtiene 2 acumulaciones de Voluntad ardiente, que se puede acumular hasta 2 veces. Voluntad ardiente compensa el consumo de PV del Dragón Caído cuando usa la habilidad del mnemoduende Aliento que prende las sombras y adelanta la acción de Castorice un 100%. Además, Castorice obtiene un 30% de los puntos máximos de Nuevo brote la siguiente vez que lance la habilidad básica potenciada.",
+        "materials": [
+            { "id": "11407", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1407_rank2.png"
+    },
+    "140703": {
+        "id": "140703",
+        "name": "Danza postrera de los devotos",
+        "rank": 3,
+        "desc": "Niv. de habilidad definitiva +2 (máximo: nivel 15). Niv. de ATQ básico +1 (máximo: nivel 10). Niv. de talento del mnemoduende +1 (máximo: nivel 10).",
+        "materials": [
+            { "id": "11407", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "140703", "num": 2 },
+            { "id": "140701", "num": 1 },
+            { "id": "1140703", "num": 1 },
+            { "id": "1140712", "num": 1 },
+            { "id": "1140705", "num": 1 },
+            { "id": "1140706", "num": 1 }
+        ],
+        "icon": "icon/skill/1407_ultimate.png"
+    },
+    "140704": {
+        "id": "140704",
+        "name": "Descanso arropado en lamentos",
+        "rank": 4,
+        "desc": "Cuando Castorice está en la batalla, la curación recibida de todos los aliados aumenta en un 20%.",
+        "materials": [
+            { "id": "11407", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1407_rank4.png"
+    },
+    "140705": {
+        "id": "140705",
+        "name": "Capítulos de profecías prístinas",
+        "rank": 5,
+        "desc": "Niv. de habilidad básica +2 (máximo: nivel 15). Niv. de talento +2 (máximo: nivel 15). Niv. de habilidad del mnemoduende +1 (máximo: nivel 10).",
+        "materials": [
+            { "id": "11407", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "140702", "num": 2 },
+            { "id": "140704", "num": 2 },
+            { "id": "1140701", "num": 1 },
+            { "id": "140709", "num": 2 },
+            { "id": "1140702", "num": 1 }
+        ],
+        "icon": "icon/skill/1407_skill.png"
+    },
+    "140706": {
+        "id": "140706",
+        "name": "Crisálida que el tiempo romperá",
+        "rank": 6,
+        "desc": "Cuando Castorice o el Dragón Caído infligen daño, la PEN de la RES a Cuántico aumenta en un 20%. Mientras ataca, el Dragón Caído puede reducir la firmeza de los enemigos ignorando sus tipos de Debilidad, y activa el efecto de Ruptura Cuántica cuando rompe su Debilidad. Además, la cantidad de rebotes del talento Alas que abaten las ruinas aumenta adicionalmente en 3.",
+        "materials": [
+            { "id": "11407", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1407_rank6.png"
     },
     "800101": {
         "id": "800101",

@@ -1870,6 +1870,35 @@
             ]
         ]
     },
+    "22004": {
+        "id": "22004",
+        "skill": "Gegenseitiger Nutzen",
+        "desc": "Erhöht den ANG des Trägers um #1[i]%. Für jede Schwäche des Gegners eines anderen Typs wird der verursachte SCH des Trägers um #2[i]% erhöht, bis zu 7 Schwächetypen.",
+        "params": [
+            [0.08, 0.04],
+            [0.1, 0.05],
+            [0.12, 0.06],
+            [0.14, 0.07],
+            [0.16, 0.08]
+        ],
+        "properties": [
+            [
+                { "type": "AttackAddedRatio", "value": 0.08 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.1 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.12 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.14 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.16 }
+            ]
+        ]
+    },
     "23000": {
         "id": "23000",
         "skill": "Meteoritenschwarm",
@@ -2897,7 +2926,7 @@
     "23036": {
         "id": "23036",
         "skill": "Gestalten",
-        "desc": "Erhöht die Basis-GES des Trägers um #1[i]. Nach einem Angriff durch den Träger und seinen Memogeist erhält der Träger 1 Stapelung „Brokat“. Jede Stapelung von Brokat erhöht den KRIT-SCH des Trägers und seines Memogeistes um #4[f1]%, bis zu #2[i] Stapelungen. Wenn die max. Stapelzahl erreicht wird, erhöht jede Stapelung von Brokat den verursachten Standardangriff-SCH zusätzlich um #3[f1]%.",
+        "desc": "Erhöht die Basis-GES des Trägers um #1[i]. Nach einem Angriff durch den Träger oder seinen Memogeist erhält der Träger 1 Stapelung „Brokat“. Jede Stapelung von Brokat erhöht den KRIT-SCH des Trägers und seines Memogeistes um #4[f1]%, bis zu #2[i] Stapelungen. Wenn die max. Stapelzahl erreicht wird, erhöht jede Stapelung von Brokat den verursachten Standardangriff-SCH zusätzlich um #3[f1]%.",
         "params": [
             [12, 6, 0.09, 0.09],
             [14, 6, 0.105, 0.105],
@@ -2984,7 +3013,7 @@
     "23039": {
         "id": "23039",
         "skill": "Weitblick",
-        "desc": "Erhöht die max. LP des Trägers um #1[i]% und die erhaltene Heilung um #6[i]%. Der Einsatz der Fertigkeit oder des Ultimates verbraucht LP in Höhe von #2[f1]% der max. LP des Trägers und erhöht den verursachten SCH dieses Angriffs um #3[i]%. Wenn die dabei verbrauchten LP #4[i] oder mehr betragen, wird der SCH zusätzlich um #5[i]% erhöht.\nWenn die aktuellen LP nicht ausreichen, werden die aktuellen LP des Trägers auf 1 reduziert.",
+        "desc": "Erhöht die max. LP des Trägers um #1[i]% und die erhaltene Heilung um #6[i]%. Der Einsatz der Fertigkeit oder des Ultimates verbraucht LP in Höhe von #2[f1]% der max. LP des Trägers und erhöht den verursachten SCH dieses Angriffs um #3[i]%. Wenn die dabei verbrauchten LP #4[i] Pkt. oder mehr betragen, wird der SCH zusätzlich um #5[i]% erhöht.\nWenn die aktuellen LP nicht ausreichen, werden die aktuellen LP des Trägers auf 1 reduziert.",
         "params": [
             [0.18, 0.06, 0.3, 500, 0.3, 0.2],
             [0.21, 0.065, 0.35, 500, 0.35, 0.25],
@@ -3013,6 +3042,54 @@
                 { "type": "HPAddedRatio", "value": 0.3 },
                 { "type": "HealTakenRatio", "value": 0.4 }
             ]
+        ]
+    },
+    "23040": {
+        "id": "23040",
+        "skill": "Schnitzen",
+        "desc": "Erhöht die max. LP des Trägers um #1[i]%. Wenn der Träger oder sein Memogeist während der eigenen Runde LP verlieren, erhält der Träger „Blüte der Unterwelt“, mit der der Träger und sein Memogeist beim Verursachen von SCH für #3[i] Rd. #2[i]% der VTD des Ziels ignorieren.\nWenn der Memogeist des Trägers verschwindet, wird die Aktion des Trägers um #4[i]% vorgezogen. Dieser Effekt kann nur 1-mal ausgelöst werden. Die Auslösungsanzahl wird jedes Mal zurückgesetzt, wenn der Träger seinen Ultimate einsetzt.",
+        "params": [
+            [0.3, 0.3, 2, 0.12],
+            [0.375, 0.35, 2, 0.15],
+            [0.45, 0.4, 2, 0.18],
+            [0.525, 0.45, 2, 0.21],
+            [0.6, 0.5, 2, 0.24]
+        ],
+        "properties": [
+            [
+                { "type": "HPAddedRatio", "value": 0.3 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.375 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.45 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.525 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.6 }
+            ]
+        ]
+    },
+    "23041": {
+        "id": "23041",
+        "skill": "Schmelzen",
+        "desc": "Der Träger stellt zu Beginn der Runde #5[i] Pkt. Energie wieder her. Wenn ein Gegner eine vom Träger implantierte Schwäche besitzt, wird der ihm zugefügte SCH durch den Träger um #3[i]% erhöht.\nWenn ein Gegner vom Träger angegriffen wird, verringert der Träger seine VTD für #4[i] Rd. um #2[i]%. Effekte der gleichen Art sind nicht stapelbar.",
+        "params": [
+            [0, 0.12, 0.6, 2, 10],
+            [0, 0.15, 0.7, 2, 10],
+            [0, 0.18, 0.8, 2, 10],
+            [0, 0.21, 0.9, 2, 10],
+            [0, 0.24, 1, 2, 10]
+        ],
+        "properties": [
+            [],
+            [],
+            [],
+            [],
+            []
         ]
     },
     "24000": {

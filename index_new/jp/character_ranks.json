@@ -4439,7 +4439,7 @@
         "id": "140302",
         "name": "{RUBY_B#すてき}素敵{RUBY_E#}な{RUBY_B#ゆめ}夢{RUBY_E#}への{RUBY_B#あんないにん}案内人{RUBY_E#}",
         "rank": 2,
-        "desc": "結界による付加ダメージが本来のダメージの120%分にアップする。結界による付加ダメージを与えた時、さらに1回付加ダメージを与える。",
+        "desc": "結界による付加ダメージが本来のダメージの120%分にアップする。結界による付加ダメージを与える時、さらに1回付加ダメージを与える。",
         "materials": [
             { "id": "11403", "num": 1 }
         ],
@@ -4448,7 +4448,7 @@
     },
     "140303": {
         "id": "140303",
-        "name": "{RUBY_B#ゆうや}朝焼{RUBY_E#}けの{RUBY_B#たからもの}宝物{RUBY_E#}",
+        "name": "{RUBY_B#あさや}朝焼{RUBY_E#}けの{RUBY_B#たからもの}宝物{RUBY_E#}",
         "rank": 3,
         "desc": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
         "materials": [
@@ -4569,6 +4569,157 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1404_rank6.png"
+    },
+    "140501": {
+        "id": "140501",
+        "name": "{RUBY_B#えんぺい}掩蔽{RUBY_E#}の{RUBY_B#まじゅつし}魔術師{RUBY_E#}",
+        "rank": 1,
+        "desc": "戦闘スキルを初めて発動した後、SPを1回復する。戦闘スキルが敵に命中する時、敵の防御力-16%、2ターン継続。",
+        "materials": [
+            { "id": "11405", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1405_rank1.png"
+    },
+    "140502": {
+        "id": "140502",
+        "name": "{RUBY_B#しじつ}史実{RUBY_E#}の{RUBY_B#しぜんじん}自然人{RUBY_E#}",
+        "rank": 2,
+        "desc": "敵が戦闘に入る時、天賦の弱点付与効果を1回発動し、その敵の全属性耐性を20%ダウンさせる。",
+        "materials": [
+            { "id": "11405", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1405_rank2.png"
+    },
+    "140503": {
+        "id": "140503",
+        "name": "{RUBY_B#しんうちゅう}深宇宙{RUBY_E#}に{RUBY_B#きざ}刻{RUBY_E#}まれた{RUBY_B#ひとみ}瞳{RUBY_E#}",
+        "rank": 3,
+        "desc": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+        "materials": [
+            { "id": "11405", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "140503", "num": 2 },
+            { "id": "140501", "num": 1 }
+        ],
+        "icon": "icon/skill/1405_ultimate.png"
+    },
+    "140504": {
+        "id": "140504",
+        "name": "{RUBY_B#きょうこく}峡谷{RUBY_E#}に{RUBY_B#お}落{RUBY_E#}ちる{RUBY_B#しゃくねつ}灼熱{RUBY_E#}",
+        "rank": 4,
+        "desc": "戦闘スキルを発動する時、攻撃力+30%、2ターン継続。この効果は最大で2層累積できる。",
+        "materials": [
+            { "id": "11405", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1405_rank4.png"
+    },
+    "140505": {
+        "id": "140505",
+        "name": "{RUBY_B#かじょうわんがい}渦状腕外{RUBY_E#}の{RUBY_B#はいしゅ}胚種{RUBY_E#}",
+        "rank": 5,
+        "desc": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+        "materials": [
+            { "id": "11405", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "140502", "num": 2 },
+            { "id": "140504", "num": 2 }
+        ],
+        "icon": "icon/skill/1405_skill.png"
+    },
+    "140506": {
+        "id": "140506",
+        "name": "{RUBY_B#ばんぶつ}万物{RUBY_E#}は{RUBY_B#ばんぶつ}万物{RUBY_E#}の{RUBY_B#なか}中{RUBY_E#}",
+        "rank": 6,
+        "desc": "アナイクスの与ダメージは本来の130%になる。軌跡「必要な余白」の2つの効果は同時に直接発動するようになり、パーティ内の「知恵」の運命を歩むキャラクターの数に依存しなくなる。",
+        "materials": [
+            { "id": "11405", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1405_rank6.png"
+    },
+    "140701": {
+        "id": "140701",
+        "name": "{RUBY_B#ゆきじ}雪地{RUBY_E#}の{RUBY_B#せいじょ}聖女{RUBY_E#}、\n{RUBY_B#きおく}記憶{RUBY_E#}を{RUBY_B#ひつぎ}棺{RUBY_E#}に{RUBY_B#と}閉{RUBY_E#}じ{RUBY_B#こ}込{RUBY_E#}めて",
+        "rank": 1,
+        "desc": "敵の残りHPが自身の最大HPの80%/50%以下の時、その敵に対する「骸爪、冥竜の抱擁」、「冥茫裂く爪痕」、「晦冥焼き払う息吹」、「幽墟奪略の晦翼」の与ダメージは本来の120%/140%になる。",
+        "materials": [
+            { "id": "11407", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1407_rank1.png"
+    },
+    "140702": {
+        "id": "140702",
+        "name": "{RUBY_B#よくし}翼翅{RUBY_E#}と{RUBY_B#はな}花{RUBY_E#}の{RUBY_B#かんむり}冠{RUBY_E#}を{RUBY_B#いただ}戴{RUBY_E#}く",
+        "rank": 2,
+        "desc": "記憶の精霊「死竜」を召喚した後、キャストリスは「熾意」を2層獲得する。「熾意」は最大で2層累積でき、死竜の精霊スキル「晦冥焼き払う息吹」が消費するHPの代わりとして消費できる。さらにキャストリスの行動順が100%早まり、次の強化戦闘スキル発動後、キャストリスは「新蕾」の上限30%分の「新蕾」を獲得する。",
+        "materials": [
+            { "id": "11407", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1407_rank2.png"
+    },
+    "140703": {
+        "id": "140703",
+        "name": "{RUBY_B#けいけん}敬虔{RUBY_E#}な{RUBY_B#たびびと}旅人{RUBY_E#}、\n{RUBY_B#しきょう}死境{RUBY_E#}で{RUBY_B#かろ}軽{RUBY_E#}やかに{RUBY_B#ま}舞{RUBY_E#}って",
+        "rank": 3,
+        "desc": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。精霊天賦のLv.+1、最大Lv.10まで。",
+        "materials": [
+            { "id": "11407", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "140703", "num": 2 },
+            { "id": "140701", "num": 1 },
+            { "id": "1140703", "num": 1 },
+            { "id": "1140712", "num": 1 },
+            { "id": "1140705", "num": 1 },
+            { "id": "1140706", "num": 1 }
+        ],
+        "icon": "icon/skill/1407_ultimate.png"
+    },
+    "140704": {
+        "id": "140704",
+        "name": "{RUBY_B#あいか}哀歌{RUBY_E#}を{RUBY_B#いだ}抱{RUBY_E#}く{RUBY_B#やす}安{RUBY_E#}らかな{RUBY_B#ねむ}眠{RUBY_E#}り",
+        "rank": 4,
+        "desc": "キャストリスがフィールドにいる時、味方全体が治癒を受けた場合、回復量+20%。",
+        "materials": [
+            { "id": "11407", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1407_rank4.png"
+    },
+    "140705": {
+        "id": "140705",
+        "name": "{RUBY_B#じゅんぱく}純白{RUBY_E#}の{RUBY_B#しんぺん}新編{RUBY_E#}、\n{RUBY_B#よげん}預言{RUBY_E#}で{RUBY_B#いろど}彩{RUBY_E#}られて",
+        "rank": 5,
+        "desc": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。精霊スキルのLv.+1、最大Lv.10まで。",
+        "materials": [
+            { "id": "11407", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "140702", "num": 2 },
+            { "id": "140704", "num": 2 },
+            { "id": "1140701", "num": 1 },
+            { "id": "140709", "num": 2 },
+            { "id": "1140702", "num": 1 }
+        ],
+        "icon": "icon/skill/1407_skill.png"
+    },
+    "140706": {
+        "id": "140706",
+        "name": "{RUBY_B#りゅうねん}流年{RUBY_E#}を{RUBY_B#ま}待{RUBY_E#}ち{RUBY_B#まゆ}繭{RUBY_E#}を{RUBY_B#やぶ}破{RUBY_E#}る",
+        "rank": 6,
+        "desc": "キャストリスと死竜がダメージを与えた時、量子属性耐性貫通+20%。死竜は攻撃時、弱点属性を無視して敵の靭性を削ることができる。敵を弱点撃破した時、量子属性の弱点撃破効果を発動する。また、精霊天賦「幽墟奪略の晦翼」のバウンド回数+3。",
+        "materials": [
+            { "id": "11407", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1407_rank6.png"
     },
     "800101": {
         "id": "800101",

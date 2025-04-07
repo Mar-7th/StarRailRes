@@ -3712,7 +3712,7 @@
         "id": "130803",
         "name": "Morsure du froid éternel",
         "rank": 3,
-        "desc": "Niv. de l'ultime +2, jusqu'au niv. 15 maximum.\nNiv. de l'ATQ normale +1, jusqu'au niv. 10 maximum.",
+        "desc": "Niv. de l'ultime +2, jusqu'au Niv. 15 maximum.\nNiv. de l'ATQ normale +1, jusqu'au Niv. 10 maximum.",
         "materials": [
             { "id": "11308", "num": 1 }
         ],
@@ -4103,7 +4103,7 @@
         "id": "131405",
         "name": "Abolition de l'espoir",
         "rank": 5,
-        "desc": "Niv. de l'ultime +2, jusqu'au niv. 15 maximum.\nNiv. de l'ATQ normale +1, jusqu'au niv. 10 maximum.",
+        "desc": "Niv. de l'ultime +2, jusqu'au Niv. 15 maximum.\nNiv. de l'ATQ normale +1, jusqu'au Niv. 10 maximum.",
         "materials": [
             { "id": "11314", "num": 1 }
         ],
@@ -4248,7 +4248,7 @@
         "id": "131705",
         "name": "Volonté inébranlable et flèches infaillibles",
         "rank": 5,
-        "desc": "Niv. de l'ultime +2, jusqu'au niv. 15 maximum.\nNiv. de l'ATQ normale +1, jusqu'au niv. 10 maximum.",
+        "desc": "Niv. de l'ultime +2, jusqu'au Niv. 15 maximum.\nNiv. de l'ATQ normale +1, jusqu'au Niv. 10 maximum.",
         "materials": [
             { "id": "11317", "num": 1 }
         ],
@@ -4428,7 +4428,7 @@
         "id": "140301",
         "name": "Fête de la cuillère à sucre",
         "rank": 1,
-        "desc": "Lorsque la zone est active et après que des cibles alliées ont attaqué des ennemis, inflige des DGT réels supplémentaires équivalents à 24% du total des DGT de cette attaque aux cibles qui ont subi des DGT additionnels de la part de la zone.",
+        "desc": "Lorsque la zone est active et après qu'une cible alliée a attaqué un ennemi, inflige des DGT réels supplémentaires équivalents à 24% du total des DGT de cette attaque aux cibles qui ont subi des DGT additionnels de la part de la zone.",
         "materials": [
             { "id": "11403", "num": 1 }
         ],
@@ -4500,7 +4500,7 @@
         "id": "140401",
         "name": "Droiture née de l'adversité",
         "rank": 1,
-        "desc": "Augmente le multiplicateur de DGT de Dieu déicide à la cible principale de 30%. Cette capacité inflige désormais à tous les ennemis des DGT imaginaires équivalents au multiplicateur de DGT appliqué à la cible principale.",
+        "desc": "Augmente le multiplicateur de DGT de Dieu déicide sur la cible principale de 30%. Cette capacité inflige désormais à tous les ennemis des DGT imaginaires équivalents au multiplicateur de DGT appliqué à la cible principale.",
         "materials": [
             { "id": "11404", "num": 1 }
         ],
@@ -4569,6 +4569,157 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1404_rank6.png"
+    },
+    "140501": {
+        "id": "140501",
+        "name": "Magicien isolé par les étoiles",
+        "rank": 1,
+        "desc": "Récupère 1 point de compétence après avoir utilisé sa compétence pour la première fois. Lorsque la compétence touche une cible ennemie, réduit la DÉF de la cible de 16% pendant 2 tours.",
+        "materials": [
+            { "id": "11405", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1405_rank1.png"
+    },
+    "140502": {
+        "id": "140502",
+        "name": "Personnage historique authentique",
+        "rank": 2,
+        "desc": "Lorsqu'une cible ennemie entre sur le champ de bataille, déclenche l'effet du talent Implant de Faiblesse 1 fois, et réduit toutes les RÉS de type de cette cible de 20%.",
+        "materials": [
+            { "id": "11405", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1405_rank2.png"
+    },
+    "140503": {
+        "id": "140503",
+        "name": "Iris incrusté du vide",
+        "rank": 3,
+        "desc": "Niv. de l'ultime +2, jusqu'au Niv. 15 maximum.\nNiv. de l'ATQ normale +1, jusqu'au Niv. 10 maximum.",
+        "materials": [
+            { "id": "11405", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "140503", "num": 2 },
+            { "id": "140501", "num": 1 }
+        ],
+        "icon": "icon/skill/1405_ultimate.png"
+    },
+    "140504": {
+        "id": "140504",
+        "name": "Feu éteint de la vallée",
+        "rank": 4,
+        "desc": "Augmente l'ATQ de 30% pendant 2 tours lors de l'utilisation de la compétence. Cet effet peut être cumulé jusqu'à 2 fois.",
+        "materials": [
+            { "id": "11405", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1405_rank4.png"
+    },
+    "140505": {
+        "id": "140505",
+        "name": "Embryon au-delà du vortex centrifuge",
+        "rank": 5,
+        "desc": "Niv. de la compétence +2, jusqu'au Niv. 15 maximum.\nNiv. du talent +2, jusqu'au Niv. 15 maximum.",
+        "materials": [
+            { "id": "11405", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "140502", "num": 2 },
+            { "id": "140504", "num": 2 }
+        ],
+        "icon": "icon/skill/1405_skill.png"
+    },
+    "140506": {
+        "id": "140506",
+        "name": "Tout est dans le tout",
+        "rank": 6,
+        "desc": "Les DGT infligés par Anaxa sont équivalents à 130% des DGT initiaux. Les 2 effets de la Trace Vide nécessaire se déclenchent immédiatement et ne dépendent plus du nombre de personnages de l'Érudition présents dans l'équipe.",
+        "materials": [
+            { "id": "11405", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1405_rank6.png"
+    },
+    "140701": {
+        "id": "140701",
+        "name": "Demoiselle des terres glacées",
+        "rank": 1,
+        "desc": "Lorsque les PV actuels de la cible ennemie sont inférieurs ou égaux à 80%/50% des PV max de cette unité, les DGT infligés par Étreinte du dragon funeste, Griffe lacérante de ténèbres, Souffle des ombres et Ailes ravageuses de ruines sont équivalents à 120%/140% des DGT initiaux.",
+        "materials": [
+            { "id": "11407", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1407_rank1.png"
+    },
+    "140702": {
+        "id": "140702",
+        "name": "Couronne des ailes battantes",
+        "rank": 2,
+        "desc": "Après avoir invoqué le mnémesprit Aile du néant, Castorice obtient 2 cumuls d'Ardeur des flammes. Castorice peut bénéficier d'un maximum de 2 cumuls d'Ardeur des flammes, et ces cumuls peuvent être utilisés pour compenser la consommation de PV d'Aile du néant lors de l'utilisation de la compétence du mnémesprit Souffle des ombres tout en avançant l'action de Castorice de 100 %. Lors de la prochaine utilisation de la compétence renforcée, Castorice obtient un nombre de points de Nouvelle pousse équivalent à 30% des points de Nouvelle pousse maximum.",
+        "materials": [
+            { "id": "11407", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1407_rank2.png"
+    },
+    "140703": {
+        "id": "140703",
+        "name": "Pèlerinage au royaume des morts",
+        "rank": 3,
+        "desc": "Niv. de l'ultime +2, jusqu'au Niv. 15 maximum.\nNiv. de l'ATQ normale +1, jusqu'au Niv. 10 maximum.\nNiv. de talent du mnémesprit +1, jusqu'au Niv. 10 maximum.",
+        "materials": [
+            { "id": "11407", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "140703", "num": 2 },
+            { "id": "140701", "num": 1 },
+            { "id": "1140703", "num": 1 },
+            { "id": "1140712", "num": 1 },
+            { "id": "1140705", "num": 1 },
+            { "id": "1140706", "num": 1 }
+        ],
+        "icon": "icon/skill/1407_ultimate.png"
+    },
+    "140704": {
+        "id": "140704",
+        "name": "Repos de l'élégie",
+        "rank": 4,
+        "desc": "Lorsque Castorice est sur le champ de bataille, les soins reçus par tous les alliés augmentent de 20% lors de la restauration de PV.",
+        "materials": [
+            { "id": "11407", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1407_rank4.png"
+    },
+    "140705": {
+        "id": "140705",
+        "name": "Nouveau chapitre de la prophétie",
+        "rank": 5,
+        "desc": "Niv. de la compétence +2, jusqu'au Niv. 15 maximum.\nNiv. du talent +2, jusqu'au Niv. 15 maximum.\nNiv. de compétence du mnémesprit +1, jusqu'au Niv. 10 maximum.",
+        "materials": [
+            { "id": "11407", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "140702", "num": 2 },
+            { "id": "140704", "num": 2 },
+            { "id": "1140701", "num": 1 },
+            { "id": "140709", "num": 2 },
+            { "id": "1140702", "num": 1 }
+        ],
+        "icon": "icon/skill/1407_skill.png"
+    },
+    "140706": {
+        "id": "140706",
+        "name": "Déferlement du temps",
+        "rank": 6,
+        "desc": "Lorsque Castorice ou Aile du néant infligent des DGT, la PÉN de RÉS quantique augmente de 20%. Lorsqu'Aile du néant attaque, il peut ignorer le type de faiblesse et réduire la robustesse des ennemis. Lorsqu'il déclenche une Rupture de faiblesse, l'effet de Rupture de faiblesse quantique s'active, et le nombre de rebonds de son talent Ailes ravageuses de ruines augmente de 3.",
+        "materials": [
+            { "id": "11407", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1407_rank6.png"
     },
     "800101": {
         "id": "800101",

@@ -1870,6 +1870,35 @@
             ]
         ]
     },
+    "22004": {
+        "id": "22004",
+        "skill": "Lợi Ích Chung",
+        "desc": "Khiến tấn công của người trang bị tăng #1[i]%. Mỗi khi mục tiêu phe địch có 1 Điểm Yếu thuộc tính khác nhau, thì sát thương người trang bị gây ra cho kẻ đó tăng #2[i]%, tối đa tính 7 Điểm Yếu.",
+        "params": [
+            [0.08, 0.04],
+            [0.1, 0.05],
+            [0.12, 0.06],
+            [0.14, 0.07],
+            [0.16, 0.08]
+        ],
+        "properties": [
+            [
+                { "type": "AttackAddedRatio", "value": 0.08 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.1 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.12 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.14 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.16 }
+            ]
+        ]
+    },
     "23000": {
         "id": "23000",
         "skill": "Chòm Sao Băng",
@@ -3013,6 +3042,54 @@
                 { "type": "HPAddedRatio", "value": 0.3 },
                 { "type": "HealTakenRatio", "value": 0.4 }
             ]
+        ]
+    },
+    "23040": {
+        "id": "23040",
+        "skill": "Khắc Ghi",
+        "desc": "Khiến Giới Hạn HP của người trang bị tăng #1[i]%. Khi người trang bị hoặc Linh Hồn Ký Ức của người trang bị mất HP trong hiệp của mình, người trang bị sẽ nhận Hoa Âm Ty. Hoa Âm Ty khiến người trang bị và Linh Hồn Ký Ức của họ khi gây sát thương có thể bỏ qua #2[i]% phòng thủ của mục tiêu, duy trì #3[i] hiệp.\nKhi Linh Hồn Ký Ức của người trang bị biến mất, người trang bị sẽ ưu tiên hành động #4[i]%. Hiệu ứng này chỉ kích hoạt tối đa 1 lần, và sẽ được làm mới số lần mỗi khi người trang bị thi triển Tuyệt Kỹ.",
+        "params": [
+            [0.3, 0.3, 2, 0.12],
+            [0.375, 0.35, 2, 0.15],
+            [0.45, 0.4, 2, 0.18],
+            [0.525, 0.45, 2, 0.21],
+            [0.6, 0.5, 2, 0.24]
+        ],
+        "properties": [
+            [
+                { "type": "HPAddedRatio", "value": 0.3 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.375 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.45 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.525 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.6 }
+            ]
+        ]
+    },
+    "23041": {
+        "id": "23041",
+        "skill": "Dung Luyện",
+        "desc": "Khi bắt đầu hiệp của người trang bị sẽ hồi #5[i] Năng Lượng. Nếu mục tiêu phe địch có điểm yếu được thêm vào bởi người trang bị, thì sát thương người trang bị gây ra cho kẻ đó tăng #3[i]%.\nKhi mục tiêu phe địch bị người trang bị tấn công, người trang bị sẽ khiến kẻ đó giảm #2[i]% phòng thủ, duy trì #4[i] hiệp. Hiệu ứng cùng loại không thể cộng dồn.",
+        "params": [
+            [0, 0.12, 0.6, 2, 10],
+            [0, 0.15, 0.7, 2, 10],
+            [0, 0.18, 0.8, 2, 10],
+            [0, 0.21, 0.9, 2, 10],
+            [0, 0.24, 1, 2, 10]
+        ],
+        "properties": [
+            [],
+            [],
+            [],
+            [],
+            []
         ]
     },
     "24000": {

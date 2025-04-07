@@ -4428,7 +4428,7 @@
         "id": "140301",
         "name": "Ritual des Streuzuckers",
         "rank": 1,
-        "desc": "Nachdem Verbündete während der Dauer des Feldes Gegner angegriffen haben, verursacht das Ziel, das dem Feld zusätzlichen SCH zugefügt hat, zusätzlichen Tatsächlichen SCH in Höhe von 24% der gesamten Schadenmenge dieses Angriffs.",
+        "desc": "Nachdem Verbündete während der Dauer des Feldes Gegner angegriffen haben, wird bei dem Ziel, dem das Feld zusätzlichen SCH zufügt, zusätzlich Tatsächlicher SCH in Höhe von 24% der gesamten Schadenmenge dieses Angriffs verursacht.",
         "materials": [
             { "id": "11403", "num": 1 }
         ],
@@ -4500,7 +4500,7 @@
         "id": "140401",
         "name": "Unnachgiebiges Rückgrat im Eiswind",
         "rank": 1,
-        "desc": "Erhöht den SCH-Multiplikator gegen das Hauptziel von „Gottesmörder sei Gott“ um 30%. Wird zu imaginärem SCH, der allen Gegnern zugefügt wird und dem SCH-Multiplikator des Hauptziels entspricht.",
+        "desc": "Erhöht den SCH-Multiplikator gegen das Hauptziel von „Gottesmörder sei Gott“ um 30%. Diese Fähigkeit fügt nun allen Gegnern imaginären SCH zu, der dem SCH-Multiplikator des Hauptziels entspricht.",
         "materials": [
             { "id": "11404", "num": 1 }
         ],
@@ -4511,7 +4511,7 @@
         "id": "140402",
         "name": "Todesgesang des Zwists",
         "rank": 2,
-        "desc": "Während der Dauer von „Blutrache“ ignoriert der von Mydei verursachte SCH 15% der VTD des Ziels. Wenn er geheilt wird, werden 40% der erhaltenen Heilung in Aufladung umgewandelt. Die gesamte umgewandelte Aufladung kann 40 nicht überschreiten. Nachdem eine beliebige Einheit eine Aktion durchgeführt hat, wird die ansammelbare Aufladung zurückgesetzt.",
+        "desc": "Während der Dauer von „Blutrache“ ignoriert der von Mydei verursachte SCH 15% der VTD des Ziels. Wenn er geheilt wird, werden 40% der erhaltenen Heilung in Aufladung umgewandelt. Die gesamte umgewandelte Aufladung kann 40 Pkt. nicht überschreiten. Nachdem eine beliebige Einheit eine Aktion ausgeführt hat, wird die ansammelbare Aufladung zurückgesetzt.",
         "materials": [
             { "id": "11404", "num": 1 }
         ],
@@ -4538,7 +4538,7 @@
         "id": "140404",
         "name": "Erwecken der stillen Löwen",
         "rank": 4,
-        "desc": "Erhöht im Status „Blutrache“ den KRIT-SCH um 30%. Stellt nach einem gegnerischen Angriff LP in Höhe von 10% der max. LP wieder her.",
+        "desc": "Erhöht im Status „Blutrache“ den KRIT-SCH um 30%. Stellt LP in Höhe von 10% der max. LP wieder her, nachdem er von Gegnern angegriffen wurde.",
         "materials": [
             { "id": "11404", "num": 1 }
         ],
@@ -4563,12 +4563,163 @@
         "id": "140406",
         "name": "Blutiger Hügel aus vergangenen Schlachten",
         "rank": 6,
-        "desc": "Tritt beim Kampfeintritt sofort in den Status „Blutrache“ ein und die für „Gottesmörder sei Gott“ benötigte Aufladung wird auf 100 verringert.",
+        "desc": "Tritt beim Kampfeintritt sofort in den Status „Blutrache“ ein und die für „Gottesmörder sei Gott“ benötigte Aufladung wird auf 100 Pkt. verringert.",
         "materials": [
             { "id": "11404", "num": 1 }
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1404_rank6.png"
+    },
+    "140501": {
+        "id": "140501",
+        "name": "Magier, der die Sterne verhüllt",
+        "rank": 1,
+        "desc": "Stellt nach dem ersten Einsatz der Fertigkeit 1 Fertigkeitspunkt wieder her. Wenn die Fertigkeit Gegner trifft, wird die VTD des Ziels für 2 Rd. um 16% reduziert.",
+        "materials": [
+            { "id": "11405", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1405_rank1.png"
+    },
+    "140502": {
+        "id": "140502",
+        "name": "Seele, die der Geschichte treu bleibt",
+        "rank": 2,
+        "desc": "Wenn Gegner den Kampf betreten, wird das Schwäche-Implantat des Talents 1-mal ausgelöst und ihr WDS aller Typen um 20% reduziert.",
+        "materials": [
+            { "id": "11405", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1405_rank2.png"
+    },
+    "140503": {
+        "id": "140503",
+        "name": "Pupille, die ins Weltall gemeißelt ist",
+        "rank": 3,
+        "desc": "Ultimate-Stufe +2 bis max. St. 15. Standardangriff-Stufe +1 bis max. St. 10.",
+        "materials": [
+            { "id": "11405", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "140503", "num": 2 },
+            { "id": "140501", "num": 1 }
+        ],
+        "icon": "icon/skill/1405_ultimate.png"
+    },
+    "140504": {
+        "id": "140504",
+        "name": "Glut, die in die Schlucht stürzt",
+        "rank": 4,
+        "desc": "Erhöht beim Einsatz der Fertigkeit den ANG für 2 Rd. um 30%. Dieser Effekt ist bis zu 2-fach stapelbar.",
+        "materials": [
+            { "id": "11405", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1405_rank4.png"
+    },
+    "140505": {
+        "id": "140505",
+        "name": "Embryo jenseits des Wirbels",
+        "rank": 5,
+        "desc": "Fertigkeitsstufe +2 bis max. St. 15. Talentstufe +2 bis max. St. 15.",
+        "materials": [
+            { "id": "11405", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "140502", "num": 2 },
+            { "id": "140504", "num": 2 }
+        ],
+        "icon": "icon/skill/1405_skill.png"
+    },
+    "140506": {
+        "id": "140506",
+        "name": "Alles ist in allem",
+        "rank": 6,
+        "desc": "Der von Anaxa verursachte SCH ist 130% des ursprünglichen SCH. Die 2 Effekte der Spur „Notwendige Lücke“ werden direkt ausgelöst und hängen nicht mehr von der Anzahl der Figuren auf dem Pfad der Gelehrsamkeit im Team ab.",
+        "materials": [
+            { "id": "11405", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1405_rank6.png"
+    },
+    "140701": {
+        "id": "140701",
+        "name": "Schneebedeckte Maid, Erinnerung im Grab",
+        "rank": 1,
+        "desc": "Wenn die aktuellen LP des Gegners 80%/50% oder niedriger ihrer max. LP betragen, fügen die folgenden Fähigkeiten ihm SCH in Höhe von 120%/140% des ursprünglichen SCH zu: „Knochenklaue, Umarmung des Düsterdrachen“, „Klauenspuren im Schleier“, „Atem versengt den Schatten“ und „Flügel fegen über Ruinen hinweg“.",
+        "materials": [
+            { "id": "11407", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1407_rank1.png"
+    },
+    "140702": {
+        "id": "140702",
+        "name": "Krone auf Blütenflügeln",
+        "rank": 2,
+        "desc": "Nachdem der Memogeist Netherschwinge beschworen wurde, erhält Castorice 2 Stapelungen „Feuriger Wille“. Sie kann höchstens 2 Stapelungen auf einmal besitzen. Mit Feuriger Wille kann der LP-Verbrauch von Netherschwinge ausgeglichen werden, wenn die Memogeist-Technik „Atem versengt den Schatten“ eingesetzt wird, und Castorices Aktion wird um 100 % vorgezogen. Beim nächsten Einsatz der verstärkten Fertigkeit erhält Castorice 30% der Obergrenze von „Neuer Spross“.",
+        "materials": [
+            { "id": "11407", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1407_rank2.png"
+    },
+    "140703": {
+        "id": "140703",
+        "name": "Fromme Pilgerin im Tanz durch das Totenreich",
+        "rank": 3,
+        "desc": "Ultimate-Stufe +2 bis max. St. 15. Standardangriff-Stufe +1 bis max. St. 10. Talentstufe des Memogeists +1 bis max. St. 10.",
+        "materials": [
+            { "id": "11407", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "140703", "num": 2 },
+            { "id": "140701", "num": 1 },
+            { "id": "1140703", "num": 1 },
+            { "id": "1140712", "num": 1 },
+            { "id": "1140705", "num": 1 },
+            { "id": "1140706", "num": 1 }
+        ],
+        "icon": "icon/skill/1407_ultimate.png"
+    },
+    "140704": {
+        "id": "140704",
+        "name": "Ruhe in Liedern der Schwermut",
+        "rank": 4,
+        "desc": "Während sich Castorice auf dem Kampffeld befindet, wird die LP-Wiederherstellung der erhaltenen Heilung bei allen Verbündeten um 20% erhöht.",
+        "materials": [
+            { "id": "11407", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1407_rank4.png"
+    },
+    "140705": {
+        "id": "140705",
+        "name": "Blütenweiße Seiten, geschmückt mit Prophezeiungen",
+        "rank": 5,
+        "desc": "Fertigkeitsstufe +2 bis max. St. 15. Talentstufe +2 bis max. St. 15. Technikstufe des Memogeists +1 bis max. St. 10.",
+        "materials": [
+            { "id": "11407", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "140702", "num": 2 },
+            { "id": "140704", "num": 2 },
+            { "id": "1140701", "num": 1 },
+            { "id": "140709", "num": 2 },
+            { "id": "1140702", "num": 1 }
+        ],
+        "icon": "icon/skill/1407_skill.png"
+    },
+    "140706": {
+        "id": "140706",
+        "name": "Bis die Zeit unaufhaltsam dahinströmt",
+        "rank": 6,
+        "desc": "Wenn Castorice und Netherschwinge SCH verursachen, wird die WDS-DUR aller Typen um 20% erhöht. Die Angriffe von Netherschwinge können den WDS der Gegner unabhängig vom Schwächetyp reduzieren. Wenn Schwächebruch zugefügt wird, wird der Effekt „Schwächebruch: Quanten“ ausgelöst und die Anzahl der Abpralle für das Talent „Flügel fegen über Ruinen hinweg“ zusätzlich um 3-mal erhöht.",
+        "materials": [
+            { "id": "11407", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1407_rank6.png"
     },
     "800101": {
         "id": "800101",

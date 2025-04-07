@@ -4428,7 +4428,7 @@
         "id": "140301",
         "name": "Rite of Sugar Scoop",
         "rank": 1,
-        "desc": "Selama durasi area pembatas, setelah rekan tim menyerang musuh, target yang mengakibatkan DMG Tambahan pada area pembatas akan mengakibatkan True DMG tambahan sebesar 24% dari total DMG serangan kali ini.",
+        "desc": "Selama durasi area pembatas, setelah rekan tim menyerang musuh, akan mengakibatkan ekstra True DMG sebesar 24% dari total DMG serangan kali ini pada target dari DMG Tambahan yang diakibatkan area pembatas.",
         "materials": [
             { "id": "11403", "num": 1 }
         ],
@@ -4489,7 +4489,7 @@
         "id": "140306",
         "name": "Morrow of Star Shine",
         "rank": 6,
-        "desc": "Setelah Tribbie melancarkan Ultimate, dia akan melancarkan Serangan Lanjutan dari Talent miliknya pada seluruh musuh. DMG yang diakibatkan Serangan Lanjutan dari Talent akan meningkat 729%.",
+        "desc": "Setelah Tribbie melancarkan Ultimate, akan melancarkan Serangan Lanjutan dari Talent miliknya pada seluruh musuh. DMG yang diakibatkan Serangan Lanjutan dari Talent meningkat 729%.",
         "materials": [
             { "id": "11403", "num": 1 }
         ],
@@ -4500,7 +4500,7 @@
         "id": "140401",
         "name": "Frost Hones Spine of Steel",
         "rank": 1,
-        "desc": "DMG Multiplier \"Godslayer Be God\" yang diakibatkan pada target utama meningkat 30%, dan \"\"Godslayer Be God\" berubah menjadi mengakibatkan Imaginary DMG pada seluruh musuh sebesar DMG Multiplier pada target utama.",
+        "desc": "DMG Multiplier yang diakibatkan \"Godslayer Be God\" pada target utama meningkat 30%, dan \"Godslayer Be God\" berubah menjadi mengakibatkan Imaginary DMG pada seluruh musuh sebesar DMG Multiplier yang diakibatkan pada target utama.",
         "materials": [
             { "id": "11404", "num": 1 }
         ],
@@ -4511,7 +4511,7 @@
         "id": "140402",
         "name": "Strife Beholds Cry of Dead",
         "rank": 2,
-        "desc": "Saat berstatus \"Vendetta\", DMG yang diakibatkan Mydei akan mengabaikan 15% DEF target musuh, dan setelah menerima pemulihan, 40% dari nilai pemulihan akan diubah menjadi poin Charge. Akumulasi dari Charge yang diubah tidak dapat melebihi 40 poin. Setelah unit mana pun beraksi, akan mereset Charge yang dapat diakumulasi.",
+        "desc": "Saat berstatus \"Vendetta\", DMG yang diakibatkan Mydei akan mengabaikan 15% DEF target musuh, dan setelah menerima pemulihan, 40% dari nilai pemulihan akan dikonversi menjadi Charge. Akumulasi Charge hasil konversi tidak dapat melebihi 40 poin. Setelah unit mana pun beraksi, akan mereset Charge yang dapat diakumulasi.",
         "materials": [
             { "id": "11404", "num": 1 }
         ],
@@ -4569,6 +4569,157 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1404_rank6.png"
+    },
+    "140501": {
+        "id": "140501",
+        "name": "Magician, Isolated by Stars",
+        "rank": 1,
+        "desc": "Setelah melancarkan Skill untuk pertama kalinya, akan memulihkan 1 Poin Skill. Saat Skill mengenai target musuh, akan mengurangi 16% DEF target selama 2 giliran.",
+        "materials": [
+            { "id": "11405", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1405_rank1.png"
+    },
+    "140502": {
+        "id": "140502",
+        "name": "Soul, True to History",
+        "rank": 2,
+        "desc": "Saat target musuh memasuki medan pertempuran, akan memicu efek penambahan Weakness dari Talent 1 kali, serta mengurangi 20% RES Seluruh Tipe target tersebut.",
+        "materials": [
+            { "id": "11405", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1405_rank2.png"
+    },
+    "140503": {
+        "id": "140503",
+        "name": "Pupil, Etched into Cosmos",
+        "rank": 3,
+        "desc": "Level Ultimate +2, maksimal Lv. 15. Level Basic Attack +1, maksimal Lv. 10.",
+        "materials": [
+            { "id": "11405", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "140503", "num": 2 },
+            { "id": "140501", "num": 1 }
+        ],
+        "icon": "icon/skill/1405_ultimate.png"
+    },
+    "140504": {
+        "id": "140504",
+        "name": "Blaze, Plunged to Canyon",
+        "rank": 4,
+        "desc": "Saat melancarkan Skill, ATK akan meningkat 30% selama 2 giliran. Efek ini dapat ditumpuk hingga 2 lapis.",
+        "materials": [
+            { "id": "11405", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1405_rank4.png"
+    },
+    "140505": {
+        "id": "140505",
+        "name": "Embryo, Set Beyond Vortex",
+        "rank": 5,
+        "desc": "Level Skill +2, maksimal Lv. 15. Level Talent +2, maksimal Lv. 15.",
+        "materials": [
+            { "id": "11405", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "140502", "num": 2 },
+            { "id": "140504", "num": 2 }
+        ],
+        "icon": "icon/skill/1405_skill.png"
+    },
+    "140506": {
+        "id": "140506",
+        "name": "Everything Is in Everything",
+        "rank": 6,
+        "desc": "DMG yang diakibatkan Anaxa adalah 130% dari DMG aslinya. Kedua efek dari Trace \"Imperative Hiatus\" akan langsung terpicu dan tidak lagi bergantung pada jumlah karakter Path \"Erudition\" dalam tim.",
+        "materials": [
+            { "id": "11405", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1405_rank6.png"
+    },
+    "140701": {
+        "id": "140701",
+        "name": "Snowbound Maiden, Memory to Tomb",
+        "rank": 1,
+        "desc": "Saat HP target musuh saat ini kurang dari atau sama dengan 80%/50% Max HP-nya, DMG yang diakibatkan \"Boneclaw, Doomdrake's Embrace\", \"Claw Splits the Veil\", \"Breath Scorches the Shadow\", dan \"Wings Sweep the Ruins\" pada target musuh tersebut adalah 120%/140% dari DMG aslinya.",
+        "materials": [
+            { "id": "11407", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1407_rank1.png"
+    },
+    "140702": {
+        "id": "140702",
+        "name": "Crown on Wings of Bloom",
+        "rank": 2,
+        "desc": "Setelah memanggil Memosprite Netherwing, Castorice akan memperoleh 2 lapis \"Ardent Will\", maksimal dapat memiliki 2 lapis \"Ardent Will\". \"Ardent Will\" dapat digunakan untuk mengurangi konsumsi HP dari Skill Memosprite Netherwing \"Breath Scorches the Shadow\", serta mendahulukan aksi Castorice sebesar 100%. Pada pelancaran Enhanced Skill yang berikutnya, Castorice akan memperoleh \"Newbud\" sebesar 30% dari batas maksimum \"Newbud\".",
+        "materials": [
+            { "id": "11407", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1407_rank2.png"
+    },
+    "140703": {
+        "id": "140703",
+        "name": "Pious Pilgrim, Dance in Doom",
+        "rank": 3,
+        "desc": "Level Ultimate +2, maksimal Lv. 15. Level Basic Attack +1, maksimal Lv. 10. Level Talent Memosprite +1, maksimal Lv. 10.",
+        "materials": [
+            { "id": "11407", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "140703", "num": 2 },
+            { "id": "140701", "num": 1 },
+            { "id": "1140703", "num": 1 },
+            { "id": "1140712", "num": 1 },
+            { "id": "1140705", "num": 1 },
+            { "id": "1140706", "num": 1 }
+        ],
+        "icon": "icon/skill/1407_ultimate.png"
+    },
+    "140704": {
+        "id": "140704",
+        "name": "Rest in Songs of Gloom",
+        "rank": 4,
+        "desc": "Saat Castorice berada di medan pertempuran, Pemulihan HP yang diterima seluruh rekan tim meningkat 20%.",
+        "materials": [
+            { "id": "11407", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1407_rank4.png"
+    },
+    "140705": {
+        "id": "140705",
+        "name": "Pristine Pages, Prophecy as Plume",
+        "rank": 5,
+        "desc": "Level Skill +2, maksimal Lv. 15. Level Talent +2, maksimal Lv. 15. Level Skill Memosprite +1, maksimal Lv. 10.",
+        "materials": [
+            { "id": "11407", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "140702", "num": 2 },
+            { "id": "140704", "num": 2 },
+            { "id": "1140701", "num": 1 },
+            { "id": "140709", "num": 2 },
+            { "id": "1140702", "num": 1 }
+        ],
+        "icon": "icon/skill/1407_skill.png"
+    },
+    "140706": {
+        "id": "140706",
+        "name": "Await for Years to Loom",
+        "rank": 6,
+        "desc": "Saat Castorice dan Netherwing mengakibatkan DMG, Quantum RES PEN akan meningkat 20%. Selama durasi serangan Netherwing, ia dapat mengurangi Toughness musuh tanpa memedulikan Tipe Weakness, dan akan memicu efek Quantum Weakness Break  saat mengakibatkan Weakness Break. Selain itu, jumlah Bounce dari Talent \"Wings Sweep the Ruins\" yang dipicu akan bertambah ekstra 3 kali.",
+        "materials": [
+            { "id": "11407", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1407_rank6.png"
     },
     "800101": {
         "id": "800101",
