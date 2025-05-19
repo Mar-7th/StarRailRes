@@ -1873,7 +1873,7 @@
     "22004": {
         "id": "22004",
         "skill": "Gegenseitiger Nutzen",
-        "desc": "Erhöht den ANG des Trägers um #1[i]%. Für jede Schwäche des Gegners eines anderen Typs wird der verursachte SCH des Trägers um #2[i]% erhöht, bis zu 7 Schwächetypen.",
+        "desc": "Erhöht den ANG des Trägers um #1[i]%. Für jede Schwäche des Gegners eines anderen Typs wird der ihm zugefügte SCH durch den Träger um #2[i]% erhöht, bis zu 7 Schwächetypen.",
         "params": [
             [0.08, 0.04],
             [0.1, 0.05],
@@ -3090,6 +3090,64 @@
             [],
             [],
             []
+        ]
+    },
+    "23042": {
+        "id": "23042",
+        "skill": "Tolerant",
+        "desc": "Erhöht die GES des Trägers um #1[i]%. Der Träger verbraucht beim Einsatz von Standardangriff, Fertigkeit oder Ultimate LP aller Verbündeten in Höhe von #2[f1]% ihrer aktuellen LP. Lässt den Memogeist des Trägers basierend auf seinem Typ nach seinem nächsten Angriff dem Angriffsziel 1-mal zusätzlichen SCH in Höhe von #6[f1]% der gesamten verbrauchten LP zufügen. Anschließend werden die verbrauchten LP zurückgesetzt. Wenn der Memogeist des Trägers seine Memogeist-Technik einsetzt, wird der erlittene SCH aller Gegner für #5[i] Rd. um #4[f1]% erhöht. Effekte der gleichen Art sind nicht stapelbar.",
+        "params": [
+            [0.18, 0.01, 0, 0.18, 2, 2.5],
+            [0.21, 0.0125, 0, 0.225, 2, 3.125],
+            [0.24, 0.015, 0, 0.27, 2, 3.75],
+            [0.27, 0.0175, 0, 0.315, 2, 4.375],
+            [0.3, 0.02, 0, 0.36, 2, 5]
+        ],
+        "properties": [
+            [
+                { "type": "SpeedAddedRatio", "value": 0.18 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.21 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.24 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.27 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.3 }
+            ]
+        ]
+    },
+    "23043": {
+        "id": "23043",
+        "skill": "Betrug",
+        "desc": "Erhöht die GES des Trägers um #1[i]%. Nach einem Angriff des Trägers besteht eine Grundchance von #2[i]%, bei jedem Ziel „Verwirrung“ zu verursachen. Die VTD der Gegner im Status Verwirrung wird für #4[i] Rd. um #3[i]% reduziert. Wenn die GES des Trägers #7[i] oder höher beträgt, besteht eine Grundchance von #5[i]%, bei jedem Ziel „Gestohlen“ zu verursachen. Die VTD der Gegner im Status Gestohlen wird für #4[i] Rd. um #6[i]% reduziert. Wenn Verwirrung oder Gestohlen wiederholt verursacht wird, wird nur der letzte Effekt wirksam.",
+        "params": [
+            [0.18, 1.2, 0.16, 2, 1.2, 0.08, 170],
+            [0.21, 1.2, 0.18, 2, 1.2, 0.09, 170],
+            [0.24, 1.2, 0.2, 2, 1.2, 0.1, 170],
+            [0.27, 1.2, 0.22, 2, 1.2, 0.11, 170],
+            [0.3, 1.2, 0.24, 2, 1.2, 0.12, 170]
+        ],
+        "properties": [
+            [
+                { "type": "SpeedAddedRatio", "value": 0.18 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.21 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.24 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.27 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.3 }
+            ]
         ]
     },
     "24000": {

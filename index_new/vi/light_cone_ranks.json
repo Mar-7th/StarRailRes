@@ -3092,6 +3092,64 @@
             []
         ]
     },
+    "23042": {
+        "id": "23042",
+        "skill": "Bao Dung",
+        "desc": "Khiến Tốc Độ của người trang bị tăng #1[i]%. Khi người trang bị thi triển Tấn Công Thường, Chiến Kỹ và Tuyệt Kỹ sẽ tiêu hao HP của toàn thể phe ta bằng #2[f1]% HP hiện tại và khiến Linh Hồn Ký Ức của người trang bị sau lần tấn công kế tiếp sẽ gây thêm 1 lần Sát Thương Kèm Theo dựa trên thuộc tính Linh Hồn Ký Ức của người trang bị bằng #6[f1]% tổng lượng HP tiêu hao cho mục tiêu bị tấn công, sau đó xóa tổng lượng HP tiêu hao. Khi Linh Hồn Ký Ức của người trang bị thi triển Kỹ Năng Linh Hồn Ký Ức, sẽ khiến sát thương toàn phe địch phải chịu tăng #4[f1]%, duy trì #5[i] hiệp. Hiệu ứng cùng loại không thể cộng dồn.",
+        "params": [
+            [0.18, 0.01, 0, 0.18, 2, 2.5],
+            [0.21, 0.0125, 0, 0.225, 2, 3.125],
+            [0.24, 0.015, 0, 0.27, 2, 3.75],
+            [0.27, 0.0175, 0, 0.315, 2, 4.375],
+            [0.3, 0.02, 0, 0.36, 2, 5]
+        ],
+        "properties": [
+            [
+                { "type": "SpeedAddedRatio", "value": 0.18 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.21 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.24 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.27 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.3 }
+            ]
+        ]
+    },
+    "23043": {
+        "id": "23043",
+        "skill": "Lừa Dối",
+        "desc": "Khiến Tốc Độ của người trang bị tăng #1[i]%. Sau khi người trang bị thi triển tấn công, có #2[i]% xác suất cơ bản khiến mỗi một mục tiêu phe địch rơi vào trạng thái \"Mơ Hồ\", mục tiêu phe địch trong trạng thái \"Mơ Hồ\" sẽ bị giảm #3[i]% Phòng Thủ, duy trì #4[i] hiệp, nếu Tốc Độ của người trang bị lớn hơn hoặc bằng #7[i], sẽ có #5[i]% xác suất cơ bản khiến mỗi một mục tiêu phe địch rơi vào trạng thái \"Mất Cắp\", mục tiêu phe địch trong trạng thái \"Mất Cắp\" sẽ bị giảm #6[i]% Phòng Thủ, duy trì #4[i] hiệp. \"Mơ Hồ\" hoặc \"Mất Cắp\" khi bị thi triển trùng lặp, thì chỉ có trạng thái thi triển mới nhất là có hiệu lực.",
+        "params": [
+            [0.18, 1.2, 0.16, 2, 1.2, 0.08, 170],
+            [0.21, 1.2, 0.18, 2, 1.2, 0.09, 170],
+            [0.24, 1.2, 0.2, 2, 1.2, 0.1, 170],
+            [0.27, 1.2, 0.22, 2, 1.2, 0.11, 170],
+            [0.3, 1.2, 0.24, 2, 1.2, 0.12, 170]
+        ],
+        "properties": [
+            [
+                { "type": "SpeedAddedRatio", "value": 0.18 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.21 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.24 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.27 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.3 }
+            ]
+        ]
+    },
     "24000": {
         "id": "24000",
         "skill": "Dập Lửa",

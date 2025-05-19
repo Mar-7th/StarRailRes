@@ -3092,6 +3092,64 @@
             []
         ]
     },
+    "23042": {
+        "id": "23042",
+        "skill": "Tolerancia",
+        "desc": "La VEL del portador aumenta en un #1[i]%. Cuando el portador lanza el ATQ básico, la habilidad básica o la habilidad definitiva, consume un #2[f1]% de los PV actuales de todos los aliados, y el mnemoduende del portador, tras su siguiente ataque, inflige adicionalmente a los objetivos golpeados un #6[f1]% de los PV consumidos totales como daño adicional del mismo tipo que el mnemoduende del portador. Después, se reinicia este total de PV consumidos. Cuando el mnemoduende del portador lanza la habilidad del mnemoduende, el daño que reciben todos los enemigos aumenta en un #4[f1]% durante #5[i] turnos. Los efectos del mismo tipo no se pueden acumular.",
+        "params": [
+            [0.18, 0.01, 0, 0.18, 2, 2.5],
+            [0.21, 0.0125, 0, 0.225, 2, 3.125],
+            [0.24, 0.015, 0, 0.27, 2, 3.75],
+            [0.27, 0.0175, 0, 0.315, 2, 4.375],
+            [0.3, 0.02, 0, 0.36, 2, 5]
+        ],
+        "properties": [
+            [
+                { "type": "SpeedAddedRatio", "value": 0.18 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.21 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.24 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.27 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.3 }
+            ]
+        ]
+    },
+    "23043": {
+        "id": "23043",
+        "skill": "Embaucamiento",
+        "desc": "La VEL del portador aumenta en un #1[i]%. Después de que el portador ataque, cada enemigo tiene un #2[i]% de probabilidad base de ser afectado con Desconcierto. La DEF de los enemigos en el estado de Desconcierto se reduce en un #3[i]% durante #4[i] turnos. Si la VEL del portador es igual o superior a #7[i], cada enemigo tiene un #5[i]% de probabilidad base de ser afectado con Robado. La DEF de los enemigos en el estado de Robado se reduce en un #6[i]% durante #4[i] turnos. Si Desconcierto o Robado se aplican repetidamente, solo tiene efecto el último en aplicarse.",
+        "params": [
+            [0.18, 1.2, 0.16, 2, 1.2, 0.08, 170],
+            [0.21, 1.2, 0.18, 2, 1.2, 0.09, 170],
+            [0.24, 1.2, 0.2, 2, 1.2, 0.1, 170],
+            [0.27, 1.2, 0.22, 2, 1.2, 0.11, 170],
+            [0.3, 1.2, 0.24, 2, 1.2, 0.12, 170]
+        ],
+        "properties": [
+            [
+                { "type": "SpeedAddedRatio", "value": 0.18 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.21 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.24 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.27 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.3 }
+            ]
+        ]
+    },
     "24000": {
         "id": "24000",
         "skill": "Polilla a la luz",

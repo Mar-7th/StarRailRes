@@ -208,7 +208,7 @@
         "id": "100306",
         "name": "Trailblaze!",
         "rank": 6,
-        "desc": "Ultimate deals DMG 2 extra times, each of which deals Fire DMG equal to 40% of the original DMG to a random enemy.",
+        "desc": "Ultimate deals 2 extra instances of Fire DMG equal to 40% of the original DMG to one random enemy.",
         "materials": [
             { "id": "11003", "num": 1 }
         ],
@@ -4642,6 +4642,78 @@
         "level_up_skills": [],
         "icon": "icon/skill/1405_rank6.png"
     },
+    "140601": {
+        "id": "140601",
+        "name": "Read the Room, Seek the Glee",
+        "rank": 1,
+        "desc": "Cipher's recorded DMG is 150% of the original recorded DMG value. When using a Follow-up ATK caused by her Talent, increases Cipher's ATK by 80% for 2 turn(s).",
+        "materials": [
+            { "id": "11406", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1406_rank1.png"
+    },
+    "140602": {
+        "id": "140602",
+        "name": "In the Fray, Nab On a Spree",
+        "rank": 2,
+        "desc": "When Cipher hits an enemy target, there is a 120% base chance of causing them to receive 30% more DMG, lasting 2 turn(s).",
+        "materials": [
+            { "id": "11406", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1406_rank2.png"
+    },
+    "140603": {
+        "id": "140603",
+        "name": "From Thin Air, Hard to Foresee",
+        "rank": 3,
+        "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "materials": [
+            { "id": "11406", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "140603", "num": 2 },
+            { "id": "140601", "num": 1 }
+        ],
+        "icon": "icon/skill/1406_ultimate.png"
+    },
+    "140604": {
+        "id": "140604",
+        "name": "The Jig Is Up, Quick to Flee",
+        "rank": 4,
+        "desc": "After \"Patron\" is attacked by an ally target, Cipher deals Quantum Additional DMG equal to 50% of Cipher's ATK to it.",
+        "materials": [
+            { "id": "11406", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1406_rank4.png"
+    },
+    "140605": {
+        "id": "140605",
+        "name": "Safe in Numbers, Light as a Bee",
+        "rank": 5,
+        "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
+        "materials": [
+            { "id": "11406", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "140602", "num": 2 },
+            { "id": "140604", "num": 2 }
+        ],
+        "icon": "icon/skill/1406_skill.png"
+    },
+    "140606": {
+        "id": "140606",
+        "name": "The Thief's Game, Unsung and Free",
+        "rank": 6,
+        "desc": "Increases DMG dealt by Follow-up ATKs caused by Cipher's Talent by 350%. Records an additional 16% of non-Overflow DMG dealt by this ATK. After resetting the record upon using her Ultimate, returns 20% of the reset record.",
+        "materials": [
+            { "id": "11406", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1406_rank6.png"
+    },
     "140701": {
         "id": "140701",
         "name": "Snowbound Maiden, Memory to Tomb",
@@ -4657,7 +4729,7 @@
         "id": "140702",
         "name": "Crown on Wings of Bloom",
         "rank": 2,
-        "desc": "After summoning the memosprite Netherwing, Castorice gains 2 stack(s) of \"Ardent Will.\" \"Ardent Will\" can stack up to 2 time(s) and can be used to offset the HP cost of Netherwing's Memosprite Skill, \"Breath Scorches the Shadow\" and advance Castorice's action by 100%. When using the next Enhanced Skill, Castorice gains \"Newbud\" by an amount equal to30% of max \"Newbud.\"",
+        "desc": "After summoning the memosprite Netherwing, Castorice gains 2 stack(s) of \"Ardent Will.\" \"Ardent Will\" can stack up to 2 time(s) and can be used to offset the HP cost of Netherwing's Memosprite Skill, \"Breath Scorches the Shadow\" and advance Castorice's action by 100%. When using the next Enhanced Skill, Castorice gains \"Newbud\" by an amount equal to 30% of max \"Newbud.\"",
         "materials": [
             { "id": "11407", "num": 1 }
         ],
@@ -4686,7 +4758,7 @@
         "id": "140704",
         "name": "Rest in Songs of Gloom",
         "rank": 4,
-        "desc": "While Castorice is on the field, all allies' Incoming Healing during HP restoration increases by 20%.",
+        "desc": "While Castorice is on the field, all allies' HP restored when receiving healing increases by 20%.",
         "materials": [
             { "id": "11407", "num": 1 }
         ],
@@ -4720,6 +4792,82 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1407_rank6.png"
+    },
+    "140901": {
+        "id": "140901",
+        "name": "Cradle the Candle of Night",
+        "rank": 1,
+        "desc": "When Hyacine is in the \"After Rain\" state, additionally increases the Max HP of all ally targets by 50%, and immediately restores HP equal to 8% of Hyacine's Max HP after using an attack.",
+        "materials": [
+            { "id": "11409", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1409_rank1.png"
+    },
+    "140902": {
+        "id": "140902",
+        "name": "Come Sit in My Courtyard",
+        "rank": 2,
+        "desc": "When any ally target's HP decreases, this unit's SPD increases by 30% for 2 turn(s).",
+        "materials": [
+            { "id": "11409", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1409_rank2.png"
+    },
+    "140903": {
+        "id": "140903",
+        "name": "Depart, Unto the Sun!",
+        "rank": 3,
+        "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\nMemosprite Skill Lv. +1, up to a maximum of Lv. 10.",
+        "materials": [
+            { "id": "11409", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "140903", "num": 2 },
+            { "id": "140901", "num": 1 },
+            { "id": "1140901", "num": 1 }
+        ],
+        "icon": "icon/skill/1409_ultimate.png"
+    },
+    "140904": {
+        "id": "140904",
+        "name": "Sunlit Amber, Yours to Keep",
+        "rank": 4,
+        "desc": "The \"Tempestuous Halt\" Trace is enhanced. For every 1 of SPD exceeded, additionally increases Hyacine and Little Ica's CRIT DMG by 2%.",
+        "materials": [
+            { "id": "11409", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1409_rank4.png"
+    },
+    "140905": {
+        "id": "140905",
+        "name": "Twilight Drapes the Tide",
+        "rank": 5,
+        "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.\nMemosprite Talent Lv. +1, up to a maximum of Lv. 10.",
+        "materials": [
+            { "id": "11409", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "140902", "num": 2 },
+            { "id": "140904", "num": 2 },
+            { "id": "1140903", "num": 1 },
+            { "id": "1140905", "num": 1 },
+            { "id": "1140906", "num": 1 }
+        ],
+        "icon": "icon/skill/1409_skill.png"
+    },
+    "140906": {
+        "id": "140906",
+        "name": "O Sky, Heed My Plea",
+        "rank": 6,
+        "desc": "Little Ica uses Memosprite Skill and changes the amount of Healing tally cleared to 12%. When Little Ica is on the field, increases all ally targets' All-Type RES PEN by 20%.",
+        "materials": [
+            { "id": "11409", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1409_rank6.png"
     },
     "800101": {
         "id": "800101",

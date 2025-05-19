@@ -518,8 +518,8 @@
     "612330": {
         "id": "612330",
         "name": "Prosperidade, Longevidade",
-        "desc": "Carrega Orvalho quando os PV de um personagem são restaurados. O valor da Carga é igual a 100% da quantidade de cura recebida.",
-        "enhanced_desc": "Carrega Orvalho quando os PV de um personagem são restaurados. O valor da Carga é igual a 100% da quantidade de cura recebida e aumenta o Dano de Orvalho em 40%."
+        "desc": "Carrega Orvalho quando um personagem recebe cura. O valor da Carga é igual a 100% da quantidade de PV restaurada.",
+        "enhanced_desc": "Carrega Orvalho quando os PV de um personagem são restaurados. O valor da Carga é igual a 100% da quantidade d Cura Recebida e aumenta o Dano de Orvalho em 40%."
     },
     "612331": {
         "id": "612331",
@@ -584,8 +584,8 @@
     "612351": {
         "id": "612351",
         "name": "Doce Orvalho",
-        "desc": "Aumenta Cura Recebida em 12%.",
-        "enhanced_desc": "Aumenta Cura Recebida em 18%."
+        "desc": "Aumenta a Cura Recebida por personagens em 12%.",
+        "enhanced_desc": "Aumenta a Cura Recebida por personagens em 18%."
     },
     "612352": {
         "id": "612352",
@@ -1746,7 +1746,7 @@
     "615330": {
         "id": "615330",
         "name": "Prosperidade Perene, Longevidade Exuberante",
-        "desc": "Carrega Orvalho quando os PV de um personagem são restaurados. O valor da Carga é igual a 100% da quantidade de cura recebida.",
+        "desc": "Carrega Orvalho quando um personagem recebe cura. O valor da Carga é igual a 100% da quantidade de PV restaurada.",
         "enhanced_desc": "Carrega Orvalho quando os PV de um personagem são restaurados. O valor da Carga é igual a 100% da quantidade de cura recebida e aumenta o multiplicador de Dano de Orvalho em 40% do multiplicador original."
     },
     "615331": {
@@ -1812,8 +1812,8 @@
     "615351": {
         "id": "615351",
         "name": "Doce Orvalho",
-        "desc": "Aumenta Cura Recebida em 12%.",
-        "enhanced_desc": "Aumenta Cura Recebida em 18%."
+        "desc": "Aumenta a Cura Recebida por personagens em 12%.",
+        "enhanced_desc": "Aumenta a Cura Recebida por personagens em 18%."
     },
     "615352": {
         "id": "615352",
@@ -2151,8 +2151,8 @@
     "615650": {
         "id": "615650",
         "name": "\"Contemplem Aqueles Tolos\"",
-        "desc": "Aumenta o Dano CRIT dos Ataques Extras do personagem em 44%.",
-        "enhanced_desc": "Aumenta o Dano CRIT dos Ataques Extras do em 66%."
+        "desc": "Aumenta o Dano CRIT dos Ataques Extras em 44%.",
+        "enhanced_desc": "Aumenta o Dano CRIT dos Ataques Extras em 66%."
     },
     "615651": {
         "id": "615651",
@@ -3401,7 +3401,7 @@
     "634020": {
         "id": "634020",
         "name": "Portões do Infinito Conectados",
-        "desc": "Durante o \"Dia\", aumenta o Dano final dos aliados-alvo em 20%. Ao entrar no \"Dia\", ativa as Perícias Supremas de todos os aliados.",
+        "desc": "Durante o \"Dia\", aumenta o Dano final dos aliados-alvo em 25%. Ao entrar no \"Dia\", ativa as Perícias Supremas de todos os aliados.",
         "enhanced_desc": ""
     },
     "634021": {
@@ -3606,6 +3606,258 @@
         "id": "634068",
         "name": "Até Mesmo as Mentiras Requerem Habilidade",
         "desc": "No Universo Divergente atual, cada vez que o efeito desta Dádiva de obter Fragmentos Cósmicos for ativado, causa Dano Adicional igual a 40% do ATQ ao alvo atacado após usar um ataque durante a Noite.",
+        "enhanced_desc": ""
+    },
+    "634070": {
+        "id": "634070",
+        "name": "Espada Sustenta-Mundo",
+        "desc": "Ao entrar no \"Dia\", o primeiro personagem na equipe recebe \"Aurora\" por 2 rodada(s). Personagens com \"Aurora\" aumentam seu Dano final causado em 100%.",
+        "enhanced_desc": ""
+    },
+    "634071": {
+        "id": "634071",
+        "name": "Partida do Inocente",
+        "desc": "Reduz o intervalo de troca entre \"Dia\" e \"Noite\" em 25%, até um máximo de 50%. Ao entrar no \"Dia\", aumenta o Dano final causado pelos aliados-alvo em 25% por 2 rodada(s).",
+        "enhanced_desc": ""
+    },
+    "634072": {
+        "id": "634072",
+        "name": "Sofrimento do Perdido",
+        "desc": "O aumento do Dano final fornecido por \"Aurora\" passa a ser de 80% e não dura mais por um número limitado de rodadas. Perde seu efeito quando \"Dia/Noite\" muda.",
+        "enhanced_desc": ""
+    },
+    "634073": {
+        "id": "634073",
+        "name": "Invocação do Abre-Caminhos",
+        "desc": "Personagens com \"Aurora\" aumentam seu Dano CRIT causado em 160%.",
+        "enhanced_desc": ""
+    },
+    "634076": {
+        "id": "634076",
+        "name": "Prova do Sustenta-Mundo",
+        "desc": "Reduz o intervalo de troca entre \"Dia\" e \"Noite\" em 25%, até um máximo de 50%. Ao entrar no \"Dia\", aumenta o Dano final causado pelos aliados-alvo em 30% por 2 rodada(s).",
+        "enhanced_desc": ""
+    },
+    "634077": {
+        "id": "634077",
+        "name": "Transcendência do Sustenta-Mundo",
+        "desc": "Esta Dádiva e seus efeitos de aprimoramento também são eficazes à \"Noite\" e ao entrar na \"Noite\", e não serão redefinidos.",
+        "enhanced_desc": ""
+    },
+    "634078": {
+        "id": "634078",
+        "name": "Retorno do Sustenta-Mundo",
+        "desc": "Toda vez que a equipe entra no \"Dia\", o Dano final causado por aliados-alvo aumenta em 16%. Isso pode ser acumulado.",
+        "enhanced_desc": ""
+    },
+    "634080": {
+        "id": "634080",
+        "name": "Sussurros do Arco-íris",
+        "desc": "Durante o \"Dia\", depois que um aliado-alvo restaurar os PV em um valor igual a 60 vezes o seu nível, aumenta o Dano final causado durante o \"Dia\" em 5%. Isso pode ser acumulado até 20% em um único ciclo de \"Dia/Noite\".",
+        "enhanced_desc": ""
+    },
+    "634081": {
+        "id": "634081",
+        "name": "Ó Chuva, Hidrate Todos",
+        "desc": "Reduz o intervalo de troca entre \"Dia\" e \"Noite\" em 25%, até um máximo de 50%. Ao entrar no \"Dia\", aumenta o Dano final causado pelos aliados-alvo em 20% por 2 rodada(s).",
+        "enhanced_desc": ""
+    },
+    "634082": {
+        "id": "634082",
+        "name": "Ó Vento, Acaricie as Florestas",
+        "desc": "A quantidade de PV restaurados necessários no efeito base diminui para 30 vez(es) do nível dessa unidade. Depois de cada vez que o efeito base é ativado e o Dano final é aumentado com sucesso, os PV máximos aumentam em 3%.",
+        "enhanced_desc": ""
+    },
+    "634083": {
+        "id": "634083",
+        "name": "Ó Luz, Ilumine a Terra Pura",
+        "desc": "Esta Dádiva e seus efeitos de aprimoramento também são eficazes à \"Noite\" e ao entrar na \"Noite\", e podem continuar sendo acumulados e redefinir o limite máximo de acúmulos.",
+        "enhanced_desc": ""
+    },
+    "634086": {
+        "id": "634086",
+        "name": "Ó Raio, Perfure os Céus",
+        "desc": "Aumenta a proporção do \"Dia\" em 25%. Durante o \"Dia\", aumenta o Dano final causado pelos aliados-alvo em 25%.",
+        "enhanced_desc": ""
+    },
+    "634087": {
+        "id": "634087",
+        "name": "Ó Arco-íris, Conecte os Finais",
+        "desc": "No efeito base, o aumento máximo de Dano final em um período de \"Dia\" passa a ser 35%.",
+        "enhanced_desc": ""
+    },
+    "634088": {
+        "id": "634088",
+        "name": "Ó Céu, Olhe Para as Vidas",
+        "desc": "Ao entrar no dia e após a próxima vez que um aliado-alvo usar um ataque, causa Dano Adicional igual a 1000% dos PV máximos do alvo ao alvo atacado.",
+        "enhanced_desc": ""
+    },
+    "634090": {
+        "id": "634090",
+        "name": "Elucidação dos Fatores",
+        "desc": "Obtenha imediatamente 1 Curio destrutível. Sempre que uma Curio for danificada ou descartada, obtenha imediatamente 35 Fragmentos Cósmicos. Isso pode ter efeito até 5 vez(es) por Domínio. Aumenta o Dano final causado pelos aliados-alvo em 25% ao entrar no \"Dia\", durando por 2 rodada(s).",
+        "enhanced_desc": ""
+    },
+    "634091": {
+        "id": "634091",
+        "name": "Arte da Causa e do Efeito",
+        "desc": "Reduz o intervalo de troca entre \"Dia\" e \"Noite\" em 25%, até um máximo de 50%. Ao entrar no \"Dia\", aumenta o Dano final causado pelos aliados-alvo em 25% por 2 rodada(s).",
+        "enhanced_desc": ""
+    },
+    "634092": {
+        "id": "634092",
+        "name": "Arte da Alma e do Corpo",
+        "desc": "A quantidade de Fragmentos Cósmicos obtidos por uma Curio que for danificada ou descartada torna-se 45. Ao entrar nos Domínios de Conversão ou de Chefe, conserte 1 Curio destruída aleatória de 1 a 3 estrelas de raridade.",
+        "enhanced_desc": ""
+    },
+    "634093": {
+        "id": "634093",
+        "name": "Arte da Razão e da Violência",
+        "desc": "Descarta imediatamente 5 Curio(s) Negativa(s). Se você possuir 1 ou menos Curio(s) Negativa(s), o Dano final causado por aliados-alvo no efeito base aumenta adicionalmente em 60%.",
+        "enhanced_desc": ""
+    },
+    "634096": {
+        "id": "634096",
+        "name": "Compreensão Profunda",
+        "desc": "Reduz o intervalo de troca entre \"Dia\" e \"Noite\" em 25%, até um máximo de 50%. Ao entrar no \"Dia\", aumenta o Dano final causado pelos aliados-alvo em 30% por 2 rodada(s).",
+        "enhanced_desc": ""
+    },
+    "634097": {
+        "id": "634097",
+        "name": "Clareza Introspectiva",
+        "desc": "Para cada 100 Fragmentos Cósmicos obtidos por meio da Dádiva do Sangue Dourado neste desafio do Universo Simulado, o Dano final causado por aliados-alvo no efeito base aumenta adicionalmente em 12%.",
+        "enhanced_desc": ""
+    },
+    "634098": {
+        "id": "634098",
+        "name": "Desmantelamento Divino",
+        "desc": "Após destruir ou descartar 3 Curio(s) no total, imediatamente obtém 1 Curio destrutível aleatória de 1 a 2 estrelas de raridade. Esse efeito só pode ser ativado 1 vez(es) por Domínio.",
+        "enhanced_desc": ""
+    },
+    "634100": {
+        "id": "634100",
+        "name": "Gambito pela Chama",
+        "desc": "Ao entrar na \"Noite\", o primeiro personagem na formação ganha 2 acúmulo(s) de \"Conquistar\". Personagens com \"Conquistar\" consomem 1 acúmulo de \"Conquistar\" no final de sua rodada para Avançar Adiante sua ação em 100% e aumentar o Dano final causado em 10%, durando até o final de sua próxima rodada.",
+        "enhanced_desc": ""
+    },
+    "634101": {
+        "id": "634101",
+        "name": "Peão de Cerco",
+        "desc": "Reduz o intervalo de troca entre \"Dia\" e \"Noite\" em 25%, até uma redução máxima de 50%. Ao entrar na \"Noite\", aumenta o Dano final causado pelos aliados-alvo em 25% por 2 rodada(s).",
+        "enhanced_desc": ""
+    },
+    "634102": {
+        "id": "634102",
+        "name": "Bispo de Jogo Duplo",
+        "desc": "Após consumir \"Conquistar\", a VEL aumenta em 60%. Este efeito perde eficácia na mudança de \"Dia/Noite\".",
+        "enhanced_desc": ""
+    },
+    "634103": {
+        "id": "634103",
+        "name": "Cavaleiro Furioso",
+        "desc": "Recupera 5 Pontos de Perícia ao entrar na \"Noite\", e o primeiro personagem na formação obtém adicionalmente 1 acúmulo(s) de \"Conquistar\".",
+        "enhanced_desc": ""
+    },
+    "634106": {
+        "id": "634106",
+        "name": "Rei Quebrador de Regras",
+        "desc": "Reduz o intervalo de troca entre \"Dia\" e \"Noite\" em 25%, até uma redução máxima de 50%. Ao entrar na \"Noite\", aumenta o Dano final causado pelos aliados-alvo em 30% por 2 rodada(s).",
+        "enhanced_desc": ""
+    },
+    "634107": {
+        "id": "634107",
+        "name": "Rei Arbitral",
+        "desc": "Esta Dádiva e seus efeitos de Aprimoramento também são eficazes durante o \"Dia\" e ao entrar no \"Dia\", e não serão redefinidos.",
+        "enhanced_desc": ""
+    },
+    "634108": {
+        "id": "634108",
+        "name": "Rei Coroado em Fogo",
+        "desc": "Durante a \"Noite\", o personagem na posição 1 aumenta o Dano final causado em 5% cada vez que agir, até 80% em um período de \"Dia/Noite\". Reinicia na mudança de \"Dia/Noite\".",
+        "enhanced_desc": ""
+    },
+    "634110": {
+        "id": "634110",
+        "name": "Sonhos de uma Longa Noite",
+        "desc": "Durante a \"Noite\", para cada aliado-alvo em campo, o Dano final causado aumenta em 5%, até um máximo de 40%.",
+        "enhanced_desc": ""
+    },
+    "634111": {
+        "id": "634111",
+        "name": "Silêncio das Estrelas do Alvorecer",
+        "desc": "Aumenta a proporção da \"Noite\" em 25%. Durante a \"Noite\", o Dano final causado pelos aliados-alvo aumenta em 20%.",
+        "enhanced_desc": ""
+    },
+    "634112": {
+        "id": "634112",
+        "name": "Refúgio da Brisa Noturna",
+        "desc": "Ao entrar na \"Noite\", para cada aliado-alvo em campo, aumenta o Dano final causado pelos aliados-alvo em 8% por 2 rodada(s).",
+        "enhanced_desc": ""
+    },
+    "634113": {
+        "id": "634113",
+        "name": "Lamento do Véu da Noite",
+        "desc": "Após um aliado-alvo realizar um ataque durante a \"Noite\", causa Dano Adicional extra igual a 18% do total combinado dos PV máximos de todos os aliados-alvo.",
+        "enhanced_desc": ""
+    },
+    "634116": {
+        "id": "634116",
+        "name": "Sonho de Visão do Futuro",
+        "desc": "Reduz o intervalo de troca entre \"Dia\" e \"Noite\" em 25%, até uma redução máxima de 50%. Ao entrar na \"Noite\", aumenta o Dano final causado pelos aliados-alvo em 30% por 2 rodada(s).",
+        "enhanced_desc": ""
+    },
+    "634117": {
+        "id": "634117",
+        "name": "Sonho de Visão do Passado",
+        "desc": "Esta Dádiva e seus efeitos de Aprimoramento também são eficazes durante o \"Dia\" e ao entrar no \"Dia\", e não serão redefinidos.",
+        "enhanced_desc": ""
+    },
+    "634118": {
+        "id": "634118",
+        "name": "Sonho de Expiação",
+        "desc": "Quando aliados-alvo partem/desaparecem/ficam fora de combate durante a \"Noite\", aumenta o Dano final causado por todos os aliados-alvo em 15%, com um acúmulo máximo de 60% em um período de \"Dia/Noite\". Reinicia na mudança de \"Dia/Noite\".",
+        "enhanced_desc": ""
+    },
+    "634120": {
+        "id": "634120",
+        "name": "Abalo Sísmico",
+        "desc": "Ao entrar na \"Noite\", todos os aliados-alvo obtêm um Escudo equivalente a 75% dos PV máximos e recebem \"Quartzo\". Os aliados-alvo com \"Quartzo\" aumentam seu Dano final causado em 50%. Quando um aliado-alvo não possuir mais um Escudo ou quando a batalha entrar no \"Dia\", \"Quartzo\" é removido.",
+        "enhanced_desc": ""
+    },
+    "634121": {
+        "id": "634121",
+        "name": "Mordedor de Rocha",
+        "desc": "Reduz o intervalo de troca entre \"Dia\" e \"Noite\" em 25%, até uma redução máxima de 50%. Ao entrar na \"Noite\", aumenta o Dano final causado pelos aliados-alvo em 25% por 2 rodada(s).",
+        "enhanced_desc": ""
+    },
+    "634122": {
+        "id": "634122",
+        "name": "Acendedor de Acendalha",
+        "desc": "Durante a \"Noite\", após cada 2 rodada(s), os aliados-alvo obtêm um Escudo igual a 100% dos PV máximos, com duração de 2 rodada(s).",
+        "enhanced_desc": ""
+    },
+    "634123": {
+        "id": "634123",
+        "name": "Vidente Primordial",
+        "desc": "Toda vez que um aliado-alvo obtém um Escudo durante a \"Noite\", aumenta o Dano final causado durante a \"Noite\" em 3%, acumulando até 24% em um único ciclo de \"Dia/Noite\".",
+        "enhanced_desc": ""
+    },
+    "634126": {
+        "id": "634126",
+        "name": "Perseguidor Terrestre",
+        "desc": "Reduz o intervalo de troca entre \"Dia\" e \"Noite\" em 25%, até uma redução máxima de 50%. Ao entrar na \"Noite\", aumenta o Dano final causado pelos aliados-alvo em 30% por 2 rodada(s).",
+        "enhanced_desc": ""
+    },
+    "634127": {
+        "id": "634127",
+        "name": "Estripador do Cume",
+        "desc": "Esta Dádiva e seus efeitos de aprimoramento também são eficazes durante o \"Dia\" e ao entrar no \"Dia\", e podem continuar sendo acumulados e redefinir o limite máximo de acúmulos.",
+        "enhanced_desc": ""
+    },
+    "634128": {
+        "id": "634128",
+        "name": "Curador da Terra",
+        "desc": "Aumenta adicionalmente o Dano final causado por aliados-alvo com \"Quartzo\" em 50%.",
         "enhanced_desc": ""
     },
     "670010": {
@@ -4217,7 +4469,13 @@
     "673210": {
         "id": "673210",
         "name": "Escultor do Anel do Crescimento",
-        "desc": "Quando inimigos-alvo são afligidos com os status de \"Congelamento\" ou outros Danos Contínuos, há uma chance-base de 150% de causar a Explosão desse efeito para unidades adjacentes. Esses efeitos retornam para a unidade original por Explosão quando não há unidades adjacentes presentes. O mesmo efeito só pode sofrer Explosão vez por alvo por ação. Quando um inimigo-alvo tem efeitos que sofrem Explosão por um total de 15 vezes ou é derrotado, causa Dano de Gelo igual a 2000% do Dano base a esse alvo e aos alvos adjacentes. Cada acúmulo de \"Obsessão\" que os aliados possuírem aumenta esse Dano em 1%.",
+        "desc": "Quando inimigos-alvo são afligidos com os status de \"Congelamento\" ou outros Danos Contínuos, há uma chance-base de 150% de causar a Explosão desse efeito para unidades adjacentes. Esses efeitos retornam para a unidade original por Explosão quando não há unidades adjacentes presentes. O mesmo efeito só pode sofrer Explosão vez por alvo por ação. Quando um inimigo-alvo tem efeitos que sofrem Explosão por um total de 12 vezes ou é derrotado, causa Dano de Gelo igual a 2500% do Dano base a esse alvo e aos alvos adjacentes. Cada acúmulo de \"Obsessão\" que os aliados possuírem aumenta esse Dano em 1%.",
+        "enhanced_desc": ""
+    },
+    "673250": {
+        "id": "673250",
+        "name": "Navio-Fantasma",
+        "desc": "Quando o inimigo-alvo recebe Dano de \"Blazar\", os acúmulos de \"Murmúrio\" em posse obtêm Carga igual a 10% desta instância de Dano. Isso não pode exceder 5% do limite de eliminação. Para cada 20% do limite de eliminação de \"Murmúrio\" que concede Carga, o inimigo-alvo recebe imediatamente 1 instância de Dano de Raio Contínuo igual a 400% do limite de eliminação de \"Murmúrio\". Esse Dano é considerado Dano de \"Murmúrio\" e não pode derrotar o inimigo-alvo.",
         "enhanced_desc": ""
     },
     "673280": {
@@ -4229,13 +4487,25 @@
     "673420": {
         "id": "673420",
         "name": "Representante do Rio Cinzento",
-        "desc": "Após cada 10 acúmulo(s) de \"Bônus Crítico\" obtido por todos os aliados ou após derrotar qualquer inimigo-alvo, dispara 10 Flecha(s) Luminosa(s) para atacar inimigos-alvo aleatório(s). Cada Flecha Luminosa causa Dano de Vento equivalente a 300% do Dano base. Cada Flecha Luminosa fará com que \"Murmúrio\" cause Dano equivalente a 30% do Dano original e fará com que \"Murmúrio\" ganhe Carga equivalente a 20% da soma total do ATQ dos personagens aliados.",
+        "desc": "Após cada 9 acúmulo(s) de \"Bônus Crítico\" obtido por todos os aliados ou após derrotar qualquer inimigo-alvo, dispara 10 Flecha(s) Luminosa(s) para atacar inimigos-alvo aleatório(s). Cada Flecha Luminosa causa Dano de Vento equivalente a 350% do Dano base. Cada Flecha Luminosa fará com que \"Murmúrio\" cause Dano equivalente a 30% do Dano original e fará com que \"Murmúrio\" ganhe Carga equivalente a 20% da soma total do ATQ dos personagens aliados.",
         "enhanced_desc": ""
     },
     "673470": {
         "id": "673470",
         "name": "Familiar das Feras",
         "desc": "Quando nenhum inimigo-alvo no campo possui \"Idioma Bestial\", \"Idioma Bestial\" é aplicado ao alvo aleatório atacado após os aliados-alvo usarem um ataque. Após inimigos com \"Idioma Bestial\" receberem um total de 8 ataque(s) ou serem derrotados, eles sofrem Dano de Raio igual a 4000% do Dano base. Alvos adjacentes sofrem Dano igual a 3000% do Dano base. Todos os aliados têm o Dano CRIT aumentado em 60% e a VEL em 20% por 2 rodada(s). Se estiver no estado \"Espírito de Borboleta\", considera-se que lançou adicionalmente 1 ataque(s).",
+        "enhanced_desc": ""
+    },
+    "673480": {
+        "id": "673480",
+        "name": "Tigre Alado",
+        "desc": "Após os aliados-alvo realizarem um ataque, aplica \"Tremor Medonho\" igual ao acúmulo de \"Bônus Crítico\" sobre o alvo atacado com o maior número de acúmulos de \"Tremor Medonho\". Cada acúmulo de \"Tremor Medonho\" reduz o Dano causado pelos inimigos-alvo em 0.5%. Ao atingir 50 acúmulo(s), causa Dano de Vento igual a 3500% do Dano base e perde 20 acúmulo(s), além de aumentar o Dano CRIT recebido pelo inimigo em 150% por 3 rodada(s). Quando o inimigo-alvo age, ele obtém todos os acúmulos de \"Tremor Medonho\" no campo. Quando ele é derrotado, \"Tremor Medonho\" é aplicado ao inimigo-alvo com o maior número de acúmulos atuais.",
+        "enhanced_desc": ""
+    },
+    "673510": {
+        "id": "673510",
+        "name": "Berserker",
+        "desc": "Após qualquer unidade aliada ser atacada, considera-se que todos os aliados-alvo foram atacados. Todos os aliados-alvo ganharão Carga de \"Blazar\" igual a 8% de seus respectivos PV máximos.",
         "enhanced_desc": ""
     },
     "673560": {
@@ -4256,6 +4526,12 @@
         "desc": "A \"Voz Enlouquecedora\" aparece na Ordem de Ação: após qualquer aliado realizar um Ataque Extra, Avança Adiante sua ação em 5%. Quando realizar uma ação, Avança Adiante a ação do primeiro aliado-alvo na formação em 100%. Depois que esta unidade usar um ataque, causa 10 instância(s) de Dano de \"Sabor Residual\" igual a 30% do ATQ do aliado-alvo, e até 4 instâncias de ataques podem surtir efeito. Além disso, o multiplicador de Dano causado de \"Sabor Residual\" de todos os aliados-alvo aumenta em 100% do multiplicador original, e uma contagem regressiva com 150 de VEL aparece na Ordem de Ação. Os efeitos duram até o início do da rodada da contagem regressiva.",
         "enhanced_desc": ""
     },
+    "673670": {
+        "id": "673670",
+        "name": "Bandido Alegre",
+        "desc": "Para cada Ponto de Perícia consumido ou que cause transbordamento por um aliado-alvo, obtenha 1 chance de sorteio de prêmio, até 25 vez(es). Ao entrar no estado de \"Espírito de Borboleta\", invoca \"Máquina de Loteria\" e consome todas as chances de sorteio do prêmio para obter prêmios, com um sorteio base de 5 vez(es). Existe uma pequena chance de obter o Prêmio Especial, que causa 1 instância de Dano de um Tipo aleatório igual a 4000% do Dano base a todos os inimigos-alvo e aumenta o multiplicador de Dano de \"Sabor Residual\" causado por todos os aliados em 35% do multiplicador original. Esse efeito pode ser acumulado e dura até o aliado sair de \"Espírito de Borboleta\". O Prêmio de Consolação causa 1 instância de Dano de um Tipo aleatório igual a 500% do Dano base a inimigos-alvo aleatórios.",
+        "enhanced_desc": ""
+    },
     "673690": {
         "id": "673690",
         "name": "Jardim Sem Lágrimas",
@@ -4271,7 +4547,7 @@
     "673790": {
         "id": "673790",
         "name": "Costureira de Casulos",
-        "desc": "Ao entrar no estado \"Espírito de Borboleta\", inflige \"Casulo\" a todos os inimigos-alvo. Eles não poderão agir na próxima rodada, terão sua ação atrasada em 50% no início da rodada, e sofrerão Dano Físico igual a 3500% do Dano base. Enquanto os aliados estiverem no estado \"Espírito de Borboleta\", os inimigos-alvo serão novamente afetados por \"Casulo\" a cada 2 rodada(s), e recuperarão 1 contagem(ns) de ataque do \"Espírito de Borboleta\" após a primeira vez em que inimigos-alvo sofrerem Quebra de Fraqueza.",
+        "desc": "Ao entrar no estado \"Espírito de Borboleta\", inflige \"Casulo\" a todos os inimigos-alvo. Eles não poderão agir na próxima rodada, terão sua ação atrasada em 50% no início da rodada, e sofrerão Dano Físico igual a 5000% do Dano base. Enquanto os aliados estiverem no estado \"Espírito de Borboleta\", os inimigos-alvo serão novamente afetados por \"Casulo\" a cada 2 rodada(s), e recuperarão 4 contagem(ns) de ataque do \"Espírito de Borboleta\" após a primeira vez em que inimigos-alvo sofrerem Quebra de Fraqueza.",
         "enhanced_desc": ""
     },
     "673860": {
@@ -4295,7 +4571,7 @@
     "673950": {
         "id": "673950",
         "name": "Aliança da Perseguição às Chamas",
-        "desc": "Quando os inimigos-alvo recebem Dano de Quebra, sofrem adicionalmente 3 instância(s) de Dano igual a 35% do limite máximo de \"Harmonizar\", e todos os aliados ganham Carga de \"Blazar\" igual a 25% de seus respectivos PV máximos. Este efeito pode ser ativado apenas 1 vez por rodada por inimigo-alvo.",
+        "desc": "Quando os inimigos-alvo recebem Dano de Quebra, sofrem adicionalmente 3 instância(s) de Dano igual a 50% do limite máximo de \"Harmonizar\", e todos os aliados ganham Carga de \"Blazar\" igual a 25% de seus respectivos PV máximos. Este efeito pode ser ativado apenas 1 vez por rodada por inimigo-alvo.",
         "enhanced_desc": ""
     },
     "674140": {
@@ -4308,6 +4584,12 @@
         "id": "674160",
         "name": "Fabricante de Memórias Amargas",
         "desc": "Cada acúmulo de \"Obsessão\" aumenta adicionalmente o ATQ de todos os aliados-alvo em 1.5%. Após um personagem usar um ataque, o próximo ataque do seu Memoespírito será considerado como um Ataque Extra.",
+        "enhanced_desc": ""
+    },
+    "674170": {
+        "id": "674170",
+        "name": "Crisálida Memorial",
+        "desc": "Para cada acúmulo de \"Obsessão\" que o aliado-alvo possua, o Dano de ATQ Básico e de Perícia causado por ele aumenta em 6%. Quando um personagem aliado sai de campo, é derrubado ou quando o Memoespírito aliado desaparece, o primeiro personagem na formação obtém 50% dos acúmulos de \"Obsessão\" daquele aliado e um valor igual de limite máximo de \"Obsessão\". Esse limite de acúmulo adicional desaparecerá após 2 rodada(s).",
         "enhanced_desc": ""
     },
     "674190": {
@@ -4340,6 +4622,12 @@
         "desc": "Aumenta o acúmulo máximo de \"Bônus Crítico\" em 4. Cada acúmulo de \"Bônus Crítico\" aumenta adicionalmente a VEL em 3% e aumenta adicionalmente a VEL do Memoespírito em 2%.",
         "enhanced_desc": ""
     },
+    "674450": {
+        "id": "674450",
+        "name": "Lâminas Orfãs",
+        "desc": "Aumenta o limite máximo de \"Bônus Crítico\" em 4 acúmulo(s). Para cada 15% do total de PV máximos da equipe perdidos pela equipe inteira, o aliado-alvo que agir a seguir recebe imediatamente 1 acúmulo de \"Bônus Crítico\" no início da rodada.",
+        "enhanced_desc": ""
+    },
     "674460": {
         "id": "674460",
         "name": "Trupe Itinerante",
@@ -4350,6 +4638,12 @@
         "id": "674470",
         "name": "Garra Dourada Caçadora de Galinhas",
         "desc": "Para cada 1% de efeito de ação Avançada Adiante obtido pelos aliados-alvo, aumenta o Dano causado na próxima rodada em 2%, até um máximo de 100%. Este efeito aumenta adicionalmente em 30% contra alvos no estado \"Espírito de Borboleta\".",
+        "enhanced_desc": ""
+    },
+    "674510": {
+        "id": "674510",
+        "name": "Mal da Loucura",
+        "desc": "Quando um aliado-alvo é atingido por um ataque ou consome PV enquanto sua porcentagem de PV estiver abaixo de 40%, consome 5 acúmulo(s) de \"Obsessão\" do alvo com o maior número de acúmulos de \"Obsessão\" na equipe, cura 25% dos PV máximos desta unidade e aumenta o Dano causado em 150% por 2 rodada(s). Esse efeito só pode ser ativado 1 vez(es) por rodada.",
         "enhanced_desc": ""
     },
     "674520": {
@@ -4388,10 +4682,22 @@
         "desc": "Aumenta o Dano CRIT causado pelos Ataques Extra dos aliados-alvo em 150%. Ao usar \"Cérebro In Vitro\" para utilizar a Perícia Suprema e causar Dano aos inimigos-alvo, é considerado como um Ataque Extra.",
         "enhanced_desc": ""
     },
+    "674690": {
+        "id": "674690",
+        "name": "Artista de Performance",
+        "desc": "Para cada vez que os aliados-alvo atacarem um inimigo-alvo que estiver afligido com Quebra de Fraqueza, esse inimigo-alvo receberá 1 instância de Dano de \"Sabor Residual\" igual a 300% do ATQ do atacante quando se recuperar da Quebra de Fraqueza.",
+        "enhanced_desc": ""
+    },
     "674710": {
         "id": "674710",
         "name": "Cultivador de Sementes da Memória",
         "desc": "O multiplicador de Dano Verdadeiro do \"Espírito de Borboleta\" aumenta em 60% do multiplicador original e a contagem de ataque aumenta em 4. Após o Memoespírito usar um ataque, ele pode ativar o Dano Verdadeiro do \"Espírito de Borboleta\" e consumir sua contagem de ataques.",
+        "enhanced_desc": ""
+    },
+    "674740": {
+        "id": "674740",
+        "name": "Mãe Loba do Norte",
+        "desc": "Aumenta o Dano CRIT do ATQ Básico e do Dano de Perícia causados pelos aliados-alvo em 150%. Enquanto no estado de \"Espírito de Borboleta\", para cada instância de ataque usada por um aliado-alvo, ele obterá imediatamente 2% de Carga para \"Crisálida Espiritual\" ao sair do estado de \"Espírito de Borboleta\". A Carga obtida dessa forma não pode exceder 40%.",
         "enhanced_desc": ""
     },
     "674780": {
@@ -4410,6 +4716,12 @@
         "id": "674810",
         "name": "Eritroqueramismo",
         "desc": "Depois que um Memoespírito utiliza um ataque, concede Carga de \"Cérebro In Vitro\" do Memomestre em 8%. Após o Memomestre usar \"Cérebro In Vitro\" para usar sua Perícia Suprema, aumenta o Dano do Memoespírito em 240% por 4 rodada(s).",
+        "enhanced_desc": ""
+    },
+    "674820": {
+        "id": "674820",
+        "name": "Árvore Sábia Gigante",
+        "desc": "O ATQ dos aliados-alvo aumenta em 100%. Após utilizar ATQs que causam Dano de Perícia Suprema, faz com que o \"Murmúrio\" no alvo atacado cause Dano igual a 200% do Dano original.",
         "enhanced_desc": ""
     },
     "674840": {
@@ -4448,6 +4760,12 @@
         "desc": "Quando um Memoespírito desaparece, aumenta a VEL de todos os aliados-alvo em 25% e o Dano CRIT em 100% por 5 rodada(s).",
         "enhanced_desc": ""
     },
+    "675160": {
+        "id": "675160",
+        "name": "Fonte da Primavera da Alegria",
+        "desc": "Cada acúmulo de \"Obsessão\" na equipe aliada aumenta o Dano de Ataque Extra e o Dano Adicional recebido pelos inimigos-alvo em 0.3%. Após inimigos-alvo receberem Dano de invocações, esse efeito aumenta ainda mais em 0.2%, durando por 1 rodada.",
+        "enhanced_desc": ""
+    },
     "675170": {
         "id": "675170",
         "name": "Escultor que Concede a Vida",
@@ -4470,6 +4788,12 @@
         "id": "675210",
         "name": "Passageiro do Rio das Almas",
         "desc": "Aumenta o Dano Contínuo causado pelos aliados-alvo em 50%. Quando os inimigos-alvo entram em batalha, eles são afligidos com \"Observado\". No início da rodada, sofrem Dano de Fogo Contínuo igual a 75% do Dano base. Esse Dano aumenta em 1% para cada acúmulo de \"Obsessão\" possuído por todos os aliados-alvo.",
+        "enhanced_desc": ""
+    },
+    "675240": {
+        "id": "675240",
+        "name": "Arco Decrépito da Maré Negra",
+        "desc": "O ATQ dos aliados-alvo aumenta em 30%. Após todos os aliados completarem um total de 5 rodadas, o Dano causado por \"Murmúrio\" aumenta em 50%.",
         "enhanced_desc": ""
     },
     "675250": {
@@ -4514,6 +4838,12 @@
         "desc": "Quando qualquer aliado-alvo causa Dano a um inimigo-alvo infligido por Quebra de Fraqueza, cada acúmulo de \"Bônus Crítico\" aumenta adicionalmente a Chance de CRIT em 4% e o Dano CRIT em 30%.",
         "enhanced_desc": ""
     },
+    "675510": {
+        "id": "675510",
+        "name": "Escribas da Guerra",
+        "desc": "Os PV máximos dos aliados-alvo aumenta em 40%. Ao entrar em batalha ou invocar um Memoespírito, concede Carga de \"Blazar\" igual a 100% dos PV máximos de cada unidade. Então, quando a próxima rodada começa, \"Blazar\" não é exaurido.",
+        "enhanced_desc": ""
+    },
     "675520": {
         "id": "675520",
         "name": "Presa do Sol Moribundo",
@@ -4536,6 +4866,12 @@
         "id": "675590",
         "name": "Legião da Lâmina Celestial",
         "desc": "Aumenta o Efeito de Escudo obtido em 30%. Após aplicar Quebra de Fraqueza a um inimigo, todos os aliados recebem um Escudo igual a 15% de seus PV máximos, com duração de 2 rodada(s).",
+        "enhanced_desc": ""
+    },
+    "675620": {
+        "id": "675620",
+        "name": "Carnaval da Despedida",
+        "desc": "Para cada tipo de penalidade com a qual um inimigo-alvo é afetado, o Dano de Ataque Extra que ele recebe aumenta em 6%, até um máximo de 60%.",
         "enhanced_desc": ""
     },
     "675650": {
@@ -4586,6 +4922,12 @@
         "desc": "Para cada Ponto de Perícia usado por um aliado-alvo, o próximo ataque aplica Dano de \"Sabor Residual\" igual a 70% do ATQ ao alvo, acumulando até 3 vez(es).",
         "enhanced_desc": ""
     },
+    "675790": {
+        "id": "675790",
+        "name": "Medusa Radiante",
+        "desc": "O Dano do ATQ Básico e o Dano da Perícia dos aliados-alvo ignoram 25% da DEF do inimigo-alvo. Esse efeito aumenta para 40% em inimigos-alvo no estado de Quebra de Fraqueza.",
+        "enhanced_desc": ""
+    },
     "675810": {
         "id": "675810",
         "name": "Escriba da Areia",
@@ -4607,7 +4949,13 @@
     "675870": {
         "id": "675870",
         "name": "Dríade Branca",
-        "desc": "Para cada 1 Ponto de Perícia consumido pelos aliados-alvo, aumenta o Dano causado pela Perícia Suprema em 65%, até um máximo de 130% e durando até após utilizar a Perícia Suprema.",
+        "desc": "Para cada 1 Ponto de Perícia consumido por um aliado-alvo, aumenta o Dano causado pela Perícia Suprema deles em 65%, até um máximo de 130% e durando até após utilizar a Perícia Suprema.",
+        "enhanced_desc": ""
+    },
+    "675890": {
+        "id": "675890",
+        "name": "Escola Nodista",
+        "desc": "Quando os personagens aliados usam a Perícia Suprema para atacar, o Dano CRIT causado aumenta em 60%, e o ataque ignora os Tipos de Fraqueza para reduzir adicionalmente 5 de Tenacidade.",
         "enhanced_desc": ""
     },
     "675910": {

@@ -1873,7 +1873,7 @@
     "22004": {
         "id": "22004",
         "skill": "Bénéfices mutuels",
-        "desc": "Augmente l'ATQ du porteur de #1[i]%. Augmente de #2[i]% les DGT infligés par le porteur à une cible ennemie pour chacun de ses différents types de faiblesse. Un maximum de 7 faiblesses sont comptabilisées pour cet effet.",
+        "desc": "Augmente l'ATQ du porteur de #1[i]%. Augmente de #2[i]% les DGT infligés par le porteur à une cible ennemie pour chacun de ses différents types de faiblesses. Un maximum de 7 types de faiblesses sont comptabilisés pour cet effet.",
         "params": [
             [0.08, 0.04],
             [0.1, 0.05],
@@ -3047,7 +3047,7 @@
     "23040": {
         "id": "23040",
         "skill": "Gravure",
-        "desc": "Augmente les PV max du porteur de #1[i]%. Lorsque le porteur ou son mnémesprit perd des PV au cours de son tour, le porteur obtient Fleur du néant, ce qui permet au porteur et à son mnémesprit d'ignorer #2[i]% de la DÉF de la cible lorsqu'ils infligent des DGT, pendant #3[i] tours.\nLorsque le mnémesprit du porteur disparaît, avance l'action du porteur de #4[i]%. Cet effet ne peut se déclencher qu'1 fois maximum, et son nombre de déclenchements se réinitialise à chaque fois que le porteur utilise son ultime.",
+        "desc": "Augmente les PV max du porteur de #1[i]%. Lorsque le porteur ou son mnémesprit perd des PV au cours de leur tour, le porteur obtient Fleur du néant, ce qui permet au porteur et à son mnémesprit d'ignorer #2[i]% de la DÉF de la cible lorsqu'ils infligent des DGT, pendant #3[i] tours.\nLorsque le mnémesprit du porteur disparaît, avance l'action du porteur de #4[i]%. Cet effet ne peut se déclencher qu'1 fois maximum, et son nombre de déclenchements se réinitialise à chaque fois que le porteur utilise son ultime.",
         "params": [
             [0.3, 0.3, 2, 0.12],
             [0.375, 0.35, 2, 0.15],
@@ -3076,7 +3076,7 @@
     "23041": {
         "id": "23041",
         "skill": "Fusion",
-        "desc": "Le porteur régénère #5[i] points d'énergie au début de son tour. Augmente de #3[i]% les DGT infligés par le porteur aux cibles ennemies avec une Faiblesse appliquée par le porteur.\nLorsqu'une cible ennemie subit une attaque du porteur, sa DÉF est réduite de #2[i]% pendant #4[i] tour(s). Les effets de même type ne peuvent pas se cumuler.",
+        "desc": "Le porteur régénère #5[i] points d'énergie au début de son tour. Augmente de #3[i]% les DGT infligés par le porteur aux cibles ennemies avec une Faiblesse appliquée par le porteur.\nLorsqu'une cible ennemie subit une attaque du porteur, sa DÉF est réduite de #2[i]% pendant #4[i] tours. Les effets de même type ne peuvent pas se cumuler.",
         "params": [
             [0, 0.12, 0.6, 2, 10],
             [0, 0.15, 0.7, 2, 10],
@@ -3090,6 +3090,64 @@
             [],
             [],
             []
+        ]
+    },
+    "23042": {
+        "id": "23042",
+        "skill": "Tolérance",
+        "desc": "Augmente la VIT du porteur de #1[i]%. Lorsque le porteur utilise son ATQ normale, sa compétence ou son ultime, il consomme #2[f1]% des PV actuels de tous les alliés. Lors de sa prochaine attaque, le mnémesprit du porteur inflige aux cibles attaquées une instance de DGT supplémentaires de son type équivalents à #6[f1]% du total des PV consommés. Le total de PV consommés est ensuite réinitialisé. Lorsque le mnémesprit du porteur utilise la compétence du mnémesprit, augmente les DGT subis par tous les ennemis de #4[f1]% pendant #5[i] tours. Les effets de même type ne peuvent pas se cumuler.",
+        "params": [
+            [0.18, 0.01, 0, 0.18, 2, 2.5],
+            [0.21, 0.0125, 0, 0.225, 2, 3.125],
+            [0.24, 0.015, 0, 0.27, 2, 3.75],
+            [0.27, 0.0175, 0, 0.315, 2, 4.375],
+            [0.3, 0.02, 0, 0.36, 2, 5]
+        ],
+        "properties": [
+            [
+                { "type": "SpeedAddedRatio", "value": 0.18 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.21 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.24 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.27 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.3 }
+            ]
+        ]
+    },
+    "23043": {
+        "id": "23043",
+        "skill": "Tromperie",
+        "desc": "Augmente la VIT du porteur de #1[i]%. Lorsque le porteur utilise une attaque, il a #2[i]% de chances de base d'appliquer l'effet Bouche-bée à chaque cible ennemie. Lorsqu'un ennemi est Bouche-bée, sa DÉF diminue de #3[i]% pendant #4[i] tours. Si la VIT du porteur est supérieure ou égale à #7[i], il a #5[i]% de chances de base d'appliquer Vol à chaque cible ennemie. Lorsqu'un ennemi est affecté par Vol, sa DÉF diminue de #6[i]% pendant #4[i] tours. Lorsque Bouche-bée ou Vol est appliqué plusieurs fois, seul le dernier effet appliqué est maintenu.",
+        "params": [
+            [0.18, 1.2, 0.16, 2, 1.2, 0.08, 170],
+            [0.21, 1.2, 0.18, 2, 1.2, 0.09, 170],
+            [0.24, 1.2, 0.2, 2, 1.2, 0.1, 170],
+            [0.27, 1.2, 0.22, 2, 1.2, 0.11, 170],
+            [0.3, 1.2, 0.24, 2, 1.2, 0.12, 170]
+        ],
+        "properties": [
+            [
+                { "type": "SpeedAddedRatio", "value": 0.18 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.21 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.24 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.27 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.3 }
+            ]
         ]
     },
     "24000": {

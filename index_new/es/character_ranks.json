@@ -4642,6 +4642,78 @@
         "level_up_skills": [],
         "icon": "icon/skill/1405_rank6.png"
     },
+    "140601": {
+        "id": "140601",
+        "name": "Sonrisa avizora",
+        "rank": 1,
+        "desc": "El daño registrado por Cífer pasa a ser un 150% del daño registrado original. Cuando se lanza el ataque adicional del talento, el ATQ de Cífer aumenta en un 80% durante 2 turnos.",
+        "materials": [
+            { "id": "11406", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1406_rank1.png"
+    },
+    "140602": {
+        "id": "140602",
+        "name": "Rapacería bajo presión",
+        "rank": 2,
+        "desc": "Cuando Cífer golpea a un enemigo, tiene una probabilidad base del 120% de hacer que el daño que recibe ese objetivo aumente en un 30% durante 2 turnos.",
+        "materials": [
+            { "id": "11406", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1406_rank2.png"
+    },
+    "140603": {
+        "id": "140603",
+        "name": "Prestidigitación indiscernible",
+        "rank": 3,
+        "desc": "Niv. de habilidad definitiva +2 (máximo: nivel 15). Niv. de ATQ básico +1 (máximo: nivel 10).",
+        "materials": [
+            { "id": "11406", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "140603", "num": 2 },
+            { "id": "140601", "num": 1 }
+        ],
+        "icon": "icon/skill/1406_ultimate.png"
+    },
+    "140604": {
+        "id": "140604",
+        "name": "Escapada preparada",
+        "rank": 4,
+        "desc": "Después de que el Cliente habitual reciba un ataque de un aliado, Cífer le inflige un 50% de su ATQ como Daño Cuántico adicional.",
+        "materials": [
+            { "id": "11406", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1406_rank4.png"
+    },
+    "140605": {
+        "id": "140605",
+        "name": "Como la raposa, rauda y mañosa",
+        "rank": 5,
+        "desc": "Niv. de habilidad básica +2 (máximo: nivel 15). Niv. de talento +2 (máximo: nivel 15).",
+        "materials": [
+            { "id": "11406", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "140602", "num": 2 },
+            { "id": "140604", "num": 2 }
+        ],
+        "icon": "icon/skill/1406_skill.png"
+    },
+    "140606": {
+        "id": "140606",
+        "name": "A mejor bandida, más desconocida",
+        "rank": 6,
+        "desc": "El daño que inflige el ataque adicional del talento de Cífer aumenta en un 350%. Al registrar el daño, registra además el 16% del daño no excedente infligido con este ataque. Tras reiniciar el contador al lanzar la habilidad definitiva, restablece un 20% del valor que había registrado.",
+        "materials": [
+            { "id": "11406", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1406_rank6.png"
+    },
     "140701": {
         "id": "140701",
         "name": "Doncella nívea y recuerdos amortajados",
@@ -4686,7 +4758,7 @@
         "id": "140704",
         "name": "Descanso arropado en lamentos",
         "rank": 4,
-        "desc": "Cuando Castorice está en la batalla, la curación recibida de todos los aliados aumenta en un 20%.",
+        "desc": "Cuando Castorice está en la batalla, los PV regenerados por todos los aliados al recibir curación aumentan en un 20%.",
         "materials": [
             { "id": "11407", "num": 1 }
         ],
@@ -4720,6 +4792,82 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1407_rank6.png"
+    },
+    "140901": {
+        "id": "140901",
+        "name": "Protectora de la llama nocturna",
+        "rank": 1,
+        "desc": "Cuando Hyacine está en el estado de Cielo lavado, todos los aliados aumentan sus PV máx. en un 50% adicional y, tras atacar, regeneran inmediatamente una cantidad de PV equivalente al 8% de los PV máx. de Hyacine.",
+        "materials": [
+            { "id": "11409", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1409_rank1.png"
+    },
+    "140902": {
+        "id": "140902",
+        "name": "Ven a sentarte en mi jardín",
+        "rank": 2,
+        "desc": "Cuando los PV de un aliado se reducen, la VEL aumenta en un 30% durante 2 turnos.",
+        "materials": [
+            { "id": "11409", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1409_rank2.png"
+    },
+    "140903": {
+        "id": "140903",
+        "name": "¡Aventurémonos hacia el sol!",
+        "rank": 3,
+        "desc": "Niv. de habilidad definitiva +2 (máximo: nivel 15). Niv. de ATQ básico +1 (máximo: nivel 10). Niv. de habilidad del mnemoduende +1 (máximo: nivel 10).",
+        "materials": [
+            { "id": "11409", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "140903", "num": 2 },
+            { "id": "140901", "num": 1 },
+            { "id": "1140901", "num": 1 }
+        ],
+        "icon": "icon/skill/1409_ultimate.png"
+    },
+    "140904": {
+        "id": "140904",
+        "name": "Te regalo este ámbar brillante",
+        "rank": 4,
+        "desc": "El Rastro \"Respiro en el vendaval\" se potencia. Por cada 1 pt. de VEL de exceso, el Daño CRIT de Hyacine e Ica aumenta en un 2% adicional.",
+        "materials": [
+            { "id": "11409", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1409_rank4.png"
+    },
+    "140905": {
+        "id": "140905",
+        "name": "Reverso de arrebol marino",
+        "rank": 5,
+        "desc": "Niv. de habilidad básica +2 (máximo: nivel 15). Niv. de talento +2 (máximo: nivel 15). Niv. de talento del mnemoduende +1 (máximo: nivel 10).",
+        "materials": [
+            { "id": "11409", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "140902", "num": 2 },
+            { "id": "140904", "num": 2 },
+            { "id": "1140903", "num": 1 },
+            { "id": "1140905", "num": 1 },
+            { "id": "1140906", "num": 1 }
+        ],
+        "icon": "icon/skill/1409_skill.png"
+    },
+    "140906": {
+        "id": "140906",
+        "name": "Cielos, escuchen mi ruego",
+        "rank": 6,
+        "desc": "El porcentaje de curación acumulada que se borra cuando Ica lanza la habilidad del mnemoduende pasa a ser el 12%. Cuando Ica está en el campo de batalla, la PEN de la RES a todos los tipos de todos los aliados aumenta en un 20%.",
+        "materials": [
+            { "id": "11409", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1409_rank6.png"
     },
     "800101": {
         "id": "800101",

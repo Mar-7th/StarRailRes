@@ -208,7 +208,7 @@
         "id": "100306",
         "name": "Desbravamento!",
         "rank": 6,
-        "desc": "A Perícia Suprema causa Dano mais duas vezes, causando também Dano de Fogo igual a 40% do Dano original a um inimigo aleatório.",
+        "desc": "A Perícia Suprema causa 2 instâncias extras de Dano de Fogo equivalentes a 0 do Dano original a um inimigo aleatório.",
         "materials": [
             { "id": "11003", "num": 1 }
         ],
@@ -4563,7 +4563,7 @@
         "id": "140406",
         "name": "O Legado Escala a Montanha de Sangue",
         "rank": 6,
-        "desc": "Ao entrar na batalha, entra imediatamente no estado de \"Vingança\" e reduz a Carga necessária para \"Deicida, Torne-se Uma Divindade\" em 100 ponto(s).",
+        "desc": "Ao entrar na batalha, entra imediatamente no estado de \"Vingança\" e reduz a Carga necessária de \"Deicida, Torne-se Uma Divindade\" para 100 ponto(s).",
         "materials": [
             { "id": "11404", "num": 1 }
         ],
@@ -4642,6 +4642,78 @@
         "level_up_skills": [],
         "icon": "icon/skill/1405_rank6.png"
     },
+    "140601": {
+        "id": "140601",
+        "name": "Perceba o Clima, Vá Atrás da Diversão",
+        "rank": 1,
+        "desc": "O Dano registrado de Cipher é de 150% do valor de Dano registrado original. Ao usar um Ataque Extra causado por seu Talento, aumenta o ATQ de Cipher em 80% por 2 rodada(s).",
+        "materials": [
+            { "id": "11406", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1406_rank1.png"
+    },
+    "140602": {
+        "id": "140602",
+        "name": "Na Confusão, Pegue sem Perdão",
+        "rank": 2,
+        "desc": "Quando Cipher atinge um inimigo-alvo, há uma chance-base de 120% de fazer com que ele receba 30% a mais de Dano, com duração de 2 rodadas.",
+        "materials": [
+            { "id": "11406", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1406_rank2.png"
+    },
+    "140603": {
+        "id": "140603",
+        "name": "O Que os Olhos Não Veem, o Bolso Não Sente",
+        "rank": 3,
+        "desc": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
+        "materials": [
+            { "id": "11406", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "140603", "num": 2 },
+            { "id": "140601", "num": 1 }
+        ],
+        "icon": "icon/skill/1406_ultimate.png"
+    },
+    "140604": {
+        "id": "140604",
+        "name": "Agora Você me Vê, Agora Não Vê Mais",
+        "rank": 4,
+        "desc": "Após o \"Patrono\" ser atacado por um aliado-alvo, Cipher causa Dano Quântico Adicional igual a 50% do ATQ de Cipher a ele.",
+        "materials": [
+            { "id": "11406", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1406_rank4.png"
+    },
+    "140605": {
+        "id": "140605",
+        "name": "Como Uma Raposa, Rápida e Astuta",
+        "rank": 5,
+        "desc": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
+        "materials": [
+            { "id": "11406", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "140602", "num": 2 },
+            { "id": "140604", "num": 2 }
+        ],
+        "icon": "icon/skill/1406_skill.png"
+    },
+    "140606": {
+        "id": "140606",
+        "name": "A Melhor das Ladras é Anônima e Livre",
+        "rank": 6,
+        "desc": "Aumenta o Dano causado pelos Ataques Extras causados pelo Talento de Cipher em 350%. Registra adicionalmente 16% do Dano não Sobressalente causado por este ATQ. Após redefinir o registro ao usar sua Perícia Suprema, retorna 20% do registro redefinido.",
+        "materials": [
+            { "id": "11406", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1406_rank6.png"
+    },
     "140701": {
         "id": "140701",
         "name": "Memórias Sepultadas da Donzela da Terra da Neve",
@@ -4657,7 +4729,7 @@
         "id": "140702",
         "name": "Coroa nas Asas do Desabrochar",
         "rank": 2,
-        "desc": "Após conjurar o Memoespírito Dragão Abissal, Castorice recebe 2 acúmulo(s) de \"Determinação Ardente\". \"Determinação Ardente\" pode acumular até 2 vez(es) e pode ser usada para compensar o custo de PV da Perícia do Memoespírito do Dragão Abissal, \"Sopro de Chama Negra\", além de adiantar a ação de Castorice em 100%. Ao usar a próxima Perícia Aprimorada, Castorice ganha \"Brotar\" em uma quantidade equivalente a 30% do \"Brotar\" máximo.",
+        "desc": "Após conjurar o Memoespírito \"Dragão Abissal\", Castorice recebe 2 acúmulo(s) de \"Determinação Ardente\". \"Determinação Ardente\" pode acumular até 2 vez(es) e pode ser usada para compensar o custo de PV da Perícia do Memoespírito do \"Dragão Abissal\", \"Sopro de Chama Negra\", além de Avançar Adiante a ação de Castorice em 100%. Ao usar a próxima Perícia Aprimorada, Castorice ganha \"Brotar\" em uma quantidade equivalente a 30% do \"Brotar\" máximo.",
         "materials": [
             { "id": "11407", "num": 1 }
         ],
@@ -4666,7 +4738,7 @@
     },
     "140703": {
         "id": "140703",
-        "name": "Dança do Peregrino no Reino da Morte",
+        "name": "Dança da Peregrina no Reino da Morte",
         "rank": 3,
         "desc": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.\nNv. do Talento do Memoespírito +1, até no máximo Nv. 10.",
         "materials": [
@@ -4714,12 +4786,88 @@
         "id": "140706",
         "name": "O Desabrochar para Além do Casulo",
         "rank": 6,
-        "desc": "Quando Castorice ou Dragão Abissal causa Dano, aumenta a PEN de RES a Quântico em 20%. Durante os ataques do Dragão Abissal, pode reduzir a Tenacidade do inimigo independentemente dos Tipos de Fraqueza. Ao realizar uma Quebra de Fraqueza, ativa o efeito de Fraqueza contra Quântico. Além disso, o número de Rebotes do Talento do Dragão Abissal \"Asas Sobre as Ruínas\" aumenta em 3.",
+        "desc": "Quando Castorice ou \"Dragão Abissal\" causa Dano, aumenta a PEN de RES a Quântico em 20%. Durante os ataques do \"Dragão Abissal\", pode reduzir a Tenacidade do inimigo independentemente dos Tipos de Fraqueza. Ao realizar uma Quebra de Fraqueza, ativa o efeito de Fraqueza contra Quântico. Além disso, o número de Rebotes do Talento do \"Dragão Abissal\", \"Asas Sobre as Ruínas\", aumenta em 3.",
         "materials": [
             { "id": "11407", "num": 1 }
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1407_rank6.png"
+    },
+    "140901": {
+        "id": "140901",
+        "name": "Protetora da Chama Noturna",
+        "rank": 1,
+        "desc": "Quando Hyacine está no estado de \"Após a Chuva\", aumenta adicionalmente os PV máximos de todos os aliados-alvo em 50%, e imediatamente restaura PV em um valor igual a 8% dos PV máximos de Hyacine após usar um ataque.",
+        "materials": [
+            { "id": "11409", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1409_rank1.png"
+    },
+    "140902": {
+        "id": "140902",
+        "name": "Venha Sentar no Meu Pátio",
+        "rank": 2,
+        "desc": "Quando os PV de qualquer aliado-alvo diminuem, a VEL desta unidade aumenta em 30% por 2 rodada(s).",
+        "materials": [
+            { "id": "11409", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1409_rank2.png"
+    },
+    "140903": {
+        "id": "140903",
+        "name": "Partir em Direção ao Sol!",
+        "rank": 3,
+        "desc": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.\nNv. da Perícia do Memoespírito +1, até no máximo Nv. 10.",
+        "materials": [
+            { "id": "11409", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "140903", "num": 2 },
+            { "id": "140901", "num": 1 },
+            { "id": "1140901", "num": 1 }
+        ],
+        "icon": "icon/skill/1409_ultimate.png"
+    },
+    "140904": {
+        "id": "140904",
+        "name": "Te Presenteio com Este Âmbar Solar",
+        "rank": 4,
+        "desc": "O Rastro \"Parada Tempestuosa\" é aprimorado. Para cada 1 de VEL excedido, aumenta adicionalmente o Dano CRIT de Hyacine e Ikinha em 2%.",
+        "materials": [
+            { "id": "11409", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1409_rank4.png"
+    },
+    "140905": {
+        "id": "140905",
+        "name": "Cetim Crepuscular das Marés",
+        "rank": 5,
+        "desc": "Nv. de Perícia +2, até no máximo Nv. 15.\nNv. de Talento +2, até no máximo Nv. 15.\nNv. de Talento do Memoespírito +1, até no máximo Nv. 10.",
+        "materials": [
+            { "id": "11409", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "140902", "num": 2 },
+            { "id": "140904", "num": 2 },
+            { "id": "1140903", "num": 1 },
+            { "id": "1140905", "num": 1 },
+            { "id": "1140906", "num": 1 }
+        ],
+        "icon": "icon/skill/1409_skill.png"
+    },
+    "140906": {
+        "id": "140906",
+        "name": "Ó, Céu, Ouça Minha Prece",
+        "rank": 6,
+        "desc": "Ikinha usa a Perícia do Memoespírito e muda o valor da contagem de Recuperação para 12%. Quando Ikinha está em campo, aumenta a PEN de RES a Todos os Tipos de todos os aliados-alvo em 20%.",
+        "materials": [
+            { "id": "11409", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1409_rank6.png"
     },
     "800101": {
         "id": "800101",

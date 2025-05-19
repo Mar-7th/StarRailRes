@@ -3092,6 +3092,64 @@
             []
         ]
     },
+    "23042": {
+        "id": "23042",
+        "skill": "Tolerant",
+        "desc": "Increases the wearer's SPD by #1[i]%. When the wearer uses Basic ATK, Skill, or Ultimate, consumes all allies' HP equal to #2[f1]% of their current HP and additionally deals 1 instance of Additional DMG of the wearer's memosprite Type equal to #6[f1]% of the total consumed HP to the attacked target after the next attack launched by the wearer's memosprite. The total HP consumed is then reset. When the wearer's memosprite uses Memosprite Skill, increases the DMG taken by all enemies by #4[f1]% for #5[i] turn(s). The same types of effects cannot stack.",
+        "params": [
+            [0.18, 0.01, 0, 0.18, 2, 2.5],
+            [0.21, 0.0125, 0, 0.225, 2, 3.125],
+            [0.24, 0.015, 0, 0.27, 2, 3.75],
+            [0.27, 0.0175, 0, 0.315, 2, 4.375],
+            [0.3, 0.02, 0, 0.36, 2, 5]
+        ],
+        "properties": [
+            [
+                { "type": "SpeedAddedRatio", "value": 0.18 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.21 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.24 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.27 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.3 }
+            ]
+        ]
+    },
+    "23043": {
+        "id": "23043",
+        "skill": "Deceit",
+        "desc": "Increases the wearer's SPD by #1[i]%. After the wearer uses an attack, there is a #2[i]% base chance to inflict the \"Bamboozle\" state on every enemy target. While under the \"Bamboozle\" state, enemy target's DEF decreases by #3[i]% for #4[i] turn(s). If the wearer's SPD is higher than or equal to #7[i], there is a #5[i]% base chance to inflict the \"Theft\" state on every enemy target. While under the \"Theft\" state, enemy target's DEF decreases by #6[i]% for #4[i] turn(s). When \"Bamboozle\" or \"Theft\" is inflicted repeatedly, only the latest effect inflicted can be active.",
+        "params": [
+            [0.18, 1.2, 0.16, 2, 1.2, 0.08, 170],
+            [0.21, 1.2, 0.18, 2, 1.2, 0.09, 170],
+            [0.24, 1.2, 0.2, 2, 1.2, 0.1, 170],
+            [0.27, 1.2, 0.22, 2, 1.2, 0.11, 170],
+            [0.3, 1.2, 0.24, 2, 1.2, 0.12, 170]
+        ],
+        "properties": [
+            [
+                { "type": "SpeedAddedRatio", "value": 0.18 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.21 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.24 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.27 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.3 }
+            ]
+        ]
+    },
     "24000": {
         "id": "24000",
         "skill": "Moth to Flames",

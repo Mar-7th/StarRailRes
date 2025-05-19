@@ -208,7 +208,7 @@
         "id": "100306",
         "name": "En avant !",
         "rank": 6,
-        "desc": "L'ultime inflige des DGT 2 fois supplémentaires, infligeant à chaque fois des DGT de feu équivalents à 40% des DGT initiaux à un ennemi aléatoire.",
+        "desc": "L'ultime inflige 2 instances de DGT de feu supplémentaires équivalents à 40% des DGT initiaux à un ennemi aléatoire.",
         "materials": [
             { "id": "11003", "num": 1 }
         ],
@@ -4563,7 +4563,7 @@
         "id": "140406",
         "name": "Héritage de la montagne de sang",
         "rank": 6,
-        "desc": "Entre immédiatement dans l'état Vendetta en début de combat, et diminue la charge nécessaire à Dieu déicide de 100 points.",
+        "desc": "Entre immédiatement dans l'état Vendetta en début de combat, la charge nécessaire à Dieu déicide passe à 100 points.",
         "materials": [
             { "id": "11404", "num": 1 }
         ],
@@ -4642,6 +4642,78 @@
         "level_up_skills": [],
         "icon": "icon/skill/1405_rank6.png"
     },
+    "140601": {
+        "id": "140601",
+        "name": "Lire les sourires",
+        "rank": 1,
+        "desc": "Les DGT enregistrés par Cipher passent à 150% de la valeur de DGT enregistrée initiale. Déclencher l'ATQ de suivi du talent de Cipher augmente son ATQ de 80% pendant 2 tours.",
+        "materials": [
+            { "id": "11406", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1406_rank1.png"
+    },
+    "140602": {
+        "id": "140602",
+        "name": "Dextérité à toute épreuve",
+        "rank": 2,
+        "desc": "Lorsque Cipher touche un ennemi, il y a 120% de chances de base d'augmenter les DGT qu'il subit de 30% pendant 2 tours.",
+        "materials": [
+            { "id": "11406", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1406_rank2.png"
+    },
+    "140603": {
+        "id": "140603",
+        "name": "Insaisissable",
+        "rank": 3,
+        "desc": "Niv. de l'ultime +2, jusqu'au Niv. 15 maximum.\nNiv. de l'ATQ normale +1, jusqu'au Niv. 10 maximum.",
+        "materials": [
+            { "id": "11406", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "140603", "num": 2 },
+            { "id": "140601", "num": 1 }
+        ],
+        "icon": "icon/skill/1406_ultimate.png"
+    },
+    "140604": {
+        "id": "140604",
+        "name": "Porte de sortie",
+        "rank": 4,
+        "desc": "Lorsqu'une cible alliée attaque le Patron, Cipher lui inflige des DGT quantiques supplémentaires équivalents à 50% de l'ATQ de Cipher.",
+        "materials": [
+            { "id": "11406", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1406_rank4.png"
+    },
+    "140605": {
+        "id": "140605",
+        "name": "Rusée et agile tel le goupil",
+        "rank": 5,
+        "desc": "Niv. de la compétence +2, jusqu'au Niv. 15 maximum.\nNiv. du talent +2, jusqu'au Niv. 15 maximum.",
+        "materials": [
+            { "id": "11406", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "140602", "num": 2 },
+            { "id": "140604", "num": 2 }
+        ],
+        "icon": "icon/skill/1406_skill.png"
+    },
+    "140606": {
+        "id": "140606",
+        "name": "L'inconnue aux pattes de velours",
+        "rank": 6,
+        "desc": "Augmente de 350% les DGT infligés par l'ATQ de suivi du talent de Cipher. Enregistre 16% de DGT supplémentaires infligés par cette attaque (hors DGT de débordement). Après avoir réinitialisé la valeur enregistrée en utilisant l'ultime, le compteur passe à 20% de la valeur enregistrée.",
+        "materials": [
+            { "id": "11406", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1406_rank6.png"
+    },
     "140701": {
         "id": "140701",
         "name": "Demoiselle des terres glacées",
@@ -4686,7 +4758,7 @@
         "id": "140704",
         "name": "Repos de l'élégie",
         "rank": 4,
-        "desc": "Lorsque Castorice est sur le champ de bataille, les soins reçus par tous les alliés augmentent de 20% lors de la restauration de PV.",
+        "desc": "Lorsque Castorice est sur le champ de bataille, augmente de 20% les PV restaurés par les alliés recevant des soins.",
         "materials": [
             { "id": "11407", "num": 1 }
         ],
@@ -4720,6 +4792,82 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1407_rank6.png"
+    },
+    "140901": {
+        "id": "140901",
+        "name": "Protectrice de la flamme nocturne",
+        "rank": 1,
+        "desc": "Lorsque Hyacine est dans l'état Pétrichor, augmente les PV max de tous les alliés de 50% supplémentaires, et restaure immédiatement des PV équivalents à 8% des PV max de Hyacine après avoir attaqué.",
+        "materials": [
+            { "id": "11409", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1409_rank1.png"
+    },
+    "140902": {
+        "id": "140902",
+        "name": "Assieds-toi dans ma cour",
+        "rank": 2,
+        "desc": "Lorsque les PV d'une cible alliée diminuent, la VIT de cette unité augmente de 30% pendant 2 tours.",
+        "materials": [
+            { "id": "11409", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1409_rank2.png"
+    },
+    "140903": {
+        "id": "140903",
+        "name": "Partons vers le soleil !",
+        "rank": 3,
+        "desc": "Niv. de l'ultime +2, jusqu'au Niv. 15 maximum.\nNiv. de l'ATQ normale +1, jusqu'au Niv. 10 maximum.\nNiv. de compétence du mnémesprit +1, jusqu'au Niv. 10 maximum.",
+        "materials": [
+            { "id": "11409", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "140903", "num": 2 },
+            { "id": "140901", "num": 1 },
+            { "id": "1140901", "num": 1 }
+        ],
+        "icon": "icon/skill/1409_ultimate.png"
+    },
+    "140904": {
+        "id": "140904",
+        "name": "Je te donne cette ambre éclatante",
+        "rank": 4,
+        "desc": "Renforce la Trace « Arrêt tempétueux ». Augmente les DGT critiques de Hyacine et d'Ica de 2% supplémentaires pour chaque 1 point de VIT en excédent.",
+        "materials": [
+            { "id": "11409", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1409_rank4.png"
+    },
+    "140905": {
+        "id": "140905",
+        "name": "Satin crépusculaire des marées",
+        "rank": 5,
+        "desc": "Niv. de la compétence +2, jusqu'au Niv. 15 maximum.\nNiv. du talent +2, jusqu'au Niv. 15 maximum.\nNiv. de talent du mnémesprit +1, jusqu'au Niv. 10 maximum.",
+        "materials": [
+            { "id": "11409", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "140902", "num": 2 },
+            { "id": "140904", "num": 2 },
+            { "id": "1140903", "num": 1 },
+            { "id": "1140905", "num": 1 },
+            { "id": "1140906", "num": 1 }
+        ],
+        "icon": "icon/skill/1409_skill.png"
+    },
+    "140906": {
+        "id": "140906",
+        "name": "Ciel, entends mes prières",
+        "rank": 6,
+        "desc": "Lorsqu'Ica utilise la compétence de mnémesprit, le compteur de soins cumulés est réinitialisé à 12%. Lorsqu'Ica est sur le champ de bataille, la PÉN de RÉS à tous les types de toutes les cibles alliées augmente de 20%.",
+        "materials": [
+            { "id": "11409", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1409_rank6.png"
     },
     "800101": {
         "id": "800101",

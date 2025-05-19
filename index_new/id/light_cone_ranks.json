@@ -3092,6 +3092,64 @@
             []
         ]
     },
+    "23042": {
+        "id": "23042",
+        "skill": "Tolerant",
+        "desc": "Meningkatkan #1[i]% SPD pengguna. Saat pengguna melancarkan Basic Attack, Skill, atau Ultimate, akan mengonsumsi HP seluruh rekan tim sebesar #2[f1]% HP saat ini, dan akan membuat Memosprite pengguna mengakibatkan ekstra 1 kali DMG Tambahan berdasarkan Tipe Memosprite pengguna pada target serangan sebesar #6[f1]% dari total HP yang terkonsumsi setelah menyerang di kali berikutnya. Setelah itu, akan mereset total HP yang terkonsumsi. Saat Memosprite pengguna melancarkan Skill Memosprite, akan meningkatkan #4[f1]% DMG yang diterima seluruh musuh selama #5[i] giliran. Efek dengan jenis serupa tidak dapat ditumpuk.",
+        "params": [
+            [0.18, 0.01, 0, 0.18, 2, 2.5],
+            [0.21, 0.0125, 0, 0.225, 2, 3.125],
+            [0.24, 0.015, 0, 0.27, 2, 3.75],
+            [0.27, 0.0175, 0, 0.315, 2, 4.375],
+            [0.3, 0.02, 0, 0.36, 2, 5]
+        ],
+        "properties": [
+            [
+                { "type": "SpeedAddedRatio", "value": 0.18 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.21 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.24 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.27 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.3 }
+            ]
+        ]
+    },
+    "23043": {
+        "id": "23043",
+        "skill": "Deceit",
+        "desc": "Meningkatkan #1[i]% SPD pengguna. Setelah pengguna melancarkan serangan, memiliki #2[i]% peluang dasar untuk membuat setiap target musuh memasuki status \"Bamboozle\". DEF target musuh yang berstatus \"Bamboozle\" akan berkurang #3[i]% selama #4[i] giliran. Jika SPD pengguna lebih dari atau sama dengan #7[i], memiliki #5[i]% peluang dasar untuk membuat setiap target musuh memasuki status \"Theft\". DEF target musuh yang berstatus \"Theft\" akan berkurang #6[i]% selama #4[i] giliran. Saat \"Bamboozle\" atau \"Theft\" ditambahkan berulang kali, hanya yang terbaru saja yang akan efektif.",
+        "params": [
+            [0.18, 1.2, 0.16, 2, 1.2, 0.08, 170],
+            [0.21, 1.2, 0.18, 2, 1.2, 0.09, 170],
+            [0.24, 1.2, 0.2, 2, 1.2, 0.1, 170],
+            [0.27, 1.2, 0.22, 2, 1.2, 0.11, 170],
+            [0.3, 1.2, 0.24, 2, 1.2, 0.12, 170]
+        ],
+        "properties": [
+            [
+                { "type": "SpeedAddedRatio", "value": 0.18 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.21 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.24 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.27 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.3 }
+            ]
+        ]
+    },
     "24000": {
         "id": "24000",
         "skill": "Moth To Flames",

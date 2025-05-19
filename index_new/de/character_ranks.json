@@ -4642,6 +4642,78 @@
         "level_up_skills": [],
         "icon": "icon/skill/1405_rank6.png"
     },
+    "140601": {
+        "id": "140601",
+        "name": "Beobachtung des Lächelns",
+        "rank": 1,
+        "desc": "Der von Cipher aufgezeichnete SCH entspricht 150% des ursprünglich aufgezeichneten SCH. Beim Einsatz des Folgeangriffs ihres Talents wird Ciphers ANG für 2 Rd. um 80% erhöht.",
+        "materials": [
+            { "id": "11406", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1406_rank1.png"
+    },
+    "140602": {
+        "id": "140602",
+        "name": "Sorgenschwere Fingerfertigkeit",
+        "rank": 2,
+        "desc": "Wenn Cipher einen Gegner trifft, besteht eine Grundchance von 120%, seinen erlittenen SCH für 2 Rd. um 30% zu erhöhen.",
+        "materials": [
+            { "id": "11406", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1406_rank2.png"
+    },
+    "140603": {
+        "id": "140603",
+        "name": "Erlogenes erkennt man schwer",
+        "rank": 3,
+        "desc": "Ultimate-Stufe +2 bis max. St. 15. Standardangriff-Stufe +1 bis max. St. 10.",
+        "materials": [
+            { "id": "11406", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "140603", "num": 2 },
+            { "id": "140601", "num": 1 }
+        ],
+        "icon": "icon/skill/1406_ultimate.png"
+    },
+    "140604": {
+        "id": "140604",
+        "name": "Kaum erwischt, schon entschwunden",
+        "rank": 4,
+        "desc": "Nachdem der „Stammkunde“ von einem Verbündeten angegriffen wurde, fügt Cipher ihm zusätzlichen Quanten-SCH in Höhe von 50% ihres ANG zu.",
+        "materials": [
+            { "id": "11406", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1406_rank4.png"
+    },
+    "140605": {
+        "id": "140605",
+        "name": "Gerissen wie ein Hase, flink wie eine Schwalbe",
+        "rank": 5,
+        "desc": "Fertigkeitsstufe +2 bis max. St. 15. Talentstufe +2 bis max. St. 15.",
+        "materials": [
+            { "id": "11406", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "140602", "num": 2 },
+            { "id": "140604", "num": 2 }
+        ],
+        "icon": "icon/skill/1406_skill.png"
+    },
+    "140606": {
+        "id": "140606",
+        "name": "Diebin inkognito",
+        "rank": 6,
+        "desc": "Erhöht den durch Folgeangriffe verursachten SCH von Ciphers Talent um 350%. Zeichnet zusätzlich 16% des nicht Überladungs-SCH dieses Angriffs auf. Nachdem der aufgezeichnete Wert durch Einsatz des Ultimates zurückgesetzt wurde, werden 20% des diesmaligen aufgezeichneten Werts zurückerstattet.",
+        "materials": [
+            { "id": "11406", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1406_rank6.png"
+    },
     "140701": {
         "id": "140701",
         "name": "Schneebedeckte Maid, Erinnerung im Grab",
@@ -4714,12 +4786,88 @@
         "id": "140706",
         "name": "Bis die Zeit unaufhaltsam dahinströmt",
         "rank": 6,
-        "desc": "Wenn Castorice und Netherschwinge SCH verursachen, wird die WDS-DUR aller Typen um 20% erhöht. Die Angriffe von Netherschwinge können den WDS der Gegner unabhängig vom Schwächetyp reduzieren. Wenn Schwächebruch zugefügt wird, wird der Effekt „Schwächebruch: Quanten“ ausgelöst und die Anzahl der Abpralle für das Talent „Flügel fegen über Ruinen hinweg“ zusätzlich um 3-mal erhöht.",
+        "desc": "Wenn Castorice und Netherschwinge SCH verursachen, wird die Quanten-WDS-DUR um 20% erhöht. Die Angriffe von Netherschwinge können den WDS der Gegner unabhängig vom Schwächetyp reduzieren. Wenn Schwächebruch zugefügt wird, wird der Effekt „Schwächebruch: Quanten“ ausgelöst und die Anzahl der Abpralle für das Talent „Flügel fegen über Ruinen hinweg“ zusätzlich um 3-mal erhöht.",
         "materials": [
             { "id": "11407", "num": 1 }
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1407_rank6.png"
+    },
+    "140901": {
+        "id": "140901",
+        "name": "Schütze die Kerze in der Nacht",
+        "rank": 1,
+        "desc": "Erhöht die max. LP aller Verbündeten zusätzlich um 50%, wenn sich Hyacine im Status „Sonne nach dem Regen“ befindet. Nach einem Angriff werden sofort LP in Höhe von 8% von Hyacines max. LP wiederhergestellt.",
+        "materials": [
+            { "id": "11409", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1409_rank1.png"
+    },
+    "140902": {
+        "id": "140902",
+        "name": "Besuche mich in meinem Hof",
+        "rank": 2,
+        "desc": "Erhöht ihre GES für 2 Rd. um 30%, wenn die LP von Verbündeten reduziert werden.",
+        "materials": [
+            { "id": "11409", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1409_rank2.png"
+    },
+    "140903": {
+        "id": "140903",
+        "name": "Auf zu einem Abenteuer in Richtung Sonne!",
+        "rank": 3,
+        "desc": "Ultimate-Stufe +2 bis max. St. 15. Standardangriff-Stufe +1 bis max. St. 10. Technikstufe des Memogeists +1 bis max. St. 10.",
+        "materials": [
+            { "id": "11409", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "140903", "num": 2 },
+            { "id": "140901", "num": 1 },
+            { "id": "1140901", "num": 1 }
+        ],
+        "icon": "icon/skill/1409_ultimate.png"
+    },
+    "140904": {
+        "id": "140904",
+        "name": "Glänzender Bernstein für dich",
+        "rank": 4,
+        "desc": "Die Spur „Stillstand des Sturms“ wird verstärkt. Für je 1 Pkt. zusätzliche GES wird der KRIT-SCH von Hyacine und dem Kleinen Ika um 2% erhöht.",
+        "materials": [
+            { "id": "11409", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1409_rank4.png"
+    },
+    "140905": {
+        "id": "140905",
+        "name": "Roter Schein, verborgen im Meer",
+        "rank": 5,
+        "desc": "Fertigkeitsstufe +2 bis max. St. 15. Talentstufe +2 bis max. St. 15. Talentstufe des Memogeists +1 bis max. St. 10.",
+        "materials": [
+            { "id": "11409", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "140902", "num": 2 },
+            { "id": "140904", "num": 2 },
+            { "id": "1140903", "num": 1 },
+            { "id": "1140905", "num": 1 },
+            { "id": "1140906", "num": 1 }
+        ],
+        "icon": "icon/skill/1409_skill.png"
+    },
+    "140906": {
+        "id": "140906",
+        "name": "O Himmel ... erhöre meine Bitten",
+        "rank": 6,
+        "desc": "Die gesamte bewirkte Heilung, die durch Einsatz der Memogeist-Technik vom Kleinen Ika entfernt wird, wird auf 12% geändert. Wenn der Kleine Ika sich auf dem Kampffeld befindet, wird die WDS-DUR aller Typen aller Verbündeten um 20% erhöht.",
+        "materials": [
+            { "id": "11409", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1409_rank6.png"
     },
     "800101": {
         "id": "800101",

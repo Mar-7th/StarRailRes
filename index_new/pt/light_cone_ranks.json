@@ -3076,7 +3076,7 @@
     "23041": {
         "id": "23041",
         "skill": "Fundir",
-        "desc": "No início do turno do usuário, regenera #5[i] de Energia. Se o inimigo-alvo tiver uma Fraqueza implantada pelo usuário, aumenta o Dano causado pelo usuário em #3[i]%.\nQuando inimigos-alvo são atacados pelo usuário, o usuário reduz a sua DEF em #2[i]%, durando #4[i] rodada(s). Efeitos do mesmo tipo não podem ser acumulados.",
+        "desc": "No início da rodada do usuário, regenera #5[i] de Energia. Se o inimigo-alvo tiver uma Fraqueza implantada pelo usuário, aumenta o Dano causado a ele pelo usuário em #3[i]%.\nQuando inimigos-alvo são atacados pelo usuário, o usuário reduz a DEF do seu alvo em #2[i]%, durando por #4[i] rodada(s). Efeitos do mesmo tipo não podem ser acumulados.",
         "params": [
             [0, 0.12, 0.6, 2, 10],
             [0, 0.15, 0.7, 2, 10],
@@ -3090,6 +3090,64 @@
             [],
             [],
             []
+        ]
+    },
+    "23042": {
+        "id": "23042",
+        "skill": "Tolerância",
+        "desc": "Aumenta a VEL do usuário em #1[i]%. Quando o usuário usa um ATQ Básico, Perícia ou Perícia Suprema, consome os PV de todos os aliados, em um valor igual a #2[f1]% dos seus PV atuais e causa adicionalmente 1 instância de Dano Adicional do Tipo do Memoespírito do usuário em um valor igual a #6[f1]% dos PV totais consumidos ao alvo atacado depois do próximo ataque realizado pelo Memoespírito do usuário. O total de PV consumidos será então redefinido. Quando o Memoespírito do usuário usa a Perícia do Memoespírito, aumenta o Dano recebido por todos os inimigos em #4[f1]% por #5[i] rodada(s). Os mesmos tipos de efeito não podem acumular.",
+        "params": [
+            [0.18, 0.01, 0, 0.18, 2, 2.5],
+            [0.21, 0.0125, 0, 0.225, 2, 3.125],
+            [0.24, 0.015, 0, 0.27, 2, 3.75],
+            [0.27, 0.0175, 0, 0.315, 2, 4.375],
+            [0.3, 0.02, 0, 0.36, 2, 5]
+        ],
+        "properties": [
+            [
+                { "type": "SpeedAddedRatio", "value": 0.18 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.21 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.24 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.27 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.3 }
+            ]
+        ]
+    },
+    "23043": {
+        "id": "23043",
+        "skill": "Enganação",
+        "desc": "Aumenta a VEL do usuário em #1[i]%. Após o usuário realizar um ataque, há uma chance-base de #2[i]% de infligir o estado de \"Engano\" em cada inimigo-alvo. Enquanto estiver no estado de \"Engano\", a DEF do inimigo-alvo diminui em #3[i]% por #4[i] rodada(s). Se a VEL do usuário for maior ou igual a #7[i], há uma chance-base de #5[i]% de infligir o estado de \"Roubo\" em todos os inimigos-alvo. Enquanto estiver sob o estado de \"Roubo\", a DEF do inimigo-alvo diminui em #6[i]% por #4[i] rodada(s). Quando os estados de \"Engano\" ou \"Roubo\" são infligidos repetidamente, apenas o efeito mais recente será ativo.",
+        "params": [
+            [0.18, 1.2, 0.16, 2, 1.2, 0.08, 170],
+            [0.21, 1.2, 0.18, 2, 1.2, 0.09, 170],
+            [0.24, 1.2, 0.2, 2, 1.2, 0.1, 170],
+            [0.27, 1.2, 0.22, 2, 1.2, 0.11, 170],
+            [0.3, 1.2, 0.24, 2, 1.2, 0.12, 170]
+        ],
+        "properties": [
+            [
+                { "type": "SpeedAddedRatio", "value": 0.18 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.21 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.24 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.27 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.3 }
+            ]
         ]
     },
     "24000": {
