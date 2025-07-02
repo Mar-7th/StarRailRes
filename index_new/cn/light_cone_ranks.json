@@ -1754,6 +1754,247 @@
             ]
         ]
     },
+    "21053": {
+        "id": "21053",
+        "skill": "甜梦",
+        "desc": "使装备者提供的护盾量提高#1[i]%，我方目标持有护盾时，造成的伤害提高#2[i]%。",
+        "params": [
+            [0.12, 0.12],
+            [0.15, 0.14],
+            [0.18, 0.16],
+            [0.21, 0.18],
+            [0.24, 0.2]
+        ],
+        "properties": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    "21054": {
+        "id": "21054",
+        "skill": "书写",
+        "desc": "使装备者的生命上限提高#1[i]%。装备者的忆灵攻击后，使装备者与忆灵的治疗量提高#2[i]%，持续#3[i]回合。",
+        "params": [
+            [0.16, 0.12, 1],
+            [0.2, 0.15, 1],
+            [0.24, 0.18, 1],
+            [0.28, 0.21, 1],
+            [0.32, 0.24, 1]
+        ],
+        "properties": [
+            [
+                { "type": "HPAddedRatio", "value": 0.16 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.2 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.24 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.28 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.32 }
+            ]
+        ]
+    },
+    "21055": {
+        "id": "21055",
+        "skill": "离别",
+        "desc": "使装备者的治疗量提高#1[i]%。我方目标当前生命值百分比大于等于#2[i]%时，造成的伤害提高#3[i]%。",
+        "params": [
+            [0.12, 0.5, 0.12],
+            [0.15, 0.5, 0.14],
+            [0.18, 0.5, 0.16],
+            [0.21, 0.5, 0.18],
+            [0.24, 0.5, 0.2]
+        ],
+        "properties": [
+            [
+                { "type": "HealRatioBase", "value": 0.12 }
+            ],
+            [
+                { "type": "HealRatioBase", "value": 0.15 }
+            ],
+            [
+                { "type": "HealRatioBase", "value": 0.18 }
+            ],
+            [
+                { "type": "HealRatioBase", "value": 0.21 }
+            ],
+            [
+                { "type": "HealRatioBase", "value": 0.24 }
+            ]
+        ]
+    },
+    "21056": {
+        "id": "21056",
+        "skill": "慌张",
+        "desc": "进入战斗后，使我方全体造成的击破伤害提高#1[i]%。同类技能无法重复生效。",
+        "params": [
+            [0.16],
+            [0.18],
+            [0.2],
+            [0.22],
+            [0.24]
+        ],
+        "properties": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    "21057": {
+        "id": "21057",
+        "skill": "相依为命",
+        "desc": "使装备者的暴击伤害提高#1[i]%。装备者忆灵造成的暴击伤害额外提高#2[i]%。",
+        "params": [
+            [0.24, 0.24],
+            [0.28, 0.3],
+            [0.32, 0.36],
+            [0.36, 0.42],
+            [0.4, 0.48]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalDamageBase", "value": 0.24 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.28 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.32 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.36 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.4 }
+            ]
+        ]
+    },
+    "21058": {
+        "id": "21058",
+        "skill": "厮杀",
+        "desc": "使装备者的暴击率提高#1[i]%。装备者造成的战技和终结技伤害提高#2[i]%。",
+        "params": [
+            [0.12, 0.24],
+            [0.14, 0.28],
+            [0.16, 0.32],
+            [0.18, 0.36],
+            [0.2, 0.4]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalChanceBase", "value": 0.12 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.14 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.16 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.18 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.2 }
+            ]
+        ]
+    },
+    "21060": {
+        "id": "21060",
+        "skill": "憧憬",
+        "desc": "使装备者的暴击率提高#1[i]%。装备者造成的终结技和追加攻击伤害提高#2[i]%。",
+        "params": [
+            [0.12, 0.24],
+            [0.14, 0.28],
+            [0.16, 0.32],
+            [0.18, 0.36],
+            [0.2, 0.4]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalChanceBase", "value": 0.12 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.14 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.16 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.18 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.2 }
+            ]
+        ]
+    },
+    "21061": {
+        "id": "21061",
+        "skill": "冷静一下",
+        "desc": "使装备者造成的伤害提高#1[i]%。装备者攻击后，有#2[i]%基础概率使受到攻击的目标陷入易伤状态，受到的伤害提高#3[i]%，持续#4[i]回合。同类效果无法叠加。",
+        "params": [
+            [0.16, 1, 0.1, 2],
+            [0.2, 1, 0.115, 2],
+            [0.24, 1, 0.13, 2],
+            [0.28, 1, 0.145, 2],
+            [0.32, 1, 0.16, 2]
+        ],
+        "properties": [
+            [
+                { "type": "AllDamageTypeAddedRatio", "value": 0.16 }
+            ],
+            [
+                { "type": "AllDamageTypeAddedRatio", "value": 0.2 }
+            ],
+            [
+                { "type": "AllDamageTypeAddedRatio", "value": 0.24 }
+            ],
+            [
+                { "type": "AllDamageTypeAddedRatio", "value": 0.28 }
+            ],
+            [
+                { "type": "AllDamageTypeAddedRatio", "value": 0.32 }
+            ]
+        ]
+    },
+    "21062": {
+        "id": "21062",
+        "skill": "执着",
+        "desc": "使装备者的暴击伤害提高#1[i]%。装备者造成的战技和追加攻击伤害提高#2[i]%。",
+        "params": [
+            [0.24, 0.24],
+            [0.28, 0.28],
+            [0.32, 0.32],
+            [0.36, 0.36],
+            [0.4, 0.4]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalDamageBase", "value": 0.24 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.28 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.32 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.36 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.4 }
+            ]
+        ]
+    },
     "22000": {
         "id": "22000",
         "skill": "眼疾手快",
@@ -3147,6 +3388,93 @@
             ],
             [
                 { "type": "SpeedAddedRatio", "value": 0.3 }
+            ]
+        ]
+    },
+    "23044": {
+        "id": "23044",
+        "skill": "失却",
+        "desc": "使装备者的基础速度提高#1[i]，造成伤害时无视目标#2[i]%的防御力。装备者施放终结技后，获得【烈阳】，回合开始时移除。持有【烈阳】时，装备者造成的伤害提高#3[i]%。",
+        "params": [
+            [12, 0.18, 0.6],
+            [14, 0.225, 0.78],
+            [16, 0.27, 0.96],
+            [18, 0.315, 1.14],
+            [20, 0.36, 1.32]
+        ],
+        "properties": [
+            [
+                { "type": "BaseSpeed", "value": 12 }
+            ],
+            [
+                { "type": "BaseSpeed", "value": 14 }
+            ],
+            [
+                { "type": "BaseSpeed", "value": 16 }
+            ],
+            [
+                { "type": "BaseSpeed", "value": 18 }
+            ],
+            [
+                { "type": "BaseSpeed", "value": 20 }
+            ]
+        ]
+    },
+    "23045": {
+        "id": "23045",
+        "skill": "骑士之王",
+        "desc": "使装备者的暴击伤害提高#1[i]%。施放终结技时，使装备者的攻击力提高#6[i]%，若装备者的能量上限大于等于#3[i]点，为装备者固定恢复等同于装备者能量上限#5[i]%的能量，并再次使装备者的攻击力提高#2[i]%，持续#4[i]回合。",
+        "params": [
+            [0.36, 0.4, 300, 2, 0.1, 0.4],
+            [0.45, 0.5, 300, 2, 0.1, 0.5],
+            [0.54, 0.6, 300, 2, 0.1, 0.6],
+            [0.63, 0.7, 300, 2, 0.1, 0.7],
+            [0.72, 0.8, 300, 2, 0.1, 0.8]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalDamageBase", "value": 0.36 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.45 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.54 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.63 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.72 }
+            ]
+        ]
+    },
+    "23046": {
+        "id": "23046",
+        "skill": "赤原猎兵",
+        "desc": "使装备者的暴击率提高#1[i]%。进入战斗时，若我方的战技点上限大于等于#2[i]点，使装备者的攻击力提高#3[i]%。装备者每次施放战技后，使装备者的攻击力提高#4[i]%，最多叠加#5[i]次。",
+        "params": [
+            [0.16, 6, 0.4, 0.1, 4],
+            [0.2, 6, 0.5, 0.125, 4],
+            [0.24, 6, 0.6, 0.15, 4],
+            [0.28, 6, 0.7, 0.175, 4],
+            [0.32, 6, 0.8, 0.2, 4]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalChanceBase", "value": 0.16 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.2 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.24 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.28 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.32 }
             ]
         ]
     },

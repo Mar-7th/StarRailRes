@@ -647,6 +647,150 @@
         "level_up_skills": [],
         "icon": "icon/skill/1013_rank6.png"
     },
+    "1100501": {
+        "id": "1100501",
+        "name": "Da capo",
+        "rank": 1,
+        "desc": "Al lanzar un ataque, hay un 100% de probabilidad base de que el Daño con el tiempo que recibe el objetivo aumente en un 30% durante 2 turnos.",
+        "materials": [
+            { "id": "11005", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1100_rank1.png"
+    },
+    "1100502": {
+        "id": "1100502",
+        "name": "Fortississimo",
+        "rank": 2,
+        "desc": "Cuando Kafka está en la batalla, el Daño con el tiempo que infligen todos los aliados aumenta en un 33%.",
+        "materials": [
+            { "id": "11005", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1100_rank2.png"
+    },
+    "1100503": {
+        "id": "1100503",
+        "name": "Capriccio",
+        "rank": 3,
+        "desc": "Niv. de habilidad básica +2 (máximo: nivel 15). Niv. de ATQ básico +1 (máximo: nivel 10).",
+        "materials": [
+            { "id": "11005", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "1100502", "num": 2 },
+            { "id": "1100501", "num": 1 }
+        ],
+        "icon": "icon/skill/1100_skill.png"
+    },
+    "1100504": {
+        "id": "1100504",
+        "name": "Recitativo",
+        "rank": 4,
+        "desc": "Cuando el enemigo recibe daño del estado de Electrocución provocado por Kafka, Kafka recupera 2 pts. de energía adicionales.",
+        "materials": [
+            { "id": "11005", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1100_rank4.png"
+    },
+    "1100505": {
+        "id": "1100505",
+        "name": "Doloroso",
+        "rank": 5,
+        "desc": "Niv. de habilidad definitiva +2 (máximo: nivel 15). Niv. de talento +2 (máximo: nivel 15).",
+        "materials": [
+            { "id": "11005", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "1100503", "num": 2 },
+            { "id": "1100504", "num": 2 }
+        ],
+        "icon": "icon/skill/1100_ultimate.png"
+    },
+    "1100506": {
+        "id": "1100506",
+        "name": "Leggiero",
+        "rank": 6,
+        "desc": "El multiplicador de daño de la Electrocución que aplica a los enemigos la habilidad definitiva, la técnica o el ataque adicional del talento aumenta en un 156% y la duración de Electrocución se alarga en 1 turno.",
+        "materials": [
+            { "id": "11005", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1100_rank6.png"
+    },
+    "1100601": {
+        "id": "1100601",
+        "name": "Ingeniería social",
+        "rank": 1,
+        "desc": "Tras usar su habilidad definitiva para atacar a un enemigo, Silver Wolf recupera 7 pts. de energía por cada estado negativo que tenga el objetivo. Este efecto se puede activar un máximo de 5 veces cada vez que ataque con su habilidad definitiva.",
+        "materials": [
+            { "id": "11006", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1100_rank1.png"
+    },
+    "1100602": {
+        "id": "1100602",
+        "name": "Red zombi",
+        "rank": 2,
+        "desc": "Cuando el objetivo enemigo entra en combate, el daño que recibe aumenta en un 20%. Cuando un enemigo recibe un ataque de un aliado, Silver Wolf tiene una probabilidad base del 100% de implantar un error al azar a ese enemigo.",
+        "materials": [
+            { "id": "11006", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1100_rank2.png"
+    },
+    "1100603": {
+        "id": "1100603",
+        "name": "Carga útil",
+        "rank": 3,
+        "desc": "Niv. de habilidad básica +2 (máximo: nivel 15). Niv. de talento +2 (máximo: nivel 15).",
+        "materials": [
+            { "id": "11006", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "1100602", "num": 2 },
+            { "id": "1100604", "num": 2 }
+        ],
+        "icon": "icon/skill/1100_skill.png"
+    },
+    "1100604": {
+        "id": "1100604",
+        "name": "Ataque de rebote",
+        "rank": 4,
+        "desc": "Tras usar su habilidad definitiva para atacar a un enemigo, Silver Wolf inflige un 20% de su ATQ como Daño Cuántico adicional por cada estado negativo que tenga el objetivo. Este efecto se puede activar un máximo de 5 veces contra cada objetivo cada vez que ataque con su habilidad definitiva.",
+        "materials": [
+            { "id": "11006", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1100_rank4.png"
+    },
+    "1100605": {
+        "id": "1100605",
+        "name": "Fuerza bruta",
+        "rank": 5,
+        "desc": "Niv. de habilidad definitiva +2 (máximo: nivel 15). Niv. de ATQ básico +1 (máximo: nivel 10).",
+        "materials": [
+            { "id": "11006", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "1100603", "num": 2 },
+            { "id": "1100601", "num": 1 }
+        ],
+        "icon": "icon/skill/1100_ultimate.png"
+    },
+    "1100606": {
+        "id": "1100606",
+        "name": "Red superpuesta",
+        "rank": 6,
+        "desc": "Por cada estado negativo que tenga el objetivo enemigo, el daño que le inflige Silver Wolf aumenta en un 20%, hasta un máximo del 100%.",
+        "materials": [
+            { "id": "11006", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1100_rank6.png"
+    },
     "110101": {
         "id": "110101",
         "name": "Mejora de fortaleza",
@@ -1512,6 +1656,152 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1112_rank6.png"
+    },
+    "1120501": {
+        "id": "1120501",
+        "name": "La espada que atraviesa el infierno",
+        "rank": 1,
+        "desc": "El daño que infligen el ATQ básico potenciado y la habilidad definitiva de Blade a un enemigo determinado aumenta en una cantidad adicional equivalente al 150% del recuento de PV perdidos de la habilidad definitiva.",
+        "materials": [
+            { "id": "11205", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1120_rank1.png"
+    },
+    "1120502": {
+        "id": "1120502",
+        "name": "Mil pesares por un sueño roto",
+        "rank": 2,
+        "desc": "Cuando Blade está en el estado Panorama infernal, su Prob. CRIT aumenta en un 15%.",
+        "materials": [
+            { "id": "11205", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1120_rank2.png"
+    },
+    "1120503": {
+        "id": "1120503",
+        "name": "Acero templado para sangrar sombras",
+        "rank": 3,
+        "desc": "Niv. de habilidad definitiva +2 (máximo: nivel 15). Niv. de talento +2 (máximo: nivel 15).",
+        "materials": [
+            { "id": "11205", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "1120503", "num": 2 },
+            { "id": "1120504", "num": 2 }
+        ],
+        "icon": "icon/skill/1120_ultimate.png"
+    },
+    "1120504": {
+        "id": "1120504",
+        "name": "Rechazado por la muerte, infectado por la vida",
+        "rank": 4,
+        "desc": "Cuando el porcentaje de PV pasa de ser superior al 50% a igual o inferior al 50%, los PV máx. aumentan en un 20%. Este efecto se puede acumular hasta 2 veces.",
+        "materials": [
+            { "id": "11205", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1120_rank4.png"
+    },
+    "1120505": {
+        "id": "1120505",
+        "name": "Muerte a ojos de los Diez Líderes",
+        "rank": 5,
+        "desc": "Niv. de habilidad básica +2 (máximo: nivel 15). Niv. de ATQ básico +1 (máximo: nivel 10).",
+        "materials": [
+            { "id": "11205", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "1120502", "num": 2 },
+            { "id": "1120501", "num": 1 },
+            { "id": "1120508", "num": 1 }
+        ],
+        "icon": "icon/skill/1120_skill.png"
+    },
+    "1120506": {
+        "id": "1120506",
+        "name": "Renacimiento en un cuerpo vacío",
+        "rank": 6,
+        "desc": "El límite de acumulaciones de carga se reduce a 4. El daño infligido por el ataque adicional del talento aumenta en una cantidad equivalente al 50% de los PV máx. de Blade.",
+        "materials": [
+            { "id": "11205", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1120_rank6.png"
+    },
+    "1121201": {
+        "id": "1121201",
+        "name": "Asalto lunar a las puertas celestiales",
+        "rank": 1,
+        "desc": "Al lanzar la habilidad definitiva o la habilidad básica potenciada, el Daño CRIT de Jingliu aumenta en un 36% durante 1 turno. Además, inflige de forma adicional al objetivo principal un 80% de los PV máx. de Jingliu como Daño de Hielo 1 vez.",
+        "materials": [
+            { "id": "11212", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1121_rank1.png"
+    },
+    "1121202": {
+        "id": "1121202",
+        "name": "Sombras lunares en Qixing",
+        "rank": 2,
+        "desc": "Tras lanzar la habilidad definitiva, el daño de la siguiente habilidad básica potenciada aumenta en un 80%.",
+        "materials": [
+            { "id": "11212", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1121_rank2.png"
+    },
+    "1121203": {
+        "id": "1121203",
+        "name": "Cuarto creciente vigilante",
+        "rank": 3,
+        "desc": "Niv. de habilidad definitiva +2 (máximo: nivel 15). Niv. de talento +2 (máximo: nivel 15).",
+        "materials": [
+            { "id": "11212", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "1121203", "num": 2 },
+            { "id": "1121204", "num": 2 }
+        ],
+        "icon": "icon/skill/1121_ultimate.png"
+    },
+    "1121204": {
+        "id": "1121204",
+        "name": "Lucero de la noche",
+        "rank": 4,
+        "desc": "Durante el estado de Transmigración espectral, cada acumulación de Luz de luna aumenta de forma adicional el Daño CRIT en un 20%.",
+        "materials": [
+            { "id": "11212", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1121_rank4.png"
+    },
+    "1121205": {
+        "id": "1121205",
+        "name": "Brillo estelar oscurecido",
+        "rank": 5,
+        "desc": "Niv. de habilidad básica +2 (máximo: nivel 15). Niv. de ATQ básico +1 (máximo: nivel 10).",
+        "materials": [
+            { "id": "11212", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "1121202", "num": 2 },
+            { "id": "1121201", "num": 1 },
+            { "id": "1121209", "num": 2 }
+        ],
+        "icon": "icon/skill/1121_skill.png"
+    },
+    "1121206": {
+        "id": "1121206",
+        "name": "Eclipse vacíacuerpo",
+        "rank": 6,
+        "desc": "Cuando Jingliu entra en el estado de Transmigración espectral, el límite de acumulaciones de Sizigia aumenta en 1 y obtiene 2 acumulaciones adicionales de Sizigia. En el estado Transmigración espectral, la PEN de la RES a Hielo aumenta en un 30%.",
+        "materials": [
+            { "id": "11212", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1121_rank6.png"
     },
     "120101": {
         "id": "120101",
@@ -4792,6 +5082,82 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1407_rank6.png"
+    },
+    "140801": {
+        "id": "140801",
+        "name": "Fuego y luz, encarnación del bien y del mal",
+        "rank": 1,
+        "desc": "El porcentaje heredado de la VEL base del turno adicional de Khaslana aumenta al 66% y, por cada enemigo eliminado en una sola batalla, aumenta en un 1.5% de forma adicional, hasta un aumento máximo del 84%.\nAl lanzar la habilidad definitiva, el Daño CRIT aumenta en un 50% durante 3 turnos.",
+        "materials": [
+            { "id": "11408", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1408_rank1.png"
+    },
+    "140802": {
+        "id": "140802",
+        "name": "Espuma del cielo y de la tierra",
+        "rank": 2,
+        "desc": "La PEN de la RES a Físico de Khaslana aumenta en un 20%. Si al lanzar Pilar: Juicio de la muerte estelar, los pts. de Flagelo consumidos esa vez llegan a 4, obtiene 1 turno adicional.",
+        "materials": [
+            { "id": "11408", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1408_rank2.png"
+    },
+    "140803": {
+        "id": "140803",
+        "name": "Quietud recurrente entre las ruinas",
+        "rank": 3,
+        "desc": "Niv. de habilidad definitiva +2 (máximo: nivel 15). Niv. de ATQ básico +1 (máximo: nivel 10).",
+        "materials": [
+            { "id": "11408", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "140803", "num": 2 },
+            { "id": "140801", "num": 1 },
+            { "id": "140808", "num": 1 }
+        ],
+        "icon": "icon/skill/1408_ultimate.png"
+    },
+    "140804": {
+        "id": "140804",
+        "name": "Rostros de Titanes olvidados",
+        "rank": 4,
+        "desc": "Al lanzar Calamidad: Decreto quemaalmas, obtiene 4 acumulaciones adicionales de Ardor quemaalmas.",
+        "materials": [
+            { "id": "11408", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1408_rank4.png"
+    },
+    "140805": {
+        "id": "140805",
+        "name": "Manecillas que giran eternamente",
+        "rank": 5,
+        "desc": "Niv. de habilidad básica +2 (máximo: nivel 15). Niv. de talento +2 (máximo: nivel 15).",
+        "materials": [
+            { "id": "11408", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "140802", "num": 2 },
+            { "id": "140804", "num": 2 },
+            { "id": "140805", "num": 2 },
+            { "id": "140809", "num": 2 },
+            { "id": "140811", "num": 2 }
+        ],
+        "icon": "icon/skill/1408_skill.png"
+    },
+    "140806": {
+        "id": "140806",
+        "name": "Ascenso de las cenizas ardientes",
+        "rank": 6,
+        "desc": "Los puntos excedentes de Yesca ya no tienen límite máximo. Al comenzar la batalla, obtiene 6 pts. de Yesca.\nTras atacar con Pilar: Juicio de la muerte estelar, inflige adicionalmente un 36% del daño total del ataque como Daño verdadero al enemigo que tenga más PV.",
+        "materials": [
+            { "id": "11408", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1408_rank6.png"
     },
     "140901": {
         "id": "140901",

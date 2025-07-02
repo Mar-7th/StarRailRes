@@ -291,7 +291,7 @@
         "id": "100501",
         "name": "Da Capo",
         "rank": 1,
-        "desc": "Saat Serangan Lanjutan dari Talent terpicu, ada 100% peluang dasar untuk meningkatkan DoT yang diterima target sebesar 30% selama 2 giliran.",
+        "desc": "Saat Talent memicu Serangan Lanjutan, ada 100% peluang dasar untuk meningkatkan 30% DoT yang diterima target selama 2 giliran.",
         "materials": [
             { "id": "11005", "num": 1 }
         ],
@@ -327,7 +327,7 @@
         "id": "100504",
         "name": "Recitativo",
         "rank": 4,
-        "desc": "Saat status Shock yang diakibatkan Kafka pada target musuh mengakibatkan DMG, Kafka akan memulihkan 2 Energy tambahan.",
+        "desc": "Saat status Shock yang diakibatkan Kafka pada target musuh mengakibatkan DMG, Kafka akan memulihkan ekstra 2 Energy.",
         "materials": [
             { "id": "11005", "num": 1 }
         ],
@@ -352,7 +352,7 @@
         "id": "100506",
         "name": "Leggiero",
         "rank": 6,
-        "desc": "Meningkatkan 156% DMG Multiplier dari status Shock yang diakibatkan Ultimate, Technique, dan Serangan Lanjutan yang dipicu Talent, serta memperpanjang durasi status Shock sebanyak 1 giliran.",
+        "desc": "DMG Multiplier dari status Shock yang diakibatkan Serangan Lanjutan yang dipicu Talent, Ultimate, atau Technique pada target musuh meningkat 156%, dan durasi status Shock bertambah 1 giliran.",
         "materials": [
             { "id": "11005", "num": 1 }
         ],
@@ -363,7 +363,7 @@
         "id": "100601",
         "name": "Social Engineering",
         "rank": 1,
-        "desc": "Setelah Silver Wolf melancarkan Ultimate untuk menyerang target musuh, setiap 1 efek Debuff yang dimiliki target musuh akan memulihkan 7 Energy Silver Wolf. Efek ini dapat dipicu maksimal 5 kali setiap kali melancarkan Ultimate.",
+        "desc": "Setelah Silver Wolf melancarkan Ultimate untuk menyerang target musuh, setiap 1 Debuff yang dimiliki target musuh akan memulihkan 7 Energy Silver Wolf. Efek ini dapat dipicu maksimal 5 kali setiap kali melancarkan Ultimate.",
         "materials": [
             { "id": "11006", "num": 1 }
         ],
@@ -374,7 +374,7 @@
         "id": "100602",
         "name": "Zombie Network",
         "rank": 2,
-        "desc": "Saat target musuh memasuki pertempuran, Effect RES target berkurang 20%.",
+        "desc": "Saat target musuh memasuki pertempuran, mengurangi 20% Effect RES target.",
         "materials": [
             { "id": "11006", "num": 1 }
         ],
@@ -399,7 +399,7 @@
         "id": "100604",
         "name": "Bounce Attack",
         "rank": 4,
-        "desc": "Setelah Silver Wolf melancarkan Ultimate untuk menyerang target musuh, setiap 1 efek Debuff yang dimiliki target musuh akan mengakibatkan Quantum DMG Tambahan sebesar 20% ATK Silver Wolf. Efek ini dapat dipicu maksimal 5 kali setiap kali melancarkan Ultimate.",
+        "desc": "Setelah melancarkan Ultimate untuk menyerang target musuh, setiap 1 Debuff yang dimiliki target akan mengakibatkan Quantum DMG Tambahan sebesar 20% ATK Silver Wolf. Efek ini maksimal dapat dipicu 5 kali dalam setiap serangan Ultimate.",
         "materials": [
             { "id": "11006", "num": 1 }
         ],
@@ -424,7 +424,7 @@
         "id": "100606",
         "name": "Overlay Network",
         "rank": 6,
-        "desc": "Setiap 1 status Debuff yang dimiliki target musuh akan meningkatkan 20% DMG Silver Wolf pada target tersebut, maksimal hingga 100%.",
+        "desc": "Setiap 1 Debuff yang dimiliki target musuh akan meningkatkan 20% DMG yang diakibatkan Silver Wolf pada target tersebut, maksimal meningkat hingga 100%.",
         "materials": [
             { "id": "11006", "num": 1 }
         ],
@@ -646,6 +646,150 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1013_rank6.png"
+    },
+    "1100501": {
+        "id": "1100501",
+        "name": "Da Capo",
+        "rank": 1,
+        "desc": "Saat melancarkan serangan, ada 100% peluang dasar untuk meningkatkan 30% DoT yang diterima target selama 2 giliran.",
+        "materials": [
+            { "id": "11005", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1100_rank1.png"
+    },
+    "1100502": {
+        "id": "1100502",
+        "name": "Fortississimo",
+        "rank": 2,
+        "desc": "Saat Kafka berada di medan pertempuran, DoT yang diakibatkan seluruh rekan tim meningkat 33%.",
+        "materials": [
+            { "id": "11005", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1100_rank2.png"
+    },
+    "1100503": {
+        "id": "1100503",
+        "name": "Capriccio",
+        "rank": 3,
+        "desc": "Level Skill +2, maksimal Lv. 15. Level Basic Attack +1, maksimal Lv. 10.",
+        "materials": [
+            { "id": "11005", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "1100502", "num": 2 },
+            { "id": "1100501", "num": 1 }
+        ],
+        "icon": "icon/skill/1100_skill.png"
+    },
+    "1100504": {
+        "id": "1100504",
+        "name": "Recitativo",
+        "rank": 4,
+        "desc": "Saat status Shock yang diakibatkan Kafka pada target musuh mengakibatkan DMG, Kafka akan memulihkan ekstra 2 Energy.",
+        "materials": [
+            { "id": "11005", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1100_rank4.png"
+    },
+    "1100505": {
+        "id": "1100505",
+        "name": "Doloroso",
+        "rank": 5,
+        "desc": "Level Ultimate +2, maksimal Lv. 15. Level Talent +2, maksimal Lv. 15.",
+        "materials": [
+            { "id": "11005", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "1100503", "num": 2 },
+            { "id": "1100504", "num": 2 }
+        ],
+        "icon": "icon/skill/1100_ultimate.png"
+    },
+    "1100506": {
+        "id": "1100506",
+        "name": "Leggiero",
+        "rank": 6,
+        "desc": "DMG Multiplier dari status Shock yang diakibatkan Ultimate, Technique, atau Serangan Lanjutan yang dipicu Talent pada target musuh meningkat 156%, dan durasi status Shock bertambah 1 giliran.",
+        "materials": [
+            { "id": "11005", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1100_rank6.png"
+    },
+    "1100601": {
+        "id": "1100601",
+        "name": "Social Engineering",
+        "rank": 1,
+        "desc": "Setelah melancarkan Ultimate untuk menyerang target musuh, setiap 1 Debuff yang dimiliki target musuh akan memulihkan 7 Energy Silver Wolf. Efek ini dapat dipicu maksimal 5 kali dalam setiap serangan Ultimate.",
+        "materials": [
+            { "id": "11006", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1100_rank1.png"
+    },
+    "1100602": {
+        "id": "1100602",
+        "name": "Zombie Network",
+        "rank": 2,
+        "desc": "Saat target musuh memasuki pertempuran, meningkatkan 20% DMG yang diterimanya. Saat target musuh terkena serangan rekan tim, Silver Wolf memiliki 100% peluang dasar untuk menanamkan 1 \"Bug\" acak pada target musuh yang terkena serangan.",
+        "materials": [
+            { "id": "11006", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1100_rank2.png"
+    },
+    "1100603": {
+        "id": "1100603",
+        "name": "Payload",
+        "rank": 3,
+        "desc": "Level Skill +2, maksimal Lv. 15. Level Talent +2, maksimal Lv. 15.",
+        "materials": [
+            { "id": "11006", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "1100602", "num": 2 },
+            { "id": "1100604", "num": 2 }
+        ],
+        "icon": "icon/skill/1100_skill.png"
+    },
+    "1100604": {
+        "id": "1100604",
+        "name": "Bounce Attack",
+        "rank": 4,
+        "desc": "Setelah melancarkan Ultimate untuk menyerang target musuh, setiap 1 Debuff yang dimiliki target akan mengakibatkan Quantum DMG Tambahan sebesar 20% ATK Silver Wolf. Efek ini maksimal dapat dipicu 5 kali pada setiap target dalam setiap serangan Ultimate.",
+        "materials": [
+            { "id": "11006", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1100_rank4.png"
+    },
+    "1100605": {
+        "id": "1100605",
+        "name": "Brute Force Attack",
+        "rank": 5,
+        "desc": "Level Ultimate +2, maksimal Lv. 15. Level Basic Attack +1, maksimal Lv. 10.",
+        "materials": [
+            { "id": "11006", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "1100603", "num": 2 },
+            { "id": "1100601", "num": 1 }
+        ],
+        "icon": "icon/skill/1100_ultimate.png"
+    },
+    "1100606": {
+        "id": "1100606",
+        "name": "Overlay Network",
+        "rank": 6,
+        "desc": "Setiap 1 Debuff yang dimiliki target musuh akan meningkatkan 20% DMG yang diakibatkan Silver Wolf pada target tersebut, maksimal meningkat hingga 100%.",
+        "materials": [
+            { "id": "11006", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1100_rank6.png"
     },
     "110101": {
         "id": "110101",
@@ -1513,6 +1657,152 @@
         "level_up_skills": [],
         "icon": "icon/skill/1112_rank6.png"
     },
+    "1120501": {
+        "id": "1120501",
+        "name": "Blade Cuts the Deepest in Hell",
+        "rank": 1,
+        "desc": "DMG yang diakibatkan Enhanced Basic Attack dan Ultimate pada 1 musuh yang ditargetkan meningkat ekstra sebesar 150% dari akumulasi HP Blade yang berkurang (yang dihitung Ultimate).",
+        "materials": [
+            { "id": "11205", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1120_rank1.png"
+    },
+    "1120502": {
+        "id": "1120502",
+        "name": "Ten Thousand Sorrows From One Broken Dream",
+        "rank": 2,
+        "desc": "Saat Blade berstatus \"Hellscape\", CRIT Rate akan meningkat 15%.",
+        "materials": [
+            { "id": "11205", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1120_rank2.png"
+    },
+    "1120503": {
+        "id": "1120503",
+        "name": "Hardened Blade Bleeds Coldest Shade",
+        "rank": 3,
+        "desc": "Level Ultimate +2, maksimal Lv. 15. Level Talent +2, maksimal Lv. 15.",
+        "materials": [
+            { "id": "11205", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "1120503", "num": 2 },
+            { "id": "1120504", "num": 2 }
+        ],
+        "icon": "icon/skill/1120_ultimate.png"
+    },
+    "1120504": {
+        "id": "1120504",
+        "name": "Rejected by Death, Infected With Life",
+        "rank": 4,
+        "desc": "Saat persentase HP saat ini berkurang dari 50% ke atas menjadi kurang dari atau sama dengan 50%, Max HP akan meningkat 20%. Efek ini dapat ditumpuk hingga 2 lapis.",
+        "materials": [
+            { "id": "11205", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1120_rank4.png"
+    },
+    "1120505": {
+        "id": "1120505",
+        "name": "Death By Ten Lords' Gaze",
+        "rank": 5,
+        "desc": "Level Skill +2, maksimal Lv. 15. Level Basic Attack +1, maksimal Lv. 10.",
+        "materials": [
+            { "id": "11205", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "1120502", "num": 2 },
+            { "id": "1120501", "num": 1 },
+            { "id": "1120508", "num": 1 }
+        ],
+        "icon": "icon/skill/1120_skill.png"
+    },
+    "1120506": {
+        "id": "1120506",
+        "name": "Reborn Into an Empty Husk",
+        "rank": 6,
+        "desc": "Batas maksimum lapisan Charge berkurang menjadi 4 lapis. DMG yang diakibatkan Serangan Lanjutan yang dipicu Talent meningkat ekstra sebesar 50% Max HP Blade.",
+        "materials": [
+            { "id": "11205", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1120_rank6.png"
+    },
+    "1121201": {
+        "id": "1121201",
+        "name": "Moon Crashes Tianguan Gate",
+        "rank": 1,
+        "desc": "Saat melancarkan Ultimate atau Enhanced Skill, CRIT DMG Jingliu akan meningkat 36% selama 1 giliran. Selain itu, akan mengakibatkan ekstra 1 kali Ice DMG sebesar 80% HP tertinggi Jingliu pada target utama.",
+        "materials": [
+            { "id": "11212", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1121_rank1.png"
+    },
+    "1121202": {
+        "id": "1121202",
+        "name": "Crescent Shadows Qixing Dipper",
+        "rank": 2,
+        "desc": "Setelah melancarkan Ultimate, DMG dari Enhanced Skill yang berikutnya meningkat 80%.",
+        "materials": [
+            { "id": "11212", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1121_rank2.png"
+    },
+    "1121203": {
+        "id": "1121203",
+        "name": "Halfmoon Gapes Mercurial Haze",
+        "rank": 3,
+        "desc": "Level Ultimate +2, maksimal Lv. 15. Level Talent +2, maksimal Lv. 15.",
+        "materials": [
+            { "id": "11212", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "1121203", "num": 2 },
+            { "id": "1121204", "num": 2 }
+        ],
+        "icon": "icon/skill/1121_ultimate.png"
+    },
+    "1121204": {
+        "id": "1121204",
+        "name": "Lunarlance Shines Skyward Dome",
+        "rank": 4,
+        "desc": "Saat berstatus \"Spectral Transmigration\", setiap lapis \"Moonlight\" akan meningkatkan ekstra 20% CRIT DMG.",
+        "materials": [
+            { "id": "11212", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1121_rank4.png"
+    },
+    "1121205": {
+        "id": "1121205",
+        "name": "Night Shades Astral Radiance",
+        "rank": 5,
+        "desc": "Level Skill +2, maksimal Lv. 15. Level Basic Attack +1, maksimal Lv. 10.",
+        "materials": [
+            { "id": "11212", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "1121202", "num": 2 },
+            { "id": "1121201", "num": 1 },
+            { "id": "1121209", "num": 2 }
+        ],
+        "icon": "icon/skill/1121_skill.png"
+    },
+    "1121206": {
+        "id": "1121206",
+        "name": "Eclipse Hollows Corporeal Husk",
+        "rank": 6,
+        "desc": "Saat Jingliu memasuki status \"Spectral Transmigration\", batas maksimum \"Syzygy\" meningkat 1 lapis dan Jingliu akan memperoleh ekstra 2 lapis \"Syzygy\". Saat berstatus \"Spectral Transmigration\", Ice RES PEN meningkat 30%.",
+        "materials": [
+            { "id": "11212", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1121_rank6.png"
+    },
     "120101": {
         "id": "120101",
         "name": "Rise Through the Tiles",
@@ -1806,7 +2096,7 @@
         "id": "120501",
         "name": "Blade Cuts the Deepest in Hell",
         "rank": 1,
-        "desc": "Ultimate DMG yang diakibatkan pada musuh yang ditarget akan meningkat lagi sebanyak 150% perhitungan akumulasi jumlah HP Blade yang berkurang dalam pertempuran ini.\nPerhitungan jumlah akumulasi HP Blade yang berkurang di pertempuran saat ini maksimal tidak dapat melebihi 90% Max HP Blade. Setelah melancarkan Ultimate, perhitungan jumlah akumulasi akan direset ulang dan diakumulasi kembali.",
+        "desc": "DMG yang diakibatkan Ultimate pada 1 musuh yang ditargetkan meningkat ekstra sebesar 150% dari akumulasi HP Blade yang berkurang dalam pertempuran ini.\nAkumulasi HP Blade yang berkurang dalam pertempuran ini maksimal tidak melebihi 90% dari Max HP Blade. Setelah melancarkan Ultimate, perhitungan tersebut akan dihapus dan diakumulasi kembali.",
         "materials": [
             { "id": "11205", "num": 1 }
         ],
@@ -1817,7 +2107,7 @@
         "id": "120502",
         "name": "Ten Thousand Sorrows From One Broken Dream",
         "rank": 2,
-        "desc": "Saat Blade memasuki status \"Hellscape\", CRIT Rate dia meningkat 15%.",
+        "desc": "Saat Blade berstatus \"Hellscape\", CRIT Rate akan meningkat 15%.",
         "materials": [
             { "id": "11205", "num": 1 }
         ],
@@ -1842,7 +2132,7 @@
         "id": "120504",
         "name": "Rejected by Death, Infected With Life",
         "rank": 4,
-        "desc": "Saat persentase HP Blade saat ini turun dari 50% ke atas menjadi kurang dari atau sama dengan 50% Max HP dirinya, Max HP Blade akan meningkat 20%. Efek ini dapat ditumpuk hingga 2 lapis.",
+        "desc": "Saat persentase HP saat ini berkurang dari 50% ke atas menjadi kurang dari atau sama dengan 50%, Max HP akan meningkat 20%. Efek ini dapat ditumpuk hingga 2 lapis.",
         "materials": [
             { "id": "11205", "num": 1 }
         ],
@@ -1868,7 +2158,7 @@
         "id": "120506",
         "name": "Reborn Into an Empty Husk",
         "rank": 6,
-        "desc": "Jumlah maksimum lapisan Charge berkurang menjadi 4 lapis. DMG yang diakibatkan Serangan Lanjutan yang dipicu Talent meningkat sebesar 50% Max HP Blade.",
+        "desc": "Batas maksimum lapisan Charge berkurang menjadi 4 lapis. DMG yang diakibatkan Serangan Lanjutan yang dipicu Talent meningkat ekstra sebesar 50% Max HP Blade.",
         "materials": [
             { "id": "11205", "num": 1 }
         ],
@@ -2311,7 +2601,7 @@
         "id": "121201",
         "name": "Moon Crashes Tianguan Gate",
         "rank": 1,
-        "desc": "Saat melancarkan Ultimate atau Enhanced Skill, CRIT DMG Jingliu meningkat 24%, berlangsung selama 1 giliran. Jika hanya menyerang 1 target musuh, akan mengakibatkan 1 kali Ice DMG tambahan sebesar 100% ATK Jingliu.",
+        "desc": "Saat melancarkan Ultimate atau Enhanced Skill, CRIT DMG Jingliu akan meningkat 24% selama 1 giliran. Jika hanya menyerang 1 target musuh, maka akan mengakibatkan ekstra 1 kali Ice DMG sebesar 100% ATK Jingliu pada target tersebut.",
         "materials": [
             { "id": "11212", "num": 1 }
         ],
@@ -2322,7 +2612,7 @@
         "id": "121202",
         "name": "Crescent Shadows Qixing Dipper",
         "rank": 2,
-        "desc": "Setelah melancarkan Ultimate, DMG dari Enhanced Skill yang dilancarkan berikutnya meningkat 80%.",
+        "desc": "Setelah melancarkan Ultimate, DMG dari Enhanced Skill yang berikutnya meningkat 80%.",
         "materials": [
             { "id": "11212", "num": 1 }
         ],
@@ -2347,7 +2637,7 @@
         "id": "121204",
         "name": "Lunarlance Shines Skyward Dome",
         "rank": 4,
-        "desc": "Saat berstatus \"Spectral Transmigration\", ATK yang diperoleh dari mengonsumsi HP rekan tim akan meningkat lagi. Peningkatannya sebesar 90% total jumlah HP yang dikonsumsi dari seluruh rekan tim, dan batas maksimal peningkatan ATK yang diperoleh meningkat 30%.",
+        "desc": "Saat berstatus \"Spectral Transmigration\", ATK yang diperoleh dari mengonsumsi HP rekan Jingliu meningkat ekstra sebesar 90% dari total konsumsi HP seluruh rekan tim, dan batas maksimum peningkatan ATK yang diperoleh meningkat 30%.",
         "materials": [
             { "id": "11212", "num": 1 }
         ],
@@ -2373,7 +2663,7 @@
         "id": "121206",
         "name": "Eclipse Hollows Corporeal Husk",
         "rank": 6,
-        "desc": "Saat Jingliu memasuki status \"Spectral Transmigration\", batas maksimal lapisan \"Syzygy\" meningkat 1 lapis, serta memperoleh 1 lapis \"Syzygy\" tambahan. Saat berstatus \"Spectral Transmigration\", CRIT DMG meningkat 50%.",
+        "desc": "Saat Jingliu memasuki status \"Spectral Transmigration\", batas maksimum \"Syzygy\" meningkat 1 lapis dan Jingliu akan memperoleh ekstra 1 lapis \"Syzygy\". Saat berstatus \"Spectral Transmigration\", CRIT DMG meningkat 50%.",
         "materials": [
             { "id": "11212", "num": 1 }
         ],
@@ -4792,6 +5082,82 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1407_rank6.png"
+    },
+    "140801": {
+        "id": "140801",
+        "name": "Fire and Light Bind Virtue and Vice",
+        "rank": 1,
+        "desc": "Persentase pewarisan SPD Dasar dari giliran tambahan Khaslana meningkat menjadi 66%, dan setiap 1 target musuh yang dikalahkan dalam satu pertempuran akan meningkatkan ekstra persentase tersebut sebesar 1.5%, maksimal meningkat hingga 84%.\nSaat melancarkan Ultimate, CRIT DMG akan meningkat 50% selama 3 giliran.",
+        "materials": [
+            { "id": "11408", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1408_rank1.png"
+    },
+    "140802": {
+        "id": "140802",
+        "name": "Sky and Earth Churn Mortal Froth",
+        "rank": 2,
+        "desc": "Physical RES PEN Khaslana meningkat 20%. Saat jumlah Scourge yang dikonsumsi mencapai 4 poin dalam satu kali pelancaran \"Foundation: Stardeath Verdict\", akan memperoleh 1 giliran tambahan.",
+        "materials": [
+            { "id": "11408", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1408_rank2.png"
+    },
+    "140803": {
+        "id": "140803",
+        "name": "Depths of Quiet, Entombed in Ruin",
+        "rank": 3,
+        "desc": "Level Ultimate +2, maksimal Lv. 15. Level Basic Attack +1, maksimal Lv. 10.",
+        "materials": [
+            { "id": "11408", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "140803", "num": 2 },
+            { "id": "140801", "num": 1 },
+            { "id": "140808", "num": 1 }
+        ],
+        "icon": "icon/skill/1408_ultimate.png"
+    },
+    "140804": {
+        "id": "140804",
+        "name": "Faces of Titans, Blurred by Time",
+        "rank": 4,
+        "desc": "Saat melancarkan \"Calamity: Soulscorch Edict\", akan memperoleh ekstra 4 lapis \"Soulscorch\".",
+        "materials": [
+            { "id": "11408", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1408_rank4.png"
+    },
+    "140805": {
+        "id": "140805",
+        "name": "The Wheel Spins Forevermore",
+        "rank": 5,
+        "desc": "Level Skill +2, maksimal Lv. 15. Level Talent +2, maksimal Lv. 15.",
+        "materials": [
+            { "id": "11408", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "140802", "num": 2 },
+            { "id": "140804", "num": 2 },
+            { "id": "140805", "num": 2 },
+            { "id": "140809", "num": 2 },
+            { "id": "140811", "num": 2 }
+        ],
+        "icon": "icon/skill/1408_skill.png"
+    },
+    "140806": {
+        "id": "140806",
+        "name": "Embers of Old Rise Still",
+        "rank": 6,
+        "desc": "Jumlah luapan \"Coreflame\" tidak lagi dibatasi. Saat pertempuran dimulai, akan memperoleh 6 \"Coreflame\".\nSetelah melancarkan serangan \"Foundation: Stardeath Verdict\", akan mengakibatkan ekstra True DMG sebesar 36% dari total DMG serangan kali ini pada target musuh dengan HP tertinggi.",
+        "materials": [
+            { "id": "11408", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1408_rank6.png"
     },
     "140901": {
         "id": "140901",

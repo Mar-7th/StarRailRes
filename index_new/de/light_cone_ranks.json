@@ -1754,6 +1754,247 @@
             ]
         ]
     },
+    "21053": {
+        "id": "21053",
+        "skill": "Glückstraum",
+        "desc": "Erhöht die vom Träger gewährte Schildmenge um #1[i]%. Wenn ein Verbündeter einen Schild hat, wird der verursachte SCH um #2[i]% erhöht.",
+        "params": [
+            [0.12, 0.12],
+            [0.15, 0.14],
+            [0.18, 0.16],
+            [0.21, 0.18],
+            [0.24, 0.2]
+        ],
+        "properties": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    "21054": {
+        "id": "21054",
+        "skill": "Niederschreiben",
+        "desc": "Erhöht die max. LP des Trägers um #1[i]%. Nachdem der Memogeist des Trägers angegriffen hat, wird die bewirkte Heilung des Trägers und seines Memogeists für #3[i] Rd. um #2[i]% erhöht.",
+        "params": [
+            [0.16, 0.12, 1],
+            [0.2, 0.15, 1],
+            [0.24, 0.18, 1],
+            [0.28, 0.21, 1],
+            [0.32, 0.24, 1]
+        ],
+        "properties": [
+            [
+                { "type": "HPAddedRatio", "value": 0.16 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.2 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.24 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.28 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.32 }
+            ]
+        ]
+    },
+    "21055": {
+        "id": "21055",
+        "skill": "Lebwohl",
+        "desc": "Erhöht die bewirkte Heilung des Trägers um #1[i]%. Wenn der LP-Prozentsatz eines Verbündeten bei #2[i]% oder höher liegt, wird der verursachte SCH um #3[i]% erhöht.",
+        "params": [
+            [0.12, 0.5, 0.12],
+            [0.15, 0.5, 0.14],
+            [0.18, 0.5, 0.16],
+            [0.21, 0.5, 0.18],
+            [0.24, 0.5, 0.2]
+        ],
+        "properties": [
+            [
+                { "type": "HealRatioBase", "value": 0.12 }
+            ],
+            [
+                { "type": "HealRatioBase", "value": 0.15 }
+            ],
+            [
+                { "type": "HealRatioBase", "value": 0.18 }
+            ],
+            [
+                { "type": "HealRatioBase", "value": 0.21 }
+            ],
+            [
+                { "type": "HealRatioBase", "value": 0.24 }
+            ]
+        ]
+    },
+    "21056": {
+        "id": "21056",
+        "skill": "Außer sich",
+        "desc": "Erhöht nach Kampfeintritt den von allen Verbündeten verursachten Bruch-SCH um #1[i]%. Effekte desselben Typs sind nicht stapelbar.",
+        "params": [
+            [0.16],
+            [0.18],
+            [0.2],
+            [0.22],
+            [0.24]
+        ],
+        "properties": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    "21057": {
+        "id": "21057",
+        "skill": "Gegenseitige Abhängigkeit",
+        "desc": "Erhöht den KRIT-SCH des Trägers um #1[i]%. Erhöht den KRIT-SCH des Memogeists des Trägers zusätzlich um #2[i]%.",
+        "params": [
+            [0.24, 0.24],
+            [0.28, 0.3],
+            [0.32, 0.36],
+            [0.36, 0.42],
+            [0.4, 0.48]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalDamageBase", "value": 0.24 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.28 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.32 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.36 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.4 }
+            ]
+        ]
+    },
+    "21058": {
+        "id": "21058",
+        "skill": "Blutbad",
+        "desc": "Erhöht die KRIT-Rate des Trägers um #1[i]%. Erhöht den verursachten Fertigkeits- und Ultimate-SCH des Trägers um #2[i]%.",
+        "params": [
+            [0.12, 0.24],
+            [0.14, 0.28],
+            [0.16, 0.32],
+            [0.18, 0.36],
+            [0.2, 0.4]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalChanceBase", "value": 0.12 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.14 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.16 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.18 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.2 }
+            ]
+        ]
+    },
+    "21060": {
+        "id": "21060",
+        "skill": "Sehnsucht",
+        "desc": "Erhöht die KRIT-Rate des Trägers um #1[i]%. Erhöht den verursachten Ultimate- und Folgeangriff-SCH des Trägers um #2[i]%.",
+        "params": [
+            [0.12, 0.24],
+            [0.14, 0.28],
+            [0.16, 0.32],
+            [0.18, 0.36],
+            [0.2, 0.4]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalChanceBase", "value": 0.12 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.14 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.16 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.18 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.2 }
+            ]
+        ]
+    },
+    "21061": {
+        "id": "21061",
+        "skill": "Chillen",
+        "desc": "Erhöht den vom Träger verursachten SCH um #1[i]%. Nachdem der Träger angegriffen hat, besteht eine Grundchance von #2[i]%, dem Angriffsziel für #4[i] Rd. Anfälligkeit zuzufügen und seinen erlittenen SCH um #3[i]% zu erhöhen. Effekte desselben Typs sind nicht stapelbar.",
+        "params": [
+            [0.16, 1, 0.1, 2],
+            [0.2, 1, 0.115, 2],
+            [0.24, 1, 0.13, 2],
+            [0.28, 1, 0.145, 2],
+            [0.32, 1, 0.16, 2]
+        ],
+        "properties": [
+            [
+                { "type": "AllDamageTypeAddedRatio", "value": 0.16 }
+            ],
+            [
+                { "type": "AllDamageTypeAddedRatio", "value": 0.2 }
+            ],
+            [
+                { "type": "AllDamageTypeAddedRatio", "value": 0.24 }
+            ],
+            [
+                { "type": "AllDamageTypeAddedRatio", "value": 0.28 }
+            ],
+            [
+                { "type": "AllDamageTypeAddedRatio", "value": 0.32 }
+            ]
+        ]
+    },
+    "21062": {
+        "id": "21062",
+        "skill": "Beharrlichkeit",
+        "desc": "Erhöht den KRIT-SCH des Trägers um #1[i]%. Erhöht den verursachten Fertigkeits- und Folgeangriff-SCH des Trägers um #2[i]%.",
+        "params": [
+            [0.24, 0.24],
+            [0.28, 0.28],
+            [0.32, 0.32],
+            [0.36, 0.36],
+            [0.4, 0.4]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalDamageBase", "value": 0.24 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.28 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.32 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.36 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.4 }
+            ]
+        ]
+    },
     "22000": {
         "id": "22000",
         "skill": "Flinke Hände",
@@ -3147,6 +3388,93 @@
             ],
             [
                 { "type": "SpeedAddedRatio", "value": 0.3 }
+            ]
+        ]
+    },
+    "23044": {
+        "id": "23044",
+        "skill": "Verloren",
+        "desc": "Erhöht die Basis-GES des Trägers um #1[i] und ignoriert beim Verursachen von SCH #2[i]% der VTD des Ziels. Nach dem Einsatz des Ultimates erhält der Träger „Gleißende Sonne“, die zu Beginn der Runde entfernt wird. Wenn der Träger Gleißende Sonne besitzt, wird sein verursachter SCH um #3[i]% erhöht.",
+        "params": [
+            [12, 0.18, 0.6],
+            [14, 0.225, 0.78],
+            [16, 0.27, 0.96],
+            [18, 0.315, 1.14],
+            [20, 0.36, 1.32]
+        ],
+        "properties": [
+            [
+                { "type": "BaseSpeed", "value": 12 }
+            ],
+            [
+                { "type": "BaseSpeed", "value": 14 }
+            ],
+            [
+                { "type": "BaseSpeed", "value": 16 }
+            ],
+            [
+                { "type": "BaseSpeed", "value": 18 }
+            ],
+            [
+                { "type": "BaseSpeed", "value": 20 }
+            ]
+        ]
+    },
+    "23045": {
+        "id": "23045",
+        "skill": "König der Ritter",
+        "desc": "Erhöht den KRIT-SCH des Trägers um #1[i]%. Erhöht beim Einsatz des Ultimates den ANG des Trägers um #6[i]%. Wenn die max. Energie des Trägers #3[i] Pkt. oder mehr beträgt, wird beim Träger eine feste Menge Energie in Höhe von #5[i]% seiner max. Energie wiederhergestellt und sein ANG erneut um #2[i]% erhöht. Dieser Effekt hält für #4[i] Rd. an.",
+        "params": [
+            [0.36, 0.4, 300, 2, 0.1, 0.4],
+            [0.45, 0.5, 300, 2, 0.1, 0.5],
+            [0.54, 0.6, 300, 2, 0.1, 0.6],
+            [0.63, 0.7, 300, 2, 0.1, 0.7],
+            [0.72, 0.8, 300, 2, 0.1, 0.8]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalDamageBase", "value": 0.36 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.45 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.54 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.63 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.72 }
+            ]
+        ]
+    },
+    "23046": {
+        "id": "23046",
+        "skill": "Hrunting",
+        "desc": "Erhöht die KRIT-Rate des Trägers um #1[i]%. Wenn die max. Fertigkeitspunkte beim Kampfeintritt #2[i] oder mehr betragen, wird der ANG des Trägers um #3[i]% erhöht. Jedes Mal, nachdem der Träger eine Fertigkeit eingesetzt hat, wird sein ANG um #4[i]% erhöht. Dieser Effekt ist bis zu #5[i]-mal stapelbar.",
+        "params": [
+            [0.16, 6, 0.4, 0.1, 4],
+            [0.2, 6, 0.5, 0.125, 4],
+            [0.24, 6, 0.6, 0.15, 4],
+            [0.28, 6, 0.7, 0.175, 4],
+            [0.32, 6, 0.8, 0.2, 4]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalChanceBase", "value": 0.16 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.2 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.24 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.28 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.32 }
             ]
         ]
     },

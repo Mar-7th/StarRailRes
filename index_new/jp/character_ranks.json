@@ -647,6 +647,150 @@
         "level_up_skills": [],
         "icon": "icon/skill/1013_rank6.png"
     },
+    "1100501": {
+        "id": "1100501",
+        "name": "{RUBY_B#むきゅう}無窮{RUBY_E#}に{RUBY_B#うご}動{RUBY_E#}く！{RUBY_B#むきゅう}無窮{RUBY_E#}に",
+        "rank": 1,
+        "desc": "攻撃を行う時、100%の基礎確率でターゲットの受ける持続ダメージ+30%、2ターン継続。",
+        "materials": [
+            { "id": "11005", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1100_rank1.png"
+    },
+    "1100502": {
+        "id": "1100502",
+        "name": "{RUBY_B#きょうそうしゃ}狂想者{RUBY_E#}の{RUBY_B#おえつ}嗚咽{RUBY_E#}",
+        "rank": 2,
+        "desc": "カフカがフィールド上にいる時、味方全体の持続ダメージ+33%。",
+        "materials": [
+            { "id": "11005", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1100_rank2.png"
+    },
+    "1100503": {
+        "id": "1100503",
+        "name": "{RUBY_B#そっきょう}即興{RUBY_E#}の{RUBY_B#さんび}賛美{RUBY_E#}",
+        "rank": 3,
+        "desc": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+        "materials": [
+            { "id": "11005", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "1100502", "num": 2 },
+            { "id": "1100501", "num": 1 }
+        ],
+        "icon": "icon/skill/1100_skill.png"
+    },
+    "1100504": {
+        "id": "1100504",
+        "name": "この{RUBY_B#じょしょう}叙唱{RUBY_E#}を",
+        "rank": 4,
+        "desc": "カフカが敵に付与した感電状態がダメージが発生する時、カフカのEPをさらに2回復する。",
+        "materials": [
+            { "id": "11005", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1100_rank4.png"
+    },
+    "1100505": {
+        "id": "1100505",
+        "name": "{RUBY_B#こんばん}今晩{RUBY_E#}だけの{RUBY_B#そうめい}奏鳴{RUBY_E#}",
+        "rank": 5,
+        "desc": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+        "materials": [
+            { "id": "11005", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "1100503", "num": 2 },
+            { "id": "1100504", "num": 2 }
+        ],
+        "icon": "icon/skill/1100_ultimate.png"
+    },
+    "1100506": {
+        "id": "1100506",
+        "name": "{RUBY_B#まわ}回{RUBY_E#}る、{RUBY_B#しず}静{RUBY_E#}かに",
+        "rank": 6,
+        "desc": "必殺技、秘技、天賦による追加攻撃が敵に付与する感電状態のダメージ倍率+156%、感電状態の継続時間+1ターン。",
+        "materials": [
+            { "id": "11005", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1100_rank6.png"
+    },
+    "1100601": {
+        "id": "1100601",
+        "name": "{RUBY_B#しゃかいこうがく}社会工学{RUBY_E#}",
+        "rank": 1,
+        "desc": "必殺技で敵を攻撃した後、敵にデバフが1つあるごとに、銀狼はEPを7回復する。この効果は一回の必殺技発動につき、最大で5回発動できる。",
+        "materials": [
+            { "id": "11006", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1100_rank1.png"
+    },
+    "1100602": {
+        "id": "1100602",
+        "name": "ボットネット",
+        "rank": 2,
+        "desc": "敵が戦闘に入る時、受けるダメージ+20%。敵が味方の攻撃を受ける時、銀狼は100%の基礎確率でその敵にランダムな「欠陥」を1つ埋め込む。",
+        "materials": [
+            { "id": "11006", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1100_rank2.png"
+    },
+    "1100603": {
+        "id": "1100603",
+        "name": "ペイロード",
+        "rank": 3,
+        "desc": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+        "materials": [
+            { "id": "11006", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "1100602", "num": 2 },
+            { "id": "1100604", "num": 2 }
+        ],
+        "icon": "icon/skill/1100_skill.png"
+    },
+    "1100604": {
+        "id": "1100604",
+        "name": "バウンス{RUBY_B#こうげき}攻撃{RUBY_E#}",
+        "rank": 4,
+        "desc": "必殺技で敵を攻撃した後、その敵にあるデバフ1つにつき、さらに銀狼の攻撃力20%分の量子属性付加ダメージを与える。この効果は1回の必殺技で、敵それぞれに最大で5回発動できる。",
+        "materials": [
+            { "id": "11006", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1100_rank4.png"
+    },
+    "1100605": {
+        "id": "1100605",
+        "name": "{RUBY_B#そう}総{RUBY_E#}{RUBY_B#あ}当{RUBY_E#}たり{RUBY_B#こうげき}攻撃{RUBY_E#}",
+        "rank": 5,
+        "desc": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+        "materials": [
+            { "id": "11006", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "1100603", "num": 2 },
+            { "id": "1100601", "num": 1 }
+        ],
+        "icon": "icon/skill/1100_ultimate.png"
+    },
+    "1100606": {
+        "id": "1100606",
+        "name": "オーバーレイ\nネットワーク",
+        "rank": 6,
+        "desc": "敵にあるデバフ1つにつき、その敵に対する銀狼の与ダメージ+20%、最大で+100%。",
+        "materials": [
+            { "id": "11006", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1100_rank6.png"
+    },
     "110101": {
         "id": "110101",
         "name": "{RUBY_B#えいき}英気{RUBY_E#}を{RUBY_B#やしな}養{RUBY_E#}う",
@@ -1512,6 +1656,152 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1112_rank6.png"
+    },
+    "1120501": {
+        "id": "1120501",
+        "name": "{RUBY_B#けいじゅしる}形寿記{RUBY_E#}せし{RUBY_B#けんしん}剣身{RUBY_E#}\n{RUBY_B#じごくへん}地獄変{RUBY_E#}の{RUBY_B#ごと}如{RUBY_E#}く",
+        "rank": 1,
+        "desc": "指定した敵単体に対する強化通常攻撃と必殺技によるダメージの数値が、必殺技で参照する失ったHPの累計値の150%分アップする。",
+        "materials": [
+            { "id": "11205", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1120_rank1.png"
+    },
+    "1120502": {
+        "id": "1120502",
+        "name": "{RUBY_B#しり}支離{RUBY_E#}の{RUBY_B#ゆめ}旧夢{RUBY_E#}\n{RUBY_B#ばんじ}万事{RUBY_E#}が{RUBY_B#いこん}遺恨{RUBY_E#}",
+        "rank": 2,
+        "desc": "刃が「地獄変」状態の時、会心率+15%。",
+        "materials": [
+            { "id": "11205", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1120_rank2.png"
+    },
+    "1120503": {
+        "id": "1120503",
+        "name": "{RUBY_B#たんぞう}鍛造{RUBY_E#}されし{RUBY_B#げんこう}玄鋼{RUBY_E#}\n{RUBY_B#かんこうはな}寒光放{RUBY_E#}つ",
+        "rank": 3,
+        "desc": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+        "materials": [
+            { "id": "11205", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "1120503", "num": 2 },
+            { "id": "1120504", "num": 2 }
+        ],
+        "icon": "icon/skill/1120_ultimate.png"
+    },
+    "1120504": {
+        "id": "1120504",
+        "name": "{RUBY_B#めいふ}冥府{RUBY_E#}の{RUBY_B#きろこ}岐路越{RUBY_E#}え\n{RUBY_B#かいせい}回生{RUBY_E#}せし{RUBY_B#むくろ}骸{RUBY_E#}",
+        "rank": 4,
+        "desc": "残りHPが50%を超える状態から、50%以下になった時、最大HP+20%、この効果は最大で2層累積できる。",
+        "materials": [
+            { "id": "11205", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1120_rank4.png"
+    },
+    "1120505": {
+        "id": "1120505",
+        "name": "{RUBY_B#じゅうおう}十王{RUBY_E#}の{RUBY_B#たいへき}大辟{RUBY_E#}\n{RUBY_B#か}懸{RUBY_E#}かり{RUBY_B#て}照{RUBY_E#}らす{RUBY_B#ごうきょう}業鏡{RUBY_E#}",
+        "rank": 5,
+        "desc": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+        "materials": [
+            { "id": "11205", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "1120502", "num": 2 },
+            { "id": "1120501", "num": 1 },
+            { "id": "1120508", "num": 1 }
+        ],
+        "icon": "icon/skill/1120_skill.png"
+    },
+    "1120506": {
+        "id": "1120506",
+        "name": "{RUBY_B#か}涸{RUBY_E#}れし{RUBY_B#こんぱく}魂魄{RUBY_E#}\n{RUBY_B#とど}留{RUBY_E#}まりて{RUBY_B#こ}此{RUBY_E#}の{RUBY_B#み}身{RUBY_E#}に{RUBY_B#もど}戻{RUBY_E#}る",
+        "rank": 6,
+        "desc": "チャージ層数の上限が4層になる。天賦による追加攻撃ダメージが、さらに刃の最大HP50%分アップする。",
+        "materials": [
+            { "id": "11205", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1120_rank6.png"
+    },
+    "1121201": {
+        "id": "1121201",
+        "name": "{RUBY_B#てんかん}天関{RUBY_E#}を{RUBY_B#おか}犯{RUBY_E#}す{RUBY_B#つき}月{RUBY_E#}",
+        "rank": 1,
+        "desc": "必殺技または強化戦闘スキルを発動する時、鏡流の会心ダメージ+36%、1ターン継続。さらにメインターゲットに鏡流の最大HP80%分の氷属性ダメージを1回与える。",
+        "materials": [
+            { "id": "11212", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1121_rank1.png"
+    },
+    "1121202": {
+        "id": "1121202",
+        "name": "{RUBY_B#げつうん}月暈{RUBY_E#}に{RUBY_B#しちせい}七星{RUBY_E#}",
+        "rank": 2,
+        "desc": "必殺技を発動した後、次の強化戦闘スキルダメージ+80%。",
+        "materials": [
+            { "id": "11212", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1121_rank2.png"
+    },
+    "1121203": {
+        "id": "1121203",
+        "name": "{RUBY_B#もちづき}望月{RUBY_E#}に{RUBY_B#せま}迫{RUBY_E#}る{RUBY_B#はんぺき}半璧{RUBY_E#}",
+        "rank": 3,
+        "desc": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+        "materials": [
+            { "id": "11212", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "1121203", "num": 2 },
+            { "id": "1121204", "num": 2 }
+        ],
+        "icon": "icon/skill/1121_ultimate.png"
+    },
+    "1121204": {
+        "id": "1121204",
+        "name": "{RUBY_B#てのひら}掌{RUBY_E#}の{RUBY_B#げっこう}月光{RUBY_E#}",
+        "rank": 4,
+        "desc": "「転魄」状態の時、「月光」1層につき、さらに会心ダメージ+20%。",
+        "materials": [
+            { "id": "11212", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1121_rank4.png"
+    },
+    "1121205": {
+        "id": "1121205",
+        "name": "{RUBY_B#さんだい}三台{RUBY_E#}を{RUBY_B#むしば}蝕{RUBY_E#}む{RUBY_B#ぎょくきょう}玉鏡{RUBY_E#}",
+        "rank": 5,
+        "desc": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+        "materials": [
+            { "id": "11212", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "1121202", "num": 2 },
+            { "id": "1121201", "num": 1 },
+            { "id": "1121209", "num": 2 }
+        ],
+        "icon": "icon/skill/1121_skill.png"
+    },
+    "1121206": {
+        "id": "1121206",
+        "name": "{RUBY_B#ろうしゅく}婁宿{RUBY_E#}を{RUBY_B#むしば}蝕{RUBY_E#}む{RUBY_B#ひょうりん}氷輪{RUBY_E#}",
+        "rank": 6,
+        "desc": "鏡流が「転魄」状態に入った時、「朔望」の上限+1層、さらに「朔望」を2層獲得する。「転魄」状態の時、氷属性耐性貫通+30%。",
+        "materials": [
+            { "id": "11212", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1121_rank6.png"
     },
     "120101": {
         "id": "120101",
@@ -4646,7 +4936,7 @@
         "id": "140601",
         "name": "{RUBY_B#かんさつ}観察{RUBY_E#}、\n{RUBY_B#きかい}機会{RUBY_E#}を{RUBY_B#うかが}伺{RUBY_E#}う",
         "rank": 1,
-        "desc": "サフェルのダメージ記録値が本来の150%になる。天賦による追加攻撃を発動する時、サフェルの攻撃力+80%、2ターン継続。",
+        "desc": "サフェルが記録するダメージ記録値が本来の150%になる。天賦による追加攻撃を発動する時、サフェルの攻撃力+80%、2ターン継続。",
         "materials": [
             { "id": "11406", "num": 1 }
         ],
@@ -4707,7 +4997,7 @@
         "id": "140606",
         "name": "{RUBY_B#だいとう}大盗{RUBY_E#}、\n{RUBY_B#な}名{RUBY_E#}も{RUBY_B#な}無{RUBY_E#}き{RUBY_B#てんち}天地{RUBY_E#}の{RUBY_B#ま}間{RUBY_E#}",
         "rank": 6,
-        "desc": "サフェルの天賦による追加攻撃ダメージ+350%。また、ダメージを記録する際、その攻撃による非超過ダメージの16%分を追加で記録する。必殺技を発動してダメージ記録値がクリアされた後、その回でクリアされたダメージ記録値の20%分が返還される。",
+        "desc": "サフェルの天賦による追加攻撃ダメージ+350%。なお、このダメージを記録する際、非超過ダメージの16%分を追加で記録する。必殺技を発動してダメージ記録値がクリアされた後、その回でクリアされたダメージ記録値の20%分が返還される。",
         "materials": [
             { "id": "11406", "num": 1 }
         ],
@@ -4793,11 +5083,87 @@
         "level_up_skills": [],
         "icon": "icon/skill/1407_rank6.png"
     },
+    "140801": {
+        "id": "140801",
+        "name": "{RUBY_B#ほのお}炎{RUBY_E#}と{RUBY_B#ひかり}光{RUBY_E#}、{RUBY_B#ぜん}善{RUBY_E#}と{RUBY_B#あく}悪{RUBY_E#}の{RUBY_B#けしん}化身{RUBY_E#}",
+        "rank": 1,
+        "desc": "カスライナの追加ターンの基礎速度継承率が66%まで上がる。一度の戦闘で、敵が1体倒されるたびに、さらに+1.5%、最大84%まで。\n必殺技を発動する時、会心ダメージ+50%、3ターン継続。",
+        "materials": [
+            { "id": "11408", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1408_rank1.png"
+    },
+    "140802": {
+        "id": "140802",
+        "name": "{RUBY_B#てん}天{RUBY_E#}と{RUBY_B#ち}地{RUBY_E#}、すべては{RUBY_B#ほうえい}泡影{RUBY_E#}",
+        "rank": 2,
+        "desc": "カスライナの物理属性耐性貫通+20%。1回の「支柱・死星の天裁」の発動で、消費した「壊傷」が4層に達した場合、追加ターンを1獲得する。",
+        "materials": [
+            { "id": "11408", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1408_rank2.png"
+    },
+    "140803": {
+        "id": "140803",
+        "name": "{RUBY_B#しんえん}深淵{RUBY_E#}に{RUBY_B#う}埋{RUBY_E#}もれし\n{RUBY_B#いくえ}幾重{RUBY_E#}もの{RUBY_B#せいじゃく}静寂{RUBY_E#}",
+        "rank": 3,
+        "desc": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+        "materials": [
+            { "id": "11408", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "140803", "num": 2 },
+            { "id": "140801", "num": 1 },
+            { "id": "140808", "num": 1 }
+        ],
+        "icon": "icon/skill/1408_ultimate.png"
+    },
+    "140804": {
+        "id": "140804",
+        "name": "{RUBY_B#かす}霞{RUBY_E#}みゆくタイタンたちの{RUBY_B#おもかげ}面影{RUBY_E#}",
+        "rank": 4,
+        "desc": "「災厄・魂命の滅却」を発動する時、追加で「魂を殺す熾炎」を4層獲得する。",
+        "materials": [
+            { "id": "11408", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1408_rank4.png"
+    },
+    "140805": {
+        "id": "140805",
+        "name": "{RUBY_B#さんぜんまん}三千万{RUBY_E#}の{RUBY_B#かいき}回帰{RUBY_E#}と\n{RUBY_B#えいごう}永劫{RUBY_E#}の{RUBY_B#じしん}時針{RUBY_E#}",
+        "rank": 5,
+        "desc": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+        "materials": [
+            { "id": "11408", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "140802", "num": 2 },
+            { "id": "140804", "num": 2 },
+            { "id": "140805", "num": 2 },
+            { "id": "140809", "num": 2 },
+            { "id": "140811", "num": 2 }
+        ],
+        "icon": "icon/skill/1408_skill.png"
+    },
+    "140806": {
+        "id": "140806",
+        "name": "{RUBY_B#えいえん}永遠{RUBY_E#}を{RUBY_B#て}照{RUBY_E#}らす\n{RUBY_B#ふめつ}不滅{RUBY_E#}の{RUBY_B#ざんしょう}残照{RUBY_E#}",
+        "rank": 6,
+        "desc": "保存できる超過分の「火種」の上限がなくなる。戦闘開始時、「火種」を6個獲得する。\n「支柱・死星の天裁」を発動後、残りHPが最も高い敵に、その回の攻撃の合計ダメージ36%分の確定ダメージを与える。",
+        "materials": [
+            { "id": "11408", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1408_rank6.png"
+    },
     "140901": {
         "id": "140901",
         "name": "{RUBY_B#やみよ}闇夜{RUBY_E#}の{RUBY_B#とうか}灯火{RUBY_E#}を{RUBY_B#まも}守{RUBY_E#}って",
         "rank": 1,
-        "desc": "ヒアンシーが「雨上がり」状態の時、味方それぞれの最大HPアップ効果がさらに50%アップする。また、味方が攻撃を行った後、その味方のHPをヒアンシーの最大HP8%分回復する。",
+        "desc": "ヒアンシーが「雨上がり」状態の時、味方それぞれの最大HPアップ効果がさらに50%アップし、味方が攻撃を行った後、その味方のHPをヒアンシーの最大HP8%分回復する。",
         "materials": [
             { "id": "11409", "num": 1 }
         ],
@@ -4806,9 +5172,9 @@
     },
     "140902": {
         "id": "140902",
-        "name": "わたしの{RUBY_B#にわ}庭{RUBY_E#}でくつろいで",
+        "name": "わたしの{RUBY_B#にわ}庭{RUBY_E#}で\nくつろいで",
         "rank": 2,
-        "desc": "味方のHPが減った時、速度+30%、2ターン継続。",
+        "desc": "味方のHPが減った時、その味方の速度+30%、2ターン継続。",
         "materials": [
             { "id": "11409", "num": 1 }
         ],

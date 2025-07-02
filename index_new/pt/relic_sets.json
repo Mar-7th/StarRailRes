@@ -368,7 +368,7 @@
         "name": "Deusa Guerreira do Sol e do Trovão",
         "desc": [
             "Aumenta a VEL em 6%.",
-            "Quando o usuário e seu Memoespírito fornecem cura aos aliados-alvo além de si mesmos, o usuário ganha \"Chuva Suave\", que pode ser ativada até 1 vez por rodada, durando por 2 rodada(s). Enquanto o usuário possui \"Chuva Suave\", aumenta sua VEL em 6% e o Dano CRIT de todos os aliados em 15%. Este efeito não pode ser acumulado."
+            "Quando o usuário ou seu Memoespírito fornecem cura aos aliados-alvo que não sejam eles mesmos, o usuário recebe \"Chuva Suave\", que dura 2 rodada(s) e só pode ser ativada uma vez por rodada. Enquanto o usuário estiver com \"Chuva Suave\", a VEL aumenta em 6% e o Dano CRIT de todos os aliados aumenta em 15%. Esse efeito não pode ser acumulado."
         ],
         "properties": [
             [
@@ -650,5 +650,29 @@
             ]
         ],
         "icon": "icon/relic/320.png"
+    },
+    "321": {
+        "id": "321",
+        "name": "Arcádia dos Sonhos Tecidos",
+        "desc": [
+            "Quando o número de aliados-alvo no campo não for igual a 4, para cada aliado-alvo adicional/ausente, aumenta o Dano causado pelo usuário e seu Memoespírito em 9%/12%, acumulando até 4/3 vez(es)."
+        ],
+        "properties": [
+            []
+        ],
+        "icon": "icon/relic/321.png"
+    },
+    "322": {
+        "id": "322",
+        "name": "Folia à Beira-Mar",
+        "desc": [
+            "Aumenta o ATQ do usuário em 12%. Quando o ATQ do usuário for maior ou igual a 2400/3600, aumenta o Dano Contínuo causado em 12%/24%."
+        ],
+        "properties": [
+            [
+                { "type": "AttackAddedRatio", "value": 0.12 }
+            ]
+        ],
+        "icon": "icon/relic/322.png"
     }
 }

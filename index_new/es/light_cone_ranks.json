@@ -1754,6 +1754,247 @@
             ]
         ]
     },
+    "21053": {
+        "id": "21053",
+        "skill": "Dulces sueños",
+        "desc": "El efecto de escudo otorgado por el portador aumenta en un #1[i]%. Cuando un aliado tiene un escudo, el daño que inflige aumenta en un #2[i]%.",
+        "params": [
+            [0.12, 0.12],
+            [0.15, 0.14],
+            [0.18, 0.16],
+            [0.21, 0.18],
+            [0.24, 0.2]
+        ],
+        "properties": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    "21054": {
+        "id": "21054",
+        "skill": "Está escrito",
+        "desc": "Los PV máx. del portador aumentan en un #1[i]%. Después de que el mnemoduende del portador ataque, la curación realizada del portador y su mnemoduende aumenta en un #2[i]% durante #3[i] turno.",
+        "params": [
+            [0.16, 0.12, 1],
+            [0.2, 0.15, 1],
+            [0.24, 0.18, 1],
+            [0.28, 0.21, 1],
+            [0.32, 0.24, 1]
+        ],
+        "properties": [
+            [
+                { "type": "HPAddedRatio", "value": 0.16 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.2 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.24 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.28 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.32 }
+            ]
+        ]
+    },
+    "21055": {
+        "id": "21055",
+        "skill": "Despedida",
+        "desc": "La curación realizada del portador aumenta en un #1[i]%. Si el porcentaje de PV actual de un aliado es igual o superior al #2[i]%, el daño que inflige aumenta en un #3[i]%.",
+        "params": [
+            [0.12, 0.5, 0.12],
+            [0.15, 0.5, 0.14],
+            [0.18, 0.5, 0.16],
+            [0.21, 0.5, 0.18],
+            [0.24, 0.5, 0.2]
+        ],
+        "properties": [
+            [
+                { "type": "HealRatioBase", "value": 0.12 }
+            ],
+            [
+                { "type": "HealRatioBase", "value": 0.15 }
+            ],
+            [
+                { "type": "HealRatioBase", "value": 0.18 }
+            ],
+            [
+                { "type": "HealRatioBase", "value": 0.21 }
+            ],
+            [
+                { "type": "HealRatioBase", "value": 0.24 }
+            ]
+        ]
+    },
+    "21056": {
+        "id": "21056",
+        "skill": "Pánico",
+        "desc": "Tras entrar en combate, el Daño de Ruptura que infligen todos los aliados aumenta en un #1[i]%. Los efectos del mismo tipo no se pueden activar varias veces.",
+        "params": [
+            [0.16],
+            [0.18],
+            [0.2],
+            [0.22],
+            [0.24]
+        ],
+        "properties": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    "21057": {
+        "id": "21057",
+        "skill": "Interdependencia",
+        "desc": "El Daño CRIT del portador aumenta en un #1[i]%. El Daño CRIT que inflige el mnemoduende del portador aumenta en un #2[i]% adicional.",
+        "params": [
+            [0.24, 0.24],
+            [0.28, 0.3],
+            [0.32, 0.36],
+            [0.36, 0.42],
+            [0.4, 0.48]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalDamageBase", "value": 0.24 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.28 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.32 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.36 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.4 }
+            ]
+        ]
+    },
+    "21058": {
+        "id": "21058",
+        "skill": "Masacre",
+        "desc": "La Prob. CRIT del portador aumenta en un #1[i]%. El daño de habilidad básica y de habilidad definitiva infligidos por el portador aumentan en un #2[i]%.",
+        "params": [
+            [0.12, 0.24],
+            [0.14, 0.28],
+            [0.16, 0.32],
+            [0.18, 0.36],
+            [0.2, 0.4]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalChanceBase", "value": 0.12 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.14 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.16 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.18 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.2 }
+            ]
+        ]
+    },
+    "21060": {
+        "id": "21060",
+        "skill": "Aspiración",
+        "desc": "La Prob. CRIT del portador aumenta en un #1[i]%. El daño de habilidad definitiva y de ataque adicional infligidos por el portador aumentan en un #2[i]%.",
+        "params": [
+            [0.12, 0.24],
+            [0.14, 0.28],
+            [0.16, 0.32],
+            [0.18, 0.36],
+            [0.2, 0.4]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalChanceBase", "value": 0.12 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.14 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.16 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.18 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.2 }
+            ]
+        ]
+    },
+    "21061": {
+        "id": "21061",
+        "skill": "Momento de calma",
+        "desc": "El daño que inflige el portador aumenta en un #1[i]%. Después de que el portador ataque, hay un #2[i]% de probabilidad base de afectar con Vulnerabilidad a los objetivos atacados y hacer que reciban un #3[i]% más de daño durante #4[i] turnos. Los efectos del mismo tipo no se pueden acumular.",
+        "params": [
+            [0.16, 1, 0.1, 2],
+            [0.2, 1, 0.115, 2],
+            [0.24, 1, 0.13, 2],
+            [0.28, 1, 0.145, 2],
+            [0.32, 1, 0.16, 2]
+        ],
+        "properties": [
+            [
+                { "type": "AllDamageTypeAddedRatio", "value": 0.16 }
+            ],
+            [
+                { "type": "AllDamageTypeAddedRatio", "value": 0.2 }
+            ],
+            [
+                { "type": "AllDamageTypeAddedRatio", "value": 0.24 }
+            ],
+            [
+                { "type": "AllDamageTypeAddedRatio", "value": 0.28 }
+            ],
+            [
+                { "type": "AllDamageTypeAddedRatio", "value": 0.32 }
+            ]
+        ]
+    },
+    "21062": {
+        "id": "21062",
+        "skill": "Persistencia",
+        "desc": "El Daño CRIT del portador aumenta en un #1[i]%. El daño de habilidad básica y de ataque adicional infligidos por el portador aumentan en un #2[i]%.",
+        "params": [
+            [0.24, 0.24],
+            [0.28, 0.28],
+            [0.32, 0.32],
+            [0.36, 0.36],
+            [0.4, 0.4]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalDamageBase", "value": 0.24 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.28 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.32 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.36 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.4 }
+            ]
+        ]
+    },
     "22000": {
         "id": "22000",
         "skill": "Mano rápida",
@@ -3124,7 +3365,7 @@
     "23043": {
         "id": "23043",
         "skill": "Embaucamiento",
-        "desc": "La VEL del portador aumenta en un #1[i]%. Después de que el portador ataque, cada enemigo tiene un #2[i]% de probabilidad base de ser afectado con Desconcierto. La DEF de los enemigos en el estado de Desconcierto se reduce en un #3[i]% durante #4[i] turnos. Si la VEL del portador es igual o superior a #7[i], cada enemigo tiene un #5[i]% de probabilidad base de ser afectado con Robado. La DEF de los enemigos en el estado de Robado se reduce en un #6[i]% durante #4[i] turnos. Si Desconcierto o Robado se aplican repetidamente, solo tiene efecto el último en aplicarse.",
+        "desc": "La VEL del portador aumenta en un #1[i]%. Después de que el portador ataque, cada enemigo tiene un #2[i]% de probabilidad base de ser afectado con Desconcierto. La DEF de los enemigos en el estado de Desconcierto se reduce en un #3[i]% durante #4[i] turnos. Si la VEL del portador es igual o superior a #7[i], cada enemigo tiene además un #5[i]% de probabilidad base de ser afectado con Robado. La DEF de los enemigos en el estado de Robado se reduce en un #6[i]% durante #4[i] turnos. Si Desconcierto o Robado se aplican repetidamente, solo tiene efecto la última aplicación de cada uno.",
         "params": [
             [0.18, 1.2, 0.16, 2, 1.2, 0.08, 170],
             [0.21, 1.2, 0.18, 2, 1.2, 0.09, 170],
@@ -3147,6 +3388,93 @@
             ],
             [
                 { "type": "SpeedAddedRatio", "value": 0.3 }
+            ]
+        ]
+    },
+    "23044": {
+        "id": "23044",
+        "skill": "Desposesión",
+        "desc": "La VEL base del portador aumenta en #1[i] y este ignora un #2[i]% de la DEF del objetivo cuando inflige daño. Después de que el portador lance su habilidad definitiva, obtiene Sol abrasador, el cual se disipa al comenzar el turno. Cuando tiene Sol abrasador, el daño que inflige el portador aumenta en un #3[i]%.",
+        "params": [
+            [12, 0.18, 0.6],
+            [14, 0.225, 0.78],
+            [16, 0.27, 0.96],
+            [18, 0.315, 1.14],
+            [20, 0.36, 1.32]
+        ],
+        "properties": [
+            [
+                { "type": "BaseSpeed", "value": 12 }
+            ],
+            [
+                { "type": "BaseSpeed", "value": 14 }
+            ],
+            [
+                { "type": "BaseSpeed", "value": 16 }
+            ],
+            [
+                { "type": "BaseSpeed", "value": 18 }
+            ],
+            [
+                { "type": "BaseSpeed", "value": 20 }
+            ]
+        ]
+    },
+    "23045": {
+        "id": "23045",
+        "skill": "Rey de los caballeros",
+        "desc": "El Daño CRIT del portador aumenta en un #1[i]%. Cuando el portador lanza su habilidad definitiva, su ATQ aumenta en un #6[i]%. Si la energía máxima del portador es igual o mayor que #3[i], recupera una cantidad fija de energía equivalente al #5[i]% de su energía máxima y su ATQ vuelve a aumentar en un #2[i]% durante #4[i] turnos.",
+        "params": [
+            [0.36, 0.4, 300, 2, 0.1, 0.4],
+            [0.45, 0.5, 300, 2, 0.1, 0.5],
+            [0.54, 0.6, 300, 2, 0.1, 0.6],
+            [0.63, 0.7, 300, 2, 0.1, 0.7],
+            [0.72, 0.8, 300, 2, 0.1, 0.8]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalDamageBase", "value": 0.36 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.45 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.54 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.63 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.72 }
+            ]
+        ]
+    },
+    "23046": {
+        "id": "23046",
+        "skill": "Cazador del páramo escarlata",
+        "desc": "La Prob. CRIT del portador aumenta en un #1[i]%. Al entrar en combate, si el límite máximo de pts. de habilidad básica de los aliados es #2[i] o más, el ATQ del portador aumenta en un #3[i]%. Cada vez que el portador lanza su habilidad básica, su ATQ aumenta en un #4[i]%. Este efecto se puede acumular hasta #5[i] veces.",
+        "params": [
+            [0.16, 6, 0.4, 0.1, 4],
+            [0.2, 6, 0.5, 0.125, 4],
+            [0.24, 6, 0.6, 0.15, 4],
+            [0.28, 6, 0.7, 0.175, 4],
+            [0.32, 6, 0.8, 0.2, 4]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalChanceBase", "value": 0.16 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.2 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.24 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.28 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.32 }
             ]
         ]
     },

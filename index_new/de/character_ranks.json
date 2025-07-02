@@ -647,6 +647,150 @@
         "level_up_skills": [],
         "icon": "icon/skill/1013_rank6.png"
     },
+    "1100501": {
+        "id": "1100501",
+        "name": "Da capo",
+        "rank": 1,
+        "desc": "Bei Angriffen besteht eine Grundchance von 100%, den erlittenen DoT des Ziels für 2 Rd. um 30% zu erhöhen.",
+        "materials": [
+            { "id": "11005", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1100_rank1.png"
+    },
+    "1100502": {
+        "id": "1100502",
+        "name": "Fortississimo",
+        "rank": 2,
+        "desc": "Erhöht den von allen Verbündeten verursachten DoT um 33%, wenn Kafka mitkämpft.",
+        "materials": [
+            { "id": "11005", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1100_rank2.png"
+    },
+    "1100503": {
+        "id": "1100503",
+        "name": "Capriccio",
+        "rank": 3,
+        "desc": "Fertigkeitsstufe +2 bis max. St. 15. Standardangriff-Stufe +1 bis max. St. 10.",
+        "materials": [
+            { "id": "11005", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "1100502", "num": 2 },
+            { "id": "1100501", "num": 1 }
+        ],
+        "icon": "icon/skill/1100_skill.png"
+    },
+    "1100504": {
+        "id": "1100504",
+        "name": "Rezitativ",
+        "rank": 4,
+        "desc": "Wenn ein Gegner SCH durch den von Kafka verursachten Schock-Status erleidet, wird die Energie von Kafka zusätzlich um 2 Pkt. wiederhergestellt.",
+        "materials": [
+            { "id": "11005", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1100_rank4.png"
+    },
+    "1100505": {
+        "id": "1100505",
+        "name": "Doloroso",
+        "rank": 5,
+        "desc": "Ultimate-Stufe +2 bis max. St. 15. Talentstufe +2 bis max. St. 15.",
+        "materials": [
+            { "id": "11005", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "1100503", "num": 2 },
+            { "id": "1100504", "num": 2 }
+        ],
+        "icon": "icon/skill/1100_ultimate.png"
+    },
+    "1100506": {
+        "id": "1100506",
+        "name": "Leggiero",
+        "rank": 6,
+        "desc": "Erhöht den SCH-Multiplikator des Status Schock durch Ultimate, Technik und Folgeangriffe des Talents um 156% und verlängert den Status Schock um 1 Rd.",
+        "materials": [
+            { "id": "11005", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1100_rank6.png"
+    },
+    "1100601": {
+        "id": "1100601",
+        "name": "Social Engineering",
+        "rank": 1,
+        "desc": "Nachdem Silberwolf mit ihrem Ultimate einen Gegner angegriffen hat, stellt sie für jeden Debuff des Ziels 7 Pkt. Energie wieder her. Dieser Effekt kann bei jedem Einsatz ihres Ultimates bis zu 5-mal ausgelöst werden.",
+        "materials": [
+            { "id": "11006", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1100_rank1.png"
+    },
+    "1100602": {
+        "id": "1100602",
+        "name": "Zombienetzwerk",
+        "rank": 2,
+        "desc": "Beim Kampfeintritt eines Gegners wird sein erlittener SCH um 20% erhöht. Wenn ein Gegner von einem Verbündeten angegriffen wird, hat Silberwolf eine Grundchance von 100%, dem angegriffenen Gegner einen zufälligen „Fehler“ zu implantieren.",
+        "materials": [
+            { "id": "11006", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1100_rank2.png"
+    },
+    "1100603": {
+        "id": "1100603",
+        "name": "Sprengladung",
+        "rank": 3,
+        "desc": "Fertigkeitsstufe +2 bis max. St. 15. Talentstufe +2 bis max. St. 15.",
+        "materials": [
+            { "id": "11006", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "1100602", "num": 2 },
+            { "id": "1100604", "num": 2 }
+        ],
+        "icon": "icon/skill/1100_skill.png"
+    },
+    "1100604": {
+        "id": "1100604",
+        "name": "Bounce-Angriff",
+        "rank": 4,
+        "desc": "Nachdem Silberwolf mit ihrem Ultimate einen Gegner angegriffen hat, fügt sie für jeden Debuff des Ziels zusätzlichen Quanten-SCH in Höhe von 20% von Silberwolfs ANG zu. Dieser Effekt kann bei jedem Einsatz ihres Ultimates bei jedem Ziel bis zu 5-mal ausgelöst werden.",
+        "materials": [
+            { "id": "11006", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1100_rank4.png"
+    },
+    "1100605": {
+        "id": "1100605",
+        "name": "Brute-Force-Angriff",
+        "rank": 5,
+        "desc": "Ultimate-Stufe +2 bis max. St. 15. Standardangriff-Stufe +1 bis max. St. 10.",
+        "materials": [
+            { "id": "11006", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "1100603", "num": 2 },
+            { "id": "1100601", "num": 1 }
+        ],
+        "icon": "icon/skill/1100_ultimate.png"
+    },
+    "1100606": {
+        "id": "1100606",
+        "name": "Overlay-Netzwerk",
+        "rank": 6,
+        "desc": "Erhöht den von Silberwolf verursachten SCH für jeden Debuff des Gegners um 20%, bis zu max. 100%",
+        "materials": [
+            { "id": "11006", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1100_rank6.png"
+    },
     "110101": {
         "id": "110101",
         "name": "Stärke erhöhen",
@@ -1512,6 +1656,152 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1112_rank6.png"
+    },
+    "1120501": {
+        "id": "1120501",
+        "name": "Eine Schwertlänge, tausend Höllentiefen",
+        "rank": 1,
+        "desc": "Blades verstärkter Standardangriff und Ultimate verursachen bei einem anvisierten Gegner zusätzlich erhöhten SCH, wobei der erhöhte Betrag 150% des angesammelten LP-Verlusts durch Ultimate entspricht.",
+        "materials": [
+            { "id": "11205", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1120_rank1.png"
+    },
+    "1120502": {
+        "id": "1120502",
+        "name": "Verpasste Träume, unendliches Bedauern",
+        "rank": 2,
+        "desc": "Wenn „Höllenqual“ aktiv ist, wird die KRIT-Rate um 15% erhöht.",
+        "materials": [
+            { "id": "11205", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1120_rank2.png"
+    },
+    "1120503": {
+        "id": "1120503",
+        "name": "Geschmolzener Stahl, gemahlenes Korn",
+        "rank": 3,
+        "desc": "Ultimate-Stufe +2 bis max. St. 15. Talentstufe +2 bis max. St. 15.",
+        "materials": [
+            { "id": "11205", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "1120503", "num": 2 },
+            { "id": "1120504", "num": 2 }
+        ],
+        "icon": "icon/skill/1120_ultimate.png"
+    },
+    "1120504": {
+        "id": "1120504",
+        "name": "Vom Tod abgewiesen, vom Leben heimgesucht",
+        "rank": 4,
+        "desc": "Werden Blades aktuelle LP von über 50 % auf 50 % oder niedriger reduziert, werden seine max. LP um 20% erhöht. Dieser Effekt ist bis zu 2-fach stapelbar.",
+        "materials": [
+            { "id": "11205", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1120_rank4.png"
+    },
+    "1120505": {
+        "id": "1120505",
+        "name": "Todesurteil, Karmavollstreckung",
+        "rank": 5,
+        "desc": "Fertigkeitsstufe +2 bis max. St. 15. Standardangriff-Stufe +1 bis max. St. 10.",
+        "materials": [
+            { "id": "11205", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "1120502", "num": 2 },
+            { "id": "1120501", "num": 1 },
+            { "id": "1120508", "num": 1 }
+        ],
+        "icon": "icon/skill/1120_skill.png"
+    },
+    "1120506": {
+        "id": "1120506",
+        "name": "Wie Körper, so Seele",
+        "rank": 6,
+        "desc": "Die maximale Aufladungsanzahl wird auf 4 reduziert. Der durch Folgeangriffe verursachte SCH von Blades Talent wird zusätzlich um 50% seiner max. LP erhöht.",
+        "materials": [
+            { "id": "11205", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1120_rank6.png"
+    },
+    "1121201": {
+        "id": "1121201",
+        "name": "Mondsturm auf die Himmelspforte",
+        "rank": 1,
+        "desc": "Beim Einsatz des Ultimates oder der verstärkten Fertigkeit wird Jinglius KRIT-SCH für 1 Rd. um 36% erhöht. Fügt dem Hauptziel außerdem zusätzlich 1-mal Eis-SCH in Höhe von 80% von Jinglius max. LP zu.",
+        "materials": [
+            { "id": "11212", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1121_rank1.png"
+    },
+    "1121202": {
+        "id": "1121202",
+        "name": "Neumondschatten über Himmelswagen",
+        "rank": 2,
+        "desc": "Erhöht nach dem Einsatz des Ultimates den SCH der nächsten verstärkten Fertigkeit um 80%.",
+        "materials": [
+            { "id": "11212", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1121_rank2.png"
+    },
+    "1121203": {
+        "id": "1121203",
+        "name": "Lunare Sehnsucht",
+        "rank": 3,
+        "desc": "Ultimate-Stufe +2 bis max. St. 15. Talentstufe +2 bis max. St. 15.",
+        "materials": [
+            { "id": "11212", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "1121203", "num": 2 },
+            { "id": "1121204", "num": 2 }
+        ],
+        "icon": "icon/skill/1121_ultimate.png"
+    },
+    "1121204": {
+        "id": "1121204",
+        "name": "Hochgehaltenes Mondlicht",
+        "rank": 4,
+        "desc": "Im Status „Seelenwanderung“ erhöht jede Stapelung „Mondlicht“ den KRIT-SCH zusätzlich um 20%.",
+        "materials": [
+            { "id": "11212", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1121_rank4.png"
+    },
+    "1121205": {
+        "id": "1121205",
+        "name": "Obskurität über den Sternen",
+        "rank": 5,
+        "desc": "Fertigkeitsstufe +2 bis max. St. 15. Standardangriff-Stufe +1 bis max. St. 10.",
+        "materials": [
+            { "id": "11212", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "1121202", "num": 2 },
+            { "id": "1121201", "num": 1 },
+            { "id": "1121209", "num": 2 }
+        ],
+        "icon": "icon/skill/1121_skill.png"
+    },
+    "1121206": {
+        "id": "1121206",
+        "name": "Finsternis zum Nichts",
+        "rank": 6,
+        "desc": "Wenn Jingliu in den Status „Seelenwanderung“ eintritt, wird das Stapelungslimit von „Lunation“ um 1 erhöht und sie erhält 2 Stapelungen Lunation. Im Status Seelenwanderung wird ihre Eis-WDS-DUR um 30% erhöht.",
+        "materials": [
+            { "id": "11212", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1121_rank6.png"
     },
     "120101": {
         "id": "120101",
@@ -4707,7 +4997,7 @@
         "id": "140606",
         "name": "Diebin inkognito",
         "rank": 6,
-        "desc": "Erhöht den durch Folgeangriffe verursachten SCH von Ciphers Talent um 350%. Zeichnet zusätzlich 16% des nicht Überladungs-SCH dieses Angriffs auf. Nachdem der aufgezeichnete Wert durch Einsatz des Ultimates zurückgesetzt wurde, werden 20% des diesmaligen aufgezeichneten Werts zurückerstattet.",
+        "desc": "Erhöht den durch Folgeangriffe verursachten SCH von Ciphers Talent um 350%. Zeichnet zusätzlich 16% des nicht Überladungs-SCH dieses Angriffs auf. Nachdem der aufgezeichnete Wert durch Einsatz des Ultimates zurückgesetzt wurde, werden 20% des entfernten Werts zurückerstattet.",
         "materials": [
             { "id": "11406", "num": 1 }
         ],
@@ -4792,6 +5082,82 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1407_rank6.png"
+    },
+    "140801": {
+        "id": "140801",
+        "name": "Feuer und Licht verbinden Tugend und Laster",
+        "rank": 1,
+        "desc": "Erhöht den übernommenen Prozentsatz an Basis-GES in Khaslanas zusätzlichen Runden auf 66%. Für jeden besiegten Gegner in einem einzelnen Kampf wird dieser Wert zusätzlich um 1.5% erhöht, bis zu 84%.\nErhöht den KRIT-SCH beim Einsatz des Ultimates für 3 Rd. um 50%.",
+        "materials": [
+            { "id": "11408", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1408_rank1.png"
+    },
+    "140802": {
+        "id": "140802",
+        "name": "Himmel und Erde, Schaum der sterblichen Welt",
+        "rank": 2,
+        "desc": "Erhöht Khaslanas physische WDS-DUR um 20%. Wenn bei einem einzelnen Einsatz von „Pfeiler: Urteil des Sterntods“ 4 Pkt. Schädigung verbraucht werden, erhält er 1 zusätzliche Runde.",
+        "materials": [
+            { "id": "11408", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1408_rank2.png"
+    },
+    "140803": {
+        "id": "140803",
+        "name": "Tief in den Ruinen der Stille begraben",
+        "rank": 3,
+        "desc": "Ultimate-Stufe +2 bis max. St. 15. Standardangriff-Stufe +1 bis max. St. 10.",
+        "materials": [
+            { "id": "11408", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "140803", "num": 2 },
+            { "id": "140801", "num": 1 },
+            { "id": "140808", "num": 1 }
+        ],
+        "icon": "icon/skill/1408_ultimate.png"
+    },
+    "140804": {
+        "id": "140804",
+        "name": "Antlitze der Titanen, verwischt von der Zeit",
+        "rank": 4,
+        "desc": "Erhält beim Einsatz von „Unheil: Erlass des Seelenmords“ zusätzlich 4 Stapelungen „Seelenbrand“.",
+        "materials": [
+            { "id": "11408", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1408_rank4.png"
+    },
+    "140805": {
+        "id": "140805",
+        "name": "Der Zeiger dreht sich ewig",
+        "rank": 5,
+        "desc": "Fertigkeitsstufe +2 bis max. St. 15. Talentstufe +2 bis max. St. 15.",
+        "materials": [
+            { "id": "11408", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "140802", "num": 2 },
+            { "id": "140804", "num": 2 },
+            { "id": "140805", "num": 2 },
+            { "id": "140809", "num": 2 },
+            { "id": "140811", "num": 2 }
+        ],
+        "icon": "icon/skill/1408_skill.png"
+    },
+    "140806": {
+        "id": "140806",
+        "name": "Aufstieg alter Glut",
+        "rank": 6,
+        "desc": "Die überschüssigen Punkte für „Kernflamme“ hat keine Obergrenze mehr. Erhält zu Beginn des Kampfes 6 Pkt. Kernflamme.\nNach dem Einsatz des Angriffs von „Pfeiler: Urteil des Sterntods“ wird dem Gegner mit den höchsten LP zusätzlich Tatsächlicher SCH in Höhe von 36% des gesamten SCH dieses Angriffs zugefügt.",
+        "materials": [
+            { "id": "11408", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1408_rank6.png"
     },
     "140901": {
         "id": "140901",

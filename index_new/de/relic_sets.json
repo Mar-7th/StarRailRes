@@ -365,7 +365,7 @@
         "name": "Kriegsgöttin der lodernden Sonne und des Donners",
         "desc": [
             "Erhöht GES um 6%.",
-            "Erhält „Sanfter Regen“, nachdem der Träger und sein Memogeist Verbündete außer sich selbst Heilung geleistet haben. Dieser Effekt kann bis zu 1-mal pro Runde ausgelöst werden und hält 2 Rd. an. Wenn der Träger Sanfter Regen besitzt, wird seine GES um 6% und der KRIT-SCH aller Verbündeten um 15% erhöht. Dieser Effekt ist nicht stapelbar."
+            "Erhält „Sanfter Regen“, nachdem der Träger oder sein Memogeist Verbündete außer sich selbst Heilung geleistet hat. Dieser Effekt kann bis zu 1-mal pro Runde ausgelöst werden und hält 2 Rd. an. Wenn der Träger Sanfter Regen besitzt, wird seine GES um 6% und der KRIT-SCH aller Verbündeten um 15% erhöht. Dieser Effekt ist nicht stapelbar."
         ],
         "properties": [
             [
@@ -647,5 +647,29 @@
             ]
         ],
         "icon": "icon/relic/320.png"
+    },
+    "321": {
+        "id": "321",
+        "name": "Traumwebendes Feenreich",
+        "desc": [
+            "Wenn die aktuelle Anzahl der Verbündeten auf dem Kampffeld nicht 4 beträgt, wird für jeden Verbündeten über/unter 4 der verursachte SCH des Trägers sowie seines Memogeists um 9%/12% erhöht. Dieser Effekt ist bis zu 4/3-fach stapelbar."
+        ],
+        "properties": [
+            []
+        ],
+        "icon": "icon/relic/321.png"
+    },
+    "322": {
+        "id": "322",
+        "name": "Küste der Weintrunkenheit",
+        "desc": [
+            "Erhöht den ANG des Trägers um 12%. Wenn der ANG des Trägers 2400/3600 oder höher beträgt, wird sein verursachter DoT zusätzlich um 12%/24% erhöht."
+        ],
+        "properties": [
+            [
+                { "type": "AttackAddedRatio", "value": 0.12 }
+            ]
+        ],
+        "icon": "icon/relic/322.png"
     }
 }

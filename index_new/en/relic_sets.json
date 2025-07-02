@@ -368,7 +368,7 @@
         "name": "Warrior Goddess of Sun and Thunder",
         "desc": [
             "Increases SPD by 6%.",
-            "When the wearer and their memosprite provide healing to ally targets aside from themselves, the wearer gains \"Gentle Rain,\" which can be triggered up to 1 time per turn, lasting for 2 turn(s). While the wearer has \"Gentle Rain,\" increases their SPD by 6% and all allies' CRIT DMG by 15%. This effect cannot be stacked."
+            "When the wearer or their memosprite provides healing to ally targets other than themselves, the wearer gains \"Gentle Rain,\" which lasts for 2 turn(s) and can only trigger once per turn. While the wearer has \"Gentle Rain,\" SPD increases by 6% and all allies' CRIT DMG increases by 15%. This effect cannot stack."
         ],
         "properties": [
             [
@@ -650,5 +650,29 @@
             ]
         ],
         "icon": "icon/relic/320.png"
+    },
+    "321": {
+        "id": "321",
+        "name": "Arcadia of Woven Dreams",
+        "desc": [
+            "When the number of ally targets on the field is not equal to 4, for every 1 additional/missing ally target, increases the DMG dealt by the wearer and their memosprite by 9%/12%, stacking up to 4/3 time(s)."
+        ],
+        "properties": [
+            []
+        ],
+        "icon": "icon/relic/321.png"
+    },
+    "322": {
+        "id": "322",
+        "name": "Revelry by the Sea",
+        "desc": [
+            "Increases the wearer's ATK by 12%. When the wearer's ATK is higher than or equal to 2400/3600, increases the DoT DMG dealt by 12%/24% respectively."
+        ],
+        "properties": [
+            [
+                { "type": "AttackAddedRatio", "value": 0.12 }
+            ]
+        ],
+        "icon": "icon/relic/322.png"
     }
 }

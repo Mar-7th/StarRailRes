@@ -1754,6 +1754,247 @@
             ]
         ]
     },
+    "21053": {
+        "id": "21053",
+        "skill": "Doce Sonho",
+        "desc": "Aumenta o Efeito de Escudo fornecido ao usuário em #1[i]%. Quando um aliado-alvo possui um Escudo, o Dano causado aumenta em #2[i]%.",
+        "params": [
+            [0.12, 0.12],
+            [0.15, 0.14],
+            [0.18, 0.16],
+            [0.21, 0.18],
+            [0.24, 0.2]
+        ],
+        "properties": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    "21054": {
+        "id": "21054",
+        "skill": "Está Escrito",
+        "desc": "Aumenta os PV máximos do usuário em #1[i]%. Após o ataque do Memoespírito do usuário, a Cura Realizada do usuário e do seu Memoespírito aumenta em #2[i]%, durando por #3[i] rodada(s).",
+        "params": [
+            [0.16, 0.12, 1],
+            [0.2, 0.15, 1],
+            [0.24, 0.18, 1],
+            [0.28, 0.21, 1],
+            [0.32, 0.24, 1]
+        ],
+        "properties": [
+            [
+                { "type": "HPAddedRatio", "value": 0.16 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.2 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.24 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.28 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.32 }
+            ]
+        ]
+    },
+    "21055": {
+        "id": "21055",
+        "skill": "Adeus",
+        "desc": "Aumenta a Cura Realizada pelo usuário em #1[i]%. Quando a porcentagem de PV atual do aliado-alvo for maior ou igual a #2[i]%, aumenta o Dano causado em #3[i]%.",
+        "params": [
+            [0.12, 0.5, 0.12],
+            [0.15, 0.5, 0.14],
+            [0.18, 0.5, 0.16],
+            [0.21, 0.5, 0.18],
+            [0.24, 0.5, 0.2]
+        ],
+        "properties": [
+            [
+                { "type": "HealRatioBase", "value": 0.12 }
+            ],
+            [
+                { "type": "HealRatioBase", "value": 0.15 }
+            ],
+            [
+                { "type": "HealRatioBase", "value": 0.18 }
+            ],
+            [
+                { "type": "HealRatioBase", "value": 0.21 }
+            ],
+            [
+                { "type": "HealRatioBase", "value": 0.24 }
+            ]
+        ]
+    },
+    "21056": {
+        "id": "21056",
+        "skill": "Frustrado",
+        "desc": "Após entrar em combate, aumenta o Dano de Quebra causado por todos os aliados em #1[i]%. Habilidades do mesmo tipo não se acumulam.",
+        "params": [
+            [0.16],
+            [0.18],
+            [0.2],
+            [0.22],
+            [0.24]
+        ],
+        "properties": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    "21057": {
+        "id": "21057",
+        "skill": "Interdependência",
+        "desc": "Aumenta o Dano CRIT do usuário em #1[i]%. O Dano CRIT causado pelo Memoespírito do usuário aumenta em #2[i]%.",
+        "params": [
+            [0.24, 0.24],
+            [0.28, 0.3],
+            [0.32, 0.36],
+            [0.36, 0.42],
+            [0.4, 0.48]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalDamageBase", "value": 0.24 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.28 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.32 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.36 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.4 }
+            ]
+        ]
+    },
+    "21058": {
+        "id": "21058",
+        "skill": "Massacre",
+        "desc": "Aumenta a Chance de CRIT do usuário em #1[i]%. O Dano da Perícia e o Dano da Perícia Suprema causados pelo usuário aumentam em #2[i]%.",
+        "params": [
+            [0.12, 0.24],
+            [0.14, 0.28],
+            [0.16, 0.32],
+            [0.18, 0.36],
+            [0.2, 0.4]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalChanceBase", "value": 0.12 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.14 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.16 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.18 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.2 }
+            ]
+        ]
+    },
+    "21060": {
+        "id": "21060",
+        "skill": "Anseio",
+        "desc": "Aumenta a Chance de CRIT do usuário em #1[i]%. O Dano da Perícia Suprema e o Dano do Ataque Extraa causados pelo usuário aumentam em #2[i]%.",
+        "params": [
+            [0.12, 0.24],
+            [0.14, 0.28],
+            [0.16, 0.32],
+            [0.18, 0.36],
+            [0.2, 0.4]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalChanceBase", "value": 0.12 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.14 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.16 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.18 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.2 }
+            ]
+        ]
+    },
+    "21061": {
+        "id": "21061",
+        "skill": "Relaxe",
+        "desc": "Aumenta o Dano causado pelo usuário em #1[i]%. Após o usuário atacar, há uma chance-base de #2[i]% de que o alvo atacado sofra Vulnerabilidade, aumentando o Dano que recebe em #3[i]% por #4[i] rodada(s). O mesmo tipo de efeito não pode ser acumulado.",
+        "params": [
+            [0.16, 1, 0.1, 2],
+            [0.2, 1, 0.115, 2],
+            [0.24, 1, 0.13, 2],
+            [0.28, 1, 0.145, 2],
+            [0.32, 1, 0.16, 2]
+        ],
+        "properties": [
+            [
+                { "type": "AllDamageTypeAddedRatio", "value": 0.16 }
+            ],
+            [
+                { "type": "AllDamageTypeAddedRatio", "value": 0.2 }
+            ],
+            [
+                { "type": "AllDamageTypeAddedRatio", "value": 0.24 }
+            ],
+            [
+                { "type": "AllDamageTypeAddedRatio", "value": 0.28 }
+            ],
+            [
+                { "type": "AllDamageTypeAddedRatio", "value": 0.32 }
+            ]
+        ]
+    },
+    "21062": {
+        "id": "21062",
+        "skill": "Persistência",
+        "desc": "Aumenta o Dano CRIT do usuário em #1[i]%. O Dano da Perícia e o Dano do Ataque Extra causados pelo usuário aumentam em #2[i]%.",
+        "params": [
+            [0.24, 0.24],
+            [0.28, 0.28],
+            [0.32, 0.32],
+            [0.36, 0.36],
+            [0.4, 0.4]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalDamageBase", "value": 0.24 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.28 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.32 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.36 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.4 }
+            ]
+        ]
+    },
     "22000": {
         "id": "22000",
         "skill": "Rápido no Gatilho",
@@ -3095,7 +3336,7 @@
     "23042": {
         "id": "23042",
         "skill": "Tolerância",
-        "desc": "Aumenta a VEL do usuário em #1[i]%. Quando o usuário usa um ATQ Básico, Perícia ou Perícia Suprema, consome os PV de todos os aliados, em um valor igual a #2[f1]% dos seus PV atuais e causa adicionalmente 1 instância de Dano Adicional do Tipo do Memoespírito do usuário em um valor igual a #6[f1]% dos PV totais consumidos ao alvo atacado depois do próximo ataque realizado pelo Memoespírito do usuário. O total de PV consumidos será então redefinido. Quando o Memoespírito do usuário usa a Perícia do Memoespírito, aumenta o Dano recebido por todos os inimigos em #4[f1]% por #5[i] rodada(s). Os mesmos tipos de efeito não podem acumular.",
+        "desc": "Aumenta a VEL do usuário em #1[i]%. Quando o usuário usa ATQ Básico, Perícia ou Perícia Suprema, consome os PV de todos os aliados em um valor igual a #2[f1]% de seus PV, e após o próximo ataque do Memoespírito do usuário, habilita ele a causar adicionalmente 1 instância de Dano Adicional igual a #6[f1]% do total de PV consumidos ao alvo atacado, com o tipo de dano baseado no tipo do Memoespírito. Em seguida, o total de PV consumidos é reiniciado. Quando o Memoespírito do usuário usa a Perícia de Memoespírito, aumenta o Dano recebido por todos os inimigos em #4[f1]%, com duração de #5[i] rodada(s). Efeitos do mesmo tipo não podem ser acumulados.",
         "params": [
             [0.18, 0.01, 0, 0.18, 2, 2.5],
             [0.21, 0.0125, 0, 0.225, 2, 3.125],
@@ -3124,7 +3365,7 @@
     "23043": {
         "id": "23043",
         "skill": "Enganação",
-        "desc": "Aumenta a VEL do usuário em #1[i]%. Após o usuário realizar um ataque, há uma chance-base de #2[i]% de infligir o estado de \"Engano\" em cada inimigo-alvo. Enquanto estiver no estado de \"Engano\", a DEF do inimigo-alvo diminui em #3[i]% por #4[i] rodada(s). Se a VEL do usuário for maior ou igual a #7[i], há uma chance-base de #5[i]% de infligir o estado de \"Roubo\" em todos os inimigos-alvo. Enquanto estiver sob o estado de \"Roubo\", a DEF do inimigo-alvo diminui em #6[i]% por #4[i] rodada(s). Quando os estados de \"Engano\" ou \"Roubo\" são infligidos repetidamente, apenas o efeito mais recente será ativo.",
+        "desc": "Aumenta a VEL do usuário em #1[i]%. Após o usuário usar um Ataque, há uma chance-base de #2[i]% de infligir o estado \"Engano\" a cada inimigo-alvo. Enquanto estiverem sob o estado \"Engano\", os inimigos-alvo têm sua DEF reduzida em #3[i]% por #4[i] rodada(s). Se a VEL do usuário for maior ou igual a #7[i], há uma chance-base de #5[i]% de infligir o estado \"Roubo\" a cada inimigo-alvo. Enquanto estiverem sob o estado \"Roubo\", os inimigos-alvo têm sua DEF reduzida em #6[i]% por #4[i] rodada(s). Quando \"Engano\" ou \"Roubo\" forem infligidos repetidamente, apenas a instância infligida mais recentemente surtirá efeito.",
         "params": [
             [0.18, 1.2, 0.16, 2, 1.2, 0.08, 170],
             [0.21, 1.2, 0.18, 2, 1.2, 0.09, 170],
@@ -3147,6 +3388,93 @@
             ],
             [
                 { "type": "SpeedAddedRatio", "value": 0.3 }
+            ]
+        ]
+    },
+    "23044": {
+        "id": "23044",
+        "skill": "Espoliação",
+        "desc": "A VEL base do usuário aumenta em #1[i]. Quando causa Dano, o usuário ignora #2[i]% da DEF do alvo. Após usar a Perícia Suprema, o usuário obtém \"Sol Escaldante\", que é removido no início da rodada. Enquanto \"Sol Escaldante\" estiver em posse, o Dano causado pelo usuário aumenta em #3[i]%.",
+        "params": [
+            [12, 0.18, 0.6],
+            [14, 0.225, 0.78],
+            [16, 0.27, 0.96],
+            [18, 0.315, 1.14],
+            [20, 0.36, 1.32]
+        ],
+        "properties": [
+            [
+                { "type": "BaseSpeed", "value": 12 }
+            ],
+            [
+                { "type": "BaseSpeed", "value": 14 }
+            ],
+            [
+                { "type": "BaseSpeed", "value": 16 }
+            ],
+            [
+                { "type": "BaseSpeed", "value": 18 }
+            ],
+            [
+                { "type": "BaseSpeed", "value": 20 }
+            ]
+        ]
+    },
+    "23045": {
+        "id": "23045",
+        "skill": "Rei dos Cavaleiros",
+        "desc": "Aumenta o Dano CRIT do usuário em #1[i]%. Ao usar a Perícia Suprema, aumenta a ATQ do usuário em #6[i]%, e se a Energia Máxima do usuário for maior ou igual a #3[i], regenera uma quantidade fixa de Energia igual a #5[i]% da Energia Máxima do usuário e novamente aumenta o ATQ do usuário em #2[i]%, com duração de #4[i] rodadas.",
+        "params": [
+            [0.36, 0.4, 300, 2, 0.1, 0.4],
+            [0.45, 0.5, 300, 2, 0.1, 0.5],
+            [0.54, 0.6, 300, 2, 0.1, 0.6],
+            [0.63, 0.7, 300, 2, 0.1, 0.7],
+            [0.72, 0.8, 300, 2, 0.1, 0.8]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalDamageBase", "value": 0.36 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.45 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.54 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.63 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.72 }
+            ]
+        ]
+    },
+    "23046": {
+        "id": "23046",
+        "skill": "Hrunting",
+        "desc": "Aumenta a Chance de CRIT do usuário em #1[i]%. Ao entrar em combate, se o limite de Pontos de Perícia dos aliados for #2[i] ou superior, aumenta o ATQ do usuário em #3[i]%. Após cada uso da Perícia do usuário, aumenta seu ATQ em #4[i]%, acumulando até um máximo de #5[i] vez(es).",
+        "params": [
+            [0.16, 6, 0.4, 0.1, 4],
+            [0.2, 6, 0.5, 0.125, 4],
+            [0.24, 6, 0.6, 0.15, 4],
+            [0.28, 6, 0.7, 0.175, 4],
+            [0.32, 6, 0.8, 0.2, 4]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalChanceBase", "value": 0.16 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.2 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.24 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.28 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.32 }
             ]
         ]
     },

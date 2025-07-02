@@ -1754,6 +1754,247 @@
             ]
         ]
     },
+    "21053": {
+        "id": "21053",
+        "skill": "Beau rêve",
+        "desc": "Augmente la valeur de bouclier accordée par le porteur de #1[i]%. Lorsqu'une cible alliée bénéficie d'un bouclier, augmente les DGT qu'elle inflige de #2[i]%.",
+        "params": [
+            [0.12, 0.12],
+            [0.15, 0.14],
+            [0.18, 0.16],
+            [0.21, 0.18],
+            [0.24, 0.2]
+        ],
+        "properties": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    "21054": {
+        "id": "21054",
+        "skill": "À l'écrit",
+        "desc": "Augmente les PV max du porteur de #1[i]%. Après que le mnémesprit du porteur attaque, les soins prodigués par le porteur et son mnémesprit augmentent de #2[i]% pendant #3[i] tour.",
+        "params": [
+            [0.16, 0.12, 1],
+            [0.2, 0.15, 1],
+            [0.24, 0.18, 1],
+            [0.28, 0.21, 1],
+            [0.32, 0.24, 1]
+        ],
+        "properties": [
+            [
+                { "type": "HPAddedRatio", "value": 0.16 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.2 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.24 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.28 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.32 }
+            ]
+        ]
+    },
+    "21055": {
+        "id": "21055",
+        "skill": "Adieu",
+        "desc": "Augmente les soins prodigués par le porteur de #1[i]%. Lorsque le pourcentage de PV actuel d'une cible alliée est supérieur ou égal à #2[i]%, augmente les DGT infligés de #3[i]%.",
+        "params": [
+            [0.12, 0.5, 0.12],
+            [0.15, 0.5, 0.14],
+            [0.18, 0.5, 0.16],
+            [0.21, 0.5, 0.18],
+            [0.24, 0.5, 0.2]
+        ],
+        "properties": [
+            [
+                { "type": "HealRatioBase", "value": 0.12 }
+            ],
+            [
+                { "type": "HealRatioBase", "value": 0.15 }
+            ],
+            [
+                { "type": "HealRatioBase", "value": 0.18 }
+            ],
+            [
+                { "type": "HealRatioBase", "value": 0.21 }
+            ],
+            [
+                { "type": "HealRatioBase", "value": 0.24 }
+            ]
+        ]
+    },
+    "21056": {
+        "id": "21056",
+        "skill": "Agitation",
+        "desc": "Augmente les DGT de rupture infligés par tous les alliés de #1[i]% après être entré en combat. Les mêmes types d'effets ne se cumulent pas.",
+        "params": [
+            [0.16],
+            [0.18],
+            [0.2],
+            [0.22],
+            [0.24]
+        ],
+        "properties": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    "21057": {
+        "id": "21057",
+        "skill": "Interdépendance",
+        "desc": "Augmente les DGT critiques du porteur de #1[i]%. Les DGT critiques infligés par le mnémesprit du porteur augmentent de #2[i]% supplémentaires.",
+        "params": [
+            [0.24, 0.24],
+            [0.28, 0.3],
+            [0.32, 0.36],
+            [0.36, 0.42],
+            [0.4, 0.48]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalDamageBase", "value": 0.24 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.28 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.32 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.36 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.4 }
+            ]
+        ]
+    },
+    "21058": {
+        "id": "21058",
+        "skill": "Massacre",
+        "desc": "Augmente les chances de coup critique du porteur de #1[i]%. Augmente les DGT de compétence et d'ultime infligés par le porteur de #2[i]%.",
+        "params": [
+            [0.12, 0.24],
+            [0.14, 0.28],
+            [0.16, 0.32],
+            [0.18, 0.36],
+            [0.2, 0.4]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalChanceBase", "value": 0.12 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.14 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.16 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.18 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.2 }
+            ]
+        ]
+    },
+    "21060": {
+        "id": "21060",
+        "skill": "Aspiration",
+        "desc": "Augmente les chances de coup critique du porteur de #1[i]%. Augmente les DGT d'ultime et d'ATQ de suivi infligés par le porteur de #2[i]%.",
+        "params": [
+            [0.12, 0.24],
+            [0.14, 0.28],
+            [0.16, 0.32],
+            [0.18, 0.36],
+            [0.2, 0.4]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalChanceBase", "value": 0.12 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.14 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.16 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.18 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.2 }
+            ]
+        ]
+    },
+    "21061": {
+        "id": "21061",
+        "skill": "Moment de calme",
+        "desc": "Augmente les DGT infligés par le porteur de #1[i]%. Après que le porteur a attaqué, il y a #2[i]% de chances de base d'appliquer Vulnérabilité à la cible attaquée, ce qui augmente les DGT qu'elle subit de #3[i]%, pendant #4[i] tours. Les mêmes types d'effets ne se cumulent pas.",
+        "params": [
+            [0.16, 1, 0.1, 2],
+            [0.2, 1, 0.115, 2],
+            [0.24, 1, 0.13, 2],
+            [0.28, 1, 0.145, 2],
+            [0.32, 1, 0.16, 2]
+        ],
+        "properties": [
+            [
+                { "type": "AllDamageTypeAddedRatio", "value": 0.16 }
+            ],
+            [
+                { "type": "AllDamageTypeAddedRatio", "value": 0.2 }
+            ],
+            [
+                { "type": "AllDamageTypeAddedRatio", "value": 0.24 }
+            ],
+            [
+                { "type": "AllDamageTypeAddedRatio", "value": 0.28 }
+            ],
+            [
+                { "type": "AllDamageTypeAddedRatio", "value": 0.32 }
+            ]
+        ]
+    },
+    "21062": {
+        "id": "21062",
+        "skill": "Persistance",
+        "desc": "Augmente les DGT critiques du porteur de #1[i]%. Augmente les DGT de compétence et d'ATQ de suivi infligés par le porteur de #2[i]%.",
+        "params": [
+            [0.24, 0.24],
+            [0.28, 0.28],
+            [0.32, 0.32],
+            [0.36, 0.36],
+            [0.4, 0.4]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalDamageBase", "value": 0.24 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.28 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.32 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.36 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.4 }
+            ]
+        ]
+    },
     "22000": {
         "id": "22000",
         "skill": "Pioche éclair",
@@ -3095,7 +3336,7 @@
     "23042": {
         "id": "23042",
         "skill": "Tolérance",
-        "desc": "Augmente la VIT du porteur de #1[i]%. Lorsque le porteur utilise son ATQ normale, sa compétence ou son ultime, il consomme #2[f1]% des PV actuels de tous les alliés. Lors de sa prochaine attaque, le mnémesprit du porteur inflige aux cibles attaquées une instance de DGT supplémentaires de son type équivalents à #6[f1]% du total des PV consommés. Le total de PV consommés est ensuite réinitialisé. Lorsque le mnémesprit du porteur utilise la compétence du mnémesprit, augmente les DGT subis par tous les ennemis de #4[f1]% pendant #5[i] tours. Les effets de même type ne peuvent pas se cumuler.",
+        "desc": "Augmente la VIT du porteur de #1[i]%. Lorsque le porteur utilise son ATQ normale, sa compétence ou son ultime, il consomme #2[f1]% des PV actuels de tous les alliés, et lors de la prochaine attaque de son mnémesprit, ce dernier inflige aux cibles attaquées une instance de DGT supplémentaires de son type équivalents à #6[f1]% du total des PV consommés. Le total de PV consommés est ensuite réinitialisé. Lorsque le mnémesprit du porteur utilise la compétence du mnémesprit, augmente les DGT subis par tous les ennemis de #4[f1]% pendant #5[i] tours. Les effets du même type ne peuvent pas être cumulés.",
         "params": [
             [0.18, 0.01, 0, 0.18, 2, 2.5],
             [0.21, 0.0125, 0, 0.225, 2, 3.125],
@@ -3124,7 +3365,7 @@
     "23043": {
         "id": "23043",
         "skill": "Tromperie",
-        "desc": "Augmente la VIT du porteur de #1[i]%. Lorsque le porteur utilise une attaque, il a #2[i]% de chances de base d'appliquer l'effet Bouche-bée à chaque cible ennemie. Lorsqu'un ennemi est Bouche-bée, sa DÉF diminue de #3[i]% pendant #4[i] tours. Si la VIT du porteur est supérieure ou égale à #7[i], il a #5[i]% de chances de base d'appliquer Vol à chaque cible ennemie. Lorsqu'un ennemi est affecté par Vol, sa DÉF diminue de #6[i]% pendant #4[i] tours. Lorsque Bouche-bée ou Vol est appliqué plusieurs fois, seul le dernier effet appliqué est maintenu.",
+        "desc": "Augmente la VIT du porteur de #1[i]%. Lorsque le porteur utilise une attaque, il a #2[i]% de chances de base d'appliquer l'effet Bouche-bée à chaque cible ennemie. Lorsqu'un ennemi est Bouche-bée, sa DÉF diminue de #3[i]% pendant #4[i] tours. Si la VIT du porteur est supérieure ou égale à #7[i], il a #5[i]% de chances de base d'appliquer Larcin à chaque cible ennemie. Lorsqu'un ennemi est affecté par Larcin, sa DÉF diminue de #6[i]% pendant #4[i] tours. Lorsque Bouche-bée ou Larcin est appliqué plusieurs fois, seul le dernier effet appliqué est maintenu.",
         "params": [
             [0.18, 1.2, 0.16, 2, 1.2, 0.08, 170],
             [0.21, 1.2, 0.18, 2, 1.2, 0.09, 170],
@@ -3147,6 +3388,93 @@
             ],
             [
                 { "type": "SpeedAddedRatio", "value": 0.3 }
+            ]
+        ]
+    },
+    "23044": {
+        "id": "23044",
+        "skill": "Égarement",
+        "desc": "Augmente la VIT de base du porteur de #1[i]. Les DGT infligés par le porteur ignorent #2[i]% de la DÉF de la cible. Après avoir lancé un ultime, le porteur obtient l'effet Soleil ardent, lequel se dissipe au début du tour. Lorsqu'il bénéficie de Soleil ardent, augmente les DGT infligés par le porteur de #3[i]%.",
+        "params": [
+            [12, 0.18, 0.6],
+            [14, 0.225, 0.78],
+            [16, 0.27, 0.96],
+            [18, 0.315, 1.14],
+            [20, 0.36, 1.32]
+        ],
+        "properties": [
+            [
+                { "type": "BaseSpeed", "value": 12 }
+            ],
+            [
+                { "type": "BaseSpeed", "value": 14 }
+            ],
+            [
+                { "type": "BaseSpeed", "value": 16 }
+            ],
+            [
+                { "type": "BaseSpeed", "value": 18 }
+            ],
+            [
+                { "type": "BaseSpeed", "value": 20 }
+            ]
+        ]
+    },
+    "23045": {
+        "id": "23045",
+        "skill": "Roi des chevaliers",
+        "desc": "Augmente les DGT critiques du porteur de #1[i]%. Lors de l'utilisation de l'ultime, l'ATQ du porteur augmente de #6[i]%. Si l'énergie max du porteur est supérieure ou égale à #3[i], régénère un montant fixe d'énergie équivalent à #5[i]% de l'énergie max du porteur et augmente l'ATQ du porteur de #2[i]% supplémentaires pendant #4[i] tours.",
+        "params": [
+            [0.36, 0.4, 300, 2, 0.1, 0.4],
+            [0.45, 0.5, 300, 2, 0.1, 0.5],
+            [0.54, 0.6, 300, 2, 0.1, 0.6],
+            [0.63, 0.7, 300, 2, 0.1, 0.7],
+            [0.72, 0.8, 300, 2, 0.1, 0.8]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalDamageBase", "value": 0.36 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.45 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.54 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.63 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.72 }
+            ]
+        ]
+    },
+    "23046": {
+        "id": "23046",
+        "skill": "Hrunting",
+        "desc": "Augmente les chances de coup critique du porteur de #1[i]%. En début de combat, si le nombre max de points de compétence de l'équipe est supérieur ou égal à #2[i], augmente l'ATQ du porteur de #3[i]%. Chaque fois que le porteur utilise une compétence, augmente son ATQ de #4[i]%. Cet effet peut se cumuler jusqu'à #5[i] fois.",
+        "params": [
+            [0.16, 6, 0.4, 0.1, 4],
+            [0.2, 6, 0.5, 0.125, 4],
+            [0.24, 6, 0.6, 0.15, 4],
+            [0.28, 6, 0.7, 0.175, 4],
+            [0.32, 6, 0.8, 0.2, 4]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalChanceBase", "value": 0.16 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.2 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.24 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.28 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.32 }
             ]
         ]
     },
