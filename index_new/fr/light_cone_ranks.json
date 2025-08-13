@@ -2140,6 +2140,35 @@
             ]
         ]
     },
+    "22005": {
+        "id": "22005",
+        "skill": "Génial !",
+        "desc": "Augmente l'ATQ du porteur de #1[i]%. Après que le porteur a utilisé sa compétence, son ATQ augmente de #2[i]%, cumulable jusqu'à #3[i] fois.",
+        "params": [
+            [0.16, 0.08, 3],
+            [0.2, 0.1, 3],
+            [0.24, 0.12, 3],
+            [0.28, 0.14, 3],
+            [0.32, 0.16, 3]
+        ],
+        "properties": [
+            [
+                { "type": "AttackAddedRatio", "value": 0.16 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.2 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.24 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.28 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.32 }
+            ]
+        ]
+    },
     "23000": {
         "id": "23000",
         "skill": "Essaim de météores",
@@ -3475,6 +3504,64 @@
             ],
             [
                 { "type": "CriticalChanceBase", "value": 0.32 }
+            ]
+        ]
+    },
+    "23047": {
+        "id": "23047",
+        "skill": "Solo",
+        "desc": "Augmente les chances d'appliquer des effets du porteur de #1[i]%. Lorsque le porteur applique un malus à une cible ennemie, il y a #2[i]% de chances de base d'appliquer également Enchantement pour une durée de #3[i] tours. Les effets du même type ne peuvent pas être cumulés. Dans l'état Enchantement, chaque malus appliqué par le porteur augmente les dégâts sur la durée subis de #4[f1]%, cumulable jusqu'à #5[i] fois. Lorsqu'un allié attaque un ennemi affecté par Enchantement, la VIT de l'assaillant augmente de #6[f1]% pendant #7[i] tours. Lorsque le porteur est à terre, supprime tous les cumuls d'Enchantement.",
+        "params": [
+            [0.4, 0.8, 3, 0.05, 6, 0.1, 3],
+            [0.45, 0.8, 3, 0.0625, 6, 0.125, 3],
+            [0.5, 0.8, 3, 0.075, 6, 0.15, 3],
+            [0.55, 0.8, 3, 0.0875, 6, 0.175, 3],
+            [0.6, 0.8, 3, 0.1, 6, 0.2, 3]
+        ],
+        "properties": [
+            [
+                { "type": "StatusProbabilityBase", "value": 0.4 }
+            ],
+            [
+                { "type": "StatusProbabilityBase", "value": 0.45 }
+            ],
+            [
+                { "type": "StatusProbabilityBase", "value": 0.5 }
+            ],
+            [
+                { "type": "StatusProbabilityBase", "value": 0.55 }
+            ],
+            [
+                { "type": "StatusProbabilityBase", "value": 0.6 }
+            ]
+        ]
+    },
+    "23048": {
+        "id": "23048",
+        "skill": "Conquête",
+        "desc": "Augmente l'ATQ du porteur de #1[i]%. Après avoir utilisé un ultime pour attaquer, récupère #3[i] point de compétence. Après que le porteur a utilisé une compétence sur un personnage allié, augmente les DGT de compétence infligés par la cible de #4[f1]% pendant #5[i] tours.",
+        "params": [
+            [0.64, 1, 1, 0.54, 3],
+            [0.8, 1, 1, 0.675, 3],
+            [0.96, 1, 1, 0.81, 3],
+            [1.12, 1, 1, 0.945, 3],
+            [1.28, 1, 1, 1.08, 3]
+        ],
+        "properties": [
+            [
+                { "type": "AttackAddedRatio", "value": 0.64 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.8 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.96 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 1.12 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 1.28 }
             ]
         ]
     },

@@ -374,7 +374,7 @@
         "id": "100602",
         "name": "Zombienetzwerk",
         "rank": 2,
-        "desc": "Tritt ein Gegner in den Kampf ein, wird sein Effekt-WDS um 20% reduziert.",
+        "desc": "Beim Kampfeintritt eines Gegners wird sein Effekt-WDS um 20% reduziert.",
         "materials": [
             { "id": "11006", "num": 1 }
         ],
@@ -2241,7 +2241,7 @@
         "id": "120501",
         "name": "Eine Schwertlänge, tausend Höllentiefen",
         "rank": 1,
-        "desc": "Blades Ultimate verursacht bei einem anvisierten Gegner zusätzlich erhöhten SCH, wobei der erhöhte Betrag 150% seiner gesamten im aktuellen Kampf verlorenen LP beträgt.\nDie berechneten LP, die Blade im aktuellen Kampf insgesamt verloren hat, werden auf 90% seiner max. LP begrenzt. Nachdem er seinen Ultimate eingesetzt hat, wird dieser Wert zurückgesetzt und neu berechnet.",
+        "desc": "Blades Ultimate verursacht bei einem anvisierten Gegner zusätzlich erhöhten SCH, wobei der erhöhte Betrag 150% seiner gesamten im aktuellen Kampf verlorenen LP beträgt.\nDer im aktuellen Kampf angesammelte LP-Verlust wird auf 90% seiner max. LP begrenzt. Nachdem er seinen Ultimate eingesetzt hat, wird dieser Wert zurückgesetzt und neu berechnet.",
         "materials": [
             { "id": "11205", "num": 1 }
         ],
@@ -2782,7 +2782,7 @@
         "id": "121204",
         "name": "Hochgehaltenes Mondlicht",
         "rank": 4,
-        "desc": "Im Status „Seelenwanderung“ wird der ANG, der durch den Verbrauch der LP von Verbündeten erhalten wird, zusätzlich um 90% der insgesamt verbrauchten Menge der LP aller Verbündeten erhöht. Die Obergrenze für den auf diese Weise verstärkten ANG wird um 30% erhöht.",
+        "desc": "Im Status „Seelenwanderung“ wird der ANG, der durch den Verbrauch der LP von Teammitgliedern erhalten wird, zusätzlich um 90% der insgesamt verbrauchten Menge der LP aller Verbündeten erhöht. Die Obergrenze für den auf diese Weise verstärkten ANG wird um 30% erhöht.",
         "materials": [
             { "id": "11212", "num": 1 }
         ],
@@ -2808,7 +2808,7 @@
         "id": "121206",
         "name": "Finsternis zum Nichts",
         "rank": 6,
-        "desc": "Wenn Jingliu in den Status „Seelenwanderung“ eintritt, wird das Stapelungslimit von „Lunation“ um 1 erhöht und sie erhält 1 Stapelung „Lunation“. Im Status „Seelenwanderung“ wird ihr KRIT-SCH um 50% erhöht.",
+        "desc": "Wenn Jingliu in den Status „Seelenwanderung“ eintritt, wird das Stapelungslimit von „Lunation“ um 1 erhöht und sie erhält 1 Stapelung Lunation. Im Status Seelenwanderung wird ihr KRIT-SCH um 50% erhöht.",
         "materials": [
             { "id": "11212", "num": 1 }
         ],
@@ -5379,6 +5379,150 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1409_rank6.png"
+    },
+    "141001": {
+        "id": "141001",
+        "name": "Du fragst, warum mein Herz so trauert",
+        "rank": 1,
+        "desc": "Wenn sich Hysilens auf dem Kampffeld befindet, verursachen Verbündete DoT in Höhe von 116% des ursprünglichen SCH. Wenn Hysilens durch das Talent Gegner mit Windscherung/Bluten/Brennen/Schock belegt, besteht eine Grundchance von 100%, sie zusätzlich mit einem Status desselben Typs zu belegen, der dem Talenteffekt entspricht und gleichzeitig bestehen kann.",
+        "materials": [
+            { "id": "11410", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1410_rank1.png"
+    },
+    "141002": {
+        "id": "141002",
+        "name": "Du willst wissen, warum die Wellen so rauschen",
+        "rank": 2,
+        "desc": "Während das Feld aktiv ist, wirkt die SCH-Erhöhung der Spur „Saiten der Perlen“ auf alle Verbündeten.",
+        "materials": [
+            { "id": "11410", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1410_rank2.png"
+    },
+    "141003": {
+        "id": "141003",
+        "name": "Weißt du, warum die Lichter vergessen",
+        "rank": 3,
+        "desc": "Ultimate-Stufe +2 bis max. St. 15. Standardangriff-Stufe +1 bis max. St. 10.",
+        "materials": [
+            { "id": "11410", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "141003", "num": 2 },
+            { "id": "141001", "num": 1 }
+        ],
+        "icon": "icon/skill/1410_ultimate.png"
+    },
+    "141004": {
+        "id": "141004",
+        "name": "Sieh nur, warum die Zeit dahinfließt",
+        "rank": 4,
+        "desc": "Während das Feld aktiv ist, wird der WDS aller Typen aller Gegner um 20% reduziert.",
+        "materials": [
+            { "id": "11410", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1410_rank4.png"
+    },
+    "141005": {
+        "id": "141005",
+        "name": "Leise singe ich bei meiner Waschung",
+        "rank": 5,
+        "desc": "Fertigkeitsstufe +2 bis max. St. 15. Talentstufe +2 bis max. St. 15.",
+        "materials": [
+            { "id": "11410", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "141002", "num": 2 },
+            { "id": "141004", "num": 2 }
+        ],
+        "icon": "icon/skill/1410_skill.png"
+    },
+    "141006": {
+        "id": "141006",
+        "name": "Versunkene, wann kehrst du zurück",
+        "rank": 6,
+        "desc": "Während das Feld aktiv ist, wird zu Beginn jeder Runde oder nach einem Einzelangriff eines Verbündeten die max. Auslösungszahl von Hysilens’ physischem DoT-Effekt auf 12 und der SCH-Multiplikator des verursachten SCH um 20% erhöht.",
+        "materials": [
+            { "id": "11410", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1410_rank6.png"
+    },
+    "141201": {
+        "id": "141201",
+        "name": "Eroberung der Kronen aller",
+        "rank": 1,
+        "desc": "Die Figur mit „Militärverdienst“ ignoriert beim Verursachen von SCH 16% der VTD des Gegners. Wenn Militärverdienst zu „Adelstitel“ hochgestuft wird, ignoriert diese Figur beim Verursachen von Fertigkeits-SCH zusätzlich 20% der VTD des Gegners. Beim Einsatz von Cerydras Fertigkeit stellt sie bei einem anvisierten Verbündeten 2 Pkt. Energie wieder her.",
+        "materials": [
+            { "id": "11412", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1412_rank1.png"
+    },
+    "141202": {
+        "id": "141202",
+        "name": "Die vereinte Hoffnung vieler",
+        "rank": 2,
+        "desc": "Erhöht den verursachten SCH von Figuren mit „Militärverdienst“ um 40%. Wenn sich ein Teammitglied mit Militärverdienst auf dem Kampffeld befindet, wird Cerydras verursachter SCH um 160% erhöht.",
+        "materials": [
+            { "id": "11412", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1412_rank2.png"
+    },
+    "141203": {
+        "id": "141203",
+        "name": "Verbrennen der alten Gesetze",
+        "rank": 3,
+        "desc": "Fertigkeitsstufe +2 bis max. St. 15. Standardangriff-Stufe +1 bis max. St. 10.",
+        "materials": [
+            { "id": "11412", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "141202", "num": 2 },
+            { "id": "141201", "num": 1 }
+        ],
+        "icon": "icon/skill/1412_skill.png"
+    },
+    "141204": {
+        "id": "141204",
+        "name": "Rekonstruktion der Menschenreiche",
+        "rank": 4,
+        "desc": "Erhöht den SCH-Multiplikator des Ultimates um 240%.",
+        "materials": [
+            { "id": "11412", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1412_rank4.png"
+    },
+    "141205": {
+        "id": "141205",
+        "name": "Abrechnung von Gut und Böse",
+        "rank": 5,
+        "desc": "Ultimate-Stufe +2 bis max. St. 15. Talentstufe +2 bis max. St. 15.",
+        "materials": [
+            { "id": "11412", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "141203", "num": 2 },
+            { "id": "141204", "num": 2 }
+        ],
+        "icon": "icon/skill/1412_ultimate.png"
+    },
+    "141206": {
+        "id": "141206",
+        "name": "Reise ins Sternenmeer",
+        "rank": 6,
+        "desc": "Erhöht die WDS-DUR aller Typen von der Figur mit „Militärverdienst“ um 20% und den Multiplikator des zusätzlichen SCH, der durch Militärverdienst ausgelöst wird, um 300%. Wenn sich ein Teammitglied mit Militärverdienst auf dem Kampffeld befindet, wird Cerydras WDS-DUR aller Typen um 20% erhöht.",
+        "materials": [
+            { "id": "11412", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1412_rank6.png"
     },
     "800101": {
         "id": "800101",

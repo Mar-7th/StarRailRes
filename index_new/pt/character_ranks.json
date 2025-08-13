@@ -208,7 +208,7 @@
         "id": "100306",
         "name": "Desbravamento!",
         "rank": 6,
-        "desc": "A Perícia Suprema causa 2 instâncias extras de Dano de Fogo equivalentes a 0 do Dano original a um inimigo aleatório.",
+        "desc": "A Perícia Suprema causa 2 instâncias extras de Dano de Fogo equivalentes a 40% do Dano original a um inimigo aleatório.",
         "materials": [
             { "id": "11003", "num": 1 }
         ],
@@ -660,7 +660,7 @@
     },
     "101402": {
         "id": "101402",
-        "name": "Juramento Perdido da Távola Redonda",
+        "name": "O Juramento Perdido da Távola Redonda",
         "rank": 2,
         "desc": "Para cada ponto de \"Ressonância do Núcleo\" obtido nesta batalha, o Dano causado por Saber ignora 1.0% da DEF do alvo. Esse efeito pode acumular até um máximo de 15 vez(es). Ao ativar o efeito de multiplicador de Perícia da \"Ressonância do Núcleo\", cada ponto de \"Ressonância do Núcleo\" aumenta adicionalmente o multiplicador de Dano desta instância da Perícia em 7%.",
         "materials": [
@@ -879,7 +879,7 @@
         "id": "1100602",
         "name": "Rede de Zumbis",
         "rank": 2,
-        "desc": "Quando um inimigo-alvo entra em batalha, aumenta seu Dano recebido em 20%. Quando um inimigo-alvo é atacado por aliados-alvo, Loba Prateada tem uma chance-base de 100% de implantar 1 \"Erro\" aleatório no inimigo-alvo atacado.",
+        "desc": "Quando um inimigo-alvo entra em batalha, aumenta o Dano recebido por ele em 20%. Quando um inimigo-alvo é atacado por aliados-alvo, Loba Prateada tem uma chance-base de 100% de implantar 1 \"Erro\" aleatório no inimigo-alvo atacado.",
         "materials": [
             { "id": "11006", "num": 1 }
         ],
@@ -904,7 +904,7 @@
         "id": "1100604",
         "name": "Ataque Rebote",
         "rank": 4,
-        "desc": "Após usar a Perícia Suprema para atacar um inimigo-alvo, causa Dano Adicional Quântico igual a 20% do ATQ da Loba Prateada para cada penalidade no alvo. Este efeito pode ser ativado até 5 vez(es) por alvo durante cada uso da Perícia Suprema.",
+        "desc": "Após usar a Perícia Suprema para atacar um inimigo-alvo, causa Dano Quântico Adicional igual a 20% do ATQ da Loba Prateada para cada penalidade no alvo. Este efeito pode ser ativado até 5 vez(es) por alvo durante cada uso da Perícia Suprema.",
         "materials": [
             { "id": "11006", "num": 1 }
         ],
@@ -5379,6 +5379,150 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1409_rank6.png"
+    },
+    "141001": {
+        "id": "141001",
+        "name": "Você Pondera \"Por Que Corações Choram?\"",
+        "rank": 1,
+        "desc": "Enquanto Hysilens está em campo, aliados-alvo causam Dano Contínuo igual a 116% do Dano original. Quando Hysilens inflige \"Cisalhamento de Vento\"/\"Sangramento\"/\"Queimadura\"/\"Choque\" aos inimigos por meio de seu Talento, há uma chance-base de 100% de infligir adicionalmente ao alvo 1 instância do estado de \"Cisalhamento de Vento\"/\"Sangramento\"/\"Queimadura\"/\"Choque\", que é igual àquele do efeito original do Talento, e que pode coexistir com o efeito original do Talento.",
+        "materials": [
+            { "id": "11410", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1410_rank1.png"
+    },
+    "141002": {
+        "id": "141002",
+        "name": "Me Diga o Motivo das Ondam que Assolam",
+        "rank": 2,
+        "desc": "Enquanto o Campo estiver ativo, o efeito de Bônus de Dano do Rastro \"O Violino de Pérolas\" se aplica a todos os aliados.",
+        "materials": [
+            { "id": "11410", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1410_rank2.png"
+    },
+    "141003": {
+        "id": "141003",
+        "name": "Por Que as Luzes se Vão?",
+        "rank": 3,
+        "desc": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
+        "materials": [
+            { "id": "11410", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "141003", "num": 2 },
+            { "id": "141001", "num": 1 }
+        ],
+        "icon": "icon/skill/1410_ultimate.png"
+    },
+    "141004": {
+        "id": "141004",
+        "name": "Vítimas do Tempo em Eterna Vazão",
+        "rank": 4,
+        "desc": "Enquanto o Campo estiver ativo, reduz a RES a Todos os Tipos de todos os inimigos em 20%.",
+        "materials": [
+            { "id": "11410", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1410_rank4.png"
+    },
+    "141005": {
+        "id": "141005",
+        "name": "Em Ablução, Eu Canto e Suspiro",
+        "rank": 5,
+        "desc": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
+        "materials": [
+            { "id": "11410", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "141002", "num": 2 },
+            { "id": "141004", "num": 2 }
+        ],
+        "icon": "icon/skill/1410_skill.png"
+    },
+    "141006": {
+        "id": "141006",
+        "name": "Ao Retornar do Descanso de Quem Admiro",
+        "rank": 6,
+        "desc": "Enquanto o Campo estiver ativo, no início de cada rodada ou depois de um ataque de um aliado-alvo, aumenta a contagem máxima de ativação do efeito de Dano Físico Contínuo de Hysilens para 12 e aumenta o multiplicador de Dano causado em 20%.",
+        "materials": [
+            { "id": "11410", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1410_rank6.png"
+    },
+    "141201": {
+        "id": "141201",
+        "name": "Reivindique Todas as Coroas",
+        "rank": 1,
+        "desc": "O personagem com \"Mérito Militar\" ignora 16% da DEF do alvo ao causar Dano. Se o estado de \"Mérito Militar\" for melhorado para o estado de \"Pariato\", o personagem ignora adicionalmente 20% da DEF dos alvos ao causar Dano de Perícia. Quando Cerydra usa sua Perícia, regenera 2 de Energia para o aliado-alvo designado.",
+        "materials": [
+            { "id": "11412", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1412_rank1.png"
+    },
+    "141202": {
+        "id": "141202",
+        "name": "Forje os Desejos de Muitos",
+        "rank": 2,
+        "desc": "O personagem com \"Mérito Militar\" causa 40% de Dano adicional. Enquanto houver um aliado com \"Mérito Militar\" em campo, o Dano causado de Cerydra aumenta em 160%.",
+        "materials": [
+            { "id": "11412", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1412_rank2.png"
+    },
+    "141203": {
+        "id": "141203",
+        "name": "Incendeie as Leis Antigas",
+        "rank": 3,
+        "desc": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
+        "materials": [
+            { "id": "11412", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "141202", "num": 2 },
+            { "id": "141201", "num": 1 }
+        ],
+        "icon": "icon/skill/1412_skill.png"
+    },
+    "141204": {
+        "id": "141204",
+        "name": "Recrie os Reinos dos Homens",
+        "rank": 4,
+        "desc": "Aumenta o Multiplicador de Dano de Perícia Suprema em 240%.",
+        "materials": [
+            { "id": "11412", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1412_rank4.png"
+    },
+    "141205": {
+        "id": "141205",
+        "name": "Retribuição dos Favores e das Afrontas",
+        "rank": 5,
+        "desc": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
+        "materials": [
+            { "id": "11412", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "141203", "num": 2 },
+            { "id": "141204", "num": 2 }
+        ],
+        "icon": "icon/skill/1412_ultimate.png"
+    },
+    "141206": {
+        "id": "141206",
+        "name": "Uma Jornada Estelar",
+        "rank": 6,
+        "desc": "O personagem com \"Mérito Militar\" aumenta sua PEN de RES a Todos os Tipos em 20% e o multiplicador de Dano Adicional ativado por \"Mérito Militar\" é aumentado em 300%. Enquanto houver um aliado com \"Mérito Militar\" no campo de batalha, a PEN de RES a Todos os Tipos de Cerydra aumenta em 20%.",
+        "materials": [
+            { "id": "11412", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1412_rank6.png"
     },
     "800101": {
         "id": "800101",

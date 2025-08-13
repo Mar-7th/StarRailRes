@@ -2140,6 +2140,35 @@
             ]
         ]
     },
+    "22005": {
+        "id": "22005",
+        "skill": "Thơm Quá!",
+        "desc": "Tăng #1[i]% Tấn Công của người trang bị. Sau khi người trang bị thi triển Chiến Kỹ, Tấn Công tăng #2[i]%, hiệu ứng này tối đa cộng dồn #3[i] tầng.",
+        "params": [
+            [0.16, 0.08, 3],
+            [0.2, 0.1, 3],
+            [0.24, 0.12, 3],
+            [0.28, 0.14, 3],
+            [0.32, 0.16, 3]
+        ],
+        "properties": [
+            [
+                { "type": "AttackAddedRatio", "value": 0.16 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.2 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.24 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.28 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.32 }
+            ]
+        ]
+    },
     "23000": {
         "id": "23000",
         "skill": "Chòm Sao Băng",
@@ -3475,6 +3504,64 @@
             ],
             [
                 { "type": "CriticalChanceBase", "value": 0.32 }
+            ]
+        ]
+    },
+    "23047": {
+        "id": "23047",
+        "skill": "Độc Tấu",
+        "desc": "Khiến Chính Xác Hiệu Ứng của người trang bị tăng #1[i]%, khi mục tiêu phe địch rơi vào Hiệu Ứng Xấu do người trang bị thi triển, có #2[i]% xác suất cơ bản khiến kẻ đó rơi vào trạng thái Mê Hồn, duy trì #3[i] hiệp, hiệu ứng cùng loại không thể cộng dồn. Trong trạng thái Mê Hồn, cứ mỗi Hiệu Ứng Xấu do người trang bị thi triển, Sát Thương Duy Trì phải chịu tăng #4[f1]%, hiệu ứng này tối đa cộng dồn #5[i] tầng, khi bị mục tiêu phe ta tấn công, Tốc Độ của người tấn công tăng #6[f1]%, duy trì #7[i] hiệp. Khi người trang bị rơi vào trạng thái không thể chiến đấu, sẽ xóa tất cả \"Mê Hồn\".",
+        "params": [
+            [0.4, 0.8, 3, 0.05, 6, 0.1, 3],
+            [0.45, 0.8, 3, 0.0625, 6, 0.125, 3],
+            [0.5, 0.8, 3, 0.075, 6, 0.15, 3],
+            [0.55, 0.8, 3, 0.0875, 6, 0.175, 3],
+            [0.6, 0.8, 3, 0.1, 6, 0.2, 3]
+        ],
+        "properties": [
+            [
+                { "type": "StatusProbabilityBase", "value": 0.4 }
+            ],
+            [
+                { "type": "StatusProbabilityBase", "value": 0.45 }
+            ],
+            [
+                { "type": "StatusProbabilityBase", "value": 0.5 }
+            ],
+            [
+                { "type": "StatusProbabilityBase", "value": 0.55 }
+            ],
+            [
+                { "type": "StatusProbabilityBase", "value": 0.6 }
+            ]
+        ]
+    },
+    "23048": {
+        "id": "23048",
+        "skill": "Chinh Phục",
+        "desc": "Tăng #1[i]% Tấn Công của người trang bị. Sau khi thi triển Tuyệt Kỹ tấn công, sẽ hồi #3[i] Điểm Chiến Kỹ, sau khi người trang bị thi triển Chiến Kỹ lên 1 nhân vật phe ta, sẽ khiến sát thương Chiến Kỹ mục tiêu gây ra tăng #4[f1]%, duy trì #5[i] hiệp.",
+        "params": [
+            [0.64, 1, 1, 0.54, 3],
+            [0.8, 1, 1, 0.675, 3],
+            [0.96, 1, 1, 0.81, 3],
+            [1.12, 1, 1, 0.945, 3],
+            [1.28, 1, 1, 1.08, 3]
+        ],
+        "properties": [
+            [
+                { "type": "AttackAddedRatio", "value": 0.64 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.8 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.96 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 1.12 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 1.28 }
             ]
         ]
     },

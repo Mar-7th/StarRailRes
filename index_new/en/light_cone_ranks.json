@@ -2140,6 +2140,35 @@
             ]
         ]
     },
+    "22005": {
+        "id": "22005",
+        "skill": "So good!",
+        "desc": "Increases the wearer's ATK by #1[i]%. After the wearer uses Skill, increases ATK by #2[i]%, stacking up to #3[i] times.",
+        "params": [
+            [0.16, 0.08, 3],
+            [0.2, 0.1, 3],
+            [0.24, 0.12, 3],
+            [0.28, 0.14, 3],
+            [0.32, 0.16, 3]
+        ],
+        "properties": [
+            [
+                { "type": "AttackAddedRatio", "value": 0.16 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.2 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.24 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.28 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.32 }
+            ]
+        ]
+    },
     "23000": {
         "id": "23000",
         "skill": "Meteor Swarm",
@@ -3475,6 +3504,64 @@
             ],
             [
                 { "type": "CriticalChanceBase", "value": 0.32 }
+            ]
+        ]
+    },
+    "23047": {
+        "id": "23047",
+        "skill": "Solo",
+        "desc": "Increases the wearer's Effect Hit Rate by #1[i]%. When an enemy target gets inflicted with a debuff by the wearer, there is a #2[i]% base chance for them to enter \"Enthrallment,\" lasting for #3[i] turn(s). Effects of the same type cannot stack. While the target is in \"Enthrallment,\" for every 1 debuff applied by the wearer on the target, increases the target's received DoT by #4[f1]%, stacking up to #5[i] time(s). When the target gets attacked by an ally, increases the attacker's SPD by #6[f1]% for #7[i] turn(s). When the wearer gets knocked down, removes all \"Enthrallment.\"",
+        "params": [
+            [0.4, 0.8, 3, 0.05, 6, 0.1, 3],
+            [0.45, 0.8, 3, 0.0625, 6, 0.125, 3],
+            [0.5, 0.8, 3, 0.075, 6, 0.15, 3],
+            [0.55, 0.8, 3, 0.0875, 6, 0.175, 3],
+            [0.6, 0.8, 3, 0.1, 6, 0.2, 3]
+        ],
+        "properties": [
+            [
+                { "type": "StatusProbabilityBase", "value": 0.4 }
+            ],
+            [
+                { "type": "StatusProbabilityBase", "value": 0.45 }
+            ],
+            [
+                { "type": "StatusProbabilityBase", "value": 0.5 }
+            ],
+            [
+                { "type": "StatusProbabilityBase", "value": 0.55 }
+            ],
+            [
+                { "type": "StatusProbabilityBase", "value": 0.6 }
+            ]
+        ]
+    },
+    "23048": {
+        "id": "23048",
+        "skill": "Conquer",
+        "desc": "Increases the wearer's ATK by #1[i]%. After using Ultimate to attack, recovers #3[i] Skill Point(s). After the wearer uses their Skill on one ally character, increases the Skill DMG dealt by the target by #4[f1]% for #5[i] turn(s).",
+        "params": [
+            [0.64, 1, 1, 0.54, 3],
+            [0.8, 1, 1, 0.675, 3],
+            [0.96, 1, 1, 0.81, 3],
+            [1.12, 1, 1, 0.945, 3],
+            [1.28, 1, 1, 1.08, 3]
+        ],
+        "properties": [
+            [
+                { "type": "AttackAddedRatio", "value": 0.64 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.8 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.96 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 1.12 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 1.28 }
             ]
         ]
     },
