@@ -3565,6 +3565,64 @@
             ]
         ]
     },
+    "23049": {
+        "id": "23049",
+        "skill": "Sleepless",
+        "desc": "Meningkatkan #1[i]% Max HP pengguna. Saat Memosprite pengguna melancarkan kemampuan, pengguna akan memperoleh \"Noctis\". Saat pengguna memiliki \"Noctis\", DMG yang diakibatkan Memosprite seluruh rekan tim akan mengabaikan #2[i]% DEF target, dan DMG yang diakibatkan pengguna beserta Memosprite pengguna meningkat #3[i]%. Saat Memosprite pengguna menghilang, pengguna akan memulihkan #4[i] Energy. Efek dengan jenis serupa tidak dapat ditumpuk.",
+        "params": [
+            [0.3, 0.2, 0.3, 8],
+            [0.375, 0.225, 0.375, 10],
+            [0.45, 0.25, 0.45, 12],
+            [0.525, 0.275, 0.525, 14],
+            [0.6, 0.3, 0.6, 16]
+        ],
+        "properties": [
+            [
+                { "type": "HPAddedRatio", "value": 0.3 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.375 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.45 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.525 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.6 }
+            ]
+        ]
+    },
+    "23051": {
+        "id": "23051",
+        "skill": "New Scale",
+        "desc": "Meningkatkan #1[i]% ATK pengguna. Saat pengguna melancarkan Ultimate, akan memulihkan HP seluruh rekan tim sebesar #5[i]% ATK pengguna, memulihkan ekstra HP karakter dengan HP terendah saat ini sebesar #6[i]% ATK pengguna, dan memberikan \"Redoubt\" yang berlangsung selama #4[i] giliran pada seluruh rekan tim. DMG yang diakibatkan oleh target yang memperoleh \"Redoubt\" meningkat #2[i]%, dan meningkat ekstra #3[i]% jika target memiliki objek panggilan.",
+        "params": [
+            [0.64, 0.24, 0.12, 3, 0.1, 0.1],
+            [0.8, 0.3, 0.15, 3, 0.125, 0.125],
+            [0.96, 0.36, 0.18, 3, 0.15, 0.15],
+            [1.12, 0.42, 0.21, 3, 0.175, 0.175],
+            [1.28, 0.48, 0.24, 3, 0.2, 0.2]
+        ],
+        "properties": [
+            [
+                { "type": "AttackAddedRatio", "value": 0.64 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.8 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.96 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 1.12 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 1.28 }
+            ]
+        ]
+    },
     "24000": {
         "id": "24000",
         "skill": "Moth To Flames",

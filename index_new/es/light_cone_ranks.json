@@ -3565,6 +3565,64 @@
             ]
         ]
     },
+    "23049": {
+        "id": "23049",
+        "skill": "Insomnio",
+        "desc": "Los PV máx. del portador aumentan en un #1[i]%. Cuando el mnemoduende del portador lanza una habilidad, el portador obtiene Escena nocturna. Cuando el portador tiene Escena nocturna, el daño que infligen todos los mnemoduendes aliados ignora el #2[i]% de la DEF de los objetivos y el daño que infligen el portador y su mnemoduende aumenta en un #3[i]%. Cuando el mnemoduende del portador desaparece, el portador recupera #4[i] pts. de energía. Los efectos del mismo tipo no se pueden acumular.",
+        "params": [
+            [0.3, 0.2, 0.3, 8],
+            [0.375, 0.225, 0.375, 10],
+            [0.45, 0.25, 0.45, 12],
+            [0.525, 0.275, 0.525, 14],
+            [0.6, 0.3, 0.6, 16]
+        ],
+        "properties": [
+            [
+                { "type": "HPAddedRatio", "value": 0.3 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.375 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.45 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.525 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.6 }
+            ]
+        ]
+    },
+    "23051": {
+        "id": "23051",
+        "skill": "Nuevas escamas",
+        "desc": "El ATQ del portador aumenta en un #1[i]%. Cuando el portador lanza la habilidad definitiva, regenera los PV de todos los aliados por un valor equivalente al #5[i]% del ATQ del portador, regenera al personaje con menos PV una cantidad adicional de PV equivalente al #6[i]% del ATQ del portador, y otorga Baluarte a todos los aliados durante #4[i] turnos. El daño que infligen los objetivos con Baluarte aumenta en un #2[i]% y, si tienen alguna invocación, aumenta en un #3[i]% adicional.",
+        "params": [
+            [0.64, 0.24, 0.12, 3, 0.1, 0.1],
+            [0.8, 0.3, 0.15, 3, 0.125, 0.125],
+            [0.96, 0.36, 0.18, 3, 0.15, 0.15],
+            [1.12, 0.42, 0.21, 3, 0.175, 0.175],
+            [1.28, 0.48, 0.24, 3, 0.2, 0.2]
+        ],
+        "properties": [
+            [
+                { "type": "AttackAddedRatio", "value": 0.64 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.8 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.96 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 1.12 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 1.28 }
+            ]
+        ]
+    },
     "24000": {
         "id": "24000",
         "skill": "Polilla a la luz",

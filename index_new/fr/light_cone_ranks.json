@@ -3565,6 +3565,64 @@
             ]
         ]
     },
+    "23049": {
+        "id": "23049",
+        "skill": "Insomniaque",
+        "desc": "Augmente les PV max du porteur de #1[i]%. Lorsque le mnémesprit du porteur utilise une capacité, le porteur obtient Noctis. Si le porteur bénéficie de Noctis, les DGT infligés par les mnémesprits de tous les alliés ignorent #2[i]% de la DÉF des cibles. Augmente les DGT infligés par le porteur et son mnémesprit de #3[i]%. Lorsque le mnémesprit du porteur disparaît, le porteur récupère #4[i] points d'énergie. Les effets du même type ne peuvent pas être cumulés.",
+        "params": [
+            [0.3, 0.2, 0.3, 8],
+            [0.375, 0.225, 0.375, 10],
+            [0.45, 0.25, 0.45, 12],
+            [0.525, 0.275, 0.525, 14],
+            [0.6, 0.3, 0.6, 16]
+        ],
+        "properties": [
+            [
+                { "type": "HPAddedRatio", "value": 0.3 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.375 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.45 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.525 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.6 }
+            ]
+        ]
+    },
+    "23051": {
+        "id": "23051",
+        "skill": "Nouvelle écaille",
+        "desc": "Augmente l'ATQ du porteur de #1[i]%. Lorsque le porteur utilise son ultime, restaure des PV équivalents à #5[i]% de l'ATQ du porteur à tous les alliés et le personnage allié ayant le moins de PV actuels restaure des PV supplémentaires équivalents à #6[i]% de l'ATQ du porteur. D'autre part, accorde Bastion à tous les alliés pour une durée de #4[i] tours. Augmente les DGT infligés par les cibles avec Bastion de #2[i]%. Si une cible avec Bastion possède une invocation, augmente les DGT infligés de #3[i]% supplémentaires.",
+        "params": [
+            [0.64, 0.24, 0.12, 3, 0.1, 0.1],
+            [0.8, 0.3, 0.15, 3, 0.125, 0.125],
+            [0.96, 0.36, 0.18, 3, 0.15, 0.15],
+            [1.12, 0.42, 0.21, 3, 0.175, 0.175],
+            [1.28, 0.48, 0.24, 3, 0.2, 0.2]
+        ],
+        "properties": [
+            [
+                { "type": "AttackAddedRatio", "value": 0.64 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.8 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.96 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 1.12 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 1.28 }
+            ]
+        ]
+    },
     "24000": {
         "id": "24000",
         "skill": "Comme un aimant",

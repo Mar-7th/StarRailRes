@@ -3565,6 +3565,64 @@
             ]
         ]
     },
+    "23049": {
+        "id": "23049",
+        "skill": "Mất Ngủ",
+        "desc": "Khiến Giới Hạn HP của người trang bị tăng #1[i]%. Khi Linh Hồn Ký Ức của người trang bị thi triển kỹ năng, người trang bị sẽ nhận \"Màn Đêm\". Khi người trang bị có \"Màn Đêm\", sát thương toàn bộ Linh Hồn Ký Ức phe ta gây ra sẽ bỏ qua #2[i]% Phòng Thủ của mục tiêu, sát thương người trang bị và Linh Hồn Ký Ức của người trang bị gây ra tăng #3[i]%, khi Linh Hồn Ký Ức của người trang bị biến mất sẽ hồi #4[i] điểm Năng Lượng cho người trang bị, hiệu ứng cùng loại không thể cộng dồn.",
+        "params": [
+            [0.3, 0.2, 0.3, 8],
+            [0.375, 0.225, 0.375, 10],
+            [0.45, 0.25, 0.45, 12],
+            [0.525, 0.275, 0.525, 14],
+            [0.6, 0.3, 0.6, 16]
+        ],
+        "properties": [
+            [
+                { "type": "HPAddedRatio", "value": 0.3 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.375 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.45 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.525 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.6 }
+            ]
+        ]
+    },
+    "23051": {
+        "id": "23051",
+        "skill": "Vảy Mới",
+        "desc": "Khiến tấn công của người trang bị tăng #1[i]%. Khi người trang bị thi triển Tuyệt Kỹ, sẽ hồi phục HP tương đương với #5[i]% Tấn Công của người trang bị cho toàn bộ phe ta, hồi thêm HP tương đương với #6[i]% Tấn Công của người trang bị cho nhân vật có HP thấp nhất hiện tại, đồng thời khiến toàn bộ phe ta nhận được \"Cảnh Vệ\", \"Cảnh Vệ\" duy trì #4[i] hiệp. Sát thương của mục tiêu nhận được \"Cảnh Vệ\" gây ra tăng #2[i]%, nếu mục tiêu có Vật Triệu Hồi thì sát thương gây ra tăng thêm #3[i]%.",
+        "params": [
+            [0.64, 0.24, 0.12, 3, 0.1, 0.1],
+            [0.8, 0.3, 0.15, 3, 0.125, 0.125],
+            [0.96, 0.36, 0.18, 3, 0.15, 0.15],
+            [1.12, 0.42, 0.21, 3, 0.175, 0.175],
+            [1.28, 0.48, 0.24, 3, 0.2, 0.2]
+        ],
+        "properties": [
+            [
+                { "type": "AttackAddedRatio", "value": 0.64 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.8 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.96 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 1.12 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 1.28 }
+            ]
+        ]
+    },
     "24000": {
         "id": "24000",
         "skill": "Dập Lửa",

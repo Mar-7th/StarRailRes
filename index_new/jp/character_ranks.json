@@ -649,7 +649,7 @@
     },
     "101401": {
         "id": "101401",
-        "name": "{RUBY_B#うし}失{RUBY_E#}われた{RUBY_B#はくあ}白亜{RUBY_E#}の{RUBY_B#しろ}城{RUBY_E#}",
+        "name": "{RUBY_B#うしな}失{RUBY_E#}われた{RUBY_B#はくあ}白亜{RUBY_E#}の{RUBY_B#しろ}城{RUBY_E#}",
         "rank": 1,
         "desc": "セイバーの必殺技ダメージ+60%。セイバーが通常攻撃または戦闘スキルを発動した後、「炉心共鳴」を1層獲得する。",
         "materials": [
@@ -832,7 +832,7 @@
         "id": "1100504",
         "name": "この{RUBY_B#じょしょう}叙唱{RUBY_E#}を",
         "rank": 4,
-        "desc": "カフカが敵に付与した感電状態がダメージが発生する時、カフカのEPをさらに2回復する。",
+        "desc": "カフカが敵に付与した感電状態がダメージを発生する時、カフカのEPをさらに2回復する。",
         "materials": [
             { "id": "11005", "num": 1 }
         ],
@@ -1866,7 +1866,7 @@
     },
     "1120506": {
         "id": "1120506",
-        "name": "{RUBY_B#か}涸{RUBY_E#}れし{RUBY_B#こんぱく}魂魄{RUBY_E#}\n{RUBY_B#とど}留{RUBY_E#}まりて{RUBY_B#こ}此{RUBY_E#}の{RUBY_B#み}身{RUBY_E#}に{RUBY_B#もど}戻{RUBY_E#}る",
+        "name": "{RUBY_B#か}涸{RUBY_E#}れし{RUBY_B#こんぱく}魂魄{RUBY_E#}{RUBY_B#とど}留{RUBY_E#}まりて\n{RUBY_B#こ}此{RUBY_E#}の{RUBY_B#み}身{RUBY_E#}に{RUBY_B#もど}戻{RUBY_E#}る",
         "rank": 6,
         "desc": "チャージ層数の上限が4層になる。天賦による追加攻撃ダメージが、さらに刃の最大HP50%分アップする。",
         "materials": [
@@ -2301,7 +2301,7 @@
     },
     "120506": {
         "id": "120506",
-        "name": "{RUBY_B#か}涸{RUBY_E#}れし{RUBY_B#こんぱく}魂魄{RUBY_E#}\n{RUBY_B#とど}留{RUBY_E#}まりて{RUBY_B#こ}此{RUBY_E#}の{RUBY_B#み}身{RUBY_E#}に{RUBY_B#もど}戻{RUBY_E#}る",
+        "name": "{RUBY_B#か}涸{RUBY_E#}れし{RUBY_B#こんぱく}魂魄{RUBY_E#}{RUBY_B#とど}留{RUBY_E#}まりて\n{RUBY_B#こ}此{RUBY_E#}の{RUBY_B#み}身{RUBY_E#}に{RUBY_B#もど}戻{RUBY_E#}る",
         "rank": 6,
         "desc": "チャージ層数の上限が4層になる。天賦による追加攻撃ダメージが、さらに刃の最大HP50%分アップする。",
         "materials": [
@@ -5523,6 +5523,156 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1412_rank6.png"
+    },
+    "141301": {
+        "id": "141301",
+        "name": "{RUBY_B#ねむ}眠{RUBY_E#}って、\n{RUBY_B#なが}長{RUBY_E#}い{RUBY_B#よる}夜{RUBY_E#}にはいい{RUBY_B#ゆめ}夢{RUBY_E#}を",
+        "rank": 1,
+        "desc": "長夜月がフィールド上にいる時、フィールド上にいる敵の数が4体以上/3/2/1の場合、味方の記憶の精霊が与えるダメージは本来のダメージの120%/125%/130%/150%分になる。",
+        "materials": [
+            { "id": "11413", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1413_rank1.png"
+    },
+    "141302": {
+        "id": "141302",
+        "name": "{RUBY_B#みみ}耳{RUBY_E#}を{RUBY_B#す}澄{RUBY_E#}まして、\n{RUBY_B#ねむ}眠{RUBY_E#}りの{RUBY_B#なか}中{RUBY_E#}のささやきに",
+        "rank": 2,
+        "desc": "長夜月と記憶の精霊「長夜」の会心ダメージ+40%。長夜月が「憶質」を獲得するたびに、獲得する「憶質」の数+2。必殺技を発動する時、追加で「至暗の謎」のチャージを2獲得する。",
+        "materials": [
+            { "id": "11413", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1413_rank2.png"
+    },
+    "141303": {
+        "id": "141303",
+        "name": "{RUBY_B#だいじょうぶ}大丈夫{RUBY_E#}、\n{RUBY_B#あくむ}悪夢{RUBY_E#}はもう{RUBY_B#す}過{RUBY_E#}ぎ{RUBY_B#さ}去{RUBY_E#}った",
+        "rank": 3,
+        "desc": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。精霊天賦のLv.+1、最大Lv.10まで。",
+        "materials": [
+            { "id": "11413", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "141302", "num": 2 },
+            { "id": "141301", "num": 1 },
+            { "id": "1141303", "num": 1 },
+            { "id": "141309", "num": 2 },
+            { "id": "1141305", "num": 1 },
+            { "id": "1141306", "num": 1 }
+        ],
+        "icon": "icon/skill/1413_skill.png"
+    },
+    "141304": {
+        "id": "141304",
+        "name": "{RUBY_B#お}起{RUBY_E#}きて、\nアンタの{RUBY_B#あした}明日{RUBY_E#}が{RUBY_B#おとず}訪{RUBY_E#}れる",
+        "rank": 4,
+        "desc": "長夜月がフィールド上にいる時、味方の記憶の精霊の弱点撃破効率+25%、記憶の精霊「長夜」の弱点撃破効率はさらに+25%。",
+        "materials": [
+            { "id": "11413", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1413_rank4.png"
+    },
+    "141305": {
+        "id": "141305",
+        "name": "{RUBY_B#わす}忘{RUBY_E#}れて、\n{RUBY_B#きおく}記憶{RUBY_E#}の{RUBY_B#なか}中{RUBY_E#}のアタシを",
+        "rank": 5,
+        "desc": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。精霊スキルのLv.+1、最大Lv.10まで。",
+        "materials": [
+            { "id": "11413", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "141303", "num": 2 },
+            { "id": "141304", "num": 2 },
+            { "id": "1141301", "num": 1 },
+            { "id": "1141307", "num": 1 }
+        ],
+        "icon": "icon/skill/1413_ultimate.png"
+    },
+    "141306": {
+        "id": "141306",
+        "name": "このまま、ずっと",
+        "rank": 6,
+        "desc": "長夜月がフィールド上にいる時、味方全体の全属性耐性貫通+20%。記憶の精霊「長夜」が「露のように儚い夢」を発動した後、長夜月はその回の攻撃で消費された「憶質」の30%分を獲得する。",
+        "materials": [
+            { "id": "11413", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1413_rank6.png"
+    },
+    "141401": {
+        "id": "141401",
+        "name": "{RUBY_B#ふる}旧{RUBY_E#}き{RUBY_B#うろこ}鱗{RUBY_E#}を{RUBY_B#す}捨{RUBY_E#}てた{RUBY_B#こうりゅう}荒龍{RUBY_E#}",
+        "rank": 1,
+        "desc": "丹恒・騰荒が必殺技を発動する時、SPを1回復し、「同袍」の全属性耐性貫通+18%、3ターン継続。",
+        "materials": [
+            { "id": "11414", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1414_rank1.png"
+    },
+    "141402": {
+        "id": "141402",
+        "name": "{RUBY_B#かいたく}開拓{RUBY_E#}を{RUBY_B#みまも}見守{RUBY_E#}る{RUBY_B#じゅんしん}純真{RUBY_E#}",
+        "rank": 2,
+        "desc": "必殺技による龍霊強化において、効果が継続する行動可能回数+2回。丹恒・騰荒が必殺技を発動した後、「龍霊」の行動順が100%早まる。強化後の「龍霊」が行動する時、「同袍」による付加ダメージは本来の200%分になり、その回で付与するバリア耐久値は本来の200%分になる。",
+        "materials": [
+            { "id": "11414", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1414_rank2.png"
+    },
+    "141403": {
+        "id": "141403",
+        "name": "{RUBY_B#さんが}山河{RUBY_E#}より{RUBY_B#たく}託{RUBY_E#}されしもの",
+        "rank": 3,
+        "desc": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+        "materials": [
+            { "id": "11414", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "141403", "num": 2 },
+            { "id": "141401", "num": 1 }
+        ],
+        "icon": "icon/skill/1414_ultimate.png"
+    },
+    "141404": {
+        "id": "141404",
+        "name": "{RUBY_B#きんせき}金石{RUBY_E#}に{RUBY_B#ちか}誓{RUBY_E#}いて{RUBY_B#み}身{RUBY_E#}を{RUBY_B#ふね}船{RUBY_E#}に",
+        "rank": 4,
+        "desc": "「同袍」の受けるダメージ-20%。",
+        "materials": [
+            { "id": "11414", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1414_rank4.png"
+    },
+    "141405": {
+        "id": "141405",
+        "name": "{RUBY_B#ふきゅう}不朽{RUBY_E#}の{RUBY_B#みち}道{RUBY_E#}は{RUBY_B#れんめん}連綿{RUBY_E#}たり",
+        "rank": 5,
+        "desc": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+        "materials": [
+            { "id": "11414", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "141402", "num": 2 },
+            { "id": "141404", "num": 2 }
+        ],
+        "icon": "icon/skill/1414_skill.png"
+    },
+    "141406": {
+        "id": "141406",
+        "name": "{RUBY_B#そうもく}草木{RUBY_E#}も{RUBY_B#ちり}塵{RUBY_E#}も{RUBY_B#ゆめ}夢{RUBY_E#}に{RUBY_B#いれ}入{RUBY_E#}れ",
+        "rank": 6,
+        "desc": "フィールド上に「同袍」がいる場合、敵全体の受けるダメージ+20%。「同袍」がダメージを与える時、敵の防御力を12%分無視する。丹恒・騰荒が必殺技を発動した時、「同袍」は敵全体に自身の攻撃力330%分、かつ対応する属性の付加ダメージを与える。",
+        "materials": [
+            { "id": "11414", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1414_rank6.png"
     },
     "800101": {
         "id": "800101",
