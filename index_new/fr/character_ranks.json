@@ -2241,7 +2241,7 @@
         "id": "120501",
         "name": "Les lames s'affûtent en enfer",
         "rank": 1,
-        "desc": "L'ultime de Blade inflige des DGT augmentés à une cible ennemie unique. L'augmentation de DGT est équivalente à 150% du total des PV que Blade a perdus au cours du combat.\nLe total des PV perdus est plafonné à 90% des PV max de Blade. Ce montant est réinitialisé et recommence à s'accumuler après utilisation de l'ultime.",
+        "desc": "L'ultime de Blade inflige des DGT augmentés à une cible ennemie désignée. L'augmentation de DGT est équivalente à 150% du total des PV que Blade a perdus au cours du combat.\nLe total des PV perdus est plafonné à 90% des PV max de Blade. Ce montant est réinitialisé et recommence à s'accumuler après utilisation de l'ultime.",
         "materials": [
             { "id": "11205", "num": 1 }
         ],
@@ -4176,7 +4176,7 @@
         "id": "130805",
         "name": "Âmes dispersées sur des terres effacées",
         "rank": 5,
-        "desc": "Niv. de la compétence +2, jusqu'au niv. 15 maximum.\nNiv. du talent +2, jusqu'au niv. 15 maximum.",
+        "desc": "Niv. de la compétence +2, jusqu'au Niv. 15 maximum.\nNiv. du talent +2, jusqu'au Niv. 15 maximum.",
         "materials": [
             { "id": "11308", "num": 1 }
         ],
@@ -5674,6 +5674,98 @@
         "level_up_skills": [],
         "icon": "icon/skill/1414_rank6.png"
     },
+    "141501": {
+        "id": "141501",
+        "name": "Épopées nées d'une page blanche",
+        "rank": 1,
+        "desc": "Lorsque le Démiurge active la compétence du mnémesprit « Ode à l'Ego » pour utiliser Menuet de fleurs et de flèches, accorde 6 Réminiscences et augmente le nombre de rebonds de cette attaque de 12.",
+        "materials": [
+            { "id": "11415", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1415_rank1.png"
+    },
+    "141502": {
+        "id": "141502",
+        "name": "Un lendemain en treize nuances",
+        "rank": 2,
+        "desc": "Lors de l'entrée en combat, accorde 12 Réminiscences supplémentaires. Pour chaque personnage allié différent ayant reçu un bonus accordé par la compétence de mnémesprit du Démiurge, le multiplicateur des DGT réels infligés par les cibles alliées via la zone de la compétence augmente de 6%, jusqu'à un maximum de 24%.",
+        "materials": [
+            { "id": "11415", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1415_rank2.png"
+    },
+    "141503": {
+        "id": "141503",
+        "name": "Grâce à toi, Comme je l'ai écrit",
+        "rank": 3,
+        "desc": "Niv. de l'ultime +2, jusqu'au Niv. 15 maximum.\nNiv. du talent +2, jusqu'au Niv. 15 maximum.\nNiv. de compétence du mnémesprit +1, jusqu'au Niv. 10 maximum.",
+        "materials": [
+            { "id": "11415", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "141503", "num": 2 },
+            { "id": "141504", "num": 2 },
+            { "id": "1141501", "num": 1 },
+            { "id": "141514", "num": 2 },
+            { "id": "1141502", "num": 1 },
+            { "id": "1141513", "num": 1 },
+            { "id": "1141514", "num": 1 },
+            { "id": "1141515", "num": 1 },
+            { "id": "1141516", "num": 1 },
+            { "id": "1141517", "num": 1 },
+            { "id": "1141518", "num": 1 },
+            { "id": "1141519", "num": 1 },
+            { "id": "1141520", "num": 1 },
+            { "id": "1141521", "num": 1 },
+            { "id": "1141522", "num": 1 },
+            { "id": "1141523", "num": 1 },
+            { "id": "1141524", "num": 1 },
+            { "id": "1141525", "num": 1 },
+            { "id": "1141526", "num": 1 }
+        ],
+        "icon": "icon/skill/1415_ultimate.png"
+    },
+    "141504": {
+        "id": "141504",
+        "name": "S'il te plaît, écris avec le sourire",
+        "rank": 4,
+        "desc": "Après chaque utilisation de Menuet de fleurs et de flèches par le Démiurge, augmente de 6% le multiplicateur de DGT des rebonds de la compétence de mnémesprit « Ode à l'Ego » activée, cumulable jusqu'à 24 fois au cours du combat.",
+        "materials": [
+            { "id": "11415", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1415_rank4.png"
+    },
+    "141505": {
+        "id": "141505",
+        "name": "Regard imprégné de fleurs d'antan",
+        "rank": 5,
+        "desc": "Niv. de la compétence +2, jusqu'au Niv. 15 maximum.\nNiv. de l'ATQ normale +1, jusqu'au Niv. 10 maximum.\nNiv. de talent du mnémesprit +1, jusqu'au Niv. 10 maximum.",
+        "materials": [
+            { "id": "11415", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "141502", "num": 2 },
+            { "id": "141501", "num": 1 },
+            { "id": "1141503", "num": 1 },
+            { "id": "1141505", "num": 1 },
+            { "id": "141508", "num": 1 }
+        ],
+        "icon": "icon/skill/1415_skill.png"
+    },
+    "141506": {
+        "id": "141506",
+        "name": "Souvenirs chantés par les vagues ♪",
+        "rank": 6,
+        "desc": "Lorsque Cyrène utilise son ultime pour la première fois, avance l'action de tous les alliés de 100%. Chaque fois que le Démiurge active la compétence de mnémesprit « Ode à l'Ego » et utilise Menuet de fleurs et de flèches, accorde les effets suivants en fonction du nombre d'activations au cours du combat actuel :\n1 fois : lorsque le Démiurge est sur le champ de bataille, diminue la DÉF de toutes les cibles ennemies de 20%.\n2 fois ou + : avance l'action de tous les alliés de 24%.",
+        "materials": [
+            { "id": "11415", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1415_rank6.png"
+    },
     "800101": {
         "id": "800101",
         "name": "Étoile tombée du ciel",
@@ -6175,7 +6267,8 @@
             { "id": "800703", "num": 2 },
             { "id": "800701", "num": 1 },
             { "id": "1800701", "num": 1 },
-            { "id": "1800707", "num": 1 }
+            { "id": "1800707", "num": 1 },
+            { "id": "800708", "num": 1 }
         ],
         "icon": "icon/skill/8007_ultimate.png"
     },
@@ -6253,7 +6346,8 @@
             { "id": "800803", "num": 2 },
             { "id": "800801", "num": 1 },
             { "id": "1800701", "num": 1 },
-            { "id": "1800707", "num": 1 }
+            { "id": "1800707", "num": 1 },
+            { "id": "800808", "num": 1 }
         ],
         "icon": "icon/skill/8008_ultimate.png"
     },

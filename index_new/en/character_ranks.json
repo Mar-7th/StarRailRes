@@ -2241,7 +2241,7 @@
         "id": "120501",
         "name": "Blade Cuts the Deepest in Hell",
         "rank": 1,
-        "desc": "Blade's Ultimate deals additionally increased DMG to a single enemy target, with the increased amount equal to 150% of the tally of Blade's HP loss in the current battle.\nThe tally of Blade's HP loss in the current battle is capped at 90% of his Max HP. The tally value will be reset and re-accumulated after his Ultimate has been used.",
+        "desc": "Blade's Ultimate deals additionally increased DMG to one designated enemy target, with the increased amount equal to 150% of the tally of Blade's HP loss in the current battle.\nThe tally of Blade's HP loss in the current battle is capped at 90% of his Max HP. The tally value will be reset and re-accumulated after his Ultimate has been used.",
         "materials": [
             { "id": "11205", "num": 1 }
         ],
@@ -5674,6 +5674,98 @@
         "level_up_skills": [],
         "icon": "icon/skill/1414_rank6.png"
     },
+    "141501": {
+        "id": "141501",
+        "name": "Epics, Born on a Blank Slate",
+        "rank": 1,
+        "desc": "When Demiurge triggers the Memosprite Skill \"Ode to Ego\" during the use of \"Minuet of Blooms and Plumes,\" gains 6 \"Recollection\" point(s) and increases the number of bounces for this attack by 12.",
+        "materials": [
+            { "id": "11415", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1415_rank1.png"
+    },
+    "141502": {
+        "id": "141502",
+        "name": "A Tomorrow in Thirteen Shades",
+        "rank": 2,
+        "desc": "When entering combat, additionally gains 12 \"Recollection\" point(s). For every 1 different ally character that gains the Memosprite Skill buff from Demiurge, the DMG multiplier for the True DMG dealt by ally targets via the Skill's Zone increases by 6%, up to a max increase of 24%.",
+        "materials": [
+            { "id": "11415", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1415_rank2.png"
+    },
+    "141503": {
+        "id": "141503",
+        "name": "By Thy Being, As I've Written",
+        "rank": 3,
+        "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.\nMemosprite Skill Lv. +1, up to a maximum of Lv. 10.",
+        "materials": [
+            { "id": "11415", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "141503", "num": 2 },
+            { "id": "141504", "num": 2 },
+            { "id": "1141501", "num": 1 },
+            { "id": "141514", "num": 2 },
+            { "id": "1141502", "num": 1 },
+            { "id": "1141513", "num": 1 },
+            { "id": "1141514", "num": 1 },
+            { "id": "1141515", "num": 1 },
+            { "id": "1141516", "num": 1 },
+            { "id": "1141517", "num": 1 },
+            { "id": "1141518", "num": 1 },
+            { "id": "1141519", "num": 1 },
+            { "id": "1141520", "num": 1 },
+            { "id": "1141521", "num": 1 },
+            { "id": "1141522", "num": 1 },
+            { "id": "1141523", "num": 1 },
+            { "id": "1141524", "num": 1 },
+            { "id": "1141525", "num": 1 },
+            { "id": "1141526", "num": 1 }
+        ],
+        "icon": "icon/skill/1415_ultimate.png"
+    },
+    "141504": {
+        "id": "141504",
+        "name": "Please Write On, With a Smile",
+        "rank": 4,
+        "desc": "After every 1 use of \"Minuet of Blooms and Plumes\" by Demiurge, the Bounce DMG multiplier for the triggered Memosprite Skill \"Ode to Ego\" increases by 6% in the current battle, stacking up to 24 times.",
+        "materials": [
+            { "id": "11415", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1415_rank4.png"
+    },
+    "141505": {
+        "id": "141505",
+        "name": "Gaze, Steeped in Yesterbloom",
+        "rank": 5,
+        "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\nMemosprite Talent Lv. +1, up to a maximum of Lv. 10.",
+        "materials": [
+            { "id": "11415", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "141502", "num": 2 },
+            { "id": "141501", "num": 1 },
+            { "id": "1141503", "num": 1 },
+            { "id": "1141505", "num": 1 },
+            { "id": "141508", "num": 1 }
+        ],
+        "icon": "icon/skill/1415_skill.png"
+    },
+    "141506": {
+        "id": "141506",
+        "name": "Remembrance, Sung in Ripples ♪",
+        "rank": 6,
+        "desc": "When Cyrene uses Ultimate for the first time, all allies advance action by 100%. Each time Demiurge triggers the Memosprite Skill \"Ode to Ego\" during the use of \"Minuet of Blooms and Plumes,\" gains the following effects based on the number of times it has been triggered in the current battle:\n1 time: When Demiurge is on the field, reduces all enemy targets' DEF by 20%.\n2 times and more: All allies advance action by 24%.",
+        "materials": [
+            { "id": "11415", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1415_rank6.png"
+    },
     "800101": {
         "id": "800101",
         "name": "A Falling Star",
@@ -6175,7 +6267,8 @@
             { "id": "800703", "num": 2 },
             { "id": "800701", "num": 1 },
             { "id": "1800701", "num": 1 },
-            { "id": "1800707", "num": 1 }
+            { "id": "1800707", "num": 1 },
+            { "id": "800708", "num": 1 }
         ],
         "icon": "icon/skill/8007_ultimate.png"
     },
@@ -6253,7 +6346,8 @@
             { "id": "800803", "num": 2 },
             { "id": "800801", "num": 1 },
             { "id": "1800701", "num": 1 },
-            { "id": "1800707", "num": 1 }
+            { "id": "1800707", "num": 1 },
+            { "id": "800808", "num": 1 }
         ],
         "icon": "icon/skill/8008_ultimate.png"
     },

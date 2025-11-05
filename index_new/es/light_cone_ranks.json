@@ -2169,6 +2169,35 @@
             ]
         ]
     },
+    "22006": {
+        "id": "22006",
+        "skill": "Mirada fija",
+        "desc": "El Daño CRIT del portador aumenta en un #1[i]%. Cuando lo equipa {F#la}{M#el} Trazacaminos (Reminiscencia), el daño que infligen todos los aliados aumenta en un #2[i]% y el daño que inflige el ATQ básico potenciado \"¡Escribamos el mañana!\" aumenta en un #3[i]%.",
+        "params": [
+            [0.12, 0.08, 0.6],
+            [0.15, 0.1, 0.7],
+            [0.18, 0.12, 0.8],
+            [0.21, 0.14, 0.9],
+            [0.24, 0.16, 1]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalDamageBase", "value": 0.12 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.15 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.18 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.21 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.24 }
+            ]
+        ]
+    },
     "23000": {
         "id": "23000",
         "skill": "Lluvia de meteoros",
@@ -3365,7 +3394,7 @@
     "23042": {
         "id": "23042",
         "skill": "Tolerancia",
-        "desc": "La VEL del portador aumenta en un #1[i]%. Cuando el portador lanza el ATQ básico, la habilidad básica o la habilidad definitiva, consume un #2[f1]% de los PV actuales de todos los aliados, y el mnemoduende del portador, tras su siguiente ataque, inflige adicionalmente a los objetivos golpeados un #6[f1]% de los PV consumidos totales como daño adicional del mismo tipo que el mnemoduende del portador. Después, se reinicia este total de PV consumidos. Cuando el mnemoduende del portador lanza la habilidad del mnemoduende, el daño que reciben todos los enemigos aumenta en un #4[f1]% durante #5[i] turnos. Los efectos del mismo tipo no se pueden acumular.",
+        "desc": "La VEL del portador aumenta en un #1[i]%. Cuando el portador lanza el ATQ básico, la habilidad básica o la habilidad definitiva, consume un #2[f1]% de los PV actuales de todos los aliados, y el mnemoduende del portador, tras su siguiente ataque, inflige adicionalmente a los objetivos golpeados un #6[f1]% de los PV consumidos totales como daño adicional del mismo tipo que el mnemoduende del portador. Después, se reinicia este total de PV consumidos. Cuando el mnemoduende del portador lanza la habilidad de mnemoduende, el daño que reciben todos los enemigos aumenta en un #4[f1]% durante #5[i] turnos. Los efectos del mismo tipo no se pueden acumular.",
         "params": [
             [0.18, 0.01, 0, 0.18, 2, 2.5],
             [0.21, 0.0125, 0, 0.225, 2, 3.125],
@@ -3620,6 +3649,35 @@
             ],
             [
                 { "type": "AttackAddedRatio", "value": 1.28 }
+            ]
+        ]
+    },
+    "23052": {
+        "id": "23052",
+        "skill": "Promesa",
+        "desc": "La VEL del portador aumenta en un #1[i]%. Cuando el mnemoduende del portador lanza la habilidad de mnemoduende sobre un aliado, obtiene Espacio en blanco, que aumenta el daño que reciben todos los enemigos en un #3[i]%. Cuando el mnemoduende del portador lanza la habilidad de mnemoduende sobre enemigos, obtiene Verso, que aumenta el Daño CRIT de todos los aliados en un #2[i]%. Si el mnemoduende del portador tiene simultáneamente Espacio en blanco y Verso, los efectos de ambos aumentan en un #4[i]%.",
+        "params": [
+            [0.18, 0.16, 0.1, 0.6],
+            [0.21, 0.19, 0.12, 0.65],
+            [0.24, 0.22, 0.14, 0.7],
+            [0.27, 0.25, 0.16, 0.75],
+            [0.3, 0.28, 0.18, 0.8]
+        ],
+        "properties": [
+            [
+                { "type": "SpeedAddedRatio", "value": 0.18 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.21 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.24 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.27 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.3 }
             ]
         ]
     },

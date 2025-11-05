@@ -2169,6 +2169,35 @@
             ]
         ]
     },
+    "22006": {
+        "id": "22006",
+        "skill": "Gaze",
+        "desc": "Increases the wearer's CRIT DMG by #1[i]%. When equipped by Trailblazer (Remembrance), increases all ally targets' DMG dealt by #2[i]% and increases the DMG dealt by the Enhanced Basic ATK \"Together, We Script Tomorrow!\" by #3[i]%.",
+        "params": [
+            [0.12, 0.08, 0.6],
+            [0.15, 0.1, 0.7],
+            [0.18, 0.12, 0.8],
+            [0.21, 0.14, 0.9],
+            [0.24, 0.16, 1]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalDamageBase", "value": 0.12 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.15 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.18 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.21 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.24 }
+            ]
+        ]
+    },
     "23000": {
         "id": "23000",
         "skill": "Meteor Swarm",
@@ -3620,6 +3649,35 @@
             ],
             [
                 { "type": "AttackAddedRatio", "value": 1.28 }
+            ]
+        ]
+    },
+    "23052": {
+        "id": "23052",
+        "skill": "A Promise",
+        "desc": "Increases the wearer's SPD by #1[i]%. When the wearer's memosprite uses Memosprite Skill on one ally, gains \"Blank,\" which increases DMG taken by all enemies by #3[i]%. When the wearer's memosprite uses Memosprite Skill on an enemy, gains \"Verse,\" which increases CRIT DMG of all allies by #2[i]%. When the wearer's memosprite has both \"Blank\" and \"Verse,\" increases the effects of both \"Blank\" and \"Verse\" by #4[i]%.",
+        "params": [
+            [0.18, 0.16, 0.1, 0.6],
+            [0.21, 0.19, 0.12, 0.65],
+            [0.24, 0.22, 0.14, 0.7],
+            [0.27, 0.25, 0.16, 0.75],
+            [0.3, 0.28, 0.18, 0.8]
+        ],
+        "properties": [
+            [
+                { "type": "SpeedAddedRatio", "value": 0.18 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.21 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.24 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.27 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.3 }
             ]
         ]
     },
