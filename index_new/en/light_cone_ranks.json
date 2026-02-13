@@ -446,6 +446,44 @@
             []
         ]
     },
+    "20023": {
+        "id": "20023",
+        "skill": "Indulgence",
+        "desc": "When Aha Instant is activated, the wearer's Elation increases by #1[i]%, lasting until Aha Instant ends.",
+        "params": [
+            [0.16],
+            [0.2],
+            [0.24],
+            [0.28],
+            [0.32]
+        ],
+        "properties": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    "20024": {
+        "id": "20024",
+        "skill": "Mourning",
+        "desc": "When the Punchline held is #1[i] or more, the wearer's CRIT DMG increases by #2[i]%.",
+        "params": [
+            [10, 0.2],
+            [10, 0.25],
+            [10, 0.3],
+            [10, 0.35],
+            [10, 0.4]
+        ],
+        "properties": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
     "21000": {
         "id": "21000",
         "skill": "Mutual Healing",
@@ -1757,7 +1795,7 @@
     "21053": {
         "id": "21053",
         "skill": "Sweet Dream",
-        "desc": "Increases the wearer's provided Shield Effect by #1[i]% and while any ally target has a Shield, the wearer's DMG dealt increases by #2[i]%.",
+        "desc": "Increases the wearer's provided Shield Effect by #1[i]%. While an ally target has a Shield, their DMG dealt increases by #2[i]%.",
         "params": [
             [0.12, 0.12],
             [0.15, 0.14],
@@ -1992,6 +2030,64 @@
             ],
             [
                 { "type": "CriticalDamageBase", "value": 0.4 }
+            ]
+        ]
+    },
+    "21064": {
+        "id": "21064",
+        "skill": "Rumble",
+        "desc": "Increases the wearer's Elation by #1[i]%. When the wearer uses an Elation Skill, increases Elation DMG taken by all enemies by #2[i]% for #3[i] turn(s).",
+        "params": [
+            [0.12, 0.06, 2],
+            [0.14, 0.07, 2],
+            [0.16, 0.08, 2],
+            [0.18, 0.09, 2],
+            [0.2, 0.1, 2]
+        ],
+        "properties": [
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.12 }
+            ],
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.14 }
+            ],
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.16 }
+            ],
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.18 }
+            ],
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.2 }
+            ]
+        ]
+    },
+    "21065": {
+        "id": "21065",
+        "skill": "Decision",
+        "desc": "Increases the wearer's CRIT Rate by #1[i]%. When the wearer uses an Elation Skill, increases Elation by #2[i]%, stacking up to #3[i] times.",
+        "params": [
+            [0.12, 0.12, 2],
+            [0.14, 0.14, 2],
+            [0.16, 0.16, 2],
+            [0.18, 0.18, 2],
+            [0.2, 0.2, 2]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalChanceBase", "value": 0.12 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.14 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.16 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.18 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.2 }
             ]
         ]
     },
@@ -3691,6 +3787,64 @@
             [0.24, 0.22, 0.14, 0.7],
             [0.27, 0.25, 0.16, 0.75],
             [0.3, 0.28, 0.18, 0.8]
+        ],
+        "properties": [
+            [
+                { "type": "SpeedAddedRatio", "value": 0.18 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.21 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.24 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.27 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.3 }
+            ]
+        ]
+    },
+    "23053": {
+        "id": "23053",
+        "skill": "Center of Attention",
+        "desc": "Increases the wearer's CRIT DMG by #1[i]%. While the wearer is on the field, for every 1 Elation character in the team, increases the Skill Point upper limit by #2[i], up to a max increase of #3[i]. For every 1 Skill Point the wearer consumes, enables the Elation DMG dealt by this unit to ignore #6[f1]% of enemy targets' DEF, stacking up to #5[i] times. If #7[i] or more Skill Points are consumed in the same turn, the wearer gains \"Stream Promo,\" which increases all allies' Elation by #4[i]%. Light Cone effects of the same type cannot stack.",
+        "params": [
+            [0.48, 1, 3, 0.2, 4, 0.05, 4],
+            [0.56, 1, 3, 0.24, 4, 0.06, 4],
+            [0.64, 1, 3, 0.28, 4, 0.07, 4],
+            [0.72, 1, 3, 0.32, 4, 0.08, 4],
+            [0.8, 1, 3, 0.36, 4, 0.09, 4]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalDamageBase", "value": 0.48 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.56 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.64 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.72 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.8 }
+            ]
+        ]
+    },
+    "23054": {
+        "id": "23054",
+        "skill": "Game Changer",
+        "desc": "Increases the wearer's SPD by #1[i]%. When the wearer enters combat or uses Ultimate on an ally target, the wearer gains \"Great Fortune\" for #4[i] turn(s). While the wearer holds \"Great Fortune,\" all allies' CRIT Rate increases by #2[i]%, CRIT DMG increases by #3[i]%, and the wearer's Energy Regeneration Rate increases by #5[i]%.\nAt the start of each wave, the wearer regenerates a fixed amount of #6[i] Energy.",
+        "params": [
+            [0.18, 0.1, 0.3, 3, 0.12, 15],
+            [0.21, 0.11, 0.375, 3, 0.14, 15],
+            [0.24, 0.12, 0.45, 3, 0.16, 15],
+            [0.27, 0.13, 0.525, 3, 0.18, 15],
+            [0.3, 0.14, 0.6, 3, 0.2, 15]
         ],
         "properties": [
             [

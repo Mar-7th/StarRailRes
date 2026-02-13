@@ -446,6 +446,44 @@
             []
         ]
     },
+    "20023": {
+        "id": "20023",
+        "skill": "Phóng Túng",
+        "desc": "Khi phát động Thời Khắc Aha, khiến Độ Vui Vẻ của người trang bị tăng #1[i]%, duy trì đến khi Thời Khắc Aha kết thúc.",
+        "params": [
+            [0.16],
+            [0.2],
+            [0.24],
+            [0.28],
+            [0.32]
+        ],
+        "properties": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    "20024": {
+        "id": "20024",
+        "skill": "Tưởng Niệm",
+        "desc": "Khi Điểm Hài Hước sở hữu lớn hơn hoặc bằng #1[i], Sát Thương Bạo Kích của người trang bị tăng #2[i]%.",
+        "params": [
+            [10, 0.2],
+            [10, 0.25],
+            [10, 0.3],
+            [10, 0.35],
+            [10, 0.4]
+        ],
+        "properties": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
     "21000": {
         "id": "21000",
         "skill": "Hồi Phục Qua Lại",
@@ -1992,6 +2030,64 @@
             ],
             [
                 { "type": "CriticalDamageBase", "value": 0.4 }
+            ]
+        ]
+    },
+    "21064": {
+        "id": "21064",
+        "skill": "Loạn Đấu",
+        "desc": "Khiến Độ Vui Vẻ của người trang bị tăng #1[i]%. Khi người trang bị thi triển Kỹ Năng Vui Vẻ, khiến Sát Thương Vui Vẻ mà toàn bộ phe địch phải chịu tăng #2[i]%, duy trì #3[i] hiệp.",
+        "params": [
+            [0.12, 0.06, 2],
+            [0.14, 0.07, 2],
+            [0.16, 0.08, 2],
+            [0.18, 0.09, 2],
+            [0.2, 0.1, 2]
+        ],
+        "properties": [
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.12 }
+            ],
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.14 }
+            ],
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.16 }
+            ],
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.18 }
+            ],
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.2 }
+            ]
+        ]
+    },
+    "21065": {
+        "id": "21065",
+        "skill": "Lựa Chọn",
+        "desc": "Khiến Tỷ Lệ Bạo Kích của người trang bị tăng #1[i]%. Khi người trang bị thi triển Kỹ Năng Vui Vẻ, Độ Vui Vẻ tăng #2[i]%, hiệu ứng này tối đa cộng dồn #3[i] lần.",
+        "params": [
+            [0.12, 0.12, 2],
+            [0.14, 0.14, 2],
+            [0.16, 0.16, 2],
+            [0.18, 0.18, 2],
+            [0.2, 0.2, 2]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalChanceBase", "value": 0.12 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.14 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.16 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.18 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.2 }
             ]
         ]
     },
@@ -3691,6 +3787,64 @@
             [0.24, 0.22, 0.14, 0.7],
             [0.27, 0.25, 0.16, 0.75],
             [0.3, 0.28, 0.18, 0.8]
+        ],
+        "properties": [
+            [
+                { "type": "SpeedAddedRatio", "value": 0.18 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.21 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.24 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.27 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.3 }
+            ]
+        ]
+    },
+    "23053": {
+        "id": "23053",
+        "skill": "Chú Mục",
+        "desc": "Khiến Sát Thương Bạo Kích của người trang bị tăng #1[i]%. Khi người trang bị ở trong trận, trong đội cứ có 1 nhân vật vận mệnh \"Vui Vẻ\", thì giới hạn Điểm Chiến Kỹ sẽ tăng #2[i] điểm, tối đa tăng #3[i] điểm; Mỗi khi người trang bị tiêu hao 1 Điểm Chiến Kỹ sẽ khiến Sát Thương Vui Vẻ bản thân gây ra bỏ qua #6[f1]% Phòng Thủ của mục tiêu phe địch, tối đa cộng dồn #5[i] tầng, nếu tiêu hao từ #7[i] Điểm Chiến Kỹ trở lên trong cùng 1 hiệp, sẽ khiến người trang bị nhận được \"Đẩy Stream\". Khi người trang bị sở hữu \"Đẩy Stream\", Độ Vui Vẻ của toàn phe ta tăng #4[i]%. Hiệu ứng Nón Ánh Sáng cùng loại không thể cộng dồn.",
+        "params": [
+            [0.48, 1, 3, 0.2, 4, 0.05, 4],
+            [0.56, 1, 3, 0.24, 4, 0.06, 4],
+            [0.64, 1, 3, 0.28, 4, 0.07, 4],
+            [0.72, 1, 3, 0.32, 4, 0.08, 4],
+            [0.8, 1, 3, 0.36, 4, 0.09, 4]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalDamageBase", "value": 0.48 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.56 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.64 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.72 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.8 }
+            ]
+        ]
+    },
+    "23054": {
+        "id": "23054",
+        "skill": "Phá Trận",
+        "desc": "Khiến Tốc Độ của người trang bị tăng #1[i]%. Khi người trang bị vào chiến đấu hoặc thi triển Tuyệt Kỹ lên mục tiêu phe ta, sẽ nhận được \"Quẻ Thượng Thượng\", duy trì #4[i] hiệp. Khi người trang bị có \"Quẻ Thượng Thượng\", toàn bộ phe ta tăng #2[i]% Tỷ Lệ Bạo Kích, tăng #3[i]% Sát Thương Bạo Kích, bản thân người trang bị tăng #5[i]% Hiệu Suất Hồi Phục Năng Lượng.\nKhi bắt đầu mỗi đợt, người trang bị sẽ hồi cố định #6[i] điểm Năng Lượng.",
+        "params": [
+            [0.18, 0.1, 0.3, 3, 0.12, 15],
+            [0.21, 0.11, 0.375, 3, 0.14, 15],
+            [0.24, 0.12, 0.45, 3, 0.16, 15],
+            [0.27, 0.13, 0.525, 3, 0.18, 15],
+            [0.3, 0.14, 0.6, 3, 0.2, 15]
         ],
         "properties": [
             [

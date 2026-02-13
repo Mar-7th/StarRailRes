@@ -446,6 +446,44 @@
             []
         ]
     },
+    "20023": {
+        "id": "20023",
+        "skill": "Indulgence",
+        "desc": "Saat Aha Instant dilancarkan, meningkatkan #1[i]% Tingkat Elation pengguna, berlangsung hingga Aha Instant berakhir.",
+        "params": [
+            [0.16],
+            [0.2],
+            [0.24],
+            [0.28],
+            [0.32]
+        ],
+        "properties": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    "20024": {
+        "id": "20024",
+        "skill": "Mourning",
+        "desc": "Saat Punchline yang dimiliki lebih dari atau sama dengan #1[i], CRIT DMG pengguna meningkat #2[i]%.",
+        "params": [
+            [10, 0.2],
+            [10, 0.25],
+            [10, 0.3],
+            [10, 0.35],
+            [10, 0.4]
+        ],
+        "properties": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
     "21000": {
         "id": "21000",
         "skill": "Mutual Healing",
@@ -1992,6 +2030,64 @@
             ],
             [
                 { "type": "CriticalDamageBase", "value": 0.4 }
+            ]
+        ]
+    },
+    "21064": {
+        "id": "21064",
+        "skill": "Rumble",
+        "desc": "Meningkatkan #1[i]% Tingkat Elation pengguna. Saat pengguna melancarkan Elation Skill, meningkatkan #2[i]% Elation DMG yang diterima seluruh musuh selama #3[i] giliran.",
+        "params": [
+            [0.12, 0.06, 2],
+            [0.14, 0.07, 2],
+            [0.16, 0.08, 2],
+            [0.18, 0.09, 2],
+            [0.2, 0.1, 2]
+        ],
+        "properties": [
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.12 }
+            ],
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.14 }
+            ],
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.16 }
+            ],
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.18 }
+            ],
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.2 }
+            ]
+        ]
+    },
+    "21065": {
+        "id": "21065",
+        "skill": "Decision",
+        "desc": "Meningkatkan #1[i]% CRIT Rate pengguna. Saat pengguna melancarkan Elation Skill, Tingkat Elation meningkat #2[i]%, efek ini dapat ditumpuk hingga #3[i] kali.",
+        "params": [
+            [0.12, 0.12, 2],
+            [0.14, 0.14, 2],
+            [0.16, 0.16, 2],
+            [0.18, 0.18, 2],
+            [0.2, 0.2, 2]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalChanceBase", "value": 0.12 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.14 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.16 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.18 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.2 }
             ]
         ]
     },
@@ -3691,6 +3787,64 @@
             [0.24, 0.22, 0.14, 0.7],
             [0.27, 0.25, 0.16, 0.75],
             [0.3, 0.28, 0.18, 0.8]
+        ],
+        "properties": [
+            [
+                { "type": "SpeedAddedRatio", "value": 0.18 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.21 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.24 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.27 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.3 }
+            ]
+        ]
+    },
+    "23053": {
+        "id": "23053",
+        "skill": "Center of Attention",
+        "desc": "Meningkatkan #1[i]% CRIT DMG pengguna. Saat pengguna di medan pertempuran, untuk setiap 1 karakter Path \"Elation\" di dalam tim, batas maksimum Poin Skill akan meningkat #2[i] poin, maksimal meningkat #3[i] poin. Setiap 1 Poin Skill yang dikonsumsi pengguna membuat Elation DMG yang diakibatkan diri sendiri mengabaikan #6[f1]% DEF target musuh, dapat ditumpuk hingga #5[i] lapis. Jika dalam giliran yang sama mengonsumsi lebih dari atau sama dengan #7[i] Poin Skill, maka pengguna akan memperoleh \"Stream Promo\". Saat pengguna memiliki \"Stream Promo\", Tingkat Elation seluruh rekan tim meningkat #4[i]%. Efek Light Cone sejenis tidak dapat ditumpuk.",
+        "params": [
+            [0.48, 1, 3, 0.2, 4, 0.05, 4],
+            [0.56, 1, 3, 0.24, 4, 0.06, 4],
+            [0.64, 1, 3, 0.28, 4, 0.07, 4],
+            [0.72, 1, 3, 0.32, 4, 0.08, 4],
+            [0.8, 1, 3, 0.36, 4, 0.09, 4]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalDamageBase", "value": 0.48 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.56 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.64 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.72 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.8 }
+            ]
+        ]
+    },
+    "23054": {
+        "id": "23054",
+        "skill": "Game Changer",
+        "desc": "Meningkatkan #1[i]% SPD pengguna. Saat pengguna memasuki pertempuran atau melancarkan Ultimate pada rekan tim, pengguna akan memperoleh \"Great Fortune\" selama #4[i] giliran. Saat pengguna memiliki \"Great Fortune\", seluruh rekan tim mengalami peningkatan #2[i]% CRIT Rate dan #3[i]% CRIT DMG, dan Energy Regeneration Rate pengguna meningkat #5[i]%.\nSaat setiap gelombang dimulai, pengguna akan memulihkan #6[i] Energy secara tetap.",
+        "params": [
+            [0.18, 0.1, 0.3, 3, 0.12, 15],
+            [0.21, 0.11, 0.375, 3, 0.14, 15],
+            [0.24, 0.12, 0.45, 3, 0.16, 15],
+            [0.27, 0.13, 0.525, 3, 0.18, 15],
+            [0.3, 0.14, 0.6, 3, 0.2, 15]
         ],
         "properties": [
             [

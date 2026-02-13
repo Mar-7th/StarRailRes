@@ -446,6 +446,44 @@
             []
         ]
     },
+    "20023": {
+        "id": "20023",
+        "skill": "Indulgência",
+        "desc": "Quando o \"Instante de Aha\" é ativado, a Euforia do usuário aumenta em #1[i]%, durando até o fim do \"Instante Aha\".",
+        "params": [
+            [0.16],
+            [0.2],
+            [0.24],
+            [0.28],
+            [0.32]
+        ],
+        "properties": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    "20024": {
+        "id": "20024",
+        "skill": "Luto",
+        "desc": "Quando possuir #1[i] ponto(s) de \"Piada\" ou mais, o Dano CRIT do usuário aumenta em #2[i]%.",
+        "params": [
+            [10, 0.2],
+            [10, 0.25],
+            [10, 0.3],
+            [10, 0.35],
+            [10, 0.4]
+        ],
+        "properties": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
     "21000": {
         "id": "21000",
         "skill": "Cura Mútua",
@@ -1757,7 +1795,7 @@
     "21053": {
         "id": "21053",
         "skill": "Doce Sonho",
-        "desc": "Aumenta o Efeito de Escudo fornecido ao usuário em #1[i]%. Quando um aliado-alvo possui um Escudo, o Dano causado aumenta em #2[i]%.",
+        "desc": "Aumenta o Efeito de Escudo fornecido pelo usuário em #1[i]%. Enquanto um aliado-alvo possuir um Escudo, o Dano causado por ele aumenta em #2[i]%.",
         "params": [
             [0.12, 0.12],
             [0.15, 0.14],
@@ -1992,6 +2030,64 @@
             ],
             [
                 { "type": "CriticalDamageBase", "value": 0.4 }
+            ]
+        ]
+    },
+    "21064": {
+        "id": "21064",
+        "skill": "Estrondo",
+        "desc": "Aumenta a Euforia do usuário em #1[i]%. Quando o usuário usa uma Perícia da Euforia, aumenta o Dano de Euforia recebido por todos os inimigos em #2[i]% por #3[i] rodada(s).",
+        "params": [
+            [0.12, 0.06, 2],
+            [0.14, 0.07, 2],
+            [0.16, 0.08, 2],
+            [0.18, 0.09, 2],
+            [0.2, 0.1, 2]
+        ],
+        "properties": [
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.12 }
+            ],
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.14 }
+            ],
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.16 }
+            ],
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.18 }
+            ],
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.2 }
+            ]
+        ]
+    },
+    "21065": {
+        "id": "21065",
+        "skill": "Decisão",
+        "desc": "Aumenta o Chance de CRIT do usuário em #1[i]%. Quando o usuário usa uma Perícia da Euforia, aumenta a Euforia em #2[i]%, acumulando até #3[i] vezes.",
+        "params": [
+            [0.12, 0.12, 2],
+            [0.14, 0.14, 2],
+            [0.16, 0.16, 2],
+            [0.18, 0.18, 2],
+            [0.2, 0.2, 2]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalChanceBase", "value": 0.12 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.14 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.16 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.18 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.2 }
             ]
         ]
     },
@@ -3691,6 +3787,64 @@
             [0.24, 0.22, 0.14, 0.7],
             [0.27, 0.25, 0.16, 0.75],
             [0.3, 0.28, 0.18, 0.8]
+        ],
+        "properties": [
+            [
+                { "type": "SpeedAddedRatio", "value": 0.18 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.21 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.24 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.27 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.3 }
+            ]
+        ]
+    },
+    "23053": {
+        "id": "23053",
+        "skill": "Centro das Atenções",
+        "desc": "Aumenta o Dano CRIT do usuário em #1[i]%. Enquanto o usuário estiver no campo, para cada 1 personagem de Euforia na equipe, o limite máximo de Pontos de Perícia aumenta em #2[i], até um aumento máximo de #3[i]. Para cada 1 Ponto de Perícia consumido pelo usuário, o Dano de Euforia causado por esta unidade ignora #6[f1]% da DEF dos inimigos-alvo, acumulando até #5[i] vezes. Se #7[i] ou mais Pontos de Perícia forem consumidos na mesma rodada, o usuário ganha \"Promoção da Stream\", o que aumenta a Euforia de todos os aliados em #4[i]%. Efeitos de Cone de Luz do mesmo tipo não podem ser acumulados.",
+        "params": [
+            [0.48, 1, 3, 0.2, 4, 0.05, 4],
+            [0.56, 1, 3, 0.24, 4, 0.06, 4],
+            [0.64, 1, 3, 0.28, 4, 0.07, 4],
+            [0.72, 1, 3, 0.32, 4, 0.08, 4],
+            [0.8, 1, 3, 0.36, 4, 0.09, 4]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalDamageBase", "value": 0.48 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.56 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.64 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.72 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.8 }
+            ]
+        ]
+    },
+    "23054": {
+        "id": "23054",
+        "skill": "Ponto da Virada",
+        "desc": "Aumenta a VEL do usuário em #1[i]%. Quando o usuário entra em combate ou usa a Perícia Suprema em um aliado-alvo, o usuário ganha \"Sorte Grande\" por #4[i] rodada(s). Enquanto o usuário tem \"Sorte Grande\", a Chance de CRIT de todos os aliados aumenta em #2[i]%, o Dano CRIT aumenta em #3[i]% e a Taxa de Regeneração de Energia do usuário aumenta em #5[i]%.\nNo início de cada onda, o usuário regenera uma quantidade fixa de #6[i] de Energia.",
+        "params": [
+            [0.18, 0.1, 0.3, 3, 0.12, 15],
+            [0.21, 0.11, 0.375, 3, 0.14, 15],
+            [0.24, 0.12, 0.45, 3, 0.16, 15],
+            [0.27, 0.13, 0.525, 3, 0.18, 15],
+            [0.3, 0.14, 0.6, 3, 0.2, 15]
         ],
         "properties": [
             [

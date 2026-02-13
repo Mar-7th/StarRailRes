@@ -374,7 +374,7 @@
         "id": "100602",
         "name": "Zombie Network",
         "rank": 2,
-        "desc": "When an enemy enters battle, reduces their Effect RES by 20%.",
+        "desc": "When an enemy enters combat, reduces their Effect RES by 20%.",
         "materials": [
             { "id": "11006", "num": 1 }
         ],
@@ -879,7 +879,7 @@
         "id": "1100602",
         "name": "Zombie Network",
         "rank": 2,
-        "desc": "When an enemy target enters battle, increases their DMG taken by 20%. When an enemy target gets attacked by ally targets, Silver Wolf has a 100% base chance to implant 1 random \"Bug\" on the attacked enemy target.",
+        "desc": "When an enemy target enters combat, increases their DMG taken by 20%. When an enemy target gets attacked by ally targets, Silver Wolf has a 100% base chance to implant 1 random \"Bug\" on the attacked enemy target.",
         "materials": [
             { "id": "11006", "num": 1 }
         ],
@@ -1947,6 +1947,150 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1121_rank6.png"
+    },
+    "1130601": {
+        "id": "1130601",
+        "name": "Suspension of Disbelief",
+        "rank": 1,
+        "desc": "Increases the ATK of ally targets with \"Cipher\" by 40%. When the battle starts or when using Skill, increases Sparkle's SPD by 15%, lasting for 2 turn(s).",
+        "materials": [
+            { "id": "11306", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1130_rank1.png"
+    },
+    "1130602": {
+        "id": "1130602",
+        "name": "Purely Fictitious",
+        "rank": 2,
+        "desc": "Each stack of the Talent's effect additionally reduces the enemy target's DEF by 10%.",
+        "materials": [
+            { "id": "11306", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1130_rank2.png"
+    },
+    "1130603": {
+        "id": "1130603",
+        "name": "Pipedream",
+        "rank": 3,
+        "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "materials": [
+            { "id": "11306", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "1130602", "num": 2 },
+            { "id": "1130601", "num": 1 }
+        ],
+        "icon": "icon/skill/1130_skill.png"
+    },
+    "1130604": {
+        "id": "1130604",
+        "name": "Life Is a Gamble",
+        "rank": 4,
+        "desc": "The Ultimate recovers 1 more Skill Point. The Talent additionally increases the Max Skill Points by 1.",
+        "materials": [
+            { "id": "11306", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1130_rank4.png"
+    },
+    "1130605": {
+        "id": "1130605",
+        "name": "Parallax Truth",
+        "rank": 5,
+        "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
+        "materials": [
+            { "id": "11306", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "1130603", "num": 2 },
+            { "id": "1130604", "num": 2 }
+        ],
+        "icon": "icon/skill/1130_ultimate.png"
+    },
+    "1130606": {
+        "id": "1130606",
+        "name": "Narrative Polysemy",
+        "rank": 6,
+        "desc": "The CRIT DMG Boost effect provided by the Skill additionally increases by an amount equal to 30% of Sparkle's CRIT DMG. When Sparkle uses Skill, her Skill's CRIT DMG Boost effect will apply to all teammates with \"Cipher.\" When Sparkle uses her Ultimate, any single ally who benefits from her Skill's CRIT DMG Boost will spread that effect to teammates with \"Cipher.\"",
+        "materials": [
+            { "id": "11306", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1130_rank6.png"
+    },
+    "1130701": {
+        "id": "1130701",
+        "name": "Seven Pillars of Wisdom",
+        "rank": 1,
+        "desc": "While Black Swan is active in combat, enemies afflicted with Wind Shear, Bleed, Burn, or Shock will have their corresponding Wind, Physical, Fire, or Lightning RES respectively reduced by 25%.",
+        "materials": [
+            { "id": "11307", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1130_rank1.png"
+    },
+    "1130702": {
+        "id": "1130702",
+        "name": "Weep Not For Me, My Lamb",
+        "rank": 2,
+        "desc": "When enemy targets enter combat, there is a 100% base chance to inflict 30 stack(s) of \"Arcana\" on them.",
+        "materials": [
+            { "id": "11307", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1130_rank2.png"
+    },
+    "1130703": {
+        "id": "1130703",
+        "name": "As Above, So Below",
+        "rank": 3,
+        "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
+        "materials": [
+            { "id": "11307", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "1130702", "num": 2 },
+            { "id": "1130704", "num": 2 }
+        ],
+        "icon": "icon/skill/1130_skill.png"
+    },
+    "1130704": {
+        "id": "1130704",
+        "name": "In Tears We Gift",
+        "rank": 4,
+        "desc": "While in the \"Epiphany\" state, enemy targets take 20% increased DMG. And at the start of every turn or when they get defeated, regenerates 8 Energy for Black Swan.",
+        "materials": [
+            { "id": "11307", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1130_rank4.png"
+    },
+    "1130705": {
+        "id": "1130705",
+        "name": "Linnutee Flyway",
+        "rank": 5,
+        "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "materials": [
+            { "id": "11307", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "1130703", "num": 2 },
+            { "id": "1130701", "num": 1 }
+        ],
+        "icon": "icon/skill/1130_ultimate.png"
+    },
+    "1130706": {
+        "id": "1130706",
+        "name": "Pantheon Merciful, Masses Pitiful",
+        "rank": 6,
+        "desc": "The upper limit of stackable \"Arcana\" increases by 30.\nWhen an enemy target gets attacked by Black Swan's teammates, Black Swan has a 65% base chance of inflicting 1 stack of \"Arcana\" on the target.\nFor every 1 stack of \"Arcana\" Black Swan inflicts on an enemy target, additionally increases the number of \"Arcana\" stacked this time by 1.",
+        "materials": [
+            { "id": "11307", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1130_rank6.png"
     },
     "120101": {
         "id": "120101",
@@ -4053,7 +4197,7 @@
         "id": "130701",
         "name": "Seven Pillars of Wisdom",
         "rank": 1,
-        "desc": "While Black Swan is active in battle, enemies afflicted with Wind Shear, Bleed, Burn, or Shock will have their corresponding Wind, Physical, Fire, or Lightning RES respectively reduced by 25%.",
+        "desc": "While Black Swan is active in combat, enemies afflicted with Wind Shear, Bleed, Burn, or Shock will have their corresponding Wind, Physical, Fire, or Lightning RES respectively reduced by 25%.",
         "materials": [
             { "id": "11307", "num": 1 }
         ],
@@ -4795,7 +4939,7 @@
         "id": "140102",
         "name": "Wind Through Keyhole",
         "rank": 2,
-        "desc": "After The Herta enters battle or uses Ultimate, additionally gains 1 \"Inspiration\" stack. After using Enhanced Skill, advances The Herta's next action by 35%.",
+        "desc": "After The Herta enters combat or uses Ultimate, additionally gains 1 \"Inspiration\" stack. After using Enhanced Skill, advances The Herta's next action by 35%.",
         "materials": [
             { "id": "11401", "num": 1 }
         ],
@@ -5837,6 +5981,156 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1415_rank6.png"
+    },
+    "150101": {
+        "id": "150101",
+        "name": "#GoingViral #WhoIsShe",
+        "rank": 1,
+        "desc": "When Aha Instant ends, gains 5 Punchline. For every 1 Punchline owned, increases All-Type RES PEN for all allies by 1.5%, up to a max increase of 15%.",
+        "materials": [
+            { "id": "11501", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1501_rank1.png"
+    },
+    "150102": {
+        "id": "150102",
+        "name": "#AudienceKnows",
+        "rank": 2,
+        "desc": "When Aha Instant ends, Sparxie gains 1 extra turn and 2 \"Thrill.\" For every 1 \"Thrill\" consumed, increases this unit's CRIT DMG by 10%, lasting for 2 turn(s) and stacking up to 4 time(s).",
+        "materials": [
+            { "id": "11501", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1501_rank2.png"
+    },
+    "150103": {
+        "id": "150103",
+        "name": "#LinkUp #HeartSkip",
+        "rank": 3,
+        "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\nElation Skill Lv. +1, up to a maximum of Lv. 15.",
+        "materials": [
+            { "id": "11501", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "150102", "num": 2 },
+            { "id": "150101", "num": 1 },
+            { "id": "150120", "num": 1 },
+            { "id": "150109", "num": 2 },
+            { "id": "150108", "num": 1 }
+        ],
+        "icon": "icon/skill/1501_skill.png"
+    },
+    "150104": {
+        "id": "150104",
+        "name": "#LockedIn #FaceCard",
+        "rank": 4,
+        "desc": "When using Ultimate, additionally gains 5 Punchline and increases this unit's Elation by 36% for 3 turn(s).",
+        "materials": [
+            { "id": "11501", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1501_rank4.png"
+    },
+    "150105": {
+        "id": "150105",
+        "name": "#HealingTheWorld #GoodVibesOnly",
+        "rank": 5,
+        "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.\nElation Skill Lv. +1, up to a maximum of Lv. 15.",
+        "materials": [
+            { "id": "11501", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "150103", "num": 2 },
+            { "id": "150104", "num": 2 },
+            { "id": "150120", "num": 1 }
+        ],
+        "icon": "icon/skill/1501_ultimate.png"
+    },
+    "150106": {
+        "id": "150106",
+        "name": "#BuiltDifferent #GoingExtinct",
+        "rank": 6,
+        "desc": "Increases All-Type RES PEN by 20%. For every 1 Punchline taken into account, the number of additional DMG instances dealt by the Elation Skill increases by 1, up to a max of 40.",
+        "materials": [
+            { "id": "11501", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1501_rank6.png"
+    },
+    "150201": {
+        "id": "150201",
+        "name": "Chuckle Chimes Where Jade Falls",
+        "rank": 1,
+        "desc": "In Aha's extra turn triggered by Ultimate, the fixed amount of Punchline taken into account increases to 40. When dealing Elation DMG, all ally targets ignore 20% of the target's DEF.",
+        "materials": [
+            { "id": "11502", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1502_rank1.png"
+    },
+    "150202": {
+        "id": "150202",
+        "name": "Blind Arrows Guided by Feathers",
+        "rank": 2,
+        "desc": "While the Zone is active, increases all ally targets' SPD by 12%, and additionally increases Elation by 16%.",
+        "materials": [
+            { "id": "11502", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1502_rank2.png"
+    },
+    "150203": {
+        "id": "150203",
+        "name": "Auspices Mirrored In Decalight",
+        "rank": 3,
+        "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\nElation Skill Lv. +1, up to a maximum of Lv. 15.",
+        "materials": [
+            { "id": "11502", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "150202", "num": 2 },
+            { "id": "150201", "num": 1 },
+            { "id": "150220", "num": 1 }
+        ],
+        "icon": "icon/skill/1502_skill.png"
+    },
+    "150204": {
+        "id": "150204",
+        "name": "Threads of Fate Colored by Plumes",
+        "rank": 4,
+        "desc": "In Aha's extra turn triggered by Yao Guang's Ultimate, the DMG dealt by all ally characters' Elation Skill becomes 150% of the original DMG.",
+        "materials": [
+            { "id": "11502", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1502_rank4.png"
+    },
+    "150205": {
+        "id": "150205",
+        "name": "Bejeweled in Radiant Grace",
+        "rank": 5,
+        "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.\nElation Skill Lv. +1, up to a maximum of Lv. 15.",
+        "materials": [
+            { "id": "11502", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "150203", "num": 2 },
+            { "id": "150204", "num": 2 },
+            { "id": "150220", "num": 1 }
+        ],
+        "icon": "icon/skill/1502_ultimate.png"
+    },
+    "150206": {
+        "id": "150206",
+        "name": "Ferried Along the Astral Arc",
+        "rank": 6,
+        "desc": "All ally targets' Elation DMG merrymakes by 25%. Increases the DMG multiplier of Yao Guang's Elation Skill by 100% of its original multiplier.",
+        "materials": [
+            { "id": "11502", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1502_rank6.png"
     },
     "800101": {
         "id": "800101",

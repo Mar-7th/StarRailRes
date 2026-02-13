@@ -446,6 +446,44 @@
             []
         ]
     },
+    "20023": {
+        "id": "20023",
+        "skill": "Ausgelassenheit",
+        "desc": "Wenn der Aha-Moment ausgelöst wird, wird das Hochgefühl des Trägers um #1[i]% erhöht, bis der Aha-Moment endet.",
+        "params": [
+            [0.16],
+            [0.2],
+            [0.24],
+            [0.28],
+            [0.32]
+        ],
+        "properties": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    "20024": {
+        "id": "20024",
+        "skill": "Trauer",
+        "desc": "Wenn die Anzahl der vorhandenen Lachpunkte #1[i] oder mehr beträgt, wird der KRIT-SCH des Trägers um #2[i]% erhöht.",
+        "params": [
+            [10, 0.2],
+            [10, 0.25],
+            [10, 0.3],
+            [10, 0.35],
+            [10, 0.4]
+        ],
+        "properties": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
     "21000": {
         "id": "21000",
         "skill": "Gegenseitiges Heilen",
@@ -1992,6 +2030,64 @@
             ],
             [
                 { "type": "CriticalDamageBase", "value": 0.4 }
+            ]
+        ]
+    },
+    "21064": {
+        "id": "21064",
+        "skill": "Kampfchaos",
+        "desc": "Erhöht das Hochgefühl des Trägers um #1[i]%. Wenn der Träger seine Hochgefühl-Fähigkeit einsetzt, wird der erlittene Hochgefühl-SCH aller Gegner für #3[i] Rd. um #2[i]% erhöht.",
+        "params": [
+            [0.12, 0.06, 2],
+            [0.14, 0.07, 2],
+            [0.16, 0.08, 2],
+            [0.18, 0.09, 2],
+            [0.2, 0.1, 2]
+        ],
+        "properties": [
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.12 }
+            ],
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.14 }
+            ],
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.16 }
+            ],
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.18 }
+            ],
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.2 }
+            ]
+        ]
+    },
+    "21065": {
+        "id": "21065",
+        "skill": "Entscheidung",
+        "desc": "Erhöht die KRIT-Rate des Trägers um #1[i]%. Wenn der Träger seine Hochgefühl-Fähigkeit einsetzt, wird sein Hochgefühl um #2[i]% erhöht. Dieser Effekt ist bis zu #3[i]-mal stapelbar.",
+        "params": [
+            [0.12, 0.12, 2],
+            [0.14, 0.14, 2],
+            [0.16, 0.16, 2],
+            [0.18, 0.18, 2],
+            [0.2, 0.2, 2]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalChanceBase", "value": 0.12 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.14 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.16 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.18 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.2 }
             ]
         ]
     },
@@ -3691,6 +3787,64 @@
             [0.24, 0.22, 0.14, 0.7],
             [0.27, 0.25, 0.16, 0.75],
             [0.3, 0.28, 0.18, 0.8]
+        ],
+        "properties": [
+            [
+                { "type": "SpeedAddedRatio", "value": 0.18 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.21 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.24 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.27 }
+            ],
+            [
+                { "type": "SpeedAddedRatio", "value": 0.3 }
+            ]
+        ]
+    },
+    "23053": {
+        "id": "23053",
+        "skill": "Blickfang",
+        "desc": "Erhöht den KRIT-SCH des Trägers um #1[i]%. Wenn sich der Träger auf dem Kampffeld befindet, werden die max. Fertigkeitspunkte für jede Figur auf dem Pfad des Hochgefühls im Team um #2[i] Pkt. erhöht, bis zu einer Erhöhung von #3[i] Pkt. Für jeden Fertigkeitspunkt, den der Träger verbraucht, ignoriert der von ihm verursachte Hochgefühl-SCH #6[f1]% der VTD des Gegners. Dieser Effekt ist bis zu #5[i]-fach stapelbar. Werden in derselben Runde mindestens #7[i] Fertigkeitspunkte verbraucht, erhält der Träger „Streamwerbung“. Wenn der Träger Streamwerbung besitzt, wird das Hochgefühl aller Verbündeten um #4[i]% erhöht. Lichtkegel-Effekte desselben Typs sind nicht stapelbar.",
+        "params": [
+            [0.48, 1, 3, 0.2, 4, 0.05, 4],
+            [0.56, 1, 3, 0.24, 4, 0.06, 4],
+            [0.64, 1, 3, 0.28, 4, 0.07, 4],
+            [0.72, 1, 3, 0.32, 4, 0.08, 4],
+            [0.8, 1, 3, 0.36, 4, 0.09, 4]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalDamageBase", "value": 0.48 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.56 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.64 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.72 }
+            ],
+            [
+                { "type": "CriticalDamageBase", "value": 0.8 }
+            ]
+        ]
+    },
+    "23054": {
+        "id": "23054",
+        "skill": "Wendepunkt",
+        "desc": "Erhöht die GES des Trägers um #1[i]%. Wenn der Träger in den Kampf eintritt oder seinen Ultimate auf Verbündete einsetzt, erhält er für #4[i] Rd. „Großes Glück“. Während der Träger Großes Glück besitzt, wird die KRIT-Rate aller Verbündeten um #2[i]%, der KRIT-SCH um #3[i]% und die Energie-Wiederherstellungsrate um #5[i]% erhöht.\nZu Beginn jeder Kampfwelle stellt der Träger eine feste Anzahl von #6[i] Pkt. Energie wieder her.",
+        "params": [
+            [0.18, 0.1, 0.3, 3, 0.12, 15],
+            [0.21, 0.11, 0.375, 3, 0.14, 15],
+            [0.24, 0.12, 0.45, 3, 0.16, 15],
+            [0.27, 0.13, 0.525, 3, 0.18, 15],
+            [0.3, 0.14, 0.6, 3, 0.2, 15]
         ],
         "properties": [
             [

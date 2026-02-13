@@ -398,7 +398,7 @@
         "name": "World-Remaking Deliverer",
         "desc": [
             "Increases CRIT Rate by 8%.",
-            "After the wearer uses Basic ATK or Skill, if the wearer's memosprite is on the field, increases Max HP of the wearer and their memosprite by 24%, and increases all allies' dealt DMG by 15%, lasting until after the wearer's next use of Basic ATK or Skill."
+            "After the wearer uses Basic ATK or Skill, if the wearer's memosprite is on the field, increases Max HP of the wearer and their memosprite by 24%, and increases all allies' DMG dealt by 15%, lasting until after the wearer's next use of Basic ATK or Skill."
         ],
         "properties": [
             [
@@ -420,6 +420,36 @@
             []
         ],
         "icon": "icon/relic/128.png"
+    },
+    "129": {
+        "id": "129",
+        "name": "Ever-Glorious Magical Girl",
+        "desc": [
+            "Increases CRIT DMG by 16%.",
+            "The Elation DMG dealt by the wearer and their memosprites ignores 10% of targets' DEF. For every 5 accumulated Punchline allies gain, the Elation DMG dealt additionally ignores 1% of targets' DEF, stacking up to 10 time(s)."
+        ],
+        "properties": [
+            [
+                { "type": "CriticalDamageBase", "value": 0.16 }
+            ],
+            []
+        ],
+        "icon": "icon/relic/129.png"
+    },
+    "130": {
+        "id": "130",
+        "name": "Diviner of Distant Reach",
+        "desc": [
+            "Increases SPD by 6%.",
+            "Before entering combat, if the wearer's SPD is greater than or equal to 120/160, increases the wearer's CRIT Rate by 10%/18%. When the wearer uses Elation Skill for the first time in each battle, increases all allies' Elation by 10%. This effect cannot stack."
+        ],
+        "properties": [
+            [
+                { "type": "SpeedAddedRatio", "value": 0.06 }
+            ],
+            []
+        ],
+        "icon": "icon/relic/130.png"
     },
     "301": {
         "id": "301",
