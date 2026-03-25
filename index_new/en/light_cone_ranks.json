@@ -3864,6 +3864,35 @@
             ]
         ]
     },
+    "23056": {
+        "id": "23056",
+        "skill": "Subsume",
+        "desc": "Increases the wearer's CRIT Rate by #1[i]%. At the start of battle or for every #2[i] instance(s) of Follow-Up ATK the wearer uses, the wearer gains \"Umbra Devourer,\" lasting for #3[i] turn(s). While the wearer holds \"Umbra Devourer,\" increases ATK by #4[i]% and increases the DMG taken by all enemies by #5[i]%. Effects of the same type cannot stack.",
+        "params": [
+            [0.18, 4, 3, 0.4, 0.2],
+            [0.21, 4, 3, 0.5, 0.225],
+            [0.24, 4, 3, 0.6, 0.25],
+            [0.27, 4, 3, 0.7, 0.275],
+            [0.3, 4, 3, 0.8, 0.3]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalChanceBase", "value": 0.18 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.21 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.24 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.27 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.3 }
+            ]
+        ]
+    },
     "24000": {
         "id": "24000",
         "skill": "Moth to Flames",
@@ -4025,6 +4054,35 @@
             ],
             [
                 { "type": "SpeedAddedRatio", "value": 0.12 }
+            ]
+        ]
+    },
+    "24006": {
+        "id": "24006",
+        "skill": "Opening",
+        "desc": "Increases the wearer's ATK by #1[i]%. After the wearer uses Skill or Ultimate on one ally character, increases the target's Elation stat by #2[i]% for #3[i] turn(s).",
+        "params": [
+            [0.2, 0.12, 2],
+            [0.25, 0.15, 2],
+            [0.3, 0.18, 2],
+            [0.35, 0.21, 2],
+            [0.4, 0.24, 2]
+        ],
+        "properties": [
+            [
+                { "type": "AttackAddedRatio", "value": 0.2 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.25 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.3 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.35 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.4 }
             ]
         ]
     }

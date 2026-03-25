@@ -1073,7 +1073,7 @@
         "id": "110206",
         "name": "Caos destructivo",
         "rank": 6,
-        "desc": "Tras usar la habilidad definitiva de Seele, el objetivo entra en el estado de Mariposa desbocada durante 1 turno. Cuando un enemigo afectado por Mariposa desbocada es atacado, recibe un Daño Cuántico adicional equivalente al 15% del daño de habilidad definitiva de Seele. Si el enemigo es eliminado por el daño adicional de Mariposa desbocada activado por el ataque de otro aliado, no se activará el talento de Seele.\nCuando Seele sea derrotada, se disipará el estado de Mariposa desbocada infligido a los enemigos.",
+        "desc": "Tras atacar con la habilidad definitiva de Seele, el objetivo entra en el estado de Mariposa desbocada durante 1 turno. Cuando un enemigo afectado por Mariposa desbocada es atacado, recibe un Daño Cuántico adicional equivalente al 15% del daño de habilidad definitiva de Seele. Si el enemigo es eliminado por el daño adicional de Mariposa desbocada activado por el ataque de otro aliado, no se activará el talento de Seele.\nCuando Seele sea derrotada, se disipará el estado de Mariposa desbocada infligido a los enemigos.",
         "materials": [
             { "id": "11102", "num": 1 }
         ],
@@ -6131,6 +6131,78 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1502_rank6.png"
+    },
+    "150401": {
+        "id": "150401",
+        "name": "Cuidado: no salgas durante la luna llena",
+        "rank": 1,
+        "desc": "Mientras Ashveil está en el campo de batalla, el daño que reciben todos los enemigos aumenta en un 24%. Cuando el porcentaje de PV actual de un enemigo sea igual o inferior al 50%, el incremento de daño recibido aumenta al 36%.",
+        "materials": [
+            { "id": "11504", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1504_rank1.png"
+    },
+    "150402": {
+        "id": "150402",
+        "name": "Llamada: risa queda tras la puerta",
+        "rank": 2,
+        "desc": "El límite de acumulaciones de Gula aumenta a 18. Cada vez que Ashveil lanza la versión potenciada del ataque adicional del talento, recupera un 35% de las acumulaciones de Gula eliminadas.",
+        "materials": [
+            { "id": "11504", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1504_rank2.png"
+    },
+    "150403": {
+        "id": "150403",
+        "name": "Silencio: ensimismamiento entre amigos",
+        "rank": 3,
+        "desc": "Niv. de habilidad definitiva +2 (máximo: nivel 15). Niv. de ATQ básico +1 (máximo: nivel 10).",
+        "materials": [
+            { "id": "11504", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "150403", "num": 2 },
+            { "id": "150401", "num": 1 }
+        ],
+        "icon": "icon/skill/1504_ultimate.png"
+    },
+    "150404": {
+        "id": "150404",
+        "name": "Recuerda: la verdad hay que tragarla entera",
+        "rank": 4,
+        "desc": "Cuando Ashveil lanza la habilidad definitiva, su ATQ aumenta en un 40% durante 3 turnos.",
+        "materials": [
+            { "id": "11504", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1504_rank4.png"
+    },
+    "150405": {
+        "id": "150405",
+        "name": "Aviso: el detective puede ser el asesino",
+        "rank": 5,
+        "desc": "Niv. de habilidad básica +2 (máximo: nivel 15). Niv. de talento +2 (máximo: nivel 15).",
+        "materials": [
+            { "id": "11504", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "150402", "num": 2 },
+            { "id": "150404", "num": 2 }
+        ],
+        "icon": "icon/skill/1504_skill.png"
+    },
+    "150406": {
+        "id": "150406",
+        "name": "Final: y no quedó ninguno",
+        "rank": 6,
+        "desc": "Cuando hay un Cebo en el campo de batalla, la RES a todos los tipos de todos los enemigos se reduce en un 20%. El daño que inflige Ashveil aumenta en un 4% por cada acumulación de Gula obtenida. Este efecto se puede acumular hasta 30 veces.",
+        "materials": [
+            { "id": "11504", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1504_rank6.png"
     },
     "800101": {
         "id": "800101",

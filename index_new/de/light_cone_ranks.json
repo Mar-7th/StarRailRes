@@ -3838,7 +3838,7 @@
     "23054": {
         "id": "23054",
         "skill": "Wendepunkt",
-        "desc": "Erhöht die GES des Trägers um #1[i]%. Wenn der Träger in den Kampf eintritt oder seinen Ultimate auf Verbündete einsetzt, erhält er für #4[i] Rd. „Großes Glück“. Während der Träger Großes Glück besitzt, wird die KRIT-Rate aller Verbündeten um #2[i]%, der KRIT-SCH um #3[i]% und die Energie-Wiederherstellungsrate um #5[i]% erhöht.\nZu Beginn jeder Kampfwelle stellt der Träger eine feste Anzahl von #6[i] Pkt. Energie wieder her.",
+        "desc": "Erhöht die GES des Trägers um #1[i]%. Wenn der Träger in den Kampf eintritt oder seinen Ultimate auf Verbündete einsetzt, erhält er für #4[i] Rd. „Großes Glück“. Während der Träger Großes Glück besitzt, wird die KRIT-Rate aller Verbündeten um #2[i]%, der KRIT-SCH um #3[i]% und die Energie-Wiederherstellungsrate des Trägers um #5[i]% erhöht.\nZu Beginn jeder Kampfwelle stellt der Träger eine feste Anzahl von #6[i] Pkt. Energie wieder her.",
         "params": [
             [0.18, 0.1, 0.3, 3, 0.12, 15],
             [0.21, 0.11, 0.375, 3, 0.14, 15],
@@ -3861,6 +3861,35 @@
             ],
             [
                 { "type": "SpeedAddedRatio", "value": 0.3 }
+            ]
+        ]
+    },
+    "23056": {
+        "id": "23056",
+        "skill": "Verschlingen",
+        "desc": "Erhöht die KRIT-Rate des Trägers um #1[i]%. Zu Beginn des Kampfes oder jedes Mal, nachdem der Träger #2[i]-mal einen Folgeangriff ausgeführt hat, erhält er für #3[i] Rd. „Schattenverschlinger“. Wenn der Träger Schattenverschlinger besitzt, wird sein ANG um #4[i]% und der von allen Gegnern erlittene SCH um #5[i]% erhöht. Effekte desselben Typs sind nicht stapelbar.",
+        "params": [
+            [0.18, 4, 3, 0.4, 0.2],
+            [0.21, 4, 3, 0.5, 0.225],
+            [0.24, 4, 3, 0.6, 0.25],
+            [0.27, 4, 3, 0.7, 0.275],
+            [0.3, 4, 3, 0.8, 0.3]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalChanceBase", "value": 0.18 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.21 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.24 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.27 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.3 }
             ]
         ]
     },
@@ -4025,6 +4054,35 @@
             ],
             [
                 { "type": "SpeedAddedRatio", "value": 0.12 }
+            ]
+        ]
+    },
+    "24006": {
+        "id": "24006",
+        "skill": "Eröffnung",
+        "desc": "Erhöht den ANG des Trägers um #1[i]%. Nachdem der Träger seine Fertigkeit oder seinen Ultimate auf einen Verbündeten eingesetzt hat, wird das Hochgefühl des Ziels für #3[i] Rd. um #2[i]% erhöht.",
+        "params": [
+            [0.2, 0.12, 2],
+            [0.25, 0.15, 2],
+            [0.3, 0.18, 2],
+            [0.35, 0.21, 2],
+            [0.4, 0.24, 2]
+        ],
+        "properties": [
+            [
+                { "type": "AttackAddedRatio", "value": 0.2 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.25 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.3 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.35 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.4 }
             ]
         ]
     }

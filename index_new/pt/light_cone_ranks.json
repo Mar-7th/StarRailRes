@@ -2065,7 +2065,7 @@
     "21065": {
         "id": "21065",
         "skill": "Decisão",
-        "desc": "Aumenta o Chance de CRIT do usuário em #1[i]%. Quando o usuário usa uma Perícia da Euforia, aumenta a Euforia em #2[i]%, acumulando até #3[i] vezes.",
+        "desc": "Aumenta a Chance de CRIT do usuário em #1[i]%. Quando o usuário usa uma Perícia da Euforia, aumenta a Euforia em #2[i]%, acumulando até #3[i] vezes.",
         "params": [
             [0.12, 0.12, 2],
             [0.14, 0.14, 2],
@@ -3864,6 +3864,35 @@
             ]
         ]
     },
+    "23056": {
+        "id": "23056",
+        "skill": "Subsumir",
+        "desc": "Aumenta a Chance de CRIT do usuário em #1[i]%. No início da batalha ou a cada #2[i] Ataque(s) Extra usado(s) pelo usuário, o usuário ganha \"Devorador de Umbra\", que dura por #3[i] rodada(s). Enquanto o usuário possuir \"Devorador de Umbra\", aumenta o ATQ em #4[i]% e aumenta o Dano recebido por todos os inimigos em #5[i]%. Efeitos do mesmo tipo não podem acumular.",
+        "params": [
+            [0.18, 4, 3, 0.4, 0.2],
+            [0.21, 4, 3, 0.5, 0.225],
+            [0.24, 4, 3, 0.6, 0.25],
+            [0.27, 4, 3, 0.7, 0.275],
+            [0.3, 4, 3, 0.8, 0.3]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalChanceBase", "value": 0.18 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.21 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.24 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.27 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.3 }
+            ]
+        ]
+    },
     "24000": {
         "id": "24000",
         "skill": "Mariposa às Chamas",
@@ -4025,6 +4054,35 @@
             ],
             [
                 { "type": "SpeedAddedRatio", "value": 0.12 }
+            ]
+        ]
+    },
+    "24006": {
+        "id": "24006",
+        "skill": "Abertura",
+        "desc": "Aumenta o ATQ do usuário em #1[i]%. Depois que o usuário usa sua Perícia ou Perícia Suprema em um personagem aliado, aumenta a Euforia do alvo em #2[i]% por #3[i] rodada(s).",
+        "params": [
+            [0.2, 0.12, 2],
+            [0.25, 0.15, 2],
+            [0.3, 0.18, 2],
+            [0.35, 0.21, 2],
+            [0.4, 0.24, 2]
+        ],
+        "properties": [
+            [
+                { "type": "AttackAddedRatio", "value": 0.2 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.25 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.3 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.35 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.4 }
             ]
         ]
     }

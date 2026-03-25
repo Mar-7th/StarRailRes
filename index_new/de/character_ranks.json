@@ -1073,7 +1073,7 @@
         "id": "110206",
         "name": "Trennung",
         "rank": 6,
-        "desc": "Der Ultimate verursacht beim getroffenen Gegner für 1 Rd. den Status „Schmetterlingssturm“. Gegner im Schmetterlingssturm erleiden bei Treffern 1-mal zusätzlich Quanten-SCH in Höhe von 15% von Seeles Ultimate-SCH. Wenn ein anderer Verbündeter das Ziel durch den zusätzlichen SCH von Schmetterlingssturm besiegt, wird Seeles Talent nicht ausgelöst.\nIst Seele handlungsunfähig, wird der Status Schmetterlingssturm vom Gegner entfernt.",
+        "desc": "Nach einem Angriff mit dem Ultimate werden getroffene Gegner für 1 Rd. mit dem Status „Schmetterlingssturm“ belegt. Gegner im Schmetterlingssturm erleiden nach einem erlittenen Angriff 1-mal zusätzlichen Quanten-SCH in Höhe von 15% von Seeles Ultimate-SCH. Wenn ein anderer Verbündeter das Ziel durch den zusätzlichen SCH von Schmetterlingssturm besiegt, wird Seeles Talent nicht ausgelöst.\nIst Seele handlungsunfähig, wird der Status Schmetterlingssturm vom Gegner entfernt.",
         "materials": [
             { "id": "11102", "num": 1 }
         ],
@@ -6131,6 +6131,78 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1502_rank6.png"
+    },
+    "150401": {
+        "id": "150401",
+        "name": "Achtung: Bleibe bei Vollmond zu Haus",
+        "rank": 1,
+        "desc": "Wenn Ashveil sich auf dem Kampffeld befindet, wird der erlittene SCH aller Gegner um 24% erhöht. Wenn der aktuelle LP-Prozentsatz eines Gegners 50% oder weniger beträgt, wird sein erlittener SCH auf 36% erhöht.",
+        "materials": [
+            { "id": "11504", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1504_rank1.png"
+    },
+    "150402": {
+        "id": "150402",
+        "name": "Klopfen: Ein Kichern erschallet",
+        "rank": 2,
+        "desc": "Erhöht die max. Stapelzahl von „Völlerei“ auf 18. Jedes Mal, nachdem Ashveil den verstärkten Folgeangriff des Talents ausgelöst hat, werden 35% der entfernten Stapelungen von Völlerei wiederhergestellt.",
+        "materials": [
+            { "id": "11504", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1504_rank2.png"
+    },
+    "150403": {
+        "id": "150403",
+        "name": "Schweigen: Sorgen der alten Freunde",
+        "rank": 3,
+        "desc": "Ultimate-Stufe +2 bis max. St. 15. Standardangriff-Stufe +1 bis max. St. 10.",
+        "materials": [
+            { "id": "11504", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "150403", "num": 2 },
+            { "id": "150401", "num": 1 }
+        ],
+        "icon": "icon/skill/1504_ultimate.png"
+    },
+    "150404": {
+        "id": "150404",
+        "name": "Bedenke: Die Wahrheit braucht kein Grübeln",
+        "rank": 4,
+        "desc": "Erhöht Ashveils ANG beim Einsatz des Ultimates für 3 Rd. um 40%.",
+        "materials": [
+            { "id": "11504", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1504_rank4.png"
+    },
+    "150405": {
+        "id": "150405",
+        "name": "Erinnerung: Der Detektiv wird zum Mörder",
+        "rank": 5,
+        "desc": "Fertigkeitsstufe +2 bis max. St. 15. Talentstufe +2 bis max. St. 15.",
+        "materials": [
+            { "id": "11504", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "150402", "num": 2 },
+            { "id": "150404", "num": 2 }
+        ],
+        "icon": "icon/skill/1504_skill.png"
+    },
+    "150406": {
+        "id": "150406",
+        "name": "Finale: Und vielleicht gab’s keines mehr",
+        "rank": 6,
+        "desc": "Wenn sich ein „Köder“ auf dem Kampffeld befindet, wird der WDS aller Typen aller Gegner um 20% reduziert. Für jede Stapelung von „Völlerei“, die Ashveil jemals erhalten hat, wird der verursachte SCH um 4% erhöht. Dieser Effekt ist bis zu 30-fach stapelbar.",
+        "materials": [
+            { "id": "11504", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1504_rank6.png"
     },
     "800101": {
         "id": "800101",

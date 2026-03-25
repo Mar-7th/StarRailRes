@@ -1073,7 +1073,7 @@
         "id": "110206",
         "name": "Ébranlements éclatants",
         "rank": 6,
-        "desc": "Après utilisation de l'ultime de Seele, inflige l'effet Volée de papillons à l'ennemi attaqué pendant 1 tour. Les ennemis affectés par Volée de papillons subissent 1 instance supplémentaire de DGT additionnels quantiques équivalents à 15% des DGT de l'ultime de Seele chaque fois qu'ils sont attaqués. Si la cible est vaincue par les DGT additionnels de Volée de papillons provoqués par les attaques d'autres alliés, le talent de Seele ne se déclenche pas.\nLorsque Seele est à terre, l'effet Volée de papillons infligé aux ennemis est supprimé.",
+        "desc": "Après avoir attaqué avec l'ultime de Seele, elle applique l'effet Volée de papillons à l'ennemi attaqué pendant 1 tour. Les ennemis affectés par Volée de papillons subissent 1 instance supplémentaire de DGT additionnels quantiques équivalents à 15% des DGT de l'ultime de Seele chaque fois qu'ils sont attaqués. Si la cible est vaincue par les DGT additionnels de Volée de papillons provoqués par les attaques d'autres alliés, le talent de Seele ne se déclenche pas.\nLorsque Seele est à terre, l'effet Volée de papillons infligé aux ennemis est supprimé.",
         "materials": [
             { "id": "11102", "num": 1 }
         ],
@@ -6131,6 +6131,78 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1502_rank6.png"
+    },
+    "150401": {
+        "id": "150401",
+        "name": "Attention : ne sors pas à la pleine lune",
+        "rank": 1,
+        "desc": "Lorsqu'Ashveil est sur le champ de bataille, augmente les DGT subis par tous les ennemis de 24%. Lorsque le pourcentage de PV actuel d'une cible ennemie est inférieur ou égal à 50%, augmente les DGT qu'elle subit à 36%.",
+        "materials": [
+            { "id": "11504", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1504_rank1.png"
+    },
+    "150402": {
+        "id": "150402",
+        "name": "Coup : l'écho des rires",
+        "rank": 2,
+        "desc": "La limite de cumuls de Gourmandise augmente à 18. Chaque fois qu'Ashveil lance l'ATQ de suivi renforcée du talent, restitue 35% des cumuls de Gourmandise supprimés.",
+        "materials": [
+            { "id": "11504", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1504_rank2.png"
+    },
+    "150403": {
+        "id": "150403",
+        "name": "Silence : inquiétudes entre amis",
+        "rank": 3,
+        "desc": "Niv. de l'ultime +2, jusqu'au Niv. 15 maximum.\nNiv. de l'ATQ normale +1, jusqu'au Niv. 10 maximum.",
+        "materials": [
+            { "id": "11504", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "150403", "num": 2 },
+            { "id": "150401", "num": 1 }
+        ],
+        "icon": "icon/skill/1504_ultimate.png"
+    },
+    "150404": {
+        "id": "150404",
+        "name": "Note : avale toute la vérité",
+        "rank": 4,
+        "desc": "Lorsqu'Ashveil utilise son ultime, son ATQ augmente de 40% pendant 3 tours.",
+        "materials": [
+            { "id": "11504", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1504_rank4.png"
+    },
+    "150405": {
+        "id": "150405",
+        "name": "Rappel : le dédective devient le tueur",
+        "rank": 5,
+        "desc": "Niv. de la compétence +2, jusqu'au Niv. 15 maximum.\nNiv. du talent +2, jusqu'au Niv. 15 maximum.",
+        "materials": [
+            { "id": "11504", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "150402", "num": 2 },
+            { "id": "150404", "num": 2 }
+        ],
+        "icon": "icon/skill/1504_skill.png"
+    },
+    "150406": {
+        "id": "150406",
+        "name": "Final : il n'en resta aucun",
+        "rank": 6,
+        "desc": "Lorsqu'un Appât est sur le champ de bataille, réduit les RÉS à tous les types de tous les ennemis de 20%. Les DGT infligés par Ashveil augmentent de 4% pour chaque cumul de Gourmandise obtenu, jusqu'à un maximum de 30 cumuls comptabilisés.",
+        "materials": [
+            { "id": "11504", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1504_rank6.png"
     },
     "800101": {
         "id": "800101",

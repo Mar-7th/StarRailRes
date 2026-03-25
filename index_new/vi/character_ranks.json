@@ -1073,7 +1073,7 @@
         "id": "110206",
         "name": "Phân Ly",
         "rank": 6,
-        "desc": "Sau khi thi triển Tuyệt Kỹ sẽ khiến 1 kẻ địch bị tấn công rơi vào trạng thái Loạn Điệp, duy trì 1 hiệp. Sau khi mục tiêu phe địch ở trạng thái Loạn Điệp bị tấn công, sẽ chịu thêm 1 lần Sát Thương Kèm Theo thuộc tính Lượng Tử bằng 15% Sát Thương Tuyệt Kỹ của Seele. Nếu mục tiêu này bị tiêu diệt bởi Sát Thương Kèm Theo của trạng thái Loạn Điệp do mục tiêu khác của phe ta kích hoạt, sẽ không kích hoạt Thiên Phú của Seele.\nKhi Seele rơi vào trạng thái không thể chiến đấu, thì trạng thái Loạn Điệp của mục tiêu phe địch sẽ bị giải trừ.",
+        "desc": "Sau khi thi triển Tuyệt Kỹ tấn công sẽ khiến 1 kẻ địch bị tấn công rơi vào trạng thái \"Loạn Điệp\", duy trì 1 hiệp. Sau khi mục tiêu phe địch ở trạng thái \"Loạn Điệp\" bị tấn công, sẽ chịu thêm 1 lần Sát Thương Kèm Theo thuộc tính Lượng Tử bằng 15% Sát Thương Tuyệt Kỹ của Seele. Nếu mục tiêu này bị tiêu diệt bởi Sát Thương Kèm Theo của trạng thái \"Loạn Điệp\" do mục tiêu khác của phe ta kích hoạt, sẽ không kích hoạt Thiên Phú của Seele.\nKhi Seele rơi vào trạng thái không thể chiến đấu, thì trạng thái \"Loạn Điệp\" của mục tiêu phe địch sẽ bị giải trừ.",
         "materials": [
             { "id": "11102", "num": 1 }
         ],
@@ -6131,6 +6131,78 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1502_rank6.png"
+    },
+    "150401": {
+        "id": "150401",
+        "name": "Cẩn Thận: Trăng Tròn Không Được Ra Ngoài",
+        "rank": 1,
+        "desc": "Khi Ashveil ở trong trận, sát thương toàn bộ phe địch phải chịu tăng 24%. Khi phần trăm HP hiện tại của mục tiêu phe địch nhỏ hơn hoặc bằng 50%, sát thương phải chịu của kẻ đó sẽ tăng đến 36%.",
+        "materials": [
+            { "id": "11504", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1504_rank1.png"
+    },
+    "150402": {
+        "id": "150402",
+        "name": "Gõ Cửa: Trong Phòng Chỉ Còn Tiếng Cười Thầm",
+        "rank": 2,
+        "desc": "Giới hạn cộng dồn \"Tham Lam\" tăng đến 18 tầng, sau mỗi khi Ashveil phát động Đòn Đánh Theo Sau của Thiên Phú được cường hóa, sẽ hoàn trả 35% số tầng \"Tham Lam\" bị xóa bỏ.",
+        "materials": [
+            { "id": "11504", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1504_rank2.png"
+    },
+    "150403": {
+        "id": "150403",
+        "name": "Yên Lặng: Mỗi Người Bạn Cũ Một Tâm Tư",
+        "rank": 3,
+        "desc": "Cấp Tuyệt Kỹ +2, tối đa không quá cấp 15; Cấp Tấn Công Thường +1, tối đa không quá cấp 10.",
+        "materials": [
+            { "id": "11504", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "150403", "num": 2 },
+            { "id": "150401", "num": 1 }
+        ],
+        "icon": "icon/skill/1504_ultimate.png"
+    },
+    "150404": {
+        "id": "150404",
+        "name": "Ghi Nhớ: Sự Thật Không Cần Nghiền Ngẫm",
+        "rank": 4,
+        "desc": "Khi Ashveil thi triển Tuyệt Kỹ, Tấn Công tăng 40%, duy trì 3 hiệp.",
+        "materials": [
+            { "id": "11504", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1504_rank4.png"
+    },
+    "150405": {
+        "id": "150405",
+        "name": "Nhắc Nhở: Thám Tử Cũng Là Hung Thủ",
+        "rank": 5,
+        "desc": "Cấp Chiến Kỹ +2, tối đa không quá cấp 15; Cấp Thiên Phú +2, tối đa không quá cấp 15.",
+        "materials": [
+            { "id": "11504", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "150402", "num": 2 },
+            { "id": "150404", "num": 2 }
+        ],
+        "icon": "icon/skill/1504_skill.png"
+    },
+    "150406": {
+        "id": "150406",
+        "name": "Kết Cục: Có Lẽ Không Ai Sống Sót",
+        "rank": 6,
+        "desc": "Khi trong trận tồn tại \"Mồi Ngon\", Kháng Toàn Thuộc Tính của toàn bộ phe địch giảm 20%. Ashveil cứ nhận được 1 tầng \"Tham Lam\", thì sát thương gây ra sẽ tăng 4%, hiệu ứng này tối đa cộng dồn 30 tầng.",
+        "materials": [
+            { "id": "11504", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1504_rank6.png"
     },
     "800101": {
         "id": "800101",

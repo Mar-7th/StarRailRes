@@ -1073,7 +1073,7 @@
         "id": "110206",
         "name": "Confusão Devastadora",
         "rank": 6,
-        "desc": "Após Seele usar sua Perícia Suprema, inflige \"Enxurrada de Borboletas\" ao inimigo atacado por 1 rodada(s). Inimigos no estado de \"Enxurrada de Borboletas\" recebem adicionalmente 1 instância de Dano Quântico Adicional igual a 15% do Dano da Perícia Suprema de Seele cada vez que forem atacados. Se o inimigo-alvo for derrotado pelo Dano Adicional de \"Enxurrada de Borboletas\" ativado pelo ataque de outros aliados, o Talento de Seele não poderá ser ativado.\nQuando Seele é derrubada, a \"Enxurrada de Borboletas\" infligida aos inimigos é removida.",
+        "desc": "Após atacar com sua Perícia Suprema, Seele inflige \"Enxurrada de Borboletas\" no inimigo-alvo por 1 rodada(s). Inimigos no estado de \"Enxurrada de Borboletas\" recebem adicionalmente 1 instância de Dano Quântico Adicional igual a 15% do Dano da Perícia Suprema de Seele sempre que forem atacados. Se o inimigo-alvo for derrotado pelo Dano Adicional de \"Enxurrada de Borboletas\" ativado pelo ataque de outros aliados, o Talento de Seele não poderá ser ativado.\nQuando Seele é derrubada, a \"Enxurrada de Borboletas\" infligida aos inimigos é removida.",
         "materials": [
             { "id": "11102", "num": 1 }
         ],
@@ -6131,6 +6131,78 @@
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1502_rank6.png"
+    },
+    "150401": {
+        "id": "150401",
+        "name": "Atenção: Não se Aventure na Lua Cheia",
+        "rank": 1,
+        "desc": "Enquanto Ashveil está em campo, aumenta o Dano recebido por todos os inimigos em 24%. Quando a porcentagem de PV atual de um inimigo-alvo for 50% ou menor, o Dano recebido por ele aumenta para 36%.",
+        "materials": [
+            { "id": "11504", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1504_rank1.png"
+    },
+    "150402": {
+        "id": "150402",
+        "name": "Batidas: Onde os Risos Ecoam",
+        "rank": 2,
+        "desc": "O limite máximo de acúmulos de \"Gula\" aumenta para 18. Sempre que a Ashveil realizar o Ataque Extra do Talento aprimorado, restaura 35% dos acúmulos de \"Gula\" removidos.",
+        "materials": [
+            { "id": "11504", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1504_rank2.png"
+    },
+    "150403": {
+        "id": "150403",
+        "name": "Silêncio: Subentendido Entre Amigos",
+        "rank": 3,
+        "desc": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
+        "materials": [
+            { "id": "11504", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "150403", "num": 2 },
+            { "id": "150401", "num": 1 }
+        ],
+        "icon": "icon/skill/1504_ultimate.png"
+    },
+    "150404": {
+        "id": "150404",
+        "name": "Atenção: Engolir a Verdade por Inteira",
+        "rank": 4,
+        "desc": "Quando Ashveil usa a sua Perícia Suprema, aumenta o ATQ em 40% por 3 rodada(s).",
+        "materials": [
+            { "id": "11504", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1504_rank4.png"
+    },
+    "150405": {
+        "id": "150405",
+        "name": "Cuidado: O Detetive Se Torna o Assassino",
+        "rank": 5,
+        "desc": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
+        "materials": [
+            { "id": "11504", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "150402", "num": 2 },
+            { "id": "150404", "num": 2 }
+        ],
+        "icon": "icon/skill/1504_skill.png"
+    },
+    "150406": {
+        "id": "150406",
+        "name": "Final: E Então Não Restou Nenhum",
+        "rank": 6,
+        "desc": "Quando a \"Isca\" existir no campo, reduz a RES a Todos os Tipos de todos os inimigos em 20%. Para cada 1 acúmulo de \"Gula\" que Ashveil ganhou, o Dano causado aumenta em 4%. Esse efeito pode acumular até 30 vez(es).",
+        "materials": [
+            { "id": "11504", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": "icon/skill/1504_rank6.png"
     },
     "800101": {
         "id": "800101",

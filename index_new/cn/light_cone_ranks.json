@@ -3864,6 +3864,35 @@
             ]
         ]
     },
+    "23056": {
+        "id": "23056",
+        "skill": "吞没",
+        "desc": "使装备者的暴击率提高#1[i]%。战斗开始时或装备者每累计施放#2[i]次追加攻击，使装备者获得【影噬】，持续#3[i]回合。当装备者持有【影噬】时，攻击力提高#4[i]%，并使敌方全体受到的伤害提高#5[i]%，同类效果无法叠加。",
+        "params": [
+            [0.18, 4, 3, 0.4, 0.2],
+            [0.21, 4, 3, 0.5, 0.225],
+            [0.24, 4, 3, 0.6, 0.25],
+            [0.27, 4, 3, 0.7, 0.275],
+            [0.3, 4, 3, 0.8, 0.3]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalChanceBase", "value": 0.18 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.21 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.24 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.27 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.3 }
+            ]
+        ]
+    },
     "24000": {
         "id": "24000",
         "skill": "扑火",
@@ -4025,6 +4054,35 @@
             ],
             [
                 { "type": "SpeedAddedRatio", "value": 0.12 }
+            ]
+        ]
+    },
+    "24006": {
+        "id": "24006",
+        "skill": "开场",
+        "desc": "使装备者的攻击力提高#1[i]%。当装备者对我方单体角色施放战技或终结技后，使目标欢愉度提高#2[i]%，持续#3[i]回合。",
+        "params": [
+            [0.2, 0.12, 2],
+            [0.25, 0.15, 2],
+            [0.3, 0.18, 2],
+            [0.35, 0.21, 2],
+            [0.4, 0.24, 2]
+        ],
+        "properties": [
+            [
+                { "type": "AttackAddedRatio", "value": 0.2 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.25 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.3 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.35 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.4 }
             ]
         ]
     }
