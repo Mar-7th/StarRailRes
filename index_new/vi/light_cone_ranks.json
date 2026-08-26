@@ -2091,6 +2091,35 @@
             ]
         ]
     },
+    "21066": {
+        "id": "21066",
+        "skill": "Lời Thì Thầm",
+        "desc": "Tăng #1[i]% Độ Vui Vẻ của người trang bị. Trong thời gian người trang bị thi triển Kỹ Năng Vui Vẻ, bỏ qua #2[i]% Phòng Thủ của mục tiêu.",
+        "params": [
+            [0.2, 0.08],
+            [0.25, 0.1],
+            [0.3, 0.12],
+            [0.35, 0.14],
+            [0.4, 0.16]
+        ],
+        "properties": [
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.2 }
+            ],
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.25 }
+            ],
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.3 }
+            ],
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.35 }
+            ],
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.4 }
+            ]
+        ]
+    },
     "22000": {
         "id": "22000",
         "skill": "Nhanh Như Tia Chớp",
@@ -2320,6 +2349,35 @@
             ],
             [
                 { "type": "CriticalDamageBase", "value": 0.24 }
+            ]
+        ]
+    },
+    "22008": {
+        "id": "22008",
+        "skill": "Vượt Qua",
+        "desc": "Tăng #1[i]% Tấn Công của người trang bị. Sau khi người trang bị thi triển Đòn Đánh Theo Sau, tăng #2[f1]% Sát Thương Bạo Kích của người trang bị, duy trì #3[i] hiệp, hiệu ứng này tối đa cộng dồn #4[i] tầng.",
+        "params": [
+            [0.12, 0.03, 2, 10],
+            [0.15, 0.035, 2, 10],
+            [0.18, 0.04, 2, 10],
+            [0.21, 0.045, 2, 10],
+            [0.24, 0.05, 2, 10]
+        ],
+        "properties": [
+            [
+                { "type": "AttackAddedRatio", "value": 0.12 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.15 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.18 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.21 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.24 }
             ]
         ]
     },
@@ -4088,6 +4146,64 @@
             [
                 { "type": "AttackAddedRatio", "value": 0.3 },
                 { "type": "SPRatioBase", "value": 0.2 }
+            ]
+        ]
+    },
+    "23063": {
+        "id": "23063",
+        "skill": "Ngẫu Hứng",
+        "desc": "Tăng #1[i]% Giới Hạn HP của người trang bị, sau khi người trang bị thi triển Tuyệt Kỹ, hồi 1 Điểm Chiến Kỹ cho phe ta. Khi vào chiến đấu, khiến hành động của người trang bị ưu tiên #2[i]%, đồng thời khiến người trang bị nhận \"Âm Thanh Mới\", duy trì #4[i] hiệp. Khi người trang bị có \"Âm Thanh Mới\", Tốc Độ của toàn phe ta tăng #3[i]%.",
+        "params": [
+            [0.3, 0.3, 0.2, 2],
+            [0.375, 0.325, 0.25, 2],
+            [0.45, 0.35, 0.3, 2],
+            [0.525, 0.375, 0.35, 2],
+            [0.6, 0.4, 0.4, 2]
+        ],
+        "properties": [
+            [
+                { "type": "HPAddedRatio", "value": 0.3 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.375 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.45 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.525 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.6 }
+            ]
+        ]
+    },
+    "23064": {
+        "id": "23064",
+        "skill": "Lướt Sóng",
+        "desc": "Tăng #1[i]% Tỷ Lệ Bạo Kích của người trang bị. Khi người trang bị thi triển Kỹ Năng Vui Vẻ, nhận \"Làn Gió Mới\", \"Làn Gió Mới\" khiến Tốc Độ của người trang bị tăng #2[i]%. Nếu Kỹ Năng Vui Vẻ thi triển khác với Kỹ Năng Vui Vẻ thi triển lần trước, sẽ nhận thêm \"Trào Lưu\", \"Trào Lưu\" khiến Độ Vui Vẻ của người trang bị tăng #3[i]%.\nKhi bắt đầu mỗi đợt hoặc sau mỗi khi người trang bị thi triển #4[i] lần Kỹ Năng Vui Vẻ, hồi 1 Điểm Chiến Kỹ.",
+        "params": [
+            [0.18, 0.24, 0.4, 3],
+            [0.21, 0.28, 0.55, 3],
+            [0.24, 0.32, 0.7, 3],
+            [0.27, 0.36, 0.85, 3],
+            [0.3, 0.4, 1, 3]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalChanceBase", "value": 0.18 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.21 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.24 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.27 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.3 }
             ]
         ]
     },

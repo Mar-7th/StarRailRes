@@ -2091,6 +2091,35 @@
             ]
         ]
     },
+    "21066": {
+        "id": "21066",
+        "skill": "Sussurro",
+        "desc": "Aumenta a Euforia do usuário em #1[i]%. Quando o usuário usa uma Perícia da Euforia, ignora #2[i]% da DEF do alvo.",
+        "params": [
+            [0.2, 0.08],
+            [0.25, 0.1],
+            [0.3, 0.12],
+            [0.35, 0.14],
+            [0.4, 0.16]
+        ],
+        "properties": [
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.2 }
+            ],
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.25 }
+            ],
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.3 }
+            ],
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.35 }
+            ],
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.4 }
+            ]
+        ]
+    },
     "22000": {
         "id": "22000",
         "skill": "Rápido no Gatilho",
@@ -2320,6 +2349,35 @@
             ],
             [
                 { "type": "CriticalDamageBase", "value": 0.24 }
+            ]
+        ]
+    },
+    "22008": {
+        "id": "22008",
+        "skill": "Ultrapassagem",
+        "desc": "Aumenta o ATQ do usuário em #1[i]%. Após o usuário usar um Ataque Extra, aumenta seu Dano CRIT em #2[f1]% por #3[i] rodada(s). Esse efeito pode acumular até #4[i] vezes.",
+        "params": [
+            [0.12, 0.03, 2, 10],
+            [0.15, 0.035, 2, 10],
+            [0.18, 0.04, 2, 10],
+            [0.21, 0.045, 2, 10],
+            [0.24, 0.05, 2, 10]
+        ],
+        "properties": [
+            [
+                { "type": "AttackAddedRatio", "value": 0.12 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.15 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.18 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.21 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.24 }
             ]
         ]
     },
@@ -4088,6 +4146,64 @@
             [
                 { "type": "AttackAddedRatio", "value": 0.3 },
                 { "type": "SPRatioBase", "value": 0.2 }
+            ]
+        ]
+    },
+    "23063": {
+        "id": "23063",
+        "skill": "Improvisação",
+        "desc": "Aumenta os PV máximos do usuário em #1[i]%. Após o usuário usar a Perícia Suprema, recupera 1 Ponto de Perícia para os aliados. Ao entrar em combate, Avança Adiante a ação do usuário em #2[i]% e concede \"Nova Melodia\" ao usuário por #4[i] rodada(s). Enquanto o usuário tiver \"Nova Melodia\", a VEL de todos os aliados aumenta em #3[i]%.",
+        "params": [
+            [0.3, 0.3, 0.2, 2],
+            [0.375, 0.325, 0.25, 2],
+            [0.45, 0.35, 0.3, 2],
+            [0.525, 0.375, 0.35, 2],
+            [0.6, 0.4, 0.4, 2]
+        ],
+        "properties": [
+            [
+                { "type": "HPAddedRatio", "value": 0.3 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.375 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.45 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.525 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.6 }
+            ]
+        ]
+    },
+    "23064": {
+        "id": "23064",
+        "skill": "Deslize nas Ondas",
+        "desc": "Aumenta a Chance de CRIT do usuário em #1[i]%. Quando o usuário usa uma Perícia da Euforia, ganha \"Ventania Ascendente\", que aumenta a VEL do usuário em #2[i]%. Se a Perícia da Euforia usada for diferente da última Perícia da Euforia usada, ganha adicionalmente \"Tendência\", que aumenta a Euforia do usuário em #3[i]%.\nNo início de cada onda ou após o usuário usar sua Perícia da Euforia #4[i] vez(es), recupera 1 Ponto de Perícia.",
+        "params": [
+            [0.18, 0.24, 0.4, 3],
+            [0.21, 0.28, 0.55, 3],
+            [0.24, 0.32, 0.7, 3],
+            [0.27, 0.36, 0.85, 3],
+            [0.3, 0.4, 1, 3]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalChanceBase", "value": 0.18 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.21 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.24 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.27 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.3 }
             ]
         ]
     },

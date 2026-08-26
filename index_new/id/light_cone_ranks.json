@@ -2091,6 +2091,35 @@
             ]
         ]
     },
+    "21066": {
+        "id": "21066",
+        "skill": "Whisper",
+        "desc": "Meningkatkan #1[i]% Tingkat Elation pengguna. Saat pengguna melancarkan Elation Skill, mengabaikan #2[i]% DEF target.",
+        "params": [
+            [0.2, 0.08],
+            [0.25, 0.1],
+            [0.3, 0.12],
+            [0.35, 0.14],
+            [0.4, 0.16]
+        ],
+        "properties": [
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.2 }
+            ],
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.25 }
+            ],
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.3 }
+            ],
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.35 }
+            ],
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.4 }
+            ]
+        ]
+    },
     "22000": {
         "id": "22000",
         "skill": "Quick on the Draw",
@@ -2320,6 +2349,35 @@
             ],
             [
                 { "type": "CriticalDamageBase", "value": 0.24 }
+            ]
+        ]
+    },
+    "22008": {
+        "id": "22008",
+        "skill": "Overtake",
+        "desc": "Meningkatkan #1[i]% ATK pengguna. Setelah pengguna melancarkan Serangan Lanjutan, CRIT DMG pengguna meningkat #2[f1]%, berlangsung selama #3[i] giliran. Efek ini dapat ditumpuk hingga #4[i] lapis.",
+        "params": [
+            [0.12, 0.03, 2, 10],
+            [0.15, 0.035, 2, 10],
+            [0.18, 0.04, 2, 10],
+            [0.21, 0.045, 2, 10],
+            [0.24, 0.05, 2, 10]
+        ],
+        "properties": [
+            [
+                { "type": "AttackAddedRatio", "value": 0.12 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.15 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.18 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.21 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.24 }
             ]
         ]
     },
@@ -4088,6 +4146,64 @@
             [
                 { "type": "AttackAddedRatio", "value": 0.3 },
                 { "type": "SPRatioBase", "value": 0.2 }
+            ]
+        ]
+    },
+    "23063": {
+        "id": "23063",
+        "skill": "Improvisation",
+        "desc": "Meningkatkan #1[i]% Max HP pengguna. Setelah pengguna melancarkan Ultimate, memulihkan 1 Poin Skill untuk rekan tim. Saat memasuki pertempuran, aksi pengguna didahulukan #2[i]%, dan pengguna memperoleh \"New Melody\" selama #4[i] giliran. Saat pengguna memiliki \"New Melody\", SPD seluruh rekan tim meningkat #3[i]%.",
+        "params": [
+            [0.3, 0.3, 0.2, 2],
+            [0.375, 0.325, 0.25, 2],
+            [0.45, 0.35, 0.3, 2],
+            [0.525, 0.375, 0.35, 2],
+            [0.6, 0.4, 0.4, 2]
+        ],
+        "properties": [
+            [
+                { "type": "HPAddedRatio", "value": 0.3 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.375 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.45 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.525 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.6 }
+            ]
+        ]
+    },
+    "23064": {
+        "id": "23064",
+        "skill": "Waveriding",
+        "desc": "Meningkatkan #1[i]% CRIT Rate pengguna. Saat pengguna melancarkan Elation Skill, memperoleh \"Updraft\". \"Updraft\" meningkatkan #2[i]% SPD pengguna. Jika Elation Skill yang dilancarkan berbeda dari Elation Skill sebelumnya, maka akan memperoleh tambahan \"Uptrend\", \"Uptrend\" meningkatkan #3[i]% Tingkat Elation pengguna.\nPada awal setiap gelombang atau setiap pengguna melancarkan Elation Skill sebanyak #4[i] kali, memulihkan 1 Poin Skill.",
+        "params": [
+            [0.18, 0.24, 0.4, 3],
+            [0.21, 0.28, 0.55, 3],
+            [0.24, 0.32, 0.7, 3],
+            [0.27, 0.36, 0.85, 3],
+            [0.3, 0.4, 1, 3]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalChanceBase", "value": 0.18 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.21 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.24 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.27 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.3 }
             ]
         ]
     },

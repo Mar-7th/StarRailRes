@@ -2091,6 +2091,35 @@
             ]
         ]
     },
+    "21066": {
+        "id": "21066",
+        "skill": "秘語",
+        "desc": "使裝備者的歡愉度提高#1[i]%。裝備者發動歡愉技期間無視目標#2[i]%的防禦力。",
+        "params": [
+            [0.2, 0.08],
+            [0.25, 0.1],
+            [0.3, 0.12],
+            [0.35, 0.14],
+            [0.4, 0.16]
+        ],
+        "properties": [
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.2 }
+            ],
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.25 }
+            ],
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.3 }
+            ],
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.35 }
+            ],
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.4 }
+            ]
+        ]
+    },
     "22000": {
         "id": "22000",
         "skill": "眼疾手快",
@@ -2320,6 +2349,35 @@
             ],
             [
                 { "type": "CriticalDamageBase", "value": 0.24 }
+            ]
+        ]
+    },
+    "22008": {
+        "id": "22008",
+        "skill": "超越",
+        "desc": "使裝備者的攻擊力提高#1[i]%。裝備者發動追加攻擊後，使裝備者的暴擊傷害提高#2[f1]%，持續#3[i]回合，該效果最多疊加#4[i]層。",
+        "params": [
+            [0.12, 0.03, 2, 10],
+            [0.15, 0.035, 2, 10],
+            [0.18, 0.04, 2, 10],
+            [0.21, 0.045, 2, 10],
+            [0.24, 0.05, 2, 10]
+        ],
+        "properties": [
+            [
+                { "type": "AttackAddedRatio", "value": 0.12 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.15 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.18 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.21 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.24 }
             ]
         ]
     },
@@ -4088,6 +4146,64 @@
             [
                 { "type": "AttackAddedRatio", "value": 0.3 },
                 { "type": "SPRatioBase", "value": 0.2 }
+            ]
+        ]
+    },
+    "23063": {
+        "id": "23063",
+        "skill": "即興",
+        "desc": "使裝備者的生命上限提高#1[i]%，裝備者施放終結技後，為我方恢復1個戰技點。進入戰鬥時，使裝備者的行動提前#2[i]%，並使裝備者獲得【新聲】，持續#4[i]回合。裝備者持有【新聲】時，我方全體速度提高#3[i]%。",
+        "params": [
+            [0.3, 0.3, 0.2, 2],
+            [0.375, 0.325, 0.25, 2],
+            [0.45, 0.35, 0.3, 2],
+            [0.525, 0.375, 0.35, 2],
+            [0.6, 0.4, 0.4, 2]
+        ],
+        "properties": [
+            [
+                { "type": "HPAddedRatio", "value": 0.3 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.375 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.45 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.525 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.6 }
+            ]
+        ]
+    },
+    "23064": {
+        "id": "23064",
+        "skill": "浪行",
+        "desc": "使裝備者的暴擊率提高#1[i]%。裝備者發動歡愉技時，獲得【風口】，【風口】使裝備者的速度提高#2[i]%。若發動的歡愉技與上一次發動的歡愉技不同，則額外獲得【潮流】，【潮流】使裝備者的歡愉度提高#3[i]%。\n每一波開始時或裝備者每施放#4[i]次歡愉技後，恢復1個戰技點。",
+        "params": [
+            [0.18, 0.24, 0.4, 3],
+            [0.21, 0.28, 0.55, 3],
+            [0.24, 0.32, 0.7, 3],
+            [0.27, 0.36, 0.85, 3],
+            [0.3, 0.4, 1, 3]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalChanceBase", "value": 0.18 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.21 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.24 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.27 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.3 }
             ]
         ]
     },

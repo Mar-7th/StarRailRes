@@ -2091,6 +2091,35 @@
             ]
         ]
     },
+    "21066": {
+        "id": "21066",
+        "skill": "Secretos",
+        "desc": "La Exultación del portador aumenta en un #1[i]%. Al lanzar la habilidad de Exultación, el portador ignora un #2[i]% de la DEF de los objetivos.",
+        "params": [
+            [0.2, 0.08],
+            [0.25, 0.1],
+            [0.3, 0.12],
+            [0.35, 0.14],
+            [0.4, 0.16]
+        ],
+        "properties": [
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.2 }
+            ],
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.25 }
+            ],
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.3 }
+            ],
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.35 }
+            ],
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.4 }
+            ]
+        ]
+    },
     "22000": {
         "id": "22000",
         "skill": "Mano rápida",
@@ -2320,6 +2349,35 @@
             ],
             [
                 { "type": "CriticalDamageBase", "value": 0.24 }
+            ]
+        ]
+    },
+    "22008": {
+        "id": "22008",
+        "skill": "Adelantamiento",
+        "desc": "El ATQ del portador aumenta en un #1[i]%. Después de que el portador lance un ataque adicional, su Daño CRIT aumenta en un #2[f1]%. Este efecto dura #3[i] turnos y se puede acumular hasta #4[i] veces.",
+        "params": [
+            [0.12, 0.03, 2, 10],
+            [0.15, 0.035, 2, 10],
+            [0.18, 0.04, 2, 10],
+            [0.21, 0.045, 2, 10],
+            [0.24, 0.05, 2, 10]
+        ],
+        "properties": [
+            [
+                { "type": "AttackAddedRatio", "value": 0.12 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.15 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.18 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.21 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.24 }
             ]
         ]
     },
@@ -4088,6 +4146,64 @@
             [
                 { "type": "AttackAddedRatio", "value": 0.3 },
                 { "type": "SPRatioBase", "value": 0.2 }
+            ]
+        ]
+    },
+    "23063": {
+        "id": "23063",
+        "skill": "Improvisación",
+        "desc": "Los PV máx. del portador aumentan en un #1[i]%. Después de que el portador lance su habilidad definitiva, los aliados recuperan 1 pt. de habilidad básica. Al entrar en combate, el portador adelanta su acción un #2[i]% y obtiene Nueva melodía durante #4[i] turnos. Mientras el portador tiene Nueva melodía, la VEL de todos los aliados aumenta en un #3[i]%.",
+        "params": [
+            [0.3, 0.3, 0.2, 2],
+            [0.375, 0.325, 0.25, 2],
+            [0.45, 0.35, 0.3, 2],
+            [0.525, 0.375, 0.35, 2],
+            [0.6, 0.4, 0.4, 2]
+        ],
+        "properties": [
+            [
+                { "type": "HPAddedRatio", "value": 0.3 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.375 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.45 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.525 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.6 }
+            ]
+        ]
+    },
+    "23064": {
+        "id": "23064",
+        "skill": "Surcaolas",
+        "desc": "La Prob. CRIT del portador aumenta en un #1[i]%. Cuando el portador lanza una habilidad de Exultación, obtiene Ventolera, que aumenta la VEL del portador en un #2[i]%. Si la habilidad de Exultación lanzada es distinta a la anterior, obtiene además Corriente, que aumenta la Exultación del portador en un #3[i]%.\nAl comienzo de cada oleada o cada vez que el portador lanza #4[i] veces su habilidad de Exultación, recupera 1 pt. de habilidad básica.",
+        "params": [
+            [0.18, 0.24, 0.4, 3],
+            [0.21, 0.28, 0.55, 3],
+            [0.24, 0.32, 0.7, 3],
+            [0.27, 0.36, 0.85, 3],
+            [0.3, 0.4, 1, 3]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalChanceBase", "value": 0.18 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.21 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.24 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.27 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.3 }
             ]
         ]
     },

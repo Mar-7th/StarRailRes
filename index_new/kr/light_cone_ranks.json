@@ -2091,6 +2091,35 @@
             ]
         ]
     },
+    "21066": {
+        "id": "21066",
+        "skill": "비밀 이야기",
+        "desc": "장착한 캐릭터의 환락도가 #1[i]% 증가한다. 장착한 캐릭터가 환락 스킬을 발동하는 중에는 목표의 방어력을 #2[i]% 무시한다",
+        "params": [
+            [0.2, 0.08],
+            [0.25, 0.1],
+            [0.3, 0.12],
+            [0.35, 0.14],
+            [0.4, 0.16]
+        ],
+        "properties": [
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.2 }
+            ],
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.25 }
+            ],
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.3 }
+            ],
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.35 }
+            ],
+            [
+                { "type": "ElationDamageAddedRatioBase", "value": 0.4 }
+            ]
+        ]
+    },
     "22000": {
         "id": "22000",
         "skill": "빠른 눈썰미",
@@ -2320,6 +2349,35 @@
             ],
             [
                 { "type": "CriticalDamageBase", "value": 0.24 }
+            ]
+        ]
+    },
+    "22008": {
+        "id": "22008",
+        "skill": "초월",
+        "desc": "장착한 캐릭터의 공격력이 #1[i]% 증가한다. 장착한 캐릭터가 추가 공격 발동 후 장착한 캐릭터의 치명타 피해가 #2[f1]% 증가한다, 지속 시간: #3[i]턴, 해당 효과 최대 중첩수: #4[i]스택",
+        "params": [
+            [0.12, 0.03, 2, 10],
+            [0.15, 0.035, 2, 10],
+            [0.18, 0.04, 2, 10],
+            [0.21, 0.045, 2, 10],
+            [0.24, 0.05, 2, 10]
+        ],
+        "properties": [
+            [
+                { "type": "AttackAddedRatio", "value": 0.12 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.15 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.18 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.21 }
+            ],
+            [
+                { "type": "AttackAddedRatio", "value": 0.24 }
             ]
         ]
     },
@@ -4088,6 +4146,64 @@
             [
                 { "type": "AttackAddedRatio", "value": 0.3 },
                 { "type": "SPRatioBase", "value": 0.2 }
+            ]
+        ]
+    },
+    "23063": {
+        "id": "23063",
+        "skill": "즉흥",
+        "desc": "장착한 캐릭터의 HP 최대치가 #1[i]% 증가하고, 장착한 캐릭터가 필살기를 발동하면 아군의 전투 스킬 포인트를 1pt 회복한다. 전투 진입 시 장착한 캐릭터의 행동 게이지가 #2[i]% 증가하며, 장착한 캐릭터는 [새로운 소리]를 획득한다, 지속 시간: #4[i]턴. 장착한 캐릭터가 [새로운 소리] 보유 시 모든 아군의 속도가 #3[i]% 증가한다",
+        "params": [
+            [0.3, 0.3, 0.2, 2],
+            [0.375, 0.325, 0.25, 2],
+            [0.45, 0.35, 0.3, 2],
+            [0.525, 0.375, 0.35, 2],
+            [0.6, 0.4, 0.4, 2]
+        ],
+        "properties": [
+            [
+                { "type": "HPAddedRatio", "value": 0.3 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.375 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.45 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.525 }
+            ],
+            [
+                { "type": "HPAddedRatio", "value": 0.6 }
+            ]
+        ]
+    },
+    "23064": {
+        "id": "23064",
+        "skill": "파도타기",
+        "desc": "장착한 캐릭터의 치명타 확률이 #1[i]% 증가한다. 장착한 캐릭터가 환락 스킬 발동 시 [바람길]을 획득하며, [바람길]은 장착한 캐릭터의 속도를 #2[i]% 증가시킨다. 발동한 환락 스킬이 이전에 발동한 환락 스킬과 다를 경우 추가로 [물결]을 획득하며, [물결]은 장착한 캐릭터의 환락도를 #3[i]% 증가시킨다.\n각 웨이브 시작 시 또는 장착한 캐릭터가 환락 스킬을 #4[i]회 발동할 때마다 전투 스킬 포인트를 1pt 회복한다",
+        "params": [
+            [0.18, 0.24, 0.4, 3],
+            [0.21, 0.28, 0.55, 3],
+            [0.24, 0.32, 0.7, 3],
+            [0.27, 0.36, 0.85, 3],
+            [0.3, 0.4, 1, 3]
+        ],
+        "properties": [
+            [
+                { "type": "CriticalChanceBase", "value": 0.18 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.21 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.24 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.27 }
+            ],
+            [
+                { "type": "CriticalChanceBase", "value": 0.3 }
             ]
         ]
     },

@@ -6940,12 +6940,164 @@
         "id": "151006",
         "name": "Juro que llegaré a las estrellas",
         "rank": 6,
-        "desc": "La PEN de la RES a Fuego de Himeko Nova aumenta en un 20%. El límite de Energía primordial aumenta a 6 pts. Cuando los aliados usan o lanzan la habilidad de apoyo, el daño que inflige la habilidad de apoyo aumenta en un 75% y Himeko Nova obtiene 1 pto. de Energía primordial. Cuando se lanza Rayo de partículas superaceleradas durante la habilidad definitiva, obtiene 1 pto. de Energía primordial adicional. Cuando se lanza Pulso de aniquilación orbital, si en ese momento hay 6 o más pts. de Energía primordial, inflige 1 vez a todos los enemigos un Daño de Fuego equivalente al 160% del ATQ de Himeko Nova.",
+        "desc": "La PEN de la RES a Fuego de Himeko Nova aumenta en un 20%. El límite de Energía primordial aumenta a 6 pts. Cuando los aliados usan o lanzan la habilidad de apoyo, el daño que inflige la habilidad de apoyo aumenta en un 75% y Himeko Nova obtiene 1 pt. de Energía primordial. Cuando se lanza Rayo de partículas superaceleradas durante la habilidad definitiva, obtiene 1 pt. de Energía primordial adicional. Cuando se lanza Pulso de aniquilación orbital, si en ese momento hay 6 o más pts. de Energía primordial, inflige 1 vez a todos los enemigos un Daño de Fuego equivalente al 160% del ATQ de Himeko Nova.",
         "materials": [
             { "id": "11510", "num": 1 }
         ],
         "level_up_skills": [],
         "icon": "icon/skill/1510_rank6.png"
+    },
+    "151201": {
+        "id": "151201",
+        "name": "Volando sola en verano",
+        "rank": 1,
+        "desc": "Trinos de verano registra el 100% del daño (que no sea Daño verdadero) infligido por los aliados. Al lanzar la habilidad de mnemoduende, inflige adicionalmente al enemigo con más PV un Daño verdadero equivalente al (11% + puntos actuales de Bullicio ×0.1%) del daño total registrado, y luego borra el 50% del valor registrado.",
+        "materials": [
+            { "id": "11512", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": null
+    },
+    "151202": {
+        "id": "151202",
+        "name": "Corazón en calma chicha",
+        "rank": 2,
+        "desc": "La PEN de la RES a todos los tipos de los aliados aumenta en un 18%. El límite máximo de Bullicio de Robin Estival aumenta en 20 puntos. La primera vez durante el turno de cualquier objetivo que un aliado lance una habilidad y haga que Robin Estival obtenga Bullicio, esta obtiene 2 puntos adicionales.",
+        "materials": [
+            { "id": "11512", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": null
+    },
+    "151203": {
+        "id": "151203",
+        "name": "Recogiendo las notas caídas",
+        "rank": 3,
+        "desc": "Niv. de habilidad básica +2 (máximo: nivel 15). Niv. de talento +2 (máximo: nivel 15). Niv. de talento de mnemoduende +1 (máximo: nivel 10).",
+        "materials": [
+            { "id": "11512", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "151202", "num": 2 },
+            { "id": "151204", "num": 2 },
+            { "id": "1151203", "num": 1 },
+            { "id": "1151205", "num": 1 },
+            { "id": "1151206", "num": 1 }
+        ],
+        "icon": null
+    },
+    "151204": {
+        "id": "151204",
+        "name": "Escuchando las variaciones de cuerda",
+        "rank": 4,
+        "desc": "Al entrar en el estado de Fiebre, obtiene inmediatamente 12 pts. de Bullicio y la VEL de Trinos de verano aumenta en un (20% + el Bullicio actual ×0.5%).",
+        "materials": [
+            { "id": "11512", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": null
+    },
+    "151205": {
+        "id": "151205",
+        "name": "Otra vez hacia un nuevo amanecer",
+        "rank": 5,
+        "desc": "Niv. de habilidad definitiva +2 (máximo: nivel 15). Niv. de ATQ básico +1 (máximo: nivel 10). Niv. de habilidad de mnemoduende +1 (máximo: nivel 10).",
+        "materials": [
+            { "id": "11512", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "151203", "num": 2 },
+            { "id": "151201", "num": 1 },
+            { "id": "1151201", "num": 1 }
+        ],
+        "icon": null
+    },
+    "151206": {
+        "id": "151206",
+        "name": "Cantando una canción sin título",
+        "rank": 6,
+        "desc": "El multiplicador de daño de la habilidad de mnemoduende aumenta en un 100% del multiplicador original. Mientras está en el estado de Fiebre, la habilidad definitiva de Robin Estival puede acumularse hasta 2 veces. Tras entrar en el estado de Fiebre por primera vez durante esta batalla o al comenzar el turno de la cuenta regresiva de Fiebre, recupera una cantidad fija de 140 pts. de energía.",
+        "materials": [
+            { "id": "11512", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": null
+    },
+    "151301": {
+        "id": "151301",
+        "name": "Órdago vacacional",
+        "rank": 1,
+        "desc": "La PEN de la RES a todos los tipos aumenta en un 24%.\nEl talento se potencia: cuando Fervor alcanza 10/20/30 puntos, lanza inmediatamente ¡Brindis por el tórrido estío!",
+        "materials": [
+            { "id": "11513", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": null
+    },
+    "151302": {
+        "id": "151302",
+        "name": "Ocio al vaivén de la marea",
+        "rank": 2,
+        "desc": "El límite máximo de Fervor aumenta a 50 pts. Al alcanzar 40/50 pts., también activa el lanzamiento de ¡Brindis por el tórrido estío! del talento. Tras lanzar la habilidad de Exultación, obtiene 4 pts. de Fervor adicionales.",
+        "materials": [
+            { "id": "11513", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": null
+    },
+    "151303": {
+        "id": "151303",
+        "name": "Invitación vespertina con hielo",
+        "rank": 3,
+        "desc": "Niv. de habilidad básica +2 (máximo: nivel 15). Niv. de talento +2 (máximo: nivel 15). Niv. de habilidad de Exultación +1 (máximo: nivel 15).",
+        "materials": [
+            { "id": "11513", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "151302", "num": 2 },
+            { "id": "151304", "num": 2 },
+            { "id": "151320", "num": 1 },
+            { "id": "151321", "num": 1 }
+        ],
+        "icon": null
+    },
+    "151304": {
+        "id": "151304",
+        "name": "Con el sol no se negocia",
+        "rank": 4,
+        "desc": "Cuando Aventurino Oleaje lanza la habilidad básica, el daño que infligen todos los aliados ignora un 18% de la DEF del enemigo durante 3 turnos.",
+        "materials": [
+            { "id": "11513", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": null
+    },
+    "151305": {
+        "id": "151305",
+        "name": "Zambullida en la tormenta ganadora",
+        "rank": 5,
+        "desc": "Niv. de habilidad definitiva +2 (máximo: nivel 15). Niv. de ATQ básico +1 (máximo: nivel 10). Niv. de habilidad de Exultación +1 (máximo: nivel 15).",
+        "materials": [
+            { "id": "11513", "num": 1 }
+        ],
+        "level_up_skills": [
+            { "id": "151303", "num": 2 },
+            { "id": "151301", "num": 1 },
+            { "id": "151320", "num": 1 },
+            { "id": "151321", "num": 1 }
+        ],
+        "icon": null
+    },
+    "151306": {
+        "id": "151306",
+        "name": "El pasado por una vorágine",
+        "rank": 6,
+        "desc": "El Daño de Exultación infligido por Aventurino Oleaje aumenta su gracia en un 25%. Después de que Aventurino Oleaje lance la habilidad de Exultación 2 veces, todas las habilidades de Exultación que lance posteriormente serán ¡Todo al tórrido estío!, y ya no consumirá Fervor cuando lance la habilidad de Exultación ¡Todo al tórrido estío! fuera del Momento Aha para infligir daño extra.",
+        "materials": [
+            { "id": "11513", "num": 1 }
+        ],
+        "level_up_skills": [],
+        "icon": null
     },
     "800101": {
         "id": "800101",

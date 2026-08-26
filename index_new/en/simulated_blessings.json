@@ -2587,8 +2587,8 @@
     "616243": {
         "id": "616243",
         "name": "Pe Culmile Disperării",
-        "desc": "Increases \"Murmur\" clear threshold by 50%.",
-        "enhanced_desc": "Increases \"Murmur\" clear threshold by 75%."
+        "desc": "Increases \"Murmur\" clearance threshold by 50%.",
+        "enhanced_desc": "Increases \"Murmur\" clearance threshold by 75%."
     },
     "616244": {
         "id": "616244",
@@ -3514,8 +3514,8 @@
     "617243": {
         "id": "617243",
         "name": "Pe Culmile Disperării",
-        "desc": "Increases \"Murmur\" clear threshold by 50%.",
-        "enhanced_desc": "Increases \"Murmur\" clear threshold by 75%."
+        "desc": "Increases \"Murmur\" clearance threshold by 50%.",
+        "enhanced_desc": "Increases \"Murmur\" clearance threshold by 75%."
     },
     "617244": {
         "id": "617244",
@@ -5297,6 +5297,18 @@
         "desc": "Himeko • Nova's DMG is amplified in the Divergent Universe.\nEach time she uses her Assist Skill, increases her own final DMG dealt by 3%. Stacks up to 10 time(s).",
         "enhanced_desc": ""
     },
+    "661512": {
+        "id": "661512",
+        "name": "Robin • Summeretto",
+        "desc": "Robin • Summeretto's DMG is amplified in the Divergent Universe.\nWhile on the field, increases the final DMG dealt by the first character in the team lineup and their memosprite by 12%.",
+        "enhanced_desc": ""
+    },
+    "661513": {
+        "id": "661513",
+        "name": "Aventurine • Waveflair",
+        "desc": "Aventurine • Waveflair's DMG receives Amplification in the Divergent Universe.\nWhile in possession of \"Certified Banger,\" increases this unit's final DMG dealt by 15%. If \"Certified Banger\" is 50 or more, additionally increases final DMG dealt by 15%.",
+        "enhanced_desc": ""
+    },
     "668001": {
         "id": "668001",
         "name": "{NICKNAME}",
@@ -6134,13 +6146,13 @@
     "674260": {
         "id": "674260",
         "name": "One Buried At Sea",
-        "desc": "The clearing threshold of \"Murmur\" increases by 120%. After ally targets launch a Follow-Up ATK, causes the \"Murmur\" on the attacked target to deal DMG equal to 20% of original DMG.",
+        "desc": "The clearance threshold of \"Murmur\" increases by 120%. After ally targets launch a Follow-Up ATK, causes the \"Murmur\" on the attacked target to deal DMG equal to 20% of original DMG.",
         "enhanced_desc": ""
     },
     "674270": {
         "id": "674270",
         "name": "Wave-Chasing Fish",
-        "desc": "At the start of the enemy target's turn, the threshold for clearing \"Murmur\" increases by 20%. This effect is stackable. For each DoT state other than \"Murmur,\" the threshold additionally increases by 4%.",
+        "desc": "At the start of the enemy target's turn, the clearance threshold for \"Murmur\" increases by 20%. This effect is stackable. For each DoT state other than \"Murmur,\" the threshold additionally increases by 4%.",
         "enhanced_desc": ""
     },
     "674280": {
@@ -6368,13 +6380,13 @@
     "675260": {
         "id": "675260",
         "name": "Wicker School",
-        "desc": "Increases enemy target's DoT by 20%. After receiving Follow-Up ATK, gains \"Murmur\" Charge equal to 2% of the clearing threshold.",
+        "desc": "Increases enemy target's DoT by 20%. After receiving Follow-Up ATK, gains \"Murmur\" Charge equal to 2% of the clearance threshold.",
         "enhanced_desc": ""
     },
     "675270": {
         "id": "675270",
         "name": "Bone Planter",
-        "desc": "The clearing threshold of \"Murmur\" increases by 80%. After consuming Skill Point(s), Charge \"Murmur\" for all enemies by 4% of the clearing threshold.",
+        "desc": "The clearance threshold of \"Murmur\" increases by 80%. After consuming Skill Point(s), Charge \"Murmur\" for all enemies by 4% of the clearance threshold.",
         "enhanced_desc": ""
     },
     "675280": {
@@ -6386,7 +6398,7 @@
     "675420": {
         "id": "675420",
         "name": "Law's Arbitrators",
-        "desc": "For every \"Murmur\" Charge that equals to 1% of the clearing threshold, increases CRIT DMG taken by enemy targets by 1.0%, up to a max of 150%.",
+        "desc": "For every \"Murmur\" Charge that equals to 1% of the clearance threshold, increases CRIT DMG taken by enemy targets by 1.0%, up to a max of 150%.",
         "enhanced_desc": ""
     },
     "675450": {
@@ -6593,6 +6605,12 @@
         "desc": "After an enemy target attacks an ally target, \"Murmur\" obtains Charge equal to 10% of the clearance threshold. For every 5% of the clearance threshold \"Murmur\" charges, the enemy target immediately takes 1 instance of Lightning DoT equal to 120% of the \"Murmur\" clearance threshold. Each enemy target can trigger this up to 2 time(s), and the trigger count resets after any unit's action. This DMG is considered as \"Murmur\" DMG and cannot defeat the enemy target.",
         "enhanced_desc": ""
     },
+    "676260": {
+        "id": "676260",
+        "name": "Granny Big Nose",
+        "desc": "\"Dealer\"'s Hits Per Action increases by 4. Each time they deal DMG, grants 1 stack of \"Deck Cut\" to all ally characters. \"Deck Cut\": After an ally target uses an attack, consumes all \"Deck Cut,\" each stack of \"Deck Cut\" consumed advances this unit's action by 5%, and causes the attack target's \"Murmur\" to deal 5 instance(s) of DMG equal to 6% of the original DMG × the number of consumed stacks.",
+        "enhanced_desc": ""
+    },
     "676280": {
         "id": "676280",
         "name": "Soul Returner",
@@ -6611,10 +6629,22 @@
         "desc": "While in the \"Butterfly Soul\" state, increases the DMG dealt by ally targets by 200%. After using an attack, if the enemy target's current HP is lower than 25% of their Max HP, deals \"Butterfly Soul\" DMG equal to a set amount of their current HP and recovers 2 Skill Point(s).",
         "enhanced_desc": ""
     },
+    "676490": {
+        "id": "676490",
+        "name": "Wild Hunt Corp",
+        "desc": "Every time an ally target cumulatively reduces one enemy target's Toughness by 10, that enemy target gains 1 stack of \"Reverse Critical Boost.\" The actual Toughness Reduction taken while in the Weakness Broken state will also be taken into account. For every 25 stack(s) of \"Reverse Critical Boost\" cumulatively inflicted on all enemy targets, deals 3500% Wind base DMG to all enemies.",
+        "enhanced_desc": ""
+    },
     "676510": {
         "id": "676510",
         "name": "Nightmare Lord",
         "desc": "After any ally unit is attacked, it is considered as all ally targets have been attacked. All ally targets will Charge \"Blazar\" equal to the sum of 15% of their respective Max HP and Shield.",
+        "enhanced_desc": ""
+    },
+    "676580": {
+        "id": "676580",
+        "name": "Captain Fury",
+        "desc": "\"Magnetic Storm\" appears on the Action Order: Each time it takes action, absorbs the Shields of all ally targets down to 1, converts them into this unit's Shield value, with the Shield value gained each time being no lower than 25% of the sum of all ally targets' Max HP, and Charges \"Brain in a Vat\" by 100%. When an ally target takes DMG, the Shield value of \"Magnetic Storm\" is consumed first, and when dealing \"Blazar\" DMG, 200% of the Shield value of \"Magnetic Storm\" is additionally taken into account.",
         "enhanced_desc": ""
     },
     "676590": {
@@ -6635,6 +6665,18 @@
         "desc": "When \"Pother\" appears in the Action Order, each point of Dealer's Charge additionally increases its SPD by 7. When \"Pother\" takes action, increases DMG dealt by all allies by 15%, stacking up to 10 times. Also Charges \"Blazar\" by an amount equal to 150% of each ally target's respective Max HP and current Shield value combined. After each ally unleashes their next attack, deals 7 instance(s) of 80% \"Blazar\" DMG of a random Type to each of the attack targets.",
         "enhanced_desc": ""
     },
+    "676670": {
+        "id": "676670",
+        "name": "Gloaming Grand Theater",
+        "desc": "\"Dealer\": Every point of Charge increases ally targets' CRIT DMG by 10%. When entering and exiting \"Butterfly Soul\", immediately triggers \"Dealer\" 1 time and additionally gains 2 point(s) of Charge. This instance of DMG can receive the True DMG boost from \"Butterfly Soul\".",
+        "enhanced_desc": ""
+    },
+    "676710": {
+        "id": "676710",
+        "name": "Imaginator",
+        "desc": "Each stack of \"Obsession\" additionally increases CRIT DMG by 2.0%. For every 8 Skill Point(s) recovered by allies, deals 4000% Ice base DMG to all enemies.",
+        "enhanced_desc": ""
+    },
     "676720": {
         "id": "676720",
         "name": "Serpent Slithering",
@@ -6645,6 +6687,12 @@
         "id": "676760",
         "name": "Galactic Grand Lotto",
         "desc": "For every 1 consumed or overflowing Skill point of ally targets, obtain 1 prize draw chance, up to 25 time(s). When entering the \"Butterfly Soul\" state, summons \"Lottery Machine\" and consumes all prize draw chances to obtain prizes, with a base draw of 5 time(s). There is a small chance of obtaining the Special Prize, which deals 1 instance of DMG of a random Type equal to 4000% of base DMG to all enemy targets and gains 5 Charge for the \"Dealer.\" The Consolation Prize deals 1 instance of DMG of a random Type equal to 500% of base DMG to random enemy targets.",
+        "enhanced_desc": ""
+    },
+    "676850": {
+        "id": "676850",
+        "name": "Banned Word Hunter",
+        "desc": "Increases ally characters' ATK by 150%. After every use of Ultimate or other abilities outside of this unit's turn, all ally characters gain 1 stack(s) of \"Popularity\": When possessing 2 or more stack(s) of \"Popularity,\" after being attacked, consumes 2 stack(s) of \"Popularity\" and deals 7 instance(s) of Additional DMG of a random Type equal to 250% of ATK to the attack target. This DMG cannot defeat enemy targets.",
         "enhanced_desc": ""
     },
     "676860": {
@@ -6683,6 +6731,12 @@
         "desc": "For each stack of \"Obsession\" ally target has, ally target's Basic ATK and Skill DMG dealt increase by 6%. When an ally character departs from the field, is knocked down, or when an ally memosprite disappears, the character in position 1 in the current team obtains 50% of that ally's \"Obsession\" stacks and an equal amount of \"Obsession\" max limit. This additional stack limit will disappear after 2 turn(s).",
         "enhanced_desc": ""
     },
+    "677180": {
+        "id": "677180",
+        "name": "Fire and Dangerous Things",
+        "desc": "When an ally target uses their Ultimate via \"Brain in a Vat,\" gains 1 stack of \"Lucidity\": Increases this unit's CRIT DMG by 45% and the memosprite's CRIT DMG by 45%, stacking up to 8 time(s).",
+        "enhanced_desc": ""
+    },
     "677190": {
         "id": "677190",
         "name": "Wheel of Career Transition",
@@ -6705,6 +6759,18 @@
         "id": "677260",
         "name": "Foolish King",
         "desc": "Increases DoT taken by enemy targets by 30%. After \"Dealer\" deals DMG, each instance immediately causes all DoT debuffs on the enemy target to deal DMG equal to 15% of the original DMG.",
+        "enhanced_desc": ""
+    },
+    "677290": {
+        "id": "677290",
+        "name": "Bucktaker",
+        "desc": "Increases ally targets' Weakness Break Efficiency by 50%. After Breaking an enemy target's Weakness, increases the clearance threshold of \"Murmur\" by 100% and immediately causes this target's \"Murmur\" to reach the clearance threshold. This effect can be triggered up to 1 time per enemy target for the whole battle.",
+        "enhanced_desc": ""
+    },
+    "677410": {
+        "id": "677410",
+        "name": "Celestial Mortician",
+        "desc": "Each stack of \"Reverse Critical Boost\" additionally deals DMG equal to 15% of Max HP. When the number of ally targets on the field changes, for every 1 ally target changed, causes all enemies to gain 5 stack(s) of \"Reverse Critical Boost.\"",
         "enhanced_desc": ""
     },
     "677450": {
@@ -6731,6 +6797,12 @@
         "desc": "When an ally target takes DMG or consumes HP while their HP percentage is less than 40%, consumes 5 stack(s) of \"Obsession\" from the target with the highest \"Obsession\" stacks in the team, heals for 25% of this unit's Max HP, and increases DMG dealt by 150% for 2 turn(s). This effect can only be triggered 1 time(s) per turn.",
         "enhanced_desc": ""
     },
+    "677520": {
+        "id": "677520",
+        "name": "Slapman",
+        "desc": "\"Blazar\" additionally deals DMG equal to 100% of the original DMG. For each debuff the enemy target has, \"Blazar\" additionally deals DMG equal to 5% of the original DMG.",
+        "enhanced_desc": ""
+    },
     "677570": {
         "id": "677570",
         "name": "Aberration Idol",
@@ -6741,6 +6813,12 @@
         "id": "677590",
         "name": "Divine Retribution Voting Device",
         "desc": "When ally targets Break any enemy target's Weakness, Charge \"Blazar\" equal to 100% of Max HP and Shield. If all enemy targets are Weakness Broken, \"Blazar\" will not be cleared at the end of ally targets' turns.",
+        "enhanced_desc": ""
+    },
+    "677640": {
+        "id": "677640",
+        "name": "The Wellerman",
+        "desc": "Increases ally targets' SPD by 20% and Elation by 50%. After their action is cumulatively advanced by 100%, extends the duration of their \"Certified Banger\" by 1 turn.",
         "enhanced_desc": ""
     },
     "677650": {
@@ -6773,6 +6851,12 @@
         "desc": "Every time an enemy target takes 1 instance of DoT, Charges \"Soul Chrysalis\" by 1%. If currently in the \"Butterfly Soul\" state, increases DMG dealt by all allies by 2%. Stacks up to 99 time(s) and lasts until exiting the \"Butterfly Soul\" state.",
         "enhanced_desc": ""
     },
+    "677750": {
+        "id": "677750",
+        "name": "Disastrous Baker",
+        "desc": "Increases the max limit of \"Blazar\" by an amount equal to 1000% of the current Shield Effect. After an ally target uses Basic ATK or Skill, gains a Shield equal to 30% of Max HP, lasting for 2 turn(s).",
+        "enhanced_desc": ""
+    },
     "677780": {
         "id": "677780",
         "name": "Imperial Sting",
@@ -6797,6 +6881,12 @@
         "desc": "When any ally target Breaks any enemy target's Weakness, Charges \"Brain in a Vat\" by 20% and regenerates Energy equal to 10% of Max Energy. After defeating any enemy target, regenerates Energy equal to 60% of Max Energy.",
         "enhanced_desc": ""
     },
+    "677860": {
+        "id": "677860",
+        "name": "Brainiac Feud",
+        "desc": "Increases ally targets' CRIT DMG by 100%. When an ally uses their Ultimate, advances the action of \"Dealer\" by 20%. This effect can be triggered up to 2 time(s). The trigger count resets after \"Dealer\" takes action.",
+        "enhanced_desc": ""
+    },
     "677920": {
         "id": "677920",
         "name": "Song of Gravity",
@@ -6807,6 +6897,12 @@
         "id": "677940",
         "name": "Master of Fates",
         "desc": "After any ally target attacks a Weakness Broken enemy target, converts the Toughness Reduction of this attack into 1 instance of 75% Super Break DMG. For each stack of \"Reverse Critical Boost\" inflicted on an enemy target, this effect additionally deals 5% Super Break DMG.",
+        "enhanced_desc": ""
+    },
+    "677970": {
+        "id": "677970",
+        "name": "Dearest Scolopendra",
+        "desc": "During \"Butterfly Soul,\" Break DMG dealt by ally targets increases by 80%. Each time an enemy target is Broken, charges \"Soul Chrysalis\" by 20% after \"Butterfly Soul\" ends.",
         "enhanced_desc": ""
     },
     "677980": {
@@ -6827,6 +6923,12 @@
         "desc": "When a memosprite disappears, restores 1 Skill Point to ally targets. For every 1 Skill Point the team gains, increases DMG dealt by all allies by 3%, up to a max increase of 120%.",
         "enhanced_desc": ""
     },
+    "678171": {
+        "id": "678171",
+        "name": "Life Dissection Expert",
+        "desc": "While in the \"Butterfly Soul\" state, DMG taken by enemy targets increases by 50%, and DMG taken from memosprites additionally increases by 25%.",
+        "enhanced_desc": ""
+    },
     "678180": {
         "id": "678180",
         "name": "Pun-ishing Gourmet",
@@ -6842,13 +6944,19 @@
     "678240": {
         "id": "678240",
         "name": "Maze of Eternal Massacre",
-        "desc": "Increases enemy target's DoT taken by 20%. After receiving a Follow-Up ATK, gains \"Murmur\" Charge equal to 2% of the clearing threshold.",
+        "desc": "Increases enemy target's DoT by 20%. After receiving Follow-Up ATK, gains \"Murmur\" Charge equal to 2% of the clearance threshold.",
         "enhanced_desc": ""
     },
     "678250": {
         "id": "678250",
         "name": "Fabled Land",
         "desc": "When enemy targets enter combat, they are inflicted with the Bleed effect. While Bleeding, they will take Physical DoT equal to 10% of their Max HP at the start of their turn. This DMG cannot exceed 200% of all ally targets' total HP.",
+        "enhanced_desc": ""
+    },
+    "678251": {
+        "id": "678251",
+        "name": "I'm Tired, Boss",
+        "desc": "For every debuff an enemy target has, DMG dealt decreases by 1% and DMG taken increases by 2%, stacking up to 15 time(s).",
         "enhanced_desc": ""
     },
     "678260": {
@@ -6872,7 +6980,7 @@
     "678420": {
         "id": "678420",
         "name": "Bald Creator",
-        "desc": "For every \"Murmur\" Charge that equals to 1% of the clearing threshold, increases CRIT DMG taken by enemy targets by 1.0%, up to a max of 150%.",
+        "desc": "For every \"Murmur\" Charge that equals to 1% of the clearance threshold, increases CRIT DMG taken by enemy targets by 1.0%, up to a max of 150%.",
         "enhanced_desc": ""
     },
     "678460": {
@@ -6887,6 +6995,12 @@
         "desc": "For every enemy target defeated, increases DMG dealt by all ally targets in the current battle by 30%. Additionally increases Ultimate DMG by 15%. This effect can stack.",
         "enhanced_desc": ""
     },
+    "678481": {
+        "id": "678481",
+        "name": "Trivia Train",
+        "desc": "After an ally target takes action, gains 1 stack of \"Piercing Shards,\" and gains 1 additional stack after launching a Follow-Up ATK or Support Skill. \"Piercing Shards\": For each stack, when dealing Ultimate DMG, ignores 5% of the enemy target's All-Type RES and consumes all \"Piercing Shards.\"",
+        "enhanced_desc": ""
+    },
     "678510": {
         "id": "678510",
         "name": "Demon of Renege",
@@ -6897,6 +7011,12 @@
         "id": "678520",
         "name": "Garage Dragon Slayer",
         "desc": "Increases ally targets' Effect RES by 20% and \"Blazar\" DMG dealt by 80%. When resisting debuffs, deals Additional DMG equal to 60% of \"Blazar\" to the target. This DMG cannot defeat enemy targets.",
+        "enhanced_desc": ""
+    },
+    "678540": {
+        "id": "678540",
+        "name": "Clean Slay",
+        "desc": "Increases max limit of \"Blazar\" by 50%. After an ally target launches a Follow-Up ATK, restores HP equal to 10% of Max HP.",
         "enhanced_desc": ""
     },
     "678580": {
@@ -6911,10 +7031,22 @@
         "desc": "Increases Shield Effect gained by 30%. After Breaking an enemy target's Weakness, all allies obtain a Shield equal to 15% of their Max HP for 2 turn(s).",
         "enhanced_desc": ""
     },
+    "678610": {
+        "id": "678610",
+        "name": "Deathly Delightful",
+        "desc": "After an ally target deals Elation DMG, DMG taken by enemy targets increases by 40% for 1 turn(s).",
+        "enhanced_desc": ""
+    },
     "678640": {
         "id": "678640",
         "name": "Detached Swordmaster",
         "desc": "Increases ally targets' Elation by 25%. For every enemy target defeated, additionally increases it by 15%.",
+        "enhanced_desc": ""
+    },
+    "678641": {
+        "id": "678641",
+        "name": "Soapbox Knight",
+        "desc": "Increases ally targets' Elation by 40%. At the start of a turn or an extra turn, gains 3 Punchline.",
         "enhanced_desc": ""
     },
     "678650": {
@@ -6953,6 +7085,12 @@
         "desc": "Increases the CRIT DMG of ally targets when they use Basic ATK or Skill by 100%. For every 1 Skill Point consumed, gain 1 points of Punchline.",
         "enhanced_desc": ""
     },
+    "678780": {
+        "id": "678780",
+        "name": "Organic Emperor",
+        "desc": "For every 1 Skill Point consumed by an ally target, CRIT DMG increases by 2%, and Skill and Ultimate DMG dealt increases by 2%, stacking up to 30 time(s).",
+        "enhanced_desc": ""
+    },
     "678790": {
         "id": "678790",
         "name": "Flipping Ant",
@@ -6977,10 +7115,22 @@
         "desc": "Increases the CRIT DMG of ally targets' Ultimate DMG by 75%. After \"Dealer\" takes action, Charges \"Brain in a Vat\" by 5% for all ally characters.",
         "enhanced_desc": ""
     },
+    "678861": {
+        "id": "678861",
+        "name": "Locked Room Collector",
+        "desc": "When an ally target uses their Ultimate, for every 40 Energy consumed, increases CRIT DMG by 15%, lasting for 3 turn(s), and gains 2 Punchline. Each time, at least 80 Energy is taken into account.",
+        "enhanced_desc": ""
+    },
     "678870": {
         "id": "678870",
         "name": "Card Game Rookie",
         "desc": "For every 1 Skill Point consumed by an ally target, increases their Ultimate DMG dealt by 65%, up to a max increase of 130% and lasting until after using their Ultimate.",
+        "enhanced_desc": ""
+    },
+    "678890": {
+        "id": "678890",
+        "name": "Multi-Playthrough Civilization",
+        "desc": "When dealing Ultimate DMG, ally target's Weakness Break Efficiency increases by 25%. DMG taken by enemy targets in the Weakness Broken state increases by 40%.",
         "enhanced_desc": ""
     },
     "678910": {
@@ -6999,6 +7149,12 @@
         "id": "678940",
         "name": "Knights of Arcadia",
         "desc": "Increases the DMG multiplier of \"Harmonize\" by 50%. After ally targets launch a Follow-Up ATK, applies 1 stack(s) of \"Harmonize\" to the targets.",
+        "enhanced_desc": ""
+    },
+    "678950": {
+        "id": "678950",
+        "name": "Dining Etiquette",
+        "desc": "After an ally target's HP or Shield decreases, the next time they attack a Weakness Broken enemy target, the Toughness Reduction of this attack is converted into 1 instance of 120% Super Break DMG.",
         "enhanced_desc": ""
     },
     "678970": {
