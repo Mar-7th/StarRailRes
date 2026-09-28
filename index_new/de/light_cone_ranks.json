@@ -3951,6 +3951,35 @@
             ]
         ]
     },
+    "23055": {
+        "id": "23055",
+        "skill": "Tuscheschwung",
+        "desc": "Erhöht die VTD des Trägers um #1[i]%. Wenn der Träger eine Hochgefühl-Fähigkeit auf alle Verbündeten einsetzt, wird der erlittene SCH aller Gegner für #3[i] Rd. um #4[i]% erhöht. Stellt außerdem beim Träger eine feste Menge von #2[i] Pkt. Energie sowie bei allen Verbündeten LP in Höhe von #5[i]% der VTD des Trägers wieder her.",
+        "params": [
+            [0.48, 10, 3, 0.22, 0.1],
+            [0.6, 10, 3, 0.275, 0.125],
+            [0.72, 10, 3, 0.33, 0.15],
+            [0.84, 10, 3, 0.385, 0.175],
+            [0.96, 10, 3, 0.44, 0.2]
+        ],
+        "properties": [
+            [
+                { "type": "DefenceAddedRatio", "value": 0.48 }
+            ],
+            [
+                { "type": "DefenceAddedRatio", "value": 0.6 }
+            ],
+            [
+                { "type": "DefenceAddedRatio", "value": 0.72 }
+            ],
+            [
+                { "type": "DefenceAddedRatio", "value": 0.84 }
+            ],
+            [
+                { "type": "DefenceAddedRatio", "value": 0.96 }
+            ]
+        ]
+    },
     "23056": {
         "id": "23056",
         "skill": "Verschlingen",
@@ -4152,7 +4181,7 @@
     "23063": {
         "id": "23063",
         "skill": "Improvisation",
-        "desc": "Erhöht die max. LP des Trägers um #1[i]%. Nachdem der Träger seinen Ultimate eingesetzt hat, wird 1 Fertigkeitspunkt für Verbündete wiederhergestellt. Beim Kampfeintritt wird die Aktion des Trägers um #2[i]% vorgezogen und er erhält für #4[i] Rd. „Neue Stimme“. Wenn der Träger Neue Stimme besitzt, wird die GES aller Verbündeten um #3[i]% erhöht.",
+        "desc": "Erhöht die max. LP des Trägers um #1[i]%. Nachdem der Träger seinen Ultimate eingesetzt hat, wird 1 Fertigkeitspunkt für Verbündete wiederhergestellt. Zu Beginn des Kampfes wird die Aktion des Trägers um #2[i]% vorgezogen und er erhält für #4[i] Rd. „Neue Stimme“. Wenn der Träger Neue Stimme besitzt, wird die GES aller Verbündeten um #3[i]% erhöht.",
         "params": [
             [0.3, 0.3, 0.2, 2],
             [0.375, 0.325, 0.25, 2],
